@@ -10,6 +10,15 @@ cBioPubChat is an AI-powered chatbot designed to help researchers, clinicians, a
 - Summarize the key findings from those studies
 - Provide direct links to the studies in [cBioPortal](https://www.cbioportal.org/)
 
+## Environment Setup
+```shell
+# Run init script to setup a python venv and install requirements
+source scripts/init_env.sh
+
+# Everytime you start your ide/terminal, source the venv to use correct dependencies
+source venv/bin/activate
+```
+
 ## Sample Use Case
 
 > _“Which pathways are most commonly altered in ovarian cancer?”_
@@ -59,4 +68,3 @@ cBioPubChat/
 ├── README.md
 └── requirements.txt              # Pip dependencies
 ```
-
