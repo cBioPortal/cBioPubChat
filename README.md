@@ -10,13 +10,24 @@ cBioPubChat is an AI-powered chatbot designed to help researchers, clinicians, a
 - Summarize the key findings from those studies
 - Provide direct links to the studies in [cBioPortal](https://www.cbioportal.org/)
 
-## Environment Setup
+## Usage
+
+### Environment setup
 ```shell
 # Run init script to setup a python venv and install requirements
 source scripts/init_env.sh
 
 # Everytime you start your ide/terminal, source the venv to use correct dependencies
 source venv/bin/activate
+```
+
+### Run test script
+To test your environment, export your OpenAI API Key and run the test script.
+```shell
+export OPENAI_API_KEY=<my-api-key>
+py tests/env.py
+
+# If all is successful, the test script should put a smile on your face!
 ```
 
 ## Sample Use Case
