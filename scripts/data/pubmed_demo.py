@@ -1,23 +1,23 @@
 # === Standard Library ===
 import json
 import os
-import time
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, Iterator, List, Union
+from typing import List, Union
+#import time
+#from typing import Dict, Iterator,
 
 # === Third-Party Libraries ===
 from dotenv import load_dotenv, find_dotenv
-import chromadb
+#import chromadb
 
 # === LangChain Core ===
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.prompts import MessagesPlaceholder
+#from langchain_core.prompts import MessagesPlaceholder
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 
-# === LangChain OpenAI Native API ===
-#from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
+# === LangChain OpenAI API ===
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
 # === LangChain Community ===
@@ -25,30 +25,31 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain_community.vectorstores import Chroma
 
 # === LangChain Standard Modules ===
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.chains.query_constructor.base import AttributeInfo
-from langchain.docstore.document import Document as DocstoreDocument
+# from langchain.chains import create_retrieval_chain
+# from langchain.chains.combine_documents import create_stuff_documents_chain
+# from langchain.chains.query_constructor.base import AttributeInfo
+# from langchain.docstore.document import Document as DocstoreDocument
+# from langchain.retrievers.self_query.base import SelfQueryRetriever
+# from langchain.schema.document import Document as SchemaDocument
+# from langchain.text_splitter import CharacterTextSplitter
+
 from langchain.document_loaders.base import BaseLoader
-from langchain.retrievers.self_query.base import SelfQueryRetriever
-from langchain.schema.document import Document as SchemaDocument
-from langchain.text_splitter import CharacterTextSplitter, RecursiveCharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.prompts import ChatPromptTemplate
 
 
-#langchain-core==0.2.3
 def load_json_file(path):
     with open(path) as f:
         data = json.load(f)
     return data
 
 
-pmid_data = load_json_file('demo/pubmed/data/pmcid_list.json')
-study_data = load_json_file('demo/pubmed/data/cBioportal_study.json')
+pmid_data = load_json_file('../../data/pmcid_list.json')
+study_data = load_json_file('../../data/data_raw.json')
 pmid_dict = {}
 study_dict = defaultdict(list)
 
-# pair pmid and pmcid in dict
+# Pair PMID and PMCID in dict
 for data in pmid_data:
     pmcid = data.get('pmcid')
     if pmcid:
@@ -144,34 +145,16 @@ def load_docs(dir, loader):
 load_dotenv()
 _ = load_dotenv(find_dotenv())  # read local .env file
 
-'''
-#Azure_OpenAI llm
-llm_azure = AzureChatOpenAI(
-    azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
-    openai_api_key=os.environ["AZURE_OPENAI_API_KEY"],
-    openai_api_version=os.environ["AZURE_OPENAI_API_VERSION_4"],
-    deployment_name=os.environ["DEPLOYMENT_NAME_4"],
-    openai_api_type=os.environ["AZURE_OPENAI_API_TYPE"]
-)
-
-embeddings = AzureOpenAIEmbeddings(
-    azure_deployment=os.environ["DEPLOYMENT_NAME_EMBEDDING"],
-    openai_api_version=os.environ["AZURE_OPENAI_API_VERSION_4"],
-    azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
-    api_key=os.environ["AZURE_OPENAI_API_KEY"]
-)
-'''
-
 # LLM
 llm_openai = ChatOpenAI(
     api_key=os.environ["OPENAI_API_KEY"],
-    model="gpt-4o",  # or any other model like "gpt-3.5-turbo"
+    model="gpt-4o",
 )
 
 # Embeddings
 embeddings = OpenAIEmbeddings(
     api_key=os.environ["OPENAI_API_KEY"],
-    model="text-embedding-3-large"  # or another embedding model
+    model="text-embedding-ada-002"
 )
 
 # # first part of embeddings
@@ -208,8 +191,7 @@ def update_vectordb_with_docs(docs, embeddings, base_persist_directory):
     return vectordb_total
 
 
-# vectordb_total = update_vectordb_with_docs(docs, embeddings, "vectordb/chroma/pubmed/pdf2")
-vectordb_total = Chroma(persist_directory="demo/vectordb/chroma/pubmed/paper_and_pdf", embedding_function=embeddings)
+vectordb_total = Chroma(persist_directory="data/data_chromadb", embedding_function=embeddings)
 
 retriever = vectordb_total.as_retriever(k=3)
 
