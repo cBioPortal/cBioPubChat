@@ -55,7 +55,6 @@ def run_rag(user_prompt: str):
 
     result = graph.invoke({"question": user_prompt})
 
-
     cbioportal_study_url = "https://www.cbioportal.org/study/summary?id="
     filtered_metadata = [
         {
@@ -71,6 +70,4 @@ def run_rag(user_prompt: str):
     for doc in filtered_metadata:
         result = result + f"* [{doc.get('name')}]({doc.get('url')})\n"
 
-    print(result)
-
-run_rag("Which studies are about gliomas?")
+    return result
