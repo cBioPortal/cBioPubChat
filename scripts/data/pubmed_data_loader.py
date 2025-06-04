@@ -299,7 +299,7 @@ _ = load_dotenv(find_dotenv())  # read local .env file
 
 # SETUP LLM AND EMBEDDING MODELS ----
 # LLM
-llm_openai = ChatOpenAI(
+llm = ChatOpenAI(
     api_key=os.environ["OPENAI_API_KEY"],
     model="gpt-4o",
 )
