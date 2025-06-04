@@ -40,26 +40,77 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 def load_json_file(path):
+    """TODO: REVIEW 20250602
+
+    Load and parse a JSON file.
+
+    This function opens a file at the specified path and parses its contents
+    as JSON, returning the resulting data structure.
+
+    Parameters
+    ----------
+    path : str
+        The path to the JSON file to be loaded.
+
+    Returns
+    -------
+    dict or list
+        The parsed JSON data structure from the file.
+    """
     with open(path) as f:
         data = json.load(f)
     return data
 
 
 def get_pubmed_chain():
+    """TODO: REVIEW 20250602
+
+    Create and return a processing chain for PubMed queries.
+
+    This function constructs a LangChain processing pipeline that takes a question,
+    retrieves relevant context from a vector database, and generates a response
+    using an LLM. The chain processes the question, retrieves related documents,
+    and formats them for the prompt template before passing to the LLM.
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    RunnableSequence
+        A LangChain runnable sequence that can be invoked with a question.
+    """
+    # Create the chain with proper pipe operators
     chain = (
-        RunnableLambda(lambda x: x['question']) |
         {"related_QA": RunnablePassthrough(), "context": retriever, "question": RunnablePassthrough()}
         | prompt  # Choose a prompt
         | llm_openai  # Choose a LLM
         | StrOutputParser()
     )
-    # question_answer_chain = create_stuff_documents_chain(llm_azure, qa_prompt)
-    # final_chain = create_retrieval_chain(history_aware_retriever, question_answer_chain)
+
     return chain
 
 
 # Get response using the chain
 def get_response(question):
+    """TODO: REVIEW 20250602
+
+    Get a response from the PubMed chain for a given question.
+
+    This function creates a PubMed processing chain and invokes it with the provided
+    question to generate a response.
+
+    Parameters
+    ----------
+    question : str
+        The question to process through the PubMed chain.
+
+    Returns
+    -------
+    str
+        The generated response from the language model.
+    """
     chain = get_pubmed_chain()
     ans = chain.invoke(question)
     return ans
@@ -67,6 +118,27 @@ def get_response(question):
 
 # Chat prediction logic
 def predict(message, history):
+    """TODO: REVIEW 20250602
+
+    Process a user message and generate a response using chat history.
+
+    This function formats the chat history into LangChain message format
+    and sends the current user message along with history context to the
+    PubMed response generation pipeline.
+
+    Parameters
+    ----------
+    message : str
+        The current user message to be processed.
+    history : list
+        List of tuples containing (user_message, bot_response) pairs from
+        previous interactions.
+
+    Returns
+    -------
+    str
+        The generated response from the language model.
+    """
     history_langchain_format = []
     for human, ai in history:
         history_langchain_format.append(HumanMessage(content=human))
@@ -75,6 +147,53 @@ def predict(message, history):
 
     gpt_response = get_response(message)
     return gpt_response
+
+
+def update_vectordb_with_docs(docs, embeddings, base_persist_directory):
+    """TODO: REVIEW 20250602
+
+    Update a vector database with new document embeddings.
+
+    This function takes a list of documents, creates embeddings for them in batches,
+    and adds them to an existing Chroma vector database. The function processes
+    documents in small batches to manage memory usage.
+
+    Parameters
+    ----------
+    docs : List[Document]
+        List of Document objects to add to the vector database.
+    embeddings : Embeddings
+        The embedding model to use for creating document embeddings.
+    base_persist_directory : str
+        Directory path where the Chroma database is stored.
+
+    Returns
+    -------
+    Chroma
+        The updated Chroma vector database instance.
+    """
+    # the db created for first part of db
+    vectordb_total = Chroma(persist_directory=base_persist_directory, embedding_function=embeddings)
+
+    # Iterate through the documents and update the vectordb
+    for i in range(int(len(docs) / 3)):
+        start, end = i * 3, (i + 1) * 3
+        docs_to_embed = docs[start:end]
+        vectordb_new = Chroma.from_documents(
+            documents=docs_to_embed,
+            embedding=embeddings,
+
+        )
+
+        new_data = vectordb_new._collection.get(include=['documents', 'metadatas', 'embeddings'])
+        vectordb_total._collection.add(
+            embeddings=new_data['embeddings'],
+            metadatas=new_data['metadatas'],
+            documents=new_data['documents'],
+            ids=new_data['ids']
+        )
+        print(vectordb_total._collection.count())
+    return vectordb_total
 
 
 class PubmedLoader(BaseLoader):
@@ -86,7 +205,24 @@ class PubmedLoader(BaseLoader):
         self.file_path = Path(file_path).resolve()
 
     def load(self) -> List[Document]:
-        """Load and return documents from the pubmed file."""
+        """TODO: REVIEW 20250602
+
+        Load and return documents from the pubmed file.
+
+        This function reads a PubMed file, extracts its content and metadata,
+        splits the text into manageable chunks, and returns a list of document
+        objects with appropriate metadata attached.
+
+        Parameters
+        ----------
+        None
+
+        Returns
+        -------
+        List[Document]
+            A list of Document objects containing chunks of the PubMed article
+            with associated metadata.
+        """
         docs: List[Document] = []
 
         with open(self.file_path, encoding="utf-8") as f:
@@ -95,10 +231,15 @@ class PubmedLoader(BaseLoader):
         with open(self.file_path, encoding="utf-8") as file:
             title = file.readline().strip()
 
+        # Define separators for text splitting
+        separators = [
+            "\n", "Results", "Discussion", "Method Summary",
+            "Tissue Source Sites", "Supplementary Material"
+        ]
         text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
             chunk_size=512,
             chunk_overlap=256,
-            separators=["\n", "Results", "Discussion", "Method Summary", "Tissue Source Sites", "Supplementary Material"]
+            separators=separators
         )
         pubmed_splits = text_splitter.split_text(pubmed_content)
 
@@ -140,6 +281,26 @@ class PubmedLoader(BaseLoader):
 
 
 def load_docs(dir, loader):
+    """TODO: REVIEW 20250602
+
+    Load documents from a directory using the specified loader.
+
+    This function uses the DirectoryLoader to load all files in a specified directory
+    using the provided loader class. It prints the number of documents loaded
+    and saves a text representation of the documents to a file.
+
+    Parameters
+    ----------
+    dir : str
+        The directory path containing documents to load.
+    loader : BaseLoader
+        The document loader class to use for loading the documents.
+
+    Returns
+    -------
+    List[Document]
+        A list of loaded Document objects.
+    """
     loader = DirectoryLoader(path=dir, loader_cls=loader, show_progress=True)
     docs = loader.load()
     print(len(docs))
@@ -158,11 +319,11 @@ _ = load_dotenv(find_dotenv())  # read local .env file
 
 # READ METADATA ----
 # Load publication ID information
-# TODO: 20250603 Generated by what? GSOC getStudy.py file
-pmid_data = load_json_file('../../data/pmcid_list.json')
+# TODO: 20250603 Generated by GSOC getStudy.py file
+pmid_data = load_json_file('data/data_raw/pmcid_list.json')
 
 # Contains study metadata; from cBioPortal api/studies API
-study_data = load_json_file('../../data/data_raw.json')
+study_data = load_json_file('data/data_raw/studies.json')
 pmid_dict = {}
 study_dict = defaultdict(list)
 
@@ -207,31 +368,6 @@ embeddings = OpenAIEmbeddings(
 # vectordb_total.persist()
 
 
-def update_vectordb_with_docs(docs, embeddings, base_persist_directory):
-    # the db created for first part of db
-    vectordb_total = Chroma(persist_directory=base_persist_directory, embedding_function=embeddings)
-
-    # Iterate through the documents and update the vectordb
-    for i in range(int(len(docs) / 3)):
-        start, end = i * 3, (i + 1) * 3
-        docs_to_embed = docs[start:end]
-        vectordb_new = Chroma.from_documents(
-            documents=docs_to_embed,
-            embedding=embeddings,
-
-        )
-
-        new_data = vectordb_new._collection.get(include=['documents', 'metadatas', 'embeddings'])
-        vectordb_total._collection.add(
-            embeddings=new_data['embeddings'],
-            metadatas=new_data['metadatas'],
-            documents=new_data['documents'],
-            ids=new_data['ids']
-        )
-        print(vectordb_total._collection.count())
-    return vectordb_total
-
-
 vectordb_total = Chroma(persist_directory="data/data_chromadb", embedding_function=embeddings)
 
 retriever = vectordb_total.as_retriever(k=3)
@@ -257,14 +393,8 @@ prompt = ChatPromptTemplate.from_template(ANSWER_PROMPT)
 
 
 if __name__ == '__main__':
-    print("=== Welcome to the cBioPortal PubMed ChatBot ===")
-    print("Type 'exit' to end the session.\n")
-
     history = []
-
-    user_input = input("You: ")
-    if user_input.lower() in ["exit", "quit"]:
-        print("Goodbye!")
+    user_input = "Human: Give me an example of a breast cancer biomarker?"
     response = predict(user_input, history)
-    print("ChatBot:", response)
+    print("AI:", response)
     history.append((user_input, response))
