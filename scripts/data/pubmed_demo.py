@@ -1,5 +1,6 @@
 # === Standard Library ===
 import json
+import argparse
 import os
 from collections import defaultdict
 from pathlib import Path
@@ -393,8 +394,36 @@ prompt = ChatPromptTemplate.from_template(ANSWER_PROMPT)
 
 
 if __name__ == '__main__':
-    history = []
-    user_input = "Human: Give me an example of a breast cancer biomarker?"
-    response = predict(user_input, history)
-    print("AI:", response)
-    history.append((user_input, response))
+    # Set up command-line argument parser
+    parser = argparse.ArgumentParser(description="PubMed Document Processing and RAG Query System")
+    parser.add_argument('--test', '-t', action='store_true', help='Run test query on the system')
+    parser.add_argument('--load', '-l', metavar='DIR', nargs='?', const='demo/loaded_pmc',
+                        help='Load documents from directory (default: demo/loaded_pmc)')
+
+    args = parser.parse_args()
+
+    # Process arguments
+    if args.test:
+        # Run test query
+        history = []
+        user_input = "Human: Give me an example of a breast cancer biomarker?"
+        response = predict(user_input, history)
+        print("AI:", response)
+        history.append((user_input, response))
+
+    if args.load:
+        # Load documents from specified directory
+        directory = args.load
+        print(f"Loading documents from {directory}...")
+        docs = load_docs(directory, PubmedLoader)
+        print(f"Loaded {len(docs)} document chunks")
+
+        # Update vector database with loaded documents
+        persist_dir = "data/data_chromadb"
+        print(f"Updating vector database at {persist_dir}...")
+        update_vectordb_with_docs(docs, embeddings, persist_dir)
+        print("Database update complete")
+
+    # Show help if no arguments provided (argparse handles -h/--help automatically)
+    if not args.test and not args.load:
+        parser.print_help()
