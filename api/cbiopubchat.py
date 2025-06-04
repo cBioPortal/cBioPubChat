@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from backend import run_rag
+from backend.rag import run_rag
 app = FastAPI()
 
 class PromptRequest(BaseModel):

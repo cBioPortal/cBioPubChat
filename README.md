@@ -30,6 +30,11 @@ py tests/env.py
 # If all is successful, the test script should put a smile on your face!
 ```
 
+### Start app
+```shell
+chainlit run app.py -w
+```
+
 ## Sample Use Case
 
 > _“Which pathways are most commonly altered in ovarian cancer?”_
