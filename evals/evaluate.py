@@ -27,6 +27,7 @@ def main():
     tsv_path = os.path.join(script_dir, "dataset.tsv")
     with open(tsv_path, newline='', encoding='utf-8') as f:
         reader = csv.reader(f, delimiter='\t')
+        next(reader)  # Skip the header row
         for row in reader:
             question, reference_answer = row
             actual_answer = run_rag(question)
