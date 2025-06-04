@@ -2,10 +2,17 @@
 
 import csv
 import os
+import sys
 
 from langchain_openai import ChatOpenAI
 from langchain.evaluation import load_evaluator
 from langchain.evaluation.schema import EvaluatorType
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+backend_dir = os.path.join(script_dir, "../backend")
+sys.path.insert(0, str(backend_dir))
+from rag import run_rag
 
 correctness_criteria = {
     "correctness": "Given the reference, does the submission convey the same primary information without introducing any contradictions?"
@@ -17,13 +24,12 @@ labeled_criteria_evaluator = load_evaluator(
     EvaluatorType.LABELED_CRITERIA, criteria=correctness_criteria, llm=llm)
 
 def main():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
     tsv_path = os.path.join(script_dir, "dataset.tsv")
     with open(tsv_path, newline='', encoding='utf-8') as f:
         reader = csv.reader(f, delimiter='\t')
         for row in reader:
             question, reference_answer = row
-            actual_answer = 'ABC' # TODO replace with the call to the cBioPubChat. Use the question as the input
+            actual_answer = run_rag(question)
             result = labeled_criteria_evaluator.evaluate_strings(
                 input=question,
                 reference=reference_answer,
