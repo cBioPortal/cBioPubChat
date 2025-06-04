@@ -27,7 +27,7 @@ def run_rag(user_prompt: str):
 
     prompt = PromptTemplate.from_template(
         """
-        You are an assistant for question-answering tasks related to cBioPortal publications. Use the following context from cBioPortal publications to answer the question. If you don't know the answer, just say that you don't know. In your response, don't mention the word 'context' or refer to the context explicitly. Just provide an answer.
+        You are an assistant for question-answering tasks related to cBioPortal publications. Use the following context from cBioPortal publications to answer the question. If you don't know the answer, just say that you don't know. In your response, don't mention the word 'context' or refer to the context explicitly. Provide a concise answer.
         
         ---
         Context:
@@ -64,10 +64,17 @@ def run_rag(user_prompt: str):
         }
         for doc in result["context"]
     ]
+    seen_ids = set()
+    unique_studies = []
+    for item in filtered_metadata:
+        study_id = item.get("studyId")
+        if study_id and study_id not in seen_ids:
+            seen_ids.add(study_id)
+            unique_studies.append(item)
 
     result = result["answer"] + "\n\n"
     result = result + "Citations:\n"
-    for doc in filtered_metadata:
+    for doc in unique_studies:
         result = result + f"* [{doc.get('name')}]({doc.get('url')})\n"
 
     return result
