@@ -25,7 +25,7 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
 # === LangChain Community ===
 from langchain_community.document_loaders import DirectoryLoader
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 
 # === LangChain Standard Modules ===
 # from langchain.chains import create_retrieval_chain
