@@ -154,7 +154,7 @@ def update_vectordb_with_docs(docs, embeddings, base_persist_directory):
         The updated Chroma vector database instance.
     """
     # A DB created for first part of DB
-    vectordb_total = Chroma(persist_directory=base_persist_directory, embedding_function=embeddings)
+    vectordb = Chroma(persist_directory=base_persist_directory, embedding_function=embeddings)
 
     # Iterate through the documents and update the vector DB
     for i in range(int(len(docs) / 3)):
@@ -167,14 +167,14 @@ def update_vectordb_with_docs(docs, embeddings, base_persist_directory):
         )
 
         new_data = vectordb_new._collection.get(include=['documents', 'metadatas', 'embeddings'])
-        vectordb_total._collection.add(
+        vectordb._collection.add(
             embeddings=new_data['embeddings'],
             metadatas=new_data['metadatas'],
             documents=new_data['documents'],
             ids=new_data['ids']
         )
-        print(vectordb_total._collection.count())
-    return vectordb_total
+        print(vectordb._collection.count())
+    return vectordb
 
 
 class PubmedLoader(BaseLoader):
@@ -338,12 +338,12 @@ for study in study_data:
         else:
             study_dict[pmid].append(study)
 
-# SETUP VECTORDB
+# SETUP VECTORDB ----
 # Load DB
-vectordb_total = Chroma(persist_directory="data/data_chromadb", embedding_function=embeddings)
+vectordb = Chroma(persist_directory="data/data_chromadb", embedding_function=embeddings)
 
 # Setup Retriever
-retriever = vectordb_total.as_retriever(k=3)
+retriever = vectordb.as_retriever(k=3)
 
 # Build prompt template
 ANSWER_PROMPT = """
