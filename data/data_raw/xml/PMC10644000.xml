@@ -1,0 +1,1402 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Clin Cancer Res</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Clin Cancer Res</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">4147</journal-id>
+        <journal-id journal-id-type="pmc-domain">aacrsd</journal-id>
+        <journal-title-group>
+          <journal-title>Clinical Cancer Research</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1078-0432</issn>
+        <issn pub-type="epub">1557-3265</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>AACR Open Access</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC10644000</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC10644000.1</article-id>
+        <article-id pub-id-type="pmcaid">10644000</article-id>
+        <article-id pub-id-type="pmcaiid">10644000</article-id>
+        <article-id pub-id-type="pmid">37643132</article-id>
+        <article-id pub-id-type="doi">10.1158/1078-0432.CCR-23-1078</article-id>
+        <article-id pub-id-type="publisher-id">CCR-23-1078</article-id>
+        <article-version-alternatives>
+          <article-version article-version-type="pmc-version">1</article-version>
+          <article-version id="ver1" article-version-type="VoR">Version of Record</article-version>
+        </article-version-alternatives>
+        <article-categories>
+          <subj-group subj-group-type="category">
+            <subject>Computational Methods</subject>
+            <subj-group subj-group-type="category">
+              <subject>Gene Expression Profiling</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="category">
+            <subject>Gene Technologies</subject>
+            <subj-group subj-group-type="category">
+              <subject>High-Throughput Sequencing</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="category">
+            <subject>Gynecological Cancers</subject>
+            <subj-group subj-group-type="category">
+              <subject>Cervical Cancer</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="heading">
+            <subject>Translational Cancer Mechanisms and Therapy</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Assessing the Genomic Landscape of Cervical Cancers: Clinical Opportunities and Therapeutic Targets</article-title>
+          <alt-title alt-title-type="short">Clinical Utility of Cervical Cancer Genomic Profiling</alt-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2621-8553</contrib-id>
+            <name name-style="western">
+              <surname>Friedman</surname>
+              <given-names initials="CF">Claire F.</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <xref rid="cor1" ref-type="corresp">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1532-2593</contrib-id>
+            <name name-style="western">
+              <surname>Ravichandran</surname>
+              <given-names initials="V">Vignesh</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7464-1981</contrib-id>
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names initials="K">Kathryn</given-names>
+            </name>
+            <xref rid="aff4" ref-type="aff">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8114-0237</contrib-id>
+            <name name-style="western">
+              <surname>Vanderbilt</surname>
+              <given-names initials="C">Chad</given-names>
+            </name>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1225-2902</contrib-id>
+            <name name-style="western">
+              <surname>Zhou</surname>
+              <given-names initials="Q">Qin</given-names>
+            </name>
+            <xref rid="aff6" ref-type="aff">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0471-8477</contrib-id>
+            <name name-style="western">
+              <surname>Iasonos</surname>
+              <given-names initials="A">Alexia</given-names>
+            </name>
+            <xref rid="aff6" ref-type="aff">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0000-5105-0292</contrib-id>
+            <name name-style="western">
+              <surname>Vivek</surname>
+              <given-names initials="M">Malavika</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-7114-0561</contrib-id>
+            <name name-style="western">
+              <surname>Mishra</surname>
+              <given-names initials="P">Pamela</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0818-3836</contrib-id>
+            <name name-style="western">
+              <surname>Leitao</surname>
+              <given-names initials="MM">Mario M.</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <xref rid="aff7" ref-type="aff">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1219-8857</contrib-id>
+            <name name-style="western">
+              <surname>Broach</surname>
+              <given-names initials="V">Vance</given-names>
+            </name>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <xref rid="aff7" ref-type="aff">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5059-2118</contrib-id>
+            <name name-style="western">
+              <surname>Sonoda</surname>
+              <given-names initials="Y">Yukio</given-names>
+            </name>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <xref rid="aff7" ref-type="aff">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3286-1860</contrib-id>
+            <name name-style="western">
+              <surname>Kyi</surname>
+              <given-names initials="C">Chrisann</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0094-0161</contrib-id>
+            <name name-style="western">
+              <surname>Zamarin</surname>
+              <given-names initials="D">Dmitriy</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8217-4554</contrib-id>
+            <name name-style="western">
+              <surname>O'Cearbhaill</surname>
+              <given-names initials="RE">Roisin E.</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0720-2719</contrib-id>
+            <name name-style="western">
+              <surname>Konner</surname>
+              <given-names initials="J">Jason</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3882-5000</contrib-id>
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9927-1270</contrib-id>
+            <name name-style="western">
+              <surname>Weigelt</surname>
+              <given-names initials="B">Britta</given-names>
+            </name>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7714-370X</contrib-id>
+            <name name-style="western">
+              <surname>Momeni Boroujeni</surname>
+              <given-names initials="A">Amir</given-names>
+            </name>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8989-2938</contrib-id>
+            <name name-style="western">
+              <surname>Park</surname>
+              <given-names initials="KJ">Kay J.</given-names>
+            </name>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0851-3225</contrib-id>
+            <name name-style="western">
+              <surname>Aghajanian</surname>
+              <given-names initials="C">Carol</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6614-802X</contrib-id>
+            <name name-style="western">
+              <surname>Solit</surname>
+              <given-names initials="DB">David B.</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <xref rid="aff3" ref-type="aff">3</xref>
+            <xref rid="aff8" ref-type="aff">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4538-6069</contrib-id>
+            <name name-style="western">
+              <surname>Donoghue</surname>
+              <given-names initials="MTA">Mark T.A.</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="aff1">
+<label>1</label>Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff2">
+<label>2</label>Department of Medicine, Weill Cornell Medicine, New York, New York.</aff>
+        <aff id="aff3">
+<label>3</label>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff4">
+<label>4</label>Gynecology Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff5">
+<label>5</label>Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff6">
+<label>6</label>Department of Biostatistics, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff7">
+<label>7</label>Department of OB/GYN, Weill Cornell Medical College, New York, New York.</aff>
+        <aff id="aff8">
+<label>8</label>Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <author-notes>
+          <corresp id="cor1"><label>*</label><bold>Corresponding Author:</bold> Claire F. Friedman, Memorial Sloan Kettering Cancer Center, New York, NY 10065. E-mail: <email>friedmac@mskcc.org</email></corresp>
+          <fn fn-type="other">
+            <p>Clin Cancer Res 2023;29:4660–8</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="ppub" iso-8601-date="2023-11-14">
+          <day>14</day>
+          <month>11</month>
+          <year>2023</year>
+        </pub-date>
+        <pub-date pub-type="epub" iso-8601-date="2023-08-29">
+          <day>29</day>
+          <month>8</month>
+          <year>2023</year>
+        </pub-date>
+        <volume>29</volume>
+        <issue>22</issue>
+        <issue-id pub-id-type="pmc-issue-id">449081</issue-id>
+        <fpage>4660</fpage>
+        <lpage>4668</lpage>
+        <history>
+          <date date-type="received" iso-8601-date="2023-04-12">
+            <day>12</day>
+            <month>4</month>
+            <year>2023</year>
+          </date>
+          <date date-type="rev-recd" iso-8601-date="2023-06-29">
+            <day>29</day>
+            <month>6</month>
+            <year>2023</year>
+          </date>
+          <date date-type="accepted" iso-8601-date="2023-08-24">
+            <day>24</day>
+            <month>8</month>
+            <year>2023</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>14</day>
+              <month>11</month>
+              <year>2023</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>15</day>
+              <month>11</month>
+              <year>2023</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-01-27 03:25:10.157">
+              <day>27</day>
+              <month>01</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>©2023 The Authors; Published by the American Association for Cancer Research</copyright-statement>
+          <copyright-year>2023</copyright-year>
+          <copyright-holder>American Association for Cancer Research</copyright-holder>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+            <license-p>This open access article is distributed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="4660.pdf"/>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="4660.pdf"/>
+        <abstract>
+          <title>Abstract</title>
+          <sec>
+            <title>Purpose:</title>
+            <p>Tumor genomic profiling is increasingly used to guide treatment strategy in patients with cancer. We integrated tumor genomic, clinical demographic, and treatment response data to assess how prospective tumor-normal sequencing impacted treatment selection in patients with cervical cancer.</p>
+          </sec>
+          <sec>
+            <title>Experimental Design:</title>
+            <p>Cervical cancers were prospectively analyzed using the MSK-IMPACT (Memorial Sloan Kettering Cancer Center – Integrated Mutation Profiling of Actionable Cancer Targets) next-generation sequencing panel. Clinical data, including histology, stage at diagnosis, treatment history, clinical trial enrollment and outcomes, date of last follow-up, and survival status were obtained from medical records.</p>
+          </sec>
+          <sec>
+            <title>Results:</title>
+            <p>A total of 177 patients with cervical cancer (squamous, 69; endocervical adenocarcinoma, 50; gastric type, 22; adenosquamous, 21; and other, 15) underwent MSK-IMPACT testing. The most prevalent genomic alterations were somatic mutations or amplifications in <italic toggle="yes">PIK3CA</italic> (25%), <italic toggle="yes">ERBB2</italic> (12%), <italic toggle="yes">KMT2C</italic> (10%), and <italic toggle="yes">KMT2D</italic> (9%). Furthermore, 13% of patients had high tumor mutational burden (TMB &gt;10 mut/Mb), 3 of which were also microsatellite instability–high (MSI-H). Thirty-seven percent of cases had at least one potentially actionable alteration designated as a level 3B mutational event according to the FDA-recognized OncoKB tumor mutation database and treatment classification system. A total of 30 patients (17%) were enrolled on a therapeutic clinical trial, including 18 (10%) who were matched with a study based on their MSK-IMPACT results. Twenty patients (11%) participated in an immune checkpoint inhibition study for metastatic disease; 2 remain progression free at &gt;5 years follow-up.</p>
+          </sec>
+          <sec>
+            <title>Conclusions:</title>
+            <p>Tumor genomic profiling can facilitate the selection of targeted/immunotherapies, as well as clinical trial enrollment, for patients with cervical cancer.</p>
+          </sec>
+        </abstract>
+        <funding-group>
+          <award-group id="funding-1">
+            <funding-source>
+              <institution-wrap>
+                <institution>National Cancer Institute (NCI)</institution>
+                <institution-id institution-id-type="DOI">10.13039/100000054</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30 CA008748</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Friedman</surname>
+                <given-names>C.F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ravichandran</surname>
+                <given-names>V.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Miller</surname>
+                <given-names>K.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vanderbilt</surname>
+                <given-names>C.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhou</surname>
+                <given-names>Q.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Iasonos</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vivek</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mishra</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Leitao</surname>
+                <given-names>M.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Broach</surname>
+                <given-names>V.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sonoda</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kyi</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zamarin</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>O'Cearbhaill</surname>
+                <given-names>R.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Konner</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>M.F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weigelt</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Momeni-Boroujeni</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>K.J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Aghajanian</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Solit</surname>
+                <given-names>D.B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Donoghue</surname>
+                <given-names>M.T.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-2">
+            <funding-source>
+              <institution-wrap>
+                <institution>Cycle for Survival</institution>
+                <institution-id institution-id-type="DOI">10.13039/100017050</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Friedman</surname>
+                <given-names>C.F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ravichandran</surname>
+                <given-names>V.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Miller</surname>
+                <given-names>K.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vanderbilt</surname>
+                <given-names>C.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhou</surname>
+                <given-names>Q.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Iasonos</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vivek</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mishra</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Leitao</surname>
+                <given-names>M.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Broach</surname>
+                <given-names>V.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sonoda</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kyi</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zamarin</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>O'Cearbhaill</surname>
+                <given-names>R.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Konner</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>M.F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weigelt</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Momeni-Boroujeni</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>K.J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Aghajanian</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Solit</surname>
+                <given-names>D.B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Donoghue</surname>
+                <given-names>M.T.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <counts>
+          <page-count count="9"/>
+        </counts>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <boxed-text position="margin" id="b1" orientation="portrait">
+        <caption>
+          <title>Translational Relevance</title>
+        </caption>
+        <p>Oncologists are increasingly using tumor genomic profiling to identify potential therapeutic targets in patients with advanced or recurrent cervical cancer. In this article, we report the genomic landscape of patients with cervical cancer, including those with rare subtypes, who were prospectively sequenced at a large cancer center, as well as the clinical benefit of genomically guided systemic therapies. The most prevalent genomic alterations were somatic mutations or amplifications in <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">ERBB2</italic>, <italic toggle="yes">KMT2C</italic>, and <italic toggle="yes">KMT2D</italic>. Thirty-seven percent of cases had at least one potentially actionable alteration designated as a level 3B mutational event according to the OncoKB tumor mutation database and treatment classification system; 30 (17%) of 177 study patients were enrolled on a therapeutic clinical trial, including 18 (10%) who were matched with systemic treatment based on their sequencing results.</p>
+      </boxed-text>
+      <sec sec-type="intro" id="sec2">
+        <title>Introduction</title>
+        <p>Cervical cancer remains a prevalent cancer in women in the United States, with an estimated 13,960 newly diagnosed cases and 4,310 deaths expected in 2023 (<xref rid="bib1" ref-type="bibr">1</xref>). There are limited treatment options for patients with locally advanced and metastatic cervical cancer, with platinum-based combination chemotherapy the mainstay of systemic treatment (<xref rid="bib2" ref-type="bibr">2</xref>). In patients with previously treated, programmed death-ligand 1 (PD-L1)-positive disease, the objective response rate (ORR) with pembrolizumab monotherapy is only 14.6% (<xref rid="bib3" ref-type="bibr">3</xref>). The addition of pembrolizumab to frontline chemotherapy, with or without bevacizumab, results in a modest improvement in median progression-free survival (PFS; 10.4 months compared with 8.2 months for patients treated with chemotherapy alone; ref. <xref rid="bib4" ref-type="bibr">4</xref>). Novel treatment approaches are urgently needed for patients with recurrent and metastatic cervical cancer.</p>
+        <p>The World Health Organization classification system recognizes several histologic subtypes of cervical cancer (<xref rid="bib5" ref-type="bibr">5</xref>). Squamous cell carcinoma (SCC) is the predominant histologic subtype, accounting for approximately 75% of all cervical cancers. Endocervical adenocarcinoma and adenosquamous cell carcinoma account for 10%–15%, and the remaining 10%–15% are of “other” or unspecified histology (<xref rid="bib6" ref-type="bibr">6, 7</xref>). On the basis of clinical data from the Surveillance, Epidemiology, and End Results (SEER) database, small cell carcinoma and adenocarcinoma are the histologic subtypes associated with the poorest survival (<xref rid="bib8" ref-type="bibr">8</xref>). Compared with other common solid tumors, the predictive and prognostic value of tumor genomic data in cervical cancer remains poorly defined. The Cancer Genome Atlas (TCGA) identified 14 genes significantly mutated in cervical cancer, including <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">ARID1A</italic>, and <italic toggle="yes">KRAS</italic>, as well as an APOBEC (apolipoprotein B mRNA-editing enzyme, catalytic polypeptide) mutagenesis pattern (<xref rid="bib9" ref-type="bibr">9</xref>). Although an important milestone, tumor samples included in TCGA analyses were predominantly collected from patients with early-stage SCC (<italic toggle="yes">n</italic> = 144), with few tumors exhibiting adenosquamous (<italic toggle="yes">n</italic> = 3) or adenocarcinoma (<italic toggle="yes">n</italic> = 31) histology. Other previously analyzed cohorts included 115 women from Norway and Mexico (<xref rid="bib10" ref-type="bibr">10</xref>), as well as 118 women from Uganda (<xref rid="bib11" ref-type="bibr">11</xref>); these cohorts also predominantly had SCC. Consequently, there are limited data on the genomic landscape of non-squamous cervical carcinomas, including gastric-type endocervical adenocarcinoma (GEA) and small cell carcinomas of the cervix. Moreover, no study has evaluated the feasibility of prospective molecular characterization of tumors and matched normal specimens in patients with advanced cervical cancer and the potential utility of tumor genomic profiling to guide clinical care.</p>
+        <p>Here, we sought to leverage a prospectively generated, real-world dataset of genomically profiled cervical cancers to define the frequency of clinical actionable genomic alterations and to determine whether prospective molecular characterization of primary and recurrent cervical cancers might reveal histology-specific differences and guide enrollment of patients onto therapeutic clinical trials.</p>
+      </sec>
+      <sec sec-type="methods" id="sec3">
+        <title>Materials and Methods</title>
+        <sec id="sec3-1">
+          <title>Patient cohort</title>
+          <p>Patients provided written informed consent to a prospective tumor sequencing study under an Institutional Review Board–approved protocol (ClinicalTrials.gov, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01775072">NCT01775072</ext-link>) from February 2014 through May 2019. Patients were initially eligible for sequencing if they had metastatic or recurrent disease; eligibility was expanded in October 2017, through a philanthropic grant, to include all patients with cervical cancer, regardless of stage or prior treatment. Detailed patient demographic and disease-specific clinical data, including clinical trial enrollment and treatment, were collected. All cases underwent pathologic review at our institution by an expert gynecologic pathologist. This study was conducted in accordance with the Declaration of Helsinki.</p>
+        </sec>
+        <sec id="sec3-2">
+          <title>Tumor genomic sequencing</title>
+          <p>Next-generation sequencing (NGS) was performed in the Clinical Laboratory Improvement Amendments–certified Memorial Sloan Kettering Cancer Center (MSK) Molecular Diagnostics Service Laboratory using DNA extracted from tumor and matched normal DNA from blood. Tumor samples could either be primary or metastatic, depending on tissue availability. Tumor and paired germline DNA were analyzed using the MSK-IMPACT (MSK – Integrated Mutation Profiling of Actionable Cancer Targets) assay, an exon capture assay targeting all coding exons of 341 (<italic toggle="yes">n</italic> = 14), 410 (<italic toggle="yes">n</italic> = 33), or 468 (<italic toggle="yes">n</italic> = 130) cancer-associated genes, as described previously (<xref rid="bib12" ref-type="bibr">12</xref>). DNA was sequenced to an average of 648× (range, 52×–1,191×) sequence coverage. All variants were reviewed by a board-certified molecular pathologist prior to signing out the results into the medical record. All patient-level clinical and genomic data are available via cBioPortal for Cancer Genomics (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cbioportal.org" ext-link-type="uri" xlink:show="new">www.cbioportal.org</ext-link>); genomic data are also publicly accessible prepublication via AACR GENIE (American Association for Cancer Research Genomics Evidence Neoplasia Information Exchange; ref. <xref rid="bib13" ref-type="bibr">13</xref>). Signature proportions were calculated using maximum likelihood method employed by tempoSig (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/mskcc/temposig" ext-link-type="uri" xlink:show="new">https://github.com/mskcc/temposig</ext-link>). OncoKB (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.oncokb.org" ext-link-type="uri" xlink:show="new">www.oncokb.org</ext-link>), a FDA-recognized tumor mutation database and treatment classification system, was used to determine the clinical actionability of individual genomic variants (<xref rid="bib14" ref-type="bibr">14</xref>). In brief, OncoKB annotates the level of evidence supporting use of a drug based on the therapeutic level of evidence (Supplementary Fig. S1). OncoKB annotations were applied using version 3.1.4 on July 22, 2022.</p>
+        </sec>
+        <sec id="sec3-3">
+          <title>Microsatellite instability</title>
+          <p>The presence of microsatellite instability (MSI) was assessed using MSISensor, version 0.2 (<xref rid="bib15" ref-type="bibr">15</xref>). MSISensor assigns a numeric score based on the percentage of unstable microsatellite sites divided by the total number of microsatellite sites tested from aligned sequencing data. On the basis of prior clinical validation of MSISensor with MSK-IMPACT, MSI status is defined on the basis of the following scores: &lt;3%: microsatellite stable (MSS); 
+<inline-formula><tex-math id="M1">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+$ \ge $\end{document}</tex-math></inline-formula>3 and &lt;10%: microsatellite (MS)-indeterminate; and 
+<inline-formula><tex-math id="M2">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+$ \ge $\end{document}</tex-math></inline-formula>10%: MSI-high (MSI-H; ref. <xref rid="bib16" ref-type="bibr">16</xref>).</p>
+        </sec>
+        <sec id="sec3-4">
+          <title>Clinical human papillomavirus testing</title>
+          <p>High-risk human papillomavirus (HR-HPV) status for each tumor was determined on the basis of either positivity of p16 IHC as diffuse, strong and continuous, nuclear and cytoplasmic staining (<xref rid="bib17" ref-type="bibr">17</xref>); and/or HR-HPV RNA ISH based on the presence of dark-brown, dot-like cytoplasmic and/or nuclear positivity (<xref rid="bib18" ref-type="bibr">18</xref>); or by detection via NGS, as described below. Patients with a history of HR-HPV documented on a prior Papanicolaou test were also classified as HPV positive for the purposes of this study, as were all SCCs (<xref rid="bib19" ref-type="bibr">19</xref>).</p>
+        </sec>
+        <sec id="sec3-5">
+          <title>Deriving HPV genotype from NGS</title>
+          <p>Sequencing reads from MSK-IMPACT testing were filtered to analyze only reads that did not align with the human genome. The non-human reads were then reanalyzed with the “blastn” algorithm utilizing the National Cancer for Biotechnology Information Nucleotide (NCBI NT) Database. Paired-end reads that mapped with greater than 90% identity to an entry in the database were labeled as a single read present for the database entry. The database entry was cross-walked to the NCBI Taxonomy Database, and the read quantity was calculated as the number of reads that mapped to the HPV subtype (<xref rid="bib20" ref-type="bibr">20, 21</xref>).</p>
+        </sec>
+        <sec id="sec3-6">
+          <title>Statistical analysis</title>
+          <p>We assessed the enrichment of genomic alterations across histology using the Fisher exact or <italic toggle="yes">χ</italic><sup>2</sup> test (where appropriate), and nominal <italic toggle="yes">P</italic> values are specified. Comparisons of gene mutation prevalence across cohorts (this study compared with TCGA) and across histologic subtypes were performed. For patients enrolled on clinical trials, ORR was assessed using RECIST v1.1 (<xref rid="bib22" ref-type="bibr">22</xref>), and PFS was defined as the period from the start date of treatment until investigator-determined date of progression (by RECIST V.1.1) or death, whichever occurred first. Overall survival (OS) analysis was performed on the subset of patients who presented to our center at the time of initial diagnosis (MSK survival cohort). OS was defined as the period from the date of consent for MSK-IMPACT analysis until the date of death. To account for the method of sample selection (selection bias), that is, because patients must have survived long enough to sign consent for MSK-IMPACT testing, the Kaplan–Meier method with left truncation was used to estimate the median survival for the survival cohort (<italic toggle="yes">n</italic> = 97). The Cox proportional hazards model with left truncation at the date of MSK-IMPACT consent was applied to obtain <italic toggle="yes">P</italic> values (<xref rid="bib23" ref-type="bibr">23</xref>). PFS for patients enrolled in a clinical trial was analyzed using the Kaplan–Meier method to estimate values for medians and two-sided 95% confidence interval (CI). Cox proportional hazards analyses were calculated using the R survival package.</p>
+        </sec>
+        <sec sec-type="data-availability" id="sec3-7">
+          <title>Data availability</title>
+          <p>Publicly available data generated by others were used by the authors. The clinical and genomic data for TCGA cohort were obtained from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cbioportal.org/study/summary?id=cesc_tcga_pan_can_atlas_2018" ext-link-type="uri" xlink:show="new">https://www.cbioportal.org/study/summary?id=cesc_tcga_pan_can_atlas_2018</ext-link>. Somatic mutational data and associated clinical data are available via the cBioPortal for Cancer Genomics (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cbioportal.org/study/summary?id=cervix_msk_2023" ext-link-type="uri" xlink:show="new">https://www.cbioportal.org/study/summary?id=cervix_msk_2023</ext-link>).</p>
+        </sec>
+      </sec>
+      <sec sec-type="results" id="sec4">
+        <title>Results</title>
+        <sec id="sec4-1">
+          <title>Defining the genomic landscape of cervical cancer</title>
+          <p>To define the clinical utility of prospective tumor genomic profiling, we integrated clinical data from 177 patients with cervical cancer treated at our institution with tumor genomic data generated within the context of a prospective tumor sequencing initiative (MSK Cervical Cancer Cohort). Patient demographic data are summarized in <xref rid="tbl1" ref-type="table">Table 1</xref>. Eighty percent of the tumors (<italic toggle="yes">n</italic> = 142) in the MSK Cervical Cancer Cohort were positive for high-risk HPV. The most common histologic subtypes were SCC (<italic toggle="yes">n</italic> = 69, 39%), usual endocervical adenocarcinoma (UEA; <italic toggle="yes">n</italic> = 50, 28%), and cervical adenosquamous carcinoma (CAS; <italic toggle="yes">n</italic> = 21, 12%), all of which are classically HPV associated (<xref rid="bib24" ref-type="bibr">24</xref>). Rarer histologic subtypes, including GEA, accounted for 21% (<italic toggle="yes">n</italic> = 37) of the cohort (<xref rid="fig1" ref-type="fig">Fig. 1</xref>). Of note, these less-prevalent histologic subtypes were not studied in the cervical cancer–specific TCGA analysis (<xref rid="fig1" ref-type="fig">Fig. 1A</xref>).</p>
+          <table-wrap position="float" id="tbl1" orientation="portrait">
+            <label>Table 1.</label>
+            <caption>
+              <p>Clinical characteristics of patients in the MSK cohort (<italic toggle="yes">N</italic> = 177).</p>
+            </caption>
+            <table frame="hsides" rules="groups">
+              <tbody>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">Age at diagnosis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Median</td>
+                  <td align="left" rowspan="1" colspan="1">47</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Range</td>
+                  <td align="left" rowspan="1" colspan="1">20–79</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">Race (<italic toggle="yes">n</italic>, %)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> White</td>
+                  <td align="left" rowspan="1" colspan="1">134 (76%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Black</td>
+                  <td align="left" rowspan="1" colspan="1">14 (8%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Asian</td>
+                  <td align="left" rowspan="1" colspan="1">14 (8%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Other/refused</td>
+                  <td align="left" rowspan="1" colspan="1">15 (8%)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">Histology (<italic toggle="yes">n</italic>, %)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Cervical adenosquamous carcinoma</td>
+                  <td align="left" rowspan="1" colspan="1">21 (12%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Cervical squamous cell</td>
+                  <td align="left" rowspan="1" colspan="1">69 (39%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Endocervical adenocarcinoma</td>
+                  <td align="left" rowspan="1" colspan="1">50 (28%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Gastric type mucinous carcinoma</td>
+                  <td align="left" rowspan="1" colspan="1">22 (12%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Other</td>
+                  <td align="left" rowspan="1" colspan="1">15 (9%)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">Sequencing sample type (<italic toggle="yes">n</italic>, %)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Primary</td>
+                  <td align="left" rowspan="1" colspan="1">107 (60%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Metastatic</td>
+                  <td align="left" rowspan="1" colspan="1">70 (40%)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">HPV status (<italic toggle="yes">n</italic>, %)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Positive</td>
+                  <td align="left" rowspan="1" colspan="1">142 (80%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> Negative/unknown</td>
+                  <td align="left" rowspan="1" colspan="1">35 (20%)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">FIGO stage at diagnosis (<italic toggle="yes">n</italic>, %)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> I</td>
+                  <td align="left" rowspan="1" colspan="1">74 (42%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> II</td>
+                  <td align="left" rowspan="1" colspan="1">40 (23%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> III</td>
+                  <td align="left" rowspan="1" colspan="1">29 (16%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> IVA</td>
+                  <td align="left" rowspan="1" colspan="1">11 (6%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> IVB</td>
+                  <td align="left" rowspan="1" colspan="1">23 (13%)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">Disease status</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> NED</td>
+                  <td align="left" rowspan="1" colspan="1">50 (28%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> AWD</td>
+                  <td align="left" rowspan="1" colspan="1">57 (32%)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"> DOD</td>
+                  <td align="left" rowspan="1" colspan="1">70 (40%)</td>
+                </tr>
+              </tbody>
+            </table>
+            <table-wrap-foot>
+              <fn id="tb1fn1">
+                <p>Abbreviations: AWD, alive with disease; DOD, dead of disease; FIGO, International Federation of Gynecology and Obstetrics; HPV, human papillomavirus; MSK, Memorial Sloan Kettering Cancer Center; NED, no evidence of disease.</p>
+              </fn>
+            </table-wrap-foot>
+          </table-wrap>
+          <fig position="float" id="fig1" orientation="portrait">
+            <label>Figure 1.</label>
+            <caption>
+              <p>Patient pathologic characteristics. <bold>A,</bold> Comparison of TCGA and MSK-IMPACT cervical cancer cohorts based on histology, HPV positivity, and stage at diagnosis. <bold>B,</bold> Tumor site samples on which MSK-IMPACT sequencing was performed. <bold>C,</bold> OS analysis of the MSK-IMPACT survival cohort.</p>
+            </caption>
+            <alt-text>Figure 1. Patient pathologic characteristics. A, Comparison of TCGA and MSK-IMPACT cervical cancer cohorts based on histology, HPV positivity, and stage at diagnosis. B, Tumor site samples on which MSK-IMPACT sequencing was performed. C, OS analysis of the MSK-IMPACT survival cohort.</alt-text>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="4660fig1.jpg"/>
+          </fig>
+          <p>Thirty-five percent (<italic toggle="yes">n</italic> = 63) of the patients in the MSK cohort were initially diagnosed with stage III (<italic toggle="yes">n</italic> = 29), IVA (<italic toggle="yes">n</italic> = 11) or IVB (<italic toggle="yes">n</italic> = 23) disease, compared with 19% (<italic toggle="yes">n</italic> = 63) in TCGA cohort (<italic toggle="yes">P</italic> = 0.008; Supplementary Fig. S2). In addition, rather than only focusing on primary disease, as TCGA did (<xref rid="bib9" ref-type="bibr">9</xref>), 40% (<italic toggle="yes">n</italic> = 70) of the tumor samples subjected to MSK-IMPACT sequencing in our study were obtained from distant sites, most commonly the lung (<italic toggle="yes">n</italic> = 14) and lymph nodes (<italic toggle="yes">n</italic> = 12; <xref rid="fig1" ref-type="fig">Fig. 1A</xref> and <xref rid="fig1" ref-type="fig">B</xref>). MSK-IMPACT sequencing could be performed on either primary or metastatic tumor samples, depending on tissue availability. Of the 108 patients who had MSK-IMPACT sequencing performed on their primary tumor, at the time of database lock, 40 (37%) were alive and without evidence of disease, 32 (30%) were alive with disease, and 34 (31%) were dead. When comparing sequencing results obtained from primary versus distant sites, no significant differences in genomic drivers were identified.</p>
+          <p>To minimize the impact of referral bias, OS was calculated for the subset of patients who presented to our center at the time of initial diagnosis (MSK survival cohort). The median OS for this cohort (<italic toggle="yes">n</italic> = 97) was 59.2 months (95% CI: 46.7–89.4) at a median follow-up of 50.9 months (range, 3.9–176.4 months; <xref rid="fig1" ref-type="fig">Fig. 1C</xref>). There was no significant difference among histologic subtypes when comparing SCC versus UEA versus other subtypes (<italic toggle="yes">P =</italic> 0.099). There was, however, a significant OS difference when comparing stage at diagnosis [stage I, 106.8 months [95% CI: 52.3 not estimable (NE)]; stage II, 59.2 months (95% CI: 23–89.4); stage III, 57.5 months (95% CI: 10.1–NE); and stage IV, 18 months (95% CI: 7.5–66.7); <italic toggle="yes">P</italic> = 0.027].</p>
+          <p>We then explored whether clinical differences in the MSK Cervical Cancer Cohort compared with TCGA cohort were accompanied by differences in genomic profiles. Overall, the distribution of somatic alterations affecting cancer-related genes between the two cohorts was similar, with a few notable differences. More specifically, pathogenic somatic mutations in <italic toggle="yes">TP53</italic>, <italic toggle="yes">KRAS</italic>, and <italic toggle="yes">ERBB2</italic> were enriched in the MSK Cervical Cancer Cohort compared with TCGA cohort, although only <italic toggle="yes">KRAS</italic> reached statistical significance [<italic toggle="yes">TP53:</italic> 11% (19/177) vs. 8% (25/297), <italic toggle="yes">P</italic> = 0.51; <italic toggle="yes">KRAS:</italic> 12% (21/177) vs. 5% (15/297), <italic toggle="yes">P =</italic> 0.019; <italic toggle="yes">ERBB2:</italic> 12% (22/177) vs. 8% (24/297), <italic toggle="yes">P =</italic> 0.2; <italic toggle="yes">PIK3CA:</italic> 25% (44/177) vs. 37% (111/298), <italic toggle="yes">P =</italic> 0.052; and <italic toggle="yes">PTEN:</italic> 7% (12/177) vs. 11% (34/297), <italic toggle="yes">P =</italic> 0.14, respectively]. These differences were largely attributable to the variability in histologic subtypes within these cohorts, including the inclusion of GEA tumors, as opposed to the narrower focus of TCGA cohort. Compared with the MSK Pan-Cancer Cohort, recurrent hotspot mutations were observed in the MSK Cervical Cancer Cohort (Supplementary Fig. S3). No novel mutations associated with cervical cancer were detected (Supplementary Fig. S4).</p>
+          <p>The most prevalent genomic alterations were mutations or amplifications in <italic toggle="yes">PIK3CA</italic> (44/177, 25%), <italic toggle="yes">ERBB2</italic> (22/177, 12%), <italic toggle="yes">KMT2C</italic> (17/177, 10%), <italic toggle="yes">KMT2D</italic> (16/177, 9%), and <italic toggle="yes">KRAS</italic> (21/177, 12%; <xref rid="fig2" ref-type="fig">Fig. 2A</xref>). Consistent with the published literature, an APOBEC mutational signature was detected in 46% of the SCCs, 30% of the UEAs, 9% of the GEAs, and 33% of the CASs (<xref rid="fig2" ref-type="fig">Fig. 2A</xref>). There were notable differences in the prevalence of genomic drivers among histologic subtypes. In the adenosquamous carcinoma samples, mutations in <italic toggle="yes">TP53</italic>, <italic toggle="yes">ARD1A</italic>, and <italic toggle="yes">ERBB2</italic> were completely absent, in contrast to <italic toggle="yes">STK11</italic> alterations, which were more prevalent in CAS (<italic toggle="yes">n</italic> = 7/21, 33%) compared with SCC (<italic toggle="yes">n</italic> = 3/69, 4%) and UEA (<italic toggle="yes">n</italic> = 5/50, 10%) tumors. <italic toggle="yes">ERBB2</italic> amplification and oncogenic missense mutations were common in both UEA (amps = 2/50, muts = 12/50, 28%) and SCC (amps = 4/69, muts = 2/69, 9%). Notably, <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">KRAS</italic> alterations were mutually exclusive in these histologic subtypes. <italic toggle="yes">MYC</italic> amplifications (<italic toggle="yes">n</italic> = 2/50, 4%) were seen only in UEA (<xref rid="fig2" ref-type="fig">Fig. 2A</xref> and <xref rid="fig2" ref-type="fig">B</xref>).</p>
+          <fig position="float" id="fig2" orientation="portrait">
+            <label>Figure 2.</label>
+            <caption>
+              <p>Genomic alterations by histologic subtype. <bold>A,</bold> Oncoprint depicting genomic alterations by histology type. Detailed annotations of “other” histologies available in Supplementary Fig. S3. <bold>B,</bold> Distribution of oncogenic drivers by histology type. <bold>C,</bold> Tumor mutational burden by histology type. MSI-H, microsatellite instability–high.</p>
+            </caption>
+            <alt-text>Figure 2. Genomic alterations by histologic subtype. A, Oncoprint depicting genomic alterations by histology type. Detailed annotations of “other” histologies available in Supplementary Fig. S3. B, Distribution of oncogenic drivers by histology type. C, Tumor mutational burden by histology type. MSI-H, microsatellite instability–high.</alt-text>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="4660fig2.jpg"/>
+          </fig>
+          <p>There have been previous reports of mutual exclusivity between oncogenic <italic toggle="yes">TP53</italic> variants and HPV positivity (<xref rid="bib25" ref-type="bibr">25, 26</xref>); this was also observed in our cohort. Notwithstanding the high rates of oncogenic <italic toggle="yes">TP53</italic> alterations in the in non–HPV-associated GEA, oncogenic <italic toggle="yes">TP53</italic>/HPV-positive mutual exclusivity was also observed in other subtypes with only 3.5% (5/142) HPV-positive cases harboring oncogenic <italic toggle="yes">TP53</italic> alterations (four SCC and one small cell carcinoma of the cervix). This contrasts with 53.8% (7/13) of non-GEA, HPV-negative cases with concurrent oncogenic mutations in <italic toggle="yes">TP53</italic> (<italic toggle="yes">P</italic> = 0.00007).</p>
+          <p>When comparing the sequencing results from primary (P) (<italic toggle="yes">n</italic> = 107) versus metastatic (M) (<italic toggle="yes">n</italic> = 70) samples in our cohort, we observed enrichment of oncogenic mutations in metastatic tumors in genes including <italic toggle="yes">PIK3CA</italic> (P 23% vs. M 27%), <italic toggle="yes">ERBB2</italic> (P 12% vs. M 13%), <italic toggle="yes">TP53</italic> (P 8% vs. M 14%), <italic toggle="yes">KRAS</italic> (P 8% vs. M 17%), <italic toggle="yes">KMT2C</italic> (P 7% vs. M 13%), and <italic toggle="yes">KMT2D</italic> (P 7% vs. M 14%; Supplementary Fig. S5A). Despite the observed differences, none reached statistical significance. We then compared the sequencing results from patients diagnosed with stage I–IVA (<italic toggle="yes">n</italic> = 154) versus stage IVB (<italic toggle="yes">n</italic> = 23) cancers. Oncogenic mutations in genes including <italic toggle="yes">PIK3CA</italic> (I–IVA 22% vs. IVB 43%) and <italic toggle="yes">KMT2C</italic> (1 = I–IVA 8% vs. IVB 22%) were enriched in stage IVB patients. In contrast, the rate of oncogenic mutations in genes including <italic toggle="yes">KRAS</italic> (I–IVA 12% vs. IVB 9%) and <italic toggle="yes">TP53</italic> (I–IVA 11% vs. IVB 9%) were consistent across stages (Supplementary Fig. S5B). Despite these observed trends, none of the trends reach statistical significance and may have been influenced by the prevalence of histologic subtypes by stage.</p>
+        </sec>
+        <sec id="sec4-2">
+          <title>HPV detection and genotyping</title>
+          <p>Multiple diagnostic methods were used to characterize HPV positivity. HPV ISH was performed on 58 tumor samples, 53 of which were positive, including 23 SCCs, 17 UEAs, and 10 CASs. NGS data were also queried for the presence of HPV DNA. To understand the relevance of the NGS HPV calls, we calculated the precision and recall (i.e., positive predictive value and sensitivity) of the NGS calls for those samples with HPV ISH, across all subtypes. In total, 68% (36/53) of ISH-positive cases had HPV reads positively identified by MSK-IMPACT off target reads. Of the five negative cases by ISH, all were negative for HPV reads, resulting in 100% precision (Supplementary Table S1A). Furthermore, 66 SCC cases (all considered HPV positive clinically) were tested for the presence of HPV reads via NGS, with a recall rate of 71% (47/66). CASs and UEAs had recall rates of 57% (8/14) and 72% (26/36), respectively, when compared with the clinical (non-NGS) HPV testing and 100% precision (Supplementary Table S1B–S1D). When looking at the most common HPV-associated histologic subtypes (SCC, UEA, CAS) that were HPV positive by NGS, including samples without orthogonal clinical testing, HPV-16 and -18 were identified in 52% (51/98) and 32% (32/98) of samples, respectively. Other high-risk HPV subtypes were identified in an additional 15% of tumors (15/98); one tumor was positive for HPV-53, which is considered intermediate risk (Supplementary Table S1E).</p>
+        </sec>
+        <sec id="sec4-3">
+          <title>Genomic profiles of rare cervical cancer histologic subtypes</title>
+          <p>In contrast to TCGA, the MSK Cervical Cancer Cohort included 22 patients with GEA, a rare histologic subtype of cervical adenocarcinoma that is not HPV associated. Among the 22 GEAs, 12 (55%) harbored somatic mutations in <italic toggle="yes">TP53</italic>, 6 (27%) in <italic toggle="yes">KRAS</italic>, 3 (14%) alterations in <italic toggle="yes">ERBB2</italic> (amps = 1, muts = 2), and 3 (14%) in <italic toggle="yes">STK11</italic>. The RAF/RAS and PI3K/AKT pathways were altered in 10 (45%) and four (18%) GEA tumors, respectively. All the GEA cases were negative for high-risk HPV by MSK-IMPACT or HPV-ISH (if tested). Forty-one percent were stage I at diagnosis, 23% were stage II, 23% were stage III, and 14% were stage IV (IVA 5%, IVB 9%). The MSK Cervical Cancer Cohort also included 15 patients with other rare histologic subtypes, including mesonephric carcinoma (<italic toggle="yes">n</italic> = 3), cervical clear cell carcinoma (<italic toggle="yes">n</italic> = 3), small cell carcinoma of the cervix (<italic toggle="yes">n</italic> = 5), mixed neuroendocrine histology (<italic toggle="yes">n</italic> = 3; 2 mixed adenocarcinoma and neuroendocrine, 1 with mixed mesonephric and small cell carcinoma), and endometrioid cervical carcinoma (<italic toggle="yes">n</italic> = 1). Of the 3 patients with mesonephric carcinoma, 2 had <italic toggle="yes">KRAS</italic> alterations and 2 had <italic toggle="yes">ARID1A</italic> mutations. All 3 were diagnosed with stage IBI disease, all were HPV negative, and 2 of the 3 are alive with disease. In patients with pure small cell carcinoma, 2 of 5 had concurrent <italic toggle="yes">TP53</italic> mutations and <italic toggle="yes">MYC</italic> amplifications (Supplementary Fig. S6). Hotspot alterations in <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">STK11</italic>, which were common in the other subtypes, were absent in this rare tumor subgroup. All patients with either pure small cell or mixed neuroendocrine histology were either alive with disease or dead of disease at the time of database lock; 5 out of the 8 patients (63%) were positive for HPV by IMPACT or HPV-ISH.</p>
+        </sec>
+        <sec id="sec4-4">
+          <title>Clinical actionability</title>
+          <p>There are currently no FDA-approved targeted therapies specifically for cervical cancer. Kinase inhibitors selective for <italic toggle="yes">NTRK</italic> and <italic toggle="yes">RET</italic> fusions and <italic toggle="yes">BRAF</italic> V600E mutations have received tumor-agnostic FDA approvals, but neither oncogenic <italic toggle="yes">NTRK</italic> or <italic toggle="yes">RET</italic> fusions nor <italic toggle="yes">BRAF</italic> V600E mutations were identified in our tumor samples. In the MSK Cervical Cancer Cohort, 23 (13%) of 177 patients had tumors that were MSI-H (<italic toggle="yes">n</italic> = 3) or were MSS but had a TMB ≥10 mut/Mb (<italic toggle="yes">n</italic> = 20), both of which are FDA-recognized biomarkers predictive of response to pembrolizumab (<xref rid="fig2" ref-type="fig">Fig. 2C</xref>; Supplementary Table S2; refs. <xref rid="bib27" ref-type="bibr">27–29</xref>). Notably, all three MSI-H tumors were SCCs and all were TMB-high (TMB-H). One patient with an MSI-H cervical cancer was treated with pembrolizumab and derived no clinical benefit; interestingly, although the tumor was also TMB-H (19.3 mut/Mb), <italic toggle="yes">MLH1</italic>, <italic toggle="yes">MSH2</italic>, <italic toggle="yes">MSH6</italic>, and <italic toggle="yes">PMS2</italic> proteins were all retained by IHC; the tumor was also confirmed to be HPV positive by ISH. A second patient with an MSI-H tumor died of disease before the tumor-agnostic FDA approval of pembrolizumab for MSI-H tumors, and the third patient was cured with definitive upfront therapy. A total of 20 patients had tumors that were TMB-H and MSS; these tumors were mostly SCCs (14/20, 70%). Of these, 9 (45%) of 20 were treated with standard care immune checkpoint inhibition, with 2 (10%) exhibiting durable clinical benefit from pembrolizumab (defined as ≥1 year of therapy). None of the GEA or rare histology tumors were MSI-H or TMB-H.</p>
+        </sec>
+        <sec id="sec4-5">
+          <title>Clinical trial enrollment</title>
+          <p>Thirty-seven percent of patients (66/177) had at least one potentially actionable alteration designated as level 3B by OncoKB (<xref rid="fig3" ref-type="fig">Fig. 3A</xref>; Supplementary Table S3), most commonly <italic toggle="yes">PIK3CA</italic> (45, 25%) and <italic toggle="yes">ERBB2</italic> (17, 9.6%). Of note, 3 patients had pathogenic somatic <italic toggle="yes">BRCA1</italic> (<italic toggle="yes">n</italic> = 1, no LOH) or <italic toggle="yes">BRCA2</italic> (<italic toggle="yes">n</italic> = 2, 1 LOH) alterations. Thirty patients (17%) had been enrolled on therapeutic clinical trials at the time of data lock, including 11 patients who participated in more than one study. Eighteen (10%) of 177 patients were matched with a clinical trial based on their MSK-IMPACT tumor genomic testing results, including 6 based on <italic toggle="yes">ERBB2</italic> alterations, 6 based on a <italic toggle="yes">PIK3CA</italic> alteration (4 patients treated with GDC-0032), and 2 based on <italic toggle="yes">FGFR</italic> alterations, as well as an assortment of other targets, including ERK and TP53 (<xref rid="fig3" ref-type="fig">Fig. 3B</xref>; <xref rid="tbl2" ref-type="table">Table 2</xref>; Supplementary Table S4). Of note, an exceptional responder with a <italic toggle="yes">D769N ERBB2</italic> mutation has been on a clinical trial of a HER kinase inhibitor trial for over 5 years (<xref rid="fig3" ref-type="fig">Fig. 3B</xref>).</p>
+          <fig position="float" id="fig3" orientation="portrait">
+            <label>Figure 3.</label>
+            <caption>
+              <p>Clinical outcomes of MSK-IMPACT testing. <bold>A,</bold> Distribution of genomic alterations with OncoKB levels of evidence. <bold>B,</bold> Swimmers plot of clinical outcomes on clinical trials by target. <bold>C,</bold> Near complete response to combined immune checkpoint inhibition after 6 months of therapy in a patient with adenosquamous carcinoma. The patient went on to achieve a complete response and is disease free. <bold>D,</bold> Major response to combined immune checkpoint inhibition in a patient with small cell neuroendocrine carcinoma after 6 months of therapy. The patient went on to achieve a complete response and is disease free. CR, complete response; CT CAP, computerized tomography scan of the chest, abdomen, and pelvis; MSI-H, microsatellite instability–high; NE, not evaluable; PD, progression of disease; PR, partial response; SD, stable disease; TMB-H, tumor mutational burden–high.</p>
+            </caption>
+            <alt-text>Figure 3. Clinical outcomes of MSK-IMPACT testing. A, Distribution of genomic alterations with OncoKB levels of evidence. B, Swimmers plot of clinical outcomes on clinical trials by target. C, Near complete response to combined immune checkpoint inhibition after 6 months of therapy in a patient with adenosquamous carcinoma. The patient went on to achieve a complete response and is disease free. D, Major response to combined immune checkpoint inhibition in a patient with small cell neuroendocrine carcinoma after 6 months of therapy. The patient went on to achieve a complete response and is disease free. CR, complete response; CT CAP, computerized tomography scan of the chest, abdomen, and pelvis; MSI-H, microsatellite instability–high; NE, not evaluable; PD, progression of disease; PR, partial response; SD, stable disease; TMB-H, tumor mutational burden–high.</alt-text>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="4660fig3.jpg"/>
+          </fig>
+          <table-wrap position="float" id="tbl2" orientation="portrait">
+            <label>Table 2.</label>
+            <caption>
+              <p>Detailed clinical outcomes for patients treated on clinical trials.</p>
+            </caption>
+            <table frame="hsides" rules="groups">
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1">Drug (Molecular target)</th>
+                  <th align="left" rowspan="1" colspan="1">Number of patients enrolled</th>
+                  <th align="left" rowspan="1" colspan="1">Objective response rate</th>
+                  <th align="left" rowspan="1" colspan="1">Progression-free survival outcomes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Neratinib (ERBB2)</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">50% SD, 50% NE</td>
+                  <td align="left" rowspan="1" colspan="1">0.4–60.3 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GDC-0032 (PI3K)</td>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">80% SD, 20% PR</td>
+                  <td align="left" rowspan="1" colspan="1">4–14.1 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VS-5584 (PIK3/MTOR)</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">50% PR, 50% NE</td>
+                  <td align="left" rowspan="1" colspan="1">1.2–4.3 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">PU-H71 (HSP90)</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">100% SD</td>
+                  <td align="left" rowspan="1" colspan="1">3.6–7.7 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Debio1347 (FGFR)</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">50% PR, 50% SD</td>
+                  <td align="left" rowspan="1" colspan="1">3.7–11.7 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AZD5363 (AKT)</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">100% PR</td>
+                  <td align="left" rowspan="1" colspan="1">11 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Durvalumab ± Tremlimumab or Monalizumab</td>
+                  <td align="left" rowspan="1" colspan="1">10</td>
+                  <td align="left" rowspan="1" colspan="1">10% CR, 10% PR, 40% SD, 40% PD</td>
+                  <td align="left" rowspan="1" colspan="1">1.6–67.1 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Atezolizumab + Bevacizumab</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">50% SD, 50% PD</td>
+                  <td align="left" rowspan="1" colspan="1">2–4.4 months</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Nivolumab</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">25% PR, 75% PD</td>
+                  <td align="left" rowspan="1" colspan="1">1.9–5.4 months</td>
+                </tr>
+              </tbody>
+            </table>
+            <table-wrap-foot>
+              <fn>
+                <p>Abbreviations: NE, not evaluable; PD, progression of disease; PR, partial response; SD, stable disease.</p>
+              </fn>
+            </table-wrap-foot>
+          </table-wrap>
+          <p>Twenty patients in the MSK Cervical Cancer Cohort participated in a study of immune checkpoint inhibition, including 1 patient who enrolled on two such studies. Three patients achieved a response to immunotherapy based on RECIST, and 2 of these patients remain progression free with a minimum of 5 years of follow-up (<xref rid="fig3" ref-type="fig">Fig. 3B</xref><bold>–</bold><xref rid="fig3" ref-type="fig">D</xref>). Of note, these 2 exceptional responders had tumors that were MSS and TMB-low (TMB-L), but PD-L1 positive by IHC and confirmed HPV positive (one case each with HPV-16 and HPV-18). Both patients received dual checkpoint blockade.</p>
+        </sec>
+      </sec>
+      <sec sec-type="discussion" id="sec5">
+        <title>Discussion</title>
+        <p>Oncologists are increasingly using tumor genomic profiling to guide selection of FDA-approved and investigational therapies for patients with advanced cancer. While few studies have explored the clinical utility of NGS in advanced cervical cancer, the recent FDA approvals of pembrolizumab (<xref rid="bib29" ref-type="bibr">29</xref>) and dostarlimab (<xref rid="bib30" ref-type="bibr">30</xref>) for TMB-H/mismatch repair-deficient advanced solid tumors provide justification for clinical genomic profiling for these patients, for whom treatment options in the advanced setting are lacking. <italic toggle="yes">NTRK</italic> and <italic toggle="yes">RET</italic> fusions and <italic toggle="yes">BRAF</italic> V600E mutations are now also recognized as tumor-agnostic biomarkers of response to NRTK and RAF inhibitors, respectively, but none of the patients in the MSK Cervical Cancer Cohort had tumors harboring these oncogenic kinase alterations. The median OS in the MSK survival cohort was 59 months, with significant differences in survival correlating with stage at diagnosis. In contrast to a prior SEER database study (<xref rid="bib8" ref-type="bibr">8</xref>), we did not observe a significant difference in survival across histologic subtypes; however, this is likely due to small sample sizes and the limited absolute number of patients with small cell carcinoma and GEA. To facilitate future meta-analyses combining our data with that of other groups, all clinical and genomic data have been made available via the cBioPortal for Cancer Genomics and via AACR GENIE.</p>
+        <p>Given the poor response rates to chemotherapy in the recurrent setting of cervical cancer, it is notable that 13% of the patients in the MSK Cervical Cancer Cohort had OncoKB level 1 actionable alterations, defined as FDA-authorized biomarkers of treatment response; in this cohort, these alterations were all MSI-H or TMB-H. Unfortunately, ORRs with single-agent PD-1 blockade for advanced cervical cancer are modest, at approximately 10%–15% (<xref rid="bib3" ref-type="bibr">3, 31, 32</xref>). This is consistent with our data, in which only 10% of patients had durable responses to immune checkpoint inhibition delivered as standard care or on a clinical trial. Of note, both patients with exceptional response to immune checkpoint inhibition on a trial had TMB-L/MSS tumors, raising questions about the utility of TMB as a biomarker of immunotherapy response in patients with advanced cervical cancer.</p>
+        <p>The sum of the data support the need for additional biomarker initiatives in cervical cancer to identify patients most likely to respond to single-agent PD-1 blockade, as well as the development of combinatorial strategies and novel immune-based approaches. These will likely include dual checkpoint blockade, such as an anti-CTLA-4 (CTL antigen-4) in combination with an anti-PD-1 (programmed cell death protein 1), for which ORRs have ranged from 22% to 46%, depending on the drugs, dosing, and schedule (<xref rid="bib33" ref-type="bibr">33, 34</xref>). In studies by Naumann and colleagues (<xref rid="bib33" ref-type="bibr">33, 34</xref>) and O'Malley and colleagues (<xref rid="bib33" ref-type="bibr">33, 34</xref>), PD-L1 expression enriched for responders, but responses were also observed in PD-L1–negative patients. Promising novel immunotherapy approaches include bispecific antibodies such as AK104—an anti-PD-1 and anti-CTLA-4 bispecific antibody—which has demonstrated impressive clinical activity and reasonable safety when combined with standard chemotherapy in patients with cervical cancer in the upfront setting (<xref rid="bib35" ref-type="bibr">35</xref>). Another bispecific, bintrafusp alfa, targets both TGFβ and PD-L1, demonstrating an ORR of 30.5% in HPV-associated malignancies (<xref rid="bib36" ref-type="bibr">36</xref>).</p>
+        <p>Thirteen percent of the patients in the MSK Cervical Cancer Cohort had <italic toggle="yes">ERBB2</italic> alterations (4% amplifications, 9% oncogenic mutations). <italic toggle="yes">ERBB2</italic> mutations were enriched in UEAs (28%), but they were also seen in SCCs and GEAs. This finding suggests that HER2 is likely an important therapeutic target for this group of patients with a high unmet need. The pan-HER tyrosine kinase inhibitor neratinib has demonstrated clinical efficacy in patients with <italic toggle="yes">HER2</italic>-mutant cervical cancer, with an ORR of 25% and median PFS of 7.0 months (<xref rid="bib37" ref-type="bibr">37</xref>). In the MSK Cervical Cancer Cohort, 1 patient had been on neratinib therapy for more than 5 years. More recently, the antibody–drug conjugate trastuzumab deruxtecan (T-DXd) demonstrated clinical activity in <italic toggle="yes">HER2</italic>-mutant non–small cell lung cancer, with an ORR of 51% (<xref rid="bib38" ref-type="bibr">38</xref>), as well as in <italic toggle="yes">HER2</italic>-amplified breast (<xref rid="bib39" ref-type="bibr">39</xref>) and gastric cancers (<xref rid="bib40" ref-type="bibr">40</xref>). T-DXd is currently under investigation in HER2-overexpressed cervical cancer (Clinicaltrials.gov: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT04482309">NCT04482309</ext-link>), and our data suggest that clinicians should strongly consider testing for HER2 overexpression in advanced/recurrent cervical cancer, especially in UEAs and GEAs, to facilitate enrollment on <italic toggle="yes">HER2-</italic>targeting clinical trials.</p>
+        <p>The recent development of <italic toggle="yes">KRAS</italic> inhibitors also may have therapeutic implications in cervical cancer. Approximately 12% of our cohort had mutations in <italic toggle="yes">KRAS</italic>, including 1 patient with a G12C hotspot mutation. Adagrasib and sotorasib have recently received FDA approval for <italic toggle="yes">KRAS</italic> G12C-mutated non–small cell lung cancer (<xref rid="bib41" ref-type="bibr">41</xref>), and there are other pan-KRAS G12X inhibitors in development that may be relevant for patients with cervical cancer.</p>
+        <p>One of the strengths of our study is the inclusion of rare histologic subtypes, including GEA, a rare and aggressive histologic subtype of cervical adenocarcinoma, whose pathogenesis is unrelated to prior HPV infection (<xref rid="bib42" ref-type="bibr">42, 43</xref>). A proportion of GEAs had genomic drivers commonly observed in pancreatobiliary tumors, including alterations in <italic toggle="yes">KRAS, TP53, SMAD4</italic>, and <italic toggle="yes">CDKN2A</italic>. A subset of GEAs more closely resembled intestinal-type gastric adenocarcinoma, with shared gene alterations in <italic toggle="yes">KMT2D, ERBB3</italic> and <italic toggle="yes">RNF43</italic>, which have been associated with a poor prognosis (<xref rid="bib44" ref-type="bibr">44</xref>). Clinically actionable alterations were seen in <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">PIK3CA</italic> (<xref rid="bib45" ref-type="bibr">45</xref>), offering potential targets for clinical trial enrollment.</p>
+        <p>NGS has been shown as a highly sensitive method for HPV detection due to its ability to detect HPV presence at a low copy number (<xref rid="bib46" ref-type="bibr">46</xref>), which informs our ability to better attribute the role of HPV in the development of cervical cancer compared with traditional PCR-based methods (<xref rid="bib47" ref-type="bibr">47</xref>). In the MSK Cervical Cancer Cohort, we were able to identify HPV in the majority of tumor samples expected to be HPV positive (<xref rid="bib24" ref-type="bibr">24</xref>) with good concordance with HPV-ISH which is currently considered the gold standard for HPV identification. The ability to detect virus in a clinical, large-panel NGS platform (<xref rid="bib20" ref-type="bibr">20</xref>) such as MSK-IMPACT opens up the potential to identify cancer-associated HPV subtypes that may be targeted using novel approaches, such as therapeutic vaccines (<xref rid="bib48" ref-type="bibr">48</xref>) and T-cell receptor or chimeric antigen receptor T-cell therapies (<xref rid="bib49" ref-type="bibr">49</xref>). Recently, the MSK-IMPACT assay was modified to include probes designed to capture DNA sequences found in high-risk HPV subtypes. This may result in improved detection sensitivity versus the off-target reads employed for HPV detection in the current study.</p>
+        <p>Our study also has its limitations. Although comparable with TCGA, our results are limited because of the overall small sample size and retrospective nature of the analysis. Furthermore, this study was conducted at a tertiary cancer center with a large referral base, resulting in overrepresentation of patients with rare histologies, as well as patients with advanced or recurrent disease. Finally, while we were able to enroll 18% of the patients in this cohort to a clinical trial, this was influenced not only by the sequencing results but also access to a diverse and active clinical trial portfolio, which is likely site dependent. Despite these limitations, our analysis of the MSK Cervical Cancer Cohort provides additional evidence of the genomic diversity of histologic subtypes in patients with cervical cancer and demonstrates that genomic profiling can inform clinical decision making and provide the rationale for novel treatment options for a subset of patients with cervical cancer.</p>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary Material</title>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Table S1</label>
+          <caption>
+            <p>Next-generation sequencing (NGS)-based human papillomavirus read counts. HPV, human papillomavirus; IMPACT, Memorial Sloan Kettering Cancer Center – Integrated Mutation Profiling of Actionable Cancer Targets; ISH, in situ hybridization; Pap, Papanicolaou test</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_table_s1_suppts1.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Table S2</label>
+          <caption>
+            <p>Patients with MSI or TMB-H tumors and clinical characteristics</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_table_s2_suppts2.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Table S3</label>
+          <caption>
+            <p>Actionable oncogenic markers and the number of carriers</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_table_s3_suppts3.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Table S4</label>
+          <caption>
+            <p>Clinical trial enrollment and clinical outcomes</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_table_s4_suppts4.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Figure S1</label>
+          <caption>
+            <p>Supp Figure 1: OncoKB Theapeutic Levels of Evidence</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_figure_s1_suppfs1.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Figure S2</label>
+          <caption>
+            <p>Supp Figure 2: Comparison of the MSK-IMPACT Cervical Cancer Cohort and the TCGA cohort for patients with Stages I-IVA disease. HPV, human papillomavirus; IMPACT, Memorial Sloan Kettering Cancer Center – Integrated Mutation Profiling of Actionable Cancer Targets; TCGA, The Cancer Genome Atlas</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_figure_s2_suppfs2.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Figure S3</label>
+          <caption>
+            <p>Supp Figure 3: Lollipop mutation diagram of hotspot alterations in ERBB2, PIK3CA, and KRAS in the Pan-Cancer Cohort</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_figure_s3_suppfs3.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Figure S4</label>
+          <caption>
+            <p>Supp Figure 4: Lollipop mutation diagram of hotspot alterations in ERBB2, PIK3CA, and KRAS in the Memorial Sloan Kettering Cancer Center (MSK) Cervical Cancer Cohort</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_figure_s4_suppfs4.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Figure S5</label>
+          <caption>
+            <p>Supp Figure 5: Genomic Alterations by Tumor Type and Stage. A, Oncoprint depicting genomic alterations by tumor site, primary versus metastasis. B, Oncoprint depicting genomic alteration by stage at diagnosis. HPV, human papillomavirus; MSI, microsatellite instability; TMB-H, tumor mutational burden–high.</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_figure_s5_suppfs5.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material position="float" content-type="local-data" orientation="portrait">
+          <label>Supplementary Figure S6</label>
+          <caption>
+            <p>Supp Figure 6: Genomic Alterations of Rare Cervical Cancer Histologies. HPV, human papillomavirus; APOBEC, apolipoprotein B mRNA-editing enzyme, catalytic polypeptide.</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ccr-23-1078_supplementary_figure_s6_suppfs6.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <title>Acknowledgments</title>
+        <p>We thank members of the Kravis Center for Molecular Oncology, the Integrated Genomics Organization and Diagnostic Molecular Pathology. We thank Dr. Lisa Eli of Puma Biotechnology for her support and input. This work was supported in part by an NIH/NCI Cancer Center Support Grant (P30 CA008748), as well as Cycle for Survival, the Marie-Josée and Henry R. Kravis Center for Molecular Oncology, and a grant from Puma Biotechnology. C.F. Friedman is a member of the Parker Institute for Cancer Immunotherapy at MSK.</p>
+        <p>The publication costs of this article were defrayed in part by the payment of publication fees. Therefore, and solely to indicate this fact, this article is hereby marked “advertisement” in accordance with 18 USC section 1734.</p>
+      </ack>
+      <fn-group>
+        <fn fn-type="supplementary-material">
+          <p>
+<bold>Note:</bold> Supplementary data for this article are available at Clinical Cancer Research Online (http://clincancerres.aacrjournals.org/).</p>
+        </fn>
+      </fn-group>
+      <sec id="sec6">
+        <title>Authors' Disclosures</title>
+        <p>C.F. Friedman reports grants from Puma Biotechnology during the conduct of the study; other support from Puma Biotechnology; personal fees from Aadi Biosciences/GOG Partners, GSK; grants from AstraZeneca, Mersana, Hotspot Therapeutics, Marengo, Daiichi, and Seagen; grants and other support from Merck, Genentech/Roche; grants and personal fees from Bristol Myers Squibb outside the submitted work. C. Vanderbilt reports other support from Paige.AI outside the submitted work. M.M. Leitao reports personal fees from Medtronic, Intuitive Surgical, JnJ/Ethicon, and Immunogen outside the submitted work. C. Kyi reports other support from Gritstone, Merus, and Acrivon outside the submitted work. D. Zamarin reports grants from NCI during the conduct of the study; grants and personal fees from Genentech, AstraZeneca, Synthekine; grants from Plexxikon and Merck; personal fees from Memgen, Xencor, Targovax, Tessa Therapeutics, Miltenyi Biotec, Celldex, Crown Biosciences, GSK, Astellas, Takeda; other support from Immunos, Calidi Biotherapeutics, Accurius outside the submitted work; in addition, D. Zamarin has a patent for Newcastle Disase Virus for cancer therapy licensed and with royalties paid from Merck. R.E. O'Cearbhaill reports grants from NCI/NIH during the conduct of the study; personal fees from Tesaro/GSK, Regeneron, Seattle Genetics/SeaGen, Fresenius Kabi, Gynecologic Oncology Foun, Curio/Onclive/PER/Aptitude/MJH, R-Pharm, Immunogen, SITC, Bayer, Miltenyi Biotec, and 2Seventy Bio; and non-financial support from Hitech Health, Gathering Around Cancer outside the submitted work. J. Konner reports personal fees from AstraZeneca and Clovis outside the submitted work. M.F. Berger reports personal fees from Eli Lilly, AstraZeneca, and Paige.AI outside the submitted work. B. Weigelt reports grants from Repare Therapeutics outside the submitted work. C. Aghajanian reports personal fees from Eisai/Merck, Roche/Genentech, AstraZeneca/Merck, Repare Therapeutics; as well as grants from Abbvie, AstraZeneca, Clovis, Genentech/Roche; other support from GOG Foundation, Board of Directors, and Blueprint Medicine outside the submitted work. D.B. Solit reports personal fees from Pfizer, Scorpion Therapeutics, FORE Therapeutics, Function Oncology, Elsie Biotechnologies, Inc, Paige.AI, Fog Pharma, Rain Therapeutics, and Pyramid Biosciences outside the submitted work. No disclosures were reported by the other authors.</p>
+      </sec>
+      <sec id="sec7">
+        <title>Authors' Contributions</title>
+        <p>
+<bold>C.F. Friedman:</bold> Conceptualization, data curation, formal analysis, writing–original draft, writing–review and editing. <bold>V. Ravichandran:</bold> Data curation, formal analysis, writing–original draft, writing–review and editing. <bold>K. Miller:</bold> Data curation, writing–original draft, writing–review and editing. <bold>C. Vanderbilt:</bold> Data curation, formal analysis, writing–review and editing. <bold>Q. Zhou:</bold> Data curation, formal analysis, writing–review and editing. <bold>A. Iasonos:</bold> Data curation, formal analysis, writing–review and editing. <bold>M. Vivek:</bold> Data curation, formal analysis, writing–review and editing. <bold>P. Mishra:</bold> Data curation, formal analysis, writing–review and editing. <bold>M.M. Leitao:</bold> Data curation, writing–review and editing. <bold>V. Broach:</bold> Data curation, writing–review and editing. <bold>Y. Sonoda:</bold> Data curation, writing–review and editing. <bold>C. Kyi:</bold> Data curation, writing–review and editing. <bold>D. Zamarin:</bold> Data curation, writing–review and editing. <bold>R.E. O'Cearbhaill:</bold> Data curation, writing–review and editing. <bold>J. Konner:</bold> Data curation, writing–review and editing. <bold>M.F. Berger:</bold> Data curation, writing–review and editing. <bold>B. Weigelt:</bold> Data curation, writing–review and editing. <bold>A. Momeni Boroujeni:</bold> Data curation, writing–review and editing. <bold>K.J. Park:</bold> Data curation, writing–review and editing. <bold>C. Aghajanian:</bold> Conceptualization, data curation, writing–review and editing. <bold>D.B. Solit:</bold> Conceptualization, data curation, writing–review and editing. <bold>M.T.A. Donoghue:</bold> Conceptualization, data curation, formal analysis, writing–original draft, writing–review and editing.</p>
+      </sec>
+      <ref-list>
+        <title>References</title>
+        <ref id="bib1">
+          <label>1.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Siegel</surname><given-names>RL</given-names></string-name>, <string-name name-style="western"><surname>Miller</surname><given-names>KD</given-names></string-name>, <string-name name-style="western"><surname>Fuchs</surname><given-names>HE</given-names></string-name>, <string-name name-style="western"><surname>Jemal</surname><given-names>A</given-names></string-name></person-group>. <article-title>Cancer statistics, 2022</article-title>. 
+<source>CA Cancer J Clin</source><year>2022</year>;<volume>72</volume>:<fpage>7</fpage>–<lpage>33</lpage>.<pub-id pub-id-type="pmid">35020204</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3322/caac.21708</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib2">
+          <label>2.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Moore</surname><given-names>DH</given-names></string-name>, <string-name name-style="western"><surname>Blessing</surname><given-names>JA</given-names></string-name>, <string-name name-style="western"><surname>McQuellon</surname><given-names>RP</given-names></string-name>, <string-name name-style="western"><surname>Thaler</surname><given-names>HT</given-names></string-name>, <string-name name-style="western"><surname>Cella</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Benda</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>Phase III study of cisplatin with or without paclitaxel in stage IVB, recurrent, or persistent squamous cell carcinoma of the cervix: a gynecologic oncology group study</article-title>. 
+<source>J Clin Oncol</source><year>2004</year>;<volume>22</volume>:<fpage>3113</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">15284262</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2004.04.170</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib3">
+          <label>3.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Chung</surname><given-names>HC</given-names></string-name>, <string-name name-style="western"><surname>Ros</surname><given-names>W</given-names></string-name>, <string-name name-style="western"><surname>Delord</surname><given-names>JP</given-names></string-name>, <string-name name-style="western"><surname>Perets</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Italiano</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Shapira-Frommer</surname><given-names>R</given-names></string-name>, 
+<etal/></person-group>. <article-title>Efficacy and safety of pembrolizumab in previously treated advanced cervical cancer: results from the phase II KEYNOTE-158 Study</article-title>. 
+<source>J Clin Oncol</source><year>2019</year>;<volume>37</volume>:<fpage>1470</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">30943124</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.18.01265</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib4">
+          <label>4.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Colombo</surname><given-names>N</given-names></string-name>, <string-name name-style="western"><surname>Dubot</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Lorusso</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Caceres</surname><given-names>MV</given-names></string-name>, <string-name name-style="western"><surname>Hasegawa</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Shapira-Frommer</surname><given-names>R</given-names></string-name>, 
+<etal/></person-group>. <article-title>Pembrolizumab for persistent, recurrent, or metastatic cervical cancer</article-title>. 
+<source>N Engl J Med</source><year>2021</year>;<volume>385</volume>:<fpage>1856</fpage>–<lpage>67</lpage>.<pub-id pub-id-type="pmid">34534429</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2112435</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib5">
+          <label>5.</label>
+          <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name name-style="western"><surname>Stoler</surname><given-names>MH</given-names></string-name>, <string-name name-style="western"><surname>Bergeron</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Colgan</surname><given-names>TJ</given-names></string-name></person-group>. <article-title>Tumours of the uterine cervix</article-title>. In:<person-group person-group-type="editor"><string-name name-style="western"><surname>Kurman</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Carcangiu</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Herrington</surname><given-names>C</given-names></string-name></person-group>, editors. 
+<source>Classification of tumours of female reproductive organs</source>. <edition>4th ed.</edition><publisher-loc>Lyon, France</publisher-loc>: 
+<publisher-name>IARC Press</publisher-name>; 
+<year>2014</year>. p. <fpage>184</fpage>.</mixed-citation>
+        </ref>
+        <ref id="bib6">
+          <label>6.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Vizcaino</surname><given-names>AP</given-names></string-name>, <string-name name-style="western"><surname>Moreno</surname><given-names>V</given-names></string-name>, <string-name name-style="western"><surname>Bosch</surname><given-names>FX</given-names></string-name>, <string-name name-style="western"><surname>Muñoz</surname><given-names>N</given-names></string-name>, <string-name name-style="western"><surname>Barros-Dios</surname><given-names>XM</given-names></string-name>, <string-name name-style="western"><surname>Borras</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>International trends in incidence of cervical cancer: II. Squamous-cell carcinoma</article-title>. 
+<source>Int J Cancer</source><year>2000</year>;<volume>86</volume>:<fpage>429</fpage>–<lpage>35</lpage>.<pub-id pub-id-type="pmid">10760834</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(sici)1097-0215(20000501)86:3&lt;429::aid-ijc20&gt;3.0.co;2-d</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib7">
+          <label>7.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Vizcaino</surname><given-names>AP</given-names></string-name>, <string-name name-style="western"><surname>Moreno</surname><given-names>V</given-names></string-name>, <string-name name-style="western"><surname>Bosch</surname><given-names>FX</given-names></string-name>, <string-name name-style="western"><surname>Muñoz</surname><given-names>N</given-names></string-name>, <string-name name-style="western"><surname>Barros-Dios</surname><given-names>XM</given-names></string-name>, <string-name name-style="western"><surname>Parkin</surname><given-names>DM</given-names></string-name></person-group>. <article-title>International trends in the incidence of cervical cancer: I. Adenocarcinoma and adenosquamous cell carcinomas</article-title>. 
+<source>Int J Cancer</source><year>1998</year>;<volume>75</volume>:<fpage>536</fpage>–<lpage>45</lpage>.<pub-id pub-id-type="pmid">9466653</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(sici)1097-0215(19980209)75:4&lt;536::aid-ijc8&gt;3.0.co;2-u</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib8">
+          <label>8.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Vinh-Hung</surname><given-names>V</given-names></string-name>, <string-name name-style="western"><surname>Bourgain</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Vlastos</surname><given-names>G</given-names></string-name>, <string-name name-style="western"><surname>Cserni</surname><given-names>G</given-names></string-name>, <string-name name-style="western"><surname>De Ridder</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Storme</surname><given-names>G</given-names></string-name>, 
+<etal/></person-group>. <article-title>Prognostic value of histopathology and trends in cervical cancer: a SEER population study</article-title>. 
+<source>BMC Cancer</source><year>2007</year>;<volume>7</volume>:<fpage>164</fpage>.<pub-id pub-id-type="pmid">17718897</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2407-7-164</pub-id><pub-id pub-id-type="pmcid">PMC1994954</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib9">
+          <label>9.</label>
+          <mixed-citation publication-type="journal"><collab>The Cancer Genome Atlas Research Network</collab>. <article-title>Integrated genomic and molecular characterization of cervical cancer</article-title>. 
+<source>Nature</source><year>2017</year>;<volume>543</volume>:<fpage>378</fpage>–<lpage>84</lpage>.<pub-id pub-id-type="pmid">28112728</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature21386</pub-id><pub-id pub-id-type="pmcid">PMC5354998</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib10">
+          <label>10.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Ojesina</surname><given-names>AI</given-names></string-name>, <string-name name-style="western"><surname>Lichtenstein</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Freeman</surname><given-names>SS</given-names></string-name>, <string-name name-style="western"><surname>Pedamallu</surname><given-names>CS</given-names></string-name>, <string-name name-style="western"><surname>Imaz-Rosshandler</surname><given-names>I</given-names></string-name>, <string-name name-style="western"><surname>Pugh</surname><given-names>TJ</given-names></string-name>, 
+<etal/></person-group>. <article-title>Landscape of genomic alterations in cervical carcinomas</article-title>. 
+<source>Nature</source><year>2014</year>;<volume>506</volume>:<fpage>371</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">24390348</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12881</pub-id><pub-id pub-id-type="pmcid">PMC4161954</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib11">
+          <label>11.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Gagliardi</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Porter</surname><given-names>VL</given-names></string-name>, <string-name name-style="western"><surname>Zong</surname><given-names>Z</given-names></string-name>, <string-name name-style="western"><surname>Bowlby</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Titmuss</surname><given-names>E</given-names></string-name>, <string-name name-style="western"><surname>Namirembe</surname><given-names>C</given-names></string-name>, 
+<etal/></person-group>. <article-title>Analysis of ugandan cervical carcinomas identifies human papillomavirus clade–specific epigenome and transcriptome landscapes</article-title>. 
+<source>Nat Genet</source><year>2020</year>;<volume>52</volume>:<fpage>800</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="pmid">32747824</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-020-0673-7</pub-id><pub-id pub-id-type="pmcid">PMC7498180</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib12">
+          <label>12.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Zehir</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Benayed</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Shah</surname><given-names>RH</given-names></string-name>, <string-name name-style="western"><surname>Syed</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Middha</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Kim</surname><given-names>HR</given-names></string-name>, 
+<etal/></person-group>. <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>. 
+<source>Nat Med</source><year>2017</year>;<volume>23</volume>:<fpage>703</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">28481359</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.4333</pub-id><pub-id pub-id-type="pmcid">PMC5461196</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib13">
+          <label>13.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Consortium</surname><given-names>TAPG</given-names></string-name>, <string-name name-style="western"><surname>Consortium</surname><given-names>TAPG</given-names></string-name>, <string-name name-style="western"><surname>André</surname><given-names>F</given-names></string-name>, <string-name name-style="western"><surname>Arnedos</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Baras</surname><given-names>AS</given-names></string-name>, <string-name name-style="western"><surname>Baselga</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>AACR project GENIE: powering precision medicine through an international consortium</article-title>. 
+<source>Cancer Discov</source><year>2017</year>;<volume>7</volume>:<fpage>818</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="pmid">28572459</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-17-0151</pub-id><pub-id pub-id-type="pmcid">PMC5611790</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib14">
+          <label>14.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Chakravarty</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Gao</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Phillips</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Kundra</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Zhang</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Wang</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>OncoKB: a precision oncology knowledge base</article-title>. 
+<source>JCO Precis Oncol</source><year>2017</year>;<volume>2017</volume>:<fpage>PO.17.00011</fpage>.<pub-id pub-id-type="pmid">28890946</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib15">
+          <label>15.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Stadler</surname><given-names>ZK</given-names></string-name>, <string-name name-style="western"><surname>Battaglin</surname><given-names>F</given-names></string-name>, <string-name name-style="western"><surname>Middha</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Hechtman</surname><given-names>JF</given-names></string-name>, <string-name name-style="western"><surname>Tran</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Cercek</surname><given-names>A</given-names></string-name>, 
+<etal/></person-group>. <article-title>Reliable detection of mismatch repair deficiency in colorectal cancers using mutational load in next-generation sequencing panels</article-title>. 
+<source>J Clin Oncol</source><year>2016</year>;<volume>34</volume>:<fpage>2141</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="pmid">27022117</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2015.65.1067</pub-id><pub-id pub-id-type="pmcid">PMC4962706</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib16">
+          <label>16.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Middha</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Zhang</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Nafa</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Jayakumaran</surname><given-names>G</given-names></string-name>, <string-name name-style="western"><surname>Wong</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Kim</surname><given-names>HR</given-names></string-name>, 
+<etal/></person-group>. <article-title>Reliable pan-cancer microsatellite instability assessment by using targeted next-generation sequencing data</article-title>. 
+<year>2017</year>;<volume>2017</volume>:<fpage>PO.17.00084</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00084</pub-id><pub-id pub-id-type="pmcid">PMC6130812</pub-id><pub-id pub-id-type="pmid">30211344</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib17">
+          <label>17.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Darragh</surname><given-names>TM</given-names></string-name>, <string-name name-style="western"><surname>Colgan</surname><given-names>TJ</given-names></string-name>, <string-name name-style="western"><surname>Cox</surname><given-names>JT</given-names></string-name>, <string-name name-style="western"><surname>Heller</surname><given-names>DS</given-names></string-name>, <string-name name-style="western"><surname>Henry</surname><given-names>MR</given-names></string-name>, <string-name name-style="western"><surname>Luff</surname><given-names>RD</given-names></string-name>, 
+<etal/></person-group>. <article-title>The lower anogenital squamous terminology standardization project for HPV-associated lesions: background and consensus recommendations from the college of American pathologists and the American society for colposcopy and cervical pathology</article-title>. 
+<source>Arch Pathol Lab Med</source><year>2012</year>;<volume>136</volume>:<fpage>1266</fpage>–<lpage>97</lpage>.<pub-id pub-id-type="pmid">22742517</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.5858/arpa.LGT200570</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib18">
+          <label>18.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Mills</surname><given-names>AM</given-names></string-name>, <string-name name-style="western"><surname>Dirks</surname><given-names>DC</given-names></string-name>, <string-name name-style="western"><surname>Poulter</surname><given-names>MD</given-names></string-name>, <string-name name-style="western"><surname>Mills</surname><given-names>SE</given-names></string-name>, <string-name name-style="western"><surname>Stoler</surname><given-names>MH</given-names></string-name></person-group>. <article-title>HR-HPV E6/E7 mRNA <italic toggle="yes">in situ</italic> hybridization: validation against PCR, DNA <italic toggle="yes">in situ</italic> hybridization, and p16 immunohistochemistry in 102 samples of cervical, vulvar, anal, and head and neck neoplasia</article-title>. 
+<source>Am J Surg Pathol</source><year>2017</year>;<volume>41</volume>:<fpage>607</fpage>–<lpage>15</lpage>.<pub-id pub-id-type="pmid">28403015</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/PAS.0000000000000800</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib19">
+          <label>19.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Tjalma</surname><given-names>WAA</given-names></string-name>, <string-name name-style="western"><surname>Van Waes</surname><given-names>TR</given-names></string-name>, <string-name name-style="western"><surname>Van den Eeden</surname><given-names>LEM</given-names></string-name>, <string-name name-style="western"><surname>Bogers</surname><given-names>JJPM</given-names></string-name></person-group>. <article-title>Role of human papillomavirus in the carcinogenesis of squamous cell carcinoma and adenocarcinoma of the cervix</article-title>. 
+<source>Best Pract Res Clin Obstet Gynaecol</source><year>2005</year>;<volume>19</volume>:<fpage>469</fpage>–<lpage>83</lpage>.<pub-id pub-id-type="pmid">16150388</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bpobgyn.2005.02.002</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib20">
+          <label>20.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Vanderbilt</surname><given-names>CM</given-names></string-name>, <string-name name-style="western"><surname>Reichel</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Zehir</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Arcila</surname><given-names>ME</given-names></string-name>, <string-name name-style="western"><surname>Dogan</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Ladanyi</surname><given-names>M</given-names></string-name>, 
+<etal/></person-group>. <article-title>Mining large panel hybrid caputre-based clinical NGS data for novel virus pathogen-tumor associations based on mapping of off-target reads to viral genomes</article-title>. 
+<source>Mod Pathol</source><year>2018</year>;<volume>31</volume>:<fpage>695</fpage>.29551796</mixed-citation>
+        </ref>
+        <ref id="bib21">
+          <label>21.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Vanderbilt</surname><given-names>CM</given-names></string-name>, <string-name name-style="western"><surname>Bowman</surname><given-names>AS</given-names></string-name>, <string-name name-style="western"><surname>Middha</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Petrova-Drus</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Tang</surname><given-names>Y-W</given-names></string-name>, <string-name name-style="western"><surname>Chen</surname><given-names>X</given-names></string-name>, 
+<etal/></person-group>. <article-title>Defining novel DNA virus-tumor associations and genomic correlates using prospective clinical tumor/normal matched sequencing data</article-title>. 
+<source>J Mol Diagn</source><year>2022</year>;<volume>24</volume>:<fpage>515</fpage>–<lpage>28</lpage>.<pub-id pub-id-type="pmid">35331965</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2022.01.011</pub-id><pub-id pub-id-type="pmcid">PMC9127461</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib22">
+          <label>22.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Eisenhauer</surname><given-names>EA</given-names></string-name>, <string-name name-style="western"><surname>Therasse</surname><given-names>P</given-names></string-name>, <string-name name-style="western"><surname>Bogaerts</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Schwartz</surname><given-names>LH</given-names></string-name>, <string-name name-style="western"><surname>Sargent</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Ford</surname><given-names>R</given-names></string-name>, 
+<etal/></person-group>. <article-title>New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)</article-title>. 
+<source>Eur J Cancer</source><year>2009</year>;<volume>45</volume>:<fpage>228</fpage>–<lpage>47</lpage>.<pub-id pub-id-type="pmid">19097774</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejca.2008.10.026</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib23">
+          <label>23.</label>
+          <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name name-style="western"><surname>Klein</surname><given-names>JP</given-names></string-name>, <string-name name-style="western"><surname>Moeschberger</surname><given-names>ML</given-names></string-name></person-group>. 
+<source>Survival analysis: techniques for censored and truncated data</source>. In:<person-group person-group-type="editor"><string-name name-style="western"><surname>Dietz</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Gail</surname></string-name><string-name name-style="western"><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Krickeberg</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Samet</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Tsiatis</surname><given-names>A</given-names></string-name></person-group>, editors. <publisher-loc>New York (NY)</publisher-loc>: 
+<publisher-name>Springer</publisher-name>; 
+<year>2003</year>.</mixed-citation>
+        </ref>
+        <ref id="bib24">
+          <label>24.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Bosch</surname><given-names>FX</given-names></string-name>, <string-name name-style="western"><surname>Manos</surname><given-names>MM</given-names></string-name>, <string-name name-style="western"><surname>Muñoz</surname><given-names>N</given-names></string-name>, <string-name name-style="western"><surname>Sherman</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Jansen</surname><given-names>AM</given-names></string-name>, <string-name name-style="western"><surname>Peto</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>Prevalence of human papillomavirus in cervical cancer: a worldwide perspective. International biological study on cervical cancer (IBSCC) study group</article-title>. 
+<source>J Natl Cancer Inst</source><year>1995</year>;<volume>87</volume>:<fpage>796</fpage>–<lpage>802</lpage>.<pub-id pub-id-type="pmid">7791229</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/87.11.796</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib25">
+          <label>25.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Idres</surname><given-names>YM</given-names></string-name>, <string-name name-style="western"><surname>McMillan</surname><given-names>NAJ</given-names></string-name>, <string-name name-style="western"><surname>Idris</surname><given-names>A</given-names></string-name></person-group>. <article-title>Hyperactivating p53 in human papillomavirus-driven cancers: a potential therapeutic intervention</article-title>. 
+<source>Mol Diagn Ther</source><year>2022</year>;<volume>26</volume>:<fpage>301</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">35380358</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s40291-022-00583-5</pub-id><pub-id pub-id-type="pmcid">PMC9098605</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib26">
+          <label>26.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Kuno</surname><given-names>I</given-names></string-name>, <string-name name-style="western"><surname>Takayanagi</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Asami</surname><given-names>Y</given-names></string-name>, <string-name name-style="western"><surname>Murakami</surname><given-names>N</given-names></string-name>, <string-name name-style="western"><surname>Matsuda</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Shimada</surname><given-names>Y</given-names></string-name>, 
+<etal/></person-group>. <article-title>TP53 mutants and non-HPV16/18 genotypes are poor prognostic factors for concurrent chemoradiotherapy in locally advanced cervical cancer</article-title>. 
+<source>Sci Rep</source><year>2021</year>;<volume>11</volume>:<fpage>19261</fpage>.<pub-id pub-id-type="pmid">34584128</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-021-98527-2</pub-id><pub-id pub-id-type="pmcid">PMC8478905</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib27">
+          <label>27.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Le</surname><given-names>DT</given-names></string-name>, <string-name name-style="western"><surname>Durham</surname><given-names>JN</given-names></string-name>, <string-name name-style="western"><surname>Smith</surname><given-names>KN</given-names></string-name>, <string-name name-style="western"><surname>Wang</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Bartlett</surname><given-names>BR</given-names></string-name>, <string-name name-style="western"><surname>Aulakh</surname><given-names>LK</given-names></string-name>, 
+<etal/></person-group>. <article-title>Mismatch-repair deficiency predicts response of solid tumors to PD-1 blockade</article-title>. 
+<source>Science</source><year>2017</year>;<volume>357</volume>:<fpage>409</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">28596308</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aan6733</pub-id><pub-id pub-id-type="pmcid">PMC5576142</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib28">
+          <label>28.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Le</surname><given-names>DT</given-names></string-name>, <string-name name-style="western"><surname>Uram</surname><given-names>JN</given-names></string-name>, <string-name name-style="western"><surname>Wang</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Bartlett</surname><given-names>BR</given-names></string-name>, <string-name name-style="western"><surname>Kemberling</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Eyring</surname><given-names>AD</given-names></string-name>, 
+<etal/></person-group>. <article-title>PD-1 blockade in tumors with mismatch-repair deficiency</article-title>. 
+<source>N Engl J Med</source><year>2015</year>;<volume>372</volume>:<fpage>2509</fpage>–<lpage>20</lpage>.<pub-id pub-id-type="pmid">26028255</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1500596</pub-id><pub-id pub-id-type="pmcid">PMC4481136</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib29">
+          <label>29.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Marabelle</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Fakih</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Lopez</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Shah</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Shapira-Frommer</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Nakagawa</surname><given-names>K</given-names></string-name>, 
+<etal/></person-group>. <article-title>Association of tumour mutational burden with outcomes in patients with advanced solid tumours treated with pembrolizumab: prospective biomarker analysis of the multicohort, open-label, phase 2 KEYNOTE-158 study</article-title>. 
+<source>Lancet Oncol</source><year>2020</year>;<volume>21</volume>:<fpage>1353</fpage>–<lpage>65</lpage>.<pub-id pub-id-type="pmid">32919526</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(20)30445-9</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib30">
+          <label>30.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Andre</surname><given-names>T</given-names></string-name>, <string-name name-style="western"><surname>Berton</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Curigliano</surname><given-names>G</given-names></string-name>, <string-name name-style="western"><surname>Ellard</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Pérez</surname><given-names>JMT</given-names></string-name>, <string-name name-style="western"><surname>Arkenau</surname><given-names>H-T</given-names></string-name>, 
+<etal/></person-group>. <article-title>Safety and efficacy of anti–PD-1 antibody dostarlimab in patients (pts) with mismatch repair-deficient (dMMR) solid cancers: results from GARNET study</article-title>. 
+<source>J Clin Oncol</source><volume>39</volume>: <comment>3s</comment>, 
+<year>2021</year> (<comment>suppl; abstr 9</comment>).</mixed-citation>
+        </ref>
+        <ref id="bib31">
+          <label>31.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Chung</surname><given-names>HC</given-names></string-name>, <string-name name-style="western"><surname>Schellens</surname><given-names>JHM</given-names></string-name>, <string-name name-style="western"><surname>Delord</surname><given-names>J-P</given-names></string-name>, <string-name name-style="western"><surname>Perets</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Italiano</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Pruitt</surname><given-names>SK</given-names></string-name>, 
+<etal/></person-group>. <article-title>Pembrolizumab treatment of advanced cervical cancer: updated results from the phase 2 KEYNOTE-158 study</article-title>. 
+<source>J Clin Oncol</source><volume>36</volume>: <comment>15s</comment>, 
+<year>2018</year> (<comment>suppl; abstr 5522</comment>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.18.01265</pub-id><pub-id pub-id-type="pmid">30943124</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib32">
+          <label>32.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Naumann</surname><given-names>RW</given-names></string-name>, <string-name name-style="western"><surname>Hollebecque</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Meyer</surname><given-names>T</given-names></string-name>, <string-name name-style="western"><surname>Devlin</surname><given-names>M-J</given-names></string-name>, <string-name name-style="western"><surname>Oaknin</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Kerger</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>Safety and efficacy of nivolumab monotherapy in recurrent or metastatic cervical, vaginal, or vulvar carcinoma: results from the phase I/II CheckMate 358 trial</article-title>. 
+<source>J Clin Oncol</source><year>2019</year>;<volume>37</volume>:<fpage>2825</fpage>–<lpage>34</lpage>.<pub-id pub-id-type="pmid">31487218</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.19.00739</pub-id><pub-id pub-id-type="pmcid">PMC6823884</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib33">
+          <label>33.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Naumann</surname><given-names>RW</given-names></string-name>, <string-name name-style="western"><surname>Oaknin</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Meyer</surname><given-names>T</given-names></string-name>, <string-name name-style="western"><surname>Lopez-Picazo</surname><given-names>JM</given-names></string-name>, <string-name name-style="western"><surname>Lao</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Bang</surname><given-names>YJ</given-names></string-name>, 
+<etal/></person-group>. <article-title>LBA62 - efficacy and safety of nivolumab (Nivo) + ipilimumab (Ipi) in patients (pts) with recurrent/metastatic (R/M) cervical cancer: results from CheckMate 358</article-title>. 
+<source>Ann Oncol</source><year>2019</year>;<volume>30</volume>:<fpage>v898</fpage>–<lpage>v9</lpage>.</mixed-citation>
+        </ref>
+        <ref id="bib34">
+          <label>34.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>O'Malley</surname><given-names>DM</given-names></string-name>, <string-name name-style="western"><surname>Oaknin</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Monk</surname><given-names>BJ</given-names></string-name>, <string-name name-style="western"><surname>Leary</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Selle</surname><given-names>F</given-names></string-name>, <string-name name-style="western"><surname>Alexandre</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>LBA34 single-agent anti-PD-1 balstilimab or in combination with anti-CTLA-4 zalifrelimab for recurrent/metastatic (R/M) cervical cancer (CC): preliminary results of two independent phase II trials</article-title>. 
+<source>Ann Oncol</source><year>2020</year>;<volume>31</volume>:<fpage>S1164</fpage>–<lpage>S5</lpage>.</mixed-citation>
+        </ref>
+        <ref id="bib35">
+          <label>35.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Wang</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Lou</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Cai</surname><given-names>H-B</given-names></string-name>, <string-name name-style="western"><surname>Huang</surname><given-names>X</given-names></string-name>, <string-name name-style="western"><surname>Li</surname><given-names>G</given-names></string-name>, <string-name name-style="western"><surname>Wang</surname><given-names>L</given-names></string-name>, 
+<etal/></person-group>. <article-title>A study of AK104 (an anti-PD1 and anti-CTLA4 bispecific antibody) combined with standard therapy for the first-line treatment of persistent, recurrent, or metastatic cervical cancer (R/M CC)</article-title>. 
+<source>J Clin Oncol</source><volume>40</volume>: <comment>16s</comment>, 
+<year>2022</year> (<comment>suppl;abstr 106</comment>).</mixed-citation>
+        </ref>
+        <ref id="bib36">
+          <label>36.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Strauss</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Gatti-Mays</surname><given-names>ME</given-names></string-name>, <string-name name-style="western"><surname>Cho</surname><given-names>BC</given-names></string-name>, <string-name name-style="western"><surname>Hill</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Salas</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>McClay</surname><given-names>E</given-names></string-name>, 
+<etal/></person-group>. <article-title>Bintrafusp alfa, a bifunctional fusion protein targeting TGF-β and PD-L1, in patients with human papillomavirus-associated malignancies</article-title>. 
+<source>J Immunother Cancer</source><year>2020</year>;<volume>8</volume>:<fpage>e001395</fpage>.<pub-id pub-id-type="pmid">33323462</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jitc-2020-001395</pub-id><pub-id pub-id-type="pmcid">PMC7745517</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib37">
+          <label>37.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Oaknin</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Friedman</surname><given-names>CF</given-names></string-name>, <string-name name-style="western"><surname>Roman</surname><given-names>LD</given-names></string-name>, <string-name name-style="western"><surname>D'Souza</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Brana</surname><given-names>I</given-names></string-name>, <string-name name-style="western"><surname>Bidard</surname><given-names>F-C</given-names></string-name>, 
+<etal/></person-group>. <article-title>Neratinib in patients with HER2-mutant, metastatic cervical cancer: findings from the phase 2 SUMMIT basket trial</article-title>. 
+<source>Gynecol Oncol</source><year>2020</year>;<volume>159</volume>:<fpage>150</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">32723675</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ygyno.2020.07.025</pub-id><pub-id pub-id-type="pmcid">PMC8336424</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib38">
+          <label>38.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Li</surname><given-names>BT</given-names></string-name>, <string-name name-style="western"><surname>Smit</surname><given-names>EF</given-names></string-name>, <string-name name-style="western"><surname>Goto</surname><given-names>Y</given-names></string-name>, <string-name name-style="western"><surname>Nakagawa</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Udagawa</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Mazières</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>Trastuzumab deruxtecan in HER2-mutant non–small-cell lung cancer</article-title>. 
+<source>N Engl J Med</source><year>2021</year>;<volume>386</volume>:<fpage>241</fpage>–<lpage>51</lpage>.<pub-id pub-id-type="pmid">34534430</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2112431</pub-id><pub-id pub-id-type="pmcid">PMC9066448</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib39">
+          <label>39.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Cortés</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Kim</surname><given-names>S-B</given-names></string-name>, <string-name name-style="western"><surname>Chung</surname><given-names>W-P</given-names></string-name>, <string-name name-style="western"><surname>Im</surname><given-names>S-A</given-names></string-name>, <string-name name-style="western"><surname>Park</surname><given-names>YH</given-names></string-name>, <string-name name-style="western"><surname>Hegg</surname><given-names>R</given-names></string-name>, 
+<etal/></person-group>. <article-title>Trastuzumab deruxtecan versus trastuzumab emtansine for breast cancer</article-title>. 
+<source>N Engl J Med</source><year>2022</year>;<volume>386</volume>:<fpage>1143</fpage>–<lpage>54</lpage>.<pub-id pub-id-type="pmid">35320644</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2115022</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib40">
+          <label>40.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Shitara</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Bang</surname><given-names>Y-J</given-names></string-name>, <string-name name-style="western"><surname>Iwasa</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Sugimoto</surname><given-names>N</given-names></string-name>, <string-name name-style="western"><surname>Ryu</surname><given-names>M-H</given-names></string-name>, <string-name name-style="western"><surname>Sakai</surname><given-names>D</given-names></string-name>, 
+<etal/></person-group>. <article-title>Trastuzumab deruxtecan in previously treated HER2-positive gastric cancer</article-title>. 
+<source>N Engl J Med</source><year>2020</year>;<volume>382</volume>:<fpage>2419</fpage>–<lpage>30</lpage>.<pub-id pub-id-type="pmid">32469182</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2004413</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib41">
+          <label>41.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Liu</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Kang</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Tang</surname><given-names>D</given-names></string-name></person-group>. <article-title>The KRAS-G12C inhibitor: activity and resistance</article-title>. 
+<source>Cancer Gene Ther</source><year>2022</year>;<volume>29</volume>:<fpage>875</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">34471232</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41417-021-00383-9</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib42">
+          <label>42.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Karamurzin</surname><given-names>YS</given-names></string-name>, <string-name name-style="western"><surname>Kiyokawa</surname><given-names>T</given-names></string-name>, <string-name name-style="western"><surname>Parkash</surname><given-names>V</given-names></string-name>, <string-name name-style="western"><surname>Jotwani</surname><given-names>AR</given-names></string-name>, <string-name name-style="western"><surname>Patel</surname><given-names>P</given-names></string-name>, <string-name name-style="western"><surname>Pike</surname><given-names>MC</given-names></string-name>, 
+<etal/></person-group>. <article-title>Gastric-type endocervical adenocarcinoma: an aggressive tumor with unusual metastatic patterns and poor prognosis</article-title>. 
+<source>Am J Surg Pathol</source><year>2015</year>;<volume>39</volume>:<fpage>1449</fpage>–<lpage>57</lpage>.<pub-id pub-id-type="pmid">26457350</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/PAS.0000000000000532</pub-id><pub-id pub-id-type="pmcid">PMC4976691</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib43">
+          <label>43.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Cree</surname><given-names>IA</given-names></string-name>, <string-name name-style="western"><surname>White</surname><given-names>VA</given-names></string-name>, <string-name name-style="western"><surname>Indave</surname><given-names>BI</given-names></string-name>, <string-name name-style="western"><surname>Lokuhetty</surname><given-names>D</given-names></string-name></person-group>. <article-title>Revising the WHO classification: female genital tract tumours</article-title>. 
+<source>Histopathology</source><year>2020</year>;<volume>76</volume>:<fpage>151</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">31846528</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/his.13977</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib44">
+          <label>44.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Park</surname><given-names>E</given-names></string-name>, <string-name name-style="western"><surname>Kim</surname><given-names>SW</given-names></string-name>, <string-name name-style="western"><surname>Kim</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Kim</surname><given-names>HS</given-names></string-name>, <string-name name-style="western"><surname>Lee</surname><given-names>JY</given-names></string-name>, <string-name name-style="western"><surname>Kim</surname><given-names>YT</given-names></string-name>, 
+<etal/></person-group>. <article-title>Genetic characteristics of gastric-type mucinous carcinoma of the uterine cervix</article-title>. 
+<source>Mod Pathol</source><year>2021</year>;<volume>34</volume>:<fpage>637</fpage>–<lpage>46</lpage>.<pub-id pub-id-type="pmid">32641744</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41379-020-0614-0</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib45">
+          <label>45.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Selenica</surname><given-names>P</given-names></string-name>, <string-name name-style="western"><surname>Alemar</surname><given-names>B</given-names></string-name>, <string-name name-style="western"><surname>Matrai</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Talia</surname><given-names>KL</given-names></string-name>, <string-name name-style="western"><surname>Veras</surname><given-names>E</given-names></string-name>, <string-name name-style="western"><surname>Hussein</surname><given-names>Y</given-names></string-name>, 
+<etal/></person-group>. <article-title>Massively parallel sequencing analysis of 68 gastric-type cervical adenocarcinomas reveals mutations in cell cycle-related genes and potentially targetable mutations</article-title>. 
+<source>Mod Pathol</source><year>2021</year>;<volume>34</volume>:<fpage>1213</fpage>–<lpage>25</lpage>.<pub-id pub-id-type="pmid">33318584</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41379-020-00726-1</pub-id><pub-id pub-id-type="pmcid">PMC8154628</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib46">
+          <label>46.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Gradíssimo</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Burk</surname><given-names>RD</given-names></string-name></person-group>. <article-title>Molecular tests potentially improving HPV screening and genotyping for cervical cancer prevention</article-title>. 
+<source>Expert Rev Mol Diagn</source><year>2017</year>;<volume>17</volume>:<fpage>379</fpage>–<lpage>91</lpage>.<pub-id pub-id-type="pmid">28277144</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/14737159.2017.1293525</pub-id><pub-id pub-id-type="pmcid">PMC5904788</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib47">
+          <label>47.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Arroyo Mühr</surname><given-names>LS</given-names></string-name>, <string-name name-style="western"><surname>Lagheden</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Lei</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Eklund</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Nordqvist Kleppe</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Sparén</surname><given-names>P</given-names></string-name>, 
+<etal/></person-group>. <article-title>Deep sequencing detects human papillomavirus (HPV) in cervical cancers negative for HPV by PCR</article-title>. 
+<source>Br J Cancer</source><year>2020</year>;<volume>123</volume>:<fpage>1790</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">33020595</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41416-020-01111-0</pub-id><pub-id pub-id-type="pmcid">PMC7722749</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib48">
+          <label>48.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Smalley Rumfield</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Roller</surname><given-names>N</given-names></string-name>, <string-name name-style="western"><surname>Pellom</surname><given-names>ST</given-names></string-name>, <string-name name-style="western"><surname>Schlom</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Jochems</surname><given-names>C</given-names></string-name></person-group>. <article-title>Therapeutic vaccines for HPV-associated malignancies</article-title>. 
+<source>Immunotargets Ther</source><year>2020</year>;<volume>9</volume>:<fpage>167</fpage>–<lpage>200</lpage>.<pub-id pub-id-type="pmid">33117742</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/ITT.S273327</pub-id><pub-id pub-id-type="pmcid">PMC7549137</pub-id></mixed-citation>
+        </ref>
+        <ref id="bib49">
+          <label>49.</label>
+          <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Doran</surname><given-names>SL</given-names></string-name>, <string-name name-style="western"><surname>Stevanović</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Adhikary</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Gartner</surname><given-names>JJ</given-names></string-name>, <string-name name-style="western"><surname>Jia</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Kwong</surname><given-names>MLM</given-names></string-name>, 
+<etal/></person-group>. <article-title>T-cell receptor gene therapy for human papillomavirus–associated epithelial cancers: a first-in-human, phase I/II study</article-title>. 
+<source>J Clin Oncol</source><year>2019</year>;<volume>37</volume>:<fpage>2759</fpage>–<lpage>68</lpage>.<pub-id pub-id-type="pmid">31408414</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.18.02424</pub-id><pub-id pub-id-type="pmcid">PMC6800280</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

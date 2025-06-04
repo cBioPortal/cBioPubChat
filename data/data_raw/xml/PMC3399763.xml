@@ -1,0 +1,247 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Cancer Res</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Cancer Res.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title xml:lang="en">Cancer Research</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0008-5472</issn>
+        <issn pub-type="epub">1538-7445</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC3399763</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC3399763.1</article-id>
+        <article-id pub-id-type="pmcaid">3399763</article-id>
+        <article-id pub-id-type="pmcaiid">3399763</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS380693</article-id>
+        <article-id pub-id-type="pmid">22802077</article-id>
+        <article-id pub-id-type="doi">10.1158/0008-5472.CAN-12-1370</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS380693</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA380693</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>CellMiner: a web-based suite of genomic and pharmacologic tools to explore transcript and drug patterns in the NCI-60 cell line set</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reinhold</surname>
+              <given-names initials="WC">William C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sunshine</surname>
+              <given-names initials="M">Margot</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="H">Hongfang</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Varma</surname>
+              <given-names initials="S">Sudhir</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kohn</surname>
+              <given-names initials="KW">Kurt W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names initials="J">Joel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Doroshow</surname>
+              <given-names initials="J">James</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pommier</surname>
+              <given-names initials="Y">Yves</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Laboratory of Molecular Pharmacology, CCR, NCI, NIH, Bethesda, MD 20892</aff>
+        <aff id="A2"><label>2</label>SRA International, Fairfax, VA 22033</aff>
+        <aff id="A3"><label>3</label>Division of Biomedical Statistics and Informatics, Mayo Clinic, MN 55905</aff>
+        <aff id="A4"><label>4</label>HiThru Analytics LLC, Laurel, MD 20707</aff>
+        <aff id="A5"><label>5</label>Developmental Therapeutic Program, DCTD, NCI, NIH, Bethesda, MD 20892</aff>
+        <author-notes>
+          <corresp id="FN1">Corresponding authors: William C. Reinhold, <email>wcr@mail.nih.gov</email> and Yves Pommier, <email>pommier@nih.gov</email></corresp>
+          <fn id="FN2">
+            <p>Requests for reprints: WCR, NIH, 9000 Rockville Pike, Bethesda, MD 20892. Phone: 301-496-5944; FAX: 301-402-0752. <email>wcr@mail.nih.gov</email></p>
+          </fn>
+          <fn id="FN9" fn-type="conflict">
+            <p>There are no conflicts of interest to report.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="ppub">
+          <day>15</day>
+          <month>7</month>
+          <year>2012</year>
+        </pub-date>
+        <volume>72</volume>
+        <issue>14</issue>
+        <issue-id pub-id-type="pmc-issue-id">212213</issue-id>
+        <fpage>3499</fpage>
+        <lpage>3511</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>04</day>
+              <month>06</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>15</day>
+              <month>07</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>15</day>
+              <month>07</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-05 22:06:41.443">
+              <day>05</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms380693.pdf"/>
+        <abstract>
+          <p id="P1">High-throughput and high-content databases are increasingly important resources in molecular medicine, systems biology, and pharmacology. However, the information usually resides in unwieldy databases, limiting ready data analysis and integration. One resource that offers substantial potential for improvement in this regard is the NCI-60 cell line database compiled by the US National Cancer Institute, which has been extensively characterized across numerous genomic and pharmacological response platforms. In this report we introduce a CellMiner<sup><xref ref-type="fn" rid="FN3">1</xref></sup> web application designed to improve use of this extensive database. CellMiner tools allowed rapid data retrieval of transcripts for 22,217 genes and 360 microRNAs along with activity reports for 18,549 chemical compounds including 91 drugs approved by the US Food and Drug Administration. Converting these differential levels into quantitative patterns across the NCI-60 clarified data organization and cross comparisons using a novel pattern-match tool. Data queries for potential relationships among parameters can be conducted in an iterative manner specific to user interests and expertise. Examples of the in silico discovery process afforded by CellMiner were provided for multidrug resistance analyses and doxorubicin activity; identification of colon-specific genes, microRNAs and drugs; microRNAs related to the miR-17-92 cluster; and drug identification patterns matched to erlotinib, gefitinib, afatinib, and lapatinib. CellMiner greatly broadens applications of the extensive NCI-60 database for discovery by creating web-based processes that are rapid, flexible, and readily applied by users without bioinformatics expertise.</p>
+        </abstract>
+        <kwd-group>
+          <kwd>Systems Pharmacology</kwd>
+          <kwd>systems biology</kwd>
+          <kwd>omics</kwd>
+          <kwd>pharmacogenomics</kwd>
+          <kwd>biomarkers</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source country="United States">National Cancer Institute : NCI</funding-source>
+            <award-id>Z99 CA999999 || CA</award-id>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

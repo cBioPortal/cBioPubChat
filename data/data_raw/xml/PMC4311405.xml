@@ -1,0 +1,1302 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nature</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nature</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">981</journal-id>
+        <journal-id journal-id-type="pmc-domain">npgopen</journal-id>
+        <journal-title-group>
+          <journal-title>Nature</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0028-0836</issn>
+        <issn pub-type="epub">1476-4687</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>Nature Portfolio</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4311405</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4311405.2</article-id>
+        <article-id pub-id-type="pmcaid">4311405</article-id>
+        <article-id pub-id-type="pmcaiid">8171169</article-id>
+        <article-id pub-id-type="pmid">25631445</article-id>
+        <article-id pub-id-type="doi">10.1038/nature14129</article-id>
+        <article-id pub-id-type="publisher-id">BFnature14129</article-id>
+        <article-version article-version-type="pmc-version">2</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Comprehensive genomic characterization of head and neck squamous cell carcinomas</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <collab>The Cancer Genome Atlas Network<contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Lawrence</surname><given-names initials="MS">Michael S.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sougnez</surname><given-names initials="C">Carrie</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lichtenstein</surname><given-names initials="L">Lee</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cibulskis</surname><given-names initials="K">Kristian</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lander</surname><given-names initials="E">Eric</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gabriel</surname><given-names initials="SB">Stacey B.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Getz</surname><given-names initials="G">Gad</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff2">2</xref></contrib><on-behalf-of>for the Genome sequencing centre: Broad Institute</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Ally</surname><given-names initials="A">Adrian</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Balasundaram</surname><given-names initials="M">Miruna</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Birol</surname><given-names initials="I">Inanc</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bowlby</surname><given-names initials="R">Reanne</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Brooks</surname><given-names initials="D">Denise</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Butterfield</surname><given-names initials="YSN">Yaron S. N.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Carlsen</surname><given-names initials="R">Rebecca</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cheng</surname><given-names initials="D">Dean</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chu</surname><given-names initials="A">Andy</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Dhalla</surname><given-names initials="N">Noreen</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Guin</surname><given-names initials="R">Ranabir</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Holt</surname><given-names initials="RA">Robert A.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jones</surname><given-names initials="SJM">Steven J. M.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lee</surname><given-names initials="D">Darlene</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="HI">Haiyan I.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Marra</surname><given-names initials="MA">Marco A.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mayo</surname><given-names initials="M">Michael</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Moore</surname><given-names initials="RA">Richard A.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mungall</surname><given-names initials="AJ">Andrew J.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gordon Robertson</surname><given-names initials="A">A.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Schein</surname><given-names initials="JE">Jacqueline E.</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sipahimalani</surname><given-names initials="P">Payal</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tam</surname><given-names initials="A">Angela</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Thiessen</surname><given-names initials="N">Nina</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wong</surname><given-names initials="T">Tina</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><on-behalf-of>for the Genome characterization and data analysis centres: BC Cancer Agency</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Protopopov</surname><given-names initials="A">Alexei</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Santoso</surname><given-names initials="N">Netty</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lee</surname><given-names initials="S">Semin</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Parfenov</surname><given-names initials="M">Michael</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="J">Jianhua</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mahadeshwar</surname><given-names initials="HS">Harshad S.</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tang</surname><given-names initials="J">Jiabin</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ren</surname><given-names initials="X">Xiaojia</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Seth</surname><given-names initials="S">Sahil</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Haseley</surname><given-names initials="P">Psalm</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zeng</surname><given-names initials="D">Dong</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yang</surname><given-names initials="L">Lixing</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Xu</surname><given-names initials="AW">Andrew W.</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Song</surname><given-names initials="X">Xingzhi</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Pantazi</surname><given-names initials="A">Angeliki</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bristow</surname><given-names initials="CA">Christopher A.</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hadjipanayis</surname><given-names initials="A">Angela</given-names></name><xref ref-type="aff" rid="Aff5">5</xref><xref ref-type="aff" rid="Aff6">6</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Seidman</surname><given-names initials="J">Jonathan</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chin</surname><given-names initials="L">Lynda</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Park</surname><given-names initials="PJ">Peter J.</given-names></name><xref ref-type="aff" rid="Aff5">5</xref><xref ref-type="aff" rid="Aff6">6</xref><xref ref-type="aff" rid="Aff7">7</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kucherlapati</surname><given-names initials="R">Raju</given-names></name><xref ref-type="aff" rid="Aff5">5</xref><xref ref-type="aff" rid="Aff6">6</xref></contrib><on-behalf-of>for the Harvard Medical School/Brigham &amp; Women’s Hospital/MD Anderson Cancer Center</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Akbani</surname><given-names initials="R">Rehan</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Casasent</surname><given-names initials="T">Tod</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="W">Wenbin</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lu</surname><given-names initials="Y">Yiling</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mills</surname><given-names initials="G">Gordon</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Motter</surname><given-names initials="T">Thomas</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Weinstein</surname><given-names initials="J">John</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Diao</surname><given-names initials="L">Lixia</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="J">Jing</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hong Fan</surname><given-names initials="Y">You</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><on-behalf-of>for the The University of Texas MD Anderson Cancer Center</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="J">Jinze</given-names></name><xref ref-type="aff" rid="Aff8">8</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="K">Kai</given-names></name><xref ref-type="aff" rid="Aff8">8</xref></contrib><on-behalf-of>for the University of Kentucky</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Todd Auman</surname><given-names initials="J">J.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Balu</surname><given-names initials="S">Saianand</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bodenheimer</surname><given-names initials="T">Thomas</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Buda</surname><given-names initials="E">Elizabeth</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Neil Hayes</surname><given-names initials="D">D.</given-names></name><address><email>hayes@med.unc.edu</email></address><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hoadley</surname><given-names initials="KA">Katherine A.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hoyle</surname><given-names initials="AP">Alan P.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jefferys</surname><given-names initials="SR">Stuart R.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jones</surname><given-names initials="CD">Corbin D.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kimes</surname><given-names initials="PK">Patrick K.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="Y">Yufeng</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Marron</surname><given-names initials="JS">J. S.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Meng</surname><given-names initials="S">Shaowu</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mieczkowski</surname><given-names initials="PA">Piotr A.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mose</surname><given-names initials="LE">Lisle E.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Parker</surname><given-names initials="JS">Joel S.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Perou</surname><given-names initials="CM">Charles M.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Prins</surname><given-names initials="JF">Jan F.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Roach</surname><given-names initials="J">Jeffrey</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shi</surname><given-names initials="Y">Yan</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Simons</surname><given-names initials="JV">Janae V.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Singh</surname><given-names initials="D">Darshan</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Soloway</surname><given-names initials="MG">Matthew G.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tan</surname><given-names initials="D">Donghui</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Veluvolu</surname><given-names initials="U">Umadevi</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Walter</surname><given-names initials="V">Vonn</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Waring</surname><given-names initials="S">Scot</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wilkerson</surname><given-names initials="MD">Matthew D.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wu</surname><given-names initials="J">Junyuan</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhao</surname><given-names initials="N">Ni</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><on-behalf-of>for the University of North Carolina at Chapel Hill</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Cherniack</surname><given-names initials="AD">Andrew D.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hammerman</surname><given-names initials="PS">Peter S.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tward</surname><given-names initials="AD">Aaron D.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sekhar Pedamallu</surname><given-names initials="C">Chandra</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Saksena</surname><given-names initials="G">Gordon</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jung</surname><given-names initials="J">Joonil</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ojesina</surname><given-names initials="AI">Akinyemi I.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Carter</surname><given-names initials="SL">Scott L.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zack</surname><given-names initials="TI">Travis I.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff10">10</xref><xref ref-type="aff" rid="Aff11">11</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Schumacher</surname><given-names initials="SE">Steven E.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Beroukhim</surname><given-names initials="R">Rameen</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff5">5</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Freeman</surname><given-names initials="SS">Samuel S.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Meyerson</surname><given-names initials="M">Matthew</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff5">5</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cho</surname><given-names initials="J">Juok</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chin</surname><given-names initials="L">Lynda</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Getz</surname><given-names initials="G">Gad</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Noble</surname><given-names initials="MS">Michael S.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>DiCara</surname><given-names initials="D">Daniel</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="H">Hailei</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Heiman</surname><given-names initials="DI">David I.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gehlenborg</surname><given-names initials="N">Nils</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Voet</surname><given-names initials="D">Doug</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="P">Pei</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Frazer</surname><given-names initials="S">Scott</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Stojanov</surname><given-names initials="P">Petar</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="Y">Yingchun</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zou</surname><given-names initials="L">Lihua</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names initials="J">Jaegil</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sougnez</surname><given-names initials="C">Carrie</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gabriel</surname><given-names initials="SB">Stacey B.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lawrence</surname><given-names initials="MS">Michael S.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><on-behalf-of>for the Broad Institute</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Muzny</surname><given-names initials="D">Donna</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Doddapaneni</surname><given-names initials="H">HarshaVardhan</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kovar</surname><given-names initials="C">Christie</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Reid</surname><given-names initials="J">Jeff</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Morton</surname><given-names initials="D">Donna</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Han</surname><given-names initials="Y">Yi</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hale</surname><given-names initials="W">Walker</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chao</surname><given-names initials="H">Hsu</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chang</surname><given-names initials="K">Kyle</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Drummond</surname><given-names initials="JA">Jennifer A.</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gibbs</surname><given-names initials="RA">Richard A.</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kakkar</surname><given-names initials="N">Nipun</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wheeler</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Xi</surname><given-names initials="L">Liu</given-names></name><xref ref-type="aff" rid="Aff12">12</xref></contrib><on-behalf-of>for the Baylor College of Medicine</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Ciriello</surname><given-names initials="G">Giovanni</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ladanyi</surname><given-names initials="M">Marc</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lee</surname><given-names initials="W">William</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ramirez</surname><given-names initials="R">Ricardo</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sander</surname><given-names initials="C">Chris</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shen</surname><given-names initials="R">Ronglai</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sinha</surname><given-names initials="R">Rileen</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Weinhold</surname><given-names initials="N">Nils</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Taylor</surname><given-names initials="BS">Barry S.</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Arman Aksoy</surname><given-names initials="B">B.</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Dresdner</surname><given-names initials="G">Gideon</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gao</surname><given-names initials="J">Jianjiong</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gross</surname><given-names initials="B">Benjamin</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jacobsen</surname><given-names initials="A">Anders</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Reva</surname><given-names initials="B">Boris</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Schultz</surname><given-names initials="N">Nikolaus</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Onur Sumer</surname><given-names initials="S">S.</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sun</surname><given-names initials="Y">Yichao</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chan</surname><given-names initials="TA">Timothy A.</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Morris</surname><given-names initials="LG">Luc G.</given-names></name><xref ref-type="aff" rid="Aff13">13</xref></contrib><on-behalf-of>for the Memorial Sloan-Kettering Cancer Center</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Stuart</surname><given-names initials="J">Joshua</given-names></name><xref ref-type="aff" rid="Aff14">14</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Benz</surname><given-names initials="S">Stephen</given-names></name><xref ref-type="aff" rid="Aff14">14</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ng</surname><given-names initials="S">Sam</given-names></name><xref ref-type="aff" rid="Aff14">14</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Benz</surname><given-names initials="C">Christopher</given-names></name><xref ref-type="aff" rid="Aff14">14</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yau</surname><given-names initials="C">Christina</given-names></name><xref ref-type="aff" rid="Aff14">14</xref></contrib><on-behalf-of>for the University of California Santa Cruz/Buck Institute</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Baylin</surname><given-names initials="SB">Stephen B.</given-names></name><xref ref-type="aff" rid="Aff15">15</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cope</surname><given-names initials="L">Leslie</given-names></name><xref ref-type="aff" rid="Aff15">15</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Danilova</surname><given-names initials="L">Ludmila</given-names></name><xref ref-type="aff" rid="Aff15">15</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Herman</surname><given-names initials="JG">James G.</given-names></name><xref ref-type="aff" rid="Aff15">15</xref></contrib><on-behalf-of>for the Johns Hopkins University/Sidney Kimmel Comprehensive Cancer Center</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Bootwalla</surname><given-names initials="M">Moiz</given-names></name><xref ref-type="aff" rid="Aff16">16</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Maglinte</surname><given-names initials="DT">Dennis T.</given-names></name><xref ref-type="aff" rid="Aff16">16</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Laird</surname><given-names initials="PW">Peter W.</given-names></name><xref ref-type="aff" rid="Aff16">16</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Triche</surname><given-names initials="T">Timothy</given-names><suffix>Jr</suffix></name><xref ref-type="aff" rid="Aff16">16</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Weisenberger</surname><given-names initials="DJ">Daniel J.</given-names></name><xref ref-type="aff" rid="Aff16">16</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Van Den Berg</surname><given-names initials="DJ">David J.</given-names></name><xref ref-type="aff" rid="Aff16">16</xref></contrib><on-behalf-of>for the University of Southern California</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Agrawal</surname><given-names initials="N">Nishant</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bishop</surname><given-names initials="J">Justin</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Boutros</surname><given-names initials="PC">Paul C.</given-names></name><xref ref-type="aff" rid="Aff18">18</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bruce</surname><given-names initials="JP">Jeff P.</given-names></name><xref ref-type="aff" rid="Aff19">19</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Averett Byers</surname><given-names initials="L">Lauren</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Califano</surname><given-names initials="J">Joseph</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Carey</surname><given-names initials="TE">Thomas E.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="Z">Zhong</given-names></name><xref ref-type="aff" rid="Aff21">21</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cheng</surname><given-names initials="H">Hui</given-names></name><xref ref-type="aff" rid="Aff21">21</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chiosea</surname><given-names initials="SI">Simion I.</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cohen</surname><given-names initials="E">Ezra</given-names></name><xref ref-type="aff" rid="Aff23">23</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Diergaarde</surname><given-names initials="B">Brenda</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Marie Egloff</surname><given-names initials="A">Ann</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>El-Naggar</surname><given-names initials="AK">Adel K.</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ferris</surname><given-names initials="RL">Robert L.</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Frederick</surname><given-names initials="MJ">Mitchell J.</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Grandis</surname><given-names initials="JR">Jennifer R.</given-names></name><address><email>grandisjr@upmc.edu</email></address><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Guo</surname><given-names initials="Y">Yan</given-names></name><xref ref-type="aff" rid="Aff24">24</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Haddad</surname><given-names initials="RI">Robert I.</given-names></name><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hammerman</surname><given-names initials="PS">Peter S.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Harris</surname><given-names initials="T">Thomas</given-names></name><xref ref-type="aff" rid="Aff25">25</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Neil Hayes</surname><given-names initials="D">D.</given-names></name><address><email>hayes@med.unc.edu</email></address><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hui</surname><given-names initials="ABY">Angela B. Y.</given-names></name><xref ref-type="aff" rid="Aff19">19</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jack Lee</surname><given-names initials="J">J.</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lippman</surname><given-names initials="SM">Scott M.</given-names></name><xref ref-type="aff" rid="Aff26">26</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="FF">Fei-Fei</given-names></name><xref ref-type="aff" rid="Aff27">27</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>McHugh</surname><given-names initials="JB">Jonathan B.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Myers</surname><given-names initials="J">Jeff</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kwok Shing Ng</surname><given-names initials="P">Patrick</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Perez-Ordonez</surname><given-names initials="B">Bayardo</given-names></name><xref ref-type="aff" rid="Aff28">28</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Pickering</surname><given-names initials="CR">Curtis R.</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Prystowsky</surname><given-names initials="M">Michael</given-names></name><xref ref-type="aff" rid="Aff25">25</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Romkes</surname><given-names initials="M">Marjorie</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Saleh</surname><given-names initials="AD">Anthony D.</given-names></name><xref ref-type="aff" rid="Aff21">21</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sartor</surname><given-names initials="MA">Maureen A.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Seethala</surname><given-names initials="R">Raja</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Seiwert</surname><given-names initials="TY">Tanguy Y.</given-names></name><xref ref-type="aff" rid="Aff23">23</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Si</surname><given-names initials="H">Han</given-names></name><xref ref-type="aff" rid="Aff21">21</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tward</surname><given-names initials="AD">Aaron D.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Van Waes</surname><given-names initials="C">Carter</given-names></name><xref ref-type="aff" rid="Aff21">21</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Waggott</surname><given-names initials="DM">Daryl M.</given-names></name><xref ref-type="aff" rid="Aff18">18</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wiznerowicz</surname><given-names initials="M">Maciej</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yarbrough</surname><given-names initials="WG">Wendell G.</given-names></name><xref ref-type="aff" rid="Aff30">30</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="J">Jiexin</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zuo</surname><given-names initials="Z">Zhixiang</given-names></name><xref ref-type="aff" rid="Aff23">23</xref></contrib><on-behalf-of>for the Disease working group</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Burnett</surname><given-names initials="K">Ken</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Crain</surname><given-names initials="D">Daniel</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gardner</surname><given-names initials="J">Johanna</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lau</surname><given-names initials="K">Kevin</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mallery</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Morris</surname><given-names initials="S">Scott</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Paulauskis</surname><given-names initials="J">Joseph</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Penny</surname><given-names initials="R">Robert</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shelton</surname><given-names initials="C">Candace</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shelton</surname><given-names initials="T">Troy</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sherman</surname><given-names initials="M">Mark</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yena</surname><given-names initials="P">Peggy</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><on-behalf-of>for the Biospecimen core resource: International Genomics Consortium</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Black</surname><given-names initials="AD">Aaron D.</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bowen</surname><given-names initials="J">Jay</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Frick</surname><given-names initials="J">Jessica</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gastier-Foster</surname><given-names initials="JM">Julie M.</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Harper</surname><given-names initials="HA">Hollie A.</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Leraas</surname><given-names initials="K">Kristen</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lichtenberg</surname><given-names initials="TM">Tara M.</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ramirez</surname><given-names initials="NC">Nilsa C.</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wise</surname><given-names initials="L">Lisa</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zmuda</surname><given-names initials="E">Erik</given-names></name><xref ref-type="aff" rid="Aff32">32</xref></contrib><on-behalf-of>for the Nationwide Children’s Hospital</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Baboud</surname><given-names initials="J">Julien</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jensen</surname><given-names initials="MA">Mark A.</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kahn</surname><given-names initials="AB">Ari B.</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Pihl</surname><given-names initials="TD">Todd D.</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Pot</surname><given-names initials="DA">David A.</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Srinivasan</surname><given-names initials="D">Deepak</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Walton</surname><given-names initials="JS">Jessica S.</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wan</surname><given-names initials="Y">Yunhu</given-names></name><xref ref-type="aff" rid="Aff33">33</xref></contrib><on-behalf-of>for the Data coordinating centre</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Burton</surname><given-names initials="RA">Robert A.</given-names></name><xref ref-type="aff" rid="Aff34">34</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Davidsen</surname><given-names initials="T">Tanja</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Demchok</surname><given-names initials="JA">John A.</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Eley</surname><given-names initials="G">Greg</given-names></name><xref ref-type="aff" rid="Aff36">36</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ferguson</surname><given-names initials="ML">Martin L.</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mills Shaw</surname><given-names initials="KR">Kenna R.</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ozenberger</surname><given-names initials="BA">Bradley A.</given-names></name><xref ref-type="aff" rid="Aff37">37</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sheth</surname><given-names initials="M">Margi</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sofia</surname><given-names initials="HJ">Heidi J.</given-names></name><xref ref-type="aff" rid="Aff37">37</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tarnuzzer</surname><given-names initials="R">Roy</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Z">Zhining</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yang</surname><given-names initials="L">Liming</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Claude Zenklusen</surname><given-names initials="J">Jean</given-names></name><xref ref-type="aff" rid="Aff35">35</xref></contrib><on-behalf-of>for the Project office</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Saller</surname><given-names initials="C">Charles</given-names></name><xref ref-type="aff" rid="Aff38">38</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tarvin</surname><given-names initials="K">Katherine</given-names></name><xref ref-type="aff" rid="Aff38">38</xref></contrib><on-behalf-of>for the Tissue source sites: Analytical Biological Services</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="C">Chu</given-names></name><xref ref-type="aff" rid="Aff39">39</xref></contrib><on-behalf-of>for the Fred Hutchinson Cancer Research Center</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Bollag</surname><given-names initials="R">Roni</given-names></name><xref ref-type="aff" rid="Aff40">40</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Weinberger</surname><given-names initials="P">Paul</given-names></name><xref ref-type="aff" rid="Aff40">40</xref></contrib><on-behalf-of>for the Georgia Regents University</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Golusiński</surname><given-names initials="W">Wojciech</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Golusiński</surname><given-names initials="P">Paweł</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ibbs</surname><given-names initials="M">Matthew</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Korski</surname><given-names initials="K">Konstanty</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mackiewicz</surname><given-names initials="A">Andrzej</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Suchorska</surname><given-names initials="W">Wiktoria</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Szybiak</surname><given-names initials="B">Bartosz</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wiznerowicz</surname><given-names initials="M">Maciej</given-names></name><xref ref-type="aff" rid="Aff29">29</xref></contrib><on-behalf-of>for the Greater Poland Cancer Centre</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Burnett</surname><given-names initials="K">Ken</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Curley</surname><given-names initials="E">Erin</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gardner</surname><given-names initials="J">Johanna</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mallery</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Penny</surname><given-names initials="R">Robert</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shelton</surname><given-names initials="T">Troy</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yena</surname><given-names initials="P">Peggy</given-names></name><xref ref-type="aff" rid="Aff31">31</xref></contrib><on-behalf-of>for the International Genomics Consortium</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Beard</surname><given-names initials="C">Christina</given-names></name><xref ref-type="aff" rid="Aff41">41</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mitchell</surname><given-names initials="C">Colleen</given-names></name><xref ref-type="aff" rid="Aff41">41</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sandusky</surname><given-names initials="G">George</given-names></name><xref ref-type="aff" rid="Aff41">41</xref></contrib><on-behalf-of>for the Indiana University Simon Cancer Center</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Agrawal</surname><given-names initials="N">Nishant</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ahn</surname><given-names initials="J">Julie</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bishop</surname><given-names initials="J">Justin</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Califano</surname><given-names initials="J">Joseph</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Khan</surname><given-names initials="Z">Zubair</given-names></name><xref ref-type="aff" rid="Aff17">17</xref></contrib><on-behalf-of>for the Johns Hopkins University</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Bruce</surname><given-names initials="JP">Jeff P.</given-names></name><xref ref-type="aff" rid="Aff19">19</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hui</surname><given-names initials="ABY">Angela B. Y.</given-names></name><xref ref-type="aff" rid="Aff19">19</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Irish</surname><given-names initials="J">Jonathan</given-names></name><xref ref-type="aff" rid="Aff27">27</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="FF">Fei-Fei</given-names></name><xref ref-type="aff" rid="Aff27">27</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Perez-Ordonez</surname><given-names initials="B">Bayardo</given-names></name><xref ref-type="aff" rid="Aff28">28</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Waldron</surname><given-names initials="J">John</given-names></name><xref ref-type="aff" rid="Aff27">27</xref></contrib><on-behalf-of>for the Princess Margaret Cancer Centre</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Boutros</surname><given-names initials="PC">Paul C.</given-names></name><xref ref-type="aff" rid="Aff18">18</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Waggott</surname><given-names initials="DM">Daryl M.</given-names></name><xref ref-type="aff" rid="Aff18">18</xref></contrib><on-behalf-of>for the Ontario Institute for Cancer Research</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Myers</surname><given-names initials="J">Jeff</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>William</surname><given-names initials="WN">William N.</given-names><suffix>Jr</suffix></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><on-behalf-of>for the The University of Texas MD Anderson Cancer Center</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Lippman</surname><given-names initials="SM">Scott M.</given-names></name><xref ref-type="aff" rid="Aff26">26</xref></contrib><on-behalf-of>for the University of California San Diego</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Egea</surname><given-names initials="S">Sophie</given-names></name><xref ref-type="aff" rid="Aff42">42</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gomez-Fernandez</surname><given-names initials="C">Carmen</given-names></name><xref ref-type="aff" rid="Aff42">42</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Herbert</surname><given-names initials="L">Lynn</given-names></name><xref ref-type="aff" rid="Aff42">42</xref></contrib><on-behalf-of>for the University of Miami</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Bradford</surname><given-names initials="CR">Carol R.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Carey</surname><given-names initials="TE">Thomas E.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chepeha</surname><given-names initials="DB">Douglas B.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Haddad</surname><given-names initials="AS">Andrea S.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jones</surname><given-names initials="TR">Tamara R.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Komarck</surname><given-names initials="CM">Christine M.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Malakh</surname><given-names initials="M">Mayya</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>McHugh</surname><given-names initials="JB">Jonathan B.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Moyer</surname><given-names initials="JS">Jeffrey S.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Nguyen</surname><given-names initials="A">Ariane</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Peterson</surname><given-names initials="LA">Lisa A.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Prince</surname><given-names initials="ME">Mark E.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Rozek</surname><given-names initials="LS">Laura S.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sartor</surname><given-names initials="MA">Maureen A.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Taylor</surname><given-names initials="EG">Evan G.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Walline</surname><given-names initials="HM">Heather M.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wolf</surname><given-names initials="GT">Gregory T.</given-names></name><xref ref-type="aff" rid="Aff20">20</xref></contrib><on-behalf-of>for the University of Michigan</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Boice</surname><given-names initials="L">Lori</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chera</surname><given-names initials="BS">Bhishamjit S.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Funkhouser</surname><given-names initials="WK">William K.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gulley</surname><given-names initials="ML">Margaret L.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hackman</surname><given-names initials="TG">Trevor G.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Neil Hayes</surname><given-names initials="D">D.</given-names></name><address><email>hayes@med.unc.edu</email></address><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hayward</surname><given-names initials="MC">Michele C.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Huang</surname><given-names initials="M">Mei</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kimryn Rathmell</surname><given-names initials="W">W.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Salazar</surname><given-names initials="AH">Ashley H.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shockley</surname><given-names initials="WW">William W.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shores</surname><given-names initials="CG">Carol G.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Thorne</surname><given-names initials="L">Leigh</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Weissler</surname><given-names initials="MC">Mark C.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wrenn</surname><given-names initials="S">Sylvia</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zanation</surname><given-names initials="AM">Adam M.</given-names></name><xref ref-type="aff" rid="Aff9">9</xref></contrib><on-behalf-of>for the University of North Carolina at Chapel Hill</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Chiosea</surname><given-names initials="SI">Simion I.</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Diergaarde</surname><given-names initials="B">Brenda</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Marie Egloff</surname><given-names initials="A">Ann</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ferris</surname><given-names initials="RL">Robert L.</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Romkes</surname><given-names initials="M">Marjorie</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Seethala</surname><given-names initials="R">Raja</given-names></name><xref ref-type="aff" rid="Aff22">22</xref></contrib><on-behalf-of>for the University of Pittsburgh</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Brown</surname><given-names initials="BT">Brandee T.</given-names></name><xref ref-type="aff" rid="Aff24">24</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Guo</surname><given-names initials="Y">Yan</given-names></name><xref ref-type="aff" rid="Aff24">24</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Pham</surname><given-names initials="M">Michelle</given-names></name><xref ref-type="aff" rid="Aff24">24</xref></contrib><on-behalf-of>for the Vanderbilt University</on-behalf-of></contrib-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Yarbrough</surname><given-names initials="WG">Wendell G.</given-names></name><xref ref-type="aff" rid="Aff30">30</xref></contrib><on-behalf-of>for the Yale University</on-behalf-of></contrib-group></collab>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.66859.34</institution-id><institution>The Eli and Edythe L. Broad Institute of Massachusetts Institute of Technology and Harvard University, </institution></institution-wrap>Cambridge, 02142 Massachusetts USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.32224.35</institution-id><institution-id institution-id-type="ISNI">0000 0004 0386 9924</institution-id><institution>Massachusetts General Hospital, 55 Fruit Street, Boston, Massachusetts 02114, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.248762.d</institution-id><institution-id institution-id-type="ISNI">0000 0001 0702 3000</institution-id><institution>Canada’s Michael Smith Genome Sciences Centre, BC Cancer Agency, Vancouver, British Columbia V5Z 4S6, Canada., </institution></institution-wrap>, </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.240145.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 2291 4776</institution-id><institution>The University of Texas MD Anderson Cancer Center, </institution></institution-wrap>Houston, 77030 Texas USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution>Harvard Medical School, </institution></institution-wrap>Boston, 02115 Massachusetts USA </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.62560.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 0378 8294</institution-id><institution>Brigham and Women’s Hospital, </institution></institution-wrap>Boston, 02115 Massachusetts USA </aff>
+          <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.2515.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 0378 8438</institution-id><institution>Boston Children’s Hospital, </institution></institution-wrap>Boston, 02115 Massachusetts USA </aff>
+          <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.266539.d</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8438</institution-id><institution>University of Kentucky, </institution></institution-wrap>Lexington, 40506 Kentucky USA </aff>
+          <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.10698.36</institution-id><institution-id institution-id-type="ISNI">0000000122483208</institution-id><institution>University of North Carolina at Chapel Hill, </institution></institution-wrap>Chapel Hill, 27599 North Carolina USA </aff>
+          <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.65499.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2106 9910</institution-id><institution>Dana-Farber Cancer Institute, 450 Brookline Avenue, Boston, Massachusetts 02215, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution>Harvard University, </institution></institution-wrap>Boston, 02115 Massachusetts USA </aff>
+          <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.39382.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2160 926X</institution-id><institution>Baylor College of Medicine, </institution></institution-wrap>Houston, 77030 Texas USA </aff>
+          <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Memorial Sloan-Kettering Cancer Center, 1275 York Ave, New York, New York 10065, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="GRID">grid.205975.c</institution-id><institution-id institution-id-type="ISNI">0000 0001 0740 6917</institution-id><institution>University of California Santa Cruz, </institution></institution-wrap>Santa Cruz, 95064 California USA </aff>
+          <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="GRID">grid.469474.c</institution-id><institution-id institution-id-type="ISNI">0000 0000 8617 4175</institution-id><institution>The Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins University, </institution></institution-wrap>Baltimore, 21287 Maryland USA </aff>
+          <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="GRID">grid.42505.36</institution-id><institution-id institution-id-type="ISNI">0000 0001 2156 6853</institution-id><institution>University of Southern California,1450 Biggy Street, NRT G511, Los Angeles, California 90033, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff17"><label>17</label><institution-wrap><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution>Johns Hopkins Medical Institutions, </institution></institution-wrap>Baltimore, 21205 Maryland USA </aff>
+          <aff id="Aff18"><label>18</label><institution-wrap><institution-id institution-id-type="GRID">grid.419890.d</institution-id><institution-id institution-id-type="ISNI">0000 0004 0626 690X</institution-id><institution>Ontario Institute for Cancer Research 101 College Street, Suite 800, Toronto, Ontario M5G 0A3, Canada., </institution></institution-wrap>, </aff>
+          <aff id="Aff19"><label>19</label><institution-wrap><institution-id institution-id-type="GRID">grid.17063.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2157 2938</institution-id><institution>Ontario Cancer Institute, Toronto, Ontario M5G 2M9, Canada., </institution></institution-wrap>, </aff>
+          <aff id="Aff20"><label>20</label><institution-wrap><institution-id institution-id-type="GRID">grid.412590.b</institution-id><institution-id institution-id-type="ISNI">0000 0000 9081 2336</institution-id><institution>University of Michigan Comprehensive Cancer Center, </institution></institution-wrap>Ann Arbor, 48109 Michigan USA </aff>
+          <aff id="Aff21"><label>21</label><institution-wrap><institution-id institution-id-type="GRID">grid.214431.1</institution-id><institution-id institution-id-type="ISNI">0000 0001 2226 8444</institution-id><institution>National Institute on Deafness and Other Communication Disorders, National Institutes of Health, </institution></institution-wrap>Bethesda, 20892 Maryland USA </aff>
+          <aff id="Aff22"><label>22</label><institution-wrap><institution-id institution-id-type="GRID">grid.21925.3d</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9000</institution-id><institution>University of Pittsburgh, </institution></institution-wrap>Pittsburgh, 15213 Pennsylvania USA </aff>
+          <aff id="Aff23"><label>23</label><institution-wrap><institution-id institution-id-type="GRID">grid.170205.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 7822</institution-id><institution>The University of Chicago, </institution></institution-wrap>Chicago, 60637 Illinois USA </aff>
+          <aff id="Aff24"><label>24</label><institution-wrap><institution-id institution-id-type="GRID">grid.412807.8</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9916</institution-id><institution>Vanderbilt University Medical Center 7209 Medical Center East, </institution></institution-wrap>South Tower Nashville, 37232 Tennessee USA </aff>
+          <aff id="Aff25"><label>25</label><institution-wrap><institution-id institution-id-type="GRID">grid.251993.5</institution-id><institution-id institution-id-type="ISNI">0000000121791997</institution-id><institution>Albert Einstein College of Medicine, </institution></institution-wrap>Bronx, 10461 New York USA </aff>
+          <aff id="Aff26"><label>26</label><institution-wrap><institution-id institution-id-type="GRID">grid.266100.3</institution-id><institution-id institution-id-type="ISNI">0000 0001 2107 4242</institution-id><institution>University of California San Diego, </institution></institution-wrap>San Diego, 92093 California USA </aff>
+          <aff id="Aff27"><label>27</label><institution-wrap><institution-id institution-id-type="GRID">grid.17063.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2157 2938</institution-id><institution>University of Toronto, Toronto, Ontario M5G 2M9, Canada., </institution></institution-wrap>, </aff>
+          <aff id="Aff28"><label>28</label><institution-wrap><institution-id institution-id-type="GRID">grid.231844.8</institution-id><institution-id institution-id-type="ISNI">0000 0004 0474 0428</institution-id><institution>University Health Network, Toronto, Ontario M5G 2C4, Canada., </institution></institution-wrap>, </aff>
+          <aff id="Aff29"><label>29</label><institution-wrap><institution-id institution-id-type="GRID">grid.418300.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 1088 774X</institution-id><institution>Greater Poland Cancer Centre, Garbary 15, 61-866, Poznań, Poland., </institution></institution-wrap>, </aff>
+          <aff id="Aff30"><label>30</label><institution-wrap><institution-id institution-id-type="GRID">grid.47100.32</institution-id><institution-id institution-id-type="ISNI">0000000419368710</institution-id><institution>Yale School of Medicine, 800 Howard Avenue, 4th Floor Yale Physicians Building, </institution></institution-wrap>New Haven, 06520-8041 Connecticut USA </aff>
+          <aff id="Aff31"><label>31</label><institution-wrap><institution-id institution-id-type="GRID">grid.450294.e</institution-id><institution-id institution-id-type="ISNI">0000 0004 0641 0756</institution-id><institution>International Genomics Consortium, 445 North 5th Street, Phoenix, Arizona 85004, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff32"><label>32</label><institution-wrap><institution-id institution-id-type="GRID">grid.240344.5</institution-id><institution-id institution-id-type="ISNI">0000 0004 0392 3476</institution-id><institution>The Research Institute at Nationwide Children’s Hospital, </institution></institution-wrap>Columbus, 43205 Ohio USA </aff>
+          <aff id="Aff33"><label>33</label><institution-wrap><institution-id institution-id-type="GRID">grid.421489.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 4656 9526</institution-id><institution>SRA International, </institution></institution-wrap>Fairfax, 22033 Virginia USA </aff>
+          <aff id="Aff34"><label>34</label><institution-wrap><institution-id institution-id-type="GRID">grid.418021.e</institution-id><institution-id institution-id-type="ISNI">0000 0004 0535 8394</institution-id><institution>Frederick National Laboratory for Cancer Research, 1050 Boyles Street, Frederick, Maryland 21702, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff35"><label>35</label><institution-wrap><institution-id institution-id-type="GRID">grid.48336.3a</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8075</institution-id><institution>National Cancer Institute, 31 Center Drive 3A20, Bethesda, Maryland 20892, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff36"><label>36</label>Scimentis, LLC, Atlanta, Georgia 30666, USA., , </aff>
+          <aff id="Aff37"><label>37</label><institution-wrap><institution-id institution-id-type="GRID">grid.280128.1</institution-id><institution-id institution-id-type="ISNI">0000 0001 2233 9230</institution-id><institution>National Human Genome Research Institute, National Institutes of Health, </institution></institution-wrap>Bethesda, 20892 Maryland USA </aff>
+          <aff id="Aff38"><label>38</label><institution-wrap><institution-id institution-id-type="GRID">grid.422639.8</institution-id><institution>Analytical Biological Services, Inc., 701 Cornell Drive, Wilmington, Delaware 19801, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff39"><label>39</label><institution-wrap><institution-id institution-id-type="GRID">grid.270240.3</institution-id><institution-id institution-id-type="ISNI">0000 0001 2180 1622</institution-id><institution>Fred Hutchinson Cancer Research Center, Mailstop M5-C800, 1100 Fairview Avenue North, Seattle, Washington 98109, USA., </institution></institution-wrap>, </aff>
+          <aff id="Aff40"><label>40</label><institution-wrap><institution-id institution-id-type="GRID">grid.410427.4</institution-id><institution-id institution-id-type="ISNI">0000 0001 2284 9329</institution-id><institution>Georgia Regents University, </institution></institution-wrap>Augusta, 30912 Georgia USA </aff>
+          <aff id="Aff41"><label>41</label><institution-wrap><institution-id institution-id-type="GRID">grid.257413.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 2287 3919</institution-id><institution>Indiana University Simon Cancer Center, </institution></institution-wrap>Indianapolis, 46202 Indiana USA </aff>
+          <aff id="Aff42"><label>42</label><institution-wrap><institution-id institution-id-type="GRID">grid.419791.3</institution-id><institution-id institution-id-type="ISNI">0000 0000 9902 6374</institution-id><institution>University of Miami, Sylvester Comprehensive Cancer Center, 1550 NW 10th Avenue, Miami, Florida 33136, USA., </institution></institution-wrap>, </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>28</day>
+          <month>1</month>
+          <year>2015</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <year>2015</year>
+        </pub-date>
+        <volume>517</volume>
+        <issue>7536</issue>
+        <issue-id pub-id-type="pmc-issue-id">381929</issue-id>
+        <fpage>576</fpage>
+        <lpage>582</lpage>
+        <history>
+          <date date-type="received">
+            <day>19</day>
+            <month>10</month>
+            <year>2013</year>
+          </date>
+          <date date-type="accepted">
+            <day>1</day>
+            <month>12</month>
+            <year>2014</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>28</day>
+              <month>01</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>29</day>
+              <month>07</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-02-08 18:25:11.160">
+              <day>08</day>
+              <month>02</month>
+              <year>2024</year>
+            </date>
+          </event>
+          <event event-type="pmc-version" specific-use="live">
+            <article-id pub-id-type="pmcaiid">4311405</article-id>
+            <article-id pub-id-type="doi">10.1038/nature14129</article-id>
+            <article-id pub-id-type="manuscript-id">NIHMS646209</article-id>
+            <article-version>1</article-version>
+            <pub-date>
+              <day>29</day>
+              <month>01</month>
+              <year>2015</year>
+            </pub-date>
+          </event>
+          <event event-type="pmc-version" specific-use="live">
+            <article-id pub-id-type="pmcaiid">8171169</article-id>
+            <article-id pub-id-type="doi">10.1038/nature14129</article-id>
+            <article-version>2</article-version>
+            <pub-date>
+              <day>28</day>
+              <month>01</month>
+              <year>2015</year>
+            </pub-date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2015</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbyncsalicense">https://creativecommons.org/licenses/by-nc-sa/3.0/</ali:license_ref>
+            <license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported licence. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons licence, users will need to obtain permission from the licence holder to reproduce the material. To view a copy of this licence, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41586_2015_Article_BFnature14129.pdf"/>
+        <abstract id="Abs1">
+          <p>The Cancer Genome Atlas profiled 279 head and neck squamous cell carcinomas (HNSCCs) to provide a comprehensive landscape of somatic genomic alterations. Here we show that human-papillomavirus-associated tumours are dominated by helical domain mutations of the oncogene <italic toggle="yes">PIK3CA</italic>, novel alterations involving loss of <italic toggle="yes">TRAF3</italic>, and amplification of the cell cycle gene <italic toggle="yes">E2F1</italic>. Smoking-related HNSCCs demonstrate near universal loss-of-function <italic toggle="yes">TP53</italic> mutations and <italic toggle="yes">CDKN2A</italic> inactivation with frequent copy number alterations including amplification of 3q26/28 and 11q13/22. A subgroup of oral cavity tumours with favourable clinical outcomes displayed infrequent copy number alterations in conjunction with activating mutations of <italic toggle="yes">HRAS</italic> or <italic toggle="yes">PIK3CA</italic>, coupled with inactivating mutations of <italic toggle="yes">CASP8</italic>, <italic toggle="yes">NOTCH1</italic> and <italic toggle="yes">TP53</italic>. Other distinct subgroups contained loss-of-function alterations of the chromatin modifier <italic toggle="yes">NSD1</italic>, <italic toggle="yes">WNT</italic> pathway genes <italic toggle="yes">AJUBA</italic> and <italic toggle="yes">FAT1</italic>, and activation of oxidative stress factor <italic toggle="yes">NFE2L2</italic>, mainly in laryngeal tumours. Therapeutic candidate alterations were identified in most HNSCCs.</p>
+          <sec>
+            <title>Supplementary information</title>
+            <p>The online version of this article (doi:10.1038/nature14129) contains supplementary material, which is available to authorized users.</p>
+          </sec>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p>The Cancer Genome Atlas presents an integrative genome-wide analysis of genetic alterations in 279 head and neck squamous cell carcinomas (HNSCCs), which are classified by human papillomavirus (HPV) status; alterations in <italic toggle="yes">EGFR</italic>, <italic toggle="yes">FGFR</italic>, <italic toggle="yes">PIK3CA</italic> and cyclin-dependent kinases are shown to represent candidate targets for therapeutic intervention in most HNSCCs.</p>
+          <sec>
+            <title>Supplementary information</title>
+            <p>The online version of this article (doi:10.1038/nature14129) contains supplementary material, which is available to authorized users.</p>
+          </sec>
+        </abstract>
+        <abstract id="Abs3" abstract-type="LongSummary">
+          <title>Large-scale analysis of head and neck cancers</title>
+          <p>Squamous cell head and neck cancer is one of the most common and deadly cancers. Despite initial responses to combinations of surgery, radiation and chemotherapy, approximately half of all tumours recur, usually within two years of initial diagnosis. Molecular markers and targeted therapies have had little impact on this disease to date. Here, The Cancer Genome Atlas team presents a detailed genome-wide overview of alterations and highlights critical genetic events of potential biological and clinical significance in head and neck squamous cell carcinomas (HNSCCs) with different human papillomavirus status. Mutational profiles reveal distinct subgroups of HNSCCs. Mutations in EGFR, FGFRs, PIK3CA and cyclin-dependent kinases represent candidate targets for therapeutic intervention in the majority of HNSCCs.</p>
+          <sec>
+            <title>Supplementary information</title>
+            <p>The online version of this article (doi:10.1038/nature14129) contains supplementary material, which is available to authorized users.</p>
+          </sec>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Diseases</kwd>
+          <kwd>Head and neck cancer</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© Springer Nature Limited 2015</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1">
+        <title>Main</title>
+        <p>HNSCCs affect ∼600,000 patients per year worldwide<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. They are characterized by phenotypic, aetiological, biological and clinical heterogeneity. Smoking is implicated in the rise of HNSCC in developing countries, and the role of human papillomavirus (HPV) is emerging as an important factor in the rise of oropharyngeal tumours affecting non-smokers in developed countries<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Despite surgery, radiation and chemotherapy, approximately half of all patients will die of the disease. Risk stratification for HNSCC is by anatomic site, stage and histological characteristics of the tumour. Except for HPV status, numerous molecular and clinical risk factors that have been investigated have limited clinical utility.</p>
+        <p>Published genome-wide profiling studies of HNSCC<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup> are limited to single platforms. To generate an integrated genomic annotation of molecular alterations in HNSCC, The Cancer Genome Atlas (TCGA) has undertaken a comprehensive multi-platform characterization of 500 tumours with the a priori hypothesis of detecting somatic variants present in at least 5% of samples. Here, we report the results for analyses from the first 279 patients with complete data.</p>
+      </sec>
+      <sec id="Sec2">
+        <title>Samples and clinical data</title>
+        <p>The cohort consists primarily of tumours from the oral cavity (<italic toggle="yes">n</italic> = 172 out of 279, 62%), oropharynx (<italic toggle="yes">n</italic> = 33 out of 279, 12%), and laryngeal sites (<italic toggle="yes">n</italic> = 72 out of 279, 26%) (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 1, <xref rid="MOESM115" ref-type="media">Supplementary Table 1.1</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 1.1</xref>). Most patients were male (<italic toggle="yes">n</italic> = 203 out of 279, 73%) and heavy smokers (mean pack years = 51). Samples were classified as HPV-positive using an empiric definition of &gt;1,000 mapped RNA sequencing (RNA-Seq) reads, primarily aligning to viral genes <italic toggle="yes">E6</italic> and <italic toggle="yes">E7</italic> (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 1.2 and <xref rid="MOESM115" ref-type="media">Supplementary Fig. 1.1</xref>). The HPV status by mapping of RNA-Seq reads was concordant with the genomic, sequencing and molecular data, and indicated that 36 tumours were HPV(+) and 243 were HPV(−) (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 1.2, <xref rid="MOESM115" ref-type="media">Supplementary Fig. 1.1</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 1.2</xref>). Of 33 oropharyngeal tumours, 64% were positive for HPV, compared to 6% of 246 non-oropharyngeal tumours. Molecular HPV signatures were identified using microRNA (miRNA), DNA methylation, gene expression and somatic nucleotide substitutions (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 1.2 and <xref rid="MOESM115" ref-type="media">Supplementary Figs 1.1–1.3</xref>). HPV(+) tumours exhibited infrequent mutations in <italic toggle="yes">TP53</italic> or genetic alterations in <italic toggle="yes">CDKN2A</italic>. We evaluated outcome by site, stage, HPV status, molecular subtypes and putative biomarkers (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 1.3 and <xref rid="MOESM115" ref-type="media">Supplementary Figs 1.4 and 1.5</xref>). HPV(+) and interestingly patients with HPV(−), <italic toggle="yes">TP53</italic> wild-type tumours demonstrated favourable outcomes compared to <italic toggle="yes">TP53</italic> mutants and 11q13/<italic toggle="yes">CCND1</italic>-amplified tumours.</p>
+      </sec>
+      <sec id="Sec3">
+        <title>DNA and RNA structural alterations</title>
+        <p>Most tumours demonstrated copy number alterations (CNAs) including losses of 3p and 8p, and gains of 3q, 5p and 8q chromosomal regions (<xref rid="Fig1" ref-type="fig">Fig. 1a</xref>, <xref rid="MOESM115" ref-type="media">Supplementary Fig. 2.1</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 2) resembling lung squamous cell carcinomas (LUSCs)<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> (<xref rid="Fig1" ref-type="fig">Fig. 1a</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Figs 2.1 and 2.2</xref>). HNSCC genomes showed high instability with a mean of 141 CNAs (amplifications or deletions) from microarray data and 62 structural aberrations (chromosomal fusions) per tumour by ‘high coverage’ whole-genome sequencing (<italic toggle="yes">n</italic> = 29) (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 2.2). We observed 39 regions of recurrent copy number loss and 23 regions of recurrent copy number gain (<italic toggle="yes">q</italic> &lt; 0.1, <xref rid="MOESM115" ref-type="media">Supplementary Data 2.1 and 2.2</xref>). Both HPV(+) and (−) tumours contained recurrent focal amplifications for 3q26/28, a region involving squamous lineage transcription factors <italic toggle="yes">TP63</italic> and <italic toggle="yes">SOX2</italic> and the oncogene <italic toggle="yes">PIK3CA</italic> (<xref rid="Fig1" ref-type="fig">Fig. 1b</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Fig. 2.3</xref>).<fig id="Fig1" position="float" orientation="portrait"><label>Figure 1</label><caption><title>DNA copy number alterations.</title><p><bold>a</bold>, Copy number alterations by anatomic site and HPV status for squamous cancers. Lung squamous cell carcinoma (LUSC, <italic toggle="yes">n</italic> = 358) and cervical squamous cell carcinoma (CESC, <italic toggle="yes">n</italic> = 114). <bold>b</bold>, Unsupervised analysis of copy number alteration of HNSCC (<italic toggle="yes">n</italic> = 279) with associated characteristics. The rectangle indicates chromosome 7 amplifications in the purple cluster. NA, not available.</p><p>
+<xref rid="MOESM110" ref-type="media">PowerPoint slide</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e3245" position="float" orientation="portrait" xlink:href="41586_2015_BFnature14129_Fig1_HTML.jpg"/></fig></p>
+        <p>HPV(+) tumours were distinguished by novel recurrent deletions (<italic toggle="yes">n</italic> = 5 out of 36, 14%) and truncating mutations (<italic toggle="yes">n</italic> = 3 out of 36, 8%) of TNF receptor-associated factor 3 (<italic toggle="yes">TRAF3</italic>) (<xref rid="MOESM115" ref-type="media">Supplementary Figs 2.3 and 2.4</xref>, and <xref rid="MOESM115" ref-type="media">Supplementary Data 2.1</xref>). <italic toggle="yes">TRAF3</italic> is implicated in innate and acquired anti-viral responses<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> including Epstein–Barr, HPV and human immunodeficiency virus (HIV)<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>, while loss promotes aberrant NF-κB signalling<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. Although <italic toggle="yes">TRAF3</italic> inactivation has been reported in haematological malignancies and nasopharyngeal carcinoma<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref></sup>, to our knowledge this is the first evidence linking <italic toggle="yes">TRAF3</italic> to HPV-associated carcinomas. HPV(+) tumours were also notable for focal amplification of <italic toggle="yes">E2F1</italic> and an intact 9p21.3 region containing the <italic toggle="yes">CDKN2A</italic> gene commonly deleted in HPV(−) tumours.</p>
+        <p>HPV(−) tumours featured novel co-amplifications of 11q13 (<italic toggle="yes">CCND1</italic>, <italic toggle="yes">FADD</italic> and <italic toggle="yes">CTTN</italic>) and 11q22 (<italic toggle="yes">BIRC2</italic> and <italic toggle="yes">YAP1</italic>), which also contain genes implicated in cell death/NF-κB and Hippo pathways. HPV(−) tumours featured novel focal deletions in the nuclear set domain gene (<italic toggle="yes">NSD1)</italic> and tumour suppressor genes (for example, <italic toggle="yes">FAT1</italic>, <italic toggle="yes">NOTCH1</italic>, <italic toggle="yes">SMAD4</italic> and <italic toggle="yes">CDKN2A</italic>; <xref rid="MOESM115" ref-type="media">Supplementary Fig. 2.3</xref>). Recurrent focal amplifications in receptor tyrosine kinases (for example, <italic toggle="yes">EGFR</italic>, <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">FGFR1</italic>) also predominated in HPV(−) tumours. Notably, unsupervised clustering analysis of CNAs identified a mutually exclusive subset of predominantly oral cavity tumours with reduced CNAs, a pattern recently described in cancer as ‘M’ class (tumours driven by mutation rather than CNA)<sup><xref ref-type="bibr" rid="CR13">13</xref></sup> (<xref rid="Fig1" ref-type="fig">Fig. 1b</xref>). This subset in particular contained a new three-gene pattern of activating mutations in <italic toggle="yes">HRAS</italic>, frequently with inactivating <italic toggle="yes">CASP8</italic> mutations, and wild-type <italic toggle="yes">TP53</italic>. We confirmed a previously reported favourable clinical outcome in tumours with few CNAs<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. The three-gene constellation of wild-type <italic toggle="yes">TP53</italic> with mutant <italic toggle="yes">HRAS</italic> and <italic toggle="yes">CASP8</italic> suggested an alternative tumorigenesis pathway involving RAS and/or alterations in cell death/NF-κB<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. Unsupervised analysis also suggested that clustering was a function of chromosome 7 amplification (including the <italic toggle="yes">EGFR</italic> locus) in a manner that largely excluded HPV(+) tumours.</p>
+        <p>To detect additional structural alterations, we interrogated whole-genome and RNA-Seq data (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 3, <xref rid="MOESM115" ref-type="media">Supplementary Data 3.1</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.1</xref>). Known fusion oncogenes reported in solid tumours including those involving the <italic toggle="yes">ALK</italic>, <italic toggle="yes">ROS</italic> or <italic toggle="yes">RET</italic> genes were not observed in HNSCC. Previously reported <italic toggle="yes">FGFR3-TACC3</italic> fusions were present in two HPV(+) tumours (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.2</xref>). Only 1 out of 279 patients showed evidence of the type III isoform of <italic toggle="yes">EGFR</italic> (vIII), previously described in HNSCC<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.3</xref>). Although our investigation did not identify additional novel oncogenic fusions, several tumours demonstrated exon 1 of <italic toggle="yes">EGFR</italic> or <italic toggle="yes">FGFR3</italic> fused to non-recurrent partners, suggesting potential promoter swaps for the partner genes (<xref rid="MOESM115" ref-type="media">Supplementary Data 3.1</xref>). A low prevalence of an alternative <italic toggle="yes">MET</italic> transcript with skipped exon 14 was identified in two HPV(−) tumours (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.4</xref>); this finding was reported to be an activating event in non-small cell lung cancer<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. Structural alterations (homozygous deletions, intra- and inter-chromosomal fusions) were more commonly associated with loss of function in tumour suppressor genes, most prominently <italic toggle="yes">CDKN2A</italic> (<xref rid="MOESM115" ref-type="media">Supplementary Figs 3.5 and 3.6</xref>), followed by <italic toggle="yes">TP53</italic>, <italic toggle="yes">RB1</italic>, <italic toggle="yes">NOTCH1</italic> and <italic toggle="yes">FAT1</italic> (<xref rid="MOESM115" ref-type="media">Supplementary Figs 3.7–3.9</xref>), than with protein-coding fusion events. RNA-Seq data (<xref rid="MOESM115" ref-type="media">Supplementary Data 3.3</xref>) demonstrated evidence of alternative splicing in genes not previously described in HNSCC including kallikrein 12 (<italic toggle="yes">KLK12</italic>) (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.11</xref>), as well as genes such as <italic toggle="yes">TP63</italic> with known importance in HNSCC (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.12</xref>).</p>
+        <p>By DNA analysis, most HPV(+) tumours demonstrated clear evidence of host genome integration, usually in a single genomic location per sample and almost always in association with amplifications of the host genome (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.10</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 3.2</xref>). Interrogation of RNA transcripts confirmed transcription across the viral–human integration locus. However, none of the genes involved were recurrent, suggesting no single driver mechanism related to HPV integration. Similarly, none of the integration sites involved the <italic toggle="yes">MYC</italic> gene as reported in HPV(+) cell lines<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>Somatic mutations</title>
+        <p>Whole-exome sequencing identified somatically mutated genes, many located in regions of CNAs and annotated in the COSMIC database<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> (<xref rid="Fig2" ref-type="fig">Fig. 2</xref>). The mean sequencing coverage across targeted bases was 95×, with 82% of target bases above 30× coverage. In 279 samples, 12,159 synonymous somatic variants, 37,061 non-synonymous somatic variants, and 2,579 germline single base substitutions from the single nucleotide polymorphism database (dbSNP)<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> were detected (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 4). Targeted re-sequencing of 394 unique regions (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 4.1</xref>) validated 99% of mutations. Interrogation of RNA for expression of the mutated alleles confirmed the variant in 86% of cases (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 3.2 and <xref rid="MOESM115" ref-type="media">Supplementary Fig. 3.1</xref>). In contrast to previous reports, the mutation rates did not differ by HPV status, although transversions at CpG sites were more frequent in HPV(−) tumours and a predominance of TpC mutations were noted in HPV(+) cases<sup><xref ref-type="bibr" rid="CR3">3</xref></sup> (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 1.1</xref>). Mutations were statistically enriched in 11 genes (<xref rid="Fig2" ref-type="fig">Fig. 2</xref>). Among inactivating mutations (premature termination of the protein by nonsense, frameshift or splice-site mutations), four genes segregated exclusively or predominantly in HPV(−) tumours. Two were associated with cell cycle and survival (<italic toggle="yes">CDKN2A</italic> (<italic toggle="yes">P</italic> &lt; 0.01) and <italic toggle="yes">TP53</italic> (<italic toggle="yes">P</italic> &lt; 0.01)) and two were linked to Wnt/β-catenin signalling (<italic toggle="yes">FAT1</italic> (<italic toggle="yes">P</italic> &lt; 0.01) and <italic toggle="yes">AJUBA</italic> (<italic toggle="yes">P</italic> = 0.14))<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup>. We observed <italic toggle="yes">TP53</italic> mutation among HPV(−) samples at higher rates (86%) than have been previously reported<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, while only 1 out of 36 HPV(+) cases had a non-synonymous <italic toggle="yes">TP53</italic> mutation. Previously unreported somatic mutations and deletions of <italic toggle="yes">AJUBA</italic> were primarily 5′ inactivating events and clustered missense mutations in the functional LIM domain (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 4.2</xref>). AJUBA is a centrosomal protein that regulates cell division, vertebrate ciliogenesis and left–right axis determination<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. Additionally, AJUBA is subject to EGFR-RAS-MAPK-dependent phosphorylation and implicated in Hippo growth and regeneration pathways conserved from <italic toggle="yes">Drosophila</italic> to mammals<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>, in ataxia-telangiectasia mutated (ATM) and ATM and Rad-3-related (ATR)-mediated DNA damage response<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>, and tumour invasion and migration<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>.<fig id="Fig2" position="float" orientation="portrait"><label>Figure 2</label><caption><title>Significantly mutated genes in HNSCC.</title><p>Genes (rows) with significantly mutated genes (identified using the MutSigCV algorithim; <italic toggle="yes">q</italic> &lt; 0.1) ordered by <italic toggle="yes">q</italic> value; additional genes with trends towards significance are also shown. Samples (columns, <italic toggle="yes">n</italic> = 279) are arranged to emphasize mutual exclusivity among mutations. Left, mutation percentage in TCGA. Right, mutation percentage in COSMIC (‘upper aerodigestive tract’ tissue). Top, overall number of mutations per megabase. Colour coding indicates mutation type.</p><p>
+<xref rid="MOESM111" ref-type="media">PowerPoint slide</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e3635" position="float" orientation="portrait" xlink:href="41586_2015_BFnature14129_Fig2_HTML.jpg"/></fig></p>
+        <p>A frequently mutated novel gene, the nuclear receptor binding SET domain protein 1 (<italic toggle="yes">NSD1</italic>), was identified in 33 HNSCCs. Alterations included inactivating mutations (<italic toggle="yes">n</italic> = 29) and focal homozygous deletions (<italic toggle="yes">n</italic> = 4). <italic toggle="yes">NSD1</italic> is a histone 3 Lys 36 (H3K36) methyltransferase, similar to <italic toggle="yes">SETD2</italic>, which is frequently mutated in the clear cell variant of renal cell carcinoma, and associated with DNA hypomethylation<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Germline carriers of inactivating mutations in <italic toggle="yes">NSD1</italic> are associated with craniofacial abnormalities (Sotos syndrome), and malignancies including squamous carcinoma, implicating <italic toggle="yes">NSD1</italic> as a tumour suppressor gene<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. Interestingly, <italic toggle="yes">NSD1</italic> functions as an oncogene when fused to nucleoporin-98 (<italic toggle="yes">NUP98</italic>) t(5;11)(q35;p15.5) in haematological cancers with increased H3K36 trimethylation levels at <italic toggle="yes">HOXA</italic> genes and accompanying transcriptional activation<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Translocations involving other dedicated H3K36 methyltransferase genes including <italic toggle="yes">WHSC1</italic> (also known as <italic toggle="yes">MMSET</italic> and <italic toggle="yes">NSD2</italic>) are reported in 20% of multiple myelomas. By contrast, <italic toggle="yes">NSD1</italic> loss has been associated with sporadic non-melanoma skin cancers<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Significant inactivating mutations were found in genes linked to squamous differentiation including in <italic toggle="yes">NOTCH1</italic> (19%), and other non-significant family members (<italic toggle="yes">NOTCH2</italic> 9%, and <italic toggle="yes">NOTCH3</italic> 5%, <italic toggle="yes">q</italic> &gt; 0.1, non-significant), and the <italic toggle="yes">TP63</italic> target gene <italic toggle="yes">ZNF750</italic> (4%, <italic toggle="yes">q</italic> &gt; 0.1, non-significant), which falls in a significantly deleted peak at 17q25.3. The analysis identified additional mutations including <italic toggle="yes">TRAF3</italic>, <italic toggle="yes">RB1</italic> and <italic toggle="yes">NFE2L2</italic>, among others with <italic toggle="yes">q</italic> values &lt; 1 (non-significant). The frequently mutated apoptosis gene <italic toggle="yes">CASP8</italic> displayed clustered missense and other inactivating mutations in the first death effector, intron and caspase peptidase domains. Statistically significant mutations in <italic toggle="yes">KMT2D</italic> (also known as <italic toggle="yes">MLL2</italic>) and <italic toggle="yes">HLA-A</italic> could contribute to defective immunosurveillance. Of known oncogenes, only <italic toggle="yes">PIK3CA</italic> achieved statistical significance (<italic toggle="yes">q</italic> &lt; 0.01). Approximately one-quarter of the mutated <italic toggle="yes">PIK3CA</italic> cases displayed concurrent amplification, with an additional 20% of tumours containing focal amplification without evidence of mutation. Seventy-three per cent of <italic toggle="yes">PIK3CA</italic> mutations localized to Glu542Lys, Glu545Lys and His1047Arg/Leu hotspots that promote activation, with the remaining mutations of uncertain function. Recurrent activating mutations of <italic toggle="yes">HRAS</italic> in the GTPase domain in residues 11–13 approached statistical significance (<italic toggle="yes">q</italic> = 0.2).</p>
+        <p>We extended our unsupervised genome-wide analysis of significantly mutated genes as well as genes reported in COSMIC to a subgroup analysis by anatomic sites, tumour versus normal status, HPV status and four previously validated gene expression subtypes<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup> (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 5, <xref rid="MOESM115" ref-type="media">Supplementary Figs 5.1–5.4</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 4.1 and 5.1–5.4</xref>). Additional mutations included <italic toggle="yes">TRAF3</italic>, <italic toggle="yes">RB1</italic> and <italic toggle="yes">NFE2L2</italic>, among others with <italic toggle="yes">q</italic> values &lt; 1, and we observed statistical evidence for mutations of <italic toggle="yes">HRAS</italic> (<italic toggle="yes">q</italic> = 0 in COSMIC subset) and other genes. Sporadic inactivating mutations and deletions of <italic toggle="yes">TGFBR2</italic> were identified primarily in oral cavity tumours, consistent with its role in promoting squamous tumorigenesis in mouse models<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Investigating COSMIC database mutations focused attention on the significant deletion peak at 4q31.3 containing the gene <italic toggle="yes">FBXW7</italic>, a ubiquitin ligase targeting cyclin E and <italic toggle="yes">NOTCH</italic> genes, in which we identified mutations that included recurrent Arg505Gly/Leu substitutions (<italic toggle="yes">n</italic> = 14). Genes with at least one identical mutation previously reported in COSMIC include <italic toggle="yes">SCN9A</italic>, <italic toggle="yes">CHEK2</italic>, <italic toggle="yes">PTCH1</italic> and <italic toggle="yes">PIK3R1</italic>. We further focused on somatic alterations and protein expression that represent plausible therapeutic targets (<xref rid="Fig3" ref-type="fig">Fig. 3</xref>, <xref rid="MOESM115" ref-type="media">Supplementary Information</xref> sections 6 and 7, <xref rid="MOESM115" ref-type="media">Supplementary Figs 6.1 and 6.2</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 6.1 and 6.2</xref>).<fig id="Fig3" position="float" orientation="portrait"><label>Figure 3</label><caption><title>Candidate therapeutic targets and driver oncogenic events.</title><p>Alteration events for key genes are displayed by sample (<italic toggle="yes">n</italic> = 279). TSG, tumour suppressor gene.</p><p>
+<xref rid="MOESM112" ref-type="media">PowerPoint slide</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e3863" position="float" orientation="portrait" xlink:href="41586_2015_BFnature14129_Fig3_HTML.jpg"/></fig></p>
+      </sec>
+      <sec id="Sec5">
+        <title>Integrated genome analysis and pathways</title>
+        <p>Correlative genetic alteration analysis identified numerous pairwise significant findings (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 7 and <xref rid="MOESM115" ref-type="media">Supplementary Fig. 7.1</xref>). In particular, co-amplification of 11q13 containing <italic toggle="yes">CCND1</italic>, <italic toggle="yes">FADD</italic> and <italic toggle="yes">CTTN</italic> and a narrow segment of 11q22 containing the genes with equal evidence for <italic toggle="yes">YAP1</italic> and <italic toggle="yes">BIRC2</italic> was further characterized (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 7.2</xref>). Chromosome 11q22 was focally but rarely amplified in the absence of co-amplification of 11q13. This novel finding suggests that the selection pressure for this co-amplification stems from the interaction of <italic toggle="yes">BIRC2</italic> with <italic toggle="yes">FADD</italic> and the caspase cascade that inhibits cell death. Notably, the vast majority of tumours with the 11q13 amplification had large deletions in the telomeric region of 11q22, including other genes known to be important in cell death in cancer such as <italic toggle="yes">ATM</italic> and <italic toggle="yes">CASP1</italic>, <italic toggle="yes">4</italic>, <italic toggle="yes">5</italic> and <italic toggle="yes">12</italic>. Amplification of 11q13 was anti-correlated with <italic toggle="yes">CASP8</italic> mutations, suggesting an alternative function of <italic toggle="yes">CASP8</italic> and <italic toggle="yes">FADD</italic> in cell death/NF-κB activation<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>.</p>
+        <p>We investigated whether clinical factors, single gene alterations and statistically significant pairwise gene correlations (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 7.1</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 7.1</xref>) might segregate previously defined molecular subtypes and/or anatomic sub-sites (<xref rid="MOESM115" ref-type="media">Supplementary Data 5.1–5.4</xref>). We confirmed reported gene expression subtypes (atypical (24%), mesenchymal (27%), basal (31%) and classical (18%)), and assessed the subtypes for enrichment of somatic alterations<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup> (<xref rid="MOESM115" ref-type="media">Supplementary Data 7.1</xref>). Notably, <italic toggle="yes">TP53</italic> mutation, <italic toggle="yes">CDKN2A</italic> loss of function, chromosome 3q amplification, alteration of oxidative stress genes (<italic toggle="yes">KEAP1</italic>, <italic toggle="yes">NFE2L2</italic> or <italic toggle="yes">CUL3</italic>), heavy smoking history (<xref rid="MOESM115" ref-type="media">Supplementary Table 1.1</xref>) and larynx sub-site co-occurred in most classical subtype tumours (<xref rid="Fig4" ref-type="fig">Fig. 4a</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 7.2), similar to LUSC<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> (<xref rid="MOESM115" ref-type="media">Supplementary Figs 5.1 and 5.2</xref>). Collectively, these findings suggest that the <italic toggle="yes">NFE2L2</italic> oxidative stress pathway is a tobacco-related signature across anatomic tumour sites. By contrast, the basal subtype demonstrated inactivation of <italic toggle="yes">NOTCH1</italic> with intact oxidative stress signalling and fewer alterations of chromosome 3q. Analysis of the 3q locus highlighted a marked relative decrease of <italic toggle="yes">SOX2</italic> expression in basal tumours relative to all other HNSCC and tumour adjacent normal samples (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 5.4</xref>), supporting the interaction of transcription factors <italic toggle="yes">SOX2</italic>, <italic toggle="yes">TP63</italic>, <italic toggle="yes">NFE2L2</italic> and <italic toggle="yes">NOTCH1</italic> as driving differences between expression subtypes. Additionally, the basal subtype included most tumours with the <italic toggle="yes">HRAS–CASP8</italic> co-mutation and most co-amplified 11q13/q22 tumours. These findings along with <italic toggle="yes">HRAS</italic> mutations implicate disrupted cell death as a major alteration in this subtype<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 7.2</xref>). The atypical subtype was characterized by a lack of chromosome 7 amplifications (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 5.3</xref>), enrichment of HPV(+) tumours with activating mutations in exon 9 that contains the <italic toggle="yes">PIK3CA</italic> helical domain. By contrast, the mesenchymal subtype showed high levels of alteration in innate immunity genes, in particular high expression of natural killer cell marker <italic toggle="yes">CD56</italic> and a low frequency of HLA class I mutations (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 7.3</xref>). Among the significantly mutated genes, <italic toggle="yes">TP53</italic> (<italic toggle="yes">P</italic> &lt; 0.001), <italic toggle="yes">CASP8</italic> (<italic toggle="yes">P</italic> = 0.01), <italic toggle="yes">NSD1</italic> (<italic toggle="yes">P</italic> = 0.01) and <italic toggle="yes">CDKN2A</italic> (0.06) were the most differentially mutated across anatomic sites (<xref rid="MOESM115" ref-type="media">Supplementary Data 4.1</xref>). Most <italic toggle="yes">CASP8</italic> mutations (22 out of 24, 92%) were in oral cavity tumours, whereas <italic toggle="yes">TP53</italic>, <italic toggle="yes">NSD1</italic> and <italic toggle="yes">CDKN2A</italic> demonstrated decreased mutation rates in oropharyngeal tumours relative to other sites.<fig id="Fig4" position="float" orientation="portrait"><label>Figure 4</label><caption><title>Integrated analysis of genomic alterations.</title><p><bold>a</bold>, <bold>b</bold>, Samples (<italic toggle="yes">n</italic> = 279) are displayed in columns and grouped by gene expression (<bold>a</bold>) or methylation (<bold>b</bold>) subtype (sub.). Unadjusted two-sided Fisher’s exact test <italic toggle="yes">P</italic> values assess the association of each genomic alteration. Methylation probe location of CpG islands, shores and shelves are shown on the left of <bold>b</bold>. Annotation shows HPV status and subtype (16, 33 and 35). CN, copy number.</p><p>
+<xref rid="MOESM113" ref-type="media">PowerPoint slide</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e4110" position="float" orientation="portrait" xlink:href="41586_2015_BFnature14129_Fig4_HTML.jpg"/></fig></p>
+        <p>Unsupervised analysis of gene expression by HPV status and of reverse-phase protein arrays (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 6), DNA methylation (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 8), and miRNA platforms (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 9, <xref rid="MOESM115" ref-type="media">Supplementary Table 9.1</xref>, <xref rid="MOESM115" ref-type="media">Supplementary Figs 7.4–7.9</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 7.1</xref>) showed high correlation across platforms (<italic toggle="yes">P</italic> &lt; 0.01; <xref rid="Fig4" ref-type="fig">Fig. 4</xref>, <xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 7.9 and <xref rid="MOESM115" ref-type="media">Supplementary Data 7.2</xref>) and coordinated alterations of genes including the epithelial–mesenchymal transition signature<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> (<xref rid="MOESM115" ref-type="media">Supplementary Figs 7.4, 7.7 and 7.8</xref>). However, within the broader cross-platform agreement, individual unsupervised clustering of miRNA, reverse-phase protein arrays and DNA methylation data provided insight into the association of molecular subtypes with single gene alterations. The most notable example was the detection of hypomethylation and loss-of-function mutations of <italic toggle="yes">NSD1</italic>, and wild-type <italic toggle="yes">NOTCH1</italic> in atypical and classical gene expression subtypes (<xref rid="Fig4" ref-type="fig">Fig. 4b</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Table 7.1</xref>).</p>
+        <p>Supervised analyses detected genomic features (miRNA, gene expression and DNA methylation) associated with anatomic site (<xref rid="MOESM115" ref-type="media">Supplementary Figs 5.5–5.8</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 5.1–5.4</xref>). A supervised integrated analysis identified target genes that are inversely regulated by miRNAs in HNSCC (<xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 7.4). Among these miRNA–messenger RNA networks, let-7c-5p and miR-100-5p exhibited a correlation between low copy number and expression. Let-7c-5p and miR-100-5p were decreased in tumours compared to normal (<xref rid="MOESM115" ref-type="media">Supplementary Fig. 7.10</xref>). For these miRNAs, deletion was highly associated with increased expression of target genes, including the cell cycle regulator <italic toggle="yes">CDK6</italic>, transcription factor <italic toggle="yes">E2F1</italic> (ref. <xref ref-type="bibr" rid="CR38">38</xref>), mitosis regulator <italic toggle="yes">PLK1</italic> (ref. <xref ref-type="bibr" rid="CR39">39</xref>), and transcription factor <italic toggle="yes">HMGA2</italic> (ref. <xref ref-type="bibr" rid="CR40">40</xref>; <xref rid="MOESM115" ref-type="media">Supplementary Figs 7.10</xref>, <xref rid="MOESM115" ref-type="media">Supplementary Tables 7.2 and 7.3</xref>).</p>
+        <p>Integrative bioinformatics analysis identified a limited number of pathways targeted by frequent genome alterations (<xref rid="Fig5" ref-type="fig">Fig. 5</xref>, <xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 7, <xref rid="MOESM115" ref-type="media">Supplementary Figs 7.11–7.15</xref> and <xref rid="MOESM115" ref-type="media">Supplementary Data 7.3</xref>). Among receptor tyrosine kinases, <italic toggle="yes">EGFR/ERBB2</italic> or <italic toggle="yes">FGFR1/3</italic> alterations are the most frequent. Among downstream targets of the receptor tyrosine kinase (RTK)/RAS/phosphatidylinositol-3-OH kinase (PI(3)K) pathway, <italic toggle="yes">PIK3CA</italic> dominates with occasional <italic toggle="yes">HRAS</italic> and <italic toggle="yes">PTEN</italic> alterations. Further downstream, nearly every tumour has alteration of genes governing the cell cycle. The tumour suppressors <italic toggle="yes">TP53</italic> and <italic toggle="yes">CDKN2A</italic>, oncogenes <italic toggle="yes">CCND1</italic> and <italic toggle="yes">MYC</italic>, and the newly identified miRNA let-7c, are most often altered in HPV(−) tumours, whereas viral genes <italic toggle="yes">E6</italic>, <italic toggle="yes">E7</italic> and <italic toggle="yes">E2F1</italic> predominate in HPV(+) cases. In addition, we report frequent alterations in genes involved in cell death, NF-κB-mediated survival, or immunity pathways<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR35">35</xref></sup>. Co-amplification of <italic toggle="yes">FADD</italic> ± <italic toggle="yes">BIRC2</italic>, or <italic toggle="yes">CASP8</italic> ± <italic toggle="yes">HRAS</italic> mutations define exclusive HPV(−) subsets, whereas <italic toggle="yes">TRAF3</italic> loss characterizes an HPV(+) subset. These alterations along with <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">TP63</italic> converge on NF-κB transcription factors that promote cell survival, migration, inflammation and angiogenesis<sup><xref ref-type="bibr" rid="CR41">41</xref>,<xref ref-type="bibr" rid="CR42">42</xref></sup>. Furthermore, <italic toggle="yes">TRAF3</italic> and/or <italic toggle="yes">HLA</italic> loss are implicated in deregulation of innate antiviral and adaptive anti-tumour immunity<sup><xref ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr" rid="CR44">44</xref></sup>. Further alterations of <italic toggle="yes">NOTCH</italic>, <italic toggle="yes">TP63</italic> and other genes in HPV(−) tumours (<italic toggle="yes">FAT1</italic> and <italic toggle="yes">AJUBA</italic>) recently linked functionally to β-catenin (<italic toggle="yes">CTNNB1</italic>) are also detected<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup>. Finally, we highlight a previously underappreciated role for a key transcription factor regulator of oxidative stress, <italic toggle="yes">NFE2L2</italic>, and its protein complex partners <italic toggle="yes">CUL3</italic> and <italic toggle="yes">KEAP1</italic> in HPV(−) HNSCCs.<fig id="Fig5" position="float" orientation="portrait"><label>Figure 5</label><caption><title>Deregulation of signalling pathways and transcription factors.</title><p>Key affected pathways, components and inferred functions, are summarized in the main text and <xref rid="MOESM115" ref-type="media">Supplementary Information</xref> section 7 for <italic toggle="yes">n</italic> = 279 samples. The frequency (%) of genetic alterations for HPV(−) and HPV(+) tumours are shown separately within sub-panels and highlighted. Also see <xref rid="MOESM115" ref-type="media">Supplementary Fig. 7.15</xref>. Pathway alterations include homozygous deletions, focal amplifications and somatic mutations. Activated and inactivated pathways/genes, and activating or inhibitory symbols are based on predicted effects of genome alterations and/or pathway functions.</p><p>
+<xref rid="MOESM114" ref-type="media">PowerPoint slide</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e4369" position="float" orientation="portrait" xlink:href="41586_2015_BFnature14129_Fig5_HTML.jpg"/></fig></p>
+      </sec>
+      <sec id="Sec6">
+        <title>Conclusion</title>
+        <p>The TCGA study represents the most comprehensive integrative genomic analysis of HNSCC. Loss of <italic toggle="yes">TRAF3</italic>, activating mutations of <italic toggle="yes">PIK3CA</italic>, and amplification of <italic toggle="yes">E2F1</italic> in HPV(+) oropharyngeal cancers point to aberrant activation of NF-κB, other oncogenic pathways, and cell cycle, as critical in the pathogenesis and development of new targeted therapies for these tumours. In HPV(−) HNSCCs, mutually exclusive subsets containing amplicons on 11q with <italic toggle="yes">CCND1</italic>, <italic toggle="yes">FADD</italic>, <italic toggle="yes">BIRC2</italic> and <italic toggle="yes">YAP1</italic>, or concurrent mutations of <italic toggle="yes">CASP8</italic> with <italic toggle="yes">HRAS</italic>, also target cell cycle, death, NF-κB and other oncogenic pathways. Recent studies predict that the inactivation of <italic toggle="yes">AJUBA</italic>, as well as <italic toggle="yes">FAT1</italic> and <italic toggle="yes">NOTCH1</italic>, may converge to uncheck Wnt/β-catenin signalling, implicated in deregulation of cell polarity and differentiation. The 3q amplicon found in both HPV(+) and (−) HNSCCs includes transcription factors <italic toggle="yes">TP63</italic>, <italic toggle="yes">SOX2</italic> and signal molecule <italic toggle="yes">PIK3CA</italic>, which are also implicated in homeostasis of epithelial stem cells and differentiation. Among these, the biological function and agents targeting BIRCs, PI(3)K, Wnt/β-catenin and NOTCH are under investigation. Collectively, these findings provide new insights into HNSCC and suggest that shared and unique alterations might be leveraged to accelerate progress in prevention and therapy across tumour types.</p>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec7">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM115" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41586_2015_BFnature14129_MOESM115_ESM.pdf" position="float" orientation="portrait"><caption><title>Supplementary Information</title><p>This file contains Supplementary Text and Data, Supplementary Figures, Supplementary Tables, and additional references. See the Table of Contents for details. (PDF 25182 kb)</p></caption></media></supplementary-material>
+</p>
+          <p>
+<supplementary-material content-type="local-data" id="MOESM116" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41586_2015_BFnature14129_MOESM116_ESM.zip" position="float" orientation="portrait"><caption><title>Supplementary Data</title><p>This file contains Supplementary Data files and a Supplementary Data Guide. (ZIP 27635 kb)</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <app-group>
+        <app id="App1">
+          <sec id="Sec8">
+            <title>PowerPoint slides</title>
+            <p>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41586_2015_BFnature14129_MOESM110_ESM.ppt" id="MOESM110" orientation="portrait"><caption><p>PowerPoint slide for Fig. 1</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41586_2015_BFnature14129_MOESM111_ESM.ppt" id="MOESM111" orientation="portrait"><caption><p>PowerPoint slide for Fig. 2</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41586_2015_BFnature14129_MOESM112_ESM.ppt" id="MOESM112" orientation="portrait"><caption><p>PowerPoint slide for Fig. 3</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41586_2015_BFnature14129_MOESM113_ESM.ppt" id="MOESM113" orientation="portrait"><caption><p>PowerPoint slide for Fig. 4</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41586_2015_BFnature14129_MOESM114_ESM.ppt" id="MOESM114" orientation="portrait"><caption><p>PowerPoint slide for Fig. 5</p></caption></media>
+</p>
+          </sec>
+        </app>
+      </app-group>
+      <fn-group>
+        <fn>
+          <p>Participants are arranged by area of contribution and then by institution.</p>
+        </fn>
+        <fn>
+          <p>The primary and processed data used to generate the analyses can be downloaded by registered users from The Cancer Genome Atlas (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://tcga-data.nci.nih.gov/tcga/tcgaDownload.jsp">https://tcga-data.nci.nih.gov/tcga/tcgaDownload.jsp</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://cghub.ucsc.edu/">https://cghub.ucsc.edu/</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://tcga-data.nci.nih.gov/docs/publications/hnsc_2014/">https://tcga-data.nci.nih.gov/docs/publications/hnsc_2014/</ext-link>).</p>
+        </fn>
+        <fn>
+          <p>anaggar@mdanderson.org</p>
+        </fn>
+      </fn-group>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This study was supported by National Institutes of Health (NIH) grants: P50CA097190, P50CA16672, U54 HG003273, U54 HG003067, U54 HG003079, U24 CA143799, U24 CA143835, U24 CA143840, U24 CA143843, U24 CA143845, U24 CA143848, U24 CA143858, U24 CA143866, U24 CA143867, U24 CA143882, U24 CA143883, U24 CA144025 and RO1 CA 095419. Supported by The Bobby F. Garrett Fund for Head and Neck Cancer Research and NIDCD Intramural Projects ZIA-DC-000016, 73 and 74.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author Contributions</title>
+        <p>The TCGA research network contributed collectively to this study. Biospecimens were provided by the tissue source sites and processed by the biospecimen core resource. Data generation and analyses were performed by the genome sequencing centres, cancer genome characterization centres and genome data analysis centres. All data were released through the data coordinating centre. Project activities were coordinated by the National Cancer Institute and National Human Genome Research Institute project teams. We also acknowledge the following TCGA investigators who made substantial contributions to the project: C.V.W. (manuscript coordinator); V.W. (data coordinator); P.S.H. and D.N.H. (analysis coordinators); Y.W. (data coordinating centre representative); R.A., J.B., T.E.C., J.J.L., M.Parfenov, A.D.T., V.W. and M.D.W. (clinical and HPV analysis); A.D.C. (DNA copy number analysis); J.Cho, A.H., M.Parfenov and M.D.W. (mutation calling); L.C. and L.Danilova (DNA methylation analysis); R.Bowlby, J.P.B., Z.C., H.Cheng, A.H., F.F.L., A.G.R., A.D.S. and C.V.W. (miRNA sequence analysis); L.A.B., L.Diao, P.K., W.L., S.N. and J.W. (reverse-phase protein arrays analysis); L.A.B., L.Diao, S.R.J., P.K.K., V.W., M.D.W. and N.Z. (mRNA sequence analysis); S.Benz, Z.C., R.L.F., S.N., C.R.P., N.Schultz, T.Y.S., C.V.W. and V.W. (pathway analysis); A.E.N., J.R.G. and D.N.H. (project chairs).</p>
+      </notes>
+      <notes notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p>The author declare no competing financial interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ferlay</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Estimates of worldwide burden of cancer in 2008: GLOBOCAN 2008</article-title>
+            <source>Int. J. Cancer</source>
+            <year>2010</year>
+            <volume>127</volume>
+            <fpage>2893</fpage>
+            <lpage>2917</lpage>
+            <pub-id pub-id-type="pmid">21351269</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.25516</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ang</surname>
+                <given-names>KK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Human papillomavirus and survival of patients with oropharyngeal cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2010</year>
+            <volume>363</volume>
+            <fpage>24</fpage>
+            <lpage>35</lpage>
+            <pub-id pub-id-type="pmid">20530316</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa0912217</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2943767</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stransky</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The mutational landscape of head and neck squamous cell carcinoma</article-title>
+            <source>Science</source>
+            <year>2011</year>
+            <volume>333</volume>
+            <fpage>1157</fpage>
+            <lpage>1160</lpage>
+            <pub-id pub-id-type="pmid">21798893</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1208130</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3415217</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Agrawal</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing of head and neck squamous cell carcinoma reveals inactivating mutations in <italic toggle="yes">NOTCH1</italic></article-title>
+            <source>Science</source>
+            <year>2011</year>
+            <volume>333</volume>
+            <fpage>1154</fpage>
+            <lpage>1157</lpage>
+            <pub-id pub-id-type="pmid">21798897</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1206923</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3162986</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>The Cancer Genome Atlas Research Network</surname>
+              </name>
+            </person-group>
+            <article-title>Comprehensive genomic characterization of squamous cell lung cancers</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>489</volume>
+            <fpage>519</fpage>
+            <lpage>525</lpage>
+            <pub-id pub-id-type="pmid">22960745</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11404</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3466113</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Oganesyan</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Critical role of TRAF3 in the Toll-like receptor-dependent and -independent antiviral response</article-title>
+            <source>Nature</source>
+            <year>2006</year>
+            <volume>439</volume>
+            <fpage>208</fpage>
+            <lpage>211</lpage>
+            <pub-id pub-id-type="pmid">16306936</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature04374</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Karim</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Human papillomavirus (HPV) upregulates the cellular deubiquitinase UCHL1 to suppress the keratinocyte’s innate immune response</article-title>
+            <source>PLoS Pathog.</source>
+            <year>2013</year>
+            <volume>9</volume>
+            <fpage>e1003384</fpage>
+            <pub-id pub-id-type="pmid">23717208</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1003384</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3662672</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Eliopoulos</surname>
+                <given-names>AG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>CD40-induced growth inhibition in epithelial cells is mimicked by Epstein–Barr Virus-encoded LMP1: involvement of TRAF3 as a common mediator</article-title>
+            <source>Oncogene</source>
+            <year>1996</year>
+            <volume>13</volume>
+            <fpage>2243</fpage>
+            <lpage>2254</lpage>
+            <pub-id pub-id-type="pmid">8950992</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Imbeault</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Acquisition of host-derived CD40L by HIV-1 <italic toggle="yes">in vivo</italic> and its functional consequences in the B-cell compartment</article-title>
+            <source>J. Virol.</source>
+            <year>2011</year>
+            <volume>85</volume>
+            <fpage>2189</fpage>
+            <lpage>2200</lpage>
+            <pub-id pub-id-type="pmid">21177803</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/JVI.01993-10</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3067784</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ni</surname>
+                <given-names>CZ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular basis for CD40 signaling mediated by TRAF3</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2000</year>
+            <volume>97</volume>
+            <fpage>10395</fpage>
+            <lpage>10399</lpage>
+            <pub-id pub-id-type="pmid">10984535</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.97.19.10395</pub-id>
+            <pub-id pub-id-type="pmcid">PMC27035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chung</surname>
+                <given-names>GT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Constitutive activation of distinct NF-κB signals in EBV-associated nasopharyngeal carcinoma</article-title>
+            <source>J. Pathol.</source>
+            <year>2013</year>
+            <volume>231</volume>
+            <fpage>311</fpage>
+            <lpage>322</lpage>
+            <pub-id pub-id-type="pmid">23868181</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/path.4239</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Annunziata</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Frequent engagement of the classical and alternative NF-κB pathways by diverse genetic abnormalities in multiple myeloma</article-title>
+            <source>Cancer Cell</source>
+            <year>2007</year>
+            <volume>12</volume>
+            <fpage>115</fpage>
+            <lpage>130</lpage>
+            <pub-id pub-id-type="pmid">17692804</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2007.07.004</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2730509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ciriello</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Emerging landscape of oncogenic signatures across human cancers</article-title>
+            <source>Nature Genet.</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>1127</fpage>
+            <lpage>1133</lpage>
+            <pub-id pub-id-type="pmid">24071851</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2762</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4320046</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Smeets</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genetic classification of oral and oropharyngeal carcinomas identifies subgroups with a different prognosis</article-title>
+            <source>Cellular Oncol.</source>
+            <year>2009</year>
+            <volume>31</volume>
+            <fpage>291</fpage>
+            <lpage>300</lpage>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/CLO-2009-0471</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4618915</pub-id>
+            <pub-id pub-id-type="pmid">19633365</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mayo</surname>
+                <given-names>MW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Requirement of NF-κB activation to suppress p53-independent apoptosis induced by oncogenic Ras</article-title>
+            <source>Science</source>
+            <year>1997</year>
+            <volume>278</volume>
+            <fpage>1812</fpage>
+            <lpage>1815</lpage>
+            <pub-id pub-id-type="pmid">9388187</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.278.5344.1812</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sok</surname>
+                <given-names>JC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutant epidermal growth factor receptor (EGFRvIII) contributes to head and neck cancer growth and resistance to EGFR targeting</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2006</year>
+            <volume>12</volume>
+            <fpage>5064</fpage>
+            <lpage>5073</lpage>
+            <pub-id pub-id-type="pmid">16951222</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-06-0913</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kong-Beltran</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Somatic mutations lead to an oncogenic deletion of met in lung cancer</article-title>
+            <source>Cancer Res.</source>
+            <year>2006</year>
+            <volume>66</volume>
+            <fpage>283</fpage>
+            <lpage>289</lpage>
+            <pub-id pub-id-type="pmid">16397241</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-05-2749</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Popescu</surname>
+                <given-names>NC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>DiPaolo</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Amsbaugh</surname>
+                <given-names>SC</given-names>
+              </name>
+            </person-group>
+            <article-title>Integration sites of human papillomavirus 18 DNA sequences on HeLa cell chromosomes</article-title>
+            <source>Cytogenet. Cell Genet.</source>
+            <year>1987</year>
+            <volume>44</volume>
+            <fpage>58</fpage>
+            <lpage>62</lpage>
+            <pub-id pub-id-type="pmid">3028716</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1159/000132342</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19</label>
+          <mixed-citation publication-type="other">Forbes, S. A. et al. The Catalogue of Somatic Mutations in Cancer (COSMIC). <italic toggle="yes">Curr. Protoc. Hum. Genet.</italic> Chapter 10, Unit 10.11 (2008)<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/0471142905.hg1011s57</pub-id><pub-id pub-id-type="pmcid">PMC2705836</pub-id><pub-id pub-id-type="pmid">18428421</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sherry</surname>
+                <given-names>ST</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>dbSNP: the NCBI database of genetic variation</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2001</year>
+            <volume>29</volume>
+            <fpage>308</fpage>
+            <lpage>311</lpage>
+            <pub-id pub-id-type="pmid">11125122</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/29.1.308</pub-id>
+            <pub-id pub-id-type="pmcid">PMC29783</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Morris</surname>
+                <given-names>LG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent somatic mutation of FAT1 in multiple human cancers leads to aberrant Wnt activation</article-title>
+            <source>Nature Genet.</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>253</fpage>
+            <lpage>261</lpage>
+            <pub-id pub-id-type="pmid">23354438</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2538</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3729040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Haraguchi</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Ajuba negatively regulates the Wnt signaling pathway by promoting GSK-3β-mediated phosphorylation of β-catenin</article-title>
+            <source>Oncogene</source>
+            <year>2008</year>
+            <volume>27</volume>
+            <fpage>274</fpage>
+            <lpage>284</lpage>
+            <pub-id pub-id-type="pmid">17621269</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1210644</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nagai</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The LIM protein Ajuba is required for ciliogenesis and left-right axis determination in medaka</article-title>
+            <source>Biochem. Biophys. Res. Commun.</source>
+            <year>2010</year>
+            <volume>396</volume>
+            <fpage>887</fpage>
+            <lpage>893</lpage>
+            <pub-id pub-id-type="pmid">20457130</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbrc.2010.05.017</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sun</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Irvine</surname>
+                <given-names>KD</given-names>
+              </name>
+            </person-group>
+            <article-title>Ajuba family proteins link JNK to Hippo signaling</article-title>
+            <source>Sci. Signal.</source>
+            <year>2013</year>
+            <volume>6</volume>
+            <fpage>ra81</fpage>
+            <pub-id pub-id-type="pmid">24023255</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scisignal.2004324</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3830546</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reddy</surname>
+                <given-names>BV</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Irvine</surname>
+                <given-names>KD</given-names>
+              </name>
+            </person-group>
+            <article-title>Regulation of Hippo signaling by EGFR-MAPK signaling through Ajuba family proteins</article-title>
+            <source>Dev. Cell</source>
+            <year>2013</year>
+            <volume>24</volume>
+            <fpage>459</fpage>
+            <lpage>471</lpage>
+            <pub-id pub-id-type="pmid">23484853</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.devcel.2013.01.020</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3624988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kalan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Matveyenko</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Loayza</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>LIM protein Ajuba participates in the repression of the ATR-mediated DNA damage response</article-title>
+            <source>Front. Genet.</source>
+            <year>2013</year>
+            <volume>4</volume>
+            <fpage>95</fpage>
+            <pub-id pub-id-type="pmid">23755068</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fgene.2013.00095</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3664778</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nola</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Ajuba is required for Rac activation and maintenance of E-cadherin adhesion</article-title>
+            <source>J. Cell Biol.</source>
+            <year>2011</year>
+            <volume>195</volume>
+            <fpage>855</fpage>
+            <lpage>871</lpage>
+            <pub-id pub-id-type="pmid">22105346</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1083/jcb.201107162</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3257575</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28</label>
+          <mixed-citation publication-type="other">The Cancer Genome Atlas Research Network. Comprehensive molecular characterization of clear cell renal cell carcinoma. <italic toggle="yes">Nature</italic><bold>499</bold>, 43–49 (2013)<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12222</pub-id><pub-id pub-id-type="pmcid">PMC3771322</pub-id><pub-id pub-id-type="pmid">23792563</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fickie</surname>
+                <given-names>MR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Adults with Sotos syndrome: review of 21 adults with molecularly confirmed <italic toggle="yes">NSD1</italic> alterations, including a detailed case report of the oldest person</article-title>
+            <source>Am. J. Med. Genet. A.</source>
+            <year>2011</year>
+            <volume>155</volume>
+            <fpage>2105</fpage>
+            <lpage>2111</lpage>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajmg.a.34156</pub-id>
+            <pub-id pub-id-type="pmid">21834047</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>GG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cai</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pasillas</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kamps</surname>
+                <given-names>MP</given-names>
+              </name>
+            </person-group>
+            <article-title>NUP98–NSD1 links H3K36 methylation to <italic toggle="yes">Hox-A</italic> gene activation and leukaemogenesis</article-title>
+            <source>Nature Cell Biol.</source>
+            <year>2007</year>
+            <volume>9</volume>
+            <fpage>804</fpage>
+            <lpage>812</lpage>
+            <pub-id pub-id-type="pmid">17589499</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncb1608</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Quintana</surname>
+                <given-names>RM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A transposon-based analysis of gene mutations related to skin cancer development</article-title>
+            <source>J. Invest. Dermatol.</source>
+            <year>2013</year>
+            <volume>133</volume>
+            <fpage>239</fpage>
+            <lpage>248</lpage>
+            <pub-id pub-id-type="pmid">22832494</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/jid.2012.245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chung</surname>
+                <given-names>CH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular classification of head and neck squamous cell carcinomas using patterns of gene expression</article-title>
+            <source>Cancer Cell</source>
+            <year>2004</year>
+            <volume>5</volume>
+            <fpage>489</fpage>
+            <lpage>500</lpage>
+            <pub-id pub-id-type="pmid">15144956</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s1535-6108(04)00112-6</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Walter</surname>
+                <given-names>V</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular subtypes in head and neck cancer exhibit distinct patterns of chromosomal gain and loss of canonical cancer genes</article-title>
+            <source>PLoS ONE</source>
+            <year>2013</year>
+            <volume>8</volume>
+            <fpage>e56823</fpage>
+            <pub-id pub-id-type="pmid">23451093</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0056823</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3579892</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lu</surname>
+                <given-names>SL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Loss of transforming growth factor-β type II receptor promotes metastatic head-and-neck squamous cell carcinoma</article-title>
+            <source>Genes Dev.</source>
+            <year>2006</year>
+            <volume>20</volume>
+            <fpage>1331</fpage>
+            <lpage>1342</lpage>
+            <pub-id pub-id-type="pmid">16702406</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gad.1413306</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1472907</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Oberst</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Green</surname>
+                <given-names>DR</given-names>
+              </name>
+            </person-group>
+            <article-title>It cuts both ways: reconciling the dual roles of caspase 8 in cell death and survival</article-title>
+            <source>Nature Rev. Mol. Cell Biol.</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>757</fpage>
+            <lpage>763</lpage>
+            <pub-id pub-id-type="pmid">22016059</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrm3214</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3627210</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Opposite role of Ras in tumor necrosis factor-α-induced cell cycle regulation: competition for Raf kinase</article-title>
+            <source>Biochem. Biophys. Res. Commun.</source>
+            <year>2001</year>
+            <volume>287</volume>
+            <fpage>1140</fpage>
+            <lpage>1147</lpage>
+            <pub-id pub-id-type="pmid">11587542</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/bbrc.2001.5713</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Byers</surname>
+                <given-names>LA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An epithelial-mesenchymal transition gene signature predicts resistance to EGFR and PI3K inhibitors and identifies Axl as a therapeutic target for overcoming EGFR inhibitor resistance</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2013</year>
+            <volume>19</volume>
+            <fpage>279</fpage>
+            <lpage>290</lpage>
+            <pub-id pub-id-type="pmid">23091115</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-12-1558</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3567921</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wong</surname>
+                <given-names>JV</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dong</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nevins</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mathey-Prevot</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>You</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Network calisthenics: control of E2F dynamics in cell cycle entry</article-title>
+            <source>Cell Cycle</source>
+            <year>2011</year>
+            <volume>10</volume>
+            <fpage>3086</fpage>
+            <lpage>3094</lpage>
+            <pub-id pub-id-type="pmid">21900750</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.4161/cc.10.18.17350</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3218619</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sanhaji</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Polo-like kinase 1 inhibitors, mitotic stress and the tumor suppressor p53</article-title>
+            <source>Cell Cycle</source>
+            <year>2013</year>
+            <volume>12</volume>
+            <fpage>1340</fpage>
+            <lpage>1351</lpage>
+            <pub-id pub-id-type="pmid">23574746</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.4161/cc.24573</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3674062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Morishita</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>HMGA2 is a driver of tumor metastasis</article-title>
+            <source>Cancer Res.</source>
+            <year>2013</year>
+            <volume>73</volume>
+            <fpage>4289</fpage>
+            <lpage>4299</lpage>
+            <pub-id pub-id-type="pmid">23722545</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-12-3848</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3715567</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bancroft</surname>
+                <given-names>CC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Effects of pharmacologic antagonists of epidermal growth factor receptor, PI3K and MEK signal kinases on NF-κB and AP-1 activation and IL-8 and VEGF expression in human head and neck squamous cell carcinoma lines</article-title>
+            <source>Int. J. Cancer</source>
+            <year>2002</year>
+            <volume>99</volume>
+            <fpage>538</fpage>
+            <lpage>548</lpage>
+            <pub-id pub-id-type="pmid">11992543</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.10398</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>X</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>ΔNp63 versatilely regulates a broad <italic toggle="yes">NF-κB</italic> gene program and promotes squamous epithelial proliferation, migration, and inflammation</article-title>
+            <source>Cancer Res.</source>
+            <year>2011</year>
+            <volume>71</volume>
+            <fpage>3688</fpage>
+            <lpage>3700</lpage>
+            <pub-id pub-id-type="pmid">21576089</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-10-3445</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3443863</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Keating</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Frequency of down-regulation of individual HLA-A and -B alleles in cervical carcinomas in relation to TAP-1 expression</article-title>
+            <source>Br. J. Cancer</source>
+            <year>1995</year>
+            <volume>72</volume>
+            <fpage>405</fpage>
+            <lpage>411</lpage>
+            <pub-id pub-id-type="pmid">7640226</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.1995.346</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2033975</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Esteban</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Lack of MHC class I antigens and tumour aggressiveness of the squamous cell carcinoma of the larynx</article-title>
+            <source>Br. J. Cancer</source>
+            <year>1990</year>
+            <volume>62</volume>
+            <fpage>1047</fpage>
+            <lpage>1051</lpage>
+            <pub-id pub-id-type="pmid">2257212</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.1990.437</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1971557</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dotto</surname>
+                <given-names>GP</given-names>
+              </name>
+            </person-group>
+            <article-title>Crosstalk of Notch with p53 and p63 in cancer growth control</article-title>
+            <source>Nature Rev. Cancer</source>
+            <year>2009</year>
+            <volume>9</volume>
+            <fpage>587</fpage>
+            <lpage>595</lpage>
+            <pub-id pub-id-type="pmid">19609265</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2675</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6059364</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

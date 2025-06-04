@@ -1,0 +1,1145 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Med</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Med.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature medicine</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1078-8956</issn>
+        <issn pub-type="epub">1546-170X</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC7061455</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC7061455.1</article-id>
+        <article-id pub-id-type="pmcaid">7061455</article-id>
+        <article-id pub-id-type="pmcaiid">7061455</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS1541314</article-id>
+        <article-id pub-id-type="pmid">31768066</article-id>
+        <article-id pub-id-type="doi">10.1038/s41591-019-0652-7</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS1541314</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA1541314</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Razavi</surname>
+              <given-names initials="P">Pedram</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref rid="CR1" ref-type="corresp">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="BT">Bob T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names initials="DN">David N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jung</surname>
+              <given-names initials="B">Byoungsok</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hubbell</surname>
+              <given-names initials="E">Earl</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shen</surname>
+              <given-names initials="R">Ronglai</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abida</surname>
+              <given-names initials="W">Wassim</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Juluru</surname>
+              <given-names initials="K">Krishna</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>De Bruijn</surname>
+              <given-names initials="I">Ino</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hou</surname>
+              <given-names initials="C">Chenlu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Venn</surname>
+              <given-names initials="O">Oliver</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lim</surname>
+              <given-names initials="R">Raymond</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Anand</surname>
+              <given-names initials="A">Aseem</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Maddala</surname>
+              <given-names initials="T">Tara</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gnerre</surname>
+              <given-names initials="S">Sante</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Satya</surname>
+              <given-names initials="RV">Ravi Vijaya</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="Q">Qinwen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shen</surname>
+              <given-names initials="L">Ling</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Eattock</surname>
+              <given-names initials="N">Nicholas</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yue</surname>
+              <given-names initials="J">Jeanne</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Blocker</surname>
+              <given-names initials="AW">Alexander W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN1" ref-type="author-notes">†</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="M">Mark</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN2" ref-type="author-notes">§</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sehnert</surname>
+              <given-names initials="A">Amy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN3" ref-type="author-notes">¥</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Xu</surname>
+              <given-names initials="H">Hui</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hall</surname>
+              <given-names initials="MP">Megan P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Santiago-Zayas</surname>
+              <given-names initials="A">Angie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Novotny</surname>
+              <given-names initials="WF">William F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN4" ref-type="author-notes">‡</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Isbell</surname>
+              <given-names initials="JM">James M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rusch</surname>
+              <given-names initials="VW">Valerie W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Plitas</surname>
+              <given-names initials="G">George</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heerdt</surname>
+              <given-names initials="AS">Alexandra S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ladanyi</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hyman</surname>
+              <given-names initials="DM">David M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="DR">David R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morrow</surname>
+              <given-names initials="M">Monica</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Riely</surname>
+              <given-names initials="GJ">Gregory J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scher</surname>
+              <given-names initials="HI">Howard I.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rudin</surname>
+              <given-names initials="CM">Charles M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Robson</surname>
+              <given-names initials="ME">Mark E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Diaz</surname>
+              <given-names initials="LA">Luis A.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Solit</surname>
+              <given-names initials="DB">David B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Aravanis</surname>
+              <given-names initials="AM">Alexander M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reis-Filho</surname>
+              <given-names initials="JS">Jorge S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref rid="CR1" ref-type="corresp">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Memorial Sloan Kettering Cancer Center, Department of Medicine, and Weill Cornell Medical College, New York, NY.</aff>
+        <aff id="A2"><label>2</label>Memorial Sloan Kettering Cancer Center, Human Oncology and Pathogenesis Program, New York, NY.</aff>
+        <aff id="A3"><label>3</label>Memorial Sloan Kettering Cancer Center, Department of Pathology, New York, NY.</aff>
+        <aff id="A4"><label>4</label>GRAIL, Inc. Menlo Park, CA.</aff>
+        <aff id="A5"><label>5</label>Memorial Sloan Kettering Cancer Center, Department of Epidemiology and Biostatistics, New York, NY.</aff>
+        <aff id="A6"><label>6</label>Memorial Sloan Kettering Cancer Center, Department of Radiology, New York, NY.</aff>
+        <aff id="A7"><label>7</label>Memorial Sloan Kettering Cancer Center, Marie-Josée and Henry R. Kravis Center for Molecular Oncology, New York, NY.</aff>
+        <aff id="A8"><label>8</label>Memorial Sloan Kettering Cancer Center, Department of Surgery, and Weill Cornell Medical College, New York, NY.</aff>
+        <aff id="A9"><label>9</label>Equal Contribution</aff>
+        <author-notes>
+          <fn fn-type="current-aff" id="FN1">
+            <label>†</label>
+            <p id="P1">Current affiliation: Foresite Capital Management, San Francisco, CA.</p>
+          </fn>
+          <fn fn-type="current-aff" id="FN2">
+            <label>§</label>
+            <p id="P2">Current affiliation: Genentech, Inc., South San Francisco, CA.</p>
+          </fn>
+          <fn fn-type="current-aff" id="FN3">
+            <label>¥</label>
+            <p id="P3">Current affiliation: MyoKardia, Inc., South San Francisco, CA.</p>
+          </fn>
+          <fn fn-type="current-aff" id="FN4">
+            <label>‡</label>
+            <p id="P4">Current affiliation: BeiGene, Ltd., San Mateo, CA.</p>
+          </fn>
+          <fn fn-type="con" id="FN5">
+            <p id="P5">Author Contributions</p>
+            <p id="P6">Conceived the study: P.R., B.T.L., D.B.S., A.M.A., J.S.R-F; Data acquisition: P.R., B.T.L., B.J., W.A., K.J., C.H., A.A., R.V.S., K.L., L.S., N.E., J.Y., H.X., M.P.H., A.S.-Z, W.F.N, J.M.I., V.W.R., G.P., M.L., A.S., A.S.H., M.L., D.M.H., D.R.J., M.M., G.J.R., H.I.S., C.M.R., M.E.R., L.A.D., D.B.S., A.M.A.; Data analysis and interpretation: P.R., D.N.B., E.H., R.S., I.D.B., O.V., R.L., T.M., Q.L., A.W.B., A.M.A., J.S.R-F. Bioinformatics and genomic analysis: P.R., D.N.B., E.H., R.S., I.D.B., O.V., S.G., A.W.B., A.M.A., J.S.R-F. Manuscript first draft: P.R., D.N.B., E.H., M.P.H., A.M.A., J.S.R-F wrote the manuscript with input from all authors. Manuscript review and approval: all authors.</p>
+          </fn>
+          <corresp id="CR1"><label>*</label>Correspondence to: <email>razavip@mskcc.org</email>, <email>reisfilj@mskcc.org</email></corresp>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>25</day>
+          <month>11</month>
+          <year>2019</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>12</month>
+          <year>2019</year>
+        </pub-date>
+        <volume>25</volume>
+        <issue>12</issue>
+        <issue-id pub-id-type="pmc-issue-id">353931</issue-id>
+        <fpage>1928</fpage>
+        <lpage>1937</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>02</day>
+              <month>11</month>
+              <year>2019</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>25</day>
+              <month>05</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>25</day>
+              <month>05</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-16 13:25:14.537">
+              <day>16</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms-1541314.pdf"/>
+        <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="commentary" xml:lang="en" xlink:title="editorial" journal-id="Ann Transl Med" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC6976472">
+          <article-title>Clonal hematopoiesis: background player in plasma cell-free DNA variants</article-title>
+          <volume>7</volume>
+          <issue>Suppl 8</issue>
+          <date>
+            <month>12</month>
+            <year>2019</year>
+          </date>
+          <elocation-id>S384</elocation-id>
+          <source>Annals of Translational Medicine</source>
+          <pub-id pub-id-type="pmcid">PMC6976472</pub-id>
+          <pub-id pub-id-type="pmid">32016102</pub-id>
+        </related-article>
+        <abstract id="ABS1">
+          <p id="P7">Accurate identification of tumor-derived somatic variants in plasma circulating cell-free DNA (cfDNA) requires understanding the various biologic compartments contributing to the cfDNA pool. We sought to define the technical feasibility of a high-intensity sequencing assay of cfDNA and matched white-blood cell (WBC) DNA covering a large genomic region (508 genes, 2Mb, &gt;60,000X raw-depth) in a prospective study of 124 metastatic cancer patients, with contemporaneous matched tumor tissue biopsies, and 47 non-cancer controls. The assay displayed a high sensitivity and specificity, allowing for <italic toggle="yes">de novo</italic> detection of tumor-derived mutations and inference of tumor mutational burden, microsatellite instability, mutational signatures and sources of somatic mutations identified in cfDNA. The vast majority of cfDNA mutations (81.6% in controls and 53.2% in cancer patients) had features consistent with clonal hematopoiesis (CH). This cfDNA sequencing approach revealed that CH constitutes a pervasive biological phenomenon emphasizing the importance of matched cfDNA-WBC sequencing for accurate variant interpretation.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="S1">
+        <title>Introduction</title>
+        <p id="P8">Circulating cell-free DNA (cfDNA) in the plasma of cancer patients constitutes a potential source of tumor-derived DNA<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup>. Massively parallel sequencing analysis of cfDNA samples from cancer patients revealed that tumor-derived cfDNA (ctDNA) accounts for only a fraction of the total cfDNA, and this fraction varies according to disease burden, site, and tumor biologic features including histology, vascularization, proliferation and apoptosis rates<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref></sup>. ctDNA fraction is extremely low in many early-stage and some metastatic cancers<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref></sup>, requiring methods to detect mutations at extremely low allele fractions<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. Most previous studies focused on analysis of patients with advanced disease using a panel of hotspot mutations or limited genomic regions of key cancer genes sequenced at high depths<sup><xref rid="R8" ref-type="bibr">8</xref>–<xref rid="R10" ref-type="bibr">10</xref></sup>, a large number of genes at moderate sequencing depths<sup><xref rid="R11" ref-type="bibr">11</xref>–<xref rid="R13" ref-type="bibr">13</xref></sup>, or a combination of methods to define ctDNA fraction using shallow whole-genome sequencing or targeted methods followed by whole-exome analysis of samples with a high ctDNA fraction<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup>.</p>
+        <p id="P9">Even when accurate cfDNA assays are utilized, cfDNA sequencing results may still be confounded by biological signals arising from somatic mosaicism<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. One form of somatic mosaicism is clonal hematopoiesis (CH), which results from the accumulation of somatic mutations in hematopoietic stem cells (HSCs) that are clonally propagated to their progeny<sup><xref rid="R17" ref-type="bibr">17</xref></sup>. These somatic mutations may provide a fitness advantage to some HSCs and/or their descendant cells, resulting in their disproportionate expansion<sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R18" ref-type="bibr">18</xref>–<xref rid="R20" ref-type="bibr">20</xref></sup>, or arise through neutral drift<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. CH increases with age and occurs in up to 31% of older individuals<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R22" ref-type="bibr">22</xref>–<xref rid="R26" ref-type="bibr">26</xref></sup>, and can also be detected in cfDNA sequencing analysis<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. In this context, it may confound the interpretation of cfDNA sequencing, particularly because a large proportion of the cfDNA fragments originate from hematopoietic cells<sup><xref rid="R28" ref-type="bibr">28</xref></sup>.</p>
+        <p id="P10">Comparisons of somatic genetic alterations detected in cfDNA samples and their respective tumor biopsies have revealed relatively good concordance between cfDNA and tumor biopsy sequencing, particularly among patients with advanced disease<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R29" ref-type="bibr">29</xref>–<xref rid="R32" ref-type="bibr">32</xref></sup>. Additional somatic variants not present in tumor biopsies but in cfDNA only have also been documented<sup><xref rid="R4" ref-type="bibr">4</xref></sup>; their nature and source (tumor-derived vs. other sources), however, have yet to be defined.</p>
+        <p id="P11">Here, we report on the development of a high-intensity sequencing assay of matched cfDNA and white blood cells (WBCs) for <italic toggle="yes">de novo</italic> characterization of the repertoire of somatic mutations in cfDNA, without <italic toggle="yes">a priori</italic> knowledge of variants present in a matched tumor biopsy. This approach, combined with sequencing of DNA samples extracted from matched tumor tissue biopsies using an FDA-authorized targeted sequencing assay, allowed for categorization and quantification of cfDNA variant sources.</p>
+      </sec>
+      <sec id="S2">
+        <title>Results</title>
+        <sec id="S3">
+          <title>Study design and demographic information</title>
+          <p id="P12">This prospective observational study examined the technical feasibility of a high-intensity circulating cfDNA-based platform in patients with advanced untreated or progressive metastatic breast cancer (MBC), non-small cell lung cancer (NSCLC), or castration-resistant prostate cancer (CRPC), as well as non-cancer control participants (<xref rid="S10" ref-type="sec">Methods</xref>). Briefly, plasma cfDNA and matched WBC genomic DNA (gDNA) from patients with MBC, NSCLC, CRPC, or non-cancer controls were subjected to a targeted capture sequencing assay comprising the entire coding regions of 508 genes and intronic and/or regulatory regions of selected genes (<xref rid="F1" ref-type="fig">Fig. 1a</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>). In cancer patients, tumor biopsies and matched normal WBC samples were collected within 6 weeks of plasma cfDNA samples with no intervening therapy change, and were sequenced in a CLIA-certified environment using the Memorial Sloan Kettering Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT) assay, an FDA-authorized capture-based sequencing assay targeting the coding regions of 410 genes and intronic and/or regulatory regions of selected genes (<xref rid="F1" ref-type="fig">Fig. 1a</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>)<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref></sup>. For the purpose of comparison to tumor biopsies, only variants mapping to the intersection of the 410 genes present in the two gene panels were considered.</p>
+          <p id="P13">Of 161 potentially eligible cancer patients (53 MBC, 53 NSCLC and 55 CRPC) enrolled between September 24, 2015-August 01, 2016, 124, 39 MBCs, 41 NSCLCs and 44 CRPCs were included in the concordance subset (evaluable for both tumor tissue and cfDNA analysis, <xref rid="F6" ref-type="fig">Extended Data Fig. 1</xref>). The clinicopathologic features of the cohort were consistent with those of a contemporary prospectively collected cohort of consecutive cases of these malignancies (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 2</xref>). Of the 50 non-cancer control samples, three failed cfDNA sequencing resulting in 47 evaluable samples.</p>
+        </sec>
+        <sec id="S4">
+          <title>De novo detection of tumor-derived cfDNA mutations</title>
+          <p id="P14">To identify the source of somatic variants found in cfDNA, sequencing was performed independently on cfDNA, WBC gDNA, and each cancer patient’s matched tumor biopsy and WBC gDNA samples (<xref rid="S10" ref-type="sec">Methods</xref>, <xref rid="F1" ref-type="fig">Fig. 1a</xref>). The high-intensity cfDNA sequencing approach simultaneously analyzed plasma cfDNA and WBC gDNA using a targeted assay spanning approximately 2 Mb and utilizing unique molecular identifiers (UMI) to suppress technical assay errors at a minimum raw average target depth of 60,000X (<xref rid="F7" ref-type="fig">Extended Data Fig. 2</xref>). A joint-variant-calling of plasma cfDNA and WBC gDNA variants was performed utilizing a machine learning-based noise model (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>, <xref rid="F8" ref-type="fig">Extended Data Fig. 3a</xref>–<xref rid="F8" ref-type="fig">b</xref>). Together, this resulted in an assay with performance characteristics necessary for the detection of mutations near the molecular limits (high technical sensitivity; <xref rid="F1" ref-type="fig">Fig. 1b</xref>–<xref rid="F1" ref-type="fig">c</xref>), low false positive (&lt;1 error in one million bases sequenced; <xref rid="F8" ref-type="fig">Extended Data Fig. 3c</xref>–<xref rid="F8" ref-type="fig">h</xref>), high reproducibility in independent biological replicates (<xref rid="F1" ref-type="fig">Fig. 1d</xref>–<xref rid="F1" ref-type="fig">e</xref>, <xref rid="F9" ref-type="fig">Extended Data Fig. 4</xref>) and a detection performance comparable to that of digital droplet PCR (ddPCR; <xref rid="F1" ref-type="fig">Fig. 1f</xref>). Our high-intensity sequencing assay was found to have a per base error rate ranging from 1×10<sup>−5</sup> to 3×10<sup>−5</sup> (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>, <xref rid="F7" ref-type="fig">Extended Data Figs. 2</xref>–<xref rid="F8" ref-type="fig">3</xref>, <xref rid="SD3" ref-type="supplementary-material">Supplementary Tables 3</xref>–<xref rid="SD1" ref-type="supplementary-material">5</xref>), which is comparable to that of other high-fidelity cfDNA sequencing assays<sup><xref rid="R25" ref-type="bibr">25</xref>,<xref rid="R35" ref-type="bibr">35</xref>,<xref rid="R36" ref-type="bibr">36</xref></sup>.</p>
+          <p id="P15">Given these assay characteristics, we first sought to define the performance of the high-intensity cfDNA sequencing assay for the detection of tumor-derived biopsy-matched somatic mutations without prior knowledge of the somatic alterations in the tumor cfDNA sequencing analysis (henceforth referred to as <italic toggle="yes">de novo</italic> detection). <italic toggle="yes">De novo</italic> detection of at least one tumor-derived mutation, as defined by MSK-IMPACT sequencing of the tumor biopsy, was observed in 104 of the 124 evaluable patients (84%, 95% confidence interval [CI]: 76%−90%; <xref rid="F2" ref-type="fig">Fig. 2a</xref>). The detection rate in MBCs (95%, 95% CI: 83%−99%) was significantly higher than in NSCLCs (76%, 95% CI: 60%−80%; p=0.0258), and comparable to that of CRPCs (82%, 95% CI: 67%−92%). The large genomic footprint of the assay further allowed <italic toggle="yes">de novo</italic> cfDNA detection of 530 of 740 mutations detected by MSK-IMPACT in tumor biopsies (72%, 95% CI: 66%−75%; <xref rid="F2" ref-type="fig">Fig. 2a</xref>), with similar percentages of tumor-derived mutations detected in MBCs (73%, 95% CI: 67%−79%), NSCLCs (71%, 95% CI: 65%−76%), and CRPCs (71%, 95% CI: 63%−78%).</p>
+          <p id="P16">We next sought to define the genes targeted by <italic toggle="yes">de novo-</italic>detected somatic mutations in cfDNA. Our analysis of genes recurrently mutated in cfDNA as defined by the <italic toggle="yes">de novo</italic>-detected somatic mutations revealed that they consisted mostly of the same genes found to be mutated in the respective tumor samples (<xref rid="F2" ref-type="fig">Fig. 2b</xref> and <xref rid="F10" ref-type="fig">Extended Data Fig. 5</xref>). Most importantly, this led to <italic toggle="yes">de novo</italic> detection of somatic mutations in cfDNA that were present in tumor biopsies but below the MSK-IMPACT assay limit of detection (subthreshold for previously established clinical variant calling cut-offs)<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R37" ref-type="bibr">37</xref></sup>, or were neither detected in the tumor biopsy nor WBCs (variants of unknown source; VUSo).</p>
+          <p id="P17">Given the low false positive rates and accuracy of the assay for measuring variant allele fractions (VAFs; <xref rid="F1" ref-type="fig">Fig. 1d</xref>–<xref rid="F1" ref-type="fig">f</xref>, <xref rid="F9" ref-type="fig">Extended Data Fig. 4</xref>), we quantified the VAFs of somatic mutations not present in the WBCs in controls and cancer patients. All but two of the 67 mutations (97%) detected in controls occurred at VAFs of &lt;1% (<xref rid="F2" ref-type="fig">Fig. 2c</xref>), whereas 51.1%, 56.6%, and 54.5% of the variants detected in MBCs, NSCLCs, and CRPCs, respectively, were detected at VAFs of &lt;1%. In the vast majority of patients (88%), somatic mutations with the highest VAF (mean highest VAF 15.10%; median highest VAF 9.18%) were tumor-matched (biopsy-matched or biopsy-subthreshold; <xref rid="F2" ref-type="fig">Fig. 2d</xref>).</p>
+          <p id="P18">We next investigated whether the sensitivity of the assay would vary according to the prevalence of a given mutation within the tumor biopsy. The detection rate of mutations in cfDNA was significantly correlated with their cancer cell fractions in the tumor biopsies (the percentage of cancer cells within a biopsy bioinformatically inferred to harbor a given mutation in a particular patient; <xref rid="S10" ref-type="sec">Methods</xref>), with mutations defined as clonal being significantly more frequently detected than subclonal ones (p= 5.33e-21; <xref rid="F2" ref-type="fig">Fig. 2e</xref>). Additionally, the ctDNA fraction (the fraction of tumor-derived cfDNA) in metastatic cancer patients varied significantly according to tumor type (p=0.0046; <xref rid="F2" ref-type="fig">Fig. 2f</xref>). To assess the association between disease burden and ctDNA fraction, volumetric assessment of the disease burden was performed (<xref rid="S10" ref-type="sec">Methods</xref>). We found a significant association between the estimated disease volume based on CT scans and the ctDNA fraction (<xref rid="F2" ref-type="fig">Fig. 2g</xref>) in both MBC (n=34, p=1.03e-4) and NSCLC (n=29, p=0.042) patients. For CRPC patients, who had dominant bone metastases and undergone bone scans, an assessment of the association between the automated bone scan index (<xref rid="S10" ref-type="sec">Methods</xref>) and the ctDNA fraction also revealed a significant association (n=39, p=0.023; <xref rid="F2" ref-type="fig">Fig. 2g</xref>).</p>
+          <p id="P19">Taken together, these analyses demonstrate that this cfDNA sequencing assay has a high sensitivity for detection of tumor-derived somatic mutations and identifies mutations subclonally present in tumor tissues. VUSo, on the other hand, which are detected in neither tumor biopsy nor WBC may derive from multiple origins but comprise a set of alterations from which a subset may reflect ongoing tumor evolution and heterogeneity not captured in a small and anatomically constrained biopsy.</p>
+        </sec>
+        <sec id="S5">
+          <title>Tumor mutation burden and mutational signatures</title>
+          <p id="P20">We performed an exploratory analysis to determine whether tumor mutation burden (TMB), mutational signatures<sup><xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R39" ref-type="bibr">39</xref></sup>, and MSI score<sup><xref rid="R40" ref-type="bibr">40</xref></sup> could be defined solely using cfDNA data. Analysis of TMB by MSK-IMPACT sequencing of tumor biopsies revealed six samples with a high TMB (based on the predefined &gt;13.8 mutations/Mb cut-off<sup><xref rid="R33" ref-type="bibr">33</xref></sup>), including two MBCs, three NSCLCs and one CRPC. Four of these cases were also classified as having high TMB by cfDNA (&gt;22.7 mutations/Mb; <xref rid="S10" ref-type="sec">Methods</xref>). The remaining two samples displayed relatively low ctDNA fractions (0.2 and 8.6%) and borderline cfDNA TMB (18.2 and 20.0 mutations/Mb, respectively). cfDNA analysis identified six additional cases with a high TMB not detected as hypermutators by MSK-IMPACT analysis of the tumor biopsy (<xref rid="F3" ref-type="fig">Fig. 3a</xref>, a total of ten cases henceforth referred to as hypermutated). Potential explanations for this observation include spatial tumor heterogeneity between metastatic sites with only some sites demonstrating a hypermutator phenotype. The ten hypermutated cfDNA samples accounted for 75% of the cfDNA biopsy-subthreshold mutations and VUSo across the entire cohort (<xref rid="F3" ref-type="fig">Fig. 3b</xref>) and displayed mutational signatures consistent with the modalities of genetic instability known to occur in MBCs, NSCLCs, and CRPC. All hypermutated MBCs (n=5) and one of the three hypermutated CRPCs displayed the APOBEC mutational signatures<sup><xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R39" ref-type="bibr">39</xref></sup>, known to be acquired in the evolution of MBCs and CRPCs<sup><xref rid="R41" ref-type="bibr">41</xref>,<xref rid="R42" ref-type="bibr">42</xref></sup>. Consistent with the results of previous analysis of NSCLCs<sup><xref rid="R43" ref-type="bibr">43</xref></sup>, the mutational signatures of the two hypermutated NSCLCs comprised the smoking-related signature and a combination of other signatures, including APOBEC, homologous recombination DNA repair-deficiency (HRD), and loss-of-function of mismatch repair (MMR; <xref rid="F3" ref-type="fig">Fig. 3c</xref> and <xref rid="F10" ref-type="fig">Extended Data Fig. 5f</xref>).</p>
+          <p id="P21">High microsatellite instability (MSI-H) is a biomarker of response to immune-checkpoint inhibitors<sup><xref rid="R44" ref-type="bibr">44</xref></sup>. We therefore assessed the MSI status of the cohort utilizing MSIsensor<sup><xref rid="R40" ref-type="bibr">40</xref></sup>, adjusted for the ultra-high sequencing depth of cfDNA, tumor biopsy and matched normal WBCs (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>, <xref rid="F1" ref-type="fig">Supplementary Fig. 1</xref>). Our analysis revealed one CRPC with genomics features of MSI-H (<xref rid="F3" ref-type="fig">Fig. 3d</xref>), which was also found to display a dominant MMR mutational signature (<xref rid="F3" ref-type="fig">Fig. 3c</xref>). This CRPC patient<sup><xref rid="R33" ref-type="bibr">33</xref></sup> received an anti-PD-L1 inhibitor and displayed rapid and sustained tumor regression, as defined by the response evaluation criteria in solid tumors (RECIST v1.1) and prostate-specific antigen (PSA) serological levels (<xref rid="F3" ref-type="fig">Fig. 3e</xref>). Taken together, these results suggest that this cfDNA sequencing assay can accurately detect tumor-derived mutations across a large portion of the genome, potentially allowing for the characterization of tumor mutation burden, MSI status and mutational signatures with resulting implications for treatment selection.</p>
+        </sec>
+        <sec id="S6">
+          <title>Characterization of the biological sources of cfDNA variants</title>
+          <p id="P22">Despite the specificity of the assay for somatic mutation detection, tumor-matched alterations (biopsy-matched and biopsy-subthreshold) accounted for only 24.4% (739/2983 mutations) of all somatic mutations detected in the cfDNA of cancer patients (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Notably, a median of 7.27 (range 0.91–20.91) mutations per Mb were detected in the cfDNA samples of non-cancer controls (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Although previous studies have suggested that these alterations likely constitute technical artifacts of ultra-high-depth sequencing analysis<sup><xref rid="R45" ref-type="bibr">45</xref>,<xref rid="R46" ref-type="bibr">46</xref></sup>, based on the specificity of our assay, we posited that these variants instead stemmed from somatic mosaicism, in particular CH, and tumor-derived events resulting from spatial genetic heterogeneity (as seen in the hypermutated cancer cases).</p>
+          <p id="P23">We first investigated the presence of somatic mutations in the WBC sequencing results (WBC-matched mutations) for the mutations defined as somatic by cfDNA analysis but for which there was no evidence of the mutational event in the matched tumor biopsy. This analysis revealed that in non-cancer controls, the vast majority (81.6%, 297 of 364) of somatic mutations detected were also identified in WBCs, suggesting that these somatic genetic alterations were likely not technical artifacts but rather a result of CH (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Likewise, the majority (53.2%, 918/1727) of the mutations identified in cfDNA samples of non-hypermutated cancer patients were also WBC-matched (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Importantly, the number of WBC-matched cfDNA variants in cancer patients did not correlate with the number of tumor-matched mutations (biopsy-matched or biopsy-subthreshold), making them less likely to be of tumor origin (<xref rid="F4" ref-type="fig">Fig. 4b</xref>, <xref rid="F11" ref-type="fig">Extended Data Fig. 6a</xref>). As CH is related to age<sup><xref rid="R23" ref-type="bibr">23</xref></sup>, we examined the association of age with the number of somatic DNA variants in the cfDNA samples from individual participants. As expected, the number of WBC-matched variants, but not the number of the biopsy-matched or biopsy-subthreshold variants, significantly correlated with age (smoking-adjusted p=3.86e-27; <xref rid="F4" ref-type="fig">Fig. 4c</xref>). Based on this interpretation, the cfDNA and WBC sequencing analysis as performed here suggests that 89.5% of cancer patients and 83% of non-cancer controls have evidence of CH in their cfDNA (<xref rid="F4" ref-type="fig">Fig. 4b</xref>). Consistent with recent observations in a non-cancer population<sup><xref rid="R27" ref-type="bibr">27</xref></sup> and with the notion that these mutations constitute CH events, the vast majority of the WBC-matched somatic mutations detected in cfDNA of cancer patients and non-cancer controls involved canonical CH genes, such as <italic toggle="yes">DNMT3A, TET2, PPM1D</italic> and <italic toggle="yes">TP53</italic> (<xref rid="F4" ref-type="fig">Fig. 4d</xref>, <xref rid="F11" ref-type="fig">Extended Data Fig. 6b</xref>)<sup><xref rid="R10" ref-type="bibr">10</xref></sup>, while some of these pathogenic alterations affected cancer genes other than the canonical CH genes (<xref rid="SD3" ref-type="supplementary-material">Supplementary Table 6</xref>). Additionally, the VAFs of WBC-matched cfDNA variants were correlated with their VAFs in the WBCs (<xref rid="F4" ref-type="fig">Fig. 4e</xref>, <xref rid="F11" ref-type="fig">Extended Data Fig. 6c</xref>–<xref rid="F11" ref-type="fig">d</xref>), making it unlikely that they resulted from systematic sequencing errors or background noise.</p>
+          <p id="P24">Previous studies of hypermutated tumors have demonstrated significant spatial heterogeneity resulting in numerous subclonal mutations private to each tumor site<sup><xref rid="R47" ref-type="bibr">47</xref></sup>. Consistently, the overall proportion of tumor-matched mutations (biopsy-matched and biopsy-subthreshold) was significantly lower in the 10 hypermutated patients (17.2% [216/1210] non-WBC-matched mutations) than in the 114 non-hypermutated patients (30.3% [523/1727]; p=1.2e-16), whereas a higher proportion of tumor-derived variants were subclonal biopsy-subthreshold variants in hypermutated cases (41.2% [89/216] vs. 15.3% [80/523] respectively; p=1.7e-13). These findings support the notion that a single tumor biopsy may not always capture the full landscape of tumor mutational profile in patients whose tumors harbor a hypermutator phenotype.</p>
+          <p id="P25">Given the correlation between sequencing depth and occurance of technical artifacts, we next investigated whether mutations detected in cfDNA at ultra-high sequencing depths could be attributed to residual sequencing noise. Of 215 mutations detected at a collapsed depth of &gt;10,000X, 121 (56.3%) and 20 (9.3%) mutations were identified in two known hypermutated patients (<xref rid="F12" ref-type="fig">Extended Data Fig. 7a</xref>). The variant level collapsed depth of somatic mutations was a function of the mean collapsed target coverage in cfDNA and the amount of input DNA (<xref rid="F12" ref-type="fig">Extended Data Fig. 7b</xref>–<xref rid="F12" ref-type="fig">c</xref>). Furthermore, there was no association between the VAF and the sequencing depth of variants irrespective of source of origin (<xref rid="F12" ref-type="fig">Extended Data Fig. 7d</xref>). These mutations were also highly replicable and could not be attributed to copy number gains or amplification of the corresponding loci (<xref rid="F12" ref-type="fig">Extended Data Fig. 7e</xref>–<xref rid="F12" ref-type="fig">h</xref>). Overall, these results indicate that the mutations found at high sequencing depths were unlikely to constitute sequencing artifacts.</p>
+          <p id="P26">We next sought to define the biological source of nonsynonymous VUSo in cfDNA (<xref rid="S10" ref-type="sec">Methods</xref>). After removing variants with known source-of-origin (WBC-matched; biopsy-matched and biopsy-subthreshold in cancer patients), approximately 31.9% of non-cancer controls had no additional variants identified in cfDNA, with the remaining 68.1% harboring at least one VUSo (<xref rid="F4" ref-type="fig">Fig. 4b</xref>).</p>
+          <p id="P27">In cancer patients, 77.7% (994/1280) of the VUSo were detected in the 10 hypermutated cancer samples. In fact, VUSo accounted for 82.1% (994/1210) of the total non-WBC-matched somatic cfDNA mutations in hypermutated samples as compared with 35.4% (286/809) in non-hypermutated tumors (p=9.3e-103). Additionally, VUSo rarely constituted the mutation at the highest VAF in cancer patients (17.6%, 23.1% and 19.5% of MBCs, NSCLCs and CRPCs, respectively). These findings indicate that a large proportion of the VUSo likely originated from the tumor and may not have been detected in the biopsy sample taken, due to spatial tumor heterogeneity and sampling bias. To investigate the potential origins of the VUSo further, we evaluated the genes harboring variants classified as such in cancer patients (<xref rid="F2" ref-type="fig">Fig. 2b</xref>, <xref rid="F10" ref-type="fig">Extended Data Fig. 5a</xref>). A subset of VUSo affected specific genes known to harbor somatic mutations occurring late in the evolution of the respective cancer type and commonly found altered at subclonal levels in metastatic cancers, including mutations in <italic toggle="yes">ESR1, RB1,</italic> and <italic toggle="yes">NF1</italic> in MBC, the <italic toggle="yes">EGFR</italic> T790M mutation in NSCLC, and <italic toggle="yes">AR</italic> mutations in CRPC (<xref rid="F2" ref-type="fig">Fig. 2b</xref>, <xref rid="F10" ref-type="fig">Extended Data Fig. 5a</xref>)<sup><xref rid="R37" ref-type="bibr">37</xref></sup>. Further, the VAF distribution for these mutations mostly mirrored that of biopsy-matched variants (<xref rid="F4" ref-type="fig">Fig. 4e</xref>, <xref rid="F11" ref-type="fig">Extended Data Fig. 6c</xref>–<xref rid="F11" ref-type="fig">d</xref>). In hypermutated cases, however, a significant correlation between the size of the sequenced coding region of a gene harboring VUSo and the number of VUSo affecting the given gene was observed (p=4.4e-16; <xref rid="F10" ref-type="fig">Extended Data Fig. 5b</xref>). To determine the accuracy of the cfDNA assay for detecting VUSo, we performed orthogonal validation of our results utilizing ddPCR assays targeting VUSo (<xref rid="S10" ref-type="sec">Methods</xref>, <xref rid="F4" ref-type="fig">Fig. 4f</xref>) and found complete agreement between the two assays. Based on these results, we posit that these VUSo are for the most part tumor-derived and stem from increased mutational rates found in cancer cells from patients with tumors displaying a hypermutator phenotype. It should be noted that, in controls, the genes most frequently harboring VUSo also included canonical CH genes (<xref rid="F10" ref-type="fig">Extended Data Fig. 5c</xref>). Consistent with the notion that at least a subset of VUSo arise from CH or other sources of somatic mosaicism not present in matched WBC samples, VUSo were weakly associated with age at sample collection (p=0.141; <xref rid="F4" ref-type="fig">Fig. 4c</xref>), affected canonical CH genes in both cancer patients and controls (<xref rid="F10" ref-type="fig">Extended Data Fig. 5c</xref>–<xref rid="F10" ref-type="fig">e</xref>), with some having similar allele frequencies as WBC-matched variants (<xref rid="F4" ref-type="fig">Fig. 4e</xref>, <xref rid="F11" ref-type="fig">Extended Data Fig. 6c</xref>–<xref rid="F11" ref-type="fig">d</xref>).</p>
+          <p id="P28">Taken together, this high-intensity cfDNA sequencing assay identified CH mutations as the most probable origin of non-tumor derived mutations detected in cfDNA, that CH is likely more prevalent than previously reported with lower-depth WBC sequencing approaches<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R22" ref-type="bibr">22</xref>–<xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R26" ref-type="bibr">26</xref></sup>, and that subclonal tumor-derived mutations absent in the tumor biopsy can be detected in cfDNA.</p>
+        </sec>
+        <sec id="S7">
+          <title>Characterization of WBC variants</title>
+          <p id="P29">High-depth sequencing analysis of WBCs currently constitutes the main approach for the detection of somatic alterations originating from CH. Here, the cfDNA assay detected 57.3% of the somatic variants with supporting reads in WBCs which were also sequenced utilizing the same high-intensity assay (<xref rid="F5" ref-type="fig">Fig. 5a</xref>; <xref rid="S10" ref-type="sec">Methods</xref>). At least one CH mutation was detected in 99.1% of the WBCs of the cancer patients analyzed, and in 93.6% of the non-cancer controls. If a patient harbored a mutation affecting a canonical CH gene, there was a high likelihood of other CH mutations being detected in the same patient, and in those with CH events, the number of mutations was significantly correlated with age (p=6.09e-64, <xref rid="F5" ref-type="fig">Fig. 5b</xref>). In 41.6% of patients with metastatic cancer, the mutation found at the highest VAF affected one of the 15 canonical CH-related genes, with <italic toggle="yes">DNMT3A</italic> and <italic toggle="yes">TET2</italic> being the genes whose mutations were most frequently detected at the highest VAFs in both non-cancer controls and metastatic cancer patients (<xref rid="F5" ref-type="fig">Fig. 5c</xref>).</p>
+          <p id="P30">Consistent with previous studies suggesting that therapeutic interventions may result in the acquisition of specific types of CH events<sup><xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R48" ref-type="bibr">48</xref></sup>, our results indicated that somatic mutations affecting <italic toggle="yes">PPM1D</italic> were significantly more frequently detected in cancer patients than in controls (age-adjusted p=0.0115, <xref rid="F5" ref-type="fig">Fig. 5c</xref>). In addition, mutations affecting <italic toggle="yes">PPM1D</italic>, in particular truncating variants preferentially affecting the C-terminal domain (<xref rid="F5" ref-type="fig">Fig. 5d</xref>, <xref rid="F13" ref-type="fig">Extended Data Fig. 8</xref>), were significantly more common in patients who received chemotherapy and/or radiation therapy than in those who had no prior history of such treatments (age- and smoking-adjusted p=0.0008, <xref rid="F5" ref-type="fig">Fig. 5c</xref>).</p>
+        </sec>
+        <sec id="S8">
+          <title>Gene copy number variation detection</title>
+          <p id="P31">As an exploratory analysis, we sought to define whether the high-intensity cfDNA assay would be able to detect copy number variations (CNVs) <italic toggle="yes">de novo</italic>. We observed a relatively good concordance between CNVs detected in tumor biopsies and cfDNA only in cases where the ctDNA fractions were ≥10% (<xref rid="F14" ref-type="fig">Extended Data Fig. 9</xref>). Despite this limitation, in five patients with actionable CNVs (n=4 <italic toggle="yes">ERBB2</italic> amplified MBCs and n=1 <italic toggle="yes">MET</italic> amplified NSCL), three of the <italic toggle="yes">ERBB2</italic> amplifications could be detected <italic toggle="yes">de novo</italic>. In the two cases where actionable CNVs were present in the MSK-IMPACT tumor biopsy but not in cfDNA, the ctDNA fractions were 1.3% and 1.9% (<xref rid="F15" ref-type="fig">Extended Data Fig. 10</xref>). None of the remaining samples tested harbored amplifications of these two genes thereby demonstrating the specificity. The performance of the cfDNA assay to detect of gene amplifications in cfDNA, however, was found to be highly dependent on the ctDNA fraction.</p>
+        </sec>
+      </sec>
+      <sec id="S9">
+        <title>Discussion</title>
+        <p id="P32">Most clinical cfDNA assays in current use target a small panel of genes or hotspot mutations in key cancer genes, and do not incorporate matched WBC sequencing. Previous attempts at broadening the genomic area probed by cfDNA sequencing assays resulted in the identification of not only mutations known to be present in tumors but also a large number of variants absent in the respective tumor tissues and inferred to be somatic. Despite the use of multiple strategies to mitigate sequencing artifacts, it has been postulated that high-depth sequencing assays covering a large genomic region would inevitably result in the identification of a high number of false positive sequencing variants<sup><xref rid="R45" ref-type="bibr">45</xref>,<xref rid="R46" ref-type="bibr">46</xref></sup>. Here, we devised a high-intensity cfDNA sequencing assay covering a large genomic region based on a joint analysis of cfDNA and WBC gDNA, utilizing UMIs to suppress technical assay errors and hierarchical Bayesian error correction models to mitigate mutation detection artifacts stemming from ultra-high sequencing depths. Our findings highlight the importance of having methods to mitigate sequencing errors coupled with matched WBC sequencing performed at similar depths to those employed for the cfDNA analysis. Without taking into account the results of WBC sequencing, cfDNA sequencing, as often currently performed in the clinical setting, might be misleading, given that some CH mutations affecting cancer genes may be interpreted as tumor-derived mutations (e.g. <italic toggle="yes">TP53</italic> mutations).</p>
+        <p id="P33">The high-intensity cfDNA sequencing approach allowed for robust <italic toggle="yes">de novo</italic> detection of somatic mutations with a sensitivity similar to that of ddPCR (<xref rid="F1" ref-type="fig">Fig. 1f</xref>) and was comparable to previous high-depth targeted sequencing efforts<sup><xref rid="R49" ref-type="bibr">49</xref>–<xref rid="R51" ref-type="bibr">51</xref></sup>, allowing for the detection in cfDNA of 77.4% of the repertoire of somatic mutations reported in the matched tumor biopsy samples from patients with advanced cancers. Given the large genomic footprint and the limited number of false positive variants (<xref rid="F1" ref-type="fig">Figs. 1d</xref>–<xref rid="F1" ref-type="fig">e</xref>), this cfDNA assay also allowed for the <italic toggle="yes">de novo</italic> assessment of tumor mutational burden and mutational signatures, including MSI (<xref rid="F3" ref-type="fig">Fig. 3a</xref>–<xref rid="F3" ref-type="fig">e</xref>), in patients with advanced cancers.</p>
+        <p id="P34">Our analyses revealed that the majority of non-tumor-matched nonsynonymous somatic mutations identified in cfDNA had supporting reads present in the respective WBC gDNA samples, which were present in the vast majority of non-cancer controls and cancer patients. These WBC-matched mutations preferentially affected genes previously implicated in CH<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R22" ref-type="bibr">22</xref>–<xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R26" ref-type="bibr">26</xref></sup> and their presence was strongly associated with age at collection of the blood sample. The number of these probable CH variants per patient was on average higher than the number of tumor-matched variants in metastatic patients. The higher prevalence of CH found in WBCs in this study (93.6% of non-cancer controls and 99.1% of cancer patients) relative to that reported in prior studies<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R22" ref-type="bibr">22</xref>–<xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R26" ref-type="bibr">26</xref></sup> likely resulted from the high sensitivity of the assay employed to detect variants in the WBC samples<sup><xref rid="R52" ref-type="bibr">52</xref>,<xref rid="R53" ref-type="bibr">53</xref></sup> and was consistent with the observation by Liu <italic toggle="yes">et al.</italic> in a non-cancer population<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. In our study, however, both cfDNA and WBC samples were ultra-deep sequenced at comparable raw depths, allowing for the distinction between CH and tumor-derived mutations. Although the genes recurrently affected by these somatic genetic alterations were genes previously implicated in CH, the majority of the WBC-matched variants were private to individual patients, suggesting that accounting for them in cfDNA-based clinical assays requires the sequencing of cfDNA and matched WBC DNA in a patient-specific manner. Indeed, recent studies<sup><xref rid="R25" ref-type="bibr">25</xref>,<xref rid="R28" ref-type="bibr">28</xref>,<xref rid="R54" ref-type="bibr">54</xref></sup> have demonstrated in a limited number of patients that a large proportion of somatic variants in WBCs can also be identified in cfDNA, resulting in the detection of ‘false-positive’ tumor-derived mutations in cfDNA. These findings provide a plausible explanation for the inconsistent results between cfDNA and tumor tissue assays, which may be due to a subset of non-tumor origin (e.g. CH) cfDNA variants being interpreted as tumor-derived<sup><xref rid="R25" ref-type="bibr">25</xref>,<xref rid="R28" ref-type="bibr">28</xref>,<xref rid="R54" ref-type="bibr">54</xref></sup> and support the need for joint analysis of cfDNA and matched WBC, given that mutations related to CH may result in inaccurate tumor mutation burden and mutational signature quantification<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R28" ref-type="bibr">28</xref></sup>.</p>
+        <p id="P35">We also demonstrated that VUSo could have multiple origins, including tumor heterogeneity, CH occurring at extremely low levels, other sources of somatic mosaicism, or a small amount of residual technical noise. The majority of the observed VUSo were found to be tumor-derived and arose from minor tumor subclones, and 77.7% of all VUSo in cancer patients were identified in 10 patients whose tumors harbored hypermutator mutational processes, such as APOBEC, known to amplify tumor heterogeneity and subclonal diversity. Hence, high-intensity cfDNA assays may offer a more comprehensive landscape of tumor mutational profile than tumor tissue sequencing alone.</p>
+        <p id="P36">This study has several limitations. Colorectal carcinomas, another common form of cancer, were not included in this study; a recent study, however, has demonstrated the importance of cfDNA sequencing in defining the heterogeneity and mechanisms of therapeutic resistance in advanced colorectal cancers<sup><xref rid="R15" ref-type="bibr">15</xref></sup>. The tumor assessment was limited to the analysis of a single tumor biopsy due to limitations in obtaining multiregional biopsies in the clinical setting. As such, the full scope of tumor heterogeneity may not have been entirely captured<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. This caveat, however, would remain regardless of the number of sites biopsied. Non-cancer controls were from a different source and were processed in different batches from the tumor samples, potentially affecting results. Given that the number of samples in each tumor subgroup was relatively small, the analysis performed here may not have captured the full clinical or genomic diversity of MBCs, NSCLCs, and CRPCs, and their respective subtypes. Additionally, &lt;50 baseline samples from healthy control were employed to train the hierarchical Bayesian model, which might be further improved through the analysis of additional samples from healthy donors followed longitudinally. Our findings also emphasize the importance of high-depth WBC sequencing, and even when this approach is employed, a subset of VUSo might still originate from CH not detected in the matched WBC sample, other sources of somatic mosaicism, benign neoplasms and/or other forms of occult cancers not detected in the extensive clinical work up performed on the patients included in this study. Finally, the cost of this high-intensity cfDNA sequencing assay may preclude its broader adoption in the clinical context at present.</p>
+        <p id="P37">Despite these limitations, the high-intensity cfDNA sequencing assay described here represents an advancement in the development of approaches for <italic toggle="yes">de novo</italic> detection of the repertoire of somatic genetic alterations in cancer patients and provides further evidence that CH likely constitutes a biological phenomenon and a technical pitfall more prevalent than previously anticipated.</p>
+      </sec>
+      <sec id="S10">
+        <title>Methods</title>
+        <sec id="S11">
+          <title>Study design</title>
+          <p id="P38">This was a prospective observational study of patients with metastatic breast (MBC), non-small cell lung (NSCLC), and castration resistant prostate (CRPC) cancer designed to characterize the detection of variants in plasma cfDNA using a targeted DNA assay (GRAIL, Inc.; Menlo Park, CA), and to evaluate the concordance of variant detection between tissue and plasma as evidence of ctDNA detection. The primary objectives were to assess the tumor cfDNA detection rate based on observing at least one variant (single-nucleotide variants [SNVs], indels); and to assess the concordance of the MSK-IMPACT variants<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref></sup> detected in tumor biopsy samples versus cfDNA. Secondary objectives included assessing the ctDNA detection rate based on observing at least one MSK-IMPACT variant, characterizing the ctDNA detection rate as a function of the type of variant (SNV, indels) and the number of variants detected, and characterizing the proportion of patients with variants detected.</p>
+        </sec>
+        <sec id="S12">
+          <title>Patient enrollment</title>
+          <p id="P39">All patients provided written informed consent for tumor, cfDNA and WBC sequencing, and review of patient medical records for detailed demographic, pathologic and treatment information under an IRB-approved biospecimen umbrella protocol (Memorial Sloan Kettering Cancer Center [MSKCC] protocol 12–245, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://clinicaltrials.gov">clinicaltrials.gov</ext-link> ID: <related-object id="RO1" source-type="clinical-trials-registry" source-id="ClinicalTrials.gov" source-id-type="registry-name" document-id="NCT01775072" document-id-type="clinical-trial-number"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01775072">NCT01775072</ext-link></related-object>). At least 50 patients of each type of cancer were enrolled to obtain evaluable patients with both the targeted DNA assay and MSK-IMPACT analysis. Clinical data (baseline demographics, cancer history, and prior lines of therapy) were collected from medical records.</p>
+          <p id="P40">Patients with MBC, NSCLC, or CRPC with disease progression as assessed by the investigator were eligible. Disease progression was based on objective radiographic and/or physical exam and/or biomarker results. Patients diagnosed with <italic toggle="yes">de novo</italic> or recurrent stage IV NSCLC or MBC were allowed to be included if enrolled prior to initiation of the first line of treatment for metastatic disease. No new therapies were permitted to be initiated between tissue biopsy and blood draw. Patients with progressive disease on stable doses of treatment (e.g. hormone therapy) were eligible. Blood was drawn within 6 weeks of tissue biopsy for MSK-IMPACT analysis either prior to or after tissue biopsy. Whole blood samples received outside of the stability timeframe for Streck DNA BCT (5 days) were excluded.</p>
+          <p id="P41">Fifty de-identified whole blood samples from self-reported healthy individuals (no diagnosis of cancer) were obtained from the San Diego Blood Bank (San Diego, CA). Limited clinical data were provided with the samples. Healthy participants were required to be at least 20 years of age, meet all eligibility for blood donation per standardized assessment and criteria, to lack a diagnosis of cancer, and to have no prior history of cancer. Participants were excluded if they had a prior history of cigarette smoking for at least one year, a current history of cigarette smoking, were pregnant, had a personal history of cancer, or had prior medical or surgical treatment of any type of cancer. Results were not returned to any patients, health care providers, or the San Diego Blood Bank.</p>
+        </sec>
+        <sec id="S13">
+          <title>Tumor sample accessioning, processing, and analysis</title>
+          <p id="P42">For the 161 cancer patients, tumor DNA was extracted from FFPE biopsy samples and matched normal DNA was extracted from mononuclear cells from peripheral blood. All specimens underwent next-generation sequencing in the MSKCC CLIA-certified laboratory using MSK-IMPACT, an FDA-authorized hybridization capture-based next-generation sequencing assay, which analyzes all protein-coding exons of 410 cancer-associated genes (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>), as previously described<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref></sup>. Average sequencing coverage across all tumors was greater than 900X. Somatic mutations, DNA copy number alterations, and structural rearrangements were identified as previously described<sup><xref rid="R34" ref-type="bibr">34</xref></sup> and all mutations were manually reviewed. After excluding samples with insufficient tumor tissue, with insufficient data quality due to low total DNA quantity and purity, or that failed library preparation, a total of 124 patients had complete MSK-IMPACT results (<xref rid="F6" ref-type="fig">Extended Data Fig. 1</xref>).</p>
+          <p id="P43">In addition to the gene-level amplification and deletion calls generated by the MSKCC Diagnostic Molecular Pathology pipeline, genome-wide total and allele-specific DNA copy numbers were determined using the FACETS algorithm<sup><xref rid="R56" ref-type="bibr">56</xref></sup> for prospectively sequenced patients. Purity, average ploidy, and allele-specific integer-copy number for each segment were then determined by maximum likelihood. To determine the clonality of each mutation, we used allele-specific copy number inference from FACETS to calculate the fraction of mutated cancer cells (cancer cell fraction, CCF) as previously described<sup><xref rid="R57" ref-type="bibr">57</xref></sup>. Clonal mutations were those with a CCF (assuming the number of mutant copies was equal to the number of copies of the more frequent allele) greater than 0.8 or the upper bound of the CCF confidence interval was &gt;0.85. Mutations with CCFs not meeting these conditions were defined as subclonal.</p>
+        </sec>
+        <sec id="S14">
+          <title>Whole blood sample collection, accessioning, and preparation</title>
+          <p id="P44">Peripheral blood from patients with metastatic cancer was collected into two 10 mL Cell-Free DNA BCT (Streck; La Vista, NE) at MSKCC (New York, NY) and shipped to GRAIL, Inc. (Menlo Park, CA) at room temperature. Whole blood from healthy individuals drawn into Streck BCTs were purchased from the San Diego Blood Bank (San Diego, CA) and shipped to GRAIL, Inc. at room temperature. Received whole blood Streck BCTs were separated into plasma and buffy coat and stored at −80°C unless processed the same day.</p>
+          <p id="P45">cfDNA was extracted from two tubes of plasma (up to a combined volume of 8 ml) per subject using a modified QIAamp Circulating Nucleic Acid kit (Qiagen; Germantown, MD). Extracted cfDNA was quantified using the Fragment Analyzer High Sensitivity NGS kit (Advanced Analytical Technologies; Ankeny, IA). Genomic DNA (gDNA) from matching buffy coat (paired plasma and buffy coat from the same blood tube) was extracted using the Qiagen DNEasy Blood and Tissue kit. Extracted gDNA was quantified using NanoDrop (Thermo Scientific; Waltham, MA) and fragmented to a mean size of 180 base pairs using the Covaris E220 ultrasonicator (Woburn, MA). Sheared gDNA was subsequently size-selected using Agencourt AMPure XP magnetic beads (Beckman Coulter; Beverly, MA), then quantified using the Fragment Analyzer Standard Sensitivity NGS kit (Advanced Analytical Technologies; Ankeny, IA).</p>
+        </sec>
+        <sec id="S15">
+          <title>Library preparation, target enrichment, and sequencing</title>
+          <p id="P46">Buffy coat gDNA (50ng) and plasma cfDNA (≤75ng) were used for NGS library construction with a modified Illumina TruSeq DNA Nano protocol. Details are available in the <xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref></p>
+        </sec>
+        <sec id="S16">
+          <title>Analysis pipeline</title>
+          <p id="P47">A modular analysis pipeline was implemented to enable detection of mutations at very low allele fraction by suppressing noise caused by assay and alignment processes. The details of this pipeline are provided in the <xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>. In brief, this methodology consisted of: (1) preprocessing and a first-pass alignment, (2) collapsing and read-pair stitching, (3) candidate variant generation by <italic toggle="yes">de novo</italic> assembly, (4) edge effect scoring, (5) candidate variant analysis with recalibrated quality scores based on a hierarchical Bayesian model, and (6) joint variant analysis using the machine learning error model (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>), which was critical in accounting for clonal hematopoiesis of indeterminate potential and other artifacts.</p>
+        </sec>
+        <sec id="S17">
+          <title>Source of origin of plasma variants</title>
+          <p id="P48">Variants reported by <italic toggle="yes">de novo</italic> assembly from control and cancer samples were stacked, and their source-of-origin were labeled through a hierarchical schema. First, variants with low read coverage (&lt;200), high frequency of recurrence in WBCs, failed edge-variant filter, or below the noise model threshold were labeled as noise. Second, variants with allele fraction &gt;20% matched in WBC were labeled as potentially germline. Third, synonymous variants were labeled as an independent category. Fourth, variants present in WBCs identified by joint-calling or leaking through joint-calling but failing additional thresholds were labeled as `WBC-matched’. The additional threshold filtered variants on smoothed cfDNA allele ratio and matching WBC alternative allele depth variation. Variants unable to be joint-called as separable from WBC were labeled ambiguous (no positive evidence for variant alleles in WBC, but insufficient depth of sequencing to prove allele frequency was statistically different in cfDNA and WBC results). The remaining variants were labeled as somatic. Somatic variants also present in the MSK-IMPACT sequencing of the tumor biopsy were labeled as biopsy-matched if they had been reported or biopsy-subthreshold if they were below the limit for variant calling as required for clinical reporting. Variants not matched were labeled as `variants of unknown source’ (VUSo).</p>
+        </sec>
+        <sec id="S18">
+          <title>Tumor concordance</title>
+          <p id="P49">Overall agreement between variants in plasma and tumor tissue was measured using positive percent agreement (PPA) with tumor tissue as the reference; this can be expressed as the percent of tissue variants also detected in plasma. The top mutated cancer genes were generated by merging the top 15 genes reported by MSK-IMPACT analysis from each cancer cohort. Somatic variants (VUSo, biopsy-matched, and biopsy-subthreshold) from the top mutated cancer genes were selected from plasma variants for plotting and comparison.</p>
+        </sec>
+        <sec id="S19">
+          <title>Disease burden and ctDNA fraction</title>
+          <p id="P50">The ctDNA fraction for each plasma sample was estimated from clonal biopsy-matched mutations. Briefly, we first obtained the CCF estimate of somatic mutations detected in the matched tumor biopsy sample using the FACETS algorithm as previously described<sup><xref rid="R56" ref-type="bibr">56</xref></sup>, and then derived the ctDNA fraction based on the VAF in cfDNA of the biopsy-matched clonal mutations.</p>
+          <p id="P51">Seventy-seven of the 80 patients in the NSCLC and MBC cohorts had computerized tomography (CT) scans available from which volumetric tumor measurements could be obtained. Of these, 34 of the exams were CTs of the chest, abdomen, and pelvis without IV contrast, obtained as part of a positron emission tomography (PET)/CT exam; 32 exams were CTs of the chest, abdomen, and pelvis with IV contrast; 5 exams were CTs of the chest only with IV contrast; 4 exams were CTs of the chest only without IV contrast; and 2 exams were CTs of the chest and abdomen with IV contrast. Exams were acquired on several different scanners at slice thicknesses ranging from 3.75 – 5 mm.</p>
+          <p id="P52">All exams were reviewed by a board-certified radiologist specializing in imaging of the chest, abdomen, and pelvis (KJ). All metastatic lesions &gt;1 cm in diameter were identified. Volumes were measured on all lesions except bone lesions. Bone lesions often have poorly defined borders and active metastases are difficult to distinguish from treated disease. Volumes were measured using the Aquarius iNtuition advanced visualization software, version 4.4.13.P3 (TeraRecon, Inc, Foster City, CA). Of the 77 patients with available volumetric assessment, 34 MBC and 29 NSCLC patients had evaluable ctDNA fraction and were included in this analysis.</p>
+          <p id="P53">Given that the majority of CRPC patients included in this study had extensive bone disease and had undergone bone scans prior to enrollment in the study, the approach employed for the volumetric assessment of disease burden was different from that used for MBCs and NSCLCs. For prostate cancer patients, we generated the automated bone scan index (aBSI, platform version 3.3, EXINI Diagnostics AB, Lund, Sweden), a fully quantitative assessment of a patient’s bony disease on a bone scan that reports the number of lesions, area and the fraction of the total skeleton weight that is involved by tumor, as a proxy for bone disease burden. The methodology of the automated platform has been described in previous studies<sup><xref rid="R58" ref-type="bibr">58</xref></sup>. In brief, a neural network automatically segments the different anatomical regions of the skeleton followed by detection and classification of the abnormal hotspots. The weight fraction of the skeleton for each metastatic hotspot was calculated and the aBSI was calculated as the sum of all such fractions. The aBSI method utilized in this study has been shown to be an objective measure of the quantitative change in disease burden bone scans and a prognostic biomarker in patients with CRPC<sup><xref rid="R59" ref-type="bibr">59</xref></sup>.</p>
+        </sec>
+        <sec id="S20">
+          <title>Mutation burden and association with age at diagnosis</title>
+          <p id="P54">Mutation burden was calculated as the number of nonsynonymous mutations per megabase pair of genome sequenced. The relationship of mutation burden with age and cancer status was examined by fitting a zero-inflated Poisson regression with the cancer status and smoking history as covariates. To assess the age relationship with variant source, the analysis above was stratified by variant source of origin.</p>
+        </sec>
+        <sec id="S21">
+          <title>Mutational signatures from hypermutated patients</title>
+          <p id="P55">The threshold of mutation burden used to define hypermutated patients was defined as 13.8 mutations/Mb<sup><xref rid="R33" ref-type="bibr">33</xref></sup> for the tumor biopsy whilst the corresponding value for cfDNA was evaluated <italic toggle="yes">de novo</italic> from the samples of cancer patients as median (cfDNA mutation burden) + 2 × IQR (cfDNA mutation burden), where IQR is the interquartile range. The contributions of different mutation signatures were identified for each sample according to the distribution of the six substitution classes (C&gt;A, C&gt;G, C&gt;T, T&gt;A, T&gt;C, T&gt;G) and the bases immediately 5′ and 3′ of the mutated base, producing 96 possible mutation subtypes using deconstructSigs<sup><xref rid="R60" ref-type="bibr">60</xref></sup>. For the analyses described here, we focused on six signatures: (1) aging (signature 1 and 5), (2) APOBEC (signatures 2 and 13), (3) homologous recombination repair deficiency (HRD, signature 3), (4) MMR (signatures 6, 15, 20 and 26), (5) smoking (signature 4), and (6) POLE (signature 10).</p>
+        </sec>
+        <sec id="S22">
+          <title>Prevalence of clonal hematopoiesis in cfDNA</title>
+          <p id="P56">WBC-matched variant occurrence was measured at the gene level using the ratio between the number of variants in a gene versus the total number of variants. The cumulative frequency was generated by first ranking the ratio by descending order and then recursively adding ratio together. Top mutated genes carrying WBC-matched variants were visualized by a heatmap. The top 20 genes were selected from each cohort and merged to form the final list of top genes. The number of patients carrying WBC-matched variants in each gene was used to measure the gene occurrence.</p>
+        </sec>
+        <sec id="S23">
+          <title>Prevalence of clonal hematopoiesis in WBC</title>
+          <p id="P57">Candidate variants in WBC were generated by <italic toggle="yes">de novo</italic> assembly of error corrected and stitched read pairs and post-filtered as follows: (1) following quality score recalibration, variants with low quality (&lt;60) or low depth (&lt;500X) as well as <italic toggle="yes">bona fide</italic> somatic variants found in the corresponding tumor biopsy were excluded from downstream analyses; (2) technical artifacts occurring at identical genomic coordinates and representing identical reference and alternate alleles recurring at &gt;5% were filtered out to avoid possible technical artifacts unless (a) they had previously been reported as somatic in any of COSMIC (v86), Kandoth <italic toggle="yes">et al.</italic><sup><xref rid="R61" ref-type="bibr">61</xref></sup> or Chang <italic toggle="yes">et al.</italic><sup><xref rid="R62" ref-type="bibr">62</xref></sup> or (b) they were frameshifting indels or truncating SNVs and occurred in one of 15 canonical genes known to be associated with CH; (3) variants with VAF &gt;30% were labelled germline and filtered out unless they were frameshifting indels or truncating SNVs and occurred in one of the 15 canonical CH genes; (4) variants occurring at any allele frequency in ExAC or gnomAD<sup><xref rid="R63" ref-type="bibr">63</xref></sup> were labelled germline and filtered out; (5) variants mapping to the HLA-A locus were excluded; and (6) only nonsynonymous exonic variants passing the above filters were considered further. The highest variant level recurrences occurred in <italic toggle="yes">DNMT3A</italic>, <italic toggle="yes">TET2</italic>, <italic toggle="yes">PPM1D</italic> and <italic toggle="yes">TP53</italic> at &lt;5% recurrence (<xref rid="F12" ref-type="fig">Extended Data Fig. 7</xref>) consistent with the joint-variant-calling of plasma cfDNA where the top mutated genes harboring WBC-matched variants were identical (<xref rid="F4" ref-type="fig">Fig. 4d</xref> and <xref rid="F11" ref-type="fig">Extended Data Fig. 6</xref>). The 15 canonical genes known to be associated with CH were <italic toggle="yes">DNMT3A, TET2, ASXL1, PPM1D, TP53, JAK2, RUNX1, SF3B1, SRSF2, IDH1, IDH2, U2AF1, CBL, ATM</italic> and <italic toggle="yes">CHEK2</italic>.</p>
+        </sec>
+        <sec id="S24">
+          <title>Summary of variants and variant allele fractions in cfDNA</title>
+          <p id="P58">The mean and median number of each type of identified variant in the samples, as well as the mean and median VAF in the samples, are described in <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 7</xref>. In cfDNA samples, more WBC-matched variants than biopsy-matched variants or VUSo were identified. Median VAF in cfDNA was higher for biopsy-matched variants than for WBC-matched variants or VUSo.</p>
+        </sec>
+        <sec id="S25">
+          <title>Sensitivity and specificity of the targeted DNA assay</title>
+          <p id="P59">Prior to analysis of patient samples with the targeted DNA assay, analytical characterization was performed using titrations of DNA from cell lines. Genomic DNA extracted from EBV-immortalized lymphoblastoid cell line (NA12878) was purchased from Coriell Institute (Camden, NJ). The HD753 Structural Multiplex Reference Standard gDNA, which contains known SNVs, indels, fusions, and deletions, was purchased from Horizon Discovery (Cambridge, MA) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 8</xref>). Fifteen DNA titrations using the HD753 standard and the NA12878 gDNA were prepared in triplicate to have nominal expected VAFs of 0, 0.1, 0.25, 0.5, and 1% for a majority of variants. The gDNA titrations were verified using ddPCR (Bio-Rad; Hercules, CA) to ensure dilution accuracy (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 9</xref>). Following ddPCR verification, DNA mixtures were sheared and size-selected according to the targeted DNA assay protocol. 30 ng of sheared, size-selected gDNA was used for library construction, resulting in a mean collapsed target coverage of 2,430X.</p>
+          <p id="P60"><xref rid="F1" ref-type="fig">Fig. 1b</xref> shows the estimated sensitivity of the targeted DNA assay at various VAFs, using a probit regression model of variant calling status of 14 known small variants in all HD753 gDNA titrations. Each half FASTQ of one replicate was also combined into the other two FASTQs of replicates in the same titration to create three additional FASTQs (i.e. if the triplicates are labelled A, B and C, the three simulated samples are AB=0.5A+0.5B, AC=0.5A+0.5C and BC=0.5B+0.5C), simulating higher input sample cases. The mean collapsed target coverage of simulated samples (n=10) at the FASTQ level was 4,577X, which is similar to the median of mean collapsed target coverages for all cancer patient samples reported here (4,408X). The estimated 95% limit of detection was 0.36% for 30 ng of input DNA (mean collapsed target coverage of 2,430X), and 0.16% for simulated cases (mean collapsed target coverage of 4,577X).</p>
+          <p id="P61"><xref rid="F1" ref-type="fig">Fig. 1c</xref> summarizes the specificity of the targeted DNA assay using non-cancer control samples (n=47). After <italic toggle="yes">de novo</italic> variant calling and WBC variant filtering, the mean number of called variants was 120.8, corresponding to a specificity of 99.9891%. After the machine learning-based joint variant calling and filtering, the mean number of called variants was reduced to 2.3, corresponding to a specificity of 99.9998%. While this drastically improved the specificity, the decrease of variant calling sensitivity was marginal. Using the same variant calling settings, the estimated sensitivity using the HD753 titrations were comparable between <italic toggle="yes">de novo</italic> variant calling and joint variant calling.</p>
+        </sec>
+        <sec id="S26">
+          <title>Reproducibility of the targeted DNA assay</title>
+          <p id="P62">The high-intensity sequencing assay was validated using two distinct approaches, namely (1) repeated sequencing of the same sample using two versions of the assay (V1 and V2), and (2) ddPCR analysis of biopsy-matched mutations and VUSo (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>, <xref rid="F1" ref-type="fig">Figs. 1d</xref>–<xref rid="F1" ref-type="fig">f</xref>, <xref rid="F9" ref-type="fig">Extended Data Fig. 4</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Tables 8</xref>–<xref rid="SD1" ref-type="supplementary-material">10</xref>).</p>
+        </sec>
+        <sec id="S27">
+          <title>Microsatellite instability detection in high depth-of-read cfDNA assays</title>
+          <p id="P63">A modified version of MSIsensor<sup><xref rid="R40" ref-type="bibr">40</xref></sup> described in the <xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>, was employed. Using the distributions obtained from MSIsensor and applying updated parameters and filters, more robust results were obtained in both tumor-normal utilizing MSK-IMPACT and the higher depth-of-read cfDNA-WBC samples (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). These results suggest that the high depth-of-read cfDNA data generated in this study are suitable for detecting MSI in cancer, and that MSI detection can be further improved for shallow sequencing biopsies.</p>
+        </sec>
+        <sec id="S28">
+          <title>Statistical analyses</title>
+          <p id="P64">The association of variant allele fractions between technical replicates was measured using the <italic toggle="yes">R</italic><sup>2</sup> obtained from a linear regression. The difference in detection rate between the three cohorts was assessed using two-by-two Fisher’s exact tests, and the resulting p values were adjusted using the Bonferroni correction for multiple testing. The association between the tumor mutation cancer cell fraction and the cfDNA detection rate (overall and stratified by cancer type) was assessed using a <italic toggle="yes">χ</italic><sup>2</sup> trend test (Cochran-Armitage test for trend). Exact 95% confidence intervals were calculated for the detection rate by cancer type. The difference in ctDNA fraction estimate between cancer types was assessed using a two-sided Kruskal-Wallis <italic toggle="yes">H</italic>-test. The increase in ctDNA fraction estimate with increasing disease burden was assessed using a one-sided Jonckheere-Terpstra test and stratified by cancer type. We used zero-inflated Poisson regressions to assess the association between the number of cfDNA variants per subject from each biological source (i.e. biopsy-matched, biopsy-subthreshold, WBC-matched and VUSo) and age with cancer status and smoking history as covariates where appropriate. The corresponding p values were obtained using two-sided Wald tests on the coefficients of the count model. Similarly, the association between the number of CH-derived variants per subject through direct analysis of WBC and age was assessed using a zero-inflated Poisson regression with cancer status as covariate and the corresponding p value was obtained using a two-sided Wald test on the coefficient of the count model. The association of CH measured in WBC in each of the 15 canonical CH genes and cancer status and prior history of radio- or chemotherapy was assessed using a permutation-based likelihood ratio test from the coefficients of a logistic regression with age and smoking history as covariates where appropriate. Comparisons of the uncollapsed mean coverage between cfDNA and WBC were performed using two-sided paired Mann-Whitney <italic toggle="yes">U</italic>-tests stratified by cohort. Pairwise comparisons of the collapsed mean coverage of cfDNA or WBC between the different cancer cohorts and non-cancer controls were performed using two-sided Mann-Whitney <italic toggle="yes">U-</italic>tests and adjusted for multiple testing using the Bonferroni correction. The association of input DNA for library preparation and mean collapsed coverage of cfDNA samples was assessed using the <italic toggle="yes">R</italic><sup><italic toggle="yes">2</italic></sup> obtained from a linear regression. The corresponding p value was obtained using a two-sided <italic toggle="yes">t-</italic>test. The pairwise differences of input DNA for library preparation between the different cancer cohorts and non-cancer controls were assessed using a two-sided Mann-Whitney <italic toggle="yes">U-</italic>tests and adjusted for multiple testing using the Bonferroni correction. Pairwise comparisons of the percentage of collapsed bases with SNVs or combined SNVs and indels of cfDNA or WBC between the different cancer cohorts and non-cancer controls were performed using two-sided Mann-Whitney <italic toggle="yes">U-</italic>tests and adjusted for multiple testing using the Bonferroni correction. The association of ctDNA fraction estimate or tumor purity and the Pearson’s correlation coefficient measuring the association in Log<sub>2</sub> ratio space between patient-matched cfDNA and tumor biopsy samples was assessed using one-sided Jonckheere-Terpstra tests for increasing ctDNA fraction or tumor purity with increasing Pearson’s correlation. Pairwise comparisons of AUCs for amplifications or homozygous deletions between the different cancer cohorts were carried out using two-sided DeLong tests. For each cfDNA variant category, a two-sided Mann-Whitney <italic toggle="yes">U</italic>-test was used to test whether the cancer cohort stratified by cancer type had a different mutation burden than the non-cancer controls. All statistical hypothesis tests were considered positive at α=0.05 and carried out in R/Bioconductor unless otherwise stated.</p>
+        </sec>
+      </sec>
+      <sec sec-type="data-availability" id="S29">
+        <title>Data Availability</title>
+        <p id="P65">The assembled prospective somatic mutational data from cfDNA, WBC, and tumors for the entire cohort are provided as supplementary tables (<xref rid="SD3" ref-type="supplementary-material">Supplementary Tables 11</xref>–<xref rid="SD3" ref-type="supplementary-material">13</xref>) and the raw cfDNA and WBC sequencing data have been deposited in the European Genome-phenome Archive (EGA) under accession number EGAS00001003755. All code and scripts are available for academic use at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/ndbrown6/MSK-GRAIL-TECHVAL">https://github.com/ndbrown6/MSK-GRAIL-TECHVAL</ext-link>.</p>
+      </sec>
+      <sec sec-type="extended-data" id="S30">
+        <title>Extended Data</title>
+        <fig id="F6" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 1</label>
+          <caption>
+            <title>Study overview</title>
+            <p id="P66">Patient enrollment, inclusion and evaluable group are defined in the blue boxes. Detailed clinical, tissue and cfDNA exclusions are shown in the gray boxes.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0006.jpg"/>
+        </fig>
+        <fig id="F7" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 2</label>
+          <caption>
+            <title>Comparison of sequence depth and raw error rate distributions across cancer cohorts (n=124) and non-cancer controls (n=47)</title>
+            <p id="P67">(<bold>a</bold>) Comparison of deduplicated and uncollapsed mean target sequence depth between cfDNA and WBC. The p values were obtained using paired two-sided Mann-Whitney <italic toggle="yes">U</italic>-tests comparing cfDNA against WBC. (<bold>b</bold>) Deduplicated and collapsed mean target sequence depth in cfDNA and WBC between the different cancer cohorts and non-cancer controls. (<bold>c</bold>) Association between the amount of cfDNA used for library preparation and the mean target deduplicated and collapsed sequencing depth. The diagonal line represents a linear regression with 99% confidence intervals. The p value was obtained using an <italic toggle="yes">F</italic>-test. (<bold>d</bold>) Distribution of mean target deduplicated and collapsed sequencing depth across the different cohorts. (<bold>e,f</bold>) Comparison of (<bold>e</bold>) raw substitution error rate and (<bold>f</bold>) raw substitution and indel error rate across the different cohorts. In (<bold>b</bold>) and (<bold>d</bold>-<bold>f</bold>), the p values were obtained from pairwise comparisons using two-sided Mann-Whitney <italic toggle="yes">U</italic>-tests and adjusted for multiple testing using the Bonferroni method. In (<bold>e</bold>), the substitution error rate represents the percentage of collapsed bases with non-reference base. Similarly, in (<bold>f</bold>) the combined error rate represents the percentage of collapsed bases with non-reference base or indels. In all panels, the cohorts consist of n=39 MBC, n=41 NSCLC and n=44 CRPC patients and n=47 non-cancer controls. In (<bold>a</bold>-<bold>b</bold>) and (<bold>d</bold>-<bold>f</bold>), the horizontal bars indicate the median and the boxes represent the interquartile range (IQR). The whiskers extend to 1.5 × IQR on either side.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0007.jpg"/>
+        </fig>
+        <fig id="F8" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 3</label>
+          <caption>
+            <title>Hierarchical Bayesian model for calibrated analysis of somatic cfDNA variants and performance assessment</title>
+            <p id="P68">(<bold>a,b</bold>) Plate models showing the hierarchy of statistical relationships for (<bold>a</bold>) single nucleotide variants and (<bold>b</bold>) small insertions and deletions influencing the observed quantity of alternate alleles <italic toggle="yes">y<sub>np</sub></italic> in each sample <italic toggle="yes">n</italic> at each position <italic toggle="yes">p</italic> conditional on both latent parameters <italic toggle="yes">μ</italic> (the rate of events), <italic toggle="yes">θ</italic> (the type of event), <italic toggle="yes">α, β</italic> as well as fixed covariates <italic toggle="yes">x<sub>p</sub></italic> (of <italic toggle="yes">X</italic> types) such as trinucleotide context and, separately, depth of sequencing at a position (<italic toggle="yes">d<sub>p</sub></italic>). Note that insertions and deletions have additional complexity as one must account for length of the insertion/deletion event in the model as insertions and deletions of differing lengths have differing probabilities. The model was fitted to the training data consisting of n=43 unrelated non-cancer controls, estimates for the parameters were fixed and applied to new samples for scoring. (<bold>c,d</bold>) The posterior distributions of site-specific <italic toggle="yes">λ<sub>p</sub></italic> (<italic toggle="yes">μ<sub>p</sub> d<sub>p</sub></italic>) were summarized by their mean <italic toggle="yes">μ<sub>p</sub></italic> and displayed for a subset of representative sites in (<bold>c</bold>) by type of mutation and (<bold>d</bold>) by trinucleotide context. In both panels, the midpoint indicates the mean and the vertical bars represent the 95% Gaussian confidence limits based on the <italic toggle="yes">t</italic>-distribution. (<bold>e</bold>) Estimated <italic toggle="yes">μ<sub>p</sub></italic> against the observed <italic toggle="yes">λ<sub>p</sub></italic> for samples in the training set. Note the data points at the bottom are all positions <italic toggle="yes">p</italic> with non-zero mean posterior <italic toggle="yes">μ<sub>p</sub></italic> and zero observed alternate allele counts. (<bold>f</bold>) Comparison of the estimated probability of observing an event (x-axis) with the actual empirical probability of observing such an event (y-axis). The plot was calibrated based on estimates of <italic toggle="yes">μ<sub>p</sub></italic> on chromosome 21. Note the initial sharp rise reflects the number of sites with zero observed alternate allele counts whilst the excess low probability events at the other end reflects the difficulty of stringently filtering out rare biological events such as clonal hematopoiesis. (<bold>g</bold>) Mean number of variants detected in healthy control individuals (x-axis) against the recall rate of biopsy-matched variants (y-axis) for the different cancer types. At <italic toggle="yes">Q</italic><sub>60</sub>, one can expect one false positive per million bases. Here, to exclude potentially CH derived variants, a fixed threshold of 0.8 on the posterior probability of detected variants originating from cfDNA (i.e. <italic toggle="yes">PGTKXGDNA</italic>) was adopted. (<bold>h</bold>) Mean number of variants detected in healthy control individuals (x-axis) against the recall rate of biopsy-matched variants (y-axis) at different probabilities for allowing variants to be assigned to cfDNA. The thresholds displayed were obtained by cross-validation holding out each cancer type and selecting a threshold which retains most of the biopsy-matched variants whilst still filtering out variants of potential hematopoietic origin. Here, to exclude variants potentially due to noise, a fixed threshold of <italic toggle="yes">Q</italic><sub>60</sub> was adopted.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0008.jpg"/>
+        </fig>
+        <fig id="F9" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 4</label>
+          <caption>
+            <title>Reproducibility of the high-intensity DNA assay</title>
+            <p id="P69">Six patient samples were selected for processing using two versions of the assay protocol (V1 and V2). These are labelled Replicate 1 and Replicate 2. A subset of three samples were further retested using version V2 and labelled Replicate 3. The panels illustrate the pairwise comparisons of measured VAF between all available replicates for each patient. In all panels, the variants are shape coded based on their origin, whether they were also detected in the matched tumor biopsy and color coded according to their category, whether they were detected in both replicates and whether they were assigned to similar source categories (i.e. VUSo, WBC-matched or noise). In all panels, the samples are labelled on top.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0009.jpg"/>
+        </fig>
+        <fig id="F10" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 5</label>
+          <caption>
+            <title>Top mutated genes carrying VUSo and 96 base substitution profiles of ten hypermutated cfDNA samples</title>
+            <p id="P70">(<bold>a</bold>) Frequency of genomic alterations in cfDNA of 47 non-cancer controls and 124 cancer patients. The genes were sorted by their frequency of alterations in the tumor. The colors indicate whether the alterations were biopsy-matched, detected in the tumor but below the threshold of the MSK-IMPACT assay (biopsy-subthreshold), or were specific to cfDNA (i.e. variants of unknown source, VUSo). (<bold>b</bold>) Correlation of the number of VUSo per gene and per patient (y-axis) in the ten hypermutated and 114 non-hypermutated cancer patients against the length of the coding region sequenced (x-axis) of each target gene. (<bold>c</bold>-<bold>e</bold>) Heat maps showing the top mutated genes harboring somatic variants detected in plasma cfDNA that are neither tumor-matched (biopsy-matched or subthreshold) nor WBC-matched across each cohort in (<bold>c</bold>) 47 non-cancer controls, (<bold>d</bold>) 114 non-hypermutated and (<bold>e</bold>) 10 hypermutated cancer patients. The numbers in the cells indicate the number of patients. (<bold>f</bold>) 96 base substitution profiles of the 10 hypermutated patients. For each patient, the number of C&gt;A, C&gt;G, C&gt;T, T&gt;A, T&gt;C, and T&gt;G substitutions together with the sequence context immediately 3’ and 5’ are expressed as a percentage of the total number of substitutions.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0010.jpg"/>
+        </fig>
+        <fig id="F11" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 6</label>
+          <caption>
+            <title>Characterization of biological sources and composition of cfDNA variants</title>
+            <p id="P71">(<bold>a</bold>) The bar plots show the number of somatic variants detected in plasma cfDNA per megabase (Mb, y-axis) for each sample (x-axis) stratified by cancer status and biological sources and ordered by increasing number of somatic WBC-matched variants. The panels show control samples (top left) and patients with MBC (top right), NSCLC (bottom left) and CRPC (bottom right). The colors indicate WBC-matched variants, tumor biopsy-matched variants, biopsy-subthreshold and VUSo. (<bold>b</bold>) Top mutated genes carrying WBC-matched variants for each cohort. The number in the cells indicate the overall number of variants for each gene in the corresponding cohort. In (<bold>a</bold>,<bold>b</bold>), the cohorts consist of n=39 MBC, n=41 NSCLC and n=44 CRPC patients. Additionally, in (<bold>a</bold>) n=47, non-cancer controls are shown. (<bold>c</bold>,<bold>d</bold>) Distribution of Variant Allele Fractions (VAFs) of somatic mutations detected in cfDNA and WBC using the high-intensity sequencing assay where variants are color coded according to source of origin. Somatic variants are displayed for n=114 non-hypermutated cancer patients and n=47 non-cancer controls. The allelic (AD) and total (DP) depths are obtained from raw pileups without base alignment quality filtering (BAQ). In (<bold>c</bold>), the VAF is smoothed with added pseudocounts to AD and DP such that <italic toggle="yes">AD</italic>′ = <italic toggle="yes">AD</italic> + 2 and <italic toggle="yes">DP</italic>′ = <italic toggle="yes">DP</italic> + 4. In (<bold>d</bold>), variants detected with zero AD in WBC were displayed as 0.01% VAF in WBC due to the logarithmic scaled axes.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0011.jpg"/>
+        </fig>
+        <fig id="F12" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 7</label>
+          <caption>
+            <title>Somatic mutations occurring at high sequencing depth in cfDNA</title>
+            <p id="P72">Somatic mutations detected at sequencing depth &gt;10,000 in cfDNA occur mostly in hypermutated samples and are related to sample level mean target collapsed depth which is itself a function of the amount of input DNA used for library preparation. (<bold>a</bold>) Number of somatic mutations occurring at &gt;10,000 sequence depth (n=215) per patient and categorized into WBC-matched, VUSo or Tumor-matched where the latter category is composed of Biopsy-matched and Biopsy-subthreshold mutations. (<bold>b</bold>) Variant level collapsed depth for all somatic mutations detected in cfDNA categorized into Tumor-matched, VUSo or WBC-matched and grouped according to the amount of input DNA used for library preparation. (<bold>c</bold>) Variant level collapsed depth for all somatic mutations detected in cfDNA against sample level mean collapsed target depth. (<bold>d</bold>) variant level collapsed depth for all somatic mutations against modeled VAF in cfDNA. 121 of 215 (56.3%) somatic mutations detected at sequencing depth &gt;10,000 in cfDNA occurred in the hypermutated patient MSK-VB-0023. (<bold>e,f</bold>) Log<sub>2</sub> ratios of (<bold>e</bold>) tumor biopsy and (<bold>f</bold>) cfDNA of patient MSK-VB-0023. The tumor biopsy and cfDNA showed similar copy number alterations (i.e. 1q+ and 16q-). No high-level copy number amplifications were observed in either the tumor biopsy or the cfDNA which could explain the high sequencing depth. Three replicate sequencing of cfDNA and WBC were available for that patient. (<bold>g</bold>) and (<bold>h</bold>) Pairwise comparisons of VAF for the 121 mutations detected at depth &gt;10,000 using version V1 of the assay. In (<bold>a</bold>), ‘1’ denotes hypermutated samples. In (<bold>b</bold>), the midpoint indicates the median whilst the violins extent to the full range of the data. In (<bold>b</bold>-<bold>d</bold>), the sequencing depths of somatic variants for the cohort of n=124 cancer patients are shown. In (<bold>e</bold>) and (<bold>f</bold>), the grey points represent the raw Log<sub>2</sub> ratios and are ordered according to their genomic coordinates. The solid red lines indicate the segmented values. In (<bold>g</bold>) and (<bold>h</bold>), the variants are shape coded based on their origin (i.e. whether they were also detected in the matched tumor biopsy and color coded according to their category; whether they were called in both replicates and assigned to similar source categories, namely VUSo, WBC-matched or noise).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0012.jpg"/>
+        </fig>
+        <fig id="F13" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 8</label>
+          <caption>
+            <title>Characterization of CH derived variants through direct analysis of WBC</title>
+            <p id="P73">(<bold>a</bold>) CH-related somatic mutations in the top 14 mutated genes across the 114 non-hypermutated cancer patients and 47 non-cancer controls together with the marginal frequencies by patient (top) and by gene (right). <italic toggle="yes">DNMT3A</italic>, <italic toggle="yes">TET2</italic> and <italic toggle="yes">PPM1D</italic> are the top mutated genes in WBC and harbor multiple hits (i.e. two or more mutations per patient). (<bold>b</bold>) Clustering within genes of CH-derived mutations detected in WBC. The clusters and associated p values were computed using a modification of OncodriveCLUST<sup><xref rid="R55" ref-type="bibr">55</xref></sup> which assumes the number of mutations in clusters follows a Poisson distribution. The resulting p values are two-sided. (<bold>c,d</bold>) Distribution of mutations in <italic toggle="yes">PPM1D</italic> (<bold>c</bold>) according to genomic coordinates and for <italic toggle="yes">DNMT3A</italic> (<bold>d</bold>). Mutations detected in <italic toggle="yes">PPM1D</italic> are clustered in the C-terminus of the protein.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0013.jpg"/>
+        </fig>
+        <fig id="F14" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 9</label>
+          <caption>
+            <title>Copy number profile derived from cfDNA of non-cancer controls and cancer patients</title>
+            <p id="P74">(<bold>a-b</bold>) Log<sub>2</sub> ratios estimated from the cfDNA of (<bold>a</bold>) n=24 female and (<bold>b</bold>) n=23 male control individuals. For each individual, the raw Log<sub>2</sub> ratios were smoothed using a cubic spline. The two panels show the superimposed splines for all control samples according to gender. (<bold>c-e</bold>) Log<sub>2</sub> ratios of tumor biopsies (top panels) and their corresponding matched cfDNA (bottom panel) for three cases (<bold>c</bold>) MSK-VB-0008, (<bold>d</bold>) MSK-VL-0056 and (<bold>e</bold>) MSK-VP-0004 where amplification of <italic toggle="yes">CCND1, FGFR1</italic>, <italic toggle="yes">EGFR</italic> and a homozygous deletion of <italic toggle="yes">BRCA2</italic> were reported, respectively. The arrows point to the reported amplifications or deletions. The segmented Log<sub>2</sub> ratios were used to compute the Pearson correlation coefficient comparing segments overlapping &gt;75% in the tumor biopsies and cfDNA samples. In (<bold>a</bold>-<bold>e</bold>), the Log<sub>2</sub> ratios are displayed according to their genomic coordinates. In (<bold>c</bold>-<bold>e</bold>), the grey dots show the raw estimates while the red lines represent the segmented values. (<bold>f</bold>) The association of the Pearson’s <italic toggle="yes">r</italic> against the ctDNA fraction and purity of the tumor biopsies. The cohort consists of n=124 cancer patients with paired tumor biopsy and cfDNA samples. The p values were obtained using a permutation based one-sided Jonckheere-Terpstra test for increasing Pearson’s <italic toggle="yes">r</italic> with ctDNA fraction or tumor purity. The horizontal bars indicate the median and the boxes represent the interquartile range (IQR). The whiskers extend to 1.5 × IQR on either side. NE; not evaluable.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0014.jpg"/>
+        </fig>
+        <fig id="F15" orientation="portrait" position="anchor">
+          <label>Extended Data Fig. 10</label>
+          <caption>
+            <title>Comparison of copy number alterations in tumor biopsies and matched cfDNA samples</title>
+            <p id="P75">(<bold>a</bold>) Heatmap of all genes where an amplification or a homozygous deletion was found in either the tumor biopsy or cfDNA. The samples are interleaved (i.e. tumor biopsy and cfDNA) and represented along the rows, whilst genes are ordered in columns relative to their genomic coordinates. (<bold>b,c</bold>) Receiver operating characteristic curves comparing (<bold>b</bold>) copy number amplifications and (<bold>c</bold>) homozygous deletions detected in the tumor biopsies with the absolute copy numbers inferred in cfDNA. Each tumor-cfDNA sample pair was used to construct individual curves. These were averaged after fitting a local polynomial regression and estimating the sensitivities over fixed intervals of specificities. In (<bold>a</bold>-<bold>c</bold>), only tumor-cfDNA sample pairs from n=49 patients with ctDNA fraction &gt;10% were used. (<bold>d</bold>) Four MBC patients: MSK-VB-0006, MSK-VB-0044, MSK-VB-0059 and MSK-VB-0069 with a reported amplification of <italic toggle="yes">ERBB2</italic> on chromosome 17q are shown together with one NSCLC patient, MSK-VL-0044 with a reported <italic toggle="yes">MET</italic> amplification on chromosome 7q. The tumor biopsies are displayed on the left and the matched cfDNA are shown on the right together with the corresponding chromosome ideogram. The genomic coordinates of <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">MET</italic> are displayed by orange arrows and labelled accordingly.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0015.jpg"/>
+        </fig>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM1">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>SuppInfo</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-SuppInfo.pdf" orientation="portrait" id="d36e2257" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>1541314_Sup_Data</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_Sup_Data.xlsx" orientation="portrait" id="d36e2261" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>1541314_Sup_Tab</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_Sup_Tab.xlsx" orientation="portrait" id="d36e2265" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD4" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig2.xlsx" orientation="portrait" id="d36e2269" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD5" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig4.xlsx" orientation="portrait" id="d36e2273" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD6" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig5</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig5.xlsx" orientation="portrait" id="d36e2277" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD7" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig6</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig6.xlsx" orientation="portrait" id="d36e2281" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD8" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig7</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig7.xlsx" orientation="portrait" id="d36e2285" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD9" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig8</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig8.xlsx" orientation="portrait" id="d36e2289" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD10" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig3.xlsx" orientation="portrait" id="d36e2293" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD11" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig10</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig10.xlsx" orientation="portrait" id="d36e2298" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD12" position="float" orientation="portrait">
+          <label>1541314_SourceDataFig1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataFig1.xlsx" orientation="portrait" id="d36e2302" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD13" position="float" orientation="portrait">
+          <label>1541314_SourceDataFig2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataFig2.xlsx" orientation="portrait" id="d36e2306" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD14" position="float" orientation="portrait">
+          <label>1541314_SourceDataExtFig9</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataExtFig9.xlsx" orientation="portrait" id="d36e2310" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD15" position="float" orientation="portrait">
+          <label>1541314_SourceDataFig3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataFig3.xlsx" orientation="portrait" id="d36e2314" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD16" position="float" orientation="portrait">
+          <label>1541314_SourceDataFig4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataFig4.xlsx" orientation="portrait" id="d36e2318" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD17" position="float" orientation="portrait">
+          <label>1541314_SourceDataFig5</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_SourceDataFig5.xlsx" orientation="portrait" id="d36e2322" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD18" position="float" orientation="portrait">
+          <label>1541314_ReportSummary</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1541314-supplement-1541314_ReportSummary.pdf" orientation="portrait" id="d36e2326" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S31">
+        <title>Acknowledgements</title>
+        <p id="P76">We thank the following GRAIL, Inc. and Memorial Sloan Kettering Cancer Center associates for their helpful discussions and contributions to this body of work: M. Berger, N. Schultz, C. Bain, M. Chung, M. Eriksen, T. Liu, R. Mauntz, A. Mich, J. Nguyen, Y. Park, S. Ramani, E. Scott, K. Shashidhar, C. Tom, S. Wen, D. Reales, J. Galle, R. Cambria and members of the MSK Office of Clinical Research. This work was supported by GRAIL, Inc. and National Institutes of Health awards P30 CA008748 (MSKCC), R01 CA234361 (D.B.S.), Breast Cancer Alliance Young Investigator Award (P.R.), and the Breast Cancer Research Foundation (J.S.R-F), Congressionally Directed Medical Research Programs W81XWH-15-1-0547 (J.S.R-F) and GC229671 (J.S.R-F).</p>
+        <p id="P77">Competing Interests</p>
+        <p id="P78">P.R. reports consulting/advisory board for Novartis and institutional research support from Illumina and GRAIL, Inc. B.T.L. reports consulting/advisory board for Genentech, ThermoFisher Scientific, Guardant Health, Hengrui Therapeutics, Mersana Therapeutics, Biosceptre Australia and institutional research support from Illumina, GRAIL, Inc., Genentech, AstraZeneca. W.A. reports consulting or advisory role from Clovis Oncology, Janssen, ORIC phama and MORE Health, and received Honoraria from CARET and received institutional research support from AstraZeneca, Zenith Epigenetics, Clovis Oncology and GlaxoSmithKline and also received travel/accommodations/expenses from GlaxoSmithKline and Clovis Oncology. J.M.I. holds equity in LumaCyte, LLC and has received institutional research support from GRAIL, Inc. and Guardant Health. G.P. is on the Scientific Advisory Board Member for Tizona Therapeutics and has consulted for Merck, Bristol-Myers Squibb, Kyowa Hakko Kirin Pharma. D.M.H. reports stock and other ownership interests in Fount and consulting or advisory role for Chugai Pharma, Boehringer Ingelheim, AstraZeneca, Pfizer, Bayer, Genentech, and Fount. He has received research funding from AstraZeneca, Puma Biotechnology, Loxo, and Bayer and travel accommodation expenses from Genentech and Chugai Pharma. G.J.R. received consulting for Genentech/Roche in 2016 and received institutional research support for clinical research from Pfizer, Roche/Genentech, and Takeda. C.M.R. has consulted on oncology drug development with Abbvie, Amgen, Ascentage, AstraZeneca, Bicycle, Celgene, Chugai, Daiichi Sankyo, Genentech/Roche, GI Therapeutics, Loxo, Novartis, Pharmamar, and Seattle Genetics; he is on the Scientific Advisory Boards of Harpoon Therapeutics and Elucida. L.A.D. is a member of the board of directors of Personal Genome Diagnostics (PGDx) and Jounce Therapeutics. He is a paid consultant to PGDx and Neophore. He is an uncompensated consultant for Merck but has received research support for clinical trials from Merck. He is an inventor of multiple licensed patents related to technology for circulating tumor DNA analyses and mismatch repair deficiency for diagnosis and therapy from Johns Hopkins University. Some of these licenses and relationships are associated with equity or royalty payments directly to L.A.D. and Johns Hopkins. He holds equity in PGDx, Jounce Therapeutics, Thrive Earlier Detection and Neophore. His spouse holds equity in Amgen. The terms of all these arrangements are being managed by Johns Hopkins and Memorial Sloan Kettering in accordance with their conflict of interest policies. D.B.S. received honoraria/consulted for Pfizer, Loxo Oncology, Illumina, Intezyne and Vivideon Therapuetics. J.S.R-F reports personal/consultancy fees from VolitionRx, Page.AI, Goldman Sachs, REPARE Therapeutics, GRAIL, Inc, Ventana Medical Systems, Roche, Genentech and Invicro, outside the scope of the submitted work. B.J., E.H., C.H., O.V., T.M., S.G., R.V.S., Q.L., L.S., N.E., J.Y., A.W.B., M.L. A.S., H.X., M.P.H., W.F.N., A.M.A. are or were GRAIL, Inc. employees and hold stock and/or other ownership interests in GRAIL, Inc.; A.W.B. additionally reports Foresite ownership interest. The other coauthors report no competing interests.</p>
+      </ack>
+      <ref-list>
+        <title>References</title>
+        <ref id="R1">
+          <label>1.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Stroun</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Anker</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Lyautey</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Lederrey</surname><given-names>C</given-names></name> &amp; <name name-style="western"><surname>Maurice</surname><given-names>PA</given-names></name><article-title>Isolation and characterization of DNA from the plasma of cancer patients</article-title>. <source>Eur J Cancer Clin Oncol</source><volume>23</volume>, <fpage>707</fpage>–<lpage>712</lpage> (<year>1987</year>).<pub-id pub-id-type="pmid">3653190</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0277-5379(87)90266-5</pub-id></mixed-citation>
+        </ref>
+        <ref id="R2">
+          <label>2.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Leon</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Shapiro</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sklaroff</surname><given-names>DM</given-names></name> &amp; <name name-style="western"><surname>Yaros</surname><given-names>MJ</given-names></name><article-title>Free DNA in the serum of cancer patients and the effect of therapy</article-title>. <source>Cancer Res</source><volume>37</volume>, <fpage>646</fpage>–<lpage>650</lpage> (<year>1977</year>).<pub-id pub-id-type="pmid">837366</pub-id></mixed-citation>
+        </ref>
+        <ref id="R3">
+          <label>3.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jr</surname><given-names>LAD</given-names></name> &amp; <name name-style="western"><surname>Bardelli</surname><given-names>A</given-names></name><article-title>Liquid Biopsies: Genotyping Circulating Tumor DNA</article-title>. <source>Journal of Clinical Oncology</source><volume>32</volume>, <fpage>579</fpage>–<lpage>586</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24449238</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2012.45.2011</pub-id><pub-id pub-id-type="pmcid">PMC4820760</pub-id></mixed-citation>
+        </ref>
+        <ref id="R4">
+          <label>4.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wan</surname><given-names>JCM</given-names></name>, <etal/><article-title>Liquid biopsies come of age: towards implementation of circulating tumour DNA</article-title>. <source>Nat Rev Cancer</source><volume>17</volume>, <fpage>223</fpage>–<lpage>238</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28233803</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc.2017.7</pub-id></mixed-citation>
+        </ref>
+        <ref id="R5">
+          <label>5.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lanman</surname><given-names>RB</given-names></name>, <etal/><article-title>Analytical and Clinical Validation of a Digital Sequencing Panel for Quantitative, Highly Accurate Evaluation of Cell-Free Circulating Tumor DNA</article-title>. <source>PLoS One</source><volume>10</volume>, <fpage>e0140712</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26474073</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0140712</pub-id><pub-id pub-id-type="pmcid">PMC4608804</pub-id></mixed-citation>
+        </ref>
+        <ref id="R6">
+          <label>6.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Adalsteinsson</surname><given-names>VA</given-names></name>, <etal/><article-title>Scalable whole-exome sequencing of cell-free DNA reveals high concordance with metastatic tumors</article-title>. <source>Nat Commun</source><volume>8</volume>, <fpage>1324</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">29109393</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-017-00965-y</pub-id><pub-id pub-id-type="pmcid">PMC5673918</pub-id></mixed-citation>
+        </ref>
+        <ref id="R7">
+          <label>7.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Aravanis</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>M</given-names></name> &amp; <name name-style="western"><surname>Klausner</surname><given-names>RD</given-names></name><article-title>Next-Generation Sequencing of Circulating Tumor DNA for Early Cancer Detection</article-title>. <source>Cell</source><volume>168</volume>, <fpage>571</fpage>–<lpage>574</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28187279</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2017.01.030</pub-id></mixed-citation>
+        </ref>
+        <ref id="R8">
+          <label>8.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Acuna-Hidalgo</surname><given-names>R</given-names></name>, <etal/><article-title>Ultra-sensitive Sequencing Identifies High Prevalence of Clonal Hematopoiesis-Associated Mutations throughout Adult Life</article-title>. <source>Am J Hum Genet</source><volume>101</volume>, <fpage>50</fpage>–<lpage>64</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28669404</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajhg.2017.05.013</pub-id><pub-id pub-id-type="pmcid">PMC5501773</pub-id></mixed-citation>
+        </ref>
+        <ref id="R9">
+          <label>9.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jamal-Hanjani</surname><given-names>M</given-names></name>, <etal/><article-title>Tracking the Evolution of Non-Small-Cell Lung Cancer</article-title>. <source>N Engl J Med</source><volume>376</volume>, <fpage>2109</fpage>–<lpage>2121</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28445112</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1616288</pub-id></mixed-citation>
+        </ref>
+        <ref id="R10">
+          <label>10.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jaiswal</surname><given-names>S</given-names></name>, <etal/><article-title>Age-related clonal hematopoiesis associated with adverse outcomes</article-title>. <source>N Engl J Med</source><volume>371</volume>, <fpage>2488</fpage>–<lpage>2498</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25426837</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1408617</pub-id><pub-id pub-id-type="pmcid">PMC4306669</pub-id></mixed-citation>
+        </ref>
+        <ref id="R11">
+          <label>11.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Choi</surname><given-names>M</given-names></name>, <etal/><article-title>Genetic diagnosis by whole exome capture and massively parallel DNA sequencing</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>106</volume>, <fpage>19096</fpage>–<lpage>19101</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19861545</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0910672106</pub-id><pub-id pub-id-type="pmcid">PMC2768590</pub-id></mixed-citation>
+        </ref>
+        <ref id="R12">
+          <label>12.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Murtaza</surname><given-names>M</given-names></name>, <etal/><article-title>Non-invasive analysis of acquired resistance to cancer therapy by sequencing of plasma DNA</article-title>. <source>Nature</source><volume>497</volume>, <fpage>108</fpage>–<lpage>112</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23563269</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12065</pub-id></mixed-citation>
+        </ref>
+        <ref id="R13">
+          <label>13.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Rothwell</surname><given-names>DG</given-names></name>, <etal/><article-title>Utility of ctDNA to support patient selection for early phase clinical trials: the TARGET study</article-title>. <source>Nat Med</source><volume>25</volume>, <fpage>738</fpage>–<lpage>743</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31011204</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-019-0380-z</pub-id></mixed-citation>
+        </ref>
+        <ref id="R14">
+          <label>14.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Przybyl</surname><given-names>J</given-names></name>, <etal/><article-title>Combination Approach for Detecting Different Types of Alterations in Circulating Tumor DNA in Leiomyosarcoma</article-title>. <source>Clin Cancer Res</source><volume>24</volume>, <fpage>2688</fpage>–<lpage>2699</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29463554</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-17-3704</pub-id><pub-id pub-id-type="pmcid">PMC5984700</pub-id></mixed-citation>
+        </ref>
+        <ref id="R15">
+          <label>15.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Parikh</surname><given-names>AR</given-names></name>, <etal/><article-title>Liquid versus tissue biopsy for detecting acquired resistance and tumor heterogeneity in gastrointestinal cancers</article-title>. <source>Nat Med</source><volume>25</volume>, <fpage>1415</fpage>–<lpage>1421</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31501609</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-019-0561-9</pub-id><pub-id pub-id-type="pmcid">PMC6741444</pub-id></mixed-citation>
+        </ref>
+        <ref id="R16">
+          <label>16.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Risques</surname><given-names>RA</given-names></name> &amp; <name name-style="western"><surname>Kennedy</surname><given-names>SR</given-names></name><article-title>Aging and the rise of somatic cancer-associated mutations in normal tissues</article-title>. <source>PLoS Genet</source><volume>14</volume>, <fpage>e1007108</fpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29300727</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1007108</pub-id><pub-id pub-id-type="pmcid">PMC5754046</pub-id></mixed-citation>
+        </ref>
+        <ref id="R17">
+          <label>17.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Steensma</surname><given-names>DP</given-names></name>, <etal/><article-title>Clonal hematopoiesis of indeterminate potential and its distinction from myelodysplastic syndromes</article-title>. <source>Blood</source><volume>126</volume>, <fpage>9</fpage>–<lpage>16</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25931582</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2015-03-631747</pub-id><pub-id pub-id-type="pmcid">PMC4624443</pub-id></mixed-citation>
+        </ref>
+        <ref id="R18">
+          <label>18.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bowman</surname><given-names>RL</given-names></name>, <name name-style="western"><surname>Busque</surname><given-names>L</given-names></name> &amp; <name name-style="western"><surname>Levine</surname><given-names>RL</given-names></name><article-title>Clonal Hematopoiesis and Evolution to Hematopoietic Malignancies</article-title>. <source>Cell Stem Cell</source><volume>22</volume>, <fpage>157</fpage>–<lpage>170</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29395053</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.stem.2018.01.011</pub-id><pub-id pub-id-type="pmcid">PMC5804896</pub-id></mixed-citation>
+        </ref>
+        <ref id="R19">
+          <label>19.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Busque</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Buscarlet</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mollica</surname><given-names>L</given-names></name> &amp; <name name-style="western"><surname>Levine</surname><given-names>RL</given-names></name><article-title>Concise Review: Age-Related Clonal Hematopoiesis: Stem Cells Tempting the Devil</article-title>. <source>Stem Cells</source><volume>36</volume>, <fpage>1287</fpage>–<lpage>1294</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29883022</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/stem.2845</pub-id><pub-id pub-id-type="pmcid">PMC6125185</pub-id></mixed-citation>
+        </ref>
+        <ref id="R20">
+          <label>20.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Coombs</surname><given-names>CC</given-names></name>, <etal/><article-title>Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes</article-title>. <source>Cell Stem Cell</source><volume>21</volume>, <fpage>374</fpage>–<lpage>382</lpage><fpage>e374</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28803919</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.stem.2017.07.010</pub-id><pub-id pub-id-type="pmcid">PMC5591073</pub-id></mixed-citation>
+        </ref>
+        <ref id="R21">
+          <label>21.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zink</surname><given-names>F</given-names></name>, <etal/><article-title>Clonal hematopoiesis, with and without candidate driver mutations, is common in the elderly</article-title>. <source>Blood</source><volume>130</volume>, <fpage>742</fpage>–<lpage>752</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28483762</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2017-02-769869</pub-id><pub-id pub-id-type="pmcid">PMC5553576</pub-id></mixed-citation>
+        </ref>
+        <ref id="R22">
+          <label>22.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jaiswal</surname><given-names>S</given-names></name>, <etal/><article-title>Clonal Hematopoiesis and Risk of Atherosclerotic Cardiovascular Disease</article-title>. <source>N Engl J Med</source><volume>377</volume>, <fpage>111</fpage>–<lpage>121</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28636844</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1701719</pub-id><pub-id pub-id-type="pmcid">PMC6717509</pub-id></mixed-citation>
+        </ref>
+        <ref id="R23">
+          <label>23.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Xie</surname><given-names>M</given-names></name>, <etal/><article-title>Age-related mutations associated with clonal hematopoietic expansion and malignancies</article-title>. <source>Nat Med</source><volume>20</volume>, <fpage>1472</fpage>–<lpage>1478</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25326804</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3733</pub-id><pub-id pub-id-type="pmcid">PMC4313872</pub-id></mixed-citation>
+        </ref>
+        <ref id="R24">
+          <label>24.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Genovese</surname><given-names>G</given-names></name>, <etal/><article-title>Clonal hematopoiesis and blood-cancer risk inferred from blood DNA sequence</article-title>. <source>N Engl J Med</source><volume>371</volume>, <fpage>2477</fpage>–<lpage>2487</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25426838</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1409405</pub-id><pub-id pub-id-type="pmcid">PMC4290021</pub-id></mixed-citation>
+        </ref>
+        <ref id="R25">
+          <label>25.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Phallen</surname><given-names>J</given-names></name>, <etal/><article-title>Direct detection of early-stage cancers using circulating tumor DNA</article-title>. <source>Sci Transl Med</source><volume>9</volume>(<year>2017</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.aan2415</pub-id><pub-id pub-id-type="pmcid">PMC6714979</pub-id><pub-id pub-id-type="pmid">28814544</pub-id></mixed-citation>
+        </ref>
+        <ref id="R26">
+          <label>26.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gillis</surname><given-names>NK</given-names></name>, <etal/><article-title>Clonal haemopoiesis and therapy-related myeloid malignancies in elderly patients: a proof-of-concept, case-control study</article-title>. <source>Lancet Oncol</source><volume>18</volume>, <fpage>112</fpage>–<lpage>121</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">27927582</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(16)30627-1</pub-id><pub-id pub-id-type="pmcid">PMC7771361</pub-id></mixed-citation>
+        </ref>
+        <ref id="R27">
+          <label>27.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Liu</surname><given-names>J</given-names></name>, <etal/><article-title>Biological background of the genomic variations of cf-DNA in healthy individuals</article-title>. <source>Ann Oncol</source> (<year>2018</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdy513</pub-id><pub-id pub-id-type="pmid">30475948</pub-id></mixed-citation>
+        </ref>
+        <ref id="R28">
+          <label>28.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hu</surname><given-names>Y</given-names></name>, <etal/><article-title>False-Positive Plasma Genotyping Due to Clonal Hematopoiesis</article-title>. <source>Clin Cancer Res</source><volume>24</volume>, <fpage>4437</fpage>–<lpage>4443</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29567812</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-18-0143</pub-id></mixed-citation>
+        </ref>
+        <ref id="R29">
+          <label>29.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Janku</surname><given-names>F</given-names></name>, <etal/><article-title>Development and Validation of an Ultradeep Next-Generation Sequencing Assay for Testing of Plasma Cell-Free DNA from Patients with Advanced Cancer</article-title>. <source>Clin Cancer Res</source><volume>23</volume>, <fpage>5648</fpage>–<lpage>5656</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28536309</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-17-0291</pub-id><pub-id pub-id-type="pmcid">PMC5600825</pub-id></mixed-citation>
+        </ref>
+        <ref id="R30">
+          <label>30.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Thompson</surname><given-names>JC</given-names></name>, <etal/><article-title>Detection of Therapeutically Targetable Driver and Resistance Mutations in Lung Cancer Patients by Next-Generation Sequencing of Cell-Free Circulating Tumor DNA</article-title>. <source>Clin Cancer Res</source><volume>22</volume>, <fpage>5772</fpage>–<lpage>5782</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27601595</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-16-1231</pub-id><pub-id pub-id-type="pmcid">PMC5448134</pub-id></mixed-citation>
+        </ref>
+        <ref id="R31">
+          <label>31.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Guibert</surname><given-names>N</given-names></name>, <etal/><article-title>Amplicon-based next-generation sequencing of plasma cell-free DNA for detection of driver and resistance mutations in advanced non-small cell lung cancer</article-title>. <source>Ann Oncol</source><volume>29</volume>, <fpage>1049</fpage>–<lpage>1055</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29325035</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdy005</pub-id><pub-id pub-id-type="pmcid">PMC5913609</pub-id></mixed-citation>
+        </ref>
+        <ref id="R32">
+          <label>32.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Sacher</surname><given-names>AG</given-names></name>, <etal/><article-title>Prospective Validation of Rapid Plasma Genotyping for the Detection of EGFR and KRAS Mutations in Advanced Lung Cancer</article-title>. <source>JAMA Oncol</source><volume>2</volume>, <fpage>1014</fpage>–<lpage>1022</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27055085</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2016.0173</pub-id><pub-id pub-id-type="pmcid">PMC4982795</pub-id></mixed-citation>
+        </ref>
+        <ref id="R33">
+          <label>33.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zehir</surname><given-names>A</given-names></name>, <etal/><article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>. <source>Nat Med</source><volume>23</volume>, <fpage>703</fpage>–<lpage>713</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28481359</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.4333</pub-id><pub-id pub-id-type="pmcid">PMC5461196</pub-id></mixed-citation>
+        </ref>
+        <ref id="R34">
+          <label>34.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cheng</surname><given-names>DT</given-names></name>, <etal/><article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): A Hybridization Capture-Based Next-Generation Sequencing Clinical Assay for Solid Tumor Molecular Oncology</article-title>. <source>J Mol Diagn</source><volume>17</volume>, <fpage>251</fpage>–<lpage>264</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25801821</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2014.12.006</pub-id><pub-id pub-id-type="pmcid">PMC5808190</pub-id></mixed-citation>
+        </ref>
+        <ref id="R35">
+          <label>35.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Newman</surname><given-names>AM</given-names></name>, <etal/><article-title>Integrated digital error suppression for improved detection of circulating tumor DNA</article-title>. <source>Nat Biotechnol</source><volume>34</volume>, <fpage>547</fpage>–<lpage>555</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27018799</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.3520</pub-id><pub-id pub-id-type="pmcid">PMC4907374</pub-id></mixed-citation>
+        </ref>
+        <ref id="R36">
+          <label>36.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kinde</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Papadopoulos</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Kinzler</surname><given-names>KW</given-names></name> &amp; <name name-style="western"><surname>Vogelstein</surname><given-names>B</given-names></name><article-title>Detection and quantification of rare mutations with massively parallel sequencing</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>108</volume>, <fpage>9530</fpage>–<lpage>9535</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21586637</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1105422108</pub-id><pub-id pub-id-type="pmcid">PMC3111315</pub-id></mixed-citation>
+        </ref>
+        <ref id="R37">
+          <label>37.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Razavi</surname><given-names>P</given-names></name>, <etal/><article-title>The Genomic Landscape of Endocrine-Resistant Advanced Breast Cancers</article-title>. <source>Cancer Cell</source><volume>34</volume>, <fpage>427</fpage>–<lpage>438</lpage><fpage>e426</fpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30205045</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2018.08.008</pub-id><pub-id pub-id-type="pmcid">PMC6327853</pub-id></mixed-citation>
+        </ref>
+        <ref id="R38">
+          <label>38.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Alexandrov</surname><given-names>LB</given-names></name>, <etal/><article-title>Signatures of mutational processes in human cancer</article-title>. <source>Nature</source><volume>500</volume>, <fpage>415</fpage>–<lpage>421</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23945592</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12477</pub-id><pub-id pub-id-type="pmcid">PMC3776390</pub-id></mixed-citation>
+        </ref>
+        <ref id="R39">
+          <label>39.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Nik-Zainal</surname><given-names>S</given-names></name>, <etal/><article-title>Landscape of somatic mutations in 560 breast cancer whole-genome sequences</article-title>. <source>Nature</source><volume>534</volume>, <fpage>47</fpage>–<lpage>54</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27135926</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature17676</pub-id><pub-id pub-id-type="pmcid">PMC4910866</pub-id></mixed-citation>
+        </ref>
+        <ref id="R40">
+          <label>40.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Niu</surname><given-names>B</given-names></name>, <etal/><article-title>MSIsensor: microsatellite instability detection using paired tumor-normal sequence data</article-title>. <source>Bioinformatics</source><volume>30</volume>, <fpage>1015</fpage>–<lpage>1016</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24371154</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btt755</pub-id><pub-id pub-id-type="pmcid">PMC3967115</pub-id></mixed-citation>
+        </ref>
+        <ref id="R41">
+          <label>41.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Polak</surname><given-names>P</given-names></name>, <etal/><article-title>A mutational signature reveals alterations underlying deficient homologous recombination repair in breast cancer</article-title>. <source>Nat Genet</source><volume>49</volume>, <fpage>1476</fpage>–<lpage>1486</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28825726</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3934</pub-id><pub-id pub-id-type="pmcid">PMC7376751</pub-id></mixed-citation>
+        </ref>
+        <ref id="R42">
+          <label>42.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gerhauser</surname><given-names>C</given-names></name>, <etal/><article-title>Molecular Evolution of Early-Onset Prostate Cancer Identifies Molecular Risk Markers and Clinical Trajectories</article-title>. <source>Cancer Cell</source><volume>34</volume>, <fpage>996</fpage>–<lpage>1011</lpage><fpage>e1018</fpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30537516</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2018.10.016</pub-id><pub-id pub-id-type="pmcid">PMC7444093</pub-id></mixed-citation>
+        </ref>
+        <ref id="R43">
+          <label>43.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>de Bruin</surname><given-names>EC</given-names></name>, <etal/><article-title>Spatial and temporal diversity in genomic instability processes defines lung cancer evolution</article-title>. <source>Science</source><volume>346</volume>, <fpage>251</fpage>–<lpage>256</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25301630</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1253462</pub-id><pub-id pub-id-type="pmcid">PMC4636050</pub-id></mixed-citation>
+        </ref>
+        <ref id="R44">
+          <label>44.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Le</surname><given-names>DT</given-names></name>, <etal/><article-title>PD-1 Blockade in Tumors with Mismatch-Repair Deficiency</article-title>. <source>N Engl J Med</source><volume>372</volume>, <fpage>2509</fpage>–<lpage>2520</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26028255</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1500596</pub-id><pub-id pub-id-type="pmcid">PMC4481136</pub-id></mixed-citation>
+        </ref>
+        <ref id="R45">
+          <label>45.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Merker</surname><given-names>JD</given-names></name>, <etal/><article-title>Circulating Tumor DNA Analysis in Patients With Cancer: American Society of Clinical Oncology and College of American Pathologists Joint Review</article-title>. <source>Arch Pathol Lab Med</source><volume>142</volume>, <fpage>1242</fpage>–<lpage>1253</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29504834</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.5858/arpa.2018-0901-SA</pub-id></mixed-citation>
+        </ref>
+        <ref id="R46">
+          <label>46.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cohen</surname><given-names>JD</given-names></name>, <etal/><article-title>Detection and localization of surgically resectable cancers with a multi-analyte blood test</article-title>. <source>Science</source><volume>359</volume>, <fpage>926</fpage>–<lpage>930</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29348365</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aar3247</pub-id><pub-id pub-id-type="pmcid">PMC6080308</pub-id></mixed-citation>
+        </ref>
+        <ref id="R47">
+          <label>47.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Schultheis</surname><given-names>AM</given-names></name>, <etal/><article-title>Massively Parallel Sequencing-Based Clonality Analysis of Synchronous Endometrioid Endometrial and Ovarian Carcinomas</article-title>. <source>J Natl Cancer Inst</source><volume>108</volume>, <fpage>djv427</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26832770</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djv427</pub-id><pub-id pub-id-type="pmcid">PMC4909128</pub-id></mixed-citation>
+        </ref>
+        <ref id="R48">
+          <label>48.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hsu</surname><given-names>JI</given-names></name>, <etal/><article-title>PPM1D Mutations Drive Clonal Hematopoiesis in Response to Cytotoxic Chemotherapy</article-title>. <source>Cell Stem Cell</source><volume>23</volume>, <fpage>700</fpage>–<lpage>713</lpage><fpage>e706</fpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30388424</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.stem.2018.10.004</pub-id><pub-id pub-id-type="pmcid">PMC6224657</pub-id></mixed-citation>
+        </ref>
+        <ref id="R49">
+          <label>49.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bettegowda</surname><given-names>C</given-names></name>, <etal/><article-title>Detection of circulating tumor DNA in early- and late-stage human malignancies</article-title>. <source>Sci Transl Med</source><volume>6</volume>, <fpage>224ra224</fpage> (<year>2014</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.3007094</pub-id><pub-id pub-id-type="pmcid">PMC4017867</pub-id><pub-id pub-id-type="pmid">24553385</pub-id></mixed-citation>
+        </ref>
+        <ref id="R50">
+          <label>50.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Dawson</surname><given-names>SJ</given-names></name>, <etal/><article-title>Analysis of circulating tumor DNA to monitor metastatic breast cancer</article-title>. <source>N Engl J Med</source><volume>368</volume>, <fpage>1199</fpage>–<lpage>1209</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23484797</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1213261</pub-id></mixed-citation>
+        </ref>
+        <ref id="R51">
+          <label>51.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chabon</surname><given-names>JJ</given-names></name>, <etal/><article-title>Circulating tumour DNA profiling reveals heterogeneity of EGFR inhibitor resistance mechanisms in lung cancer patients</article-title>. <source>Nat Commun</source><volume>7</volume>, <fpage>11815</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27283993</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms11815</pub-id><pub-id pub-id-type="pmcid">PMC4906406</pub-id></mixed-citation>
+        </ref>
+        <ref id="R52">
+          <label>52.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Young</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Challen</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Birmann</surname><given-names>BM</given-names></name> &amp; <name name-style="western"><surname>Druley</surname><given-names>TE</given-names></name><article-title>Clonal haematopoiesis harbouring AML-associated mutations is ubiquitous in healthy adults</article-title>. <source>Nat Commun</source><volume>7</volume>, <fpage>12484</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27546487</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms12484</pub-id><pub-id pub-id-type="pmcid">PMC4996934</pub-id></mixed-citation>
+        </ref>
+        <ref id="R53">
+          <label>53.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Swanton</surname><given-names>C</given-names></name>, <etal/><article-title>Prevalence of clonal hematopoiesis of indeterminate potential (CHIP) measured by an ultra-sensitive sequencing assay: Exploratory analysis of the Circulating Cancer Genome Atlas (CCGA) study</article-title>. <source>Journal of Clinical Oncology</source><volume>36</volume>(<year>2018</year>).</mixed-citation>
+        </ref>
+        <ref id="R54">
+          <label>54.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mansukhani</surname><given-names>S</given-names></name>, <etal/><article-title>Ultra-Sensitive Mutation Detection and Genome-Wide DNA Copy Number Reconstruction by Error-Corrected Circulating Tumor DNA Sequencing</article-title>. <source>Clin Chem</source> (<year>2018</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1373/clinchem.2018.289629</pub-id><pub-id pub-id-type="pmcid">PMC6214522</pub-id><pub-id pub-id-type="pmid">30150316</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+      <ref-list>
+        <title>Methods-Only References</title>
+        <ref id="R55">
+          <label>55.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Tamborero</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Gonzalez-Perez</surname><given-names>A</given-names></name> &amp; <name name-style="western"><surname>Lopez-Bigas</surname><given-names>N</given-names></name><article-title>OncodriveCLUST: exploiting the positional clustering of somatic mutations to identify cancer genes</article-title>. <source>Bioinformatics</source><volume>29</volume>, <fpage>2238</fpage>–<lpage>2244</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23884480</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btt395</pub-id></mixed-citation>
+        </ref>
+        <ref id="R56">
+          <label>56.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shen</surname><given-names>R</given-names></name> &amp; <name name-style="western"><surname>Seshan</surname><given-names>VE</given-names></name><article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>. <source>Nucleic Acids Res</source><volume>44</volume>, <fpage>e131</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27270079</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkw520</pub-id><pub-id pub-id-type="pmcid">PMC5027494</pub-id></mixed-citation>
+        </ref>
+        <ref id="R57">
+          <label>57.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Carter</surname><given-names>SL</given-names></name>, <etal/><article-title>Absolute quantification of somatic DNA alterations in human cancer</article-title>. <source>Nat Biotechnol</source><volume>30</volume>, <fpage>413</fpage>–<lpage>421</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22544022</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2203</pub-id><pub-id pub-id-type="pmcid">PMC4383288</pub-id></mixed-citation>
+        </ref>
+        <ref id="R58">
+          <label>58.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ulmert</surname><given-names>D</given-names></name>, <etal/><article-title>A novel automated platform for quantifying the extent of skeletal tumour involvement in prostate cancer patients using the Bone Scan Index</article-title>. <source>Eur Urol</source><volume>62</volume>, <fpage>78</fpage>–<lpage>84</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22306323</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.eururo.2012.01.037</pub-id><pub-id pub-id-type="pmcid">PMC3402084</pub-id></mixed-citation>
+        </ref>
+        <ref id="R59">
+          <label>59.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Armstrong</surname><given-names>AJ</given-names></name>, <etal/><article-title>Phase 3 Assessment of the Automated Bone Scan Index as a Prognostic Imaging Biomarker of Overall Survival in Men With Metastatic Castration-Resistant Prostate Cancer: A Secondary Analysis of a Randomized Clinical Trial</article-title>. <source>JAMA Oncol</source><volume>4</volume>, <fpage>944</fpage>–<lpage>951</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29799999</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2018.1093</pub-id><pub-id pub-id-type="pmcid">PMC6145727</pub-id></mixed-citation>
+        </ref>
+        <ref id="R60">
+          <label>60.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Rosenthal</surname><given-names>R</given-names></name>, <name name-style="western"><surname>McGranahan</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Herrero</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>BS</given-names></name> &amp; <name name-style="western"><surname>Swanton</surname><given-names>C</given-names></name><article-title>DeconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution</article-title>. <source>Genome Biol</source><volume>17</volume>, <fpage>31</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26899170</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-016-0893-4</pub-id><pub-id pub-id-type="pmcid">PMC4762164</pub-id></mixed-citation>
+        </ref>
+        <ref id="R61">
+          <label>61.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kandoth</surname><given-names>C</given-names></name>, <etal/><article-title>Mutational landscape and significance across 12 major cancer types</article-title>. <source>Nature</source><volume>502</volume>, <fpage>333</fpage>–<lpage>339</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24132290</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12634</pub-id><pub-id pub-id-type="pmcid">PMC3927368</pub-id></mixed-citation>
+        </ref>
+        <ref id="R62">
+          <label>62.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chang</surname><given-names>MT</given-names></name>, <etal/><article-title>Accelerating Discovery of Functional Mutant Alleles in Cancer</article-title>. <source>Cancer Discov</source><volume>8</volume>, <fpage>174</fpage>–<lpage>183</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29247016</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-17-0321</pub-id><pub-id pub-id-type="pmcid">PMC5809279</pub-id></mixed-citation>
+        </ref>
+        <ref id="R63">
+          <label>63.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lek</surname><given-names>M</given-names></name>, <etal/><article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>. <source>Nature</source><volume>536</volume>, <fpage>285</fpage>–<lpage>291</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27535533</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature19057</pub-id><pub-id pub-id-type="pmcid">PMC5018207</pub-id></mixed-citation>
+        </ref>
+        <ref id="R64">
+          <label>64.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chakravarty</surname><given-names>D</given-names></name>, <etal/><article-title>OncoKB: A Precision Oncology Knowledge Base</article-title>. <source>JCO Precis Oncol 2017</source>(<year>2017</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id><pub-id pub-id-type="pmid">28890946</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Fig. 1.</label>
+        <caption>
+          <title>Assay workflow and reproducibility.</title>
+          <p id="P79">(<bold>a</bold>) Tumor and cfDNA samples were collected from patients with metastatic breast (MBC), lung (NSCLC), and prostate (CRPC) cancers. Tumor and matched normal samples were sequenced using the MSK-IMPACT assay, while plasma and buffy coat samples from cancer patients and non-cancer controls from the San Diego Blood Bank underwent sequencing followed by <italic toggle="yes">de novo</italic> assembly and mutation detection using the high-intensity targeted cfDNA assay by GRAIL, Inc (Menlo Park, CA) based on a bespoke joint-variant-calling pipeline. Tumor and cfDNA somatic variant detection results were unblinded for concordance analyses. (<bold>b</bold>) Analytical performance of the targeted DNA assay. The detection probability is shown as a function of increasing variant allele fraction in HD753 cell line DNA titrations. The curves correspond to the mean target coverage of 2,430X from 30 ng cell line DNA input and the mean target coverage of 4,577X obtained from simulated FASTQs. (<bold>c</bold>) Estimated variant calling specificity using non-cancer control samples and corresponding variant calling sensitivity using methods as described in the <xref rid="SD1" ref-type="supplementary-material">supplementary methods</xref> (joint variant analysis using the machine learning error model). Non-cancer controls were not used to train the model here. (<bold>d</bold>) Comparison of allele fraction of variants detected using either of the two targeted DNA assay protocols in five patients. One MBC hypermutated patient, shown in (<bold>e</bold>), was excluded from this analysis to avoid biased regression. Concordant mutation detection between the two replicates (triangles indicate biopsy-matched, circles indicate biopsy-unmatched variants) is enriched in allele fraction above limit of detection. (<bold>f</bold>) Comparison of variant allele fraction (VAF) measured using the targeted DNA assay (y-axis) and ddPCR (x-axis). cfDNA extracted from five cancer patients with canonical hotspot mutations were subjected to ddPCR. An aliquot of the same cfDNA sample was employed for the targeted DNA assays using two versions of the protocol (V1 and V2). One sample lacking canonical hotspot mutation in the ddPCR measurements was excluded.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0001.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Fig. 2.</label>
+        <caption>
+          <title>Concordance of cfDNA variants with tumor biopsy.</title>
+          <p id="P80">(<bold>a</bold>) Summary statistics of concordance between the cfDNA and tumor biopsy assays for 124 patients with MBC (n=39), NSCLC (n=41), and CRPC (n=44) cancer. (<bold>b</bold>) Frequency of genomic alterations by in cfDNA of the same patients with MBC, NSCLC, and CRPC. The genes were sorted by their frequency of alterations in the tumor tissue. (<bold>c</bold>) Plasma variant allele fractions (VAF) of somatic variants sorted by the maximum VAF in control individuals. (<bold>d</bold>) Upper panels depict plasma VAFs of somatic variants in MBC, NSCLC, and CRPC. The lower panels show the number of variants identified in each individual by MSK-IMPACT. Colors indicate whether alterations were biopsy-matched, biopsy-subthreshold, biopsy-only (detected in tumor only and not in cfDNA), or VUSo. (<bold>e</bold>) Increasing detection rate of tumor variants in cfDNA with clonality of mutations in the tumor biopsy. The midpoint of the interval plot shows the median proportion of tumor mutations from the MSK-IMPACT assay which were also detected in cfDNA of MBC, NSCLC, and CRPC patients, stratified by the cancer cell fraction (CCF) in the tumor, whilst the error bars indicate the 95% binomial confidence intervals. The CCF was strongly associated with detection rate in cfDNA (overall p= 5.33e-21). All p values are based on two-sided X<sup>2</sup> trend test. (<bold>f</bold>) Distribution of tumor derived cfDNA fraction estimates (i.e. ctDNA fraction) in MBC, NSCLC, and CRPC patients (n=105 patients with evaluable ctDNA fraction, two-sided Kruskal-Wallis <italic toggle="yes">H</italic>-test p=0.0046). The midpoints indicate the median ctDNA fraction by cancer type and the violins extend to the full range of the data. (g) Distribution of ctDNA fraction estimates as a function of disease burden. In MBCs (n=34) and NSCLC (n=29), disease volume was obtained through volumetric measurements of pre-cfDNA collection CT scans. In CRPC (n=39), the automated bone scan index (aBSI) was used to estimate disease burden. The association between tertiles of disease burden for each cohort and the ctDNA fraction was estimated using a one-sided Jonckheere-Terpstra test for increasing ctDNA fraction. Triangles indicate patients from whom some distant metastases could not be measured and the estimates for these lesions were not included in the volumetric assessment. Note that as aBSI was employed for CRPC, not all sites of metastatic disease (e.g. visceral disease) were included in the disease burden in the CRPC patients. The horizontal bar indicates the median, while the boxes shows the interquartile range (IQR). The whiskers extend to 1.5 × IQR on either side.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0002.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Fig. 3.</label>
+        <caption>
+          <title>Tumor mutational burden and mutational signatures derived from cfDNA targeted assay.</title>
+          <p id="P81">(<bold>a</bold>) Distribution of the somatic tumor mutation burden (TMB), defined as the number of nonsynonymous mutations per megabase (Mb), in tumor (x-axis) and cfDNA (y-axis). The vertical dashed line indicates the threshold for samples with a high TMB based on tumor biopsy (13.8 mutations/Mb) and the horizontal dashed line indicates the threshold for samples with a high TMB in cfDNA (22.7 mutations/Mb). (<bold>b</bold>) Venn diagrams showing the total number of mutations detected in cfDNA and tumor and their overlap. The upper panel shows the distribution of mutations in the 10 hypermutated cases (MBC n=5, NSCLC n=2, and CRPC n=3), while the lower panel shows the same in the remaining 114 patients (MBC n=34, NSCLC n=39, CRPC n=41). The 10 hypermutated cases account for 60% of total cfDNA variants and 75% of cfDNA-only variants (VUSo). (<bold>c</bold>) Bar charts displaying the fraction of mutational signatures in the hypermutated cases. The upper panel shows the Pearson correlation between the observed and expected 96 base substitutions profile. All the MBC cases and one of the CRPC cases demonstrated a dominant APOBEC signature. (<bold>d</bold>) Microsatellite instability (MSI) scores obtained using a modified MSIsensor algorithm<sup><xref rid="R40" ref-type="bibr">40</xref></sup> from the tumor (x-axis) and cfDNA (y-axis). (<bold>e</bold>) A 55-year-old patient with castration- and enzalutamide-resistant prostate cancer displaying an MMR signature and high MSI score based on both cfDNA and tumor targeted sequencing data. Upon initiation of treatment on an anti-PD-L1 immunotherapy regimen, rapid tumor regression was observed. Line charts show relative tumor size based on Response Evaluation Criteria in Solid Tumors (RECIST v1.1) criteria and serum prostate-specific antigen (PSA) levels. CT images show the decreasing tumor size at indicated time points.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0003.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Fig. 4.</label>
+        <caption>
+          <title>Characterization of biological sources and composition of cfDNA variants.</title>
+          <p id="P82">(<bold>a</bold>) Pie charts representing the distribution of cfDNA somatic mutation for controls (n=47), non-hypermutated cancer cases (n=110) and hypermutated cancer cases (n=10). (<bold>b</bold>) Bar plots showing the number of somatic variants detected in plasma cfDNA per megabase (Mb, y-axis) for each sample (x-axis) stratified by cancer status and biological sources and ordered by increasing number of somatic WBC-matched variants. The panels show control samples (top left) and patients with MBC (top right), NSCLC (bottom left) and CRPC (bottom right) cancers. The colors are indicated in (<bold>a</bold>). (<bold>c</bold>) Association between age (x-axis) and number of cfDNA variants per Mb categorized as WBC-matched, VUSo, tumor biopsy-matched and biopsy-subthreshold. In all panels, the p values were obtained using two-sided Wald tests on the coefficients of zero-inflated Poisson regression models with cancer status and smoking history where applicable as covariates. The cohort consists of n=114 non-hypermutated cancer patients and n=47 non-cancer controls. Only cases with a non-zero number of variants are displayed. (<bold>d</bold>) Top mutated genes carrying WBC-matched variants for each cohort. The number in the cells indicate the overall number of variants for each gene in the corresponding cohort. (<bold>e</bold>) Posterior distribution of variant allele fractions (VAF). The scatter plot shows the distribution in VAFs of somatic mutations detected in cfDNA and WBC using the targeted DNA assay and color coded according to source of origin for n=114 non-hypermutated cancer patients and n=47 non-cancer controls. (<bold>f</bold>) Orthogonal validation of VUSo detected in cfDNA using ddPCR. The VAF measured using ddPCR (x-axis) was plotted according to the cfDNA targeted assay (y-axis). Plasma cfDNA samples and pre-enrichment libraries from seven cancer patients with hotspot mutations not detected in the matched tumor sequencing were subjected to four ddPCR assays. For one patient, only cfDNA isolated from plasma was available. For two patients, both cfDNA and pre-enrichment sequencing libraries were available whilst for the remaining four patients, only libraries were assayed. The sequencing libraries from 12 patients where the ddPCR target variants were not detected by sequencing were used as negative controls. All experiments were performed in triplicate. In (<bold>e</bold>) and (<bold>f</bold>), the diagonals represent the line <italic toggle="yes">y</italic>=<italic toggle="yes">x</italic>. ND; not detected.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0004.jpg"/>
+      </fig>
+      <fig id="F5" orientation="portrait" position="float">
+        <label>Fig. 5.</label>
+        <caption>
+          <title>Characterization of WBC variants.</title>
+          <p id="P83">(<bold>a</bold>) Direct analysis of somatic variants in WBC. The upper bar plot shows the number of somatic variants detected across 1.1 Mb of genome grouped by age category and ordered by increasing mutational burden. The bottom panel shows the variant allele fractions (VAFs) of all somatic variants in 15 canonical genes associated with clonal hematopoiesis (CH) together with the variant occurring at maximal VAF in WBC. (<bold>b</bold>) Association of age (x-axis) and number of somatic variants in WBC per Mb (y-axis). The p value was obtained using a two-sided Wald test on the coefficients of a zero-inflated Poisson regression with cancer status as covariate. The analysis included 47 controls and 124 cancer cases. (<bold>c</bold>) Bar plot showing the percentage of cancer patients (n=114) and control individuals (n=47) harboring a mutation with maximal VAF in a given CH gene. * indicates p=0.0115 and ** indicates p=0.0008. The p values were obtained using a permutation-based likelihood ratio test to assess the significance of the coefficients of a logistic regression with age and smoking history as covariates where applicable. (<bold>d</bold>) Frequency of mutations in CH genes as a function of the number of non-cancer or cancer patients in the given arm and colored according to the percentage of truncating mutations including frameshifting indel, nonsense and nonstop mutations. Note that some of these patients have ≥1 variant affecting the same canonical CH genes (e.g. <italic toggle="yes">DNMT3A</italic>, <italic toggle="yes">TET2</italic>, <italic toggle="yes">PPM1D</italic>, and <italic toggle="yes">ASXL1</italic>). The sum of the size of the circles can, therefore, exceed 100%. In all panels, the cohort consists of n=114 cancer patients and n=47 non-cancer controls. In (<bold>b</bold>), only cases with a non-zero number of CH variants are displayed.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1541314-f0005.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1612 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">PLoS Med</journal-id>
+        <journal-id journal-id-type="iso-abbrev">PLoS Med</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">277</journal-id>
+        <journal-id journal-id-type="pmc-domain">plosmed</journal-id>
+        <journal-id journal-id-type="publisher-id">plos</journal-id>
+        <journal-title-group>
+          <journal-title>PLoS Medicine</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1549-1277</issn>
+        <issn pub-type="epub">1549-1676</issn>
+        <publisher>
+          <publisher-name>PLOS</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC5189935</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC5189935.1</article-id>
+        <article-id pub-id-type="pmcaid">5189935</article-id>
+        <article-id pub-id-type="pmcaiid">5189935</article-id>
+        <article-id pub-id-type="pmid">28027327</article-id>
+        <article-id pub-id-type="doi">10.1371/journal.pmed.1002201</article-id>
+        <article-id pub-id-type="publisher-id">PMEDICINE-D-16-03211</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Research Article</subject>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and Life Sciences</subject>
+            <subj-group>
+              <subject>Genetics</subject>
+              <subj-group>
+                <subject>Mutation</subject>
+                <subj-group>
+                  <subject>Somatic Mutation</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Cancers and Neoplasms</subject>
+                <subj-group>
+                  <subject>Breast Tumors</subject>
+                  <subj-group>
+                    <subject>Breast Cancer</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and Life Sciences</subject>
+            <subj-group>
+              <subject>Genetics</subject>
+              <subj-group>
+                <subject>Mutation</subject>
+                <subj-group>
+                  <subject>Nonsense Mutation</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and Life Sciences</subject>
+            <subj-group>
+              <subject>Genetics</subject>
+              <subj-group>
+                <subject>Mutation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Basic Cancer Research</subject>
+                <subj-group>
+                  <subject>Cancer Genomics</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and Life Sciences</subject>
+            <subj-group>
+              <subject>Genetics</subject>
+              <subj-group>
+                <subject>Genomics</subject>
+                <subj-group>
+                  <subject>Genomic Medicine</subject>
+                  <subj-group>
+                    <subject>Cancer Genomics</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Cancers and Neoplasms</subject>
+                <subj-group>
+                  <subject>Breast Tumors</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Cancer Treatment</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Cancers and Neoplasms</subject>
+                <subj-group>
+                  <subject>Metastatic Tumors</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Mutational Profile of Metastatic Breast Cancers: A Retrospective Analysis</article-title>
+          <alt-title alt-title-type="running-head">Mutational Profile of Metastatic Breast Cancers</alt-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Lefebvre</surname>
+              <given-names initials="C">Celine</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Bachelot</surname>
+              <given-names initials="T">Thomas</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff002">
+              <sup>2</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0724-0659</contrib-id>
+            <name name-style="western">
+              <surname>Filleron</surname>
+              <given-names initials="T">Thomas</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff003">
+              <sup>3</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pedrero</surname>
+              <given-names initials="M">Marion</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Campone</surname>
+              <given-names initials="M">Mario</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff004">
+              <sup>4</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Soria</surname>
+              <given-names initials="JC">Jean-Charles</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff005">
+              <sup>5</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff006">
+              <sup>6</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff007">
+              <sup>7</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Massard</surname>
+              <given-names initials="C">Christophe</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff007">
+              <sup>7</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lévy</surname>
+              <given-names initials="C">Christelle</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff008">
+              <sup>8</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Arnedos</surname>
+              <given-names initials="M">Monica</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff005">
+              <sup>5</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lacroix-Triki</surname>
+              <given-names initials="M">Magali</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Garrabey</surname>
+              <given-names initials="J">Julie</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff009">
+              <sup>9</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Boursin</surname>
+              <given-names initials="Y">Yannick</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff010">
+              <sup>10</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Deloger</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff010">
+              <sup>10</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1497-1794</contrib-id>
+            <name name-style="western">
+              <surname>Fu</surname>
+              <given-names initials="Y">Yu</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Commo</surname>
+              <given-names initials="F">Frédéric</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scott</surname>
+              <given-names initials="V">Véronique</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2535-1010</contrib-id>
+            <name name-style="western">
+              <surname>Lacroix</surname>
+              <given-names initials="L">Ludovic</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff011">
+              <sup>11</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-3967-9861</contrib-id>
+            <name name-style="western">
+              <surname>Dieci</surname>
+              <given-names initials="MV">Maria Vittoria</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff012">
+              <sup>12</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff013">
+              <sup>13</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kamal</surname>
+              <given-names initials="M">Maud</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff014">
+              <sup>14</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Diéras</surname>
+              <given-names initials="V">Véronique</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff014">
+              <sup>14</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names initials="A">Anthony</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff015">
+              <sup>15</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0069-3743</contrib-id>
+            <name name-style="western">
+              <surname>Ferrerro</surname>
+              <given-names initials="JM">Jean-Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff016">
+              <sup>16</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Romieu</surname>
+              <given-names initials="G">Gilles</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff017">
+              <sup>17</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vanlemmens</surname>
+              <given-names initials="L">Laurence</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff018">
+              <sup>18</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mouret Reynier</surname>
+              <given-names initials="MA">Marie-Ange</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff019">
+              <sup>19</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Théry</surname>
+              <given-names initials="JC">Jean-Christophe</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff020">
+              <sup>20</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Le Du</surname>
+              <given-names initials="F">Fanny</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff021">
+              <sup>21</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Guiu</surname>
+              <given-names initials="S">Séverine</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff022">
+              <sup>22</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dalenc</surname>
+              <given-names initials="F">Florence</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff023">
+              <sup>23</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-5725-519X</contrib-id>
+            <name name-style="western">
+              <surname>Clapisson</surname>
+              <given-names initials="G">Gilles</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff024">
+              <sup>24</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bonnefoi</surname>
+              <given-names initials="H">Hervé</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff025">
+              <sup>25</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jimenez</surname>
+              <given-names initials="M">Marta</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff009">
+              <sup>9</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Le Tourneau</surname>
+              <given-names initials="C">Christophe</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff014">
+              <sup>14</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff026">
+              <sup>26</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>André</surname>
+              <given-names initials="F">Fabrice</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff005">
+              <sup>5</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff006">
+              <sup>6</sup>
+            </xref>
+            <xref ref-type="corresp" rid="cor001">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="aff001"><label>1</label>
+<addr-line>INSERM Unit U981, Gustave Roussy, Villejuif, France</addr-line></aff>
+        <aff id="aff002"><label>2</label>
+<addr-line>Department of Medical Oncology, Centre Léon Bérard, Inserm U1052, Lyon, France</addr-line></aff>
+        <aff id="aff003"><label>3</label>
+<addr-line>Biostatistics Department, Institut Claudius Regaud, IUCT-Oncopole, Toulouse, France</addr-line></aff>
+        <aff id="aff004"><label>4</label>
+<addr-line>Department of Medical Oncology, Institut de Cancérologie de l’Ouest, Nantes, France</addr-line></aff>
+        <aff id="aff005"><label>5</label>
+<addr-line>Department of Medical Oncology, Gustave Roussy, Villejuif, France</addr-line></aff>
+        <aff id="aff006"><label>6</label>
+<addr-line>Faculté de Médecine, Université Paris Sud, Kremlin-Bicêtre, France</addr-line></aff>
+        <aff id="aff007"><label>7</label>
+<addr-line>Drug Development Department (DITEP), Gustave Roussy, Villejuif, France</addr-line></aff>
+        <aff id="aff008"><label>8</label>
+<addr-line>Department of Medical Oncology, Centre François Baclesse, Caen, France</addr-line></aff>
+        <aff id="aff009"><label>9</label>
+<addr-line>R&amp;D UNICANCER, Paris, France</addr-line></aff>
+        <aff id="aff010"><label>10</label>
+<addr-line>Bioinformatics core facility, Gustave Roussy, Villejuif, France</addr-line></aff>
+        <aff id="aff011"><label>11</label>
+<addr-line>Department of Medical Biology and Pathology, Translational research laboratory and biobank, Gustave Roussy, Villejuif, France</addr-line></aff>
+        <aff id="aff012"><label>12</label>
+<addr-line>Department of Surgery, Oncology and Gastroenterology, University of Padova, Padua, Italy</addr-line></aff>
+        <aff id="aff013"><label>13</label>
+<addr-line>Medical Oncology 2, Veneto Institute of Oncology IOV—IRCCS, Padua, Italy</addr-line></aff>
+        <aff id="aff014"><label>14</label>
+<addr-line>Department of Medical Oncology, Institut Curie, Paris &amp; Saint-Cloud, France</addr-line></aff>
+        <aff id="aff015"><label>15</label>
+<addr-line>Department of Medical Oncology, Institut Paoli-Calmettes, Marseille, France</addr-line></aff>
+        <aff id="aff016"><label>16</label>
+<addr-line>Department of Clinical Research, Centre Antoine Lacassagne, Nice, France</addr-line></aff>
+        <aff id="aff017"><label>17</label>
+<addr-line>Department of Medical Oncology, Institut du Cancer de Montpellier, Montpellier, France</addr-line></aff>
+        <aff id="aff018"><label>18</label>
+<addr-line>Department of Medical Oncology, Centre Oscar Lambret, Lille, France</addr-line></aff>
+        <aff id="aff019"><label>19</label>
+<addr-line>Department of Medical Oncology, Centre Jean Perrin, Clermont-Ferrand, France</addr-line></aff>
+        <aff id="aff020"><label>20</label>
+<addr-line>Department of Medical Oncology, Centre Henri Becquerel, Rouen, France</addr-line></aff>
+        <aff id="aff021"><label>21</label>
+<addr-line>Department of Medical Oncology, Centre Eugène Marquis, Rennes, France</addr-line></aff>
+        <aff id="aff022"><label>22</label>
+<addr-line>Department of Medical Oncology, Centre Georges-François Leclerc, Dijon, France</addr-line></aff>
+        <aff id="aff023"><label>23</label>
+<addr-line>Department of Medical Oncology, Institut Claudius Regaud, IUCT-Oncopole, Toulouse, France</addr-line></aff>
+        <aff id="aff024"><label>24</label>
+<addr-line>UNICANCER Biobanking Center, Centre Léon Bérard, Lyon, France</addr-line></aff>
+        <aff id="aff025"><label>25</label>
+<addr-line>Department of Medical Oncology, Institut Bergonié, Université de Bordeaux, INSERM U916, Bordeaux, France</addr-line></aff>
+        <aff id="aff026"><label>26</label>
+<addr-line>EA7285, Versailles-Saint-Quentin-en-Yvelines University, Montigny-le-Bretonneux, France</addr-line></aff>
+        <contrib-group>
+          <contrib contrib-type="editor">
+            <name name-style="western">
+              <surname>Mardis</surname>
+              <given-names initials="ER">Elaine Rene</given-names>
+            </name>
+            <role>Academic Editor</role>
+            <xref ref-type="aff" rid="edit1"/>
+          </contrib>
+        </contrib-group>
+        <aff id="edit1">
+          <addr-line>Washington University School of Medicine, UNITED STATES</addr-line>
+        </aff>
+        <author-notes>
+          <fn fn-type="COI-statement" id="coi001">
+            <p>I have read the journal's policy and the authors of this manuscript have the following competing interests: TB is a board member for Roche, Novartis, Pfizer, and AstraZeneca, and received non-financial support from Roche, Novartis, and AstraZeneca. TB also received grants from Roche and Novartis.</p>
+          </fn>
+          <fn fn-type="con">
+            <p><list list-type="simple"><list-item><p><bold>Conceptualization:</bold> TB MC JCS CM ChL MA VD AG JMF GR LV MAMR JCT FLD SG FD GC HB MJ CLT FA.</p></list-item><list-item><p><bold>Data curation:</bold> TF JG MK.</p></list-item><list-item><p><bold>Formal analysis:</bold> CeL TF MP YB MD YF.</p></list-item><list-item><p><bold>Funding acquisition:</bold> MJ FA.</p></list-item><list-item><p><bold>Investigation:</bold> CeL TB LL MC JCS CM ChL MA VD AG JMF GR LV MAMR JCT FLD SG FD GC HB MJ CLT FA.</p></list-item><list-item><p><bold>Methodology:</bold> CeL TB TF MC JCS LL ChL MP YB MD.</p></list-item><list-item><p><bold>Project administration:</bold> JG MJ FA.</p></list-item><list-item><p><bold>Resources:</bold> TB MC JCS CM ChL MA VD AG JMF GR LV MAMR JCT FLD SG FD GC HB MJ CLT FA.</p></list-item><list-item><p><bold>Software:</bold> CeL MP YB MD YF.</p></list-item><list-item><p><bold>Supervision:</bold> MJ CLT FA.</p></list-item><list-item><p><bold>Visualization:</bold> CeL MP TF.</p></list-item><list-item><p><bold>Writing – original draft:</bold> CeL TF FA.</p></list-item><list-item><p><bold>Writing – review &amp; editing:</bold> TB MP MC JCS CM ChL MA MLT JG YB MD YF FC VS LL MVD MK VD AG JMF GR LV MAMR JCT FLD SG FD GC HB MJ CLT.</p></list-item></list>
+</p>
+          </fn>
+          <corresp id="cor001">* E-mail: <email>fabrice.andre@gustaveroussy.fr</email></corresp>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>27</day>
+          <month>12</month>
+          <year>2016</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <month>12</month>
+          <year>2016</year>
+        </pub-date>
+        <volume>13</volume>
+        <issue>12</issue>
+        <issue-id pub-id-type="pmc-issue-id">280337</issue-id>
+        <elocation-id>e1002201</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>4</day>
+            <month>10</month>
+            <year>2016</year>
+          </date>
+          <date date-type="accepted">
+            <day>11</day>
+            <month>11</month>
+            <year>2016</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>27</day>
+              <month>12</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>19</day>
+              <month>01</month>
+              <year>2017</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2020-12-13 19:16:26.157">
+              <day>13</day>
+              <month>12</month>
+              <year>2020</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© 2016 Lefebvre et al</copyright-statement>
+          <copyright-year>2016</copyright-year>
+          <copyright-holder>Lefebvre et al</copyright-holder>
+          <license xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+            <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="pmed.1002201.pdf"/>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="pmed.1002201.pdf"/>
+        <abstract>
+          <sec id="sec001">
+            <title>Background</title>
+            <p>Major advances have been achieved in the characterization of early breast cancer (eBC) genomic profiles. Metastatic breast cancer (mBC) is associated with poor outcomes, yet limited information is available on the genomic profile of this disease. This study aims to decipher mutational profiles of mBC using next-generation sequencing.</p>
+          </sec>
+          <sec id="sec002">
+            <title>Methods and Findings</title>
+            <p>Whole-exome sequencing was performed on 216 tumor–blood pairs from mBC patients who underwent a biopsy in the context of the SAFIR01, SAFIR02, SHIVA, or Molecular Screening for Cancer Treatment Optimization (MOSCATO) prospective trials. Mutational profiles from 772 primary breast tumors from The Cancer Genome Atlas (TCGA) were used as a reference for comparing primary and mBC mutational profiles. Twelve genes (<italic toggle="yes">TP53</italic>, <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">GATA3</italic>, <italic toggle="yes">ESR1</italic>, <italic toggle="yes">MAP3K1</italic>, <italic toggle="yes">CDH1</italic>, <italic toggle="yes">AKT1</italic>, <italic toggle="yes">MAP2K4</italic>, <italic toggle="yes">RB1</italic>, <italic toggle="yes">PTEN</italic>, <italic toggle="yes">CBFB</italic>, and <italic toggle="yes">CDKN2A</italic>) were identified as significantly mutated in mBC (false discovery rate [FDR] &lt; 0.1). Eight genes (<italic toggle="yes">ESR1</italic>, <italic toggle="yes">FSIP2</italic>, <italic toggle="yes">FRAS1</italic>, <italic toggle="yes">OSBPL3</italic>, <italic toggle="yes">EDC4</italic>, <italic toggle="yes">PALB2</italic>, <italic toggle="yes">IGFN1</italic>, and <italic toggle="yes">AGRN</italic>) were more frequently mutated in mBC as compared to eBC (FDR &lt; 0.01). <italic toggle="yes">ESR1</italic> was identified both as a driver and as a metastatic gene (<italic toggle="yes">n</italic> = 22, odds ratio = 29, 95% CI [9–155], <italic toggle="yes">p</italic> = 1.2e-12) and also presented with focal amplification (<italic toggle="yes">n</italic> = 9) for a total of 31 mBCs with either <italic toggle="yes">ESR1</italic> mutation or amplification, including 27 hormone receptor positive (HR+) and HER2 negative (HER2−) mBCs (19%). HR+/HER2− mBC presented a high prevalence of mutations on genes located on the mechanistic target of rapamycin (mTOR) pathway (<italic toggle="yes">TSC1</italic> and <italic toggle="yes">TSC2</italic>) as compared to HR+/HER2− eBC (respectively 6% and 0.7%, <italic toggle="yes">p</italic> = 0.0004). Other actionable genes were more frequently mutated in HR+ mBC, including <italic toggle="yes">ERBB4</italic> (<italic toggle="yes">n</italic> = 8), <italic toggle="yes">NOTCH3</italic> (<italic toggle="yes">n</italic> = 7), and <italic toggle="yes">ALK</italic> (<italic toggle="yes">n</italic> = 7). Analysis of mutational signatures revealed a significant increase in APOBEC-mediated mutagenesis in HR+/HER2− metastatic tumors as compared to primary TCGA samples (<italic toggle="yes">p</italic> &lt; 2e-16). The main limitations of this study include the absence of bone metastases and the size of the cohort, which might not have allowed the identification of rare mutations and their effect on survival.</p>
+          </sec>
+          <sec id="sec003">
+            <title>Conclusions</title>
+            <p>This work reports the results of the analysis of the first large-scale study on mutation profiles of mBC. This study revealed genomic alterations and mutational signatures involved in the resistance to therapies, including actionable mutations.</p>
+          </sec>
+        </abstract>
+        <abstract abstract-type="toc">
+          <p>Fabrice Andre and colleagues describe the mutations occurring in a large group of patients with metastatic breast cancer.</p>
+        </abstract>
+        <abstract abstract-type="summary">
+          <title>Author Summary</title>
+          <sec id="sec004">
+            <title>Why Was This Study Done?</title>
+            <list list-type="bullet">
+              <list-item>
+                <p>Breast cancer often results in poor outcomes after it has metastasized to distant organs, but, while primary breast tumors have been extensively characterized at the molecular level, metastatic lesions are poorly understood.</p>
+              </list-item>
+              <list-item>
+                <p>This study aims to characterize the mutational landscape of metastatic breast cancer by performing and analyzing whole-exome sequencing of a large collection of metastatic breast tumors and corresponding blood samples.</p>
+              </list-item>
+              <list-item>
+                <p>Understanding of the mutational landscape of metastatic tumors should open new avenues for assessing resistance to therapy and developing better treatments.</p>
+              </list-item>
+            </list>
+          </sec>
+          <sec id="sec005">
+            <title>What Did the Researchers Do and Find?</title>
+            <list list-type="bullet">
+              <list-item>
+                <p>The authors generated a large collection of whole-exome sequencing data from the DNA of breast cancer metastases and from each patient’s corresponding unmutated DNA in order to identify mutations and gene copy number alterations specific to the tumors.</p>
+              </list-item>
+              <list-item>
+                <p>The bioinformatics analyses identified recurrently mutated genes in metastatic tumors and revealed the genes specifically involved in metastatic disease by comparing their mutational frequency to those of primary breast tumors.</p>
+              </list-item>
+              <list-item>
+                <p>The study allowed identification of the affected genes and of mutational signatures that were more prevalent in metastatic as compared with primary tumors and that may be involved in the resistance to therapies.</p>
+              </list-item>
+            </list>
+          </sec>
+          <sec id="sec006">
+            <title>What Do These Findings Mean?</title>
+            <list list-type="bullet">
+              <list-item>
+                <p>The identification of mutational and copy number alterations specifically involved in breast cancer metastasis demonstrated that tumors evolve under the pressure of therapy.</p>
+              </list-item>
+              <list-item>
+                <p>Characterization of mutations and copy number alterations in metastatic lesions in addition to primary tumors should help to tailor treatment for patients, with the potential for improved clinical outcomes.</p>
+              </list-item>
+            </list>
+          </sec>
+        </abstract>
+        <funding-group>
+          <award-group id="award001">
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100001006</institution-id>
+                <institution>Breast Cancer Research Foundation</institution>
+              </institution-wrap>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>André</surname>
+                <given-names>Fabrice</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="award002">
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100004097</institution-id>
+                <institution>Fondation ARC pour la Recherche sur le Cancer</institution>
+              </institution-wrap>
+            </funding-source>
+          </award-group>
+          <award-group id="award003">
+            <funding-source>
+              <institution>Fondation Lombard-Odier “Philanthropia”</institution>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>André</surname>
+                <given-names>Fabrice</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="award004">
+            <funding-source>
+              <institution>Odyssea</institution>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>André</surname>
+                <given-names>Fabrice</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="award005">
+            <funding-source>
+              <institution>Operation Parrains Chercheurs</institution>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>André</surname>
+                <given-names>Fabrice</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="award006">
+            <funding-source>
+              <institution>Dassault Foundation</institution>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>André</surname>
+                <given-names>Fabrice</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="award007">
+            <funding-source>
+              <institution>INCa-DGOS-INSERM</institution>
+            </funding-source>
+            <award-id>6043</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>André</surname>
+                <given-names>Fabrice</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="award008">
+            <funding-source>
+              <institution>SIRIC Socrate</institution>
+            </funding-source>
+          </award-group>
+          <funding-statement>This work was supported by the Breast Cancer Research Foundation, Fondation ARC, Fondation Lombard-Odier “Philanthropia,” Odyssea, Operation Parrains Chercheurs, Dassault Foundation, French NCI: INCa-DGOS-INSERM 6043, and SIRIC Socrate. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+        </funding-group>
+        <counts>
+          <fig-count count="6"/>
+          <table-count count="1"/>
+          <page-count count="18"/>
+        </counts>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta id="data-availability">
+            <meta-name>Data Availability</meta-name>
+            <meta-value>Sequence data have been deposited at the European Genome-phenome Archive (EGA), which is hosted by the EBI and the CRG, under accession number (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ega-archive.org/">https://ega-archive.org/</ext-link>; EGAS00001001695); the somatic mutations and copy number alterations are available at cBioPortal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/">http://www.cbioportal.org/</ext-link>) under the descriptor “Mutational profiles of metastatic breast cancer (France, 2016).”</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+      <notes>
+        <title>Data Availability</title>
+        <p>Sequence data have been deposited at the European Genome-phenome Archive (EGA), which is hosted by the EBI and the CRG, under accession number (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ega-archive.org/">https://ega-archive.org/</ext-link>; EGAS00001001695); the somatic mutations and copy number alterations are available at cBioPortal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/">http://www.cbioportal.org/</ext-link>) under the descriptor “Mutational profiles of metastatic breast cancer (France, 2016).”</p>
+      </notes>
+    </front>
+    <body>
+      <sec sec-type="intro" id="sec007">
+        <title>Introduction</title>
+        <p>Major efforts have been made to characterize early breast cancer at the genomic level [<xref rid="pmed.1002201.ref001" ref-type="bibr">1</xref>,<xref rid="pmed.1002201.ref002" ref-type="bibr">2</xref>]. These efforts have led to extensive description of genomic alterations involved in tumorigenesis or tumor progression of early breast cancer. These studies report that early breast cancer includes a large number of rare segments characterized by actionable genomic alterations such as <italic toggle="yes">PIK3CA</italic> mutations, <italic toggle="yes">ERBB2</italic> amplification, <italic toggle="yes">FGFR1</italic> amplification, <italic toggle="yes">CCND1</italic> amplification, <italic toggle="yes">AKT1</italic> mutations, and <italic toggle="yes">GATA3</italic> mutations [<xref rid="pmed.1002201.ref001" ref-type="bibr">1</xref>,<xref rid="pmed.1002201.ref002" ref-type="bibr">2</xref>]. Follow-up studies report that C&gt;T mutations at CpG sites are the major mutational pattern in early breast cancer [<xref rid="pmed.1002201.ref003" ref-type="bibr">3</xref>]. Although sequencing of primary breast cancer has provided insight into the biology of early malignancy, around 80% of the patients presenting with such a disease will never relapse after conventional therapy. Therefore, understanding the biology of early breast cancer will not help in deciphering the specificities of the lethal disease or translate into treatment advances. Recent data from different types of cancer have suggested that there is a strong heterogeneity between primary tumors and metastases and that genomic profiles of metastases could dramatically differ from primary tumors. Gerlinger and colleagues have shown that only 30% of the mutations are shared between different tumor sites of kidney cancers [<xref rid="pmed.1002201.ref004" ref-type="bibr">4</xref>]. Also, Haffner and colleagues have shown that lethal prostate cancer can derive from a minority subclone of the primary tumor [<xref rid="pmed.1002201.ref005" ref-type="bibr">5</xref>]. There is therefore a need to extensively describe the genomic alterations observed in metastatic breast cancers in order to identify pathways involved in drug resistance and metastatic processes and to generate new strategies to treat these patients. To this end, we have performed whole-exome sequencing of 216 pairs of metastatic breast cancers and blood and report on the mutational landscape associated with lethal malignancy.</p>
+      </sec>
+      <sec sec-type="materials|methods" id="sec008">
+        <title>Materials and Methods</title>
+        <p>The following methodology was specifically developed for this analysis and did not follow an established protocol or analysis plan.</p>
+        <sec id="sec009">
+          <title>Patients</title>
+          <p>Metastatic breast cancer patients who underwent a biopsy in the context of the SAFIR01 [<xref rid="pmed.1002201.ref006" ref-type="bibr">6</xref>] (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01414933">NCT01414933</ext-link>), SAFIR02 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT02299999">NCT02299999</ext-link>), SHIVA [<xref rid="pmed.1002201.ref007" ref-type="bibr">7</xref>] (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01771458">NCT01771458</ext-link>), and MOSCATO (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01566019">NCT01566019</ext-link>) prospective trials were potentially eligible for this study. These French multicenter trials used high-throughput genome analysis on fresh frozen tumor biopsies as a therapeutic decision tool for metastatic cancer patients, with solid cancers (SHIVA and MOSCATO) or specifically with breast cancer (SAFIR01 and SAFIR02). SAFIR01 included patients with metastatic breast cancers resistant to therapy, and SHIVA and MOSCATO included patients with metastatic cancers eligible for phase I trial, while SAFIR02 included patients with metastatic breast cancers who were starting first- or second-line chemotherapy. Details of each trial are given in <xref ref-type="supplementary-material" rid="pmed.1002201.s020">S1 Text</xref>. Exclusion criteria for the whole-exome sequencing analysis were defined as follows: small or no quantity of tumoral DNA, &lt;30% cancer cells on the biopsy sample (from frozen tissue), and no blood sample available. With these criteria, we identified 86 tumor-normal pairs from patients included in the SAFIR01 trial, 80 pairs in the SAFIR02 trial, 35 pairs in the SHIVA trial, and 15 pairs in the MOSCATO trial (<xref ref-type="supplementary-material" rid="pmed.1002201.s010">S1 Table</xref>). All patients gave their informed consent for translational research and genetic analyses of their somatic DNA. All the studies were approved by the relevant IRBs. Overall, whole-exome sequencing for a total of 216 pairs of metastatic tumor and unmutated DNA derived from corresponding blood samples was performed using Illumina technology. Estrogen (ER) and progesterone (PR) receptors were considered positive if &gt;1% of the cancer cells were stained or when the case was reported positive in the case report form of the trial. HER2 status was determined locally.</p>
+        </sec>
+        <sec id="sec010">
+          <title>Statistical Consideration</title>
+          <p>Data were summarized by frequency and percentage for categorical variables and by median and range for continuous variables. Comparisons between groups were performed using the Mann-Whitney rank sum test for continuous variables and Chi square or Fisher's exact test for categorical variables. Overall survival (OS) was estimated by using the Kaplan-Meier method, and univariate analyses were performed using the log-rank test. OS was defined as the delay between the inclusion in the trial and death. Patients who were alive were censored at last follow-up news. The Cox proportional hazard regression model was used for multivariate analysis. All variables associated with <italic toggle="yes">p</italic> &lt; 0.05 on univariate analysis were included in the model. All statistical tests were two sided, and differences were considered statistically significant when <italic toggle="yes">p</italic> &lt; 0.05. Stata 13.0 software (StatCorp, College Station, Texas) or R version 3.2.2 were used for the statistical analyses. False discovery rate (FDR), used for correcting <italic toggle="yes">p</italic>-values for multiple hypothesis testing, was computed using the Benjamini-Hochberg procedure.</p>
+        </sec>
+        <sec id="sec011">
+          <title>Whole-Exome Sequencing</title>
+          <p>Genomic DNA was captured using Agilent in-solution enrichment methodology with their biotinylated oligonucleotides probes library (SureSelect All Exon V5, Agilent, or SureSelect Clinical Research Exome, Agilent), followed by 75-base paired-end massively parallel sequencing on Illumina HiSeq2500, HiSeq4000, or NextSeq500 (<xref ref-type="supplementary-material" rid="pmed.1002201.s011">S2 Table</xref>). For detailed explanations of the process, we refer the reader to the publication by A. Gnirke and colleagues [<xref rid="pmed.1002201.ref008" ref-type="bibr">8</xref>]. Sequence capture, enrichment, and elution were performed according to the manufacturer’s instruction and protocols (SureSelect, Agilent) without modification. Briefly, 600 ng of each genomic DNA was fragmented by sonication and purified to yield fragments of 150–200 bp. Paired-end adaptor oligonucleotides from Illumina were ligated on repaired, A-tailed fragments and then purified and enriched by 4–6 PCR cycles. Five hundred ng of these purified libraries was then hybridized to the SureSelect oligo probe capture library for 24 h. After hybridization, washing, and elution, the eluted fraction was PCR amplified for 10–12 cycles, purified, and quantified by qPCR to obtain sufficient DNA template for downstream applications. Each eluted-enriched DNA sample was then sequenced on an Illumina HiSeq2500/4000 or NextSeq500 as paired-end 75 b reads. Image analysis and base calling were performed using Illumina Real Time Analysis Pipeline version 1.12.4.2 with default parameters. Mean coverage was 83 +/− 18X for normal blood samples and 122 +/− 15X for tumor samples, with respectively 87% (77%–93%) and 90% (85%–95%) of the targeted regions covered at 20X or more (<xref ref-type="supplementary-material" rid="pmed.1002201.s011">S2 Table</xref>).</p>
+        </sec>
+        <sec id="sec012">
+          <title>Somatic Mutation Calling</title>
+          <p>Fastq files were aligned to the reference genome hg19 with the BWA mem algorithm [<xref rid="pmed.1002201.ref009" ref-type="bibr">9</xref>]. After alignment, the BAM files were treated for PCR duplicate removal and then sorted and indexed with Picard for further analyses. Base recalibration and local realignment around indels were done with GATK [<xref rid="pmed.1002201.ref010" ref-type="bibr">10</xref>]. For defining somatic mutations, we used the Mutect [<xref rid="pmed.1002201.ref011" ref-type="bibr">11</xref>] (version 1.1.7) algorithm for identifying substitutions and the Scalpel [<xref rid="pmed.1002201.ref012" ref-type="bibr">12</xref>] algorithm (version 0.5.2) for identifying small insertions and deletions (indels). Indels occurring in regions with a high number of point mutations detected by Scalpel were filtered out using the GATK VariantFiltration tool with parameters set to 3 mutations in a window of 35 bp. We kept indels of a size lower than 35 bp. We then merged the output of Mutect and Scalpel and further filtered for mutations organized in a cluster of 3 mutations or more in a window of 35 bp using the GATK VariantFiltration tool. We defined the final list of somatic mutations with the following filters: frequency of the reads with the altered base in the tumor &gt; 10%; number of reads with the altered base in the tumor sample ≥ 5; frequency of the reads with the altered base in the normal sample &lt; 2%; number of reads with the altered base in the normal sample ≤ 3; and total coverage in normal and tumor samples ≥ 10. The resulting somatic mutations were annotated with the snpEff and snpSift algorithms [<xref rid="pmed.1002201.ref013" ref-type="bibr">13</xref>], and we selected somatic mutations occurring in coding regions only. We removed variants that were also detected in at least one normal sample in our cohort or annotated as known polymorphisms (reported by 1000 Genomes or the ESP databases) unless the variant was also reported in Catalogue of Somatic Mutations in Cancer (COSMIC) [<xref rid="pmed.1002201.ref014" ref-type="bibr">14</xref>] or ClinVar (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/clinvar/">http://www.ncbi.nlm.nih.gov/clinvar/</ext-link>). In order to control for possible biases due to the difference in bait territories from the two capture kits, we verified the mutations that were unique to one bait territory and found that 50 mutations involving 39 genes were unique to one of the bait but none of these mutations affected significantly mutated genes. We filtered six indels after manual inspection. We manually added 2 hotspot mutations (1 His1047Arg PIK3CA [COSM94986] and 1 Glu349* TP53 [COSM140784]) that were originally identified in the tumor in the clinical trial screenings and that were filtered by the somatic mutation filters because of the high frequency of the altered allele in the blood samples (respectively four supporting reads for an allele frequency of 0.022 and seven supporting reads for an allele frequency of 0.11), probably due to circulating tumor DNA. The list of mutations is reported in <xref ref-type="supplementary-material" rid="pmed.1002201.s012">S3 Table</xref>. We computed the cancer cell fraction (CCF) of each mutation using the following steps: we first estimated the tumor purity with Sequenza [<xref rid="pmed.1002201.ref015" ref-type="bibr">15</xref>] as well as the copy number at the mutated locus and the number of mutated alleles, as estimated by the altered reads allelic fraction [<xref rid="pmed.1002201.ref015" ref-type="bibr">15</xref>]. We then computed the CCF of each mutation using the predicted tumor cellularity by Sequenza, the reference and variant allele read counts at the corresponding chromosomal position, and the estimated copy number at the locus following the framework previously proposed by Carter and colleagues [<xref rid="pmed.1002201.ref016" ref-type="bibr">16</xref>]. Mutations were classified as clonal if the 95% confidence interval of the CCF overlapped 1 and as subclonal otherwise. To identify significantly mutated genes, we used the Mutation Significance (MutSig) [<xref rid="pmed.1002201.ref017" ref-type="bibr">17</xref>], Mutational Significance in Cancer (MuSiC) [<xref rid="pmed.1002201.ref018" ref-type="bibr">18</xref>], and Driver Genes and Pathways (drGAP) [<xref rid="pmed.1002201.ref019" ref-type="bibr">19</xref>] algorithms. We defined significantly mutated genes as those with an FDR &lt; 0.1 according to the MutSig algorithm that takes into account more parameters for identifying drivers than the other two algorithms, including gene size, background mutation rate, and replication timing.</p>
+        </sec>
+        <sec id="sec013">
+          <title>Copy Number Analysis</title>
+          <p>For deriving somatic copy number variations from whole-exome sequence data, we used the following strategy: we first computed the normalized ratio of reads between each tumor and corresponding normal sample using the package ExomeCNV in R and created the segmented profiles with the DNAcopy package. For defining amplifications and deletions, we used the Gistic2 algorithm [<xref rid="pmed.1002201.ref020" ref-type="bibr">20</xref>] with the following thresholds for the log2 ratios: amp &gt; 0.3 and del &lt; −0.3. Gistic2 was run including all the samples and specifically for the HR+/HER2− samples and for the HR−/HER2− samples in order to control for disease subtypes. Focal peaks are listed in <xref ref-type="supplementary-material" rid="pmed.1002201.s013">S4 Table</xref>.</p>
+        </sec>
+        <sec id="sec014">
+          <title>Mutational Processes</title>
+          <p>De novo mutational signature analysis was done using the Matlab Welcome Trust Sanger Institute’s signature framework. We used the deconstructSigs R package [<xref rid="pmed.1002201.ref021" ref-type="bibr">21</xref>] to determine the contribution of the known signatures that explain each sample mutational profile with more than 50 somatic mutations. We considered the 13 signatures (Signatures 1, 2, 3, 5, 6, 8, 10, 13, 17, 18, 20, 26, and 30) operative in breast cancer as defined in COSMIC (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cancer.sanger.ac.uk/signatures/matrix.png">http://cancer.sanger.ac.uk/signatures/matrix.png</ext-link>). A signature was defined as operative or predominant if its contribution to the mutational pattern was respectively &gt;25% (or &gt;100 mutations) or &gt;50%.</p>
+        </sec>
+        <sec id="sec015">
+          <title>The Cancer Genome Atlas (TCGA) Data</title>
+          <p>Somatic mutations for breast cancer TCGA cohort were extracted from the genome.wustl.edu_BRCA.IlluminaGA_DNASeq.Level_2.5.3.0.somatic.maf file available for download on the TCGA data matrix website, with somatic mutations available for primary tumors of 772 patients. We extracted ER, PR, and HER2 status from the clinical file downloaded from the TCGA data matrix, retrieving 419 HR+/HER2−, 100 HR−/HER2−, and 145 HER2+. In order to fairly compare mutational loads between TCGA and the metastatic cohort, we downloaded raw data for 33 randomly selected TCGA patients and processed the BAM files with the same pipeline described in this manuscript. We found that the number of mutations identified by our pipeline and by the TCGA pipeline was very similar (<xref ref-type="supplementary-material" rid="pmed.1002201.s001">S1 Fig</xref>, linear regression R<sup>2</sup> = 0.98, <italic toggle="yes">p</italic> &lt; 2e-16). We also verified the identity of mutations called by the two pipelines and found that 80% of the mutations were common to the two pipelines (<xref ref-type="supplementary-material" rid="pmed.1002201.s002">S2 Fig</xref>). Therefore, we used the somatic mutations as defined in the TCGA maf file for comparing the mutation frequencies of the genes.</p>
+        </sec>
+      </sec>
+      <sec sec-type="results" id="sec016">
+        <title>Results</title>
+        <sec id="sec017">
+          <title>Patient Characteristics</title>
+          <p>The population analyzed in the current study included 216 pairs of tumor and normal blood DNA from patients with metastatic breast cancer. Patients were classified in three subgroups according to hormone receptors (HRs; estrogen and progesterone receptors) and HER2 status (<xref rid="pmed.1002201.t001" ref-type="table">Table 1</xref>). One hundred and forty-three patients (66%) presented with HR+/HER2− breast cancer, 51 (24%) with triple-negative breast cancer, and 14 (6%) with HER2-overexpressing breast cancer. Ninety-four percent of the patients had received prior chemotherapy, and 120 (84%) of the patients with HR+/HER2− disease had received prior endocrine therapy.</p>
+          <table-wrap id="pmed.1002201.t001" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002201.t001</object-id>
+            <label>Table 1</label>
+            <caption>
+              <title>Patient characteristics.</title>
+            </caption>
+            <alternatives>
+              <graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pmed.1002201.t001g" position="float" orientation="portrait" xlink:href="pmed.1002201.t001.jpg"/>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1"/>
+                    <th align="left" rowspan="1" colspan="1">Overall (<italic toggle="yes">n</italic> = 216)</th>
+                    <th align="left" rowspan="1" colspan="1">HR+/HER2− (<italic toggle="yes">n</italic> = 143)</th>
+                    <th align="left" rowspan="1" colspan="1">HR−/HER2− (<italic toggle="yes">n</italic> = 51)</th>
+                    <th align="left" rowspan="1" colspan="1">HER2+ (<italic toggle="yes">n</italic> = 14)</th>
+                    <th align="left" rowspan="1" colspan="1"><italic toggle="yes">p</italic>-Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" colspan="5" rowspan="1">
+                      <bold>Age at Inclusion</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1"><italic toggle="yes">p</italic> = 0.0275</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Median</td>
+                    <td align="left" rowspan="1" colspan="1">54</td>
+                    <td align="left" rowspan="1" colspan="1">55</td>
+                    <td align="left" rowspan="1" colspan="1">48</td>
+                    <td align="left" rowspan="1" colspan="1">51</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">(Range)</td>
+                    <td align="left" rowspan="1" colspan="1">(26–82)</td>
+                    <td align="left" rowspan="1" colspan="1">(26–82)</td>
+                    <td align="left" rowspan="1" colspan="1">(29–76)</td>
+                    <td align="left" rowspan="1" colspan="1">(37–73)</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" colspan="5" rowspan="1">
+                      <bold>Number of Metastatic Sites</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1"><italic toggle="yes">p</italic> = 0.5331</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">1–2</td>
+                    <td align="left" rowspan="1" colspan="1">123 (57.2%)</td>
+                    <td align="left" rowspan="1" colspan="1">80 (55.9%)</td>
+                    <td align="left" rowspan="1" colspan="1">29 (58.0%)</td>
+                    <td align="left" rowspan="1" colspan="1">10 (71.4%)</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&gt;2</td>
+                    <td align="left" rowspan="1" colspan="1">92 (42.8%)</td>
+                    <td align="left" rowspan="1" colspan="1">63 (44.1%)</td>
+                    <td align="left" rowspan="1" colspan="1">21 (42.0%)</td>
+                    <td align="left" rowspan="1" colspan="1">4 (28.6%)</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Missing</td>
+                    <td align="left" rowspan="1" colspan="1">1</td>
+                    <td align="left" rowspan="1" colspan="1">0</td>
+                    <td align="left" rowspan="1" colspan="1">1</td>
+                    <td align="left" rowspan="1" colspan="1">0</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" colspan="5" rowspan="1">
+                      <bold>Previous Endocrine Therapy</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1"><italic toggle="yes">p</italic> &lt; 0.0001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">No</td>
+                    <td align="left" rowspan="1" colspan="1">73 (33.8%)</td>
+                    <td align="left" rowspan="1" colspan="1">23 (16.1%)</td>
+                    <td align="left" rowspan="1" colspan="1">43 (84.3%)</td>
+                    <td align="left" rowspan="1" colspan="1">7 (50.0%)</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Yes</td>
+                    <td align="left" rowspan="1" colspan="1">143 (66.2%)</td>
+                    <td align="left" rowspan="1" colspan="1">120 (83.9%)</td>
+                    <td align="left" rowspan="1" colspan="1">8 (15.7%)</td>
+                    <td align="left" rowspan="1" colspan="1">7 (50.0%)</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Missing</td>
+                    <td align="left" rowspan="1" colspan="1">0</td>
+                    <td align="left" rowspan="1" colspan="1">0</td>
+                    <td align="left" rowspan="1" colspan="1">0</td>
+                    <td align="left" rowspan="1" colspan="1">0</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" colspan="5" rowspan="1">
+                      <bold>Interval Metastatic Relapse/Inclusion (months)</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1"><italic toggle="yes">p</italic> &lt; 0.0001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Median</td>
+                    <td align="left" rowspan="1" colspan="1">8.3</td>
+                    <td align="left" rowspan="1" colspan="1">15.5</td>
+                    <td align="left" rowspan="1" colspan="1">1.2</td>
+                    <td align="left" rowspan="1" colspan="1">0.8</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">(Range)</td>
+                    <td align="left" rowspan="1" colspan="1">(0.0–177.2)</td>
+                    <td align="left" rowspan="1" colspan="1">(0.0–177.2)</td>
+                    <td align="left" rowspan="1" colspan="1">(0.1–35.7)</td>
+                    <td align="left" rowspan="1" colspan="1">(0.1–53.0)</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Missing</td>
+                    <td align="left" rowspan="1" colspan="1">7</td>
+                    <td align="left" rowspan="1" colspan="1">4</td>
+                    <td align="left" rowspan="1" colspan="1">1</td>
+                    <td align="left" rowspan="1" colspan="1">2</td>
+                    <td align="left" rowspan="1" colspan="1"/>
+                  </tr>
+                </tbody>
+              </table>
+            </alternatives>
+          </table-wrap>
+        </sec>
+        <sec id="sec018">
+          <title>Genes Mutated in Metastatic Breast Cancers</title>
+          <p>We identified 12 driver genes using the MutSig algorithm (FDR &lt; 0.1) (<xref ref-type="fig" rid="pmed.1002201.g001">Fig 1</xref>, <xref ref-type="supplementary-material" rid="pmed.1002201.s014">S5 Table</xref>). Ten of these genes (<italic toggle="yes">TP53</italic>, <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">GATA3</italic>, <italic toggle="yes">MAP3K1</italic>, <italic toggle="yes">CDH1</italic>, <italic toggle="yes">AKT1</italic>, <italic toggle="yes">MAP2K4</italic>, <italic toggle="yes">PTEN</italic>, <italic toggle="yes">CBFB</italic>, and <italic toggle="yes">CDKN2A)</italic> have been previously shown to be frequently mutated in primary breast cancers (&gt;2%, TCGA). In particular, <italic toggle="yes">TP53</italic> was mutated in 27% of HR+/HER2− metastatic breast cancer (mBC) as compared to 20% in HR+/HER2− early breast cancer (eBC) (Fisher Exact Test <italic toggle="yes">p</italic> = 0.13) while <italic toggle="yes">PIK3CA</italic> was mutated in 37% of the HR+/HER2− mBC and in 40% in eBC.</p>
+          <fig id="pmed.1002201.g001" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002201.g001</object-id>
+            <label>Fig 1</label>
+            <caption>
+              <title>Driver gene mutations in metastatic breast cancers.</title>
+              <p>The top panel shows the synonymous and nonsynonymous mutation rates (number of mutations) per patient according to the molecular subtype of the metastasis. HR, hormone receptor; ND, not determined. The bottom panel shows the significantly mutated genes according to MutSig analysis at FDR &lt; 0.1. Amplifications and deletions correspond to the thresholded values from the Gistic2 output (respectively +2 and −2 values).</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pmed.1002201.g001.jpg"/>
+          </fig>
+          <p>Two of the driver genes observed in mBC (<italic toggle="yes">ESR1</italic> and <italic toggle="yes">RB1</italic>) were infrequently mutated in primary tumors (&lt;1% of HR+/HER2− eBC [TCGA]). Twenty-four mutations of <italic toggle="yes">ESR1</italic> were identified (1 synonymous, 2 indels, and 21 missense mutations) for a total of 22 mBCs, and these included 22 mutations in 20 out of 143 HR+/HER2- mBCs (14%). All ESR1 mutations occurred in the hormone receptor domain (<xref ref-type="supplementary-material" rid="pmed.1002201.s003">S3 Fig</xref>) and included mutations in previously reported hotspots [<xref rid="pmed.1002201.ref022" ref-type="bibr">22</xref>–<xref rid="pmed.1002201.ref024" ref-type="bibr">24</xref>], as well as 2 new mutations (<xref ref-type="supplementary-material" rid="pmed.1002201.s012">S3 Table</xref>). All of these 22 patients had received prior endocrine therapy. <italic toggle="yes">RB1</italic> was mutated in 7 out of 143 HR+/HER2− mBCs (5%) and 3 out of 51 HR−/HER2− mBCs (6%). Most of the mutations were disruptive, leading to truncated proteins (5 nonsense mutations, 3 splice sites, 1 indel, and 2 missense mutations, <xref ref-type="supplementary-material" rid="pmed.1002201.s004">S4 Fig</xref>). When considering the estimation of the percentage of tumor cells harboring the mutation, i.e., CCF, we found that ESR1 and RB1 mutations were mostly identified as subclonal (ESR1: 14/21 mutations [67%]; RB1: 5/10 mutations [50%]). In comparison, PIK3CA and TP53 mutations were identified as subclonal for respectively 32% and 37% of their nonsynonymous mutations.</p>
+        </sec>
+        <sec id="sec019">
+          <title>Mutations Enriched in mBCs</title>
+          <p>Using a FDR &lt; 0.1, 199 genes out of 1,569 genes tested were more frequently mutated in mBC (<italic toggle="yes">n</italic> = 216) as compared to eBC (TCGA) (<xref ref-type="supplementary-material" rid="pmed.1002201.s015">S6 Table</xref>). When a FDR &lt; 0.01 was applied, 8 genes (<italic toggle="yes">ESR1</italic>, <italic toggle="yes">FSIP2</italic>, <italic toggle="yes">AGRN</italic>, <italic toggle="yes">FRAS1</italic>, <italic toggle="yes">IGFN1</italic>, <italic toggle="yes">EDC4</italic>, <italic toggle="yes">OSBPL3</italic>, and <italic toggle="yes">PALB2</italic>) were found to be more frequently mutated in mBC as compared to eBC (<xref ref-type="fig" rid="pmed.1002201.g002">Fig 2</xref>). None of these genes, except <italic toggle="yes">ESR1</italic>, were identified as a driver using MutSig. However, <italic toggle="yes">OSBPL3</italic> and <italic toggle="yes">PALB2</italic> were both identified as drivers by MuSiC and drGAP at an FDR &lt; 0.1 (<xref ref-type="supplementary-material" rid="pmed.1002201.s014">S5 Table</xref>). <italic toggle="yes">PALB2</italic> was mutated in eight (4%) samples, while only one (0.1%) eBC was mutated in TCGA (FDR for enrichment in mBC = 0.006). Out of the 8 <italic toggle="yes">PALB2</italic> mutations, 5 were found in HR+/HER2− mBC. None of the cases with <italic toggle="yes">PALB2</italic> somatic mutations presented with a <italic toggle="yes">PALB2</italic> deleterious germline polymorphism in the other allele. We analyzed outcome data for comparing the OS of patients with metastatic tumors carrying at least one of the mutations enriched in the metastatic setting (<italic toggle="yes">n</italic> = 76) to the rest of the population (<italic toggle="yes">n</italic> = 140). Results of the univariate and multivariate analyses are reported in <xref ref-type="supplementary-material" rid="pmed.1002201.s016">S7</xref> and <xref ref-type="supplementary-material" rid="pmed.1002201.s017">S8</xref> Tables. In a multivariate analysis, mBC with at least one mutation in the 8 genes enriched in the metastatic setting presented a 2-fold increase in the hazard of death (hazard ratio = 1.97, 95% CI: 1.34–2.89, <italic toggle="yes">p</italic> = 0.001). Survival curves are reported in <xref ref-type="fig" rid="pmed.1002201.g003">Fig 3</xref>.</p>
+          <fig id="pmed.1002201.g002" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002201.g002</object-id>
+            <label>Fig 2</label>
+            <caption>
+              <title>Genes more frequently mutated in mBC as compared to eBC (TCGA).</title>
+              <p>The axes show the odds ratio calculated as the ratio of gene frequencies (<italic toggle="yes">x</italic>-axis) and the −log10 of the FDR of a Fisher exact test (<italic toggle="yes">y</italic>-axis) comparing the gene frequencies in metastatic versus primary tumors. The size of the points is proportional to the mutation frequency of the gene in the metastatic cohort. Highlighted points correspond to FDR &lt; 0.01 or to significantly mutated genes.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pmed.1002201.g002.jpg"/>
+          </fig>
+          <fig id="pmed.1002201.g003" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002201.g003</object-id>
+            <label>Fig 3</label>
+            <caption>
+              <title>OS according to the presence of a mutation in one of the eight genes enriched in mBC as compared to eBC at FDR &lt; 0.01.</title>
+              <p>No mutation = mBC patients with tumors with no somatic mutation in the eight genes; mutation = mBC patients with tumors carrying at least one somatic mutation in the eight genes.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pmed.1002201.g003.jpg"/>
+          </fig>
+          <p>As this analysis might be biased by the difference in distribution of HR and HER2 subtypes between eBC and mBC, we also focused the analysis on the HR+/HER2− subtype (<italic toggle="yes">n</italic> = 143), in which 278 genes were more frequently mutated in mBC as compared to eBC (FDR &lt; 0.1, <xref ref-type="supplementary-material" rid="pmed.1002201.s015">S6 Table</xref>). Several of these genes were considered actionable. <italic toggle="yes">TSC1</italic> and <italic toggle="yes">TSC2</italic> were mutated in five (3.5%) and four (2.8%) samples, respectively (<xref ref-type="fig" rid="pmed.1002201.g004">Fig 4</xref>). Overall, 6.3% of HR+/HER2− mBC presented an alteration in TSC1/2 as opposed to 0.7% of HR+/HER2− eBC (TCGA, <italic toggle="yes">p</italic> = 0.0004). Other actionable genes were more frequently mutated in HR+ mBC with an FDR &lt; 0.1. These include <italic toggle="yes">ERBB4</italic> (nine missense mutations, including the two mutations COSM4764538 and COSM1015992, involving eight mBCs [five HR+/HER2−]), <italic toggle="yes">NOTCH3</italic> (eight missense and one splice site mutation(s) involving seven mBCs [four HR+/HER2−]), <italic toggle="yes">ALK</italic> (five missense and two splice site mutations in seven mBCs [six HR+/HER2−]), <italic toggle="yes">EZH2</italic> (two missense and one splice site mutation(s), including COSM220530, involving three HR+/HER2− mBCs) and <italic toggle="yes">BRAF</italic> (four missense mutations, including one COSM476, involving four mBCs [three HR+/HER2−]). The consequence of these mutations on the activity of the encoded proteins was difficult to assess as, even though ERBB4 and NOTCH3 mutations were all missense mutations (except for one splice site mutation in NOTCH3), they were located in different protein domains with no apparent hotspot (<xref ref-type="fig" rid="pmed.1002201.g004">Fig 4</xref>).</p>
+          <fig id="pmed.1002201.g004" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002201.g004</object-id>
+            <label>Fig 4</label>
+            <caption>
+              <title>Somatic mutations of genes <italic toggle="yes">TSC1</italic>, <italic toggle="yes">TSC2</italic>, <italic toggle="yes">ERBB4</italic>, and <italic toggle="yes">NOTCH3</italic> in mBC (from cBioPortal).</title>
+              <p>Green dots represent missense mutations, while black dots represent truncating mutations.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pmed.1002201.g004.jpg"/>
+          </fig>
+        </sec>
+        <sec id="sec020">
+          <title>Mutational Signatures in mBCs</title>
+          <p>First, in order to identify a potential metastatic-specific mutational signature, we performed de novo mutational signature analysis that revealed five signatures operative in metastatic and primary breast cancer [<xref rid="pmed.1002201.ref025" ref-type="bibr">25</xref>], but none of these signatures were specific to the metastatic setting (<xref ref-type="supplementary-material" rid="pmed.1002201.s020">S1 Text</xref>, <xref ref-type="supplementary-material" rid="pmed.1002201.s018">S9 Table</xref> and <xref ref-type="supplementary-material" rid="pmed.1002201.s005">S5</xref> and <xref ref-type="supplementary-material" rid="pmed.1002201.s006">S6</xref> Figs). We then assessed the contribution of 13 mutational signatures [<xref rid="pmed.1002201.ref025" ref-type="bibr">25</xref>] in 118 metastatic samples and 278 primary tumors from TCGA presenting &gt;50 mutations (<xref ref-type="supplementary-material" rid="pmed.1002201.s019">S10 Table</xref>). Among the 13 signatures previously identified as operative in primary breast cancer, the most represented signatures in the metastatic samples were signature 1, related to aging; signatures 2 and 13, related to APOBEC3B activity; signature 3, associated with failure of DNA double-strand break-repair by homologous recombination; and signature 6, associated with defective DNA mismatch repair (<xref ref-type="fig" rid="pmed.1002201.g005">Fig 5</xref>). While the identity of the signatures remained the same between primary and metastatic samples, their contribution dramatically changed, especially in the HR+/HER2− subtype (<xref ref-type="fig" rid="pmed.1002201.g006">Fig 6</xref> and <xref ref-type="supplementary-material" rid="pmed.1002201.s007">S7</xref> and <xref ref-type="supplementary-material" rid="pmed.1002201.s008">S8</xref> Figs). Of note, the signatures related to the APOBEC3B enzyme (signatures 2 and 13) contributed to 58.8% of the mutations of the HR+/HER2− metastatic tumors as compared to only 31.9% in the primary TCGA samples (<italic toggle="yes">p</italic> &lt; 2e-16), confirming previous work demonstrating a link between APOBEC-mediated mutagenesis and the acquisition of subclonal mutations [<xref rid="pmed.1002201.ref026" ref-type="bibr">26</xref>].</p>
+          <fig id="pmed.1002201.g005" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002201.g005</object-id>
+            <label>Fig 5</label>
+            <caption>
+              <title>COSMIC mutational signature contribution in mBC.</title>
+              <p>DNA DSBR, DNA double-strand break-repair by homologous recombination; DNA MMR, DNA mismatch repair.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pmed.1002201.g005.jpg"/>
+          </fig>
+          <fig id="pmed.1002201.g006" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002201.g006</object-id>
+            <label>Fig 6</label>
+            <caption>
+              <title>Distribution of the number of mutations according to mutational signatures in HR+/HER2− metastatic and primary (TCGA) breast tumors.</title>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pmed.1002201.g006.jpg"/>
+          </fig>
+        </sec>
+        <sec id="sec021">
+          <title>Copy Number Alterations in mBCs</title>
+          <p>Gistic2 analysis using sequence-based levels reported regions previously described to drive oncogenesis of primary tumors including amplified genes <italic toggle="yes">CCND1</italic>, <italic toggle="yes">ERBB2</italic>, and <italic toggle="yes">MYC</italic> and lost gene <italic toggle="yes">PTEN</italic> (<xref ref-type="supplementary-material" rid="pmed.1002201.s013">S4 Table</xref>). In addition to these previously reported gene amplifications and deletions, the current study identifies a focal amplification of the <italic toggle="yes">ESR1</italic> locus confirming the mutational pattern of the gene. <italic toggle="yes">ESR1</italic> was amplified in 7 HR+/HER2− mBCs for a total of 27 HR+/HER2− mBCs (19%) with either <italic toggle="yes">ESR1</italic> mutation or amplification (<xref ref-type="fig" rid="pmed.1002201.g001">Fig 1</xref>). Additionally, <italic toggle="yes">RB1</italic> was lost in 2 HR+/HER2− mBCs for a total of 9 samples (6%) with either RB1 mutation or homozygous deletion.</p>
+          <p>Finally, we computed two indices to describe the chromosomal instability of the metastatic samples based on the copy number analysis as previously described [<xref rid="pmed.1002201.ref027" ref-type="bibr">27</xref>]: a global genomics index (GGI) and the number of breakpoints per sample (<xref ref-type="supplementary-material" rid="pmed.1002201.s010">S1 Table</xref>). We found that the number of mutations per tumor did not correlate with either the GGI or the number of break points (<xref ref-type="supplementary-material" rid="pmed.1002201.s009">S9 Fig</xref>). We also verified that the mutational load and the chromosomal instability were not affected by the tumor cell content of the samples. While we found that there was no correlation between cellularity and estimated chromosomal instability, we found a positive correlation between the percentage of tumor cells and the number of mutations (Pearson’s cor = 0.16, <italic toggle="yes">p</italic> = 0.02). However, among the five samples with no nonsynonymous mutations, only two samples had &lt;50% tumor cells, while the other three had &gt;70% tumor cells.</p>
+        </sec>
+      </sec>
+      <sec sec-type="conclusions" id="sec022">
+        <title>Discussion</title>
+        <p>In the present manuscript, we have described the mutational landscape of 216 mBCs. This study reported genes significantly mutated in mBC and genes significantly more mutated in mBC as compared to eBC. HR+/HER2− mBC presented the most differences with HR+/HER2− eBC, including an increased mutational signature linked to APOBEC3B activity and a higher prevalence of actionable genes that may represent new strategies for mBC treatment.</p>
+        <p>Using a stringent definition (MutSig, FDR &lt; 0.1), the current study identified <italic toggle="yes">ESR1</italic> and <italic toggle="yes">RB1</italic> as driver genes that are specific to mBCs. Previous studies [<xref rid="pmed.1002201.ref023" ref-type="bibr">23</xref>,<xref rid="pmed.1002201.ref024" ref-type="bibr">24</xref>,<xref rid="pmed.1002201.ref028" ref-type="bibr">28</xref>] have already reported that ESR1 mutations could be acquired during the disease evolution and could mediate resistance to endocrine therapy. In the present study, we confirm that mutation of ESR1 is the most frequent “metastasis-specific” mutation observed in mBC. As expected, all the 22 patients who presented ESR1 mutations were ER+ and resistant to endocrine therapy. ESR1-mutated mBC could be a genomic segment defining an unmet medical need, for which fast-track approval of new agents is required. Rb1 is a tumor suppressor protein involved in cell cycle and phosphorylated by CDK4. The protein is required for the bioactivity of palbociclib (CDK4 inhibitor), a drug recently approved to treat HR+/HER2− mBC [<xref rid="pmed.1002201.ref029" ref-type="bibr">29</xref>]. The present study identifies <italic toggle="yes">RB1</italic> mutations, most of them pointing to a loss of function of the protein, as driver alterations in mBCs; while this gene is almost never mutated in HR+/HER2− eBC (&lt;1%), it was found mutated in 5% of the HR+/HER2− mBC (<italic toggle="yes">p</italic> = 0.008, FDR = 0.09). This finding suggests that a subset of HR+/HER2− mBC is deficient for RB1 and could present a primary resistance to CDK4 inhibitors. If validated, this finding suggests that <italic toggle="yes">RB1</italic> mutations should be assessed on metastatic samples before starting CDK4 inhibitors.</p>
+        <p>Several genes were more frequently mutated in mBC as opposed to eBC but did not meet the criteria for drivers using the MutSig algorithm. <italic toggle="yes">PALB2</italic> is a partner of BRCA1/2 and is involved in Fanconi anemia. Heterozygous loss-of-function mutations in <italic toggle="yes">PALB2</italic> have been shown to be a risk factor for breast cancer, while <italic toggle="yes">PALB2</italic> germline mutations have recently been associated with a poor outcome [<xref rid="pmed.1002201.ref030" ref-type="bibr">30</xref>]. Several studies have suggested that PALB2-deficient cancers could be sensitive to PARP inhibitors. In the present study, <italic toggle="yes">PALB2</italic> somatic mutations were found in 4% of metastatic samples (<italic toggle="yes">n</italic> = 8), while the gene is mutated in only 0.1% of eBC (FDR = 0.006). The present results suggest that there is a population of PALB2-deficient mBC in which PARP inhibitors could be evaluated. Genes located on the mTOR pathway (<italic toggle="yes">TSC1</italic> and <italic toggle="yes">TSC2</italic>) were more frequently mutated in HR+/HER2− mBC (6%) as opposed to HR+/HER2− eBC (0.7%). All these mutations were observed in patients previously treated with endocrine therapy, suggesting that it could be a mechanism of resistance. mTOR inhibitors (everolimus) have been approved in HR+/HER2− mBC [<xref rid="pmed.1002201.ref031" ref-type="bibr">31</xref>]. While this drug prolongs progression-free survival (PFS) for a majority of patients, only a few percent of them are outlier responders to this drug, and there is currently no molecular alteration that explains such cases. Further studies should evaluate whether the subset of patients with genomic alterations on mTOR pathways (<italic toggle="yes">TSC1</italic> and <italic toggle="yes">TSC2</italic>) could be outlier responders to everolimus. Other actionable genes were more frequently mutated in HR+ mBC, including <italic toggle="yes">ERBB4</italic>, <italic toggle="yes">NOTCH3</italic>, and <italic toggle="yes">ALK</italic>.</p>
+        <p>Analysis of mutational processes did not identify any signature specific to the metastatic setting but revealed a high increase in APOBEC-mediated mutations in HR+/HER2− mBC as compared to eBC. As for metastatic-specific mutations identified, this might also present a mechanism of resistance to therapy that needs further careful investigation.</p>
+        <p>The study included 216 sample pairs classified in three different classes based on hormonal receptor expression in the tumors, the largest group being HR+/HER2− (<italic toggle="yes">n</italic> = 143). Although this is the largest effort for profiling the mutational landscape of mBC to this day, the size of the cohort presents a limitation to the identification of rare events, especially in the triple-negative and HER2+ groups. Our ability to provide an exhaustive picture of mutational profiles of mBC may be limited by two main biases. The first bias comes from the absence of bone metastases in the study, due to the difficulty of extracting DNA from these lesions. A second potential bias may come from our inability to identify those mutations leading to a disease so aggressive that the patients will not be eligible for trial recruitment, preventing an exhaustive picture of the mutational profiles of mBC. However, recent studies on first-line therapies for advanced breast cancer have shown that early death is limited [<xref rid="pmed.1002201.ref032" ref-type="bibr">32</xref>,<xref rid="pmed.1002201.ref033" ref-type="bibr">33</xref>], and it is therefore unlikely that it has dramatically impacted the analysis. Additionally, there is a chance that mutations enriched in metastasis might be subclonal driver events and therefore might not be such good drug targets. The comparison of gene mutational prevalence between mBC and eBC suffers from two limitations. First, it would have been ideal to directly compare the mBCs with their corresponding primary tumor profiles, but this was not possible because of the obvious reason of sample availability. Second, we used mutational profiles of TCGA tumors that were identified by the TCGA team, whereas it would have been ideal to run the pipeline used for mBC on the TCGA data. Although we controlled for major biases, the use of different bioinformatics pipelines may have some unexpected consequences. It should also be noted that the copy number analysis is limited by the nature of the sequencing data, which does not allow for a uniform coverage of the genome. Finally, the survival analysis based on the mutational status of the eight metastasis-specific genes was independent from any other parameters such as mutational load or mutational signature contribution, making it difficult to establish a causal link between mutated genes and prognosis.</p>
+        <p>The dataset and the accompanying analysis described in this study provide a better understanding of the genetic basis of mBC and how much it differs from that of primary breast tumors. This study demonstrated that profiling metastatic cancer can be a major step in defining optimal treatments for patients, as new mutation events and processes may arise during cancer treatment. Follow-up studies will be essential for validating resistance mechanisms identified in this study.</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="sec023">
+        <title>Supporting Information</title>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s001" position="float" orientation="portrait">
+          <label>S1 Fig</label>
+          <caption>
+            <title>Comparison of the number of somatic mutations per TCGA breast cancer case as identified by the TCGA pipeline and the pipeline developed by the Gustave Roussy (GR) team presented in detail in the Materials and Methods section.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s001.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s002" position="float" orientation="portrait">
+          <label>S2 Fig</label>
+          <caption>
+            <title>Comparison of the identity of the somatic mutations identified by the TCGA pipeline and the pipeline (GR) presented in detail in the Materials and Methods section.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s002.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s003" position="float" orientation="portrait">
+          <label>S3 Fig</label>
+          <caption>
+            <title>ESR1 somatic mutations.</title>
+            <p>Green dots represent missense mutations, while brown dots represent indels.</p>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s003.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s004" position="float" orientation="portrait">
+          <label>S4 Fig</label>
+          <caption>
+            <title>RB1 somatic mutations.</title>
+            <p>Green dots represent missense mutations, while black dots represent truncating mutations.</p>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s004.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s005" position="float" orientation="portrait">
+          <label>S5 Fig</label>
+          <caption>
+            <title>Profiles of the two mutational signatures obtained after de novo mutational signature analysis with metastatic tumor samples.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s005.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s006" position="float" orientation="portrait">
+          <label>S6 Fig</label>
+          <caption>
+            <title>Profiles of the five mutational signatures obtained after de novo mutational signature analysis with metastatic and primary tumor samples.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s006.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s007" position="float" orientation="portrait">
+          <label>S7 Fig</label>
+          <caption>
+            <title>Percentage of mutations according to mutational signature in HR−/HER2− metastatic (mBC) and primary (eBC) breast tumors.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s007.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s008" position="float" orientation="portrait">
+          <label>S8 Fig</label>
+          <caption>
+            <title>Percentage of mutations according to mutational signature in HER2+ metastatic (mBC) and primary (eBC) breast tumors.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s008.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s009" position="float" orientation="portrait">
+          <label>S9 Fig</label>
+          <caption>
+            <title>Correlation between number of somatic mutations and chromosomal instability or tumor cell content.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s009.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s010" position="float" orientation="portrait">
+          <label>S1 Table</label>
+          <caption>
+            <title>Clinical and molecular information for the 216 patients included in the study</title>
+            <p>(XLSX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s010.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s011" position="float" orientation="portrait">
+          <label>S2 Table</label>
+          <caption>
+            <title>Quality controls for 432 whole exomes.</title>
+            <p>(XLS)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s011.xls" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s012" position="float" orientation="portrait">
+          <label>S3 Table</label>
+          <caption>
+            <title>List of somatic mutations.</title>
+            <p>(XLSX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s012.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s013" position="float" orientation="portrait">
+          <label>S4 Table</label>
+          <caption>
+            <title>Gistic2 results.</title>
+            <p>(XLSX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s013.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s014" position="float" orientation="portrait">
+          <label>S5 Table</label>
+          <caption>
+            <title>FDR for significantly mutated genes by the three algorithms MutSig, MuSiC, and drGAP.</title>
+            <p>(XLSX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s014.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s015" position="float" orientation="portrait">
+          <label>S6 Table</label>
+          <caption>
+            <title>FDR for enrichment of mutated genes in metastasis as compared to primary tumors.</title>
+            <p>(XLSX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s015.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s016" position="float" orientation="portrait">
+          <label>S7 Table</label>
+          <caption>
+            <title>Univariate analysis for OS.</title>
+            <p>(DOCX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s016.docx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s017" position="float" orientation="portrait">
+          <label>S8 Table</label>
+          <caption>
+            <title>Multivariate analysis for OS.</title>
+            <p>(DOCX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s017.docx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s018" position="float" orientation="portrait">
+          <label>S9 Table</label>
+          <caption>
+            <title>De novo mutational signature analysis; percentage of eBC and mBC tumors with signature operative.</title>
+            <p>(XLSX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s018.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s019" position="float" orientation="portrait">
+          <label>S10 Table</label>
+          <caption>
+            <title>Mutational signature contribution (number of mutations and percentage of mutations).</title>
+            <p>(XLSX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s019.xlsx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s020" position="float" orientation="portrait">
+          <label>S1 Text</label>
+          <caption>
+            <title>Supporting text.</title>
+            <p>(DOCX)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s020.docx" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pmed.1002201.s021" position="float" orientation="portrait">
+          <label>S2 Text</label>
+          <caption>
+            <title>Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) checklist.</title>
+            <p>(DOC)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pmed.1002201.s021.doc" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <p>We thank Emmanuel Martin and Integragen for their assistance. The results published here are in part based upon data generated by TCGA pilot project established by the National Cancer Institute (NCI) and National Human Genome Research Institute (NHGRI). Information about TCGA and the investigators and institutions who constitute the TCGA research network can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cancergenome.nih.gov">http://cancergenome.nih.gov</ext-link>. Access to the TCGA raw sequencing data was obtained under project #10312. We thank Cecile Vicier from Inserm U981 and the Department of Medicine of Gustave Roussy for helping with clinical data acquisition. We thank Dr. Giuseppe Narzisi for providing access to Scalpel 0.5.2 and for his invaluable support in interpreting its output. We thank Nikolaus Schultz and Ritika Kundra from Memorial Sloan Kettering Cancer Center for hosting the mutation profiles in cBioPortal.</p>
+      </ack>
+      <glossary>
+        <title>Abbreviations</title>
+        <def-list>
+          <def-item>
+            <term>CCF</term>
+            <def>
+              <p>cancer cell fraction</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>COSMIC</term>
+            <def>
+              <p>Catalogue of Somatic Mutations in Cancer</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>drGAP</term>
+            <def>
+              <p>Driver Genes and Pathways</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>eBC</term>
+            <def>
+              <p>early breast cancer</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>FDR</term>
+            <def>
+              <p>false discovery rate</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>GGI</term>
+            <def>
+              <p>global genomics index</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>HR</term>
+            <def>
+              <p>hormone receptor</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>mBC</term>
+            <def>
+              <p>metastatic breast cancer</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>MOSCATO</term>
+            <def>
+              <p>Molecular Screening for Cancer Treatment Optimization</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>mTOR</term>
+            <def>
+              <p>mechanistic target of rapamycin</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>MuSiC</term>
+            <def>
+              <p>Mutational Significance in Cancer</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>MutSig</term>
+            <def>
+              <p>Mutation Significance</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>OS</term>
+            <def>
+              <p>overall survival</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>PFS</term>
+            <def>
+              <p>progression-free survival</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>STROBE</term>
+            <def>
+              <p>Strengthening the Reporting of Observational Studies in Epidemiology</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term>TCGA</term>
+            <def>
+              <p>The Cancer Genome Atlas</p>
+            </def>
+          </def-item>
+        </def-list>
+      </glossary>
+      <ref-list>
+        <title>References</title>
+        <ref id="pmed.1002201.ref001">
+          <label>1</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ellis</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Ding</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Luo</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Suman</surname><given-names>VJ</given-names></name>, <name name-style="western"><surname>Wallis</surname><given-names>JW</given-names></name>, <etal>et al</etal><article-title>Whole-genome analysis informs breast cancer response to aromatase inhibition</article-title>. <source>Nature</source>. <year>2012</year>;<volume>486</volume>(<issue>7403</issue>):<fpage>353</fpage>–<lpage>60</lpage>. PubMed Central PMCID: PMCPMC3383766. <pub-id pub-id-type="doi">10.1038/nature11143</pub-id><pub-id pub-id-type="pmid">22722193</pub-id><pub-id pub-id-type="pmcid">PMC3383766</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref002">
+          <label>2</label>
+          <mixed-citation publication-type="journal"><collab>The Cancer Genome Atlas Network</collab>. <article-title>Comprehensive molecular portraits of human breast tumours</article-title>. <source>Nature</source>. <year>2012</year>;<volume>490</volume>(<issue>7418</issue>):<fpage>61</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1038/nature11412</pub-id><pub-id pub-id-type="pmid">23000897</pub-id><pub-id pub-id-type="pmcid">PMC3465532</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref003">
+          <label>3</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Alexandrov</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Nik-Zainal</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Wedge</surname><given-names>DC</given-names></name>, <name name-style="western"><surname>Campbell</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Stratton</surname><given-names>MR</given-names></name>. <article-title>Deciphering signatures of mutational processes operative in human cancer</article-title>. <source>Cell Rep</source>. <year>2013</year>;<volume>3</volume>(<issue>1</issue>):<fpage>246</fpage>–<lpage>59</lpage>. PubMed Central PMCID: PMCPMC3588146. <pub-id pub-id-type="doi">10.1016/j.celrep.2012.12.008</pub-id><pub-id pub-id-type="pmid">23318258</pub-id><pub-id pub-id-type="pmcid">PMC3588146</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref004">
+          <label>4</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gerlinger</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Rowan</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Horswell</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Larkin</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Endesfelder</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Gronroos</surname><given-names>E</given-names></name>, <etal>et al</etal><article-title>Intratumor heterogeneity and branched evolution revealed by multiregion sequencing</article-title>. <source>N Engl J Med</source>. <year>2012</year>;<volume>366</volume>(<issue>10</issue>):<fpage>883</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1113205</pub-id><pub-id pub-id-type="pmid">22397650</pub-id><pub-id pub-id-type="pmcid">PMC4878653</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref005">
+          <label>5</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Haffner</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Mosbruger</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Esopi</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Fedor</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Heaphy</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Walker</surname><given-names>DA</given-names></name>, <etal>et al</etal><article-title>Tracking the clonal origin of lethal prostate cancer</article-title>. <source>J Clin Invest</source>. <year>2013</year>;<volume>123</volume>(<issue>11</issue>):<fpage>4918</fpage>–<lpage>22</lpage>. PubMed Central PMCID: PMC3809798. <pub-id pub-id-type="doi">10.1172/JCI70354</pub-id><pub-id pub-id-type="pmid">24135135</pub-id><pub-id pub-id-type="pmcid">PMC3809798</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref006">
+          <label>6</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Andre</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Bachelot</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Commo</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Campone</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Arnedos</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Dieras</surname><given-names>V</given-names></name>, <etal>et al</etal><article-title>Comparative genomic hybridisation array and DNA sequencing to direct treatment of metastatic breast cancer: a multicentre, prospective trial (SAFIR01/UNICANCER)</article-title>. <source>Lancet Oncol</source>. <year>2014</year>;<volume>15</volume>(<issue>3</issue>):<fpage>267</fpage>–<lpage>74</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(13)70611-9</pub-id><pub-id pub-id-type="pmid">24508104</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref007">
+          <label>7</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Le Tourneau</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Delord</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Gonçalves</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gavoille</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Dubot</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Isambert</surname><given-names>N</given-names></name>, <etal>et al</etal><article-title>Molecularly targeted therapy based on tumour molecular profiling versus conventional therapy for advanced cancer (SHIVA): a multicentre, open-label, proof-of-concept, randomised, controlled phase 2 trial</article-title>. <source>Lancet Oncol</source>. <year>2015</year>;<volume>16</volume>(<issue>13</issue>):<fpage>1324</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(15)00188-6</pub-id><pub-id pub-id-type="pmid">26342236</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref008">
+          <label>8</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gnirke</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Melnikov</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Maguire</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Rogov</surname><given-names>P</given-names></name>, <name name-style="western"><surname>LeProust</surname><given-names>EM</given-names></name>, <name name-style="western"><surname>Brockman</surname><given-names>W</given-names></name>, <etal>et al</etal><article-title>Solution hybrid selection with ultra-long oligonucleotides for massively parallel targeted sequencing</article-title>. <source>Nat Biotechnol</source>. <year>2009</year>;<volume>27</volume>(<issue>2</issue>):<fpage>182</fpage>–<lpage>9</lpage>. PubMed Central PMCID: PMCPMC2663421. <pub-id pub-id-type="doi">10.1038/nbt.1523</pub-id><pub-id pub-id-type="pmid">19182786</pub-id><pub-id pub-id-type="pmcid">PMC2663421</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref009">
+          <label>9</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Durbin</surname><given-names>R</given-names></name>. <article-title>Fast and accurate long-read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source>. <year>2010</year>;<volume>26</volume>(<issue>5</issue>):<fpage>589</fpage>–<lpage>95</lpage>. PubMed Central PMCID: PMC2828108. <pub-id pub-id-type="doi">10.1093/bioinformatics/btp698</pub-id><pub-id pub-id-type="pmid">20080505</pub-id><pub-id pub-id-type="pmcid">PMC2828108</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref010">
+          <label>10</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McKenna</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hanna</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Banks</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Sivachenko</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Kernytsky</surname><given-names>A</given-names></name>, <etal>et al</etal><article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>. <source>Genome Res</source>. <year>2010</year>;<volume>20</volume>(<issue>9</issue>):<fpage>1297</fpage>–<lpage>303</lpage>. PubMed Central PMCID: PMC2928508. <pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id><pub-id pub-id-type="pmid">20644199</pub-id><pub-id pub-id-type="pmcid">PMC2928508</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref011">
+          <label>11</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Lawrence</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Carter</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Sivachenko</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Jaffe</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Sougnez</surname><given-names>C</given-names></name>, <etal>et al</etal><article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>. <source>Nat Biotechnol</source>. <year>2013</year>;<volume>31</volume>(<issue>3</issue>):<fpage>213</fpage>–<lpage>9</lpage>. PubMed Central PMCID: PMC3833702. <pub-id pub-id-type="doi">10.1038/nbt.2514</pub-id><pub-id pub-id-type="pmid">23396013</pub-id><pub-id pub-id-type="pmcid">PMC3833702</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref012">
+          <label>12</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Narzisi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>O'Rawe</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Iossifov</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Fang</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>YH</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Z</given-names></name>, <etal>et al</etal><article-title>Accurate de novo and transmitted indel detection in exome-capture data using microassembly</article-title>. <source>Nat Methods</source>. <year>2014</year>;<volume>11</volume>(<issue>10</issue>):<fpage>1033</fpage>–<lpage>6</lpage>. PubMed Central PMCID: PMCPMC4180789. <pub-id pub-id-type="doi">10.1038/nmeth.3069</pub-id><pub-id pub-id-type="pmid">25128977</pub-id><pub-id pub-id-type="pmcid">PMC4180789</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref013">
+          <label>13</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cingolani</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Platts</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Wang le</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Coon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Nguyen</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>L</given-names></name>, <etal>et al</etal><article-title>A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain w1118; iso-2; iso-3</article-title>. <source>Fly</source>. <year>2012</year>;<volume>6</volume>(<issue>2</issue>):<fpage>80</fpage>–<lpage>92</lpage>. PubMed Central PMCID: PMC3679285. <pub-id pub-id-type="doi">10.4161/fly.19695</pub-id><pub-id pub-id-type="pmid">22728672</pub-id><pub-id pub-id-type="pmcid">PMC3679285</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref014">
+          <label>14</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Forbes</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Beare</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Gunasekaran</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Leung</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Bindal</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Boutselakis</surname><given-names>H</given-names></name>, <etal>et al</etal><article-title>COSMIC: exploring the world's knowledge of somatic mutations in human cancer</article-title>. <source>Nucleic Acids Res</source>. <year>2015</year>;<volume>43</volume>(Database issue):<fpage>D805</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gku1075</pub-id><pub-id pub-id-type="pmid">25355519</pub-id><pub-id pub-id-type="pmcid">PMC4383913</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref015">
+          <label>15</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Favero</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Joshi</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Marquard</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Birkbak</surname><given-names>NJ</given-names></name>, <name name-style="western"><surname>Krzystanek</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Q</given-names></name>, <etal>et al</etal><article-title>Sequenza: allele-specific copy number and mutation profiles from tumor sequencing data</article-title>. <source>Ann Oncol</source>. <year>2015</year>;<volume>26</volume>(<issue>1</issue>):<fpage>64</fpage>–<lpage>70</lpage>. PubMed Central PMCID: PMCPMC4269342. <pub-id pub-id-type="doi">10.1093/annonc/mdu479</pub-id><pub-id pub-id-type="pmid">25319062</pub-id><pub-id pub-id-type="pmcid">PMC4269342</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref016">
+          <label>16</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Carter</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Helman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>McKenna</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Zack</surname><given-names>T</given-names></name>, <etal>et al</etal><article-title>Absolute quantification of somatic DNA alterations in human cancer</article-title>. <source>Nat Biotechnol</source>. <year>2012</year>;<volume>30</volume>(<issue>5</issue>):<fpage>413</fpage>–<lpage>21</lpage>. PubMed Central PMCID: PMCPMC4383288. <pub-id pub-id-type="doi">10.1038/nbt.2203</pub-id><pub-id pub-id-type="pmid">22544022</pub-id><pub-id pub-id-type="pmcid">PMC4383288</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref017">
+          <label>17</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lawrence</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Stojanov</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Polak</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Kryukov</surname><given-names>GV</given-names></name>, <name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Sivachenko</surname><given-names>A</given-names></name>, <etal>et al</etal><article-title>Mutational heterogeneity in cancer and the search for new cancer-associated genes</article-title>. <source>Nature</source>. <year>2013</year>;<volume>499</volume>(<issue>7457</issue>):<fpage>214</fpage>–<lpage>8</lpage>. PubMed Central PMCID: PMCPMC3919509. <pub-id pub-id-type="doi">10.1038/nature12213</pub-id><pub-id pub-id-type="pmid">23770567</pub-id><pub-id pub-id-type="pmcid">PMC3919509</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref018">
+          <label>18</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Dees</surname><given-names>ND</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Kandoth</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Wendl</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Schierding</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Koboldt</surname><given-names>DC</given-names></name>, <etal>et al</etal><article-title>MuSiC: identifying mutational significance in cancer genomes</article-title>. <source>Genome Res</source>. <year>2012</year>;<volume>22</volume>(<issue>8</issue>):<fpage>1589</fpage>–<lpage>98</lpage>. PubMed Central PMCID: PMCPMC3409272. <pub-id pub-id-type="doi">10.1101/gr.134635.111</pub-id><pub-id pub-id-type="pmid">22759861</pub-id><pub-id pub-id-type="pmcid">PMC3409272</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref019">
+          <label>19</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hua</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Lu</surname><given-names>Y</given-names></name>. <article-title>DrGaP: a powerful tool for identifying driver genes and pathways in cancer sequencing studies</article-title>. <source>Am J Hum Genet</source>. <year>2013</year>;<volume>93</volume>(<issue>3</issue>):<fpage>439</fpage>–<lpage>51</lpage>. PubMed Central PMCID: PMCPMC3769934. <pub-id pub-id-type="doi">10.1016/j.ajhg.2013.07.003</pub-id><pub-id pub-id-type="pmid">23954162</pub-id><pub-id pub-id-type="pmcid">PMC3769934</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref020">
+          <label>20</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mermel</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Schumacher</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Hill</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Meyerson</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Beroukhim</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Getz</surname><given-names>G</given-names></name>. <article-title>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</article-title>. <source>Genome Biol</source>. <year>2011</year>;<volume>12</volume>(<issue>4</issue>):<fpage>R41</fpage> PubMed Central PMCID: PMCPMC3218867. <pub-id pub-id-type="doi">10.1186/gb-2011-12-4-r41</pub-id><pub-id pub-id-type="pmid">21527027</pub-id><pub-id pub-id-type="pmcid">PMC3218867</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref021">
+          <label>21</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Rosenthal</surname><given-names>R</given-names></name>, <name name-style="western"><surname>McGranahan</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Herrero</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>BS</given-names></name>, <name name-style="western"><surname>Swanton</surname><given-names>C</given-names></name>. <article-title>deconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution</article-title>. <source>Genome Biol</source>. <year>2016</year>;<volume>17</volume>(<issue>1</issue>):<fpage>31</fpage>. PubMed Central PMCID: PMCPMC4762164.<pub-id pub-id-type="pmid">26899170</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-016-0893-4</pub-id><pub-id pub-id-type="pmcid">PMC4762164</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref022">
+          <label>22</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Shao</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Crowder</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Prat</surname><given-names>A</given-names></name>, <etal>et al</etal><article-title>Endocrine-therapy-resistant ESR1 variants revealed by genomic characterization of breast-cancer-derived xenografts</article-title>. <source>Cell Rep</source>. <year>2013</year>;<volume>4</volume>(<issue>6</issue>):<fpage>1116</fpage>–<lpage>30</lpage>. PubMed Central PMCID: PMCPMC3881975. <pub-id pub-id-type="doi">10.1016/j.celrep.2013.08.022</pub-id><pub-id pub-id-type="pmid">24055055</pub-id><pub-id pub-id-type="pmcid">PMC3881975</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref023">
+          <label>23</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Toy</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Won</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sakr</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Will</surname><given-names>M</given-names></name>, <etal>et al</etal><article-title>ESR1 ligand-binding domain mutations in hormone-resistant breast cancer</article-title>. <source>Nat Genet</source>. <year>2013</year>;<volume>45</volume>(<issue>12</issue>):<fpage>1439</fpage>–<lpage>45</lpage>. PubMed Central PMCID: PMCPMC3903423. <pub-id pub-id-type="doi">10.1038/ng.2822</pub-id><pub-id pub-id-type="pmid">24185512</pub-id><pub-id pub-id-type="pmcid">PMC3903423</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref024">
+          <label>24</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Robinson</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>YM</given-names></name>, <name name-style="western"><surname>Vats</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Su</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Lonigro</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Cao</surname><given-names>X</given-names></name>, <etal>et al</etal><article-title>Activating ESR1 mutations in hormone-resistant metastatic breast cancer</article-title>. <source>Nat Genet</source>. <year>2013</year>;<volume>45</volume>(<issue>12</issue>):<fpage>1446</fpage>–<lpage>51</lpage>. PubMed Central PMCID: PMCPMC4009946. <pub-id pub-id-type="doi">10.1038/ng.2823</pub-id><pub-id pub-id-type="pmid">24185510</pub-id><pub-id pub-id-type="pmcid">PMC4009946</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref025">
+          <label>25</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Alexandrov</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Nik-Zainal</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Wedge</surname><given-names>DC</given-names></name>, <name name-style="western"><surname>Aparicio</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Behjati</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Biankin</surname><given-names>AV</given-names></name>, <etal>et al</etal><article-title>Signatures of mutational processes in human cancer</article-title>. <source>Nature</source>. <year>2013</year>;<volume>500</volume>(<issue>7463</issue>):<fpage>415</fpage>–<lpage>21</lpage>. Epub 2013/08/16. PubMed Central PMCID: PMCPmc3776390. <pub-id pub-id-type="doi">10.1038/nature12477</pub-id><pub-id pub-id-type="pmid">23945592</pub-id><pub-id pub-id-type="pmcid">PMC3776390</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref026">
+          <label>26</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McGranahan</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Favero</surname><given-names>F</given-names></name>, <name name-style="western"><surname>de Bruin</surname><given-names>EC</given-names></name>, <name name-style="western"><surname>Birkbak</surname><given-names>NJ</given-names></name>, <name name-style="western"><surname>Szallasi</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Swanton</surname><given-names>C</given-names></name>. <article-title>Clonal status of actionable driver events and the timing of mutational processes in cancer evolution</article-title>. <source>Sci Transl Med</source>. <year>2015</year>;<volume>7</volume>(<issue>283</issue>):<fpage>283ra54</fpage> PubMed Central PMCID: PMCPMC4636056. <pub-id pub-id-type="doi">10.1126/scitranslmed.aaa1408</pub-id><pub-id pub-id-type="pmid">25877892</pub-id><pub-id pub-id-type="pmcid">PMC4636056</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref027">
+          <label>27</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Orsetti</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Selves</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bascoul-Mollevi</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Lasorsa</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Gordien</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Bibeau</surname><given-names>F</given-names></name>, <etal>et al</etal><article-title>Impact of chromosomal instability on colorectal cancer progression and outcome</article-title>. <source>BMC Cancer</source>. <year>2014</year>;<volume>14</volume>:<fpage>121</fpage> PubMed Central PMCID: PMCPMC4233623. <pub-id pub-id-type="doi">10.1186/1471-2407-14-121</pub-id><pub-id pub-id-type="pmid">24559140</pub-id><pub-id pub-id-type="pmcid">PMC4233623</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref028">
+          <label>28</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jeselsohn</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Buchwalter</surname><given-names>G</given-names></name>, <name name-style="western"><surname>De Angelis</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Schiff</surname><given-names>R</given-names></name>. <article-title>ESR1 mutations—a mechanism for acquired endocrine resistance in breast cancer</article-title>. <source>Nat Rev Clin Oncol</source>. <year>2015</year>;<volume>12</volume>(<issue>10</issue>):<fpage>573</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1038/nrclinonc.2015.117</pub-id><pub-id pub-id-type="pmid">26122181</pub-id><pub-id pub-id-type="pmcid">PMC4911210</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref029">
+          <label>29</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Turner</surname><given-names>NC</given-names></name>, <name name-style="western"><surname>Huang Bartlett</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Cristofanilli</surname><given-names>M</given-names></name>. <article-title>Palbociclib in Hormone-Receptor-Positive Advanced Breast Cancer</article-title>. <source>N Engl J Med</source>. <year>2015</year>;<volume>373</volume>(<issue>17</issue>):<fpage>1672</fpage>–<lpage>3</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMc1510345</pub-id><pub-id pub-id-type="pmid">26488700</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref030">
+          <label>30</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cybulski</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Kluzniak</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Huzarski</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Wokolorczyk</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kashyap</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Jakubowska</surname><given-names>A</given-names></name>, <etal>et al</etal><article-title>Clinical outcomes in women with breast cancer and a PALB2 mutation: a prospective cohort analysis</article-title>. <source>Lancet Oncol</source>. <year>2015</year>;<volume>16</volume>(<issue>6</issue>):<fpage>638</fpage>–<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(15)70142-7</pub-id><pub-id pub-id-type="pmid">25959805</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref031">
+          <label>31</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Baselga</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Campone</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Piccart</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Burris</surname><given-names>HA</given-names></name>, <name name-style="western"><surname>Rugo</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Sahmoud</surname><given-names>T</given-names></name>, <etal>et al</etal><article-title>Everolimus in postmenopausal hormone-receptor-positive advanced breast cancer</article-title>. <source>N Engl J Med</source>. <year>2012</year>;<volume>366</volume>(<issue>6</issue>):<fpage>520</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1109653</pub-id><pub-id pub-id-type="pmid">22149876</pub-id><pub-id pub-id-type="pmcid">PMC5705195</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref032">
+          <label>32</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hortobagyi</surname><given-names>GN</given-names></name>, <name name-style="western"><surname>Stemmer</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Burris</surname><given-names>HA</given-names></name>, <name name-style="western"><surname>Yap</surname><given-names>YS</given-names></name>, <name name-style="western"><surname>Sonke</surname><given-names>GS</given-names></name>, <name name-style="western"><surname>Paluch-Shimon</surname><given-names>S</given-names></name>, <etal>et al</etal><article-title>Ribociclib as First-Line Therapy for HR-Positive, Advanced Breast Cancer</article-title>. <source>N Engl J Med</source>. <year>2016</year>;<volume>375</volume>(<issue>18</issue>):<fpage>1738</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1609709</pub-id><pub-id pub-id-type="pmid">27717303</pub-id></mixed-citation>
+        </ref>
+        <ref id="pmed.1002201.ref033">
+          <label>33</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lobbezoo</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>van Kampen</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Voogd</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Dercksen</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>van den Berkmortel</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Smilde</surname><given-names>TJ</given-names></name>, <etal>et al</etal><article-title>In real life, one-quarter of patients with hormone receptor-positive metastatic breast cancer receive chemotherapy as initial palliative therapy: a study of the Southeast Netherlands Breast Cancer Consortium</article-title>. <source>Ann Oncol</source>. <year>2016</year>;<volume>27</volume>(<issue>2</issue>):<fpage>256</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdv544</pub-id><pub-id pub-id-type="pmid">26578730</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

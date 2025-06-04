@@ -1,0 +1,1582 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">358</journal-id>
+        <journal-id journal-id-type="pmc-domain">wtpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>UKPMC Funders Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4587544</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4587544.1</article-id>
+        <article-id pub-id-type="pmcaid">4587544</article-id>
+        <article-id pub-id-type="pmcaiid">4587544</article-id>
+        <article-id pub-id-type="manuscript-id">EMS62359</article-id>
+        <article-id pub-id-type="pmid">25822088</article-id>
+        <article-id pub-id-type="doi">10.1038/ng.3252</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">EMS62359</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">WTPA62359</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">WTMS62359</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">UKMS62359</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Exome sequencing of hepatocellular carcinomas identifies new mutational signatures and potential therapeutic targets</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Schulze</surname>
+              <given-names initials="K">Kornelius</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Imbeaud</surname>
+              <given-names initials="S">Sandrine</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Letouzé</surname>
+              <given-names initials="E">Eric</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Alexandrov</surname>
+              <given-names initials="LB">Ludmil B</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Calderaro</surname>
+              <given-names initials="J">Julien</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rebouissou</surname>
+              <given-names initials="S">Sandra</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Couchy</surname>
+              <given-names initials="G">Gabrielle</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meiller</surname>
+              <given-names initials="C">Clément</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shinde</surname>
+              <given-names initials="J">Jayendra</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Soysouvanh</surname>
+              <given-names initials="F">Frederic</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Calatayud</surname>
+              <given-names initials="AL">Anna-Line</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pinyol</surname>
+              <given-names initials="R">Roser</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pelletier</surname>
+              <given-names initials="L">Laura</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Balabaud</surname>
+              <given-names initials="C">Charles</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Laurent</surname>
+              <given-names initials="A">Alexis</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Blanc</surname>
+              <given-names initials="JF">Jean-Frederic</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mazzaferro</surname>
+              <given-names initials="V">Vincenzo</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Calvo</surname>
+              <given-names initials="F">Fabien</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Villanueva</surname>
+              <given-names initials="A">Augusto</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A16">16</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nault</surname>
+              <given-names initials="JC">Jean-Charles</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bioulac-Sage</surname>
+              <given-names initials="P">Paulette</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stratton</surname>
+              <given-names initials="MR">Michael R</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Llovet</surname>
+              <given-names initials="JM">Josep M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A16">16</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zucman-Rossi</surname>
+              <given-names initials="J">Jessica</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Inserm, UMR-1162, Génomique fonctionnelle des Tumeurs solides, Equipe Labellisée Ligue Contre le Cancer, Institut Universitaire d’Hematologie, Paris, F-75010 France
+</aff>
+        <aff id="A2"><label>2</label>Université Paris Descartes, Labex Immuno-Oncology, Sorbonne Paris Cité, Faculté de Médecine, Paris, France
+</aff>
+        <aff id="A3"><label>3</label>Université Paris 13, Sorbonne Paris Cité, Unité de Formation et de Recherche Santé, Medecine, Biologie humaine, F-93000 Bobigny, France
+</aff>
+        <aff id="A4"><label>4</label>Université Paris Diderot, F-75013 Paris
+</aff>
+        <aff id="A5"><label>5</label>Cancer Genome Project, Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK
+</aff>
+        <aff id="A6"><label>6</label>Theoretical Division, Los Alamos National Laboratory, Los Alamos, New Mexico, United States of America
+</aff>
+        <aff id="A7"><label>7</label>Assistance Publique-Hôpitaux de Paris, Department of Pathology, Centre hospitalier universitaire Henri Mondor, F-94000 Créteil, France
+</aff>
+        <aff id="A8"><label>8</label>Hepatocellular Carcinoma Translational Research Laboratory, Barcelona-Clínic Liver Cancer Group, Institut d’Investigacions Biomèdiques August Pi i Sunyer, Liver Unit. Centro de Investigación Biomédica en Red: Enfermedades Hépaticas y Digestivas; Hospital Clínic, Barcelona, Catalonia, Spain
+</aff>
+        <aff id="A9"><label>9</label>Inserm, UMR-1053; Université de Bordeaux, Bordeaux, F-33076, France
+</aff>
+        <aff id="A10"><label>10</label>Assistance Publique-Hôpitaux de Paris, Department of Digestive and Hepatobiliary Surgery, Centre hospitalier universitaire Henri Mondor, F-94000 Créteil, France
+</aff>
+        <aff id="A11"><label>11</label>Inserm, UMR-955, F-94000 Créteil, France
+</aff>
+        <aff id="A12"><label>12</label>Centre hospitalier universitaire de Bordeaux, Department of Hepatology, Hôpital Saint-André, Bordeaux, F-33076, France
+</aff>
+        <aff id="A13"><label>13</label>Department of Liver Surgery and Transplant, Fondazione Istituto Tumori, via Venezian 1, 20133 Milan, Italy
+</aff>
+        <aff id="A14"><label>14</label>Assistance Publique Hôpitaux de Paris, Hôpitaux Universitaires Paris – Seine Saint-Denis, Site Jean Verdier, Pôle d’Activité Cancérologique Spécialisée, Service d’Hépatologie, F-93143 Bondy, France
+</aff>
+        <aff id="A15"><label>15</label>Centre hospitalier universitaire de Bordeaux, Pellegrin Hospital, Department of Pathology, Bordeaux, F-33076, France
+</aff>
+        <aff id="A16"><label>16</label>Mount Sinai Liver Cancer Program (Division of Liver Diseases), Mount Sinai School of Medicine, New York, USA
+</aff>
+        <aff id="A17"><label>17</label>Institució Catalana de Recerca i Estudis Avançats, Barcelona. Catalonia, Spain
+</aff>
+        <aff id="A18"><label>18</label>Assistance Publique-Hôpitaux de Paris, Hopital Europeen Georges Pompidou, F-75015 Paris, France
+</aff>
+        <author-notes>
+          <corresp id="CR1">Correspondence should be addressed to: Jessica Zucman-Rossi; MD, PhD, INSERM U 1162, Génomique fonctionnelle des tumeurs solides, 27 Rue Juliette Dodu, 75010 Paris, France, TEL: +33 1 53 72 51 66, FAX: +33 1 53 72 51 92, <email>jessica.zucman-rossi@inserm.fr</email></corresp>
+          <fn id="FN3">
+            <p id="P1"><bold>Authors Contributions</bold>:</p>
+            <p id="P2">Study concept and design: KS, SI, EL, LBA, MRS, JML, JZR</p>
+            <p id="P3">Acquisition of data: JC, SR, GC,CM, FS, ALC, RP, LP, CB, AL, JFB, VM, AV, JCN, PBS</p>
+            <p id="P4">Analysis and interpretation of data: KS, SI, EL, LBA, JC, SR, GC, CM, JS, FS, ALC, RP LP, AV, JCN, JZR</p>
+            <p id="P5">Drafting the manuscript: KS, SI, EL, SR, JZR</p>
+            <p id="P6">Critical revision of the manuscript: KS, SI, EL, LBA, JC, SR, RP, CB, JFB, JCN, PBS, JML, JZR</p>
+            <p id="P7">Statistical analysis: KS, SI, EL</p>
+            <p id="P8">Obtained funding: FC, JML, JZR</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>30</day>
+          <month>3</month>
+          <year>2015</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>5</month>
+          <year>2015</year>
+        </pub-date>
+        <volume>47</volume>
+        <issue>5</issue>
+        <issue-id pub-id-type="pmc-issue-id">258499</issue-id>
+        <fpage>505</fpage>
+        <lpage>511</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>01</day>
+              <month>04</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>01</day>
+              <month>11</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>11</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2025-04-04 20:26:56.340">
+              <day>04</day>
+              <month>04</month>
+              <year>2025</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="emss-62359.pdf"/>
+        <abstract>
+          <p id="P9">Genomic analyses promise to improve tumor characterization in order to optimize personalized treatment for patients with hepatocellular carcinoma (HCC). Exome sequencing analysis of 243 liver tumors revealed mutational signatures associated with specific risk factors, mainly combined alcohol/tobacco consumption, and aflatoxin B1. We identified 161 putative driver genes associated with 11 recurrent pathways. Associations of mutations defined 3 groups of genes related to risk factors and centered on <italic toggle="yes">CTNNB1</italic> (alcohol), <italic toggle="yes">TP53</italic> (HBV), and <italic toggle="yes">AXIN1</italic>. Analyses according to tumor stage progression revealed <italic toggle="yes">TERT</italic> promoter mutation as an early event whereas <italic toggle="yes">FGF3, FGF4, FGF19/CCND1</italic> amplification, <italic toggle="yes">TP53</italic> and <italic toggle="yes">CDKN2A</italic> alterations, appeared at more advanced stages in aggressive tumors. In 28% of the tumors we identified genetic alterations potentially targetable by FDA-approved drugs. In conclusion, we identified risk factor-specific mutational signatures and defined the extensive landscape of altered genes and pathways in HCC which will be useful to design clinical trials for targeted therapy.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p id="P10">Hepatocellular carcinoma (HCC) is a heterogeneous disease which usually develops within liver cirrhosis related to various etiologies. Hepatitis B virus (HBV) infection, with or without aflatoxin B1 (AFB1) exposure, is the most frequent etiology in Asia and Africa, whereas hepatitis C virus (HCV), chronic alcohol abuse, or metabolic syndrome are frequently related to HCC in Western countries<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup>. In cirrhosis, hepatocarcinogenesis is a multi-step process where pre-cancerous dysplatic macronodules (DMN) transform into early HCC that progress into “small and progressed HCC” then leading to advanced HCC<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref></sup>. In rare cases, HCC develops in normal liver with some of these tumors potentially resulting from malignant transformation of hepatocellular adenomas (HCA)<sup><xref rid="R5" ref-type="bibr">5</xref>-<xref rid="R7" ref-type="bibr">7</xref></sup>. Unraveling the patterns of genomic alterations in these heterogeneous tumors is pivotal towards identifying targeted therapies that could improve patient care<sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R9" ref-type="bibr">9</xref></sup>.</p>
+      <p id="P11">To understand HCC diversity we analyzed the whole coding sequences of 243 liver tumors surgically resected in Europe (France, Italy and Spain) associated with cirrhosis (METAVIR F4, n=118), fibrosis (F2-F3, n=46) or non-fibrotic livers (F0-F1, n=79)<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. Various risk factors were identified, including alcohol intake (41%), HCV (26%), nonalcoholic steatohepatitis as co-occurrence of metabolic syndrome (18%), HBV (14%), hemochromatosis (7%), or no known etiology (11%). The 118 tumors associated with cirrhosis represented different stages along HCC progression: 7 DMN, 7 early, 17 small and progressed, 58 classic, and 29 poor-prognosis HCC (<xref ref-type="supplementary-material" rid="SD4">Supplementary Tables 1</xref>, <xref ref-type="supplementary-material" rid="SD11">2</xref> and <bold>Online Methods</bold> for clinical definitions). Exome sequencing was performed in tumors and matched non-tumor liver samples to a mean depth of 72-fold (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1</xref>). We identified 28,478 somatic mutations, 6,184 of which occurred in a single tumor with a hypermutation phenotype (<xref ref-type="supplementary-material" rid="SD12">Supplementary Table 3</xref>). Excluding this sample, we identified a median of 21 silent and 64 non-silent mutations per tumor (ranging from 1 to 706) corresponding to a mean somatic mutation rate in coding sequences of 1.3 mutations per megabase, consistent with previous reports<sup><xref rid="R11" ref-type="bibr">11</xref>-<xref rid="R13" ref-type="bibr">13</xref></sup>.</p>
+      <p id="P12">We analyzed the mutational spectrum of the 243 liver tumors to identify mutagenic processes operative in HCC. <italic toggle="yes">De novo</italic> signature analysis using the Wellcome Trust Sanger Institute mutational signatures framework revealed 4 signatures (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 2</xref>, <xref ref-type="supplementary-material" rid="SD1">3</xref>). Two signatures were previously identified in a pan-cancer analysis (i.e., signatures 6 and 16)<sup><xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup> and two were novel (signatures 23 and 24). Mutational catalogues derived from exome data may underestimate the number of operative signatures<sup><xref rid="R16" ref-type="bibr">16</xref></sup>, and 8 signatures were previously identified by analyzing 88 whole liver cancer genomes (signatures 1A, 1B, 4, 5, 6, 12, 16, and 17)<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. To determine the complete set of signatures in our series, we evaluated the contribution of these 8 previously identified signatures and the 2 novel signatures identified <italic toggle="yes">de novo</italic> (see <bold>Online Methods</bold>). Altogether, 8 signatures (all except signatures 12 and 17) were found at different strengths in the 243 samples (<xref ref-type="fig" rid="F1">Fig. 1a</xref>, <xref ref-type="supplementary-material" rid="SD13">Supplementary Table 4</xref>).</p>
+      <p id="P13">Hierarchical clustering of the samples, based on the contributions of the mutational signatures in each sample, revealed 6 groups of tumors (MSig1 to 6) and 4 singletons which were significantly associated with demographic, etiologic and molecular features (<xref ref-type="fig" rid="F1">Fig. 1b-d</xref>, <xref ref-type="supplementary-material" rid="SD13">Supplementary Tables 4</xref>, <xref ref-type="supplementary-material" rid="SD14">5</xref>). Msig1 included 9 HCC enriched in signature 4 (frequent C&gt;A and dinucleotide mutations) which has been previously shown to be associated with tobacco<sup><xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R17" ref-type="bibr">17</xref></sup>. The prevalence of smokers in Msig1 was high (57%) but not significantly different from the other groups. Msig2 group (5 HCC) was characterized by the novel “signature 24” showing a high rate of C&gt;A mutations. All of the patients in the Msig2 group were migrants born in subtropical African countries and infected by HBV. Three of these tumors displayed a somatic R249S <italic toggle="yes">TP53</italic> mutation typical of AFB1-exposed HCC<sup><xref rid="R18" ref-type="bibr">18</xref>,<xref rid="R19" ref-type="bibr">19</xref></sup> suggesting that signature 24 reflects the mutational pattern induced by AFB1. There was an equal prevalence of mutations for signatures 5 and 16 (49% each) in MSig3. This particular group included 19 highly mutated HCC associated with alcohol and tobacco exposure (67%, <italic toggle="yes">P</italic> = 6×10<sup>−5</sup>, Fisher’s exact test), <italic toggle="yes">CTNNB1</italic> mutation (74%, <italic toggle="yes">P</italic> = 8×10<sup>−4</sup>), and non-cirrhotic livers (79%, <italic toggle="yes">P</italic> = 0.02). These results suggest a genotoxic synergistic effect of alcohol and tobacco exposures in 8% of the patients that developed a homogeneous molecular subtype of tumors. MSig4 tumors were characterized by frequent <italic toggle="yes">TP53</italic>-mutations and signature 5, enriched in T&gt;C transitions. Mutations in the 46 tumors classified in Msig5 were related to signatures 1A and 1B resulting of spontaneous deamination at Np<underline>C</underline>pG trinucleotides acquired through the patient’s lifetime<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. This group of tumors demonstrated a low mutation rate and an early histological stage, but these tumors also had a lower tumor cell content, so this group may partly be related to normal cell contamination (see <bold>Online Methods</bold>). Signature 16 accounted for 79% of mutations in MSig6 tumors and was associated with older patients, <italic toggle="yes">TERT</italic> and <italic toggle="yes">CTNNB1</italic> mutations. Among the tumors classified alone, one (BCM723T) showed signature 6 which is characteristic of cancers with defective DNA mismatch repair, displaying numerous indels. The newly identified signature 23 was only encountered in the hypermutated tumor CHC892T, occuring in a 71 year old female presenting with a non-fibrotic liver having black anthracotic pigment deposition, predominantly in macrophages and vessels (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 4</xref>). This signature was characterized by a predominance of C&gt;T mutations with a strong strand bias that may result from the interplay between an unknown mutagenic process affecting predominantly guanine residues and transcription coupled nucleotide excision repair<sup><xref rid="R15" ref-type="bibr">15</xref></sup>. To validate the mutational signatures identified in our series, we analyzed the mutation patterns identified by exome sequencing in the ICGC-Japan (452 tumors)<sup><xref rid="R20" ref-type="bibr">20</xref></sup> and the TCGA cohorts of 198 tumors. Consistent with the findings by Totoki <italic toggle="yes">et al.</italic>, we found an enrichment of T&gt;C mutations in an Ap<underline>T</underline>pN context in the Japanese data. We also found two tumors with mutational patterns corresponding to our signatures 6 and 23, validating the occurrence of these signatures in rare HCC cases (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 5</xref>). Six tumors of the TCGA data clustered with our MSig2 cases and displayed patterns similar to the AFB1-related signature 24. These cases were all African or Asian (<italic toggle="yes">P</italic> = 0.002, Fisher’s exact test) and 3 of them displayed the characteristic R249S <italic toggle="yes">TP53</italic> mutation (<italic toggle="yes">P</italic> = 8×10<sup>−4</sup>, Fisher’s exact test) (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>).</p>
+      <p id="P14">We used MutSigCV to identify cancer driver genes<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. Fourteen genes were significantly enriched for damaging mutations (q &lt; 0.05, <xref ref-type="fig" rid="F2">Fig. 2a</xref>): <italic toggle="yes">TP53</italic>, <italic toggle="yes">CTNNB1</italic>, <italic toggle="yes">AXIN1</italic>, <italic toggle="yes">ALB</italic>, <italic toggle="yes">ARID1A</italic>, <italic toggle="yes">ARID2</italic>, <italic toggle="yes">ACVR2A</italic>, <italic toggle="yes">NFE2L2</italic>, <italic toggle="yes">RPS6KA3</italic>, <italic toggle="yes">KEAP1</italic>, <italic toggle="yes">RPL22</italic>, <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">CDKN1A</italic> and <italic toggle="yes">RB1</italic> (<xref ref-type="supplementary-material" rid="SD15">Supplementary Table 6</xref>). We also analyzed copy-number alterations (CNAs) by comparing the sequence coverage in 243 tumors and matched non-tumor liver samples. The pattern of broad gains and losses was consistent with previous reports in HCC (<xref ref-type="fig" rid="F2">Fig. 2b</xref>)<sup><xref rid="R11" ref-type="bibr">11</xref>,<xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup>. We identified recurrent homozygous deletions of the <italic toggle="yes">CFH</italic> locus, <italic toggle="yes">IRF2</italic>, <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">PTPN3</italic>, <italic toggle="yes">PTEN</italic>, <italic toggle="yes">AXIN1</italic> and <italic toggle="yes">RPS6KA3</italic>, and recurrent focal amplifications of <italic toggle="yes">TERT</italic>, <italic toggle="yes">VEGFA</italic>, <italic toggle="yes">MET</italic>, <italic toggle="yes">MYC</italic>, the <italic toggle="yes">FGF3, FGF4, FGF19/CCND1</italic> locus, <italic toggle="yes">JAK3</italic> and <italic toggle="yes">CCNE1</italic> (<xref ref-type="supplementary-material" rid="SD16">Supplementary Tables 7a,b</xref>). Next, we developed a pipeline integrating focal CNAs and mutations identifying 161 putative driver genes in liver cancer (see <bold>Online Method</bold>, <xref ref-type="fig" rid="F2">Fig. 2c</xref>, <xref ref-type="supplementary-material" rid="SD17">Supplementary Table 8</xref>).</p>
+      <p id="P15">To identify cellular pathways associated with HCC we annotated the 161 candidate driver genes using the Gene Ontology database and manually curated the precise role of each gene in pathways (see <bold>Online Methods</bold>). We found 11 pathways altered in ≥5% of HCC (<xref ref-type="fig" rid="F3">Fig. 3</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 7</xref>,<xref ref-type="supplementary-material" rid="SD1">8</xref>,<xref ref-type="supplementary-material" rid="SD1">9</xref>): <italic toggle="yes">TERT</italic> promoter mutations activating telomerase expression (60%)<sup><xref rid="R24" ref-type="bibr">24</xref></sup>, WNT/ß-Catenin (54%), PI3K/AKT/mTOR (51%), TP53/cell cycle (49%), MAP kinase (43%), hepatic differentiation (34%), epigenetic regulation (32%) chromatin remodeling (28%), oxidative stress (12%), Il6/JAK/STAT (9%), and TGFß (5%). This analysis revealed new genes recurrently mutated in HCC: ß-catenin inhibitors (<italic toggle="yes">ZNRF3, USP34</italic> and <italic toggle="yes">MACF1</italic>), hepatocyte secreted proteins( <italic toggle="yes">APOB</italic> and FGA), and the TGFß-receptor <italic toggle="yes">ACVR2A</italic>, recently associated with chondrosarcoma<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. We then identified significant associations between mutations and risk factors (<xref ref-type="supplementary-material" rid="SD18">Supplementary Table 9</xref>). Alcohol-related HCC were significantly enriched in <italic toggle="yes">CTNNB1</italic>, <italic toggle="yes">TERT</italic>, <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">SMARCA2</italic>, and <italic toggle="yes">HGF</italic> alterations (<italic toggle="yes">P</italic> &lt; 0.05, chi-square tests for trend in proportions). HBV-related HCC were frequently mutated for <italic toggle="yes">TP53</italic>, and <italic toggle="yes">IL6ST</italic> mutations were exclusively identified in HCC with no known etiology. In contrast, HCV infection, metabolic syndrome, and hemochromatosis did not show significant associations.</p>
+      <p id="P16">Because each tumor accumulates numerous damaging mutations, we identified three major clusters of associated alterations, centered on <italic toggle="yes">CTNNB1, AXIN1</italic> and <italic toggle="yes">TP53</italic> (<xref ref-type="fig" rid="F4">Fig. 4</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 10</xref>, and <xref ref-type="supplementary-material" rid="SD5">Supplementary Table 10</xref>). Interestingly, alterations of genes belonging to a same pathway were frequently distributed in different clusters. These results may reflect cooperation, functional redundancy, or lethality of gene combinations and may contribute to better predict efficacy of targeted therapies.</p>
+      <p id="P17">Next, we defined the catalog of actionable genomic alterations among the 11 major pathways. Altogether, 28% of patients harbored at least one damaging alteration potentially targetable by an FDA-approved drug (<xref ref-type="fig" rid="F3">Fig. 3</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 11</xref> and <xref ref-type="supplementary-material" rid="SD6">Supplementary Table 11</xref>) and 86% by a drug studied in phase I to phase III clinical trials (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 11</xref> and <xref ref-type="supplementary-material" rid="SD7">Supplementary Table 12</xref>). Targetable alterations by FDA-approved drugs comprised focal amplifications or mutations of <italic toggle="yes">FLTs</italic> (6%), <italic toggle="yes">FGF3/4/19</italic> (4%), <italic toggle="yes">PDGFRs</italic> (3%), <italic toggle="yes">EPHA4</italic> (3%), <italic toggle="yes">JAK3</italic> (3%), <italic toggle="yes">VEGFA</italic> (1%), <italic toggle="yes">HGF</italic> (3%), <italic toggle="yes">MTOR (2%), EGFR</italic> (1%), <italic toggle="yes">FGFRs</italic> (1%), <italic toggle="yes">IL6R</italic> (1%), <italic toggle="yes">KIT</italic> (1%), <italic toggle="yes">MET</italic> (1%), <italic toggle="yes">TEK</italic> (1%), <italic toggle="yes">BRAF</italic> (&lt;1%), <italic toggle="yes">ERBB2</italic> (&lt;1%), <italic toggle="yes">JAK1</italic> (&lt;1%), <italic toggle="yes">KDR</italic> (&lt;1%). We also showed <italic toggle="yes">in vitro</italic> that inactivating mutations of <italic toggle="yes">RPS6KA3</italic> (7%) induced an activation of the RAS/MAPK pathway with an over-expression of phosphorylated ERK1/2 (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 12</xref>) suggesting that RPS6KA3-mutated HCC could be targeted by ERK or MEK inhibitors. Notably, advanced-stage tumors harbored more potentially targetable alterations, including, in particular, <italic toggle="yes">FGF/CCND1</italic> amplifications (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 13</xref>).</p>
+      <p id="P18">Additionally to driver genes that can be directly inhibited by targeted drugs, other alterations may potentiate drug sensitivity of cancer cells. This includes NQO1, which markedly increases sensitivity to the HSP90 inhibitor, 17-AAG, by reducing this compound to a more potent inhibitor<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R27" ref-type="bibr">27</xref></sup>. NQO1 expression is induced by the oxidative stress pathway, which is activated in 12% of HCC, primarily by mutations of <italic toggle="yes">KEAP1</italic> or <italic toggle="yes">NFE2L2.</italic> To test whether these tumors could be more sensitive to HSP90 inhibitors, we assessed the response of 29 liver cancer cell lines to 17-AAG and 17-DMAG (<xref ref-type="fig" rid="F5">Fig. 5a</xref>). The growth inhibition of 50% (GI50) was significantly inversely correlated with the expression of NQO1 (Pearson’s r = −0.56, <italic toggle="yes">P</italic> = 0.0015, <xref ref-type="fig" rid="F5">Fig. 5b</xref>). Two of the three cell lines harboring <italic toggle="yes">KEAP1</italic> inactivating mutations were highly sensitive to HSP90 inhibitors, whereas the third mutated cell line, which was less sensitive, was homozygous for the <italic toggle="yes">NQO1</italic> P187S <italic toggle="yes">(NQO1*2 allele, rs1800566)</italic> missense variant causing NQO1 deficiency (<xref ref-type="fig" rid="F5">Fig. 5c</xref>)<sup><xref rid="R28" ref-type="bibr">28</xref></sup>. These findings suggest that tumors with high NQO1 expression may be more sensitive to HSP90 inhibitors except in patients with homozygous P187S genotype.</p>
+      <p id="P19">Finally, we explored the progression of HCC in cirrhotic and non-cirrhotic livers. We identified an increased number of gene mutations (<italic toggle="yes">P</italic> = 1.2×10<sup>−3</sup>, Jonckheere-Terpstra test) and chromosome aberrations (<italic toggle="yes">P</italic> = 1.3×10<sup>−5</sup>, Jonckheere-Terpstra test) along DMN malignant transformation to poor prognosis HCC (<xref ref-type="fig" rid="F6">Fig. 6a</xref>). Although <italic toggle="yes">TERT</italic> promoter mutations were already frequent at early stages, <italic toggle="yes">CTNNB1</italic> and <italic toggle="yes">TP53</italic> mutation frequencies increased significantly with progression, and focal amplifications at the <italic toggle="yes">CCND1/FGF</italic> locus were mostly encountered in poor prognosis HCC (<italic toggle="yes">P</italic> &lt; 0.01, Chi-square test for trend in proportions, <xref ref-type="fig" rid="F6">Fig. 6b</xref>). Interestingly, chromosome aberrations appearred later than gene mutations during progression. While similar findings were observed in tumors which developed in non-fibrotic liver relative to the progressive accumulation of mutations and CNAs, <italic toggle="yes">TERT</italic> promoter mutations were later events during malignant transformation. Moreover, <italic toggle="yes">HNF1A</italic> and <italic toggle="yes">IL6ST</italic> mutations were restricted mostly to HCA suggesting that most of the HCC in non-fibrotic liver did not derive from the transformation of an adenoma (<xref ref-type="fig" rid="F6">Fig. 6b</xref>). A link between <italic toggle="yes">FGF19</italic> expression and overall survival has been described in the literature<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R29" ref-type="bibr">29</xref>-<xref rid="R32" ref-type="bibr">32</xref></sup>. Using a multivariate survival analysis, we identified that <italic toggle="yes">CDKN2A</italic> inactivation and <italic toggle="yes">FGF/CCND1</italic> amplification were associated with poor prognosis in our cohort of resected HCC, independently of classical prognostic clinical and histological features (<xref ref-type="fig" rid="F6">Fig. 6c</xref> and <xref ref-type="supplementary-material" rid="SD8">Supplementary Table 13</xref>).</p>
+      <p id="P20">In conclusion, our study identified relationships between environmental exposures and mutational patterns in HCC as well as the landscape of driver genes and pathways altered in different clinical stages and etiological backgrounds. For patient care, genomic alterations identified in targetable genes will be useful to determine HCC patients that could potentially benefit from targeted treatment in future clinical trials.</p>
+      <sec sec-type="methods" specific-use="web-only" id="S1">
+        <title>Online Methods</title>
+        <sec id="S2">
+          <title>Liver Samples</title>
+          <p id="P21">A series of 243 liver tumor samples and their non-tumor counterparts were collected from patients surgically treated in Europe: 193 cases from France (Créteil, Bordeaux), 9 from Spain (Barcelona), and 41 from Italy (Milan). The study was approved by institutional review board committees (CCPRB Paris Saint-Louis, 1997, 2004, and 2010, approval number 01-037; Bordeaux 2010-A00498-31). Written informed consent was obtained in accordance with french legislation. All samples were immediately frozen in liquid nitrogen and stored at −80 °C.</p>
+        </sec>
+        <sec id="S3">
+          <title>Clinical Data</title>
+          <p id="P22">Clinicopathological data were available in all cases. Risk factors were defined by significant alcohol intake, HCV, HBV, hemochromatosis, with no known etiology, and non-alcoholic steatohepatitis (NASH) as co-occurrence of metabolic syndrome. Metabolic syndrome consists of a combination of disorders including central obesity [waist circumference &gt;102 cm (M), &gt;88 cm (F)], hypertriglyceridemia (triglycerides &gt;150 mg/dL), low high-density lipoprotein serum levels (&lt;40 mg/dL), arterial hypertension (&gt;130 mmHg systolic or &gt;85 mmHg diastolic), and raised fasting plasma glucose (FPG) ≥1.1 mg/dL or previously diagnosed type 2 diabetes. At least three of the latter criteria have to be fulfilled for diagnosis. NASH can be the chronic consequence of a non-alcoholic fatty liver disease (NAFLD), which frequently co-occurs in patients with metabolic syndrome and is characterized by hepatocellular accumulation of triglycerides in the absence of significant alcohol consumption. By contrast, NASH additionally includes the presence of inflammation and can display different degrees of fibrosis. Patients without known etiology are those that do not display the above frequent etiologies or rare etiologies (such as primary biliary cirrhosis, autoimmune hepatitis and primary sclerosing cholangitis). Samples were classified according to the clinical, pathological and genetic features as previously described by Guichard <italic toggle="yes">et al.</italic> (<xref ref-type="supplementary-material" rid="SD4">Supplementary Table 1</xref>, <xref ref-type="supplementary-material" rid="SD11">2</xref>)<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. In all HCC samples, the ratio of tumor cells/non-tumor cells was evaluated &gt;50%; the PurBayes method<sup><xref rid="R33" ref-type="bibr">33</xref></sup> estimated an average 70% (range 39-100%) of tumor purity based upon sequencing data (<xref ref-type="supplementary-material" rid="SD9">Supplementary Table 14</xref>). Definition of DMN, early, small and progressed, classic, and poor prognosis HCC is based on histopathological criteria in HCC proposed by the International Consensus Group for Hepatocellular Neoplasia<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref></sup>. DMN: macronodules containing low (a cell population lacking architectural atypia with mild increase in cellularity as compared to surroundings; portal tracts detectable) or high (frank cytological and architectural atypia as compared to surroundings but insufficient for a diagnosis of malignancy; portal tracts detectable) grade dysplastic nodules. Early HCC: diameter ≤2 cm, vaguely nodular lesion with indistinct margins with a well differentiated histology which may require careful distinction from high grade dysplastic nodules; few portal tracts detectable. Small and progressed HCC: diameter ≤2 cm, distinctly nodular lesion with well (G1) to moderately (G2) differentiated histology in which malignancy is recognized at first glance; no portal tracts detectable. Poor prognosis HCC: HCC cases displaying recurrence within 2 years. Classic HCC: non-early, non-small, non-poor prognosis HCC.</p>
+        </sec>
+        <sec id="S4">
+          <title>Genomic DNA extraction</title>
+          <p id="P23">We extracted DNA using a salting-out procedure<sup><xref rid="R34" ref-type="bibr">34</xref></sup>. Genomic DNA was loaded on a 0.8% agarose gel for quality control, only DNA &gt;10Kb were selected. DNA quantification was performed using Hoechst 33258 from Sigma Chemical Co. (St. Louis, MO, USA).</p>
+        </sec>
+        <sec id="S5">
+          <title>Exome capture, library construction and sequencing</title>
+          <p id="P24">Sequence capture, enrichment and elution from 243 pairs of genomic DNA were performed by IntegraGen (Evry, France) as previously described in Guichard et al. with some modifications<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Agilent in-solution enrichment was used with their biotinylated oligonucleotides probes library (SureSelect Human All-Exon kit v2-46Mb (n=36 pairs); v3-52Mb (n=7 pairs); v4-70Mb (n=56 pairs); v5+UTRs-75Mb (n=144 pairs), Agilent technologies) according to manufacturer’s instruction. Eluted-enriched DNA sample was sequenced on an Illumina HiSeq 2000 sequencer as paired-end 75b reads as previously described<sup><xref rid="R35" ref-type="bibr">35</xref></sup>. Image analysis and base-calling was performed using Illumina Real Time Analysis (RTA) Pipeline v1.12 with default parameters. Whole-exome sequencing pre-analysis was based on the Illumina pipeline (CASAVA1.8.2). Only the positions included in the bait coordinates were conserved. Each sample was sequenced to an average depth of 72.0X, with ~96.9% of the targeted regions covered ≥1×, ~92.6% ≥10× and ~82.9% ≥25× (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1</xref>).</p>
+        </sec>
+        <sec id="S6">
+          <title>Identification of somatic variants</title>
+          <p id="P25">A list of variants was generated (<xref ref-type="supplementary-material" rid="SD12">Supplementary Table 3</xref>) considering only somatic mutations in coding regions plus consensus intronic bases (missense/nonsense/splice-site/indels/synonymous mutations) as previously described in Guichard <italic toggle="yes">et al.</italic> with some modifications<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Polymorphisms referenced in dbSNP135 or 1000Genomes with minor allele frequency over 2% were removed. Functional evidence of predictive drastic consequence of the variants was investigated using Polyphen-2 v2.2.2<sup><xref rid="R36" ref-type="bibr">36</xref></sup>. A total of 11,823 (41%) putative somatic mutations were validated manually using the Integrated Genomics Viewer (IGV) and 3,126 (11%) using Sanger sequencing (<xref ref-type="supplementary-material" rid="SD12">Supplementary Table 3</xref>). A systematic Sanger sequencing was performed in a subset of 155 samples on a list of 11 genes (<italic toggle="yes">CTNNB1</italic>, <italic toggle="yes">TP53</italic>, <italic toggle="yes">ARID1A</italic>, <italic toggle="yes">AXIN1</italic>, <italic toggle="yes">RPS6KA3</italic>, <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">NFE2L2</italic>, <italic toggle="yes">ARID2</italic>, <italic toggle="yes">PI3KCA</italic>, <italic toggle="yes">KRAS</italic> and <italic toggle="yes">KEAP1</italic>) and we used these data to benchmark our exome mutation calling pipeline. A total of 151 somatic variants were called by both methods, whereas 21 variants were only identified by Sanger sequencing and 10 by exome sequencing. Variants not identified by exome sequencing were mostly mutations in the poorly covered GC-rich exon 1 of <italic toggle="yes">ARID1A</italic> (n=10 variants) and large deletions of <italic toggle="yes">CTNNB1</italic> exon 3 (n=3). This results in a sensitivity of our somatic calling pipeline of 88% [82-92%, IC95] that reaches 95% [90-98%, IC95] when excluding those 2 specific regions, and a specificity of 99% [98-100%, IC95].</p>
+          <p id="P26">Mutations were annotated using the Alamut Batch, Alamut Visual v2.4 (Interactive biosoftware, France) and Oncotator (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/Oncotator/">http://www.broadinstitute.org/cancer/cga/Oncotator/</ext-link>). All sequences has been deposited in the EGA (European genome-phenome archive - <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ega/">http://www.ebi.ac.uk/ega/</ext-link>) database (accessions EGAS00001000217, EGAS00001000679 and EGAS00001001002) and ICGC data portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dcc.icgc.org/">http://dcc.icgc.org/</ext-link>, release 18, Dec10<sup>th</sup>, 2014).</p>
+        </sec>
+        <sec id="S7">
+          <title><italic toggle="yes">De novo</italic> mutational signature analysis</title>
+          <p id="P27">The mutational catalogues of the 243 liver tumors were analyzed using the Wellcome Trust Sanger Institute mutational signatures framework<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. This algorithm makes use of a well-known blind source separation technique, termed nonnegative matrix factorization (NMF). NMF identifies the matrix of <italic toggle="yes">N</italic> mutational signature, <italic toggle="yes">P</italic>, and the matrix of the exposures of these signatures, <italic toggle="yes">E</italic>, by minimizing a Frobenius norm while maintaining non-negativity:
+<disp-formula id="FD1"><mml:math display="block" id="M1" overflow="scroll"><mml:mrow><mml:munder><mml:mi mathvariant="normal">min</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mo>∈</mml:mo><mml:msubsup><mml:mi>𝕄</mml:mi><mml:mrow><mml:msub><mml:mi>ℝ</mml:mi><mml:mo>+</mml:mo></mml:msub></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mover accent="true"><mml:mi>K</mml:mi><mml:mo>.</mml:mo></mml:mover><mml:mo>,</mml:mo><mml:mi>N</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:msubsup><mml:mspace width="thickmathspace"/><mml:mi>E</mml:mi><mml:mo>∈</mml:mo><mml:msubsup><mml:mi>𝕄</mml:mi><mml:mrow><mml:msub><mml:mi>ℝ</mml:mi><mml:mo>+</mml:mo></mml:msub></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>N</mml:mi><mml:mo>,</mml:mo><mml:mi>G</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:munder><mml:mrow><mml:msubsup><mml:mrow><mml:mo>∥</mml:mo><mml:mi mathvariant="normal">M</mml:mi><mml:mo>−</mml:mo><mml:mi>P</mml:mi><mml:mo>×</mml:mo><mml:mi>E</mml:mi><mml:mo>∥</mml:mo></mml:mrow><mml:mi>F</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:math></disp-formula>
+The method for deciphering mutational signatures, including evaluation with simulated data and list of limitations, can be found in ref <sup><xref rid="R16" ref-type="bibr">16</xref></sup>.</p>
+          <p id="P28">First, all mutation data were converted into a matrix, <italic toggle="yes">M</italic>, that is made up of 96 features comprising mutations counts for each mutation type (C&gt;A, C&gt;G, C&gt;T, T&gt;A, T&gt;C, and T&gt;G; somatic mutations presented in a pyrimidine context) using each possible 5′ (C, A, G, T) and 3′ (C, A, G, T) context for all samples. Then, the algorithm was applied to the matrix that contains <italic toggle="yes">K</italic> mutation types and <italic toggle="yes">G</italic> samples, deciphering the minimal set of mutational signatures that optimally explains the proportion of each mutation type, thus estimating the contribution of each signature to each sample.</p>
+          <p id="P29">After extraction, 4 stable and reproducible mutational signatures were deciphered (see stability and error plot in <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 2</xref>) and termed Signatures A, B, C, and D. Those signatures were compared to the catalogue of 27 consensus signatures that were previously identified by a pan-cancer analysis encompassing 7,042 samples and 30 cancer types<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. The comparison was performed by cosine similarity as described<sup><xref rid="R16" ref-type="bibr">16</xref></sup> as well as based on other biological features exhibited by the mutational signatures (e.g., transcriptional strand bias, presence of small insertions and/or deletions at specific context, <italic toggle="yes">etc.</italic>).</p>
+          <p id="P30">The comparison revealed that 2 of the 4 signatures are novel, while the patterns of the remaining 2 were previously identified through the pan-cancer analysis. Notably, Signatures C exhibited a strong transcriptional strand bias of T&gt;C mutations especially at TpA dinucleotides (70% vs. 30%) a behaviour consistent with the one of Signature 16. The pattern of mutations of Signature C showed a cosine similarity of 0.95 with the pattern of mutations of Signature 16. Similarly, Signature D’s pattern is extremely similar to the one of Signature 6 (cosine similarity of 0.90), both exhibiting prevalence for high numbers of indels at repetitive elements. In contrast, Signatures A and B had cosine similarity &lt;0.90 with any of the previously identified mutational signatures. Please note that we previously used a cut-off of ~0.90 to cluster mutational signatures into consensus mutational signatures<sup><xref rid="R14" ref-type="bibr">14</xref></sup>.</p>
+        </sec>
+        <sec id="S8">
+          <title>Reintroduction of consensus mutational signature analysis and sample clustering</title>
+          <p id="P31">Previous analysis of 88 whole-genomes of liver cancers has revealed 6 mutational signatures: Signatures 1B, 4, 6, 12, 16, and 17<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. Further, signature 1B can be decomposed into Signatures 1A and 5<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. The <italic toggle="yes">de novo</italic> extraction of mutational signatures of our 243 liver exomes revealed two additional mutational signatures, termed signatures 23 and 24. Thus, the complete compendium of mutational signature that can be present in a liver cancer is: Signatures 1A, 1B, 4, 5, 6, 12, 16, 17, 23, and 24. To evaluate the presence of all these signatures in the 243 liver exomes, we used a previously described approach to find the <italic toggle="yes">Exposure</italic> matrix minimizing the following constrained linear function for each sample<sup><xref rid="R37" ref-type="bibr">37</xref></sup>:
+<disp-formula id="FD2"><mml:math display="block" id="M2" overflow="scroll"><mml:mrow><mml:munder><mml:mi mathvariant="normal">min</mml:mi><mml:mrow><mml:mi mathvariant="italic">Exposure</mml:mi><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>≥</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:munder><mml:mrow><mml:msubsup><mml:mrow><mml:mo>∥</mml:mo><mml:mi mathvariant="italic">SampleMutations</mml:mi><mml:mo>−</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mo>(</mml:mo><mml:mover><mml:mrow><mml:msub><mml:mi mathvariant="italic">Sιgnature</mml:mi><mml:mi>ι</mml:mi></mml:msub></mml:mrow><mml:mo>→</mml:mo></mml:mover><mml:mo>∗</mml:mo><mml:msub><mml:mi mathvariant="italic">Exposure</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>)</mml:mo><mml:mo>∥</mml:mo></mml:mrow><mml:mi>F</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:math></disp-formula>
+Here, <inline-formula><mml:math display="inline" id="M3" overflow="scroll"><mml:mover><mml:mrow><mml:msub><mml:mi mathvariant="italic">Sιgnature</mml:mi><mml:mi>ι</mml:mi></mml:msub></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:math></inline-formula> represents a vector with 96 components (corresponding to the six somatic substitutions and their immediate sequencing context) and <italic toggle="yes">Exposure</italic><sub><italic toggle="yes">i</italic></sub> is a nonnegative scalar reflecting the number of mutations contributed by this signature. <italic toggle="yes">N</italic> is equal to 10 and it reflects the number of all possible signatures that can be found in a liver sample. Any mutational signature contributing less than 1% of the somatic mutations in a sample was removed and the sample was re-analyzed with the remaining signatures. Any signature that did not improve the cosine similarity between the original sample and the sample reconstructed using the consensus mutational signatures and their respective exposures with more than 0.02 was removed and the sample was reanalyzed with the remaining signatures. The analysis revealed that signatures 1A, 1B, 4, 5, 6, 16, 23, and 24 are present in these liver cancer exomes but not signatures 12 and 17. The re-introduction allowed better evaluating the presence of mutational signatures in each sample by leveraging the set of consensus mutational signatures previously deciphered from a larger dataset of 88 whole-genomes.</p>
+          <p id="P32">All samples were clustered, based on the number of somatic mutations contributed by each signature in each sample, using unsupervised hierarchical clustering with cosine distance and Ward linkage.</p>
+        </sec>
+        <sec id="S9">
+          <title>Copy-number analysis</title>
+          <p id="P33">To identify copy-number alterations, we calculated the log ratio of the coverage in each tumor and its matched non-tumor liver sample for each bait of the exome capture kit. Log ratio profiles were then smoothed using the circular binary segmentation algorithm as implemented in the Bioconductor package <italic toggle="yes">DNAcopy</italic><sup><xref rid="R38" ref-type="bibr">38</xref></sup>. The most frequent smoothed value was considered to be the <italic toggle="yes">zero</italic> level of each sample. Segments with a smoothed log ratio above (<italic toggle="yes">zero</italic>+0.3) or below (<italic toggle="yes">zero</italic>−0.3) were considered to be gained and deleted, respectively. High-level amplifications and homozygous deletions thresholds were defined as the (mean+ 5 standard deviations) of smoothed log ratios in gained and deleted regions, respectively. Chromosome instability was quantified as the frequency of aberrant arms (FAA), i.e. the proportion of chromosome arms with an aberrant copy-number status on &gt;60% of their length<sup><xref rid="R11" ref-type="bibr">11</xref></sup>.</p>
+        </sec>
+        <sec id="S10">
+          <title>Identification of putative driver genes</title>
+          <p id="P34">We first used the MutSigCV<sup><xref rid="R21" ref-type="bibr">21</xref></sup> algorithm to identify genes harboring significantly more mutations than expected by chance. This approach takes into account the nucleotide context, gene-expression, replication time, the observed silent mutations and the presence of mutations in the surrounding regions. It estimates the background mutation rate for each gene–patient–category combination and tests the null hypothesis that all the observed mutations in each gene are a consequence of random background mutation. Genes for which this hypothesis is rejected based on the Benjamini-Hochberg false discovery rate-corrected q-value are considered significantly mutated. Analysis was done using default settings together with a liver-oriented covariates table comprising HCC-derived gene expression levels (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE62232">GSE62232</ext-link>).</p>
+          <p id="P35">We then combined mutations and focal CNAs to define an enlarged list of putative drivers. We considered all genes with ≥6 alterations (non-silent mutations, high-level amplifications or homozygous deletions) among the 235 HCC (excluding DMN samples and hypermutated HCC sample CHC892T), corresponding to a frequency of ≥2.5%. We then remove large genes (cds length ≤10.000 amino acid), genes not expressed in HCC considering our Affymetrix microarray <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE62232">GSE62232</ext-link> dataset collected on a series of 81 HCCs (RMA normalized intensities ≥20 units or &lt;20 units., with ≥20 standard deviation) and genes displaying ratio of silent versus non-silent mutations ≤0.15. 161 genes passed more than two of these three filters and were considered to be putative driver genes (<xref ref-type="supplementary-material" rid="SD17">Supplementary Table 8</xref>).</p>
+        </sec>
+        <sec id="S11">
+          <title>Identification of recurrently altered pathways and targetable genes</title>
+          <p id="P36">Gene annotations, including unique gene and transcript identifiers, description and functional reports, were retrieved from Ensembl release 75 given the variant genomic location using the Bioconductor package <italic toggle="yes">biomaRt.</italic> The definition of the cellular pathways found to be associated with HCC was established by annotating the 161 candidate driver genes using the Gene Ontology database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.geneontology.org/">http://www.geneontology.org/</ext-link>), then stating their precise roles through an expert reviewing of the literature and gene annotation or pathways databases including GeneCards (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.genecards.org/">http://www.genecards.org/</ext-link>), KEGG (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.genome.jp/kegg/pathway.html">http://www.genome.jp/kegg/pathway.html</ext-link>), and PubMed (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/">http://www.ncbi.nlm.nih.gov/pubmed/</ext-link>). Using this approach, we identified 11 major pathways altered in more than 5% of HCC. Some putative driver genes or genes already reported in HCC were added to the general scheme (<xref ref-type="fig" rid="F3">Fig. 3a</xref>), as well as genes with only minor or no alterations in our cohort but playing key functional roles in the identified pathways. Interactions between pathways and repartition of the genes in the cellular compartments were highlighted as reported in KEGG pathway database. The FDA-approved drugs or drugs screened in different phases of clinical trials that were found related to one of the genes or pathways were reviewed in ClinicalTrails.gov (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.clinicaltrials.gov">http://www.clinicaltrials.gov</ext-link>) and NCI Drug Dictionary (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cancer.gov/drugdictionary">http://www.cancer.gov/drugdictionary</ext-link>) databases.</p>
+        </sec>
+        <sec id="S12">
+          <title>Sanger sequencing</title>
+          <p id="P37">Eleven percent of the mutations identified by exome sequencing were confirmed by independent PCR and Sanger sequencing. All HCC and liver cancer cell lines were systematically screened for <italic toggle="yes">CTNNB1</italic>, <italic toggle="yes">TP53</italic>, <italic toggle="yes">ARID1A</italic>, <italic toggle="yes">AXIN1</italic>, <italic toggle="yes">RPS6KA3</italic>, <italic toggle="yes">KEAP1</italic>, <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">NFE2L2</italic>, <italic toggle="yes">ARID2</italic>, <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">KRAS</italic> mutations (<xref ref-type="supplementary-material" rid="SD10">Supplementary Table 15</xref>) as described in Guichard <italic toggle="yes">et al.</italic> and the promoter region of <italic toggle="yes">TERT</italic> was sequenced as described in Nault <italic toggle="yes">et al.</italic><sup><xref rid="R11" ref-type="bibr">11</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>. In all cases the somatic origin of the mutation found in tumor was verified by sequencing the corresponding adjacent, normal liver sample<sup><xref rid="R11" ref-type="bibr">11</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>.</p>
+        </sec>
+        <sec id="S13">
+          <title>Cell lines</title>
+          <p id="P38">The 29 liver cancer cell lines were obtained from commercial sources. Cells were grown in Dulbecco’s modified Eagle’s medium (DMEM) or William’s E medium supplemented with 10% fetal bovine serum and 100 U/mL penicillin/streptomycin and maintained at 37 °C in a humidified incubator in 5% CO2. Cell line identity was confirmed by exploring known gene mutations in each cell line. All the cells were mycoplasma-free, as tested by a PCR assay (Sigma).</p>
+        </sec>
+        <sec id="S14">
+          <title>Drugs and cell viability assay</title>
+          <p id="P39">17-AAG and 17-DMAG, two benzoquinone ansamycin HSP90 inhibitors were purchased from Sigma-Aldrich and dissolved in DMSO. Cells were seeded into 96-well plates at a density of 1500-3000 cells per well. After overnight incubation, cells were treated for 48h with vehicle alone (0.1% DMSO) or with various concentrations of 17-AAG or 17-DMAG (0.001, 0.01, 0.1, 1 and 10 uM, in 0.1% DMSO) in 100 ul of culture medium supplemented with 10% fetal bovine serum and 100 U/ml penicillin/streptomycin. Each concentration was tested in duplicate; experiments were repeated two to three times for each cell. Cell viability was measured by MTS assays (Promega) according to the manufacturer’s recommendations. The concentration of drug inhibiting cells growth by 50% relative to the untreated control (GI50) was calculated after curve fitting with GraphPad Prism 5.0 software.</p>
+        </sec>
+        <sec id="S15">
+          <title>Cell lines transfection and western-blotting</title>
+          <p id="P40">Cells were transfected with 2 nM of siRNA using the lipofectamine RNAiMAX reagent (Invitrogen) in 6-well plates, according to the manufacturer’s protocol. Three different siRNA duplexes targeting <italic toggle="yes">RPS6KA3</italic> (coding RSK2) (s12279, s12280 and s12280, Life Technologies) were tested. Block-iT Alexa Fluor Red Fluorescent Oligo siRNA (Life Technologies) was used as a double-stranded RNA negative control. The effect of the gene knockdown was verified on the protein level by western blotting. The total protein extracts were obtained by lysis in the RIPA buffer supplemented with protease and phosphatase inhibitors. Western-blot analyses were performed using primary antibodies specific for: RSK2 (sc-1430 Santa Cruz, dilution 1:2000), ERK1/2 (#9102 Cell Signaling Technology, dilution 1:500) and phospho-ERK1/2 (#9101 Thr202/Tyr204) (Cell Signaling Technology, dilution 1:300). Polyclonal rabbit anti-β-actin (A5060 Sigma, 1:3000) was used as loading control.</p>
+        </sec>
+        <sec id="S16">
+          <title>Quantitative RT-PCR</title>
+          <p id="P41">Quantification of <italic toggle="yes">NQO1</italic> mRNA level was performed by quantitative RT-PCR on the BioMark HD™ platform (Fluidigm) using a set of pre-designed primers and probe from Life technologies (Hs00168547_m1). Ribosomal 18S (R18S) was used for the normalization of expression data.</p>
+        </sec>
+        <sec id="S17">
+          <title>Reverse phase protein array</title>
+          <p id="P42">RPPA technology was used to quantify NQO1 protein level in cells as previously described<sup><xref rid="R39" ref-type="bibr">39</xref></sup>. Briefly, equal amounts of protein lysates were printed onto nitrocellulose covered slides. Four serial dilutions and two technical replicates per dilution were deposited for each sample. Arrays were revealed with an anti-NQO1 antibody (HPA007308 from Sigma). Quantification and normalization of RPPA data was performed using the NormaCurve method<sup><xref rid="R39" ref-type="bibr">39</xref></sup>.</p>
+        </sec>
+        <sec id="S18">
+          <title>NQO1 P187S SNP analysis</title>
+          <p id="P43"><italic toggle="yes">NQO1</italic> P187S <italic toggle="yes">(NQO1*2 allele, rs1800566)</italic> SNP genotyping was performed on genomic DNA extracted from cells using a pre-designed TaqMan assay (C_2091255_30, Life Technologies), on an ABI <italic toggle="yes">7900HT</italic> instrument (Applied Biosystems), according to the manufacturer’s instructions.</p>
+        </sec>
+        <sec id="S19">
+          <title>Statistical Analysis</title>
+          <p id="P44">R software v2.15.0 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>) and Bioconductor packages were used for statistical analysis and data visualization. Tests of independence were performed using Chi-square and Fisher’s exact tests. <italic toggle="yes">P</italic> values were adjusted by Monte Carlo simulation according to Hope <italic toggle="yes">et al.</italic><sup><xref rid="R40" ref-type="bibr">40</xref></sup>. The strength of association among gene mutation events was modeled using a binomial logistic regression. We used chi-square tests for trend in proportions to identify genes associated with HCC progression and the Jonckheere-Terpstra test to assess the increase of mutation and CNA numbers along tumor stages. Only genes mutated in ≥3% of cases were included.</p>
+          <p id="P45">Variables associated with overall survival at 60 months were identified using univariate and multivariate Cox proportional hazards regression models (Wald test), using the <italic toggle="yes">survival</italic> package. Only patients with curative (R0) resection were included in survival analysis (n=216, exclusion of non-curative resections and liver transplantations). Kaplan-Meier plots were used to describe survival rates among all cases.</p>
+          <p id="P46">All reported <italic toggle="yes">P</italic> values were two-tailed and differences were considered significant when the <italic toggle="yes">P</italic> value was under 0.05.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-1.doc" orientation="portrait" id="d37e1742" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-2.pdf" orientation="portrait" id="d37e1746" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-3.pdf" orientation="portrait" id="d37e1750" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD4" position="float" orientation="portrait">
+          <label>Table1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table1.xlsx" orientation="portrait" id="d37e1754" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD11" position="float" orientation="portrait">
+          <label>Table2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table2.xlsx" orientation="portrait" id="d37e1758" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD12" position="float" orientation="portrait">
+          <label>Table3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table3.xlsx" orientation="portrait" id="d37e1762" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD13" position="float" orientation="portrait">
+          <label>Table4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table4.xlsx" orientation="portrait" id="d37e1766" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD14" position="float" orientation="portrait">
+          <label>Table5</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table5.xls" orientation="portrait" id="d37e1770" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD15" position="float" orientation="portrait">
+          <label>Table6</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table6.xlsx" orientation="portrait" id="d37e1774" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD16" position="float" orientation="portrait">
+          <label>Table7</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table7.xls" orientation="portrait" id="d37e1778" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD17" position="float" orientation="portrait">
+          <label>Table8</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table8.xlsx" orientation="portrait" id="d37e1783" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD18" position="float" orientation="portrait">
+          <label>Table9</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table9.xlsx" orientation="portrait" id="d37e1787" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD5" position="float" orientation="portrait">
+          <label>Table10</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table10.xlsx" orientation="portrait" id="d37e1791" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD6" position="float" orientation="portrait">
+          <label>Table11</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table11.xlsx" orientation="portrait" id="d37e1795" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD7" position="float" orientation="portrait">
+          <label>Table12</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table12.xlsx" orientation="portrait" id="d37e1799" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD8" position="float" orientation="portrait">
+          <label>Table13</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table13.xlsx" orientation="portrait" id="d37e1803" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD9" position="float" orientation="portrait">
+          <label>Table14</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table14.xlsx" orientation="portrait" id="d37e1807" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD10" position="float" orientation="portrait">
+          <label>Table15</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS62359-supplement-Table15.xlsx" orientation="portrait" id="d37e1811" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S20">
+        <title>Acknowledgments</title>
+        <p>We warmly thank Anais Boulais, Cécile Guichard, Ichrafe Ben Maad, and Camilla Pilati for helpful participation to this work. We thank Leanne de Koning, Celine Baldeyron, Aurélie Barbet and Caroline Lecerf from the Institut Curie for the RPPA experiments. We also thank Jean Saric, Christophe Laurent, Laurence Chiche, Brigitte Le Bail, Claire Castain (CHU Bordeaux) and Daniel Cherqui, Jeanne Tran Van Nhieu (CHU Henri Mondor, Créteil) for contributing to the tissue collection. This work was supported by the INCa with the ICGC project, the PAIR-CHC project NoFLIC (funded by INCa and Association pour la recherche contre le Cancer, ARC), HEPTROMIC (FP7), Cancéropole Ile de France, CRB Liver tumors, Tumorotheque CHU Bordeaux and CHU Henri Mondor, BioIntelligence (OSEO) and INSERM. J-C.N. was supported by a fellowship from the INCa. K.S. is supported by the Deutsche Forschungsgemeinschaft (DFG Grant Number: SCHU 2893/2-1). Research performed at Los Alamos National Laboratory was carried out under the auspices of the National Nuclear Security Administration of the US Department of Energy. Vincenzo Mazzaferro is supported by a grant from AIRC (Italian association for Cancer Research). Josep M. Llovet is supported by grants from the European Comission-FP7 Framework (HEPTROMIC, Proposal No: 259744), The Samuel Waxman Cancer Research Foundation, the Spanish National Health Institute (SAF-2010-16055 and SAF-2013-41027), and the Asociación Española Contra el Cáncer (AECC).</p>
+      </ack>
+      <fn-group>
+        <fn id="FN1">
+          <p id="P47"><bold>URLs</bold>. Data generation by the TCGA Research Network, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cancergenome.nih.gov/">http://cancergenome.nih.gov/</ext-link>; R software V2.15.0, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>; Oncotator, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/Oncotator/">http://www.broadinstitute.org/cancer/cga/Oncotator/</ext-link>; Gene Ontology database, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.geneontology.org/">http://www.geneontology.org/</ext-link>, GeneCards, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.genecards.org/">http://www.genecards.org/</ext-link>; KEGG pathway database, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.genome.jp/kegg/pathway.html">http://www.genome.jp/kegg/pathway.html</ext-link>, NCBI medline database PubMed, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/">http://www.ncbi.nlm.nih.gov/pubmed/</ext-link>; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ClinicalTrails.gov">ClinicalTrails.gov</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.clinicaltrials.gov">http://www.clinicaltrials.gov</ext-link> and NCI Drug Dictionary, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cancer.gov/drugdictionary">http://www.cancer.gov/drugdictionary</ext-link></p>
+        </fn>
+        <fn id="FN2">
+          <p id="P48"><bold>Accession codes</bold>. The sequence reported in this paper has been deposited in the EGA (European genome-phenome archive - <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ega/">http://www.ebi.ac.uk/ega/</ext-link>) database (accessions EGAS00001000217, EGAS00001000679 and EGAS00001001002) and ICGC data portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dcc.icgc.org/">http://dcc.icgc.org/</ext-link>, release 18, December 10<sup>th</sup>, 2014).</p>
+        </fn>
+        <fn id="FN4">
+          <p id="P49"><bold>Conflict of interests</bold>: The authors declare no competing financial interests.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <title>References</title>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forner</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Llovet</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bruix</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Hepatocellular carcinoma</article-title>
+            <source>Lancet</source>
+            <year>2012</year>
+            <volume>379</volume>
+            <fpage>1245</fpage>
+            <lpage>55</lpage>
+            <pub-id pub-id-type="pmid">22353262</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(11)61347-0</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>El-Serag</surname>
+                <given-names>HB</given-names>
+              </name>
+            </person-group>
+            <article-title>Hepatocellular carcinoma</article-title>
+            <source>N Engl J Med</source>
+            <year>2011</year>
+            <volume>365</volume>
+            <fpage>1118</fpage>
+            <lpage>27</lpage>
+            <pub-id pub-id-type="pmid">21992124</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMra1001683</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <article-title>International Consensus Group for Hepatocellular NeoplasiaThe International Consensus Group for Hepatocellular, N. Pathologic diagnosis of early hepatocellular carcinoma: a report of the international consensus group for hepatocellular neoplasia</article-title>
+            <source>Hepatology</source>
+            <year>2009</year>
+            <volume>49</volume>
+            <fpage>658</fpage>
+            <lpage>64</lpage>
+            <pub-id pub-id-type="pmid">19177576</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/hep.22709</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Roncalli</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Liver precancerous lesions and hepatocellular carcinoma: the histology report</article-title>
+            <source>Dig Liver Dis</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <issue>Suppl 4</issue>
+            <fpage>S361</fpage>
+            <lpage>72</lpage>
+            <pub-id pub-id-type="pmid">21459342</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1590-8658(11)60592-6</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zucman-Rossi</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genotype-phenotype correlation in hepatocellular adenoma: new classification and relationship with HCC</article-title>
+            <source>Hepatology</source>
+            <year>2006</year>
+            <volume>43</volume>
+            <fpage>515</fpage>
+            <lpage>24</lpage>
+            <pub-id pub-id-type="pmid">16496320</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/hep.21068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nault</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bioulac-Sage</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zucman-Rossi</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Hepatocellular benign tumors-from molecular classification to personalized clinical care</article-title>
+            <source>Gastroenterology</source>
+            <year>2013</year>
+            <volume>144</volume>
+            <fpage>888</fpage>
+            <lpage>902</lpage>
+            <pub-id pub-id-type="pmid">23485860</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2013.02.032</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pilati</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic profiling of hepatocellular adenomas reveals recurrent FRK-activating mutations and the mechanisms of malignant transformation</article-title>
+            <source>Cancer Cell</source>
+            <year>2014</year>
+            <volume>25</volume>
+            <fpage>428</fpage>
+            <lpage>41</lpage>
+            <pub-id pub-id-type="pmid">24735922</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2014.03.005</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bruix</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gores</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mazzaferro</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Hepatocellular carcinoma: clinical frontiers and perspectives</article-title>
+            <source>Gut</source>
+            <year>2014</year>
+            <volume>63</volume>
+            <fpage>844</fpage>
+            <lpage>55</lpage>
+            <pub-id pub-id-type="pmid">24531850</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/gutjnl-2013-306627</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4337888</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Llovet</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hernandez-Gea</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Hepatocellular carcinoma: reasons for phase III failure and novel perspectives on trial design</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2014</year>
+            <volume>20</volume>
+            <fpage>2072</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="pmid">24589894</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-13-0547</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>The French METAVIR Cooperative Study Group</collab>
+            </person-group>
+            <article-title>Intraobserver and interobserver variations in liver biopsy interpretation in patients with chronic hepatitis C</article-title>
+            <source>Hepatology</source>
+            <year>1994</year>
+            <volume>20</volume>
+            <fpage>15</fpage>
+            <lpage>20</lpage>
+            <pub-id pub-id-type="pmid">8020885</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Guichard</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrated analysis of somatic mutations and focal copy-number changes identifies key genes and pathways in hepatocellular carcinoma</article-title>
+            <source>Nat Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>694</fpage>
+            <lpage>8</lpage>
+            <pub-id pub-id-type="pmid">22561517</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2256</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3819251</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fujimoto</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-genome sequencing of liver cancers identifies etiological influences on mutation patterns and recurrent mutations in chromatin regulators</article-title>
+            <source>Nat Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>760</fpage>
+            <lpage>4</lpage>
+            <pub-id pub-id-type="pmid">22634756</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2291</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kan</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-genome sequencing identifies recurrent mutations in hepatocellular carcinoma</article-title>
+            <source>Genome Res</source>
+            <year>2013</year>
+            <volume>23</volume>
+            <fpage>1422</fpage>
+            <lpage>33</lpage>
+            <pub-id pub-id-type="pmid">23788652</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.154492.113</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3759719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutational processes in human cancer</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>500</volume>
+            <fpage>415</fpage>
+            <lpage>21</lpage>
+            <pub-id pub-id-type="pmid">23945592</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12477</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3776390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Helleday</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Eshtad</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms underlying mutational signatures in human cancers</article-title>
+            <source>Nat Rev Genet</source>
+            <year>2014</year>
+            <volume>15</volume>
+            <fpage>585</fpage>
+            <lpage>98</lpage>
+            <pub-id pub-id-type="pmid">24981601</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg3729</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6044419</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wedge</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Campbell</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Deciphering signatures of mutational processes operative in human cancer</article-title>
+            <source>Cell Rep</source>
+            <year>2013</year>
+            <volume>3</volume>
+            <fpage>246</fpage>
+            <lpage>59</lpage>
+            <pub-id pub-id-type="pmid">23318258</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2012.12.008</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3588146</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutational signatures: the patterns of somatic mutations hidden in cancer genomes</article-title>
+            <source>Curr Opin Genet Dev</source>
+            <year>2014</year>
+            <volume>24</volume>
+            <fpage>52</fpage>
+            <lpage>60</lpage>
+            <pub-id pub-id-type="pmid">24657537</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.gde.2013.11.014</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3990474</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hsu</surname>
+                <given-names>IC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational hotspot in the p53 gene in human hepatocellular carcinomas</article-title>
+            <source>Nature</source>
+            <year>1991</year>
+            <volume>350</volume>
+            <fpage>427</fpage>
+            <lpage>8</lpage>
+            <pub-id pub-id-type="pmid">1849234</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/350427a0</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bressac</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kew</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wands</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ozturk</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Selective G to T mutations of p53 gene in hepatocellular carcinoma from southern Africa</article-title>
+            <source>Nature</source>
+            <year>1991</year>
+            <volume>350</volume>
+            <fpage>429</fpage>
+            <lpage>31</lpage>
+            <pub-id pub-id-type="pmid">1672732</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/350429a0</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Totoki</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Trans-ancestry mutational landscape of hepatocellular carcinoma genomes</article-title>
+            <source>Nat Genet</source>
+            <year>2014</year>
+            <volume>46</volume>
+            <fpage>1267</fpage>
+            <lpage>73</lpage>
+            <pub-id pub-id-type="pmid">25362482</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3126</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lawrence</surname>
+                <given-names>MS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational heterogeneity in cancer and the search for new cancer-associated genes</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>499</volume>
+            <fpage>214</fpage>
+            <lpage>8</lpage>
+            <pub-id pub-id-type="pmid">23770567</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12213</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3919509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sawey</surname>
+                <given-names>ET</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identification of a therapeutic strategy targeting amplified FGF19 in liver cancer by Oncogenomic screening</article-title>
+            <source>Cancer Cell</source>
+            <year>2011</year>
+            <volume>19</volume>
+            <fpage>347</fpage>
+            <lpage>58</lpage>
+            <pub-id pub-id-type="pmid">21397858</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2011.01.040</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3061399</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chiang</surname>
+                <given-names>DY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Focal gains of VEGFA and molecular classification of hepatocellular carcinoma</article-title>
+            <source>Cancer Res</source>
+            <year>2008</year>
+            <volume>68</volume>
+            <fpage>6779</fpage>
+            <lpage>88</lpage>
+            <pub-id pub-id-type="pmid">18701503</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-08-0742</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2587454</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nault</surname>
+                <given-names>JC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High frequency of telomerase reverse-transcriptase promoter somatic mutations in hepatocellular carcinoma and preneoplastic lesions</article-title>
+            <source>Nat Commun</source>
+            <year>2013</year>
+            <volume>4</volume>
+            <fpage>2218</fpage>
+            <pub-id pub-id-type="pmid">23887712</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms3218</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3731665</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Totoki</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Unique mutation portraits and frequent COL2A1 gene alteration in chondrosarcoma</article-title>
+            <source>Genome Res</source>
+            <year>2014</year>
+            <volume>24</volume>
+            <fpage>1411</fpage>
+            <lpage>20</lpage>
+            <pub-id pub-id-type="pmid">25024164</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.160598.113</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4158757</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Barretina</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>483</volume>
+            <fpage>603</fpage>
+            <lpage>7</lpage>
+            <pub-id pub-id-type="pmid">22460905</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11003</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3320027</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garnett</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Systematic identification of genomic markers of drug sensitivity in cancer cells</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>483</volume>
+            <fpage>570</fpage>
+            <lpage>5</lpage>
+            <pub-id pub-id-type="pmid">22460902</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11005</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3349233</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Siegel</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Rapid polyubiquitination and proteasomal degradation of a mutant form of NAD(P)H:quinone oxidoreductase 1</article-title>
+            <source>Mol Pharmacol</source>
+            <year>2001</year>
+            <volume>59</volume>
+            <fpage>263</fpage>
+            <lpage>8</lpage>
+            <pub-id pub-id-type="pmid">11160862</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1124/mol.59.2.263</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ahn</surname>
+                <given-names>SM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic portrait of resectable hepatocellular carcinomas: Implications of RB1 and FGF19 aberrations for patient stratification</article-title>
+            <source>Hepatology</source>
+            <year>2014</year>
+            <volume>60</volume>
+            <fpage>1972</fpage>
+            <lpage>82</lpage>
+            <pub-id pub-id-type="pmid">24798001</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/hep.27198</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic landscape of copy number aberrations enables the identification of oncogenic drivers in hepatocellular carcinoma</article-title>
+            <source>Hepatology</source>
+            <year>2013</year>
+            <volume>58</volume>
+            <fpage>706</fpage>
+            <lpage>17</lpage>
+            <pub-id pub-id-type="pmid">23505090</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/hep.26402</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hyeon</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ahn</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Song</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>CK</given-names>
+              </name>
+            </person-group>
+            <article-title>Expression of fibroblast growth factor 19 is associated with recurrence and poor prognosis of hepatocellular carcinoma</article-title>
+            <source>Dig Dis Sci</source>
+            <year>2013</year>
+            <volume>58</volume>
+            <fpage>1916</fpage>
+            <lpage>22</lpage>
+            <pub-id pub-id-type="pmid">23456506</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10620-013-2609-x</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Miura</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Fibroblast growth factor 19 expression correlates with tumor progression and poorer prognosis of hepatocellular carcinoma</article-title>
+            <source>BMC Cancer</source>
+            <year>2012</year>
+            <volume>12</volume>
+            <fpage>56</fpage>
+            <pub-id pub-id-type="pmid">22309595</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2407-12-56</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3293719</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+      <ref-list>
+        <title>References Methods</title>
+        <ref id="R33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Song</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>qpure: A tool to estimate tumor cellularity from genome-wide single-nucleotide polymorphism profiles</article-title>
+            <source>PLoS One</source>
+            <year>2012</year>
+            <volume>7</volume>
+            <fpage>e45835</fpage>
+            <pub-id pub-id-type="pmid">23049875</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0045835</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3457972</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Miller</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dykes</surname>
+                <given-names>DD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Polesky</surname>
+                <given-names>HF</given-names>
+              </name>
+            </person-group>
+            <article-title>A simple salting out procedure for extracting DNA from human nucleated cells</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>1988</year>
+            <volume>16</volume>
+            <fpage>1215</fpage>
+            <pub-id pub-id-type="pmid">3344216</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/16.3.1215</pub-id>
+            <pub-id pub-id-type="pmcid">PMC334765</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gnirke</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Solution hybrid selection with ultra-long oligonucleotides for massively parallel targeted sequencing</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2009</year>
+            <volume>27</volume>
+            <fpage>182</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="pmid">19182786</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.1523</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2663421</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Adzhubei</surname>
+                <given-names>IA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A method and server for predicting damaging missense mutations</article-title>
+            <source>Nat Methods</source>
+            <year>2010</year>
+            <volume>7</volume>
+            <fpage>248</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="pmid">20354512</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth0410-248</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2855889</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Waltz</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Morales</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nocedal</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Orban</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>An interior algorithm for nonlinear optimization that combines line search and trust region steps</article-title>
+            <source>Mathematical Programming</source>
+            <year>2006</year>
+            <volume>107</volume>
+            <fpage>391</fpage>
+            <lpage>408</lpage>
+          </element-citation>
+        </ref>
+        <ref id="R38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Olshen</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Venkatraman</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lucito</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wigler</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Circular binary segmentation for the analysis of array-based DNA copy number data</article-title>
+            <source>Biostatistics</source>
+            <year>2004</year>
+            <volume>5</volume>
+            <fpage>557</fpage>
+            <lpage>72</lpage>
+            <pub-id pub-id-type="pmid">15475419</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/biostatistics/kxh008</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Troncale</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>NormaCurve: a SuperCurve-based method that simultaneously quantifies and normalizes reverse phase protein array data</article-title>
+            <source>PLoS One</source>
+            <year>2012</year>
+            <volume>7</volume>
+            <fpage>e38686</fpage>
+            <pub-id pub-id-type="pmid">22761696</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0038686</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3386279</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hope</surname>
+                <given-names>ACA</given-names>
+              </name>
+            </person-group>
+            <article-title>A simplified Monte Carlo significance test procedure</article-title>
+            <source>JSTOR</source>
+            <year>1968</year>
+            <volume>30</volume>
+            <fpage>582598</fpage>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Consensus signatures of mutational processes in hepatocellular carcinoma. (<bold>a</bold>) Patterns of the signatures of the mutational processes operative in 243 liver exomes. Signatures 23 and 24 were identified using <italic toggle="yes">de novo</italic> WTSI mutational signatures framework, while the presence of Signatures 1A, 1B, 4, 5, 6, and 16 were identified via re-introduction of consensus mutational signatures previously identified in liver cancer by a pan-cancer analysis<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. Each signature is displayed according to the 96 substitution classification defined by the substitution class and sequence context immediately 3′ and 5′ to the mutated base. Signatures 1A, 1B, 4, 5, 6 and 16 match signatures previously described in a pan-cancer study<sup><xref rid="R14" ref-type="bibr">14</xref></sup> and the plotted patterns correspond to the updated consensus signatures. Signatures 23 and 24 are new.(<bold>b</bold>) Unsupervised hierarchical clustering of 243 liver tumors based on the intensity of signatures operative in each sample. Tumors were classified into 6 mutational signature (MSig) groups and 4 singletons. The number of mutations attributed to each signature in each tumor is represented by color bars below the dendogram. *Tumors harboring more than 500 mutations. (<bold>c</bold>) Principal component analysis of mutational signature intensities in 243 liver tumors. Tumor samples are plotted in three dimensions using their projections onto the first three principal components (PC). MSig group membership is represented by a color code and labels. (<bold>d</bold>) Clinical and molecular features associated with each MSig group. Associations were assessed using Chi-square tests for categorical variables and ANOVA for quantitative features.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="emss-62359-f0001.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Integration of mutations, focal amplifications and homozygous deletions identifies putative driver genes in hepatocellular carcinoma. (<bold>a</bold>) The 161 putative driver genes identified by integrating mutations and focal CNAs are represented, with the log-transformed mutation significance on the x-axis and the net frequency of gains and deletions on the y-axis. The size and color of each sample represent the alteration frequency and MutSig q-values, respectively. Significantly mutated genes (<italic toggle="yes">q</italic> &lt; 0.05) are indicated. (<bold>b</bold>) Frequency of CNAs along the genome. The top axis indicates the frequency of low-amplitude changes (gains and losses); the bottom axis indicates the frequency of high-amplitude changes (focal amplifications and homozygous deletions). Target genes of recurrent amplifications and homozygous deletions are indicated. (<bold>c</bold>) Bar plot indicating the number and type of events for the most frequently altered genes (≥4%).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="emss-62359-f0002.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The landscape of altered genes and pathways in HCC. Eleven pathways altered in ≥5% of HCC. Genes belonging to each pathway are represented with their alteration frequencies (green font: inactivation; red font: activation; white font: unknown) and activating or inhibiting interactions between pathways are highlighted. Major genes lacking alterations are highlighted in white. Focal amplifications (FA) and significant associations with etiologies are indicated. Potential druggable genes are assigned (yellow: FDA-approved drugs; lighting: drugs screened in phase I-III clinical trials).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="emss-62359-f0003.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Major clusters of associated alterations. Three major groups of associated alterations: <italic toggle="yes">CTNNB1</italic>-cluster, <italic toggle="yes">AXIN1</italic>-cluster, and <italic toggle="yes">TP53</italic>-cluster. Significant associations and exclusions between genes are represented, with line widths proportional to significance, as indicated in the legend. Surrounding colors of each gene indicate its participation to a particular pathway.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="emss-62359-f0004.jpg"/>
+      </fig>
+      <fig id="F5" orientation="portrait" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Sensitivity of liver cancer cell lines to HSP90 inhibitors is associated with <italic toggle="yes">NQO1</italic> expression. (<bold>a</bold>) Sensitivity of 29 liver cancer cell lines to 17-AAG and 17-DMAG was assessed by a cell viability assay. The heatmap represents the GI50 of the two drugs in each cell line, and mRNA expression levels of <italic toggle="yes">NQO1</italic> are represented atop the heatmap. Three cell lines harboring <italic toggle="yes">KEAP1</italic> mutations are indicated. (<bold>b</bold>) Correlation between NQO1 protein expression and sensitivity to 17-AAG. A color code indicates cell lines with <italic toggle="yes">KEAP1</italic> mutation, and the MHCC97H cell line that harbors a <italic toggle="yes">KEAP1</italic> mutation but is homozygous for the <italic toggle="yes">NQO1*2</italic> variant causing NQO1 enzymatic deficiency. (<bold>c</bold>) Cell viability curves for cell lines JHH-4 (<italic toggle="yes">KEAP1</italic>-wild-type), JHH-5 (<italic toggle="yes">KEAP1</italic>-mutated) and MHCC97H <italic toggle="yes">(KEAP1</italic>-mutated and <italic toggle="yes">NQO1*2</italic> homozygous) in the presence of the HSP90 inhibitor 17-AAG. Results are shown as mean + sem (standard error of the mean). Each experiment was repeated two to three times for each cell line.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="emss-62359-f0005.jpg"/>
+      </fig>
+      <fig id="F6" orientation="portrait" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Molecular features of HCC progression in cirrhotic and non-cirrhotic liver. (<bold>a</bold>) Box-and-whisker plots show the distribution of mutation numbers (top) and chromosome instability scores (bottom) relative to tumor stage in cirrhotic (left) and non-cirrhotic liver (right). FAA, fraction of aberrant arms; DMN, dysplastic macronodule; HCA, hepatocellular adenoma; HCC, hepatocellular carcinoma. Middle bar, median; box, interquartile range; bars extend to 1.5 times the interquartile range. *Most HCA and HCC in HCA samples are from a previous study<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. (<bold>b</bold>) Genetic alterations with significantly different frequencies across tumor stages in cirrhotic (top) and non-cirrhotic liver (bottom). **, <italic toggle="yes">P</italic> &lt; 0.01, ***, <italic toggle="yes">P</italic> &lt; 0.001, Chi-square test for trends in proportion. (<bold>c</bold>) Kaplan-Meier curves for overall survival in the presence or absence of <italic toggle="yes">CDKN2A</italic> alteration (left) or <italic toggle="yes">FGF3, FGF4, FGF19/CCND1</italic> amplification (right), two features found significantly associated with survival in a multivariate Cox model. <italic toggle="yes">P</italic>-values were obtained using Wald tests.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="emss-62359-f0006.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1716 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC7181640</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC7181640.1</article-id>
+        <article-id pub-id-type="pmcaid">7181640</article-id>
+        <article-id pub-id-type="pmcaiid">7181640</article-id>
+        <article-id pub-id-type="pmid">32332851</article-id>
+        <article-id pub-id-type="doi">10.1038/s41467-020-15885-7</article-id>
+        <article-id pub-id-type="publisher-id">15885</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Modeling biological and genetic diversity in upper tract urothelial carcinoma with patient derived xenografts</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0544-6792</contrib-id>
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="K">Kwanghee</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8686-7160</contrib-id>
+            <name name-style="western">
+              <surname>Hu</surname>
+              <given-names initials="W">Wenhuo</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5722-2075</contrib-id>
+            <name name-style="western">
+              <surname>Audenet</surname>
+              <given-names initials="F">François</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Almassi</surname>
+              <given-names initials="N">Nima</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hanrahan</surname>
+              <given-names initials="AJ">Aphrothiti J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2633-9438</contrib-id>
+            <name name-style="western">
+              <surname>Murray</surname>
+              <given-names initials="K">Katie</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bagrodia</surname>
+              <given-names initials="A">Aditya</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wong</surname>
+              <given-names initials="N">Nathan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0616-6840</contrib-id>
+            <name name-style="western">
+              <surname>Clinton</surname>
+              <given-names initials="TN">Timothy N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dason</surname>
+              <given-names initials="S">Shawn</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mohan</surname>
+              <given-names initials="V">Vishnu</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jebiwott</surname>
+              <given-names initials="S">Sylvia</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nagar</surname>
+              <given-names initials="K">Karan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="J">Jianjiong</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2429-2370</contrib-id>
+            <name name-style="western">
+              <surname>Penson</surname>
+              <given-names initials="A">Alex</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hughes</surname>
+              <given-names initials="C">Chris</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3856-0500</contrib-id>
+            <name name-style="western">
+              <surname>Gordon</surname>
+              <given-names initials="B">Benjamin</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names initials="Z">Ziyu</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dong</surname>
+              <given-names initials="Y">Yiyu</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Watson</surname>
+              <given-names initials="PA">Philip A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Alvim</surname>
+              <given-names initials="R">Ricardo</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Elzein</surname>
+              <given-names initials="A">Arijh</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="SP">Sizhi P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cocco</surname>
+              <given-names initials="E">Emiliano</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Santin</surname>
+              <given-names initials="AD">Alessandro D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ostrovnaya</surname>
+              <given-names initials="I">Irina</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3595-0551</contrib-id>
+            <name name-style="western">
+              <surname>Hsieh</surname>
+              <given-names initials="JJ">James J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sagi</surname>
+              <given-names initials="I">Irit</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pietzak</surname>
+              <given-names initials="EJ">Eugene J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0930-8824</contrib-id>
+            <name name-style="western">
+              <surname>Hakimi</surname>
+              <given-names initials="AA">A. Ari</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rosenberg</surname>
+              <given-names initials="JE">Jonathan E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5093-6099</contrib-id>
+            <name name-style="western">
+              <surname>Iyer</surname>
+              <given-names initials="G">Gopa</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vargas</surname>
+              <given-names initials="HA">Herbert A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5522-1447</contrib-id>
+            <name name-style="western">
+              <surname>Scaltriti</surname>
+              <given-names initials="M">Maurizio</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2938-6627</contrib-id>
+            <name name-style="western">
+              <surname>Al-Ahmadie</surname>
+              <given-names initials="H">Hikmat</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff11">11</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6614-802X</contrib-id>
+            <name name-style="western">
+              <surname>Solit</surname>
+              <given-names initials="DB">David B.</given-names>
+            </name>
+            <address>
+              <email>solitd@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+            <xref ref-type="aff" rid="Aff9">9</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Coleman</surname>
+              <given-names initials="JA">Jonathan A.</given-names>
+            </name>
+            <address>
+              <email>colemanj@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Department of Surgery, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Human Oncology and Pathogenesis Program, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Urology Service, Department of Surgery, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0604 7563</institution-id><institution-id institution-id-type="GRID">grid.13992.30</institution-id><institution>Department of Biological Regulation, </institution><institution>Weizmann Institute of Science, </institution></institution-wrap>Rehovot, 7610001 Israel </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000000419368710</institution-id><institution-id institution-id-type="GRID">grid.47100.32</institution-id><institution>Gynecology &amp; Reproductive Sciences, Department of Obstetrics, </institution><institution>Yale University School of Medicine, </institution></institution-wrap>New Haven, CT 06510 USA </aff>
+          <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Department of Epidemiology-Biostatistics, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10017 USA </aff>
+          <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2355 7002</institution-id><institution-id institution-id-type="GRID">grid.4367.6</institution-id><institution>Molecular Oncology, Department of Medicine, Siteman Cancer Center, </institution><institution>Washington University, </institution></institution-wrap>St. Louis, MO 63110 USA </aff>
+          <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Genitourinary Oncology Service, Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Body Imaging Service, Department of Radiology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>24</day>
+          <month>4</month>
+          <year>2020</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2020</year>
+        </pub-date>
+        <volume>11</volume>
+        <issue-id pub-id-type="pmc-issue-id">348897</issue-id>
+        <elocation-id>1975</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>11</day>
+            <month>9</month>
+            <year>2019</year>
+          </date>
+          <date date-type="accepted">
+            <day>24</day>
+            <month>3</month>
+            <year>2020</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>24</day>
+              <month>04</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>29</day>
+              <month>04</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-03-27 21:25:14.670">
+              <day>27</day>
+              <month>03</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2020</copyright-statement>
+          <license license-type="OpenAccess">
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2020_Article_15885.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Treatment paradigms for patients with upper tract urothelial carcinoma (UTUC) are typically extrapolated from studies of bladder cancer despite their distinct clinical and molecular characteristics. The advancement of UTUC research is hampered by the lack of disease-specific models. Here, we report the establishment of patient derived xenograft (PDX) and cell line models that reflect the genomic and biological heterogeneity of the human disease. Models demonstrate high genomic concordance with the corresponding patient tumors, with invasive tumors more likely to successfully engraft. Treatment of PDX models with chemotherapy recapitulates responses observed in patients. Analysis of a HER2 S310F-mutant PDX suggests that an antibody drug conjugate targeting HER2 would have superior efficacy versus selective HER2 kinase inhibitors. In sum, the biological and phenotypic concordance between patient and PDXs suggest that these models could facilitate studies of intrinsic and acquired resistance and the development of personalized medicine strategies for UTUC patients.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">The advancement of upper tract urothelial carcinoma (UTUC) research is hampered by the lack of disease-specific models. Here, the authors report patient derived xenograft and cell line models of UTUC, and show that these models retain the genomic and biological heterogeneity of human disease.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Cancer</kwd>
+          <kwd>Cancer</kwd>
+          <kwd>Oncology</kwd>
+          <kwd>Oncology</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000054</institution-id>
+                <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P50 CA221745</award-id>
+            <award-id>R01 CA234361</award-id>
+            <award-id>P01 CA221757-01A1</award-id>
+            <award-id>P30 CA008748</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Solit</surname>
+                <given-names>David B.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2020</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par3">Upper tract urothelial carcinoma (UTUC) is a rare malignancy of the renal pelvis or ureter. Although it arises from the same urothelium and shares similarities to urothelial carcinoma of the bladder (UCB), UTUC has distinct molecular characteristics that are of clinical significance. Unlike UCB, UTUC is a Lynch Syndrome-associated malignancy, with the most recent study demonstrating 8.7% of UTUC patients having a pathogenic germline mutation in a Lynch Syndrome-associated gene<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Given the relative rarity of this cancer type, treatment guidelines such as the recommendation for the use of neoadjuvant chemotherapy are often extrapolated from UCB studies.</p>
+        <p id="Par4">Recent genomic analyses of UTUC<sup><xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR5">5</xref></sup> have identified a high incidence of potentially actionable genomic alterations including recurrent activating mutations in receptor tyrosine kinases (<italic toggle="yes">FGFR3, ERBB2</italic>), <italic toggle="yes">HRAS</italic>, <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">TSC1</italic>. These molecular profiling studies have also, however, identified significant genetic diversity among UTUC patients and a large number of genomic variants of unknown significance<sup><xref ref-type="bibr" rid="CR6">6</xref>,<xref ref-type="bibr" rid="CR7">7</xref></sup>. Patient-derived UTUC models would facilitate the biological characterization of these variants of unknown significance and could also be used as preclinical models to test novel precision therapy approaches. Although PDX models have been developed from patients with UCB<sup><xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR10">10</xref></sup>, the development of UTUC PDX models has yet to be reported. Similarly, although there are several dozen bladder cancer cell lines in widespread use<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref></sup>, few are of upper tract origin. The lack of UTUC-specific cell line and animal models is thus a major hurdle to the development of more effective treatment strategies for this disease.</p>
+        <p id="Par5">Here, we report on the successful development of UTUC models that reflect the genetic and biological heterogeneity of the human disease. In a subset of PDX models, chemotherapy sensitivity mirrors the drug sensitivity observed in the patients from which they were derived. Although HER2 alterations are common in patients with urothelial cancer, HER2-targeted therapies have had only modest clinical impact in this disease. We thus used a HER2-mutant PDX/PDC model to explore the biological basis for the limited clinical activity observed to date with HER2-directed therapies in patients with urothelial carcinoma.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Integrated genomic and transcriptomic analysis of UTUC</title>
+          <p id="Par6">With the goal of facilitating the development of personalized therapeutic approaches for patients with UTUC, we began in 2014 offering prospective clinical tumor sequencing using the MSK-IMPACT assay to patients with UTUC<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. MSK-IMPACT is a targeted capture-based next-generation sequencing (NGS) assay that can detect mutations, copy number alterations and select gene fusions in up to 468 cancer-associated genes<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. To define the frequency of potentially actionable genomic alterations in UTUC, we analyzed 37 UTUC patients from this prospectively generated cohort and 82 UTUC patients previously analyzed retrospectively<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. In total, tumor samples from 119 UTUC patients (118 nephroureterectomy and 1 resection of metastasis) were analyzed (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). Consistent with prior studies in UTUC<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>, we observed frequent mutations in potentially actionable genes including <italic toggle="yes">FGFR3</italic> (47%), <italic toggle="yes">ERBB2</italic> (9%), <italic toggle="yes">HRAS</italic> (12%), <italic toggle="yes">PIK3CA</italic> (16%) and <italic toggle="yes">TSC1</italic> (14%).</p>
+          <p id="Par7">Gene expression profiling analyses of muscle-invasive bladder cancers have identified basal and luminal subtypes with the basal sub-type associated with a more aggressive disease course<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. To determine whether UTUC tumors can be similarly stratified, we performed whole-transcriptome RNA sequencing (RNA-seq) (Fig. <xref rid="Fig1" ref-type="fig">1a, b</xref>) on 80 of the 119 UTUC tumors for which MSK-IMPACT data was available. Patient demographic and clinical information for the RNA-seq cohort are reported in Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>. Clustering analysis based on the BASE47 gene classifiers<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> found that 70 tumors (87.5%) had a luminal phenotype and 10 (12.5%) a basal phenotype (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). In addition, application of a consensus classifier developed by the Bladder Cancer Molecular Taxonomy Group<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> revealed that the majority of UTUC in the cohort were luminal–papillary (LumP, 66 tumors, 82.5%) sub-type including all 14 of the low-grade tumors. The remainder were classified as luminal unstable (LumU, 7 tumors, 8.75%), luminal non-specific (LumNS, 1 tumor, 1.25%), Stroma-rich (1 tumor, 1.25%) and basal/squamous type (Ba/Sq, 5 tumors, 6.25%). The latter had high expression of tumor basal markers including <italic toggle="yes">CDH3</italic> (Cadherin-3), <italic toggle="yes">CD44</italic> (CD44 antigen), <italic toggle="yes">KRT5</italic> (Keratin, type II cytoskeletal 5), <italic toggle="yes">EGFR</italic> and <italic toggle="yes">KRT6</italic> (Keratin, type II cytoskeletal 6) present in 4 of 5 of the Ba/Sq-type tumors. There was no significant sub-type difference between high- and low-grade tumors (<italic toggle="yes">P</italic> = 0.5389, chi-square test).<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Integrated genomic and transcriptomic analysis of UTUC cancers.</title><p><bold>a</bold> Somatic genomic landscape of 80 UTUC tumors analyzed by MSK-IMPACT sequencing stratified by RNA sequencing analysis into luminal-like and basal-like subtypes defined using the BASE47 classifier (<italic toggle="yes">K</italic> = 2)<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, and 5 subtypes based on a consensus molecular classification of muscle-invasive bladder cancer<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Tumor mutation burden per megabase (Mb) is indicated in log2 scale for each sample. <bold>b</bold> Clustering analysis of RNA-seq data from 80 UTUC tumor samples based on the BASE47 classifier (basal marks shown as a turquoise vertical bar; luminal marks shown as a salmon vertical bar). Analysis of genes expressed in cancer cells of a basal-like phenotype (<italic toggle="yes">KRT14, CDH3, CD44, KRT5, EGFR, KRT6A/B</italic>) is also shown (color key on the top of <bold>b</bold>). <bold>c</bold> The number of tumors with oncogenic/likely oncogenic and variants of unknown significance in 17 genes frequently mutated in UTUC. Source data for <bold>a</bold> and <bold>b</bold> are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e839" position="float" orientation="portrait" xlink:href="41467_2020_15885_Fig1_HTML.jpg"/></fig></p>
+          <p id="Par8">Next, we explored differences in the frequency of common driver mutations in UTUC tumors with basal or luminal phenotypes as defined by the BASE47 classifier<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. The median tumor mutation burden was 4.21 (1.7–853.2) for the luminal and 4.56 (3.1–16.4) for the basal phenotype tumors (Fig. <xref rid="Fig1" ref-type="fig">1a</xref>, <italic toggle="yes">P</italic> = 0.89). Somatic <italic toggle="yes">FGFR3</italic> mutations, which have previously been associated with a favorable prognostic outcome in UTUC<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, were only present in luminal subtype. Conversely, there were no significant differences among the two subtypes in the percentage of patients with mutations in <italic toggle="yes">TP53</italic> or other driver genes commonly present in UTUC. Finally, using a curated knowledge base of the known biological effects of individual mutant alleles<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>, we observed that 39.3% of all somatic mutations identified were variants of unknown functional significance (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>).</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Establishment and characterization of UTUC PDX and PDC</title>
+          <p id="Par9">With the goal of exploring the biological and clinical significance of individual mutational events identified in the UTUC cohort, we leveraged our prospective clinical sequencing initiative to develop models of UTUC that reflect the genomic and biological diversity of the human disease. Surgical specimens primarily obtained following radical nephroureterectomy (RNU) were grafted into immunocompromised NOD <italic toggle="yes">scid</italic> gamma (NSG) mice to generate patient-derived xenograft (PDX) models with a subset also cultured in vitro to develop patient-derived cell line (PDC) models. In total, we successfully established 17 PDX models from 34 UTUC tumors (50% take rate). The tumor fragments at early passages of 16 among 17 PDX models were successfully preserved as frozen stocks for future implantation (Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>) to avoid late passage failure in tumorigenicity. Six PDC models among 24 tumors (6/24: take rate 25%) also survived beyond 10 passages (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>). Although not statistically significantly different, we did observe a trend towards PDX growth in tumors that were muscle-invasive (≥pT2 tumor stage, <italic toggle="yes">P</italic> = 0.166) (Table <xref rid="Tab1" ref-type="table">1</xref>). All three tumors collected from distant (UCC3 [abdominal wall] and UCC11 [liver]) or lymph node (UCC32) metastatic sites successfully engrafted. The only tumor collected at endoscopic biopsy (UCC27) did not engraft.<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>Clinico-pathological characteristics of the samples used for UTUC PDX.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1">Variable</th><th colspan="1" rowspan="1">PDX growth (<italic toggle="yes">N</italic> = 17)</th><th colspan="1" rowspan="1">No PDX growth (<italic toggle="yes">N</italic> = 17)</th><th colspan="1" rowspan="1"><italic toggle="yes">P</italic>-value</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Median age at surgery, years (IQR)</td><td colspan="1" rowspan="1">69.6 (65.7–75.7)</td><td colspan="1" rowspan="1">65.6 (60.0–75.3)</td><td colspan="1" rowspan="1">0.390</td></tr><tr><td colspan="1" rowspan="1">Gender</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">1.000</td></tr><tr><td colspan="1" rowspan="1"> Male</td><td colspan="1" rowspan="1">11 (64.7)</td><td colspan="1" rowspan="1">11 (64.7)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Female</td><td colspan="1" rowspan="1">6 (35.3)</td><td colspan="1" rowspan="1">6 (35.3)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Lynch syndrome/MSI-H</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.166</td></tr><tr><td colspan="1" rowspan="1"> Yes</td><td colspan="1" rowspan="1">4 (23.5)</td><td colspan="1" rowspan="1">1 (5.9)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> No</td><td colspan="1" rowspan="1">12 (70.6)</td><td colspan="1" rowspan="1">16 (94.1)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Not tested</td><td colspan="1" rowspan="1">1 (5.9)</td><td colspan="1" rowspan="1">0 (0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Smoking status</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.039</td></tr><tr><td colspan="1" rowspan="1"> Current/former</td><td colspan="1" rowspan="1">10 (58.8)</td><td colspan="1" rowspan="1">16 (94.1)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Never</td><td colspan="1" rowspan="1">7 (41.2)</td><td colspan="1" rowspan="1">1 (5.9)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Prior history of urothelial cancer</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">1.000</td></tr><tr><td colspan="1" rowspan="1"> Yes</td><td colspan="1" rowspan="1">5 (29.4)</td><td colspan="1" rowspan="1">6 (35.3)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> No</td><td colspan="1" rowspan="1">12 (70.6)</td><td colspan="1" rowspan="1">11 (64.7)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Location of primary tumor</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">1.000</td></tr><tr><td colspan="1" rowspan="1"> Renal pelvis</td><td colspan="1" rowspan="1">15 (88.2)</td><td colspan="1" rowspan="1">14 (82.4)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Ureter</td><td colspan="1" rowspan="1">2 (11.8)</td><td colspan="1" rowspan="1">3 (17.6)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Specimen type</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.6<sup>a</sup></td></tr><tr><td colspan="1" rowspan="1"> Primary</td><td colspan="1" rowspan="1">14 (82.4)</td><td colspan="1" rowspan="1">16 (94.1)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Lymph node</td><td colspan="1" rowspan="1">1 (5.9)</td><td colspan="1" rowspan="1">0 (0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Distant metastasis</td><td colspan="1" rowspan="1">2 (11.8)</td><td colspan="1" rowspan="1">0 (0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Endoscopic biopsy</td><td colspan="1" rowspan="1">0 (0)</td><td colspan="1" rowspan="1">1 (5.9)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Grade</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.480</td></tr><tr><td colspan="1" rowspan="1"> Low</td><td colspan="1" rowspan="1">2 (11.8)</td><td colspan="1" rowspan="1">0 (0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> High</td><td colspan="1" rowspan="1">15 (88.2)</td><td colspan="1" rowspan="1">17 (100)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">pT stage</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.166</td></tr><tr><td colspan="1" rowspan="1"> &lt;pT2 (non-invasive)</td><td colspan="1" rowspan="1">5 (29.4)</td><td colspan="1" rowspan="1">10 (58.8)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> ≥pT2 (invasive)</td><td colspan="1" rowspan="1">12 (70.6)</td><td colspan="1" rowspan="1">7 (41.2)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">pN stage</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.460</td></tr><tr><td colspan="1" rowspan="1"> pN0</td><td colspan="1" rowspan="1">10 (58.8)</td><td colspan="1" rowspan="1">13 (70.5)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> pN+</td><td colspan="1" rowspan="1">5 (29.4)</td><td colspan="1" rowspan="1">2 (11.8)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> pN<italic toggle="yes">x</italic></td><td colspan="1" rowspan="1">2 (11.8)</td><td colspan="1" rowspan="1">2 (11.8)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Prior chemotherapy</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.688</td></tr><tr><td colspan="1" rowspan="1"> Yes</td><td colspan="1" rowspan="1">3 (17.6)</td><td colspan="1" rowspan="1">5 (29.4)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> No</td><td colspan="1" rowspan="1">14 (82.4)</td><td colspan="1" rowspan="1">12 (70.6)</td><td colspan="1" rowspan="1"/></tr></tbody></table><table-wrap-foot><p>Two-sided <italic toggle="yes">P</italic>-values were obtained using Wilcoxon-rank sum for continuous and Fisher’s exact test for categorical variables.</p><p><sup>a</sup>Specimen type was dichotomized as primary vs all others for this comparison.</p></table-wrap-foot></table-wrap></p>
+          <p id="Par10">To determine whether the PDX models reflected the histological characteristics of the patient tumors from which they were derived, hematoxylin and eosin (H&amp;E) stained sections from each were evaluated by a board-certified pathologist with expertise in GU pathology (H.A-A.) based on the current WHO classification for urinary tract tumors<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. This analysis demonstrated histological concordance for 16/17 tumors and their corresponding patient-matched PDX models, as well as xenografts subsequently derived from the PDC models (Fig. <xref rid="Fig2" ref-type="fig">2a</xref> and Supplementary Table <xref rid="MOESM1" ref-type="media">3</xref>). For example, squamous differentiation observed in patient tumor UCC15 was retained in the corresponding PDX model.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Histological and genomic comparison of patient tumors and paired patient-derived models.</title><p><bold>a</bold> UTUC tumors and corresponding PDX models demonstrated similar histological features as assessed by H&amp;E staining. Scale bar corresponds to 200 µm. H&amp;E slides of a section of each patient tumor (UCC03, <italic toggle="yes">n</italic> = 3; UCC14, <italic toggle="yes">n</italic> = 1; UCC17, <italic toggle="yes">n</italic> = 1; UCC15, <italic toggle="yes">n</italic> = 1), matching PDX (UCC03, <italic toggle="yes">n</italic> = 3; UCC14, <italic toggle="yes">n</italic> = 2; UCC17, <italic toggle="yes">n</italic> = 2; UCC15, <italic toggle="yes">n</italic> = 1) and matching cell line/cell line-derived xenograft (UCC03, <italic toggle="yes">n</italic> = 1; UCC14, <italic toggle="yes">n</italic> = 1; UCC17, <italic toggle="yes">n</italic> = 1) were reviewed by a board-certified pathologist (H.A-A.) and representative pictures are shown. <bold>b</bold> Concordance of selected cancer-associated genes for the 17 tumors and paired PDX models that successfully engrafted in mice [a: primary tumor, b: lymph node metastasis, c: distal metastasis, d: PDX at early passage (P1-P3), e: PDX at late passage (P4-P6), f: cell line/cell line-derived xenograft]. The UCC03 and UCC11 PDX models were established from abdominal wall and liver resections, respectively, whereas UCC32 was from a lymph node. The UCC11 PDX was generated from the frozen cell pellet of a patient specimen. All others were established from primary tumors. <bold>c</bold> Concordance of somatic oncogenic mutations of the patient tumor and corresponding PDX models and tumor mutational burden (TMB) of the patient tumors. Four PDX models were derived from MSI-H tumors (right panel, green and blue). <bold>d</bold> Phylogenetic analysis of whole-exome sequencing data for two patients (UCC30 and UCC03) revealed evidence of linear and branched tumor evolution [P: primary, M: metastasis, PDX: X1 (early passage) and X2 (late passage) which represent replicates of different passage numbers, CL: PDC]. The number of mutations is shown between branch points. <bold>e</bold> AID/APOBEC mutational signatures (Signatures 2 and 13) were predominant in UCC30 and UCC03 patient tumors while AID/APOBEC(2) was lost in UCC30 PDX. The mutation signatures with FDR &lt; 0.05 are shown. Data are presented as mean values ± SD. Source data for <bold>b</bold>–<bold>e</bold> are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1387" position="float" orientation="portrait" xlink:href="41467_2020_15885_Fig2_HTML.jpg"/></fig></p>
+          <p id="Par11">As the properties and composition of extracellular matrix (ECM) can influence cancer cell behavior<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> and as optimal preclinical models would be enriched with ECM similar to the original cancer tissue, we performed histological staining with Picro Sirius red followed by two-photon microscopy-second harmonics generation imaging<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup> on UCC36 and Masson’s trichrome staining<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>, which highlights the fibrous collagenous tracts in blue on UCC36, 17 and 19. Comparison of the collagen distribution in the tumor microenvironment of patient tumors and the corresponding patient-matched PDX models showed that both PDX and xenografts derived from PDC retained collagen structure although the percentage area covered by collagen matrix in PDX models was reduced as compared to that of the corresponding patient tumors (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3a</xref>, b). All three PDX models and two PDC xenografts also retained the structure of matching patient tumors based on the presence of a fibrotic capsule and the presence of collagen fibers within the body of the tumor as assessed by Masson’s trichrome staining (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3c</xref>).</p>
+          <p id="Par12">To confirm that the PDX and PDC models mirrored the genomic alterations present in the tumors from which they were derived, we performed targeted sequencing using the MSK-IMPACT assay for all 17 tumor/PDX pairs that successfully engrafted. Overall, the somatic mutational profiles of the patient tumors and resulting PDX models were highly concordant (72.7% concordance of known and likely oncogenic mutations). The top recurring mutated genes found in the PDX models were <italic toggle="yes">TERT</italic> (53%), <italic toggle="yes">FGFR3</italic> (59%), <italic toggle="yes">KDM6A</italic> (24%) and <italic toggle="yes">TP53</italic> (29%) (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>). In 29% of the PDX, we observed PDX-specific deep deletions in <italic toggle="yes">CDKN2A/CDKN2B</italic>, consistent with selection for loss of these tumor suppressor genes during the process of PDX engraftment<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>.</p>
+          <p id="Par13">Four of the 17 tumors that engrafted were derived from patients with microsatellite instability high (MSI-H, MSIsensor scores ≥10) tumors including three from patients with Lynch Syndrome (germline mutations were present in <italic toggle="yes">MLH1</italic> in UCC15 and <italic toggle="yes">MSH2</italic> in UCC36, UCC34). UCC17 had loss of MSH2 and MSH6 expression by immunohistochemistry in the absence of germline mutations in either gene. One additional Lynch case failed to engraft. As would be expected, all four MSI-H tumors had a high tumor mutational burden (range: 20.3–157.2 mutation per Mb, Fig. <xref rid="Fig2" ref-type="fig">2c</xref>). Mutation signature decomposition analysis<sup><xref ref-type="bibr" rid="CR25">25</xref></sup> for all four MSI-H tumor/PDX pairs revealed stable mutational signatures across passages with the MMR/MSI and aging signatures being most predominant (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4</xref>). Finally, the <italic toggle="yes">FGFR3</italic> R248C hotspot mutation, which has previously been shown to be enriched in Lynch Syndrome-associated UTUC as compared to sporadic UTUC tumors<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>, was present in 3 of the 4 MSI-H tumor/patient-matched PDX pairs (UCC17, UCC36 and UCC34). In sum, there was a high level of genomic concordance between radical nephroureterectomy-derived tumor samples and the corresponding PDX models (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>) with only one PDX model, the hypermutated UCC34 PDX, displaying &lt;50% concordance of known or likely pathogenic mutations.</p>
+          <p id="Par14">To assess the extent of genomic drift resulting from establishment of the PDX and PDC models, we performed whole-exome sequencing (WES) on two cases (UCC03 and UCC30). Phylogenetic analysis of the WES data provided evidence of both linear and branched evolution in the tumors and PDX/patient-derived cell lines, as demonstrated by the presence of both private and shared mutations among samples derived from the same patient (Fig. <xref rid="Fig2" ref-type="fig">2d</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a</xref>). Analysis of the UCC03 samples, which were derived from resection of an abdominal wall metastasis, demonstrated that both the cell line (CL) and PDX (X1, X2) were more genomically related to the metastasis than to the primary tumors (P1, P2). Mutational signature decomposition analysis<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> of the UCC03 samples identified a predominant AID/APOBEC gene editing signature (Signatures 2 and 13), a common finding in bladder UC<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup>, in both the tumors and the PDX models. A similar AID/APOBEC gene editing signature (Signatures 2 and 13) was identified in the tumor of patient UCC30, however, the AID/APOBEC(2) signature was lost in the corresponding PDX (Fig. <xref rid="Fig2" ref-type="fig">2e</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">5b</xref>).</p>
+        </sec>
+        <sec id="Sec5">
+          <title>Genomic and transcriptomic predictors of engraftment</title>
+          <p id="Par15">As only 50% of the UTUC tumors successfully propagated as PDX models, we sought to determine whether successful engraftment was associated with specific mutational or transcriptomic signatures. Among the top 15 most frequently altered genes in our PDX cohort, <italic toggle="yes">STAG2</italic> and <italic toggle="yes">ERBB2</italic> mutations were positively and negatively associated with successful engraftment respectively, although the differences were not statistically significant, possibly due to the small sample size (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>).<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>Comparison of mutation frequencies and RNA expression profiles.</title><p>Patient specimens that resulted in successful engraftment (PDX) vs those that did not (No PDX) were compared. <bold>a</bold> The rates of successful engraftment differed among tumors with putative driver mutations. The number of patient cases with mutation in the gene is shown in <italic toggle="yes">parenthesis</italic>. <bold>b</bold> Comparison of RNA-seq data from patient specimens that successfully engrafted (PDX, <italic toggle="yes">n</italic> = 8, salmon) vs those that did not (No PDX, <italic toggle="yes">n</italic> = 9, turquoise). 749 genes (428 upregulated and 321 downregulated) were differentially expressed between UTUC tumors that did and did not engraft based on the <italic toggle="yes">z</italic>-score of normalized gene reads from RNA-seq. <bold>c</bold> Single Sample Gene Set Enrichment Analysis (ssGSEA) scores of basal (<italic toggle="yes">P</italic> = 0.19) and luminal gene sets (<italic toggle="yes">P</italic> = 0.41) based on the BASE47 classifier and ssGSEA scores of tumor basal genes (expressed in cancer cells of a basal-like phenotype, indicated at the bottom of Fig. <xref rid="Fig1" ref-type="fig">1b</xref>, <italic toggle="yes">P</italic> = 0.04) plotted for the patient tumors resulting in PDX (<italic toggle="yes">n</italic> = 8) vs No PDX (<italic toggle="yes">n</italic> = 9). Error bars are mean standard error from bootstrap. The center line in the boxplots indicates the mean, the lower and upper hinges correspond to the first and third quartiles, the upper whisker is the maxima and the lower whisker the minima. <italic toggle="yes">P</italic>-value indicates two-sided two group <italic toggle="yes">t</italic>-test without adjustment. <bold>d</bold> GSEA plots comparing specimen that did and did not yield PDX. Enrichment of cell cycle/DNA replication pathways was observed in the PDX group, whereas extracellular matrix receptor interaction and focal-adhesion pathways were enriched in the No PDX group. Source data for <bold>b</bold>–<bold>d</bold> are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1572" position="float" orientation="portrait" xlink:href="41467_2020_15885_Fig3_HTML.jpg"/></fig></p>
+          <p id="Par16">We next compared the transcriptomic profiles of the patient tumors that successfully engrafted to those that did not. In total, RNA-seq data was available for 17 of the UTUC patient tumors for which we attempted to establish PDX models, 8 of which engrafted and 9 of which failed to grow as PDX. There was a distinct gene expression pattern with 749 genes differentially expressed (FDR &lt; 0.05 and Log FC &gt; 1.5) between UTUC tumors that engrafted vs those that did not (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). Clustering of the patient tumors that engrafted (PDX group) vs those that failed to engraft (No PDX group) did not strongly correlate with luminal or basal classification (Fig. <xref rid="Fig1" ref-type="fig">1a, b</xref>) based on the BASE47 classifier<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. More specifically, while the PDX group had higher expression of the basal gene set as compared to the No PDX group (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>), this difference was not statistically significant. There was also no difference in ssGSEA scores for luminal genes between the PDX and No PDX groups. However, there was correlation between successful engraftment and the basal/squamous signature (<italic toggle="yes">P</italic> = 0.04) based on the consensus clustering classification<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. In addition, GSEA revealed that genes in cell cycle and DNA replication pathways including <italic toggle="yes">SMC1</italic> (Structural maintenance of chromosomes protein 1 A), <italic toggle="yes">MCM5</italic> (DNA replication licensing factor MCM5) and <italic toggle="yes">MCM7</italic> (DNA replication licensing factor MCM7) were positively enriched in the patient tumors that successfully engrafted, suggesting that the rate of cell proliferation is an important factor for successful PDX establishment. Extracellular Matrix (ECM) receptor interaction and focal-adhesion pathways including <italic toggle="yes">FN1</italic> (Fibronectin), <italic toggle="yes">THBS2</italic> (Thrombospondin-2) and <italic toggle="yes">COMP</italic> (Cartilage oligomeric matrix protein) were also positively enriched in primary tumors that failed to produce PDX tumors, suggesting that greater dependence of tumors on microenvironmental factors may have impeded successful engraftment in a subset of patients (Fig. <xref rid="Fig3" ref-type="fig">3d</xref>).</p>
+        </sec>
+        <sec id="Sec6">
+          <title>Chemosensitivity of patients and corresponding PDX</title>
+          <p id="Par17">To evaluate whether the sensitivity of the PDX models to cytotoxic chemotherapy mirrored that of the UTUC tumors from which they were derived, mice bearing established PDX tumors from three patients were treated with chemotherapy regimens and dosing schedules similar to that of the corresponding patients. As an example, patient UCC03 developed abdominal wall, bone and pelvic metastases 11 months after RNU for pT3bN0 disease. The patient was treated with palliative excision of the left abdominal wall metastasis and radiotherapy followed by gemcitabine/carboplatin (Gem/Carbo) chemotherapy. A PET-CT at 3-months follow-up demonstrated a partial response by RECIST criteria as well as decreased <sup>18</sup>F-fluorodeoxyglucose (FDG) avidity within the dominant pelvic osseous metastasis. A PDX derived from the abdominal metastasis was similarly responsive to Gem/Carbo (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>).<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><title>Chemosensitivity of patients and corresponding PDX.</title><p>Imaging of target lesions in patients before chemotherapy (pre-treatment) and at the time specified post treatment. Tumor volumes for the corresponding PDX models were graphed as a function of days post-start of drug treatment. <bold>a</bold> UCC03: FDG PET/CT scan after two cycles of gemcitabine/carboplatin (Gem/Carbo) chemotherapy demonstrated decreased radiopharmaceutical accumulation in left iliac metastasis (partial response according to RECIST). Mice bearing the UCC03 PDX were randomized and treated with Gem/Carbo, gemcitabine, carboplatin or vehicle (<italic toggle="yes">P</italic> = 0.0177, vehicle vs Gem/Carbo combination; <italic toggle="yes">P</italic> = 0.0065, vehicle vs gemcitabine; <italic toggle="yes">P</italic> = 0.138, vehicle vs carboplatin). <bold>b</bold> UCC19 received a combination of Gem/Carbo at recurrence followed by gemcitabine alone and demonstrates stable disease by RECIST criteria off treatment for 15 months. The corresponding PDX model was highly sensitive to Gem/Carbo (<italic toggle="yes">P</italic> &lt; 0.0001). <bold>c</bold> UCC17 (MSI-H) received 4 cycles of neoadjuvant gemcitabine/cisplatin. The patient’s radiographic response was minimal (stable disease by RECIST criteria) and there was no pathological response (pT3 disease at RNU). Minimal tumor growth inhibition was observed with Gemcitabine/Cisplatin in the corresponding PDX (<italic toggle="yes">P</italic> = 0.07). Two-way ANOVA test (Prism) was used for statistical analysis without adjustment. Data are presented as mean values ± SD (standard deviation). Source data for preclinical studies are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1664" position="float" orientation="portrait" xlink:href="41467_2020_15885_Fig4_HTML.jpg"/></fig></p>
+          <p id="Par18">Patient UCC19 underwent RNU for pT3 disease and relapsed 16 months later with retroperitoneal lymphadenopathy. The patient responded to Gem/Carbo followed by gemcitabine maintenance and has been off therapy with RECIST stable disease for the past 15 months. Consistent with the patient’s durable response to chemotherapy, a PDX generated at the time of RNU (UCC19) demonstrated exquisite sensitivity to Gem/Carbo (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). As DNA damage response (DDR) gene alterations have been associated with sensitivity to platinum-based chemotherapy and improved survival in patients with advanced UC patients<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup>, we assessed whether there was evidence of a likely pathogenic DDR gene alteration. Indeed, both the primary tumor and corresponding PDX harbored a truncating mutation in <italic toggle="yes">RECQL4</italic> (F987*), a gene which has a role in DNA repair by homologous recombination<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>.</p>
+          <p id="Par19">Patient UCC17, who had an MSI-H tumor, received gemcitabine/cisplatin neoadjuvant chemotherapy (NAC) to which he demonstrated minimal decrease in size on CT from 2.8 to 2.2 cm (stable disease by RECIST criteria) (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>) and no pathologic response (pT3N0 at RNU). The PDX generated from the primary tumor was also unresponsive to gemcitabine/cisplatin (<italic toggle="yes">P</italic> = 0.07). Similarly, UCC36 which was derived from a patient with an MSI-H Lynch syndrome-associated UTUC was also resistant to gemcitabine/cisplatin (Supplementary Fig. <xref rid="MOESM1" ref-type="media">6</xref>). As chemoresistance has been reported in colorectal cancer patients with MSI-H tumors<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup> and as the MSI-H UCC17 and UCC36 models were relatively resistant to gemcitabine/cisplatin chemotherapy, we assessed MSI status and chemotherapy responsiveness in a surgical cohort of UTUC patients treated with NAC. Of the 20 patients with UTUC who received NAC before RNU, two were MSI-H (one of which was UCC17), one was MSI-indeterminant (MSIsensor scores 3–10), and 17 were microsatellite stable (MSS, MSIsensor scores &lt;3). Defining pathologic response as ≤pT1N0<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR35">35</xref></sup>, we observed pathologic response in 10 of 17 MSS patients (59%) and in neither of the two MSI-H patients.</p>
+        </sec>
+        <sec id="Sec7">
+          <title>HER2-targeted therapy in HER2-mutant UTUC</title>
+          <p id="Par20">Consistent with retrospective studies, prospective genomic profiling of 44,183 tumors including 1032 bladder and 204 UTUC at our institution using MSK-IMPACT revealed that mutations in <italic toggle="yes">ERBB2</italic> (oncogenic/likely oncogenic) were more common in urothelial cancer (UC) than in other common solid tumors (10.3% in bladder and 5.9 % in UTUC as compared to 3.2% in breast, 2.9% in endometrial, 2.6% in colorectal, and 2.4% in NSCLC) (Fig. <xref rid="Fig5" ref-type="fig">5a</xref>). <italic toggle="yes">ERBB2</italic> amplification was also common in bladder cancer and UTUC (6.2%: 64 of 1032 bladder tumors and 4.4% of UTUC: 9 of 204 tumors, Fig. <xref rid="Fig5" ref-type="fig">5b</xref>). As HER2 is a validated drug target in breast and esophagogastric cancers, there has been enthusiasm for targeting HER2 in patients with UC. However, only limited efficacy has been observed to date with HER2 kinase inhibitors, such as an irreversible EGFR/HER2 kinase inhibitor, neratinib<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>.<fig id="Fig5" position="float" orientation="portrait"><label>Fig. 5</label><caption><title>Assessment of HER2-targeted strategies.</title><p><bold>a</bold>, <bold>b</bold> Fraction of patients with <italic toggle="yes">ERBB2</italic> mutation or amplification, respectively, in bladder, UTUC and other common solid tumors in a prospectively sequenced cohort of 44,183 tumors. <bold>c</bold> Neratinib sensitivity of the UCC14-PDC (HER2 S310F-mutant UTUC), MGHU3 [<italic toggle="yes">ERBB2</italic> wildtype (wt) bladder cancer], CVX-4 (HER2 S310F-mutant cervical cancer) and BT-474 (<italic toggle="yes">ERBB2</italic> amplified breast cancer) was determined 5 days post-neratinib treatment. The average values from three separate experiments (<italic toggle="yes">n</italic> = 3) for UCC14-PDC, MGHU3, and CVX-4 and 5 separate experiments (<italic toggle="yes">n</italic> = 5) for BT-474 are shown. IC50s for neratinib were 508.3, 245.9, 56.8 and 0.1 nM for UCC14, MGHU3, CVX-4 and BT-474, respectively. <bold>d</bold> Inhibition of ERK and AKT, downstream HER2 effectors by neratinib. Western blot was performed (repeated three times) on samples treated with neratinib or vehicle for 1 h at the indicated concentrations. The samples were derived from the same experiment and the gels/blots were processed in parallel. <bold>e</bold> Mice with established UCC14 tumors were treated with neratinib 20 mg/kg PO daily (5 days a week), DS-8201a 10 mg/kg i.v. once every 3 weeks or vehicle only as control. Mice bearing the PDX were randomly assigned to 3 cohorts (<italic toggle="yes">n</italic> = 8 per each group) and monitored twice a week [<italic toggle="yes">P</italic> = 0.0034, vehicle vs neratinib; <italic toggle="yes">P</italic> &lt; 0.0001, vehicle vs DS-8201a; <italic toggle="yes">P</italic> &lt; 0.0001, neratinib vs DS-8201a]. Two-way ANOVA test (Prism) was used for statistical analysis. Data are presented as mean values ± SD. Source data for <bold>c</bold>–<bold>e</bold> are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1790" position="float" orientation="portrait" xlink:href="41467_2020_15885_Fig5_HTML.jpg"/></fig></p>
+          <p id="Par21">Efforts to define the dependence of HER2-mutant urothelial carcinoma cells on HER2 signaling have been hampered by the lack of available preclinical models of HER2-mutant UC. As genomic analysis revealed that the UCC14 patient tumor and paired PDX harbored a hotspot mutation in <italic toggle="yes">ERBB2</italic> (HER2 S310F), we sought to leverage this model to explore the biological basis for the limited anti-tumor activity of HER2-targeted therapies in patients with UC. We thus generated a cell line from an early passage UCC14-PDX (UCC14-PDC) and assessed its sensitivity to neratinib, a HER2 kinase inhibitor. Both UCC14-PDC (IC50 508.3 nM) and MGHU3 (an <italic toggle="yes">ERBB2</italic> wildtype bladder cancer line, IC50 245.9 nM) were significantly less sensitive to neratinib as compared to CVX-4<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> (a HER2 S310F-mutant cervical cancer line, IC50 56.8 nM) and BT-474 (an <italic toggle="yes">ERBB2</italic> amplified breast cancer cell line, IC50 0.1 nM)(Fig. <xref rid="Fig5" ref-type="fig">5c</xref>). The greater concentration of neratinib required to inhibit UCC14-PDC cell growth as compared to other HER2 altered lines was consistent with the higher concentration of drug needed to inhibit activation of ERK, a downstream effector of HER2 (Fig. <xref rid="Fig5" ref-type="fig">5d</xref>). Expression of phosphorylated AKT was also potently downregulated by neratinib in BT-474 and CVX-4 cells, but was unchanged in UCC14-PDC, suggesting that AKT pathway activation was not HER2 dependent in this UC model. Finally, the limited sensitivity of the HER2 S310F-mutant UCC14-PDC to HER kinase inhibition in culture was consistent with the relative insensitivity of the UCC14-PDX to neratinib therapy in vivo (Fig. <xref rid="Fig5" ref-type="fig">5e</xref>). In contrast to the lack of efficacy of neratinib, DS-8201a, a humanized HER2 antibody topoisomerase I inhibitor drug conjugate (trastuzumab deruxtecan, Daiichi-Sankyo) recently approved by the FDA for unresectable or metastatic HER2-positive breast cancer (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT03690193?term=NCT03248492">NCT03248492</ext-link>)<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>, significantly inhibited UCC14-PDX growth. These data suggest that antibody drug conjugates targeting HER2 may be more effective than selective HER kinase inhibitors in patients with HER2-mutant UC.</p>
+        </sec>
+      </sec>
+      <sec id="Sec8" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par22">A major hurdle to the development of personalized treatment approaches for UTUC has been the lack of laboratory models for biological and preclinical studies. Here, we report the development and biological and genomic characterization of PDX and PDC models from patients with UTUC. We find that the PDX and PDC models recapitulated the diverse landscape of genomic alterations in UTUC. Furthermore, in the select cases tested, the PDX models mirrored the sensitivity/resistance to standard cytotoxic agents of the patients from which the PDX models were derived.</p>
+        <p id="Par23">Transcriptomic-based clustering analysis of 80 UTUC tumors using the BASE47 gene classifier<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> found that the majority (70/80, 87.5%) of tumors had a luminal phenotype. Further, application of the recently reported Bladder Cancer Molecular Taxonomy Group consensus classifier resulted in 66 of 80 tumors being classified as luminal–papillary sub-type, including all 14 tumors with low-grade histology (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>)<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. These data are consistent with those of Robinson et al.<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> and suggest that the luminal–papillary sub-type is enriched in UTUC as compared to bladder cancer where only 24% of tumors were luminal–papillary sub-type<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+        <p id="Par24">Another notable difference between urothelial carcinomas arising in the upper tract and the bladder is the significantly higher incidence of microsatellite instability in renal pelvis and ureteral tumors. It has been reported that patients with Lynch syndrome-associated colorectal cancer have diminished response to chemotherapy relative to patients with sporadic colorectal cancer<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Our data suggest that a similar association between chemotherapy sensitivity and MSI status might exist in patients with UTUC. More specifically, we evaluated the sensitivity of two UTUC PDX models (UCC17 and UCC36) derived from patients with MSI-H tumors to platinum chemotherapies and gemcitabine and found that both were relatively resistant to these cytotoxic chemotherapies. Given recent studies suggesting that MSI may be a predictive biomarker of response to immune checkpoint blockade in multiple cancers<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>, these results suggest that MSI status may be useful in assessing whether UTUC patients should receive neoadjuvant cytotoxic chemotherapy, or, instead be directed to immunotherapy-based clinical trials.</p>
+        <p id="Par25">Despite the recent FDA-approval of erdafitinib for <italic toggle="yes">FGFR3</italic>-mutated metastatic bladder cancers<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>, the clinical impact of targeted therapies in UC has been limited to date. <italic toggle="yes">ERBB2</italic> is altered by amplification and/or overexpression in various cancer types, and antibodies that bind to the extracellular domain of HER2 are now standard-of-care in <italic toggle="yes">ERBB2</italic> amplified breast and esophagogastric cancers<sup><xref ref-type="bibr" rid="CR42">42</xref>,<xref ref-type="bibr" rid="CR43">43</xref></sup>. Our prospective clinical sequencing experience of over 44,000 patient tumors indicates that activating <italic toggle="yes">ERBB2</italic> mutations are more prevalent in both bladder and UTUC than in other common solid tumor types (Fig. <xref rid="Fig5" ref-type="fig">5a</xref>). However, the lack of <italic toggle="yes">ERBB2</italic> mutant models of UTUC has been a major impediment to the preclinical assessment of HER2-targeted therapies for UTUC patients.</p>
+        <p id="Par26">As the UCC14-PDX and patient tumor from which it was derived harbored an activating hotspot mutation in the extracellular domain of HER2 (S310F), we leveraged this model to explore the biological basis for the limited clinical activity of HER kinase inhibitors observed to date in HER2-mutant UC patients. Consistent with the poor response of HER2-mutant UC patients to the HER kinase inhibitor neratinib as compared to HER2-mutant breast and cervical cancer patients<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>, the HER2 S310F-mutant cell line UCC14-PDC was significantly less sensitive to neratinib than the HER2-amplified BT-474 breast cancer and HER2 S310F-mutant CVX-4 cervical cancer cell lines. The relative lack of neratinib sensitivity of the UCC14 cell line was consistent with the higher doses of neratinib required to inhibit downstream ERK signaling in this cell line model as compared to BT-474 and CVX-4 cells<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. This result suggests that the variable sensitivity of different tumor lineages to HER2-directed therapies as reported in a recent basket trial<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>, is likely due, at least in part, to differences among cancers in their dependence on HER2 signaling for tumor growth and survival.</p>
+        <p id="Par27">Li et al.<sup><xref ref-type="bibr" rid="CR44">44</xref></sup> recently reported that the HER2 antibody drug conjugate ado-trastuzumab emtansine (T-DM1) has significant clinical activity in HER2-mutant lung cancer, even in tumors with low HER2 expression. One hypothesis as to why HER2-mutant tumors with low HER2 expression are sensitive to T-DM1 is that mutation of HER2 may increase the efficiency of receptor internalization following antibody binding<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Consistent with this finding, the UCC14-PDX was highly sensitive to DS-8201a, a HER2 antibody drug conjugate, which was recently approved by the FDA for unresectable or metastatic HER2-positive breast cancer<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. In sum, the data highlight the potential ability of PDX models to guide the development of clinical trials for UTUC patients and suggest that antibody drug conjugates targeting HER2 may be more effective in UTUC patients than selective HER2 kinase inhibitors.</p>
+        <p id="Par28">A limitation of the current study is that detailed biological characterization of the large number of variants of unknown significance identified in the PDX models is beyond the capability of any single laboratory. Thus, to facilitate biological discovery and the development of novel therapies for UTUC, all genomic data from the current work is available through cBioPortal [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=utuc_msk_2019">https://www.cbioportal.org/study/summary?id=utuc_msk_2019</ext-link>; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=utuc_pdx_msk_2019">https://www.cbioportal.org/study/summary?id=utuc_pdx_msk_2019</ext-link>] and all models reported here will be provided as a resource to the broader scientific community. In addition, the current collection of PDX models was mostly derived from large surgical specimens. Generating PDX models from ureteroscopic biopsies in the pre-radical nephroureterectomy setting would be of particular interest to assess the potential benefits of neoadjuvant chemotherapy for patients with UTUC. This will be the focus of future work seeking to leverage PDX models to inform clinical decision-making.</p>
+      </sec>
+      <sec id="Sec9">
+        <title>Methods</title>
+        <sec id="Sec10">
+          <title>Specimen acquisition</title>
+          <p id="Par29">From March 2014 to April 2017, tumors and matched normal tissue from 34 patients with UTUC (31 radical nephroureterectomy [RNU] specimens, 2 samples from distant metastasis and 1 UTUC biopsy) were collected under protocols (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT03690193?term=NCT01775072">NCT01775072</ext-link>, MSKCC IRB #89-076 and IRB #06-107) approved by the Memorial Sloan Kettering Cancer Center (MSKCC) Institutional Review Board. We have obtained informed consent from all participants of this study. RNU specimens were dissected robotically in a usual manner with the hilum stapled as late as feasible to limit ischemia time. Extraction of the specimen was performed immediately to ensure no more than 20–30 min of surgical ischemia time before specimen removal. The specimens were then transported directly to pathology, tumor(s) was identified grossly by a pathologist and a fresh sample for PDX generation was collected under sterile condition. Surgical samples were then transported to a research laboratory in RPMI medium or PBS on ice. Time from surgical removal of tissue in the OR to placement in medium in pathology and time from pathology to the research laboratory was ~20–40 min and 10 min, respectively. For all specimens, representative hematoxylin and eosin (H&amp;E) slides from frozen tissue and formalin-fixed paraffin-embedded (FFPE) sections were reviewed by a board-certified genitourinary pathologist (H.A-A.) to confirm histology, grade and stage. Clinical and demographic information was obtained from a prospectively maintained institutional database.</p>
+        </sec>
+        <sec id="Sec11">
+          <title>Establishment of xenografts from surgical specimen</title>
+          <p id="Par30">All animal work was approved by the MSKCC Institutional Animal Care and Use Committee (IACUC). We have complied with all relevant ethical regulations. All surgical specimens were transported in RPMI medium or PBS on ice, washed with cold PBS, cut into small pieces (2 × 2 to 3 × 3 mm<sup>3</sup>) and then implanted subcutaneously into one or two sides of the flank of 6–8-week-old male immunocompromised NOD-SCID <italic toggle="yes">IL2Rg</italic><sup>−/−</sup> (NSG) mice (Jackson Laboratory) via a 4–5 mm skin incision over the mid-lumbar spine<sup><xref ref-type="bibr" rid="CR46">46</xref>,<xref ref-type="bibr" rid="CR47">47</xref></sup>. PDX from UCC11 was generated from a frozen cell pellet after a collagen-based digestion process. PDX were serially transplanted for expansion when the tumor volume reached 0.5–1 cm<sup>3</sup>. Harvested xenograft tumors were cut into small fragments as earlier and either stored in freezing media (Recovery™ Cell Culture Freezing Medium, Thermo Fisher Scientific) in liquid nitrogen for future implantation and/or flash frozen for molecular studies including RNA-seq and/or western blot analysis.</p>
+        </sec>
+        <sec id="Sec12">
+          <title>Primary culture and xenograft implantation</title>
+          <p id="Par31">Tumor tissues were minced to small pieces, processed using 225 U/ml Collagenase type III at 37 °C for 15–30 min before plating into collagen-coated plates in advanced DMEM/F12 medium, supplemented with 10% FBS, 2 mM Glutamax, 1 mM sodium pyruvate, 1× non-essential amino acid, 10 mM HEPES, 100 µg/ml primocin (InVivoGen), 50 ng/ml EGF (MilliporeSigma) and 10 µM Y-27632 (Selleck Chemicals). All cell culture components were from Thermo Fisher Scientific unless otherwise stated. When the plates became confluent, cells were trypsinized using 0.25% TrypLE for expansion. For generation of the UCC14 patient-derived cell line (UCC14-PDC), a PDX piece at passage 3 was processed using 225 U/ml Collagenase type III, mixed with Matrigel (growth factor reduced; Corning Life Sciences) at 1:1 and plated as multiple 50 µl drops in 6-well plates to establish a 3D culture and then converted to a cell line for growth in 2D for in vitro assays. For in vivo tumorigenesis studies of the patient-derived cell lines shown in Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>, 3–5 million cells of PDC in media mixed with Matrigel at 1:1 were subcutaneously injected into the flank of NSG mice and tumor growth was measured weekly by calipers.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Targeted (MSK-IMPACT) and whole-exome sequencing</title>
+          <p id="Par32">Targeted sequencing was performed using the MSK-IMPACT (Memorial Sloan Kettering Integrated Mutation Profiling of Actionable Cancer Targets) assay using FFPE tumors and matched FFPE normal tissue or frozen blood. Matched normal tissue samples were obtained from renal parenchyma or lymph nodes that were confirmed to be histologically benign. MSK-IMPACT is a hybridization capture-based assay for deep sequencing of cancer-associated genes. A 300 gene version was used for the UTUC samples analyzed retrospectively, whereas 341, 410 or 468 versions were used for the prospectively sequenced tumors and PDX and PDC models. Briefly, following DNA extraction, an equimolar pool of barcoded libraries was subjected to exon capture using custom oligonucleotides, sequenced on an Illumina HiSeq 2500 instrument (Illumina Inc), and analyzed using a customized pipeline for somatic mutation calling, copy number alterations and structural rearrangements<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>.</p>
+          <p id="Par33">DNA samples for whole-exome sequencing were barcoded and then processed using SureSelect Human All Exon V4 (Agilent Technologies) according to the manufacturer’s instructions followed by sequencing on a HiSeq 2500 instrument in 100-bp paired-end mode. The average aligned reads per samples were 95 million, with 235-fold coverage on targeted regions, and an average duplication rate of 17.6%. For phylogenetic analysis, sample distances between pairs of samples were calculated based on non-shared mutations, followed by hierarchical clustering using the average agglomeration method. We used the Stringlist package in R software to count the non-shared mutations and the Analysis of Phylogenetics and Evolution package to plot the tree. The resulting phylogenetic trees were then denoted with notable oncogenic mutations.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>RNA sequencing and transcriptome analyses</title>
+          <p id="Par34">Total RNA from frozen tissue was isolated using Trizol (Thermo Fisher Scientific) and the quantity and quality of the resulting RNA was measured using an Agilent 2100 Bioanalyzer. The TruSeq RNA Library Prep Kit v2 (Illumina) was used for library preparation, followed by sequencing (60 million paired-end reads) on an Illumina HiSeq 2500. Read numbers for genes were extracted by RSEM (using the STAR alignment program)<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. Mean aligned reads per sample was 25 million. The consensusMIBC package (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/cit-bioinfo/consensusMIBC">https://github.com/cit-bioinfo/consensusMIBC</ext-link>, Bladder Cancer Molecular Taxonomy Group)<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> was used for a consensus clustering analysis. Differentially expressed genes between the tumors that led to PDX (PDX group) vs those that failed to produce PDX (No PDX group) were identified by DESeq2<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>. Gene Set Enrichment Analysis was applied to identify pathways significantly different in the PDX vs No PDX groups<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Two-photon microscopy and second harmonics generation</title>
+          <p id="Par35">Unstained patient, PDX and PDC-derived FFPE tumors were cut into 15-μm-thick sections, de-paraffinized, hydrated and visualized using a two-photon microscope (2PM: Zeiss LSM 880 upright Laser Scanning Microscope) with non-linear optics, coupled with a Chameleon MPX (Coherent Inc.) femtosecond pulsed, tunable Ti: Sapphire laser for two-photon excitation with Plan Apochromat ×20/0.8 (Carl Zeiss, Germany). For collagen second harmonic imaging, a wavelength of 880 nm was used. Both reflected and transmitted signals were collected for image analysis and processed using Zeiss Zen imaging software.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Picro Sirius red staining</title>
+          <p id="Par36">The patient, PDX and PDC-derived tumor FFPE sections were stained with Picro Sirius red<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> to quantitate changes in deposition or architecture of extracellular matrix structures, specifically collagen fibers. De-waxed and hydrated paraffin sections were stained for 1 h and washed in two changes of acidified water. Slides were dehydrated in three changes of 100% ethanol, cleared in xylene and mounted in a resinous medium. Slides were scanned using Pannoramic scanner (3D Histech Ltd.) and analyzed using Pannoramic viewer (3D Histech Ltd.) and FIJI (Image J) software.</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Masson’s trichrome staining</title>
+          <p id="Par37">For direct visualization of collagen fibers and histological assessment of collagen deposition, patient, PDX and PDC-derived tumor FFPE sections were de-waxed, hydrated and a trichrome staining<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> was performed using the Masson Trichrome Staining Kit (Sigma-Aldrich, St Louis, MO, USA). Slides were dehydrated quickly in 95% and absolute ethanol, cleared in xylene and mounted. Slides were scanned using Pannoramic scanner (3D Histech Ltd.) and analyzed using Pannoramic viewer (3D Histech Ltd.).</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Treatment of PDX-bearing mice with chemotherapy</title>
+          <p id="Par38">Chemotherapy was administered intraperitoneally when tumor volumes reached 100–300 mm<sup>3</sup>. For drug studies, mice were randomly assigned into vehicle control (saline for gemcitabine and platin drugs) and treatment groups (6–12 mice per each group). Mice were treated with the combination of weekly 50 mg/kg of gemcitabine and 5 mg/kg cisplatin (4-week cycle; weekly gemcitabine with 4th week off and cisplatin at every 4 weeks) or the combination of weekly 50 mg/kg of gemcitabine and 50 mg/kg carboplatin (4-week cycle). Tumor growth was quantitated weekly using calipers and growth curves were generated using GraphPad Prism software. Following guidelines set forth by the IACUC, mice were killed when tumor volume reached 1 cm<sup>3</sup>. All drugs were purchased from Selleck Chemicals.</p>
+        </sec>
+        <sec id="Sec19">
+          <title>Neratinib and DS-8201a sensitivity assays</title>
+          <p id="Par39">UCC14-PDC (<italic toggle="yes">ERBB2</italic> S310F mutated bladder cancer), BT-474 (<italic toggle="yes">ERBB2</italic> amplified breast cancer), MGHU3 (<italic toggle="yes">ERBB2</italic> wildtype bladder cancer, kindly provided by Dr. Margaret Knowles) and CVX-4 (<italic toggle="yes">ERBB2</italic> S310F mutated cervical cancer) cells were treated with neratinib (Puma Biotechnology) at concentrations ranging from 0 to 1000 nM. For growth assays, cells were seeded into 6-well plates. After allowing 24 h for adherence, cells were then counted at Day 0 time point, or at Day 5 post treatment with neratinib or DMSO using the Vi-CELL XR 2.03 (Beckman Coulter). Growth curves were generated from the averages of at least 3 experiments in duplicate (±SE) by plotting percent growth [(mean cell number at drug dose D5 − mean cell number of control D0)/(mean cell number of DMSO D5 − mean cell number of control D0) × 100)] against drug concentration. For in vivo drug studies, a UCC14-PDX tumor was mechanically dissociated, resuspended in Matrigel at 1:1 and subcutaneously injected into the flanks of male NSG mice (Jackson Laboratories). Once tumors reached an average volume of 100 mm<sup>3</sup>, mice were randomized to receive either vehicle control (0.5% methylcellulose/0.2% Tween 80 for neratinib, PBS for DS-8201a), neratinib, or DS-8201a (Daiichi-Sankyo). The dosing schedules were as follows: neratinib at 20 mg/kg p.o. daily 5 days/week, DS-8201a at 10 mg/kg i.v. once every 3 weeks. Tumors were measured twice a week using calipers. Interested parties should contact Dr. Alessandro Santin for CVX-4 and Dr. Margaret Knowles for MGHU3 cell lines.</p>
+          <p id="Par40">For western blot studies, cells were seeded into 60 mm dishes. At 75% confluence in log phase growth, cells were treated with neratinib at 0–250 nM for 1 h and then lysed in 1% NP-40 lysis buffer or RIPA buffer and processed for immunoblotting<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR52">52</xref></sup>. For primary antibodies, phospho-antibodies were used at 1:500 in TBST/5%BSA and totals were used at 1:1000 TBST/5% BSA with incubation overnight at 4 °C. Secondary antibodies were used at 1:2000 TBST/5% BSA for 1 hr at room temperature. ERK (#9102), p-ERK (T202/Y204) (#9101), AKT (#9272) and p-AKT (Ser473) (#9271) antibodies were from Cell Signaling Technology. Proteins were visualized using the Fuji LAS-4000 (GE LifeSciences).</p>
+        </sec>
+        <sec id="Sec20">
+          <title>Statistical analysis</title>
+          <p id="Par41">A xenograft was deemed to have successfully engrafted when the tumor volume reached 1 cm<sup>3</sup> or the maximum tumor diameter reached 1.5 cm, and urothelial carcinoma was confirmed by histopathology of the grafted tumors. Clinical variables of patients and differences in engraftment rates were analyzed using Fisher’s exact testing for categorical variables and Wilcoxon rank sum for continuous variables. Treatment effects on tumor growth were evaluated by two-way analysis of variance (two-way ANOVA, GraphPad Prism software Version 8). R/Bioconductor packages<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> were used to analyze RNA-Seq data (DESeq2 package) and DNA mutations (maftools package). In addition, gene set variation analysis was performed using single sample GSEA (within GSVA package).</p>
+        </sec>
+        <sec id="Sec21">
+          <title>Reporting summary</title>
+          <p id="Par42">Further information on research design is available in the <xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec22">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2020_15885_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2020_15885_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <app-group>
+        <app id="App1">
+          <sec id="Sec23">
+            <title>Source Data</title>
+            <p id="Par45">
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41467_2020_15885_MOESM3_ESM.xlsx" id="MOESM3" orientation="portrait"><caption><p>Source Data</p></caption></media>
+</p>
+          </sec>
+        </app>
+      </app-group>
+      <fn-group>
+        <fn>
+          <p><bold>Peer review information</bold>
+<italic toggle="yes">Nature Communications</italic> thanks Bishoy Faltas, Gottfrid Sjödahl and the other, anonymous, reviewer for their contribution to the peer review of this work.</p>
+        </fn>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+        <fn>
+          <p>These authors contributed equally: Kwanghee Kim, Wenhuo Hu.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p><bold>Supplementary information</bold> is available for this paper at 10.1038/s41467-020-15885-7.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This work was supported by the Sidney Kimmel Center for Prostate and Urologic Cancers, the Thompson Family Foundation, Cycle for Survival, P50 CA221745, R01 CA234361, R01 CA229624-01, U54 OD020355, P01 CA221757-01A1, the Kaufthal Family Bladder Cancer Fund and the NIH/NCI Cancer Center Support Grant P30 CA008748. M.S. was funded by a research grant from Puma Biotechnology and Daiichi-Sankio. We thank Nancy Bouvier, Caitlin Bourque, Ramyasree Madupuri and Ritika Kundra of Marie-Josée and Henry R. Kravis Center for Molecular Oncology of Memorial Sloan Kettering Cancer Center for the management of MSK-IMPACT sequencing data; Dr. Elisa De Stanchina and the MSKCC Anti-tumor assessment core for in vivo studies of HER2-targeting agents; and Dr. Margaret Knowles for kindly providing MGHU3 bladder cancer cell line.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>K.K., J.A.C. and D.B.S. designed the study. J.A.C. and D.B.S. supervised the project. K.K., A.J.H., V.M., S.J., K.N., C.H., B.G., Y.D., A.E., S.P.G., Z.C., J.J.H., I.S, M.S., E.C. and A.D.S. collected and analyzed lab data. W.H., I.O., J.G. and A.P. performed statistical and bioinformatic analyses. K.K., W.H., F.A., N.A., P.A.W., J.A.C. and D.B.S. wrote the manuscript. J.A.C., H.A.-A., F.A., N.A., K.M., A.B., N.W., T.N.C., S.D., R.A., E.J.P., A.A.H., J.E.R., G.I. and H.A.V. collected clinical data. J.A.C. and D.B.S. contributed equally to this article.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>All genomic data are accessible on cBioPortal at the following two links; Upper Tract Urothelial Carcinoma (MSK, 2019) [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=utuc_msk_2019">https://www.cbioportal.org/study/summary?id=utuc_msk_2019</ext-link>] or Upper Tract Urothelial Carcinoma PDX (MSK, 2019) [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=utuc_pdx_msk_2019">https://www.cbioportal.org/study/summary?id=utuc_pdx_msk_2019</ext-link>]. The raw and normalized RNA sequencing data are available in the database of Gene Expression Omnibus (GEO) associated with series entry number <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134292">GSE134292</ext-link>. The source data underlying Figs. <xref rid="Fig1" ref-type="fig">1</xref>a, b, <xref rid="Fig2" ref-type="fig">2</xref>b–e, <xref rid="Fig3" ref-type="fig">3</xref>b–d, <xref rid="Fig4" ref-type="fig">4</xref>a–c, <xref rid="Fig5" ref-type="fig">5c–e</xref> and Supplementary Figs. <xref rid="MOESM1" ref-type="media">2</xref>, <xref rid="MOESM1" ref-type="media">4</xref>, <xref rid="MOESM1" ref-type="media">6</xref> are provided as a Source Data File.</p>
+      </notes>
+      <notes notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par43">M.S. is in the Advisory Board of Bioscience Institute and Menarini Ricerche, received research funds from Puma Biotechnology, Daiichi-Sankio, Targimmune, Immunomedics and Menarini Ricerche, is a co-founder of Medendi Medical Travel and in the past two years he received honoraria from Menarini Ricerche and ADC Pharma. E.J.P. is on the scientific advisory board for Merck. J.J.H. is a consultant of Eisai (RCC Strategic Council) (2018-2019) and received research funds from BostonGene (2019). D.B.S. has served as a consultant and received honoraria from Pfizer, Loxo Oncology, Lilly Oncology, Vivideon Therapeutics, Q.E.D. Therapeutics and Illumina. A.D.S. is in the Advisory Board of Merck and Tesaro, received research funds from R-Pharma, Gilead, Genentech, Boheringer, Puma Biotechnology and Immunomedics. The remaining authors declare no conflicts of interest.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Carlo</surname>
+                <given-names>MI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cancer susceptibility mutations in patients with urothelial malignancies</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2020</year>
+            <volume>38</volume>
+            <fpage>404</fpage>
+            <lpage>414</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.19.01395</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7351337</pub-id>
+            <pub-id pub-id-type="pmid">31794323</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sfakianos</surname>
+                <given-names>JP</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic characterization of upper tract urothelial carcinoma</article-title>
+            <source>Eur. Urol.</source>
+            <year>2015</year>
+            <volume>68</volume>
+            <fpage>970</fpage>
+            <lpage>977</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.eururo.2015.07.039</pub-id>
+            <pub-id pub-id-type="pmid">26278805</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4675454</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moss</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive genomic characterization of upper tract urothelial carcinoma</article-title>
+            <source>Eur. Urol.</source>
+            <year>2017</year>
+            <volume>72</volume>
+            <fpage>641</fpage>
+            <lpage>649</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.eururo.2017.05.048</pub-id>
+            <pub-id pub-id-type="pmid">28601352</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Audenet</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clonal relatedness and mutational differences between upper tract and bladder urothelial carcinoma</article-title>
+            <source>Clin. Cancer Res</source>
+            <year>2019</year>
+            <volume>25</volume>
+            <fpage>967</fpage>
+            <lpage>976</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-18-2039</pub-id>
+            <pub-id pub-id-type="pmid">30352907</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6359971</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>BD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Upper tract urothelial carcinoma has a luminal-papillary T-cell depleted contexture and activated FGFR3 signaling</article-title>
+            <source>Nat. Commun.</source>
+            <year>2019</year>
+            <volume>10</volume>
+            <fpage>2977</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-019-10873-y</pub-id>
+            <pub-id pub-id-type="pmid">31278255</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6611775</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): a hybridization capture-based next-generation sequencing clinical assay for solid tumor molecular oncology</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Van Allen</surname>
+                <given-names>EM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-exome sequencing and clinical interpretation of formalin-fixed, paraffin-embedded tumor samples to guide precision cancer medicine</article-title>
+            <source>Nat. Med.</source>
+            <year>2014</year>
+            <volume>20</volume>
+            <fpage>682</fpage>
+            <lpage>688</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.3559</pub-id>
+            <pub-id pub-id-type="pmid">24836576</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4048335</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Development and characterization of a bladder cancer xenograft model using patient-derived tumor tissue</article-title>
+            <source>Cancer Sci.</source>
+            <year>2013</year>
+            <volume>104</volume>
+            <fpage>631</fpage>
+            <lpage>638</lpage>
+            <pub-id pub-id-type="doi">10.1111/cas.12123</pub-id>
+            <pub-id pub-id-type="pmid">23384396</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7657213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jager</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Patient-derived bladder cancer xenografts in the preclinical development of novel targeted therapies</article-title>
+            <source>Oncotarget</source>
+            <year>2015</year>
+            <volume>6</volume>
+            <fpage>21522</fpage>
+            <lpage>21532</lpage>
+            <pub-id pub-id-type="doi">10.18632/oncotarget.3974</pub-id>
+            <pub-id pub-id-type="pmid">26041878</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4673283</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Abe</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Establishment and characterization of human urothelial cancer xenografts in severe combined immunodeficient mice</article-title>
+            <source>Int J. Urol.</source>
+            <year>2006</year>
+            <volume>13</volume>
+            <fpage>47</fpage>
+            <lpage>57</lpage>
+            <pub-id pub-id-type="doi">10.1111/j.1442-2042.2006.01220.x</pub-id>
+            <pub-id pub-id-type="pmid">16448432</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Barretina</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The cancer cell line encyclopedia enables predictive modelling of anticancer drug sensitivity</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>483</volume>
+            <fpage>603</fpage>
+            <lpage>607</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11003</pub-id>
+            <pub-id pub-id-type="pmid">22460905</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3320027</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>DeGraff</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Current preclinical models for the advancement of translational bladder cancer research</article-title>
+            <source>Mol. Cancer Ther.</source>
+            <year>2013</year>
+            <volume>12</volume>
+            <fpage>121</fpage>
+            <lpage>130</lpage>
+            <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-12-0508</pub-id>
+            <pub-id pub-id-type="pmid">23269072</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>703</fpage>
+            <lpage>713</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.4333</pub-id>
+            <pub-id pub-id-type="pmid">28481359</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Choi</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identification of distinct basal and luminal subtypes of muscle-invasive bladder cancer with different sensitivities to frontline chemotherapy</article-title>
+            <source>Cancer Cell</source>
+            <year>2014</year>
+            <volume>25</volume>
+            <fpage>152</fpage>
+            <lpage>165</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccr.2014.01.009</pub-id>
+            <pub-id pub-id-type="pmid">24525232</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4011497</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Damrauer</surname>
+                <given-names>JS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Intrinsic subtypes of high-grade bladder cancer reflect the hallmarks of breast cancer biology</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2014</year>
+            <volume>111</volume>
+            <fpage>3110</fpage>
+            <lpage>3115</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.1318376111</pub-id>
+            <pub-id pub-id-type="pmid">24520177</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3939870</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <mixed-citation publication-type="other">Kamoun, A. et al. A Consensus molecular classification of muscle-invasive bladder cancer. <italic toggle="yes">Eur. Urol.</italic>10.1016/j.eururo.2019.09.006 (2019).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.eururo.2019.09.006</pub-id><pub-id pub-id-type="pmcid">PMC7690647</pub-id><pub-id pub-id-type="pmid">31563503</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bagrodia</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic biomarkers for the prediction of stage and prognosis of upper tract urothelial carcinoma</article-title>
+            <source>J. Urol.</source>
+            <year>2016</year>
+            <volume>195</volume>
+            <fpage>1684</fpage>
+            <lpage>1689</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.juro.2016.01.006</pub-id>
+            <pub-id pub-id-type="pmid">26778714</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4871772</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <mixed-citation publication-type="other">Chakravarty, D. et al. OncoKB: a precision oncology knowledge base. <italic toggle="yes">JCO Precis. Oncol</italic>. 10.1200/PO.17.00011 (2017).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id><pub-id pub-id-type="pmid">28890946</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <mixed-citation publication-type="other">Moch, H. <italic toggle="yes">WHO Classification of Tumours of the Urinary System and Male Genital Organ</italic>s. (International Agency for Research on Cancer, 2016).</mixed-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pickup</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mouw</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weaver</surname>
+                <given-names>VM</given-names>
+              </name>
+            </person-group>
+            <article-title>The extracellular matrix modulates the hallmarks of cancer</article-title>
+            <source>EMBO Rep.</source>
+            <year>2014</year>
+            <volume>15</volume>
+            <fpage>1243</fpage>
+            <lpage>1253</lpage>
+            <pub-id pub-id-type="doi">10.15252/embr.201439246</pub-id>
+            <pub-id pub-id-type="pmid">25381661</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4264927</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>X</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nadiarynkh</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Plotnikov</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Campagnola</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Second harmonic generation microscopy for quantitative analysis of collagen fibrillar structure</article-title>
+            <source>Nat. Protoc.</source>
+            <year>2012</year>
+            <volume>7</volume>
+            <fpage>654</fpage>
+            <lpage>669</lpage>
+            <pub-id pub-id-type="doi">10.1038/nprot.2012.009</pub-id>
+            <pub-id pub-id-type="pmid">22402635</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4337962</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lattouf</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Picrosirius red staining: a useful tool to appraise collagen networks in normal and pathological tissues</article-title>
+            <source>J. Histochem Cytochem.</source>
+            <year>2014</year>
+            <volume>62</volume>
+            <fpage>751</fpage>
+            <lpage>758</lpage>
+            <pub-id pub-id-type="doi">10.1369/0022155414545787</pub-id>
+            <pub-id pub-id-type="pmid">25023614</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gomori</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>A rapid one-step trichrome stain</article-title>
+            <source>Am. J. Clin. Pathol.</source>
+            <year>1950</year>
+            <volume>20</volume>
+            <fpage>661</fpage>
+            <lpage>664</lpage>
+            <pub-id pub-id-type="doi">10.1093/ajcp/20.7_ts.661</pub-id>
+            <pub-id pub-id-type="pmid">15432364</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Karamboulas</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ailles</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Patient-derived xenografts: a promising resource for preclinical cancer research</article-title>
+            <source>Mol. Cell Oncol.</source>
+            <year>2019</year>
+            <volume>6</volume>
+            <fpage>1558684</fpage>
+            <pub-id pub-id-type="doi">10.1080/23723556.2018.1558684</pub-id>
+            <pub-id pub-id-type="pmid">30788424</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6370391</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wedge</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Campbell</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Deciphering signatures of mutational processes operative in human cancer</article-title>
+            <source>Cell Rep.</source>
+            <year>2013</year>
+            <volume>3</volume>
+            <fpage>246</fpage>
+            <lpage>259</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.celrep.2012.12.008</pub-id>
+            <pub-id pub-id-type="pmid">23318258</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3588146</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <mixed-citation publication-type="other">Donahu, T. F. et al. Genomic characterization of upper-tract urothelial carcinoma in patients with lynch syndrome. <italic toggle="yes">JCO Precis. Oncol.</italic>10.1200/PO.17.00143 (2018).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00143</pub-id><pub-id pub-id-type="pmcid">PMC6404976</pub-id><pub-id pub-id-type="pmid">30854504</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Faltas</surname>
+                <given-names>BM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clonal evolution of chemotherapy-resistant urothelial carcinoma</article-title>
+            <source>Nat. Genet.</source>
+            <year>2016</year>
+            <volume>48</volume>
+            <fpage>1490</fpage>
+            <lpage>1499</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3692</pub-id>
+            <pub-id pub-id-type="pmid">27749842</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5549141</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Robertson</surname>
+                <given-names>AG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive molecular characterization of muscle-invasive bladder cancer</article-title>
+            <source>Cell</source>
+            <year>2018</year>
+            <volume>171</volume>
+            <fpage>540</fpage>
+            <lpage>556</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cell.2017.09.007</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5687509</pub-id>
+            <pub-id pub-id-type="pmid">28988769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Iyer</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Multicenter prospective phase II trial of neoadjuvant dose-dense gemcitabine plus cisplatin in patients with muscle-invasive bladder cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>1949</fpage>
+            <lpage>1956</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2017.75.0158</pub-id>
+            <pub-id pub-id-type="pmid">29742009</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6049398</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Teo</surname>
+                <given-names>MY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DNA damage response and repair gene alterations are associated with improved survival in patients with platinum-treated advanced urothelial carcinoma</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>3610</fpage>
+            <lpage>3618</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-16-2520</pub-id>
+            <pub-id pub-id-type="pmid">28137924</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5511570</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lu</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>RECQL4 promotes DNA end resection in repair of DNA double-strand breaks</article-title>
+            <source>Cell Rep.</source>
+            <year>2016</year>
+            <volume>16</volume>
+            <fpage>161</fpage>
+            <lpage>173</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.celrep.2016.05.079</pub-id>
+            <pub-id pub-id-type="pmid">27320928</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5576896</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ribic</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Tumor microsatellite-instability status as a predictor of benefit from fluorouracil-based adjuvant chemotherapy for colon cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2003</year>
+            <volume>349</volume>
+            <fpage>247</fpage>
+            <lpage>257</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa022289</pub-id>
+            <pub-id pub-id-type="pmid">12867608</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3584639</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sargent</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Defective mismatch repair as a predictive marker for lack of efficacy of fluorouracil-based adjuvant therapy in colon cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2010</year>
+            <volume>28</volume>
+            <fpage>3219</fpage>
+            <lpage>3226</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2009.27.1825</pub-id>
+            <pub-id pub-id-type="pmid">20498393</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2903323</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Matin</surname>
+                <given-names>SF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Incidence of downstaging and complete remission after neoadjuvant chemotherapy for high-risk upper tract transitional cell carcinoma</article-title>
+            <source>Cancer</source>
+            <year>2010</year>
+            <volume>116</volume>
+            <fpage>3127</fpage>
+            <lpage>3134</lpage>
+            <pub-id pub-id-type="doi">10.1002/cncr.25050</pub-id>
+            <pub-id pub-id-type="pmid">20564621</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Liao</surname>
+                <given-names>RS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comparison of pathological stage in patients treated with and without neoadjuvant chemotherapy for high risk upper tract urothelial carcinoma</article-title>
+            <source>J. Urol.</source>
+            <year>2018</year>
+            <volume>200</volume>
+            <fpage>68</fpage>
+            <lpage>73</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.juro.2017.12.054</pub-id>
+            <pub-id pub-id-type="pmid">29307680</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hyman</surname>
+                <given-names>DM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>HER kinase inhibition in patients with HER2- and HER3-mutant cancers</article-title>
+            <source>Nature</source>
+            <year>2018</year>
+            <volume>554</volume>
+            <fpage>189</fpage>
+            <lpage>194</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature25475</pub-id>
+            <pub-id pub-id-type="pmid">29420467</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808581</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zammataro</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-exome sequencing of cervical carcinomas identifies activating ERBB2 and PIK3CA mutations as targets for combination therapy</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2019</year>
+            <volume>116</volume>
+            <fpage>22730</fpage>
+            <lpage>22736</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.1911385116</pub-id>
+            <pub-id pub-id-type="pmid">31624127</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6842590</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Modi</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Trastuzumab deruxtecan in previously treated HER2-positive breast cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2019</year>
+            <volume>382</volume>
+            <fpage>610</fpage>
+            <lpage>621</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1914510</pub-id>
+            <pub-id pub-id-type="pmid">31825192</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7458671</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Le</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mismatch repair deficiency predicts response of solid tumors to PD-1 blockade</article-title>
+            <source>Science</source>
+            <year>2017</year>
+            <volume>357</volume>
+            <fpage>409</fpage>
+            <lpage>413</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.aan6733</pub-id>
+            <pub-id pub-id-type="pmid">28596308</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5576142</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Le</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PD-1 blockade in tumors with mismatch-repair deficiency</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2015</year>
+            <volume>372</volume>
+            <fpage>2509</fpage>
+            <lpage>2520</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1500596</pub-id>
+            <pub-id pub-id-type="pmid">26028255</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4481136</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Loriot</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Erdafitinib in locally advanced or metastatic urothelial carcinoma</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2019</year>
+            <volume>381</volume>
+            <fpage>338</fpage>
+            <lpage>348</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1817323</pub-id>
+            <pub-id pub-id-type="pmid">31340094</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Slamon</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2001</year>
+            <volume>344</volume>
+            <fpage>783</fpage>
+            <lpage>792</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJM200103153441101</pub-id>
+            <pub-id pub-id-type="pmid">11248153</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bang</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial</article-title>
+            <source>Lancet</source>
+            <year>2010</year>
+            <volume>376</volume>
+            <fpage>687</fpage>
+            <lpage>697</lpage>
+            <pub-id pub-id-type="doi">10.1016/S0140-6736(10)61121-X</pub-id>
+            <pub-id pub-id-type="pmid">20728210</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>BT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Ado-trastuzumab emtansine for patients with HER2-mutant lung cancers: results from a phase II basket trial</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>2532</fpage>
+            <lpage>2537</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2018.77.9777</pub-id>
+            <pub-id pub-id-type="pmid">29989854</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6366814</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <mixed-citation publication-type="other">Li, B. T. et al. HER2-mediated internalization of cytotoxic agents in ERBB2 amplified or mutant lung cancers. <italic toggle="yes">Cancer Discov.</italic> https://doi.org/10.1158/2159-8290.CD-20-0215 (2020).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-20-0215</pub-id><pub-id pub-id-type="pmcid">PMC7196485</pub-id><pub-id pub-id-type="pmid">32213539</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dong</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Tumor xenografts of human clear cell renal cell carcinoma but not corresponding cell cines recapitulate clinical response to sunitinib: feasibility of using biopsy samples</article-title>
+            <source>Eur. Urol. Focus</source>
+            <year>2017</year>
+            <volume>3</volume>
+            <fpage>590</fpage>
+            <lpage>598</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.euf.2016.08.005</pub-id>
+            <pub-id pub-id-type="pmid">28753786</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5608640</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR47">
+          <label>47.</label>
+          <mixed-citation publication-type="other">Tracey, A. T., Murray, K. S., Coleman, J. A. &amp; Kim, K. Patient-derived xenograft models in urological malignancies: urothelial cell carcinoma and renal cell carcinoma. <italic toggle="yes">Cancers</italic><bold>12</bold>, E439 (2020).<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers12020439</pub-id><pub-id pub-id-type="pmcid">PMC7072311</pub-id><pub-id pub-id-type="pmid">32069881</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR48">
+          <label>48.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dewey</surname>
+                <given-names>CN</given-names>
+              </name>
+            </person-group>
+            <article-title>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</article-title>
+            <source>BMC Bioinformatics</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>323</fpage>
+            <pub-id pub-id-type="doi">10.1186/1471-2105-12-323</pub-id>
+            <pub-id pub-id-type="pmid">21816040</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3163565</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR49">
+          <label>49.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Love</surname>
+                <given-names>MI</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Huber</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Anders</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</article-title>
+            <source>Genome Biol.</source>
+            <year>2014</year>
+            <volume>15</volume>
+            <fpage>550</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>
+            <pub-id pub-id-type="pmid">25516281</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4302049</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR50">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Subramanian</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2005</year>
+            <volume>102</volume>
+            <fpage>15545</fpage>
+            <lpage>15550</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.0506580102</pub-id>
+            <pub-id pub-id-type="pmid">16199517</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1239896</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR51">
+          <label>51.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Junqueira</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bignolas</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Brentani</surname>
+                <given-names>RR</given-names>
+              </name>
+            </person-group>
+            <article-title>Picrosirius staining plus polarization microscopy, a specific method for collagen detection in tissue sections</article-title>
+            <source>Histochem J.</source>
+            <year>1979</year>
+            <volume>11</volume>
+            <fpage>447</fpage>
+            <lpage>455</lpage>
+            <pub-id pub-id-type="doi">10.1007/BF01002772</pub-id>
+            <pub-id pub-id-type="pmid">91593</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR52">
+          <label>52.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pratilas</surname>
+                <given-names>CA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genetic predictors of MEK dependence in non-small cell lung cancer</article-title>
+            <source>Cancer Res.</source>
+            <year>2008</year>
+            <volume>68</volume>
+            <fpage>9375</fpage>
+            <lpage>9383</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-08-2223</pub-id>
+            <pub-id pub-id-type="pmid">19010912</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2649746</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR53">
+          <label>53.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huber</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Orchestrating high-throughput genomic analysis with Bioconductor</article-title>
+            <source>Nat. Methods</source>
+            <year>2015</year>
+            <volume>12</volume>
+            <fpage>115</fpage>
+            <lpage>121</lpage>
+            <pub-id pub-id-type="doi">10.1038/nmeth.3252</pub-id>
+            <pub-id pub-id-type="pmid">25633503</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4509590</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1337 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nature</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nature</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0028-0836</issn>
+        <issn pub-type="epub">1476-4687</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC3320027</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC3320027.1</article-id>
+        <article-id pub-id-type="pmcaid">3320027</article-id>
+        <article-id pub-id-type="pmcaiid">3320027</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS361223</article-id>
+        <article-id pub-id-type="pmid">22460905</article-id>
+        <article-id pub-id-type="doi">10.1038/nature11003</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS361223</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA361223</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>The Cancer Cell Line Encyclopedia enables predictive modeling of anticancer drug sensitivity</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Barretina</surname>
+              <given-names initials="J">Jordi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref rid="FN3" ref-type="author-notes">9</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Caponigro</surname>
+              <given-names initials="G">Giordano</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stransky</surname>
+              <given-names initials="N">Nicolas</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Venkatesan</surname>
+              <given-names initials="K">Kavitha</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Margolin</surname>
+              <given-names initials="AA">Adam A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref rid="FN4" ref-type="author-notes">10</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="S">Sungjoon</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names initials="CJ">Christopher J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lehár</surname>
+              <given-names initials="J">Joseph</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kryukov</surname>
+              <given-names initials="GV">Gregory V.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sonkin</surname>
+              <given-names initials="D">Dmitriy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reddy</surname>
+              <given-names initials="A">Anupama</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="M">Manway</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Murray</surname>
+              <given-names initials="L">Lauren</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref rid="FN5" ref-type="author-notes">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Monahan</surname>
+              <given-names initials="JE">John E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morais</surname>
+              <given-names initials="P">Paula</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meltzer</surname>
+              <given-names initials="J">Jodi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Korejwa</surname>
+              <given-names initials="A">Adam</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jané-Valbuena</surname>
+              <given-names initials="J">Judit</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mapa</surname>
+              <given-names initials="FA">Felipa A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Thibault</surname>
+              <given-names initials="J">Joseph</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bric-Furlong</surname>
+              <given-names initials="E">Eva</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Raman</surname>
+              <given-names initials="P">Pichai</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shipway</surname>
+              <given-names initials="A">Aaron</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Engels</surname>
+              <given-names initials="IH">Ingo H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cheng</surname>
+              <given-names initials="J">Jill</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yu</surname>
+              <given-names initials="GK">Guoying K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yu</surname>
+              <given-names initials="J">Jianjun</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Aspesi</surname>
+              <given-names initials="P">Peter</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>de Silva</surname>
+              <given-names initials="M">Melanie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jagtap</surname>
+              <given-names initials="K">Kalpana</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="MD">Michael D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="L">Li</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hatton</surname>
+              <given-names initials="C">Charles</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Palescandolo</surname>
+              <given-names initials="E">Emanuele</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gupta</surname>
+              <given-names initials="S">Supriya</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mahan</surname>
+              <given-names initials="S">Scott</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sougnez</surname>
+              <given-names initials="C">Carrie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Onofrio</surname>
+              <given-names initials="RC">Robert C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liefeld</surname>
+              <given-names initials="T">Ted</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>MacConaill</surname>
+              <given-names initials="L">Laura</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Winckler</surname>
+              <given-names initials="W">Wendy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reich</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="N">Nanxin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mesirov</surname>
+              <given-names initials="JP">Jill P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names initials="SB">Stacey B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ardlie</surname>
+              <given-names initials="K">Kristin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chan</surname>
+              <given-names initials="V">Vivien</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Myer</surname>
+              <given-names initials="VE">Vic E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weber</surname>
+              <given-names initials="BL">Barbara L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Porter</surname>
+              <given-names initials="J">Jeff</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Warmuth</surname>
+              <given-names initials="M">Markus</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Finan</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Harris</surname>
+              <given-names initials="JL">Jennifer L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyerson</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Golub</surname>
+              <given-names initials="TR">Todd R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morrissey</surname>
+              <given-names initials="MP">Michael P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sellers</surname>
+              <given-names initials="WR">William R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schlegel</surname>
+              <given-names initials="R">Robert</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+            <xref rid="FN1" ref-type="author-notes">†</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Garraway</surname>
+              <given-names initials="LA">Levi A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref rid="FN2" ref-type="author-notes">*</xref>
+            <xref rid="FN1" ref-type="author-notes">†</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>The Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA</aff>
+        <aff id="A2"><label>2</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts 02115, USA</aff>
+        <aff id="A3"><label>3</label>Center for Cancer Genome Discovery, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts 02115, USA</aff>
+        <aff id="A4"><label>4</label>Novartis Institutes for Biomedical Research, Cambridge, Massachusetts 02139, USA</aff>
+        <aff id="A5"><label>5</label>Genomics Institute of the Novartis Research Foundation, San Diego, California 92121, USA</aff>
+        <aff id="A6"><label>6</label>Novartis Institutes for Biomedical Research, Emeryville, California 94608, USA</aff>
+        <aff id="A7"><label>7</label>Department of Pediatric Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts 02115, USA</aff>
+        <aff id="A8"><label>8</label>Howard Hughes Medical Institute, Chevy Chase, Maryland 20815, USA</aff>
+        <author-notes>
+          <corresp id="FN1"><label>†</label>Correspondence and Requests for materials should be addressed to: Levi A. Garraway (<email>Levi_Garraway@dfci.harvard.edu</email>) or Robert Schlegel (<email>robert.schlegel@novartis.com</email>)</corresp>
+          <fn id="FN2" fn-type="equal">
+            <label>*</label>
+            <p>These authors contributed equally to this work: see Author Contributions section for details</p>
+          </fn>
+          <fn id="FN3" fn-type="present-address">
+            <label>9</label>
+            <p>Present address: Novartis Institutes for Biomedical Research, Cambridge, Massachusetts 02139, USA</p>
+          </fn>
+          <fn id="FN4" fn-type="present-address">
+            <label>10</label>
+            <p>Present address: Sage Bionetworks, 1100 Fairview Ave. N., Seattle, WA 98109, USA</p>
+          </fn>
+          <fn id="FN5" fn-type="present-address">
+            <label>11</label>
+            <p>Present address: Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, NY 10065</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>28</day>
+          <month>3</month>
+          <year>2012</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <day>29</day>
+          <month>3</month>
+          <year>2012</year>
+        </pub-date>
+        <volume>483</volume>
+        <issue>7391</issue>
+        <issue-id pub-id-type="pmc-issue-id">208463</issue-id>
+        <fpage>603</fpage>
+        <lpage>607</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>05</day>
+              <month>03</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>29</day>
+              <month>09</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>29</day>
+              <month>09</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-05 22:06:41.443">
+              <day>05</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: 
+<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms361223.pdf"/>
+        <abstract>
+          <p id="P1">The systematic translation of cancer genomic data into knowledge of tumor biology and therapeutic avenues remains challenging. Such efforts should be greatly aided by robust preclinical model systems that reflect the genomic diversity of human cancers and for which detailed genetic and pharmacologic annotation is available<sup><xref rid="R1" ref-type="bibr">1</xref></sup>. Here we describe the Cancer Cell Line Encyclopedia (CCLE): a compilation of gene expression, chromosomal copy number, and massively parallel sequencing data from 947 human cancer cell lines. When coupled with pharmacologic profiles for 24 anticancer drugs across 479 of the lines, this collection allowed identification of genetic, lineage, and gene expression-based predictors of drug sensitivity. In addition to known predictors, we found that plasma cell lineage correlated with sensitivity to IGF1 receptor inhibitors; <italic toggle="yes">AHR</italic> expression was associated with MEK inhibitor efficacy in <italic toggle="yes">NRAS</italic>-mutant lines; and <italic toggle="yes">SLFN11</italic> expression predicted sensitivity to topoisomerase inhibitors. Altogether, our results suggest that large, annotated cell line collections may help to enable preclinical stratification schemata for anticancer agents. The generation of genetic predictions of drug response in the preclinical setting and their incorporation into cancer clinical trial design could speed the emergence of “personalized” therapeutic regimens<sup><xref rid="R2" ref-type="bibr">2</xref></sup>.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p id="P2">Human cancer cell lines represent a mainstay of tumor biology and drug discovery through facile experimental manipulation, global and detailed mechanistic studies, and various high-throughput applications. Numerous studies have employed cell line panels annotated with both genetic and pharmacologic data, either within a tumor lineage<sup><xref rid="R3" ref-type="bibr">3</xref>–<xref rid="R5" ref-type="bibr">5</xref></sup> or across multiple cancer types<sup><xref rid="R6" ref-type="bibr">6</xref>–<xref rid="R12" ref-type="bibr">12</xref></sup>. While affirming the promise of systematic cell line studies, many prior efforts were limited in their depth of genetic characterization and pharmacologic interrogation.</p>
+      <p id="P3">To address these challenges, we generated a large-scale genomic dataset for 947 human cancer cell lines, together with pharmacologic profiling of 24 compounds across ~500 of these lines. The resulting collection, which we termed the Cancer Cell Line Encyclopedia (CCLE), encompasses 36 tumor types (<xref rid="F1" ref-type="fig">Fig. 1a</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.broadinstitute.org/ccle">www.broadinstitute.org/ccle</ext-link>). All cell lines were characterized by several genomic technology platforms. The mutational status of &gt;1,600 genes was determined by targeted massively parallel sequencing, followed by removal of variants likely to be germline events (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). Moreover, 392 recurrent mutations affecting 33 known cancer genes were assessed by mass spectrometric genotyping<sup><xref rid="R13" ref-type="bibr">13</xref></sup> (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 2</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). DNA copy number was measured using high-density single nucleotide polymorphism arrays (Affymetrix SNP 6.0; <xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). Finally, mRNA expression levels were obtained for each of the lines using Affymetrix U133 plus 2.0 arrays. These data were also used to confirm cell line identities (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Figs. 2–4</xref>).</p>
+      <p id="P4">We next measured the genomic similarities by lineage between CCLE lines and primary tumors from Tumorscape<sup><xref rid="R14" ref-type="bibr">14</xref></sup>, exp<italic toggle="yes">O</italic>, MILE and COSMIC datasets (<xref rid="F1" ref-type="fig">Fig. 1b–d</xref>, see <xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). For most lineages, a strong positive correlation was observed in both chromosomal copy number and gene expression patterns (median correlation coefficients of 0.77, range = 0.52–0.94, p &lt; 10<sup>−15</sup>, for copy number and 0.60, range = 0.29–0.77, p &lt; 10<sup>−15</sup>, for expression, respectively; <xref rid="F1" ref-type="fig">Fig. 1b–c</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 3 and 4</xref>), as has been described previously<sup><xref rid="R3" ref-type="bibr">3</xref>–<xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup>. A positive correlation was also observed for point mutation frequencies (median correlation coefficient = 0.71, range = −0.06–0.97, p &lt; 10<sup>−2</sup> for all but 3 lineages, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 5</xref>), even when <italic toggle="yes">TP53</italic> was removed from the dataset (median correlation coefficient = 0.64, range = −0.31–0.97, p &lt; 10<sup>−2</sup> for all but 3 lineages; <xref rid="F1" ref-type="fig">Fig. 1d</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 5</xref>). Thus, with relatively few exceptions (<xref rid="SD1" ref-type="supplementary-material">Supplementary Information</xref>), the CCLE may provide representative genetic proxies for primary tumors in many cancer types.</p>
+      <p id="P5">Given the pressing clinical need for robust molecular correlates of anticancer drug response, we incorporated a systematic framework to ascertain molecular correlates of pharmacologic sensitivity <italic toggle="yes">in vitro</italic>. First, 8-point dose response curves for 24 compounds (targeted and cytotoxic agents) across 481 cell lines were generated (<xref rid="SD1" ref-type="supplementary-material">Supplementary Tables 1 and 6</xref>, and <xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). These curves were represented by a logistic sigmoidal function with a maximal effect level (A<sub>max</sub>), the concentration at half- maximal activity of the compound (EC<sub>50</sub>), a Hill coefficient representing the sigmoidal transition, and the concentration at which the drug response reached an absolute inhibition of 50% (IC<sub>50</sub>).</p>
+      <p id="P6">Broadly active compounds, exemplified by the HDAC inhibitor panobinostat, showed a roughly even distribution of A<sub>max</sub> and EC<sub>50</sub> values across most cell lines (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). In contrast, the RAF inhibitor PLX4720 displayed a more selective profile: A<sub>max</sub> or EC<sub>50</sub> values for most cell lines could be categorized as “sensitive” or “insensitive” to PLX4720, with sensitive lines enriched for the <italic toggle="yes">BRAF<sup>V600E</sup></italic> mutation (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). To capture simultaneously the efficacy and potency of a drug, we designated an “activity area” (<xref rid="F2" ref-type="fig">Fig. 2b</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6</xref>). The 24 compounds profiled showed wide variations in activity area, and those with similar mechanisms of action clustered together (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 7</xref>).</p>
+      <p id="P7">Genomic correlates of drug sensitivity may be extracted by predictive models using machine learning techniques<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R10" ref-type="bibr">10</xref></sup>. We therefore assembled all CCLE genomic data types into a matrix wherein each feature was converted to a <italic toggle="yes">z-score</italic> across all lines (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). Next, we adapted a categorical modeling approach that utilized a naive Bayes classification and discrete sensitivity calls, or an elastic net regression analysis<sup><xref rid="R16" ref-type="bibr">16</xref></sup> for continuous sensitivity measurements. Both approaches were applied to all compounds with or without gene expression data (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). Prediction performance was determined using ten-fold cross-validation, and the elastic net features were bootstrapped to retain only those that were consistent across runs (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>).</p>
+      <p id="P8">Out of &gt;50,000 input features, the regression-based analysis identified multiple known features as top predictors of sensitivity to several agents (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 7</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 8 and 9</xref>), with robust cross-validated performance (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 10 and 11</xref>). For example, activating mutations in <italic toggle="yes">BRAF</italic> and <italic toggle="yes">NRAS</italic> were among the top four predictors of sensitivity in models generated for the MEK inhibitor PD-0325901<sup><xref rid="R10" ref-type="bibr">10</xref></sup> (<xref rid="F2" ref-type="fig">Fig. 2c</xref>). Additional predictive features for MEK inhibition included expression of <italic toggle="yes">PTEN</italic>, <italic toggle="yes">PTPN5</italic>, and <italic toggle="yes">SPRY2,</italic> which encodes a regulator of MAPK output. <italic toggle="yes">KRAS</italic> mutations were also identified, albeit with a lower predictive value (<xref rid="F2" ref-type="fig">Fig. 2c</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Tables 8–9</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 8</xref>).</p>
+      <p id="P9">Additional top predictors included <italic toggle="yes">EGFR</italic> mutations and <italic toggle="yes">ERBB2</italic> amplification/over- expression for Erlotinib<sup><xref rid="R8" ref-type="bibr">8</xref></sup> and Lapatinib<sup><xref rid="R17" ref-type="bibr">17</xref></sup>, respectively; <italic toggle="yes">BRAF<sup>V600E</sup></italic> for RAF inhibitors (PLX4720<sup><xref rid="R18" ref-type="bibr">18</xref></sup> and RAF265); <italic toggle="yes">HGF</italic> expression and <italic toggle="yes">MET</italic> amplification for the MET/ALK inhibitor PF-2341066<sup><xref rid="R19" ref-type="bibr">19</xref></sup>; and <italic toggle="yes">MDM2</italic> over-expression for Nutlin-3<sup><xref rid="R20" ref-type="bibr">20</xref></sup> sensitivity. Variants affecting the <italic toggle="yes">EXT2</italic> gene, which encodes a glycosyltransferase involved in heparin sulfate biosynthesis, were significantly correlated with Erlotinib sensitivity (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 12</xref>). This observation is intriguing in light of a report linking heparin sulfate with erlotinib sensitivity<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. In addition, <italic toggle="yes">NQO1</italic> expression was identified as the top predictive feature for sensitivity to the Hsp90 inhibitor 17-AAG, a quinone moiety metabolized by NAD(P)H:quinone oxidoreductase (NQO1). NQO1 produces a high-potency intermediate (17-AAGH2)<sup><xref rid="R22" ref-type="bibr">22</xref></sup>, and has previously been identified as a potential biomarker for Hsp90 inhibitors<sup><xref rid="R23" ref-type="bibr">23</xref></sup>.</p>
+      <p id="P10">Since some genetic/molecular alterations occur commonly in specific tumor types, lineage may become a confounding factor in predictive analyses. Indeed, a classifier built using the entire cell line dataset performed suboptimally when applied exclusively to melanoma derived-cell lines (<xref rid="F2" ref-type="fig">Fig. 2d</xref>), whereas a model built with only melanoma cell lines performed better (<xref rid="F2" ref-type="fig">Fig. 2d</xref>). Predictive features in the melanoma-only model showed a strong over-expression of genes regulated by the transcription factors MITF and SOX10 (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 10</xref>), recently identified as predictive of RAF inhibitor drug sensitivity within a melanoma-dominated cell line collection.</p>
+      <p id="P11">On the other hand, lineage emerged as the predominant predictive feature for several compounds. For example, elastic net studies of the HDAC inhibitor LBH589 (panobinostat) identified hematologic lineages as predictors of sensitivity (<xref rid="F2" ref-type="fig">Fig. 2e</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 9</xref>). Interestingly, most clinical responses to panobinostat and related compounds (e.g., vorinostat and romidepsin) have been observed in hematological cancers. Similarly, most multiple myeloma cell lines (12 of 14 lines tested) exhibited enhanced sensitivity to the IGF-1 receptor inhibitor AEW541 (<xref rid="F2" ref-type="fig">Fig. 2f</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 8 and 9</xref>) and showed high <italic toggle="yes">IGF1</italic> expression (<xref rid="F2" ref-type="fig">Fig. 2f</xref>). Interestingly, elevated <italic toggle="yes">IGF1R</italic> expression also correlated with AEW541 sensitivity (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 9</xref>). The CCLE results suggest that multiple myeloma may be a promising indication for clinical trials of IGF-1 receptor inhibitors<sup><xref rid="R24" ref-type="bibr">24</xref></sup> and that these drugs may have enhanced efficacy in cancers with high <italic toggle="yes">IGF1</italic> or <italic toggle="yes">IGF1R</italic> expression.</p>
+      <p id="P12">While <italic toggle="yes">BRAF</italic> and <italic toggle="yes">NRAS</italic> mutations are known single-gene predictors of sensitivity to MEK inhibitors, several “sensitive” cell lines lacked mutations in these genes, whereas other lines harboring these mutations were nonetheless “insensitive” (<xref rid="F2" ref-type="fig">Fig. 2c</xref>). The elastic net regression model derived from the subset of cell lines with validated <italic toggle="yes">NRAS</italic> mutations identified elevated expression of the <italic toggle="yes">AHR</italic> gene (which encodes the aryl hydrocarbon receptor) as strongly correlated with sensitivity to the MEK inhibitor PD-0325901 (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). This finding was intriguing in light of prior studies suggesting that a related MEK inhibitor (PD-98059) may also function as a direct AHR antagonist<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. We therefore hypothesized that the enhanced sensitivity of some <italic toggle="yes">NRAS</italic>-mutant cell lines to MEK inhibitors might relate to a coexistent dependence on AHR function.</p>
+      <p id="P13">To test this hypothesis, we first confirmed the correlation between <italic toggle="yes">AHR</italic> expression and sensitivity to MEK inhibitors in a subset of <italic toggle="yes">NRAS</italic>-mutant cell lines (<xref rid="F3" ref-type="fig">Fig. 3b</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 13</xref>). Next, we performed shRNA knockdown of <italic toggle="yes">AHR</italic> in cell lines with high or low AHR expression (<xref rid="F3" ref-type="fig">Fig. 3c</xref>). Silencing of <italic toggle="yes">AHR</italic> suppressed the growth of three <italic toggle="yes">NRAS</italic>-mutant cell lines with elevated <italic toggle="yes">AHR</italic> expression (<xref rid="F3" ref-type="fig">Figs. 3d–f</xref>), but had no effect on the growth of two lines with low <italic toggle="yes">AHR</italic> expression (<xref rid="F3" ref-type="fig">Figs. 3g–h</xref>). The growth inhibitory effect was confirmed with two additional shRNAs, where evidence for a dose-dependent knockdown effect was also apparent (<xref rid="F3" ref-type="fig">Figs. 3i–j</xref>). We also tested the hypothesis that allosteric MEK inhibitors may function as AHR antagonists by measuring the effect of PD-0325901 and PD-98059 on endogenous <italic toggle="yes">CYP1A1</italic> mRNA, a transcriptional target of AHR in some contexts. Both compounds reduced <italic toggle="yes">CYP1A1</italic> levels in <italic toggle="yes">NRAS</italic>-mutant melanoma cells (IPC-298 and SK-MEL-2; <xref rid="F3" ref-type="fig">Fig. 3k</xref>) but not in neuroblastoma cells (CHP-212, <xref rid="F3" ref-type="fig">Fig. 3k</xref>), suggesting that other factors may govern <italic toggle="yes">CYP1A1</italic> expression in the latter lineage. Together, these results suggest that AHR dependency may co-occur with MAP kinase activation in some <italic toggle="yes">NRAS</italic>-mutant cancer cells, and that elevated AHR may serve as a mechanistic biomarker for enhanced MEK inhibitor sensitivity in this setting.</p>
+      <p id="P14">We also looked for markers predictive of response to several conventional chemotherapeutic agents (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 7</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 6</xref>) and identified <italic toggle="yes">SLFN11</italic> expression as the top correlate of sensitivity to irinotecan (<xref rid="F4" ref-type="fig">Fig. 4a</xref>), a camptothecin analog that inhibits the topoisomerase I (TOP1) enzyme. <italic toggle="yes">SLFN11</italic> expression also emerged as the top predictor of topotecan sensitivity (another TOP1 inhibitor; <xref rid="SD1" ref-type="supplementary-material">Supplementary Figs. 8 and 14</xref>). Overall, 12 of 16 lineages showed significant <italic toggle="yes">SLFN11</italic> associations for topotecan or irinotecan sensitivity (Pearson’s r ≥ 0.2, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 14b</xref>). This finding was independently validated using data from the NCI-60 collection (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 15</xref>). <italic toggle="yes">SLFN11</italic> knockdown did not affect steady-state growth sensitivity profiles (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 14d–f</xref>).</p>
+      <p id="P15">All three Ewing’s sarcoma cell lines screened showed both high <italic toggle="yes">SLFN11</italic> expression and sensitivity to irinotecan (<xref rid="F4" ref-type="fig">Fig. 4b</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 14</xref>). Ewing’s sarcomas also exhibited the highest <italic toggle="yes">SLFN11</italic> expression among 4,103 primary tumor samples spanning 39 lineages (<xref rid="F4" ref-type="fig">Fig. 4c</xref>), suggesting that TOP1 inhibitors might offer an effective treatment option for this cancer type. Toward this end, several ongoing trials in Ewing’s sarcoma are examining irinotecan-based combinations, or the addition of topotecan to standard regimens<sup><xref rid="R26" ref-type="bibr">26</xref></sup>. For some lineages with high <italic toggle="yes">SLFN11</italic> expression, (e.g. cervical adenocarcinoma) topoisomerase inhibitors already comprise a standard chemotherapy regimen. In other tumors where topoisomerase inhibitors are commonly used (e.g., colorectal and ovarian cancers), a range of <italic toggle="yes">SLFN11</italic> expression was observed, raising the possibility that high <italic toggle="yes">SLFN11</italic> expression might enrich for tumors more likely to respond. If confirmed in correlative clinical studies, <italic toggle="yes">SLFN11</italic> expression may offer a means to stratify patients for topoisomerase inhibitor treatment.</p>
+      <p id="P16">By assembling the Cancer Cell Line Encyclopedia (CCLE), we have expanded the process of detailed annotation of preclinical human cancer models (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.broadinstitute.org/ccle">www.broadinstitute.org/ccle</ext-link>). Genomic predictors of drug sensitivity revealed both known and novel candidate biomarkers of response. Even within genetically defined sub-populations—or when agents were broadly active without clear genetic targets—predictive modeling studies identified key predictors or mechanistic effectors of drug response. Future efforts that increase the scale and add additional types of information (e.g., whole genome/transcriptome sequencing, epigenetic studies, metabolic profiling or proteomic/phosphoproteomic analysis) should enable additional insights. In the future, comprehensive and tractable cell line systems provided through this and other efforts<sup><xref rid="R27" ref-type="bibr">27</xref></sup> may facilitate numerous advances in cancer biology and drug discovery.</p>
+      <sec id="S1">
+        <title>Methods Summary</title>
+        <p id="P17">A total of 947 independent cancer cell lines were profiled at the genomic level (data available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.broadinstitute.org/ccle">www.broadinstitute.org/ccle</ext-link> and Gene Expression Omnibus (GEO) using accession numbers <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE36139">GSE36139</ext-link>) and compound sensitivity data was obtained for 479 lines (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 11</xref>). Mutation information was obtained both by using massively parallel sequencing of &gt;1,600 genes (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 12</xref>) and by mass spectrometric genotyping (OncoMap), which interrogated 492 mutations in 33 known oncogenes and tumor suppressors. Genotyping/copy number analysis was performed using Affymetrix Genome-Wide Human SNP Array 6.0 and expression analysis using the GeneChip Human Genome U133 Plus 2.0 Array. 8-point dose response curves were generated for 24 anticancer drugs using an automated compound-screening platform. Compound sensitivity data were used for two types of predictive models that utilized the naive Bayes classifier or the elastic net regression algorithm. The effects of <italic toggle="yes">AHR</italic> expression silencing on cell viability were assessed by stable expression of shRNA lentiviral vectors targeting either this gene or luciferase as control. The effect of compound treatment on <italic toggle="yes">AHR</italic> target gene expression was assessed by quantitative RT-PCR. A full description of the Methods is included in the <xref rid="SD1" ref-type="supplementary-material">Supplementary Information</xref>.</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="S2">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS361223-supplement-1.doc" mimetype="application" mime-subtype="msword" orientation="portrait" id="d37e1257" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS361223-supplement-2.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" id="d37e1261" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS361223-supplement-3.doc" mimetype="application" mime-subtype="msword" orientation="portrait" id="d37e1265" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD4" position="float" orientation="portrait">
+          <label>4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS361223-supplement-4.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" id="d37e1269" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S3">
+        <p>We thank the staff of the Biological Samples Platform, the Genetic Analysis Platform and the Sequencing Platform at the Broad Institute. We thank S. Banerji, J. Che, C.M. Johannessen, A. Su and N. Wagle, for advice and discussion. We are grateful for the technical assistance and support of G. Bonamy, R. Brusch III, E. Gelfand, K. Gravelin, T. Huynh, S. Kehoe, K. Matthews, J. Nedzel, L. Niu, R. Pinchback, D. Roby, J. Slind, T.R. Smith, L. Tan, V. Trinh, C. Vickers, G. Yang, Y. Yao and X. Zhang. The Cancer Cell Line Encyclopedia project was enabled by a grant from the Novartis Institutes for Biomedical Research. Additional funding support was provided by the National Cancer Institute (M.M., L.A.G.), the Starr Cancer Consortium (M.F.B., L.A.G.), and the NIH Director’s New Innovator Award (L.A.G.). This resource, the Cancer Cell Line Encyclopedia (CCLE), is made available online at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.broadinstitute.org/ccle">www.broadinstitute.org/ccle</ext-link>.</p>
+      </ack>
+      <fn-group>
+        <fn id="FN6">
+          <p><xref rid="SD1" ref-type="supplementary-material">Supplementary Information</xref> is linked to the online version of the paper at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.nature.com/nature">www.nature.com/nature</ext-link>.</p>
+        </fn>
+        <fn id="FN7" fn-type="con">
+          <p>
+            <bold>Author Contributions</bold>
+          </p>
+          <p>For the work described herein, J.B. and G.C. were the lead research scientists; N.S., K.V., and A.M. were the lead computational biologists; M.M., W.R.S., R.S., and L.A.G. were the senior authors. J.B, G.C., S.K., P.M., J.M., J.T., A.S., N.L., and K.A., performed cell line procural and processing; P.M., and K.A., performed or directed nucleic acid extraction and quality control; S.G., W.W., and S.B.G., performed or directed genomic data generation; C.J.W., F.A.M., E.B-F., I.E., P.A., M.dS., K.J., and V.E.M., performed pharmacologic data generation; N.S., K.V., G.V.K., A.R., M.F.B., J.C., G.K.Y., M.D.J., T.L., M.R., and G.G., contributed to software development; N.S., K.V., A.A.M., J.L., G.V.K., D.S., A.R., M.L., M.F.B., A.K., P.R., J.C., G.K.Y., J.Y., M.D.J., C.H., E.P., J.P.M., V.C. and M.P.M., performed computational biology and bioinformatics analysis; J.B., G.C., N.S., L.M., J.E.M., J.J-V., M.P.M., W.R.S., R.S., and L.A.G. performed biological analysis and interpretation; N.S., K.V., A.A.M., J.L., A.R., M.L., L.M., A.K., J.J-V., J.C., G.K.Y and J.Y., prepared figures and tables for the main text and <xref rid="SD1" ref-type="supplementary-material">supplementary information</xref>; J.B., G.C., N.S., K.V., A.A.M., J.L., G.V.K., J.J-V., M.P.M., and L.A.G. wrote and edited the main text and <xref rid="SD1" ref-type="supplementary-material">supplementary information</xref>; J.B., G.C., N.S., K.V., S.K., C.J.W., J.L., S.M., C.S., R.O., T.L., L.McC., W.W., M.R., N.L., S.B.G., K.A., and V.C., performed project management; J.P.M., V.E.M., B.L.W., J.P., M.W., P.F., J.H., M.M., and T.R.G., contributed project oversight and advisory roles; and M.P.M., W.R.S., R.S., and L.A.G. provided overall project leadership.</p>
+        </fn>
+        <fn id="FN8" fn-type="conflict">
+          <p>
+            <bold>Competing financial interests</bold>
+          </p>
+          <p>Multiple authors are employees of Novartis, Inc., as noted in the affiliations. T.R.G., M.M., and L.A.G. are consultants for and equity holders in Foundation Medicine, Inc. M.M. and L.A.G. are consultants for and receive sponsored research from Novartis, Inc.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Caponigro</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sellers</surname>
+                <given-names>WR</given-names>
+              </name>
+            </person-group>
+            <article-title>Advances in the preclinical testing of cancer therapeutic hypotheses</article-title>
+            <source>Nat Rev Drug Discov</source>
+            <volume>10</volume>
+            <fpage>179</fpage>
+            <lpage>187</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21358737</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrd3385</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Macconaill</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Garraway</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical implications of the cancer genome</article-title>
+            <source>J Clin Oncol</source>
+            <volume>28</volume>
+            <fpage>5219</fpage>
+            <lpage>5228</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20975063</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2009.27.4944</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3020694</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lin</surname>
+                <given-names>WM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Modeling genomic diversity and tumor dependency in malignant melanoma</article-title>
+            <source>Cancer Res</source>
+            <volume>68</volume>
+            <fpage>664</fpage>
+            <lpage>673</lpage>
+            <year>2008</year>
+            <pub-id pub-id-type="pmid">18245465</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-07-2615</pub-id>
+            <pub-id pub-id-type="pmcid">PMC10493008</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Neve</surname>
+                <given-names>RM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A collection of breast cancer cell lines for the study of functionally distinct cancer subtypes</article-title>
+            <source>Cancer Cell</source>
+            <volume>10</volume>
+            <fpage>515</fpage>
+            <lpage>527</lpage>
+            <year>2006</year>
+            <pub-id pub-id-type="pmid">17157791</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2006.10.008</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2730521</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sos</surname>
+                <given-names>ML</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Predicting drug susceptibility of non-small cell lung cancers based on genetic lesions</article-title>
+            <source>J Clin Invest</source>
+            <volume>119</volume>
+            <fpage>1727</fpage>
+            <lpage>1740</lpage>
+            <year>2009</year>
+            <pub-id pub-id-type="pmid">19451690</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI37127</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2689116</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dry</surname>
+                <given-names>JR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Transcriptional pathway signatures predict MEK addiction and response to selumetinib (AZD6244)</article-title>
+            <source>Cancer Res</source>
+            <volume>70</volume>
+            <fpage>2264</fpage>
+            <lpage>2273</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20215513</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-1577</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3166660</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garraway</surname>
+                <given-names>LA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative genomic analyses identify MITF as a lineage survival oncogene amplified in malignant melanoma</article-title>
+            <source>Nature</source>
+            <volume>436</volume>
+            <fpage>117</fpage>
+            <lpage>122</lpage>
+            <year>2005</year>
+            <pub-id pub-id-type="pmid">16001072</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature03664</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Greshock</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular target class is predictive of in vitro response profile</article-title>
+            <source>Cancer Res</source>
+            <volume>70</volume>
+            <fpage>3677</fpage>
+            <lpage>3686</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20406975</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-3788</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McDermott</surname>
+                <given-names>U</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identification of genotype-correlated sensitivity to selective kinase inhibitors by using high-throughput tumor cell line profiling</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>104</volume>
+            <fpage>19936</fpage>
+            <lpage>19941</lpage>
+            <year>2007</year>
+            <pub-id pub-id-type="pmid">18077425</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0707498104</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2148401</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Solit</surname>
+                <given-names>DB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>BRAF mutation predicts sensitivity to MEK inhibition</article-title>
+            <source>Nature</source>
+            <volume>439</volume>
+            <fpage>358</fpage>
+            <lpage>362</lpage>
+            <year>2006</year>
+            <pub-id pub-id-type="pmid">16273091</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature04304</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3306236</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Staunton</surname>
+                <given-names>JE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Chemosensitivity prediction by transcriptional profiling</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>98</volume>
+            <fpage>10787</fpage>
+            <lpage>10792</lpage>
+            <year>2001</year>
+            <pub-id pub-id-type="pmid">11553813</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.191368598</pub-id>
+            <pub-id pub-id-type="pmcid">PMC58553</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Weinstein</surname>
+                <given-names>JN</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An information-intensive approach to the molecular pharmacology of cancer</article-title>
+            <source>Science</source>
+            <volume>275</volume>
+            <fpage>343</fpage>
+            <lpage>349</lpage>
+            <year>1997</year>
+            <pub-id pub-id-type="pmid">8994024</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.275.5298.343</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Thomas</surname>
+                <given-names>RK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High-throughput oncogene mutation profiling in human cancer</article-title>
+            <source>Nat Genet</source>
+            <volume>39</volume>
+            <fpage>347</fpage>
+            <lpage>351</lpage>
+            <year>2007</year>
+            <pub-id pub-id-type="pmid">17293865</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng1975</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Beroukhim</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The landscape of somatic copy-number alteration across human cancers</article-title>
+            <source>Nature</source>
+            <volume>463</volume>
+            <fpage>899</fpage>
+            <lpage>905</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20164920</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08822</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2826709</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ross</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Systematic variation in gene expression patterns in human cancer cell lines</article-title>
+            <source>Nat Genet</source>
+            <volume>24</volume>
+            <fpage>227</fpage>
+            <lpage>235</lpage>
+            <year>2000</year>
+            <pub-id pub-id-type="pmid">10700174</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/73432</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zou</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hastie</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Regularization and variable selection via the elastic net</article-title>
+            <source>J Roy Stat Soc B</source>
+            <volume>67</volume>
+            <fpage>301</fpage>
+            <lpage>320</lpage>
+            <year>2005</year>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Konecny</surname>
+                <given-names>GE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Activity of the dual kinase inhibitor lapatinib (GW572016) against HER-2-overexpressing and trastuzumab-treated breast cancer cells</article-title>
+            <source>Cancer Res</source>
+            <volume>66</volume>
+            <fpage>1630</fpage>
+            <lpage>1639</lpage>
+            <year>2006</year>
+            <pub-id pub-id-type="pmid">16452222</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-05-1182</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tsai</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>105</volume>
+            <fpage>3041</fpage>
+            <lpage>3046</lpage>
+            <year>2008</year>
+            <pub-id pub-id-type="pmid">18287029</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0711741105</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2268581</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zou</surname>
+                <given-names>HY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An Orally Available Small-Molecule Inhibitor of c-Met, PF-2341066, Exhibits Cytoreductive Antitumor Efficacy through Antiproliferative and Antiangiogenic Mechanisms</article-title>
+            <source>Cancer Research</source>
+            <volume>67</volume>
+            <fpage>4408</fpage>
+            <lpage>4417</lpage>
+            <year>2007</year>
+            <pub-id pub-id-type="pmid">17483355</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-06-4443</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Muller</surname>
+                <given-names>CR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Potential for treatment of liposarcomas with the MDM2 antagonist Nutlin-3A</article-title>
+            <source>Int J Cancer</source>
+            <volume>121</volume>
+            <fpage>199</fpage>
+            <lpage>205</lpage>
+            <year>2007</year>
+            <pub-id pub-id-type="pmid">17354236</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.22643</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nishio</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Serum heparan sulfate concentration is correlated with the failure of epidermal growth factor receptor tyrosine kinase inhibitor treatment in patients with lung adenocarcinoma</article-title>
+            <source>J Thorac Oncol</source>
+            <volume>6</volume>
+            <fpage>1889</fpage>
+            <lpage>1894</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21964526</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/JTO.0b013e3182286d41</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Guo</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Formation of 17-allylamino-demethoxygeldanamycin (17-AAG) hydroquinone by NAD(P)H:quinone oxidoreductase 1: role of 17-AAG hydroquinone in heat shock protein 90 inhibition</article-title>
+            <source>Cancer Res</source>
+            <volume>65</volume>
+            <fpage>10006</fpage>
+            <lpage>10015</lpage>
+            <year>2005</year>
+            <pub-id pub-id-type="pmid">16267026</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-05-2029</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kelland</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sharp</surname>
+                <given-names>SY</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rogers</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Myers</surname>
+                <given-names>TG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Workman</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>DT-Diaphorase expression and tumor cell sensitivity to 17-allylamino, 17-demethoxygeldanamycin, an inhibitor of heat shock protein 90</article-title>
+            <source>J Natl Cancer Inst</source>
+            <volume>91</volume>
+            <fpage>1940</fpage>
+            <lpage>1949</lpage>
+            <year>1999</year>
+            <pub-id pub-id-type="pmid">10564678</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/91.22.1940</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moreau</surname>
+                <given-names>P</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Phase I study of the anti insulin-like growth factor 1 receptor (IGF-1R) monoclonal antibody, AVE1642, as single agent and in combination with bortezomib in patients with relapsed multiple myeloma</article-title>
+            <source>Leukemia</source>
+            <volume>25</volume>
+            <fpage>872</fpage>
+            <lpage>874</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21321571</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/leu.2011.4</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reiners</surname>
+                <given-names>JJ</given-names>
+                <suffix>Jr</suffix>
+              </name>
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Clift</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dudley</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Myrand</surname>
+                <given-names>SP</given-names>
+              </name>
+            </person-group>
+            <article-title>PD98059 is an equipotent antagonist of the aryl hydrocarbon receptor inhibitor of mitogen-activated protein kinase kinase</article-title>
+            <source>Mol Pharmacol</source>
+            <volume>53</volume>
+            <fpage>438</fpage>
+            <lpage>445</lpage>
+            <year>1998</year>
+            <pub-id pub-id-type="pmid">9495809</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1124/mol.53.3.438</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wagner</surname>
+                <given-names>LM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Temozolomide and intravenous irinotecan for treatment of advanced Ewing sarcoma</article-title>
+            <source>Pediatr Blood Cancer</source>
+            <volume>48</volume>
+            <fpage>132</fpage>
+            <lpage>139</lpage>
+            <year>2007</year>
+            <pub-id pub-id-type="pmid">16317751</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/pbc.20697</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garnett</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A systematic screen for genomic markers of drug sensitivity in cancer cells</article-title>
+            <source>Nature</source>
+            <volume>XXX</volume>
+            <fpage>XXX</fpage>
+            <lpage>XXX</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11005</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3349233</pub-id>
+            <pub-id pub-id-type="pmid">22460902</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title>The Cancer Cell Line Encyclopedia (CCLE)</title>
+          <p><bold>a.</bold> Distribution of cancer types in the CCLE by lineage. <bold>b.</bold> Comparison of DNA copy-number profiles (GISTIC G-scores) between cell lines and primary tumors. The diagonal of the heatmap shows the Pearson correlation between corresponding sample types. Because cell lines and tumors are separate datasets, the correlation matrix is asymmetric: the top left showing how well the tumor features correlate with the average of the cell lines in a lineage, and the bottom right showing the converse. <bold>c.</bold> Comparison of mRNA expression profiles between cell lines and primary tumors. For each tumor type, the log-fold-change of the 5,000 most variable genes is calculated between that tumor type and all others. Pearson correlations between tumor type fold-changes from primary tumors and cell lines are shown as a heatmap. <bold>d.</bold> Comparison of point mutation frequencies between cell lines and primary tumors in COSMIC (v56), restricted to genes that are well represented in both sample sets but excluding <italic toggle="yes">TP53</italic> which is highly prevalent in most tumor types. Pairwise Pearson correlations are shown as a heatmap. *The correlations of esophageal, liver, and head and neck cancer mutation frequencies are restored when including <italic toggle="yes">TP53</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms361223f1.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <title>Predictive modeling of pharmacologic sensitivity using CCLE genomic data</title>
+          <p><bold>a.</bold> Drug responses for Panobinostat (green) and PLX4720 (orange/purple) represented by the high-concentration effect level (A<sub>max</sub>) and transitional concentration (EC<sub>50</sub>) for a sigmoidal fit to the response curve (<bold>b</bold>). <bold>c.</bold> Elastic net regression modeling of genomic features that predict sensitivity to PD-0325901. The bottom curve indicates drug response, measured as the area over the dose-response curve (activity area), for each cell line. The central heatmap shows the CCLE features in the model (continuous <italic toggle="yes">z-score</italic> for expression and copy-number, dark red for discrete mutation calls), across all cell lines (x-axis). Bar plot (left): weight of the top predictive features for sensitivity (bottom) or insensitivity (top). Parenthesis indicate features present in &gt;80% of models after bootstrapping. <bold>d.</bold> Specificity and sensitivity (ROC curves) of cross-validated categorical models predicting the response to a MEK inhibitor, PD-0325901 (activity area). Mean true positive rate and standard deviation (n=5) are shown when models are built using all lines (“Global categorical model” in blue and orange), or within only melanoma lines (green). <bold>e.</bold> Activity area values for LBH589 (panobinostat) between cell lines derived from hematopoietic (n=61) and solid tumors (n=387). The middle bar = median, box = inter-quartile range, and bars extend to 1.5x the inter-quartile range. <bold>f.</bold> Distribution of activity area values for AEW541 relative to <italic toggle="yes">IGF1</italic> mRNA expression. Orange dots: multiple myeloma cell lines (n=14); blue dots: cell lines from other tumor types (n=434). Box-and-whisker plots show the activity area or mRNA expression distributions relative to each cell line type (line = median and box = inter-quartile range), with bars extending to 1.5x the inter-quartile range.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms361223f2.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <title><italic toggle="yes">AHR</italic> expression may denote a tumor dependency targeted by MEK inhibitors in <italic toggle="yes">NRAS</italic>-mutant cell lines</title>
+          <p><bold>a</bold>. Predictive features for PD-0325901 sensitivity (varying baseline activity area) in validated <italic toggle="yes">NRAS</italic>-mutant cell lines. <bold>b.</bold> Growth inhibition curves for <italic toggle="yes">NRAS</italic>-mutant cell lines expressing high (red) or low (blue) levels of <italic toggle="yes">AHR</italic> mRNA in the presence of the MEK inhibitor PD-0325901. <bold>c.</bold> Relative <italic toggle="yes">AHR</italic> mRNA expression across a panel of <italic toggle="yes">NRAS</italic>-mutant cell lines (arrows indicate cell lines where AHR dependency was analyzed). <bold>d–h</bold>. Proliferation of <italic toggle="yes">NRAS</italic>-mutant cell lines displaying high (d–f) and low (g–h) <italic toggle="yes">AHR</italic> mRNA expression, after introduction of shRNAs against AHR (red lines) or luciferase (blue lines). <bold>i</bold>. (left) Proliferation of IPC-298 cells (high AHR) after introduction of additional shRNAs against AHR (shAHR_1 and shAHR_4; green and purple lines, respectively) or luciferase (control shLuc; blue line); (right) corresponding immunoblot analysis of AHR protein. <bold>j</bold>. Equivalent studies as in (i) with using SK-MEL-2 cells (high AHR). <bold>k</bold>. Endogenous <italic toggle="yes">CYP1A1</italic> mRNA expression in the neuroblastoma line CHP-212 or the melanoma lines IPC-298 and SK-MEL-2 after exposure to vehicle (blue) or MEK inhibitors (PD-0325901, green or PD-98059, purple). Error bars: standard deviation between replicates, with n=12 (b), n=3 (c), n=6 (d–k).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms361223f3.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <title>Predicting sensitivity to topoisomerase I inhibitors</title>
+          <p><bold>a.</bold> Elastic net regression analysis of genomic correlates of irinotecan sensitivity is shown for 250 cell lines. <bold>b.</bold> Dose-response curves for three Ewing’s sarcoma cell lines (MSS-ES-1, SK-ES-1, and TC-71) and two control cell lines with low <italic toggle="yes">SLFN11</italic> expression (HCC-56, and SK-HEP-1). Grey vertical bars: standard deviation of the mean growth inhibition (n=2). <bold>c.</bold>
+<italic toggle="yes">SLFN11</italic> expression across 4103 primary tumors. Box-and-whisker plots show the distribution of mRNA expression for each subtype, ordered by the median <italic toggle="yes">SLFN11</italic> expression level (line), the inter-quartile range (box) and up to 1.5x the inter-quartile range (bars). Sample numbers (n) are indicated in parentheses.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms361223f4.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

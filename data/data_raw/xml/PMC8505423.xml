@@ -1,0 +1,1448 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">NPJ Breast Cancer</journal-id>
+        <journal-id journal-id-type="iso-abbrev">NPJ Breast Cancer</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">3134</journal-id>
+        <journal-id journal-id-type="pmc-domain">npjbcancer</journal-id>
+        <journal-title-group>
+          <journal-title>NPJ Breast Cancer</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2374-4677</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8505423</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8505423.1</article-id>
+        <article-id pub-id-type="pmcaid">8505423</article-id>
+        <article-id pub-id-type="pmcaiid">8505423</article-id>
+        <article-id pub-id-type="pmid">34635660</article-id>
+        <article-id pub-id-type="doi">10.1038/s41523-021-00339-0</article-id>
+        <article-id pub-id-type="publisher-id">339</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Germline RAD51B variants confer susceptibility to breast and ovarian cancers deficient in homologous recombination</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Setton</surname>
+              <given-names initials="J">Jeremy</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Selenica</surname>
+              <given-names initials="P">Pier</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mukherjee</surname>
+              <given-names initials="S">Semanti</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="R">Rachna</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1474-2553</contrib-id>
+            <name name-style="western">
+              <surname>Pecorari</surname>
+              <given-names initials="I">Isabella</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McMillan</surname>
+              <given-names initials="B">Biko</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9961-6152</contrib-id>
+            <name name-style="western">
+              <surname>Pei</surname>
+              <given-names initials="IX">Isaac X.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5042-5651</contrib-id>
+            <name name-style="western">
+              <surname>Kemel</surname>
+              <given-names initials="Y">Yelena</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ceyhan-Birsoy</surname>
+              <given-names initials="O">Ozge</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sheehan</surname>
+              <given-names initials="M">Margaret</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tkachuk</surname>
+              <given-names initials="K">Kaitlyn</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names initials="DN">David N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="L">Liying</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cadoo</surname>
+              <given-names initials="K">Karen</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8183-4765</contrib-id>
+            <name name-style="western">
+              <surname>Powell</surname>
+              <given-names initials="S">Simon</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9927-1270</contrib-id>
+            <name name-style="western">
+              <surname>Weigelt</surname>
+              <given-names initials="B">Britta</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3109-1692</contrib-id>
+            <name name-style="western">
+              <surname>Robson</surname>
+              <given-names initials="M">Mark</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9873-5862</contrib-id>
+            <name name-style="western">
+              <surname>Riaz</surname>
+              <given-names initials="N">Nadeem</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Offit</surname>
+              <given-names initials="K">Kenneth</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2969-3173</contrib-id>
+            <name name-style="western">
+              <surname>Reis-Filho</surname>
+              <given-names initials="JS">Jorge S.</given-names>
+            </name>
+            <address>
+              <email>reisfilj@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4154-0567</contrib-id>
+            <name name-style="western">
+              <surname>Mandelker</surname>
+              <given-names initials="D">Diana</given-names>
+            </name>
+            <address>
+              <email>mandelkd@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Radiation Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.5012.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 0481 6099</institution-id><institution>GROW School for Ontology and Developmental Biology, University of Maastricht, </institution></institution-wrap>Maastricht, The Netherlands </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Niehaus Center of Inherited Cancer Genomics, Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Molecular Biology Program, Sloan Kettering Institute, </institution></institution-wrap>New York, NY 10065 USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>11</day>
+          <month>10</month>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2021</year>
+        </pub-date>
+        <volume>7</volume>
+        <issue-id pub-id-type="pmc-issue-id">372046</issue-id>
+        <elocation-id>135</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>17</day>
+            <month>7</month>
+            <year>2020</year>
+          </date>
+          <date date-type="accepted">
+            <day>24</day>
+            <month>8</month>
+            <year>2021</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>11</day>
+              <month>10</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>27</day>
+              <month>10</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-11-10 15:25:37.250">
+              <day>10</day>
+              <month>11</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2021</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41523_2021_Article_339.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Pathogenic germline mutations in the RAD51 paralog genes <italic toggle="yes">RAD51C</italic> and <italic toggle="yes">RAD51D</italic>, are known to confer susceptibility to ovarian and triple-negative breast cancer. Here, we investigated whether germline loss-of-function variants affecting another RAD51 paralog gene, <italic toggle="yes">RAD51B</italic>, are also associated with breast and ovarian cancer. Among 3422 consecutively accrued breast and ovarian cancer patients consented to tumor/germline sequencing, the observed carrier frequency of loss-of-function germline <italic toggle="yes">RAD51B</italic> variants was significantly higher than control cases from the gnomAD population database (0.26% vs 0.09%), with an odds ratio of 2.69 (95% CI: 1.4–5.3). Furthermore, we demonstrate that tumors harboring biallelic <italic toggle="yes">RAD51B</italic> alteration are deficient in homologous recombination DNA repair deficiency (HRD), as evidenced by analysis of sequencing data and in vitro functional assays. Our findings suggest that <italic toggle="yes">RAD51B</italic> should be considered as an addition to clinical germline testing panels for breast and ovarian cancer susceptibility.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Cancer genetics</kwd>
+          <kwd>Cancer genetics</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>National Cancer Institute at the National Institutes of Health Paul Calabresi Career Development Award for Clinical Oncology (K12 CA184746)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>Breast Cancer Research Foundation; the Sarah Jenkins Fund</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2021</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par2">Approximately 5–10% of breast cancers and 20–25% of ovarian cancers are hereditary in nature<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Pathogenic germline variants in homologous recombination (HR)-related genes, including <italic toggle="yes">BRCA1</italic> (MIM: 113705), <italic toggle="yes">BRCA2</italic> (MIM: 600185), <italic toggle="yes">BRIP1</italic> (MIM: 605882), <italic toggle="yes">PALB2</italic> (MIM: 610355), <italic toggle="yes">RAD51C</italic> (MIM: 602774), and <italic toggle="yes">RAD51D</italic> (MIM: 602954), confer an increased risk of breast and/or ovarian cancers<sup><xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup>. For female carriers of <italic toggle="yes">RAD51C</italic> or <italic toggle="yes">RAD51D</italic> pathogenic germline variants, the National Comprehensive Cancer Network recommends considering risk-reducing salpingo-oophorectomy to minimize the risk of ovarian cancer<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. The HR deficiency (HRD) characteristic of tumors that arise in individuals harboring germline mutations in HR-related genes can be exploited therapeutically with poly(ADP-ribose) polymerase (PARP) inhibitors and platinum compounds<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>.</p>
+        <p id="Par3"><italic toggle="yes">RAD51B</italic> (MIM: 602948) encodes one of five classical RAD51 paralogs (<italic toggle="yes">RAD51B</italic>, <italic toggle="yes">RAD51C</italic>, <italic toggle="yes">RAD51D</italic>, <italic toggle="yes">XRCC2</italic> [MIM: 600375], and <italic toggle="yes">XRCC3</italic> [MIM: 600675]) known to be required for HR and maintenance of genomic stability<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Structurally related to RAD51, the paralogs are not thought to have a direct role in homology recognition, but act as accessory factors required for proper function of the core RAD51 recombinase<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. Whilst <italic toggle="yes">RAD51C</italic> and <italic toggle="yes">RAD51D</italic> are now established cancer predisposition genes, loss-of-function germline variants in <italic toggle="yes">RAD51B</italic> have only been reported in individual cases of breast and ovarian cancer<sup><xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR16">16</xref></sup>. Here, we sought to determine whether germline loss-of-function variants in <italic toggle="yes">RAD51B</italic> confer an increased risk to these cancers, and whether the resulting tumors harbor a therapeutically targetable HRD phenotype.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Germline RAD51B variants and cancer predisposition</title>
+          <p id="Par4">To investigate the potential contribution of <italic toggle="yes">RAD51B</italic> loss-of-function germline variants to cancer predisposition, we analyzed a cohort of 18,087 individuals with cancer whose tumor and blood samples were characterized using MSK-IMPACT. Among the cancers represented in this cohort were 2265 breast and 1157 ovarian cancers. Overall, 13 (0.07%) cases were found to harbor a <italic toggle="yes">RAD51B</italic> loss-of-function germline variant, a frequency similar to that described in the gnomAD database (0.09%). Notably, 9/10 of the female carriers of a <italic toggle="yes">RAD51B</italic> loss-of-function germline variant had a diagnosis of breast or ovarian cancer (5/2265 and 4/1157), for an odds ratio for breast and ovarian cancer susceptibility of 2.69 (95% CI: 1.4–5.3, <italic toggle="yes">p</italic> = 0.004; Table <xref rid="Tab1" ref-type="table">1</xref>). Though segregation data were not available, 8/13 of the <italic toggle="yes">RAD51B</italic> loss-of-function germline variant carriers had a first or second degree relative with breast or ovarian cancer (Table <xref rid="Tab1" ref-type="table">1</xref>; Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>).<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>Germline <italic toggle="yes">RAD51B</italic> pathogenic variants in MSK vs. gnomAD cohorts.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1"/><th colspan="3" rowspan="1">MSK cohort</th><th colspan="3" rowspan="1">gnomAD cohort</th><th colspan="3" rowspan="1">Comparative Statistics</th></tr><tr><th colspan="1" rowspan="1"/><th colspan="1" rowspan="1">Individuals with <italic toggle="yes">RAD51B</italic> truncating variant (<italic toggle="yes">n</italic>)</th><th colspan="1" rowspan="1">Total individuals (<italic toggle="yes">n</italic>)</th><th colspan="1" rowspan="1">Carrier frequency (%)</th><th colspan="1" rowspan="1">Individuals with <italic toggle="yes">RAD51B</italic> truncating variant (<italic toggle="yes">n</italic>)</th><th colspan="1" rowspan="1">Total individuals (<italic toggle="yes">n</italic>)</th><th colspan="1" rowspan="1">Carrier frequency (%)</th><th colspan="1" rowspan="1">OR</th><th colspan="1" rowspan="1">95%CI</th><th colspan="1" rowspan="1"><italic toggle="yes">P</italic> value</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Pan-cancer</td><td colspan="1" rowspan="1">13</td><td colspan="1" rowspan="1">18,087</td><td colspan="1" rowspan="1">0.07%</td><td colspan="1" rowspan="1">136</td><td colspan="1" rowspan="1">138,632</td><td colspan="1" rowspan="1">0.10%</td><td colspan="1" rowspan="1">0.73</td><td colspan="1" rowspan="1">0.4–1.3</td><td colspan="1" rowspan="1">0.28</td></tr><tr><td colspan="1" rowspan="1">Breast and ovarian cancer</td><td colspan="1" rowspan="1">9</td><td colspan="1" rowspan="1">3422</td><td colspan="1" rowspan="1">0.26%</td><td colspan="1" rowspan="1">136</td><td colspan="1" rowspan="1">138,632</td><td colspan="1" rowspan="1">0.10%</td><td colspan="1" rowspan="1">2.69</td><td colspan="1" rowspan="1">1.4–5.3</td><td colspan="1" rowspan="1">0.004</td></tr></tbody></table><table-wrap-foot><p><italic toggle="yes">MSK</italic> Memorial Sloan Kettering, <italic toggle="yes">gnomAD</italic> The Genome Aggregation Database, <italic toggle="yes">OR</italic> odds ratio, <italic toggle="yes">CI</italic> confidence interval, <italic toggle="yes">NP</italic> not performed.</p></table-wrap-foot></table-wrap></p>
+        </sec>
+        <sec id="Sec4">
+          <title>Genomic landscape of RAD51B-deficient tumors</title>
+          <p id="Par5">Given the observed association of <italic toggle="yes">RAD51B</italic> germline truncating variants with breast and ovarian cancer, we then sought to determine the phenotype and repertoire of somatic genetic alterations in cancers arising in <italic toggle="yes">RAD51B</italic> carriers. Among breast cancers, 4/5 were ER and PR positive and HER2 negative, while the remaining case was ER and PR negative and HER2 positive (Table <xref rid="Tab2" ref-type="table">2</xref>). The average age of breast cancer diagnosis in <italic toggle="yes">RAD51B</italic> carriers was 49 (range 30–61), and ovarian cancer diagnosis was 67.3 (range 58–79). Six additional cases were identified in The Cancer Genome Atlas (TCGA), of which three had biallelic alterations of <italic toggle="yes">RAD51B</italic> (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). The six cases with biallelic <italic toggle="yes">RAD51B</italic> loss-of-function germline variants (germline variant plus loss-of-heterozygosity (LOH) of the wild-type (WT) allele) consistently displayed genomic features of HRD. All 5 cases with biallelic <italic toggle="yes">RAD51B</italic> mutation (germline plus LOH) for whom WES was performed harbored dominant signature 3 (Fig. <xref rid="Fig1" ref-type="fig">1A</xref>) and high large-scale state transition (LST) scores (Fig. <xref rid="Fig1" ref-type="fig">1B</xref>), indicative of defective HR in the tumor<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. Tumors harboring biallelic inactivation of <italic toggle="yes">RAD51B</italic> displayed a small numerical increase in the number of deletions, deletion lengths, and microhomology scores, although this did not reach statistical significance (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Five of six cases with biallelic <italic toggle="yes">RAD51B</italic> inactivation also harbored biallelic somatic variants in <italic toggle="yes">TP53</italic>, which are known to be strongly selected for in BRCA-associated HRD cancers<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. As LOH events themselves are copy number alterations (CNAs) that could contribute to LST signal, we compared biallelic <italic toggle="yes">RAD51B</italic> loss-of-function cases with WT <italic toggle="yes">RAD51B</italic> cases harboring LOH, and found those harboring a loss-of-function <italic toggle="yes">RAD51B</italic> allele to have significantly higher LST scores on average (<italic toggle="yes">p</italic> = 0.02), providing further supportive evidence that <italic toggle="yes">RAD51B</italic> loss leads to genomic scarring characteristic of defective HR, albeit at intermediate levels compared to <italic toggle="yes">BRCA1</italic> or <italic toggle="yes">BRCA2</italic> loss (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). Loss of heterozygosity of the WT allele was also observed at a significantly higher rate among tumors harboring a <italic toggle="yes">RAD51B</italic> loss-of-function germline variant (6/18 cases) vs. those with a variant of unknown significance (VUS; 6/59 cases, <italic toggle="yes">p</italic> = 0.02), suggesting selection for biallelic loss of <italic toggle="yes">RAD51B</italic> in tumors.<table-wrap id="Tab2" position="float" orientation="portrait"><label>Table 2</label><caption><p>Clinical characteristics of germline <italic toggle="yes">RAD51B</italic> pathogenic variant carriers in MSK cohort.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1">ID</th><th colspan="1" rowspan="1">Sex</th><th colspan="1" rowspan="1">Tumor type</th><th colspan="1" rowspan="1"><italic toggle="yes">RAD51B</italic> variant</th><th colspan="1" rowspan="1"><italic toggle="yes">RAD51B</italic> mutation type</th><th colspan="1" rowspan="1">Mean allele frequency (MAF) in gnomAD</th><th colspan="1" rowspan="1">Ethnicity-specific MAF in gnomAD</th><th colspan="1" rowspan="1">Age</th><th colspan="1" rowspan="1">Hormone receptor status</th><th colspan="1" rowspan="1">1st or 2nd degree relative with breast or ovarian cancer</th><th colspan="1" rowspan="1">Ethnicity</th><th colspan="1" rowspan="1">Notes</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">MSK_01</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">Breast Invasive Ductal Carcinoma</td><td colspan="1" rowspan="1">c.85-1 G &gt; C</td><td colspan="1" rowspan="1">Essential splice site SNV</td><td colspan="1" rowspan="1">1/246274 (0.0004)</td><td colspan="1" rowspan="1">0/33148 (0%)</td><td colspan="1" rowspan="1">61</td><td colspan="1" rowspan="1">ER+, PR+, HER2−</td><td colspan="1" rowspan="1">Yes, breast cancer</td><td colspan="1" rowspan="1">Hispanic/Latino</td><td colspan="1" rowspan="1">Bilateral breast cancer</td></tr><tr><td colspan="1" rowspan="1">MSK_02</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">Breast Invasive Ductal Carcinoma</td><td colspan="1" rowspan="1">c.1036 + 2 T &gt; C</td><td colspan="1" rowspan="1">Essential splice site SNV</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">41</td><td colspan="1" rowspan="1">ER+, PR+, HER2−</td><td colspan="1" rowspan="1">No</td><td colspan="1" rowspan="1">Turkish</td><td colspan="1" rowspan="1">Multifocal breast cancer</td></tr><tr><td colspan="1" rowspan="1">MSK_03</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">High-Grade Serous Ovarian Cancer</td><td colspan="1" rowspan="1">c.37 C &gt; T(p.Gln13*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">2/251326 (0.0008%)</td><td colspan="1" rowspan="1">2/30586 (0.007%)</td><td colspan="1" rowspan="1">64</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">Yes, breast cancer</td><td colspan="1" rowspan="1">Hispanic/Latino</td><td colspan="1" rowspan="1">Synchronous endometrial cancer</td></tr><tr><td colspan="1" rowspan="1">MSK_04</td><td colspan="1" rowspan="1">Male</td><td colspan="1" rowspan="1">Unclassified Renal Cell Carcinoma</td><td colspan="1" rowspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>(RAD51B): c.139 C &gt; T(p.Arg47*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">38/282688 (0.01%)</td><td colspan="1" rowspan="1">12/129140 (0.009%)</td><td colspan="1" rowspan="1">51</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">No</td><td colspan="1" rowspan="1">Caucasian</td><td colspan="1" rowspan="1">Synchronous prostate cancer</td></tr><tr><td colspan="1" rowspan="1">MSK_05</td><td colspan="1" rowspan="1">Male</td><td colspan="1" rowspan="1">High-Grade Neuroendocrine Carcinoma of the Colon/Rectum</td><td colspan="1" rowspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>(RAD51B): c.139 C &gt; T(p.Arg47*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">38/282688 (0.01%)</td><td colspan="1" rowspan="1">2/35374 (0.006%)</td><td colspan="1" rowspan="1">44</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">No</td><td colspan="1" rowspan="1">Hispanic/Latino</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">MSK_06</td><td colspan="1" rowspan="1">Male</td><td colspan="1" rowspan="1">Adenocarcinoma of the Gastroesophageal Junction</td><td colspan="1" rowspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>(RAD51B): c.139 C &gt; T(p.Arg47*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">38/282688 (0.01%)</td><td colspan="1" rowspan="1">2/35374 (0.006%)</td><td colspan="1" rowspan="1">31</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">Yes, breast and ovarian cancer</td><td colspan="1" rowspan="1">Hispanic/Latino</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">MSK_07</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">High-Grade Serous Ovarian Cancer</td><td colspan="1" rowspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>(RAD51B): c.139 C &gt; T(p.Arg47*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">38/282688 (0.01%)</td><td colspan="1" rowspan="1">12/129140 (0.009%)</td><td colspan="1" rowspan="1">58</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">Yes, breast cancer</td><td colspan="1" rowspan="1">Caucasian</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">MSK_08</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">High-Grade Serous Ovarian Cancer</td><td colspan="1" rowspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>(RAD51B): c.139 C &gt; T(p.Arg47*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">38/282688 (0.01%)</td><td colspan="1" rowspan="1">12/129140 (0.009%)</td><td colspan="1" rowspan="1">68</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">Yes, breast cancer</td><td colspan="1" rowspan="1">Caucasian</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">MSK_09</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">Breast Invasive Ductal Carcinoma</td><td colspan="1" rowspan="1">c.204 T &gt; A(p.Tyr68*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">48</td><td colspan="1" rowspan="1">ER−, PR−, HER2+</td><td colspan="1" rowspan="1">Yes, breast cancer</td><td colspan="1" rowspan="1">Hispanic/Latino</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">MSK_10</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">Breast Invasive Ductal Carcinoma</td><td colspan="1" rowspan="1">c.952 A &gt; T(p.Arg318*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">1/31408 (0.003%)</td><td colspan="1" rowspan="1">1/15434 (0.006%)</td><td colspan="1" rowspan="1">30</td><td colspan="1" rowspan="1">ER+, PR+, HER2−</td><td colspan="1" rowspan="1">No</td><td colspan="1" rowspan="1">Caucasian</td><td colspan="1" rowspan="1">Also a <italic toggle="yes">BLM</italic> p.Ser595* carrier</td></tr><tr><td colspan="1" rowspan="1">MSK_11</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">Breast Invasive Ductal Carcinoma</td><td colspan="1" rowspan="1">c.85-2delA</td><td colspan="1" rowspan="1">Essential splice site Indel</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">43</td><td colspan="1" rowspan="1">ER+, PR+, HER2−</td><td colspan="1" rowspan="1">No</td><td colspan="1" rowspan="1">Turkish</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">MSK_12</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">High-Grade Serous Ovarian Cancer</td><td colspan="1" rowspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>(RAD51B): c.139 C &gt; T(p.Arg47*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">38/282688 (0.01%)</td><td colspan="1" rowspan="1">2/35374 (0.006%)</td><td colspan="1" rowspan="1">79</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">Yes, breast cancer</td><td colspan="1" rowspan="1">Hispanic/Latino</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">MSK_13</td><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">Melanoma</td><td colspan="1" rowspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>(RAD51B): c.139 C &gt; T(p.Arg47*)</td><td colspan="1" rowspan="1">Truncating SNV</td><td colspan="1" rowspan="1">38/282688 (0.01%)</td><td colspan="1" rowspan="1">12/129140 (0.009%)</td><td colspan="1" rowspan="1">67</td><td colspan="1" rowspan="1">NP</td><td colspan="1" rowspan="1">Yes, breast cancer</td><td colspan="1" rowspan="1">Caucasian</td><td colspan="1" rowspan="1"/></tr></tbody></table><table-wrap-foot><p><italic toggle="yes">gnomAD</italic> The Genome Aggregation Database, <italic toggle="yes">ER</italic> estrogen receptor, <italic toggle="yes">PR</italic> progesterone receptor, <italic toggle="yes">HER2</italic> human epidermal growth factor receptor 2, <italic toggle="yes">NP</italic> not performed.</p></table-wrap-foot></table-wrap><fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Genomic landscape of <italic toggle="yes">RAD51B</italic>-associated cancers.</title><p><bold>A</bold> Recurrent (present in ≥2 samples) nonsynonymous somatic mutations identified in 18 tumors from patients with germline <italic toggle="yes">RAD51B</italic> mutations using targeted massively parallel sequencing (MSK-IMPACT; <italic toggle="yes">n</italic> = 8) or whole-exome sequencing (WES; <italic toggle="yes">n</italic> = 8). Phenobar provides information on <italic toggle="yes">RAD51B</italic> germline mutations, dominant mutational signatures and cancer type. Loss of heterozygosity (LOH) of the <italic toggle="yes">RAD51B</italic> wild-type allele is displayed by a white diagonal line. <bold>B</bold> Large-scale transition (LST) scores in biallelic <italic toggle="yes">RAD51B</italic>-associated cancers, monoallelic <italic toggle="yes">RAD51B</italic>-associated cancers, biallelic <italic toggle="yes">BRCA1</italic>-associated cancers and biallelic <italic toggle="yes">BRCA2</italic>-associated cancers from TCGA.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1448" position="float" orientation="portrait" xlink:href="41523_2021_339_Fig1_HTML.jpg"/></fig><fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Analysis of genomic deletions in <italic toggle="yes">RAD51B</italic>-associated cancers.</title><p><bold>A</bold> Number of deletions in biallelic <italic toggle="yes">RAD51B</italic>-associated cancers, monoallelic <italic toggle="yes">RAD51B</italic>-associated cancers, biallelic <italic toggle="yes">BRCA1</italic>-associated cancers and biallelic <italic toggle="yes">BRCA2</italic>-associated cancers. Note one mon-allelic <italic toggle="yes">RAD51B</italic> was removed from the plot due to a large number of indels (142) driven by microsatellite instability. <bold>B</bold> Median deletion length in biallelic <italic toggle="yes">RAD51B</italic>-associated cancers, monoallelic <italic toggle="yes">RAD51B</italic>-associated cancers, biallelic <italic toggle="yes">BRCA1</italic>-associated cancers and biallelic BRCA2-associated cancers. <bold>C</bold> Deletion microhomology scores in biallelic <italic toggle="yes">RAD51B</italic>-associated cancers, monoallelic <italic toggle="yes">RAD51B</italic>-associated cancers, biallelic <italic toggle="yes">BRCA1</italic>-associated cancers and biallelic <italic toggle="yes">BRCA2</italic>-associated cancers. A deletion was classified as having microhomology when deletion length was ≥4 bases with homology ≥3 bases. Microhomology scores are calculated by dividing the total number of deletions with microhomology by the total number of deletions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1508" position="float" orientation="portrait" xlink:href="41523_2021_339_Fig2_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec5">
+          <title>Functional impact of RAD51B deficiency</title>
+          <p id="Par6">To assess the impact of RAD51B-deficiency on HR efficiency, we quantified the effect of <italic toggle="yes">RAD51B</italic> silencing on the fidelity of HR, as defined by the accumulation of RAD51 nuclear foci following DNA damage, in two breast epithelial cell lines, MCF-10A and MCF-12A. The accumulation of RAD51 nuclear foci in response to DNA damage reflects the fidelity of upstream components of the HR pathway and has been shown to effectively predict clinical responses to HRD-targeting therapies, including PARP inhibition<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>. In comparison to a negative control (shRenilla), expression of two different shRNAs against <italic toggle="yes">RAD51B</italic> expression resulted in significantly impaired RAD51 nuclear foci formation (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). Silencing of <italic toggle="yes">RAD51B</italic> also resulted in increased sensitivity to olaparib and mitomycin-C, agents that are both known to target HRD cancers (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). RAD51B-deficient cells were slightly less sensitive to both agents than BRCA1-deficient cells, concordant with the intermediate LST and signature 3 phenotypes observed for such tumors (Fig. <xref rid="Fig1" ref-type="fig">1B</xref>).<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>Functional characterization of RAD51B-deficiency on efficiency of homologous recombination.</title><p><bold>A</bold>, <bold>B</bold> RAD51 focus formation assay in MCF-12A and MCF-10A mammary epithelial cells expressing one of two independent <italic toggle="yes">RAD51B</italic> shRNAs, Renilla shRNA (nontarget control), or <italic toggle="yes">BRCA1</italic> shRNA (positive control). Cells were plated onto eight-well chamber slides (EMD Millipore) and exposed to 10 Gy of ionizing radiation or mock irradiated (0 Gy). Nuclear RAD51 foci were visualized and quantified in two independent experiments (Supplemental Methods). Error bars represent standard error of mean (SEM).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1561" position="float" orientation="portrait" xlink:href="41523_2021_339_Fig3_HTML.jpg"/></fig><fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><title>RAD51B-deficiency and sensitivity to MMC and PARPi.</title><p><bold>A</bold>, <bold>B</bold> Clonogenic survival assays of the indicated cell lines in response to olaparib or mitomycin C. Cells were expressing one of two independent <italic toggle="yes">RAD51B</italic> shRNAs, Renilla shRNA (nontarget control), or <italic toggle="yes">BRCA1</italic> shRNA (positive control). Error bars represent SEM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1583" position="float" orientation="portrait" xlink:href="41523_2021_339_Fig4_HTML.jpg"/></fig></p>
+          <p id="Par7">As noted in our Methods, loss-of-function <italic toggle="yes">RAD51B</italic> alleles were defined as those harboring a single nucleotide variant (SNV) or insertion or deletion (indel) predicted to result in a frameshifted or truncated reading frame. Nevertheless, several truncating alleles in our study, including the c.139 C &gt; T(p.Arg47*) variant carried by 7/13 patients in our cohort, have not been formally classified as pathogenic or likely pathogenic by American College of the Medical Genetics (ACMG) criteria. To provide supporting evidence that the truncating alleles present in our cohort are deleterious to RAD51B function, we used the standard DR-GFP reporter assay established in U2OS cells, as previously described<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>, to test the HR phenotype of the c.139 C &gt; T(p.Arg47*) variant. As shown in Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>, this variant was unable to complement HR proficiency beyond that observed with expression of an empty vector, in contrast to complementation with WT <italic toggle="yes">RAD51B</italic>, which resulted in an approximately twofold increase in recombination repair.</p>
+        </sec>
+      </sec>
+      <sec id="Sec6" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par8">Pathogenic germline mutations in <italic toggle="yes">BRCA1</italic>, <italic toggle="yes">BRCA2</italic>, <italic toggle="yes">PALB2</italic>, <italic toggle="yes">RAD51C</italic>, and <italic toggle="yes">RAD51D</italic>, all of which are involved in the HR pathway, are known to confer high or moderate penetrance susceptibility to ovarian and/or triple-negative breast cancer. In contrast to these known cancer predisposition genes, the role of <italic toggle="yes">RAD51B</italic> in conferring susceptibility to hereditary breast and ovarian cancer has not yet been established. Our findings provide evidence that rare loss-of-function germline variants in <italic toggle="yes">RAD51B</italic> (found in 9/3422 [0.26%] consecutive breast or ovarian cancer cases who consented for germline analysis) are indeed associated with an increased risk of breast and ovarian cancer among women.</p>
+        <p id="Par9">Our definition of loss-of-function <italic toggle="yes">RAD51B</italic> alleles included all SNVs and indels predicted to result in a frameshifted or truncated reading frame. Despite encoding for truncated and/or frameshifted RAD51B protein, several <italic toggle="yes">RAD51B</italic> alleles in our cohort could arguably be considered variants of unknown significance by formal ACMG criteria<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>, including the c.139 C &gt; T(p.Arg47*) variant carried by seven patients in our cohort. Our experimental data using the DR-GFP reporter assay of HR proficiency demonstrate that the c.139 C &gt; T(p.Arg47*) variant cannot complement the HR-deficiency observed in RAD51B-deficient cells, and suggests that this allele results in loss of function. While we were unable to test all novel <italic toggle="yes">RAD51B</italic> variants present in the MSK and TCGA cohorts, functional data suggest that the Walker A and B motifs of RAD51B are important for its interaction with RAD51C and for its function in HR<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. Notably, 11 of the 13 patients in our cohort harbored <italic toggle="yes">RAD51B</italic> alleles predicted to disrupt one or both Walker motifs. As these motifs are important for the interaction of RAD51B with RAD51C and for its function in HR, alleles that truncate or frameshift these domains appear likely to affect protein function. Further experimental data will nevertheless be required to confirm these observations and to assess the pathogenicity of untested alleles that truncate the C-terminus of RAD51B.</p>
+        <p id="Par10">In our cohort of 3422 index breast and ovarian cancer cases, we found <italic toggle="yes">RAD51B</italic> loss-of-function germline variants (9/3422 cases) to be almost as common as those affecting <italic toggle="yes">RAD51C</italic> and <italic toggle="yes">RAD51D</italic> (combined 16/3422 cases). The prevalence of mutations affecting these Rad51 paralogs in our cohort was comparable to a prior study of ovarian cancer patients which identified a similar overall prevalence of loss-of-function germline variants in <italic toggle="yes">RAD51B/C/D</italic> (combined 22/3112 cases)<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. At variance with our data, however, this study identified only 2 patients with alterations in <italic toggle="yes">RAD51B</italic>, with the remaining 20 patients harboring germline inactivation of a <italic toggle="yes">RAD51C</italic> or <italic toggle="yes">RAD51D</italic> allele. This study and others<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>, have also demonstrated that carriers of pathogenic <italic toggle="yes">RAD51C</italic>/D mutations tend to develop triple-negative breast cancers, in contrast to the predominantly (4 of 5 cases) hormone receptor-positive breast cancers identified among carriers of <italic toggle="yes">RAD51B</italic> mutations in our cohort. Given the rarity of loss-of-function germline <italic toggle="yes">RAD51B</italic> variants, our study had limited statistical power to assess an association between <italic toggle="yes">RAD51B</italic> inactivation and hormone receptor status among breast cancer cases, and additional cases will be required to confirm the association. One plausible hypothesis for the differences in molecular subtype associated with each mutated paralog relates to the cell of origin and mammary stem/progenitor cell maturation. The observation that <italic toggle="yes">BRCA1</italic> mutation carriers tend to develop triple-negative breast cancers while <italic toggle="yes">BRCA2</italic> mutation carriers show the same range of hormonal receptor subtypes as sporadic breast cancer, has previously been attributed to a role for BRCA1 in the maturation of ER-positive mammary epithelial progenitor cells<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup>. It remains to be seen, however, whether RAD51C or RAD51D play a similar role in the maturation of mammary progenitor cells.</p>
+        <p id="Par11">In addition to providing evidence that <italic toggle="yes">RAD51B</italic> serves as a cancer predisposition gene, our findings confirm that tumors harboring biallelic inactivation of <italic toggle="yes">RAD51B</italic> are deficient in HR and are likely to be sensitive to both PARP inhibitors and interstrand crosslinking agents.</p>
+        <p id="Par12">Prior in vitro studies using Chinese hamster cells and the chicken DT40 cell line have demonstrated the classical RAD51 paralogs, including <italic toggle="yes">RAD51B</italic>, to be critical for the integrity of the HR pathway in such model systems<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR27">27</xref></sup>. Nevertheless, a recent report using human isogenic cell lines suggested that <italic toggle="yes">RAD51B</italic> may be distinct from the other paralogs in terms of its essentiality for HR and cellular viability, with <italic toggle="yes">RAD51B</italic><sup><italic toggle="yes">−/−</italic></sup> human cells displaying a weaker, intermediate sensitivity to DNA damage<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>, despite being known to function in a heterotypic complex with other paralogs (RAD51C, RAD51D, XRCC2)<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Our finding that RAD51B-deficient cells are less sensitive to mitomycin C and olaparib than BRCA1-deficient cells, and yet markedly more sensitive than the corresponding WT controls, are concordant with these reported results. Likewise, our observation that tumors harboring biallelic <italic toggle="yes">RAD51B</italic> inactivation display an intermediate LST and signature 3 features compared to WT and BRCA1/2-deficient tumors, respectively, is suggestive of a significant but moderately attenuated HR-deficient phenotype among such tumors.</p>
+        <p id="Par13">Prior genomic data derived from whole genome-sequenced ovarian tumors have suggested that <italic toggle="yes">RAD51B</italic> inactivation may be associated with an enrichment of foldback inversions, a structural variant characterized by inverted duplications<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Wang et al. employed hierarchical clustering analysis of 133 whole genome-sequenced ovarian tumors to identify a subgroup characterized by a high prevalence of foldback inversions<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Among 24 tumors in this ‘high’ foldback inversion subgroup, seven (29%) were found to harbor <italic toggle="yes">RAD51B</italic> somatic inactivation. This subgroup also exhibited an intermediate elevation of genomic features associated with HRD, and was distinct from a separate HR-deficient subgroup that was enriched with BRCA1- and PALB2-deficient tumors. The nature of our sequencing data (whole exome) unfortunately did not allow us to identify such structural variants, but further examination of this link could help to clarify the genomic consequences of <italic toggle="yes">RAD51B</italic> loss and whether it diverges from other core genes required for HR.</p>
+        <p id="Par14">Three male patients in our cohort carrying a <italic toggle="yes">RAD51B</italic> loss-of-function variant were affected by malignant tumors, but none were of mammary origin (Table <xref rid="Tab2" ref-type="table">2</xref>). To our knowledge, there is no published evidence that <italic toggle="yes">RAD51B</italic> loss-of-function variants are associated with cancer predisposition among men. Prior reports have found a common single nucleotide polymorphism (SNP) in intron 7 of RAD51B (rs1314913) to be associated with a low risk of male breast cancer<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup>. Orr et al. for example, demonstrated rs1314913 to be significantly associated with male, but not female breast cancer risk, with an odds ratio of ~1.6<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. As non-coding SNPs often influence their target genes through long-range chromosomal interactions<sup><xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR32">32</xref></sup>, rather than the closest or most biologically relevant nearby gene<sup><xref ref-type="bibr" rid="CR30">30</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>, further studies are needed to identify the causative haplotype underlying the association. Given the absence of functional data suggesting a link between the rs1314913 SNP and RAD51B function, as well as the fact that none of the men in our cohort harboring a loss-of-function <italic toggle="yes">RAD51B</italic> allele presented with breast cancer, there appears to be minimal evidence of a cancer predisposition phenotype for loss-of-function <italic toggle="yes">RAD51B</italic> variants among men at this juncture.</p>
+        <p id="Par15">Our study has important limitations. The frequency of <italic toggle="yes">RAD51B</italic> loss-of-function variants in our cohort was compared to the entire gnomAD database, hence we cannot exclude the possibility that the proportion of ethnicities do not exactly match the gnomAD database, given that the ethnicities of the individuals in our cohort reflect the diversity of a New York City population. Interestingly, 6/13 of the RAD51B carriers were Hispanic while 2/13 were Turkish. This raises the possibility that RAD51B pathogenic variants may contribute more to breast and ovarian cancer susceptibility in non-Caucasian populations. Further studies are warranted to confirm the role of <italic toggle="yes">RAD51B</italic> in conferring breast and ovarian cancer susceptibility in additional populations and to define the inclusion of <italic toggle="yes">RAD51B</italic> in panels for genetic risk prediction multigene assays. An additional 3 breast and ovarian cancer cases were not analyzed in this cohort because in additional to <italic toggle="yes">RAD51B</italic> germline mutations, they carried another high or moderate penetrance mutation in a cancer susceptibility gene (1 each <italic toggle="yes">BRCA2</italic>, <italic toggle="yes">RAD51D</italic>, <italic toggle="yes">ATM</italic>). However, it is a well-known phenomenon that individuals can have germline mutations in more than one cancer susceptibility gene, including simultaneous <italic toggle="yes">BRCA1</italic> and <italic toggle="yes">BRCA2</italic> mutations<sup><xref ref-type="bibr" rid="CR34">34</xref>–<xref ref-type="bibr" rid="CR36">36</xref></sup>, and that either one may be an initiating factor in an individual’s cancer or the mutations in the HR pathway may act synergistically in tumor development. Three patients in our MSK cohort harbored germline <italic toggle="yes">RAD51B</italic> variants that affected canonical dinucleotide splicing sites. While computational algorithms predict that all 3 of these variants effect splicing and the positive predictive value of canonical splice site donor or acceptor disruption has previously been shown to approach &gt;95%<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, RNA sequencing data for these cases was unavailable and we could not directly assess for intron retention/deleterious splicing at the transcript level.</p>
+        <p id="Par16">Taken together, the data presented here support the notion that <italic toggle="yes">RAD51B</italic> loss-of-function germline variants result in increased breast and ovarian cancer predisposition and that biallelic loss of <italic toggle="yes">RAD51B</italic> in tumor cells leads to an HRD phenotype and potential sensitivity to HRD-targeting therapies. If the risk estimates reported here are confirmed, our findings indicate that <italic toggle="yes">RAD51B</italic> should be included in multigene panel testing for genetic risk prediction.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Methods</title>
+        <sec id="Sec8">
+          <title>Patient data</title>
+          <p id="Par17">Individuals with a <italic toggle="yes">RAD51B</italic> loss-of-function germline variant were identified from the cohort of patients who consented to undergo somatic and germline analysis under an Institutional Review Board-approved protocol at Memorial Sloan Kettering Cancer Center (MSKCC) and were profiled using the MSK-IMPACT assay (<italic toggle="yes">n</italic> = 9287). Three breast and ovarian cancer cases were excluded from the analysis, as in addition to harboring a <italic toggle="yes">RAD51B</italic> loss-of-function germline variant, they also carried an additional mutation in a cancer susceptibility gene (1 each <italic toggle="yes">BRCA2</italic>, <italic toggle="yes">RAD51D</italic>, or <italic toggle="yes">ATM</italic> [MIM: 607585]). None of the <italic toggle="yes">RAD51B</italic>-associated cancers included in this analysis harbored germline alterations in known cancer susceptibility genes. All germline <italic toggle="yes">RAD51B</italic> variants were reviewed by a board-certified molecular pathologist (D.M.); loss-of-function alleles were defined as those harboring an SNV or indel resulting in a frameshifted or truncated reading frame, including start/stop codon changes or canonical dinucleotide splice site disruption. Surgical pathology reports and medical records were reviewed (D.M., Y.K). to establish clinico-pathologic features and family histories. For breast cancer cases, estrogen receptor (ER), progesterone receptor (PR), and HER2 status were assessed following the American Society of Clinical Oncology/College of American Pathologists guidelines<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>.</p>
+        </sec>
+        <sec id="Sec9">
+          <title>Statistical analysis</title>
+          <p id="Par18">The carrier frequency of loss-of-function variants in gnomAD was compared to the carrier frequency in the cancer patient cohort using the Fisher exact test (RStudio 1.0.143). All statistical tests were two-sided with <italic toggle="yes">p</italic> &lt; 0.05 considered statistically significant.</p>
+        </sec>
+        <sec id="Sec10">
+          <title>Massively parallel sequencing and bioinformatics analysis</title>
+          <p id="Par19">Tumor and matched normal DNA samples were subjected to targeted massively parallel sequencing using the Memorial Sloan Kettering Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT) assay, which targets all exons and selected introns of 410 (<italic toggle="yes">n</italic> = 1) or 468 (<italic toggle="yes">n</italic> = 12) cancer genes, as previously described<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. Sequencing data was analyzed for SNVs and small insertions and deletions (indels) as previously described<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. Loss-of-function alleles were defined as those harboring an SNV or indel resulting in a frameshifted or truncated reading frame, including start/stop codon changes or canonical dinucleotide splice site disruption. FACETS was used to determine CNAs and whether the WT copy of <italic toggle="yes">RAD51B</italic> was subject to loss of heterozygosity (LOH) in individuals who harbor germline <italic toggle="yes">RAD51B</italic> truncating variants<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>. Mutational hotspots were annotated according to Chang et al.<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. Data for TCGA cases with <italic toggle="yes">RAD51B</italic> germline variants were downloaded from the National Cancer Institute (NCI) Genomic Data Commons legacy archive. Signature Multivariate Analysis (SigMA), a tool to detect the HRD mutational signature Sig3 from targeted gene panels<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>, was employed for samples with ≥5 somatic SNVs. To assess structural/copy number signatures of HRD, LSTs were defined, and a cut-off ≥15 was employed to define LST-high cases, as previously described<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. To eliminate the possibility of confounding by treatment-related genomic changes previously treated metastatic samples were excluded from mutational and structural signature analysis. As LOH events themselves are CNAs that could contribute to LST signal, cases harboring <italic toggle="yes">RAD51B</italic> LOH with a loss-of-function allele were compared to TCGA cases harboring <italic toggle="yes">RAD51B</italic> LOH with a WT allele. For this analysis, cases harboring a deleterious HR gene mutation or cancer type not present in our cohort were excluded.</p>
+        </sec>
+        <sec id="Sec11">
+          <title>Cell culture</title>
+          <p id="Par20">The immortalized but non-transformed MCF-12A and MCF-10A breast epithelial cell lines were purchased from American Type Culture Collection (ATCC). These cells were short tandem repeat (STR) profiled by the provider and used within the first 20 passages. Cell lines were tested for mycoplasma infection using the Universal Mycoplasma Detection Kit (ATCC) and grown in Dulbecco’s modified Eagle’s medium (DMEM):F12 medium supplemented with 5% horse serum (ThermoFisher), 20 ng/ml epidermal growth factor (PeproTech), 500 ng/ml hydrocortisone (Sigma), 10 µg/ml insulin (Sigma), and 100 ng/ml cholera toxin (EMD Millipore).</p>
+        </sec>
+        <sec id="Sec12">
+          <title>Plasmid construction, lentivirus production, and transduction</title>
+          <p id="Par21">Gene knockdowns were achieved using a doxycycline-inducible shRNA strategy. The LT3RENIR lentiviral miR-E-based expression vector backbone was purchased from the MSKCC Gene Editing and Screening Core Facility. For generation of miR-E shRNAs, 97-mer oligonucleotides were purchased (IDT Ultramers) coding for predicted shRNAs using an siRNA prediction tool (Splash RNA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://splashrna.mskcc.org/">http://splashrna.mskcc.org/</ext-link>). 97-mer oligonucleotides were PCR amplified using the primers miRE-Xho-fw and miRE-Eco-rev. PCR products were purified and both PCR product and LT3RENIR vectors were double digested with EcoRI-HF and XhoHI. PCR product and vector backbone were ligated and transformed in Stbl3 competent cells and grown at 32 °C overnight. Colonies were screened using the miRE-fwd primers. Sequences for 97-mer oligonucleotides and PCR/sequencing primers are listed in the Supplementary Materials. Lentiviral particles expressing shRNA hairpins were generated using Lenti-X 293T cells (Takara). One day prior to transfection, 3.8 million Lenti-X 293T cells were seeded in 10 cm plates. Each 10 cm plate was transfected with a LT3RENIR-based shRNA expression construct along with packaging plasmids psPAX2 and pMD2.G (Cellecta) using polyethylenimine (Sigma). Twenty-four hours after transfection, media containing DNA transfection mixture was replaced with regular DMEM supplemented with 10% FBS. Media containing lentivirus was harvested at 24, 48, and 72 h, prior to being pooled, mixed with Lenti-X concentrator solution, centrifuged, and resuspended in PBS. All shRNAs were assessed at single copy genomic integration by infecting target cell population at &lt;20% of their maximal infection rate, guaranteeing &lt;2% cells with multiple integrations. Transduced cell populations were selected 48 h after infection, using 500–2000 μg/ml G418 (Geneticin, Gibco-Invitrogen).</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Immunoblotting</title>
+          <p id="Par22">Whole-cell extracts were prepared by lysing cells in radioimmunoprecipitation buffer. Protein (100 g) was loaded into 3–8% Tris acetate gels (Thermo Fisher), subjected to SDS-PAGE, transferred onto nitrocellulose, and blocked with 5% milk–TBST (for 1 h at room temperature. Immunodetection was performed using the following antibodies: anti-RAD51B (sc-53430; Santa Cruz); anti-BRCA1 (OP-92; Calbiochem); anti-Actin (ab14128; Abcam). All immunoblots were derived from same experiment and processed in parallel.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>RAD51 foci formation assay</title>
+          <p id="Par23">Cells were plated onto eight-well chamber slides (EMD Millipore) and exposed to 10 Gy of ionizing radiation or mock irradiated (0 Gy). After 4 h, cells were fixed, permeabilized, and co-immunostained with primary antibodies targeting RAD51 (polyclonal rabbit antibody, PC-130; EMD Millipore). Nuclei were counterstained with 4′,6-diamidino-2- phenylindole (DAPI). Nuclear RAD51 foci were visualized and quantified in a minimum of 200 cells in three independent experiments with a Zeiss LSM 880 confocal microscope.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Clonogenic survival assays</title>
+          <p id="Par24">MCF-12A and MCF-10A cells were seeded in six-well plates and allowed to attach for 4 h before treatment with olaparib (Selleckchem AZD2281) or mitomycin-C (Sigma 10107409001) at the indicated doses. After 10–14 days cells were washed, fixed with methanol, and stained with crystal violet. Colonies containing more than 50 cells were counted. Results were normalized to untreated cells; for each genotype cell viability of untreated cells was defined as 100%.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Direct repeat-green fluorescent reporter (DR-GFP) assay</title>
+          <p id="Par25">To assess the influence of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>[RAD51B]: c.139 C &gt; T(p.Arg47*) variant on RAD51B-dependent HR, we used the standard DR-GFP reporter assay established in U2OS cells, as previously described<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. In brief, these cells were modified to express an inducible shRNA against the 5′ untranslated region (UTR) of <italic toggle="yes">RAD51B</italic>. Seventy-two hours after introducing doxycycline to induce expression of RAD51B shRNA, cells were transfected with an expression vector encoding WT RAD51B, the R47Ter variant (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_002877.6">NM_002877.6</ext-link>[RAD51B]: c.139 C &gt; T[p.Arg47*]), or an empty reading frame (all expression vectors lacked the 5′UTR of <italic toggle="yes">RAD51B</italic>). A second transfection was performed 24 h after the first to introduce vectors encoding the I-SceI endonuclease, GFP (positive transfection control) or empty vector (negative control). Forty-eight hours after the second transfection, cells were trypsinized and single cell suspensions were analyzed by flow cytometry</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Reporting summary</title>
+          <p id="Par26">Further information on research design is available in the <xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec18">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41523_2021_339_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41523_2021_339_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+        <fn>
+          <p>These authors contributed equally: Jeremy Setton, Pier Selenica.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p>The online version contains supplementary material available at 10.1038/s41523-021-00339-0.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This work was supported by the Breast Cancer Research Foundation (to J.S.R.-F.); the Sarah Jenkins Fund (to J.S.R.-F.); the National Cancer Institute at the National Institutes of Health Paul Calabresi Career Development Award for Clinical Oncology (to J.S., K12 CA184746); and the National Cancer Institute at the National Institutes of Health Cancer Center Support Grant (P30 CA008747). The funders had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication. We are grateful to the members of the Reis-Filho, Offit, and Powell labs for their advice, discussion, and insight.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>D.M., J.S. and J.S.R.-F. conceived the study. P.S., I.X.P. and D.B. performed bioinformatics analyses. D.M., J.S., S.M., Y.K, O.C.-B., M.S., K.T., L.Z., K.C., S.P., B.W., M.R., N.R., K.O. and J.S.R.-F. interpreted the data. R.S., I.P. and B.K. performed the functional studies. D.M., J.S., P.S. and J.S.R.-F. wrote the first draft of the manuscript, which was edited and approved by all authors.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>Clinicopathologic data are available in the Supplementary Data. Additional validation for isogenic cell lines are available in the Supplementary Materials. Identifying information for the patients is not available to protect patient privacy. Please note that the materials and reagents used in this study may be subject to an institutional material transfer agreement. All other data generated and analysed during this study are publicly available as described in the following data record: 10.6084/m9.figshare.14665086<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>.</p>
+      </notes>
+      <notes id="FPar1" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par27">J.S.R.-F. is a consultant with paid honoraria of Goldman Sachs and REPARE Therapeutics, a member of the scientific advisory boards of Volition RX and Paige.AI, and an ad hoc member of the scientific advisory boards of Roche Tissue Diagnostics, Ventana Medical Systems, Novartis, Roche, Genentech and InVicro. He is also a deputy editor for NPJ Breast Cancer. The remaining authors declare no competing interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nielsen</surname>
+                <given-names>FC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van Overeem Hansen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sorensen</surname>
+                <given-names>CS</given-names>
+              </name>
+            </person-group>
+            <article-title>Hereditary breast and ovarian cancer: new genes in confined pathways</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2016</year>
+            <volume>16</volume>
+            <fpage>599</fpage>
+            <lpage>612</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrc.2016.72</pub-id>
+            <pub-id pub-id-type="pmid">27515922</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>King</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Marks</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mandell</surname>
+                <given-names>JB</given-names>
+              </name>
+              <collab>New York Breast Cancer Study.</collab>
+            </person-group>
+            <article-title>G. Breast and ovarian cancer risks due to inherited mutations in BRCA1 and BRCA2</article-title>
+            <source>Science</source>
+            <year>2003</year>
+            <volume>302</volume>
+            <fpage>643</fpage>
+            <lpage>646</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.1088759</pub-id>
+            <pub-id pub-id-type="pmid">14576434</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shimelis</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Triple-negative breast cancer risk genes identified by multigene hereditary cancer panel testing</article-title>
+            <source>J. Natl Cancer Inst.</source>
+            <year>2018</year>
+            <volume>110</volume>
+            <fpage>855</fpage>
+            <lpage>862</lpage>
+            <pub-id pub-id-type="doi">10.1093/jnci/djy106</pub-id>
+            <pub-id pub-id-type="pmid">30099541</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6093350</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <mixed-citation publication-type="other">Li, N. et al. Combined tumor sequencing and case/control analyses of RAD51C in breast cancer. <italic toggle="yes">J Natl Cancer Inst</italic>, 10.1093/jnci/djz045 (2019).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djz045</pub-id><pub-id pub-id-type="pmcid">PMC6910168</pub-id><pub-id pub-id-type="pmid">30949688</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Loveday</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Germline mutations in RAD51D confer susceptibility to ovarian cancer</article-title>
+            <source>Nat. Genet</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>879</fpage>
+            <lpage>882</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.893</pub-id>
+            <pub-id pub-id-type="pmid">21822267</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4845885</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Meindl</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Germline mutations in breast and ovarian cancer pedigrees establish RAD51C as a human cancer susceptibility gene</article-title>
+            <source>Nat. Genet</source>
+            <year>2010</year>
+            <volume>42</volume>
+            <fpage>410</fpage>
+            <lpage>414</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.569</pub-id>
+            <pub-id pub-id-type="pmid">20400964</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rahman</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PALB2, which encodes a BRCA2-interacting protein, is a breast cancer susceptibility gene</article-title>
+            <source>Nat. Genet</source>
+            <year>2007</year>
+            <volume>39</volume>
+            <fpage>165</fpage>
+            <lpage>167</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng1959</pub-id>
+            <pub-id pub-id-type="pmid">17200668</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2871593</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Domb</surname>
+                <given-names>BG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The effect of liposomal bupivacaine injection during total hip arthroplasty: a controlled cohort study</article-title>
+            <source>BMC Musculoskelet. Disord.</source>
+            <year>2014</year>
+            <volume>15</volume>
+            <fpage>310</fpage>
+            <pub-id pub-id-type="doi">10.1186/1471-2474-15-310</pub-id>
+            <pub-id pub-id-type="pmid">25248686</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4190483</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lord</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ashworth</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>BRCAness revisited</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2016</year>
+            <volume>16</volume>
+            <fpage>110</fpage>
+            <lpage>120</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrc.2015.21</pub-id>
+            <pub-id pub-id-type="pmid">26775620</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moore</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2018</year>
+            <volume>379</volume>
+            <fpage>2495</fpage>
+            <lpage>2505</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1810858</pub-id>
+            <pub-id pub-id-type="pmid">30345884</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Suwaki</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Klare</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tarsounas</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>RAD51 paralogs: roles in DNA damage signalling, recombinational repair and tumorigenesis</article-title>
+            <source>Semin. Cell Dev. Biol.</source>
+            <year>2011</year>
+            <volume>22</volume>
+            <fpage>898</fpage>
+            <lpage>905</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.semcdb.2011.07.019</pub-id>
+            <pub-id pub-id-type="pmid">21821141</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Godin</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sullivan</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bernstein</surname>
+                <given-names>KA</given-names>
+              </name>
+            </person-group>
+            <article-title>Novel insights into RAD51 activity and regulation during homologous recombination and DNA replication</article-title>
+            <source>Biochem. Cell Biol.</source>
+            <year>2016</year>
+            <volume>94</volume>
+            <fpage>407</fpage>
+            <lpage>418</lpage>
+            <pub-id pub-id-type="doi">10.1139/bcb-2016-0012</pub-id>
+            <pub-id pub-id-type="pmid">27224545</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5045787</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chun</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Buechelmaier</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Powell</surname>
+                <given-names>SN</given-names>
+              </name>
+            </person-group>
+            <article-title>Rad51 paralog complexes BCDX2 and CX3 act at different stages in the BRCA1-BRCA2-dependent homologous recombination pathway</article-title>
+            <source>Mol. Cell Biol.</source>
+            <year>2013</year>
+            <volume>33</volume>
+            <fpage>387</fpage>
+            <lpage>395</lpage>
+            <pub-id pub-id-type="doi">10.1128/MCB.00465-12</pub-id>
+            <pub-id pub-id-type="pmid">23149936</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3554112</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Golmard</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Contribution of germline deleterious variants in the RAD51 paralogs to breast and ovarian cancers</article-title>
+            <source>Eur. J. Hum. Genet</source>
+            <year>2017</year>
+            <volume>25</volume>
+            <fpage>1345</fpage>
+            <lpage>1353</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41431-017-0021-2</pub-id>
+            <pub-id pub-id-type="pmid">29255180</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5865182</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Golmard</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Germline mutation in the RAD51B gene confers predisposition to breast cancer</article-title>
+            <source>BMC Cancer</source>
+            <year>2013</year>
+            <volume>13</volume>
+            <fpage>484</fpage>
+            <pub-id pub-id-type="doi">10.1186/1471-2407-13-484</pub-id>
+            <pub-id pub-id-type="pmid">24139550</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4016303</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Song</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Contribution of germline mutations in the RAD51B, RAD51C, and RAD51D genes to ovarian cancer in the population</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2015</year>
+            <volume>33</volume>
+            <fpage>2901</fpage>
+            <lpage>2907</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2015.61.2408</pub-id>
+            <pub-id pub-id-type="pmid">26261251</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4554751</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Popova</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation</article-title>
+            <source>Cancer Res.</source>
+            <year>2012</year>
+            <volume>72</volume>
+            <fpage>5454</fpage>
+            <lpage>5462</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-12-1470</pub-id>
+            <pub-id pub-id-type="pmid">22933060</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Holstege</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High incidence of protein-truncating TP53 mutations in BRCA1-related breast cancer</article-title>
+            <source>Cancer Res.</source>
+            <year>2009</year>
+            <volume>69</volume>
+            <fpage>3625</fpage>
+            <lpage>3633</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-08-3426</pub-id>
+            <pub-id pub-id-type="pmid">19336573</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mutter</surname>
+                <given-names>RW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Bi-allelic alterations in DNA repair genes underpin homologous recombination DNA repair defects in breast cancer</article-title>
+            <source>J. Pathol.</source>
+            <year>2017</year>
+            <volume>242</volume>
+            <fpage>165</fpage>
+            <lpage>177</lpage>
+            <pub-id pub-id-type="doi">10.1002/path.4890</pub-id>
+            <pub-id pub-id-type="pmid">28299801</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5516531</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cruz</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>RAD51 foci as a functional biomarker of homologous recombination repair and PARP inhibitor resistance in germline BRCA-mutated breast cancer</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2018</year>
+            <volume>29</volume>
+            <fpage>1203</fpage>
+            <lpage>1210</lpage>
+            <pub-id pub-id-type="doi">10.1093/annonc/mdy099</pub-id>
+            <pub-id pub-id-type="pmid">29635390</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5961353</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Xia</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Control of BRCA2 cellular and clinical functions by a nuclear partner, PALB2</article-title>
+            <source>Mol. Cell</source>
+            <year>2006</year>
+            <volume>22</volume>
+            <fpage>719</fpage>
+            <lpage>729</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.molcel.2006.05.022</pub-id>
+            <pub-id pub-id-type="pmid">16793542</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Richards</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology</article-title>
+            <source>Genet Med.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>405</fpage>
+            <lpage>424</lpage>
+            <pub-id pub-id-type="doi">10.1038/gim.2015.30</pub-id>
+            <pub-id pub-id-type="pmid">25741868</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4544753</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garcin</surname>
+                <given-names>EB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Differential requirements for the RAD51 paralogs in genome repair and maintenance in human cells</article-title>
+            <source>PLoS Genet</source>
+            <year>2019</year>
+            <volume>15</volume>
+            <fpage>e1008355</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pgen.1008355</pub-id>
+            <pub-id pub-id-type="pmid">31584931</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6795472</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Combined tumor sequencing and case-control analyses of RAD51C in breast cancer</article-title>
+            <source>J. Natl Cancer Inst.</source>
+            <year>2019</year>
+            <volume>111</volume>
+            <fpage>1332</fpage>
+            <lpage>1338</lpage>
+            <pub-id pub-id-type="doi">10.1093/jnci/djz045</pub-id>
+            <pub-id pub-id-type="pmid">30949688</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6910168</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>BRCA1 regulates human mammary stem/progenitor cell fate</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2008</year>
+            <volume>105</volume>
+            <fpage>1680</fpage>
+            <lpage>1685</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.0711613105</pub-id>
+            <pub-id pub-id-type="pmid">18230721</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2234204</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Joosse</surname>
+                <given-names>SA</given-names>
+              </name>
+            </person-group>
+            <article-title>BRCA1 and BRCA2: a common pathway of genome protection but different breast cancer subtypes</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2012</year>
+            <volume>12</volume>
+            <fpage>372</fpage>
+            <pub-id pub-id-type="doi">10.1038/nrc3181-c2</pub-id>
+            <pub-id pub-id-type="pmid">22525577</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Masson</surname>
+                <given-names>JY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identification and purification of two distinct complexes containing the five RAD51 paralogs</article-title>
+            <source>Genes Dev.</source>
+            <year>2001</year>
+            <volume>15</volume>
+            <fpage>3296</fpage>
+            <lpage>3307</lpage>
+            <pub-id pub-id-type="doi">10.1101/gad.947001</pub-id>
+            <pub-id pub-id-type="pmid">11751635</pub-id>
+            <pub-id pub-id-type="pmcid">PMC312846</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>YK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic consequences of aberrant DNA repair mechanisms stratify ovarian cancer histotypes</article-title>
+            <source>Nat. Genet</source>
+            <year>2017</year>
+            <volume>49</volume>
+            <fpage>856</fpage>
+            <lpage>865</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3849</pub-id>
+            <pub-id pub-id-type="pmid">28436987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Orr</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genome-wide association study identifies a common variant in RAD51B associated with male breast cancer risk</article-title>
+            <source>Nat. Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>1182</fpage>
+            <lpage>1184</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.2417</pub-id>
+            <pub-id pub-id-type="pmid">23001122</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3722904</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Silvestri</surname>
+                <given-names>V</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Novel and known genetic variants for male breast cancer risk at 8q24.21, 9p21.3, 11q13.3 and 14q24.1: results from a multicenter study in Italy</article-title>
+            <source>Eur. J. Cancer</source>
+            <year>2015</year>
+            <volume>51</volume>
+            <fpage>2289</fpage>
+            <lpage>2295</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ejca.2015.07.020</pub-id>
+            <pub-id pub-id-type="pmid">26248686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cowper-Sal lari</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bailey</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Moore</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lupien</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrative functional genomics identifies an enhancer looping to the SOX9 gene disrupted by the 17q24.3 prostate cancer risk locus</article-title>
+            <source>Genome Res.</source>
+            <year>2012</year>
+            <volume>22</volume>
+            <fpage>1437</fpage>
+            <lpage>1446</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.135665.111</pub-id>
+            <pub-id pub-id-type="pmid">22665440</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3409257</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sanyal</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lajoie</surname>
+                <given-names>BR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jain</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dekker</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>The long-range interaction landscape of gene promoters</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>489</volume>
+            <fpage>109</fpage>
+            <lpage>113</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11279</pub-id>
+            <pub-id pub-id-type="pmid">22955621</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3555147</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pomerantz</surname>
+                <given-names>MM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The 8q24 cancer risk variant rs6983267 shows long-range interaction with MYC in colorectal cancer</article-title>
+            <source>Nat. Genet</source>
+            <year>2009</year>
+            <volume>41</volume>
+            <fpage>882</fpage>
+            <lpage>884</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.403</pub-id>
+            <pub-id pub-id-type="pmid">19561607</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2763485</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ramus</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A breast/ovarian cancer patient with germline mutations in both BRCA1 and BRCA2</article-title>
+            <source>Nat. Genet</source>
+            <year>1997</year>
+            <volume>15</volume>
+            <fpage>14</fpage>
+            <lpage>15</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng0197-14</pub-id>
+            <pub-id pub-id-type="pmid">8988162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Friedman</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Double heterozygotes for the Ashkenazi founder mutations in BRCA1 and BRCA2 genes</article-title>
+            <source>Am. J. Hum. Genet</source>
+            <year>1998</year>
+            <volume>63</volume>
+            <fpage>1224</fpage>
+            <lpage>1227</lpage>
+            <pub-id pub-id-type="doi">10.1086/302040</pub-id>
+            <pub-id pub-id-type="pmid">9758598</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1377473</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tsongalis</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Double heterozygosity for mutations in the BRCA1 and BRCA2 genes in a breast cancer patient</article-title>
+            <source>Arch. Pathol. Lab. Med.</source>
+            <year>1998</year>
+            <volume>122</volume>
+            <fpage>548</fpage>
+            <lpage>550</lpage>
+            <pub-id pub-id-type="pmid">9625424</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lord</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pathogenicity and selective constraint on variation near splice sites</article-title>
+            <source>Genome Res.</source>
+            <year>2019</year>
+            <volume>29</volume>
+            <fpage>159</fpage>
+            <lpage>170</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.238444.118</pub-id>
+            <pub-id pub-id-type="pmid">30587507</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6360807</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wolff</surname>
+                <given-names>AC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: American Society of Clinical Oncology/College of American Pathologists Clinical Practice Guideline Focused Update</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>2105</fpage>
+            <lpage>2122</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2018.77.8738</pub-id>
+            <pub-id pub-id-type="pmid">29846122</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mandelker</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutation detection in patients with advanced cancer by universal sequencing of cancer-related genes in tumor and normal DNA vs guideline-based germline testing</article-title>
+            <source>JAMA</source>
+            <year>2017</year>
+            <volume>318</volume>
+            <fpage>825</fpage>
+            <lpage>835</lpage>
+            <pub-id pub-id-type="doi">10.1001/jama.2017.11137</pub-id>
+            <pub-id pub-id-type="pmid">28873162</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5611881</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>703</fpage>
+            <lpage>713</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.4333</pub-id>
+            <pub-id pub-id-type="pmid">28481359</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Geyer</surname>
+                <given-names>FC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent hotspot mutations in HRAS Q61 and PI3K-AKT pathway genes as drivers of breast adenomyoepitheliomas</article-title>
+            <source>Nat. Commun.</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>1816</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-018-04128-5</pub-id>
+            <pub-id pub-id-type="pmid">29739933</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5940840</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seshan</surname>
+                <given-names>VE</given-names>
+              </name>
+            </person-group>
+            <article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e131</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw520</pub-id>
+            <pub-id pub-id-type="pmid">27270079</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5027494</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chang</surname>
+                <given-names>MT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Accelerating discovery of functional mutant alleles in cancer</article-title>
+            <source>Cancer Discov.</source>
+            <year>2018</year>
+            <volume>8</volume>
+            <fpage>174</fpage>
+            <lpage>183</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-17-0321</pub-id>
+            <pub-id pub-id-type="pmid">29247016</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5809279</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gulhan</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Melloni</surname>
+                <given-names>GEM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cortes-Ciriano</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Detecting the mutational signature of homologous recombination deficiency in clinical samples</article-title>
+            <source>Nat. Genet</source>
+            <year>2019</year>
+            <volume>51</volume>
+            <fpage>912</fpage>
+            <lpage>919</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41588-019-0390-2</pub-id>
+            <pub-id pub-id-type="pmid">30988514</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <mixed-citation publication-type="other">Setton, J. et al. Metadata record for the article: Germline RAD51B loss-of-function variants confer susceptibility to hereditary breast and ovarian cancers and result in homologous recombination-deficient tumors. figshare 10.6084/m9.figshare.14665086 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41523-021-00339-0</pub-id><pub-id pub-id-type="pmcid">PMC8505423</pub-id><pub-id pub-id-type="pmid">34635660</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

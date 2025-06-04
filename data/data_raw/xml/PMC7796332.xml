@@ -1,0 +1,2721 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Cancers (Basel)</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Cancers (Basel)</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2105</journal-id>
+        <journal-id journal-id-type="pmc-domain">cancers</journal-id>
+        <journal-id journal-id-type="publisher-id">cancers</journal-id>
+        <journal-title-group>
+          <journal-title>Cancers</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2072-6694</issn>
+        <publisher>
+          <publisher-name>Multidisciplinary Digital Publishing Institute  (MDPI)</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC7796332</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC7796332.1</article-id>
+        <article-id pub-id-type="pmcaid">7796332</article-id>
+        <article-id pub-id-type="pmcaiid">7796332</article-id>
+        <article-id pub-id-type="pmid">33466343</article-id>
+        <article-id pub-id-type="doi">10.3390/cancers13010149</article-id>
+        <article-id pub-id-type="publisher-id">cancers-13-00149</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Molecular Changes in Retinoblastoma beyond <italic toggle="yes">RB1</italic>: Findings from Next-Generation Sequencing</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Francis</surname>
+              <given-names initials="JH">Jasmine H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af1-cancers-13-00149">1</xref>
+            <xref ref-type="aff" rid="af2-cancers-13-00149">2</xref>
+            <xref rid="c1-cancers-13-00149" ref-type="corresp">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Richards</surname>
+              <given-names initials="AL">Allison L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af3-cancers-13-00149">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mandelker</surname>
+              <given-names initials="DL">Diana L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af4-cancers-13-00149">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af4-cancers-13-00149">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Walsh</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af5-cancers-13-00149">5</xref>
+            <xref ref-type="aff" rid="af6-cancers-13-00149">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8091-6067</contrib-id>
+            <name name-style="western">
+              <surname>Dunkel</surname>
+              <given-names initials="IJ">Ira J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af6-cancers-13-00149">6</xref>
+            <xref ref-type="aff" rid="af7-cancers-13-00149">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Donoghue</surname>
+              <given-names initials="MTA">Mark T. A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af3-cancers-13-00149">3</xref>
+            <xref ref-type="author-notes" rid="fn1-cancers-13-00149">†</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0118-6391</contrib-id>
+            <name name-style="western">
+              <surname>Abramson</surname>
+              <given-names initials="DH">David H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="af1-cancers-13-00149">1</xref>
+            <xref ref-type="aff" rid="af2-cancers-13-00149">2</xref>
+            <xref ref-type="author-notes" rid="fn1-cancers-13-00149">†</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="af1-cancers-13-00149"><label>1</label>Ophthalmic Oncology Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA; <email>abramsod@mskcc.org</email></aff>
+        <aff id="af2-cancers-13-00149"><label>2</label>Department of Ophthalmology, Weill Cornell Medical Center, New York, NY 10065, USA</aff>
+        <aff id="af3-cancers-13-00149"><label>3</label>Marie-Josee and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA; <email>richara4@mskcc.org</email> (A.L.R.); <email>donoghum@mskcc.org</email> (M.T.A.D.)</aff>
+        <aff id="af4-cancers-13-00149"><label>4</label>Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA; <email>mandelkd@mskcc.org</email> (D.L.M.); <email>bergerm1@mskcc.org</email> (M.F.B.)</aff>
+        <aff id="af5-cancers-13-00149"><label>5</label>Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA; <email>walshm2@mskcc.org</email></aff>
+        <aff id="af6-cancers-13-00149"><label>6</label>Department of Pediatrics, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA; <email>dunkeli@mskcc.org</email></aff>
+        <aff id="af7-cancers-13-00149"><label>7</label>Department of Pediatrics, Weill Cornell Medical Center, New York, NY 10065, USA</aff>
+        <author-notes>
+          <corresp id="c1-cancers-13-00149"><label>*</label>Correspondence: <email>francij1@mskcc.org</email>; Tel.: +1-212-639-7266</corresp>
+          <fn id="fn1-cancers-13-00149">
+            <label>†</label>
+            <p>These authors contributed equally to this paper as senior authors.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>05</day>
+          <month>1</month>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <month>1</month>
+          <year>2021</year>
+        </pub-date>
+        <volume>13</volume>
+        <issue>1</issue>
+        <issue-id pub-id-type="pmc-issue-id">372515</issue-id>
+        <elocation-id>149</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>03</day>
+            <month>11</month>
+            <year>2020</year>
+          </date>
+          <date date-type="accepted">
+            <day>30</day>
+            <month>12</month>
+            <year>2020</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>05</day>
+              <month>01</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>10</day>
+              <month>01</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2021-01-22 03:16:31.167">
+              <day>22</day>
+              <month>01</month>
+              <year>2021</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© 2021 by the authors.</copyright-statement>
+          <copyright-year>2021</copyright-year>
+          <license license-type="open-access">
+            <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="cancers-13-00149.pdf"/>
+        <abstract abstract-type="section">
+          <sec>
+            <title>Simple Summary</title>
+            <p>The gene causing retinoblastoma was the first tumor suppressor cloned (1986) and because retinoblastoma is the classic example of autosomal dominant inheritance, there has been little research on non-<italic toggle="yes">RB1</italic> alterations in tumors and the impact these alterations have on growth patterns in the eye, metastases and predilection for non-ocular cancers. This study interrogated enucleated retinoblastoma specimens using a MSK-IMPACT clinical next-generation sequencing panel with the aim to correlate them with clinicopathologic characteristics. We found that vitreous seeding (the main reason for eye removal) correlates with copy number variations, specifically 1q gains and 16q loss. We also found that somatic <italic toggle="yes">BCOR</italic> mutations correlate with propensity for metastasis and this offers a molecular pathway for monitoring high risk tumors. In addition, the finding that 11% of these retinoblastoma patients have additional germline mutations (on other chromosomes) that predispose them to a different host of cancers throughout their lives enables more targeted and specific screening strategies.</p>
+          </sec>
+          <sec>
+            <title>Abstract</title>
+            <p>This investigation uses hybridization capture-based next-generation sequencing to deepen our understanding of genetics that underlie retinoblastoma. Eighty-three enucleated retinoblastoma specimens were evaluated using a MSK-IMPACT clinical next-generation sequencing panel to evaluate both somatic and germline alterations. Somatic copy number variations (CNVs) were also identified. Genetic profiles were correlated to clinicopathologic characteristics. <italic toggle="yes">RB1</italic> inactivation was found in 79 (97.5%) patients. All specimens had additional molecular alterations. The most common non-<italic toggle="yes">RB1</italic> gene alteration was <italic toggle="yes">BCOR</italic> in 19 (22.9%). Five (11.0%) had pathogenic germline mutations in other non-<italic toggle="yes">RB1</italic> cancer predisposition genes. Significant clinicopathologic correlations included: vitreous seeds associated with 1q gains and 16q loss of heterozygosity (BH-corrected <italic toggle="yes">p</italic>-value = 0.008, 0.004; OR = 12.6, 26.7, respectively). <italic toggle="yes">BCOR</italic> mutations were associated with poor prognosis, specifically metastases-free survival (MFS) (nominal <italic toggle="yes">p</italic>-value 0.03). Furthermore, retinoblastoma patients can have non-<italic toggle="yes">RB1</italic> germline mutations in other cancer-associated genes. No two specimens had the identical genetic profile, emphasizing the individuality of tumors with the same clinical diagnosis.</p>
+          </sec>
+        </abstract>
+        <kwd-group>
+          <kwd>retinoblastoma</kwd>
+          <kwd>vitreous seeds</kwd>
+          <kwd>BCOR</kwd>
+          <kwd>next-generation sequencing</kwd>
+          <kwd>copy number variations</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec sec-type="intro" id="sec1-cancers-13-00149">
+        <title>1. Introduction</title>
+        <p>Retinoblastoma is the most common primary pediatric intraocular tumor [<xref rid="B1-cancers-13-00149" ref-type="bibr">1</xref>]. More than 100 years ago, a common genetic basis for many retinoblastomas was uncovered. While the pattern of inheritance was found to be a classical autosomal dominant pattern, it was not until the 1970s that it was recognized to be caused by a loss of function of a gene, specifically <italic toggle="yes">RB1</italic>. <italic toggle="yes">RB1</italic> was the first tumor suppressor gene to be cloned (in 1986). Since then, the knowledge of <italic toggle="yes">RB1</italic> alterations has been used as a part of genetic counseling for patients and families, with commercial germline <italic toggle="yes">RB1</italic> testing now available worldwide. Tumors are initiated by biallelic loss of the <italic toggle="yes">RB1</italic> gene, with 90% penetrance [<xref rid="B2-cancers-13-00149" ref-type="bibr">2</xref>]. Patients can present with bilateral disease derived from germline <italic toggle="yes">RB1</italic> mutations or with unilateral disease, which commonly have somatic mutations but can be germline in approximately 15% of patients [<xref rid="B1-cancers-13-00149" ref-type="bibr">1</xref>].</p>
+        <p>The importance of the biallelic loss of <italic toggle="yes">RB1</italic> is an example of Knudson’s “two-hit” hypothesis of cancer [<xref rid="B3-cancers-13-00149" ref-type="bibr">3</xref>]. <italic toggle="yes">RB1</italic> inactivation is recognized to occur by a variety of mechanisms including single nucleotide variants (SNVs), insertions-deletions (indels), loss of heterozygosity (LOH), large deletions, translocations, promoter hypermethylation and chromothripsis [<xref rid="B4-cancers-13-00149" ref-type="bibr">4</xref>,<xref rid="B5-cancers-13-00149" ref-type="bibr">5</xref>,<xref rid="B6-cancers-13-00149" ref-type="bibr">6</xref>,<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B8-cancers-13-00149" ref-type="bibr">8</xref>,<xref rid="B9-cancers-13-00149" ref-type="bibr">9</xref>,<xref rid="B10-cancers-13-00149" ref-type="bibr">10</xref>]. Unlike other cancers that have one or a small number of hotspot mutations, the suspected hotspots for retinoblastoma account for only 40% of mutations and the remaining are dispersed throughout the gene [<xref rid="B11-cancers-13-00149" ref-type="bibr">11</xref>]. Although <italic toggle="yes">MYCN</italic> amplification in association with <italic toggle="yes">RB1</italic> inactivation is known to occur, approximately 2% of retinoblastoma tumors have no derangement in <italic toggle="yes">RB1</italic>, and reportedly exhibit only <italic toggle="yes">MYCN</italic> amplification [<xref rid="B12-cancers-13-00149" ref-type="bibr">12</xref>].</p>
+        <p>Besides tumor initiation by biallelic loss of the <italic toggle="yes">RB1</italic> gene, cytogenetic analysis has identified recurrent copy number variants (CNVs) in retinoblastoma tumors, leading to the proposal of several candidate driver genes other than <italic toggle="yes">RB1</italic> such as <italic toggle="yes">KIF14</italic>, <italic toggle="yes">MYCN</italic>, <italic toggle="yes">DEK</italic>, <italic toggle="yes">E2F3</italic>, <italic toggle="yes">RBL2/p130</italic>, and <italic toggle="yes">NGFR</italic> [<xref rid="B4-cancers-13-00149" ref-type="bibr">4</xref>,<xref rid="B13-cancers-13-00149" ref-type="bibr">13</xref>,<xref rid="B14-cancers-13-00149" ref-type="bibr">14</xref>,<xref rid="B15-cancers-13-00149" ref-type="bibr">15</xref>,<xref rid="B16-cancers-13-00149" ref-type="bibr">16</xref>]. Recently, whole exome sequencing has identified additional putative drivers in <italic toggle="yes">BCOR</italic> and <italic toggle="yes">CREBBP</italic> [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B8-cancers-13-00149" ref-type="bibr">8</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>]. However, the clinical significance of these additional gene mutations, along with the specific mechanism of <italic toggle="yes">RB1</italic> loss, remains to be fully elucidated. While next-generation sequencing (NGS) has been used to analyze retinoblastoma, most studies are either limited to detecting germline mutations, constrained to only a handful of known mutations to occur in retinoblastoma or without cliniopathological correlations [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B12-cancers-13-00149" ref-type="bibr">12</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>,<xref rid="B18-cancers-13-00149" ref-type="bibr">18</xref>,<xref rid="B19-cancers-13-00149" ref-type="bibr">19</xref>,<xref rid="B20-cancers-13-00149" ref-type="bibr">20</xref>]. This study investigated retinoblastoma tumors with hybridization capture-based NGS, analyzed using a MSK-IMPACT platform [<xref rid="B21-cancers-13-00149" ref-type="bibr">21</xref>,<xref rid="B22-cancers-13-00149" ref-type="bibr">22</xref>]. This platform analyzes 468 genes for somatic analysis, 88 genes for germline analysis, and can identify DNA sequence variants, copy-number alterations, and select rearrangements. This genetic data was analyzed for correlations with clinicopathological features.</p>
+      </sec>
+      <sec sec-type="results" id="sec2-cancers-13-00149">
+        <title>2. Results</title>
+        <sec id="sec2dot1-cancers-13-00149">
+          <title>2.1. Genomic Landscape of RB1 Alterations in Retinoblastoma</title>
+          <p>As expected, pathognomonic <italic toggle="yes">RB1</italic> alterations were identified in 97.5% (79/81) of patients (<xref ref-type="fig" rid="cancers-13-00149-f001">Figure 1</xref>A), of which ten were found in specimens from multiple patients in this cohort (<xref ref-type="fig" rid="cancers-13-00149-f001">Figure 1</xref>B).</p>
+          <p>Of these, seven are shared exclusively in the somatic context, while three can be found in the germline and soma (c.1072C&gt;T, c.1654C&gt;T and c.1981C&gt;T). Furthermore, of the forty-six somatic <italic toggle="yes">RB1</italic> mutations that could be assessed for clonality, only five were subclonal. Two additional specimens did not have detectable <italic toggle="yes">RB1</italic> alterations in either somatic or germline and no other putative drivers were identified in these specimens. One specimen had two additional subclonal mutations in <italic toggle="yes">BIRC3</italic> (p.A385D), a variant of unknown significance, and <italic toggle="yes">PBRM1</italic> (p.G176*), a truncating mutation. The other specimen did not have any identifiable genomic alterations except for a gain of 6p. The lack of <italic toggle="yes">RB1</italic> alterations in two samples is consistent with either RB1 negative tumorigenesis of retinoblastoma or a mechanism of RB1 inactivation not detectable by the methods used in this paper.</p>
+          <p>Biallelic loss of RB1 was identified in 79.5% (66/83) of specimens (<xref ref-type="fig" rid="cancers-13-00149-f002">Figure 2</xref>A).</p>
+          <p>Of the 66 specimens with two hits to <italic toggle="yes">RB1</italic>, ten had somatic homozygous deletion of <italic toggle="yes">RB1</italic>, while one had a germline heterozygous loss of exons 7–11 in RB1 followed by a somatic LOH event leading to two dysfunctional copies of <italic toggle="yes">RB1</italic>. Of the remaining 53, 38 (71.6%) had a mutation followed by an LOH event to lose the wild-type copy of <italic toggle="yes">RB1</italic> while 15 had two mutations in <italic toggle="yes">RB1</italic>. Two specimens (with additional methylation testing) had hypermethylated promotors and LOH over the <italic toggle="yes">RB1</italic> locus. Twelve specimens had apparent heterozygous alterations to RB1 as detected by MSK-IMPACT. This suggests other modes of silencing <italic toggle="yes">RB1</italic> may be occurring in these patients that are not detectable by MSK-IMPACT. Evidence of this possibility is highlighted by two patients for which <italic toggle="yes">RB1</italic> methylation testing was performed. However, not all samples were tested for methylation status, and as such the prevalence of <italic toggle="yes">RB1</italic> silencing via this mechanism in patients with a single genomic alteration is unknown. These results demonstrate the variety of different mechanisms leading to RB1 loss, though none of the mechanisms were associated with any particular clinical outcome.</p>
+          <p>Of the 42 matched specimens with LOH over the <italic toggle="yes">RB1</italic> locus, 31 (73.8%) were copy-neutral LOH (CN-LOH), where two identical alleles are present, in contrast to LOH via the loss of an allele. In the case of <italic toggle="yes">RB1</italic>, this means that two dysfunctional mutant alleles are present but for the rest of the genes on 13q, two supposedly wild-type alleles can be expressed. Compared to other tumor suppressor genes, our specimens showed much higher CN-LOH at <italic toggle="yes">RB1</italic> (<italic toggle="yes">p</italic>-value &lt; 2.2 × 10<sup>−16</sup>, OR 19.8) (<xref ref-type="fig" rid="cancers-13-00149-f002">Figure 2</xref>B,C). Additionally, when compared to other cancer types, <italic toggle="yes">RB1</italic> is subject to CN-LOH at much higher rates in retinoblastoma than in other cancers that also contain mutations in <italic toggle="yes">RB1</italic> (<italic toggle="yes">p</italic>-value &lt; 2.2 × 10<sup>−16</sup>, OR 44.4) (<xref ref-type="fig" rid="cancers-13-00149-f002">Figure 2</xref>D). This preference for CN-LOH of <italic toggle="yes">RB1</italic> in retinoblastoma may reflect the necessity of a gene or genes on 13q to be expressed from two alleles or there may be genes essential to the fitness of the cell type that would be left vulnerable by the presence of a single allele.</p>
+        </sec>
+        <sec id="sec2dot2-cancers-13-00149">
+          <title>2.2. Evidence of Intertumoral Genetic Heterogeneity</title>
+          <p>Two patients with bilateral disease and germline <italic toggle="yes">RB1</italic> alterations had two specimens collected, one from each eye. As expected, within each patient the germline mutations were consistent across the specimens. However, each specimen had different somatic <italic toggle="yes">RB1</italic> second hits. In the first patient, there was a germline loss in <italic toggle="yes">RB1</italic> found in both eyes but different oncogenic somatic variants in each eye, i.e., splice site alteration p.X566_splice and truncating p.V654Cfs*4. In the second patient, the germline alteration was a splice mutation (<italic toggle="yes">RB1</italic> X775_splice). In one eye, this was followed by a somatic LOH while the other eye had a somatic truncating mutation (<italic toggle="yes">RB1</italic> p.S807*). The samples from these patients show that the germline event is not predictive of a particular somatic event and also demonstrates the importance of considering the specimens separately as they often have different etiologies even in the same patient.</p>
+          <p>In our cohort, three patients had evidence of more than two potential loss of function alterations in <italic toggle="yes">RB1</italic>. All three patients had a germline mutation, an LOH event leading to the somatic loss of the WT copy of <italic toggle="yes">RB1</italic> and an additional somatic mutation. The presence of the second somatic hit in the RB1 germline background is suggestive of two distinct molecular alterations within the specimen. In two of the patients, the additional somatic mutation is at very low allele frequency (<xref ref-type="fig" rid="cancers-13-00149-f002">Figure 2</xref>E) in comparison to the purity of the sample, consistent with the presence of two genetic alterations within the same tumor sample. Under this scenario, the LOH would also be expected to be heterogeneous, however, it appears clonal in both cases and may represent differences between mutation and CNA methods in terms of sensitivity in detecting subclonal events. In the third individual, the germline mutation is silent but previous work suggests that it may impact splicing [<xref rid="B25-cancers-13-00149" ref-type="bibr">25</xref>]. However, both somatic events (LOH and mutation) appear clonal (<xref ref-type="fig" rid="cancers-13-00149-f002">Figure 2</xref>E), indicating they must occur in the same tumor cells. In this case, the role of the germline mutation is less clear and its presence in the patient may be coincidental.</p>
+        </sec>
+        <sec id="sec2dot3-cancers-13-00149">
+          <title>2.3. Non-RB1 Alterations in Retinoblastoma</title>
+          <p>We assessed all alterations and identified genes that were frequently altered in our patient population or were identified in other publications about retinoblastoma [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B8-cancers-13-00149" ref-type="bibr">8</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>] (<xref ref-type="fig" rid="cancers-13-00149-f001">Figure 1</xref>A). Aside from RB1, the most commonly somatically mutated genes among the specimens were BCOR in 19 (22.9%), <italic toggle="yes">RPTOR</italic> in 3 (3.6%), <italic toggle="yes">TERT</italic> in 3 (3.6%), <italic toggle="yes">MSH3</italic> in 3 (3.6%), <italic toggle="yes">ARID1A</italic> in 3 (3.6%), <italic toggle="yes">MYCN</italic> in 3 (3.6%), <italic toggle="yes">TSC2</italic> in 2 (2.4%), and <italic toggle="yes">CREBBP</italic> in 1 (1.2%) (<xref ref-type="fig" rid="cancers-13-00149-f001">Figure 1</xref>A). All <italic toggle="yes">BCOR</italic> mutations detected are putative loss of function mutations and therefore likely oncogenic. <italic toggle="yes">BCOR</italic> has been previously proposed to have an association with worse prognosis [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>]. Here, <italic toggle="yes">BCOR</italic> mutations were associated with a poor prognosis for metastasis-free survival from date of enucleation (nominal <italic toggle="yes">p</italic>-value = 0.03) (<xref ref-type="fig" rid="cancers-13-00149-f003">Figure 3</xref>A), but not with “higher risk” histopathological features. Besides <italic toggle="yes">BCOR</italic>, the ten most frequent non-<italic toggle="yes">RB1</italic> gene alterations were found three times, each, in our cohort of 83 (3.6%) patients. Among these ten genes, only four (<italic toggle="yes">TERT</italic>, <italic toggle="yes">MSH3</italic>, <italic toggle="yes">ARID1A</italic>, and <italic toggle="yes">HLA-A</italic>) had any mutations that were considered putative drivers [<xref rid="B26-cancers-13-00149" ref-type="bibr">26</xref>]. Eleven additional genes have singleton, somatic alterations that were considered putative drivers. Only <italic toggle="yes">BCOR</italic> appeared in high enough frequency in our population to assess association with clinical features.</p>
+          <p>In contrast, none of the mutations in <italic toggle="yes">FAT1</italic> and <italic toggle="yes">RPTOR</italic> are truncating or fall at any hotspot location, as such they are considered variants of unknown significance (<xref ref-type="fig" rid="cancers-13-00149-f001">Figure 1</xref>A). In addition to mutations, three patients exhibited <italic toggle="yes">MYCN</italic> amplification, in the presence of an <italic toggle="yes">RB1</italic> mutation, which has been shown previously to be prevalent in retinoblastoma [<xref rid="B27-cancers-13-00149" ref-type="bibr">27</xref>]. Overall, the mutation burden was generally low in these retinoblastoma samples (0–3 mutations per megabase).</p>
+          <p>In addition to germline pathogenic variants in <italic toggle="yes">RB1</italic>, five of 42 patients (12.0%) consented for germline MSK-IMPACT testing had pathogenic or likely pathogenic germline mutations in non-<italic toggle="yes">RB1</italic> cancer predisposition genes. Mutations were detected in base excision repair: <italic toggle="yes">NTHL1</italic> c.268C&gt;T (p.Gln90*); nucleotide excision repair: <italic toggle="yes">ERCC3</italic> c.1354C&gt;T (p.Arg452*), mis-match repair: <italic toggle="yes">MSH3</italic> c.1341-1G&gt;T (p.X447_splice) splice site mutation and cell cycle: <italic toggle="yes">CHEK2</italic> c.470T&gt;C (p.Ile157Thr) and transcription factor: <italic toggle="yes">MITF</italic> c.1255G&gt;A (p.Glu419Lys) genes. Notably, two of these patients harbored heterozygous alterations in cancer predisposing genes associated with autosomal recessive cancer predisposition syndromes (<italic toggle="yes">NTHL1</italic> and <italic toggle="yes">MSH3</italic>). There was no evidence of microsatellite instability in the patient with germline <italic toggle="yes">MSH3</italic>.</p>
+        </sec>
+        <sec id="sec2dot4-cancers-13-00149">
+          <title>2.4. Copy Number Alterations and Loss of Heterozygosity in Retinoblastoma</title>
+          <p>Several recurrent arm-level CNAs were identified, including 1q gain (67.0%), 2p gain (32.0%), 6p gain (59.0%), LOH 13q (51.0%), LOH 16q (43.0%) (<xref ref-type="fig" rid="cancers-13-00149-f003">Figure 3</xref>B). Specifically, gains on 1q and loss of heterozygosity on 16q were associated with vitreous seeds (BH-corrected <italic toggle="yes">p</italic>-value = 0.008, 0.004; OR = 12.6, 26.7, respectively) (<xref ref-type="fig" rid="cancers-13-00149-f003">Figure 3</xref>C). Gains on 1q and losses on 16q were not significantly correlated with each other (<italic toggle="yes">p</italic>-value = 0.37) (<xref ref-type="fig" rid="cancers-13-00149-f003">Figure 3</xref>D) suggesting that they do not need to co-occur to present with vitreous seeds. A model of vitreous seed presence including both 1q gains and 16q losses showed significant association suggesting that they both play an independent role in vitreous seeds (model <italic toggle="yes">p</italic>-value = 8.2 × 10<sup>−8</sup>) with both being predictive (1q <italic toggle="yes">p</italic>-value = 1.3 × 10<sup>−4</sup>, 16q <italic toggle="yes">p</italic>-value = 2.3 × 10<sup>−4</sup>). No other CNAs were associated with any other clinical features.</p>
+        </sec>
+      </sec>
+      <sec sec-type="discussion" id="sec3-cancers-13-00149">
+        <title>3. Discussion</title>
+        <p>The genetic basis of retinoblastoma was long believed to be predominantly limited to biallelic loss of <italic toggle="yes">RB1</italic>. Other non-<italic toggle="yes">RB1</italic> genes have previously been identified [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B8-cancers-13-00149" ref-type="bibr">8</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>] and their clinical relevance sparingly elucidated. However, the present findings based on 83 enucleation retinoblastoma specimens demonstrate that the genetic landscape is more complex and extends our current knowledge. While we detected mutations, loss of heterozygosity, and homozygous deletions leading to biallelic inactivation of <italic toggle="yes">RB1</italic>, we also identified large-scale CNVs and somatic and germline mutations in other genes not on chromosome 13.</p>
+        <p>The majority of series investigating next-generation sequencing (NGS) in retinoblastoma have used this technology for germline RB1 detection, and copy number alteration details are not consistently available [<xref rid="B18-cancers-13-00149" ref-type="bibr">18</xref>]. Few studies focus on using NGS for tumor specimens, in detecting mutations other than RB1 and no more than a dozen other genes known to occur in retinoblastoma, or in correlating these findings with clinic-histopathologic features [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B12-cancers-13-00149" ref-type="bibr">12</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>,<xref rid="B19-cancers-13-00149" ref-type="bibr">19</xref>,<xref rid="B20-cancers-13-00149" ref-type="bibr">20</xref>]. One study used NGS of 500 oncogenes with clinical correlation, but in only 30 tumor samples of retinoblastoma [<xref rid="B28-cancers-13-00149" ref-type="bibr">28</xref>]. Our study investigated 468 genes in 83 retinoblastoma tumor specimens with cliniopathological correlations.</p>
+        <p>Previous work has shown recurrent chromosomal abnormalities in retinoblastoma including gains of 1q, 2p, 6p and loss of 13q and 16q [<xref rid="B4-cancers-13-00149" ref-type="bibr">4</xref>,<xref rid="B13-cancers-13-00149" ref-type="bibr">13</xref>,<xref rid="B14-cancers-13-00149" ref-type="bibr">14</xref>,<xref rid="B15-cancers-13-00149" ref-type="bibr">15</xref>]. Despite extensive knowledge on the presence of CNVs in retinoblastoma, clinicopathologic correlates are limited to correlations with age, differentiation, pathological features and disease laterality [<xref rid="B6-cancers-13-00149" ref-type="bibr">6</xref>,<xref rid="B15-cancers-13-00149" ref-type="bibr">15</xref>,<xref rid="B27-cancers-13-00149" ref-type="bibr">27</xref>]. Loss of 16q has been associated with diffuse vitreous seeding with <italic toggle="yes">CDH11</italic> being proposed as the candidate gene [<xref rid="B5-cancers-13-00149" ref-type="bibr">5</xref>,<xref rid="B29-cancers-13-00149" ref-type="bibr">29</xref>]. In the present study, both 1p gain and 16q loss were independently associated with the presence of vitreous seeds. However, in our cohort, the role of <italic toggle="yes">CDH11</italic> is unclear in the absence of mutations. Although 6p was recurrently gained in our cohort, contrary to a previous report, it was not associated with aggressive histopathological features or a poor prognosticator of ocular survival [<xref rid="B30-cancers-13-00149" ref-type="bibr">30</xref>,<xref rid="B31-cancers-13-00149" ref-type="bibr">31</xref>]. This difference may reflect the presence of enucleated-only specimens. Intriguingly, one unilateral specimen with confirmed wildtype <italic toggle="yes">RB1</italic> did possess 6p gain. Indicating either a deficiency in testing sensitivity or strategy, or alternatively, 6p gain may represent an independent biomarker for retinoblastoma in the presence of wildtype <italic toggle="yes">RB1</italic>.</p>
+        <p>We found that, compared to other cancers, <italic toggle="yes">RB1</italic> in retinoblastoma is significantly and disproportionately more likely to display copy-neutral LOH rather than heterozygous loss LOH. This unique characteristic is previously unreported in retinoblastoma. Other studies have shown the presence of CN-LOH in different cancers, some of which highlight CN-LOH of 13q [<xref rid="B32-cancers-13-00149" ref-type="bibr">32</xref>,<xref rid="B33-cancers-13-00149" ref-type="bibr">33</xref>,<xref rid="B34-cancers-13-00149" ref-type="bibr">34</xref>,<xref rid="B35-cancers-13-00149" ref-type="bibr">35</xref>,<xref rid="B36-cancers-13-00149" ref-type="bibr">36</xref>]. In our data, we focused on tumors with mutations in <italic toggle="yes">RB1</italic> but CN-LOH is a mechanism that may affect different tumor suppressor genes in other tumor types. While we do not currently have an explanation for this phenomenon, it may suggest that some gene (or genes) on chromosome 13 are essential for cell survival and are needed at two copies.</p>
+        <p>An additional clinical correlation is observed in the three specimens with three hits to <italic toggle="yes">RB1.</italic> These may represent multiple clones in the same eye and explain the well-recognized observation that multifocal tumors in the same eye have distinct features.</p>
+        <p><italic toggle="yes">BCOR</italic> is located at Xp11.4, encodes the BCL6 corepressor and as such is a transcription regulatory factor. <italic toggle="yes">BCOR</italic> mutations are present in a number of malignancies; and correlates with poor cancer prognosis [<xref rid="B37-cancers-13-00149" ref-type="bibr">37</xref>,<xref rid="B38-cancers-13-00149" ref-type="bibr">38</xref>]. Furthermore, <italic toggle="yes">BCOR</italic> expression aids in eye development and is highly expressed in the lens and retina [<xref rid="B39-cancers-13-00149" ref-type="bibr">39</xref>]; and this latter property may explain why retinoblastomas are prone to mutated <italic toggle="yes">BCOR</italic>. In our cohort, it was most common non-<italic toggle="yes">RB1</italic> gene abnormality, occurring in 23% of specimens (higher than previously published series (13%) [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>]) and was associated with poor prognosis, specifically worse metastases-free survival, but not with high-risk pathological features. Identification of a <italic toggle="yes">BCOR</italic> mutation, either in an enucleated specimen or through cell free DNA (cfDNA) analysis, may influence surveillance strategies or preventative measures for metastatic retinoblastoma. It could mark minimal residual disease and/or be informative of treatment response through quantitative cfDNA.</p>
+        <p>Future studies may expand upon these results by considering more downstream analytes, such as DNA methylation or RNA expression, to assess biological differences between patients either dependent or independent of DNA mutations. For example, recent studies have considered genome-wide methylation and found expression patterns unique to retinoblastoma, suggesting their importance to oncogenesis [<xref rid="B40-cancers-13-00149" ref-type="bibr">40</xref>,<xref rid="B41-cancers-13-00149" ref-type="bibr">41</xref>]. Further clinical assessment of patient phenotypes alongside various biological measurements may yield important insight into the progression of retinoblastoma from DNA mutation to unique clinicopathological features of retinoblastoma.</p>
+        <p>Five patients had non-<italic toggle="yes">RB1</italic> cancer-associated germline mutations in keeping with other cancer cohorts in which 12–17.5% patient had germline mutations [<xref rid="B42-cancers-13-00149" ref-type="bibr">42</xref>]. However, whereas germline cancer-associated mutations are associated with metastatic disease, and therapy-specific prognosis in other cancers [<xref rid="B43-cancers-13-00149" ref-type="bibr">43</xref>,<xref rid="B44-cancers-13-00149" ref-type="bibr">44</xref>], to date our five patients have demonstrated intraocular disease only. This raises the question whether germline variants influence tumorigenesis, the clinical course or subsequent disease risks (metastatic disease or second cancers).</p>
+        <p>Of the non-<italic toggle="yes">RB1</italic> gene alterations in our cohort, only <italic toggle="yes">MYCN</italic> on 2p24.3 and <italic toggle="yes">TSC2</italic> on 16p13.3 correspond with common CNVs that characterize retinoblastoma [<xref rid="B4-cancers-13-00149" ref-type="bibr">4</xref>,<xref rid="B13-cancers-13-00149" ref-type="bibr">13</xref>,<xref rid="B14-cancers-13-00149" ref-type="bibr">14</xref>,<xref rid="B15-cancers-13-00149" ref-type="bibr">15</xref>,<xref rid="B16-cancers-13-00149" ref-type="bibr">16</xref>]. Previous studies have reported mutations in <italic toggle="yes">CREBBP</italic> and we found one example in our patients [<xref rid="B7-cancers-13-00149" ref-type="bibr">7</xref>,<xref rid="B8-cancers-13-00149" ref-type="bibr">8</xref>,<xref rid="B17-cancers-13-00149" ref-type="bibr">17</xref>]. We identified additional variants that are recognized as oncogenic in other cancer types [<xref rid="B26-cancers-13-00149" ref-type="bibr">26</xref>]. However, in our cohort, each of these occurs at low frequency, limiting our ability to assess their functionality in retinoblastoma, as none of the genes are commonly associated with retinoblastoma. The remaining gene alterations do not correspond with typical oncogenic variants associated with retinoblastoma or other cancer types. For example, <italic toggle="yes">FAT1</italic> acts as both a tumor suppressor and oncogene and occurs in bladder cancer, head and neck cancers, breast and colorectal cancers. Published literature suggests it increases invasiveness of tumors [<xref rid="B45-cancers-13-00149" ref-type="bibr">45</xref>]. <italic toggle="yes">RPTOR</italic>, along with <italic toggle="yes">TSC2</italic>, is a part of the mTOR signaling pathway known to affect many different types of cancer [<xref rid="B46-cancers-13-00149" ref-type="bibr">46</xref>]. However, neither <italic toggle="yes">FAT1</italic> nor <italic toggle="yes">RPTOR</italic> have putative drivers in our dataset.</p>
+      </sec>
+      <sec id="sec4-cancers-13-00149">
+        <title>4. Materials and Methods</title>
+        <p>An institutional review board approval was obtained from Memorial Sloan Kettering Cancer Center (#17-049). Eligible patients included those with retinoblastoma who had undergone a primary or secondary enucleation, and those included were enucleated between May 2006 and August 2019. Patients were consented for either somatic or somatic and germline testing via MSK-IMPACT. Prior commercial germline testing for <italic toggle="yes">RB1</italic> was also available for some patients.</p>
+        <p>Clinicopathologic data was collected for each patient and retinoblastoma tumor. This data included gender, laterality, prior treatment, ocular hypertension, rubeosis, vitreous seeds (including seed class: dust, spheres, or clouds) or subretinal seeds, histopathologic features (invasion into the choroid (massive or not), sclera, ciliary body, anterior chamber, optic nerve pass the lamina cribrosa (yes or no) optic nerve to the cut section), second cancers, occurrence and site of metastatic disease (defined as orbital or other extraocular metastasis). “Higher risk” eyes were defined as those with high risk pathological features defined as massive choroidal invasion, ciliary body/iris invasion or optic nerve invasion past the laminar cribrosa.</p>
+        <sec id="sec4dot1-cancers-13-00149">
+          <title>4.1. Isolation and Purification of DNA</title>
+          <p>Microdissection was performed on 83 formalin-fixed and paraffin-embedded (FFPE) samples on 10 µm-thick unstained sections, using hematoxylin and eosin-stained (H&amp;E) sections as a guide. The DNeasy Tissue Kit (Qiagen, Hilden, Germany) was used for DNA extraction according to the manufacturer’s recommendations. The Nano-Drop 8000 (Thermo Scientific, Waltham, MA, USA) and Qubit (Life Technologies, Carlsbad, CA, USA) were employed to quantify the extracted DNA. The minimum concentration of formalin fixed paraffin embedded DNA was 250 ng.</p>
+        </sec>
+        <sec id="sec4dot2-cancers-13-00149">
+          <title>4.2. Exon-Capture Sequencing</title>
+          <p>Targeted next-generation sequencing via MSK-IMPACT was performed on DNA extracted from tumor and matched normal DNA samples, with somatic mutations (substitutions and small insertions and deletions), gene-level focal copy number alterations, and structural rearrangements detected [<xref rid="B21-cancers-13-00149" ref-type="bibr">21</xref>,<xref rid="B22-cancers-13-00149" ref-type="bibr">22</xref>]. Germline variants were evaluated in 88 cancer predisposition genes in 42 patients [<xref rid="B47-cancers-13-00149" ref-type="bibr">47</xref>].</p>
+        </sec>
+        <sec id="sec4dot3-cancers-13-00149">
+          <title>4.3. Outside Testing of RB1 Alterations</title>
+          <p>Outside commercial testing was performed by multiple companies as routine clinical care on 23 specimens. Each company performed their individual assay, which identifies mutations, methylation, and copy number alterations at the <italic toggle="yes">RB1</italic> locus. In this work, we used methylation status and germline <italic toggle="yes">RB1</italic> mutations for patients not consented to germline testing via MSK-IMPACT. In addition, germline CNVs in <italic toggle="yes">RB1</italic> and somatic CNAs from outside testing are reported for cases sequenced via MSK-IMPACT unmatched (without a normal tissue comparator from the patient). MSK-IMPACT identified all <italic toggle="yes">RB1</italic> mutations found by outside testing in specimens that had both outside germline testing and germline testing via MSK-IMPACT.</p>
+        </sec>
+        <sec id="sec4dot4-cancers-13-00149">
+          <title>4.4. Biostatistics</title>
+          <p>Total, allele-specific and integer copy number as well as tumor purity and ploidy were identified in the 74 specimens with matched normal tissue using FACETS (Fraction and Allele-Specific Copy Number Estimates from Tumor Sequencing) v0.5.14 [<xref rid="B48-cancers-13-00149" ref-type="bibr">48</xref>] and the clonality of mutations was calculated as described [<xref rid="B49-cancers-13-00149" ref-type="bibr">49</xref>]. For the nine cases sequenced without matching normal tissue, copy number alterations were identified using the GATK DepthOfCoverage tool as previously described [<xref rid="B49-cancers-13-00149" ref-type="bibr">49</xref>] Microsatellite instability was estimated using MSIsensor [<xref rid="B50-cancers-13-00149" ref-type="bibr">50</xref>]. Kaplan–Meier estimates of event-free survival were calculated starting from the date of enucleation to the detection of metastasis, and correlated to genetic alterations. Four individuals were removed from the metastasis-free survival estimates because they presented with metastasis at, or before, the time of enucleation. When multiple tests were performed, Benjamini–Hochberg (BH) multiple testing correction was used [<xref rid="B51-cancers-13-00149" ref-type="bibr">51</xref>].</p>
+          <p>For the purposes of this manuscript, LOH is the state of total copy number 1 and lower copy number 0 (1,0). Copy-neutral LOH (CN-LOH) is 2,0, while reciprocal LOH (RLOH) [<xref rid="B52-cancers-13-00149" ref-type="bibr">52</xref>] is total copy number greater than two, while lower copy number is 0. Tumor suppressor genes were defined from OncoKB [<xref rid="B26-cancers-13-00149" ref-type="bibr">26</xref>]. LOH rates at the <italic toggle="yes">RB1</italic> locus across the MSK cohort (frozen in Jan, 2019 with 39,846 tumor specimens) used default FACETS fits (not manually reviewed) that passed QC.</p>
+        </sec>
+      </sec>
+      <sec sec-type="conclusions" id="sec5-cancers-13-00149">
+        <title>5. Conclusions</title>
+        <p>In conclusion, there is true genetic diversity among retinoblastoma tumors. Based on an analysis of 468 genes, no two specimens analyzed had identical pattern of mutations (or type of <italic toggle="yes">RB1</italic> loss), LOH or CNV, emphasizing the individuality of tumors with the same clinical diagnosis. We identified clinicopathologic correlations with genetic aberrations including the association of vitreous seeds with 1q gains and 16q loss. Our discovery of <italic toggle="yes">BCOR</italic> mutations being correlated with the development of metastatic disease may guide future systemic surveillance or management of these patients. Insights gained on small numbers of specimens include the observation that a single eye with multifocal tumors may include more than two identifiable forms of <italic toggle="yes">RB1</italic> loss, suggesting intertumoral heterogeneity, and that in wildtype <italic toggle="yes">RB1</italic>, 6p gain may be sufficient for retinoblastoma tumorigenesis. Finally, retinoblastoma patients can have non-<italic toggle="yes">RB1</italic> germline mutations in other cancer-associated genes. In the future, we hope to discover how these alternate non-<italic toggle="yes">RB1</italic> germline mutations may influence the primary ocular retinoblastoma, the metastatic potential or additional primary malignancies.</p>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <title>Acknowledgments</title>
+        <p>We thank Ritika Kundra and Ramyasree Madupuri for preparing the cBioPortal instance.</p>
+      </ack>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+      </fn-group>
+      <notes>
+        <title>Author Contributions</title>
+        <p>Conceptualization, J.H.F., M.T.A.D., I.J.D., D.H.A.; methodology, J.H.F., A.L.R., M.F.B., M.T.A.D., D.H.A.; software, D.L.M., M.F.B.; validation, D.L.M., M.F.B.; formal analysis, J.H.F., A.L.R., M.T.A.D.; data curation, J.H.F., A.L.R.; writing—original draft preparation, J.H.F., A.L.R.; writing—review and editing, D.L.M., M.F.B., M.F.W., I.J.D., M.T.A.D., D.H.A.; funding acquisition, D.H.A. All authors have read and agreed to the published version of the manuscript.</p>
+      </notes>
+      <notes>
+        <title>Funding</title>
+        <p>This work was supported by philanthropic funding from The Fund for Ophthalmic Knowledge (J.H.F. and D.H.A.), and the Cancer Center Support Grant (grant number P30 CA008748) (all authors), the Robert and Kate Niehaus Center for Inherited Cancer Genomics (M.F.W.). The sponsors were not involved in the design, collection, analysis, interpretation of data, the writing of the manuscript nor the decision to submit the manuscript for publication.</p>
+      </notes>
+      <notes>
+        <title>Institutional Review Board Statement</title>
+        <p>The study was conducted according to the guidelines of the Declaration of Helsinki, and approved by the Institutional Review Board (or Ethics Committee) of Memorial Sloan Kettering Cancer Center (protocol code 12-245 in 2012).</p>
+      </notes>
+      <notes>
+        <title>Informed Consent Statement</title>
+        <p>Informed consent was obtained from all subjects (or their legal guardian) involved in the study.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data Availability Statement</title>
+        <p>IMPACT mutation calls were deposited via the cBioPortal for Cancer Genomics (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cbioportal.mskcc.org/study/summary?id=rbl_mskcc_2020">https://cbioportal.mskcc.org/study/summary?id=rbl_mskcc_2020</uri>).</p>
+      </notes>
+      <notes notes-type="COI-statement">
+        <title>Conflicts of Interest</title>
+        <p>The authors declare no conflict of interest.</p>
+      </notes>
+      <ref-list>
+        <title>References</title>
+        <ref id="B1-cancers-13-00149">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Abramson</surname>
+                <given-names>D.H.</given-names>
+              </name>
+            </person-group>
+            <article-title>Retinoblastoma: Saving life with vision</article-title>
+            <source>Annu. Rev. Med.</source>
+            <year>2014</year>
+            <volume>65</volume>
+            <fpage>171</fpage>
+            <lpage>184</lpage>
+            <pub-id pub-id-type="doi">10.1146/annurev-med-061312-123455</pub-id>
+            <pub-id pub-id-type="pmid">24422571</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B2-cancers-13-00149">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lohmann</surname>
+                <given-names>D.R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Brandt</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Höpping</surname>
+                <given-names>W.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Passarge</surname>
+                <given-names>E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Horsthemke</surname>
+                <given-names>B.</given-names>
+              </name>
+            </person-group>
+            <article-title>Distinct RB1 gene mutations with low penetrance in hereditary retinoblastoma</article-title>
+            <source>Hum. Genet.</source>
+            <year>1994</year>
+            <volume>94</volume>
+            <fpage>349</fpage>
+            <lpage>354</lpage>
+            <pub-id pub-id-type="doi">10.1007/BF00201591</pub-id>
+            <pub-id pub-id-type="pmid">7927327</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B3-cancers-13-00149">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Knudson</surname>
+                <given-names>A.G.</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutation and cancer: Statistical study of retinoblastoma</article-title>
+            <source>Proc. Natl. Acad. Sci. USA</source>
+            <year>1971</year>
+            <volume>68</volume>
+            <fpage>820</fpage>
+            <lpage>823</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.68.4.820</pub-id>
+            <pub-id pub-id-type="pmid">5279523</pub-id>
+            <pub-id pub-id-type="pmcid">PMC389051</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B4-cancers-13-00149">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Corson</surname>
+                <given-names>T.W.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gallie</surname>
+                <given-names>B.L.</given-names>
+              </name>
+            </person-group>
+            <article-title>One hit, two hits, three hits, more? Genomic changes in the development of retinoblastoma</article-title>
+            <source>Genes Chromosom. Cancer</source>
+            <year>2007</year>
+            <volume>46</volume>
+            <fpage>617</fpage>
+            <lpage>634</lpage>
+            <pub-id pub-id-type="doi">10.1002/gcc.20457</pub-id>
+            <pub-id pub-id-type="pmid">17437278</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B5-cancers-13-00149">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gratias</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rieder</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ullmann</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Klein-Hitpass</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schneider</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bölöni</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kappler</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lohmann</surname>
+                <given-names>D.R.</given-names>
+              </name>
+            </person-group>
+            <article-title>Allelic Loss in a Minimal Region on Chromosome 16q24 Is Associated with Vitreous Seeding of Retinoblastoma</article-title>
+            <source>Cancer Res.</source>
+            <year>2007</year>
+            <volume>67</volume>
+            <fpage>408</fpage>
+            <lpage>416</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-06-1317</pub-id>
+            <pub-id pub-id-type="pmid">17210724</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B6-cancers-13-00149">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Herzog</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lohmann</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Buiting</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schüler</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Horsthemke</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rehder</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rieder</surname>
+                <given-names>H.</given-names>
+              </name>
+            </person-group>
+            <article-title>Marked differences in unilateral isolated retinoblastomas from young and older children studied by comparative genomic hybridization</article-title>
+            <source>Hum. Genet.</source>
+            <year>2001</year>
+            <volume>108</volume>
+            <fpage>98</fpage>
+            <lpage>104</lpage>
+            <pub-id pub-id-type="doi">10.1007/s004390000450</pub-id>
+            <pub-id pub-id-type="pmid">11281459</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B7-cancers-13-00149">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kooi</surname>
+                <given-names>I.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mol</surname>
+                <given-names>B.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Massink</surname>
+                <given-names>M.P.G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ameziane</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meijers-Heijboer</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dommering</surname>
+                <given-names>C.J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van Mil</surname>
+                <given-names>S.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>de Vries</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van der Hout</surname>
+                <given-names>A.H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kaspers</surname>
+                <given-names>G.J.L.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Somatic genomic alterations in retinoblastoma beyond RB1 are rare and limited to copy number changes</article-title>
+            <source>Sci. Rep.</source>
+            <year>2016</year>
+            <volume>6</volume>
+            <fpage>25264</fpage>
+            <pub-id pub-id-type="doi">10.1038/srep25264</pub-id>
+            <pub-id pub-id-type="pmid">27126562</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4850475</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B8-cancers-13-00149">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McEvoy</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nagahawatte</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Finkelstein</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Richards-Yutz</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Valentine</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ma</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mullighan</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Song</surname>
+                <given-names>G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>X.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wilson</surname>
+                <given-names>M.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>RB1 gene inactivation by chromothripsis in human retinoblastoma</article-title>
+            <source>Oncotarget</source>
+            <year>2014</year>
+            <volume>5</volume>
+            <fpage>438</fpage>
+            <lpage>450</lpage>
+            <pub-id pub-id-type="doi">10.18632/oncotarget.1686</pub-id>
+            <pub-id pub-id-type="pmid">24509483</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3964219</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B9-cancers-13-00149">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>W.H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Murphree</surname>
+                <given-names>A.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Benedict</surname>
+                <given-names>W.F.</given-names>
+              </name>
+            </person-group>
+            <article-title>Expression and amplification of the N-myc gene in primary retinoblastoma</article-title>
+            <source>Nature</source>
+            <year>1984</year>
+            <volume>309</volume>
+            <fpage>458</fpage>
+            <lpage>460</lpage>
+            <pub-id pub-id-type="doi">10.1038/309458a0</pub-id>
+            <pub-id pub-id-type="pmid">6728001</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B10-cancers-13-00149">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ohtani-Fujita</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dryja</surname>
+                <given-names>T.P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rapaport</surname>
+                <given-names>J.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fujita</surname>
+                <given-names>T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Matsumura</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ozasa</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Watanabe</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hayashi</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Maeda</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kinoshita</surname>
+                <given-names>S.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Hypermethylation in the retinoblastoma gene is associated with unilateral, sporadic retinoblastoma</article-title>
+            <source>Cancer Genet. Cytogenet.</source>
+            <year>1997</year>
+            <volume>98</volume>
+            <fpage>43</fpage>
+            <lpage>49</lpage>
+            <pub-id pub-id-type="doi">10.1016/S0165-4608(96)00395-0</pub-id>
+            <pub-id pub-id-type="pmid">9309117</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B11-cancers-13-00149">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mallipatna</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Marino</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Singh</surname>
+                <given-names>A.D.</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetics of Retinoblastoma</article-title>
+            <source>Asia Pac. J. Ophthal.</source>
+            <year>2016</year>
+            <volume>5</volume>
+            <fpage>260</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="doi">10.1097/APO.0000000000000219</pub-id>
+            <pub-id pub-id-type="pmid">27488068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B12-cancers-13-00149">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rushlow</surname>
+                <given-names>D.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mol</surname>
+                <given-names>B.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kennett</surname>
+                <given-names>J.Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yee</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pajovic</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Thériault</surname>
+                <given-names>B.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Prigoda-Lee</surname>
+                <given-names>N.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Spencer</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dimaras</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Corson</surname>
+                <given-names>T.W.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Characterisation of retinoblastomas without RB1 mutations: Genomic, gene expression, and clinical studies</article-title>
+            <source>Lancet Oncol.</source>
+            <year>2013</year>
+            <volume>14</volume>
+            <fpage>327</fpage>
+            <lpage>334</lpage>
+            <pub-id pub-id-type="doi">10.1016/S1470-2045(13)70045-7</pub-id>
+            <pub-id pub-id-type="pmid">23498719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B13-cancers-13-00149">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bowles</surname>
+                <given-names>E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Corson</surname>
+                <given-names>T.W.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bayani</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Squire</surname>
+                <given-names>J.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wong</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lai</surname>
+                <given-names>P.B.-S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gallie</surname>
+                <given-names>B.L.</given-names>
+              </name>
+            </person-group>
+            <article-title>Profiling genomic copy number changes in retinoblastoma beyond loss of RB1</article-title>
+            <source>Genes Chromosom. Cancer</source>
+            <year>2007</year>
+            <volume>46</volume>
+            <fpage>118</fpage>
+            <lpage>129</lpage>
+            <pub-id pub-id-type="doi">10.1002/gcc.20383</pub-id>
+            <pub-id pub-id-type="pmid">17099872</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B14-cancers-13-00149">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Marchong</surname>
+                <given-names>M.N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Corson</surname>
+                <given-names>T.W.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Harmandayan</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bowles</surname>
+                <given-names>E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gallie</surname>
+                <given-names>B.L.</given-names>
+              </name>
+            </person-group>
+            <article-title>Minimal 16q genomic loss implicates cadherin-11 in retinoblastoma</article-title>
+            <source>Mol. Cancer Res.</source>
+            <year>2004</year>
+            <volume>2</volume>
+            <fpage>495</fpage>
+            <lpage>503</lpage>
+            <pub-id pub-id-type="pmid">15383628</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B15-cancers-13-00149">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Van der Wal</surname>
+                <given-names>J.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hermsen</surname>
+                <given-names>M.A.J.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gille</surname>
+                <given-names>H.J.P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schouten-Van Meeteren</surname>
+                <given-names>N.Y.N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Moll</surname>
+                <given-names>A.C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Imhof</surname>
+                <given-names>S.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meijer</surname>
+                <given-names>G.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Baak</surname>
+                <given-names>J.P.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van der Valk</surname>
+                <given-names>P.</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparative genomic hybridisation divides retinoblastomas into a high and a low level chromosomal instability group</article-title>
+            <source>J. Clin. Pathol.</source>
+            <year>2003</year>
+            <volume>56</volume>
+            <fpage>26</fpage>
+            <lpage>30</lpage>
+            <pub-id pub-id-type="doi">10.1136/jcp.56.1.26</pub-id>
+            <pub-id pub-id-type="pmid">12499428</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1769844</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B16-cancers-13-00149">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Qi</surname>
+                <given-names>D.-L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cobrinik</surname>
+                <given-names>D.</given-names>
+              </name>
+            </person-group>
+            <article-title>MDM2 but not MDM4 promotes retinoblastoma cell proliferation through p53-independent regulation of MYCN translation</article-title>
+            <source>Oncogene</source>
+            <year>2017</year>
+            <volume>36</volume>
+            <fpage>1760</fpage>
+            <lpage>1769</lpage>
+            <pub-id pub-id-type="doi">10.1038/onc.2016.350</pub-id>
+            <pub-id pub-id-type="pmid">27748758</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5374018</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B17-cancers-13-00149">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Benavente</surname>
+                <given-names>C.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McEvoy</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Flores-Otero</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ding</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>X.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ulyanov</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wilson</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>J.</given-names>
+              </name>
+            </person-group>
+            <article-title>A novel retinoblastoma therapy from genomic and epigenetic analyses</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>481</volume>
+            <fpage>329</fpage>
+            <lpage>334</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature10733</pub-id>
+            <pub-id pub-id-type="pmid">22237022</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3289956</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B18-cancers-13-00149">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Grotta</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>D’Elia</surname>
+                <given-names>G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scavelli</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Genovese</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Surace</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sirleto</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cozza</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Romanzo</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>De Ioris</surname>
+                <given-names>M.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Valente</surname>
+                <given-names>P.</given-names>
+              </name>
+            </person-group>
+            <article-title>Advantages of a next generation sequencing targeted approach for the molecular diagnosis of retinoblastoma</article-title>
+            <source>BMC Cancer</source>
+            <year>2015</year>
+            <volume>15</volume>
+            <elocation-id>841</elocation-id>
+            <pub-id pub-id-type="doi">10.1186/s12885-015-1854-0</pub-id>
+            <pub-id pub-id-type="pmid">26530098</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4632486</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B19-cancers-13-00149">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Amitrano</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Marozza</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Somma</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Imperatore</surname>
+                <given-names>V.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hadjistilianou</surname>
+                <given-names>T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>De Francesco</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Toti</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Galimberti</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meloni</surname>
+                <given-names>I.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cetta</surname>
+                <given-names>F.</given-names>
+              </name>
+            </person-group>
+            <article-title>Next generation sequencing in sporadic retinoblastoma patients reveals somatic mosaicism</article-title>
+            <source>Eur. J. Hum. Genet.</source>
+            <year>2015</year>
+            <volume>23</volume>
+            <fpage>1523</fpage>
+            <lpage>1530</lpage>
+            <pub-id pub-id-type="doi">10.1038/ejhg.2015.6</pub-id>
+            <pub-id pub-id-type="pmid">25712084</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4613478</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B20-cancers-13-00149">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Devarajan</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Prakash</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kannan</surname>
+                <given-names>T.R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Abraham</surname>
+                <given-names>A.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>U.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Muthukkaruppan</surname>
+                <given-names>V.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vanniarajan</surname>
+                <given-names>A.</given-names>
+              </name>
+            </person-group>
+            <article-title>Targeted next generation sequencing of RB1 gene for the molecular diagnosis of Retinoblastoma</article-title>
+            <source>BMC Cancer</source>
+            <year>2015</year>
+            <volume>15</volume>
+            <elocation-id>320</elocation-id>
+            <pub-id pub-id-type="doi">10.1186/s12885-015-1340-8</pub-id>
+            <pub-id pub-id-type="pmid">25928201</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4415345</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B21-cancers-13-00149">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>D.T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mitchell</surname>
+                <given-names>T.N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shah</surname>
+                <given-names>R.H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Benayed</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Syed</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chandramohan</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>Z.Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Won</surname>
+                <given-names>H.H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scot</surname>
+                <given-names>N.S.</given-names>
+              </name>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): A Hybridization Capture-Based Next-Generation Sequencing Clinical Assay for Solid Tumor Molecular Oncology</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B22-cancers-13-00149">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Benayed</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shah</surname>
+                <given-names>R.H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Syed</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Middha</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>H.R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Srinivasan</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chakravarty</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Devlin</surname>
+                <given-names>S.M.</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>703</fpage>
+            <pub-id pub-id-type="doi">10.1038/nm.4333</pub-id>
+            <pub-id pub-id-type="pmid">28481359</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B23-cancers-13-00149">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dogrusoz</surname>
+                <given-names>U.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gross</surname>
+                <given-names>B.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sumer</surname>
+                <given-names>S.O.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Aksoy</surname>
+                <given-names>B.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jacobsen</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Byrne</surname>
+                <given-names>C.J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Heuer</surname>
+                <given-names>M.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Larsson</surname>
+                <given-names>E.</given-names>
+              </name>
+            </person-group>
+            <article-title>The cBio cancer genomics portal: An open platform for exploring multidimensional cancer genomics data</article-title>
+            <source>Cancer Discov.</source>
+            <year>2012</year>
+            <volume>2</volume>
+            <fpage>401</fpage>
+            <lpage>404</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-12-0095</pub-id>
+            <pub-id pub-id-type="pmid">22588877</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3956037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B24-cancers-13-00149">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Aksoy</surname>
+                <given-names>B.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dogrusoz</surname>
+                <given-names>U.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dresdner</surname>
+                <given-names>G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gross</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sumer</surname>
+                <given-names>S.O.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sun</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jacobsen</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sinha</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Larsson</surname>
+                <given-names>E.</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal</article-title>
+            <source>Sci. Signal.</source>
+            <year>2013</year>
+            <volume>6</volume>
+            <fpage>pl1</fpage>
+            <pub-id pub-id-type="doi">10.1126/scisignal.2004088</pub-id>
+            <pub-id pub-id-type="pmid">23550210</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4160307</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B25-cancers-13-00149">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ahani</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Behnam</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Khorshid</surname>
+                <given-names>H.R.K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Akbari</surname>
+                <given-names>M.T.</given-names>
+              </name>
+            </person-group>
+            <article-title>RB1 gene mutations in Iranian patients with retinoblastoma: Report of four novel mutations</article-title>
+            <source>Cancer Genet.</source>
+            <year>2011</year>
+            <volume>204</volume>
+            <fpage>316</fpage>
+            <lpage>322</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cancergen.2011.04.007</pub-id>
+            <pub-id pub-id-type="pmid">21763628</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B26-cancers-13-00149">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chakravarty</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Phillips</surname>
+                <given-names>S.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kundra</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rudolph</surname>
+                <given-names>J.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yaeger</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Soumerai</surname>
+                <given-names>T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nissan</surname>
+                <given-names>M.H.</given-names>
+              </name>
+            </person-group>
+            <article-title>OncoKB: A Precision Oncology Knowledge Base</article-title>
+            <source>JCO Precis. Oncol.</source>
+            <year>2017</year>
+            <volume>2017</volume>
+            <fpage>1</fpage>
+            <lpage>16</lpage>
+            <pub-id pub-id-type="doi">10.1200/PO.17.00011</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5586540</pub-id>
+            <pub-id pub-id-type="pmid">28890946</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B27-cancers-13-00149">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lillington</surname>
+                <given-names>D.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kingston</surname>
+                <given-names>J.E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Coen</surname>
+                <given-names>P.G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Price</surname>
+                <given-names>E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hungerford</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Domizio</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Young</surname>
+                <given-names>B.D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Onadim</surname>
+                <given-names>Z.</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparative genomic hybridization of 49 primary retinoblastoma tumors identifies chromosomal regions associated with histopathology, progression, and patient outcome</article-title>
+            <source>Genes Chromosom. Cancer</source>
+            <year>2002</year>
+            <volume>36</volume>
+            <fpage>121</fpage>
+            <lpage>128</lpage>
+            <pub-id pub-id-type="doi">10.1002/gcc.10149</pub-id>
+            <pub-id pub-id-type="pmid">12508240</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B28-cancers-13-00149">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Afshar</surname>
+                <given-names>A.R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pekmezci</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bloomer</surname>
+                <given-names>M.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cadenas</surname>
+                <given-names>N.J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stevers</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Banerjee</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roy</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Olshen</surname>
+                <given-names>A.B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Van Ziffle</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Onodera</surname>
+                <given-names>C.</given-names>
+              </name>
+            </person-group>
+            <article-title>Next-Generation Sequencing of Retinoblastoma Identifies Pathogenic Alterations beyond RB1 Inactivation That Correlate with Aggressive Histopathologic Features</article-title>
+            <source>Ophthalmology</source>
+            <year>2020</year>
+            <volume>127</volume>
+            <fpage>804</fpage>
+            <lpage>813</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ophtha.2019.12.005</pub-id>
+            <pub-id pub-id-type="pmid">32139107</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7246167</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B29-cancers-13-00149">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gustmann</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Klein-Hitpass</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stephan</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weber</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bornfeld</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kaulisch</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lohmann</surname>
+                <given-names>D.R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dünker</surname>
+                <given-names>N.</given-names>
+              </name>
+            </person-group>
+            <article-title>Loss at chromosome arm 16q in retinoblastoma: Confirmation of the association with diffuse vitreous seeding and refinement of the recurrently deleted region</article-title>
+            <source>Genes Chromosom. Cancer</source>
+            <year>2011</year>
+            <volume>50</volume>
+            <fpage>327</fpage>
+            <lpage>337</lpage>
+            <pub-id pub-id-type="doi">10.1002/gcc.20857</pub-id>
+            <pub-id pub-id-type="pmid">21305643</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B30-cancers-13-00149">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Xu</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Polski</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Prabakar</surname>
+                <given-names>R.K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reid</surname>
+                <given-names>M.W.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chévez-Barrios</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jubran</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>J.W.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kuhn</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cobrinik</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hicks</surname>
+                <given-names>J.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Chromosome 6p amplification in aqueous humor cell-free DNA is a prognostic biomarker for retinoblastoma ocular survival</article-title>
+            <source>Mol. Cancer Res.</source>
+            <year>2020</year>
+            <volume>18</volume>
+            <fpage>1166</fpage>
+            <lpage>1675</lpage>
+            <pub-id pub-id-type="doi">10.1158/1541-7786.MCR-19-1262</pub-id>
+            <pub-id pub-id-type="pmid">32434859</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7415535</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B31-cancers-13-00149">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Berry</surname>
+                <given-names>J.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Xu</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kooi</surname>
+                <given-names>I.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Murphree</surname>
+                <given-names>A.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Prabakar</surname>
+                <given-names>R.K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reid</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stachelek</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Le</surname>
+                <given-names>B.H.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Welter</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reiser</surname>
+                <given-names>B.J.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic cfDNA Analysis of Aqueous Humor in Retinoblastoma Predicts Eye Salvage: The Surrogate Tumor Biopsy for Retinoblastoma</article-title>
+            <source>Mol. Cancer Res.</source>
+            <year>2018</year>
+            <volume>16</volume>
+            <fpage>1701</fpage>
+            <lpage>1712</lpage>
+            <pub-id pub-id-type="doi">10.1158/1541-7786.MCR-18-0369</pub-id>
+            <pub-id pub-id-type="pmid">30061186</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6214755</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B32-cancers-13-00149">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Andersen</surname>
+                <given-names>C.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wiuf</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kruhøffer</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Korsgaard</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Laurberg</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ørntoft</surname>
+                <given-names>T.F.</given-names>
+              </name>
+            </person-group>
+            <article-title>Frequent occurrence of uniparental disomy in colorectal cancer</article-title>
+            <source>Carcinogenesis</source>
+            <year>2007</year>
+            <volume>28</volume>
+            <fpage>38</fpage>
+            <lpage>48</lpage>
+            <pub-id pub-id-type="doi">10.1093/carcin/bgl086</pub-id>
+            <pub-id pub-id-type="pmid">16774939</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B33-cancers-13-00149">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>O’Keefe</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McDevitt</surname>
+                <given-names>M.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Maciejewski</surname>
+                <given-names>J.P.</given-names>
+              </name>
+            </person-group>
+            <article-title>Copy neutral loss of heterozygosity: A novel chromosomal lesion in myeloid malignancies</article-title>
+            <source>Blood</source>
+            <year>2010</year>
+            <volume>115</volume>
+            <fpage>2731</fpage>
+            <lpage>2739</lpage>
+            <pub-id pub-id-type="doi">10.1182/blood-2009-10-201848</pub-id>
+            <pub-id pub-id-type="pmid">20107230</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2854422</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B34-cancers-13-00149">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Raghavan</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Smith</surname>
+                <given-names>L.-L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lillington</surname>
+                <given-names>D.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chaplin</surname>
+                <given-names>T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kakkas</surname>
+                <given-names>I.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Molloy</surname>
+                <given-names>G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chelala</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cazier</surname>
+                <given-names>J.-B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cavenagh</surname>
+                <given-names>J.D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fitzgibbon</surname>
+                <given-names>J.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Segmental uniparental disomy is a commonly acquired genetic event in relapsed acute myeloid leukemia</article-title>
+            <source>Blood</source>
+            <year>2008</year>
+            <volume>112</volume>
+            <fpage>814</fpage>
+            <lpage>821</lpage>
+            <pub-id pub-id-type="doi">10.1182/blood-2008-01-132431</pub-id>
+            <pub-id pub-id-type="pmid">18490517</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B35-cancers-13-00149">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Murthy</surname>
+                <given-names>S.K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>DiFrancesco</surname>
+                <given-names>L.M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ogilvie</surname>
+                <given-names>R.T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Demetrick</surname>
+                <given-names>D.J.</given-names>
+              </name>
+            </person-group>
+            <article-title>Loss of heterozygosity associated with uniparental disomy in breast carcinoma</article-title>
+            <source>Mod. Pathol.</source>
+            <year>2002</year>
+            <volume>15</volume>
+            <fpage>1241</fpage>
+            <lpage>1250</lpage>
+            <pub-id pub-id-type="doi">10.1097/01.MP.0000032535.62750.D1</pub-id>
+            <pub-id pub-id-type="pmid">12481003</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B36-cancers-13-00149">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Torabi</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Miró</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fernández-Jiménez</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Quintanilla</surname>
+                <given-names>I.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ramos</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Prat</surname>
+                <given-names>E.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>del Rey</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pujol</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Killian</surname>
+                <given-names>J.K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meltzer</surname>
+                <given-names>P.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Patterns of somatic uniparental disomy identify novel tumor suppressor genes in colorectal cancer</article-title>
+            <source>Carcinogenesis</source>
+            <year>2015</year>
+            <volume>36</volume>
+            <fpage>1103</fpage>
+            <lpage>1110</lpage>
+            <pub-id pub-id-type="doi">10.1093/carcin/bgv115</pub-id>
+            <pub-id pub-id-type="pmid">26243311</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4598814</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B37-cancers-13-00149">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Astolfi</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fiore</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Melchionda</surname>
+                <given-names>F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Indio</surname>
+                <given-names>V.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bertuccio</surname>
+                <given-names>S.N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pession</surname>
+                <given-names>A.</given-names>
+              </name>
+            </person-group>
+            <article-title>BCOR involvement in cancer</article-title>
+            <source>Epigenomics</source>
+            <year>2019</year>
+            <volume>11</volume>
+            <fpage>835</fpage>
+            <lpage>855</lpage>
+            <pub-id pub-id-type="doi">10.2217/epi-2018-0195</pub-id>
+            <pub-id pub-id-type="pmid">31150281</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6595546</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B38-cancers-13-00149">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Terada</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yamaguchi</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ueki</surname>
+                <given-names>T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Usuki</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kobayashi</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tajika</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gomi</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kurosawa</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Saito</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Furuta</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Usefulness of BCOR gene mutation as a prognostic factor in acute myeloid leukemia with intermediate cytogenetic prognosis</article-title>
+            <source>Genes Chromosom. Cancer</source>
+            <year>2018</year>
+            <volume>57</volume>
+            <fpage>401</fpage>
+            <lpage>408</lpage>
+            <pub-id pub-id-type="doi">10.1002/gcc.22542</pub-id>
+            <pub-id pub-id-type="pmid">29663558</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B39-cancers-13-00149">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhou</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wojcik</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sanders</surname>
+                <given-names>V.R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rahmani</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kurup</surname>
+                <given-names>S.P.</given-names>
+              </name>
+            </person-group>
+            <article-title>Ocular findings in a patient with oculofaciocardiodental (OFCD) syndrome and a novel BCOR pathogenic variant</article-title>
+            <source>Int. Ophthalmol.</source>
+            <year>2018</year>
+            <volume>38</volume>
+            <fpage>2677</fpage>
+            <lpage>2682</lpage>
+            <pub-id pub-id-type="doi">10.1007/s10792-017-0754-5</pub-id>
+            <pub-id pub-id-type="pmid">29058245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B40-cancers-13-00149">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zeng</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>He</surname>
+                <given-names>T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>Z.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Xie</surname>
+                <given-names>F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Xing</surname>
+                <given-names>Y.</given-names>
+              </name>
+            </person-group>
+            <article-title>Bioinformatics analysis of multi-omics data identifying molecular biomarker candidates and epigenetically regulatory targets associated with retinoblastoma</article-title>
+            <source>Medicine</source>
+            <year>2020</year>
+            <volume>99</volume>
+            <fpage>e23314</fpage>
+            <pub-id pub-id-type="doi">10.1097/MD.0000000000023314</pub-id>
+            <pub-id pub-id-type="pmid">33217867</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7676602</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B41-cancers-13-00149">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yazici</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>H.-C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tigli</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yilmaz</surname>
+                <given-names>E.Z.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kebudi</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Santella</surname>
+                <given-names>R.M.</given-names>
+              </name>
+            </person-group>
+            <article-title>High levels of global genome methylation in patients with retinoblastoma</article-title>
+            <source>Oncol. Lett.</source>
+            <year>2020</year>
+            <volume>20</volume>
+            <fpage>715</fpage>
+            <lpage>723</lpage>
+            <pub-id pub-id-type="doi">10.3892/ol.2020.11613</pub-id>
+            <pub-id pub-id-type="pmid">32565997</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7286142</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B42-cancers-13-00149">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Walsh</surname>
+                <given-names>M.F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>G.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Edmonson</surname>
+                <given-names>M.N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gruber</surname>
+                <given-names>T.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Easton</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hedges</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ma</surname>
+                <given-names>X.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhou</surname>
+                <given-names>X.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yergeau</surname>
+                <given-names>D.A.</given-names>
+              </name>
+            </person-group>
+            <article-title>Germline Mutations in Predisposition Genes in Pediatric Cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2015</year>
+            <volume>373</volume>
+            <fpage>2336</fpage>
+            <lpage>2346</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1508054</pub-id>
+            <pub-id pub-id-type="pmid">26580448</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4734119</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B43-cancers-13-00149">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mandelker</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kemel</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stadler</surname>
+                <given-names>Z.K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Joseph</surname>
+                <given-names>V.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pradhan</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Arnold</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Walsh</surname>
+                <given-names>M.F.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>Y.</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutation Detection in Patients With Advanced Cancer by Universal Sequencing of Cancer-Related Genes in Tumor and Normal DNA vs. Guideline-Based Germline Testing</article-title>
+            <source>JAMA</source>
+            <year>2017</year>
+            <volume>318</volume>
+            <fpage>825</fpage>
+            <lpage>835</lpage>
+            <pub-id pub-id-type="doi">10.1001/jama.2017.11137</pub-id>
+            <pub-id pub-id-type="pmid">28873162</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5611881</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B44-cancers-13-00149">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Qin</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>Z.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>Q.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Song</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wilson</surname>
+                <given-names>C.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ehrhardt</surname>
+                <given-names>M.J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shelton</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Easton</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mulder</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kennetz</surname>
+                <given-names>D.</given-names>
+              </name>
+            </person-group>
+            <article-title>Pathogenic Germline Mutations in DNA Repair Genes in Combination With Cancer Treatment Exposures and Risk of Subsequent Neoplasms Among Long-Term Survivors of Childhood Cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2020</year>
+            <volume>38</volume>
+            <fpage>2728</fpage>
+            <lpage>2740</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.19.02760</pub-id>
+            <pub-id pub-id-type="pmid">32496904</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7430217</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B45-cancers-13-00149">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hu</surname>
+                <given-names>X.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhai</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shi</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Qian</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cui</surname>
+                <given-names>H.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bi</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yan</surname>
+                <given-names>T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ma</surname>
+                <given-names>Y.</given-names>
+              </name>
+            </person-group>
+            <article-title>FAT1 inhibits cell migration and invasion by affecting cellular mechanical properties in esophageal squamous cell carcinoma</article-title>
+            <source>Oncol. Rep.</source>
+            <year>2018</year>
+            <volume>39</volume>
+            <fpage>2136</fpage>
+            <lpage>2146</lpage>
+            <pub-id pub-id-type="doi">10.3892/or.2018.6328</pub-id>
+            <pub-id pub-id-type="pmid">29565465</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5928768</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B46-cancers-13-00149">
+          <label>46.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Guertin</surname>
+                <given-names>D.A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sabatini</surname>
+                <given-names>D.M.</given-names>
+              </name>
+            </person-group>
+            <article-title>Defining the role of mTOR in cancer</article-title>
+            <source>Cancer Cell</source>
+            <year>2007</year>
+            <volume>12</volume>
+            <fpage>9</fpage>
+            <lpage>22</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccr.2007.05.008</pub-id>
+            <pub-id pub-id-type="pmid">17613433</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B47-cancers-13-00149">
+          <label>47.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Carlo</surname>
+                <given-names>M.I.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mukherjee</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mandelker</surname>
+                <given-names>D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vijai</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kemel</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Knezevic</surname>
+                <given-names>A.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Patil</surname>
+                <given-names>S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ceyhan-Birsoy</surname>
+                <given-names>O.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>K.-C.</given-names>
+              </name>
+            </person-group>
+            <article-title>Prevalence of Germline Mutations in Cancer Susceptibility Genes in Patients with Advanced Renal Cell Carcinoma</article-title>
+            <source>JAMA Oncol.</source>
+            <year>2018</year>
+            <volume>4</volume>
+            <fpage>1228</fpage>
+            <lpage>1235</lpage>
+            <pub-id pub-id-type="doi">10.1001/jamaoncol.2018.1986</pub-id>
+            <pub-id pub-id-type="pmid">29978187</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6584283</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B48-cancers-13-00149">
+          <label>48.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seshan</surname>
+                <given-names>V.E.</given-names>
+              </name>
+            </person-group>
+            <article-title>FACETS: Allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e131</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw520</pub-id>
+            <pub-id pub-id-type="pmid">27270079</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5027494</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B49-cancers-13-00149">
+          <label>49.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jonsson</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bandlamudi</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>M.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Srinivasan</surname>
+                <given-names>P.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chavan</surname>
+                <given-names>S.S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Friedman</surname>
+                <given-names>N.D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rosen</surname>
+                <given-names>E.Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Richards</surname>
+                <given-names>A.L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bouvier</surname>
+                <given-names>N.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Selcuklu</surname>
+                <given-names>S.D.</given-names>
+              </name>
+            </person-group>
+            <article-title>Tumour lineage shapes BRCA-mediated phenotypes</article-title>
+            <source>Nature</source>
+            <year>2019</year>
+            <volume>571</volume>
+            <fpage>576</fpage>
+            <lpage>579</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41586-019-1382-1</pub-id>
+            <pub-id pub-id-type="pmid">31292550</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7048239</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B50-cancers-13-00149">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Niu</surname>
+                <given-names>B.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ye</surname>
+                <given-names>K.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>Q.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lu</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Xie</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McLellan</surname>
+                <given-names>M.D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wendl</surname>
+                <given-names>M.C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ding</surname>
+                <given-names>L.</given-names>
+              </name>
+            </person-group>
+            <article-title>MSIsensor: Microsatellite instability detection using paired tumor-normal sequence data</article-title>
+            <source>Bioinformatics</source>
+            <year>2014</year>
+            <volume>30</volume>
+            <fpage>1015</fpage>
+            <lpage>1016</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btt755</pub-id>
+            <pub-id pub-id-type="pmid">24371154</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3967115</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B51-cancers-13-00149">
+          <label>51.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Benjamini</surname>
+                <given-names>Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hochberg</surname>
+                <given-names>Y.</given-names>
+              </name>
+            </person-group>
+            <article-title>Controlling the false discovery rate: A practical and powerful approach to multiple testing</article-title>
+            <source>J. R. Stat. Soc. Ser.</source>
+            <year>1995</year>
+            <volume>57</volume>
+            <fpage>289</fpage>
+            <lpage>300</lpage>
+            <pub-id pub-id-type="doi">10.1111/j.2517-6161.1995.tb02031.x</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="B52-cancers-13-00149">
+          <label>52.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>De Toni</surname>
+                <given-names>L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Šabovic</surname>
+                <given-names>I.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cosci</surname>
+                <given-names>I.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ghezzi</surname>
+                <given-names>M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Foresta</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Garolla</surname>
+                <given-names>A.</given-names>
+              </name>
+            </person-group>
+            <article-title>Testicular Cancer: Genes, Environment, Hormones</article-title>
+            <source>Front. Endocrinol.</source>
+            <year>2019</year>
+            <volume>10</volume>
+            <fpage>408</fpage>
+            <pub-id pub-id-type="doi">10.3389/fendo.2019.00408</pub-id>
+            <pub-id pub-id-type="pmid">31338064</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6626920</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="cancers-13-00149-f001" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Mutational landscape of retinoblastoma. (<bold>A</bold>) Oncoprint of genetic, clinical, histopathologic features of 83 retinoblastoma eyes. Top section depicts clinicopathologic features of the specimens including presence of vitreous seeds (VS) and laterality. Because of the importance of RB1, we annotated germline and somatic RB1 hits separately and also included loss of heterozygosity and methylation status, which we display when multiple mutations occur. The rest of the genes are annotated, combining germline, somatic and multiple alterations. Missing data is white. A–C annotate three samples with three hits to RB1. (<bold>B</bold>) Plot of the somatic (top) and germline (bottom) alterations of RB1, known RB1 domains marked along the axis. The height of each line indicates the number of alterations that occur at that position within the protein, with the most frequent mutation labeled in both somatic and germline.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cancers-13-00149-g001.jpg"/>
+      </fig>
+      <fig id="cancers-13-00149-f002" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Mechanisms of inactivation of RB1. (<bold>A</bold>) Stacked bar graph depicting number of hits to RB1 in 83 eyes. (<bold>B</bold>,<bold>C</bold>) Bar plot showing the types of loss of heterozygosity that occurs in retinoblastoma samples at the RB1 locus vs. loci of other tumor suppressor genes as annotated by OncoKb [<xref rid="B23-cancers-13-00149" ref-type="bibr">23</xref>,<xref rid="B24-cancers-13-00149" ref-type="bibr">24</xref>]. (<bold>C</bold>) Bar plot of the proportion of each type of loss of heterozygosity across the specimens, excluding those without any type of loss. There is a significantly higher proportion of CN-LOH at the RB1 locus (<italic toggle="yes">p</italic> &lt; 2.2 × 10<sup>−16</sup>, OR = 19.8). (<bold>D</bold>) Bar plots comparing the types of loss of heterozygosity at the RB1 locus in malignancies with RB1 mutations. Retinoblastoma samples are compared to all other types of malignancies. There is significantly higher proportion of CN-LOH at the RB1 locus in retinoblastoma compared to other malignancies (<italic toggle="yes">p</italic> &lt; 2.2 × 10<sup>−16</sup>, OR = 44.4). (<bold>E</bold>) For the somatic variants in the specimens with three detectable hits to RB1, we calculated the variant allele frequency corrected for purity of the sample and ploidy of the region (cancer cell fraction). Each column is the variant from a different specimen. Specimens are labeled based on <xref ref-type="fig" rid="cancers-13-00149-f001">Figure 1</xref>A.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cancers-13-00149-g002.jpg"/>
+      </fig>
+      <fig id="cancers-13-00149-f003" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Correlation of genomic features with clinical characteristics. (<bold>A</bold>) Kaplan–Meier graph comparing metastases-free survival between specimens with a BCOR alteration and those without. BCOR is nominally correlated with metastases-free survival (<italic toggle="yes">p</italic>-value = 0.03). (<bold>B</bold>) Copy number alterations of 69 eyes. Each row is an individual and each column is a different chromosome. White space shows where no gains or losses occur. Losses are shown in shades of blue while gains are shown in shades of red. (<bold>C</bold>) Plot showing the genomic copy number changes in individuals with vitreous seeds vs. without. The genome was binned into 100,000 bp regions and the height of each region shows how many specimens had a gain or loss in a given bin. Any gain is shown in red on the top of each plot while any sort of loss of heterozygosity is shown in blue at the bottom of each plot. There is a significant enrichment for 1q gain and 16q loss in individuals with vitreous seeds (BH-corrected <italic toggle="yes">p</italic>-value = 0.008 and 0.004, respectively). (<bold>D</bold>) Venn diagram of specimens that contain 1q gain, 16q loss and vitreous seeds. Limited to 43 samples that had annotation of vitreous seeds and FACETS fits to call alterations on 1q and 16q.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cancers-13-00149-g003.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1679 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC9018685</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC9018685.1</article-id>
+        <article-id pub-id-type="pmcaid">9018685</article-id>
+        <article-id pub-id-type="pmcaiid">9018685</article-id>
+        <article-id pub-id-type="pmid">35440124</article-id>
+        <article-id pub-id-type="doi">10.1038/s41467-022-29794-4</article-id>
+        <article-id pub-id-type="publisher-id">29794</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Genomic and transcriptomic analysis of a library of small cell lung cancer patient-derived xenografts</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Caeser</surname>
+              <given-names initials="R">Rebecca</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Egger</surname>
+              <given-names initials="JV">Jacklynn V.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9433-6936</contrib-id>
+            <name name-style="western">
+              <surname>Chavan</surname>
+              <given-names initials="S">Shweta</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Socci</surname>
+              <given-names initials="ND">Nicholas D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="CB">Caitlin Byrne</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2781-7681</contrib-id>
+            <name name-style="western">
+              <surname>Kombak</surname>
+              <given-names initials="FE">Faruk Erdem</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Asher</surname>
+              <given-names initials="M">Marina</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4892-1098</contrib-id>
+            <name name-style="western">
+              <surname>Roehrl</surname>
+              <given-names initials="MH">Michael H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="NS">Nisargbhai S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Allaj</surname>
+              <given-names initials="V">Viola</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Manoj</surname>
+              <given-names initials="P">Parvathy</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5717-3856</contrib-id>
+            <name name-style="western">
+              <surname>Tischfield</surname>
+              <given-names initials="SE">Sam E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kulick</surname>
+              <given-names initials="A">Amanda</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4093-3070</contrib-id>
+            <name name-style="western">
+              <surname>Meneses</surname>
+              <given-names initials="M">Maximiliano</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4672-3023</contrib-id>
+            <name name-style="western">
+              <surname>Iacobuzio-Donahue</surname>
+              <given-names initials="CA">Christine A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lai</surname>
+              <given-names initials="WV">W. Victoria</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6656-1239</contrib-id>
+            <name name-style="western">
+              <surname>Bhanot</surname>
+              <given-names initials="U">Umeshkumar</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baine</surname>
+              <given-names initials="MK">Marina K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rekhtman</surname>
+              <given-names initials="N">Natasha</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1599-0433</contrib-id>
+            <name name-style="western">
+              <surname>Hollmann</surname>
+              <given-names initials="TJ">Travis J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>de Stanchina</surname>
+              <given-names initials="E">Elisa</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9795-5644</contrib-id>
+            <name name-style="western">
+              <surname>Poirier</surname>
+              <given-names initials="JT">John T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5204-3465</contrib-id>
+            <name name-style="western">
+              <surname>Rudin</surname>
+              <given-names initials="CM">Charles M.</given-names>
+            </name>
+            <address>
+              <email>rudinc@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff9">9</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Sen</surname>
+              <given-names initials="T">Triparna</given-names>
+            </name>
+            <address>
+              <email>sent@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Bioinformatics Core, Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Precision Pathology Center, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Antitumor Assessment Core Facility, Molecular Pharmacology Program, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY10065 USA </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Human Oncology and Pathogenesis Program, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.137628.9</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8753</institution-id><institution>Perlmutter Cancer Center, </institution><institution>New York University Langone Health, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Molecular Pharmacology Program, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>19</day>
+          <month>4</month>
+          <year>2022</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2022</year>
+        </pub-date>
+        <volume>13</volume>
+        <issue-id pub-id-type="pmc-issue-id">397308</issue-id>
+        <elocation-id>2144</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>3</day>
+            <month>8</month>
+            <year>2021</year>
+          </date>
+          <date date-type="accepted">
+            <day>28</day>
+            <month>3</month>
+            <year>2022</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>19</day>
+              <month>04</month>
+              <year>2022</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>28</day>
+              <month>04</month>
+              <year>2022</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-09-21 16:25:26.393">
+              <day>21</day>
+              <month>09</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2022</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2022_Article_29794.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Access to clinically relevant small cell lung cancer (SCLC) tissue is limited because surgical resection is rare in metastatic SCLC. Patient-derived xenografts (PDX) and circulating tumor cell-derived xenografts (CDX) have emerged as valuable tools to characterize SCLC. Here, we present a resource of 46 extensively annotated PDX/CDX models derived from 33 patients with SCLC. We perform multi-omic analyses, using targeted tumor next-generation sequencing, RNA-sequencing, and immunohistochemistry to deconvolute the mutational landscapes, global expression profiles, and molecular subtypes of these SCLC models. SCLC subtypes characterized by transcriptional regulators, <italic toggle="yes">ASCL1, NEUROD1</italic> and <italic toggle="yes">POU2F3</italic> are confirmed in this cohort. A subset of SCLC clinical specimens, including matched PDX/CDX and clinical specimen pairs, confirm that the primary features and genomic and proteomic landscapes of the tumors of origin are preserved in the derivative PDX models. This resource provides a powerful system to study SCLC biology.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">Creating accurate models of small cell lung cancer is essential to ensure the clinical relevance of results. Here, the authors create patient derived xenograft models from 33 patients and show, through multi-omics sequencing, that these models retain the primary features of the original.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Cancer models</kwd>
+          <kwd>Small-cell lung cancer</kwd>
+          <kwd>Cancer genomics</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2022</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par3">Lung cancer is the leading cause of cancer death in men and women, responsible for more deaths than colon, breast, and prostate cancers combined<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Small cell lung cancer (SCLC) is an aggressive neuroendocrine (NE) tumor that accounts for ~15% of all lung cancers<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. Most patients have metastatic disease at the time of diagnosis, a condition associated with a 5-year survival of &lt;5%<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. For decades, chemotherapy was the only treatment option for this disease. Immune checkpoint blockade (ICB) has proven effective for only a small subset of patients, whether the administered regimen targets the PD-1/PD-L1 axis alone or is combined with anti-CTLA-4<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. ICB plus chemotherapy has been FDA-approved for the frontline treatment in SCLC based on the results of phase III ImPower133 trial, which demonstrated a modest but significant increase in overall survival and progression-free survival with the addition of atezolizumab to chemotherapy<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. More recently, results from the CASPIAN trial led to the FDA approval of another anti-PD-L1 antibody, durvalumab, based on similarly modest but clinically meaningful survival benefit<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup>. Despite the emergence of novel targeted therapies, including inhibitors of PARP, EZH2, and BCL2, their clinical benefits have been limited, and have not led to regulatory approvals. Relative to other types of lung cancer, therapeutic options in SCLC are limited and offer only transient benefits for the large majority of patients.</p>
+        <p id="Par4">A major challenge to identifying effective treatments has been the relative lack of model systems that accurately reflect SCLC tumorigenesis. Access to clinically relevant tissue is limited because surgical resection is rare in metastatic SCLC. Until recently this has made researchers heavily reliant on established cell lines and genetically engineered mouse models (GEMM), which both have inherent limitations. Cell lines often carry a biased mutational repertoire and decades of in vitro growth further selects these lines. The available SCLC cell lines were largely generated before the advent of the current standard of care combination therapies and may not accurately represent current resistance mechanisms. GEMMs generally fail to recapitulate the diverse mutational landscape caused by years of tobacco use<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Patient-derived xenografts (PDX) and circulating tumor cell-derived xenografts (CDX) have emerged as valuable tools to interrogate the genomic landscape of SCLC<sup><xref ref-type="bibr" rid="CR9">9</xref>–<xref ref-type="bibr" rid="CR12">12</xref></sup>. These patient-derived models have their own limitations, most notably the requirement to be maintained in an immunosuppressed murine host, precluding assessment of novel therapies to stimulate the adaptive immune system. This limitation is counterbalanced by several advantages—notably proximity to primary patient tumors, and avoidance of the selective pressures associated with establishing clonal cell lines able to grow in the in vitro tissue culture environment<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Observed phenotypes in the PDX sample can be directly traced back to the patient and correlated with clinical response to therapies<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. SCLC patients typically have a high prevalence of circulating tumor cells, which has been used as a biomarker of tumor burden during treatment<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. Invasive SCLC tumor biopsies and surgical resections can be avoided by the collection of circulating tumor cells in the blood for CDX modeling<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+        <p id="Par5">SCLC subtypes were recently characterized and defined by the relative expression of genes encoding four major transcriptional regulators, <italic toggle="yes">ASCL1</italic>, <italic toggle="yes">NEUROD1</italic>, <italic toggle="yes">POU2F3</italic>, and <italic toggle="yes">YAP1</italic> (defining subtypes SCLC-A, SCLC-N, SCLC-P, and SCLC-Y, respectively)<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. Since then, the subtype-defining validity of <italic toggle="yes">YAP1</italic> has been questioned, and SCLC-Y is now also described by an “inflamed” gene signature (SCLC-I)<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. SCLC-A remains the most common subtype (~50%), followed by SCLC-N (~20%), SCLC-Y (~20%), and SCLC-P (10%)<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. Reflecting the clinical landscape, all previous publications have only reported data on PDXs/CDXs belonging to SCLC-A and SCLC-N subtypes. The rare non-NE SCLC-P subtype has not been reported as a PDX model and therefore has been less extensively characterized.</p>
+        <p id="Par6">Here, we present a resource comprised of a cohort of 46 extensively annotated PDX/CDX models derived from 33 patients with SCLC. We perform multi-omic analyses, using targeted tumor next-generation sequencing (NGS) by MSK-IMPACT, RNA-sequencing, and immunohistochemistry (IHC) to deconvolute the mutational landscapes, global expression profiles, and molecular subtypes of these SCLC models. We directly compare these genomic and proteomic profiles to a subset of SCLC clinical specimens, including matched PDX/CDX and clinical specimen pairs. Moreover, we were able to establish and deeply characterize ten PDX models from one primary and nine metastatic tumors from an individual whose SCLC tumor belongs to the POU2F3 subtype. Therefore, our study provides insight into the genomic, transcriptomic, and protein landscape in PDX/CDX models of the different subtypes of SCLC, including SCLC-P.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Generation of the PDX/CDX panel</title>
+          <p id="Par7">Clinical characteristics of the 46 SCLC PDX/CDX models (33 patient donors) can be found in <xref rid="MOESM3" ref-type="media">Supplementary Data 1</xref>. World Health Organization’s pathologic classification of SCLC includes two subtypes: SCLC (“pure” SCLC) and combined SCLC, with the latter demonstrating admixture with any histology of non-small cell lung cancer<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Our cohort included five cases representing combined SCLC: three with a large cell NE component, one with squamous cell carcinoma, and one with adenocarcinoma. Of the 46 models, 40 (87%) were tissue-derived PDXs and 6 (13%) were CDXs. The average tumor engraftment time was 112 days, with no appreciable difference between PDXs (110 days) and CDXs (131 days). Out of 198 pure SCLC and 29 mixed histology samples that were initially injected to create a PDX model, 45 samples (23.81%) and 13 samples (44.83%) were successfully engrafted, respectively. IHC was performed on 37 samples, RNA-seq on 43 samples, and NGS via MSK-IMPACT on 42 samples (Fig. <xref rid="Fig1" ref-type="fig">1a</xref>). The patient cohort was 55% (18/33) male and 45% female, with an average age of 66 years at diagnosis. Most patient donors, 27 (82%) of 33, were current or former smokers. Nineteen of 33 patients (58%) presented with extensive-stage (ES) disease while the remainder (14/33, 42%) had limited-stage (LS). Treatment history and a depiction of sample collection is shown in Fig. <xref rid="Fig1" ref-type="fig">1b</xref>, with most patients receiving cisplatin or carboplatin and etoposide therapy either immediately after, or prior to, sample collection for model generation. IHC and targeted NGS via MSK-IMPACT was available for 19 and 26 of the patient tumors from which PDXs/CDXs were derived, respectively (Fig. <xref rid="Fig1" ref-type="fig">1a</xref>).<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Generation of the PDX/CDX panel.</title><p><bold>a</bold> Overview of the patient-derived/circulating tumor cell-derived xenograft (PDX/CDX) cohort and clinical specimens. Samples were collected from surgical, pleural effusion, biopsy, autopsy, EBUS, Neuro Met, and CTC isolation and either engrafted into immunodeficient mice to generate PDX/CDX models or directly sent for targeted sequencing (MSK-IMPACT) and Immunohistochemistry (IHC). Created with <underline>BioRender.com</underline>. <bold>b</bold> Swimmers Plot depicting sample collection of the PDX/CDX cohort during treatment course (Platinum-based therapy— black arrow, Other therapy—gray arrow). Models derived from biopsies are annotated with a blue or gray dot (with next-generation sequencing [NGS] or not, respectively). Models derived from circulating tumor cells (CTC, sequenced with NGS) are annotated with an orange dot. Dark blue indicates NGS (MSK-IMPACT) for the clinical sample. Arrows are not to scale in terms of treatment duration.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e674" position="float" orientation="portrait" xlink:href="41467_2022_29794_Fig1_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec4">
+          <title>MSK-IMPACT targeted tumor sequencing of matched PDX and clinical SCLC samples</title>
+          <p id="Par8">We conducted comparative genomic analyses on our patient tumors versus PDX models to establish the genomic fidelity of the PDX models compared with patient tumor specimens collected at the same time point. A total of 42 PDX samples and 26 clinical samples were profiled by MSK-IMPACT targeted tumor sequencing<sup><xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR22">22</xref></sup>. Of those, 18 cases included matched pairs, and the top 20 altered genes in these cohorts are presented in Fig. <xref rid="Fig2" ref-type="fig">2</xref>. Consistent with known key characteristics of SCLC, NGS revealed mutations (primarily missense and truncating mutations) with the rarer splice and in-frame mutations in <italic toggle="yes">TP53</italic> in 24 out of 26 (92%) clinical samples and truncating splice mutations, structural variants, and deep deletions in <italic toggle="yes">RB1</italic> in 21 out of 26 (81%) clinical samples (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>). Despite the rarity of MAPK pathway mutations in SCLC, two clinical samples (P-0039208-T01-IM6 and P-0039208-T02-IM6) carried <italic toggle="yes">KRAS</italic> amplifications without <italic toggle="yes">TP53</italic> and <italic toggle="yes">RB1</italic> mutations<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. Notably, these samples also harbored <italic toggle="yes">MDM2</italic> amplification, which were only found in one other clinical sample out of 26. <italic toggle="yes">MDM2</italic> is a negative regulator of <italic toggle="yes">TP53</italic>, so amplification-induced overexpression could functionally inactivate <italic toggle="yes">TP53</italic>, potentially phenocopying missense/truncating <italic toggle="yes">TP53</italic> mutations in these samples. Four samples from patients that never smoked (samples P-0022320-T01/2-IM6 and P-0025975-T01/2-IM6,) demonstrated oncogenic mutations in <italic toggle="yes">EGFR</italic> consistent with a histologic transformation from lung adenocarcinoma<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. Alterations in <italic toggle="yes">PIK3CA, KMT2D</italic>, and <italic toggle="yes">SPEN</italic> were also observed; and could be traced back to the matched clinical sample.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Matched PDX and clinical SCLC sample analysis.</title><p>Genomic landscape in SCLC (<bold>a</bold> Clinical Samples, <bold>b</bold> patient-derived xenograft (PDX) Samples, <bold>c</bold> paired Clinical-PDX samples) samples representing putative driver alterations (i.e., excludes variants of unknown significance) in the top 20 most frequently altered genes as detected by MSK-IMPACT<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> targeted next-generation sequencing.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e766" position="float" orientation="portrait" xlink:href="41467_2022_29794_Fig2_HTML.jpg"/></fig></p>
+          <p id="Par9">A higher density of alterations, particularly copy number changes, were identified in the genomic landscapes of the 42 PDX samples than in the clinical samples (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>), consistent with the greater purity of human genomic DNA from cancer cells in the PDX (due to the absence of human stromal cells<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>). Mutations in <italic toggle="yes">TP53</italic> and <italic toggle="yes">RB1</italic> were largely retained (90% and 76% of samples, respectively). One patient (MSK773) from whom several PDXs were generated had PDX models consistently demonstrating splice site mutations in <italic toggle="yes">TP53</italic> and <italic toggle="yes">CDKN1B</italic> and a missense mutation in <italic toggle="yes">PTEN</italic>. MSK1053, MSK511c, and MSK773D/E/G/I samples harbored mutations in <italic toggle="yes">SMARCA4, STK11, KEAP1</italic>, and <italic toggle="yes">PTPRS</italic> (except MSK511c); mutations more commonly observed in non-small cell lung cancer<sup><xref ref-type="bibr" rid="CR26">26</xref></sup><sup>-</sup><sup><xref ref-type="bibr" rid="CR27">27</xref></sup>.</p>
+          <p id="Par10">For 18 cases, paired clinical-PDX samples were available for direct comparison to determine whether PDX samples retained features of the original patient tumors (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>). Most (89%, 16/18) pairs retained genomic alterations in <italic toggle="yes">TP53</italic> and <italic toggle="yes">RB1</italic>. The PDXs derived from MSK599 and MSK871 both lacked the <italic toggle="yes">TP53</italic> alterations found in the corresponding clinical sample. Besides <italic toggle="yes">TP53</italic> and <italic toggle="yes">RB1</italic>, most matched samples harbored the same additional mutations with a few samples exhibiting variability. For example, MSK304B lost <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">FOXA1</italic> amplification in the PDX sample but gained an <italic toggle="yes">MYCL</italic> amplification. The observed differences might reflect the intrinsic clonal heterogeneity of the biopsies used for direct sequencing vs. PDX generation or could be due to bottlenecking and selection in PDX generation; these possibilities are not mutually exclusive. Overall, these results demonstrate that primary features of the genomic landscapes of the tumors of origin were preserved in the derivative PDX models.</p>
+        </sec>
+        <sec id="Sec5">
+          <title>SCLC subtype and NE markers</title>
+          <p id="Par11">SCLC diagnoses of donor patient biopsies were morphologically confirmed by a pathologist. Selected cases exhibited spindle cell and nesting growth patterns, along with the predominance of sheet-like/solid morphology. Representative examples of SCLC PDX histology by hematoxylin and eosin (H&amp;E) staining are shown in Fig. <xref rid="Fig3" ref-type="fig">3a</xref>. SCLC has been divided into biologically distinct subtypes based on the expression of the transcriptional regulators <italic toggle="yes">ASCL1, NEUROD1, POU2F3</italic>, <italic toggle="yes">and YAP1</italic><sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. However, recent reports show only sporadic expression of <italic toggle="yes">YAP1</italic> in clinical samples and CDXs<sup><xref ref-type="bibr" rid="CR28">28</xref>,<xref ref-type="bibr" rid="CR29">29</xref></sup>, questioning the role of <italic toggle="yes">YAP1</italic> in SCLC. We performed IHC on 37 PDX/CDX samples, and a pathologist reviewed and scored tumors for the fraction of positive cells for each protein, as well as staining intensity (<italic toggle="yes">H</italic>-score). In our prior analysis of primary human tumors by IHC, it was noted that many SCLC tumors co-express ASCL1 and NEUROD1, defining an intermediate between dichotomous expression of these factors<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Figure <xref rid="Fig3" ref-type="fig">3a</xref> shows representative staining of four selected cases derived from <italic toggle="yes">ASCL1, NEUROD1</italic>, <italic toggle="yes">POU2F3</italic>, and <italic toggle="yes">ASCL1/NEUROD1</italic> subtypes (see Supplementary Figs. <xref rid="MOESM1" ref-type="media">1</xref>–<xref rid="MOESM1" ref-type="media">4</xref> for other cases). Most PDXs showed medium/high <italic toggle="yes">H</italic>-score expression for <italic toggle="yes">ASCL1, NEUROD1</italic>, or both. A distinct subset of ten PDXs (MSK773, B-L) derived from one patient (biopsy and different tissue sites post-mortem) were strongly positive for <italic toggle="yes">POU2F3</italic> and negative for the other subtype-defining transcription factors <italic toggle="yes">(</italic>Fig. <xref rid="Fig3" ref-type="fig">3</xref>a, <xref rid="Fig3" ref-type="fig">b</xref>). <italic toggle="yes">YAP1</italic> expression was consistently absent or very low across all samples, regardless of intracellular localization (nuclear or cytoplasmic staining, Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a</xref>). This parallels the recent studies noted above<sup><xref ref-type="bibr" rid="CR28">28</xref>,<xref ref-type="bibr" rid="CR29">29</xref></sup>, further suggesting that <italic toggle="yes">YAP1</italic> may not be an optimal marker to distinguish between SCLC subtypes.<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>SCLC subtype annotation and neuroendocrine markers.</title><p><bold>a</bold> H&amp;E and immunohistochemistry images for the indicated proteins are shown. Scale bar, 50 μM. Four representative tumors are shown. Three independent cores per sample were stained for H&amp;E and the indicated protein with a representative example shown here. <bold>b</bold> Heatmap depicts H-scores derived from 37 scored patient-derived xenograft (PDX) tumors for the fraction of positive cells for each protein shown, as well as staining intensity. White box with a cross (MSK95, NCAM1) indicates staining failed. Source data are provided as a Source Data file. <bold>c</bold> Heatmap depicts H-scores derived from 18 paired PDX tumors and clinical samples for the fraction of positive cells for each protein shown, as well as staining intensity. White boxes with cross indicate no staining available. Source data are provided as a Source Data file. <bold>d</bold> Heatmap of gene expression of 43 PDX samples for the selected markers; ASCL1, NEUROD1, POU2F3, and YAP1. Color-coded panel on top depicts treatment status (naïve or treated) and subtype annotation based on immunohistochemistry (IHC) or RNA-sequencing. Source data are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e951" position="float" orientation="portrait" xlink:href="41467_2022_29794_Fig3_HTML.jpg"/></fig></p>
+          <p id="Par12">Consistent with previous literature, all <italic toggle="yes">POU2F3</italic>-expressing PDXs also expressed <italic toggle="yes">MYC</italic> (Fig. <xref rid="Fig3" ref-type="fig">3b</xref> and Supplementary Figs. <xref rid="MOESM1" ref-type="media">1</xref>–<xref rid="MOESM1" ref-type="media">4</xref>). Most PDXs (with the exception of 5) showed high expression of the NE marker NCAM1; most also expressed synaptophysin, although this was lower or absent in the <italic toggle="yes">POU2F3</italic> PDXs (Fig. <xref rid="Fig3" ref-type="fig">3b</xref> and Supplementary Figs. <xref rid="MOESM1" ref-type="media">1</xref>–<xref rid="MOESM1" ref-type="media">4</xref>). Paired samples, with analysis of a clinical sample and the corresponding PDX, were available for 18 cases, and H-scores of subtype markers ASCL1, NEUROD1, POU2F3, and YAP1, as well as expression of MYC, were similar or unchanged in most pairs (Fig. <xref rid="Fig3" ref-type="fig">3c</xref> and Supplementary Figs. <xref rid="MOESM1" ref-type="media">5B</xref>,  <xref rid="MOESM1" ref-type="media">6</xref>, <xref rid="MOESM1" ref-type="media">7</xref>). These data illustrate that the PDX cohort largely retains both the genomic and proteomic features of the original SCLC biopsy samples, increasing confidence in this model system as a platform for studying SCLC.</p>
+          <p id="Par13">The expression of subtype markers was further confirmed by RNA-seq (Fig. <xref rid="Fig3" ref-type="fig">3d</xref>). Heatmap shows samples clustered based on subtype expression (<italic toggle="yes">ASCL1, NEUROD1, POU2F3</italic>, and <italic toggle="yes">YAP1</italic>). Subtype annotation based on IHC and RNA-seq largely overlapped, and no pattern emerged between naïve and treated samples. Interestingly, the strong <italic toggle="yes">YAP1</italic> RNA expression seen in some PDXs (MSK599b, MSK831b, MSK511c, MSK773G, MSK1231, MSK761, MSK900b, and MSK773E) was not observed on IHC (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5C</xref>). Recent data have suggested that <italic toggle="yes">YAP1</italic>-driven SCLC cell lines express YAP together with its homologous heterodimeric transcriptional coactivator TAZ to both activate and induce negative feedback regulation of the Hippo pathway<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. YAP1 subtype has also been correlated with NOTCH expression (<italic toggle="yes">NOTCH1, NOTCH2</italic>, and <italic toggle="yes">NOTCH3</italic>)<sup><xref ref-type="bibr" rid="CR30">30</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup>. We explored <italic toggle="yes">YAP/TAZ</italic> and their downstream transcriptional targets in our PDX/CDX dataset (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5D</xref>). Strikingly, the <italic toggle="yes">POU2F3</italic>-positive PDX subset highly expressed YAP1 downstream genes, including <italic toggle="yes">NOTCH2</italic> and <italic toggle="yes">NOTCH3</italic>, regardless of whether <italic toggle="yes">YAP1</italic> itself was expressed. <italic toggle="yes">ASCL1</italic>- and <italic toggle="yes">NEUROD1</italic>-driven PDXs had lower expression of such genes, suggesting this pathway is inactivated in the NE subsets as previously described<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Notably, two samples, SCLC-A/N MSK900b and SCLC-A MSK761, showed relatively high expression of <italic toggle="yes">YAP1</italic>, similar to the SCLC-P models, however, YAP1 protein staining was absent (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5C, D</xref>).</p>
+          <p id="Par14">Recently, SCLC lacking high expression of ASCL1, NEUROD1, and POU2F3 have been re-categorized on the basis of their inflamed gene signature, including immune checkpoint genes and human leukocyte antigens (HLAs), rather than solely based on the expression of <italic toggle="yes">YAP1</italic><sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. This prompted us to look at the expression of HLAs and antigen-presenting gene signatures<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> in our PDX cohort. Seven of 43 models (MSK831b, MSK511c, MSK325d, MSK773B, MSK773H, MSK761, and MSK891) showed high expression of HLAs and related antigen presentation genes such as HLA-DRA or HLA-DBP1 (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5e</xref>); these models were diverse and were not clearly attributed to a distinct subtype or treatment status (naïve/treated).</p>
+        </sec>
+        <sec id="Sec6">
+          <title>Transcriptional analysis of SCLC tumors of different subtypes</title>
+          <p id="Par15">To compare the SCLC tumors of different subtypes, we applied principal component analysis (PCA) to the top 500 genes ranked by variance over all samples (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>). SCLC-P tumors clustered closely together and were distinct from the non-SCLC-P tumors. SCLC-A and SCLC-A/N formed separate clusters with some overlap. The two SCLC-N tumors lacking ASCL1 clustered closely together, and tumors with no subtype annotation based on IHC clustered near SCLC-A or SCLC-A/N cohorts. Notably, the two samples (SCLC-A/N MSK900b and SCLC-A MSK761, annotated in Fig. <xref rid="Fig4" ref-type="fig">4a</xref>) with <italic toggle="yes">YAP1</italic> downstream gene expression patterns similar to SCLC-P samples were positioned in an intermediate space between non-SCLC-P and SCLC-P samples, in relatively close proximity to the SCLC-P samples. These two PDXs also clustered closely together, but distinct from the SCLC-P samples, in hierarchical clustering (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). SCLC-A/N MSK900b and SCLC-A MSK761 were both chemonaïve, and all SCLC-P samples were treated. Overall, treatment status did not appear to be a determinant of clustering (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>).<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><title>Transcriptional profile analysis of SCLC tumors of different subtypes.</title><p><bold>a</bold> Principal component analysis plot showing 43 patient-derived xenograft (PDX) samples color-coded based on immunohistochemistry (IHC) subtype annotation. Circles indicate four separate clusters (<italic toggle="yes">ASCL1</italic>-driven cluster, red; <italic toggle="yes">ASCL1/NEUROD1</italic>-driven cluster, blue; <italic toggle="yes">NEUROD1</italic>-driven cluster, green; <italic toggle="yes">POU2F3</italic>-driven cluster, purple). Source data are provided as a Source Data file. <bold>b</bold> Unbiased hierarchical clustering of 43 PDX samples. Color-coded panel on top depicts treatment status (naïve or treated) and subtype annotation based on IHC. Boxes indicate five separate clusters (two <italic toggle="yes">ASCL1/NEUROD1</italic>-driven clusters, blue; one <italic toggle="yes">NEUROD1</italic>-driven cluster, green; one <italic toggle="yes">ASCL1</italic>-driven cluster, red; one <italic toggle="yes">POU2F3</italic>-driven cluster, purple). Source data are provided as a Source Data file. <bold>c</bold> Sample-sample correlation plot using the top 100 highest variance genes. The Spearman correlation was used and the samples were ordered using hierarchical clustering with complete linkage. Five clusters emerged and are boxed (two <italic toggle="yes">ASCL1/NEUROD1</italic>-driven clusters, blue; one <italic toggle="yes">NEUROD1</italic>-driven cluster, green; one <italic toggle="yes">ASCL1</italic>-driven cluster, red; one <italic toggle="yes">POU2F3</italic>-driven cluster, purple). Source data are provided as a Source Data file. <bold>d</bold> Heatmap of the top 50 highly expressed genes in 43 PDX samples. Blue indicates high expression and green indicates low expression. Color key and histogram represents the normalized log 2-transformed counts. Source data are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1164" position="float" orientation="portrait" xlink:href="41467_2022_29794_Fig4_HTML.jpg"/></fig></p>
+          <p id="Par16">Unbiased hierarchical clustering revealed distinct clusters, suggesting one clear cluster to be of <italic toggle="yes">POU2F3</italic> origin (purple box), one cluster of mostly <italic toggle="yes">ASCL1</italic> origin (red box), one cluster of <italic toggle="yes">NEUROD1</italic> origin (green box), and two separate clusters of mostly <italic toggle="yes">ASCL1/NEUROD1</italic> or <italic toggle="yes">ASCL1</italic> origin (blue boxes) based on IHC (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). These suggested clusters were largely preserved when the analysis was based on the 100 most variable genes (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>), with a few samples not falling into any cluster or into a different cluster than shown in Fig. <xref rid="Fig4" ref-type="fig">4b</xref>. However, clusters changed slightly when analyzing samples based on the top 50 highly expressed genes with only a subset of the SCLC-P samples forming a clear cluster (Fig. <xref rid="Fig4" ref-type="fig">4d</xref>). This subset of SCLC-P was notable for highly expressed mitochondrial genes such as <italic toggle="yes">MT-RNR2</italic> or <italic toggle="yes">MT-CO3/1</italic>. In summary, PCA analysis and hierarchical clustering revealed distinct subtypes that were primarily reflective of the relative expression of <italic toggle="yes">ASCL1, NEUROD1</italic>, <italic toggle="yes">and POU2F3</italic>, including a substantial population with co-expression of <italic toggle="yes">ASCL1</italic> and <italic toggle="yes">NEUROD1</italic>.</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Gene expression signatures in SCLC</title>
+          <p id="Par17">To differentiate lung NE cells from non-NE cells, we assessed these PDX/CDX models using a previously defined 50-gene NE signature tool<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. As expected, NE subtypes (SCLC-A, SCLC-N, and SCLC-A/N) were markedly different from non-NE (SCLC-P) subtypes (Fig. <xref rid="Fig5" ref-type="fig">5a</xref>). The two non-SCLC-P samples that clustered closest to the SCLC-P group in PCA (Fig. <xref rid="Fig4" ref-type="fig">4</xref>), MSK761 (SCLC-A) and MSK900b (SCLC-A/N), here showed the most distinctive expression of genes in the cohort, with high expression of the non-NE determinant genes and strikingly low transcription levels of NE genes. Genes that were highly expressed in the NE-expressing subset included <italic toggle="yes">SYN1, INSM1</italic>, and <italic toggle="yes">CHGA</italic>. Drilling down on a few genes highlighting NE transcriptional regulators also revealed high expression of <italic toggle="yes">REST</italic> and <italic toggle="yes">BACH2</italic> and low expression of <italic toggle="yes">DLL3</italic> and <italic toggle="yes">ATOH1</italic> in the non-NE SCLC-P subtype (Fig. <xref rid="Fig5" ref-type="fig">5b</xref>).<fig id="Fig5" position="float" orientation="portrait"><label>Fig. 5</label><caption><title>Gene expression signatures in SCLC.</title><p>Heatmap of gene expression of 43 patient-derived xenograft (PDX) samples for the selected gene signatures; neuroendocrine (NE) vs. non-NE gene signature<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> (<bold>a</bold>), genes crucial in SCLC (<bold>b</bold>), EMT gene signature (<bold>c</bold>), MYC family gene expression (<bold>d</bold>), and metabolic gene signature<sup><xref ref-type="bibr" rid="CR42">42</xref></sup> (<bold>e</bold>). Color-coded panel on top depicts treatment status (naïve or treated) and subtype annotation based on IHC. Source data are provided as a Source Data file. <bold>f</bold> H&amp;E and immunohistochemistry image for POU2F3 are shown for the clinical MSK773. Scale bar as indicated, 20 μM. <bold>g</bold> Genomic landscape in MSK773A (adenocarcinoma) vs. MSK773A (SCLC) samples representing putative driver alterations (i.e. excludes variants of unknown significance) in altered genes as detected by MSK-IMPACT<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> targeted next-generation sequencing assay.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1295" position="float" orientation="portrait" xlink:href="41467_2022_29794_Fig5_HTML.jpg"/></fig></p>
+          <p id="Par18">While SCLC is primarily an epithelial disease, epithelial to mesenchymal transition (EMT) has been associated with the non-NE subset of SCLC and is defined by expression of vimentin (encoded by <italic toggle="yes">VIM</italic>) and loss of epithelial cell adhesion molecule (<italic toggle="yes">EPCAM</italic>)<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>. SCLC-P samples did not express detectable <italic toggle="yes">EPCAM</italic> but showed variable (low to medium) expression of <italic toggle="yes">VIM</italic> as well as low expression of EMT transcription factors <italic toggle="yes">SNAI1/2</italic> and <italic toggle="yes">ZEB1</italic> (Fig. <xref rid="Fig5" ref-type="fig">5c</xref>). <italic toggle="yes">EPCAM</italic> and <italic toggle="yes">SNAI1</italic> expression was heterogenous but tended to be highest in SCLC-A. No clear SCLC subtype associations emerged from these genes or a more extensive EMT gene signature<sup><xref ref-type="bibr" rid="CR34">34</xref></sup> (Fig. <xref rid="Fig5" ref-type="fig">5c</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">8</xref>). These findings are consistent with a recent report describing low <italic toggle="yes">VIM</italic> expression in three CDXs of the non-NE subtype, suggesting that EMT is not always a hallmark of non-NE cells in SCLC<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>.</p>
+        </sec>
+        <sec id="Sec8">
+          <title>MYC gene family member expression</title>
+          <p id="Par19"><italic toggle="yes">MYC, MYCL</italic>, and <italic toggle="yes">MYCN</italic> define a gene family implicated in SCLC oncogenesis and subtype differentiation<sup><xref ref-type="bibr" rid="CR35">35</xref>–<xref ref-type="bibr" rid="CR37">37</xref></sup>. To determine the relative expression of MYC family genes, we analyzed bulk RNA-sequencing for <italic toggle="yes">MYC, MYCN</italic>, and <italic toggle="yes">MYCL</italic> and also compared this to MYC IHC (validated antibodies are unavailable for MYCN and MYCL)<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup> data in Fig. <xref rid="Fig3" ref-type="fig">3</xref>. Paralleling protein assessment of MYC, SCLC-P samples highly expressed <italic toggle="yes">MYC</italic> at the RNA level (Fig. <xref rid="Fig5" ref-type="fig">5d</xref>). These samples expressed <italic toggle="yes">MYCN</italic> to a lesser degree and <italic toggle="yes">MYCL</italic> was low or absent. Not surprisingly, SCLC-A/N MSK900b and SCLC-A MSK761, which have consistently clustered with the SCLC-P cohort, also expressed high levels of <italic toggle="yes">MYC</italic> but did not express <italic toggle="yes">MYCN</italic> or <italic toggle="yes">MYCL</italic>. Most of the SCLC-A samples showed expression of <italic toggle="yes">MYCL</italic>, consistent with the previous reports<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. Interestingly, the two SCLC-N samples (MSK424 and MSK443) in the cohort had the highest <italic toggle="yes">MYCL</italic> transcript expression levels (Fig. <xref rid="Fig5" ref-type="fig">5d</xref>). MSK-IMPACT targeted tumor sequencing<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> revealed an MYCL amplification for some samples that harbored high <italic toggle="yes">MYCL</italic> expression, including MSK424, MSK304, MSK40, MSK599b, MSK891, and MSK736. Recent reports highlight that SCLC subtypes expressing different MYC family members are metabolically distinct<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>. We proceeded to look at a metabolic gene signature<sup><xref ref-type="bibr" rid="CR42">42</xref></sup> and interestingly, SCLC-P samples showed high expression of a subset of metabolic genes in comparison to the non-SCLC-P samples (Fig. <xref rid="Fig5" ref-type="fig">5e</xref>) such as <italic toggle="yes">ABCB6, PGD</italic>, or <italic toggle="yes">G6PD</italic>. While a clear subset of genes was overexpressed in the <italic toggle="yes">MYC</italic><sup>hi</sup> SCLC-P samples, no clear set of metabolic genes was regulated in the <italic toggle="yes">MYCN</italic><sup>hi</sup> or <italic toggle="yes">MYCL</italic><sup>hi</sup> SCLC samples, highlighting some degree of metabolic heterogeneity in our SCLC sample set.</p>
+        </sec>
+        <sec id="Sec9">
+          <title>Origin of the SCLC-P models</title>
+          <p id="Par20">About 10% of SCLC cases are driven by the transcription factor <italic toggle="yes">POU2F3</italic>; however, to date, there are no reports of an animal model representing this subtype. We were fortunate to obtain a set of <italic toggle="yes">POU2F3</italic>-driven PDXs, derived from a male patient in his 70s with ES-SCLC. This patient was a life-long never-smoker, unusual for SCLC, but he did have a history of Hodgkin’s disease over 40 years earlier, for which he had received mantle field radiation. The patient presented with a lung mass, bone metastases, and a large volume of pleural effusion, diagnosed by pleural fluid cytology as SCLC. He was initially treated with carboplatin and etoposide, and after initial response had radiological progression within 6 months of initial diagnosis. He underwent a percutaneous lung biopsy at that time, from which an initial PDX was established (MSK773). This biopsy showed an admixed SCLC and lung adenocarcinoma (Fig. <xref rid="Fig5" ref-type="fig">5f</xref>). RB immune expression was lost in the SCLC and retained in the adenocarcinoma. The resulting PDX demonstrated SCLC histology, strongly positive for POU2F3 (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). The patient was subsequently treated with ipilimumab and nivolumab, without response. Prior to death, the patient elected to participate in our institutional medical donation program, allowing us to perform an immediate post-mortem autopsy, enabling the establishment of nine additional PDXs from recurrent and metastatic sites (lung, chest, liver, diaphragm, rib). As shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>, all ten samples from this patient were <italic toggle="yes">POU2F3</italic>-positive by IHC and RNA-sequencing and expressed <italic toggle="yes">MYC</italic>.</p>
+          <p id="Par21">POU2F3 expression in the lung is normally tightly restricted to tuft cells, rare chemosensory epithelial cells<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. The high expression and strong dependence on POU2F3 suggested that the SCLC-P subtype might arise through a malignant transformation of tuft cells<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. Lung adenocarcinoma arises from the much more common type II pneumocyte or related progenitor cells<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. It has also been extensively described that lung adenocarcinoma can undergo histologic transformation to NE SCLC, either de novo or as a mechanism of acquired resistance to targeted inhibitors<sup><xref ref-type="bibr" rid="CR46">46</xref>–<xref ref-type="bibr" rid="CR48">48</xref></sup>. The admixture of lung adenocarcinoma with this POU2F3-positive SCLC (Fig. <xref rid="Fig5" ref-type="fig">5f</xref>) implies that the type II pneumocyte might also serve as a precursor for SCLC-P. The mixed histology of this case suggested single cancer with differentiation into two lineage fates, or a “collision” tumor derived from independent transformation events in two distinct cells of origin. To distinguish between these possibilities, we performed MSK-IMPACT sequencing separately on the adenocarcinoma and SCLC components. Shared somatic mutations and copy number changes confirm clonality between these distinct histologies, with <italic toggle="yes">RB1</italic> and <italic toggle="yes">TP53</italic> loss specific to the SCLC (Fig. <xref rid="Fig5" ref-type="fig">5g</xref>). These data support that SCLC-P can derive from the same cell of origin as lung adenocarcinoma. The set of 10 MSK773 PDX from various anatomically distinct sites will serve as a particularly informative resource for understanding the biology and evolution of the rare SCLC-P subtype.</p>
+        </sec>
+      </sec>
+      <sec id="Sec10" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par22">Existing model systems used to functionally interrogate the SCLC landscape include cell lines and GEMMs. Both model systems come with limitations; cell lines harbor a strong selection bias in the successful establishment of in vitro clonal growth, and GEMMs lack the diversity of mutations caused by long-term tobacco use. As such, other model systems that accurately recapitulate SCLC biology are needed. Here, we present in detail a large cohort of SCLC PDX/CDX models, representing different disease stages and treatment histories. We characterized molecular subtypes and the global gene expression landscapes of SCLC in our cohort using a multi-omic approach, including IHC, RNA-sequencing, and targeted tumor next-generation sequencing (by MSK-IMPACT).</p>
+        <p id="Par23">All models presented were successful engraftments with an average time to first-generation tumor growth of 112 days. Models were derived from a variety of sources (e.g., biopsy, pleural effusion, blood) and tissue sites (e.g., lung, lymph node, liver, brain). PDX tumors largely retained clinical features of the original biopsy, including the hallmarks of SCLC, inactivation of <italic toggle="yes">TP53</italic> and <italic toggle="yes">RB1</italic>. The significance of the few differences we did observe in genomic spectra of primary tumors and their derivative models remains to be elucidated. A caveat is that these PDX/CDX models are maintained in immune-incompetent mice: the absence of an intact adaptive immune system and replacement of human stromal elements by murine cells may alter tumor-intrinsic features of antigen presentation and immune profiling.</p>
+        <p id="Par24">Current first-line standards of care for SCLC include platinum-based chemoimmunotherapy for ES disease and chemoradiotherapy for LS disease. Recent reports have shown SCLC cell lines respond differently to drug treatment based on subtype; for example, SCLC-P cell lines appear to be sensitive to PARP inhibition<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Similarly, SCLC GEMM models suggest that MYC-high SCLC may have selective sensitivity to Aurora kinase inhibition<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>. With new therapies emerging from early clinical trials, it will be important to identify the SCLC subtypes of patients to validate these observations and to inform future treatment strategies. Consistent with the known distribution of subtypes, most of our samples express <italic toggle="yes">ASCL1</italic> or both <italic toggle="yes">ASCL1</italic> and <italic toggle="yes">NEUROD1</italic>. We also identified ten <italic toggle="yes">POU2F3</italic>-driven SCLC samples, derived from one donor. Characteristic features of these models include high POU2F3 and MYC expression by IHC and RNA-seq and low expression of NE markers. Unbiased hierarchical clustering by global gene expression largely recapitulates subtype assignments based on the primary transcription factors. Interestingly, there were two samples, MSK761 and MSK900b, that were assigned to ASCL1 or ASCL1/NEUROD1 groups by transcription factor expression, but which also clustered closer to POU2F3-driven PDXs by PCA and were notable for expression of <italic toggle="yes">YAP1</italic> and its downstream genes such as <italic toggle="yes">LATS2</italic> or <italic toggle="yes">CAV1</italic>. As mentioned earlier, the role of <italic toggle="yes">YAP1</italic> as a defining subtype marker in SCLC has recently been questioned, and a new subtype defined by an inflamed gene signature was proposed<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. While MSK761 showed high expression of antigen-presenting genes, MSK900b did not. MSK761 was derived from a liver biopsy performed at the initial diagnosis. MSK761c, a CDX sample derived from the blood of the same patient after chemoimmunotherapy and combination immunotherapy, showed high expression of <italic toggle="yes">ASCL1</italic> by IHC which was further confirmed by RNA-seq. The high <italic toggle="yes">YAP1</italic> expression seen in the treatment-naïve MSK761 liver PDX was not found in the subsequent MSK761c CDX. Moreover, MSK761c did not cluster with MSK761 in the PCA, but with the other <italic toggle="yes">ASCL1</italic>-driven samples, further demonstrating the heterogeneity of tumor cell characteristics found in this patient. Whether these observed differences might be attributable to the site of origin of these samples is unclear. Setting this case aside, the transcriptional analysis did not reveal any major differences between treated and treatment-naïve samples. Bigger sample size and definition of gene expression signatures that correlate with disease progression and drug resistance are needed.</p>
+        <p id="Par25">A primary strength of PDX models is the close linkage to the patient. PDX samples allow us to generate multiple models from patients at diagnosis and subsequently from different stages during treatment, establishing a powerful resource for the analysis of disease progression and shifting drug sensitivities. We anticipate our cohort of 46 PDX/CDX samples, derived from 33 donors, to be of substantial use to other research groups studying SCLC. This resource, and others like it, offers a powerful system to characterize SCLC biology and inform clinical research treatment strategies for patients with SCLC.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Methods</title>
+        <sec id="Sec12">
+          <title>Patient samples</title>
+          <p id="Par26">Patient samples for the generation of PDX models and subsequent analyses were collected with written informed consent from patients under protocols approved by the MSKCC Institutional Review Board/Privacy Board (IRB Protocols 12-245, 06-107, and 14-091). Metadata for each patient can be found in <xref rid="MOESM3" ref-type="media">Supplementary Data 1</xref>. Tumor DNA extracted from formalin-fixed paraffin-embedded tissue or frozen and normal DNA was used for genomic sequencing with Memorial Sloan Kettering-Integrated Mutational Profile of Actionable Cancer Targets (MSK-IMPACT)<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. After PicoGreen quantification and quality control by Agilent BioAnalyzer, 3–143 ng of DNA were used to prepare libraries using the KAPA Hyper Prep Kit (Kapa Biosystems KK8504) with eight cycles of PCR. About 50–500 ng of each barcoded library were captured by hybridization in equimolar pools of 7–26 samples using the IMPACT (Integrated Mutation Profiling of Actionable Cancer Targets) assay (Nimblegen SeqCap), designed to capture all protein-coding exons and select introns of 410 or 468 commonly implicated oncogenes, tumor suppressor genes, and members of pathways deemed actionable by targeted therapies. Captured pools were sequenced on a HiSeq 2000, HiSeq 2500, or HiSeq 4000 in a PE100 or PE125 run using the HiSeq SBS Kit v4, TruSeq Rapid SBS Kit – HS, HiSeq Rapid SBS Kit v2, or HiSeq 3000/4000 SBS Kit (Illumina) producing an average of 574X coverage per tumor and 418X per normal.</p>
+          <p id="Par27">Three iterative versions of the MSK-IMPACT next-generation sequencing panel that screens for mutations, translocations, and copy number alterations were used across this study, consisting of 341, 410, or 468 cancer-associated genes<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. For PDX/CDX samples, MuTect, Pindel, and VarDict were used to detect single nucleotide variants (SNVs) and insertions and deletions (Indels) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/roslin-variant/wiki/Roslin-Methods-v2.5">https://github.com/mskcc/roslin-variant/wiki/Roslin-Methods-v2.5</ext-link>). Copy number alterations (CAN) was called using the FACETS<sup><xref ref-type="bibr" rid="CR50">50</xref></sup> EM algorithm. For clinical samples, MuTect, Vardict, Pindel, and Somatic Indel Detector were used to detect single nucleotide variants (SNVs) and insertions and deletions (Indels)<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>, with variant allele frequency thresholds set to 5% for non-hotspot alterations and 2% for hotspot sites. Copy number alterations (CAN) were identified using a custom algorithm<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. Structural variants were detected using Delly<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. All identified variants were filtered against the patient-matched normal sample and manually reviewed to retain only true positive somatic calls.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Patient-derived xenografts</title>
+          <p id="Par28">All animal experiments were approved by the Memorial Sloan Kettering Cancer Center (MSKCC) Animal Care and Use Committee (IACUC Protocol 04-03-009) and mice were housed in accredited facilities under pathogen-free conditions. Female NOD.Cg-Prkdc&lt;scid&gt; Il2rg&lt;tm1Wjl&gt;/SzJ (Stock #: 005557) (6–8 weeks old) were obtained from Jackson Laboratory. PDX and CDX models were generated from primary tumors and whole blood samples as described previously<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Briefly, cells were injected s.c. in the flank of one mouse per model and subsequently passaged multiple times. Tumor size was measured using a caliper once to twice weekly and the following equation was used to calculate volume: V = π/6 × L × W<sup>2</sup> (L length; W width). Tumors were harvested when the tumor volume reached 1500 mm<sup>3</sup>. Maximal tumor size was not exceeded.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>RNA-sequencing</title>
+          <p id="Par29">Sample preparation for RNA-sequencing and subsequent analysis was performed as in ref. <sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. Briefly, Illumina HiSeq instrument (4000 or equivalent; a 2x150 bp paired-end (PE)) according to manufacturer’s instructions was used for RNA-sequencing in collaboration with Genewiz.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>RNA-seq analysis</title>
+          <p id="Par30">The output data (FASTQ files) are mapped to the target genome using the rnaStar aligner<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> that maps reads genomically and resolves reads across splice junctions. We use the two-pass mapping method outlined in ref. <sup><xref ref-type="bibr" rid="CR54">54</xref></sup> in which the reads are mapped twice. The first mapping pass uses a list of known annotated junctions from Ensemble. Novel junctions found in the first pass are then added to the known junctions and a second mapping pass is done (on the second pass the RemoveNoncanoncial flag is used). After mapping, we post-process the output SAM files using the PICARD tools to add read groups, AddOrReplaceReadGroups which in addition sort the file and coverts it to the compressed BAM format.</p>
+          <p id="Par31">We then compute the expression count matrix from the mapped reads using HTSeq (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www-huber.embl.de/users/anders/HTSeq">www-huber.embl.de/users/anders/HTSeq</ext-link>) and one of several possible gene model databases. The raw count matrix generated by HTSeq are then be processed using the R/Bioconductor package DESeq (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www-huber.embl.de/users/anders/DESeq">www-huber.embl.de/users/anders/DESeq</ext-link>) which is used to both normalize the full dataset and analyze differential expression between sample groups.</p>
+          <p id="Par32">A PCA analysis was done using the top 500 highest variance genes and the first two PCA components were plotted. Heatmaps were generated using both the log-transformed absolute normalized intensity of counts and also of the <italic toggle="yes">Z</italic>-score of log normalized intensity over each gene. The <italic toggle="yes">Z</italic>-score heatmaps were plotted for specific genes sets and the samples were clustered using standard hierarchical clustering with the Manhattan distance metric and Ward.D linkage from the hclust function in R. The intensity heatmaps were generated using both the top differentially expressed genes or the top variable expression genes as measured by the gene standard deviation. A sample/sample correlation plot was done by computing the Spearman correlation of the top 100 most variable genes. The correlation matrix was plotted using the corrplot function from the R corrplot package using the hclust function with complete linkage to order the samples. See <xref rid="MOESM1" ref-type="media">Supplementary Table 1</xref> for a list of program versions used in RNA-seq analysis.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Data files</title>
+          <p id="Par33">
+<list list-type="bullet"><list-item><p id="Par34">Human:</p></list-item></list>
+<list list-type="bullet"><list-item><p id="Par35">GENOME: UCSC HG19</p></list-item><list-item><p id="Par36">GTF: gencode.v18.annotation</p></list-item></list>
+</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Tissue microarray construction</title>
+          <p id="Par37">For the immunohistochemical evaluation of PDX samples, tissue microarray blocks were constructed containing 3 × 1 mm cores per case. Slides from these blocks were subsequently stained with H&amp;E and reviewed by a pathologist for quality assessment.</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Immunohistochemistry</title>
+          <p id="Par38">Formalin-fixed paraffin-embedded tissues (standard paraffin blocks for donor samples and TMA blocks for PDX samples) were used to obtain 4 µm sections for immunohistochemistry (IHC). IHC was performed using standard immuno-peroxidase methods and manufacturer instructions (See Table). All slides were scanned in Aperio AT2 digital whole slide scanner and reviewed with Aperio ImageScope v12.4.3.7005 and/or under a light microscope by an experienced pathologist. Nuclear staining was considered positive for ASCL1, MYC, NEUROD1, and POU2F3; whereas cytoplasmic for synaptophysin, cytoplasmic and membranous for CD56, and nuclear ± cytoplasmic for YAP1. Percentage of positive cells and staining intensity (0/1 + /2 + /3+) were recorded. H scores were calculated by multiplying the percentage of positive cells by the staining intensity. For PDX samples, three independent cores per sample were stained for the indicated protein, and the <italic toggle="yes">H</italic>-score was derived from the average of the three cores. For clinical samples, one core per sample was stained for the indicated protein and <italic toggle="yes">H</italic>-score derived from this single core. See Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref> for a list of antibodies used for immunohistochemistry.</p>
+        </sec>
+        <sec id="Sec19">
+          <title>Statistics and reproducibility</title>
+          <p id="Par39">RNA-seq was performed once for 43 PDX samples and IHC was performed once for 37 PDX samples and 19 clinical samples. MSK-IMPACT was performed once for 42 PDX samples and 26 clinical samples. No statistical method to predetermine sample size was used. SCLC patient samples that were successfully engrafted were used without further selection criteria. The experiments were not randomized. The Investigators were not blinded to allocation during experiments and outcome assessment.</p>
+        </sec>
+        <sec id="Sec20">
+          <title>Reporting summary</title>
+          <p id="Par40">Further information on research design is available in the <xref rid="MOESM4" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec21">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_29794_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_29794_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Description of Additional Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_29794_MOESM3_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_29794_MOESM4_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <app-group>
+        <app id="App1">
+          <sec id="Sec22">
+            <title>Source data</title>
+            <p id="Par44">
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41467_2022_29794_MOESM5_ESM.xlsx" id="MOESM5" orientation="portrait"><caption><p>Source data File</p></caption></media>
+</p>
+          </sec>
+        </app>
+      </app-group>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p>The online version contains supplementary material available at 10.1038/s41467-022-29794-4.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>Supported by NCI 1 R35CA263816-01, R01 CA197936, and U24 CA213274 (C.M.R.), the SU2C/VAI Epigenetics Dream Team (C.M.R.), NCI 1R01CA258784 (T.S.), the Druckenmiller Center for Lung Cancer Research (C.M.R. and T.S.), Parker Institute for Cancer Immunotherapy grant (T.S.); International Association for the Study of Lung Cancer grant (T.S.), LC190161 Congressionally Directed Medical Research Programs (DOD-IITRA) (T.S.). We acknowledge the use of the Integrated Genomics Operation Core (special thanks to Cassidy C Cobbs), funded by the NCI Cancer Center Support Grant (CCSG, P30 CA08748), Cycle for Survival, and the Marie-Josée and Henry R. Kravis Center for Molecular Oncology (special thanks to Ritika Kundra and Yichao Sun) and the National Cancer Institute Cancer Center Core Grant No. P30-CA008748.The PPBC Biobank and Precision Pathology Center are supported by the NCI Cancer Center Support Grant P30-CA008748. We gratefully acknowledge the members of the Molecular Diagnostics Service in the Department of Pathology, in particular Rose Brannon. We wish to acknowledge assistance from the Bioinformatics Core which is funded in part through the NIH/NCI Cancer Center Support Grant P30-CA008748. We thank all members of the MSKCC Antitumor Assessment Core Facility (core grant: P30-CA008748 S5). We thank all members of the Rudin laboratory for their collaborative efforts.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>Conceptualization: R.C., C.M.R., and T.S.; Methodology: R.C., J.V.E., S.C., N.D.S., C.B.J., F.E.K., M.A., N.S.S., V.A., P.M., S.E.T., E.d.S., J.T.P., C.M.R., and T.S.; Investigation: R.C., J.V.E., N.D.S., C.B.J., F.E.K., M.A., M.H.R., N.S.S., V.A., A.K., M.M., C.A.I-D., W.V.L., U.B., M.K.B., N.R., T.J.H, E.d.S., J.T.P., C.M.R., and T.S.; Validation: R.C., J.V.E., and N.D.S.; Formal Analysis: R.C., J.V.E., S.C., N.D.S., F.E.K., C.M.R., and T.S.; Writing: R.C., T.S., and C.M.R.; Supervision: T.S. and C.M.R.; Funding acquisition: T.S. and C.M.R. All authors read and approved the final version of the manuscript.</p>
+      </notes>
+      <notes notes-type="peer-review">
+        <title>Peer review</title>
+        <sec id="FPar1">
+          <title>Peer review information</title>
+          <p id="Par41"><italic toggle="yes">Nature Communications</italic> thanks Ryohei Katayama and the other anonymous reviewer(s) for their contribution to the peer review of this work.</p>
+        </sec>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>The Gene expression data generated in this study has been deposited in the Arrayexpress database under accession code <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-11230/">E-MTAB-11230</ext-link>. The genomic sequencing data generated in this study underlying Figs. <xref rid="Fig2" ref-type="fig">2</xref> and <xref rid="Fig5" ref-type="fig">5g</xref> are publicly available via the cBioPortal for cancer genomics <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=lung_pdx_msk_2021">https://www.cbioportal.org/study/summary?id=lung_pdx_msk_2021</ext-link>. The raw data were available under restricted access, access can be obtained by contacting the corresponding author Charles Rudin at rudinc@mskcc.org. The remaining data were available within the Article, <xref rid="MOESM1" ref-type="media">Supplementary Information</xref>, or Source Data File. <xref rid="Sec22" ref-type="sec">Source data</xref> are provided with this paper.</p>
+      </notes>
+      <notes id="FPar2" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par42">C.M.R. has consulted regarding oncology drug development with Amgen, Daiichi Sankyo, Genentech/Roche, Ipsen, Jazz, Merck, Pfizer, Syros, and Vavotek. C.M.R. serves on the scientific advisory boards of Bridge Medicines, Earli, and Harpoon Therapeutics. T.S. has research funding from Jazz Pharmaceuticals. The remaining authors declare no competing interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Siegel</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Naishadham</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jemal</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Cancer statistics, 2013</article-title>
+            <source>CA Cancer J. Clin.</source>
+            <year>2013</year>
+            <volume>63</volume>
+            <fpage>11</fpage>
+            <lpage>30</lpage>
+            <pub-id pub-id-type="doi">10.3322/caac.21166</pub-id>
+            <pub-id pub-id-type="pmid">23335087</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <mixed-citation publication-type="other">Hann C., Wu, M. A., Rekhtman, N. &amp; Rudin, C. M. In <italic toggle="yes">Cancer Principles and Practice of Oncology</italic> (Wolters Kluwer, 2019).</mixed-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bernhardt</surname>
+                <given-names>EB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jalal</surname>
+                <given-names>SI</given-names>
+              </name>
+            </person-group>
+            <article-title>Small cell lung cancer</article-title>
+            <source>Cancer Treat. Res</source>
+            <year>2016</year>
+            <volume>170</volume>
+            <fpage>301</fpage>
+            <lpage>22</lpage>
+            <pub-id pub-id-type="doi">10.1007/978-3-319-40389-2_14</pub-id>
+            <pub-id pub-id-type="pmid">27535400</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Byers</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rudin</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Small cell lung cancer: where do we go from here?</article-title>
+            <source>Cancer</source>
+            <year>2015</year>
+            <volume>121</volume>
+            <fpage>664</fpage>
+            <lpage>72</lpage>
+            <pub-id pub-id-type="doi">10.1002/cncr.29098</pub-id>
+            <pub-id pub-id-type="pmid">25336398</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5497465</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Antonia</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Nivolumab alone and nivolumab plus ipilimumab in recurrent small-cell lung cancer (CheckMate 032): a multicentre, open-label, phase 1/2 trial</article-title>
+            <source>Lancet Oncol.</source>
+            <year>2016</year>
+            <volume>17</volume>
+            <fpage>883</fpage>
+            <lpage>95</lpage>
+            <pub-id pub-id-type="doi">10.1016/S1470-2045(16)30098-5</pub-id>
+            <pub-id pub-id-type="pmid">27269741</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Horn</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2018</year>
+            <volume>379</volume>
+            <fpage>2220</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1809064</pub-id>
+            <pub-id pub-id-type="pmid">30280641</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Goldman</surname>
+                <given-names>JW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Durvalumab, with or without tremelimumab, plus platinum-etoposide versus platinum-etoposide alone in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN): updated results from a randomised, controlled, open-label, phase 3 trial</article-title>
+            <source>Lancet Oncol.</source>
+            <year>2021</year>
+            <volume>22</volume>
+            <fpage>51</fpage>
+            <lpage>65</lpage>
+            <pub-id pub-id-type="doi">10.1016/S1470-2045(20)30539-8</pub-id>
+            <pub-id pub-id-type="pmid">33285097</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Paz-Ares</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN): a randomised, controlled, open-label, phase 3 trial</article-title>
+            <source>Lancet</source>
+            <year>2019</year>
+            <volume>394</volume>
+            <fpage>1929</fpage>
+            <lpage>39</lpage>
+            <pub-id pub-id-type="doi">10.1016/S0140-6736(19)32222-6</pub-id>
+            <pub-id pub-id-type="pmid">31590988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Simpson</surname>
+                <given-names>KL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A biobank of small cell lung cancer CDX models elucidates inter- and intratumoral phenotypic heterogeneity</article-title>
+            <source>Nat. Cancer</source>
+            <year>2020</year>
+            <volume>1</volume>
+            <fpage>437</fpage>
+            <lpage>451</lpage>
+            <pub-id pub-id-type="doi">10.1038/s43018-020-0046-2</pub-id>
+            <pub-id pub-id-type="pmid">35121965</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Drapkin</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic and functional fidelity of small cell lung cancer patient-derived xenografts</article-title>
+            <source>Cancer Disco.</source>
+            <year>2018</year>
+            <volume>8</volume>
+            <fpage>600</fpage>
+            <lpage>15</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-17-0935</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6369413</pub-id>
+            <pub-id pub-id-type="pmid">29483136</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gardner</surname>
+                <given-names>EE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Chemosensitive relapse in small cell lung cancer proceeds through an EZH2-SLFN11 axis</article-title>
+            <source>Cancer Cell</source>
+            <year>2017</year>
+            <volume>31</volume>
+            <fpage>286</fpage>
+            <lpage>99</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccell.2017.01.006</pub-id>
+            <pub-id pub-id-type="pmid">28196596</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5313262</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gay</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Patterns of transcription factor programs and immune pathway activation define four major subtypes of SCLC with distinct therapeutic vulnerabilities</article-title>
+            <source>Cancer Cell</source>
+            <year>2021</year>
+            <volume>39</volume>
+            <fpage>346</fpage>
+            <lpage>60</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccell.2020.12.014</pub-id>
+            <pub-id pub-id-type="pmid">33482121</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8143037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Daniel</surname>
+                <given-names>VC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A primary xenograft model of small-cell lung cancer reveals irreversible changes in gene expression imposed by culture in vitro</article-title>
+            <source>Cancer Res.</source>
+            <year>2009</year>
+            <volume>69</volume>
+            <fpage>3364</fpage>
+            <lpage>73</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-08-4210</pub-id>
+            <pub-id pub-id-type="pmid">19351829</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2821899</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Naito</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Prognostic impact of circulating tumor cells in patients with small cell lung cancer</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2012</year>
+            <volume>7</volume>
+            <fpage>512</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="doi">10.1097/JTO.0b013e31823f125d</pub-id>
+            <pub-id pub-id-type="pmid">22258473</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stott</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Toner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Maheswaran</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Haber</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Circulating tumor cells: approaches to isolation and characterization</article-title>
+            <source>J. Cell Biol.</source>
+            <year>2011</year>
+            <volume>192</volume>
+            <fpage>373</fpage>
+            <lpage>82</lpage>
+            <pub-id pub-id-type="doi">10.1083/jcb.201010021</pub-id>
+            <pub-id pub-id-type="pmid">21300848</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3101098</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Carter</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular analysis of circulating tumor cells identifies distinct copy-number profiles in patients with chemosensitive and chemorefractory small-cell lung cancer</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>114</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.4239</pub-id>
+            <pub-id pub-id-type="pmid">27869802</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rudin</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular subtypes of small cell lung cancer: a synthesis of human and mouse model data</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2019</year>
+            <volume>19</volume>
+            <fpage>289</fpage>
+            <lpage>97</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41568-019-0133-9</pub-id>
+            <pub-id pub-id-type="pmid">30926931</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6538259</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>George</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive genomic profiles of small cell lung cancer</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <volume>524</volume>
+            <fpage>47</fpage>
+            <lpage>53</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature14664</pub-id>
+            <pub-id pub-id-type="pmid">26168399</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4861069</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Travis</surname>
+                <given-names>WD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The 2015 World Health Organization classification of lung tumors: impact of genetic, clinical and radiologic advances since the 2004 classification</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2015</year>
+            <volume>10</volume>
+            <fpage>1243</fpage>
+            <lpage>60</lpage>
+            <pub-id pub-id-type="doi">10.1097/JTO.0000000000000630</pub-id>
+            <pub-id pub-id-type="pmid">26291008</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-integrated mutation profiling of actionable cancer targets (MSK-IMPACT): a hybridization capture-based next-generation sequencing clinical assay for solid tumor molecular oncology</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>64</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>
+            <source>Cancer Disco.</source>
+            <year>2012</year>
+            <volume>2</volume>
+            <fpage>401</fpage>
+            <lpage>4</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-12-0095</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3956037</pub-id>
+            <pub-id pub-id-type="pmid">22588877</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal</article-title>
+            <source>Sci. Signal</source>
+            <year>2013</year>
+            <volume>6</volume>
+            <fpage>pl1</fpage>
+            <pub-id pub-id-type="doi">10.1126/scisignal.2004088</pub-id>
+            <pub-id pub-id-type="pmid">23550210</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4160307</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Byers</surname>
+                <given-names>LA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Proteomic profiling identifies dysregulated pathways in small cell lung cancer and novel therapeutic targets including PARP1</article-title>
+            <source>Cancer Disco.</source>
+            <year>2012</year>
+            <volume>2</volume>
+            <fpage>798</fpage>
+            <lpage>811</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-12-0112</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3567922</pub-id>
+            <pub-id pub-id-type="pmid">22961666</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Quintanal-Villalonga</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Lineage plasticity in cancer: a shared pathway of therapeutic resistance</article-title>
+            <source>Nat. Rev. Clin. Oncol.</source>
+            <year>2020</year>
+            <volume>17</volume>
+            <fpage>360</fpage>
+            <lpage>71</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41571-020-0340-z</pub-id>
+            <pub-id pub-id-type="pmid">32152485</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7397755</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Schneeberger</surname>
+                <given-names>VE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Allaj</surname>
+                <given-names>V</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gardner</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Poirier</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rudin</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantitation of murine stroma and selective purification of the human tumor component of patient-derived xenografts for genomic analysis</article-title>
+            <source>PLoS ONE</source>
+            <year>2016</year>
+            <volume>11</volume>
+            <fpage>e0160587</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pone.0160587</pub-id>
+            <pub-id pub-id-type="pmid">27611664</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5017757</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wohlhieter</surname>
+                <given-names>CA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Concurrent mutations in STK11 and KEAP1 promote ferroptosis protection and SCD1 dependence in lung cancer</article-title>
+            <source>Cell Rep.</source>
+            <year>2020</year>
+            <volume>33</volume>
+            <fpage>108444</fpage>
+            <pub-id pub-id-type="doi">10.1016/j.celrep.2020.108444</pub-id>
+            <pub-id pub-id-type="pmid">33264619</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7722473</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jordan</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Prospective comprehensive molecular characterization of lung adenocarcinomas for efficient patient matching to approved and emerging therapies</article-title>
+            <source>Cancer Disco.</source>
+            <year>2017</year>
+            <volume>7</volume>
+            <fpage>596</fpage>
+            <lpage>609</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-16-1337</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5482929</pub-id>
+            <pub-id pub-id-type="pmid">28336552</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Baine</surname>
+                <given-names>MK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SCLC subtypes defined by ASCL1, NEUROD1, POU2F3, and YAP1: a comprehensive immunohistochemical and histopathologic characterization</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2020</year>
+            <volume>15</volume>
+            <fpage>1823</fpage>
+            <lpage>35</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jtho.2020.09.009</pub-id>
+            <pub-id pub-id-type="pmid">33011388</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8362797</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pearsall</surname>
+                <given-names>SM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The rare YAP1 subtype of SCLC revisited in a biobank of 39 circulating tumor cell patient derived explant models: a brief report</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2020</year>
+            <volume>15</volume>
+            <fpage>1836</fpage>
+            <lpage>43</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jtho.2020.07.008</pub-id>
+            <pub-id pub-id-type="pmid">32721553</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7718082</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tlemsani</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SCLC-CellMiner: a resource for small cell lung cancer cell line genomics and pharmacology based on genomic signatures</article-title>
+            <source>Cell Rep.</source>
+            <year>2020</year>
+            <volume>33</volume>
+            <fpage>108296</fpage>
+            <pub-id pub-id-type="doi">10.1016/j.celrep.2020.108296</pub-id>
+            <pub-id pub-id-type="pmid">33086069</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7643325</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Totaro</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Panciera</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Piccolo</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>YAP/TAZ upstream signals and downstream responses</article-title>
+            <source>Nat. Cell Biol.</source>
+            <year>2018</year>
+            <volume>20</volume>
+            <fpage>888</fpage>
+            <lpage>99</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41556-018-0142-z</pub-id>
+            <pub-id pub-id-type="pmid">30050119</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6186418</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Small cell lung cancer tumors and preclinical models display heterogeneity of neuroendocrine phenotypes</article-title>
+            <source>Transl. Lung Cancer Res.</source>
+            <year>2018</year>
+            <volume>7</volume>
+            <fpage>32</fpage>
+            <lpage>49</lpage>
+            <pub-id pub-id-type="doi">10.21037/tlcr.2018.02.02</pub-id>
+            <pub-id pub-id-type="pmid">29535911</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5835590</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Calbo</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A functional role for tumor cell heterogeneity in a mouse model of small cell lung cancer</article-title>
+            <source>Cancer Cell</source>
+            <year>2011</year>
+            <volume>19</volume>
+            <fpage>244</fpage>
+            <lpage>56</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccr.2010.12.021</pub-id>
+            <pub-id pub-id-type="pmid">21316603</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Byers</surname>
+                <given-names>LA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An epithelial-mesenchymal transition gene signature predicts resistance to EGFR and PI3K inhibitors and identifies Axl as a therapeutic target for overcoming EGFR inhibitor resistance</article-title>
+            <source>Clin. Cancer Res</source>
+            <year>2013</year>
+            <volume>19</volume>
+            <fpage>279</fpage>
+            <lpage>90</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-12-1558</pub-id>
+            <pub-id pub-id-type="pmid">23091115</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3567921</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Johnson</surname>
+                <given-names>BE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>myc family oncogene amplification in tumor cell lines established from small cell lung cancer patients and its relationship to clinical status and course</article-title>
+            <source>J. Clin. Invest</source>
+            <year>1987</year>
+            <volume>79</volume>
+            <fpage>1629</fpage>
+            <lpage>34</lpage>
+            <pub-id pub-id-type="doi">10.1172/JCI112999</pub-id>
+            <pub-id pub-id-type="pmid">3034978</pub-id>
+            <pub-id pub-id-type="pmcid">PMC424486</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Little</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nau</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Carney</surname>
+                <given-names>DN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gazdar</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Minna</surname>
+                <given-names>JD</given-names>
+              </name>
+            </person-group>
+            <article-title>Amplification and expression of the c-myc oncogene in human lung cancer cell lines</article-title>
+            <source>Nature</source>
+            <year>1983</year>
+            <volume>306</volume>
+            <fpage>194</fpage>
+            <lpage>6</lpage>
+            <pub-id pub-id-type="doi">10.1038/306194a0</pub-id>
+            <pub-id pub-id-type="pmid">6646201</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nau</surname>
+                <given-names>MM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>L-myc, a new myc-related gene amplified and expressed in human small cell lung cancer</article-title>
+            <source>Nature</source>
+            <year>1985</year>
+            <volume>318</volume>
+            <fpage>69</fpage>
+            <lpage>73</lpage>
+            <pub-id pub-id-type="doi">10.1038/318069a0</pub-id>
+            <pub-id pub-id-type="pmid">2997622</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bragelmann</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Family matters: how MYC family oncogenes impact small cell lung cancer</article-title>
+            <source>Cell Cycle</source>
+            <year>2017</year>
+            <volume>16</volume>
+            <fpage>1489</fpage>
+            <lpage>98</lpage>
+            <pub-id pub-id-type="doi">10.1080/15384101.2017.1339849</pub-id>
+            <pub-id pub-id-type="pmid">28737478</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5584863</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kato</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MYCL is a target of a BET bromodomain inhibitor, JQ1, on growth suppression efficacy in small cell lung cancer cells</article-title>
+            <source>Oncotarget</source>
+            <year>2016</year>
+            <volume>7</volume>
+            <fpage>77378</fpage>
+            <lpage>88</lpage>
+            <pub-id pub-id-type="doi">10.18632/oncotarget.12671</pub-id>
+            <pub-id pub-id-type="pmid">27764802</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5363592</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <mixed-citation publication-type="other">Huang F., et al. Guanosine triphosphate links MYC-dependent metabolic and ribosome programs in small-cell lung cancer. <italic toggle="yes">J Clin Invest</italic>. <bold>131</bold>, e139929 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI139929</pub-id><pub-id pub-id-type="pmcid">PMC7773395</pub-id><pub-id pub-id-type="pmid">33079728</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chalishazar</surname>
+                <given-names>MD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MYC-driven small-cell lung cancer is metabolically distinct and vulnerable to arginine depletion</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2019</year>
+            <volume>25</volume>
+            <fpage>5107</fpage>
+            <lpage>21</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-18-4140</pub-id>
+            <pub-id pub-id-type="pmid">31164374</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6697617</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Galan-Cobo</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>LKB1 and KEAP1/NRF2 pathways cooperatively promote metabolic reprogramming with enhanced glutamine dependence in KRAS-mutant lung adenocarcinoma</article-title>
+            <source>Cancer Res.</source>
+            <year>2019</year>
+            <volume>79</volume>
+            <fpage>3251</fpage>
+            <lpage>67</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-18-3527</pub-id>
+            <pub-id pub-id-type="pmid">31040157</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6606351</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yamashita</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ohmoto</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yamaguchi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Matsumoto</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hirota</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Skn-1a/Pou2f3 functions as a master regulator to generate Trpm5-expressing chemosensory cells in mice</article-title>
+            <source>PLoS ONE</source>
+            <year>2017</year>
+            <volume>12</volume>
+            <fpage>e0189340</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pone.0189340</pub-id>
+            <pub-id pub-id-type="pmid">29216297</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5720759</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>YH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>POU2F3 is a master regulator of a tuft cell-like variant of small cell lung cancer</article-title>
+            <source>Genes Dev.</source>
+            <year>2018</year>
+            <volume>32</volume>
+            <fpage>915</fpage>
+            <lpage>28</lpage>
+            <pub-id pub-id-type="doi">10.1101/gad.314815.118</pub-id>
+            <pub-id pub-id-type="pmid">29945888</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6075037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Xu</surname>
+                <given-names>X</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Evidence for type II cells as cells of origin of K-Ras-induced distal lung adenocarcinoma</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2012</year>
+            <volume>109</volume>
+            <fpage>4910</fpage>
+            <lpage>5</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.1112499109</pub-id>
+            <pub-id pub-id-type="pmid">22411819</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3323959</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sequist</surname>
+                <given-names>LV</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genotypic and histological evolution of lung cancers acquiring resistance to EGFR inhibitors</article-title>
+            <source>Sci. Transl. Med</source>
+            <year>2011</year>
+            <volume>3</volume>
+            <fpage>75ra26</fpage>
+            <pub-id pub-id-type="doi">10.1126/scitranslmed.3002003</pub-id>
+            <pub-id pub-id-type="pmid">21430269</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3132801</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR47">
+          <label>47.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Offin</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Concurrent RB1 and TP53 alterations define a subset of EGFR-mutant lung cancers at risk for histologic transformation and inferior clinical outcomes</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2019</year>
+            <volume>14</volume>
+            <fpage>1784</fpage>
+            <lpage>93</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jtho.2019.06.002</pub-id>
+            <pub-id pub-id-type="pmid">31228622</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6764905</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR48">
+          <label>48.</label>
+          <mixed-citation publication-type="other">Quintanal-Villalonga, A. et al. Multi-omic analysis of lung tumors defines pathways activated in neuroendocrine transformation. <italic toggle="yes">Cancer Discov</italic>. <bold>11</bold>, 3028–3047 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-20-1863</pub-id><pub-id pub-id-type="pmcid">PMC9437746</pub-id><pub-id pub-id-type="pmid">34155000</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR49">
+          <label>49.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mollaoglu</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MYC drives progression of small cell lung cancer to a variant neuroendocrine subtype with vulnerability to aurora kinase inhibition</article-title>
+            <source>Cancer Cell</source>
+            <year>2017</year>
+            <volume>31</volume>
+            <fpage>270</fpage>
+            <lpage>85</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccell.2016.12.005</pub-id>
+            <pub-id pub-id-type="pmid">28089889</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5310991</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR50">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seshan</surname>
+                <given-names>VE</given-names>
+              </name>
+            </person-group>
+            <article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e131</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw520</pub-id>
+            <pub-id pub-id-type="pmid">27270079</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5027494</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR51">
+          <label>51.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>703</fpage>
+            <lpage>13</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.4333</pub-id>
+            <pub-id pub-id-type="pmid">28481359</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR52">
+          <label>52.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rausch</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DELLY: structural variant discovery by integrated paired-end and split-read analysis</article-title>
+            <source>Bioinformatics</source>
+            <year>2012</year>
+            <volume>28</volume>
+            <fpage>i333</fpage>
+            <lpage>i9</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/bts378</pub-id>
+            <pub-id pub-id-type="pmid">22962449</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3436805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR53">
+          <label>53.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dobin</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>STAR: ultrafast universal RNA-seq aligner</article-title>
+            <source>Bioinformatics</source>
+            <year>2013</year>
+            <volume>29</volume>
+            <fpage>15</fpage>
+            <lpage>21</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/bts635</pub-id>
+            <pub-id pub-id-type="pmid">23104886</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3530905</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR54">
+          <label>54.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Engstrom</surname>
+                <given-names>PG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Systematic evaluation of spliced alignment programs for RNA-seq data</article-title>
+            <source>Nat. Methods</source>
+            <year>2013</year>
+            <volume>10</volume>
+            <fpage>1185</fpage>
+            <lpage>91</lpage>
+            <pub-id pub-id-type="doi">10.1038/nmeth.2722</pub-id>
+            <pub-id pub-id-type="pmid">24185836</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4018468</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1750 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC9825391</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC9825391.1</article-id>
+        <article-id pub-id-type="pmcaid">9825391</article-id>
+        <article-id pub-id-type="pmcaiid">9825391</article-id>
+        <article-id pub-id-type="pmid">36611031</article-id>
+        <article-id pub-id-type="doi">10.1038/s41467-022-35592-9</article-id>
+        <article-id pub-id-type="publisher-id">35592</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Integrated clinical and genomic analysis identifies driver events and molecular evolution of colitis-associated cancers</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5474-218X</contrib-id>
+            <name name-style="western">
+              <surname>Chatila</surname>
+              <given-names initials="WK">Walid K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1188-350X</contrib-id>
+            <name name-style="western">
+              <surname>Walch</surname>
+              <given-names initials="H">Henry</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hechtman</surname>
+              <given-names initials="JF">Jaclyn F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2911-4058</contrib-id>
+            <name name-style="western">
+              <surname>Moyer</surname>
+              <given-names initials="SM">Sydney M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8964-646X</contrib-id>
+            <name name-style="western">
+              <surname>Sgambati</surname>
+              <given-names initials="V">Valeria</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Faleck</surname>
+              <given-names initials="DM">David M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5165-8142</contrib-id>
+            <name name-style="western">
+              <surname>Srivastava</surname>
+              <given-names initials="A">Amitabh</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tang</surname>
+              <given-names initials="L">Laura</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5542-9857</contrib-id>
+            <name name-style="western">
+              <surname>Benhamida</surname>
+              <given-names initials="J">Jamal</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1177-8905</contrib-id>
+            <name name-style="western">
+              <surname>Ismailgeci</surname>
+              <given-names initials="D">Dorina</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Campos</surname>
+              <given-names initials="C">Carl</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3960-320X</contrib-id>
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names initials="F">Fan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names initials="Q">Qing</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0227-3523</contrib-id>
+            <name name-style="western">
+              <surname>Vakiani</surname>
+              <given-names initials="E">Efsevia</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>de Stanchina</surname>
+              <given-names initials="E">Elisa</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+            <xref ref-type="aff" rid="Aff9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weiser</surname>
+              <given-names initials="MR">Martin R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Widmar</surname>
+              <given-names initials="M">Maria</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6068-4617</contrib-id>
+            <name name-style="western">
+              <surname>Yantiss</surname>
+              <given-names initials="RK">Rhonda K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6913-9655</contrib-id>
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="MA">Manish A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8193-4758</contrib-id>
+            <name name-style="western">
+              <surname>Bass</surname>
+              <given-names initials="AJ">Adam J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stadler</surname>
+              <given-names initials="ZK">Zsofia K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Katz</surname>
+              <given-names initials="LH">Lior H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4347-8149</contrib-id>
+            <name name-style="western">
+              <surname>Mellinghoff</surname>
+              <given-names initials="IK">Ingo K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+            <xref ref-type="aff" rid="Aff14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3748-7559</contrib-id>
+            <name name-style="western">
+              <surname>Sethi</surname>
+              <given-names initials="NS">Nilay S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0131-4904</contrib-id>
+            <name name-style="western">
+              <surname>Schultz</surname>
+              <given-names initials="N">Nikolaus</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+            <xref ref-type="aff" rid="Aff15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4948-1082</contrib-id>
+            <name name-style="western">
+              <surname>Ganesh</surname>
+              <given-names initials="K">Karuna</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6139-438X</contrib-id>
+            <name name-style="western">
+              <surname>Kelsen</surname>
+              <given-names initials="D">David</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7233-5454</contrib-id>
+            <name name-style="western">
+              <surname>Yaeger</surname>
+              <given-names initials="R">Rona</given-names>
+            </name>
+            <address>
+              <email>yaegerr@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution>Tri-Institutional Program in Computational Biology and Medicine, </institution><institution>Weill Cornell Medicine, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.65499.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2106 9910</institution-id><institution>Department of Medical Oncology, </institution><institution>Dana-Farber Cancer Institute, </institution></institution-wrap>Boston, MA USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Molecular Pharmacology Program, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Human Oncology and Pathogenesis Program, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Surgery, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Antitumor Assessment Core Facility, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution>Department of Pathology, </institution><institution>Weill Cornell Medicine, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution>Department of Medicine, </institution><institution>Weill Cornell Medicine, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.239585.0</institution-id><institution-id institution-id-type="ISNI">0000 0001 2285 2675</institution-id><institution>Herbert Irving Comprehensive Cancer Research Center, </institution><institution>Columbia University Irving Medical Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.413795.d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2107 2845</institution-id><institution>Gastroenterology Institute, Sheba Medical Center, Tel Hashomer, </institution></institution-wrap>Ramat Gan, Israel </aff>
+          <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Neurology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Epidemiology-Biostatistics, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>7</day>
+          <month>1</month>
+          <year>2023</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2023</year>
+        </pub-date>
+        <volume>14</volume>
+        <issue-id pub-id-type="pmc-issue-id">425248</issue-id>
+        <elocation-id>110</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>30</day>
+            <month>6</month>
+            <year>2022</year>
+          </date>
+          <date date-type="accepted">
+            <day>13</day>
+            <month>12</month>
+            <year>2022</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>07</day>
+              <month>01</month>
+              <year>2023</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>09</day>
+              <month>01</month>
+              <year>2023</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2023-01-10 08:10:11.033">
+              <day>10</day>
+              <month>01</month>
+              <year>2023</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2023</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2022_Article_35592.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Inflammation has long been recognized to contribute to cancer development, particularly across the gastrointestinal tract. Patients with inflammatory bowel disease have an increased risk for bowel cancers, and it has been posited that a field of genetic changes may underlie this risk. Here, we define the clinical features, genomic landscape, and germline alterations in 174 patients with colitis-associated cancers and sequenced 29 synchronous or isolated dysplasia. <italic toggle="yes">TP53</italic> alterations, an early and highly recurrent event in colitis-associated cancers, occur in half of dysplasia, largely as convergent evolution of independent events. Wnt pathway alterations are infrequent, and our data suggest transcriptional rewiring away from Wnt. Sequencing of multiple dysplasia/cancer lesions from mouse models and patients demonstrates rare shared alterations between lesions. These findings suggest neoplastic bowel lesions developing in a background of inflammation experience lineage plasticity away from Wnt activation early during tumorigenesis and largely occur as genetically independent events.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">Colitis-associated cancers (CACs) develop in patients with inflammatory bowel disease and have distinct genomic features compared to sporadic colorectal cancers. Here, the authors characterize the genomic alterations of CAC tumors and dysplasia, finding decreased Wnt signaling and a lack of shared early genetic steps.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Cancer genomics</kwd>
+          <kwd>Gastrointestinal cancer</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000002</institution-id>
+                <institution>U.S. Department of Health &amp; Human Services | National Institutes of Health (NIH)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30 CA08748</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Yaeger</surname>
+                <given-names>Rona</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100009784</institution-id>
+                <institution>Starr Foundation</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>I11-0040</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Yaeger</surname>
+                <given-names>Rona</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2023</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par3">Chronic inflammation has long been recognized to contribute to cancer development, particularly across the gastrointestinal tract. Colitis-associated cancers (CACs), which develop in patients with inflammatory bowel disease (IBD), exemplifies this connection, and CAC is considered the most serious complication of IBD. CAC provides a model to understand inflammation-mediated carcinogenesis: risk of CAC increases with longer duration of colitis, greater anatomic extent of colitis, and concomitant presence of other inflammatory manifestations<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Precancerous lesions developing in IBD, unlike sporadic adenomatous polyps, tend to be flat with less distinct borders and can be difficult to visualize<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Current guidelines recommend that patients with a history of IBD proximal to the rectum of at least 8 years' duration undergo routine endoscopic screening for dysplasia every 1–5 years, depending on personal risk factors<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. The incidence of CAC has decreased with regular surveillance, improved endoscopic techniques, and advances in IBD treatment<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>, but risk remains 0.5–1% annually after 8 years of IBD<sup><xref ref-type="bibr" rid="CR2">2</xref></sup> and about 20% lifetime.</p>
+        <p id="Par4">Once diagnosed, CACs are treated the same as sporadic colorectal cancer (CRC). Clinical series suggest that patients with CAC have shorter survival than patients with sporadic CRC<sup><xref ref-type="bibr" rid="CR6">6</xref>,<xref ref-type="bibr" rid="CR7">7</xref></sup>, and recent data suggest that CACs have distinct genomic features<sup><xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR10">10</xref></sup>.</p>
+        <p id="Par5">Our group and others have previously described recurrent genomic alterations and some of the distinct genomics of CAC<sup><xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR10">10</xref></sup>. In this study, we aimed to map out the genomic steps in the development of these lesions by sequencing dysplastic lesions and, where available, mucosa; evaluating the relationship between dysplasia and cancer or multiple primaries occurring in the same person; and expanding the genomic, genetic, and functional characterization of CAC.</p>
+        <p id="Par6">Here, we define the clinical features, genomic landscape, and germline alterations in a large series of CAC. We find that neoplastic lesions in the setting of IBD predominantly emerge from independent genetic events, and there is no field of genomic changes predisposing to cancer development. These lesions do exhibit convergent evolution towards altered <italic toggle="yes">TP53</italic> and recurrent copy number changes and, unlike sporadic CRC, are largely independent of Wnt signaling, likely experiencing transcriptional rewiring away from Wnt signaling early during tumorigenesis.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Study population</title>
+          <p id="Par7">Overall, 174 patients with CAC were identified, consisting of 13 patients with full clinical data available, 131 patients with full clinical data and CAC specimens analyzed with next-generation sequencing, and 30 patients with only CAC next-generation sequencing results (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1a</xref>). CAC cases in our initial series (<italic toggle="yes">n</italic> = 47)<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> were more fully annotated and included in this analysis. Full clinical and genomic data can be found in the Source Data file. Twenty IBD patients had dysplasia specimens analyzed with next-generation sequencing, including 16 patients with synchronous dysplasia and CAC and four patients with isolated dysplasia and no CAC. Eleven of the patients with dysplasia had their cancer specimen subjected to targeted sequencing and included in the “genomic cohort” (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1b</xref>).</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Clinical features of CAC development</title>
+          <p id="Par8">Characteristics of the CAC “clinical cohort” (<italic toggle="yes">n</italic> = 144) are summarized in Fig. <xref rid="Fig1" ref-type="fig">1a</xref>. Most patients were diagnosed after 10 years of IBD, but 13% (<italic toggle="yes">n</italic> = 18) were diagnosed after shorter IBD duration, including four patients diagnosed with IBD and cancer concurrently. At the time of CAC diagnosis, 76% of patients (<italic toggle="yes">n</italic> = 110) had active IBD under treatment or monitoring with a gastroenterologist, 3% (<italic toggle="yes">n</italic> = 5) developed cancer after total colectomy or restorative proctocolectomy in the anastomosis or stump, and 15% of patients (<italic toggle="yes">n</italic> = 22) had quiescent IBD off-treatment for many years and were no longer undergoing routine surveillance. Twenty-four patients (17%) had a documented prior colonoscopy within one year of CAC diagnosis. These data indicate that the risk for cancer persists if any colonic mucosa remains and clinical quiescence of IBD and routine endoscopic surveillance do not eliminate this risk.<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Clinico-genomic characteristics of colitis-associated cancers.</title><p><bold>a</bold> Clinical characteristics of 144 patients with CAC at time of CAC diagnosis. <bold>b</bold> Oncoprint showing recurrent genomic alterations in dysplasia (<italic toggle="yes">n</italic> = 29) and CAC (<italic toggle="yes">n</italic> = 166). Colors indicate type of genomic alteration and clinical characteristics as indicated in the legend below the oncoprint. <bold>c</bold> Frequency of <italic toggle="yes">KRAS</italic> alterations by CAC grade (<italic toggle="yes">n</italic> = 115). <bold>d</bold> Fraction of the patients who consented to germline testing (<italic toggle="yes">n</italic> = 73) who had germline alterations identified and the identity of these germline alterations. <bold>e</bold> Relative frequency of types of oncogenic changes in CAC and CRC (<italic toggle="yes">n</italic> = 166). <bold>f</bold> Frequency of focal and broad copy number alterations in CAC and CRC. Results are shown for 1033 clinical IMPACT cases. The CAC (<italic toggle="yes">n</italic> = 112) and CRC (<italic toggle="yes">n</italic> = 921) groups were compared using a two-sided Mann–Whitney U-test and the significant results are as follows: CAC versus CRC broad CNA score, <italic toggle="yes">P</italic> = 0.000016. The center line of the boxplots indicates the median, the edges indicate the interquartile range, and the whiskers extend to the highest and lowest values not considered outliers. The asterisk shows when the comparisons were significant (* indicated significance here). Source data are provided as a Source Data file. Abbreviations: <italic toggle="yes">Dx</italic> diagnosis; <italic toggle="yes">Norm</italic> normal; <italic toggle="yes">mCRC</italic> metastatic colorectal cancer.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e801" position="float" orientation="portrait" xlink:href="41467_2022_35592_Fig1_HTML.jpg"/></fig></p>
+          <p id="Par9">At the time of CAC diagnosis, 62% of patients (<italic toggle="yes">n</italic> = 89) presented with worsening bowel symptoms (e.g., rectal bleeding, abdominal pain, obstruction); cancer was detected incidentally in an abscess, stricture, or fistula in 13% (<italic toggle="yes">n</italic> = 18); and 22% (<italic toggle="yes">n</italic> = 32) had cancer detected at surveillance colonoscopy. Surveillance colonoscopy identified all stages of disease; however, all cases of carcinoma in situ were detected by surveillance colonoscopy. Among patients where adjacent non-neoplastic mucosa was available for histologic review (<italic toggle="yes">n</italic> = 109), active enteritis/colitis was identified in 73% (<italic toggle="yes">n</italic> = 80), chronic inactive enteritis/colitis in 17% (<italic toggle="yes">n</italic> = 18), and the non-neoplastic bowel was histologically unremarkable in 10% (<italic toggle="yes">n</italic> = 11). Among the 89 CAC patients who developed metastases, most common metastatic sites were liver, peritoneum/abdominal wall/omentum, and lung; bone and pelvic metastases were significantly enriched in CAC compared to sporadic CRC<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2a–c</xref>).</p>
+        </sec>
+        <sec id="Sec5">
+          <title>Genomic landscape of IBD-associated dysplasia and cancer</title>
+          <p id="Par10">We performed next generation sequencing with targeted exon sequencing (166 CAC, 9 dysplasia) or whole-exome sequencing (WES) (13 CAC, 20 dysplasia) to identify genomic alterations in IBD-associated dysplasia and cancer. Clinical characteristics of the “genomic cohort” of CAC patients are summarized in Table <xref rid="Tab1" ref-type="table">1</xref>. <italic toggle="yes">TP53</italic> alterations were detected in about half of the dysplasia samples (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). Across dysplasia samples, multiple oncogenic drivers were seen, including <italic toggle="yes">APC</italic>, <italic toggle="yes">KRAS</italic>, and <italic toggle="yes">SMAD4</italic> mutations, with no alterations clearly emerging in the transition to carcinoma. In CAC, the most frequently altered genes were <italic toggle="yes">TP53</italic> (90%), <italic toggle="yes">KRAS</italic> (31%), <italic toggle="yes">MYC</italic> (20%), <italic toggle="yes">APC</italic> (20%), and <italic toggle="yes">SMAD4</italic> (13%). We compared the frequency of alterations in all recurrent genes in CAC by IBD subtype, and <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">IDH1</italic> alterations were significantly enriched in patients with a history of Crohn’s disease versus ulcerative colitis. <italic toggle="yes">KRAS</italic> mutations were enriched in more differentiated CAC (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>). The most frequent mutational signature, based on the subset of CAC with WES, was SBS1, which is associated with aging.<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>Clinical characteristics of sequenced colitis-associated cancer cases<sup>a</sup></p></caption><table frame="hsides" rules="groups"><tbody><tr><td rowspan="2" colspan="1">IBD diagnosis</td><td colspan="1" rowspan="1">Ulcerative Colitis</td><td colspan="1" rowspan="1">56.0% (<italic toggle="yes">n</italic> = 93)</td></tr><tr><td colspan="1" rowspan="1">Crohn’s disease</td><td colspan="1" rowspan="1">44.0% (<italic toggle="yes">n</italic> = 73)</td></tr><tr><td rowspan="3" colspan="1">Duration of IBD at time of CAC diagnosis</td><td colspan="1" rowspan="1">&lt;10 years</td><td colspan="1" rowspan="1">13.3% (<italic toggle="yes">n</italic> = 22)</td></tr><tr><td colspan="1" rowspan="1">≥10 years</td><td colspan="1" rowspan="1">84.9% (<italic toggle="yes">n</italic> = 141)</td></tr><tr><td colspan="1" rowspan="1">Not available</td><td colspan="1" rowspan="1">1.8% (<italic toggle="yes">n</italic> = 3)</td></tr><tr><td rowspan="5" colspan="1">Site of primary tumor</td><td colspan="1" rowspan="1">Small intestine</td><td colspan="1" rowspan="1">10.3% (<italic toggle="yes">n</italic> = 17)</td></tr><tr><td colspan="1" rowspan="1">Right colon</td><td colspan="1" rowspan="1">27.1% (<italic toggle="yes">n</italic> = 45)</td></tr><tr><td colspan="1" rowspan="1">Left colon</td><td colspan="1" rowspan="1">29.5% (<italic toggle="yes">n</italic> = 49)</td></tr><tr><td colspan="1" rowspan="1">Rectum</td><td colspan="1" rowspan="1">31.3% (<italic toggle="yes">n</italic> = 52)</td></tr><tr><td colspan="1" rowspan="1">Fistula tract</td><td colspan="1" rowspan="1">1.8 % (<italic toggle="yes">n</italic> = 3)</td></tr><tr><td rowspan="6" colspan="1">Stage at diagnosis</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">2.4% (<italic toggle="yes">n</italic> = 4)</td></tr><tr><td colspan="1" rowspan="1">I</td><td colspan="1" rowspan="1">16.9% (<italic toggle="yes">n</italic> = 28)</td></tr><tr><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">20.5% (<italic toggle="yes">n</italic> = 34)</td></tr><tr><td colspan="1" rowspan="1">III</td><td colspan="1" rowspan="1">28.3% (<italic toggle="yes">n</italic> = 47)</td></tr><tr><td colspan="1" rowspan="1">IV</td><td colspan="1" rowspan="1">29.5% (<italic toggle="yes">n</italic> = 49)</td></tr><tr><td colspan="1" rowspan="1">Not available</td><td colspan="1" rowspan="1">2.4% (<italic toggle="yes">n</italic> = 4)</td></tr><tr><td colspan="1" rowspan="1">Total number of CAC sequenced</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">166</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>Data is shown at the tumor level.</p></table-wrap-foot></table-wrap></p>
+          <p id="Par11">To evaluate for germline alterations in known cancer susceptibility genes that may contribute to CAC development, we reviewed germline sequencing results from the MSK-IMPACT germline panel in CAC patients who signed appropriate consent. Germline sequencing was available for 73 patients in the “genomic cohort” (45% of 161 patients) (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>), and pathogenic alterations were identified in 10 patients (14%) (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). <italic toggle="yes">APC</italic> I1307K was most common (3 cases), likely reflecting the association of this alteration and of IBD with Ashkenazi Jewish ancestry. The <italic toggle="yes">APC</italic> I1307K variant, a unique low-penetrance germline alteration present in ~6% of patients of Ashkenazi Jewish ancestry, is not associated with Familial Adenomatous Polyposis (FAP) but rather with about a ~2-fold increased risk of CRC<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. In itself, the <italic toggle="yes">APC</italic> I1307K mutation is not sufficient to cause cancer, but rather increases susceptibility of the <italic toggle="yes">APC</italic> gene to additional changes that may lead to colorectal cancer. <italic toggle="yes">APC</italic> germline mutations did not offset the low frequency of somatic <italic toggle="yes">APC</italic> alterations. Beyond the <italic toggle="yes">APC</italic> I1307K variant, several other germline alterations in genes involved in DNA repair were identified (<italic toggle="yes">PMS2, ATM, RAD51B, DICER1, FANCA,</italic> and <italic toggle="yes">FANCC</italic>). While germline alterations in <italic toggle="yes">PMS2</italic> are associated with Lynch syndrome, notably, both patients harbored microsatellite-stable CAC, suggesting that the <italic toggle="yes">PMS2</italic> alteration, as previously described, can be an incidental finding in some cancer patients<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Cancer susceptibility in patients with <italic toggle="yes">ATM</italic> and <italic toggle="yes">RAD51B</italic> alterations are still evolving with recent studies implicating these genes in a number of cancers; however, their contribution to CRC carcinogenesis at this time is unknown<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. Similarly, while <italic toggle="yes">DICER1</italic> alterations have been linked to a variety of both benign and malignant conditions, including colonic polyposis, the contribution of <italic toggle="yes">DICER1</italic> to CAC risk at this time is uncertain<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. The monoallelic germline alterations in <italic toggle="yes">FANCA</italic> and <italic toggle="yes">FANCC</italic> reflect carrier status only; biallelic alterations in these genes are associated with the autosomal recessive condition of Fanconi anemia. Overall, we observed that the frequency of germline alterations was similar to that seen in CRC<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, where an analysis of over 1000 patients using the same panel identified a prevalence of germline alterations of 14, 16, and 23%, in patients aged 50+ years, 36–49 years, and 14–35 years, respectively, with Lynch syndrome detected in 3, 4, and 8% of these groups, respectively.</p>
+          <p id="Par12">Compared to sporadic, metastatic CRC<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, <italic toggle="yes">MYC</italic> and <italic toggle="yes">KRAS</italic> amplifications and <italic toggle="yes">IDH1</italic> mutations occurred more frequently in CAC, whereas <italic toggle="yes">APC, KRAS</italic>, and <italic toggle="yes">BRAF</italic> V600E mutations occurred significantly less frequently (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2d</xref>). After filtering by OncoKB<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>, a larger portion of oncogenic alterations in CAC were copy number alterations compared to sporadic CRC (25.0% versus 16.6%) (Fig. <xref rid="Fig1" ref-type="fig">1e</xref>). Using copy number scores generated from CNapp (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2e</xref>), we found that the frequency of focal copy number alterations was similar between CAC and sporadic CRC, however broad copy number changes were significantly more common in sporadic CRC (<italic toggle="yes">P</italic> &lt; 0.001) (Fig. <xref rid="Fig1" ref-type="fig">1f</xref>); there were more focal amplifications of <italic toggle="yes">MYC</italic> in CAC (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2f</xref>). In the 11 patients whose cancer developed in a background of histologically normal-appearing non-neoplastic mucosa, we found a higher frequency of <italic toggle="yes">APC</italic> mutations, suggesting that some of these may represent cancers that did not develop as a result of inflammation-induced neoplasia (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2g</xref>). However, <italic toggle="yes">MYC</italic> amplification was frequently encountered in these tumors.</p>
+        </sec>
+        <sec id="Sec6">
+          <title>Functional effect of genomic changes in CAC</title>
+          <p id="Par13"><italic toggle="yes">IDH1</italic> R132 mutant tumors exhibited high global methylation consistent with the known functional effect of the oncometabolite 2-hydroxyglutarate (2-HG)<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>, and we confirmed high 2-HG production in a patient-derived xenograft (PDX) generated from an ileal CAC (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3a</xref>). We treated PDXs with selective pharmacologic inhibitors of IDH1 and FGFR alterations and confirmed tumor growth depended on these alterations (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3b</xref>). These data identify potentially targetable alterations that are uniquely associated with CAC, distinct from sporadic CRC.</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Decreased Wnt signaling in CAC</title>
+          <p id="Par14">Hyperactive Wnt signaling is thought to be a cardinal feature of intestinal cancers<sup><xref ref-type="bibr" rid="CR21">21</xref>–<xref ref-type="bibr" rid="CR23">23</xref></sup> and accordingly <italic toggle="yes">APC</italic> is the most common alteration in CRC<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>. In contrast, we identified Wnt pathway alterations in the minority of CAC; no alteration was specifically enriched in the <italic toggle="yes">APC</italic> wild-type CAC (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4a</xref>); and neither <italic toggle="yes">MYC</italic> amplification nor <italic toggle="yes">RNF43</italic> mutation was selectively enriched in the wild-type cases. Beta-catenin immunohistochemistry performed in 14 CAC showed membranous staining in all Wnt pathway wild-type CAC (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4b</xref> and Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). RNA sequencing of tumors from five patients with CAC and six patients with sporadic CRC demonstrated a lower Wnt signaling ssGSEA score<sup><xref ref-type="bibr" rid="CR25">25</xref></sup> in CAC compared to CRC (<italic toggle="yes">p</italic> = 0.13) and low Wnt gene expression in the Wnt pathway wild-type CAC (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>). Consensus molecular subtype analysis showed no canonical CMS2 tumors in the CAC cases (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4c</xref>), consistent with prior reports<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. As our analysis was limited by the small number of available fresh tissue samples, we also examined RNA expression across our CAC PDXs, consisting of five Wnt wild-type and four <italic toggle="yes">APC</italic> mutant tumors (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>). Only a subset of the <italic toggle="yes">APC</italic> mutant CAC exhibited elevated Wnt transcriptional output and the Wnt wild-type tumors exhibited low Wnt signaling ssGSEA scores. These data indicate that CAC without genetic alterations in the Wnt pathway have low Wnt pathway activity and have not activated this pathway through other, non-genomic mechanisms.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Wnt signaling in colitis-associated cancers.</title><p><bold>a</bold> Heatmap showing RNA sequencing results for Wnt pathway genes in CAC and CRC patient samples. Top panel indicates key genomic changes in the analyzed samples. Graph of Wnt pathway signature scores in CAC and CRC patient samples. In the box plot, results are shown for 11 patients: CAC (<italic toggle="yes">n</italic> = 5) and CRC (<italic toggle="yes">n</italic> = 6). <bold>b</bold> Heatmap showing RNA sequencing results for Wnt pathway genes in CAC patient-derived xenografts. Graph of Wnt pathway signature scores in CAC patient-derived xenograft samples by Wnt pathway status. In the box plot, results are shown for nine patient-derived xenografts: WNT-MUT (<italic toggle="yes">n</italic> = 4) and WNT-WT (<italic toggle="yes">n</italic> = 5). <bold>c</bold> Photographs of Wnt wild-type CAC organoid P-0043364 and normal colon organoid grown in conditions without Wnt supplementation. Experiments were conducted three times. <bold>d</bold> Growth curve for organoid P-0043364-PDO grown with and without Wnt supplementation (6 replicates each): CRC control, <italic toggle="yes">P</italic> = 0.82; P-0043364-PDO, <italic toggle="yes">P</italic> = 0.70. The center is the mean growth and the error bars indicate standard deviations <bold>e</bold> Growth curve for organoid P-0017016-PDO grown with and without Wnt supplementation (6 replicates): <italic toggle="yes">P</italic> = 0.82. The center is the mean growth and the error bars indicate standard deviations. <bold>f</bold> Growth curve for CAC organoids (P-0012110-PDO, P-0027647-PDO) and normal bowel expanded in matrix with or without Wnt supplementation (6 replicates each): Normal, <italic toggle="yes">P</italic> = 0.02; colorectal cancer control, <italic toggle="yes">P</italic> = 0.35; P-0012110-PDO, <italic toggle="yes">P</italic> = 0.41; P-0027647-PDO, <italic toggle="yes">P</italic> = 0.76. In the box plots in a and b and for panels <bold>d</bold>–<bold>f</bold>, statistical significance was assessed using a two-sided Mann–Whitney <italic toggle="yes">U</italic>-test. The center line of the box plots indicates the median, edges indicate the interquartile range, and the whiskers extend to the highest and lowest values not considered outliers. Source data are provided as a Source Data file. WT wild-type, mut mutated.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1389" position="float" orientation="portrait" xlink:href="41467_2022_35592_Fig2_HTML.jpg"/></fig></p>
+          <p id="Par15">The low Wnt pathway activation in CAC suggests that these tumors may be largely independent of this pathway for growth, in contrast to normal bowel and sporadic CRC. To functionally evaluate this, we generated organoid models of CAC and used these models to probe CAC dependence on exogenous Wnt supplementation for growth. Wnt wild-type organoids (P-0043364-PDO and P-0017016-PDO) (Fig. <xref rid="Fig2" ref-type="fig">2c–e</xref>) and <italic toggle="yes">APC</italic>-mutant organoids (Fig. <xref rid="Fig2" ref-type="fig">2f</xref>) were able to grow without exogenous Wnt supplementation and their growth rate did not vary based on Wnt supplementation, in contrast to normal colonic organoids. Pharmacologic inhibition of Wnt ligand signaling with the porcupine inhibitor LGK-974 or of degradation of destruction complex components with the tankyrase inhibitor G007-LK in three CAC PDXs (two Wnt wild-type, one <italic toggle="yes">APC</italic>-mutant) did not suppress tumor growth (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4d</xref>). RNA sequencing of two tumors from each condition (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4e</xref>) indicated that tumors clustered by PDX model and not by treatment group. Further, the Wnt wild-type CAC had low Wnt ssGSEA scores. Together, these data suggest that the growth of CAC, including tumors without canonical Wnt pathway alterations, is independent of Wnt ligands from the tumor niche and that these tumors have undergone transcriptional rewiring to no longer depend on this pathway for growth.</p>
+        </sec>
+        <sec id="Sec8">
+          <title><italic toggle="yes">TP53</italic> alteration clonality and concurrent genomic changes</title>
+          <p id="Par16">Prior molecular studies of CAC have demonstrated that <italic toggle="yes">TP53</italic> alterations can occur early and even be detected in normal-appearing mucosa<sup><xref ref-type="bibr" rid="CR26">26</xref>–<xref ref-type="bibr" rid="CR28">28</xref></sup>. Using the FACETS algorithm, we evaluated <italic toggle="yes">TP53</italic> clonality in CAC (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). The majority of CAC harbored clonal <italic toggle="yes">TP53</italic> alterations, but 14% of cases had subclonal <italic toggle="yes">TP53</italic> alterations and 12% had no detectable <italic toggle="yes">TP53</italic> alteration. Wnt pathway alterations were significantly enriched in CACs with subclonal <italic toggle="yes">TP53</italic> mutations (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). <italic toggle="yes">IDH1</italic> mutations were identified in CAC, regardless of <italic toggle="yes">TP53</italic> clonality. Analysis of paired samples from patients with subclonal <italic toggle="yes">TP53</italic> alterations, consisting either of a metastatic site or separate sampling of the primary tumor (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>), indicated that a <italic toggle="yes">TP53</italic> mutation was always carried in both samples and often became clonal in the second specimen. All CAC with subclonal <italic toggle="yes">TP53</italic> and oncogenic copy number changes had an enrichment to clonal <italic toggle="yes">TP53</italic> alteration in the paired sample. Together, these data highlight the association of <italic toggle="yes">TP53</italic> alterations and copy number changes and whole genome duplication (WGD) in CAC. These data also suggest that <italic toggle="yes">IDH1</italic> mutations do not require early <italic toggle="yes">TP53</italic> mutation events but likely occur from a different milieu for CAC development, an observation supported by the dysplastic lesion with an <italic toggle="yes">IDH1</italic> mutation without <italic toggle="yes">TP53</italic> alteration (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>).<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title><italic toggle="yes">TP53</italic> clonality and concurrent alterations.</title><p><bold>a</bold> Oncoprint of recurrent genomic changes by <italic toggle="yes">TP53</italic> status (clonal, subclonal, or wild-type). <bold>b</bold> Frequency of pathway alterations by <italic toggle="yes">TP53</italic> clonality. Asterisk indicates significant difference in comparisons performed with two-sided Fisher’s exact test. The Wnt pathway was significantly enriched in the subclonal <italic toggle="yes">TP53</italic> group versus the clonal <italic toggle="yes">TP53</italic> group (<italic toggle="yes">P</italic> = 0.017). <bold>c</bold> Sites of multiple samples, genomic alterations, and changes in cancer cell fractions (CCF) of shared mutations from CAC specimens sequenced from patients with CAC with subclonal <italic toggle="yes">TP53</italic> alterations. Source data are provided as a Source Data file.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1530" position="float" orientation="portrait" xlink:href="41467_2022_35592_Fig3_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec9">
+          <title>Molecular steps underlying CAC development</title>
+          <p id="Par17">To evaluate the relationship between multiple inflammation-associated malignant lesions and evaluate for a genetic field defect, we first analyzed tumors developing in the azoxymethane (AOM)/dextran sulfate sodium (DSS) mouse model of inflammatory colorectal cancer. This commonly used model of CAC uses chemical induction of DNA damage (via AOM administration) followed by repeated cycles of colitis (due to DSS application) to generate multiple neoplastic lesions over a period of weeks. Two mice were each treated with one dose of AOM and three cycles of DSS (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>) until the development of multiple bowel lesions, 13 weeks in mouse 2609 and 11 weeks in mouse 3608. The resected bowel was then reviewed by an expert gastrointestinal pathologist and two separate lesions in close proximity (contained on one slide) were selected for macrodissection and mouse MSK-IMPACT sequencing. We found few shared genetic events between these close lesions: the intramucosal carcinoma and high-grade dysplasia analyzed from mouse 2609 shared a <italic toggle="yes">CTNNB1</italic> mutation and the two intramucosal carcinomas from mouse 3608 harbored no shared alterations.<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><title>Genomic characteristics of dysplasia arising in inflammatory bowel disease.</title><p><bold>a</bold> Schema of AOM/DSS mouse model of inflammatory colon cancer, Venn diagram showing genomic alterations identified in two separate lesions genotyped from each mouse, and Hematoxylin &amp; eosin stained slides showing areas macrodissected for DNA extraction for sequencing. Experiments were conducted ten times and two representative mice were chosen for genomic analysis. <bold>b</bold> Genomic analysis of dysplastic/cancerous areas identified in a colectomy specimen, with illustrations showing locations of samples analyzed, Hematoxylin &amp; eosin stained slides of areas macrodissected for DNA extraction, and oncogenic genomic alterations identified in each sample (filtered by OncoKB). Experiment was conducted one time. <bold>c</bold> Comparison of genomic changes detected by whole exome sequencing between dysplasia (<italic toggle="yes">n</italic> = 19) and CAC (<italic toggle="yes">n</italic> = 12). <bold>d</bold> Frequency of private and shared genomic alterations between patients with both a dysplasia and CAC sample (<italic toggle="yes">n</italic> = 15). In the left box plot, the number of shared and private mutations (all mutations) per pair of samples were compared (<italic toggle="yes">P</italic> = 0.00022). In the right box plot, the number of shared and private mutations (driver mutations only) per pair of samples were compared (<italic toggle="yes">P</italic> = 0.17). In the box plots in panels <bold>c</bold> and <bold>d</bold>, statistical significance was assessed using a two-sided Mann–Whitney <italic toggle="yes">U</italic>-test. The center line of the box plots indicates the median, edges indicate the interquartile range, and the whiskers extend to the highest and lowest values not considered outliers. Source data are provided as a Source Data file. AOM azoxymethane, DSS Dextran Sodium Sulfate, IMCA intramucosal carcinoma, HGD high grade dysplasia.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1588" position="float" orientation="portrait" xlink:href="41467_2022_35592_Fig4_HTML.jpg"/></fig></p>
+          <p id="Par18">Synchronous lesions are more commonly seen in patients with IBD compared with patients with sporadic CRC. In our clinical series, 110 patients underwent partial or total colectomy and 32% of these patients had synchronous, separate adenomas (<italic toggle="yes">n</italic> = 7), dysplasia (<italic toggle="yes">n</italic> = 20), or cancer (<italic toggle="yes">n</italic> = 8). In one patient undergoing total colectomy, we collected six synchronous lesions from across the bowel, ranging from low grade dysplasia to carcinoma (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). Sequencing showed no shared genetic alterations across these lesions. To further investigate the relationship between dysplasia and cancer, we analyzed 13 paired samples of dysplasia and CAC with WES (at 150× depth) (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a</xref>). Adjacent, normal-appearing mucosa was obtained from the 13 patients and also subjected to WES and blood was collected as a matched normal in 5 patients. Where blood was not available as a matched normal, the mucosa samples were used as a normal and manually reviewed for mutations in <italic toggle="yes">TP53</italic>, <italic toggle="yes">APC</italic>, and <italic toggle="yes">KRAS</italic>. We detected no <italic toggle="yes">TP53</italic> alterations in the mucosa samples. Pathway analysis (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a</xref>) indicated that copy number alterations of genes involved in the cell cycle were present in three carcinoma samples and not the synchronous dysplasia or any other dysplasia samples, suggesting that these changes may occur later in CAC development. Fraction genome altered and WGD were significantly increased in CAC versus dysplasia, consistent with ongoing genomic instability late in CAC development (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>). Some of the dysplasia-carcinoma pairs shared genomic alterations and some had no shared genomic events (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5b</xref>), but the majority of genomic alterations detected were private to the precancerous lesions or CACs (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>).</p>
+          <p id="Par19">We also performed targeted exon sequencing of separate primary tumors from six patients, two of whom had synchronous primary tumors and four with metachronous colorectal primaries (Fig. <xref rid="Fig5" ref-type="fig">5a, b</xref>). In all the patients, the multifocal tumors had no shared genomic changes, despite close proximities of the primary lesions in three of the patients. We saw evidence of convergent evolution in <italic toggle="yes">TP53</italic> alterations present across the cancers, but each lesion appeared to have developed independently at the genetic level. Altogether, our data indicate that the development of dysplasia and cancer, or of multiple cancerous lesions in IBD, does not require a shared early genetic step. In light of the low frequency of mutations identified in mucosa, the findings suggest that mutations in <italic toggle="yes">TP53</italic>, <italic toggle="yes">KRAS</italic>, and <italic toggle="yes">APC</italic> do not drive the field of vulnerability for CAC.<fig id="Fig5" position="float" orientation="portrait"><label>Fig. 5</label><caption><title>Genetic relationship of multiple primary colitis-associated cancers.</title><p>Genomic analysis of multiple primaries, with illustrations showing locations of samples analyzed and oncogenic genomic alterations identified in each sample (filtered by OncoKB). <bold>a</bold> Patients with metachronous primary colitis-associated cancers: first row: (left) patient with rectosigmoid primary and 24 months later a new primary in the rectal remnant and (right) patient with cecal primary and 4.5 years later a new sigmoid colon primary; second row: (left) patient with sigmoid malignant stricture and 11 months later a new primary in the rectal stump and (right) patient with cecal primary treated with right hemicolectomy, three years later low-grade dysplasia in the distal transverse colon that was excised, and then two and a half years later a sigmoid colon cancer treated with proctocolectomy. <bold>b</bold> Patients with synchronous primary cancers: (left) patient with ascending and sigmoid colon primaries and (right) patient with two distinct primaries in the ascending colon and polypoid dysplasia with intramucosal cancer extending distally diffusely up to the splenic flexure.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1666" position="float" orientation="portrait" xlink:href="41467_2022_35592_Fig5_HTML.jpg"/></fig></p>
+        </sec>
+      </sec>
+      <sec id="Sec10" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par20">In this study, we have assembled the largest, annotated clinical and genomic series of CAC. We confirm our own and others’ prior identification of a distinct genomic landscape of CAC<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup> and expand on this to define copy number alterations in CAC, germline changes, and functional effects of these genomic changes. Analysis of the clonality of genomic changes, early lesions and mucosa, and multiple primaries indicates substantial heterogeneity in CAC but the absence of a clear genomic field effect for cancer risk. Using patient samples and patient-derived organoids and xenografts, we demonstrate that unlike the normal intestinal epithelium and sporadic CRC, which have high Wnt signaling activity as a cardinal lineage defining feature, CAC are strikingly independent of Wnt and seem to have undergone transcriptional rewiring away from Wnt signaling and lineage plasticity early during tumorigenesis<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>.</p>
+        <p id="Par21">Our work suggests that a different molecular pathway underlies the development of CAC compared to sporadic CRC. Mutations may not be the first event predisposing to cancer development in the inflamed bowel. We failed to identify <italic toggle="yes">TP53</italic> alterations in mucosa and only identified these mutations in about half of dysplasia samples. The increasing frequency of <italic toggle="yes">TP53</italic> alterations from dysplasia to carcinoma is in line with other series that suggest, in some CAC, <italic toggle="yes">TP53</italic> alterations may occur later in the dysplasia-carcinoma transition<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Our analysis of dysplasia and carcinoma that identifies late changes in the fraction genome altered and WGD is also in agreement with prior studies suggesting progressive accumulation of copy number alterations in the transition from low-grade dysplasia to high-grade dysplasia and carcinoma<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Further, analysis of multiple primaries showed that each lesion developed independently at a genetic level, arguing against a shared ancestral cell that undergoes early genomic changes leading to cancer. It is, therefore, possible that non-genomic events, such as epigenetic changes, may underlie the increased cancer risk seen with inflammation. The transcriptional rewiring we identified leading to Wnt independence may be one potential non-mutational early predisposing event. We have previously shown that Lgr5 high/wnt high/L1CAM low and Lgr5 low/wnt low/L1CAM high cells have distinct roles with the former being important for homeostasis and sporadic CRC tumor initiation and the latter for regeneration and metastasis<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Our analysis supports a central role for such a Wnt-low population in CAC initiation and our finding of low Wnt activation is in line with prior evolutionary studies and transcriptional analyses of CAC<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>.</p>
+        <p id="Par22">We find that in immune-mediated bowel inflammation, neoplasia predominantly emerges from independent genetic events, and there is no field effect of genomic changes predisposing to cancer development. Analysis of esophageal and pancreatic adenocarcinomas, where inflammation has been implicated in cancer development, suggests that when multiple neoplastic lesions are identified in these organs, they can develop either as genetically-independent events or from a shared progenitor cell. In the esophagus, inflammation resulting from reflux of bile acids can lead to intestinalization of the lower mucosa, termed Barrett’s esophagus, and elevated risk for esophageal adenocarcinoma. An analysis of 25 pairs of separate areas of dysplastic Barrett’s esophagus and esophageal adenocarcinoma indicated that the lesions were clonally unrelated in 11 cases and shared a common neoplastic clone in 14 of the cases<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Another study looking at 23 paired samples of Barrett’s esophagus and esophageal adenocarcinoma found that the Barrett’s esophagus was polyclonal even in the absence of dysplasia and that the spectrum of mutations in the paired specimens showed overall little overlap<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. In 267 patients where sequencing was performed on samples collected about every 1–2 cm across the segment of Barrett’s esophagus, a range of clonal diversity and divergence was identified with higher clonal diversity associated with higher chance of progression to cancer<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. Analysis of pancreatic resection specimens containing at least one pancreatic intraepithelial neoplasia (PanIN) and adenocarcinoma present in anatomically distinct and far-removed regions, revealed that, in two of eight patients, the PanIN and adenocarcinoma were completely unrelated, in four patients, the PanIN and adenocarcinoma shared a common ancestor, and, in two patients, the two specimens shared all alterations<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. Despite the differences in genomic alterations in multiple neoplastic lesions arising in the setting of IBD or other inflammation-associated cancers, the recurrent and distinct alterations in these lesions suggest a common pathway to neoplasia. It is possible that non-mutational changes underlie an early field defect in these lesions. For example, broad genomic copy number changes in Barrett’s esophagus tissues and intestinal mucosa have been found to be highly predictive for progression to cancer<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>.</p>
+        <p id="Par23">Repeated cycles of inflammation, ulceration, and regeneration accelerate age-related mutational processes, and while chronic inflammation does not appear to be mutagenic per se, it may accelerate mutation accrual and provide a distinctive selective pressure<sup><xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. In CAC, we observed a distinct genomic profile from sporadic CRC with a high frequency of <italic toggle="yes">TP53</italic> mutations and copy number changes. While rare in sporadic CRC, <italic toggle="yes">FGFR2</italic> amplification or fusion and <italic toggle="yes">IDH1</italic> R132 mutations occur in intrahepatic cholangiocarcinoma, another inflammation-associated gastrointestinal cancer, and, notably, these oncogenic drivers now have matched FDA-approved targeted therapies<sup><xref ref-type="bibr" rid="CR41">41</xref>–<xref ref-type="bibr" rid="CR43">43</xref></sup> supporting the potential of genomic analysis to alter the landscape of CAC treatment. The oncometabolite 2-HG has been shown to promote histone methylation, and <italic toggle="yes">IDH1</italic> mutations are associated with tumor hypermethylation phenotype in gliomas<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>. Interestingly, early series of CAC have noted tumor hypermethylation<sup><xref ref-type="bibr" rid="CR44">44</xref>–<xref ref-type="bibr" rid="CR46">46</xref></sup> and, in our analysis of global methylation, we see that five of the six <italic toggle="yes">IDH1</italic> mutant CACs clustered together with the microsatellite instable tumors and exhibited high global methylation, further supporting the functional significance of <italic toggle="yes">IDH1</italic> mutation in CAC.</p>
+        <p id="Par24">Limitations of our study include the retrospective nature of sample collection and the relatively small number of dysplasia samples available. However, the large number of CAC samples and integrated clinical and genomic evaluation support our analysis of clinical and molecular features of CAC development. In the current study, we were able to perform matched tumor-normal sequencing for the majority of dysplasia and CAC cases studied, unlike previous studies from our group and others, allowing a better assessment of somatic alterations in these lesions. We performed primarily targeted sequencing of known cancer genes, with WES performed in a subset of cases, so the analysis may have missed important non-cancer genes involved in CAC development. Our data indicate that a substantial number of IBD patients develop cancer despite surveillance, and we hope that our identification of the specific genomics of CAC will support new approaches for early detection.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Methods</title>
+        <sec id="Sec12">
+          <title>Samples</title>
+          <p id="Par25">Samples were collected following ethical regulations. The analysis of CAC cases was approved by the Memorial Sloan Kettering Cancer Center (MSK) Institutional Review Board and received a waiver for informed consent (IRB waiver WA0143-14) under 45 CFR § 46.116 based on review and determination that this research meets the following requirements: (i) the research involves no more than minimal risk to subjects; (ii) the research could not practicably be carried out without the requested waiver; (iii) the waiver will not adversely affect the rights and welfare of the subjects. Biospecimens were collected under appropriate tumor banking protocols after patient written informed consent (IRB 06-107, 12-245, and 15-297). Germline analysis was performed in patients who provided informed consent (IRB 12-245 part C). Patients were not compensated for participation.</p>
+          <p id="Par26">CAC cases were identified from Memorial Sloan Kettering Cancer Center (<italic toggle="yes">n</italic> = 125), Weill Cornell Medical Center-New York Presbyterian Hospital (WCMC) (<italic toggle="yes">n</italic> = 29), or Sheba Medical Center in Israel (<italic toggle="yes">n</italic> = 7). Samples were initially identified retrospectively through a query and validation of the pathology databases of these institutions for cases where colitis was a clinical factor noted in the pathology report, and CAC cases (<italic toggle="yes">n</italic> = 47) in our prior publication were included in this series<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Since 2015, cases have been identified prospectively at MSK through a biweekly computerized query for any patients with “colitis” as a diagnostic term who is scheduled to be seen in the surgical, gastroenterology, or medical oncology clinics. Pathology specimens were reviewed by expert gastrointestinal pathologists at MSK or WCMC. The medical records were reviewed by a medical oncologist for the clinical history of IBD. The pathologist selected the appropriate tissue blocks for DNA extraction. Patients with Lynch syndrome or microsatellite instable tumors were excluded to focus on molecular drivers related to inflammation. Areas of dysplasia were identified on standard hematoxylin-eosin stained slides for macrodissection.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Clinical annotation</title>
+          <p id="Par27">Pathology, colonoscopy, and radiology reports and medical oncology, surgery, and gastroenterology notes were reviewed in the electronic medical record to annotate clinical characteristics for patients with CAC.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>Genomic analysis</title>
+          <p id="Par28">Samples were analyzed using the following hybrid capture-based next-generation sequencing assays: FoundationOne (315 genes, 34 samples)<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> and MSK-IMPACT (341-505 genes, 132 samples)<sup><xref ref-type="bibr" rid="CR47">47</xref></sup> (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). Oncogenic or likely oncogenic somatic variants were identified using OncoKB, a precision oncology database that tracks the effects of cancer variants and their potential clinical actionability<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Genes were organized into signaling pathways using curated pathway templates<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. FACETS, an allele-specific copy number algorithm was used to assess tumor purity, clonality of genomic alterations, and whole genome doubling events<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>.</p>
+          <p id="Par29">Sequencing of neoplastic lesions developing in the AOM/DSS mouse models was done with mouse MSK-IMPACT. Based on pathological review, 14 unstained slides per sample were macrodissected by scalpel to collect tumor material in an AutoLys M tube (Thermofisher Life catalog # <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-protein" xlink:href="A38738">A38738</ext-link>). FFPE curls collected in AutoLys M tubes (Thermofisher Life catalog # <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-protein" xlink:href="A38738">A38738</ext-link>) were digested with Protease Solution. DNA was extracted using the MagMAX FFPE DNA/RNA Ultra Kit (ThermoFisher catalog # A31881) on the KingFisher Flex Purification System (ThermoFisher) according to the manufacturer’s protocol. Samples were eluted in 55 µL elution solution. After PicoGreen quantification, 200 ng of mouse genomic DNA were used for library construction using the KAPA Hyper Prep Kit (Kapa Biosystems KK8504) with 8 cycles of PCR. After sample barcoding, 250–265 ng of each library were pooled and captured by hybridization with the M-IMPACT_v2 (IDT) assay, which captures all protein-coding exons and select introns of 608 cancer-related genes (Supplementary Table <xref rid="MOESM1" ref-type="media">3</xref>). Capture pools were sequenced on the NovaSeq 6000, using the NovaSeq 6000 S4 Reagent Kit (200 Cycles) (Illumina) for PE100 reads. Following these criteria, the mean coverage was 623×, with an average of 99% of the targeted sequences covered 30×.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Methodology for Copy Number Alterations (CNA) analysis</title>
+          <p id="Par30">CNApp, a web-based tool, was used to analyze tumor sample segmentation data and generate both focal and broad CNA scores<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Germline analysis</title>
+          <p id="Par31">Germline sequencing was performed for patients who signed written consent for testing (MSK protocol 12-245 part C) and consisted of a panel of 76 genes in its first iteration (Version 1) and 88 genes in its second iteration (Version 2). The genes analyzed are listed in Stadler ZK et al.<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. The overlap between Version 1 and Version 2 of the assay is 84% (14 genes were added and 2 removed for Version 2). Variants were identified by MSK-IMPACT as described above<sup><xref ref-type="bibr" rid="CR52">52</xref></sup> and were interpreted based on American College of Medical Genetics and Genomics (ACMG) guidelines<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> by a clinical molecular geneticist or molecular pathologist. Changes from Version 1 to 2 reflect changes in the current understanding of genes involved in cancer susceptibility.</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Methylation analysis</title>
+          <p id="Par32">Methylation profiling was performed using Methylation 450 K arrays (Illumina, San Diego, CA). DNA methylation data was processed in R using the <italic toggle="yes">minfi</italic> package. Beta-values were normalized (preprocessQuantile) and the function dmpFinder (option; “shrinkVar = TRUE, type = categorical”), which used an F-test, was used to identify differentially methylated positions between carcinomas-muc and their non-mucinous counterparts within each cancer type. Differentially methylated CpGs were identified using a cut-off of FDR &lt; 0.05. Methylation probes were mapped to genes using the illuminaHumanMethylation450kanno.ilmn12.hg19 Bioconductor package<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>.</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Immunohistochemistry (IHC)</title>
+          <p id="Par33">Four-micrometer-thick sections were cut from formalin-fixed paraffin-embedded (FFPE) tumor blocks for IHC. IHC for β-catenin was performed on a BenchMark XT automated immunostainer (Ventana Medical Systems Inc., Tucson, Ariz). Sections were incubated with anti-β-catenin antibody (Cell Marque, catalog #760-4242) at a concentration of 1.73 μg/mL. Antigen retrieval was performed with Cell Conditioning Solution (CC1, Ventana Medical Systems Inc.) for 24 h, and primary antibody incubation was for 24 h. Antigen detection was performed using the Optiview DAB Detection kit (Ventana Medical Systems Inc.).</p>
+        </sec>
+        <sec id="Sec19">
+          <title>RNA sequencing and analysis</title>
+          <p id="Par34">Frozen tumor tissue from clinical samples or patient-derived xenografts (PDXs) was subjected to RNA sequencing. 20–30 mg frozen tissue was homogenized in 1 mL TRIzol Reagent (ThermoFisher catalog # 15596018), phase separation was induced with 200 µL chloroform, and RNA was extracted from the aqueous phase using the miRNeasy Micro Kit (Qiagen catalog # 217084) on the QIAcube Connect (Qiagen) according to the manufacturer’s protocol with 350 µL input. Samples were eluted in 15 µL RNase-free water. After RiboGreen quantification and quality control by Agilent BioAnalyzer, 500 ng of total RNA with RIN values of 9.2–10 underwent polyA selection and TruSeq library preparation according to instructions provided by Illumina (TruSeq Stranded mRNA LT Kit, catalog # RS-122-2102), with 8 cycles of PCR. Samples were barcoded and run on a HiSeq 4000 in a PE50 run, using the HiSeq 3000/4000 SBS Kit (Illumina). An average of 44 million paired reads was generated per sample. Ribosomal reads represented 1.4–3.0% of the total reads generated and the percent of mRNA bases averaged 67%. Differential gene expression analysis was conducted using DESeq2 v.1.30.165. The biomaRt v.2.46.3 package66 was used to annotate genes. Single sample gene set enrichment analysis (ssGSEA) was performed using the R package GSVA 67.</p>
+        </sec>
+        <sec id="Sec20">
+          <title>Generation of patient-derived organoids and xenograft models and growth curve experiments</title>
+          <p id="Par35">Patient-derived organoids were generated under MSK IRB protocols 06-107 and 14-244. Normal colon crypts were isolated by agitating with 8 mM EDTA in PBS. Human tumor samples were grossly washed, chopped into 5 mm fragments, and incubated in dissociation buffer (DMEM with 5% FBS (Gibco), 2 mM l-glutamine (Fisher Scientific), penicillin-streptomycin (Fisher Scientific), 40 μg ml<sup>−1</sup> gentamicin. (Thermo Fisher Scientific), 250 U ml<sup>−1</sup> type III collagenase (Worthington) and 1 U ml<sup>−1</sup> dispase (Sigma-Aldrich)) on a shaker for 30 min at 37 °C, filtered through a 70 μm cell strainer (Greiner Bio-One), centrifuged at 600 × <italic toggle="yes">g</italic> for 5 min and washed with ADF (Advanced DMEM/F12, Thermo Fisher Scientific). Cells were counted and resuspended in Matrigel at approximately 2000–10,000 cells per 40 μl of Matrigel in uncoated CELLSTAR multiwell culture plates (Greiner Bio-One). After Matrigel polymerization, human intestinal stem cell ((HISC): Advanced DMEM/F12 containing 100 ng ml<sup>−1</sup> Wnt-3a (R&amp;D), 1 μg ml<sup>−1</sup> R-Spondin1 (Peprotech), 50 ng ml<sup>−1</sup> EGF, 50 ng ml<sup>−1</sup> Noggin (Peprotech), 10 nM gastrin (Sigma), 10 mM nicotinamide (Sigma), 500 nM A8301 (Sigma), 10 μM SB202190, 10 mM HEPES, 2 mM glutamine, 2 mM N-acetylcysteine, 1 μM PGE2 (Sigma), 1:100 N2 (Invitrogen), 1:50 B27 (without vitamin A) and 100 μg ml<sup>−1</sup> Primocin (InvivoGen)) was added. Y27632 (10 μM; Sigma) was added for initial organoid generation and for 48 h after every passage. Where indicated, cells were flow-sorted before resuspension and plating in Matrigel. For experiments, organoids were cultured in HISC with or without 100 ng ml<sup>−1</sup> Wnt-3a (R&amp;D), 1 μg ml<sup>−1</sup> R-Spondin1 (Peprotech). Tumor growth was monitored using Cell-Titer glo assays using the manufacturer’s protocols (Promega).</p>
+          <p id="Par36">PDX models were generated by mincing about 1 g of tumor tissue, mixing with matrigel (50%), and implanting orthotopically into NSG (NOD scid gamma) mice (JAX strain 005557) (IRB protocols 06-107, 14-091). The growing tumor was then implanted as subcutaneous xenografts for growth experiments, and three-dimensional tumor measurements were performed. PDX experiments were performed using 4–6-week-old NSG female mice and five mice were included per treatment group. Treatment of the mice began when tumors reached approximately 100 mm<sup>3</sup> in size. Mice were randomized (<italic toggle="yes">n</italic> = 5 mice per group) to receive drug treatments or vehicle as control. AGI-5198 (50 mg/kg) was given twice daily by oral gavage. Debio1347 (60 mg/kg) was given daily by oral gavage. G007-LK (30 mg/kg) was given by injection once daily. LGK-974 (3 mg/kg) was given daily by oral lavage. The average tumor diameter (two perpendicular axes of the tumor were measured) was measured in control and treated groups using a caliper. The data are expressed as the increase or decrease in tumor volume in mm<sup>3</sup> (mm<sup>3</sup> = π/6 × (larger diameter × (smaller diameter)<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>). Investigators were not blinded when assessing the outcome of the in vivo experiments. These studies were performed in compliance with MSK institutional guidelines under an Institutional Animal Care and Use Committee (IACUC) approved protocol. The maximal tumor size was not exceeded, and the animals were immediately euthanized as soon as the tumors reached the MSK IACUC set limitations (1500–2000 mm<sup>3</sup>).</p>
+          <p id="Par37">Organoid and PDX samples were subjected to MSK-IMPACT sequencing and compared to clinical sequencing of diagnostic tumor tissue to validate the conservation of genomic alterations between these models and the tumors from which they were derived. Organoid samples were collected for sequencing after at least 6 months growth in culture and PDX samples were collected once xenografts were growing exponentially. Patient-derived organoids and xenografts can be requested from the corresponding author and will be shared, subject to institutional approvals.</p>
+        </sec>
+        <sec id="Sec21">
+          <title>AOM/DSS Mouse Model of CAC</title>
+          <p id="Par38">Male wild-type C57BL/6J mice (Jackson Laboratories stock no: 000664) (<italic toggle="yes">n</italic> = 10) were administered a single intraperitoneal injection of 10 mg/kg Azoxymethane (AOM, Sigma-Aldrich A5486) at 8-to-10 weeks of age. Following AOM injection, mice immediately began cycles of 2% dextran sulfate sodium (DSS, MP Biomedicals 0216011080) dissolved in RO drinking water (w/v). Mice were administered 2% DSS water for 7 days, followed by 14 days of normal RO drinking water (1 DSS cycle). Mice were administered a total of 3 DSS cycles spanning a 9-week period. Mice were euthanized 10–13 weeks after AOM injection. Two mice were selected for the collection of neoplastic lesions and sequencing. All animal procedures were approved by the IACUC of Dana-Farber Cancer Institute (protocol 11-009).</p>
+          <p id="Par39">Following euthanasia, mouse small intestine and colon were removed and flushed with PBS. Tissue was then fixed in 10% neutral buffered formalin for 18–24 h at room temperature. Following fixation, intestines were opened longitudinally, ‘swiss-rolled’, and placed in a tissue cassette. Cassettes were placed in 70% ethanol for an additional 24 h prior to processing for paraffin embedding. Tissue processing, paraffin embedding, 5 µm sectioning, and Hematoxylin and Eosin (H&amp;E) staining were performed by the Harvard Digestive Diseases Center Microscopy and Histopathology core located at the Beth Israel Deaconess Medical Center (BIDMC).</p>
+        </sec>
+        <sec id="Sec22">
+          <title>2-HG measurement</title>
+          <p id="Par40">2-HG quantification was performed in brain and tumor tissues by Agios using their bioanalytical protocol<sup><xref ref-type="bibr" rid="CR55">55</xref></sup>. Cell pellets were extracted with MeOH:H<sub>2</sub>O at 80:20 ratio and compared to 2-HG standard to calculate 2-HG levels.</p>
+        </sec>
+        <sec id="Sec23">
+          <title>Drugs</title>
+          <p id="Par41">AGI-5198 was provided by Agios. Debio1347 was obtained from DebioPharm. G007-LK and LGK-974 were purchased from Selleckchem.</p>
+        </sec>
+        <sec id="Sec24">
+          <title>Statistical analysis</title>
+          <p id="Par42">Clinical characteristics and genomic frequencies were compared using a 2-sided Fisher’s exact test. Continuous variables were compared using a Mann–Whitney U-test. Cumulative incidence rates were compared using Gray’s test. Multiple testing correction was performed using the Benjamini–Hochberg method and significance was determined using a <italic toggle="yes">q</italic>-value cutoff of 0.05. Growth curve raw values were normalized relative to start date values and statistical significance was assessed comparing these values at the start date to the values at the end date using a Mann–Whitney U-test. The R statistical software (3.6.1) was used for analyses.</p>
+        </sec>
+        <sec id="Sec25">
+          <title>Reporting summary</title>
+          <p id="Par43">Further information on research design is available in the <xref rid="MOESM3" ref-type="media">Nature Portfolio Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec26">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_35592_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_35592_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_35592_MOESM3_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <app-group>
+        <app id="App1">
+          <sec id="Sec27">
+            <title>Source data</title>
+            <p id="Par47">
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41467_2022_35592_MOESM4_ESM.xlsx" id="MOESM4" orientation="portrait"><caption><p>Source Data</p></caption></media>
+</p>
+          </sec>
+        </app>
+      </app-group>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+        <fn>
+          <p>These authors contributed equally: Walid K. Chatila, Henry Walch.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p>The online version contains supplementary material available at 10.1038/s41467-022-35592-9.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This work was supported by a Starr Cancer Consortium grant (I11-0040) and a Crohn’s and Colitis Foundation Senior Researcher Award (#426095). We acknowledge the use of the Integrated Genomics Operation Core, funded by the NCI Cancer Center Support Grant (CCSG, P30 CA08748), Cycle for Survival, and the Marie-Josée and Henry R. Kravis Center for Molecular Oncology. We thank Matthew Vogel for his review and suggestions.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>Conception and design: W.K.C., H.W., N.S.S., K.G., D.K., and R.Y.; acquisition, analysis, or interpretation of data: all authors (W.K.C., H.W., J.F.H., S.M.M., V.S., D.M.F., A.S., L.T., J.B., D.I., C.C., F.W., Q.C., E.V., E.dS., M.R.W., M.W., R.K.Y., M.A.S., A.J.B., Z.K.S., L.H.K., I.K.M., N.S.S., N.S., K.G., D.K., and R.Y.); writing of the first manuscript draft: R.Y.; substantial revision of the first manuscript draft: W.K.C., H.W., D.M.F., N.S.S., N.S., K.G., D.K., and R.Y.; approval of the submitted manuscript: all authors (W.K.C., H.W., J.F.H., S.M.M., V.S., D.M.F., A.S., L.T., J.B., D.I., C.C., F.W., Q.C., E.V., E.dS., M.R.W., M.W., R.K.Y., M.A.S., A.J.B., Z.K.S., L.H.K., I.K.M., N.S.S., N.S., K.G., D.K., and R.Y.); agreement to be personally accountable for the author’s own contributions and to ensure that questions related to the accuracy or integrity of any part of the work, even ones in which the author was not personally involved, are appropriately investigated, resolved, and the resolution documented in the literature: all authors (W.K.C., H.W., J.F.H., S.M.M., V.S., D.M.F., A.S., L.T., J.B., D.I., C.C., F.W., Q.C., E.V., E.dS., M.R.W., M.W., R.K.Y., M.A.S., A.J.B., Z.K.S., L.H.K., I.K.M., N.S.S., N.S., K.G., D.K., and R.Y.).</p>
+      </notes>
+      <notes notes-type="peer-review">
+        <title>Peer review</title>
+        <sec id="FPar1">
+          <title>Peer review information</title>
+          <p id="Par44"><italic toggle="yes">Nature Communications</italic> thanks the other anonymous reviewer(s) for their contribution to the peer review of this work. Peer review reports are available.</p>
+        </sec>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>All clinical and genomic sequencing data described in this manuscript have been deposited in the cBioPortal for Cancer Genomics and are publicly available for online browsing and bulk download through the following link: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/study/summary?id=bowel_colitis_msk_2022">http://www.cbioportal.org/study/summary?id=bowel_colitis_msk_2022</ext-link>. The raw sequencing data are protected, and patient consent to deposit raw sequencing data was not obtained. De-identified data are available under restricted access to protect patient privacy in accordance with federal and state law. These data can be requested for research use from the corresponding author, subject to institutional approvals. Additionally, all clinical data and variant call data are included in the Source Data file. The raw RNA sequencing data generated in this study have been deposited in GEO (accession number <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE220067">GSE220067</ext-link>). All other data generated in this study are available within the article and its supplementary data files. <xref rid="Sec27" ref-type="sec">Source data</xref> are provided with this paper.</p>
+      </notes>
+      <notes id="FPar2" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par45">N.S.: Advisory role for Astrin Biosciences. Z.K.S.: Immediate family member serves as a consultant in Ophthalmology for Alcon, Adverum, Gyroscope Therapeutics Limited, Neurogene, and RegenexBio, outside the submitted work. I.K.M.: Research funding from General Electric, Agios, Amgen, and Lilly; advisory roles with Agios, Debiopharm Group, Puma Biotechnology, and Voyager Therapeutics; and honoraria from Roche for a presentation. R.Y.: Research funding from Boehringer Ingelheim, Mirati Therapeutics, Pfizer, and Daiichi Sankyo; advisory roles with Mirati Therapeutics, Natera, Array BioPharma/Pfizer, and Zai Lab. All other authors declare no competing interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Itzkowitz</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yio</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Inflammation and cancer IV. Colorectal cancer in inflammatory bowel disease: the role of inflammation</article-title>
+            <source>Am. J. Physiol. Gastrointest. Liver Physiol.</source>
+            <year>2004</year>
+            <volume>287</volume>
+            <fpage>G7</fpage>
+            <lpage>G17</lpage>
+            <pub-id pub-id-type="pmid">15194558</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1152/ajpgi.00079.2004</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Beaugerie</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Itzkowitz</surname>
+                <given-names>SH</given-names>
+              </name>
+            </person-group>
+            <article-title>Cancers complicating inflammatory bowel disease</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2015</year>
+            <volume>372</volume>
+            <fpage>1441</fpage>
+            <lpage>1452</lpage>
+            <pub-id pub-id-type="pmid">25853748</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMra1403718</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Laine</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SCENIC international consensus statement on surveillance and management of dysplasia in inflammatory bowel disease</article-title>
+            <source>Gastroenterology</source>
+            <year>2015</year>
+            <volume>148</volume>
+            <fpage>639</fpage>
+            <lpage>651.e28</lpage>
+            <pub-id pub-id-type="pmid">25702852</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2015.01.031</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lutgens</surname>
+                <given-names>MW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Declining risk of colorectal cancer in inflammatory bowel disease: an updated meta-analysis of population-based cohort studies</article-title>
+            <source>Inflamm. Bowel Dis.</source>
+            <year>2013</year>
+            <volume>19</volume>
+            <fpage>789</fpage>
+            <lpage>799</lpage>
+            <pub-id pub-id-type="pmid">23448792</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/MIB.0b013e31828029c0</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Choi</surname>
+                <given-names>CH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Forty-year analysis of colonoscopic surveillance program for neoplasia in ulcerative colitis: an updated overview</article-title>
+            <source>Am. J. Gastroenterol.</source>
+            <year>2015</year>
+            <volume>110</volume>
+            <fpage>1022</fpage>
+            <lpage>1034</lpage>
+            <pub-id pub-id-type="pmid">25823771</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ajg.2015.65</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4517513</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yaeger</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Systemic chemotherapy for metastatic colitis-associated cancer has a worse outcome than sporadic colorectal cancer: matched case cohort analysis</article-title>
+            <source>Clin. Colorectal Cancer</source>
+            <year>2020</year>
+            <volume>19</volume>
+            <fpage>e151</fpage>
+            <lpage>e156</lpage>
+            <pub-id pub-id-type="pmid">32798155</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clcc.2020.02.008</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8485365</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <mixed-citation publication-type="other">Lu, C. et al. Survival outcomes and clinicopathological features in inflammatory bowel disease-associated colorectal cancer: a systematic review and meta-analysis. <italic toggle="yes">Ann. Surg.</italic><bold>276</bold>, e319–e330 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/SLA.0000000000005339</pub-id><pub-id pub-id-type="pmid">34913897</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Robles</surname>
+                <given-names>AI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-exome sequencing analyses of inflammatory bowel disease-associated colorectal cancers</article-title>
+            <source>Gastroenterology</source>
+            <year>2016</year>
+            <volume>150</volume>
+            <fpage>931</fpage>
+            <lpage>943</lpage>
+            <pub-id pub-id-type="pmid">26764183</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2015.12.036</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5270616</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yaeger</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic alterations observed in colitis-associated cancers are distinct from those found in sporadic colorectal cancers and vary by type of inflammatory bowel disease</article-title>
+            <source>Gastroenterology</source>
+            <year>2016</year>
+            <volume>151</volume>
+            <fpage>278</fpage>
+            <lpage>287.e6</lpage>
+            <pub-id pub-id-type="pmid">27063727</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2016.04.001</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5472377</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rajamäki</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genetic and epigenetic characteristics of inflammatory Bowel disease-associated colorectal cancer</article-title>
+            <source>Gastroenterology</source>
+            <year>2021</year>
+            <volume>161</volume>
+            <fpage>592</fpage>
+            <lpage>607</lpage>
+            <pub-id pub-id-type="pmid">33930428</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2021.04.042</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yaeger</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clinical sequencing defines the genomic landscape of metastatic colorectal cancer</article-title>
+            <source>Cancer Cell</source>
+            <year>2018</year>
+            <volume>33</volume>
+            <fpage>125</fpage>
+            <lpage>136.e3</lpage>
+            <pub-id pub-id-type="pmid">29316426</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2017.12.004</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5765991</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Laken</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Familial colorectal cancer in Ashkenazim due to a hypermutable tract in APC</article-title>
+            <source>Nat. Genet.</source>
+            <year>1997</year>
+            <volume>17</volume>
+            <fpage>79</fpage>
+            <lpage>83</lpage>
+            <pub-id pub-id-type="pmid">9288102</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng0997-79</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Latham</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Microsatellite instability is associated with the presence of lynch syndrome Pan-cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2019</year>
+            <volume>37</volume>
+            <fpage>286</fpage>
+            <lpage>295</lpage>
+            <pub-id pub-id-type="pmid">30376427</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.18.00283</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6553803</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hall</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Germline pathogenic variants in the Ataxia Telangiectasia Mutated (ATM) gene are associated with high and moderate risks for multiple cancers</article-title>
+            <source>Cancer Prev. Res. (Philos.)</source>
+            <year>2021</year>
+            <volume>14</volume>
+            <fpage>433</fpage>
+            <lpage>440</lpage>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1940-6207.CAPR-20-0448</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8026745</pub-id>
+            <pub-id pub-id-type="pmid">33509806</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Setton</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Germline RAD51B variants confer susceptibility to breast and ovarian cancers deficient in homologous recombination</article-title>
+            <source>NPJ Breast Cancer</source>
+            <year>2021</year>
+            <volume>7</volume>
+            <fpage>135</fpage>
+            <pub-id pub-id-type="pmid">34635660</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41523-021-00339-0</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8505423</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Schultz</surname>
+                <given-names>KAP</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DICER1 and associated conditions: identification of at-risk individuals and recommended surveillance strategies</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2018</year>
+            <volume>24</volume>
+            <fpage>2251</fpage>
+            <lpage>2261</lpage>
+            <pub-id pub-id-type="pmid">29343557</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-17-3089</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6260592</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cercek</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A comprehensive comparison of early-onset and average-onset colorectal cancers</article-title>
+            <source>J. Natl Cancer Inst.</source>
+            <year>2021</year>
+            <volume>113</volume>
+            <fpage>1683</fpage>
+            <lpage>1692</lpage>
+            <pub-id pub-id-type="pmid">34405229</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djab124</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8634406</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chakravarty</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>OncoKB: a precision oncology knowledge base</article-title>
+            <source>JCO Precis Oncol.</source>
+            <year>2017</year>
+            <volume>2017</volume>
+            <fpage>PO.17.00011</fpage>
+            <pub-id pub-id-type="pmid">28890946</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5586540</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lu</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>IDH mutation impairs histone demethylation and results in a block to cell differentiation</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>483</volume>
+            <fpage>474</fpage>
+            <lpage>478</lpage>
+            <pub-id pub-id-type="pmid">22343901</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10860</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3478770</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Turcan</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>IDH1 mutation is sufficient to establish the glioma hypermethylator phenotype</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>483</volume>
+            <fpage>479</fpage>
+            <lpage>483</lpage>
+            <pub-id pub-id-type="pmid">22343889</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10866</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3351699</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nagase</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nakamura</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutations of the APC (adenomatous polyposis coli) gene</article-title>
+            <source>Hum. Mutat.</source>
+            <year>1993</year>
+            <volume>2</volume>
+            <fpage>425</fpage>
+            <lpage>434</lpage>
+            <pub-id pub-id-type="pmid">8111410</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/humu.1380020602</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bienz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Clevers</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Linking colorectal cancer to Wnt signaling</article-title>
+            <source>Cell</source>
+            <year>2000</year>
+            <volume>103</volume>
+            <fpage>311</fpage>
+            <lpage>320</lpage>
+            <pub-id pub-id-type="pmid">11057903</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0092-8674(00)00122-7</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nelson</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nusse</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Convergence of Wnt, beta-catenin, and cadherin pathways</article-title>
+            <source>Science</source>
+            <year>2004</year>
+            <volume>303</volume>
+            <fpage>1483</fpage>
+            <lpage>1487</lpage>
+            <pub-id pub-id-type="pmid">15001769</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1094291</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3372896</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Cancer Genome Atlas Network.</collab>
+            </person-group>
+            <article-title>Comprehensive molecular characterization of human colon and rectal cancer</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>487</volume>
+            <fpage>330</fpage>
+            <lpage>337</lpage>
+            <pub-id pub-id-type="pmid">22810696</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11252</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3401966</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Han</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>R-Spondin chromosome rearrangements drive Wnt-dependent tumour initiation and maintenance in the intestine</article-title>
+            <source>Nat. Commun.</source>
+            <year>2017</year>
+            <volume>8</volume>
+            <fpage>15945</fpage>
+            <pub-id pub-id-type="pmid">28695896</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms15945</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5508203</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yin</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>p53 point mutations in dysplastic and cancerous ulcerative colitis lesions</article-title>
+            <source>Gastroenterology</source>
+            <year>1993</year>
+            <volume>104</volume>
+            <fpage>1633</fpage>
+            <lpage>1639</lpage>
+            <pub-id pub-id-type="pmid">8500720</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0016-5085(93)90639-t</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Brentnall</surname>
+                <given-names>TA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutations in the p53 gene: an early marker of neoplastic progression in ulcerative colitis</article-title>
+            <source>Gastroenterology</source>
+            <year>1994</year>
+            <volume>107</volume>
+            <fpage>369</fpage>
+            <lpage>378</lpage>
+            <pub-id pub-id-type="pmid">8039614</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0016-5085(94)90161-9</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rabinovitch</surname>
+                <given-names>PS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pancolonic chromosomal instability precedes dysplasia and cancer in ulcerative colitis</article-title>
+            <source>Cancer Res.</source>
+            <year>1999</year>
+            <volume>59</volume>
+            <fpage>5148</fpage>
+            <lpage>5153</lpage>
+            <pub-id pub-id-type="pmid">10537290</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Quintanal-Villalonga</surname>
+                <given-names>Á</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Lineage plasticity in cancer: a shared pathway of therapeutic resistance</article-title>
+            <source>Nat. Rev. Clin. Oncol.</source>
+            <year>2020</year>
+            <volume>17</volume>
+            <fpage>360</fpage>
+            <lpage>371</lpage>
+            <pub-id pub-id-type="pmid">32152485</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41571-020-0340-z</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7397755</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wanders</surname>
+                <given-names>LK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>IBD-associated dysplastic lesions show more chromosomal instability than sporadic adenomas</article-title>
+            <source>Inflamm. Bowel Dis.</source>
+            <year>2020</year>
+            <volume>26</volume>
+            <fpage>167</fpage>
+            <lpage>180</lpage>
+            <pub-id pub-id-type="pmid">31372648</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ibd/izz171</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Baker</surname>
+                <given-names>AM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Evolutionary history of human colitis-associated colorectal cancer</article-title>
+            <source>Gut</source>
+            <year>2019</year>
+            <volume>68</volume>
+            <fpage>985</fpage>
+            <lpage>995</lpage>
+            <pub-id pub-id-type="pmid">29991641</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/gutjnl-2018-316191</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6580738</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ganesh</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>L1CAM defines the regenerative origin of metastasis-initiating cells in colorectal cancer</article-title>
+            <source>Nat. Cancer</source>
+            <year>2020</year>
+            <volume>1</volume>
+            <fpage>28</fpage>
+            <lpage>45</lpage>
+            <pub-id pub-id-type="pmid">32656539</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s43018-019-0006-x</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7351134</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Aust</surname>
+                <given-names>DE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The APC/beta-catenin pathway in ulcerative colitis-related colorectal carcinomas: a mutational analysis</article-title>
+            <source>Cancer</source>
+            <year>2002</year>
+            <volume>94</volume>
+            <fpage>1421</fpage>
+            <lpage>1427</lpage>
+            <pub-id pub-id-type="pmid">11920497</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cncr.10334</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stachler</surname>
+                <given-names>MD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Paired exome analysis of Barrett’s esophagus and adenocarcinoma</article-title>
+            <source>Nat. Genet.</source>
+            <year>2015</year>
+            <volume>47</volume>
+            <fpage>1047</fpage>
+            <lpage>1055</lpage>
+            <pub-id pub-id-type="pmid">26192918</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3343</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4552571</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ross-Innes</surname>
+                <given-names>CS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-genome sequencing provides new insights into the clonal architecture of Barrett’s esophagus and esophageal adenocarcinoma</article-title>
+            <source>Nat. Genet.</source>
+            <year>2015</year>
+            <volume>47</volume>
+            <fpage>1038</fpage>
+            <lpage>1046</lpage>
+            <pub-id pub-id-type="pmid">26192915</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3357</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4556068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Maley</surname>
+                <given-names>CC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genetic clonal diversity predicts progression to esophageal adenocarcinoma</article-title>
+            <source>Nat. Genet.</source>
+            <year>2006</year>
+            <volume>38</volume>
+            <fpage>468</fpage>
+            <lpage>473</lpage>
+            <pub-id pub-id-type="pmid">16565718</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng1768</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Makohon-Moore</surname>
+                <given-names>AP</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Precancerous neoplastic cells can move through the pancreatic ductal system</article-title>
+            <source>Nature</source>
+            <year>2018</year>
+            <volume>561</volume>
+            <fpage>201</fpage>
+            <lpage>205</lpage>
+            <pub-id pub-id-type="pmid">30177826</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0481-8</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6342205</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Killcoyne</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic copy number predicts esophageal cancer years before transformation</article-title>
+            <source>Nat. Med.</source>
+            <year>2020</year>
+            <volume>26</volume>
+            <fpage>1726</fpage>
+            <lpage>1732</lpage>
+            <pub-id pub-id-type="pmid">32895572</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-020-1033-y</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7116403</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Al Bakir</surname>
+                <given-names>I</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>OP38 developing a cost-effective genomic biomarker of cancer risk in patients with ulcerative colitis using low-pass whole genome sequencing of unselected endoscopic biopsies: a case-control study</article-title>
+            <source>J. Crohn’s Colitis</source>
+            <year>2021</year>
+            <volume>15</volume>
+            <fpage>S035</fpage>
+            <lpage>S036</lpage>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Olafsson</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Somatic evolution in non-neoplastic IBD-affected colon</article-title>
+            <source>Cell</source>
+            <year>2020</year>
+            <volume>182</volume>
+            <fpage>672</fpage>
+            <lpage>684.e11</lpage>
+            <pub-id pub-id-type="pmid">32697969</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2020.06.036</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7427325</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Abou-Alfa</surname>
+                <given-names>GK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pemigatinib for previously treated, locally advanced or metastatic cholangiocarcinoma: a multicentre, open-label, phase 2 study</article-title>
+            <source>Lancet Oncol.</source>
+            <year>2020</year>
+            <volume>21</volume>
+            <fpage>671</fpage>
+            <lpage>684</lpage>
+            <pub-id pub-id-type="pmid">32203698</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(20)30109-1</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8461541</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Javle</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Phase II study of BGJ398 in patients with FGFR-altered advanced cholangiocarcinoma</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>276</fpage>
+            <lpage>282</lpage>
+            <pub-id pub-id-type="pmid">29182496</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2017.75.5009</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6075847</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhu</surname>
+                <given-names>AX</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Final overall survival efficacy results of ivosidenib for patients with advanced cholangiocarcinoma with IDH1 mutation: the phase 3 randomized clinical ClarIDHy trial</article-title>
+            <source>JAMA Oncol.</source>
+            <year>2021</year>
+            <volume>7</volume>
+            <fpage>1669</fpage>
+            <lpage>1677</lpage>
+            <pub-id pub-id-type="pmid">34554208</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2021.3836</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8461552</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hsieh</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Hypermethylation of the p16INK4a promoter in colectomy specimens of patients with long-standing and extensive ulcerative colitis</article-title>
+            <source>Cancer Res.</source>
+            <year>1998</year>
+            <volume>58</volume>
+            <fpage>3942</fpage>
+            <lpage>3945</lpage>
+            <pub-id pub-id-type="pmid">9731506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>FY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Aberrant DNA methylation in ulcerative colitis without neoplasia</article-title>
+            <source>Hepatogastroenterology</source>
+            <year>2008</year>
+            <volume>55</volume>
+            <fpage>62</fpage>
+            <lpage>65</lpage>
+            <pub-id pub-id-type="pmid">18507080</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hahn</surname>
+                <given-names>MA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Methylation of polycomb target genes in intestinal cancer is mediated by inflammation</article-title>
+            <source>Cancer Res.</source>
+            <year>2008</year>
+            <volume>68</volume>
+            <fpage>10280</fpage>
+            <lpage>10289</lpage>
+            <pub-id pub-id-type="pmid">19074896</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-08-1957</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2491345</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR47">
+          <label>47.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): a hybridization capture-based next-generation sequencing clinical assay for solid tumor molecular oncology</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR48">
+          <label>48.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sanchez-Vega</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Oncogenic signaling pathways in The Cancer Genome Atlas</article-title>
+            <source>Cell</source>
+            <year>2018</year>
+            <volume>173</volume>
+            <fpage>321</fpage>
+            <lpage>337.e10</lpage>
+            <pub-id pub-id-type="pmid">29625050</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2018.03.035</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6070353</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR49">
+          <label>49.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seshan</surname>
+                <given-names>VE</given-names>
+              </name>
+            </person-group>
+            <article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e131</fpage>
+            <pub-id pub-id-type="pmid">27270079</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkw520</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5027494</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR50">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Franch-Expósito</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>CNApp, a tool for the quantification of copy number alterations and integrative analysis revealing clinical implications</article-title>
+            <source>Elife</source>
+            <year>2020</year>
+            <volume>9</volume>
+            <fpage>e50267</fpage>
+            <pub-id pub-id-type="pmid">31939734</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.50267</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7010409</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR51">
+          <label>51.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stadler</surname>
+                <given-names>ZK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Therapeutic implications of germline testing in patients with advanced cancers</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2021</year>
+            <volume>39</volume>
+            <fpage>2698</fpage>
+            <lpage>2709</lpage>
+            <pub-id pub-id-type="pmid">34133209</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.20.03661</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8376329</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR52">
+          <label>52.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive detection of germline variants by MSK-IMPACT, a clinical diagnostic platform for solid tumor molecular oncology and concurrent cancer predisposition testing</article-title>
+            <source>BMC Med. Genomics</source>
+            <year>2017</year>
+            <volume>10</volume>
+            <fpage>33</fpage>
+            <pub-id pub-id-type="pmid">28526081</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12920-017-0271-4</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5437632</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR53">
+          <label>53.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Richards</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology</article-title>
+            <source>Genet Med.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>405</fpage>
+            <lpage>424</lpage>
+            <pub-id pub-id-type="pmid">25741868</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/gim.2015.30</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4544753</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR54">
+          <label>54.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nguyen</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The genomic landscape of carcinomas with mucinous differentiation</article-title>
+            <source>Sci. Rep.</source>
+            <year>2021</year>
+            <volume>11</volume>
+            <fpage>9478</fpage>
+            <pub-id pub-id-type="pmid">33947930</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-021-89099-2</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8097060</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR55">
+          <label>55.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Konteatis</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Vorasidenib (AG-881): a first-in-class, brain-penetrant dual inhibitor of mutant IDH1 and 2 for treatment of glioma</article-title>
+            <source>ACS Med. Chem. Lett.</source>
+            <year>2020</year>
+            <volume>11</volume>
+            <fpage>101</fpage>
+            <lpage>107</lpage>
+            <pub-id pub-id-type="pmid">32071674</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acsmedchemlett.9b00509</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7025383</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

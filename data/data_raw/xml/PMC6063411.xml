@@ -1,0 +1,1463 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+        <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">440</journal-id>
+        <journal-id journal-id-type="pmc-domain">plosone</journal-id>
+        <journal-id journal-id-type="publisher-id">plos</journal-id>
+        <journal-title-group>
+          <journal-title>PLoS ONE</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">1932-6203</issn>
+        <publisher>
+          <publisher-name>PLOS</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC6063411</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC6063411.1</article-id>
+        <article-id pub-id-type="pmcaid">6063411</article-id>
+        <article-id pub-id-type="pmcaiid">6063411</article-id>
+        <article-id pub-id-type="pmid">30052636</article-id>
+        <article-id pub-id-type="doi">10.1371/journal.pone.0200776</article-id>
+        <article-id pub-id-type="publisher-id">PONE-D-18-06427</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Research Article</subject>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Cancers and Neoplasms</subject>
+                <subj-group>
+                  <subject>Carcinomas</subject>
+                  <subj-group>
+                    <subject>Hepatocellular Carcinoma</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Cancers and Neoplasms</subject>
+                <subj-group>
+                  <subject>Gastrointestinal Tumors</subject>
+                  <subj-group>
+                    <subject>Hepatocellular Carcinoma</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Gastroenterology and Hepatology</subject>
+              <subj-group>
+                <subject>Liver Diseases</subject>
+                <subj-group>
+                  <subject>Hepatocellular Carcinoma</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and life sciences</subject>
+            <subj-group>
+              <subject>Genetics</subject>
+              <subj-group>
+                <subject>Gene expression</subject>
+                <subj-group>
+                  <subject>Gene regulation</subject>
+                  <subj-group>
+                    <subject>MicroRNAs</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and life sciences</subject>
+            <subj-group>
+              <subject>Biochemistry</subject>
+              <subj-group>
+                <subject>Nucleic acids</subject>
+                <subj-group>
+                  <subject>RNA</subject>
+                  <subj-group>
+                    <subject>Non-coding RNA</subject>
+                    <subj-group>
+                      <subject>MicroRNAs</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and Life Sciences</subject>
+            <subj-group>
+              <subject>Computational Biology</subject>
+              <subj-group>
+                <subject>Genome Analysis</subject>
+                <subj-group>
+                  <subject>Sequence Assembly Tools</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and Life Sciences</subject>
+            <subj-group>
+              <subject>Genetics</subject>
+              <subj-group>
+                <subject>Genomics</subject>
+                <subj-group>
+                  <subject>Genome Analysis</subject>
+                  <subj-group>
+                    <subject>Sequence Assembly Tools</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Gastroenterology and Hepatology</subject>
+              <subj-group>
+                <subject>Liver Diseases</subject>
+                <subj-group>
+                  <subject>Cirrhosis</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Oncology</subject>
+              <subj-group>
+                <subject>Cancers and Neoplasms</subject>
+                <subj-group>
+                  <subject>Adenomas</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and life sciences</subject>
+            <subj-group>
+              <subject>Molecular biology</subject>
+              <subj-group>
+                <subject>Molecular biology techniques</subject>
+                <subj-group>
+                  <subject>Sequencing techniques</subject>
+                  <subj-group>
+                    <subject>RNA sequencing</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Research and analysis methods</subject>
+            <subj-group>
+              <subject>Molecular biology techniques</subject>
+              <subj-group>
+                <subject>Sequencing techniques</subject>
+                <subj-group>
+                  <subject>RNA sequencing</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Biology and Life Sciences</subject>
+            <subj-group>
+              <subject>Immunology</subject>
+              <subj-group>
+                <subject>Immune Response</subject>
+                <subj-group>
+                  <subject>Inflammation</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Immunology</subject>
+              <subj-group>
+                <subject>Immune Response</subject>
+                <subj-group>
+                  <subject>Inflammation</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Diagnostic Medicine</subject>
+              <subj-group>
+                <subject>Signs and Symptoms</subject>
+                <subj-group>
+                  <subject>Inflammation</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Pathology and Laboratory Medicine</subject>
+              <subj-group>
+                <subject>Signs and Symptoms</subject>
+                <subj-group>
+                  <subject>Inflammation</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group subj-group-type="Discipline-v3">
+            <subject>Medicine and Health Sciences</subject>
+            <subj-group>
+              <subject>Infectious Diseases</subject>
+              <subj-group>
+                <subject>Viral Diseases</subject>
+                <subj-group>
+                  <subject>Hepatitis</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Characterization of hepatocellular adenoma and carcinoma using microRNA profiling and targeted gene sequencing</article-title>
+          <alt-title alt-title-type="running-head">Molecular changes in HCA and HCC</alt-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3600-0742</contrib-id>
+            <name name-style="western">
+              <surname>Zheng</surname>
+              <given-names initials="J">Jian</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Investigation</role>
+            <role content-type="http://credit.casrai.org/">Methodology</role>
+            <role content-type="http://credit.casrai.org/">Software</role>
+            <role content-type="http://credit.casrai.org/">Visualization</role>
+            <role content-type="http://credit.casrai.org/">Writing – original draft</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Sadot</surname>
+              <given-names initials="E">Eran</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Conceptualization</role>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Investigation</role>
+            <role content-type="http://credit.casrai.org/">Methodology</role>
+            <role content-type="http://credit.casrai.org/">Writing – original draft</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff002">
+              <sup>2</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff003">
+              <sup>3</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vigidal</surname>
+              <given-names initials="JA">Joana A.</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Investigation</role>
+            <role content-type="http://credit.casrai.org/">Methodology</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff004">
+              <sup>4</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff005">
+              <sup>5</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Klimstra</surname>
+              <given-names initials="DS">David S.</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Methodology</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff006">
+              <sup>6</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Balachandran</surname>
+              <given-names initials="VP">Vinod P.</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kingham</surname>
+              <given-names initials="TP">T. Peter</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Allen</surname>
+              <given-names initials="PJ">Peter J.</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>D’Angelica</surname>
+              <given-names initials="MI">Michael I.</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>DeMatteo</surname>
+              <given-names initials="RP">Ronald P.</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jarnagin</surname>
+              <given-names initials="WR">William R.</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Conceptualization</role>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+            <role content-type="http://credit.casrai.org/">Investigation</role>
+            <role content-type="http://credit.casrai.org/">Methodology</role>
+            <role content-type="http://credit.casrai.org/">Project administration</role>
+            <role content-type="http://credit.casrai.org/">Resources</role>
+            <role content-type="http://credit.casrai.org/">Supervision</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff001">
+              <sup>1</sup>
+            </xref>
+            <xref ref-type="corresp" rid="cor001">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ventura</surname>
+              <given-names initials="A">Andrea</given-names>
+            </name>
+            <role content-type="http://credit.casrai.org/">Conceptualization</role>
+            <role content-type="http://credit.casrai.org/">Data curation</role>
+            <role content-type="http://credit.casrai.org/">Formal analysis</role>
+            <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+            <role content-type="http://credit.casrai.org/">Investigation</role>
+            <role content-type="http://credit.casrai.org/">Methodology</role>
+            <role content-type="http://credit.casrai.org/">Project administration</role>
+            <role content-type="http://credit.casrai.org/">Resources</role>
+            <role content-type="http://credit.casrai.org/">Software</role>
+            <role content-type="http://credit.casrai.org/">Supervision</role>
+            <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+            <xref ref-type="aff" rid="aff004">
+              <sup>4</sup>
+            </xref>
+            <xref ref-type="corresp" rid="cor001">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="aff001"><label>1</label>
+<addr-line>Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York, United States of America</addr-line></aff>
+        <aff id="aff002"><label>2</label>
+<addr-line>Department of Surgery, Rabin Medical Center, Petah Tikva, Israel</addr-line></aff>
+        <aff id="aff003"><label>3</label>
+<addr-line>Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel</addr-line></aff>
+        <aff id="aff004"><label>4</label>
+<addr-line>Cancer Biology and Genetics Program, Memorial Sloan Kettering Cancer Center, New York, New York, United States of America</addr-line></aff>
+        <aff id="aff005"><label>5</label>
+<addr-line>Laboratory of Biochemistry and Molecular Biology, National Cancer Institute, Bethesda, Maryland, United States of America</addr-line></aff>
+        <aff id="aff006"><label>6</label>
+<addr-line>Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, New York, United States of America</addr-line></aff>
+        <contrib-group>
+          <contrib contrib-type="editor">
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names initials="YJ">Yu-Jia</given-names>
+            </name>
+            <role>Editor</role>
+            <xref ref-type="aff" rid="edit1"/>
+          </contrib>
+        </contrib-group>
+        <aff id="edit1">
+          <addr-line>Taipei Medical University College of Medicine, TAIWAN</addr-line>
+        </aff>
+        <author-notes>
+          <fn fn-type="COI-statement" id="coi001">
+            <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+          </fn>
+          <corresp id="cor001">* E-mail: <email>jarnagiw@mskcc.org</email> (WRJ); <email>venturaa@mskcc.org</email> (AV)</corresp>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>27</day>
+          <month>7</month>
+          <year>2018</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2018</year>
+        </pub-date>
+        <volume>13</volume>
+        <issue>7</issue>
+        <issue-id pub-id-type="pmc-issue-id">316221</issue-id>
+        <elocation-id>e0200776</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>28</day>
+            <month>2</month>
+            <year>2018</year>
+          </date>
+          <date date-type="accepted">
+            <day>3</day>
+            <month>7</month>
+            <year>2018</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>27</day>
+              <month>07</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>09</day>
+              <month>08</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2018-08-10 00:03:25.260">
+              <day>10</day>
+              <month>08</month>
+              <year>2018</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© 2018 Zheng et al</copyright-statement>
+          <copyright-year>2018</copyright-year>
+          <copyright-holder>Zheng et al</copyright-holder>
+          <license xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+            <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="pone.0200776.pdf"/>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="pone.0200776.pdf"/>
+        <abstract>
+          <sec id="sec001">
+            <title>Background</title>
+            <p>Hepatocellular adenomas (HCA) are benign liver tumors that may transform into hepatocellular carcinoma (HCC), but the molecular drivers of this transformation remain ill-defined. This study evaluates the molecular changes in HCA and HCC and in comparison to their adjacent non-neoplastic liver.</p>
+          </sec>
+          <sec id="sec002">
+            <title>Methods</title>
+            <p>11 patients with HCA and 10 patients with HCC without underlying hepatitis or cirrhosis were included in this pilot study. Tumor and non-tumor liver tissues were selected for immunohistochemical staining, small RNA sequencing, and targeted gene sequencing. We compared microRNA expressions and mutations between HCA and HCC and non-neoplastic liver.</p>
+          </sec>
+          <sec id="sec003">
+            <title>Results</title>
+            <p>HCA were classified as inflammatory (n = 6), steatotic (n = 4), or β-catenin activated (n = 1) subtypes. MicroRNA profile of all 3 HCA subtypes clustered between that of normal liver and HCC in principal component analysis. In both HCA and HCC, miR-200a, miR-429, and miR-490-3p were significantly downregulated compared to normal liver, whereas miR-452, miR-766, and miR-1180 were significantly upregulated. In addition, compared to HCA, HCC had significantly higher expression of members of the chromosome 19 miRNA cluster (C19MC), including miR-515-5p, miR-517a, miR-518b, and miR-520c-3p.</p>
+          </sec>
+          <sec id="sec004">
+            <title>Conclusions</title>
+            <p>This study indicates that while there are significant differences in the molecular profile between HCA and HCC, several miRNAs are similarly deregulated in HCA and HCC compared to adjacent normal liver. These results may provide insights into the drivers of hepatocarcinogenesis and warrant further investigations.</p>
+          </sec>
+        </abstract>
+        <funding-group>
+          <award-group id="award001">
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000054</institution-id>
+                <institution>National Cancer Institute</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>NIH/NCI P30 CA008748 (Cancer Center Support Grant)</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Jarnagin</surname>
+                <given-names>William R.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <funding-statement>This work was supported in part by NIH/NCI P30 CA008748 Cancer Center Support Grant to WRJ, and there was no additional external funding received for this study. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+        </funding-group>
+        <counts>
+          <fig-count count="3"/>
+          <table-count count="3"/>
+          <page-count count="15"/>
+        </counts>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta id="data-availability">
+            <meta-name>Data Availability</meta-name>
+            <meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+      <notes>
+        <title>Data Availability</title>
+        <p>All relevant data are within the paper and its Supporting Information files.</p>
+      </notes>
+    </front>
+    <body>
+      <sec sec-type="intro" id="sec005">
+        <title>Introduction</title>
+        <p>Hepatocellular adenomas (HCA) are rare, benign tumors from proliferation of hepatocytes in an otherwise normal-appearing liver, whereas hepatocellular carcinomas (HCC) are common, malignant tumors that frequently develop in a cirrhotic background [<xref rid="pone.0200776.ref001" ref-type="bibr">1</xref>–<xref rid="pone.0200776.ref003" ref-type="bibr">3</xref>]. HCA may transform into HCC, but the natural history of this progression is not well defined. In patients with underlying liver parenchymal disease, “carcinogenic field effect” has been proposed to explain the development of HCC [<xref rid="pone.0200776.ref001" ref-type="bibr">1</xref>, <xref rid="pone.0200776.ref004" ref-type="bibr">4</xref>]. This field effect is typically associated with conditions that result in diffuse parenchymal involvement, such as hepatitis B and C infection, chronic alcohol abuse, and nonalcoholic steatohepatitis [<xref rid="pone.0200776.ref004" ref-type="bibr">4</xref>, <xref rid="pone.0200776.ref005" ref-type="bibr">5</xref>].</p>
+        <p>In an attempt to better understand the drivers of transformation of HCA to HCC, we sought to explore unique molecular events in the adenoma-carcinoma sequence. To do so, we selected a group of HCA patients as well as patients with HCC but without hepatitis or cirrhosis, thereby excluding the “carcinogenic field-effect”-associated molecular alterations that may not be directly related to the adenoma-carcinoma sequence. However, despite the absence of background liver disease, it has been suggested that approximately 5 to 10% of pre-existing HCA may transform into HCC [<xref rid="pone.0200776.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0200776.ref007" ref-type="bibr">7</xref>]. HCA can also be difficult to be distinguished from well-differentiated HCC, and thus it is important to characterize these tumors molecularly as their prognosis and treatments are very different [<xref rid="pone.0200776.ref008" ref-type="bibr">8</xref>, <xref rid="pone.0200776.ref009" ref-type="bibr">9</xref>].</p>
+        <p>There are 3 major molecular classifications of HCA: (a) β-catenin (CTNNB1)-activated HCA (B-HCA), (b) hepatocyte nuclear factor 1 α (HNF1α)-inactivated or steatotic HCA (H-HCA), and (c) inflammatory HCA (I-HCA) [<xref rid="pone.0200776.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0200776.ref008" ref-type="bibr">8</xref>, <xref rid="pone.0200776.ref009" ref-type="bibr">9</xref>]. About 10–15% of HCA are B-HCA, 35–50% are H-HCA, 40–55% are I-HCA, while about remaining 10% of HCAs are currently unclassified [<xref rid="pone.0200776.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0200776.ref008" ref-type="bibr">8</xref>, <xref rid="pone.0200776.ref009" ref-type="bibr">9</xref>]. B-HCAs are known to harbor the highest risk of malignant transformation, whereas I-HCA and H-HCA reported to have a lower risk of malignancy [<xref rid="pone.0200776.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0200776.ref009" ref-type="bibr">9</xref>, <xref rid="pone.0200776.ref010" ref-type="bibr">10</xref>]. Ten percent of I-HCA may also have β-catenin-activation and all 3 subtypes of HCA may also co-occur in the same patient, albeit rarely[<xref rid="pone.0200776.ref011" ref-type="bibr">11</xref>]. A recent whole-exome sequencing study suggested β-catenin mutation as in B-HCA and some HCC as an early alteration, while TERT promoter mutations appear to be associated with the later steps of the progression from adenoma to carcinoma[<xref rid="pone.0200776.ref012" ref-type="bibr">12</xref>]. Among HCC, TERT promoter mutations are frequent in early stage HCC, whereas TP53 mutations appear at a later stage [<xref rid="pone.0200776.ref013" ref-type="bibr">13</xref>, <xref rid="pone.0200776.ref014" ref-type="bibr">14</xref>].</p>
+        <p>In addition to studying somatic mutations in HCA and HCC through targeted gene sequencing, we also explored changes in microRNA (miRNA) expression. MicroRNAs are short (~21 nucleotide-long) noncoding RNAs that repress the expression of target genes by binding to 3’ untranslated region (3’UTR) of their transcripts and inducing their degradation and/or inhibiting their translation [<xref rid="pone.0200776.ref015" ref-type="bibr">15</xref>]. Because of their ability to modulate the expression of hundreds of genes, miRNAs control a multitude of biological processes and are key players in cancer pathogenesis. Although many studies have examined the expression of miRNAs in HCC, demonstrating for example increased expression of miR-21 and miR-34a and decreased expression of miR-29 and miR-122 [<xref rid="pone.0200776.ref016" ref-type="bibr">16</xref>–<xref rid="pone.0200776.ref018" ref-type="bibr">18</xref>], little is known regarding miRNA dysregulation in HCA [<xref rid="pone.0200776.ref019" ref-type="bibr">19</xref>].</p>
+        <p>This study compares miRNA and genetic alterations between HCA and HCC, as well as their adjacent non-neoplastic liver, in patients without underlying hepatitis or cirrhosis.</p>
+      </sec>
+      <sec sec-type="materials|methods" id="sec006">
+        <title>Material and methods</title>
+        <sec id="sec007">
+          <title>Patient and sample selection</title>
+          <p>Patient data and specimens were collected with approval of the Memorial Sloan Kettering Cancer Center (MSKCC) Institutional Review Board (protocol HBS2013103). All patients had previously provided written consent to an institutional tissue procurement protocol for research. Eleven patients with HCA and 10 patients with HCC who underwent resection between 1999 and 2013 were included in this pilot study. None of the 21 patients had viral hepatitis, prior liver-directed therapy, or any evidence of cirrhosis. None of the HCC had fibrolamellar variant. Clinical and pathological information was collected through retrospective review of the medical records.</p>
+          <p>Tumors were micro-dissected to isolate the area of interest before storage. All tissue samples were stored both as formalin-fixed paraffin-embedded (FFPE) blocks and snap-frozen in liquid nitrogen and stored at -80°C [<xref rid="pone.0200776.ref020" ref-type="bibr">20</xref>]. Representative histologic slides were re-reviewed by a hepatobiliary pathologist (D.S.K.) blinded to clinical and genomic data to confirm the diagnosis and to identify areas of ≥ 90% tumor cells and adjacent normal hepatocytes.</p>
+        </sec>
+        <sec id="sec008">
+          <title>Immunohistochemistry</title>
+          <p>Representative formalin-fixed paraffin-embedded (FFPE) blocks were obtained for each patient and immunohistochemical studies were performed on 4-μm sections according to standard protocols. HCA samples were immunostained with the following antibodies: β-catenin (CTNNB1; BD Transduction Laboratories), liver fatty acid binding protein (LFABP; Abcam # ab7807), serum amyloid A (SAA; Dako Corp., clone mc1), C reactive protein (CRP; Millipore), and glutamine synthetase (GS; BD Transduction Laboratories, clone 6). HCA with aberrant nuclear β-catenin expression were identified as β-catenin HCA (B-HCA), whereas HCA with loss of LFABP expression were considered as steatotic HCA (H-HCA), and HCA with expression of SAA and/or CRP were classified as inflammatory HCA (I-HCA) [<xref rid="pone.0200776.ref021" ref-type="bibr">21</xref>]. Importantly, none of the samples that stained positive for glutamine synthetase displayed a distinct “map-like” pattern without inflammatory markers, which would suggest a diagnosis of focal nodular hyperplasia, a different benign liver tumor, rather than HCA [<xref rid="pone.0200776.ref022" ref-type="bibr">22</xref>].</p>
+        </sec>
+        <sec id="sec009">
+          <title>Small RNA sequencing</title>
+          <p>Frozen tissue was homogenized in Trizol (Ambion) and total RNA extracted according to manufacturers’ instructions. High quality total RNA (1ug) was processed using the Truseq Small RNA Sample Preparation kit (Illumina). The 3’ and 5’ modified adapters were ligated specifically onto small RNAs and amplified for 14 cycles of PCR after reverse transcription. Barcodes were also introduced during the PCR steps. After size selection, the libraries were pooled and loaded onto a Hiseq (Illumina) sequencer for an SR50 run, using the TruSeq SBS Kit v3 (Illumina). An average of 11.5 million reads per sample were generated. To measure miRNA expression levels, a custom genome file of all microRNA sequences from miRBASE with the technology-specific adapter sequences was created as previously described [<xref rid="pone.0200776.ref023" ref-type="bibr">23</xref>]. The sequenced reads from both tumors and adjacent liver tissues were then mapped to this database using BWA (Burrows-Wheeler Alignment). The resulting SAM files were processed to evaluate full-length hits and the total number of sequences that mapped to each microRNA-adapter hybrid in the genome was determined. The miRNA count data was then transformed to log2 scale and then scaled using quantile-normalization for statistical analysis.</p>
+        </sec>
+        <sec id="sec010">
+          <title>IMPACT assay</title>
+          <p>Genomic DNA from tumors and adjacent normal liver tissue was extracted using phenol/chloroform and subjected to analysis by a next-generation sequencing platform. Our institutional MSK-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT) assay was designed for targeted sequencing of all exons and selected introns of 341 oncogenes, tumor suppressor genes, and other potentially actionable targets [<xref rid="pone.0200776.ref024" ref-type="bibr">24</xref>–<xref rid="pone.0200776.ref026" ref-type="bibr">26</xref>]. IMPACT analysis was performed on liver tumors and matched normal liver tissues of 9 HCA patients and 10 HCC patients whose tissues had met quality standards (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/study?id=hcc_msk_venturaa_2018#summary">http://www.cbioportal.org/study?id=hcc_msk_venturaa_2018#summary</ext-link>). HCA1 and HCA9 did not have IMPACT analysis. DNA from tumor and matched normal liver samples were subjected to sequence library preparation (Kapa Biosystems) and exon capture (NimbleGen). Barcoded sequence libraries were pooled at equimolar concentrations and input into a single exon capture reaction, as previously described[<xref rid="pone.0200776.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0200776.ref027" ref-type="bibr">27</xref>]. Pooled libraries containing captured DNA fragments were subsequently sequenced on the Illumina HiSeq 2500 system as 2x100bp paired-end reads. On average, 14 million reads were generated per sample, and the average coverage was greater than 600x, with more than 98.9% of the target covered at 30x. Sequence data were demultiplexed using BCL2FASTQv1.8.3 (Illumina), and vestigial adapter sequences were removed from the 3’ end of sequence reads. Reads were aligned in paired-end mode to the hg19 b37 version of the genome using BWA-MEM. Local realignment and quality score recalibration were performed using Genome Analysis Toolkit (GATK) according to GATK best practices[<xref rid="pone.0200776.ref028" ref-type="bibr">28</xref>]. Samples were subjected to a series of computational quality control steps to ensure genomic concordance between tumor and normal liver specimens from the same patient.</p>
+        </sec>
+        <sec id="sec011">
+          <title>Statistical analysis</title>
+          <p>Continuous and categorical variables were compared using Mann-Whitney U and Fisher’s exact tests, respectively. Unsupervised clustering of normalized miRNA levels was performed using classical multidimensional scale (cmdscale) function. Differential analysis of miRNA expression levels was performed using the limma package [<xref rid="pone.0200776.ref029" ref-type="bibr">29</xref>]. MiRNA levels with fold changes of ≥ 1 (or ≤ -1) and p-values adjusted for false discovery rate (FDR) of ≤ 0.05 were considered significant. The log2(fold change)|&gt;1|is a widely used threshold used to restrict the analysis to miRNA that are at least two fold up or down regulated to identify meaningful and functionally relevant differences in miRNA expressions. FDR-adjusted p-values were calculated using the Benjamini and Hochberg procedure for multiple testing corrections. Heatmaps were generated using the ‘heatmap’ function, where samples and genes were clustered by the hclust function that uses Euclidian distance. Statistical analysis and data visualization were performed using R software V2.15.0 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>) and Bioconductor packages.</p>
+        </sec>
+      </sec>
+      <sec sec-type="results" id="sec012">
+        <title>Results</title>
+        <sec id="sec013">
+          <title>Clinicopathological characteristics and immunohistochemistry</title>
+          <p>Eleven patients with HCA were included. Their median age was 40 years (range 24–56), 91% were female, and 64% had a history of oral contraceptive use (<bold><xref rid="pone.0200776.t001" ref-type="table">Table 1</xref></bold>). The HCC cohort included 10 patients with a median age of 73 years (range 63–81) and 40% were female. All patients developed HCA and HCC without viral hepatitis or cirrhosis.</p>
+          <table-wrap id="pone.0200776.t001" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0200776.t001</object-id>
+            <label>Table 1</label>
+            <caption>
+              <title>Clinical and pathological characteristics of the HCA and HCC cohorts.</title>
+            </caption>
+            <alternatives>
+              <graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pone.0200776.t001g" position="float" orientation="portrait" xlink:href="pone.0200776.t001.jpg"/>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1"/>
+                    <th align="center" rowspan="1" colspan="1">HCA<break/>(n = 11)</th>
+                    <th align="center" rowspan="1" colspan="1">HCC<break/>(n = 10)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" colspan="3" rowspan="1">
+                      <bold>Clinical characteristics</bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Age</td>
+                    <td align="center" rowspan="1" colspan="1">40 (24–56)</td>
+                    <td align="center" rowspan="1" colspan="1">73 (63–81)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Female</td>
+                    <td align="center" rowspan="1" colspan="1">10 (91%)</td>
+                    <td align="center" rowspan="1" colspan="1">4 (40%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Oral contraceptives use</td>
+                    <td align="center" rowspan="1" colspan="1">7 (64%)</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Body mass index, kg/m<sup>2</sup></td>
+                    <td align="center" rowspan="1" colspan="1">26 (22–36)</td>
+                    <td align="center" rowspan="1" colspan="1">29 (22–33)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Metabolic syndrome</td>
+                    <td align="center" rowspan="1" colspan="1">4 (36%)</td>
+                    <td align="center" rowspan="1" colspan="1">6 (60%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Viral hepatitis</td>
+                    <td align="center" rowspan="1" colspan="1">0 (0%)</td>
+                    <td align="center" rowspan="1" colspan="1">0 (0%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Child-Pugh score</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">5 (5–5)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">MELD score</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">9 (6–12)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">AFP, ng/ml</td>
+                    <td align="center" rowspan="1" colspan="1">2 (1.3–6.3)</td>
+                    <td align="center" rowspan="1" colspan="1">15 (1.9–92881)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" colspan="3" rowspan="1">
+                      <bold>Pathological characteristics</bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Multiple nodules or satellites</td>
+                    <td align="center" rowspan="1" colspan="1">5 (45%)</td>
+                    <td align="center" rowspan="1" colspan="1">2 (20%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Largest tumor size, cm</td>
+                    <td align="center" rowspan="1" colspan="1">5.35 (2.4–11.5)</td>
+                    <td align="center" rowspan="1" colspan="1">9.2 (3.2–17)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Differentiation</td>
+                    <td align="center" rowspan="1" colspan="1"/>
+                    <td align="center" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">    -    Well</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">(10%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">    -    Moderate</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">(80%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">    -    Poor</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">1 (10%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Microvascular invasion</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">5 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Liver fibrosis</td>
+                    <td align="center" rowspan="1" colspan="1">1 (9%)</td>
+                    <td align="center" rowspan="1" colspan="1">4 (40%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">    Cirrhosis</td>
+                    <td align="center" rowspan="1" colspan="1">0 (0%)</td>
+                    <td align="center" rowspan="1" colspan="1">0 (0%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Liver steatosis</td>
+                    <td align="center" rowspan="1" colspan="1">3 (27%)</td>
+                    <td align="center" rowspan="1" colspan="1">3 (30%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Microscopic negative margin</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">10 (100%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Extracapsular extension</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                    <td align="center" rowspan="1" colspan="1">1 (10%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">HCA subtypes</td>
+                    <td align="center" rowspan="1" colspan="1"/>
+                    <td align="center" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">    -    Inflammatory HCA</td>
+                    <td align="center" rowspan="1" colspan="1">(54%)</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">    -    Steatotic HCA</td>
+                    <td align="center" rowspan="1" colspan="1">(37%)</td>
+                    <td align="center" rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">    -    β-catenin HCA</td>
+                    <td align="center" rowspan="1" colspan="1">1 (9%)</td>
+                    <td align="center" rowspan="1" colspan="1">0 (0%)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </alternatives>
+            <table-wrap-foot>
+              <fn id="t001fn001">
+                <p>HCA, hepatocellular adenoma; HCC, hepatocellular carcinoma; MELD, Model for End-Stage Liver Disease; AFP, alpha-fetoprotein. Categorical variables are expressed as frequency (%). Continuous variables are expressed as median (range).</p>
+              </fn>
+            </table-wrap-foot>
+          </table-wrap>
+          <p>To further classify HCA into known subtypes, we performed immunohistochemical and mutational analysis to established molecular markers as previously described [<xref rid="pone.0200776.ref008" ref-type="bibr">8</xref>, <xref rid="pone.0200776.ref009" ref-type="bibr">9</xref>, <xref rid="pone.0200776.ref021" ref-type="bibr">21</xref>]. Based on these studies, we identified the following HCA subgroups: I-HCA (n = 6, 54%), H-HCA (n = 4, 37%), and B-HCA (n = 1, 9%) <bold>(<xref rid="pone.0200776.t002" ref-type="table">Table 2</xref>)</bold>. Specifically, tumors showing expression of inflammatory proteins such as SAA and/or CRP were classified as I-HCA (<bold><xref ref-type="supplementary-material" rid="pone.0200776.s001">S1 Fig</xref></bold>) [<xref rid="pone.0200776.ref021" ref-type="bibr">21</xref>]. Tumors with loss of LFABP expression and HNF1α-mutations were classified as H-HCA [<xref rid="pone.0200776.ref021" ref-type="bibr">21</xref>]. Tumors with aberrant nuclear β-catenin expression and CTNNB1 mutations were classified as B-HCA [<xref rid="pone.0200776.ref021" ref-type="bibr">21</xref>]. HCC samples were stained only for β-catenin and none of them displayed abnormal nuclear β-catenin localization. Of note, 3 I-HCA and 3 HCC were resected from patients who had mild to moderate steatosis in their adjacent liver, but none had steatohepatitis or cirrhosis, which would have attributed to the “carcinogenic field defect” causing development of HCC.</p>
+          <table-wrap id="pone.0200776.t002" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0200776.t002</object-id>
+            <label>Table 2</label>
+            <caption>
+              <title>HCA were classified based on immunohistochemical staining with support of mutations.</title>
+            </caption>
+            <alternatives>
+              <graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pone.0200776.t002g" position="float" orientation="portrait" xlink:href="pone.0200776.t002.jpg"/>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1">ID</th>
+                    <th align="center" rowspan="1" colspan="1">HCA Type</th>
+                    <th align="center" rowspan="1" colspan="1">CRP</th>
+                    <th align="center" rowspan="1" colspan="1">SAA</th>
+                    <th align="center" rowspan="1" colspan="1">LFABP</th>
+                    <th align="center" rowspan="1" colspan="1">β-catenin</th>
+                    <th align="center" rowspan="1" colspan="1">GS</th>
+                    <th align="center" rowspan="1" colspan="1">Mutations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA1</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">I-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Not performed</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA2</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">H-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">HNF1α</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA3</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">I-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">GNAS</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA4</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">I-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">FAT1, HGF</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA5</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">I-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">PIK3CA, MLL2</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA6</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">I-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">None</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA7</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">H-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">HNF1α</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA8</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">H-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">HNF1α</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA9</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">H-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Not performed</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA10</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">I-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">Neg</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">None</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>HCA11</bold>
+                    </td>
+                    <td align="center" rowspan="1" colspan="1">B-HCA</td>
+                    <td align="center" rowspan="1" colspan="1">NP</td>
+                    <td align="center" rowspan="1" colspan="1">NP</td>
+                    <td align="center" rowspan="1" colspan="1">NP</td>
+                    <td align="center" rowspan="1" colspan="1">Pos</td>
+                    <td align="center" rowspan="1" colspan="1">NP</td>
+                    <td align="center" rowspan="1" colspan="1">CTNNB1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </alternatives>
+            <table-wrap-foot>
+              <fn id="t002fn001">
+                <p>HCA, hepatocellular adenoma; I-HCA, inflammatory HCA; H-HCA, steatotic HCA; B-HCA, β-catenin activated HCA; CRP, C-reactive protein; SAA, serum amyloid A; LFABP, liver fatty acid binding protein; GS, glutamine synthetase; Pos, positive; Neg, negative</p>
+              </fn>
+            </table-wrap-foot>
+          </table-wrap>
+        </sec>
+        <sec id="sec014">
+          <title>Mutational status of HCA and HCC</title>
+          <p>Analysis of IMPACT assay identified 7 different mutations among HCA tumors and 41 different mutations among HCC tumors. The assay revealed that the most frequently mutated gene in our HCA cohort was HNF1α (3/9, as 2 HCA patients did not have IMPACT analysis). HCA with HNF1α mutation, all of which belonged to the H-HCA subtype, stained negative for LFABP. A single HCA found to have a mutation in CTNNB1 and displayed abnormal β-catenin nuclear staining, was classified as B-HCA. In addition, we identified individual HCAs with mutations in GNAS, FAT1, HGF, PIK3CA, and MLL2 (<bold><xref rid="pone.0200776.t002" ref-type="table">Table 2</xref></bold>). Within the HCC cohort, the most common mutations were found in TERT (7/10), followed by TP53 (3/10), CTNNB1 (2/10), and APC (2/10). Several additional mutations were also identified in single tumors (<bold><xref ref-type="supplementary-material" rid="pone.0200776.s003">S1 Table</xref></bold>).</p>
+        </sec>
+        <sec id="sec015">
+          <title>Profiling of miRNAs in HCA and HCC</title>
+          <p>MiRNA profile was compared between 10 patients with HCA and 10 patients with HCC, as one of the patients with HCA (HCA7 with H-HCA) did not have adequate tumor for miRNA sequencing. Unsupervised clustering of the miRNA profiles stratified by HCA and HCC and their normal liver using classical multidimensional scaling showed HCA samples clustering between HCC and normal liver in a low-dimensional space (<bold><xref ref-type="supplementary-material" rid="pone.0200776.s002">S2 Fig</xref></bold>). Supervised clustering led to identification of 90 miRNAs that were differentially expressed between HCC and normal liver and between HCA and normal liver (<bold><xref ref-type="fig" rid="pone.0200776.g001">Fig 1</xref></bold>).</p>
+          <fig id="pone.0200776.g001" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0200776.g001</object-id>
+            <label>Fig 1</label>
+            <caption>
+              <title>Supervised clustering showing 90 differentially expressed microRNAs between HCC and normal liver and between HCA and normal liver tumors.</title>
+              <p>Data are median centered (white), with the lowest and highest intensity values in blue and red, respectively.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0200776.g001.jpg"/>
+          </fig>
+          <p>A total of 86 miRNAs were significantly dysregulated in HCC compared to adjacent normal liver (unpaired analysis; adjusted p ≤ 0.05) <bold>(<xref ref-type="supplementary-material" rid="pone.0200776.s004">S2 Table</xref>)</bold>. Compared to HCCs, HCA samples displayed a miRNA profile that was more similar to that of adjacent normal liver, with only 10 miRNAs showing significantly different expressions (unpaired analysis; adjusted p ≤ 0.05) (<bold><xref ref-type="supplementary-material" rid="pone.0200776.s005">S3 Table</xref></bold>). Nevertheless, both HCC and HCA had significantly lower expression of miR-200a, miR-429, and miR-490-3p compared to normal liver, and had significantly higher expression of miR-452, miR-766, and miR-1180 (<bold><xref ref-type="fig" rid="pone.0200776.g002">Fig 2</xref>, <xref rid="pone.0200776.t003" ref-type="table">Table 3</xref></bold>).</p>
+          <fig id="pone.0200776.g002" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0200776.g002</object-id>
+            <label>Fig 2</label>
+            <caption>
+              <title>Differential expressions of miRNAs in both HCC and HCA compared to their normal liver.</title>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0200776.g002.jpg"/>
+          </fig>
+          <table-wrap id="pone.0200776.t003" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0200776.t003</object-id>
+            <label>Table 3</label>
+            <caption>
+              <title>Differential expressions of miRNAs in both HCC and HCA compared to their normal liver.</title>
+            </caption>
+            <alternatives>
+              <graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pone.0200776.t003g" position="float" orientation="portrait" xlink:href="pone.0200776.t003.jpg"/>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1"><break/>MiRNAs</th>
+                    <th align="left" rowspan="1" colspan="1">Tumor vs normal liver</th>
+                    <th align="center" rowspan="1" colspan="1">Tumor<break/>mean expression</th>
+                    <th align="center" rowspan="1" colspan="1">Normal liver mean expression</th>
+                    <th align="center" rowspan="1" colspan="1">Log fold change</th>
+                    <th align="center" rowspan="1" colspan="1">Adjusted<break/>p-value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="2" colspan="1">hsa-miR-200a<break/></td>
+                    <td align="left" rowspan="1" colspan="1">HCC (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">3.437</td>
+                    <td align="center" rowspan="1" colspan="1">5.896</td>
+                    <td align="center" rowspan="1" colspan="1">-2.460</td>
+                    <td align="center" rowspan="1" colspan="1">0.020</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">HCA (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">2.985</td>
+                    <td align="center" rowspan="1" colspan="1">5.799</td>
+                    <td align="center" rowspan="1" colspan="1">-2.815</td>
+                    <td align="center" rowspan="1" colspan="1">0.035</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="2" colspan="1">hsa-miR-429</td>
+                    <td align="left" rowspan="1" colspan="1">HCC (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">4.382</td>
+                    <td align="center" rowspan="1" colspan="1">6.617</td>
+                    <td align="center" rowspan="1" colspan="1">-2.236</td>
+                    <td align="center" rowspan="1" colspan="1">0.014</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">HCA (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">3.134</td>
+                    <td align="center" rowspan="1" colspan="1">6.163</td>
+                    <td align="center" rowspan="1" colspan="1">-3.030</td>
+                    <td align="center" rowspan="1" colspan="1">0.003</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="2" colspan="1">hsa-miR-490-3p</td>
+                    <td align="left" rowspan="1" colspan="1">HCC (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">-0.226</td>
+                    <td align="center" rowspan="1" colspan="1">3.753</td>
+                    <td align="center" rowspan="1" colspan="1">-3.979</td>
+                    <td align="center" rowspan="1" colspan="1">0.000</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">HCA (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">0.091</td>
+                    <td align="center" rowspan="1" colspan="1">2.923</td>
+                    <td align="center" rowspan="1" colspan="1">-2.832</td>
+                    <td align="center" rowspan="1" colspan="1">0.001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="2" colspan="1">hsa-miR-452</td>
+                    <td align="left" rowspan="1" colspan="1">HCC (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">6.722</td>
+                    <td align="center" rowspan="1" colspan="1">4.638</td>
+                    <td align="center" rowspan="1" colspan="1">2.084</td>
+                    <td align="center" rowspan="1" colspan="1">0.009</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">HCA (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">5.748</td>
+                    <td align="center" rowspan="1" colspan="1">3.496</td>
+                    <td align="center" rowspan="1" colspan="1">2.251</td>
+                    <td align="center" rowspan="1" colspan="1">0.018</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="2" colspan="1">hsa-miR-766</td>
+                    <td align="left" rowspan="1" colspan="1">HCC (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">5.777</td>
+                    <td align="center" rowspan="1" colspan="1">4.413</td>
+                    <td align="center" rowspan="1" colspan="1">1.364</td>
+                    <td align="center" rowspan="1" colspan="1">0.001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">HCA (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">5.047</td>
+                    <td align="center" rowspan="1" colspan="1">3.974</td>
+                    <td align="center" rowspan="1" colspan="1">1.072</td>
+                    <td align="center" rowspan="1" colspan="1">0.030</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="2" colspan="1">hsa-miR-1180</td>
+                    <td align="left" rowspan="1" colspan="1">HCC (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">5.849</td>
+                    <td align="center" rowspan="1" colspan="1">4.263</td>
+                    <td align="center" rowspan="1" colspan="1">1.586</td>
+                    <td align="center" rowspan="1" colspan="1">0.008</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">HCA (n = 10)</td>
+                    <td align="center" rowspan="1" colspan="1">5.359</td>
+                    <td align="center" rowspan="1" colspan="1">3.843</td>
+                    <td align="center" rowspan="1" colspan="1">1.516</td>
+                    <td align="center" rowspan="1" colspan="1">0.038</td>
+                  </tr>
+                </tbody>
+              </table>
+            </alternatives>
+            <table-wrap-foot>
+              <fn id="t003fn001">
+                <p>HCA, hepatocellular adenoma; HCC, hepatocellular carcinoma</p>
+              </fn>
+            </table-wrap-foot>
+          </table-wrap>
+          <p>HCA were significantly different from HCC in the expression of 57 miRNAs (unpaired analysis; adjusted p ≤ 0.05) (<bold><xref ref-type="supplementary-material" rid="pone.0200776.s006">S4 Table</xref></bold>). Notably, selected components of the chromosome 19 miRNA cluster (C19MC), including miR-515-5p, miR-517a, miR-518b, and miR-520c-3p, were amongst the top miRNAs differentially expressed between HCC and HCA or adjacent liver samples, with levels 3 to 4 folds higher in HCC samples (<bold><xref ref-type="fig" rid="pone.0200776.g003">Fig 3A–3D</xref></bold>).</p>
+          <fig id="pone.0200776.g003" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0200776.g003</object-id>
+            <label>Fig 3</label>
+            <caption>
+              <p>HCC had significantly higher mean expression of chromosome 19 miRNA cluster than HCA and normal liver adjacent to HCA in (A) miR-518b, (B) miR-520c-3p, (C) miR-515-5p, and (D) miR-517a. Horizontal bars represent mean value +/- standard deviation.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0200776.g003.jpg"/>
+          </fig>
+        </sec>
+      </sec>
+      <sec sec-type="conclusions" id="sec016">
+        <title>Discussion</title>
+        <p>Although the majority of patients with HCA do not harbor malignancy, some patients will develop HCC not related to underlying liver disease [<xref rid="pone.0200776.ref006" ref-type="bibr">6</xref>]. Male gender, large tumor size, and B-HCA subtype have been associated with higher risk of transformation, but details of the underlying molecular events remain to be elucidated [<xref rid="pone.0200776.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0200776.ref030" ref-type="bibr">30</xref>]. None of 11 patients with HCA in this study had malignant transformation; however, the time frame for malignant change is unclear, and the question remains if transformation would have occurred with a longer follow up. The results of the present study suggest that this could be the case, given the overlap of the molecular changes between HCA and HCC that may explain progression in the hepatocellular adenoma-carcinoma sequence.</p>
+        <p>In this study, the most common mutations found among HCC were TERT (7/10), followed by TP53 (3/10), and CTNNB1 (2/10), which were consistent with prior report [<xref rid="pone.0200776.ref031" ref-type="bibr">31</xref>]. TERT promoter regulates telomere length and affects cellular division, whereas CTNNB1 is part of the adherens junctions that anchors actin cytoskeleton important for contact inhibition, and TP53 is a tumor suppressor that induces apoptosis [<xref rid="pone.0200776.ref031" ref-type="bibr">31</xref>]. CTNNB1 mutation was previously suggested as an early step in the oncogenesis and TERT promoter mutation as a later step in the transformation of HCA to HCC [<xref rid="pone.0200776.ref012" ref-type="bibr">12</xref>]. Our study supports these findings in that none of the patient with HCA harbored TERT mutation, whereas both HCC patients with CTNNB1 mutations also had TERT mutations. While HCA with β-catenin activated mutations (B-HCA) have shown to carry an increased risk of malignant transformation, B-HCA in this study did not reveal more similar miRNA profile to HCC than other HCA subtypes but there was only one B-HCA sample. It has been difficult to increase B-HCA sample size for this study because resection for HCA is very rare. Given the limitations of small sample size, all HCA tumors were pooled together as a group and were compared with HCC and their adjacent liver tissue instead of analysis by each of the 3 HCA subtypes. HCA tumors as a group and HCC tumors had significantly lower expression of miR-200a, miR-429, and miR-490-3p, and higher levels of miR-452, miR-766, and miR-1180, compared to their normal liver counterparts.</p>
+        <p>A role for the miR-200 family, including miR-200a and miR-429, in controlling epithelial mesenchymal transition (EMT) and metastasis is well established, including in the context of HCC [<xref rid="pone.0200776.ref032" ref-type="bibr">32</xref>, <xref rid="pone.0200776.ref033" ref-type="bibr">33</xref>]. A prior study found decreased miR-200a level in the poorly differentiated HCC cell lines compared to well differentiated cell lines, and also showed that overexpression of this miRNA was sufficient to impair cell migration and impede EMT [<xref rid="pone.0200776.ref032" ref-type="bibr">32</xref>]. Another study found that miR-429 was downregulated in patients with HCC, also inhibited cell mobility by suppressing RhoA and ROCK2 mediated cytoskeletal reorganization and hindered lung metastasis in a mice model [<xref rid="pone.0200776.ref033" ref-type="bibr">33</xref>].</p>
+        <p>In this study, we found decreased expression of miR-490-3p in HCC and HCA compared to normal liver, which is consistent with the finding of one report but at odds with another [<xref rid="pone.0200776.ref034" ref-type="bibr">34</xref>, <xref rid="pone.0200776.ref035" ref-type="bibr">35</xref>]. This inconsistency warrants further studies, although there is substantial evidence supporting a tumor suppressive role of miR-490-3p in other cancers, including lung, gastric, breast, and ovarian cancers [<xref rid="pone.0200776.ref036" ref-type="bibr">36</xref>–<xref rid="pone.0200776.ref039" ref-type="bibr">39</xref>].</p>
+        <p>Both HCA and HCC had significantly higher expression levels of miR-452 and miR-1180, both of which have been proposed to act as oncogenic miRNAs in HCC [<xref rid="pone.0200776.ref040" ref-type="bibr">40</xref>, <xref rid="pone.0200776.ref041" ref-type="bibr">41</xref>]. MiR-452 and miR-1180 were shown to promote cell proliferation by targeting cyclin-dependent kinase inhibitor 1B and TNFAIP3 interacting protein 2, respectively [<xref rid="pone.0200776.ref040" ref-type="bibr">40</xref>, <xref rid="pone.0200776.ref041" ref-type="bibr">41</xref>]. While these miRNAs were studied in HCC models, it is likely that their cancer promoting or suppressive function are analogous in HCA.</p>
+        <p>MiR-766 was also found to be upregulated in both HCA and HCC compared to normal liver. MiR-766 overexpression has not yet been implicated in HCC or HCA, but it had been implicated in other cancers. MiR-766 was found to promote cell proliferation by targeting SOX6 in colorectal cancer, and its increased expression was associated with worse overall survival in patients with lung adenocarcinoma [<xref rid="pone.0200776.ref042" ref-type="bibr">42</xref>, <xref rid="pone.0200776.ref043" ref-type="bibr">43</xref>].</p>
+        <p>Members of a cluster of miRNAs on chromosome 19 miRNA (C19MC), including miR-515-5p, 517a, 518b, and 520c-3p, were significantly higher in HCC compared to HCA. C19MC is the largest miRNA cluster identified thus far, harboring 46 pre-miRNAs, and is located on chr19q13.41 [<xref rid="pone.0200776.ref044" ref-type="bibr">44</xref>, <xref rid="pone.0200776.ref045" ref-type="bibr">45</xref>]. These miRNAs are expressed in undifferentiated cells and may promote oncogenesis by controlling cell differentiation [<xref rid="pone.0200776.ref046" ref-type="bibr">46</xref>–<xref rid="pone.0200776.ref048" ref-type="bibr">48</xref>]. A role for C19MC in primitive neuroectodermal brain tumors and breast cancer has also been proposed[<xref rid="pone.0200776.ref048" ref-type="bibr">48</xref>, <xref rid="pone.0200776.ref049" ref-type="bibr">49</xref>], with reports that overexpression of miR-517a and miR-520c increases cell proliferation, migration, and invasion in HCC cell lines and promoted metastasis in a mouse model[<xref rid="pone.0200776.ref044" ref-type="bibr">44</xref>]. C19MC was also significantly overexpressed among hepatitis B and C related HCC compared to cirrhotic parenchyma, and overexpression of these miRNAs was associated with higher recurrence rate and shorter overall survival [<xref rid="pone.0200776.ref045" ref-type="bibr">45</xref>]. The mechanism for overexpression of these miRNAs in HCC is unclear, as one study suggested amplification of 19q13.41 as the primary mechanism but another study showed that aberrant hypomethylation was a more frequent event [<xref rid="pone.0200776.ref044" ref-type="bibr">44</xref>, <xref rid="pone.0200776.ref045" ref-type="bibr">45</xref>]. Because our MSK-IMPACT panel does not cover the genes in 19q13.41, we were unable to determine copy number changes in this locus.</p>
+        <p>In this pilot study, we offer an unique perspective to evaluate and describe molecular changes in patients with HCA or HCC without underlying hepatitis or cirrhosis, thereby removing potential “carcinogenic field effect” [<xref rid="pone.0200776.ref004" ref-type="bibr">4</xref>]. A major limitation of this study is its small sample size, as all 3 HCA subtypes were pooled as a group when compared with HCC and their adjacent liver tissue instead of analysis by each of the 3 HCA subtypes. Resection for HCA is very rare and thus our sample size is small despite of the high-volume liver surgery in the institution over the past decades. However, in the sub-analysis of the 6 upregulated or downregulated miRNAs (miR-200a, miR-429, miR-490-3p, miR-452, miR-766, and miR-1180) for each of the 3 subtypes, their miRNA expressions were similarly up or downregulated for all 3 subtypes. This sub-analysis was not included in the manuscript as it lacks statistical power to achieve significant adjusted p-value for each HCA subtype given small sample size.</p>
+        <p>In conclusion, this study revealed while there are significant differences in the molecular profile between HCA and HCC, several miRNAs are similarly deregulated and are offering some support for progression in the hepatocellular adenoma-carcinoma sequence. In addition, HCC had higher expression of C19MC compared to HCA. Further validation using a larger sample size with more B-HCA samples and incorporating mechanistic investigations are warranted, as these miRNAs alterations have the potential to be used as surrogate marker to predict transformation from HCA to HCC.</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="sec017">
+        <title>Supporting information</title>
+        <supplementary-material content-type="local-data" id="pone.0200776.s001" position="float" orientation="portrait">
+          <label>S1 Fig</label>
+          <caption>
+            <p>Representative hematoxylin and eosin stain of HCA2 (A) with negative liver fatty acid binding protein (LFABP) stain (B) revealed that it is a steatotic HCA. Representative hematoxylin and eosin stain of HCA6 (C) with concomitant positive serum amyloid A (SAA) stain (D) and positive C-reactive protein (CRP) stain (E) revealed that it is an inflammatory HCA.</p>
+            <p>(TIFF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0200776.s001.tiff" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pone.0200776.s002" position="float" orientation="portrait">
+          <label>S2 Fig</label>
+          <caption>
+            <title>Unsupervised clustering of normalized miRNA levels was performed using classical multidimensional scale (cmdscale) function.</title>
+            <p>The x and y axis represent projections of the distances between the samples.</p>
+            <p>(TIF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0200776.s002.tif" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pone.0200776.s003" position="float" orientation="portrait">
+          <label>S1 Table</label>
+          <caption>
+            <title>List of 7 different mutations identified among HCA and 41 different mutations identified among HCC.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0200776.s003.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pone.0200776.s004" position="float" orientation="portrait">
+          <label>S2 Table</label>
+          <caption>
+            <title>List of 86 miRNAs that were significantly dysregulated in HCC compared to their adjacent normal liver in unpaired analysis.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0200776.s004.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pone.0200776.s005" position="float" orientation="portrait">
+          <label>S3 Table</label>
+          <caption>
+            <title>List of 10 miRNAs that were significantly dysregulated in HCA compared to adjacent normal liver in unpaired analysis.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0200776.s005.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="pone.0200776.s006" position="float" orientation="portrait">
+          <label>S4 Table</label>
+          <caption>
+            <title>List of 57 miRNAs that were differentially expressed in HCC compared to HCA.</title>
+            <p>(PDF)</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0200776.s006.pdf" position="float" orientation="portrait">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <p>Authors thank Irina Linkov from Memorial Sloan Kettering Pathology Core Facility for processing immunohistochemical staining, Nancy Bouvier from Michael Berger Lab at the Human Oncology &amp; Pathogenesis Program and Agnes Viales from Integrated Genomics Operation for coordinating the molecular analysis, and Raya Khanin from Computational Biology Program for statistical analysis.</p>
+      </ack>
+      <ref-list>
+        <title>References</title>
+        <ref id="pone.0200776.ref001">
+          <label>1</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Nault</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Bioulac-Sage</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Zucman-Rossi</surname><given-names>J</given-names></name>. <article-title>Hepatocellular benign tumors-from molecular classification to personalized clinical care</article-title>. <source>Gastroenterology</source>. <year>2013</year>;<volume>144</volume>(<issue>5</issue>):<fpage>888</fpage>–<lpage>902</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2013.02.032</pub-id> .<pub-id pub-id-type="pmid">23485860</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref002">
+          <label>2</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Roncalli</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sciarra</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Tommaso</surname><given-names>LD</given-names></name>. <article-title>Benign hepatocellular nodules of healthy liver: focal nodular hyperplasia and hepatocellular adenoma</article-title>. <source>Clin Mol Hepatol</source>. <year>2016</year>;<volume>22</volume>(<issue>2</issue>):<fpage>199</fpage>–<lpage>211</lpage>. <pub-id pub-id-type="doi">10.3350/cmh.2016.0101</pub-id> ; PubMed Central PMCID: PMCPMC4946404.<pub-id pub-id-type="pmid">27189732</pub-id><pub-id pub-id-type="pmcid">PMC4946404</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref003">
+          <label>3</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Forner</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Llovet</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Bruix</surname><given-names>J</given-names></name>. <article-title>Hepatocellular carcinoma</article-title>. <source>The Lancet</source>. <year>2012</year>;<volume>379</volume>(<issue>9822</issue>):<fpage>1245</fpage>–<lpage>55</lpage>. <pub-id pub-id-type="doi">10.1016/s0140-6736(11)61347-0</pub-id><pub-id pub-id-type="pmid">22353262</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref004">
+          <label>4</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hoshida</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Villanueva</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kobayashi</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Peix</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Chiang</surname><given-names>DY</given-names></name>, <name name-style="western"><surname>Camargo</surname><given-names>A</given-names></name>, <etal>et al</etal><article-title>Gene expression in fixed tissues and outcome in hepatocellular carcinoma</article-title>. <source>The New England journal of medicine</source>. <year>2008</year>;<volume>359</volume>(<issue>19</issue>):<fpage>1995</fpage>–<lpage>2004</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa0804525</pub-id> ; PubMed Central PMCID: PMCPMC2963075.<pub-id pub-id-type="pmid">18923165</pub-id><pub-id pub-id-type="pmcid">PMC2963075</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref005">
+          <label>5</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Davila</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Morgan</surname><given-names>RO</given-names></name>, <name name-style="western"><surname>Shaib</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>McGlynn</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>El–Serag</surname><given-names>HB</given-names></name>. <article-title>Hepatitis C infection and the increasing incidence of hepatocellular carcinoma: A population-based study</article-title>. <source>Gastroenterology</source>. <year>2004</year>;<volume>127</volume>(<issue>5</issue>):<fpage>1372</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2004.07.020</pub-id><pub-id pub-id-type="pmid">15521006</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref006">
+          <label>6</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Agrawal</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Agarwal</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Arnason</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Saini</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Belghiti</surname><given-names>J</given-names></name>. <article-title>Management of Hepatocellular Adenoma: Recent Advances</article-title>. <source>Clin Gastroenterol Hepatol</source>. <year>2015</year>;<volume>13</volume>(<issue>7</issue>):<fpage>1221</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1016/j.cgh.2014.05.023</pub-id> .<pub-id pub-id-type="pmid">24909909</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref007">
+          <label>7</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Barthelmes</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Tait</surname><given-names>IS</given-names></name>. <article-title>Liver cell adenoma and liver cell adenomatosis</article-title>. <source>HPB : the official journal of the International Hepato Pancreato Biliary Association</source>. <year>2005</year>;<volume>7</volume>(<issue>3</issue>):<fpage>186</fpage>–<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1080/13651820510028954</pub-id> ; PubMed Central PMCID: PMCPMC2023950.<pub-id pub-id-type="pmid">18333188</pub-id><pub-id pub-id-type="pmcid">PMC2023950</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref008">
+          <label>8</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zucman-Rossi</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Jeannot</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Nhieu</surname><given-names>JT</given-names></name>, <name name-style="western"><surname>Scoazec</surname><given-names>JY</given-names></name>, <name name-style="western"><surname>Guettier</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rebouissou</surname><given-names>S</given-names></name>, <etal>et al</etal><article-title>Genotype-phenotype correlation in hepatocellular adenoma: new classification and relationship with HCC</article-title>. <source>Hepatology</source>. <year>2006</year>;<volume>43</volume>(<issue>3</issue>):<fpage>515</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1002/hep.21068</pub-id> .<pub-id pub-id-type="pmid">16496320</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref009">
+          <label>9</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bioulac-Sage</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Laumonier</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Couchy</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Le Bail</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sa Cunha</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Rullier</surname><given-names>A</given-names></name>, <etal>et al</etal><article-title>Hepatocellular adenoma management and phenotypic classification: the Bordeaux experience</article-title>. <source>Hepatology</source>. <year>2009</year>;<volume>50</volume>(<issue>2</issue>):<fpage>481</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1002/hep.22995</pub-id> .<pub-id pub-id-type="pmid">19585623</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref010">
+          <label>10</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Rebouissou</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Franconi</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Calderaro</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Letouze</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Imbeaud</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Pilati</surname><given-names>C</given-names></name>, <etal>et al</etal><article-title>Genotype-phenotype correlation of CTNNB1 mutations reveals different ss-catenin activity associated with liver tumor progression</article-title>. <source>Hepatology</source>. <year>2016</year><pub-id pub-id-type="doi">10.1002/hep.28638</pub-id> .<pub-id pub-id-type="pmid">27177928</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref011">
+          <label>11</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Alberti</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Castain</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Crombe</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Frulio</surname><given-names>N</given-names></name>. <article-title>Steatotic hepatocellular adenomas with different phenotypic subtypes: a case report</article-title>. <source>Clin Res Hepatol Gastroenterol</source>. <year>2015</year>;<volume>39</volume>(<issue>2</issue>):<fpage>e17</fpage>–<lpage>22</lpage>. <pub-id pub-id-type="doi">10.1016/j.clinre.2014.08.007</pub-id> .<pub-id pub-id-type="pmid">25260568</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref012">
+          <label>12</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Pilati</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Letouze</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Nault</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Imbeaud</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Boulai</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Calderaro</surname><given-names>J</given-names></name>, <etal>et al</etal><article-title>Genomic profiling of hepatocellular adenomas reveals recurrent FRK-activating mutations and the mechanisms of malignant transformation</article-title>. <source>Cancer Cell</source>. <year>2014</year>;<volume>25</volume>(<issue>4</issue>):<fpage>428</fpage>–<lpage>41</lpage>. Epub 2014/04/17. <pub-id pub-id-type="doi">10.1016/j.ccr.2014.03.005</pub-id> .<pub-id pub-id-type="pmid">24735922</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref013">
+          <label>13</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Schulze</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Imbeaud</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Letouze</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Alexandrov</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Calderaro</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Rebouissou</surname><given-names>S</given-names></name>, <etal>et al</etal><article-title>Exome sequencing of hepatocellular carcinomas identifies new mutational signatures and potential therapeutic targets</article-title>. <source>Nature genetics</source>. <year>2015</year>;<volume>47</volume>(<issue>5</issue>):<fpage>505</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1038/ng.3252</pub-id> ; PubMed Central PMCID: PMCPMC4587544.<pub-id pub-id-type="pmid">25822088</pub-id><pub-id pub-id-type="pmcid">PMC4587544</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref014">
+          <label>14</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ahn</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Jang</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Shim</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Hong</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Sung</surname><given-names>CO</given-names></name>, <etal>et al</etal><article-title>Genomic portrait of resectable hepatocellular carcinomas: implications of RB1 and FGF19 aberrations for patient stratification</article-title>. <source>Hepatology</source>. <year>2014</year>;<volume>60</volume>(<issue>6</issue>):<fpage>1972</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1002/hep.27198</pub-id> .<pub-id pub-id-type="pmid">24798001</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref015">
+          <label>15</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bartel</surname><given-names>DP</given-names></name>. <article-title>MicroRNAs: genomics, biogenesis, mechanism, and function</article-title>. <source>Cell</source>. <year>2004</year>;<volume>116</volume>(<issue>2</issue>):<fpage>281</fpage>–<lpage>97</lpage>. .<pub-id pub-id-type="pmid">14744438</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0092-8674(04)00045-5</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref016">
+          <label>16</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Xiong</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Fang</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Yun</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Jia</surname><given-names>WH</given-names></name>, <etal>et al</etal><article-title>Effects of microRNA-29 on apoptosis, tumorigenicity, and prognosis of hepatocellular carcinoma</article-title>. <source>Hepatology</source>. <year>2010</year>;<volume>51</volume>(<issue>3</issue>):<fpage>836</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1002/hep.23380</pub-id> .<pub-id pub-id-type="pmid">20041405</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref017">
+          <label>17</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Pineau</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Volinia</surname><given-names>S</given-names></name>, <name name-style="western"><surname>McJunkin</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Marchio</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Battiston</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Terris</surname><given-names>B</given-names></name>, <etal>et al</etal><article-title>miR-221 overexpression contributes to liver tumorigenesis</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2010</year>;<volume>107</volume>(<issue>1</issue>):<fpage>264</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0907904107</pub-id> ; PubMed Central PMCID: PMCPMC2806773.<pub-id pub-id-type="pmid">20018759</pub-id><pub-id pub-id-type="pmcid">PMC2806773</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref018">
+          <label>18</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Elhanati</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Ben-Hamo</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Kanfi</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Varvak</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Glazz</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Lerrer</surname><given-names>B</given-names></name>, <etal>et al</etal><article-title>Reciprocal Regulation between SIRT6 and miR-122 Controls Liver Metabolism and Predicts Hepatocarcinoma Prognosis</article-title>. <source>Cell Rep</source>. <year>2016</year>;<volume>14</volume>(<issue>2</issue>):<fpage>234</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2015.12.023</pub-id> .<pub-id pub-id-type="pmid">26748705</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref019">
+          <label>19</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ladeiro</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Couchy</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Balabaud</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Bioulac-Sage</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Pelletier</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Rebouissou</surname><given-names>S</given-names></name>, <etal>et al</etal><article-title>MicroRNA profiling in hepatocellular tumors is associated with clinical features and oncogene/tumor suppressor gene mutations</article-title>. <source>Hepatology</source>. <year>2008</year>;<volume>47</volume>(<issue>6</issue>):<fpage>1955</fpage>–<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1002/hep.22256</pub-id> .<pub-id pub-id-type="pmid">18433021</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref020">
+          <label>20</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Rudloff</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Bhanot</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Gerald</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Klimstra</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Jarnagin</surname><given-names>WR</given-names></name>, <name name-style="western"><surname>Brennan</surname><given-names>MF</given-names></name>, <etal>et al</etal><article-title>Biobanking of human pancreas cancer tissue: impact of ex-vivo procurement times on RNA quality</article-title>. <source>Annals of surgical oncology</source>. <year>2010</year>;<volume>17</volume>(<issue>8</issue>):<fpage>2229</fpage>–<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1245/s10434-010-0959-6</pub-id> ; PubMed Central PMCID: PMCPMC3877690.<pub-id pub-id-type="pmid">20162455</pub-id><pub-id pub-id-type="pmcid">PMC3877690</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref021">
+          <label>21</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bioulac-Sage</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Cubel</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Taouji</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Scoazec</surname><given-names>JY</given-names></name>, <name name-style="western"><surname>Leteurtre</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Paradis</surname><given-names>V</given-names></name>, <etal>et al</etal><article-title>Immunohistochemical markers on needle biopsies are helpful for the diagnosis of focal nodular hyperplasia and hepatocellular adenoma subtypes</article-title>. <source>The American journal of surgical pathology</source>. <year>2012</year>;<volume>36</volume>(<issue>11</issue>):<fpage>1691</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1097/PAS.0b013e3182653ece</pub-id> .<pub-id pub-id-type="pmid">23060349</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref022">
+          <label>22</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bioulac-Sage</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Laumonier</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Rullier</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Cubel</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Laurent</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Zucman-Rossi</surname><given-names>J</given-names></name>, <etal>et al</etal><article-title>Over-expression of glutamine synthetase in focal nodular hyperplasia: a novel easy diagnostic tool in surgical pathology</article-title>. <source>Liver international : official journal of the International Association for the Study of the Liver</source>. <year>2009</year>;<volume>29</volume>(<issue>3</issue>):<fpage>459</fpage>–<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1111/j.1478-3231.2008.01849.x</pub-id> .<pub-id pub-id-type="pmid">18803590</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref023">
+          <label>23</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Olejniczak</surname><given-names>SH</given-names></name>, <name name-style="western"><surname>La Rocca</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Gruber</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Thompson</surname><given-names>CB</given-names></name>. <article-title>Long-lived microRNA-Argonaute complexes in quiescent cells can be activated to regulate mitogenic responses</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2013</year>;<volume>110</volume>(<issue>1</issue>):<fpage>157</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1219958110</pub-id> ; PubMed Central PMCID: PMCPMC3538211.<pub-id pub-id-type="pmid">23248281</pub-id><pub-id pub-id-type="pmcid">PMC3538211</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref024">
+          <label>24</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cheng</surname><given-names>DT</given-names></name>, <name name-style="western"><surname>Mitchell</surname><given-names>TN</given-names></name>, <name name-style="western"><surname>Zehir</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Shah</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Benayed</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Syed</surname><given-names>A</given-names></name>, <etal>et al</etal><article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): A Hybridization Capture-Based Next-Generation Sequencing Clinical Assay for Solid Tumor Molecular Oncology</article-title>. <source>J Mol Diagn</source>. <year>2015</year>;<volume>17</volume>(<issue>3</issue>):<fpage>251</fpage>–<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmoldx.2014.12.006</pub-id> .<pub-id pub-id-type="pmid">25801821</pub-id><pub-id pub-id-type="pmcid">PMC5808190</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref025">
+          <label>25</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gao</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Aksoy</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Dogrusoz</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Dresdner</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Gross</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sumer</surname><given-names>SO</given-names></name>, <etal>et al</etal><article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal</article-title>. <source>Sci Signal</source>. <year>2013</year>;<volume>6</volume>(<issue>269</issue>):<fpage>pl1</fpage><pub-id pub-id-type="doi">10.1126/scisignal.2004088</pub-id> ; PubMed Central PMCID: PMCPMC4160307.<pub-id pub-id-type="pmid">23550210</pub-id><pub-id pub-id-type="pmcid">PMC4160307</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref026">
+          <label>26</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cerami</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Dogrusoz</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Gross</surname><given-names>BE</given-names></name>, <name name-style="western"><surname>Sumer</surname><given-names>SO</given-names></name>, <name name-style="western"><surname>Aksoy</surname><given-names>BA</given-names></name>, <etal>et al</etal><article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>. <source>Cancer Discov</source>. <year>2012</year>;<volume>2</volume>(<issue>5</issue>):<fpage>401</fpage>–<lpage>4</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-12-0095</pub-id> ; PubMed Central PMCID: PMCPMC3956037.<pub-id pub-id-type="pmid">22588877</pub-id><pub-id pub-id-type="pmcid">PMC3956037</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref027">
+          <label>27</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Won</surname><given-names>HH</given-names></name>, <name name-style="western"><surname>Scott</surname><given-names>SN</given-names></name>, <name name-style="western"><surname>Brannon</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Shah</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Berger</surname><given-names>MF</given-names></name>. <article-title>Detecting somatic genetic alterations in tumor specimens by exon capture and massively parallel sequencing</article-title>. <source>Journal of visualized experiments : JoVE</source>. <year>2013</year>;(<issue>80</issue>):<fpage>e50710</fpage><pub-id pub-id-type="doi">10.3791/50710</pub-id> ; PubMed Central PMCID: PMCPMC3947962.<pub-id pub-id-type="pmid">24192750</pub-id><pub-id pub-id-type="pmcid">PMC3947962</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref028">
+          <label>28</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>DePristo</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Banks</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Poplin</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Garimella</surname><given-names>KV</given-names></name>, <name name-style="western"><surname>Maguire</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Hartl</surname><given-names>C</given-names></name>, <etal>et al</etal><article-title>A framework for variation discovery and genotyping using next-generation DNA sequencing data</article-title>. <source>Nature genetics</source>. <year>2011</year>;<volume>43</volume>(<issue>5</issue>):<fpage>491</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1038/ng.806</pub-id> ; PubMed Central PMCID: PMCPMC3083463.<pub-id pub-id-type="pmid">21478889</pub-id><pub-id pub-id-type="pmcid">PMC3083463</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref029">
+          <label>29</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ritchie</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Phipson</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Hu</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Law</surname><given-names>CW</given-names></name>, <name name-style="western"><surname>Shi</surname><given-names>W</given-names></name>, <etal>et al</etal><article-title>limma powers differential expression analyses for RNA-sequencing and microarray studies</article-title>. <source>Nucleic acids research</source>. <year>2015</year>;<volume>43</volume>(<issue>7</issue>):<fpage>e47</fpage><pub-id pub-id-type="doi">10.1093/nar/gkv007</pub-id> ; PubMed Central PMCID: PMCPMC4402510.<pub-id pub-id-type="pmid">25605792</pub-id><pub-id pub-id-type="pmcid">PMC4402510</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref030">
+          <label>30</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Karkar</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Tang</surname><given-names>LH</given-names></name>, <name name-style="western"><surname>Kashikar</surname><given-names>ND</given-names></name>, <name name-style="western"><surname>Gonen</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Solomon</surname><given-names>SB</given-names></name>, <name name-style="western"><surname>Dematteo</surname><given-names>RP</given-names></name>, <etal>et al</etal><article-title>Management of hepatocellular adenoma: comparison of resection, embolization and observation</article-title>. <source>HPB : the official journal of the International Hepato Pancreato Biliary Association</source>. <year>2013</year>;<volume>15</volume>(<issue>3</issue>):<fpage>235</fpage>–<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1111/j.1477-2574.2012.00584.x</pub-id> ; PubMed Central PMCID: PMCPMC3572286.<pub-id pub-id-type="pmid">23374365</pub-id><pub-id pub-id-type="pmcid">PMC3572286</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref031">
+          <label>31</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Khemlina</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Ikeda</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kurzrock</surname><given-names>R</given-names></name>. <article-title>The biology of Hepatocellular carcinoma: implications for genomic and immune therapies</article-title>. <source>Mol Cancer</source>. <year>2017</year>;<volume>16</volume>(<issue>1</issue>):<fpage>149</fpage><pub-id pub-id-type="doi">10.1186/s12943-017-0712-x</pub-id> ; PubMed Central PMCID: PMCPMC5577674.<pub-id pub-id-type="pmid">28854942</pub-id><pub-id pub-id-type="pmcid">PMC5577674</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref032">
+          <label>32</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hung</surname><given-names>CS</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>HH</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Yeh</surname><given-names>CT</given-names></name>, <name name-style="western"><surname>Chang</surname><given-names>TC</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>CH</given-names></name>, <etal>et al</etal><article-title>MicroRNA-200a and -200b mediated hepatocellular carcinoma cell migration through the epithelial to mesenchymal transition markers</article-title>. <source>Annals of surgical oncology</source>. <year>2013</year>;<volume>20</volume><issue>Suppl 3</issue>:<fpage>S360</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1245/s10434-012-2482-4</pub-id> .<pub-id pub-id-type="pmid">22868917</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref033">
+          <label>33</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wong</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Wei</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Au</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Fan</surname><given-names>DN</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Tsang</surname><given-names>FH</given-names></name>, <etal>et al</etal><article-title>MiR-200b/200c/429 subfamily negatively regulates Rho/ROCK signaling pathway to suppress hepatocellular carcinoma metastasis</article-title>. <source>Oncotarget</source>. <year>2015</year>;<volume>6</volume>(<issue>15</issue>):<fpage>13658</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.18632/oncotarget.3700</pub-id> ; PubMed Central PMCID: PMCPMC4537040.<pub-id pub-id-type="pmid">25909223</pub-id><pub-id pub-id-type="pmcid">PMC4537040</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref034">
+          <label>34</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zhang</surname><given-names>LY</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Tang</surname><given-names>H</given-names></name>. <article-title>miR-490-3p modulates cell growth and epithelial to mesenchymal transition of hepatocellular carcinoma cells by targeting endoplasmic reticulum-Golgi intermediate compartment protein 3 (ERGIC3)</article-title>. <source>The Journal of biological chemistry</source>. <year>2013</year>;<volume>288</volume>(<issue>6</issue>):<fpage>4035</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M112.410506</pub-id> ; PubMed Central PMCID: PMCPMC3567655.<pub-id pub-id-type="pmid">23212913</pub-id><pub-id pub-id-type="pmcid">PMC3567655</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref035">
+          <label>35</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wojcicka</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Swierniak</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kornasiewicz</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Gierlikowski</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Maciag</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kolanowska</surname><given-names>M</given-names></name>, <etal>et al</etal><article-title>Next generation sequencing reveals microRNA isoforms in liver cirrhosis and hepatocellular carcinoma</article-title>. <source>Int J Biochem Cell Biol</source>. <year>2014</year>;<volume>53</volume>:<fpage>208</fpage>–<lpage>17</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocel.2014.05.020</pub-id> .<pub-id pub-id-type="pmid">24875649</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref036">
+          <label>36</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gu</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Fu</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Guo</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Ni</surname><given-names>Y</given-names></name>. <article-title>MicroRNA-490-3p inhibits proliferation of A549 lung cancer cells by targeting CCND1</article-title>. <source>Biochem Biophys Res Commun</source>. <year>2014</year>;<volume>444</volume>(<issue>1</issue>):<fpage>104</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbrc.2014.01.020</pub-id> .<pub-id pub-id-type="pmid">24440705</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref037">
+          <label>37</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shen</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Xiao</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>WK</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>To</surname><given-names>KF</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>, <etal>et al</etal><article-title>Epigenetic silencing of miR-490-3p reactivates the chromatin remodeler SMARCD1 to promote Helicobacter pylori-induced gastric carcinogenesis</article-title>. <source>Cancer research</source>. <year>2015</year>;<volume>75</volume>(<issue>4</issue>):<fpage>754</fpage>–<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-14-1301</pub-id> .<pub-id pub-id-type="pmid">25503559</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref038">
+          <label>38</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zhao</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Zheng</surname><given-names>XY</given-names></name>. <article-title>MicroRNA-490 inhibits tumorigenesis and progression in breast cancer</article-title>. <source>OncoTargets and therapy</source>. <year>2016</year>;<volume>9</volume>:<fpage>4505</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.2147/OTT.S100037</pub-id> ; PubMed Central PMCID: PMCPMC4966577.<pub-id pub-id-type="pmid">27524906</pub-id><pub-id pub-id-type="pmcid">PMC4966577</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref039">
+          <label>39</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chen</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Xiu</surname><given-names>YL</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>KX</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>Y</given-names></name>. <article-title>MicroRNA-490-3P targets CDK1 and inhibits ovarian epithelial carcinoma tumorigenesis and progression</article-title>. <source>Cancer letters</source>. <year>2015</year>;<volume>362</volume>(<issue>1</issue>):<fpage>122</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1016/j.canlet.2015.03.029</pub-id> .<pub-id pub-id-type="pmid">25819031</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref040">
+          <label>40</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zheng</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Sheng</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Jiang</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Shu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Nie</surname><given-names>Z</given-names></name>, <etal>et al</etal><article-title>MicroRNA-452 promotes tumorigenesis in hepatocellular carcinoma by targeting cyclin-dependent kinase inhibitor 1B</article-title>. <source>Mol Cell Biochem</source>. <year>2014</year>;<volume>389</volume>(<issue>1–2</issue>):<fpage>187</fpage>–<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1007/s11010-013-1940-z</pub-id> .<pub-id pub-id-type="pmid">24381057</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref041">
+          <label>41</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zhou</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>HQ</given-names></name>, <name name-style="western"><surname>Ma</surname><given-names>CQ</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>HG</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>FF</given-names></name>, <name name-style="western"><surname>Chang</surname><given-names>H</given-names></name>, <etal>et al</etal><article-title>MiR-1180 promoted the proliferation of hepatocellular carcinoma cells by repressing TNIP2 expression</article-title>. <source>Biomed Pharmacother</source>. <year>2016</year>;<volume>79</volume>:<fpage>315</fpage>–<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1016/j.biopha.2016.02.025</pub-id> .<pub-id pub-id-type="pmid">27044843</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref042">
+          <label>42</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>YC</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>CF</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>DD</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Jin</surname><given-names>JP</given-names></name>, <etal>et al</etal><article-title>MicroRNA-766 targeting regulation of SOX6 expression promoted cell proliferation of human colorectal cancer</article-title>. <source>OncoTargets and therapy</source>. <year>2015</year>;<volume>8</volume>:<fpage>2981</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.2147/OTT.S89459</pub-id> ; PubMed Central PMCID: PMCPMC4622090.<pub-id pub-id-type="pmid">26543373</pub-id><pub-id pub-id-type="pmcid">PMC4622090</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref043">
+          <label>43</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Shi</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Yin</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Xue</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>B</given-names></name>. <article-title>An eight-miRNA signature as a potential biomarker for predicting survival in lung adenocarcinoma</article-title>. <source>Journal of translational medicine</source>. <year>2014</year>;<volume>12</volume>:<fpage>159</fpage><pub-id pub-id-type="doi">10.1186/1479-5876-12-159</pub-id> ; PubMed Central PMCID: PMCPMC4062505.<pub-id pub-id-type="pmid">24893932</pub-id><pub-id pub-id-type="pmcid">PMC4062505</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref044">
+          <label>44</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Toffanin</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Hoshida</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Lachenmayer</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Villanueva</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Cabellos</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Minguez</surname><given-names>B</given-names></name>, <etal>et al</etal><article-title>MicroRNA-based classification of hepatocellular carcinoma and oncogenic role of miR-517a</article-title>. <source>Gastroenterology</source>. <year>2011</year>;<volume>140</volume>(<issue>5</issue>):<fpage>1618</fpage>–<lpage>28 e16</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2011.02.009</pub-id> ; PubMed Central PMCID: PMCPMC3680790.<pub-id pub-id-type="pmid">21324318</pub-id><pub-id pub-id-type="pmcid">PMC3680790</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref045">
+          <label>45</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Augello</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Vaira</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Caruso</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Destro</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Maggioni</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Park</surname><given-names>YN</given-names></name>, <etal>et al</etal><article-title>MicroRNA profiling of hepatocarcinogenesis identifies C19MC cluster as a novel prognostic biomarker in hepatocellular carcinoma</article-title>. <source>Liver international : official journal of the International Association for the Study of the Liver</source>. <year>2012</year>;<volume>32</volume>(<issue>5</issue>):<fpage>772</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1111/j.1478-3231.2012.02795.x</pub-id> .<pub-id pub-id-type="pmid">22429613</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref046">
+          <label>46</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bentwich</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Avniel</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Karov</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Aharonov</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gilad</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Barad</surname><given-names>O</given-names></name>, <etal>et al</etal><article-title>Identification of hundreds of conserved and nonconserved human microRNAs</article-title>. <source>Nature genetics</source>. <year>2005</year>;<volume>37</volume>(<issue>7</issue>):<fpage>766</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1038/ng1590</pub-id> .<pub-id pub-id-type="pmid">15965474</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref047">
+          <label>47</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Noguer-Dance</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Abu-Amero</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Al-Khtib</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lefevre</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Coullin</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Moore</surname><given-names>GE</given-names></name>, <etal>et al</etal><article-title>The primate-specific microRNA gene cluster (C19MC) is imprinted in the placenta</article-title>. <source>Hum Mol Genet</source>. <year>2010</year>;<volume>19</volume>(<issue>18</issue>):<fpage>3566</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1093/hmg/ddq272</pub-id> .<pub-id pub-id-type="pmid">20610438</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref048">
+          <label>48</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>KF</given-names></name>, <name name-style="western"><surname>Lu</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Clarke</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Shih</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Eberhart</surname><given-names>C</given-names></name>, <etal>et al</etal><article-title>Frequent amplification of a chr19q13.41 microRNA polycistron in aggressive primitive neuroectodermal brain tumors</article-title>. <source>Cancer Cell</source>. <year>2009</year>;<volume>16</volume>(<issue>6</issue>):<fpage>533</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccr.2009.10.025</pub-id> ; PubMed Central PMCID: PMCPMC3431561.<pub-id pub-id-type="pmid">19962671</pub-id><pub-id pub-id-type="pmcid">PMC3431561</pub-id></mixed-citation>
+        </ref>
+        <ref id="pone.0200776.ref049">
+          <label>49</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Pinho</surname><given-names>FG</given-names></name>, <name name-style="western"><surname>Frampton</surname><given-names>AE</given-names></name>, <name name-style="western"><surname>Nunes</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Krell</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Alshaker</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Jacob</surname><given-names>J</given-names></name>, <etal>et al</etal><article-title>Downregulation of microRNA-515-5p by the estrogen receptor modulates sphingosine kinase 1 and breast cancer cell proliferation</article-title>. <source>Cancer research</source>. <year>2013</year>;<volume>73</volume>(<issue>19</issue>):<fpage>5936</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-13-0158</pub-id> .<pub-id pub-id-type="pmid">23928990</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>
