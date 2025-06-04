@@ -1,23 +1,10 @@
-from __future__ import absolute_import, print_function, unicode_literals
-from builtins import dict, str
-import re
 import logging
 import os.path
 import requests
 from lxml import etree
-from lxml.etree import QName
 import xml.etree.ElementTree as ET
-from indra.literature import pubmed_client
-from indra.util import UnicodeXMLTreeBuilder as UTB
-
-__file__ = ""
-
-# Python 2
-try:
-    basestring
-# Python 3
-except:
-    basestring = str
+from time import sleep
+import random
 
 logger = logging.getLogger(__name__)
 
@@ -74,7 +61,7 @@ def id_lookup(paper_id, idtype=None):
     if idtype is not None:
         data['idtype'] = idtype
     try:
-        tree = pubmed_client.send_request(pmid_convert_url, data)
+        tree = send_request(pmid_convert_url, data)
     except Exception as e:
         logger.error('Error looking up PMID in PMC: %s' % e)
         return {}
@@ -92,8 +79,33 @@ def id_lookup(paper_id, idtype=None):
     return ids
 
 
-# def get_ids(search_term, retmax=1000):
-#     return pubmed_client.get_ids(search_term, retmax=retmax, db='pmc')
+def send_request(url, data, retry_pause=1, max_tries=3):
+    try:
+        res = requests.get(url, params=data)
+    except requests.exceptions.Timeout as e:
+        logger.error('PubMed request timed out')
+        logger.error('url: %s, data: %s' % (url, data))
+        logger.error(e)
+        return None
+    except requests.exceptions.RequestException as e:
+        logger.error('PubMed request exception')
+        logger.error('url: %s, data: %s' % (url, data))
+        logger.error(e)
+        return None
+    if res.status_code in {400, 429, 502, 503} and max_tries > 0:
+        sleep(retry_pause)
+        # Increase the sleep time at random to avoid multiple clients
+        # retrying at the same time for e.g. tests
+        retry_pause += 0.5 + 1.5 * random.random()
+        return send_request(url, data, retry_pause, max_tries - 1)
+    if not res.status_code == 200:
+        logger.error('Got return code %d from pubmed client.'
+                     % res.status_code)
+        return None
+    # Read the bytestream
+    xml_bytes = res.content
+    tree = ET.XML(xml_bytes)
+    return tree
 
 
 def get_xml(pmc_id):
@@ -113,7 +125,6 @@ def get_xml(pmc_id):
     # Read the bytestream
     xml_bytes = res.content
     # Check for any XML errors; xml_str should still be bytes
-    #tree = ET.XML(xml_bytes, parser=UTB())
     tree = ET.XML(xml_bytes)
     xmlns = "http://www.openarchives.org/OAI/2.0/"
     err_tag = tree.find('{%s}error' % xmlns)
@@ -130,7 +141,6 @@ def get_xml(pmc_id):
 
 def get_xml_from_file(file):
     # Check for any XML errors; xml_str should still be bytes
-    #tree = ET.XML(xml_bytes, parser=UTB())
     tree = ET.parse(file)
 
     # Get the root element of the XML file
