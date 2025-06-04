@@ -86,7 +86,7 @@ def process_pmid_file(input_file, email, output_file=None):
         no_pmcid_file = os.path.splitext(output_file)[0] + "_no_pmcid.json"
         with open(no_pmcid_file, 'w') as nf:
             json.dump(not_found, nf, indent=2)
-        print(f"⚠️ Missing PMCID entries written to: {no_pmcid_file}")
+        print(f" Missing PMCID entries written to: {no_pmcid_file}")
     else:
         print(json.dumps(found, indent=2))
 
