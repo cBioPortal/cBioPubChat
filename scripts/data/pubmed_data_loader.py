@@ -305,8 +305,11 @@ def load_docs(dir, loader):
     loader = DirectoryLoader(path=dir, loader_cls=loader, show_progress=True)
     docs = loader.load()
     print(len(docs))
-    with open(f"{dir}.txt", 'w') as f:
-        f.write(str(docs))
+
+    # TODO: 20250603 Keep debugging here?
+    #with open(f"{dir}.txt", 'w') as f:
+    #    f.write(str(docs))
+
     return docs
 
 
