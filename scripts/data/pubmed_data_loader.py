@@ -354,8 +354,8 @@ if __name__ == '__main__':
     # Set up command-line argument parser
     parser = argparse.ArgumentParser(description="PubMed Document Processing and RAG Query System")
     parser.add_argument('--test', '-t', action='store_true', help='Run test query on the system')
-    parser.add_argument('--load', '-l', metavar='DIR', nargs='?', const='data/loaded_pmc',
-                        help='Load documents from directory (default: data/loaded_pmc)')
+    parser.add_argument('--load', '-l', metavar='DIR', nargs='?', const='data/data_raw/txt',
+                        help='Load documents from directory (default: data/data_raw/txt)')
 
     args = parser.parse_args()
 
