@@ -368,7 +368,7 @@ if __name__ == '__main__':
     if args.test:
         # Run test query
         history = []
-        user_input = "Human: Give me an example of a breast cancer biomarker?"
+        user_input = "Human: How common is breast cancer?"
         response = predict(user_input, history)
         print("AI:", response)
         history.append((user_input, response))
