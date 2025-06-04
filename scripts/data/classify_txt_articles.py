@@ -41,7 +41,7 @@ if __name__ == "__main__":
     input_dir = "/Users/bsatravada/Desktop/cBioPubChat/data/data_raw/txt"  # Directory of .txt files
     output_json = "text_classification_by_structure.json"
 
-    print(f"🔍 Analyzing files in: {input_dir}")
+    print(f" Analyzing files in: {input_dir}")
     classified = classify_txt_folder(input_dir)
 
     with open(output_json, 'w', encoding='utf-8') as f:
