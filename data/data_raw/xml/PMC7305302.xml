@@ -1,0 +1,983 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="data-paper" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Sci Data</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Sci Data</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2628</journal-id>
+        <journal-id journal-id-type="pmc-domain">sdata</journal-id>
+        <journal-title-group>
+          <journal-title>Scientific Data</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2052-4463</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC7305302</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC7305302.1</article-id>
+        <article-id pub-id-type="pmcaid">7305302</article-id>
+        <article-id pub-id-type="pmcaiid">7305302</article-id>
+        <article-id pub-id-type="pmid">32561749</article-id>
+        <article-id pub-id-type="doi">10.1038/s41597-020-0508-5</article-id>
+        <article-id pub-id-type="publisher-id">508</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Data Descriptor</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>A clinically and genomically annotated nerve sheath tumor biospecimen repository</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pollard</surname>
+              <given-names initials="K">Kai</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Banerjee</surname>
+              <given-names initials="J">Jineta</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Doan</surname>
+              <given-names initials="X">Xengie</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="J">Jiawan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Guo</surname>
+              <given-names initials="X">Xindi</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3573-3565</contrib-id>
+            <name name-style="western">
+              <surname>Allaway</surname>
+              <given-names initials="R">Robert</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Langmead</surname>
+              <given-names initials="S">Shannon</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Slobogean</surname>
+              <given-names initials="B">Bronwyn</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyer</surname>
+              <given-names initials="CF">Christian F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Loeb</surname>
+              <given-names initials="DM">David M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names initials="CD">Carol D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Belzberg</surname>
+              <given-names initials="AJ">Allan J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Blakeley</surname>
+              <given-names initials="JO">Jaishri O.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8662-1219</contrib-id>
+            <name name-style="western">
+              <surname>Rodriguez</surname>
+              <given-names initials="FJ">Fausto J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Guinney</surname>
+              <given-names initials="J">Justin</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6534-4774</contrib-id>
+            <name name-style="western">
+              <surname>Gosline</surname>
+              <given-names initials="SJC">Sara J. C.</given-names>
+            </name>
+            <address>
+              <email>sara.gosline@sagebionetworks.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Pratilas</surname>
+              <given-names initials="CA">Christine A.</given-names>
+            </name>
+            <address>
+              <email>cpratil1@jhmi.edu</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution>Sidney Kimmel Comprehensive Cancer Center and Department of Oncology, </institution><institution>Johns Hopkins University School of Medicine, </institution></institution-wrap>Baltimore, USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 6023 5303</institution-id><institution-id institution-id-type="GRID">grid.430406.5</institution-id><institution>Sage Bionetworks, </institution></institution-wrap>Seattle, USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution>Department of Neurology, </institution><institution>Johns Hopkins University School of Medicine, </institution></institution-wrap>Baltimore, USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000000121791997</institution-id><institution-id institution-id-type="GRID">grid.251993.5</institution-id><institution>Albert Einstein College of Medicine, </institution></institution-wrap>New York, USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution>Department of Orthopedic Surgery, </institution><institution>Johns Hopkins University School of Medicine, </institution></institution-wrap>Baltimore, USA </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution>Department of Neurosurgery, </institution><institution>Johns Hopkins University School of Medicine, </institution></institution-wrap>Baltimore, USA </aff>
+          <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution>Department of Pathology, </institution><institution>Johns Hopkins University School of Medicine, </institution></institution-wrap>Baltimore, USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>19</day>
+          <month>6</month>
+          <year>2020</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2020</year>
+        </pub-date>
+        <volume>7</volume>
+        <issue-id pub-id-type="pmc-issue-id">348895</issue-id>
+        <elocation-id>184</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>20</day>
+            <month>12</month>
+            <year>2019</year>
+          </date>
+          <date date-type="accepted">
+            <day>12</day>
+            <month>5</month>
+            <year>2020</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>19</day>
+              <month>06</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>26</day>
+              <month>06</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-04-26 00:25:14.410">
+              <day>26</day>
+              <month>04</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2020</copyright-statement>
+          <license license-type="OpenAccess">
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+            <license-p>The Creative Commons Public Domain Dedication waiver <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link> applies to the metadata files associated with this article.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41597_2020_Article_508.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Nerve sheath tumors occur as a heterogeneous group of neoplasms in patients with neurofibromatosis type 1 (NF1). The malignant form represents the most common cause of death in people with NF1, and even when benign, these tumors can result in significant disfigurement, neurologic dysfunction, and a range of profound symptoms. Lack of human tissue across the peripheral nerve tumors common in NF1 has been a major limitation in the development of new therapies. To address this unmet need, we have created an annotated collection of patient tumor samples, patient-derived cell lines, and patient-derived xenografts, and carried out high-throughput genomic and transcriptomic characterization to serve as a resource for further biologic and preclinical therapeutic studies. In this work, we release genomic and transcriptomic datasets comprised of 55 tumor samples derived from 23 individuals, complete with clinical annotation. All data are publicly available through the NF Data Portal and at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://synapse.org/jhubiobank">http://synapse.org/jhubiobank</ext-link>.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="summary">
+          <p id="Par2">
+<table-wrap id="Taba" position="float" orientation="portrait"><table frame="hsides" rules="groups"><tbody><tr><td colspan="1" rowspan="1">Measurement(s)</td><td colspan="1" rowspan="1">gene expression • gene_variant</td></tr><tr><td colspan="1" rowspan="1">Technology Type(s)</td><td colspan="1" rowspan="1">RNA sequencing • exome sequencing • DNA sequencing</td></tr><tr><td colspan="1" rowspan="1">Factor Type(s)</td><td colspan="1" rowspan="1">tumor type</td></tr><tr><td colspan="1" rowspan="1">Sample Characteristic - Organism</td><td colspan="1" rowspan="1">Homo sapiens • Homo sapiens/Mus musculus xenograft</td></tr></tbody></table></table-wrap>
+</p>
+          <p id="Par3">Machine-accessible metadata file describing the reported data: 10.6084/m9.figshare.12037599</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Standardization</kwd>
+          <kwd>Paediatric neurological disorders</kwd>
+          <kwd>Gene expression analysis</kwd>
+          <kwd>Sequencing</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>Neurofibromatosis Therapeutic Acceleration Program</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2020</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1">
+        <title>Background &amp; Summary</title>
+        <p id="Par4">Neurofibromatosis type 1 (NF1) is a common neuro-genetic condition caused by mutations in the <italic toggle="yes">NF1</italic> gene. It is characterized by a predisposition to the development of nerve sheath tumors, including cutaneous neurofibromas (cNF), plexiform neurofibromas (pNF), and malignant peripheral nerve sheath tumors (MPNST). Up to 50% of patients with NF1 develop pNF, and 55% of pNF in childhood are symptomatic, resulting in either pain, nerve or organ dysfunction or disfigurement<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Currently, surgery is the only treatment option for patients with NF1 who have symptomatic pNF. Progress in the development of nonsurgical therapy for pNF has been limited by a number of factors including: the lack of pNF specific cell culture-based<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup> and animal models<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>, and limited access to primary tissue from patients with NF1. Although progress is being made in the development and utilization of animal models and cell culture models<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>, the limited availability of primary patient tissue remains unaddressed.</p>
+        <p id="Par5">To address this gap, we established a local biospecimen repository for the purpose of (1) banking blood fractions and tumor tissue from patients with NF1 undergoing surgical resection of cNF, pNF and/or MPNST at Johns Hopkins Hospital; (2) generating xenograft and cell line models to propagate primary human tissue and cells (3) creating the required infrastructure that supports the sharing of data and tissue resources with the scientific community. The biospecimen repository includes tissue, buffy coat, plasma and serum from patients with NF1 who are undergoing surgical removal of a lesion including, but not limited to, a cNF, diffuse superficial infiltrating neurofibromas, pNF, atypical neurofibromatous neoplasms of uncertain biologic potential (ANNUBP), and MPNST. Each tissue sample has an associated clinical data set and appropriate consent has been obtained to allow sharing of tissue for NF1 research within and outside of Johns Hopkins.</p>
+        <p id="Par6">The Johns Hopkins Comprehensive Neurofibromatosis Center (JHCNC) serves a large volume of people with NF1. In concert with the JHCNC, our lab has successfully banked specimens from these patients when they are undergoing surgery, and created and maintained a fully annotated clinical database. All banking procedures are conducted as outlined by the NCI Best Practices<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Specimens are processed and implanted in mice quickly to minimize ischemia time, accurate identification of specimens is ensured by our practices, and all tumor specimens removed from different anatomical locations or different locations within the same tumor or patient are clearly identified and labeled (Fig. <xref rid="Fig1" ref-type="fig">1</xref>).<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><p>Overview of the Johns Hopkins University NF1 biospecimen repository.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d30e477" position="float" orientation="portrait" xlink:href="41597_2020_508_Fig1_HTML.jpg"/></fig></p>
+        <p id="Par7">We have leveraged our unique resources, including (1) one of the busiest NF clinics in the country, with specialized physicians and surgeons invested in the process of tissue collection and banking; (2) our expertise in tissue acquisition, handling, and xenograft production, and (3) the comprehensive data-sharing framework of the NF Data Portal<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>, to establish a key resource and enable sharing of the data generated with the NF1 research community. Currently, we are accruing samples from about twenty patients per year, and expect ongoing accrual at this rate for the foreseeable future.</p>
+        <p id="Par8">Herein, we describe the data generated from the tissue bank and shared through the NF Data Portal. We sequenced DNA and/or RNA across 55 tumors from 23 unique patients, as well as any cell lines or xenografts derived from these patient samples. We also sequenced DNA of patient blood cells to include non-tumor (control) genomic data to facilitate downstream analysis. These data are a valuable resource for the NF research community that complements previous NF tumor characterization efforts<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>. All data are available to qualified researchers via the <italic toggle="yes">NF Data Portal</italic> to encourage biological exploration and identification of drug targets in NF1.</p>
+      </sec>
+      <sec id="Sec2">
+        <title>Methods</title>
+        <p id="Par9">The generation of these data was a close collaboration between the physicians at Johns Hopkins Hospital, the staff of the JH NF1 biospecimen repository, and Sage Bionetworks.</p>
+        <sec id="Sec3">
+          <title>Patient enrollment</title>
+          <p id="Par10">All human subjects research was conducted according to widely accepted practice and under a Johns Hopkins Hospital (JHH) institutional review board (IRB)-approved protocol.</p>
+          <p id="Par11">Patients with neurofibromatosis (NF1) having a clinically-indicated surgical resection or biopsy of a NF1-associated tumor (cNF, superficial diffuse infiltrating neurofibroma, pNF, ANNUBP, MPNST) were identified through the review of surgical schedules and communication from the clinical team to the research team at JHH. Patients were reviewed for study eligibility, and then written informed consent was obtained. The JHH IRB-approved consent form includes a description of the voluntary nature of the research and a description of clinical data that will be collected as well as the plan for genetic and genomic analyses and sharing of data. Blood was collected from the majority of patients on the day of surgery.</p>
+          <p id="Par12">After successful collection of tumor tissue, the patient’s medical record was reviewed for pertinent demographic information and information related to their NF1 diagnosis (genomic findings, family history, age of diagnosis), characteristics (phenotypic findings, symptoms), and tumor burden (number and size of NF1-associated tumors). These clinical data were stored in a password protected and de-identified database.</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Tumor preservation and quality control</title>
+          <p id="Par13">Surgical specimens were couriered to surgical pathology immediately after resection either in saline or in a dry sterile collection cup. The study neuropathologist performed immediate inspection of the tumor to ensure that the sample contained adequate tumor tissue for clinical diagnostic needs. Upon approval, tumor pieces were sampled for banking and transported to the research laboratory in isotonic cell culture medium (RPMI with 20% FBS, supplemented with 1% penicillin-streptomycin and glutamine, PSG).</p>
+          <p id="Par14">Specimens were sized into 5–10 mm aliquots under sterile conditions in a biosafety cabinet. Individual aliquots were placed into 10% neutral buffered formalin, cell freezing media (Sigma: C6295), and/or placed into an empty vial and snap frozen on dry ice.</p>
+          <p id="Par15">All aliquots were stored with barcoded labels for tracking purposes. Specimens collected from pathologically heterogeneous tumors were embedded in O.C.T. compound (Optimal Cutting Temperature Compound, Fisher Sci 23–730–571) and sectioned into 5 μm sections. One slide from each individual aliquot was reviewed by the study pathologist to confirm histologic diagnosis not only of the tumor as a whole, but that tissue representation and quality was adequate per aliquot.</p>
+        </sec>
+        <sec id="Sec5">
+          <title>Cell culture</title>
+          <p id="Par16">A tumor aliquot was mechanically dissociated into a cell suspension in a sterile petri dish filled with supplemented cell culture medium (RPMI, 20% FBS, 1% PSG) using a sterile scalpel. Dissociated cells in culture medium were placed into 75 cm<sup>2</sup> flasks and maintained in an incubator (37 °C, 5% CO<sub>2</sub>). Cells were washed and medium changed twice weekly, and passaged until a stable culture was achieved (Fig. <xref rid="Fig2" ref-type="fig">2a,b</xref>). Cells were then viably frozen in Cell Freezing Medium (Sigma C6295) and placed in a Cool Cell temperature controlled freezing chamber at −80°C before transfer to liquid nitrogen for long-term storage.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><p>Characterization of patient-derived models. <bold>(a,b</bold>) Cells were cultured under standard conditions until the emergence of a consistently replicating population. (<bold>a</bold>) Measurement of cell growth rate and calculation of doubling time, shown as a percentage increase over day 0. (<bold>b</bold>) 10x photomicrograph of cultured cells at logarithmic growth phase. (<bold>c</bold>) Tumor fragments from freshly acquired specimens were implanted subcutaneously into mice; mice were monitored until the development of a palpable tumor. H&amp;E images from three representative MPNST patient-derived xenografts (PDX).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d30e553" position="float" orientation="portrait" xlink:href="41597_2020_508_Fig2_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec6">
+          <title>Patient-Derived Xenograft (PDX) development</title>
+          <p id="Par17">Tissue for PDX generation was maintained in supplemented media (RPMI 20% FBS 1% PSG) until implantation. Adult NOD scid gamma mice (Jackson laboratory: NOD.Cg-Prkdc<sup>scid</sup>Il2rg<sup>tm1Wjl</sup>/SzJ (005557)) were anesthetized using a mixture of ketamine and xylazine. Tumor pieces were cut into 2–3 mm fragments and dipped into ice-cold Matrigel (Corning: CB-40230) and immediately implanted into the mouse flank, pre-tibial space, or pre-sacral space.</p>
+          <p id="Par18">Two to ten mice were implanted for each tumor where the diagnosis is known to be pNF or MPNST at the time of resection. The overall rate of successful generation of PDX from attempted tumors in this study was 50% for MPNST. Once the tumor reached approximately 15 mm in diameter, tumor was viably frozen in Cell Freezing Medium (Sigma C6295) and a small fragment was passaged into another mouse. Representative H&amp;E images for novel PDX models are shown in Fig. <xref rid="Fig2" ref-type="fig">2c</xref>.</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Exome sequencing</title>
+          <p id="Par19">DNA was isolated from flash-frozen tumor sample using the QIAmp DNA Mini Kit (Qiagen 51304) and quantified and quality confirmed using the NanoDrop 2000 spectrophotometer. Germline DNA was isolated from patient blood, or in the rare case that sufficient blood could not be collected, normal tissue adjacent to tumor was used for germline. Specimens were sequenced by the Genetic Resources Core Facility at Johns Hopkins (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://grcf.jhmi.edu/">https://grcf.jhmi.edu/</ext-link>) and processed similarly to previously published pNF resources<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>.</p>
+          <p id="Par20">Quality control was carried out via 2% gels, OD<sub>260</sub> readings, and volume checks upon sample receipt at CIDR (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cidr.jhmi.edu">https://www.cidr.jhmi.edu</ext-link>) to confirm adequate quantity and quality of genomic DNA. Samples were then processed with an Illumina Infinium QCArray-24v1-0 array to confirm sex, identify unexpected duplicates and relatedness, confirm study duplicates and relatedness, provide sample performance information and sample identity confirmation against the sequencing data.</p>
+          <p id="Par21">Exome capture was carried out using the Agilent SureSelectXT HumanAllExon V6 (Agilent S07604514) kit. 1 μg of genomic DNA was sheared using the Covaris E220 instrument (Covaris) with a shear time of 80 seconds in order to obtain larger insert sizes. A hybrid protocol for library preparation and whole exome enrichment was developed at CIDR (unpublished) based on methods and parameters from Fisher <italic toggle="yes">et al</italic>.<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>, applied to the reagents, volumes and parameters from the Agilent SureSelect XT kit and automated protocol (p/n G7550-90000 revision B). All processing was done in 96 well plate formats using robotics (Beckman FXp, Perkin Elmer Janus, Agilent Bravo, Beckman NX). ‘With Bead’ clean-ups were used following shearing, end repair, A-tailing and adapter ligation. The initial input of GE Healthcare Sera-Mag Magnetic SpeedBeads (Carboxylate-Modified) was based on volumes from the Agilent protocol. After the first clean up, the sample was eluted and the beads remained in the reactions through the final ligation clean-up. These reactions were carried out using the XT reagents, volumes and conditions described in the Agilent protocol. At pre-capture PCR the entire product was amplified, adjusting the water in the reaction to accommodate the increase in DNA sample volume. The PCR enzyme used in all steps was switched from Herculase to HiFi HotStart Ready Mix (Kapa Biosystems) to increase the coverage in GC rich regions. All other aspects follow the Agilent protocol except the number of PCR cycles was increased from 6–8 cycles. 750 ng of amplified library was used in an enrichment reaction following Agilent 24-hour hybridization protocol. Post- capture washing was done using the Agilent protocol except the ‘off-bead’ catch process from Fisher <italic toggle="yes">et al</italic>.<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>, with a slight change in which samples are not eluted off the DynaBeads (Invitrogen), instead post-capture PCR master mix and indexes are added directly to the beads. Post-capture PCR was done according to the Agilent protocol, with the adjustment of water volume and PCR cycles where needed.</p>
+          <p id="Par22">Libraries were sequenced on the HiSeq2500 platform with template generation on the cBot. Conditions included 72 samples per flowcell, 125 base-pair paired-end runs and sequencing chemistry kits HiSeq PE Cluster Kit v4 and HiSeq SBS kit v4.</p>
+        </sec>
+        <sec id="Sec8">
+          <title>Exome-seq variant calling</title>
+          <p id="Par23">Single nucleotide variant calling was carried out via a well-tested pipeline with the tools and parameters described in Table <xref rid="Tab1" ref-type="table">1</xref>. Copy number alterations were analyzed using the GATK pipeline<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> and additional single nucleotide variant analyses were done using the <italic toggle="yes">DeepVariant</italic> tool (release 0.8)<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>.<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>List of tools used in exome-seq analysis pipeline.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1">Analysis Step</th><th colspan="1" rowspan="1">Method (version)</th><th colspan="1" rowspan="1">Parameters</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Intensity analysis and base calling</td><td colspan="1" rowspan="1">Illumina Real Time Analysis (RTA) software (version 1.18.66.4).</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Base call files demultiplexed from a binary format (BCL) to single sample fastq files</td><td colspan="1" rowspan="1">CIDRSeqSuite (v 7.5.0, unpublished)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Fastq file alignment</td><td colspan="1" rowspan="1">BWA mem (0.7.15)<sup><xref ref-type="bibr" rid="CR26">26</xref></sup></td><td colspan="1" rowspan="1">1000 genomes phase 2 (GRCh37) human genome reference</td></tr><tr><td colspan="1" rowspan="1">Duplicate flagging</td><td colspan="1" rowspan="1">Picard (v 2.17.0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Base call quality score recalibration and binning (2,10,20,30)</td><td colspan="1" rowspan="1">Genome Analysis Toolkit (GATK, v4.0.1.1)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">CRAM file generation</td><td colspan="1" rowspan="1"><p>SAMTools (v1.5)0.<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>,</p><p>GATK (v3.7)<sup><xref ref-type="bibr" rid="CR28">28</xref></sup></p></td><td colspan="1" rowspan="1"><p>–emitRefConfidence GVCF</p><p>–max_alternate_alleles 3</p></td></tr><tr><td colspan="1" rowspan="1">SNV Variant Filtering</td><td colspan="1" rowspan="1">Variant Quality Score Recalibration (VQSR) method<sup><xref ref-type="bibr" rid="CR29">29</xref></sup></td><td colspan="1" rowspan="1"><p>Annotations of MQRankSum, QD, FS, ReadPosRankSum, MQ and SOR in adaptive error model.</p><p>HapMap3.3, Omni2.5 and 1000 G phase high confidence snp calls used as training sites with HapMap3.3 and Omni2.5 as truth set.</p><p>0.5% false negative rate</p></td></tr><tr><td colspan="1" rowspan="1">Indel Variant Filtering</td><td colspan="1" rowspan="1">Variant Quality Score Recalibration (VQSR) method<sup><xref ref-type="bibr" rid="CR29">29</xref></sup></td><td colspan="1" rowspan="1"><p>Annotations of FS, ReadPosRankSum, MQRankSum, QD and SOR in adaptive error model (4 max Gaussians allowed).</p><p>Curated indels: Mills_and_1000G_gold_standard.indels.b37.vcf</p><p>1% false negative rate</p></td></tr><tr><td colspan="1" rowspan="1">Additional VCF file creation</td><td colspan="1" rowspan="1">CalculateGenotypePosteriors</td><td colspan="1" rowspan="1"><p>ALL.wgs.phase3_shapeit2_mvncall_integrated_calls.vcf</p><p>ExAC.r0.3.-sites.vep.vcf 5.20130502.sites.vcf</p></td></tr><tr><td colspan="1" rowspan="1">Variant annotation</td><td colspan="1" rowspan="1">Annovar (v 2013_02_2)<sup><xref ref-type="bibr" rid="CR30">30</xref></sup></td><td colspan="1" rowspan="1"/></tr></tbody></table></table-wrap></p>
+        </sec>
+        <sec id="Sec9">
+          <title>RNA-Sequencing</title>
+          <p id="Par24">RNA was isolated from flash-frozen tumor specimens by grinding each with a mortar and pestle while frozen with liquid nitrogen. RNA was isolated using the RNeasy Mini Kit (Qiagen Cat No: 74104) and quantified and quality confirmed via a NanoDrop 2000 spectrophotometer. For each sample, paired-end RNA-Seq data run in eight lanes was concatenated into two fastq files. For each sample, paired-end RNA-Seq data were converted from bam files to two fastq files using <italic toggle="yes">BEDtools</italic><sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Quality control was performed using <italic toggle="yes">FastQC</italic> and combined into one file utilizing <italic toggle="yes">MultiQC</italic><sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. The report was uploaded to Synapse. One sample (2-025 Neurofibroma) was found to have high a percentage of duplication (&gt;90%) and was therefore removed from the study, which leaves 28 samples in total. Alignment was performed using <italic toggle="yes">Salmon</italic> (0.11.3)<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> and aligned with <italic toggle="yes">gencode</italic> (version 29). The raw counts matrix was assembled by importing the output files of Salmon alignment via <italic toggle="yes">tximport</italic>. The alignment output files and the raw counts matrix were uploaded to Synapse<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> and is also harmonized with previously-sequenced pNF cell culture data<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. The analysis code is freely available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/Sage-Bionetworks/JHU-biobank">https://github.com/Sage-Bionetworks/JHU-biobank</ext-link> with a versioned repository available at Zenodo<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>.</p>
+        </sec>
+      </sec>
+      <sec id="Sec10">
+        <title>Data Records</title>
+        <p id="Par25">All de-identified data can be retrieved from the project site on the Synapse platform (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://synapse.org/jhubiobank">http://synapse.org/jhubiobank</ext-link>)<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. The project page describes the details of the project as well as how to gain access to the data. At the time of this publication, the site includes RNA and DNA data from 23 patients, as described in Table <xref rid="Tab2" ref-type="table">2</xref>. Clinical metadata is available on the Synapse data site<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Samples characterized via exome-seq and RNA-seq are described in Table <xref rid="Tab3" ref-type="table">3</xref>.<table-wrap id="Tab2" position="float" orientation="portrait"><label>Table 2</label><caption><p>List of patients and clinical variables.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1">Patient ID</th><th colspan="1" rowspan="1">Dermal Neurofibromas</th><th colspan="1" rowspan="1">Plexiform Neurofibromas</th><th colspan="1" rowspan="1">Optic Glioma</th><th colspan="1" rowspan="1">MPNST</th><th colspan="1" rowspan="1">NF1 Diagnosis</th><th colspan="1" rowspan="1">Family Hx of_NF1</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">2-001</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-002</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-003</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Present - One Side</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-004</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Present - One Side</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">11–20 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-005</td><td colspan="1" rowspan="1"> Scattered</td><td colspan="1" rowspan="1">Absent Clinically (no MRI)</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">5–10 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-006</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">11–20 Years Old</td><td colspan="1" rowspan="1">Unknown</td></tr><tr><td colspan="1" rowspan="1">2-007</td><td colspan="1" rowspan="1">Dense</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-009</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">5–10 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-010</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&gt;20 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-012</td><td colspan="1" rowspan="1">Dense</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-013</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-014</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-015</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-016</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-017</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-019</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-021</td><td colspan="1" rowspan="1">Dense</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-023</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">11–20 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-025</td><td colspan="1" rowspan="1">Dense</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">2-026</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-029</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Absent Clinically (no MRI)</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-031</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Unknown</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">&lt;5 Years Old</td><td colspan="1" rowspan="1">No</td></tr><tr><td colspan="1" rowspan="1">2-032</td><td colspan="1" rowspan="1">Scattered</td><td colspan="1" rowspan="1">Present</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">Absent</td><td colspan="1" rowspan="1">N/A</td><td colspan="1" rowspan="1">Yes</td></tr></tbody></table></table-wrap><table-wrap id="Tab3" position="float" orientation="portrait"><label>Table 3</label><caption><p>Samples characterized via sequencing.</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Patient ID</th><th colspan="9" rowspan="1">Exome-Seq</th><th colspan="8" rowspan="1">RNA-Seq</th></tr><tr><th colspan="1" rowspan="1">Normal/ germline</th><th colspan="1" rowspan="1">Neuro-fibroma (NF)</th><th colspan="1" rowspan="1">NF cell line</th><th colspan="1" rowspan="1">plexiform neuro-fibroma (pNF)</th><th colspan="1" rowspan="1">pNF cell line</th><th colspan="1" rowspan="1">pNF PDX</th><th colspan="1" rowspan="1">MPNST</th><th colspan="1" rowspan="1">MPNST cell line</th><th colspan="1" rowspan="1">MPNST PDX</th><th colspan="1" rowspan="1">Neuro-fibroma (NF)</th><th colspan="1" rowspan="1">NF cell line</th><th colspan="1" rowspan="1">plexiform neuro-fibroma (pNF)</th><th colspan="1" rowspan="1">pNF cell line</th><th colspan="1" rowspan="1">pNF PDX</th><th colspan="1" rowspan="1">MPNST</th><th colspan="1" rowspan="1">MPNST cell line</th><th colspan="1" rowspan="1">MPNST PDX</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">2-001</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-002</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td></tr><tr><td colspan="1" rowspan="1">2-003</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-004</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-005</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-006</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-007</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-009</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td></tr><tr><td colspan="1" rowspan="1">2-010</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-012</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-013</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-014</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-015</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-016</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-017</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-019</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-021</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-023</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-025</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-026</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-029</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-031</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">2-032</td><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">x</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr></tbody></table></table-wrap></p>
+      </sec>
+      <sec id="Sec11">
+        <title>Technical Validation</title>
+        <p id="Par26">We evaluated the genetic fidelity of the PDX and cell line models by comparing mutational profiles of commonly mutated genes<sup><xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR25">25</xref></sup> from the exome-seq data to showcase that the mutational profiles between the original tumor were maintained in the cell line and the PDX model, depicted in Fig. <xref rid="Fig3" ref-type="fig">3a</xref>. For the entire cohort sequenced using WES, NF1 alterations are shown, as well as genes commonly mutated in plexiform neurofibroma and MPNST, including <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">TP53</italic>, <italic toggle="yes">EED</italic>/ <italic toggle="yes">SUZ12</italic>, and <italic toggle="yes">ATRX</italic>, among others. Mutations in PRC2 complex genes are notably absent, other than in the single MPNST sample, consistent with current literature. Additional PDX and cell line models have been generated, and sequencing data from these will be released publicly once available.<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><p>Genomic profile of patient blood, tumor, and patient-derived cell line and xenograft samples. (<bold>a</bold>)Genomic alterations in commonly mutated genes across all samples for which there are sequencing data. Gene names are listed along the left, with the percent of samples in which that gene is mutated on the right. Sample metadata are located at the bottom of the figure. Common variants not included in the plot. (<bold>b</bold>) Legend for panel a. (<bold>c</bold>) Plots from copy ratio analysis of all chromosomes in the four samples derived from patient 2-031. (<bold>d</bold>) Top panel shows a diagrammatic representation of Chromosome 17 with NF1 locus highlighted by a yellow arrow (adapted from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ghr.nlm.nih.gov/gene/NF1#location">https://ghr.nlm.nih.gov/gene/NF1#location</ext-link>). The bottom four panels are high resolution visualizations of Chromosome 17 in 2-031 specimens showing a reduction in copy ratio at the NF1 locus (indicated by black arrows) in the MPNST tumor sample, the derived cell line, and the xenograft.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d30e2191" position="float" orientation="portrait" xlink:href="41597_2020_508_Fig3_HTML.jpg"/></fig></p>
+        <p id="Par27">In addition to measuring single nucleotide variants (SNVs), we also measured copy ratio alterations to ensure that the cell line and xenograft models recapitulated the genomic profile of the original sample. Figure <xref rid="Fig3" ref-type="fig">3c</xref> shows plots of the copy ratios of all chromosomes in the various samples derived from patient 2-031. Figure <xref rid="Fig3" ref-type="fig">3d</xref> shows a higher resolution plot of the copy ratio specifically in Chromosome 17. There was a detectable reduction in copy ratio (CR) near the NF1 locus (CR of blood = 1, CR of tumor = 0.5). This reduction in copy ratio around the NF1 locus in the tumor tissue, indicated by the black arrow, was preserved across the cell line and xenograft models derived from the same patient.</p>
+        <p id="Par28">For technical validation of RNA-seq data, the quality of RNA-seq data was re-evaluated in-silico after the initial quality control during sequencing. The z-scored total counts per gene were plotted (Fig. <xref rid="Fig4" ref-type="fig">4a</xref><bold>)</bold> to show that the number of reads per gene were similarly distributed across all samples thus confirming that samples were of analytical quality.<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><p>Technical validation of RNA-seq data. (<bold>a</bold>) Boxplot of normalized counts (zScores) for each gene for each dataset. (<bold>b</bold>) Depicts the first two principal components of each sample, colored by tumor type. Shape represents whether the sample is a cell line (circle), xenograft (square), or tumor tissue (triangle).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d30e2221" position="float" orientation="portrait" xlink:href="41597_2020_508_Fig4_HTML.jpg"/></fig></p>
+        <sec id="Sec12">
+          <title>Future directions</title>
+          <p id="Par29">The JH NF1 biospecimen repository is an active and ongoing effort to collect and preserve tumor samples from patients with NF1, and to use these tumors for the generation of novel research tools including patient-derived cell lines and xenografts suitable for ongoing biological research and preclinical drug studies. This paper details the methods of our efforts, and with its publication, the release of data from the first cohort of specimens sequenced using RNA and whole exome sequencing. We continue to collect available samples and remain dedicated to this effort as a high research priority. A second cohort of samples is currently undergoing sequencing, and includes exome sequencing for 51 samples and RNA sequencing for 28 additional samples. These data will be made publicly available using the Synapse database, as will future data as our efforts continue. We are grateful to the NF1 research community for the recognition that the samples and their associated genomic data have received to date, and we are enthusiastic about future work in this arena.</p>
+        </sec>
+      </sec>
+      <sec id="Sec13">
+        <title>Usage Notes</title>
+        <p id="Par30">All data can be found on the Biobank Synapse project page at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://synapse.og/jhubiobank">http://synapse.org/jhubiobank</ext-link> <sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. The data are freely available to qualified researchers upon request for access, following the instructions described on the project page.</p>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+      </fn-group>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>The JH NF1 biospecimen repository is supported by a grant from the Neurofibromatosis Therapeutic Acceleration Program (NTAP, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.n-tap.org/">http://www.n-tap.org/</ext-link>) to C.A.P. Analysis by Sage Bionetworks is supported through the Neurofibromatosis Therapeutic Acceleration Program (NTAP, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.n-tap.org/">http://www.n-tap.org/</ext-link>). Whole exome sequencing and RNA sequencing was conducted at the Genetic Resources Core Facility, Johns Hopkins Institute of Genetic Medicine, Baltimore, MD. All logos used in Fig. 1 were confirmed to be freely available for reuse. The DNA icon in Fig. 1 was licensed under CC BY-NC 4.0 and the test tube icon made freely available by <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.flaticon.com">www.flaticon.com</ext-link>. The authors acknowledge Dennis Zechman, Jr. for assistance with graphical design.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>K.P. specimen handling and clinical annotation, oversight of data integrity. D.M.L., J.O.B. and C.A.P. concept, design and scientific oversight. J.O.B., B.L.S., S.M.L. C.F.M., C.D.M. and A.J.B.: patient care and acquisition of specimens. J.O.B., B.L.S., S.M.L. and F.J.R. assignment of clinical diagnosis, verification of accuracy of specimen diagnosis. X.G, X.D, J.B, R.A. and S.G.: data curation and bioinformatic analysis. K.P., J.B., J.W., C.A.P. and S. G.: generation of figures. C.A.P. and S.G.: manuscript writing. All authors: final review of manuscript.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Code availability</title>
+        <p>A Github repository (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://github.com/sage-bionetworks/JHU-biobank">http://github.com/sage-bionetworks/JHU-biobank</ext-link>) con tains the codes required to generate the figures with a versioned repository available at Zenodo<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. The tutorials are provided in R and Python languages, contained in the r_demos and py_demos directories respectively. All of the analytical code is provided in the directory marked “analysis”. Additionally, we have provided Docker containers and R scripts to facilitate reproducibility of the figures in the paper.</p>
+      </notes>
+      <notes id="FPar1" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par31">The authors declare no competing interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Korf</surname>
+                <given-names>BR</given-names>
+              </name>
+            </person-group>
+            <article-title>Plexiform neurofibromas</article-title>
+            <source>Am. J. Med. Genet.</source>
+            <year>1999</year>
+            <volume>89</volume>
+            <fpage>31</fpage>
+            <lpage>37</lpage>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(SICI)1096-8628(19990326)89:1&amp;#x0003c;31::AID-AJMG7&amp;#x0003e;3.0.CO;2-W</pub-id>
+            <pub-id pub-id-type="pmid">10469434</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Johnson</surname>
+                <given-names>JI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Relationships between drug activity in NCI preclinical <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo</italic> models and early clinical trials</article-title>
+            <source>Br. J. Cancer</source>
+            <year>2001</year>
+            <volume>84</volume>
+            <fpage>1424</fpage>
+            <lpage>1431</lpage>
+            <pub-id pub-id-type="doi">10.1054/bjoc.2001.1796</pub-id>
+            <pub-id pub-id-type="pmid">11355958</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2363645</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tentler</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Patient-derived tumour xenografts as models for oncology drug development</article-title>
+            <source>Nat. Rev. Clin. Oncol.</source>
+            <year>2012</year>
+            <volume>9</volume>
+            <fpage>338</fpage>
+            <lpage>350</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrclinonc.2012.61</pub-id>
+            <pub-id pub-id-type="pmid">22508028</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3928688</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cichowski</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mouse models of tumor development in neurofibromatosis type 1</article-title>
+            <source>Science</source>
+            <year>1999</year>
+            <volume>286</volume>
+            <fpage>2172</fpage>
+            <lpage>2176</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.286.5447.2172</pub-id>
+            <pub-id pub-id-type="pmid">10591652</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Le</surname>
+                <given-names>LQ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Parada</surname>
+                <given-names>LF</given-names>
+              </name>
+            </person-group>
+            <article-title>Tumor microenvironment and neurofibromatosis type I: connecting the GAPs</article-title>
+            <source>Oncogene</source>
+            <year>2007</year>
+            <volume>26</volume>
+            <fpage>4609</fpage>
+            <lpage>4616</lpage>
+            <pub-id pub-id-type="doi">10.1038/sj.onc.1210261</pub-id>
+            <pub-id pub-id-type="pmid">17297459</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2760340</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <mixed-citation publication-type="other">N.C.I. National Cancer Institute (NCI); Division of Cancer Treatment &amp; Diagnosis. <italic toggle="yes">Cancer Diagnosis Program — BBRB Biorepositories &amp; Biospecimen Research Branch: Best Practices</italic>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://biospecimens.cancer.gov/bestpractices/">https://biospecimens.cancer.gov/bestpractices/</ext-link> (2018).</mixed-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Allaway</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Engaging a community to enable disease-centric data sharing with the NF Data Portal</article-title>
+            <source>Sci. Data</source>
+            <year>2019</year>
+            <volume>6</volume>
+            <fpage>319</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41597-019-0317-x</pub-id>
+            <pub-id pub-id-type="pmid">31836719</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6910996</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gosline</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A high-throughput molecular data resource for cutaneous neurofibromas</article-title>
+            <source>Sci. Data</source>
+            <year>2017</year>
+            <volume>4</volume>
+            <fpage>170045</fpage>
+            <pub-id pub-id-type="doi">10.1038/sdata.2017.45</pub-id>
+            <pub-id pub-id-type="pmid">28398289</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5387919</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ferrer</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pharmacological and genomic profiling of neurofibromatosis type 1 plexiform neurofibroma-derived schwann cells</article-title>
+            <source>Sci. Data</source>
+            <year>2018</year>
+            <volume>5</volume>
+            <fpage>180106</fpage>
+            <pub-id pub-id-type="doi">10.1038/sdata.2018.106</pub-id>
+            <pub-id pub-id-type="pmid">29893754</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5996849</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fisher</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A scalable, fully automated process for construction of sequence-ready human exome targeted capture libraries</article-title>
+            <source>Genome Biol.</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>R1</fpage>
+            <pub-id pub-id-type="doi">10.1186/gb-2011-12-1-r1</pub-id>
+            <pub-id pub-id-type="pmid">21205303</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3091298</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <mixed-citation publication-type="other"><italic toggle="yes">(How to part I) Sensitively detect copy ratio alterations and allelic segments</italic>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://software.broadinstitute.org/gatk/documentation/article?id=11682">https://software.broadinstitute.org/gatk/documentation/article?id=11682</ext-link> (2018).</mixed-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Poplin</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A universal SNP and small-indel variant caller using deep neural networks</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>983</fpage>
+            <lpage>987</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.4235</pub-id>
+            <pub-id pub-id-type="pmid">30247488</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <mixed-citation publication-type="other">Quinlan, A. R. BEDTools: The Swiss-Army Tool for Genome Feature Analysis. <italic toggle="yes">Curr Protoc Bioinformatics</italic><bold>47</bold>, 11 12 11-34, 10.1002/0471250953.bi1112s47 (2014).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/0471250953.bi1112s47</pub-id><pub-id pub-id-type="pmcid">PMC4213956</pub-id><pub-id pub-id-type="pmid">25199790</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wingett</surname>
+                <given-names>SW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Andrews</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>FastQ Screen: A tool for multi-genome mapping and quality control</article-title>
+            <source>F1000Res</source>
+            <year>2018</year>
+            <volume>7</volume>
+            <fpage>1338</fpage>
+            <pub-id pub-id-type="doi">10.12688/f1000research.15931.2</pub-id>
+            <pub-id pub-id-type="pmid">30254741</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6124377</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Patro</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Duggal</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Love</surname>
+                <given-names>MI</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Irizarry</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kingsford</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Salmon provides fast and bias-aware quantification of transcript expression</article-title>
+            <source>Nat. Methods</source>
+            <year>2017</year>
+            <volume>14</volume>
+            <fpage>417</fpage>
+            <lpage>419</lpage>
+            <pub-id pub-id-type="doi">10.1038/nmeth.4197</pub-id>
+            <pub-id pub-id-type="pmid">28263959</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5600148</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="data">
+            <name name-style="western">
+              <surname>Pollard</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+            <year>2020</year>
+            <data-title>JHU Biobank raw counts</data-title>
+            <source>Synapse</source>
+            <pub-id pub-id-type="doi">10.7303/syn19522967</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="data">
+            <name name-style="western">
+              <surname>Pollard</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+            <year>2020</year>
+            <data-title>JHU Biobank harmonized RNAseq counts and metadata</data-title>
+            <source>Synapse</source>
+            <pub-id pub-id-type="doi">10.7303/syn20812185.1</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <mixed-citation publication-type="other">Gosline, S. B., J; Allaway, R; Guo, X; Doan, X. Sage-Bionetworks/JHU-biobank: JHU Biobank Code Repository. <italic toggle="yes">Zenodo</italic>10.5281/zenodo.3726380 (2020).</mixed-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="data">
+            <name name-style="western">
+              <surname>Pratilas</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pollard</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names>J</given-names>
+            </name>
+            <year>2020</year>
+            <data-title>A Nerve Sheath Tumor Bank from Patients with NF1</data-title>
+            <source>Synapse</source>
+            <pub-id pub-id-type="doi">10.7303/syn4939902</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kourea</surname>
+                <given-names>HP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Orlow</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scheithauer</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cordon-Cardo</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Woodruff</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Deletions of the INK4A gene occur in malignant peripheral nerve sheath tumors but not in neurofibromas</article-title>
+            <source>Am. J. Pathol.</source>
+            <year>1999</year>
+            <volume>155</volume>
+            <fpage>1855</fpage>
+            <lpage>1860</lpage>
+            <pub-id pub-id-type="doi">10.1016/S0002-9440(10)65504-6</pub-id>
+            <pub-id pub-id-type="pmid">10595915</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1866948</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors</article-title>
+            <source>Nat. Genet.</source>
+            <year>2014</year>
+            <volume>46</volume>
+            <fpage>1227</fpage>
+            <lpage>1232</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3095</pub-id>
+            <pub-id pub-id-type="pmid">25240281</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4249650</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Somatic mutations of SUZ12 in malignant peripheral nerve sheath tumors</article-title>
+            <source>Nat. Genet.</source>
+            <year>2014</year>
+            <volume>46</volume>
+            <fpage>1170</fpage>
+            <lpage>1172</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3116</pub-id>
+            <pub-id pub-id-type="pmid">25305755</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4383254</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hirbe</surname>
+                <given-names>AC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>BRAFV600E mutation in sporadic and neurofibromatosis type 1-related malignant peripheral nerve sheath tumors</article-title>
+            <source>Neuro Oncol.</source>
+            <year>2014</year>
+            <volume>16</volume>
+            <fpage>466</fpage>
+            <lpage>467</lpage>
+            <pub-id pub-id-type="doi">10.1093/neuonc/not248</pub-id>
+            <pub-id pub-id-type="pmid">24366910</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3922521</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Carroll</surname>
+                <given-names>SL</given-names>
+              </name>
+            </person-group>
+            <article-title>The Challenge of Cancer Genomics in Rare Nervous System Neoplasms: Malignant Peripheral Nerve Sheath Tumors as a Paradigm for Cross-Species Comparative Oncogenomics</article-title>
+            <source>Am. J. Pathol.</source>
+            <year>2016</year>
+            <volume>186</volume>
+            <fpage>464</fpage>
+            <lpage>477</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ajpath.2015.10.023</pub-id>
+            <pub-id pub-id-type="pmid">26740486</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4816695</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hirbe</surname>
+                <given-names>AC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clinical genomic profiling identifies TYK2 mutation and overexpression in patients with neurofibromatosis type 1-associated malignant peripheral nerve sheath tumors</article-title>
+            <source>Cancer</source>
+            <year>2017</year>
+            <volume>123</volume>
+            <fpage>1194</fpage>
+            <lpage>1201</lpage>
+            <pub-id pub-id-type="doi">10.1002/cncr.30455</pub-id>
+            <pub-id pub-id-type="pmid">27875628</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6591019</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <mixed-citation publication-type="other">Li, H. Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. ArXiv, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://arxiv.org/abs/1303.3997">https://arxiv.org/abs/1303.3997</ext-link> (2013).</mixed-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Sequence Alignment/Map format and SAMtools</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>2078</fpage>
+            <lpage>2079</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btp352</pub-id>
+            <pub-id pub-id-type="pmid">19505943</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2723002</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McKenna</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+            <source>Genome Res.</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>1297</fpage>
+            <lpage>1303</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id>
+            <pub-id pub-id-type="pmid">20644199</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>DePristo</surname>
+                <given-names>MA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A framework for variation discovery and genotyping using next-generation DNA sequencing data</article-title>
+            <source>Nat. Genet.</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>491</fpage>
+            <lpage>498</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.806</pub-id>
+            <pub-id pub-id-type="pmid">21478889</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3083463</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hakonarson</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2010</year>
+            <volume>38</volume>
+            <fpage>e164</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkq603</pub-id>
+            <pub-id pub-id-type="pmid">20601685</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2938201</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

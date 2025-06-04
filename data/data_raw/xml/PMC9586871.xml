@@ -1,0 +1,1768 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Cancer</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Cancer</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">981</journal-id>
+        <journal-id journal-id-type="pmc-domain">npgopen</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Cancer</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2662-1347</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>Nature Portfolio</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC9586871</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC9586871.1</article-id>
+        <article-id pub-id-type="pmcaid">9586871</article-id>
+        <article-id pub-id-type="pmcaiid">9586871</article-id>
+        <article-id pub-id-type="pmid">36038778</article-id>
+        <article-id pub-id-type="doi">10.1038/s43018-022-00416-8</article-id>
+        <article-id pub-id-type="publisher-id">416</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Multimodal integration of radiology, pathology and genomics for prediction of response to PD-(L)1 blockade in patients with non-small cell lung cancer</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Vanguri</surname>
+              <given-names initials="RS">Rami S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3606-827X</contrib-id>
+            <name name-style="western">
+              <surname>Luo</surname>
+              <given-names initials="J">Jia</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1944-769X</contrib-id>
+            <name name-style="western">
+              <surname>Aukerman</surname>
+              <given-names initials="AT">Andrew T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Egger</surname>
+              <given-names initials="JV">Jacklynn V.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fong</surname>
+              <given-names initials="CJ">Christopher J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Horvat</surname>
+              <given-names initials="N">Natally</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pagano</surname>
+              <given-names initials="A">Andrew</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Araujo-Filho</surname>
+              <given-names initials="JDAB">Jose de Arimateia Batista</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Geneslaw</surname>
+              <given-names initials="L">Luke</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rizvi</surname>
+              <given-names initials="H">Hira</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sosa</surname>
+              <given-names initials="R">Ramon</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2426-5436</contrib-id>
+            <name name-style="western">
+              <surname>Boehm</surname>
+              <given-names initials="KM">Kevin M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names initials="SR">Soo-Ryum</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bodd</surname>
+              <given-names initials="FM">Francis M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ventura</surname>
+              <given-names initials="K">Katia</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1599-0433</contrib-id>
+            <name name-style="western">
+              <surname>Hollmann</surname>
+              <given-names initials="TJ">Travis J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ginsberg</surname>
+              <given-names initials="MS">Michelle S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="J">Jianjiong</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author" id="IAu1">
+            <collab>MSK MIND Consortium<contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Vanguri</surname><given-names initials="R">Rami</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib></contrib-group></collab>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hellmann</surname>
+              <given-names initials="MD">Matthew D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6987-2294</contrib-id>
+            <name name-style="western">
+              <surname>Sauter</surname>
+              <given-names initials="JL">Jennifer L.</given-names>
+            </name>
+            <address>
+              <email>sauterj@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6402-523X</contrib-id>
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="SP">Sohrab P.</given-names>
+            </name>
+            <address>
+              <email>shahs3@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Computational Oncology, Department of Epidemiology and Biostatistics, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Thoracic Oncology Service, Division of Solid Tumor Oncology, Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Druckenmiller Center for Lung Cancer Research, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Radiology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology and Laboratory Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff6"><label>6</label>Weill Cornell/Rockefeller/Sloan Kettering Tri-Institutional MD-PhD Program, New York, NY USA </aff>
+          <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.489192.f</institution-id><institution-id institution-id-type="ISNI">0000 0004 7782 4884</institution-id><institution>Parker Institute for Cancer Immunotherapy, </institution></institution-wrap>San Francisco, CA USA </aff>
+          <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Kravis Center for Molecular Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>29</day>
+          <month>8</month>
+          <year>2022</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <year>2022</year>
+        </pub-date>
+        <volume>3</volume>
+        <issue>10</issue>
+        <issue-id pub-id-type="pmc-issue-id">419660</issue-id>
+        <fpage>1151</fpage>
+        <lpage>1164</lpage>
+        <history>
+          <date date-type="received">
+            <day>6</day>
+            <month>1</month>
+            <year>2022</year>
+          </date>
+          <date date-type="accepted">
+            <day>29</day>
+            <month>6</month>
+            <year>2022</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>29</day>
+              <month>08</month>
+              <year>2022</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>23</day>
+              <month>10</month>
+              <year>2022</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-09-21 16:25:26.393">
+              <day>21</day>
+              <month>09</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2022</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="43018_2022_Article_416.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Immunotherapy is used to treat almost all patients with advanced non-small cell lung cancer (NSCLC); however, identifying robust predictive biomarkers remains challenging. Here we show the predictive capacity of integrating medical imaging, histopathologic and genomic features to predict immunotherapy response using a cohort of 247 patients with advanced NSCLC with multimodal baseline data obtained during diagnostic clinical workup, including computed tomography scan images, digitized programmed death ligand-1 immunohistochemistry slides and known outcomes to immunotherapy. Using domain expert annotations, we developed a computational workflow to extract patient-level features and used a machine-learning approach to integrate multimodal features into a risk prediction model. Our multimodal model (area under the curve (AUC) = 0.80, 95% confidence interval (CI) 0.74–0.86) outperformed unimodal measures, including tumor mutational burden (AUC = 0.61, 95% CI 0.52–0.70) and programmed death ligand-1 immunohistochemistry score (AUC = 0.73, 95% CI 0.65–0.81). Our study therefore provides a quantitative rationale for using multimodal features to improve prediction of immunotherapy response in patients with NSCLC using expert-guided machine learning.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">Shah and colleagues used machine learning to integrate features from computed tomography scan images, programmed death ligand-1 (PD-L1) immunohistochemistry and genomics into a multimodal predictor of response to anti-PD(L)1 in patients with NSCLC that outperformed single features such as tumor mutational burden.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Non-small-cell lung cancer</kwd>
+          <kwd>Tumour biomarkers</kwd>
+          <kwd>Cancer</kwd>
+          <kwd>Machine learning</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000054</institution-id>
+                <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>F30CA257414</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <award-id>P30CA008748</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Vanguri</surname>
+                <given-names>Rami S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Luo</surname>
+                <given-names>Jia</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Aukerman</surname>
+                <given-names>Andrew T.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Egger</surname>
+                <given-names>Jacklynn V.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fong</surname>
+                <given-names>Christopher J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Horvat</surname>
+                <given-names>Natally</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pagano</surname>
+                <given-names>Andrew</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Araujo-Filho</surname>
+                <given-names>Jose de Arimateia Batista</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Geneslaw</surname>
+                <given-names>Luke</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rizvi</surname>
+                <given-names>Hira</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sosa</surname>
+                <given-names>Ramon</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Boehm</surname>
+                <given-names>Kevin M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>Soo-Ryum</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bodd</surname>
+                <given-names>Francis M.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ventura</surname>
+                <given-names>Katia</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hollmann</surname>
+                <given-names>Travis J.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ginsberg</surname>
+                <given-names>Michelle S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>Jianjiong</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hellmann</surname>
+                <given-names>Matthew D.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sauter</surname>
+                <given-names>Jennifer L.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shah</surname>
+                <given-names>Sohrab P.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>Cycle for Survival</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000057</institution-id>
+                <institution>U.S. Department of Health &amp; Human Services | NIH | National Institute of General Medical Sciences (NIGMS)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>T32GM007739</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Boehm</surname>
+                <given-names>Kevin M.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>Grayer Fellowship (MSKCC), Cycle for Survival</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>Susan G. Komen Scholars Program, Cycle for Survival</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s), under exclusive licence to Springer Nature America, Inc. 2022</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1">
+        <title>Main</title>
+        <p id="Par3">Immunotherapies blocking programmed cell death protein 1 (PD-1) and its ligand (PD-L1)<sup><xref ref-type="bibr" rid="CR1">1</xref></sup> to activate and reinvigorate cytotoxic antitumor T cells<sup><xref ref-type="bibr" rid="CR2">2</xref></sup> have rapidly altered the treatment landscape of NSCLC<sup><xref ref-type="bibr" rid="CR3">3</xref>–<xref ref-type="bibr" rid="CR8">8</xref></sup>. In just 4 years, PD-1/PD-L1 pathway blockade (abbreviated as PD-(L)1) therapy has become a routine component of treatment for nearly all patients and is now being tested in earlier stages of lung cancer and in combination with other therapies<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>. These treatments represent a potential for long-term, durable benefit for a subset of individuals with advanced lung cancer<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref></sup>. Consequently, there is a need to develop predictive biomarkers.</p>
+        <p id="Par4">Multiple independent analyses have pinpointed individual baseline clinical features as potential independent predictors of response (such as antibiotic use<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>, systemic steroid use<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> and neutrophil-to-lymphocyte ratio at diagnosis<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>), individual genomic alterations (including mutations in <italic toggle="yes">EGFR</italic><sup><xref ref-type="bibr" rid="CR16">16</xref></sup> and <italic toggle="yes">STK11</italic> (ref. <sup><xref ref-type="bibr" rid="CR17">17</xref></sup>)) and densities of intratumoral cytotoxic T-cell populations<sup><xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR20">20</xref></sup>. Currently there are only two US Food and Drug Administration (FDA)-approved predictive biomarkers for immunotherapy in NSCLC: tumor PD-L1 expression assessed by immunohistochemistry (IHC)<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> and tumor mutation burden (TMB)<sup><xref ref-type="bibr" rid="CR22">22</xref>–<xref ref-type="bibr" rid="CR24">24</xref></sup>; however, they are only modestly helpful. For example, PD-L1 expression only modestly distinguished long-term response in the 5-year overall survival (OS) report of Keynote-001 (ref. <sup><xref ref-type="bibr" rid="CR12">12</xref></sup>).</p>
+        <p id="Par5">In contrast to previous approaches<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>, we sought to develop a model that integrates and synthesizes multimodal data routinely obtained during clinical care to predict response to immunotherapy. Patients diagnosed with advanced NSCLC undergo standard-of-care tests, which generate valuable data such as PD-L1 expression patterns in diagnostic tumor biopsies<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> and radiological computed tomography (CT) images used in the staging of lung cancer<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. The raw data from these modalities are amenable to automated feature extraction with machine learning and image analysis tools. Accordingly, machine-learning-based integration of these modalities represents an opportunity to advance precision oncology for PD-(L)1 blockade by computing patient specific risk scores<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Previous work on automated deep-learning methods to predict immunotherapy outcomes from CT scans has shown predictive capacity from specific lesion types<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. One previous study uses CT scans, laboratory data and clinical data to predict NSCLC immunotherapy outcomes, but incorporates only <italic toggle="yes">EGFR</italic> and <italic toggle="yes">KRAS</italic> mutational status<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. However, in general, the relative predictive capacity of unimodal histology, radiology, genomic and clinical features compared to an integrated model remains poorly understood. This is in part due to a lack of datasets with multiple modalities available from the same set of patients from which systematic evaluation can be undertaken. Here, we present a multidisciplinary study on a rigorously curated multimodal cohort of 247 patients with NSCLC treated with PD-(L)1 blockade to develop a dynamic deep attention-based multiple-instance learning model with masking (DyAM), to predict immunotherapy response. We present a quantitative evaluation and predictive capacity of an adaptively weighted multimodal approach relative to the unimodal features derived from histology, radiology, genomics and standard-of-care approved biomarkers.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Clinical characteristics of patients with NSCLC who received PD-(L)1 blockade</title>
+          <p id="Par6">We identified 247 patients at Memorial Sloan Kettering (MSK) Cancer Center with advanced NSCLC who received PD-(L)1-blockade-based therapy with baseline data and known outcomes between 2014 and 2019 (cohort characteristics are shown in Table <xref rid="Tab1" ref-type="table">1</xref> and Fig. <xref rid="Fig1" ref-type="fig">1a–c</xref>), referred to as the multimodal cohort. As only 25% of the cohort responded to immunotherapy (consistent with real-world proportions), we consistently use class-balancing in our predictive models.<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>Patient characteristics of the three orthogonal cohorts used in this study: multimodal, radiology and pathology</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1">Characteristics</th><th colspan="1" rowspan="1">Multimodal</th><th colspan="1" rowspan="1">Radiology</th><th colspan="1" rowspan="1">Pathology</th></tr><tr><th colspan="1" rowspan="1"/><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 247)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 50)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 52)</th></tr><tr><th colspan="1" rowspan="1"/><th colspan="1" rowspan="1"><italic toggle="yes">n</italic> (%)</th><th colspan="1" rowspan="1"><italic toggle="yes">n</italic> (%)</th><th colspan="1" rowspan="1"><italic toggle="yes">n</italic> (%)</th></tr></thead><tbody><tr><td colspan="1" rowspan="1"><bold>Age, median (range)</bold></td><td colspan="1" rowspan="1">68 (38–93)</td><td colspan="1" rowspan="1">67 (45–86)</td><td colspan="1" rowspan="1">71 (30–89)</td></tr><tr><td colspan="1" rowspan="1"><bold>Sex</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Male</td><td colspan="1" rowspan="1">113 (46)</td><td colspan="1" rowspan="1">24 (48)</td><td colspan="1" rowspan="1">23 (44)</td></tr><tr><td colspan="1" rowspan="1">Female</td><td colspan="1" rowspan="1">134 (54)</td><td colspan="1" rowspan="1">26 (52)</td><td colspan="1" rowspan="1">29 (56)</td></tr><tr><td colspan="1" rowspan="1"><bold>Performance status</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">ECOG 0/1</td><td colspan="1" rowspan="1">222 (90)</td><td colspan="1" rowspan="1">25 (50)</td><td colspan="1" rowspan="1">49 (94)</td></tr><tr><td colspan="1" rowspan="1">ECOG ≥2</td><td colspan="1" rowspan="1">25 (10)</td><td colspan="1" rowspan="1">25 (50)</td><td colspan="1" rowspan="1">3 (6)</td></tr><tr><td colspan="1" rowspan="1"><bold>Smoking status</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Current/former</td><td colspan="1" rowspan="1">218 (88)</td><td colspan="1" rowspan="1">38 (76)</td><td colspan="1" rowspan="1">47 (90)</td></tr><tr><td colspan="1" rowspan="1">Never</td><td colspan="1" rowspan="1">29 (12)</td><td colspan="1" rowspan="1">12 (24)</td><td colspan="1" rowspan="1">5 (10)</td></tr><tr><td colspan="1" rowspan="1"><bold>Histology</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Adenocarcinoma</td><td colspan="1" rowspan="1">195 (79)</td><td colspan="1" rowspan="1">39 (78)</td><td colspan="1" rowspan="1">32 (62)</td></tr><tr><td colspan="1" rowspan="1">Squamous</td><td colspan="1" rowspan="1">37 (15)</td><td colspan="1" rowspan="1">8 (16)</td><td colspan="1" rowspan="1">11 (21)</td></tr><tr><td colspan="1" rowspan="1">Large cell</td><td colspan="1" rowspan="1">7 (3)</td><td colspan="1" rowspan="1">2 (4)</td><td colspan="1" rowspan="1">0 (0)</td></tr><tr><td colspan="1" rowspan="1">NSCLC, NOS</td><td colspan="1" rowspan="1">8 (3)</td><td colspan="1" rowspan="1">1 (2)</td><td colspan="1" rowspan="1">9 (17)</td></tr><tr><td colspan="1" rowspan="1"><bold>Line of therapy</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">78 (32)</td><td colspan="1" rowspan="1">5 (10)</td><td colspan="1" rowspan="1">35 (67)</td></tr><tr><td colspan="1" rowspan="1">2</td><td colspan="1" rowspan="1">136 (55)</td><td colspan="1" rowspan="1">24 (48)</td><td colspan="1" rowspan="1">11 (21)</td></tr><tr><td colspan="1" rowspan="1">≥3</td><td colspan="1" rowspan="1">33 (13)</td><td colspan="1" rowspan="1">21 (42)</td><td colspan="1" rowspan="1">6 (12)</td></tr><tr><td colspan="1" rowspan="1"><bold>Therapy type</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Anti-PD-(L)1 monotherapy</td><td colspan="1" rowspan="1">235 (95)</td><td colspan="1" rowspan="1">48 (96)</td><td colspan="1" rowspan="1">52 (100)</td></tr><tr><td colspan="1" rowspan="1">Anti-PD-(L)1 + CTLA-4 combination</td><td colspan="1" rowspan="1">12 (5)</td><td colspan="1" rowspan="1">2 (4)</td><td colspan="1" rowspan="1">0 (0)</td></tr><tr><td colspan="1" rowspan="1"><bold>PD-L1 expression</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">114 (46)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">0 (0)</td></tr><tr><td colspan="1" rowspan="1">1–49%</td><td colspan="1" rowspan="1">51 (21)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">13 (25)</td></tr><tr><td colspan="1" rowspan="1">≥50%</td><td colspan="1" rowspan="1">82 (33)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">39 (75)</td></tr><tr><td colspan="1" rowspan="1"><bold>Tissue site</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Lung</td><td colspan="1" rowspan="1">109 (44)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">25 (48)</td></tr><tr><td colspan="1" rowspan="1">Pleura/pleural fluid</td><td colspan="1" rowspan="1">19 (8)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">1 (2)</td></tr><tr><td colspan="1" rowspan="1">Lymph node</td><td colspan="1" rowspan="1">45 (18)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">10 (19)</td></tr><tr><td colspan="1" rowspan="1">Liver</td><td colspan="1" rowspan="1">11 (4)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">2 (4)</td></tr><tr><td colspan="1" rowspan="1">Bone</td><td colspan="1" rowspan="1">16 (7)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">3 (6)</td></tr><tr><td colspan="1" rowspan="1">Adrenal</td><td colspan="1" rowspan="1">11 (4)</td><td colspan="1" rowspan="1">–</td><td colspan="1" rowspan="1">1 (2)</td></tr><tr><td colspan="1" rowspan="1">Other</td><td colspan="1" rowspan="1">36 (15)</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">10 (19)</td></tr><tr><td colspan="1" rowspan="1"><bold>TMB</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">≥10 mutations per Mb</td><td colspan="1" rowspan="1">155 (63)</td><td colspan="1" rowspan="1">9 (29)</td><td colspan="1" rowspan="1">22 (58)</td></tr><tr><td colspan="1" rowspan="1">&lt;10 mutations per Mb</td><td colspan="1" rowspan="1">92 (37)</td><td colspan="1" rowspan="1">22 (71)</td><td colspan="1" rowspan="1">16 (42)</td></tr><tr><td colspan="1" rowspan="1"><bold>Best overall response</bold></td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">CR/PR</td><td colspan="1" rowspan="1">62 (25)</td><td colspan="1" rowspan="1">11 (22)</td><td colspan="1" rowspan="1">14 (27)</td></tr><tr><td colspan="1" rowspan="1">SD/PD</td><td colspan="1" rowspan="1">185 (75)</td><td colspan="1" rowspan="1">39 (78)</td><td colspan="1" rowspan="1">38 (73)</td></tr></tbody></table><table-wrap-foot><p>ECOG, Eastern Cooperative Oncology Group; NOS, not otherwise specified.</p></table-wrap-foot></table-wrap><fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Multimodal cohort characteristics and schema outlining the project.</title><p><bold>a</bold>, Multimodal cohort heat map listing clinical, pathological, radiomic and genomic characteristics for <italic toggle="yes">n</italic> = 247 patients. The stacked bar plot shows the number of patients with a genomic alteration, where the colors correspond to alteration types. <bold>b</bold>, Cohort modality overview Venn diagram, with the number of patients exclusively in each category. <bold>c</bold>, Lung cancer histology breakdown. <bold>d</bold>, Distribution of PD-L1 TPS (<italic toggle="yes">n</italic> = 201 patients), TMB (<italic toggle="yes">n</italic> = 247 patients) and number of annotated lesions (<italic toggle="yes">n</italic> = 187 patients) between responders (PR/CR) and nonresponders (SD/PD). The interior box-and-whisker bars show the mean as a white dot, the IQR (25–75%) as a black bar and the minimum and maximum as whiskers up to 1.5 × IQR. <italic toggle="yes">P</italic> values were obtained from a two-sided Mann–Whitney–Wilcoxon test. <bold>e</bold>, Analysis overview using DyAM to integrate multiple modalities to predict immunotherapy response. <bold>f</bold>, Train–test–validate, breakdown and optimization scheme. CV, cross-validation.</p><p><xref rid="MOESM3" ref-type="media">Source data</xref></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1282" position="float" orientation="portrait" xlink:href="43018_2022_416_Fig1_HTML.jpg"/></fig></p>
+          <p id="Par7">Best overall response to PD-(L)1 blockade was retrospectively assessed by thoracic radiologists with RECIST (v.1.1) criteria resulting in 137 (55%) patients with progressive disease (PD), 48 (20%) with stable disease (SD), 56 (23%) with partial response (PR) and 6 (2%) with complete response (CR). In this analysis, the cohort was binarized as responders (CR/PR) and nonresponders (SD/PD), resulting in median progression-free survival (PFS) and OS of 2.7 months (95% CI 2.5–3.0) and 11.4 months (95% CI 10.3–12.8), respectively.</p>
+          <p id="Par8">Two additional cohorts were assembled to validate unimodal features extracted from radiological and histological data, referred to as the radiology (<italic toggle="yes">n</italic> = 50) and pathology (<italic toggle="yes">n</italic> = 52) cohorts, respectively (Table <xref rid="Tab1" ref-type="table">1</xref>). Patients in these two cohorts did not meet the inclusion criteria for the multimodal cohort due to missing data from one of the other modalities.</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Establishing an NSCLC multimodal cohort to predict response</title>
+          <p id="Par9">Standard clinical biomarkers, including PD-L1 tumor proportion score (TPS) and TMB were significantly different between responders and nonresponders in the multimodal cohort; however, classification models using these features were unable to completely separate the two groups (TPS, AUC = 0.73, 95% CI 0.65–0.81; TMB, AUC = 0.61, 95% CI 0.52–0.69; Fig. <xref rid="Fig1" ref-type="fig">1d</xref>). Thus, we assembled routinely collected clinical information, CT scans, digitized PD-L1 IHC in tissue containing NSCLC and genomic features from the MSK-IMPACT clinical sequencing platform<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> for the multimodal cohort. We used these data to establish a multimodal biomarker. We first quantified the predictive capacity of each modality individually, before assembling all available data into a multimodal biomarker to build an algorithm predictive of response (Fig. <xref rid="Fig1" ref-type="fig">1e</xref>). We performed tenfold cross-validation to obtain model predictions for the entire multimodal cohort by merging results from the test sets (Fig. <xref rid="Fig1" ref-type="fig">1f</xref>).</p>
+        </sec>
+        <sec id="Sec5">
+          <title>CT features only modestly separate responders</title>
+          <p id="Par10">Of 247 patients, 187 (76%) had disease that was clearly delineated and separable from adjacent organs. These 187 patients included 163 (87%) with lung parenchymal lesions, 21 (11%) with pleural lesions and 67 (36%) with pathologically enlarged lymph nodes. For each patient, up to six lesions were segmented and site-annotated by three board-certified thoracic radiologists (N.H., A.P. and J.A-F.). To ensure consistency in CT protocols, our analysis was limited to chest imaging with contrast. The mean segmented volume for lung parenchymal, pleural and nodal lesions was 24 (range 0.14–50, interquartile range (IQR) 15–48), 12 (range 0.31–209, IQR 16–26) and 9.4 (range 0.82–42, IQR 37–67) cm<sup>3</sup>, respectively. We extracted robust features from the original radiologist segmentations that were augmented by superpixel-based perturbations (Fig. <xref rid="Fig2" ref-type="fig">2a,b</xref>). Principal-component analysis (PCA) of all radiomics features of the original and perturbed segmentations (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>) showed lesion-wise similarity, indicating broad preservation of the underlying texture and significant differences in the principal component by lesion type. The similarity of radiomics features by lesion type across patients motivated building site-specific classification models. L1-regularized logistic regression (LR) models selected an average of 35, 10 and 25 features from lung parenchymal, pleural and nodal lesions, respectively, which we used for downstream prediction of immunotherapy response (Fig. <xref rid="Fig2" ref-type="fig">2d</xref>). The logistic model built from features derived from pleural nodules alone was unsuccessful outside of training data (AUC = 0.28, 95% CI 0.04–0.52) compared to lung parenchymal nodules (AUC = 0.64, 95% CI 0.54–0.74) and pathologically enlarged lymph nodes (AUC = 0.63, 95% CI 0.49–0.77). The model based on enlarged lymph nodes did not consistently converge, with over 20% of models performing worse than random chance with repeated subsampling. We aggregated the average individual lesion predictions to construct patient-level response predictions, which resulted in an overall AUC = 0.65 and 95% CI 0.57–0.73. We also developed an alternative model that analyzed all lesions from each patient without separation into categories using multiple-instance learning, which resulted in similar, albeit lower, performance (AUC = 0.61, 95% CI 0.52–0.70).<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Extraction of CT radiomics features and association with response.</title><p><bold>a</bold>, Radiomics feature extraction pipeline using expert segmented thoracic CT scans. Superpixel-based perturbations on original segmentations used for feature selection. <bold>b</bold>, Three expert CT segmentation examples including lung parenchymal (PC) (top), pleural (PL) (middle) and lymph node (LN) lesions (bottom) representative of <italic toggle="yes">n</italic> = 187 patients, with the original image, segmentation and randomized contour example. <bold>c</bold>, Principal-component decomposition distribution of radiomics features for superpixel-based perturbations across tissue sites. The interior box-and-whisker bars show the mean as a white dot, the IQR (25–75%) as a black bar and the minimum and maximum as whiskers up to 1.5 × IQR. <italic toggle="yes">P</italic> values were obtained from the two-sided Mann–Whitney–Wilcoxon test for <italic toggle="yes">n</italic> = 2,040 PC perturbations with <italic toggle="yes">n</italic> = 540 in the responding group and <italic toggle="yes">n</italic> = 1,500 in the nonresponding group; <italic toggle="yes">n</italic> = 330 PL perturbations with <italic toggle="yes">n</italic> = 130 in the responding group and <italic toggle="yes">n</italic> = 200 in the nonresponding group; and <italic toggle="yes">n</italic> = 960 LN perturbations with <italic toggle="yes">n</italic> = 360 in the responding group and <italic toggle="yes">n</italic> = 600 in the nonresponding group. <bold>d</bold>, Response prediction performance using LR classifiers for each type of lesion as well as averaging-based patient-level prediction aggregation by averaging (LR Rad-Average) outcomes across all lesions and the multiple-instance learning model. Results with AUC &lt; 0.5 are not shown. The bar height and error bar represent the AUC and associated 95% CI based on DeLong’s method<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> for <italic toggle="yes">n</italic> = 187 and <italic toggle="yes">n</italic> = 46 patients in the multimodal and validation cohorts, respectively.</p><p><xref rid="MOESM4" ref-type="media">Source data</xref></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1400" position="float" orientation="portrait" xlink:href="43018_2022_416_Fig2_HTML.jpg"/></fig></p>
+          <p id="Par11">CT-based predictions of response were validated in the radiology cohort, consisting of 50 patients (Table <xref rid="Tab1" ref-type="table">1</xref>) with expert segmentation, resulting in 40 lung parenchymal lesions, 8 pleural lesions and 22 enlarged lymph nodes. The predictive ability from features extracted from the lung parenchymal lesions (AUC = 0.66, 95% CI 0.48–0.84) was consistent with the multimodal cohort (AUC = 0.64, 95% CI 0.54–0.74), as were the averaging (AUC = 0.55, 95% CI 0.37–0.73) and multiple-instance learning-based aggregation models (AUC = 0.65, 95% CI 0.44–0.87). Taken together, discriminating clinical end points by CT-derived features was modest and primarily driven by texture in the lung parenchymal lesions; however, lesion-specific feature extractions were propagated for use in the multimodal model, where relative contributions to predictive capacity were evaluated.</p>
+        </sec>
+        <sec id="Sec6">
+          <title>PD-L1 texture features approximate pathologist assessments</title>
+          <p id="Par12">We next studied digitized pre-treatment PD-L1 IHC performed on tumor specimens meeting quality control standards (<italic toggle="yes">n</italic> = 201 patients (81%)). A total of 105 (52%) tumor slides showed positive PD-L1 IHC staining (TPS ≥ 1%) and were used to extract IHC texture, a characterization of PD-L1 IHC based on the spatial distribution of expression (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). IHC texture was composed of features with a wide range of statistical association to immunotherapy response (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). The most predictive feature, skewness of the gray-level co-occurrence matrix (GLCM) autocorrelation matrix, correlated with both TPS and PFS (AUC = 0.68, <italic toggle="yes">r</italic><sup>2</sup><sub>TPS</sub> = −0.38, <italic toggle="yes">r</italic><sup>2</sup><sub>PFS</sub> = 0.17, <italic toggle="yes">n</italic> = 105). The maximum, median and minimum of autocorrelation (a measure of the coarseness of the texture of an image) skewness corresponded broadly with PD-L1 IHC stain intensity as well as with contrast and edges in PD-L1 intensity between cells (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>). Additional significant features from the LR fit included cluster shade skewness and Imc2 kurtosis, which were less sensitive to the overall PD-L1 stain intensity (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>). Furthermore, distributions of GLCM autocorrelation were significantly and inversely associated with pathologist-assessed PD-L1 TPS (Fig. <xref rid="Fig3" ref-type="fig">3d</xref>) indicating automated feature extraction with IHC texture could approximate expert thoracic pathologist assessment. LR modeling using 18 features based on the autocorrelation matrix and statistics of the pixel intensity distribution (IHC-A) resulted in prediction accuracy of AUC = 0.62 (95% CI 0.51–0.73), which was comparable to lesion-wide radiological averaging (AUC = 0.65, 95% CI 0.57–0.73), but inferior to the pathologist-assessed PD-L1 TPS (AUC = 0.73, 95% CI 0.65–0.81) (Fig. <xref rid="Fig3" ref-type="fig">3e</xref>). While including TPS and IHC-A features reduced the AUC (Fig. <xref rid="Fig3" ref-type="fig">3e</xref>), other classifier performance metrics including accuracy, recall and F1-score increased (Extended Data Fig. <xref rid="Fig7" ref-type="fig">1</xref> and Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). Including all 150 GLCM features (IHC-G) resulted in a prediction accuracy of AUC = 0.63 (95% CI 0.52–0.74).<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>PD-L1 immunohistochemistry feature derivation and prediction of response.</title><p><bold>a</bold>, Analysis pipeline to extract image-based IHC texture starting from scanned PD-L1 IHC slides. <bold>b</bold>, Normalized-value distributions of GLCM and pixel intensity-derived image features stratified by response for the best performing summary statistic in each GLCM class. Features indicated by the red asterisk emerged as salient features in the LR fit with <italic toggle="yes">n</italic> = 42 responders and <italic toggle="yes">n</italic> = 63 nonresponders. <bold>c</bold>, Three representative PD-L1 IHC slides from <italic toggle="yes">n</italic> = 105 samples corresponding to the maximum (top), median (middle) and minimum (bottom) of the GLCM autocorrelation distribution, with low power, high power, stain intensity and pixel-wise GLCM sample patches. <bold>d</bold>, Correspondence of the example GLCM features in <bold>c</bold> between low, medium and high bins of TPS. The interior box-and-whisker bars show the mean as a white dot, the IQR (25–75%) as a black bar and the minimum and maximum as whiskers up to 1.5 × IQR for <italic toggle="yes">n</italic> = 105 samples. <bold>e</bold>, Response prediction performance using LR classifiers with PD-L1 features including TPS (LR PD-L1-TPS), pixel and GLCM autocorrelation image features (LR IHC-A), only the complete GLCM features (LR IHC-G) and the result of aggregating patient-level predictions by averaging classifier outcomes from LR IHC-A, IHC-G and LR PD-L1-TPS (LR Path-Average). The bar height and error bar represent the merged AUC and associated 95% CI based on DeLong’s method<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> for <italic toggle="yes">n</italic> = 105 and <italic toggle="yes">n</italic> = 52 patients in the multimodal and validation cohorts, respectively.</p><p><xref rid="MOESM5" ref-type="media">Source data</xref></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1514" position="float" orientation="portrait" xlink:href="43018_2022_416_Fig3_HTML.jpg"/></fig></p>
+          <p id="Par13">Using IHC-A features, we validated our findings in the pathology cohort, which consisted of 52 patients with positive PD-L1 expression. The result was consistent with the multimodal cohort (multimodal cohort, AUC = 0.61, 95% CI 0.46–0.76; versus pathology cohort, AUC = 0.62, 95% CI 0.51–0.73). GLCM autocorrelation (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>) mean (multimodal cohort, AUC = 0.67, 95% CI 0.56–0.78; versus pathology cohort, AUC = 0.72, 95% CI 0.58–0.86) and skewness (multimodal cohort, AUC = 0.69, 95% CI 0.58–0.80; versus pathology cohort, AUC = 0.74, 95% CI 0.60–0.88) were also consistent with the multimodal cohort. IHC-G features had higher performance in the pathology cohort with AUC = 0.74 (95% CI 0.67–0.81).</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Genomic predictors of response from clinical sequencing data</title>
+          <p id="Par14">We then assessed features derived from clinical sequencing data from MSK IMPACT<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>, a 341–468 gene targeted next-generation sequencing assay performed on formalin-fixed paraffin-embedded (FFPE) tumor tissue along with matched healthy specimens (blood) from each patient to detect somatic gene alterations with a broad panel. Using multivariate analysis on PFS in the multimodal cohort, alterations of <italic toggle="yes">EGFR</italic> (<italic toggle="yes">n</italic> = 22/247, 8.9%; adjusted hazard ratio (aHR) = 2.14, 95% CI 1.06–4.31, <italic toggle="yes">P</italic> = 0.03), <italic toggle="yes">STK11</italic> (<italic toggle="yes">n</italic> = 44/247, 17.8%; aHR = 2.53, 95% CI 1.71–3.74, <italic toggle="yes">P</italic> &lt; 0.005) and tumor mutation burden (TMB) (median 7 mt per mb, range 0–90; aHR = 0.14, 95% CI 0.02–0.88, <italic toggle="yes">P</italic> = 0.04) exhibited significant aHR in a multivariable analysis of mutated oncogenes (<italic toggle="yes">EGFR</italic>, <italic toggle="yes">ALK</italic>, <italic toggle="yes">ROS1</italic>, <italic toggle="yes">RET</italic>, <italic toggle="yes">MET</italic>, <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">BRAF</italic>), tumor suppressor genes (<italic toggle="yes">STK11</italic>), transcription regulator (<italic toggle="yes">ARID1A</italic>) and TMB (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>). LR was used to determine the association between TMB and response (AUC = 0.61, 95% CI 0.52–0.70). The predictive ability of genomic alterations commonly studied in NSCLC excluding TMB (AUC = 0.61, 95% CI 0.53–0.69) was inferior to the model trained using TMB and genomic alterations (AUC = 0.65, 95% CI 0.60–0.80); however, the model performed similarly using the average of TMB and genomic alterations (AUC = 0.65) (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>). These features were independent predictors; <italic toggle="yes">EGFR</italic> and TMB were uncorrelated (<italic toggle="yes">r</italic> = −0.03, 95% CI −0.15–0.09) as well as STK11 and TMB (<italic toggle="yes">r</italic> = −0.01, 95% CI −0.14–0.11) and inclusion of TMB had no impact on the coefficients of <italic toggle="yes">EGFR</italic> and <italic toggle="yes">STK11</italic> in the fit (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). These results were broadly consistent with previous reports<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>, establishing their suitability in this cohort for multimodal data integration.<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><title>Modeling of response from genomic alterations and TMB.</title><p><bold>a</bold>, aHRs using Cox proportional hazard model analysis of genomic variables alongside single feature AUCs. <italic toggle="yes">P</italic> values were obtained from the likelihood-ratio test for <italic toggle="yes">n</italic> = 247 patients. <bold>b</bold>, Comparison of EGFR and STK11 feature coefficients with and without the inclusion of TMB in the model for <italic toggle="yes">n</italic> = 10 fits. The interior box-and-whisker bars show the mean as a white dot, the IQR (25–75%) as a black bar and the minimum and maximum as whiskers up to 1.5 × IQR. <bold>c</bold>, AUCs resulting from models using only TMB, genomic alterations (without TMB), averaging predictions from the TMB and alterations models and fitting a model with both TMB and genomic alterations. The bar height and error bar represent the AUC and associated 95% CI based on DeLong’s method<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> for <italic toggle="yes">n</italic> = 247 patients with genomic data.</p><p><xref rid="MOESM6" ref-type="media">Source data</xref></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1647" position="float" orientation="portrait" xlink:href="43018_2022_416_Fig4_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec8">
+          <title>Multimodal integration via deep-learning improves prediction</title>
+          <p id="Par15">Having evaluated predictive capacity of unimodal features, we next implemented the DyAM model to evaluate the impact of combining features from radiology, histology and genomics in predicting response to PD-(L)1 blockade (Fig. <xref rid="Fig5" ref-type="fig">5a</xref>). The DyAM model outputs include risk attributed to each modality (partial risk score), attention the modality receives (attention weight and share) and the overall score. DyAM has the practical quality of masking modalities in a given patient with no characterization, such as a tumor with negative PD-L1 expression or no segmentable disease in their CT scan. The performance of multimodal integration was assessed using Kaplan–Meier analysis whereby stratification based on multimodal DyAM was more effective at separating high- and low-risk patients than the standard clinical biomarkers of PD-L1 TPS and TMB (Fig. <xref rid="Fig5" ref-type="fig">5b</xref>). Using this framework, we then systematically compared unimodal features and various combinations of bimodal and multimodal features (Fig. <xref rid="Fig5" ref-type="fig">5c</xref>, F1, precision and recall scores shown in Extended Data Fig. <xref rid="Fig7" ref-type="fig">1</xref>, model coefficients are shown in Extended Data Figs. <xref rid="Fig8" ref-type="fig">2</xref>–<xref rid="Fig14" ref-type="fig">8</xref>). In general, layering complementary feature sets improved performance both within and between modalities. For example, DyAM integration of site-specific radiologic features improved prediction from AUC = 0.65, 95% CI 0.57–0.73 to AUC = 0.70, 95% CI 0.62–0.78. Furthermore, a bimodal DyAM model integrating radiological data and PD-L1-derived features (both TPS and IHC texture) resulted in AUC = 0.68 and 95% CI 0.61–0.75, whereas the combination of PD-L1 and genomic features resulted in AUC = 0.72 and 95% CI 0.65–0.79. Combining radiologic and genomic features resulted in the highest bimodal performance (AUC = 0.76, 95% CI 0.69–0.83). Each of these bimodal features improved on either unimodal feature set alone. The best performing, fully automated approach, using three modes of data included IHC-G features, with an AUC = 0.78 (95% CI 0.72–0.85). Finally, using three modes of data with the PD-L1 TPS score resulted in the highest accuracy with AUC = 0.80, 95% CI 0.74–0.86. This was in contrast with averaging the LR scores from all modalities (AUC = 0.72, 95% CI 0.65–0.79). All multimodal DyAM results were significantly higher than null hypothesis AUCs obtained via permutation testing.<fig id="Fig5" position="float" orientation="portrait"><label>Fig. 5</label><caption><title>DyAM-based unimodal and multimodal prediction of response.</title><p><bold>a</bold>, DyAM was used for multimodal integration. CT segmentation-derived features were separated by lesion type (lung PC, PL and LN) with separate attention weights applied. Attention weights are also used for genomics and PD-L1 IHC-derived features to result in a final prediction of response. The model’s modality specific risk score, attention scores and overall score can be analyzed. Mets, metastases. <bold>b</bold>, Overall score analysis: Kaplan–Meier survival analysis using DyAM to integrate all three modes of data results in significant separation of responders from nonresponders. <italic toggle="yes">P</italic> values were obtained from the log-rank test. <bold>c</bold>, Response predictions summary plot with combinations of input data modalities using DyAM and LR models. The coarse, red-hatched regions represent the 1-sigma error on the permutation-tested AUC measurement and the fine, gray-hatched regions represent the 1-sigma error from repeated subsampling. The bar height and error bar represent the AUC and associated 95% CI based on DeLong’s method<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. For <italic toggle="yes">n</italic> = 247 patients for the clinical result, <italic toggle="yes">n</italic> = 187 for the radiology results, <italic toggle="yes">n</italic> = 105 for the pathology results, <italic toggle="yes">n</italic> = 247 for the genomic results and <italic toggle="yes">n</italic> = 247 for the multimodal LR and DyAM results. The asterisks indicate the number of s.d. between the merged AUC and the permutation-tested AUC, with 1–4 asterisks representing 1–4 + s.d.</p><p><xref rid="MOESM7" ref-type="media">Source data</xref></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1716" position="float" orientation="portrait" xlink:href="43018_2022_416_Fig5_HTML.jpg"/></fig></p>
+          <p id="Par16">We then compared the DyAM model to established biomarkers of immunotherapy response as well as clinical confounders using multivariable Cox regression (Fig. <xref rid="Fig6" ref-type="fig">6a</xref>). The resulting overall score, DyAM risk, was used as input to a multivariable Cox proportional hazards model with derived neutrophil-to lymphocyte ratio (dNLR), pack-years smoking history, age, albumin, tumor burden, presence of brain and liver metastases, tumor histology and scanner parameters. The resulting c-index was 0.74 with several significant features: dNLR (hazard ratio (HR) = 6.87, 95% CI 1.76–26.77, <italic toggle="yes">P</italic> &lt; 0.005), DyAM risk (HR = 13.65, 95% CI 6.97–26.77, <italic toggle="yes">P</italic> &lt; 0.005), albumin (HR = 0.06, 95% CI 0.02–0.14, <italic toggle="yes">P</italic> &lt; 0.005), brain metastasis (HR = 1.51, 95% CI 1.09–2.09 <italic toggle="yes">P</italic> = 0.01) and receiving combination therapy (HR = 2.23 95% CI 1.16–4.29, <italic toggle="yes">P</italic> = 0.02). When comparing the classifier performance against the LR risk scores, only the integrated model was significant (Fig. <xref rid="Fig6" ref-type="fig">6a</xref>). We divided the cohort into quartiles using the DyAM score and performed corresponding Kaplan–Meier analysis, focusing on PFS in the first 12 months to highlight the potential of DyAM to separate response groups early after treatment. Progression at 4 months was 21% for the lowest (protective) quartile and 79% for highest (risk) quartile (Fig. <xref rid="Fig6" ref-type="fig">6b</xref>), compared to 30% and 60% for the averaging method. Finally, we assessed the effect of reweighting individual data modalities (attention analysis, alpine plots) on the overall model performance (Fig. <xref rid="Fig6" ref-type="fig">6c</xref>). In patient subsets with the data modality present, we observed that the removal of lung parenchymal nodule CT texture and genomic alterations had the greatest effect on AUC, whereas the model was robust to the removal of IHC texture and PD-L1 TPS. Non-linear relationships between data modalities indicate an effect of the weighting scheme used within DyAM. At 4 months, the ratio of progression events between the lower and higher quartiles was 3.8 (95% CI 3.7–4.0), which decreases sharply when removing either the CT texture (decreasing to 3.2 (95% CI 3.1–3.3)) or genomic alterations (decreasing to 2.3 (95% CI 2.2–2.4)); however, this early separation did not manifest from either modality in isolation. Model performance decreases for all modes as unimodal attention increases and the DyAM model outperformed simple averaging.<fig id="Fig6" position="float" orientation="portrait"><label>Fig. 6</label><caption><title>DyAM-based multimodal analysis.</title><p><bold>a</bold>, HRs and single feature AUCs of covariates. Overall risk score analysis: forest plot of the DyAM model score with respect to other clinical variables (left). Partial risk score analysis: forest plot of the modality specific risk scores from LR compared to DyAM (right). The vertical dashed lines represent a null HR. <italic toggle="yes">P</italic> values were obtained from the likelihood-ratio test. The bar height and error bar represent the AUC and associated 95% CI based on DeLong’s method<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> for <italic toggle="yes">n</italic> = 247 patients. <bold>b</bold>, A zoom in of the first 12 months separated by quartile showing separation of early progression events. <italic toggle="yes">P</italic> values were obtained from the log-rank test. <bold>c</bold>, Alpine plots comparing the overall model score after reweighting the input modalities as a function of a multiplier to a single modality’s attention, for the model’s AUC (left), HR (middle) and PFS ratio at 4 months in the lower and higher quartiles (right). For the reweighted AUCs, HRs and PFS ratios, the error bar represents the 68% or 1-sigma CIs based on DeLong’s method<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>, the HR covariance matrix and Poisson standard error on the number of progression events, respectively.</p><p><xref rid="MOESM8" ref-type="media">Source data</xref></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1786" position="float" orientation="portrait" xlink:href="43018_2022_416_Fig6_HTML.jpg"/></fig></p>
+        </sec>
+      </sec>
+      <sec id="Sec9" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par17">The integration of biomedical imaging, histopathology and genomic assays to guide oncologic decision-making is still in a preliminary phase<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Herein, we show that machine-learning approaches that automatically extract discriminative features from disparate modalities result in complementary and combinatorial power to identify high- and low-risk patients with NSCLC who received immunotherapy. Our study represents a proof of principle that information content present in routine diagnostic data, including baseline CT scans, histopathology slides and clinical next-generation sequencing can be combined to improve prognostication for response to PD-(L)1 blockade over any one modality alone and over standard clinical approaches. Integration of these data presents technical difficulty and infrastructure cost; however, our results indicate the potential of integrative approaches. To enable growing interest in deploying data infrastructure to automate the collection, organization and featurization of the data included in this study, the workflows and software are provided for use by the broader community in other cohorts and can be applied beyond NSCLC to other cancers and diseases.</p>
+        <p id="Par18">To enable the study, we consulted domain-specific experts to curate features in our dataset. Curation involved segmentation of malignant lesions within CT scans by thoracic radiologists (such as those shown in Fig. <xref rid="Fig2" ref-type="fig">2b</xref>) and annotation of digitized PD-L1 IHC slides (such as those used to train the machine-learning classifier to compute the tumor segmentation mask in Fig. <xref rid="Fig3" ref-type="fig">3a</xref>) and adjudication of PD-L1 expression by a thoracic pathologist. We also limited genomic and clinical features to those with known associations with NSCLC and immunotherapy outcomes. Heterogeneity of the disparate data modalities presented a unique challenge in their integration, such as, patients with non-segmentable disease or PD-L1-negative tumors, for which PD-L1 expression patterns are not defined. Finally, the most optimal combination of these features is not known and post-fit linear combination or averaging techniques could ignore interactions and correlations between these modalities. The attention gate of DyAM allows for non-linear behavior across the input modalities. The use of attention gating and the generation of partial risk scores has added benefit; it allows for higher-level analysis of multimodal data, such as automatically identifying regions of feature space where certain modalities are more or less predictive. The result was an interpretable, data-driven multimodal prediction model that was also robust to missing data. Reassuringly, the multimodal DyAM model that we derived was not only able to predict short term objective responses better than any modality separately or linearly combined, but also led to enhanced separation of the Kaplan–Meier survival curves that reflected discriminative power within the first few months. This is further evidence that our model could achieve early stratification of true responders from nonresponders, an important criterion for predictive biomarkers and future clinical management decisions. Furthermore, our attention analysis of the DyAM model revealed that all data modalities (radiomics, genomics and pathology) are drivers of this early stratification.</p>
+        <p id="Par19">A limitation of our analysis was the size of the multimodal cohort assembled and the restriction to a single center. To ensure consistent training data quality, we chose to include only CT scans that were performed within one institution<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Inclusion of CT scans from external institutes warrants further study to investigate the effect of various CT imaging protocols and machine-acquisition parameters on model sensitivity. Digitized PD-L1 IHC slides were similarly chosen from a single center, given differences in staining quality among different laboratories and the use of several different antibodies in clinical practice among institutions<sup><xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>. Similarly, existing commercial and institution-specific targeted next-generation sequencing panels differ in breadth of coverage and germline filtering techniques, which can introduce challenges for data integration and not all institutions sequence patient-matched healthy specimens to identify germline mutations. These challenges can be mitigated by training models with data from multiple sites to either predict clinical outcomes directly or to perform segmentation in pathological or radiological imaging for downstream analysis; however, a multisite training strategy requires comparable dataset sizes across sites with consistent and rigorous annotations to properly normalize models for heterogeneity and extract robust features. The inclusion of multiple malignancies and imaging modalities could also improve model generalizability, as shown in a multi-institution study involving 1,682 patients by Wu et al. in which robust radiomic signatures were found across three malignancies and two imaging modalities, including one associated with improved survival in immunotherapy-treated NSCLC<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. Federated learning may provide a principled solution to this challenge; however, its practical use is at very early stages of adoption<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. Although we were unable to obtain an external validation cohort given the complexity of the data modalities, internal single modality validation cohorts for CT scans and histopathology slides were used as full hold-out sets to validate the findings from the multimodal cohort. Indeed, the models with significant and robust performance in the multimodal cohort showed stable performance in the radiology and pathology cohorts. Despite our best efforts, underperforming models encounter statistical limitations that can be best minimized with further data collection. In addition, we have released all code as open-source software and provide our research-ready datasets for others to reproduce our results, validate the findings at other institutions and ideally extend and further refine our methods.</p>
+        <p id="Par20">Incorporation of external data would have also required substantial data assembly, including identification of a cohort of immunotherapy-treated patients with NSCLC with associated RECIST outcomes, CT scans, digitized PD-L1 IHC slides and genomic alterations. Once assembled, scaling and extending our model to incorporate external data would require annotation algorithms to segment CT scan lesions or distinguish tumor from healthy tissue in PD-L1 IHC slides to reduce expert burden. Alternatively, large de-identified datasets from many sites may overcome the need for manual annotation by developing reliable deep-learning models on unannotated data, which can be directly included as part of the DyAM model. In the future, assembly of large well-annotated multi-institutional training datasets will lead to development of robust multimodal classifiers that serve as powerful biomarkers. These decision aids could be integrated into routine clinical care and used to quickly and precisely distinguish responders and nonresponders.</p>
+        <p id="Par21">A deeper understanding of features extracted from the data modalities and their relationships to known functional cancer pathways could also aid in feature selection. For example, radiomics characterizations involve the extraction of thousands of features that can be used together to broadly encapsulate intratumoral heterogeneity, but there have been few studies using correlative molecular data to infer functional relationships. This task is further complicated by the fact that many radiomics features are correlated to each other. One study used gene set expression analysis and found an association between radiomics and cell-cycle progression and mitosis<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. Similarly, correlative molecular data could aid in a more principled selection of features that comprise our PD-L1 IHC texture characterization. Even without molecular data, robust associations between radiological and histological phenotypes, such as those found by Jiang et al., could be a step toward more efficient feature selection<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>.</p>
+        <p id="Par22">Other limitations of our analysis include the use of RECIST-derived response end points and the date of the tissue used to assess PD-L1 expression. RECIST outcomes were used instead of directly predicting survival metrics because RECIST criteria are standardized and represent the best proxy in quantifying early treatment response. Additionally, using RECIST outcomes minimize effects from confounders such as indolent disease, future lines of therapy and death unrelated to NSCLC; however, RECIST responses are characterized via measuring tumor size changes on CT scans, which do not fully encompass biological treatment response. With improved biological insight leading to better response metrics, future studies will be needed to refine predictive models. While CT scans are proximal to immunotherapy, PD-L1 expression is often assessed on tissue from the initial diagnosis. This is not ideal as previous treatments can modify the tumor microenvironment, including PD-L1 expression. Our cohort consisted mostly (68%) of patients who received one or more previous lines. While we consider the number of lines of therapy before immunotherapy as a covariate, changes in PD-L1 expression due to previous treatments are not explicitly taken into account.</p>
+        <p id="Par23">Our results serve as a proof of principle for the value of multimodal integration. We show that existing data from multiple cancer diagnostic modalities can be annotated, abstracted and combined using computational and machine-learning methods for next-generation biomarker development in NSCLC immunotherapy response prediction. Our DyAM model is a promising approach to integrate multimodal data and future models using larger datasets will make it possible to augment current precision oncology practices in treatment decision-making.</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Methods</title>
+        <p id="Par24">This study complies with all relevant ethical regulations and was approved by the institutional review board at MSK Cancer Center (nos. 12-245, 16-1144 and 16-1566). Informed consent was waived as our study was retrospective. Participants were not compensated.</p>
+        <sec id="Sec11">
+          <title>Data infrastructure to support multimodal data integration</title>
+          <p id="Par25">The computational and data infrastructure to support the ingestion, integration and analysis of the multimodal dataset was built through the MSK MIND (Multimodal Integration of Data) initiative. Data pipelines were built to extract and de-identify clinical, radiology, pathology and genomics data from institutional databases. A data lake was built to ingest and manage all data with an on-premise cluster. Workflows were implemented to source the data lake to facilitate analyses using radiology and pathology annotations. All data, metadata and annotation described below were integrated for multimodal analysis.</p>
+        </sec>
+        <sec id="Sec12">
+          <title>Clinical cohorts</title>
+          <p id="Par26">The multimodal cohort was formed using the following inclusion criteria: patients with stage IV NSCLC who initiated treatment with anti-PD-(L)1 blockade therapy between 2014 and 2019 at the study institution who had a baseline CT scan, baseline PD-L1 IHC assessment and next-generation sequencing by MSK IMPACT<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. Patients who received chemotherapy concurrently with immunotherapy were not included. Overall, 247 patients met the inclusion criteria for the training cohort. The multimodal cohort (Table <xref rid="Tab1" ref-type="table">1</xref>) was 54% female with a median age of 68 years (range 38–93 years). Overall, 218 (88%) patients had a history of smoking cigarettes (median 30 pack-years, range 0.25–165). Histological subtypes of NSCLC included 195 (79%) adenocarcinomas, 37 (15%) squamous cell carcinomas, 7 (3%) large cell carcinomas and 8 (3%) NSCLC, NOS (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>). Collectively, 169 (68%) patients received one or more lines of therapy before starting PD-(L)1 blockade and 78 (32%) patients received PD-(L)1 blockade as first-line therapy, of which 14 (6%) received therapy in the context of a clinical trial.</p>
+          <p id="Par27">The radiology (<italic toggle="yes">n</italic> = 50) validation cohort included patients with a baseline CT which included the chest (± abdomen/pelvis) containing lung lesions &gt;1 cm. The pathology (<italic toggle="yes">n</italic> = 52) validation cohort included patients with a biopsy showing PD-L1-positive (TPS ≥ 1%) NSCLC that was digitized at MSK. Baseline characteristics of the multimodal, radiology and pathology cohorts are shown in Table <xref rid="Tab1" ref-type="table">1</xref>. Best overall response was assessed via RECIST v.1.1 by thoracic radiologists trained in RECIST assessment. Patients who did not progress were censored at the date of last follow-up. PFS was determined from the date of initiating PD-(L)1 blockade therapy until the date of progression or death. OS was determined from the date of initiating PD-(L)1 blockade therapy until the date of death. Those who were still alive were censored at their last date of contact. Clinical, radiologic, pathologic and genomic data were housed in a secure Redcap database.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>CT scans</title>
+          <p id="Par28">The baseline CT scan was defined as the closest contrasted scan, including the chest performed within 30 d of starting PD-(L)1 blockade therapy at MSK. Scans were anonymized and quality control was performed to ensure de-identification. Scans were separated into the DICOM format and metadata. All patients underwent multisection CT performed as part of standard clinical care for clinical staging of pulmonary malignancy. CT studies were all performed at our institution (Lightspeed VCT, Discovery CT 750HD; GE Healthcare) and were submitted and uploaded to our picture archiving and communication system.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>Radiological segmentation</title>
+          <p id="Par29">Our study was limited to chest imaging to ensure homogeneity of the imaging protocol used. As a result, we only considered chest lesions. Lesion segmentation of primary lung cancers and thoracic metastases was performed manually by three radiologists (N.H. and J.A-F. with 8 years of post-fellowship experience and A.P. with 1 year of post-fellowship experience). Each lesion was segmented by a single radiologist, reviewed by a second and disagreements were resolved with a third. While all radiologists were aware that the patients had lung cancer, they were blinded to patients’ previous treatments and outcomes.</p>
+          <p id="Par30">Target lesions were selected in accordance with RECIST v.1.1 criteria (maximum of five target lesions and up to two target lesions per organ). Lesions that were segmented included lung parenchymal, pleural and pathologically enlarged thoracic lymph nodes. Lung and pleural lesions were included when measured as &gt;1.0 cm in the long axis dimension and lymph nodes &gt;1.5 cm in the short axis dimension.</p>
+          <p id="Par31">Segmentations were performed on contrast enhanced CTs with 5-mm slices and soft tissue algorithm reconstructions. The segmenting radiologist had access to the clinical text report and positron emission tomography (PET) scan images during segmentation as guides. Lung and soft tissue windows (window level, −600 HU and width, 1,500 HU and window level, 50 HU and width, 350 HU, respectively) were used when appropriate to visually delineate volumes of interest from lung tissue, large vessels, bronchi and atelectasis. Cavitary lesions, lung lesions indistinguishable from surrounding atelectasis and streak artifacts were excluded. Segmented target lesions were categorized and labeled separately by location for textural feature analysis. All segmentations were completed using ITK-SNAP, v.3.4.0 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://itksnap.org">http://itksnap.org</ext-link>)<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Radiomics feature analysis</title>
+          <p id="Par32">Three thoracic radiologists (N.H., A.P. and J.A-F.) used dictated radiology text reports, PET scan images and RECIST<sup><xref ref-type="bibr" rid="CR40">40</xref></sup> criteria to guide segmentation. Areas of ambiguity, such as image artifacts from surgical staples, were excluded. A total of 337 lesions from 187 patients, classified into lung parenchymal, pleural and lymph nodes were segmented. The predictive capacity of features extracted from lesions segmented CT scans were analyzed. A variety of radiomics features were computed using all filters available in the pyradiomics Python package v.3.0.1 (ref. <sup><xref ref-type="bibr" rid="CR41">41</xref></sup>), resulting in 1,688 features. To ease the training of the predictive model, the number of features were reduced by requiring stability with respect to small perturbations of the original segmentation using the method previously used by Zwanenburg et al. to assess robustness of radiomics features<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>. In this method, the original segmentation is perturbed ten times, then radiomic features are computed from each perturbation. We defined a robustness <italic toggle="yes">z</italic> score, which is the ratio of the average inter-lesion variance across the ten perturbations and the feature intra-lesion variance average across the entire multimodal cohort. This value ranges 0–1 and we considered only features with <italic toggle="yes">z</italic> scores less than 0.15. This ensured that, on average, selected features only vary slightly (~15%) across the perturbations with respect to its total dynamic range. The same procedure was implemented in the analysis of the radiology cohort. Investigators were blinded to patient response in the segmentation of the CT scans.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>PD-L1 immunohistochemistry</title>
+          <p id="Par33">IHC was performed on 4-μm FFPE tumor tissue sections using a standard PD-L1 antibody (E1L3N; dilution 1:100, Cell Signaling Technologies) validated in the clinical laboratory at the study institution. Staining was performed using an automated immunostaining platform (Bond III, Leica) using heat-based antigen retrieval employing a high pH buffer (epitope retrieval solution-2, Leica) for 30 min. A polymeric secondary kit (Refine, Leica) was used for detection of the primary antibody. Placental tissue served as positive control tissue. Interpretation was performed on all cases by a thoracic pathologist (J.L.S.) trained in the assessment of PD-L1 IHC<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. Positive staining for PD-L1 in tumor cells was defined as the percent of partial or complete membranous staining among viable tumor cells, known as the TPS. A negative score was defined as staining in &lt;1% of tumor cells or the absence of staining in tumor cells. Slides that did not meet the minimum number of tumor cells for PD-L1 TPS assessment (&lt;100 tumor cells) were not included. The same procedure was implemented to characterize the pathology cohort. Investigators were blinded to patient response in the PD-L1 TPS assessment.</p>
+        </sec>
+        <sec id="Sec17">
+          <title>PD-L1 tissue analysis</title>
+          <p id="Par34">PD-L1 IHC-stained diagnostic slides were digitally scanned at a minimum of ×20 magnification for 201 patients using an Aperio Leica Biosystems GT450 v.1.0.0. A deep-learning classifier implemented in the HALO AI software (Indica Labs) was trained to recognize areas of tumor in PD-L1-stained tissue. The training involved annotations across multiple tissue slides to subsequently train the DenseNet AI V2 classifier. The following annotation classes were included: tumor, stroma, lymphocytes, necrosis, fibroelastic scar, muscle, benign lung tissue and glass (absence of tissue). Multiple slides were used to train the classifier to account for site heterogeneity. The trained classifier was then employed across all PD-L1 IHC slides available for the multimodal cohort. Each slide was subsequently manually assessed for tumor segmentation by a thoracic pathologist (J.L.S.) and assigned a specificity score. This score was defined as the proportion of tissue being identified as tumor being correct. Slides with scores below 95% were then manually annotated. Investigators were blinded to patient response in the PD-L1 tissue analysis.</p>
+        </sec>
+        <sec id="Sec18">
+          <title>PD-L1 staining pattern quantification</title>
+          <p id="Par35">Once analyzed in the HALO AI software, tumor masks were exported and applied to the original PD-L1 tissue image. The masked tissue image was de-convoluted to separate the PD-L1 IHC from the hematoxylin blue counterstain. GLCMs were used to characterize PD-L1 expression; GLCMs are commonly used in image processing to quantify the similarity of neighboring pixels. Pixel-wise GLCM features were extracted using the pyradiomics Python package. This is performed within pyradiomics by computing GLCM features within a 3 × 3 kernel around each pixel in the image. Summary statistics including mean, s.d. and autocorrelation were computed from the pixel-wise GLCM map for use in downstream analysis.</p>
+        </sec>
+        <sec id="Sec19">
+          <title>Genomics analysis</title>
+          <p id="Par36">All patients had panel next-generation sequencing performed on their tumor before the start of treatment. The platform used was the US FDA-authorized MSK-IMPACT platform, which includes somatic mutations, copy number alterations and fusions in 341–468 genes most commonly associated with cancer<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Genomic alterations in genes commonly associated with NSCLC and thought to associate with anti-PD-L1 therapy response were extracted from cBioPortal<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup>. This included altered oncogenes (<italic toggle="yes">EGFR</italic>, <italic toggle="yes">ALK</italic>, <italic toggle="yes">ROS1</italic>, <italic toggle="yes">RET</italic>, <italic toggle="yes">HER2/ERBB2</italic>, <italic toggle="yes">BRAF</italic> and <italic toggle="yes">MET</italic>), altered tumor suppressors (<italic toggle="yes">STK11</italic>) and altered transcription regulators (<italic toggle="yes">ARID1A</italic>). All alterations were annotated by OncoKB<sup><xref ref-type="bibr" rid="CR46">46</xref></sup> to determine whether they are potentially oncogenic/driver events. TMB, a measure of the number of somatic mutations per megabase of the interrogated genome, is a US FDA-approved predictive biomarker of immunotherapy response in NSCLC<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. TMB was calculated based on all identified mutations divided by the coding region captured in the MSK-IMPACT panels. Multivariable analysis was conducted using Cox proportional hazards modeling adjusting for the genes described as well as TMB.</p>
+        </sec>
+        <sec id="Sec20">
+          <title>Logistic regression</title>
+          <p id="Par37">LR with elasticnet penalty was used to predict binary outcomes given feature vectors. We used the implementation provided in sklearn v.0.24.0 using the saga optimizer, <italic toggle="yes">C</italic> = 0.1, a l1-ratio of 0.5 and balanced class weights.</p>
+        </sec>
+        <sec id="Sec21">
+          <title>Multiple-instance logistic regression</title>
+          <p id="Par38">Multiple-instance learning is a class of machine learning where sets of training data (bags) share a common label<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. Attention-based pooling as developed by Ilse et al.<sup><xref ref-type="bibr" rid="CR49">49</xref></sup> extended the multiple-instance learning paradigm to assign attention-based weights to each instance, which are a function of the instance features and optimized for prediction of an outcome. This technique is designed for an unfixed number of input instances with fixed feature size, such as the 1–5 texture feature vectors for each lesion encountered in the radiology analysis. The final output score is a weighted sum of the same LR model applied for each lesion, where the weights are dynamically determined. In the single-lesion case, we were able to recover similar results as compared to the standard LR. This technique treats each instance equally as there is a single set of parameters shared across all instances.</p>
+          <p id="Par39">The model was developed and fit using pytorch v.1.8.0, with a hidden size of 32, balanced class weights, binary cross-entropy loss, 0.005 learning rate, 250 steps and L2 regularization of 0.005 using the Adam optimizer.</p>
+        </sec>
+        <sec id="Sec22">
+          <title>Multimodal dynamic attention with masking</title>
+          <p id="Par40">Multiple-instance learning typically involves a single group or bag, of homogenous instances; however, in the multimodal case we encounter heterogenous instances. Furthermore, even though the textures derived from each lesion are the same shape, lesions in different sites may map to the predictor in different ways, such that a shared set of parameters may not be optimal. We thus encounter a MIL paradigm where we have a fixed-sized bag of heterogeneous instances or modes. For this study, the modes of data utilized were one-dimensional feature vectors derived from PD-L1 IHC performed on diagnostic tissue, segmented radiological CT scans delineated by lesion site and genomic alterations. We utilized the same dynamic pooling scheme in our model. Each input mode has its own set of trainable parameters: one to map the input vector to the label (risk parameters) and one to map the input vector to an attention score (attention parameters), which competes with the other input modes in a similar way to the standard multiple-instance learning model. As attention-based weights are trainable, the model learns which input modes are most relevant to treatment response. In contrast to multiple-instance learning, the final output score is a weighted sum of individually optimized LR models applied for each modality; this technique treats each mode specifically, while still optimizing all parameters in concert. Finally, as zero attention corresponds to a modality having no correspondence to the predictor, this model was expanded by adding a masking function that sets any missing mode’s attention to zero to address missing data (such as non-segmentable disease in CT). We call this the DyAM model.</p>
+          <p id="Par41">The model was developed and fit using pytorch v.1.8.0, with balanced class weights, binary cross-entropy loss, 0.01 learning rate, 125 steps and L2 regularization strength of 0.001 using the Adam optimizer. When only one input modality was present, the attention gate was disabled to reduce complexity.</p>
+        </sec>
+        <sec id="Sec23">
+          <title>Attention analysis</title>
+          <p id="Par42">Given the normalized attention weights and risk scores per modality, one can reweight the attention layer to assess how an increase or decrease in a modality’s attention impacts the model’s performance. This can be performed schematically by multiplying the attention vector <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{a}$$\end{document}</tex-math><mml:math id="M2"><mml:mi>ā</mml:mi></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="43018_2022_416_Article_IEq1.gif"/></alternatives></inline-formula> by a multiple of the <italic toggle="yes">k</italic>th unit vector <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m\hat{e}_k$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mi>m</mml:mi><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="43018_2022_416_Article_IEq2.gif"/></alternatives></inline-formula>, taking the dot product with the risk vector <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{r}$$\end{document}</tex-math><mml:math id="M6"><mml:mover accent="true"><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="43018_2022_416_Article_IEq3.gif"/></alternatives></inline-formula> and re-normalizing the score.<disp-formula id="Equa"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$score = \left(m\hat{e}_k \, \circ \, \bar{a}\right) \cdot \bar{r}/\Sigma\left(m\hat{e}_k \, \circ \, \bar{a}\right)$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>m</mml:mi><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.25em"/><mml:mo>∘</mml:mo><mml:mspace width="0.25em"/><mml:mi>ā</mml:mi></mml:mrow></mml:mfenced><mml:mo>⋅</mml:mo><mml:mover accent="true"><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>/</mml:mo><mml:mi mathvariant="normal">Σ</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>m</mml:mi><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.25em"/><mml:mo>∘</mml:mo><mml:mspace width="0.25em"/><mml:mi>ā</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="43018_2022_416_Article_Equa.gif"/></alternatives></disp-formula>The new weights can be determined as follows:<disp-formula id="Equb"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$a_{i=k} = ma_k/(1 + (m-1)a_k),a_{i\neq k} = a_i/(1+(m-1)a_k)$$\end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>m</mml:mi><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>≠</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="43018_2022_416_Article_Equb.gif"/></alternatives></disp-formula></p>
+          <p id="Par43">If <italic toggle="yes">a</italic><sub><italic toggle="yes">k</italic></sub> = 0.5 and <italic toggle="yes">m</italic> = 10, the new attention of the <italic toggle="yes">k</italic>th modality increases to 0.91 and the other modalities’ attention weights decrease by a factor of 0.18. Conversely, at <italic toggle="yes">m</italic> = 0.01, the attention of the <italic toggle="yes">k</italic>th modality decreases to 0.01 and the other modalities’ attention weights increase by a factor of 2. At high multiples, the model approaches a unimodal model dominated by that modality. At low multiples, the model approaches a <italic toggle="yes">N</italic>-1 model with that modality dropped out. We scanned <italic toggle="yes">m</italic> in the <italic toggle="yes">log</italic><sub>10</sub> scale from −2 to 2 and recomputed performance metrics (AUC, HR and PFS ratio) at each step.</p>
+        </sec>
+        <sec id="Sec24">
+          <title>Statistical analysis</title>
+          <p id="Par44">There were no formal sample size calculations performed in advance. The multimodal cohort was selected based on the existing number of patients at MSK who met all inclusion criteria. Group comparisons were performed using two-sided Mann–Whitney <italic toggle="yes">U</italic>-tests. AUC was used as a measure of performance of a biomarker on predicting response versus nonresponse. We performed tenfold cross-validation where scores from the validation folds were combined to form predictions across the entire multimodal cohort. Patients were randomly sorted into the folds. All feature selection and feature rescaling was performed on the training fold in each iteration of the cross-validation analysis. The binary cutoff used to determine the predicted response was determined for each patient using only training data. Hyperparameters were established from the first fold and applied consistently for each model. To explicitly evaluate the sensitivity of model fitting to the data used for training, we also performed a subsampling analysis where the data was randomly sampled 100 times using 90% for training and the remaining 10% for testing. All models were trained in an end-to-end manner with corresponding cross-validation across folds (Extended Data Fig. <xref rid="Fig15" ref-type="fig">9</xref>) and subsampling (Extended Data Fig. <xref rid="Fig16" ref-type="fig">10</xref>). We also report the F1-score, precision and recall for all models in Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref> and Extended Data Fig. <xref rid="Fig7" ref-type="fig">1</xref>. Model coefficients are shown in Extended Data Figs. <xref rid="Fig8" ref-type="fig">2</xref>–<xref rid="Fig14" ref-type="fig">8</xref>. A multivariable Cox proportional hazards model was developed with the Lifelines Python package v.0.25.7 (ref. <sup><xref ref-type="bibr" rid="CR50">50</xref></sup>) to compare the performance of this model to existing biomarkers and calculate adjusted HRs. The Lifelines package was used to compute survival curves estimated using the Kaplan–Meier method. All statistical tests were two-sided with a significance level of 2.5% for each tail. Assessment of classifier performance was performed consistently for each analysis, using AUCs computed across the entire multimodal cohort by merging classifier scores obtained in the validation folds of tenfold cross-validation. Model outputs were calibrated to an optimal threshold using the Youden index and rescaled to a unit variance. The 95% CIs on these AUCs were calculated using DeLong’s methods for computing the covariance of unadjusted AUCs<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. Violins were smoothed using the default Gaussian kernel density estimation in seaborn v.0.11.1. Significance of the AUCs were obtained against the hypothesis of meaningless class labels using perturbation testing with 20 iterations with the covariance error and s.e.m. propagated in quadrature.</p>
+        </sec>
+        <sec id="Sec25">
+          <title>Reporting summary</title>
+          <p id="Par45">Further information on research design is available in the <xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="43018_2022_416_MOESM1_ESM.pdf" position="float" orientation="portrait"><label>Supplementary Information</label><caption><p>Supplementary Table 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="43018_2022_416_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </body>
+    <back>
+      <app-group>
+        <app id="App1">
+          <sec id="Sec26">
+            <title>Extended data</title>
+            <p id="Par50">
+<fig id="Fig7" position="float" orientation="portrait"><label>Extended Data Fig. 1</label><caption><title>F1, precision and recall score summary plot.</title><p>The F1-score (top), precision score (middle) and recall score (bottom) for all models tested. The bar heigh represents the metric calculated on the merged classifier results across the entire cohort with N = 247 patients.</p><p>
+<xref rid="MOESM9" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2455" orientation="portrait" xlink:href="43018_2022_416_Fig7_ESM.jpg"/></fig>
+</p>
+            <p id="Par51">
+<fig id="Fig8" position="float" orientation="portrait"><label>Extended Data Fig. 2</label><caption><title>Weights for the LR Clinical model.</title><p>Coefficient results for clinical features from the 10-fold train–test scheme for the LR Clinical model. The box-and-whisker plots show the mean and the interquartile range (25–75%) as boxes, the minimum and maximum as whiskers up to 1.5 times the IQR and datapoints outside the IQR range as diamonds, for N = 10 fits. The adjoined bar plot shows the number of times, for a given feature, the following criteria were satisfied: (1) if applicable, the feature was selected as part of the radiomics filtering process, (2) the magnitude of the feature’s weight was at least 1 standard deviation from zero and (3) the magnitude of the feature’s weight was greater than 0.01. Only coefficients selected more than once are shown, up to 100.</p><p>
+<xref rid="MOESM10" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2474" orientation="portrait" xlink:href="43018_2022_416_Fig8_ESM.jpg"/></fig>
+</p>
+            <p id="Par52">
+<fig id="Fig9" position="float" orientation="portrait"><label>Extended Data Fig. 3</label><caption><title>Weights for the LR Rad-PC model.</title><p>Coefficient results for the parenchymal radiomics features from the 10-fold train–test scheme for the LR Rad-PC model. The box-and-whisker plots show the mean and the interquartile range (25–75%) as boxes, the minimum and maximum as whiskers up to 1.5 times the IQR and datapoints outside the IQR range as diamonds, for N = 10 fits. The adjoined bar plot shows the number of times, for a given feature, the following criteria were satisfied: (1) if applicable, the feature was selected as part of the radiomics filtering process, (2) the magnitude of the feature’s weight was at least 1 standard deviation from zero and (3) the magnitude of the feature’s weight was greater than 0.01. Only coefficients selected more than once are shown, up to 100.</p><p>
+<xref rid="MOESM11" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2493" orientation="portrait" xlink:href="43018_2022_416_Fig9_ESM.jpg"/></fig>
+</p>
+            <p id="Par53">
+<fig id="Fig10" position="float" orientation="portrait"><label>Extended Data Fig. 4</label><caption><title>Weights for the LR Rad-LN model.</title><p>Coefficient results for the lymph node radiomics features from the 10-fold train–test scheme for the LR Rad-LN model. The box-and-whisker plots show the mean and the interquartile range (25–75%) as boxes, the minimum and maximum as whiskers up to 1.5 times the IQR and datapoints outside the IQR range as diamonds, for N = 10 fits. The adjoined bar plot shows the number of times, for a given feature, the following criteria were satisfied: (1) if applicable, the feature was selected as part of the radiomics filtering process, (2) the magnitude of the feature’s weight was at least 1 standard deviation from zero and (3) the magnitude of the feature’s weight was greater than 0.01. Only coefficients selected more than once are shown, up to 100.</p><p>
+<xref rid="MOESM12" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2512" orientation="portrait" xlink:href="43018_2022_416_Fig10_ESM.jpg"/></fig>
+</p>
+            <p id="Par54">
+<fig id="Fig11" position="float" orientation="portrait"><label>Extended Data Fig. 5</label><caption><title>Weights for the LR IHC-A model.</title><p>Coefficient results for the intensity-based PD-L1 intensity features from the 10-fold train–test scheme for the LR IHC-A model. The box-and-whisker plots show the mean and the interquartile range (25–75%) as boxes, the minimum and maximum as whiskers up to 1.5 times the IQR and datapoints outside the IQR range as diamonds, for N = 10 fits. The adjoined bar plot shows the number of times, for a given feature, the following criteria were satisfied: (1) if applicable, the feature was selected as part of the radiomics filtering process, (2) the magnitude of the feature’s weight was at least 1 standard deviation from zero and (3) the magnitude of the feature’s weight was greater than 0.01. Only coefficients selected more than once are shown, up to 100.</p><p>
+<xref rid="MOESM13" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2531" orientation="portrait" xlink:href="43018_2022_416_Fig11_ESM.jpg"/></fig>
+</p>
+            <p id="Par55">
+<fig id="Fig12" position="float" orientation="portrait"><label>Extended Data Fig. 6</label><caption><title>Weights for the LR IHC-G model.</title><p>Coefficient results for all GLCM-based PD-L1 texture features from the 10-fold train–test scheme for the LR IHC-G model. The box-and-whisker plots show the mean and the interquartile range (25–75%) as boxes, the minimum and maximum as whiskers up to 1.5 times the IQR and datapoints outside the IQR range as diamonds, for N = 10 fits. The adjoined bar plot shows the number of times, for a given feature, the following criteria were satisfied: (1) if applicable, the feature was selected as part of the radiomics filtering process, (2) the magnitude of the feature’s weight was at least 1 standard deviation from zero and (3) the magnitude of the feature’s weight was greater than 0.01. Only coefficients selected more than once are shown, up to 100.</p><p>
+<xref rid="MOESM14" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2550" orientation="portrait" xlink:href="43018_2022_416_Fig12_ESM.jpg"/></fig>
+</p>
+            <p id="Par56">
+<fig id="Fig13" position="float" orientation="portrait"><label>Extended Data Fig. 7</label><caption><title>Weights for DyAM Rad+IHC-G + Gen model.</title><p>Parameter weight results for combined radiomic, GLCM-based PD-L1 texture and genomic features for the DyAM Rad+IHC-G + Gen model. The box-and-whisker plots show the mean and the interquartile range (25–75%) as boxes, the minimum and maximum as whiskers up to 1.5 times the IQR and datapoints outside the IQR range as diamonds, for N = 10 fits. The adjoined bar plot shows the number of times, for a given feature, the following criteria were satisfied: (1) if applicable, the feature was selected as part of the radiomics filtering process, (2) the magnitude of the feature’s weight was at least 1 standard deviation from zero and (3) the magnitude of the feature’s weight was greater than 0.01. Only coefficients selected more than once are shown, up to 100.</p><p>
+<xref rid="MOESM15" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2569" orientation="portrait" xlink:href="43018_2022_416_Fig13_ESM.jpg"/></fig>
+</p>
+            <p id="Par57">
+<fig id="Fig14" position="float" orientation="portrait"><label>Extended Data Fig. 8</label><caption><title>Weights for the DyAM Rad+IHC-A + Gen+PD-L1 model.</title><p>Parameter weight results for combined radiomic, intensity-based PD-L1 texture, genomic and TPS features for the DyAM Rad+IHC-G + Gen model. The box-and-whisker plots show the mean and the interquartile range (25–75%) as boxes, the minimum and maximum as whiskers up to 1.5 times the IQR and datapoints outside the IQR range as diamonds, for N = 10 fits. The adjoined bar plot shows the number of times, for a given feature, the following criteria were satisfied: (1) if applicable, the feature was selected as part of the radiomics filtering process, (2) the magnitude of the feature’s weight was at least 1 standard deviation from zero and (3) the magnitude of the feature’s weight was greater than 0.01. Only coefficients selected more than once are shown, up to 100.</p><p>
+<xref rid="MOESM16" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2588" orientation="portrait" xlink:href="43018_2022_416_Fig14_ESM.jpg"/></fig>
+</p>
+            <p id="Par58">
+<fig id="Fig15" position="float" orientation="portrait"><label>Extended Data Fig. 9</label><caption><title>Receiver operating characteristics for all models using the 10-fold train–test breakdown.</title><p>ROC curves showing the results from individual folds as thin colored lines, the averaged and ±1 standard deviation ROC curve calculated from the distribution of the true positive rate in bins of the false positive rate across all folds as a blue curve surrounded by a gray band and the merged AUC as a black curve. For each model and fold result, the subset of N = 247 patients included depending on the available modalities and train–test split is indicated.</p><p>
+<xref rid="MOESM17" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2607" orientation="portrait" xlink:href="43018_2022_416_Fig15_ESM.jpg"/></fig>
+</p>
+            <p id="Par59">
+<fig id="Fig16" position="float" orientation="portrait"><label>Extended Data Fig. 10</label><caption><title>Receiver operating characteristics for all models using repeated subsampling.</title><p>ROC curves showing the results from the first 10 subsamples as thin colored lines and the averaged and ±1 standard deviation ROC curve calculated from the distribution of the true positive rate in bins of the false positive rate across all subsamples as a blue curve surrounded by a gray band. For each model and fold result, the subset of N = 247 patients included depending on the available modalities and train–test split is indicated.</p><p>
+<xref rid="MOESM18" ref-type="media">Source data</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="d32e2626" orientation="portrait" xlink:href="43018_2022_416_Fig16_ESM.jpg"/></fig>
+</p>
+          </sec>
+          <sec id="Sec28">
+            <title>Source data</title>
+            <p id="Par61">
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM3_ESM.xlsx" id="MOESM3" orientation="portrait"><label>Source Data Fig. 1</label><caption><p>Source clinical data and distributions.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM4_ESM.xlsx" id="MOESM4" orientation="portrait"><label>Source Data Fig. 2</label><caption><p>First and second PCA decomposition components and associated site, response, radiology model AUC results and 95% CI.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM5_ESM.xlsx" id="MOESM5" orientation="portrait"><label>Source Data Fig. 3</label><caption><p>Raw GLCM calculations and pathology model AUC results.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM6_ESM.xlsx" id="MOESM6" orientation="portrait"><label>Source Data Fig. 4</label><caption><p>Cox proportional hazard model statistical results, fit coefficients and genomic model AUC results.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM7_ESM.xlsx" id="MOESM7" orientation="portrait"><label>Source Data Fig. 5</label><caption><p>Raw time-series analysis event data and all summary AUC results.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM8_ESM.xlsx" id="MOESM8" orientation="portrait"><label>Source Data Fig. 6</label><caption><p>Cox proportional hazard model statistical results, raw time-series analysis event data and source data for alpine results.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM9_ESM.xlsx" id="MOESM9" orientation="portrait"><label>Source Data Extended Data Fig. 1</label><caption><p>Source metric scores for all models.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM10_ESM.xlsx" id="MOESM10" orientation="portrait"><label>Source Data Extended Data Fig. 2</label><caption><p>Raw coefficient or feature weight values.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM11_ESM.xlsx" id="MOESM11" orientation="portrait"><label>Source Data Extended Data Fig. 3</label><caption><p>Raw coefficient or feature weight values.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM12_ESM.xlsx" id="MOESM12" orientation="portrait"><label>Source Data Extended Data Fig. 4</label><caption><p>Raw coefficient or feature weight values.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM13_ESM.xlsx" id="MOESM13" orientation="portrait"><label>Source Data Extended Data Fig. 5</label><caption><p>Raw coefficient or feature weight values.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM14_ESM.xlsx" id="MOESM14" orientation="portrait"><label>Source Data Extended Data Fig. 6</label><caption><p>Raw coefficient or feature weight values.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM15_ESM.xlsx" id="MOESM15" orientation="portrait"><label>Source Data Extended Data Fig. 7</label><caption><p>Raw coefficient or feature weight values.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM16_ESM.xlsx" id="MOESM16" orientation="portrait"><label>Source Data Extended Data Fig. 8</label><caption><p>Raw coefficient or feature weight values.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM17_ESM.xlsx" id="MOESM17" orientation="portrait"><label>Source Data Extended Data Fig. 9</label><caption><p>All model scores and labels for each patient using the tenfold train–test scheme.</p></caption></media>
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="43018_2022_416_MOESM18_ESM.xlsx" id="MOESM18" orientation="portrait"><label>Source Data Extended Data Fig. 10</label><caption><p>All model scores and labels for each patient using the repeated subsampling scheme.</p></caption></media>
+</p>
+          </sec>
+        </app>
+      </app-group>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+        <fn>
+          <p>These authors contributed equally: Rami S. Vanguri, Jia Luo, Andrew T. Aukerman, Jacklynn V. Egger.</p>
+        </fn>
+        <fn>
+          <p>These authors jointly supervised this work: L. Sauter, Matthew D. Hellmann, Sohrab P. Shah.</p>
+        </fn>
+        <fn>
+          <p>A list of authors and their affiliations appears at the end of the paper.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <sec id="FPar1">
+          <title>Extended data</title>
+          <p id="Par46">is available for this paper at 10.1038/s43018-022-00416-8.</p>
+        </sec>
+        <sec id="FPar2" sec-type="supplementary-material">
+          <title>Supplementary information</title>
+          <p id="Par47">The online version contains supplementary material available at 10.1038/s43018-022-00416-8.</p>
+        </sec>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>We thank N. Rusk for helpful comments on the manuscript. We thank R. Pimienta and the Open Systems team for supporting the MSK MIND data infrastructure. This study was supported in part by Cycle for Survival through MSK MIND, National Institutes of Health (NIH) National Cancer Institute (NCI) Cancer Center Support Grant (P30-CA008748) and the Druckenmiller Center for Lung Cancer Research at MSK Cancer Center; the NIH (T32-CA009207 and K30-UL1TR00457 to J.L.); the Conquer Cancer Foundation (Young Investigator Award to J.L); Damon Runyon Cancer Research Foundation (CI-98-18 to M.D.H.). S.P.S. is supported by the Nicholls–Biondi endowed chair in Computational Oncology and the Susan G. Komen Scholars program. K.M.B. is supported by the NCI of the NIH under award number F30CA257414, the Jonathan Grayer Fellowship of the Gerstner Sloan Kettering Graduate School of Biomedical Sciences and a Medical Scientist Training Program Grant from the National Institute of General Medical Sciences of the NIH under award no. T32GM007739 to the Weill Cornell/Rockefeller/Sloan Kettering Tri-Institutional MD-PhD Program. The following authors have changed affiliations since the drafting of this manuscript: M.D.H., H.R., J.G. and J.L. are currently affiliated with AstraZeneca (M.D.H. and H.R.), Caris Life Sciences (J.G.) and Dana-Farber Cancer Institute (J.L.), respectively.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>R.S.V. led the project, wrote the manuscript, designed multimodal feature analysis pipelines and helped conceptualize DyAM. J.L. designed the study and provided input on data modeling. A.T.A. developed the feature extraction pipelines, conceptualized and implemented DyAM and produced the figures. J.V.E. identified and curated the clinical cohorts. C.J.F. developed pipelines to extract data from clinical systems. N.H., A.P. and J.A.B.A-F. segmented radiological data. L.G. assisted in the extraction of digitized pathology images. H.A.R. assisted in data curation and study design. R.S. assisted in the extraction of radiological data. K.M.B. provided input on multimodal data modeling. S-R.Y. provided input on PD-L1 assessment. F.M.B. and K.V. assisted in the digitization of histology slides. T.J.H. provided input on pathological data modeling. M.S.G. supervised radiological segmentation. J.G. assisted in the analysis of the genomic data and supervised the data engineering efforts. M.D.H. conceived the study. J.L.S. wrote the manuscript, segmented histological data, assessed PD-L1 expression and supervised all aspects relating to the pathological data. S.P.S. wrote the manuscript and supervised the study. J.L., A.T.A., J.V.E., N.H., A.P., J.A.B.A-F., J.G. and M.D.H. edited the manuscript. All authors approved the manuscript.</p>
+      </notes>
+      <notes notes-type="peer-review">
+        <title>Peer review</title>
+        <sec id="FPar3">
+          <title>Peer review information</title>
+          <p id="Par48"><italic toggle="yes">Nature Cancer</italic> thanks Ruijiang Li and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Primary Handling Editor: Julia Simundza, in collaboration with the <italic toggle="yes">Nature Cancer</italic> team.</p>
+        </sec>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>All data are publicly available at synapse: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.synapse.org/#!Synapse:syn26642505">https://www.synapse.org/#!Synapse:syn26642505</ext-link>. The genomic features of the cohort can be explored on cbioportal: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=lung_msk_mind_2020">https://www.cbioportal.org/study/summary?id=lung_msk_mind_2020</ext-link>. Source data have been provided as Source Data files. <xref rid="Sec28" ref-type="sec">Source data</xref> are provided with this paper.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Code availability</title>
+        <p>Feature processing and engineering code is available as part of Luna: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/msk-mind/luna/">https://github.com/msk-mind/luna/</ext-link></p>
+      </notes>
+      <notes id="FPar4" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par49">J.L. has received honoraria from Targeted Oncology and Physicians’ Education Resource. M.D.H. as of November 2021, is an employee of AstraZeneca; has grants from BMS; and personal fees from Achilles; Adagene; Adicet; Arcus; AstraZeneca; Blueprint; BMS; DaVolterra; Eli Lilly; Genentech/Roche; Genzyme/Sanofi; Janssen; Immunai; Instil Bio; Mana Therapeutics; Merck; Mirati; Natera; Pact Pharma; Shattuck Labs; and Regeneron; as well as equity options from Factorial, Immunai, Shattuck Labs and Arcus. A patent filed by MSK related to the use of TMB to predict response to immunotherapy (PCT/US2015/062208) is pending and licensed by PGDx. T.J.H. receives funding from Bristol Myers Squibb and Calico labs. M.S.G. is a consultant for Ultimate Opinions in Medicine. J.L.S. reports stock ownership in Pfizer, Thermo Fisher Scientific, Merck &amp; Co. and Chemed Corp. S.P.S. is a shareholder and consultant for Imagia Canexia Health. The remaining authors declare no competing interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Topalian</surname>
+                <given-names>SL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Safety, activity, and immune correlates of anti-PD-1 antibody in cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2012</year>
+            <volume>366</volume>
+            <fpage>2443</fpage>
+            <lpage>2454</lpage>
+            <pub-id pub-id-type="pmid">22658127</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1200690</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3544539</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Callahan</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wolchok</surname>
+                <given-names>JD</given-names>
+              </name>
+            </person-group>
+            <article-title>Recruit or reboot? How does anti-PD-1 therapy change tumor-infiltrating lymphocytes?</article-title>
+            <source>Cancer Cell</source>
+            <year>2019</year>
+            <volume>36</volume>
+            <fpage>215</fpage>
+            <lpage>217</lpage>
+            <pub-id pub-id-type="pmid">31526757</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2019.08.009</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gandhi</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pembrolizumab plus chemotherapy in metastatic non-small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2018</year>
+            <volume>378</volume>
+            <fpage>2078</fpage>
+            <lpage>2092</lpage>
+            <pub-id pub-id-type="pmid">29658856</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1801005</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hellmann</surname>
+                <given-names>MD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Nivolumab plus ipilimumab in advanced non-small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2019</year>
+            <volume>381</volume>
+            <fpage>2020</fpage>
+            <lpage>2031</lpage>
+            <pub-id pub-id-type="pmid">31562796</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1910231</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Paz-Ares</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pembrolizumab plus chemotherapy for squamous non-small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2018</year>
+            <volume>379</volume>
+            <fpage>2040</fpage>
+            <lpage>2051</lpage>
+            <pub-id pub-id-type="pmid">30280635</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1810865</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reck</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2016</year>
+            <volume>375</volume>
+            <fpage>1823</fpage>
+            <lpage>1833</lpage>
+            <pub-id pub-id-type="pmid">27718847</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1606774</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Herbst</surname>
+                <given-names>RS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pembrolizumab versus docetaxel for previously treated, PD-L1-positive, advanced non-small-cell lung cancer (KEYNOTE-010): a randomised controlled trial</article-title>
+            <source>Lancet</source>
+            <year>2016</year>
+            <volume>387</volume>
+            <fpage>1540</fpage>
+            <lpage>1550</lpage>
+            <pub-id pub-id-type="pmid">26712084</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(15)01281-7</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Borghaei</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Nivolumab versus docetaxel in advanced nonsquamous non-small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2015</year>
+            <volume>373</volume>
+            <fpage>1627</fpage>
+            <lpage>1639</lpage>
+            <pub-id pub-id-type="pmid">26412456</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1507643</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5705936</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chaft</surname>
+                <given-names>JE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Evolution of systemic therapy for stages I–III non-metastatic non-small-cell lung cancer</article-title>
+            <source>Nat. Rev. Clin. Oncol.</source>
+            <year>2021</year>
+            <volume>18</volume>
+            <fpage>547</fpage>
+            <lpage>557</lpage>
+            <pub-id pub-id-type="pmid">33911215</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41571-021-00501-4</pub-id>
+            <pub-id pub-id-type="pmcid">PMC9447511</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forde</surname>
+                <given-names>PM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Neoadjuvant PD-1 blockade in resectable lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2018</year>
+            <volume>378</volume>
+            <fpage>1976</fpage>
+            <lpage>1986</lpage>
+            <pub-id pub-id-type="pmid">29658848</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1716078</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6223617</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gettinger</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Five-year follow-up of nivolumab in previously treated advanced non-small-cell lung cancer: results from the CA209-003 study</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>1675</fpage>
+            <lpage>1684</lpage>
+            <pub-id pub-id-type="pmid">29570421</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2017.77.0412</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garon</surname>
+                <given-names>EB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Five-year overall survival for patients with advanced non‒small-cell lung cancer treated with pembrolizumab: results from the phase I KEYNOTE-001 study</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2019</year>
+            <volume>37</volume>
+            <fpage>2518</fpage>
+            <lpage>2527</lpage>
+            <pub-id pub-id-type="pmid">31154919</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.19.00934</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6768611</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Derosa</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Negative association of antibiotics on clinical activity of immune checkpoint inhibitors in patients with advanced renal cell and non-small-cell lung cancer</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2018</year>
+            <volume>29</volume>
+            <fpage>1437</fpage>
+            <lpage>1444</lpage>
+            <pub-id pub-id-type="pmid">29617710</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdy103</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6354674</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Arbour</surname>
+                <given-names>KC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Impact of baseline steroids on efficacy of programmed cell death-1 and programmed death-ligand 1 blockade in patients with non-small-cell lung cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>2872</fpage>
+            <lpage>2878</lpage>
+            <pub-id pub-id-type="pmid">30125216</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2018.79.0006</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Newman</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Preeshagul</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kohn</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Devoe</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seetharamu</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Simple parameters to solve a complex issue: predicting response to checkpoint inhibitor therapy in lung cancer</article-title>
+            <source>Lung Cancer Manag.</source>
+            <year>2020</year>
+            <volume>10</volume>
+            <fpage>LMT44</fpage>
+            <pub-id pub-id-type="pmid">34084210</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.2217/lmt-2020-0024</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8162145</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>CK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clinical and molecular characteristics associated with survival among patients treated with checkpoint inhibitors for advanced non-small cell lung carcinoma: a systematic review and meta-analysis</article-title>
+            <source>JAMA Oncol</source>
+            <year>2018</year>
+            <volume>4</volume>
+            <fpage>210</fpage>
+            <lpage>216</lpage>
+            <pub-id pub-id-type="pmid">29270615</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2017.4427</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5838598</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Skoulidis</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutations and PD-1 inhibitor resistance in -mutant lung adenocarcinoma</article-title>
+            <source>Cancer Discov.</source>
+            <year>2018</year>
+            <volume>8</volume>
+            <fpage>822</fpage>
+            <lpage>835</lpage>
+            <pub-id pub-id-type="pmid">29773717</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-18-0099</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6030433</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tumeh</surname>
+                <given-names>PC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PD-1 blockade induces responses by inhibiting adaptive immune resistance</article-title>
+            <source>Nature</source>
+            <year>2014</year>
+            <volume>515</volume>
+            <fpage>568</fpage>
+            <lpage>571</lpage>
+            <pub-id pub-id-type="pmid">25428505</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13954</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4246418</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yeong</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Intratumoral CD39CD8 T cells predict response to programmed cell death protein-1 or programmed death ligand-1 blockade in patients with NSCLC</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2021</year>
+            <volume>16</volume>
+            <fpage>1349</fpage>
+            <lpage>1358</lpage>
+            <pub-id pub-id-type="pmid">33975004</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jtho.2021.04.016</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Edlund</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Prognostic impact of tumor cell programmed death ligand 1 expression and immune cell infiltration in NSCLC</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2019</year>
+            <volume>14</volume>
+            <fpage>628</fpage>
+            <lpage>640</lpage>
+            <pub-id pub-id-type="pmid">30639618</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jtho.2018.12.022</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garon</surname>
+                <given-names>EB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pembrolizumab for the treatment of non-small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2015</year>
+            <volume>372</volume>
+            <fpage>2018</fpage>
+            <lpage>2028</lpage>
+            <pub-id pub-id-type="pmid">25891174</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1501824</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ready</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>First-line nivolumab plus ipilimumab in advanced non-small-cell lung cancer (CheckMate 568): outcomes by programmed death ligand 1 and tumor mutational burden as biomarkers</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2019</year>
+            <volume>37</volume>
+            <fpage>992</fpage>
+            <lpage>1000</lpage>
+            <pub-id pub-id-type="pmid">30785829</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.18.01042</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6494267</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Marabelle</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Association of tumour mutational burden with outcomes in patients with advanced solid tumours treated with pembrolizumab: prospective biomarker analysis of the multicohort, open-label, phase 2 KEYNOTE-158 study</article-title>
+            <source>Lancet Oncol.</source>
+            <year>2020</year>
+            <volume>21</volume>
+            <fpage>1353</fpage>
+            <lpage>1365</lpage>
+            <pub-id pub-id-type="pmid">32919526</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(20)30445-9</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rizvi</surname>
+                <given-names>NA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cancer immunology. Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer</article-title>
+            <source>Science</source>
+            <year>2015</year>
+            <volume>348</volume>
+            <fpage>124</fpage>
+            <lpage>128</lpage>
+            <pub-id pub-id-type="pmid">25765070</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aaa1348</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4993154</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Anagnostou</surname>
+                <given-names>V</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Multimodal genomic features predict outcome of immune checkpoint blockade in non-small-cell lung cancer</article-title>
+            <source>Nat Cancer</source>
+            <year>2020</year>
+            <volume>1</volume>
+            <fpage>99</fpage>
+            <lpage>111</lpage>
+            <pub-id pub-id-type="pmid">32984843</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s43018-019-0008-8</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7514475</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Doroshow</surname>
+                <given-names>DB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PD-L1 as a biomarker of response to immune-checkpoint inhibitors</article-title>
+            <source>Nat. Rev. Clin. Oncol.</source>
+            <year>2021</year>
+            <volume>18</volume>
+            <fpage>345</fpage>
+            <lpage>362</lpage>
+            <pub-id pub-id-type="pmid">33580222</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41571-021-00473-5</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Aerts</surname>
+                <given-names>HJWL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach</article-title>
+            <source>Nat. Commun.</source>
+            <year>2014</year>
+            <volume>5</volume>
+            <fpage>4006</fpage>
+            <pub-id pub-id-type="pmid">24892406</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms5006</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4059926</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <mixed-citation publication-type="other">Boehm, K. M., Khosravi, P., Vanguri, R., Gao, J. &amp; Shah, S. P. Harnessing multimodal data integration to advance precision oncology. <italic toggle="yes">Nat. Rev. Cancer</italic>10.1038/s41568-021-00408-3 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41568-021-00408-3</pub-id><pub-id pub-id-type="pmcid">PMC8810682</pub-id><pub-id pub-id-type="pmid">34663944</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <mixed-citation publication-type="other">Trebeschi, S. et al. Predicting response to cancer immunotherapy using noninvasive radiomic biomarkers. <italic toggle="yes">Ann. Oncol</italic>. 10.1093/annonc/mdz108 (2019).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdz108</pub-id><pub-id pub-id-type="pmcid">PMC6594459</pub-id><pub-id pub-id-type="pmid">30895304</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A multi-omics-based serial deep-learning approach to predict clinical outcomes of single-agent anti-PD-1/PD-L1 immunotherapy in advanced stage non-small-cell lung cancer</article-title>
+            <source>Am. J. Transl. Res.</source>
+            <year>2021</year>
+            <volume>13</volume>
+            <fpage>743</fpage>
+            <lpage>756</lpage>
+            <pub-id pub-id-type="pmid">33594323</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7868825</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>703</fpage>
+            <lpage>713</lpage>
+            <pub-id pub-id-type="pmid">28481359</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.4333</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Röhrich</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Prospects and challenges of radiomics by using nononcologic routine chest CT</article-title>
+            <source>Radiol Cardiothorac Imaging</source>
+            <year>2020</year>
+            <volume>2</volume>
+            <fpage>e190190</fpage>
+            <pub-id pub-id-type="pmid">33778599</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1148/ryct.2020190190</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7978018</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hirsch</surname>
+                <given-names>FR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PD-L1 immunohistochemistry assays for lung cancer: results from phase 1 of the blueprint PD-L1 IHC assay comparison project</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2017</year>
+            <volume>12</volume>
+            <fpage>208</fpage>
+            <lpage>222</lpage>
+            <pub-id pub-id-type="pmid">27913228</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jtho.2016.11.2228</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rimm</surname>
+                <given-names>DL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A prospective, multi-institutional, pathologist-based assessment of 4 immunohistochemistry assays for PD-L1 expression in non-small cell lung cancer</article-title>
+            <source>JAMA Oncol</source>
+            <year>2017</year>
+            <volume>3</volume>
+            <fpage>1051</fpage>
+            <lpage>1058</lpage>
+            <pub-id pub-id-type="pmid">28278348</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2017.0013</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5650234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Radiological tumor classification across imaging modality and histology</article-title>
+            <source>Nat. Mach. Intell.</source>
+            <year>2021</year>
+            <volume>3</volume>
+            <fpage>787</fpage>
+            <lpage>798</lpage>
+            <pub-id pub-id-type="pmid">34841195</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42256-021-00377-0</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8612063</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sheller</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Federated learning in medicine: facilitating multi-institutional collaborations without sharing patient data</article-title>
+            <source>Sci. Rep.</source>
+            <year>2020</year>
+            <volume>10</volume>
+            <fpage>1</fpage>
+            <lpage>12</lpage>
+            <pub-id pub-id-type="pmid">32724046</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-020-69250-1</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7387485</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jiang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Radiographical assessment of tumour stroma and treatment outcomes using deep learning: a retrospective, multicohort study</article-title>
+            <source>Lancet Digit. Health</source>
+            <year>2021</year>
+            <volume>3</volume>
+            <fpage>e371</fpage>
+            <lpage>e382</lpage>
+            <pub-id pub-id-type="pmid">34045003</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S2589-7500(21)00065-0</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): a hybridization capture-based next-generation sequencing clinical assay for solid tumor molecular oncology</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <mixed-citation publication-type="other">Yushkevich, P. A. et al. User-guided 3D active contour segmentation of anatomical structures: significantly improved efficiency and reliability. <italic toggle="yes">Neuroimage</italic><bold>31</bold>, 1116–1128 (2006).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuroimage.2006.01.015</pub-id><pub-id pub-id-type="pmid">16545965</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Eisenhauer</surname>
+                <given-names>EA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)</article-title>
+            <source>Eur. J. Cancer</source>
+            <year>2009</year>
+            <volume>45</volume>
+            <fpage>228</fpage>
+            <lpage>247</lpage>
+            <pub-id pub-id-type="pmid">19097774</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejca.2008.10.026</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>van Griethuysen</surname>
+                <given-names>JJM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Computational radiomics system to decode the radiographic phenotype</article-title>
+            <source>Cancer Res.</source>
+            <year>2017</year>
+            <volume>77</volume>
+            <fpage>e104</fpage>
+            <lpage>e107</lpage>
+            <pub-id pub-id-type="pmid">29092951</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-17-0339</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5672828</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zwanenburg</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Assessing robustness of radiomic features by image perturbation</article-title>
+            <source>Sci. Rep.</source>
+            <year>2019</year>
+            <volume>9</volume>
+            <fpage>1</fpage>
+            <lpage>10</lpage>
+            <pub-id pub-id-type="pmid">30679599</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-018-36938-4</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6345842</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tsao</surname>
+                <given-names>MS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PD-L1 immunohistochemistry comparability study in real-life clinical samples: results of blueprint phase 2 project</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2018</year>
+            <volume>13</volume>
+            <fpage>1302</fpage>
+            <lpage>1311</lpage>
+            <pub-id pub-id-type="pmid">29800747</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jtho.2018.05.013</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8386299</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal</article-title>
+            <source>Sci. Signal.</source>
+            <year>2013</year>
+            <volume>6</volume>
+            <fpage>l1</fpage>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scisignal.2004088</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4160307</pub-id>
+            <pub-id pub-id-type="pmid">23550210</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>
+            <source>Cancer Discov.</source>
+            <year>2012</year>
+            <volume>2</volume>
+            <fpage>401</fpage>
+            <lpage>404</lpage>
+            <pub-id pub-id-type="pmid">22588877</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-12-0095</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3956037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <mixed-citation publication-type="other">Chakravarty, D. et al. OncoKB: a precision oncology knowledge base. <italic toggle="yes">JCO Precis. Oncol</italic>. 10.1200/po.17.00011 (2017).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id><pub-id pub-id-type="pmid">28890946</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR47">
+          <label>47.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rizvi</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular determinants of response to anti-programmed cell death (PD)-1 and anti-programmed death-ligand 1 (PD-L1) blockade in patients with non-small-cell lung cancer profiled with targeted next-generation sequencing</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>36</volume>
+            <fpage>633</fpage>
+            <lpage>641</lpage>
+            <pub-id pub-id-type="pmid">29337640</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2017.75.3384</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6075848</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR48">
+          <label>48.</label>
+          <mixed-citation publication-type="other">Carbonneau, M.-A., Cheplygina, V., Granger, E. &amp; Gagnon, G. Multiple instance learning: a survey of problem characteristics and applications. <italic toggle="yes">Pattern Recog.</italic>10.1016/j.patcog.2017.10.009 (2018).</mixed-citation>
+        </ref>
+        <ref id="CR49">
+          <label>49.</label>
+          <mixed-citation publication-type="other">Ilse, M., Tomczak, J. M. &amp; Welling, M. Attention-based Deep Multiple Instance Learning. Preprint at <italic toggle="yes">arXiv</italic>10.48550/arXiv.1802.04712 (2018).</mixed-citation>
+        </ref>
+        <ref id="CR50">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Davidson-Pilon</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>lifelines: survival analysis in Python</article-title>
+            <source>J.Open Source Softw.</source>
+            <year>2019</year>
+            <volume>4</volume>
+            <fpage>1317</fpage>
+          </element-citation>
+        </ref>
+        <ref id="CR51">
+          <label>51.</label>
+          <mixed-citation publication-type="other">Sun, X. &amp; Xu, W. Fast implementation of DeLong’s algorithm for comparing the areas under correlated receiver operating characteristic curves. <italic toggle="yes">IEEE Signal Process. Lett</italic>. 10.1109/LSP.2014.2337313 (2014).</mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

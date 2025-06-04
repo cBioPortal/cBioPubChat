@@ -1,0 +1,1549 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">NPJ Genom Med</journal-id>
+        <journal-id journal-id-type="iso-abbrev">NPJ Genom Med</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">3307</journal-id>
+        <journal-id journal-id-type="pmc-domain">npjgenmed</journal-id>
+        <journal-title-group>
+          <journal-title>NPJ Genomic Medicine</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2056-7944</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8613272</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8613272.1</article-id>
+        <article-id pub-id-type="pmcaid">8613272</article-id>
+        <article-id pub-id-type="pmcaiid">8613272</article-id>
+        <article-id pub-id-type="pmid">34819508</article-id>
+        <article-id pub-id-type="doi">10.1038/s41525-021-00259-9</article-id>
+        <article-id pub-id-type="publisher-id">259</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Geometric network analysis provides prognostic information in patients with high grade serous carcinoma of the ovary treated with immune checkpoint inhibitors</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Elkin</surname>
+              <given-names initials="R">Rena</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8791-2755</contrib-id>
+            <name name-style="western">
+              <surname>Oh</surname>
+              <given-names initials="JH">Jung Hun</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="YL">Ying L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Selenica</surname>
+              <given-names initials="P">Pier</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weigelt</surname>
+              <given-names initials="B">Britta</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reis-Filho</surname>
+              <given-names initials="JS">Jorge S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0094-0161</contrib-id>
+            <name name-style="western">
+              <surname>Zamarin</surname>
+              <given-names initials="D">Dmitriy</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Deasy</surname>
+              <given-names initials="JO">Joseph O.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Norton</surname>
+              <given-names initials="L">Larry</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Levine</surname>
+              <given-names initials="AJ">Arnold J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0567-5256</contrib-id>
+            <name name-style="western">
+              <surname>Tannenbaum</surname>
+              <given-names initials="AR">Allen R.</given-names>
+            </name>
+            <address>
+              <email>allen.tannenbaum@stonybrook.edu</email>
+            </address>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medical Physics, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY 10065 USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.78989.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2160 7918</institution-id><institution>Institute for Advanced Study, </institution></institution-wrap>Princeton, NJ 08540 USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.36425.36</institution-id><institution-id institution-id-type="ISNI">0000 0001 2216 9681</institution-id><institution>Departments of Computer Science and Applied Mathematics &amp; Statistics, </institution><institution>Stony Brook University, </institution></institution-wrap>Stony Brook, NY 11794 USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>24</day>
+          <month>11</month>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2021</year>
+        </pub-date>
+        <volume>6</volume>
+        <issue-id pub-id-type="pmc-issue-id">372047</issue-id>
+        <elocation-id>99</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>29</day>
+            <month>6</month>
+            <year>2021</year>
+          </date>
+          <date date-type="accepted">
+            <day>15</day>
+            <month>10</month>
+            <year>2021</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>24</day>
+              <month>11</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>12</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2021-12-02 00:16:37.370">
+              <day>02</day>
+              <month>12</month>
+              <year>2021</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2021</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41525_2021_Article_259.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Network analysis methods can potentially quantify cancer aberrations in gene networks without introducing fitted parameters or variable selection. A new network curvature-based method is introduced to provide an integrated measure of variability within cancer gene networks. The method is applied to high-grade serous ovarian cancers (HGSOCs) to predict response to immune checkpoint inhibitors (ICIs) and to rank key genes associated with prognosis. Copy number alterations (CNAs) from targeted and whole-exome sequencing data were extracted for HGSOC patients (<italic toggle="yes">n</italic> = 45) treated with ICIs. CNAs at a gene level were represented on a protein–protein interaction network to define patient-specific networks with a fixed topology. A version of Ollivier–Ricci curvature was used to identify genes that play a potentially key role in response to immunotherapy and further to stratify patients at high risk of mortality. Overall survival (OS) was defined as the time from the start of ICI treatment to either death or last follow-up. Kaplan–Meier analysis with log-rank test was performed to assess OS between the high and low curvature classified groups. The network curvature analysis stratified patients at high risk of mortality with <italic toggle="yes">p</italic> = 0.00047 in Kaplan–Meier analysis in HGSOC patients receiving ICI. Genes with high curvature were in accordance with CNAs relevant to ovarian cancer. Network curvature using CNAs has the potential to be a novel predictor for OS in HGSOC patients treated with immunotherapy.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Cancer genomics</kwd>
+          <kwd>Prognostic markers</kwd>
+          <kwd>Bioinformatics</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000181</institution-id>
+                <institution>United States Department of Defense | United States Air Force | AFMC | Air Force Office of Scientific Research (AF Office of Scientific Research)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>FA9550-17-1-0435</award-id>
+            <award-id>FA9550-20-1-002</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Tannenbaum</surname>
+                <given-names>Allen R.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000049</institution-id>
+                <institution>U.S. Department of Health &amp; Human Services | NIH | National Institute on Aging (U.S. National Institute on Aging)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>R01-AG048769</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Tannenbaum</surname>
+                <given-names>Allen R.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>NIH Exploratory/Developmental Research Grant Award (R21-CA234752)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>National Institutes of Health/ National Cancer Institute (P50565CA247749 01)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100001006</institution-id>
+                <institution>Breast Cancer Research Foundation (BCRF)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>BCRF-17-193</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Deasy</surname>
+                <given-names>Joseph O.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>Ovarian Cancer Research Foundation Liz Tilberis Award; Department of Defense Ovarian Cancer Research Academy (OC150111)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100007052</institution-id>
+                <institution>Memorial Sloan-Kettering Cancer Center (MSKCC)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30 CA008748</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Deasy</surname>
+                <given-names>Joseph O.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2021</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par2">Facilitated by advances in genomic sequencing techniques and the ongoing development of highly curated protein–protein interactome (PPI) databases (e.g., Human Reference Protein Database (HPRD,<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>), The Human Reference Interactome<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>, Search Tool for the Retrieval of Interacting Genes/Proteins<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>), we adopt a network approach to investigate biological features pertaining to overall survival (OS) in ovarian cancer (OC) based on copy number alterations (CNAs) in tumor tissues. The past decade has seen a large rise in the development of methods for analyzing large, complex networks, as exhibited by the rapidly growing literature. We draw on geometric notions to inform about the network structure, defined by evidence-based interactions provided by the PPI. Our network analysis methodology is unsupervised without fitting parameters or feature selection and is not constrained to the underlying topology alone. Indeed, since cancer has been demonstrated to exhibit functional robustness in connection to geometric properties of its network representation<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>, we utilize Ollivier’s discrete notion of Ricci curvature on weighted graphs, referred to as Ollivier–Ricci (OR) curvature<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>.</p>
+        <p id="Par3">The focus of this paper is to introduce a geometric network method for cancer with the key application to high grade serous ovarian cancer (HGSOC). Biomarkers of response to immune checkpoint blockade in HGSOC remain largely unknown. Unlike non-small cell lung cancers and melanomas that exhibit increased immunogenicity due to high tumor mutational burden (TMB)<sup><xref ref-type="bibr" rid="CR7">7</xref>–<xref ref-type="bibr" rid="CR11">11</xref></sup>, HGSOCs exhibit low TMB<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. In virtually all cases, HGSOCs are a disorder of loss of function gene mutations (<italic toggle="yes">TP53</italic>) leading to CNAs, and subsequently resulting in overexpressed copy number in multiple genes including oncogenes (e.g., <italic toggle="yes">KRAS</italic>, <italic toggle="yes">MYC</italic>, <italic toggle="yes">CCNE1</italic>, and <italic toggle="yes">AKT1</italic>) commonly due to aneuploidy<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup>. The impact of these alterations on response to immunotherapy is unknown; furthermore, it is unlikely that individual pathway alterations would be strongly predictive. This manuscript develops a mathematical method that constructs a network of these gene pathways where each node (gene) is quantitated by CNAs and for each tumor, the changes in the architecture or connectivity of the network are measured by a parameter termed <italic toggle="yes">curvature</italic> of the edges of the network. Curvature measures the connectivity in the sense of feedback loops, and the copy number measures the abundance of each node and its projected impact upon the changes in the network architecture. (More rigorous details about this will be given in the Methods Section.) Nodal curvature may exhibit more variation than the CNAs, reflecting the integration of the gene copy numbers and the local impact of their alteration on the network. Thus, curvature has the potential to differentiate responders from non-responders in patients treated with immune checkpoint inhibitors (ICIs) that could not be predicted from a single gene alone. Note that in this paper, gene names will be italicized in the main text, except in the tables for easier reading.</p>
+        <p id="Par4">Curvature is a local measure of how a geometric object (e.g., curve, surface, space) deviates from being <italic toggle="yes">flat</italic> in the Euclidean sense. While the physical interpretation of curvature in 3-dimensional Euclidean space is a familiar concept, intuition for curvature as a rigorous mathematical concept is often elusive, as the mathematical theory is not bound by the same physical constraints. This allows for curvature to be generalized to continuous spaces of higher dimensions (classically, Riemannian manifolds), and even to discrete spaces (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). The mathematical construct, however, is not solely of abstract, theoretical value. The archetypical example is the curvature of space-time which was integral to Einstein’s theory of general relativity. Although perhaps less intuitive, the geometric insight that curvature provides is applicable to other physical phenomena. In particular, change in OR curvature<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> has a strong mathematical connection to changes in robustness via change in entropy. Note that we are using <italic toggle="yes">change in curvature</italic> in the sense as a difference in curvature Δ<italic toggle="yes">κ</italic> between networks. This is a remarkable result facilitated by the theory of optimal mass transport (OMT) attributed to Sturm, Lott, and Villani<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>. The change in OR curvature has previously been used as an effective quantitative proxy for the qualitative notion of changes in robustness in various types of networks<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup>. In the present work, we employ curvature to predict patient survival and investigate primary components of functional robustness to identify key genes contributing to functional dysregulation in HGSOC.</p>
+        <p id="Par5">Various biomarkers including PD-L1 and the spatial distribution and composition of the immune microenvironment are being investigated in the context of response to ICI<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, but the present work focuses on extracting information from gene-level information. It is becoming more apparent that the use of genomic data (e.g., mutations, gene expression, CNAs) with the corresponding functional network representation can provide more insights into understanding the underlying biology of cancer. Thus, graph-based tools may be more powerful for investigating complex genomic networks than methods that aim to analyze and quantify the data independently.</p>
+        <p id="Par6">Genomic networks have a topology (i.e., a connectivity structure), but they also have a geometry, i.e., curvature, which gives a measure of their functional robustness. Graph curvature is intimately related to the number of invariant triangles, i.e., <italic toggle="yes">feedback loops</italic> at a given vertex, and the curvature between two vertices describes the degree of overlap between their respective neighborhoods<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. Informally, graphs with positive curvature characteristically contain many triangles (redundant feedback loops), contributing to its functional robustness with respect to a damaged or deleted edge. The more neighbors two given nodes have in common (i.e., triangles), the easier it is for information to flow between them. By weighing the ease with which information can be transferred from one node to another against the ground distance between them, curvature provides a local measure of functional connectivity compared to ordinary measures of connectivity which identify hubs based on degree. We show not only that the total curvature of a network can be used to predict overall patient survival in HGSOC, but it is also more effective than standard clinical parameters such as TMB.</p>
+        <p id="Par7">Typically, the curvature is computed on a network using the standard hop distance (where every edge in a path connecting two nodes is treated as a hop) with node weights that are continuous in nature (e.g., gene expression). Here, we use a <italic toggle="yes">weighted hop distance</italic> derived from the data as the underlying graph metric, so the distance between two nodes depends not only on the topology, but on the likelihood of interaction as well. Using node weights assigned by (discrete) CNAs, we show that curvature may also be informative in the discrete data setting. Furthermore, we show that the network topology without any additional information may be used as a reference to identify potential key players responsible for the functional robustness, even when limited data is available, as demonstrated in this study. Top identified genes such as <italic toggle="yes">TP53</italic>, whose known aberrant functional behavior has been attributed as a leading influence in the development/progression of ovarian cancer<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, serve as validation for the proposed methodology.</p>
+        <p id="Par8">Specifically, we create a shared topology, but with sample-specific gene interaction networks. The interactions are taken from the HPRD, where the protein interactions are assumed to serve as a proxy for the underlying gene interactions. We then supplement topology (i.e., connectivity) with sample-specific node weights taken to be the given copy number data. For each network, curvature is then computed at three scales: on edges, nodes, and the entire network. Analogous to Ricci curvature defined on tangent directions at a point on a Riemannian manifold and its contraction <italic toggle="yes">scalar curvature</italic> defined on the points of the manifold, the formulation of OR curvature is computed on all edges in the network and scalar curvature is computed on all nodes by contracting the OR (edge) curvature with the invariant distribution associated with the weighted network<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. The <italic toggle="yes">total curvature</italic> of the network is then computed by contracting the scalar curvature to a single scalar. (See Eq. (<xref rid="Equ9" ref-type="">9</xref>) for the precise definition.)</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Survival analysis</title>
+          <p id="Par9">The prognostic value of the total curvature <italic toggle="yes">κ</italic><sub><italic toggle="yes">G</italic></sub> in Eq. (<xref rid="Equ12" ref-type="">12</xref>) and standard genomic parameters including TMB, the fraction of genome altered (FGA) and large-scale state transition (LST) scores (representing homologous recombination deficiency status) were assessed with respect to the HGSOC cohort (<italic toggle="yes">n</italic> = 45). For each parameter (<italic toggle="yes">κ</italic><sub><italic toggle="yes">G</italic></sub>, TMB, FGA, LST), the cohort was stratified into two groups according to the 25th percentile (low vs. high) of individual values. The cutoff was selected based on the location where the curve fitted to the sorted total curvature values starts slowly incrementing and is approximately linear (Supplementary Fig. <xref rid="MOESM1" ref-type="media">6</xref>). An alternative cut point using maximally selected log-rank statistics<sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR21">21</xref></sup> was assessed as well and resulted in a comparable split (Supplementary Fig. <xref rid="MOESM1" ref-type="media">7</xref>). However, a larger cohort is needed for further validation. The effectiveness of each parameter in terms of OS was evaluated using the Kaplan–Meier (KM) analysis<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>.</p>
+          <p id="Par10">OS was defined from the start of immunotherapy treatment until either death or last follow-up<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Survival curves for each parameter were plotted according to the KM estimator, shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref> along with the corresponding log-rank <italic toggle="yes">p</italic> values (total curvature: <italic toggle="yes">p</italic> = 0.00047; TMB: <italic toggle="yes">p</italic> = 0.03153; LST: <italic toggle="yes">p</italic> = 0.42865; FGA: <italic toggle="yes">p</italic> = 0.19568). While both TMB and total curvature <italic toggle="yes">κ</italic><sub><italic toggle="yes">G</italic></sub> were found to be significant factors in predicting patient survival, the p-value for total curvature was almost 2 orders of magnitude smaller as compared to TMB, whose p-value was just marginally significant. The effective prognostic predictive power of the total curvature, particularly in comparison to the genomic parameters, is one of the major contributions of this work. See Supplementary Material for validation (Supplementary Figs. <xref rid="MOESM1" ref-type="media">4</xref> and <xref rid="MOESM1" ref-type="media">5</xref>) and survival analysis on the metastasis subcohort (Supplementary Fig. <xref rid="MOESM1" ref-type="media">9</xref>).<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Survival curves for HGSOC samples (<italic toggle="yes">n</italic> = 45) stratified low and high groups by the 25th percentile of total curvature and genomic parameters.</title><p><italic toggle="yes">P</italic> values were derived from the log-rank test.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e636" position="float" orientation="portrait" xlink:href="41525_2021_259_Fig1_HTML.jpg"/></fig></p>
+          <p id="Par11">In order to assess that the prediction is not independent of receiving immunotherapy treatment, we repeated the curvature and survival analysis pipeline on IMPACT data from HGSOC samples that did not receive ICIs. It is interesting to note that total curvature was not predictive of survival in this setting (Supplementary Fig. <xref rid="MOESM1" ref-type="media">8</xref>), highlighting that our findings may be immunotherapy-specific. However, it is also important to point out that OS was defined from the time of diagnosis for the analysis of this data set, whereas in the analysis of 45 HGSOC patients treated with ICIs, OS was defined from the start date of immunotherapy, and all 45 patients had recurrent tumors with a substantial time gap between the time of first diagnosis and the start date of immunotherapy. Lastly, no statistically significant differences were found using progression-free survival (PFS) in this cohort. This is not novel and a number of studies have increasingly demonstrated the ability of ICI to impact OS without significant impact on PFS. We have previously demonstrated that ICI therapy may positively influence responses to subsequent chemotherapy<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, suggesting that ICI may positively impact disease biology without immediate apparent clinical benefit.</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Functional biomarkers</title>
+          <p id="Par12">Genes that exhibit large changes in scalar curvature are identified as the genes that potentially play a key role in altering the network robustness (i.e., functional connectivity). This requires a reference for comparison, typically using data collected at a reference time (e.g., after immunotherapy treatment) or data collected from a reference sample (e.g., normal tissue). Often no such reference data are available, as was the case here where CNA data from only one time point were provided. Considering the distinction in survival curves obtained via curvature, we therefore used the high and low-risk groups (as previously defined by the 25th percentile of the total curvature and dichotomized into low and high curvature groups, respectively) for points of comparison. Genes were ranked by the difference in average scalar curvature between the low and high-risk groups (Δ<italic toggle="yes">κ</italic><sub>risk</sub>). The change in curvature measures the relative gene implication in the stabilization (or de-stabilization) of local network robustness driving changes in feedback connectivity pertaining to survival. Since both increased and decreased functionality is of interest, the top 50 ranked genes that exhibited the largest positive (Δ<italic toggle="yes">κ</italic><sub>risk</sub> &gt; 0) and largest negative (Δ<italic toggle="yes">κ</italic><sub>risk</sub> &lt; 0) change in curvature, yielding 100 candidate genes associated with risk, are listed in Table <xref rid="Tab1" ref-type="table">1</xref> (and listed alphabetically in Supplementary Table <xref rid="MOESM1" ref-type="media">5</xref>).<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>Changes in average scalar curvature based on risk (low vs high).</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1">Rank</th><th colspan="1" rowspan="1">Gene</th><th colspan="1" rowspan="1">Δ<italic toggle="yes">κ</italic><sub>risk</sub> &gt; 0</th><th colspan="1" rowspan="1">Gene</th><th colspan="1" rowspan="1">Δ<italic toggle="yes">κ</italic><sub>risk</sub> &lt; 0</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">TP53</td><td colspan="1" rowspan="1">0.208647</td><td colspan="1" rowspan="1">CREBBP</td><td colspan="1" rowspan="1">−0.064223</td></tr><tr><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">ATXN1</td><td colspan="1" rowspan="1">0.102823</td><td colspan="1" rowspan="1">SHC1</td><td colspan="1" rowspan="1">−0.031456</td></tr><tr><td colspan="1" rowspan="1">2</td><td colspan="1" rowspan="1">EP300</td><td colspan="1" rowspan="1">0.044184</td><td colspan="1" rowspan="1">PTK2</td><td colspan="1" rowspan="1">−0.026202</td></tr><tr><td colspan="1" rowspan="1">3</td><td colspan="1" rowspan="1">SMAD2</td><td colspan="1" rowspan="1">0.042756</td><td colspan="1" rowspan="1">AR</td><td colspan="1" rowspan="1">−0.025316</td></tr><tr><td colspan="1" rowspan="1">4</td><td colspan="1" rowspan="1">PIK3R1</td><td colspan="1" rowspan="1">0.037015</td><td colspan="1" rowspan="1">MYC</td><td colspan="1" rowspan="1">−0.022608</td></tr><tr><td colspan="1" rowspan="1">5</td><td colspan="1" rowspan="1">SRC</td><td colspan="1" rowspan="1">0.033112</td><td colspan="1" rowspan="1">JUN</td><td colspan="1" rowspan="1">−0.019546</td></tr><tr><td colspan="1" rowspan="1">6</td><td colspan="1" rowspan="1">SMAD4</td><td colspan="1" rowspan="1">0.032177</td><td colspan="1" rowspan="1">LYN</td><td colspan="1" rowspan="1">−0.011148</td></tr><tr><td colspan="1" rowspan="1">7</td><td colspan="1" rowspan="1">RB1</td><td colspan="1" rowspan="1">0.031043</td><td colspan="1" rowspan="1">YWHAQ</td><td colspan="1" rowspan="1">−0.010984</td></tr><tr><td colspan="1" rowspan="1">8</td><td colspan="1" rowspan="1">ESR1</td><td colspan="1" rowspan="1">0.027914</td><td colspan="1" rowspan="1">GSK3B</td><td colspan="1" rowspan="1">−0.009017</td></tr><tr><td colspan="1" rowspan="1">9</td><td colspan="1" rowspan="1">PRKCA</td><td colspan="1" rowspan="1">0.027253</td><td colspan="1" rowspan="1">STAT1</td><td colspan="1" rowspan="1">−0.008248</td></tr><tr><td colspan="1" rowspan="1">10</td><td colspan="1" rowspan="1">CTNNB1</td><td colspan="1" rowspan="1">0.025121</td><td colspan="1" rowspan="1">CDK5</td><td colspan="1" rowspan="1">−0.007480</td></tr><tr><td colspan="1" rowspan="1">11</td><td colspan="1" rowspan="1">GRB2</td><td colspan="1" rowspan="1">0.016848</td><td colspan="1" rowspan="1">FN1</td><td colspan="1" rowspan="1">−0.006947</td></tr><tr><td colspan="1" rowspan="1">12</td><td colspan="1" rowspan="1">YWHAE</td><td colspan="1" rowspan="1">0.015125</td><td colspan="1" rowspan="1">COPS6</td><td colspan="1" rowspan="1">−0.006251</td></tr><tr><td colspan="1" rowspan="1">13</td><td colspan="1" rowspan="1">DLG4</td><td colspan="1" rowspan="1">0.014966</td><td colspan="1" rowspan="1">SMAD3</td><td colspan="1" rowspan="1">−0.006133</td></tr><tr><td colspan="1" rowspan="1">14</td><td colspan="1" rowspan="1">PRKCD</td><td colspan="1" rowspan="1">0.014742</td><td colspan="1" rowspan="1">PAK1</td><td colspan="1" rowspan="1">−0.006091</td></tr><tr><td colspan="1" rowspan="1">15</td><td colspan="1" rowspan="1">ACTB</td><td colspan="1" rowspan="1">0.013456</td><td colspan="1" rowspan="1">MYOC</td><td colspan="1" rowspan="1">−0.005464</td></tr><tr><td colspan="1" rowspan="1">16</td><td colspan="1" rowspan="1">EWSR1</td><td colspan="1" rowspan="1">0.012300</td><td colspan="1" rowspan="1">SMURF1</td><td colspan="1" rowspan="1">−0.005438</td></tr><tr><td colspan="1" rowspan="1">17</td><td colspan="1" rowspan="1">TGFBR1</td><td colspan="1" rowspan="1">0.010799</td><td colspan="1" rowspan="1">SUMO1</td><td colspan="1" rowspan="1">−0.004455</td></tr><tr><td colspan="1" rowspan="1">18</td><td colspan="1" rowspan="1">RAC1</td><td colspan="1" rowspan="1">0.008937</td><td colspan="1" rowspan="1">PARP1</td><td colspan="1" rowspan="1">−0.004274</td></tr><tr><td colspan="1" rowspan="1">19</td><td colspan="1" rowspan="1">PLCG1</td><td colspan="1" rowspan="1">0.008423</td><td colspan="1" rowspan="1">CRMP1</td><td colspan="1" rowspan="1">−0.004271</td></tr><tr><td colspan="1" rowspan="1">20</td><td colspan="1" rowspan="1">CHD3</td><td colspan="1" rowspan="1">0.007997</td><td colspan="1" rowspan="1">HSF1</td><td colspan="1" rowspan="1">−0.004155</td></tr><tr><td colspan="1" rowspan="1">21</td><td colspan="1" rowspan="1">DVL2</td><td colspan="1" rowspan="1">0.007476</td><td colspan="1" rowspan="1">HIPK2</td><td colspan="1" rowspan="1">−0.004038</td></tr><tr><td colspan="1" rowspan="1">22</td><td colspan="1" rowspan="1">BCL2</td><td colspan="1" rowspan="1">0.007009</td><td colspan="1" rowspan="1">CDC42</td><td colspan="1" rowspan="1">−0.004017</td></tr><tr><td colspan="1" rowspan="1">23</td><td colspan="1" rowspan="1">RANBP9</td><td colspan="1" rowspan="1">0.006879</td><td colspan="1" rowspan="1">POU2F1</td><td colspan="1" rowspan="1">−0.003838</td></tr><tr><td colspan="1" rowspan="1">24</td><td colspan="1" rowspan="1">MAPK1</td><td colspan="1" rowspan="1">0.006630</td><td colspan="1" rowspan="1">ACVR1</td><td colspan="1" rowspan="1">−0.003651</td></tr><tr><td colspan="1" rowspan="1">25</td><td colspan="1" rowspan="1">POLR2A</td><td colspan="1" rowspan="1">0.006468</td><td colspan="1" rowspan="1">HTT</td><td colspan="1" rowspan="1">−0.003537</td></tr><tr><td colspan="1" rowspan="1">26</td><td colspan="1" rowspan="1">CRK</td><td colspan="1" rowspan="1">0.006375</td><td colspan="1" rowspan="1">JAK1</td><td colspan="1" rowspan="1">−0.003520</td></tr><tr><td colspan="1" rowspan="1">27</td><td colspan="1" rowspan="1">APP</td><td colspan="1" rowspan="1">0.006256</td><td colspan="1" rowspan="1">PDPK1</td><td colspan="1" rowspan="1">−0.003497</td></tr><tr><td colspan="1" rowspan="1">28</td><td colspan="1" rowspan="1">PCNA</td><td colspan="1" rowspan="1">0.005935</td><td colspan="1" rowspan="1">PIK3R2</td><td colspan="1" rowspan="1">−0.003423</td></tr><tr><td colspan="1" rowspan="1">29</td><td colspan="1" rowspan="1">COIL</td><td colspan="1" rowspan="1">0.005350</td><td colspan="1" rowspan="1">FGFR1</td><td colspan="1" rowspan="1">−0.003352</td></tr><tr><td colspan="1" rowspan="1">30</td><td colspan="1" rowspan="1">MAPK14</td><td colspan="1" rowspan="1">0.005097</td><td colspan="1" rowspan="1">CDKN1A</td><td colspan="1" rowspan="1">−0.003205</td></tr><tr><td colspan="1" rowspan="1">31</td><td colspan="1" rowspan="1">NR3C1</td><td colspan="1" rowspan="1">0.004981</td><td colspan="1" rowspan="1">MAGEA11</td><td colspan="1" rowspan="1">−0.003165</td></tr><tr><td colspan="1" rowspan="1">32</td><td colspan="1" rowspan="1">AKT1</td><td colspan="1" rowspan="1">0.004925</td><td colspan="1" rowspan="1">GNAI1</td><td colspan="1" rowspan="1">−0.003125</td></tr><tr><td colspan="1" rowspan="1">33</td><td colspan="1" rowspan="1">EGFR</td><td colspan="1" rowspan="1">0.004918</td><td colspan="1" rowspan="1">PRKCE</td><td colspan="1" rowspan="1">−0.003090</td></tr><tr><td colspan="1" rowspan="1">34</td><td colspan="1" rowspan="1">RHOA</td><td colspan="1" rowspan="1">0.004635</td><td colspan="1" rowspan="1">XPO1</td><td colspan="1" rowspan="1">−0.002919</td></tr><tr><td colspan="1" rowspan="1">35</td><td colspan="1" rowspan="1">RAF1</td><td colspan="1" rowspan="1">0.004159</td><td colspan="1" rowspan="1">BTK</td><td colspan="1" rowspan="1">−0.002855</td></tr><tr><td colspan="1" rowspan="1">36</td><td colspan="1" rowspan="1">SMAD7</td><td colspan="1" rowspan="1">0.004071</td><td colspan="1" rowspan="1">MUC1</td><td colspan="1" rowspan="1">−0.002814</td></tr><tr><td colspan="1" rowspan="1">37</td><td colspan="1" rowspan="1">NCOR1</td><td colspan="1" rowspan="1">0.004038</td><td colspan="1" rowspan="1">EIF2AK2</td><td colspan="1" rowspan="1">−0.002807</td></tr><tr><td colspan="1" rowspan="1">38</td><td colspan="1" rowspan="1">RASA1</td><td colspan="1" rowspan="1">0.003998</td><td colspan="1" rowspan="1">CASP8</td><td colspan="1" rowspan="1">−0.002758</td></tr><tr><td colspan="1" rowspan="1">39</td><td colspan="1" rowspan="1">FXR2</td><td colspan="1" rowspan="1">0.003879</td><td colspan="1" rowspan="1">CSNK2A2</td><td colspan="1" rowspan="1">−0.002717</td></tr><tr><td colspan="1" rowspan="1">40</td><td colspan="1" rowspan="1">RPA1</td><td colspan="1" rowspan="1">0.003560</td><td colspan="1" rowspan="1">MDM2</td><td colspan="1" rowspan="1">−0.002710</td></tr><tr><td colspan="1" rowspan="1">41</td><td colspan="1" rowspan="1">HRAS</td><td colspan="1" rowspan="1">0.003525</td><td colspan="1" rowspan="1">NTRK1</td><td colspan="1" rowspan="1">−0.002636</td></tr><tr><td colspan="1" rowspan="1">42</td><td colspan="1" rowspan="1">UBB</td><td colspan="1" rowspan="1">0.003302</td><td colspan="1" rowspan="1">ADAM15</td><td colspan="1" rowspan="1">−0.002541</td></tr><tr><td colspan="1" rowspan="1">43</td><td colspan="1" rowspan="1">BRCA1</td><td colspan="1" rowspan="1">0.003292</td><td colspan="1" rowspan="1">FASLG</td><td colspan="1" rowspan="1">−0.002522</td></tr><tr><td colspan="1" rowspan="1">44</td><td colspan="1" rowspan="1">SUMO4</td><td colspan="1" rowspan="1">0.003283</td><td colspan="1" rowspan="1">VIM</td><td colspan="1" rowspan="1">−0.002436</td></tr><tr><td colspan="1" rowspan="1">45</td><td colspan="1" rowspan="1">ARRB2</td><td colspan="1" rowspan="1">0.003248</td><td colspan="1" rowspan="1">CD247</td><td colspan="1" rowspan="1">−0.002372</td></tr><tr><td colspan="1" rowspan="1">46</td><td colspan="1" rowspan="1">XRCC6</td><td colspan="1" rowspan="1">0.003065</td><td colspan="1" rowspan="1">AXIN1</td><td colspan="1" rowspan="1">−0.002333</td></tr><tr><td colspan="1" rowspan="1">47</td><td colspan="1" rowspan="1">HGS</td><td colspan="1" rowspan="1">0.003025</td><td colspan="1" rowspan="1">SMARCA4</td><td colspan="1" rowspan="1">−0.002256</td></tr><tr><td colspan="1" rowspan="1">48</td><td colspan="1" rowspan="1">HDAC3</td><td colspan="1" rowspan="1">0.002965</td><td colspan="1" rowspan="1">SNAPIN</td><td colspan="1" rowspan="1">−0.002246</td></tr><tr><td colspan="1" rowspan="1">49</td><td colspan="1" rowspan="1">HSP90AA1</td><td colspan="1" rowspan="1">0.002924</td><td colspan="1" rowspan="1">PPP2R5A</td><td colspan="1" rowspan="1">−0.002187</td></tr></tbody></table><table-wrap-foot><p>Top 50 genes ranked by positive (Δ<italic toggle="yes">κ</italic><sub>risk</sub> &gt; 0) and negative (Δ<italic toggle="yes">κ</italic><sub>risk</sub> &lt; 0) difference in average scalar curvature between low risk (<italic toggle="yes">n</italic> = 33) and high risk (<italic toggle="yes">n</italic> = 12) groups.</p></table-wrap-foot></table-wrap></p>
+          <p id="Par13">Similarly, we investigated the top genes ranked by the difference in average scalar curvature between sub-groups based on available clinical data as an exploratory analysis. Of ancillary interest were the top-ranked candidate driver genes that demonstrate functional network response to ICI and their association to survival as exhibited by disparities in network robustness measured between those who were alive or deceased at last follow-up (Δ<italic toggle="yes">κ</italic><sub>OS</sub>; Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>) and predominant changes in functional connectivity due to DNA level dysregulation that occurs between primary and metastatic tumors (Δ<italic toggle="yes">κ</italic><sub>PM</sub>; Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). Lastly, we used the network topology itself as a frame of reference. Treating the fixed network topology as an unweighted graph (i.e., all node weights are uniformly set to 1), we computed the scalar curvature on this reference topology network in the same manner as detailed above. This provides a measure of discordance in functional connectivity between the HGSOC network and its underlying topological structure (Δ<italic toggle="yes">κ</italic><sub>ref</sub>; Supplementary Table <xref rid="MOESM1" ref-type="media">3</xref>). It is interesting to note that in all of the comparisons <italic toggle="yes">TP53</italic> appeared at the top of all positive changes in curvature indicating its functional centrality in HGSOC.</p>
+          <p id="Par14">Substantial overlap in the top 50 (positive and negative) ranked genes was noted from all of the comparisons performed, resulting in 171 unique genes listed in Supplementary Table <xref rid="MOESM1" ref-type="media">4</xref> (Supplementary Figs. <xref rid="MOESM1" ref-type="media">12</xref> and <xref rid="MOESM1" ref-type="media">13</xref>). The choice of selecting the top 50 genes was largely arbitrary with the following rationale. The assertion that critical genes may be identified as those exhibiting larger changes in curvature is supported by the theory, but curvature is a continuous variable with no obvious cutoff. Since there is also an exploratory component to this analysis, we opted for a cutoff that would yield a manageable set of genes that reasonably included the key influential players. Out of 3489 genes in the network, this resulted in 50 (positive and negative) candidate genes. See Supplementary Fig. <xref rid="MOESM1" ref-type="media">10</xref> for a further <italic toggle="yes">sub-curvature</italic> analysis on the association between the highlighted candidate genes and survival.</p>
+        </sec>
+        <sec id="Sec5">
+          <title>Relationship between total curvature and genomic features</title>
+          <p id="Par15">Lastly, we explored the relationship between total curvature and genomic features (TMB, FGA, LST). Linear regression analysis and Pearson correlation (<italic toggle="yes">r</italic>) with <italic toggle="yes">p</italic> values were used to assess the correlation between total curvature and each of the clinical features (TMB: <italic toggle="yes">p</italic> = 0.9674; FGA: <italic toggle="yes">p</italic> = 0.0059; LST: <italic toggle="yes">p</italic> = 0.0867). This analysis suggests that total curvature is significantly correlated with FGA. This result is not entirely surprising considering that FGA is a surrogate measure of CN changes and the curvature measures dysregulation of the CN-weighted network. However, total curvature yields high- and low-risk groups with a significant difference in survival, whereas FGA does not. The difference is that total curvature accounts for an extra level of information, namely the connectivity, that is not evident from CNAs alone. We believe this is compelling evidence that network dysregulation, as measured by curvature, has the potential to provide critical insight for analyzing immune response. More samples are needed to verify this result but it is interesting to note that further investigation into FGA as a potential biomarker for survival in HGSOC has been proposed<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Linear regression plots on the HGSOC cohort (<italic toggle="yes">n</italic> = 45) are shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref>.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Linear regression of total curvature onto clinical parameters using HGSOC samples (<italic toggle="yes">n</italic> = 45).</title><p>The lower triangle includes the regression line, Pearson correlation (<italic toggle="yes">r</italic>), and associated <italic toggle="yes">p</italic> value.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1634" position="float" orientation="portrait" xlink:href="41525_2021_259_Fig2_HTML.jpg"/></fig></p>
+        </sec>
+      </sec>
+      <sec id="Sec6" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par16">Mutational profiles of HGSOCs are characterized by abnormal gene CNAs, which result in protein overexpression or underexpression<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. The majority of these OCs are characterized by inactivating mutations or loss of <italic toggle="yes">TP53</italic>, leading to aneuploidy, resulting from loss of control of centrosome numbers<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>, and selection for enhanced copy number and gene expression of selected genes controlling the cell cycle (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). These OCs commonly overexpress the cyclin E protein due to loss of p53 function, resulting in downregulation of p21 (the inhibitor of cyclin E-CDK2 activity), as well as amplification of cyclin E<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. In addition, the serous OCs have one or more of the <italic toggle="yes">KRAS</italic>, <italic toggle="yes">MYC</italic>, and <italic toggle="yes">AKT1</italic> genes overexpressed in the late G-1 phase of the cell cycle (see Fig. <xref rid="Fig3" ref-type="fig">3</xref>). The <italic toggle="yes">KRAS</italic> activity signals that the cell is stimulated by growth factors and should progress through the cell cycle, the <italic toggle="yes">MYC</italic> gene regulates the transcription of hundreds of genes for cell growth and division, and the <italic toggle="yes">AKT1</italic> gene promotes TORC2 activity for entry into S-phase and stimulates AKT kinase to enhance the MDM2 E3 ubiquitin ligase to increase the destruction of the p53 protein<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. All of these driver gene products promote a constant overexpressed signal for cell cycle progression and division. The mutational profile of this cancer is copy number changes of genes and overexpression of selected gene products. For that reason, the methods developed here employ copy number values as the measurement for each node containing a gene in the signal transduction pathway and the resultant network that is employed to measure curvature.<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>Genes involved in serous ovarian cancer in the G-1 phase of the cell cycle: the G-1 phase of the cell cycle can be divided up into cyclin D-CDK4/6 early events and cyclin E-CDK2 later events.</title><p>The inhibitors of these protein kinase activities, p38 and p16 for cyclin D and p53 and p21 for cyclin E, are shown above the cyclin D and E panels. The activating pathways for cyclin D (TORC1) and cyclin E (TORC2) are shown below these panels. The mutational loss of <italic toggle="yes">TP53</italic> and the amplification of cyclin E results in the loss of control of cyclin E levels and the hyper-amplification of centrosome numbers destabilizing the copy number control of chromosome numbers (aneuploidy) and gene copy numbers. Serous ovarian cancers commonly have <italic toggle="yes">KRAS</italic>, <italic toggle="yes">MYC</italic>, and <italic toggle="yes">AKT1</italic> genes or chromosome amplifications and overexpression. The <italic toggle="yes">CDKN1A</italic> gene which codes for p21 is not mutated suggesting that it has additional functions required elsewhere for viability or that additional functions of p53 must be lost for ovarian cancers. Every gene highlighted in this figure can be found genetically altered in a cancer of other tissue types.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1710" position="float" orientation="portrait" xlink:href="41525_2021_259_Fig3_HTML.jpg"/></fig></p>
+        <p id="Par17">This mutational profile of serous OC results in the loss of control for duplicating centrosomes, which sets up the polarity in a cell for the normal segregation of chromosomes. This is driven by the loss of function of p53 and the overexpression of cyclin E, which co-localizes with the centrosome, which duplicates abnormally producing three or more centrosomes<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>. In the extreme, this results in chromothripsis, where chromosome fragments and some of the parts are reassembled in a random order. This can result in double minute chromosomes without a centromere for proper segregation and random partition of the double minutes and distribution of multiple copy numbers. Often the population of cells forms a distribution of copy numbers of a combination of genes, which are then selected for optimal fitness.</p>
+        <p id="Par18">Biomarkers of response to immunotherapy in OC remain underdeveloped. Here, we characterized a cohort of HGSOC patients treated with immunotherapy for whom detailed treatment, genomic, and survival data were available. Our analysis indicates that employing the copy number of the relevant genes as a measurement for each node in a network provides the strongest predictive power for OS, when compared to prior examined parameters such as TMB, LST, and FGA (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). These results suggest that no one gene or even its alterations can predict responses to therapy. Rather it is the integration of the copy numbers of driver genes and the change of resultant networks formed by these genetic or epigenetic alterations that impacts immunological responsiveness of the tumor after checkpoint therapy. Employing the overexpression of the same set of genes and loss of p53 function in a mouse model of ovarian cancers treated with immunotherapy resulted in similar heterogeneous responses to checkpoint therapy and the beginnings of experimental tests of genes and products that could modify the results of the responses to cancer therapies<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. This permits the pairing and testing of the type of modeling presented here along with prediction of genes with high curvature with experimental tests in a mouse model to improve the choice of therapies depending upon the genotypes of the tumors.</p>
+        <p id="Par19">Interestingly, in non-small cell lung cancer a major tumor antigen, not genetically altered in sequence (not a neo-antigen), was found to be overexpressed in many different independent tumors<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup>. This suggests that in serous OCs, like non-small cell lung cancers, the higher concentration of a non-genetically altered tumor antigen was an important variable in responsiveness to checkpoint therapy. Similar conclusions were reached by the mathematical construct employed here, measured by both abundance and changes in a network architecture and quantitated by curvature of the edges of the network.</p>
+        <p id="Par20">For additional validation of our methodology, we tested our method on a much larger data set from Metabric (breast cancer) with 1903 samples. The KM plot is shown in Supplementary Fig. <xref rid="MOESM1" ref-type="media">14</xref>. To recap, network curvature was used in this study to investigate survival specifically in those women with recurrent HGSOC treated with ICI. Unlike other cancers, HGSOC has not been shown to respond well to ICI and traditional biomarkers, such as TMB, have not been predictive in HGSOC. In addition, in HGSOC to date, PD-L1 expression has unfortunately not been found to be predictive of response to ICI<sup><xref ref-type="bibr" rid="CR26">26</xref>,<xref ref-type="bibr" rid="CR27">27</xref></sup>. While the presence of TILs is prognostic in HGSOC<sup><xref ref-type="bibr" rid="CR28">28</xref></sup> and other cancers, their predictive value for ICI response is questionable. In two published studies that have evaluated combination of ICI with PARP inhibitors in HGSOC, the presence of TILs was not predictive of response<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup>. Thus, while these biomarkers have been predictive of response to ICI in other cancer types, their value in HGSOC is rather limited. The demonstration of the predictive value of PD-L1 expression and TILs in the cohort analyzed in the current work would have been useful for comparison, but unfortunately, sufficient tissue to conduct such studies was not available.</p>
+        <p id="Par21">Identification of novel biomarkers predictive of immunotherapy response in HGSOC is thus a high priority. The current study capitalizes on the unique biology of HGSOC (i.e., CNAs) and identifies curvature as a potential biomarker tool that can serve as a predictor of clinical benefit in patients treated with ICI. Notably, we feel that this tool is not simply prognostic, as our study investigated curvature as a predictor of OS in those with HGSOC not treated with ICI, and it was not significantly associated with prognosis, suggesting this is a biomarker truly related to ICI rather than HGSOC.</p>
+        <p id="Par22">The marriage of mathematical models with experimental tests is one of the goals that will speed up the testing of new ideas and directions. The gene lists in Table <xref rid="Tab1" ref-type="table">1</xref> and Supplementary Tables <xref rid="MOESM1" ref-type="media">1</xref>–<xref rid="MOESM1" ref-type="media">3</xref> that compare the values of curvature, topology, geometry, feedback connectivity, and other properties of the networks under study, permit a selection of the best ways to measure lists of genes that impact success of immunotherapy. The conclusion of the analysis presented in this work is that the stability or instability of local network robustness driving changes in feedback connectivity has the largest impact upon prognosis after immunotherapy. The analysis identifies the mutant <italic toggle="yes">TP53</italic> gene and its loss of functional protein, resulting in the inability to control cyclin E activity and the resultant abnormalities in copying centrosome numbers accurately as the driving force for this cancer<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>.</p>
+        <p id="Par23">In conclusion, a network version of the geometric concept of curvature was introduced to model information variability, robustness, and dysregulation of cancer gene networks. Total curvature, thus formulated for HGSOC, was demonstrated to work better in comparison to other standard metrics for the prediction of response to immunotherapy. Network curvature, formulated in this manner as a consistent information passing measure, thus appears to effectively capture global gene signaling dysregulation, and furthermore functions to identify key contributors to signaling dysregulation. Establishing total curvature as a useful clinical biomarker, possibly in combination with FGA (also proposed as a potential biomarker in ovarian cancer<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>), will require larger datasets in order to further quantify and validate these results.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Methods</title>
+        <sec id="Sec8">
+          <title>Curvature background</title>
+          <p id="Par24">We start with a brief, informal discussion on curvature to build some intuition before introducing the formal description of curvature as it was used in this work. See Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref> for an illustration of the key concepts.</p>
+          <p id="Par25">Perhaps the most intuitive notion of curvature is that of <italic toggle="yes">Gaussian curvature</italic> on a surface<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. The curvature proposed by Ollivier<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> is the discrete analog of Gaussian curvature on a surface, and more generally, of Ricci curvature on higher dimensional objects. Application of this generalized, abstracted notion of curvature is proposed for studying cancer networks, as elucidated below. The key point is that the notion of curvature we employ is intrinsic to the given geometric object. For networks defined by graphs, one looks at such an intrinsically defined quantity to inform on its (functional) structure.</p>
+          <p id="Par26">In the classical case, the Gaussian curvature of a surface is independent of how the surface is embedded in 3-dimensional space. Thus rather than look at the surface as it is embedded in 3-dimensional space from the perspective of an outsider, the key is to treat the surface as the space itself. With this approach, we can determine if the space is curved through the use of <italic toggle="yes">geodesics</italic>, the curves of (locally) shortest length between two points. (Geodesics generalize straight lines in Euclidean space.) One way to tell if the space is curved is to sum up the interior angles of a geodesic triangle. Geodesic triangles on a surface with positive (resp., negative) Gaussian curvature are <italic toggle="yes">fat</italic> (resp., <italic toggle="yes">skinny</italic>) compared to the triangle in Euclidean space. Loosely speaking, curvature can be inferred by the local behavior of geodesics—geodesics converge in regions of positive curvature and diverge in regions of negative curvature. On Riemannian manifolds, Ricci curvature is intimately related to the spread of geodesics emanating from the same point<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>.</p>
+          <p id="Par27">While there are many ways to characterize the local behavior of Ricci curvature, we focus on Ollivier’s characterization that is relevant for our purposes: namely that in regions of positive (resp., negative) Ricci curvature, geodesic balls (on average) are closer (resp., farther) than their centers<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. (A “geodesic ball” of radius <italic toggle="yes">ϵ</italic> centered at a given point <italic toggle="yes">p</italic> is defined as the image under the exponential map of the ball of radius <italic toggle="yes">ϵ</italic> on the tangent space at <italic toggle="yes">p</italic>). This is in contrast to Euclidean space where the distances between geodesic balls and their centers are the same. Ollivier’s characterization generalizes this notion of Ricci curvature applicable to graphs by replacing the geodesic balls with probability measures <italic toggle="yes">μ</italic><sub><italic toggle="yes">j</italic></sub><sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. In the Euclidean case, one may think of this as replacing points (delta functions) by small Gaussian balls (“fuzzified points”). The transportation distance between measures <italic toggle="yes">μ</italic><sub><italic toggle="yes">j</italic></sub> and <italic toggle="yes">μ</italic><sub><italic toggle="yes">k</italic></sub>, prescribed by the Wasserstein distance <italic toggle="yes">W</italic><sub>1</sub>, is used in lieu of the average distance between geodesic balls. The Wasserstein distance accounts for the geometry of the space and the distance between distributions associated with two nodes is related to the overlap of their neighborhoods. The rigorous mathematical details will be given now.</p>
+        </sec>
+        <sec id="Sec9">
+          <title>Wasserstein distance</title>
+          <p id="Par28">The Wasserstein distance is a particular instance of the OMT problem. It is a natural candidate for comparing probability measures because it accounts for both the shape of the distributions (i.e., weighted values) and the distance on the underlying space. The OMT problem, originated by Gaspard Monge<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>, seeks the optimal way to redistribute mass with minimal transportation cost. Leonid Kantorovich reformulated and relaxed the problem in the context of resource allocation<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>; for more details, see<sup><xref ref-type="bibr" rid="CR34">34</xref>–<xref ref-type="bibr" rid="CR36">36</xref></sup>. We consider the following discrete formulation. Since we will be applying the theory to weighted graphs, this will be sufficient.</p>
+          <p id="Par29">Accordingly, let <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mathcal{X}}}}$$\end{document}</tex-math><mml:math id="M2"><mml:mi class="MJX-tex-caligraphic" mathvariant="script">X</mml:mi></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq1.gif"/></alternatives></inline-formula> denote a metric measure space equipped with distance <italic toggle="yes">d</italic>(⋅,⋅). Given two (discrete) probability measures <italic toggle="yes">μ</italic><sub>0</sub> and <italic toggle="yes">μ</italic><sub>1</sub> on <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mathcal{X}}}}$$\end{document}</tex-math><mml:math id="M4"><mml:mi class="MJX-tex-caligraphic" mathvariant="script">X</mml:mi></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq2.gif"/></alternatives></inline-formula>, the <italic toggle="yes">Wasserstein distance</italic>
+<italic toggle="yes">W</italic><sub>1</sub> between <italic toggle="yes">μ</italic><sub>0</sub> and <italic toggle="yes">μ</italic><sub>1</sub> is defined as<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${W}_{1}({\mu }_{0},{\mu }_{1}):= \mathop{\inf }\limits_{\pi \in {{\Pi }}({\mu }_{0},{\mu }_{1})}\mathop{\sum}\limits_{x,y}{\pi }_{xy}d(x,y),$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mi>inf</mml:mi></mml:mrow><mml:mrow><mml:mi>π</mml:mi><mml:mo>∈</mml:mo><mml:mi mathvariant="normal">Π</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:munder><mml:munder><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:munder><mml:msub><mml:mrow><mml:mi>π</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ1.gif"/></alternatives></disp-formula>where Π(<italic toggle="yes">μ</italic><sub>0</sub>, <italic toggle="yes">μ</italic><sub>1</sub>) is the set of joint probabilities on <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mathcal{X}}}}\times {{{\mathcal{X}}}}$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mi class="MJX-tex-caligraphic" mathvariant="script">X</mml:mi><mml:mo>×</mml:mo><mml:mi class="MJX-tex-caligraphic" mathvariant="script">X</mml:mi></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq3.gif"/></alternatives></inline-formula> with marginals <italic toggle="yes">μ</italic><sub>0</sub> and <italic toggle="yes">μ</italic><sub>1</sub>. Here, <italic toggle="yes">π</italic><sub><italic toggle="yes">x</italic><italic toggle="yes">y</italic></sub> may be interpreted as the amount of mass moved from <italic toggle="yes">x</italic> to <italic toggle="yes">y</italic> and the cost of transporting a unit of mass is taken to be the distance traveled (i.e., <italic toggle="yes">d</italic>). Thus, the Wasserstein distance (<xref rid="Equ1" ref-type="">1</xref>) gives the minimal net cost of transporting mass distributed by <italic toggle="yes">μ</italic><sub>0</sub> to match the distribution of <italic toggle="yes">μ</italic><sub>1</sub>. The OMT problem therefore seeks the optimal <italic toggle="yes">transference plan π</italic> ∈ Π(<italic toggle="yes">μ</italic><sub>0</sub>, <italic toggle="yes">μ</italic><sub>1</sub>) found to be the infimal argument for which the Wasserstein distance is realized.</p>
+          <p id="Par30">As is well-known, the computation of <italic toggle="yes">W</italic><sub>1</sub> may be reduced to one of linear programming<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. One can consider a dual version of the problem based on work Beckmann<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, which reduces the computation to one of optimizing over a certain set of fluxes, upon which we based our code. Details may be found in<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>.</p>
+        </sec>
+        <sec id="Sec10">
+          <title>Curvature</title>
+          <p id="Par31">The interplay between OR curvature, network entropy, and functional robustness is linked by OMT and is rich in theory. We outline this now, beginning with the OR curvature<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>.</p>
+          <p id="Par32">Based on the work of von Renesse and Sturm<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, Ollivier extended the notion of Ricci curvature, defined on a Riemannian manifold, to discrete metric measure spaces<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Specifically, let <inline-formula id="IEq4"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mathcal{X}}}}$$\end{document}</tex-math><mml:math id="M10"><mml:mi class="MJX-tex-caligraphic" mathvariant="script">X</mml:mi></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq4.gif"/></alternatives></inline-formula> be a metric measure space equipped with a distance <italic toggle="yes">d</italic> such that for each <inline-formula id="IEq5"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x\in {{{\mathcal{X}}}}$$\end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mi>x</mml:mi><mml:mo>∈</mml:mo><mml:mi class="MJX-tex-caligraphic" mathvariant="script">X</mml:mi></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq5.gif"/></alternatives></inline-formula>, one is given a probability measure <italic toggle="yes">μ</italic><sub><italic toggle="yes">x</italic></sub>. The probability measure <italic toggle="yes">μ</italic><sub><italic toggle="yes">x</italic></sub> can be thought of as <italic toggle="yes">fuzzifying</italic> or <italic toggle="yes">blurring</italic> the point <italic toggle="yes">x</italic>. For two points <inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x,y\in {{{\mathcal{X}}}}$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mo>∈</mml:mo><mml:mi class="MJX-tex-caligraphic" mathvariant="script">X</mml:mi></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq6.gif"/></alternatives></inline-formula>, OR curvature is defined as<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\kappa }_{\rm{OR}}(x,y):= 1-\frac{{W}_{1}({\mu }_{x},{\mu }_{y})}{d(x,y)},$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:msub><mml:mrow><mml:mi>κ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">OR</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>y</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ2.gif"/></alternatives></disp-formula>where <italic toggle="yes">W</italic><sub>1</sub> is the <italic toggle="yes">Wasserstein distance</italic>.</p>
+        </sec>
+        <sec id="Sec11">
+          <title>Curvature on graphs</title>
+          <p id="Par33">For our purposes, the metric measure space is taken to be a weighted graph <italic toggle="yes">G</italic> = (<italic toggle="yes">V</italic>, <italic toggle="yes">E</italic>) with nodes (vertices) <italic toggle="yes">V</italic> and edges <italic toggle="yes">E</italic>. <italic toggle="yes">G</italic> is assumed to be a <italic toggle="yes">simple, connected</italic> and <italic toggle="yes">undirected</italic> graph. Instead of points <italic toggle="yes">x</italic> in a metric space, we now consider nodes <italic toggle="yes">x</italic><sub><italic toggle="yes">j</italic></sub> ∈ <italic toggle="yes">V</italic>, denoted simply by its subscript <italic toggle="yes">j</italic>. In this work, the graph is constructed as follows. Each node <italic toggle="yes">j</italic> ∈ <italic toggle="yes">V</italic> represents a gene; hereafter node and gene are used interchangeably. Edges <italic toggle="yes">e</italic> = (<italic toggle="yes">j</italic>, <italic toggle="yes">k</italic>) ∈ <italic toggle="yes">E</italic> define known interactions between genes (nodes) at the protein level (here given by HPRD) and <italic toggle="yes">j</italic> ~ <italic toggle="yes">k</italic> denotes that <italic toggle="yes">k</italic> is a neighbor of <italic toggle="yes">j</italic>. We then incorporate copy number (CN) values as nodal weights, denoted <italic toggle="yes">w</italic><sub><italic toggle="yes">j</italic></sub>. Note that for <italic toggle="yes">j</italic> ∈ <italic toggle="yes">V</italic>, we take <italic toggle="yes">w</italic><sub><italic toggle="yes">j</italic></sub> = (<italic toggle="yes">C</italic><italic toggle="yes">N</italic>)<sub><italic toggle="yes">j</italic></sub> + 1; the affine translation is used to ensure all weights are positive.</p>
+          <p id="Par34">We treat the weighted graph as a Markov chain. In this context, the probability measure <italic toggle="yes">μ</italic><sub><italic toggle="yes">j</italic></sub> attached to node <italic toggle="yes">j</italic> ∈ <italic toggle="yes">V</italic> can be thought of as the probability of a 1-step random walk starting from node <italic toggle="yes">j</italic>. The 1-step transition probability <italic toggle="yes">p</italic><sub><italic toggle="yes">j</italic><italic toggle="yes">k</italic></sub> of going from <italic toggle="yes">j</italic> to <italic toggle="yes">k</italic> is expressed by the <italic toggle="yes">principle of mass action</italic><sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. According to this principle, if there is a known connection between gene <italic toggle="yes">j</italic> and gene <italic toggle="yes">k</italic> (i.e., (<italic toggle="yes">j</italic>, <italic toggle="yes">k</italic>) ∈ <italic toggle="yes">E</italic>), then the probability that they interact is proportional to the product of their CN values:<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${p}_{jk}\propto {w}_{j}{w}_{k}.$$\end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>∝</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ3.gif"/></alternatives></disp-formula>Normalizing the mass action over all possible edges to ensure that <italic toggle="yes">p</italic><sub><italic toggle="yes">j</italic><italic toggle="yes">k</italic></sub> is a probability, i.e., ∑<sub><italic toggle="yes">j</italic>~<italic toggle="yes">k</italic></sub><italic toggle="yes">p</italic><sub><italic toggle="yes">j</italic><italic toggle="yes">k</italic></sub> = 1, we define the transition probabilities <italic toggle="yes">p</italic><sub><italic toggle="yes">j</italic><italic toggle="yes">k</italic></sub> of the stochastic matrix <italic toggle="yes">P</italic> = [<italic toggle="yes">p</italic><sub><italic toggle="yes">ij</italic></sub>] associated with the Markov chain as follows:<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${p}_{jk}=\left\{\begin{array}{ll}\frac{{w}_{k}}{{\sum }_{j \sim l}{w}_{l}},\quad &amp;{{{\rm{if}}}}\ j \sim k\\ 0,\quad &amp;{{{\rm{otherwise}}}}.\end{array}\right.$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mo mathsize="big">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>~</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mspace width="1.0em"/></mml:mtd><mml:mtd columnalign="left"><mml:mi mathvariant="normal">if</mml:mi><mml:mspace width="0.33em"/><mml:mi>j</mml:mi><mml:mo>~</mml:mo><mml:mi>k</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mspace width="1.0em"/></mml:mtd><mml:mtd columnalign="left"><mml:mi mathvariant="normal">otherwise</mml:mi><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ4.gif"/></alternatives></disp-formula>Accordingly, for each gene <italic toggle="yes">j</italic>, we associate a probability measure <italic toggle="yes">μ</italic><sub><italic toggle="yes">j</italic></sub> defined on the node set <italic toggle="yes">V</italic> with <italic toggle="yes">n</italic> associated nodes<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mu }_{j}=[{p}_{j1},{p}_{j2},...,{p}_{jn}],\quad j=1,...,n.$$\end{document}</tex-math><mml:math id="M22"><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>.</mml:mo><mml:mo>.</mml:mo><mml:mo>.</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mspace width="1.0em"/><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>.</mml:mo><mml:mo>.</mml:mo><mml:mo>.</mml:mo><mml:mo>,</mml:mo><mml:mi>n</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ5.gif"/></alternatives></disp-formula>Alternatively, <italic toggle="yes">μ</italic><sub><italic toggle="yes">j</italic></sub> can be thought of as <italic toggle="yes">fuzzifying</italic> the node <italic toggle="yes">j</italic> over its 1-step neighborhood.</p>
+          <sec id="Sec12">
+            <title>Graph distance</title>
+            <p id="Par35">We have now specified the points (<italic toggle="yes">x</italic>) and measures (<italic toggle="yes">μ</italic><sub><italic toggle="yes">x</italic></sub>) needed to compute OR curvature in Eq. (<xref rid="Equ2" ref-type="">2</xref>) on a graph. All that remains is the distance <italic toggle="yes">d</italic>(<italic toggle="yes">x</italic>, <italic toggle="yes">y</italic>). In lieu of the commonly used <italic toggle="yes">hop distance</italic>, i.e., the distance between two nodes <italic toggle="yes">j</italic>, <italic toggle="yes">k</italic> ∈ <italic toggle="yes">V</italic> that is defined as the shortest path length over all paths connecting <italic toggle="yes">j</italic> and <italic toggle="yes">k</italic>, we take the corresponding graph distance <italic toggle="yes">d</italic><sub><italic toggle="yes">j</italic><italic toggle="yes">k</italic></sub> to be the <italic toggle="yes">weighted hop distance</italic> (whop).</p>
+            <p id="Par36">More precisely, for fixed nodes <italic toggle="yes">j</italic> and <italic toggle="yes">k</italic>, let <italic toggle="yes">P</italic><sup><italic toggle="yes">j</italic><italic toggle="yes">k</italic></sup> denote a path connecting them. Let <inline-formula id="IEq7"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\{{w}_{1}^{jk},\ldots ,{w}_{n}^{jk}\}$$\end{document}</tex-math><mml:math id="M24"><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msubsup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq7.gif"/></alternatives></inline-formula> be the set of all the associated edge weights. Then we set<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\ell ({P}^{jk}):= \mathop{\sum }\limits_{i=1}^{n}\frac{1}{{w}_{i}^{jk}}.$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mi>ℓ</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msubsup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ6.gif"/></alternatives></disp-formula>Denoting by <inline-formula id="IEq8"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mathcal{P}}}}:= \{{P}_{1}^{jk},\ldots ,{P}_{m}^{jk}\},$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:mi class="MJX-tex-caligraphic" mathvariant="script">P</mml:mi><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq8.gif"/></alternatives></inline-formula> the set of all possible paths connecting <italic toggle="yes">j</italic> and <italic toggle="yes">k</italic>, we define the <italic toggle="yes">weighted hop distance (whop)</italic> between <italic toggle="yes">j</italic> and <italic toggle="yes">k</italic> to be:<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${d}_{jk}:= \mathop{\min }\limits_{1\le u\le m}\ell ({P}_{u}^{jk}).$$\end{document}</tex-math><mml:math id="M30"><mml:mrow><mml:msub><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>≤</mml:mo><mml:mi>u</mml:mi><mml:mo>≤</mml:mo><mml:mi>m</mml:mi></mml:mrow></mml:munder><mml:mi>ℓ</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ7.gif"/></alternatives></disp-formula>Note that the edge weights <italic toggle="yes">w</italic><sub><italic toggle="yes">u</italic><italic toggle="yes">v</italic></sub> for all edges <italic toggle="yes">e</italic> = (<italic toggle="yes">u</italic>, <italic toggle="yes">v</italic>) ∈ <italic toggle="yes">E</italic> are constructed as<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${w}_{uv}:= \frac{{p}_{uv}+{p}_{vu}}{2}.$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mi>v</mml:mi></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mi>v</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>v</mml:mi><mml:mi>u</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ8.gif"/></alternatives></disp-formula>This formulation was chosen so the distance between two nodes is inversely related to the probability of their interaction. Thus, the higher (resp., lower) the probability of two nodes interacting, the smaller (resp., larger) the distance between them should be. The average is taken merely so the distance is symmetric, i.e., <italic toggle="yes">d</italic><sub><italic toggle="yes">j</italic><italic toggle="yes">k</italic></sub> = <italic toggle="yes">d</italic><sub><italic toggle="yes">k</italic><italic toggle="yes">j</italic></sub>. See Supplementary Figs. <xref rid="MOESM1" ref-type="media">2</xref> and <xref rid="MOESM1" ref-type="media">3</xref> for an explicit example of the weighted hop distance on a simple network.</p>
+          </sec>
+          <sec id="Sec13">
+            <title>Edge curvature</title>
+            <p id="Par37">With the choice of graph distance in Eq. (<xref rid="Equ7" ref-type="">7</xref>), the OR curvature in Eq. (<xref rid="Equ2" ref-type="">2</xref>) can now be computed between any two nodes in the graph. Due to the large nature of the graphs of interest, we constrain the curvature computation to edges. Notice, from the curvature definition in Eq. (<xref rid="Equ2" ref-type="">2</xref>), the ratio <inline-formula id="IEq9"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{{W}_{1}({\mu }_{j},{\mu }_{k})}{{d}_{jk}}$$\end{document}</tex-math><mml:math id="M34"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq9.gif"/></alternatives></inline-formula> relates the transport cost of moving the distribution (i.e., <italic toggle="yes">fuzzy</italic> ball) associated with <italic toggle="yes">j</italic> to <italic toggle="yes">k</italic> to the ground distance. Informally, the more the neighborhoods of two nodes overlap, the lower the transportation cost between them and thus the higher the curvature associated with the edge. As such, curvature informs on the local functional relationship between neighborhoods.</p>
+          </sec>
+          <sec id="Sec14">
+            <title>Scalar and total curvature on graphs</title>
+            <p id="Par38">In order to obtain a node-level measure of curvature, we consider a contraction of the edge curvatures, analogous to <italic toggle="yes">scalar curvature</italic> defined on points of a manifold in Riemannian geometry<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Motivated by the notion of <italic toggle="yes">signaling entropy rate</italic> in information theory<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>, we define the (nodal) <italic toggle="yes">scalar curvature</italic> of gene <italic toggle="yes">j</italic> to be the weighted sum of the curvatures on all edges incident to <italic toggle="yes">j</italic>:<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\kappa }_{j}:= {\pi }_{j}\mathop{\sum }\limits_{j \sim k} {\kappa }_{\rm{OR}}(j,k),$$\end{document}</tex-math><mml:math id="M36"><mml:mrow><mml:msub><mml:mrow><mml:mi>κ</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>π</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:munder><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>~</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:munder><mml:msub><mml:mrow><mml:mi>κ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">OR</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ9.gif"/></alternatives></disp-formula>where the weight <italic toggle="yes">π</italic><sub><italic toggle="yes">j</italic></sub> is the <italic toggle="yes">j</italic>th component of the stationary distribution <italic toggle="yes">π</italic> associated with the Markov chain <italic toggle="yes">P</italic>:<sup><xref ref-type="bibr" rid="CR39">39</xref></sup><disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\pi =\pi P,\quad \mathop{\sum}\limits_{j}{\pi }_{j}=1.$$\end{document}</tex-math><mml:math id="M38"><mml:mrow><mml:mi>π</mml:mi><mml:mo>=</mml:mo><mml:mi>π</mml:mi><mml:mi>P</mml:mi><mml:mo>,</mml:mo><mml:mspace width="1.0em"/><mml:munder><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:munder><mml:msub><mml:mrow><mml:mi>π</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ10.gif"/></alternatives></disp-formula>The stationary distribution in this setting (connected graph) is also the limiting distribution of the Markov chain, known as the <italic toggle="yes">stationary</italic> or <italic toggle="yes">equilibrium</italic> distribution. Thus, the quantity <italic toggle="yes">π</italic><sub><italic toggle="yes">j</italic></sub> describes the relative importance of node <italic toggle="yes">j</italic> with respect to all other nodes. We therefore scale the nodal curvature by its component in the stationary distribution in order to correct for nodal bias. Furthermore, the stationary distribution has a closed form that may be easily computed as follows:<disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\pi }_{j}=\frac{1}{Z}{w}_{j}\mathop{\sum}\limits_{j \sim k}{w}_{k}$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:msub><mml:mrow><mml:mi>π</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:munder><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>~</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:munder><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ11.gif"/></alternatives></disp-formula>where <italic toggle="yes">Z</italic> is the normalization factor. We note that unweighted and alternative weightings have been proposed<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>.</p>
+            <p id="Par39">Lastly, we define the <italic toggle="yes">total curvature</italic>
+<italic toggle="yes">κ</italic><sub><italic toggle="yes">G</italic></sub> of a network to be the net scalar curvature, summed over all nodes in the graph<disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\kappa }_{G}:= \mathop{\sum}\limits_{j}{\kappa }_{j}.$$\end{document}</tex-math><mml:math id="M42"><mml:mrow><mml:msub><mml:mrow><mml:mi>κ</mml:mi></mml:mrow><mml:mrow><mml:mi>G</mml:mi></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:munder><mml:msub><mml:mrow><mml:mi>κ</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ12.gif"/></alternatives></disp-formula></p>
+          </sec>
+        </sec>
+        <sec id="Sec15">
+          <title>Curvature and robustness</title>
+          <p id="Par40">One of the main motivations for using curvature to study networks in general, and biological networks in particular, is its theoretical connection to network robustness. Given its importance, we outline the argument here which also gives a justification for using OR curvature<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>.</p>
+          <p id="Par41">We begin by noting that Sturm<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, Lott and Villani<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> related a lower bound on the Ricci curvature of a smooth Riemannian manifold to the entropy of densities along a constant-speed geodesic with the use of the Wasserstein distance. This laid the groundwork for the connection between curvature, entropy, and the Wasserstein metric, and led to the remarkable observation that changes in Ricci curvature Δ<italic toggle="yes">κ</italic><sub>Ric</sub> are positively correlated with changes in (Boltzmann) entropy Δ<italic toggle="yes">S</italic>:<disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\Delta }}{\kappa }_{\rm{Ric}}\times {{\Delta }}S\ge 0.$$\end{document}</tex-math><mml:math id="M44"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:msub><mml:mrow><mml:mi>κ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Ric</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>S</mml:mi><mml:mo>≥</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ13.gif"/></alternatives></disp-formula>The positive correlation between changes in curvature Δ<italic toggle="yes">κ</italic><sub>Ric</sub> and changes in robustness Δ<italic toggle="yes">R</italic>:<disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\Delta }}{\kappa }_{\rm{Ric}}\times {{\Delta }}R$$\end{document}</tex-math><mml:math id="M46"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:msub><mml:mrow><mml:mi>κ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Ric</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>R</mml:mi></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ14.gif"/></alternatives></disp-formula>is realized by Eq. (<xref rid="Equ13" ref-type="">13</xref>) and the fluctuation theorem<sup><xref ref-type="bibr" rid="CR42">42</xref></sup> from large deviations theory indicates that changes in entropy are positively correlated with changes in robustness Δ<italic toggle="yes">R</italic>:<disp-formula id="Equ15"><label>15</label><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\Delta }}S\times {{\Delta }}R.$$\end{document}</tex-math><mml:math id="M48"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>S</mml:mi><mml:mo>×</mml:mo><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>R</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41525_2021_259_Article_Equ15.gif"/></alternatives></disp-formula>Here, <italic toggle="yes">robustness</italic> refers to the ability of a system to recover or maintain its ability to function after it is perturbed in some way (e.g., stress signal). The OR curvature on networks is directly derived from the Lott–Sturm–Villani relationship, and thus was chosen over other possible discrete models<sup><xref ref-type="bibr" rid="CR43">43</xref>–<xref ref-type="bibr" rid="CR46">46</xref></sup>.</p>
+          <p id="Par42">Curvature’s intimate connection to robustness makes it a particularly attractive method for analyzing key nodes and interactions in large, complex PPI networks. This connection is linked by entropy as shown in Eqs. (<xref rid="Equ13" ref-type="">13</xref>) and (<xref rid="Equ15" ref-type="">15</xref>), bridging this geometric analysis to an interesting perspective on the relationship between the topological and functional properties of the weighted network. With this notion of the change in curvature as a proxy for the more qualitative notion of functional robustness, we rank genes according to the change in curvature with respect to the topology and between sub-groups identified; see the following “Results” section.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Data description and processing</title>
+          <p id="Par43">In this section, we outline the data description and processing that we used in our HGSOC analysis. Further details about the data may be found in<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>.</p>
+          <p id="Par44">First of all, TMB was calculated by dividing the number of non-synonymous mutations by the total size of the capture panel in megabases. Secondly, based on the CNAs by FACETS, FGA was defined as the cumulative length of segments with <inline-formula id="IEq10"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathrm{log}}}\,2$$\end{document}</tex-math><mml:math id="M50"><mml:mrow><mml:mi mathvariant="normal">log</mml:mi><mml:mspace width="0.25em"/><mml:mn>2</mml:mn></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_Article_IEq10.gif"/></alternatives></inline-formula> or linear CNA value larger than 0.2 divided by the cumulative length of all segments measured. LST scores, defined as a chromosomal breakpoint resulting in allelic imbalance between adjacent regions of at least 10Mb, were determined, and a cutoff ≥15 was employed for LST-high cases.</p>
+          <p id="Par45">Next, regarding the data characteristics, we used DNA gene CNA data from a subset of 69 women with recurrent OC who received immunotherapy from a previously published series<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. The subtypes of ovarian cancer are in fact quite different diseases, originating in different cell types and being caused by distinct mutations with diverse outcomes, and should therefore be analyzed separately<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Accordingly, we restrict our re-analysis to a subset of samples (<italic toggle="yes">n</italic> = 49) with HGSOC, which is the most common and lethal subtype. Four HGSOC patients had two samples, and the replicate samples were removed from the analysis. This resulted in a total of 45 tumor samples, 32 of which were metastases and 13 represented primary (adnexal) tumors, with 22 and 10 deaths in each group, respectively, at the time the study group was analyzed. This forms a homogeneous group of cancers (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). Tumor and normal samples from the 45 patients were profiled utilizing the FDA-cleared Memorial Sloan Kettering Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT) sequencing assay, their mean age was 58 years, and mean TMB was 5.9. Patient selection and clinical characteristics are displayed in Fig. <xref rid="Fig4" ref-type="fig">4</xref> and in Table <xref rid="Tab2" ref-type="table">2</xref>.<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><title>Patient selection and clinical characteristics.</title><p><bold>a</bold> Patient selection. <bold>b</bold> Clinical characteristics of patients with recurrent HGSOC administered ICI therapy.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e3746" position="float" orientation="portrait" xlink:href="41525_2021_259_Fig4_HTML.jpg"/></fig><table-wrap id="Tab2" position="float" orientation="portrait"><label>Table 2</label><caption><p>HGSOC patient characteristics.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1"/><th colspan="1" rowspan="1">All patients</th><th colspan="1" rowspan="1">Low curvature</th><th colspan="1" rowspan="1">High curvature</th><th colspan="1" rowspan="1"/></tr><tr><th colspan="1" rowspan="1">Characteristic</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 45)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 12)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 33)</th><th colspan="1" rowspan="1"><italic toggle="yes">p</italic></th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Age at diagnosis (years)</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.062</td></tr><tr><td colspan="1" rowspan="1"> Mean ± SD</td><td colspan="1" rowspan="1">58.0 ± 9.3</td><td colspan="1" rowspan="1">62.3 ± 7.5</td><td colspan="1" rowspan="1">56.4 ± 9.4</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Range</td><td colspan="1" rowspan="1">27.0–75.0</td><td colspan="1" rowspan="1">49.0–75.0</td><td colspan="1" rowspan="1">27.0–75.0</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Median (IQR)</td><td colspan="1" rowspan="1">58.0 (52.0–64.0)</td><td colspan="1" rowspan="1">64.0 (58.8–65.5)</td><td colspan="1" rowspan="1">55.0 (51.0–61.0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Age at start of ICI (years)</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.023</td></tr><tr><td colspan="1" rowspan="1"> Mean ± SD</td><td colspan="1" rowspan="1">62.1 ± 8.7</td><td colspan="1" rowspan="1">67.1 ± 6.9</td><td colspan="1" rowspan="1">60.3 ± 8.7</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Range</td><td colspan="1" rowspan="1">37.0–78.0</td><td colspan="1" rowspan="1">55.0–78.0</td><td colspan="1" rowspan="1">37.0–77.0</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Median (IQR)</td><td colspan="1" rowspan="1">62.0 (56.0–69.0)</td><td colspan="1" rowspan="1">67.0 (63.3–70.3)</td><td colspan="1" rowspan="1">59.0 (55.0–66.0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Stage at diagnosis</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.502</td></tr><tr><td colspan="1" rowspan="1"> III</td><td colspan="1" rowspan="1">25</td><td colspan="1" rowspan="1">8</td><td colspan="1" rowspan="1">17</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> IV</td><td colspan="1" rowspan="1">20</td><td colspan="1" rowspan="1">4</td><td colspan="1" rowspan="1">16</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Time from diagnosis to start of ICI (months)</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.581</td></tr><tr><td colspan="1" rowspan="1">Mean ± SD</td><td colspan="1" rowspan="1">50.9 ± 35.9</td><td colspan="1" rowspan="1">58.8 ± 43.1</td><td colspan="1" rowspan="1">48.1 ± 33.2</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Range</td><td colspan="1" rowspan="1">5.3–166.0</td><td colspan="1" rowspan="1">17.4–166.0</td><td colspan="1" rowspan="1">5.3–123.1</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Median (IQR)</td><td colspan="1" rowspan="1">49.4 (23.3–61.7)</td><td colspan="1" rowspan="1">44.5 (33.4–61.8)</td><td colspan="1" rowspan="1">49.4 (18.5–61.7)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Duration of ICI (weeks)</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.807</td></tr><tr><td colspan="1" rowspan="1">Mean ± SD</td><td colspan="1" rowspan="1">20.2 ± 23.6</td><td colspan="1" rowspan="1">14.3 ± 8.6</td><td colspan="1" rowspan="1">22.3 ± 27.0</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Range</td><td colspan="1" rowspan="1">0.1–143.0</td><td colspan="1" rowspan="1">0.7–28.3</td><td colspan="1" rowspan="1">0.1–143.0</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Median (IQR)</td><td colspan="1" rowspan="1">12.3 (7.7–23.1)</td><td colspan="1" rowspan="1">13.6 (7.8–20.3)</td><td colspan="1" rowspan="1">12.1 (7.7–23.1)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Overall survival (months)</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.007</td></tr><tr><td colspan="1" rowspan="1"> Mean ± SD</td><td colspan="1" rowspan="1">16.7 ± 11.7</td><td colspan="1" rowspan="1">8.8 ± 7.2</td><td colspan="1" rowspan="1">19.6 ± 11.7</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Range</td><td colspan="1" rowspan="1">0.4–44.8</td><td colspan="1" rowspan="1">0.4–27.4</td><td colspan="1" rowspan="1">0.4–44.8</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Median (IQR)</td><td colspan="1" rowspan="1">15.3 (6.5–24.6)</td><td colspan="1" rowspan="1">7.4 (4.9–10.9)</td><td colspan="1" rowspan="1">20.3 (11.1–26.0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Sample type</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.010</td></tr><tr><td colspan="1" rowspan="1"> Metastasis</td><td colspan="1" rowspan="1">32.0</td><td colspan="1" rowspan="1">12</td><td colspan="1" rowspan="1">20</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Primary</td><td colspan="1" rowspan="1">13.0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">13</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Status at last follow-up</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.134</td></tr><tr><td colspan="1" rowspan="1"> Alive</td><td colspan="1" rowspan="1">13</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">12</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Dead</td><td colspan="1" rowspan="1">32</td><td colspan="1" rowspan="1">11</td><td colspan="1" rowspan="1">21</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">TMB</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.959</td></tr><tr><td colspan="1" rowspan="1"> Mean ± SD</td><td colspan="1" rowspan="1">3.7 ± 2.3</td><td colspan="1" rowspan="1">3.5 ± 1.9</td><td colspan="1" rowspan="1">3.8 ± 2.5</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Range</td><td colspan="1" rowspan="1">1.0–9.7</td><td colspan="1" rowspan="1">1.1–6.7</td><td colspan="1" rowspan="1">1.0–9.7</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Median (IQR)</td><td colspan="1" rowspan="1">3.3 (2.0–4.4)</td><td colspan="1" rowspan="1">2.6 (2.0–5.3)</td><td colspan="1" rowspan="1">3.3 (2.0–4.4)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">FGA</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.005</td></tr><tr><td colspan="1" rowspan="1"> Mean ± SD</td><td colspan="1" rowspan="1">0.4 ± 0.2</td><td colspan="1" rowspan="1">0.3 ± 0.2</td><td colspan="1" rowspan="1">0.5 ± 0.2</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Range</td><td colspan="1" rowspan="1">0.005–0.871</td><td colspan="1" rowspan="1">0.005–0.629</td><td colspan="1" rowspan="1">0.092–0.871</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Median (IQR)</td><td colspan="1" rowspan="1">0.4 (0.3–0.6)</td><td colspan="1" rowspan="1">0.2 (0.1–0.4)</td><td colspan="1" rowspan="1">0.5 (0.4–0.6)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">LST</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.024</td></tr><tr><td colspan="1" rowspan="1"> Mean ± SD</td><td colspan="1" rowspan="1">25.0 ± 10.3</td><td colspan="1" rowspan="1">19.3 ± 9.1</td><td colspan="1" rowspan="1">27.1 ± 10.0</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Range</td><td colspan="1" rowspan="1">2.0–51.0</td><td colspan="1" rowspan="1">2.0–32.0</td><td colspan="1" rowspan="1">2.0–51.0</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Median (IQR)</td><td colspan="1" rowspan="1">25.0 (20.0–29.0)</td><td colspan="1" rowspan="1">22.0 (13.5–25.8)</td><td colspan="1" rowspan="1">27.0 (22.0–34.0)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Platinum status at ICI</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">1.000</td></tr><tr><td colspan="1" rowspan="1"> Platinum Sensitive</td><td colspan="1" rowspan="1">6</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">5</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Platinum Resistant</td><td colspan="1" rowspan="1">39</td><td colspan="1" rowspan="1">11</td><td colspan="1" rowspan="1">28</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">BRCA1/2 Status</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">1.000</td></tr><tr><td colspan="1" rowspan="1"> Wild-type</td><td colspan="1" rowspan="1">35</td><td colspan="1" rowspan="1">9</td><td colspan="1" rowspan="1">26</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> Mutation</td><td colspan="1" rowspan="1">10</td><td colspan="1" rowspan="1">3</td><td colspan="1" rowspan="1">7</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">ICI target</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">0.909</td></tr><tr><td colspan="1" rowspan="1"> PD-1/PD-L1</td><td colspan="1" rowspan="1">25</td><td colspan="1" rowspan="1">6</td><td colspan="1" rowspan="1">19</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> PD-1/PD-L1 + CTLA-4</td><td colspan="1" rowspan="1">15</td><td colspan="1" rowspan="1">5</td><td colspan="1" rowspan="1">10</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> PD-1/PD-L1 + other</td><td colspan="1" rowspan="1">4</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">3</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1"> CTLA-4</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1"/></tr></tbody></table><table-wrap-foot><p><italic toggle="yes">P</italic> values were obtained using two-sided Wilcoxon–Rank Sum test for continuous variables and Fisher-exact test for categorical variables.</p><p><italic toggle="yes">SD</italic> standard deviation, <italic toggle="yes">IQR</italic> interquartile range.</p></table-wrap-foot></table-wrap></p>
+          <p id="Par46">CN segments were mapped to individual genes according to GRCh37 and for each sample, each gene was assigned the maximum CN value of all segments that mapped to it. After removing all genes with missing data and all genes not in the HPRD network, we extracted the set of genes comprising the largest connected network (Supplementary Fig. <xref rid="MOESM1" ref-type="media">11</xref>). This resulted in a CNA data matrix of size 3489 (genes) × 45 (samples).</p>
+          <p id="Par47">The network topology was constructed as follows. Edges between genes were defined by the PPI obtained from HPRD<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. The network topology was then taken to be the largest connected component in the HPRD network restricted to the set of genes in our data set. This resulted in a network with 9710 edges and 3489 nodes with an average degree of 5.57. The rationale is that the established interactions between gene products serve as a viable proxy for the functional connectivity at the gene level.</p>
+          <p id="Par48">Subject-specific networks were created by assigning nodal weights <italic toggle="yes">w</italic><sub><italic toggle="yes">j</italic></sub> prescribed by the CN value. Specifically, the CN data took on discrete integer values in the range [0, 38]. In order to ensure all weights were positive, we used the translation <italic toggle="yes">w</italic><sub><italic toggle="yes">j</italic></sub> = <italic toggle="yes">x</italic><sub><italic toggle="yes">j</italic></sub> + 1 where <italic toggle="yes">x</italic><sub><italic toggle="yes">j</italic></sub> is the CN value for gene <italic toggle="yes">j</italic>. For each subject, Markov chains were computed as defined in Eq. (<xref rid="Equ4" ref-type="">4</xref>) followed by the associated stationary distribution in Eq. (<xref rid="Equ11" ref-type="">11</xref>). Next, OR curvature using Eq. (<xref rid="Equ2" ref-type="">2</xref>) was computed on each edge in the fixed network, scalar curvature defined in Eq. (<xref rid="Equ9" ref-type="">9</xref>) was subsequently computed for each node and lastly, total curvature using Eq. (<xref rid="Equ12" ref-type="">12</xref>) was computed for the network. A critical aspect of the curvature analysis is that it provides a <italic toggle="yes">relative</italic> quantity and it is the <italic toggle="yes">change</italic> in curvature that is of interest, indicative of changes in the network’s capacity for communication. Thus, we would expect that patients whose samples have a lower total curvature (i.e., a relative net decrease in capacity) would be associated with a poorer prognosis than those with higher total curvature values.</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Ethics statement</title>
+          <p id="Par49">All data were approved for analysis (MSK IRB protocol #15-200), including an institutional tissue banking protocol (#06-107) and molecular profiling protocol (#12-245), with all study participants providing written informed consent to participate.</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Reporting summary</title>
+          <p id="Par50">Further information on research design is available in the <xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec19">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41525_2021_259_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+        <fn>
+          <p>These authors contributed equally: Rena Elkin, Jung Hun Oh.</p>
+        </fn>
+        <fn>
+          <p>These authors jointly supervised this work: Joseph O. Deasy, Larry Norton, Arnold J. Levine.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p>The online version contains supplementary material available at 10.1038/s41525-021-00259-9.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>The research of A.T. was funded in part by grants from the Air Force Office of Scientific Research (FA9550-17-1-0435, FA9550-20-1-0029), and NIH grants (R01-AG048769, R21-CA234752). J.D. and A.T. are supported by a grant from the Breast Cancer Research Foundation (BCRF-17-193). D.Z. is supported by the Ovarian Cancer Research Foundation Liz Tilberis Award, and the Department of Defense Ovarian Cancer Research Academy (OC150111). J.R.-F. and B.W. are funded in part by the Breast Cancer Research Foundation and by a grant from the National Institutes of Health/National Cancer Institute (P50 CA247749 01). The research was supported by the MSK Cancer Center Support Grant/Core Grant (P30 CA008748), and by the Mathematical Oncology Initiative from the Breast Cancer Research Foundation/Simons Foundation grant (BCRF-17-193).</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>R.E. and A.T. formulated and developed the mathematical methods, and J.O. developed the bioinformatic analysis. A.L. provided major biological and clinical analysis and interpretation. L.N. conceived the project, and made essential contributions to the clinical and biological interpretation of the methodology. J.D. provided important insights into interpreting the results and clarifying the technical methods, and D.Z. provided critical clinical insights. R.E. wrote the paper, and all authors edited the paper. D.Z., J.R.-F., Y.L., P.S., and B.W. provided the data and assisted in the clinical interpretation of the results. All authors have read and approved the final manuscript. R.E. and J.O. contributed equally to this work.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>The data analyzed in this study are publicly available from cBioPortal at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=hgsoc_msk_2021">https://www.cbioportal.org/study/summary?id=hgsoc_msk_2021</ext-link>.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Code availability</title>
+        <p>The code written in Python (version 3.9) is available upon reasonable request.</p>
+      </notes>
+      <notes id="FPar1" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par51">D.Z. reports clinical research support to his institution from AstraZeneca, Plexxikon, and Genentech; and personal/consultancy fees from Merck, Synlogic Therapeutics, GSK, Bristol Myers Squibb, Genentech, Xencor, Memgen, and Agenus. These are all outside of the scope of the submitted work. J.R.-F. reports receiving personal/consultancy fees from Goldman Sachs, REPARE Therapeutics and Paige.AI, membership of the scientific advisory boards of VolitionRx, REPARE Therapeutics and Paige.AI, membership of the Board of Directors of Grupo Oncoclinicas, and ad hoc membership of the scientific advisory boards of Roche Tissue Diagnostics, Ventana Medical Systems, Novartis, Genentech and InVicro. These are all outside the scope of the submitted work. B.W. reports ad hoc membership of the advisory board of Repare Therapeutics, outside the scope of the submitted work. J.D. is a shareholder in PaigeAI. This is outside the scope of the submitted work. Y.L. reports research funding from AstraZeneca and GSK/Tesaro outside the scope of the submitted work. The other authors declare no competing interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Keshava Prasad</surname>
+                <given-names>TS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Human protein reference database: 2009 update</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2009</year>
+            <volume>37</volume>
+            <fpage>D767</fpage>
+            <lpage>D772</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkn892</pub-id>
+            <pub-id pub-id-type="pmid">18988627</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2686490</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Peri</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Development of human protein reference database as an initial platform for approaching systems biology in humans</article-title>
+            <source>Genome Res.</source>
+            <year>2003</year>
+            <volume>13</volume>
+            <fpage>2363</fpage>
+            <lpage>2371</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.1680803</pub-id>
+            <pub-id pub-id-type="pmid">14525934</pub-id>
+            <pub-id pub-id-type="pmcid">PMC403728</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Luck</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A reference map of the human binary protein interactome</article-title>
+            <source>Nature</source>
+            <year>2020</year>
+            <volume>580</volume>
+            <fpage>402</fpage>
+            <lpage>408</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41586-020-2188-x</pub-id>
+            <pub-id pub-id-type="pmid">32296183</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7169983</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Szklarczyk</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>String v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2019</year>
+            <volume>47</volume>
+            <fpage>D607</fpage>
+            <lpage>D613</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gky1131</pub-id>
+            <pub-id pub-id-type="pmid">30476243</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6323986</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sandhu</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Graph curvature for differentiating cancer networks</article-title>
+            <source>Sci. Rep.</source>
+            <year>2015</year>
+            <volume>5</volume>
+            <fpage>1</fpage>
+            <lpage>13</lpage>
+            <pub-id pub-id-type="doi">10.1038/srep12323</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4500997</pub-id>
+            <pub-id pub-id-type="pmid">26169480</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ollivier</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Ricci curvature of markov chains on metric spaces</article-title>
+            <source>J. Funct. Anal.</source>
+            <year>2009</year>
+            <volume>256</volume>
+            <fpage>810</fpage>
+            <lpage>864</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jfa.2008.11.001</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reuben</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive t cell repertoire characterization of non-small cell lung cancer</article-title>
+            <source>Nat. Commun.</source>
+            <year>2020</year>
+            <volume>11</volume>
+            <fpage>1</fpage>
+            <lpage>13</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-019-14273-0</pub-id>
+            <pub-id pub-id-type="pmid">32001676</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6992630</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chiou</surname>
+                <given-names>S-H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Global analysis of shared t cell specificities in human non-small cell lung cancer enables hla inference and antigen discovery</article-title>
+            <source>Immunity</source>
+            <year>2021</year>
+            <volume>54</volume>
+            <fpage>586</fpage>
+            <lpage>602</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.immuni.2021.02.014</pub-id>
+            <pub-id pub-id-type="pmid">33691136</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7960510</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shao</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Prevalence of high tumor mutational burden and association with survival in patients with less common solid tumors</article-title>
+            <source>JAMA Netw. Open</source>
+            <year>2020</year>
+            <volume>3</volume>
+            <fpage>1</fpage>
+            <lpage>12</lpage>
+            <pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.25109</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7596577</pub-id>
+            <pub-id pub-id-type="pmid">33119110</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hellmann</surname>
+                <given-names>MD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Tumor mutational burden and efficacy of nivolumab monotherapy and in combination with ipilimumab in small-cell lung cancer</article-title>
+            <source>Cancer Cell</source>
+            <year>2018</year>
+            <volume>33</volume>
+            <fpage>853</fpage>
+            <lpage>861</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccell.2018.04.001</pub-id>
+            <pub-id pub-id-type="pmid">29731394</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6750707</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Snyder</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genetic basis for clinical response to ctla-4 blockade in melanoma</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2014</year>
+            <volume>371</volume>
+            <fpage>2189</fpage>
+            <lpage>2199</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1406498</pub-id>
+            <pub-id pub-id-type="pmid">25409260</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4315319</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>YL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Brca mutations, homologous dna repair deficiency, tumor mutational burden, and response to immune checkpoint inhibition in recurrent ovarian cancer</article-title>
+            <source>JCO Precis. Oncol.</source>
+            <year>2020</year>
+            <volume>4</volume>
+            <fpage>665</fpage>
+            <lpage>679</lpage>
+            <pub-id pub-id-type="doi">10.1200/PO.20.00069</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7446408</pub-id>
+            <pub-id pub-id-type="pmid">32923884</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <mixed-citation publication-type="other">Zhang, S. et al. Genetically defined syngeneic organoid platforms for developing combination therapies for ovarian cancer. <italic toggle="yes">Cancer Discov.</italic>10.1158/2159-8290.CD-20-0455 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-20-0455</pub-id><pub-id pub-id-type="pmcid">PMC7858239</pub-id><pub-id pub-id-type="pmid">33158842</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <mixed-citation publication-type="other">Iyer, S. et al. Genetically defined synegeneic mouse models of ovarian cancer as tools for the discovery of combination immunotherapy. <italic toggle="yes">Cancer Discov</italic>. 10.1158/2159-8290.CD-20-0455 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-20-0818</pub-id><pub-id pub-id-type="pmcid">PMC8344888</pub-id><pub-id pub-id-type="pmid">33158843</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <mixed-citation publication-type="other">Lott, J. &amp; Villani, C. Ricci curvature for metric-measure spaces via optimal transport. <italic toggle="yes">Ann. Math.</italic> 903-991 (2009).</mixed-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>von Renesse</surname>
+                <given-names>M-K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sturm</surname>
+                <given-names>K-T</given-names>
+              </name>
+            </person-group>
+            <article-title>Transport inequalities, gradient estimates, entropy and Ricci curvature</article-title>
+            <source>Commun. Pure Appl. Math.</source>
+            <year>2005</year>
+            <volume>58</volume>
+            <fpage>923</fpage>
+            <lpage>940</lpage>
+            <pub-id pub-id-type="doi">10.1002/cpa.20060</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sandhu</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Georgiou</surname>
+                <given-names>TT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tannenbaum</surname>
+                <given-names>AR</given-names>
+              </name>
+            </person-group>
+            <article-title>Ricci curvature: an economic indicator for market fragility and systemic risk</article-title>
+            <source>Sci. Adv.</source>
+            <year>2016</year>
+            <volume>2</volume>
+            <fpage>e1501495</fpage>
+            <pub-id pub-id-type="doi">10.1126/sciadv.1501495</pub-id>
+            <pub-id pub-id-type="pmid">27386522</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4928924</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bauer</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jost</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Ollivier-Ricci curvature and the spectrum of the normalized graph laplace operator</article-title>
+            <source>Math. Res. Lett.</source>
+            <year>2012</year>
+            <volume>19</volume>
+            <fpage>11851205</fpage>
+            <pub-id pub-id-type="doi">10.4310/MRL.2012.v19.n6.a2</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lengvel</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Review: Ovarian cancer development and metastasis</article-title>
+            <source>Am. J. Pathol.</source>
+            <year>2010</year>
+            <volume>177</volume>
+            <fpage>1053</fpage>
+            <lpage>1064</lpage>
+            <pub-id pub-id-type="doi">10.2353/ajpath.2010.100105</pub-id>
+            <pub-id pub-id-type="pmid">20651229</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928939</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lausen</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hothorn</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bretz</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schumacher</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of optimal selected prognostic factors</article-title>
+            <source>Biometrical J.</source>
+            <year>2004</year>
+            <volume>46</volume>
+            <fpage>364</fpage>
+            <lpage>374</lpage>
+            <pub-id pub-id-type="doi">10.1002/bimj.200310030</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hothorn</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lausen</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>On the exact distribution of maximally selected rank statistics</article-title>
+            <source>Comput. Stat. Data Anal.</source>
+            <year>2003</year>
+            <volume>43</volume>
+            <fpage>121</fpage>
+            <lpage>137</lpage>
+            <pub-id pub-id-type="doi">10.1016/S0167-9473(02)00225-6</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <mixed-citation publication-type="other">Davidson-Pilon, C. et al. “Camdavidsonpilon/lifelines: v0.25.6,”. 2020.10.5281/zenodo.4136578</mixed-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fukasawa</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Choi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kuriyama</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rulong</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vande Woude</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Abnormal centrosome amplification in the absence of p53</article-title>
+            <source>Science</source>
+            <year>1996</year>
+            <volume>271</volume>
+            <fpage>1744</fpage>
+            <lpage>1747</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.271.5256.1744</pub-id>
+            <pub-id pub-id-type="pmid">8596939</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Levine</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>800 million years of evolution and 40 years of research</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2020</year>
+            <volume>20</volume>
+            <fpage>471</fpage>
+            <lpage>480</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41568-020-0262-1</pub-id>
+            <pub-id pub-id-type="pmid">32404993</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mussman</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Synergistic induction of centrosome hyperamplification by loss of p53 and cyclin e overexpression</article-title>
+            <source>Oncogene</source>
+            <year>2020</year>
+            <volume>19</volume>
+            <fpage>1635</fpage>
+            <lpage>1646</lpage>
+            <pub-id pub-id-type="doi">10.1038/sj.onc.1203460</pub-id>
+            <pub-id pub-id-type="pmid">10763820</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zamarin</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Randomized phase ii trial of nivolumab versus nivolumab and ipilimumab for recurrent or persistent ovarian cancer: An nrg oncology study</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2020</year>
+            <volume>38</volume>
+            <fpage>1814</fpage>
+            <lpage>1823</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.19.02059</pub-id>
+            <pub-id pub-id-type="pmid">32275468</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7255977</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Disis</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Efficacy and safety of avelumab for patients with recurrent or refractory ovarian cancer phase 1b results from the javelin solid tumor trial</article-title>
+            <source>JAMA Oncol.</source>
+            <year>2019</year>
+            <volume>5</volume>
+            <fpage>393</fpage>
+            <lpage>401</lpage>
+            <pub-id pub-id-type="doi">10.1001/jamaoncol.2018.6258</pub-id>
+            <pub-id pub-id-type="pmid">30676622</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6439837</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Intratumoral t cells, recurrence, and survival in epithelial ovarian cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2003</year>
+            <volume>348</volume>
+            <fpage>203</fpage>
+            <lpage>213</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa020177</pub-id>
+            <pub-id pub-id-type="pmid">12529460</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Färkkilä</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Immunogenomic profiling determines responses to combined parp and pd-1 inhibition in ovarian cancer</article-title>
+            <source>Nat. Commun.</source>
+            <year>2020</year>
+            <volume>11</volume>
+            <fpage>1459</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-020-15315-8</pub-id>
+            <pub-id pub-id-type="pmid">32193378</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7081234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lamperti</surname>
+                <given-names>EO</given-names>
+              </name>
+            </person-group>
+            <article-title>Combination of parp inhibitor olaparib, and pd-l1 inhibitor durvalumab, in recurrent ovarian cancer: a proof-of-concept phase ii study</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2020</year>
+            <volume>11</volume>
+            <fpage>1459</fpage>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-20-0056</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7442720</pub-id>
+            <pub-id pub-id-type="pmid">32398324</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <mixed-citation publication-type="other">Carmo, M. P. D., <italic toggle="yes">Riemannian Geometry</italic> (Birkhäuser, 1992).</mixed-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <mixed-citation publication-type="other">Monge, G. “Mémoire sur la théorie des déblais et des remblais,” in <italic toggle="yes">Histoire d</italic><italic toggle="yes">e l’Académie Royale des Sciences de Paris</italic> (Nabu Press, 1781).</mixed-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <mixed-citation publication-type="other">Kantorovich, L. V. On a problem of Monge. <italic toggle="yes">CR (Doklady) Acad. Sci. URSS (NS)</italic><bold>3</bold>, 225–226 (1948).</mixed-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <mixed-citation publication-type="other">Villani, C. <italic toggle="yes">Topics in Optimal Transportation,</italic> no. 58 (American Mathematical Soc., 2003).</mixed-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <mixed-citation publication-type="other">Ambrosio, L. “Lecture notes on optimal transport problems,” in <italic toggle="yes">Mathematical Aspects of Evolving Interfaces</italic>. 1–52 (Springer, 2003).</mixed-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <mixed-citation publication-type="other">Villani, C. <italic toggle="yes">Optimal Transport: Old and New,</italic> Vol. 338 (Springer Science &amp; Business Media, 2008).</mixed-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Beckmann</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>A continuous model of transportation</article-title>
+            <source>Econometrica</source>
+            <year>1952</year>
+            <volume>20</volume>
+            <fpage>643</fpage>
+            <lpage>860</lpage>
+            <pub-id pub-id-type="doi">10.2307/1907646</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pediatric sarcoma data forms a unique cluster measured via the Earth Mover distance</article-title>
+            <source>Sci. Rep.</source>
+            <year>2017</year>
+            <volume>7</volume>
+            <fpage>1</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41598-016-0028-x</pub-id>
+            <pub-id pub-id-type="pmid">28765612</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5539155</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>C.</surname>
+                <given-names>RB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cellular network entropy as the energy potential in waddington’s differentiation landscape</article-title>
+            <source>Sci. Rep.</source>
+            <year>2013</year>
+            <volume>3</volume>
+            <fpage>1</fpage>
+            <lpage>7</lpage>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep03039</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3807110</pub-id>
+            <pub-id pub-id-type="pmid">24154593</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Teschendorff</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Enver</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Single cell entropy for accurate estimation of differentiation potency from a cell’s transcriptome</article-title>
+            <source>Nat. Commun.</source>
+            <year>2017</year>
+            <volume>8</volume>
+            <fpage>1</fpage>
+            <lpage>15</lpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms15599</pub-id>
+            <pub-id pub-id-type="pmid">28569836</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461595</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Farooq</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Georgiou</surname>
+                <given-names>TT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tannenbaum</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lenglet</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Network curvature as a hallmark of brain structural connectivity</article-title>
+            <source>Nat. Commun.</source>
+            <year>2019</year>
+            <volume>10</volume>
+            <fpage>1</fpage>
+            <lpage>11</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-019-12915-x</pub-id>
+            <pub-id pub-id-type="pmid">31666510</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6821808</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Demetrius</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gundlach</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ochs</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Complexity and demographic stability in population models</article-title>
+            <source>Theor. Popul. Biol.</source>
+            <year>2004</year>
+            <volume>65</volume>
+            <fpage>211</fpage>
+            <lpage>225</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.tpb.2003.12.002</pub-id>
+            <pub-id pub-id-type="pmid">15066418</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <mixed-citation publication-type="other">Pouryahya, M., Mathews, J. &amp; Tannenbaum, A. Comparing three notions of discrete Ricci curvature on biological networks. Preprint at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://arxiv.org/abs/1712.02943">https://arxiv.org/abs/1712.02943</ext-link> (2017).</mixed-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zachary</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>An information flow model for conflict and fission in small groups</article-title>
+            <source>J. Anthropol. Res.</source>
+            <year>1977</year>
+            <volume>33</volume>
+            <fpage>452</fpage>
+            <lpage>473</lpage>
+            <pub-id pub-id-type="doi">10.1086/jar.33.4.3629752</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Simon</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Subramanian</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>M-C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Menezes</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Using cross-validation to evaluate predictive accuracy of survival risk classifiers based on high-dimensional data</article-title>
+            <source>Brief. Bioinform.</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>203</fpage>
+            <lpage>214</lpage>
+            <pub-id pub-id-type="doi">10.1093/bib/bbr001</pub-id>
+            <pub-id pub-id-type="pmid">21324971</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3105299</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <mixed-citation publication-type="other">Bastian, M., Heymann, S. &amp; Jacomy, M. Gephi: an open source software for exploring and manipulating networks. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154">http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154</ext-link> (2009).</mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

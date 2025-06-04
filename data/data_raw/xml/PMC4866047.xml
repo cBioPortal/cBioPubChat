@@ -1,0 +1,985 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4866047</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4866047.1</article-id>
+        <article-id pub-id-type="pmcaid">4866047</article-id>
+        <article-id pub-id-type="pmcaiid">4866047</article-id>
+        <article-id pub-id-type="pmid">27161491</article-id>
+        <article-id pub-id-type="doi">10.1038/ncomms11479</article-id>
+        <article-id pub-id-type="pii">ncomms11479</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>The somatic mutation profiles of 2,433 breast cancers refines their genomic and transcriptomic landscapes</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names initials="B">Bernard</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+            <xref ref-type="author-notes" rid="n1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chin</surname>
+              <given-names initials="SF">Suet-Feung</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+            <xref ref-type="author-notes" rid="n1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rueda</surname>
+              <given-names initials="OM">Oscar M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vollan</surname>
+              <given-names initials="HKM">Hans-Kristian Moen</given-names>
+            </name>
+            <xref ref-type="aff" rid="a3">3</xref>
+            <xref ref-type="aff" rid="a4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Provenzano</surname>
+              <given-names initials="E">Elena</given-names>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+            <xref ref-type="aff" rid="a6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bardwell</surname>
+              <given-names initials="HA">Helen A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pugh</surname>
+              <given-names initials="M">Michelle</given-names>
+            </name>
+            <xref ref-type="aff" rid="a7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="L">Linda</given-names>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+            <xref ref-type="aff" rid="a6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Russell</surname>
+              <given-names initials="R">Roslin</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sammut</surname>
+              <given-names initials="SJ">Stephen-John</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tsui</surname>
+              <given-names initials="DWY">Dana W. Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="author-notes" rid="n3">‡</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="B">Bin</given-names>
+            </name>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dawson</surname>
+              <given-names initials="SJ">Sarah-Jane</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abraham</surname>
+              <given-names initials="J">Jean</given-names>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+            <xref ref-type="aff" rid="a6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Northen</surname>
+              <given-names initials="H">Helen</given-names>
+            </name>
+            <xref ref-type="aff" rid="a9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Peden</surname>
+              <given-names initials="JF">John F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mukherjee</surname>
+              <given-names initials="A">Abhik</given-names>
+            </name>
+            <xref ref-type="aff" rid="a10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Turashvili</surname>
+              <given-names initials="G">Gulisa</given-names>
+            </name>
+            <xref ref-type="aff" rid="a11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Green</surname>
+              <given-names initials="AR">Andrew R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McKinney</surname>
+              <given-names initials="S">Steve</given-names>
+            </name>
+            <xref ref-type="aff" rid="a12">12</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1611-0867</contrib-id>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Oloumi</surname>
+              <given-names initials="A">Arusha</given-names>
+            </name>
+            <xref ref-type="aff" rid="a12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="S">Sohrab</given-names>
+            </name>
+            <xref ref-type="aff" rid="a12">12</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6402-523X</contrib-id>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rosenfeld</surname>
+              <given-names initials="N">Nitzan</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Murphy</surname>
+              <given-names initials="L">Leigh</given-names>
+            </name>
+            <xref ref-type="aff" rid="a13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bentley</surname>
+              <given-names initials="DR">David R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ellis</surname>
+              <given-names initials="IO">Ian O.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Purushotham</surname>
+              <given-names initials="A">Arnie</given-names>
+            </name>
+            <xref ref-type="aff" rid="a14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pinder</surname>
+              <given-names initials="SE">Sarah E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Børresen-Dale</surname>
+              <given-names initials="AL">Anne-Lise</given-names>
+            </name>
+            <xref ref-type="aff" rid="a3">3</xref>
+            <xref ref-type="aff" rid="a4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Earl</surname>
+              <given-names initials="HM">Helena M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+            <xref ref-type="aff" rid="a6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pharoah</surname>
+              <given-names initials="PD">Paul D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ross</surname>
+              <given-names initials="MT">Mark T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Aparicio</surname>
+              <given-names initials="S">Samuel</given-names>
+            </name>
+            <xref ref-type="corresp" rid="c1">a</xref>
+            <xref ref-type="aff" rid="a12">12</xref>
+            <xref ref-type="author-notes" rid="n2">†</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Caldas</surname>
+              <given-names initials="C">Carlos</given-names>
+            </name>
+            <xref ref-type="corresp" rid="c1">a</xref>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+            <xref ref-type="aff" rid="a5">5</xref>
+            <xref ref-type="aff" rid="a6">6</xref>
+            <xref ref-type="author-notes" rid="n2">†</xref>
+          </contrib>
+          <aff id="a1"><label>1</label><institution>Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Robinson Way</institution>, Cambridge CB2 0RE, <country>UK</country></aff>
+          <aff id="a2"><label>2</label><institution>Department of Oncology, University of Cambridge</institution>, Cambridge CB2 2QQ, <country>UK</country></aff>
+          <aff id="a3"><label>3</label><institution>Department of Cancer Genetics, Institute for Cancer Research, Oslo University Hospital Radiumhospitalet</institution>, Montebello, Oslo 0310, <country>Norway</country></aff>
+          <aff id="a4"><label>4</label><institution>The K.G. Jebsen Center for Breast Cancer Research, Institute for Clinical Medicine, Faculty of Medicine, University of Oslo</institution>, Oslo 0318, <country>Norway</country></aff>
+          <aff id="a5"><label>5</label><institution>Cambridge Breast Unit, Addenbrooke's Hospital, Cambridge University Hospital NHS Foundation Trust and NIHR Cambridge Biomedical Research Centre</institution>, Cambridge CB2 2QQ, <country>UK</country></aff>
+          <aff id="a6"><label>6</label><institution>Cambridge Experimental Cancer Medicine Centre, Cambridge University Hospitals NHS</institution>, Hills Road, Cambridge CB2 0QQ, <country>UK</country></aff>
+          <aff id="a7"><label>7</label><institution>Inivata, Li Ka Shing Centre, Robinson Way</institution>, Cambridge CB2 0RE, <country>UK</country></aff>
+          <aff id="a8"><label>8</label><institution>Peter MacCallum Cancer Centre</institution>, Melbourne, Victoria 3002, <country>Australia</country></aff>
+          <aff id="a9"><label>9</label><institution>Illumina, Chesterford Research Park, Little Chesterford</institution>, Essex CB10 1XL, <country>UK</country></aff>
+          <aff id="a10"><label>10</label><institution>Division of Cancer and Stem Cells, School of Medicine, University of Nottingham and Nottingham University Hospital NHS Trust</institution>, Nottingham NG5 1PB, <country>UK</country></aff>
+          <aff id="a11"><label>11</label><institution>Department of Pathology and Molecular Medicine, Queen's University/Kingston General Hospital</institution>, 76 Stuart Street, Kingston, Ontario, <country>Canada</country> K7L 2V7</aff>
+          <aff id="a12"><label>12</label><institution>Department of Molecular Oncology, British Columbia Cancer Research Centre</institution>, Vancouver, British Columbia, <country>Canada</country> V5Z 1L3</aff>
+          <aff id="a13"><label>13</label><institution>Research Institute in Oncology and Hematology</institution>, 675 McDermot Avenue, Winnipeg, Mannitoba, <country>Canada</country> R3E 0V9</aff>
+          <aff id="a14"><label>14</label><institution>NIHR Comprehensive Biomedical Research Centre at Guy's and St Thomas' NHS Foundation Trust and Research Oncology, Cancer Division, King's College London</institution>, London SE1 9RT, <country>UK</country></aff>
+          <aff id="a15"><label>15</label><institution>Strangeways Research Laboratory, University of Cambridge</institution>, 2 Worts' Causeway, Cambridge CB1 8RN, <country>UK</country></aff>
+        </contrib-group>
+        <author-notes>
+          <corresp id="c1"><label>a</label><email>SAparicio@bccrc.ca</email> or <email>Carlos.Caldas@cruk.cam.ac.uk</email></corresp>
+          <fn id="n1">
+            <label>*</label>
+            <p>These authors contributed equally to this work</p>
+          </fn>
+          <fn id="n2">
+            <label>†</label>
+            <p>These authors jointly supervised this work</p>
+          </fn>
+          <fn id="n3">
+            <label>‡</label>
+            <p>Present address: Center for Molecular Oncology, Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, USA</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>10</day>
+          <month>05</month>
+          <year>2016</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2016</year>
+        </pub-date>
+        <volume>7</volume>
+        <issue-id pub-id-type="pmc-issue-id">264076</issue-id>
+        <elocation-id>11479</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>24</day>
+            <month>11</month>
+            <year>2015</year>
+          </date>
+          <date date-type="accepted">
+            <day>31</day>
+            <month>03</month>
+            <year>2016</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>10</day>
+              <month>05</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>24</day>
+              <month>05</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2025-03-14 17:25:29.763">
+              <day>14</day>
+              <month>03</month>
+              <year>2025</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>Copyright © 2016, Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-statement>
+          <copyright-year>2016</copyright-year>
+          <copyright-holder>Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-holder>
+          <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+            <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ncomms11479.pdf"/>
+        <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="correction-forward" xml:lang="en" xlink:title="correction" journal-id="Nat Commun" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC4897742">
+          <article-title>Erratum: The somatic mutation profiles of 2,433 breast cancers refine their genomic and transcriptomic landscapes</article-title>
+          <volume>7</volume>
+          <date>
+            <day>6</day>
+            <month>6</month>
+            <year>2016</year>
+          </date>
+          <elocation-id>11908</elocation-id>
+          <source>Nature Communications</source>
+          <pub-id pub-id-type="pmcid">PMC4897742</pub-id>
+          <pub-id pub-id-type="pmid">27264733</pub-id>
+        </related-article>
+        <abstract>
+          <p>The genomic landscape of breast cancer is complex, and inter- and intra-tumour heterogeneity are important challenges in treating the disease. In this study, we sequence 173 genes in 2,433 primary breast tumours that have copy number aberration (CNA), gene expression and long-term clinical follow-up data. We identify 40 mutation-driver (Mut-driver) genes, and determine associations between mutations, driver CNA profiles, clinical-pathological parameters and survival. We assess the clonal states of Mut-driver mutations, and estimate levels of intra-tumour heterogeneity using mutant-allele fractions. Associations between <italic toggle="yes">PIK3CA</italic> mutations and reduced survival are identified in three subgroups of ER-positive cancer (defined by amplification of 17q23, 11q13–14 or 8q24). High levels of intra-tumour heterogeneity are in general associated with a worse outcome, but highly aggressive tumours with 11q13–14 amplification have low levels of intra-tumour heterogeneity. These results emphasize the importance of genome-based stratification of breast cancer, and have important implications for designing therapeutic strategies.</p>
+        </abstract>
+        <abstract abstract-type="web-summary">
+          <p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="i1" xlink:href="ncomms11479-i1.jpg"/>Much effort has recently been devoted to understanding the genomics of breast cancer. In this study, the authors integrate somatic mutation data with previously published copy number aberration and gene expression information for nearly 2,500 breast cancer samples.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p>Human breast cancers are heterogeneous, and recent efforts have focused on characterizing both intra- and inter-tumour heterogeneity in a clinically relevant manner<xref ref-type="bibr" rid="b1">1</xref>. Current clinical management of the disease comprises morphological assessment (size, grade, lymph node status), and testing for oestrogen receptor (ER) and human epidermal growth factor receptor 2 (HER2). However, there is still much variation in the clinical outcomes of patients stratified based on these parameters. For instance, more than 75% of patients have ER+ breast cancers, but their outcomes and responses to therapy are extremely varied<xref ref-type="bibr" rid="b2">2</xref>. This clinical heterogeneity may be explained by the diversity of genomic drivers that underlie the disease.</p>
+      <p>To address this issue, we recently performed an integrated analysis of somatic copy number aberrations (CNAs) and gene expression profiles in 2,000 primary tumours (METABRIC)<xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b4">4</xref>. We observed that CNAs influencing expression in <italic toggle="yes">cis</italic> explained the greatest proportion of variance in gene expression, and were therefore likely to be enriched for driver genes. These driver CNAs were used in an unsupervised clustering approach to classify the tumours into 10 Integrative Clusters (IntClusts) that have distinctive copy number profiles and clinical courses. Readily identifiable driver genes include <italic toggle="yes">CCND1</italic> and <italic toggle="yes">PAK1</italic> at 11q13–14 in IntClust2, <italic toggle="yes">ERBB2</italic> at 17q12 in IntClust5, <italic toggle="yes">ZNF703</italic> at 8p11 in IntClust6 and <italic toggle="yes">MYC</italic> at 8q24 in IntClust9. IntClust10 encompasses a group of genomically unstable (mostly triple-negative) tumours that express basal markers. IntClust4 comprises tumours with relatively few CNAs (CNA-devoid). The Cancer Genome Atlas's (TCGA) Pan-Cancer analyses<xref ref-type="bibr" rid="b5">5</xref>, which demonstrated that CNAs dominate the genomic landscape of breast cancer, support the biological relevance of a copy number-based classification. This novel driver-based molecular taxonomy has also been robustly validated in 7,500 tumours<xref ref-type="bibr" rid="b6">6</xref>.</p>
+      <p>Although CNAs dominate the breast cancer genome, somatic SNVs and indels in driver genes are also important, and contribute to tumour biology. However, most breast cancer genes are somatically mutated at low frequencies and characterization of driver genes by high-throughput mutation profiling is consequently difficult when sample size is limited. This is exacerbated by stratification using clinical and molecular parameters. Large-scale efforts by the TCGA<xref ref-type="bibr" rid="b7">7</xref> and the International Cancer Genome Consortium (ICGC)<xref ref-type="bibr" rid="b8">8</xref> have contributed greatly towards enumerating breast cancer genes but analysis of clinical associations in these data sets is limited by the scarcity of long-term patient follow-up data and the stringent criteria used for sample selection (tumour size, malignant cellularity).</p>
+      <p>We have now sequenced 173 of the most frequently mutated breast cancer genes in 2,433 primary tumours to both identify driver genes and understand their clinical significance. The 173 genes sequenced include those that harboured mutations in at least 2 samples in 5 large-scale sequencing studies published in 2012 (refs <xref ref-type="bibr" rid="b7">7</xref>, <xref ref-type="bibr" rid="b8">8</xref>, <xref ref-type="bibr" rid="b9">9</xref>, <xref ref-type="bibr" rid="b10">10</xref>, <xref ref-type="bibr" rid="b11">11</xref>) and also some targeted by homozygous deletions (HDs) we previously identified<xref ref-type="bibr" rid="b3">3</xref>. Crucially, long-term follow-up data were available for the majority of the cohort (2,319 patients, median=115 months). Our results outline the mutation profiles of key breast cancer genes and the associations between genomic and clinical features. The large number of samples with clinical annotation allowed characterization of mutation patterns and intra-tumour heterogeneity within specific subsets of tumours, and identification of associations with patient outcome within these subgroups.</p>
+      <sec disp-level="1">
+        <title>Results</title>
+        <sec disp-level="2">
+          <title>The mutation landscape of 173 genes in 2,433 breast tumours</title>
+          <p>We sequenced the exons of 173 genes (∼1.2 Mbp) in 2,433 primary breast tumours (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>), reaching an average sequencing depth of at least 112 × in 80% of samples (median=152 × , <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1</xref>). Using a custom pipeline (Methods), we identified 32,476 somatic mutations, with 13,084 predicted to affect protein sequence. These coding mutations included 11,006 SNVs (10,193 missense, 808 nonsense, 5 read-through) and 1,635 small insertions or deletions (indels: 1,315 frameshift, 320 in-frame). We also detected 443 variants (268 SNVs, 175 indels) predicted to affect canonical splice sites. Each tumour had an average of 13 mutations (5 coding), with 131 tumours harbouring at least 30 mutations and 38 tumours devoid of any mutation (76 devoid of coding mutations). Details of mutations affecting all genes are provided in <xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>.</p>
+          <p>As previously described<xref ref-type="bibr" rid="b7">7</xref>, <italic toggle="yes">PIK3CA</italic> (coding mutations in 40.1% of the samples) and <italic toggle="yes">TP53</italic> (35.4%) dominated the mutation landscape. Only five other genes harboured coding mutations in at least 10% of the samples: <italic toggle="yes">MUC16</italic> (16.8%); <italic toggle="yes">AHNAK2</italic> (16.2%); <italic toggle="yes">SYNE1</italic> (12.0%); <italic toggle="yes">KMT2C</italic> (also known as <italic toggle="yes">MLL3;</italic> 11.4%) and <italic toggle="yes">GATA3</italic> (11.1%) (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2a,b</xref>). <italic toggle="yes">MUC16</italic>, <italic toggle="yes">AHNAK2</italic> and <italic toggle="yes">SYNE1</italic> are frequently mutated in several cancers (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org">http://www.cbioportal.org</ext-link><xref ref-type="bibr" rid="b12">12</xref><xref ref-type="bibr" rid="b13">13</xref>), but their roles in tumorigenesis are as yet uncertain. <italic toggle="yes">In vitro</italic> experiments have suggested a tumour-promoting role for <italic toggle="yes">MUC16</italic> in ovarian cancers<xref ref-type="bibr" rid="b14">14</xref>, but the gene also has a high background mutation rate<xref ref-type="bibr" rid="b15">15</xref>.</p>
+          <p>Predicted pathogenic germline mutations (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2c</xref>) in <italic toggle="yes">BRCA1</italic> and <italic toggle="yes">BRCA2</italic> were identified in 1.36% and 1.64% of the cohort, respectively, and 2.22% of tumours harboured pathogenic <italic toggle="yes">CHEK2</italic> germline mutations. <italic toggle="yes">TP53</italic> pathogenic germline mutations were found in 0.82% of the tumours.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>A ratiometric method identifies 40 Mut-driver genes</title>
+          <p>Genes mutated in cancer comprise drivers, whose deregulation contributes directly to tumour progression, and passengers, which typically provide little or no selective advantage when mutated. To identify candidate driver genes, we used the scheme proposed by Vogelstein <italic toggle="yes">et al</italic>.<xref ref-type="bibr" rid="b16">16</xref>. This method is derived from the observed mutation patterns of well-characterized driver genes, and identifies candidate oncogenes and tumour suppressors based on the proportion of recurrent mutations (nonsynonymous SNVs, in-frame indels, oncogene score (ONC)) or inactivating mutations (frameshift indels, nonsense SNVs, splice site mutations, tumour suppressor gene score (TSG)) they harbour. In addition, we required that the candidates had a minimum of five recurrent or inactivating mutations. Exploration of a range of relevant thresholds demonstrated that the recommended cut-off of 20% was robust (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3a</xref>). As originally proposed, genes with an ONC score of at least 20% that also had a TSG score of at least 5% were classified as tumour suppressors, as oncogenes rarely harbour inactivating mutations. After stratifying by ER status, we identified 40 genes (22 in ER+ only, 3 in ER− only, 15 shared) that are here on referred to as Mut-drivers genes (<xref ref-type="fig" rid="f1">Fig. 1a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 2</xref>). The spectra of mutations for the 40 genes are depicted in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>. Only 6 out of 40 Mut-driver genes identified were oncogenes.</p>
+          <p>The list of Mut-driver genes includes well-established breast cancer oncogenes and tumour suppressors such as <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">TP53</italic>. <italic toggle="yes">TP53</italic>, categorized as a tumour suppressor, had high ONC and TSG scores in both ER+ (ONC=42%, TSG=35%) and ER− (ONC=45%, TSG=40%) tumours. The list also provides further evidence for the importance of other breast cancer genes that have more recently been reported. For example, <italic toggle="yes">TBX3</italic> had high TSG scores in ER+ (TSG=58%, 6.0% of ER+ samples with coding mutations) and ER− (22%, 2.2%) tumours, and was also significantly mutated relative to the background mutation rate in the TCGA data set<xref ref-type="bibr" rid="b7">7</xref>. Inactivating mutations in the binding partners <italic toggle="yes">CBFB</italic> (ER+: TSG=66%, 6.0%; ER−: 50%, 0.32%) and <italic toggle="yes">RUNX1</italic> (also known as <italic toggle="yes">AML1</italic>; ER+: 59%, 3.7%; ER−: 53%, 2.4%) were also common. In addition, we observed recurrent K700E mutations in <italic toggle="yes">SF3B1</italic> (ER+: ONC=52%, 3.5%) which have recently been associated with differential splicing activity in breast tumours<xref ref-type="bibr" rid="b17">17</xref>. <italic toggle="yes">AGTR2</italic> harboured 6 P271L mutations (ER+: ONC=56%, 0.51%), and was also found to be mutated at a significant frequency in a recent study of 77 breast tumours<xref ref-type="bibr" rid="b11">11</xref>. The presence of these genes in the Mut-driver list provides further support for their roles in breast cancer.</p>
+          <p>We identified other Mut-driver genes that have not been formally associated with breast cancer<xref ref-type="bibr" rid="b7">7</xref>, but have been reported in other cancer types or in pan-cancer analyses. There were high proportions of inactivating mutations in the SWI/SNF complex members <italic toggle="yes">ARID1A</italic> (ER+: TSG=45%, 5.2%; ER−: 18%, 3.3%) and <italic toggle="yes">PBRM1</italic> (ER+: TSG=3%, 1.6%; ER−: 25%, 2.5%). Overall, 22.6% of tumours harboured a coding mutation in one of the seven Mut-driver genes involved in chromatin function (<italic toggle="yes">KMT2C</italic>, <italic toggle="yes">ARID1A</italic>, <italic toggle="yes">NCOR1</italic>, <italic toggle="yes">CTCF</italic>, <italic toggle="yes">KDM6A</italic>, <italic toggle="yes">PRBM1</italic> and <italic toggle="yes">TBL1XR1</italic>). We also identified canonical activating mutations in members of the Ras pathway. <italic toggle="yes">KRAS</italic> codon 12 mutations were present in 11 samples, and the gene had high ONC scores in both ER+ and ER− cancers (ER+: 89%, 0.5%, ER−: 60%, 0.8%). We also observed mutations in <italic toggle="yes">HRAS</italic> at codons 61 and 12 (two and one samples, respectively), and a single <italic toggle="yes">BRAF</italic> V600E mutation in an ER− tumour, although the two genes did not meet Mut-driver criteria. These classical activating mutations are characteristic in other cancer types<xref ref-type="bibr" rid="b18">18</xref><xref ref-type="bibr" rid="b19">19</xref> and are actionable mutations in those settings<xref ref-type="bibr" rid="b20">20</xref>.</p>
+          <p>The mutation patterns of some Mut-driver genes differed by ER status. For example, <italic toggle="yes">SMAD4</italic> was mutated in 1.2% of ER+ and 1.0% ER− tumours, but had a high TSG score only in ER+ cases (ER+=35%, ER−=0%; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>). <italic toggle="yes">SMAD4</italic> expression has previously been linked with apoptosis in an ER+ context<xref ref-type="bibr" rid="b21">21</xref>. Similarly, <italic toggle="yes">ERBB2</italic> mutations were found in similar proportions in ER+ (2.8%) and ER− tumours (3.2%), but there was a higher proportion of mutations at codon 755 in ER+ tumours (13 out of 53 ER+, 1 out of 22 ER−; <italic toggle="yes">P</italic>=0.05331, Fisher's exact test) and the gene had a higher ONC score than in the ER− cohort (ER+: ONC=40%, ER−: ONC=12%). On the other hand, although <italic toggle="yes">PIK3CA</italic> had a high ONC score in both ER+ (94%) and ER− (81%) tumours, the domains in which the recurrent mutations occurred differed (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>). ER+ tumours had more <italic toggle="yes">PIK3CA</italic> mutations in codons 345 (62 out of 942 ER+, 2 out of 162 ER−; <italic toggle="yes">P</italic>=0.003396, Fisher's exact test) and codons 542 or 545 (helical domain; 259 out of 942 ER+, 32 out of 162 ER−; <italic toggle="yes">P</italic>=0.04245). In contrast, <italic toggle="yes">PIK3CA</italic> mutations in codon 1047 (kinase domain) were more common in ER− tumours (83 out of 162 ER− versus 382 out of 942 ER+ <italic toggle="yes">P</italic>=0.01243,). Mutations in the helical and kinase domains have been shown to have different functions and biochemical interactions<xref ref-type="bibr" rid="b22">22</xref><xref ref-type="bibr" rid="b23">23</xref>.</p>
+          <p>We also analyzed CNAs affecting the Mut-driver genes, as these represent alternative mechanisms of somatic gene deregulation. <xref ref-type="fig" rid="f1">Figure 1b</xref> shows the proportions of tumours with amplifications (defined here as 5+ gene copies) and HDs or loss of heterozygosity (LOH) of the Mut-driver genes affected by CNAs in at least 1% of either ER+ or ER− tumours. Amplification of the known oncogenes <italic toggle="yes">KRAS</italic>, <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">AKT1</italic> was more common in ER− tumours (3.9%, 2.7%, 1.2% respectively). We identified LOH events in 96.0% tumours that harboured <italic toggle="yes">CDH1</italic> mutations, and in 85.4% of <italic toggle="yes">TP53</italic>-mutant tumours (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5</xref>).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>HDs identify candidate tumour suppressor genes</title>
+          <p>We previously reported several genes targeted by HDs<xref ref-type="bibr" rid="b3">3</xref>, and sequenced 40 of these to identify inactivating mutations (nonsense SNVs, frameshift indels, splice site mutations) and provide further evidence for their roles in breast cancer<xref ref-type="bibr" rid="b24">24</xref> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 6</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>). Of the 40 genes, 8 were independently identified as Mut-driver tumour suppressor genes using the ratiometric method described above: <italic toggle="yes">FOXO3</italic>, <italic toggle="yes">CTNNA1</italic>, <italic toggle="yes">FOXP1</italic>, <italic toggle="yes">MEN1</italic>, <italic toggle="yes">CHEK2</italic> in ER+ tumours; <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">KDM6A</italic> and <italic toggle="yes">MLLT4</italic> in both ER+ and ER− tumours. These genes were not mutated at significant rates in the TCGA data set, possibly due to smaller sample size. <italic toggle="yes">CDKN2A</italic> (also known as <italic toggle="yes">P16-INK4A)</italic> was the most common target of HDs (53 out of 2,087 tumours with copy number data). Although <italic toggle="yes">CDKN2A</italic> mutations are relatively uncommon in breast cancer<xref ref-type="bibr" rid="b25">25</xref>, 6 of our tumours had inactivating mutations. <italic toggle="yes">FOXO3</italic> had 9 HDs and 14 inactivating mutations, and <italic toggle="yes">FOXP1</italic> had 3 HDs and 7 inactivating mutations. Low expression of these two genes has been previously linked with poor outcome in breast cancer<xref ref-type="bibr" rid="b26">26</xref><xref ref-type="bibr" rid="b27">27</xref>.</p>
+          <p>We noted that <italic toggle="yes">CDH1</italic>, <italic toggle="yes">CTNNA1</italic> and <italic toggle="yes">MLLT4</italic> encode proteins that are involved in cell adhesion at adherens junctions. <italic toggle="yes">CDH1</italic>, <italic toggle="yes">MLLT4</italic> and <italic toggle="yes">CTNNA1</italic> were deleted in 29, 7 and 1 tumours, respectively, and harboured inactivating mutations in 169, 20 and 4 tumours, respectively. E-cadherin, encoded by <italic toggle="yes">CDH1</italic>, is linked to the actin cytoskeleton by alpha-catenin (encoded by <italic toggle="yes">CTNNA1</italic>). Previous analyses have suggested that <italic toggle="yes">CTNNA1</italic> is a tumour suppressor gene<xref ref-type="bibr" rid="b24">24</xref>, and it had a TSG score of 26% in ER+ tumours. <italic toggle="yes">MLLT4</italic> (TSG scores: ER+=20%, ER−=31%) encodes afadin, which forms a bridge between nectin and F-actin<xref ref-type="bibr" rid="b28">28</xref><xref ref-type="bibr" rid="b29">29</xref>. These mutation data strongly indicate that these functionally related genes are breast cancer tumour suppressors.</p>
+          <p>Of the remaining 32 genes in the HD list, 30 harboured at least 1 inactivating mutation. Two of these genes were associated with immune function. <italic toggle="yes">JAK1</italic>, with 4 HDs, 4 inactivating mutations and 4 missense SNV/LOH events, has previously been linked with immune evasion in gynaecological tumours<xref ref-type="bibr" rid="b30">30</xref>. <italic toggle="yes">NT5E</italic>, which encodes CD73, has been linked with immune modulation and anthracycline response<xref ref-type="bibr" rid="b31">31</xref>, and had 3 HDs, 1 inactivating mutation and 4 missense SNV/LOH events in our data set.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Associations with clinical and pathological parameters</title>
+          <p>We used a multivariable logistic regression model (Methods) to identify associations between mutations in Mut-driver genes and clinical-pathological parameters (<xref ref-type="fig" rid="f2">Fig. 2a</xref>). We focused only on functional mutations, which were defined as those that contributed towards a gene's ONC (recurrent mutations) or TSG (inactivating mutations) score for oncogenes or tumour suppressors, respectively (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 2</xref>). For <italic toggle="yes">TP53</italic>, we used both recurrent and inactivating mutations.</p>
+          <p>Functional mutations in <italic toggle="yes">PIK3CA</italic> (odds ratio (OR)=0.58; 95% confidence interval (CI)=0.49–0.69), <italic toggle="yes">GATA3</italic> (OR=0.77, CI=0.6–0.99), <italic toggle="yes">MAP3K1</italic> (OR=0.52, CI=0.4–0.68)<italic toggle="yes">, KMT2C</italic> (OR=0.69, CI=0.52–0.94) and <italic toggle="yes">CBFB</italic> (OR=0.56, CI=0.38–0.83) were associated with lower grade in ER+ tumours. Inactivating mutations in <italic toggle="yes">GATA3</italic> (OR=0.63, CI=0.45–0.89) and <italic toggle="yes">CBFB</italic> (OR=0.48, CI=0.28–0.81) were more common in patients diagnosed at younger ages, whereas patients presenting with mutations in <italic toggle="yes">CDH1</italic> (OR=1.9, CI=1.2–3), <italic toggle="yes">KMT2C</italic> (OR=2.1, CI=1.3–3.6) and <italic toggle="yes">SF3B1</italic> (OR=4.5, CI=1.6–19) tended to be older. Mutations in <italic toggle="yes">TP53</italic> were associated with higher grade in both ER+ (OR=3.3, CI=2.6–4.2, <italic toggle="yes">P</italic>&lt;0.001) and ER− (OR=3.6, CI=2.1–6.2, <italic toggle="yes">P</italic>&lt;0.001) tumours. Mutations in <italic toggle="yes">CDH1</italic> (OR=0.12, CI=0.034–0.38) and <italic toggle="yes">ERBB2</italic> (OR=0.16, CI=0.042–0.59) were uncommon in ER− cancers, but were associated with lower grade.</p>
+          <p>HER2 status is a key parameter in the clinical management of breast cancer. The TCGA previously noted that the mutation profiles of HER2+ tumours varied by ER status<xref ref-type="bibr" rid="b7">7</xref>. Similarly, we observed more functional mutations in <italic toggle="yes">TP53</italic> in HER2+/ER− tumours (67.5%) than in HER2+/ER+ tumours (42.6%), and more functional mutations in <italic toggle="yes">GATA3</italic> in the HER2+/ER+ cohort (8.2%; HER2+/ER−=0.5%) (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7</xref>). However, the prevalence of functional <italic toggle="yes">PIK3CA</italic> mutations was similar between the two groups (HER2+/ER+=29.5%, HER2+/ER−=30.1%), although there were significantly fewer <italic toggle="yes">PIK3CA</italic> mutations in HER2+/ER+ tumours than in HER2−/ER+ tumours (46.5%). <italic toggle="yes">PIK3CA</italic> mutations may have independent driver properties in a HER2+ context<xref ref-type="bibr" rid="b32">32</xref> and have been implicated in resistance to anti-HER2 therapies<xref ref-type="bibr" rid="b33">33</xref>.</p>
+          <p>The relative frequencies of functional mutations in tumours classified into five histological types are presented in <xref ref-type="fig" rid="f2">Fig. 2b</xref>. Mucinous (8.3%) and medullary (8.8%) carcinomas had significantly fewer functional <italic toggle="yes">PIK3CA</italic> mutations relative to other subtypes (lobular=46.9%, mixed=50.0%, ductal=36.9%). Inactivating mutations in <italic toggle="yes">CDH1</italic> were observed in 52.6% of lobular carcinomas, and <italic toggle="yes">CDH1</italic> was also the most frequently mutated gene in lobular carcinomas in the TCGA data set<xref ref-type="bibr" rid="b34">34</xref>. Loss of E-cadherin function is a hallmark of invasive lobular carcinoma<xref ref-type="bibr" rid="b35">35</xref>. Only 3.4% of ductal/NST carcinomas had inactivating <italic toggle="yes">CDH1</italic> mutations. HD of <italic toggle="yes">CDH1</italic> was observed in 18 ductal/NST carcinomas (1.1%) and in 4 lobular carcinomas (2.1%). These results suggest that <italic toggle="yes">CDH1</italic> may act as a tumour suppressor in a small fraction of ductal/NST cancers.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Associations between somatic alterations</title>
+          <p>To explore patterns of co-mutation and mutual exclusivity, we examined pairwise associations between somatic events using Fisher's exact test. Significant pairwise interactions (false discovery rate (FDR)=0.1) between functional mutations in Mut-driver genes are depicted in <xref ref-type="fig" rid="f3">Fig. 3a</xref>. Mutual exclusivity between mutations in <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">AKT1</italic> (OR=0.017, CI=0.00044–0.1), between <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">PIK3R1</italic> (OR=0.092, CI=0.0022–0.59), and between <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">FOXO3</italic> (OR=0.1, CI=0.0025–0.68) reflect functional redundancy within the Akt signalling pathway. Surprisingly, 15 out of 57 tumours harbouring <italic toggle="yes">PTEN</italic> inactivating mutations also had recurrent <italic toggle="yes">PIK3CA</italic> mutations. Three out of 18 tumours with <italic toggle="yes">PIK3R1</italic> functional mutations also had <italic toggle="yes">PTEN</italic> mutations. Overall, 45.2% of all tumours had a functional mutation in at least one member of the Akt signalling pathway (<italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">AKT1</italic>, <italic toggle="yes">PIK3R1</italic>, <italic toggle="yes">PTEN</italic> and <italic toggle="yes">FOXO3</italic>). Mutual exclusivity between mutations in <italic toggle="yes">TP53</italic> and each of <italic toggle="yes">CDH1</italic> (OR=0.23, CI=0.14–0.36), <italic toggle="yes">GATA3</italic> (OR=0.13, CI=0.069–0.23) and <italic toggle="yes">SF3B1</italic> (OR=0.049, CI=0.0012–0.29) reflect opposite associations with tumour grade and histological type (<xref ref-type="fig" rid="f2">Fig. 2</xref>). Co-mutation of <italic toggle="yes">TP53</italic> and <italic toggle="yes">RB1</italic> (OR=5.3, CI=2.2–14) is common in triple-negative cancers<xref ref-type="bibr" rid="b10">10</xref>. We observed co-mutation of <italic toggle="yes">CDH1</italic> and <italic toggle="yes">PIK3CA</italic> (OR=2.1, CI=1.6–2.9), <italic toggle="yes">CDH1</italic> and <italic toggle="yes">TBX3</italic> (OR=3.2, CI=1.7–5.7), and <italic toggle="yes">CDH1</italic> and <italic toggle="yes">RUNX1</italic> (OR=3.3, CI=1.5–6.6) as has previously been noted in lobular carcinomas<xref ref-type="bibr" rid="b34">34</xref>. We observed co-mutation of <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">CDH1</italic> (OR=5.7, CI=2.7–12). Mutations in <italic toggle="yes">ERBB2</italic> have been observed in relapsed <italic toggle="yes">CDH1</italic>-mutant lobular carcinomas<xref ref-type="bibr" rid="b36">36</xref>. Co-mutation of <italic toggle="yes">CBFB</italic> and <italic toggle="yes">GATA3</italic> (OR=7.7, CI=4.6–13) may reflect their role in ER-mediated gene activation<xref ref-type="bibr" rid="b37">37</xref>.</p>
+          <p>We also explored associations between mutations and recurrent CNAs identified by GISTIC (<xref ref-type="fig" rid="f3">Fig. 3b</xref>). Most tumour suppressor genes displayed classic mutation/LOH associations, including <italic toggle="yes">PTEN</italic> and 10q23.1 deletion (OR=3.4; 95% CI=1.7–6.6), and <italic toggle="yes">GPS2</italic> and 17p13.1 deletion (OR=7.1; CI=2.3–29). Positive associations were also observed between genes more frequently mutated in ER+ breast cancer and concurrent 1q gain/16q loss (probably due to t(1q;16p) translocation). These associations are particularly strong for mutations in <italic toggle="yes">CDH1</italic> (OR=2, CI=1.4–3.1) and <italic toggle="yes">CBFB</italic> (OR=5, CI=2.3–12), both of which reside at the 16q22 locus<xref ref-type="bibr" rid="b38">38</xref>. Mutual exclusivity was observed between <italic toggle="yes">AKT1</italic> mutations and amplification of <italic toggle="yes">ERBB2</italic> at the 17q12 locus (OR=0.091; CI=0.011–0.34). <italic toggle="yes">ERBB2</italic> signalling is known to activate the PI3K/Akt signalling pathway<xref ref-type="bibr" rid="b39">39</xref>.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Landscape of Mut-driver mutations across the IntClusts</title>
+          <p>The mutation and copy number landscapes of the 40 Mut-driver genes across the IntClusts are depicted in <xref ref-type="fig" rid="f4">Fig. 4</xref>. The number of mutations in Mut-driver genes in individual tumours was similar across IntClusts, but the relative frequencies of gene mutations varied significantly (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 3</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 8 and 9</xref>). For example, <italic toggle="yes">TP53</italic> has functional mutations in 84.6% of IntClust10, 64.2% of IntClust5, 50.5% of IntClust4-, and 44.7% and 40.7% of IntClusts9 and 6, respectively, both of which largely comprise ER+ tumours. In contrast, <italic toggle="yes">TP53</italic> mutations occurred in only 10.0% of IntClust3, 14.0% of IntClust7 and 4.4% of IntClust8, which are subtypes composed almost exclusively of ER+ good prognosis tumours. IntClust1 (29.0%), IntClust2 (24.1%) and IntClust4+ (21.1%) had intermediate frequencies of functional <italic toggle="yes">TP53</italic> mutations.</p>
+          <p>To formally identify interactions between IntClust and driver mutations, we looked for Mut-driver genes that were mutated in significantly higher or lower proportions of tumours in at least one IntClust relative to the remaining samples. This analysis identified nine genes at FDR=0.01 (<xref ref-type="fig" rid="f5">Fig. 5a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8</xref>). Mutations in <italic toggle="yes">CBFB</italic> (3.3% across all tumours) were more frequent in IntClust3 (7.8%) and IntClust8 (9.7%), and less common in IntClust7 (1.0%), although patients within all these subtypes have relatively good outcomes (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10a</xref>). <italic toggle="yes">GATA3</italic> mutations (8.9% across all tumours) were more frequent in IntClust1 (20.0%) and IntClust8 (19.5%), although patients in IntClust1 have worse outcomes.</p>
+          <p>One of the key features of the IntClust classification is stratification of ER+ tumours (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10b</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Table 4</xref>). We therefore explored the distributions of mutations in Mut-driver genes in the ER+ subsets of the IntClusts (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 11</xref>). There was a high prevalence of functional <italic toggle="yes">TP53</italic> mutations in ER+ tumours belonging to IntClust10 (59.3 versus 18.7% in all ER+ tumours). The CNA profiles of the 27 IntClust10+ are more similar to triple-negative basal-like cancers than to ER+ breast cancers.</p>
+          <p>Finally, we grouped the 40 Mut-driver genes into pathways (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 12</xref>), and scored the tumours as pathway-altered if at least 1 of the genes in the pathway was affected by mutation or CNA. IntClusts 3 and 7 comprise tumours with similar clinical characteristics (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10</xref>), but IntClust7 had a higher frequency of alterations in the MAP kinase (MAPK) signalling pathway (IntClust3=20.5%, IntClust7=24.6%), and there were more alterations in tissue organization genes in IntClust3 (IntClust3=24.0%, IntClust7=10.6%). IntClust1 had fewer alterations in the Akt signalling pathway (30.5%), despite comprising mostly ER+ tumours. Alterations in DNA damage response genes were present in 89.9% of IntClust10 (mostly triple-negative, basal-like) tumours, and were also frequent in IntClust9 tumours (mostly ER+ and poor prognosis; 52.3%). Tumours in IntClust10 also had more alterations in cell cycle regulation (20.2%) and ubiquitination (6.7%) genes, but had fewer alterations in the Akt signalling pathway (27.7%).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Clonal states of Mut-driver genes</title>
+          <p>To characterize the clonal states of Mut-driver gene mutations across the IntClusts, we used variant allele fractions (VAF) and copy number data to obtain estimates of the fraction of cancer cells harbouring mutations<xref ref-type="bibr" rid="b40">40</xref> (<xref ref-type="fig" rid="f5">Fig. 5b</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 13–15</xref>). The distributions of the cancer cell fractions (CCFs) of functional mutations in the Mut-driver genes were centred largely around 1, indicating their presence in nearly all tumour cells and likely early occurrence in tumour evolution (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 13</xref>). However, differences between IntClusts were apparent. In general, tumours in IntClusts constituted by patients with better prognosis (IntClusts 3, 7, 8) had lower proportions of clonal mutations in driver genes relative to IntClusts with patients with worse outcomes (IntClusts 2, 10) (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 14</xref>). Nearly all activating <italic toggle="yes">PIK3CA</italic> mutations in IntClusts10 (median CCF=1, interquartile range (IQR)=1–1, 26 mutations) and IntClust9 (median=1, IQR=0.98–1, 49 mutations) were present at CCFs close to 1, whereas some <italic toggle="yes">PIK3CA</italic> mutations in IntClust3 tumours were present in lower CCFs (median=0.96, IQR=0.75–1, 215 mutations). IntClusts 2 and 6 are relatively small subgroups comprising ER+ cancers with poor outcome, but <italic toggle="yes">MAP3K1</italic> mutations in IntClust2 (median=1, IQR=0.91–1, seven mutations) were present in higher CCFs than in IntClust6 (median=0.90, IQR=0.69–0.99, six mutations).</p>
+          <p>Characteristic examples are displayed in <xref ref-type="fig" rid="f5">Fig. 5c</xref>, which shows the probability distributions of mutation CCFs in individual tumours. MTS-T1775 (IntClust4+) has a clonal <italic toggle="yes">PIK3CA</italic> mutation (CCF=1, CI=1–1) and a <italic toggle="yes">CDH1</italic> inactivating mutation present in a lower CCF (0.64; CI=0.39–1). This pattern appears to be characteristic of IntClust4+ tumours, which frequently appear to harbour more subclonal <italic toggle="yes">CDH1</italic> mutations than those in IntClusts 3, 7 and 8. MTS-T1719 (IntClust9) has a clonal inactivating <italic toggle="yes">ARID1A</italic> mutation (CCF=0.93, CI=0.77–1) and a subclonal inactivating <italic toggle="yes">GATA3</italic> mutation (0.69, CI=0.53–0.88). MTS-T1226 (IntClust3) has three functional mutations: a clonal <italic toggle="yes">PIK3CA</italic> mutation (CCF=0.67, CI=0.38–1), a clonal inactivating <italic toggle="yes">MAP3K1</italic> mutation (CCF=0.99, CI=0.73–1) and a subclonal inactivating <italic toggle="yes">MAP3K1</italic> mutation (CCF=0.60, CI=0.41–0.85). The presence of two <italic toggle="yes">MAP3K1</italic> mutations in this instance suggests biallelic <italic toggle="yes">MAP3K1</italic> inactivation in a subset of cells. Overall, there were 199 samples (10.4%) harbouring &gt;1 functional mutation in a Mut-driver gene across the cohort. Multiple mutations in a gene were most frequently observed in <italic toggle="yes">MAP3K1</italic> (53 out of 152 <italic toggle="yes">MAP3K1</italic> mutants with &gt;1 functional mutation; <xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>) as previously noted<xref ref-type="bibr" rid="b11">11</xref>.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Prognostic associations of mutations in Mut-driver genes</title>
+          <p>To analyze the associations between functional mutations in Mut-driver genes and breast cancer-specific survival (BCSS), we constructed multivariable Cox proportional hazards models (<xref ref-type="fig" rid="f6">Fig. 6a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Table 5</xref>) for ER+ and ER− tumours separately, taking into account the effects of patient age, tumour grade, size and lymph node status <italic toggle="yes">(Methods)</italic>. In ER+ tumours, mutations in both <italic toggle="yes">MAP3K1</italic> (hazard ratio (HR)=0.56, CI=0.38–0.82) and <italic toggle="yes">GATA3</italic> (HR=0.58, CI=0.4–0.82) were associated with longer survival. Despite being uncommon, inactivating mutations in <italic toggle="yes">SMAD4</italic> (HR=3.4, CI=1.4–8.3) and <italic toggle="yes">USP9X</italic> (HR=3, CI=1.2–7.2) were associated with worse BCSS. Low levels of nuclear Smad4 and deregulation of other components of the TGF-beta signalling pathway have been associated with poor prognosis in breast cancer<xref ref-type="bibr" rid="b41">41</xref>. We also observed that inactivating mutations in <italic toggle="yes">NF1</italic> were associated with shorter BCSS in ER− tumours (HR=2.7, CI=1.3–5.5).</p>
+          <p><italic toggle="yes">TP53</italic> mutations were associated with worse outcome in ER+ (HR=1.6, CI=1.3–2, <italic toggle="yes">P</italic>=0.0001), but not in ER− disease (HR=1.1, CI=0.8–1.6). Mutations in the DNA-binding domain were associated with the worst outcomes (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 16</xref>). Conversely, mutations in <italic toggle="yes">PIK3CA</italic> were prognostic in patients with ER− tumours (HR=1.4, CI=1.1–1.9), but not in those with ER+ tumours (HR=1.1, CI=0.9–1.3). The association with worse survival in ER− patients was present for <italic toggle="yes">PIK3CA</italic> mutations in both the helical and kinase domains (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 17</xref>). The number of mutations in Mut-driver genes was not associated with BCSS (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 18</xref>).</p>
+          <p>We hypothesized that the prognostic effects of mutations may be influenced by the CNA background. We therefore analyzed the associations between mutations and BCSS after stratifying tumours by IntClust. We tested <italic toggle="yes">PIK3CA</italic> mutations in ER+ cancers as a prototypical example, as previous studies reported contradictory results on the prognostic relevance of <italic toggle="yes">PIK3CA</italic> mutations in ER+ tumours<xref ref-type="bibr" rid="b42">42</xref><xref ref-type="bibr" rid="b43">43</xref><xref ref-type="bibr" rid="b44">44</xref>. There was no association between mutation domain or mutation CCF and BCSS, and we did not observe differences in patient outcome after stratification by HER2 status (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 19</xref>). We constructed univariable Cox models with an interaction term to analyze the effects of <italic toggle="yes">PIK3CA</italic> mutations within each IntClust (<xref ref-type="fig" rid="f6">Fig. 6b</xref>). This interaction term provides an indication of whether the presence of mutations within a specific IntClust has an association with BCSS over and beyond the associations of BCSS with IntClust membership or <italic toggle="yes">PIK3CA</italic> mutations in the entire ER+ cohort. Significant interactions were identified in IntClusts1+, 2+ and 9+, suggesting that <italic toggle="yes">PIK3CA</italic> mutations in these specific groups were associated with poor outcome. On the other hand, patients in IntClusts 3+, 4+, 7+ and 8+ with <italic toggle="yes">PIK3CA</italic> mutations had similar outcomes to patients with wild-type <italic toggle="yes">PIK3CA</italic> in their respective groups. These results highlight the importance of genome-based stratification, and suggest that IntClust classification of ER+ tumours might better inform the prognostic and predictive value of <italic toggle="yes">PIK3CA</italic> mutations. Such findings may help interpretation of the results from clinical trials involving phosphoinositide-3-kinase (PI3K) inhibitors<xref ref-type="bibr" rid="b45">45</xref>. The results of this analysis for <italic toggle="yes">TP53</italic> are shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 20</xref>.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Intra-tumour heterogeneity across the IntClusts</title>
+          <p>To quantify intra-tumour heterogeneity, we used the previously established mutant-allele tumour heterogeneity (MATH) score<xref ref-type="bibr" rid="b46">46</xref>, which is based on the variation in VAFs of all mutations in a tumour (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 6</xref>). We excluded samples with fewer than five somatic mutations from this analysis, and computed the MATH scores for the ER+ and ER− tumours separately (<xref ref-type="fig" rid="f7">Fig. 7a</xref>). ER+ tumours generally had lower MATH scores (median=0.29, IQR=0.18–0.44) than ER− tumours (median=0.41, IQR=0.25–0.56). Higher MATH scores were associated with worse outcome in ER+ cancers (<xref ref-type="fig" rid="f7">Fig. 7b</xref>).</p>
+          <p>The relationship between intra-tumour heterogeneity and chromosomal instability (CIN; defined as the percentage of the genome affected by CNAs) across the IntClusts is depicted in <xref ref-type="fig" rid="f7">Fig. 7c</xref>. Tumours within IntClust10 had the highest MATH scores (median=0.47, IQR=0.31–0.61). Although IntClusts 4- and 10 both comprise triple-negative basal-like tumours, tumours in IntClust4-, which have high levels of lymphocytic infiltration, had low MATH scores (median=0.27, IQR=0.19–0.54). Tumours belonging to the IntClusts with the best outcomes (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10a</xref>) had low scores (IntClust3: median=0.29, IQR=0.17–0.45; IntClust7: median=0.27, IQR=0.29–0.40; IntClust8: median=0.28, IQR=0.18–0.39). Patients within IntClusts 1 (median=0.37, IQR=0.26–0.53), 6 (median=0.35, IQR=0.21–0.48) and 9 (median=0.41, IQR=0.25–0.58) have poor outcomes, and their tumours had intermediate MATH scores. Surprisingly, tumours in IntClust2 had low MATH scores (median=0.25, IQR=0.16–0.37) despite patients in this subgroup having poor outcomes. The 11q13–14 amplicon (two gene cassettes centred around <italic toggle="yes">CCND1</italic> and <italic toggle="yes">PAK1</italic>, respectively) is a key driver CNA in IntClust2, and may be responsible for the poor clinical trajectories of patients within this group.</p>
+        </sec>
+      </sec>
+      <sec disp-level="1">
+        <title>Discussion</title>
+        <p>Understanding the clinical implications of driver mutations in breast cancer has been hindered by small sample sizes and lack of long-term clinical follow-up. The large data set reported here indicates that patient classification into clinically relevant subtypes requires profiling both gene mutations (by sequencing) and stratification based on CNAs, which dominate the genomic landscape. The results (available at www.cbioportal.org) represent an important resource characterizing the combined genomic profiles of a large number of primary breast tumours from patients with long-term follow-up data.</p>
+        <p>A key aim of precision cancer medicine is to tailor clinical management based on the specific events that are relevant to tumour development and progression. To this end, it is important to comprehensively catalogue the drivers for a particular cancer, and to also determine the contexts that define their relevance. We used a ratiometric method to identify 40 Mut-driver genes, and noted that ER stratification revealed differences in the oncogenic properties of some genes, including <italic toggle="yes">SMAD4</italic> and <italic toggle="yes">ERBB2</italic>. Novel genes on the Mut-driver list include <italic toggle="yes">FOXO3</italic>, a transcription factor regulated by Akt signalling, and <italic toggle="yes">AGTR2</italic>, which may be a therapeutic target<xref ref-type="bibr" rid="b47">47</xref>. The ratiometric method identified Mut-drivers in breast cancers that were previously known drivers in other cancer types (such as <italic toggle="yes">KRAS, ARID1A</italic>, <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">PBRM1</italic>, <italic toggle="yes">KDM6A</italic>, <italic toggle="yes">MEN1</italic>, <italic toggle="yes">FOXP1</italic>, <italic toggle="yes">USP9X</italic>, <italic toggle="yes">BAP1</italic>, <italic toggle="yes">SMAD4</italic>). This raises the possibility that therapies used in other clinical settings may be applicable to breast cancers with mutations in these genes. For example, mutations in the SWI/SNF components <italic toggle="yes">ARID1A</italic> and <italic toggle="yes">PBRM1</italic> are especially prevalent in bladder<xref ref-type="bibr" rid="b48">48</xref> and renal<xref ref-type="bibr" rid="b49">49</xref> cancers, and tumours harbouring these mutations may have dependencies on other SWI/SNF components that can be therapeutically exploited<xref ref-type="bibr" rid="b50">50</xref>. Previous work has shown that disruption of <italic toggle="yes">ARID1B</italic> function in an <italic toggle="yes">ARID1A</italic>-deficient context inhibits proliferation in a number of cancer cell lines<xref ref-type="bibr" rid="b51">51</xref>.</p>
+        <p>The degree of inter-tumour heterogeneity present in breast cancer, and ER+ disease in particular, at the genomic<xref ref-type="bibr" rid="b3">3</xref>, transcriptomic<xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b52">52</xref> and clinical<xref ref-type="bibr" rid="b2">2</xref> levels has long been recognized. The IntClust stratification of ER+ tumours into groups with specific CNAs and distinct prognostic courses has been robustly validated<xref ref-type="bibr" rid="b6">6</xref>. Here we provide further biological insight into this inter-tumour heterogeneity by overlaying the mutation frequencies of 40 breast cancer Mut-driver genes, and by characterizing their clonal states. For example, <italic toggle="yes">KMT2C</italic> mutations are infrequent and usually subclonal in IntClust1, but more common and usually clonal in IntClust8. IntClust10 ER+ tumours had a relatively high prevalence of <italic toggle="yes">TP53</italic> mutations. This observation supports the CNA-based IntClust classification of some ER+ cancers into a subtype containing mostly triple-negative basal-like tumours.</p>
+        <p>The observation that <italic toggle="yes">PIK3CA</italic> mutations have distinct prognostic associations in ER+ tumours stratified into IntClusts is a key novel finding. Recent reports of mouse models have demonstrated that the same <italic toggle="yes">PIK3CA</italic> mutation can result in different tumour phenotypes depending on cellular background<xref ref-type="bibr" rid="b53">53</xref><xref ref-type="bibr" rid="b54">54</xref>, and our results may similarly be due to the specific biological properties of tumours within specific IntClusts. While confirmation in further studies is required, these results provide compelling evidence for genome-based stratification in future therapeutic trials of PI3K inhibitors.</p>
+        <p>The success of targeted therapies, however, will depend on overcoming the problem of resistance, which may occur earlier in tumours with more clonal diversity<xref ref-type="bibr" rid="b55">55</xref>. We used the MATH score as a measure of intra-tumour heterogeneity and observed that higher MATH scores were associated with reduced survival in ER+ tumours. However, tumours belonging to IntClust2, which comprises patients with poor outcome, have low levels of intra-tumour heterogeneity and CIN. These tumours are characterized by co-amplification of <italic toggle="yes">CCND1</italic> and <italic toggle="yes">PAK1</italic> at 11q13–14, and have previously been shown to be resistant to neo-adjuvant cytotoxic chemotherapy<xref ref-type="bibr" rid="b6">6</xref>. These observations will need to be externally validated, and should be taken forward to develop better strategies to manage patients whose tumours belong to this small but highly aggressive subgroup.</p>
+        <p>In conclusion, combining copy number, gene expression and mutation profiles provides a richer understanding of the genomic landscape of breast cancer, and offers new insights into inter- and intra-tumour heterogeneity that should inform the future development of clinical management of patients.</p>
+      </sec>
+      <sec disp-level="1">
+        <title>Methods</title>
+        <sec disp-level="2">
+          <title>Sample collection</title>
+          <p>We sequenced a total of 2,433 primary tumours and 650 normal non-cancerous samples comprising normal adjacent breast tissue (523) or peripheral blood cells (127). Overall, there were 548 matched tumour/normal pairs present in our data set. We also sequenced replicates for 221 primary tumours, as well as a number of commonly used breast cancer cell lines.</p>
+          <p>All samples were obtained with the consent from patients and appropriate approval from ethical committees (REC ref 07/H0308/161; REC ref 12/EE/0484; REC ref 07/Q0106/63). Detailed information about tissue collection for each cohort can be found in their respective publications: METABRIC<xref ref-type="bibr" rid="b3">3</xref>, NeoTango<xref ref-type="bibr" rid="b56">56</xref>, Nottingham<xref ref-type="bibr" rid="b57">57</xref> and DETECT<xref ref-type="bibr" rid="b58">58</xref>. Clinical data from the original studies were updated with the latest available records.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Histological classification and ER status</title>
+          <p>Information on lymph node status, stage and tumour size was available from original histopathology reports for all studies. Expert breast cancer pathologists reviewed FFPE sections stained with haematoxylin and eosin (H&amp;E) from tumours with available material and scored histological tumour type, grade, tumour cellularity and lymphocytic infiltration.</p>
+          <p>Immunohistochemistry-based (IHC) scoring of ER status was, where available, used to classify ER−positive (ER+) and ER−negative (ER−) tumours. To confirm this classification for samples which had gene expression data available, we fit a two-component Gaussian mixture model to the expression levels of <italic toggle="yes">ESR1</italic> using the mixtools package<xref ref-type="bibr" rid="b59">59</xref> in R, and computed the probabilities of the samples belonging to the two distributions defined by the components. The distribution yielding the higher probability was selected to represent the ER status for each sample. Where the calls between the two systems differed, we used the expression-derived classification if the probability of belonging to the opposite distribution was at least 5 × higher than for the distribution described by IHC; this scheme was chosen so as to assign more weight to the IHC classification, as this is currently the clinical gold standard. We performed a similar analysis with <italic toggle="yes">ERBB2</italic> expression levels to corroborate the IHC-based HER2 calls. For patients without expression data (<italic toggle="yes">n</italic>=416), we used the IHC scores to assign ER and HER2 status. Similarly, gene expression-based classification was used for samples without IHC data.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>DNA extraction</title>
+          <p>Sample processing, DNA extractions and quality assessment were based on the protocols described in the METABRIC publication<xref ref-type="bibr" rid="b3">3</xref>.</p>
+          <p>For UK samples DNA was extracted from 10 30-μm sections from each tumour using the DNeasy Blood &amp; Tissue Kit (Qiagen, UK) on the QIAcube (Qiagen) according to manufacturer's instructions.</p>
+          <p>For CA samples DNA was extracted from 10–20 8-μm sections from each tumour using the MagAttract DNA M48 Kit (Qiagen) on the BioRobot M48 (Qiagen) according to manufacturer's instructions. DNA was quantified with the Qubit Fluorometer (Thermo Fisher Scientific, MA, USA) and quality assessed by gel electrophoresis.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Library preparation and sequencing</title>
+          <p>DNA was quantified using Qubit HS dsDNA assay (Life Technologies, CA) and libraries were prepared from a total of 50 ng of DNA using Illumina's Nextera Custom Target Enrichment kit (Illumina, CA). In brief, a modified Tn5 transposase was used to simultaneously fragment DNA and attach a transposon sequence to both end of the fragments generated. This was followed by a limited cycle PCR amplification (11 cycles) using barcoded oligonucleotides that have primer sites on the transposon sequence generating 96 uniquely barcoded libraries per run. The libraries were then diluted and quantified using Qubit HS dsDNA assay.</p>
+          <p>Five hundred nanograms from each library were pooled into a capture pool of 12 samples. Enrichment probes (80-mer) were designed and synthesized by Illumina; these probes were designed to enrich for all exons of the target genes, as well for 500 bp up- and downstream of the gene. The capture was performed twice to increase the specificity of the enrichment. Enriched libraries were amplified using universal primers in a limited cycle PCR (11 cycles). The quality of the libraries was assessed using Bioanalyser (Agilent Technologies, CA) and quantified using KAPA Library Quantification Kits (Kapa Biosystems, MA).</p>
+          <p>Products from four capture reactions (that is, 48 samples) were pooled for sequencing in a lane of Illumina HiSeq 2,000. Sequencing (paired-end, 100 bp) of samples and demultiplexing of libraries was performed by Illumina (Great Chesterford, UK).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Alignment and quality assessment</title>
+          <p>The sequenced reads were aligned with Novoalign, and the resulting BAM files were preprocessed using the GATK Toolkit<xref ref-type="bibr" rid="b60">60</xref>. Sequencing quality statistics were obtained using the GATK's DepthOfCoverage tool and Picard's CalculateHsMetrics. Coverage metrics are presented in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1</xref>. Samples were excluded if &lt;25% of the targeted bases were covered at a minimum coverage of 50 × .</p>
+          <p>The identities of those samples with copy number array data available were confirmed by analyzing the samples' genotypes at loci covered by the Affymetrix SNP6 array. Genotype calls from the sequencing data were compared with those from the SNP6 data that was generated for the original studies. This was to identify possible contamination and sample mix-ups, as this would affect associations with other data sets and clinical parameters.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Variant calling</title>
+          <p>To identify all variants in the samples, we used MuTect<xref ref-type="bibr" rid="b61">61</xref> (without any filtering) for SNVs and the Haplotype Caller<xref ref-type="bibr" rid="b60">60</xref> for indels. All reads with a mapping quality &lt;70 were removed prior to calling. Variants were annotated with ANNOVAR<xref ref-type="bibr" rid="b62">62</xref> using the genes' canonical transcripts as defined by Ensembl (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>). Custom scripts were written to identify variants affecting splice sites using exon coordinates provided by Ensembl. Indels were referenced by the first codon they affected irrespective of length; for example, insertions of two bases and five bases at the same codon were classed together.</p>
+          <p>To obtain the final set of mutation calls, we used a two-step approach, first removing any spurious variant calls arising as a consequence of sequencing artefacts (generic filtering) and then making use of our normal samples and the existing data to identify somatic mutations (somatic filtering). For both levels of filtering, we used hard thresholds that were obtained, wherever possible, from the data itself. For example, some of our filtering parameters were derived from considering mutations in technical replicates (15 samples sequenced in triplicate)<xref ref-type="bibr" rid="b63">63</xref>. We compared the distributions of key parameters (including quality scores, depth, VAF) for concordant (present in all three replicates) and discordant (present in only one out of three replicates) variants to obtain thresholds, and used ROC analysis to select the parameters that best identified concordant variants.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>SNV filtering</title>
+          <p>
+            <list id="l1" list-type="bullet">
+              <list-item>
+                <p>Based on our analysis of replicates, SNVs with MuTect quality scores &lt;6.95 were removed.</p>
+              </list-item>
+              <list-item>
+                <p>We removed those variants that overlapped with repetitive regions of <italic toggle="yes">MUC16</italic> (chromosome 19: 8,955,441–9,044,530). This segment contains multiple tandem repeats (mucin repeats) that are highly susceptible to misalignment due to sequence similarity.</p>
+              </list-item>
+              <list-item>
+                <p>Variants that failed MuTect's internal filters due to ‘nearby_gap_events' and ‘poor_mapping_regional_alternate_allele_mapq' were removed.</p>
+              </list-item>
+              <list-item>
+                <p>Fisher's exact test was used to identify variants exhibiting read direction bias (variants occurring significantly more frequently in one read direction than in the other; FDR=0.0001). These were filtered out from the variant calls.</p>
+              </list-item>
+              <list-item>
+                <p>SNVs present at VAFs smaller than 0.1 or at loci covered by fewer than 10 reads were removed, unless they were also present and confirmed somatic in the Catalogue of Somatic Mutations in Cancer (COSMIC). The presence of well-known <italic toggle="yes">PIK3CA</italic> mutations present at low VAFs was confirmed by digital PCR (see below), and supported the use of COSMIC when filtering SNVs.</p>
+              </list-item>
+              <list-item>
+                <p>We removed all SNVs that were present in any of the three populations (AMR, ASN, AFR) in the 1,000 Genomes study (Phase 1, release 3) with a population alternate allele frequency of ⩾1%.</p>
+              </list-item>
+              <list-item>
+                <p>We used the normal samples in our data set (normal pool) to control for both sequencing noise and germline variants, and removed any SNV observed in the normal pool (at a VAF of at least 0.1). However, for SNVs present in more than two breast cancer samples in COSMIC, we used more stringent thresholds, removing only those that were observed in &gt;5% of normal breast tissue or in &gt;1% of blood samples. The different thresholds were used to avoid the possibility of contamination in the normal pool affecting filtering of known somatic mutations. This is analogous to the optional ‘panel of normals' filtering step used by MuTect in paired mode, in which mutations present in normal samples are removed unless present in a list of known mutations<xref ref-type="bibr" rid="b61">61</xref>.</p>
+              </list-item>
+            </list>
+          </p>
+        </sec>
+        <sec disp-level="2">
+          <title>Indel filtering</title>
+          <p>
+            <list id="l2" list-type="bullet">
+              <list-item>
+                <p>As for SNVs, we removed all indels falling within tandem repeats of <italic toggle="yes">MUC16</italic> (coordinates given above).</p>
+              </list-item>
+              <list-item>
+                <p>We removed all indels deemed to be of ‘LowQual' by the Haplotype Caller with default parameters (Phred-scaled confidence threshold=30).</p>
+              </list-item>
+              <list-item>
+                <p>As for SNVs, we removed indels displaying read direction bias. Indels with strand bias Phred-scaled scores ⩾40 were removed.</p>
+              </list-item>
+              <list-item>
+                <p>We downloaded the Simple Repeats and Microsatellites tracks from the UCSC Table Browser<xref ref-type="bibr" rid="b14">14</xref>, and removed all indels overlapping these regions. We also removed all indels that overlapped homopolymer stretches of six or more bases.</p>
+              </list-item>
+              <list-item>
+                <p>As for SNVs, indels were removed if present in the 1,000 Genomes database at an allele frequency &gt;1%, or if they were present in normal samples in our data set. Thresholds were adjusted as for SNVs if the indel was present in COSMIC. The same thresholds for depth and VAF were used.</p>
+              </list-item>
+            </list>
+          </p>
+        </sec>
+        <sec disp-level="2">
+          <title>Pathogenic germline variants</title>
+          <p>We used the ClinVar database<xref ref-type="bibr" rid="b15">15</xref> to identify pathogenic germline mutations, using only those SNVs and indels recorded as being ‘probable-pathogenic' or ‘pathogenic', and ‘germline', ‘inherited', ‘paternal', ‘maternal', ‘biparental' or ‘uniparental'. Variants classified as ‘germline' by the unpaired pipeline were classified as ‘pathogenic' using the ClinVar annotation, unless they were also present at allele frequencies &gt;1% in the 1,000 Genomes resource.</p>
+          <p>In addition, we classified SNVs absent in ClinVar but present in between one and six (1%) normal samples as ‘pathogenic' if they were either inactivating (truncating or affecting splice sites), or identified as being ‘deleterious' or ‘damaging' by Provean<xref ref-type="bibr" rid="b64">64</xref> Pathogenic indels present in one to six normal samples but absent from ClinVar were classified as ‘pathogenic' if they were predicted to disrupt the reading frame or disrupt a splice junction.</p>
+        </sec>
+        <sec disp-level="2">
+          <title><italic toggle="yes">TP53</italic> Sanger sequencing</title>
+          <p>To assess the sensitivity and specificity of our variant calls, we compared a large number of <italic toggle="yes">TP53</italic> variants called in our study with those from Sanger sequencing (SS). In a previous study, we studied the mutation spectrum of <italic toggle="yes">TP53</italic> in primary breast tumours from METABRIC<xref ref-type="bibr" rid="b12">12</xref>. Details of the exons sequenced and primers used can be found in <xref ref-type="supplementary-material" rid="S1">Supplementary Table 7</xref>. A total of 1,523 cases were evaluated. Of the remaining variants, there was 93% concordance between the 2 sequencing projects (988 wild type in both studies, 429 mutants in both studies). There were 40 cases (3.9%) for which a <italic toggle="yes">TP53</italic> mutation was identified by SS but not in our study, and we identified 66 cases (4.6%) with <italic toggle="yes">TP53</italic> mutations that were not previously called. We note that the increased sensitivity of next-generation sequencing and the depth of coverage obtained for this study may have helped identify variants that were either not identified or not called in the SS project.</p>
+        </sec>
+        <sec disp-level="2">
+          <title><italic toggle="yes">PIK3CA</italic> digital PCR</title>
+          <p>To ensure that hotspot variants with low VAF (range: 2–10%) that we retained are true (see variant filtering above), we performed digital TaqMan-based quantitative PCR on 23 cases with <italic toggle="yes">PIK3CA</italic> H1047R mutations using the BioMark qdPCR 37 K Digital Array Chip (Fluidigm, CA). Briefly, 3.5 μl of template DNA was mixed with specific concentrations of primer and probes in the presence of 1 × TaqMan Universal PCR Master Mix (Thermo Fisher Scientific) and 1 × sample loading buffer. The cycling profile was as follows: initiation at 50 °C for 2 min and incubation at 95 °C for 10 min followed by 60 cycles of 95 °C for 15 s and 60 °C for 1 min. The data were analyzed with the Digital PCR Analysis Software v4.0.1 (Fluidigm). In each panel of the chip, we diluted the sample to ensure that there was not more than an average of one template molecule. The quantitative performance of the platform was assessed by using serial twofold dilutions of HCC1954, a breast cancer cell line known to carry the H1047R <italic toggle="yes">PIK3CA</italic> mutation. Each sample was analyzed in duplicate. All 23 cases were positive for <italic toggle="yes">PIK3CA</italic> H1047R mutations with mutations frequency detected by digital PCR ranging 1–17%.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Copy number analyses</title>
+          <p>The SNP6 data for 2,087 tumours were reanalysed using ASCAT<xref ref-type="bibr" rid="b65">65</xref> to obtain segmented copy number calls and estimates of tumour ploidy and purity. Somatic CNAs were obtained by removing germline CNVs as defined in the original METABRIC study<xref ref-type="bibr" rid="b3">3</xref>. We defined regions of LOH as those in which there were no copies present of either the major or minor allele, irrespective of total copy number. Recurrent CNAs were identified with GISTIC2 (ref. <xref ref-type="bibr" rid="b66">66</xref>), with log<sub>2</sub> ratios obtained by dividing the total number of copies by tumour ploidy for each ASCAT segment. Thresholds for identifying gains and losses were set to 0.4 and (−)0.5, respectively; these values were obtained by examining the distribution of log<sub>2</sub> ratios to identify peaks associated with copy number states. A broad length cut-off of 0.98 was used, and peaks were assessed to rule out probe artefacts and CNVs that may have been originally missed. The percentage of each tumour genome altered was computed after correcting for tumour ploidy.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Survival analyses</title>
+          <p>Univariable or multivariable Cox proportional hazards models were used to examine the association between mutations and survival. BCSS was used as the endpoint. Patients with deaths due to other or unknown causes were censored at the date of death, and all other patients were censored at the date of last contact. For the multivariable models, we included as variables: grade size (greater or less than 50 mm), lymph node status (positive or negative) and age (greater or less than 55). This coding scheme was chosen taking into consideration the minimum level of data available across the cohorts in the study. The same scheme was used when performing logistic regression for identifying associations between clinical parameters and mutation presence. To identify associations between events, we used Fisher's exact test for 2 × 2 contingency tables.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Driver gene identification</title>
+          <p>To identify genes that may be relevant to breast cancer, we looked for those that harboured multiple recurrent or inactivating mutations, as these are mutation patterns typical of oncogenes and tumour suppressors. Recurrent mutations were defined as missense SNVs and in-frame substitutions that affected the same codon of the annotation transcript, whereas inactivating mutations included nonsense SNVs, frameshift substitutions and variants that affected splice sites. The proportions of recurrent (ONC) and inactivating (TSG) mutations for each gene (out of the total number of mutations) were computed, and a threshold of 0.2 was used (20/20 rule). Genes with an ONC score &gt;0.2 and with a TSG score &gt;0.05 were classified as tumour suppressors. A minimum of five recurrent or inactivating mutations was required for a gene to be selected as putative drivers. The method was adapted from the study by Vogelstein <italic toggle="yes">et al</italic>.<xref ref-type="bibr" rid="b16">16</xref></p>
+        </sec>
+        <sec disp-level="2">
+          <title>Clonal states of Mut-driver mutations</title>
+          <p>To infer the CCFs in which the observed mutations occurred, we used VAFs, and copy number data and tumour purity estimates as obtained from ASCAT. The CCF was defined as in ref. <xref ref-type="bibr" rid="b40">40</xref>:</p>
+          <p>
+            <disp-formula id="eq1">
+              <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e1925" xlink:href="ncomms11479-m1.jpg"/>
+            </disp-formula>
+          </p>
+          <p>where <italic toggle="yes">p</italic> is the tumour purity estimate, and CN<sub>norm</sub> and CN<sub>tum</sub> refer to the normal (that is, 2) and tumour copy number states, respectively. We used the ‘binconf' function in the R package Hmisc (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://CRAN.R-project.org/package=Hmisc">http://CRAN.R-project.org/package=Hmisc</ext-link>) to obtain an estimate and CI for the VAF given the depth and the number of reads harbouring the mutant allele at the mutant locus.</p>
+          <p>To identify ‘clonal' (present in the entire tumour) or ‘subclonal' (present in only a subset of tumour cells) mutations, we computed 95% CIs for each CCF estimate based on the VAF and depth of coverage at the mutation loci. Mutations were labelled as ‘subclonal' if their CCF CIs did not overlap 1 (ref. <xref ref-type="bibr" rid="b40">40</xref>).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Intra-tumour heterogeneity</title>
+          <p>To quantify the level of intra-tumour heterogeneity present in a sample, we used the MATH measure described in ref. <xref ref-type="bibr" rid="b46">46</xref>:</p>
+          <p>
+            <disp-formula id="eq2">
+              <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e1955" xlink:href="ncomms11479-m2.jpg"/>
+            </disp-formula>
+          </p>
+          <p>where MAD(Vafs) is the median absolute deviation of the VAFs of all the mutations (coding and noncoding) in a tumour.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Data availability</title>
+          <p>All primary data (BAM files) are deposited at the European Genome-phenome Archive (EGA) under study accession number EGAS00001001753, and may be downloaded on request and authorization by the METABRIC Data Access Committee. Somatic mutation calls and ASCAT segment files for 2,433 primary tumours are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://github.com/cclab-brca">http://github.com/cclab-brca</ext-link>, which also hosts the code used to perform key analyses and produce the figures. A matrix of coding mutations is provided as <xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 3</xref>. Clinical data (tumour morphology, ER and HER2 status, patient characteristics, treatment, follow-data, metastasis data and relapse data), gene expression data, copy number data and somatic mutations data for the 1980 patients from the original METABRIC publication can be found on cBioPortal, and are freely available.</p>
+        </sec>
+      </sec>
+      <sec disp-level="1">
+        <title>Additional information</title>
+        <p><bold>How to cite this article:</bold> Pereira, B. <italic toggle="yes">et al</italic>. The somatic mutation profiles of 2,433 breast cancers refines their genomic and transcriptomic landscapes. <italic toggle="yes">Nat. Commun.</italic> 7:11479 doi: 10.1038/ncomms11479 (2016).</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="S1">
+        <title>Supplementary Material</title>
+        <supplementary-material id="d33e18" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Information</title>
+            <p>Supplementary Figures 1-21, Supplementary Tables 1-7 and Supplementary Reference.</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11479-s1.pdf" position="float" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material id="d33e24" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Data 1</title>
+            <p>Details of genes &amp; mutations in this study.</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11479-s2.xlsx" position="float" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material id="d33e30" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Data 2</title>
+            <p>Percentages of samples with coding mutations and ONC and TSG scores for genes in various cohorts.</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11479-s3.xlsx" position="float" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material id="d33e36" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Data 3</title>
+            <p>Matrix for mutations across all genes and samples. NA=no coding mutation. For inframe indels and missense SNVs, the distinction between recurrent and non-recurrent events is made.</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11479-s4.xlsx" position="float" orientation="portrait"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <p>The METABRIC project was funded by Cancer Research UK, the British Columbia Cancer Foundation and Canadian Breast Cancer Foundation BC/Yukon. This sequencing project was funded by CRUK grant C507/A16278 and Illumina UK performed all the sequencing. We also acknowledge the support of the University of Cambridge, Hutchinson Whampoa, the NIHR Cambridge Biomedical Research Centre, the Cambridge Experimental Cancer Medicine Centre, the Centre for Translational Genomics (CTAG) Vancouver and the BCCA Breast Cancer Outcomes Unit. We thank the Genomics, Histopathology and Biorepository Core Facilities at the Cancer Research UK Cambridge Institute, and the Addenbrooke's Human Research Tissue Bank (supported by the National Institute for Health Research Cambridge Biomedical Research Centre). We thank all the patients who donated tissue and the associated pseudo-anonymized clinical data for this project.</p>
+      </ack>
+      <ref-list>
+        <ref id="b1">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Aparicio</surname><given-names>S.</given-names></name> &amp; <name name-style="western"><surname>Caldas</surname><given-names>C.</given-names></name><article-title>The implications of clonal genome evolution for cancer medicine</article-title>. <source>N. Engl. J. Med.</source><volume>368</volume>, <fpage>842</fpage>–<lpage>851</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23445095</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMra1204892</pub-id></mixed-citation>
+        </ref>
+        <ref id="b2">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Blows</surname><given-names>F. M.</given-names></name><etal/>. <article-title>Subtyping of breast cancer by immunohistochemistry to investigate a relationship between subtype and short and long term survival: a collaborative analysis of data for 10,159 cases from 12 studies</article-title>. <source>PLoS Med.</source><volume>7</volume>, <fpage>e1000279</fpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20520800</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pmed.1000279</pub-id><pub-id pub-id-type="pmcid">PMC2876119</pub-id></mixed-citation>
+        </ref>
+        <ref id="b3">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Curtis</surname><given-names>C.</given-names></name><etal/>. <article-title>The genomic and transcriptomic architecture of 2,000 breast tumours reveals novel subgroups</article-title>. <source>Nature</source><volume>486</volume>, <fpage>346</fpage>–<lpage>352</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22522925</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10983</pub-id><pub-id pub-id-type="pmcid">PMC3440846</pub-id></mixed-citation>
+        </ref>
+        <ref id="b4">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Dawson</surname><given-names>S.-J.</given-names></name>, <name name-style="western"><surname>Rueda</surname><given-names>O. M.</given-names></name>, <name name-style="western"><surname>Aparicio</surname><given-names>S.</given-names></name> &amp; <name name-style="western"><surname>Caldas</surname><given-names>C.</given-names></name><article-title>A new genome-driven integrated classification of breast cancer and its implications</article-title>. <source>EMBO J.</source><volume>32</volume>, <fpage>617</fpage>–<lpage>628</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23395906</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/emboj.2013.19</pub-id><pub-id pub-id-type="pmcid">PMC3590990</pub-id></mixed-citation>
+        </ref>
+        <ref id="b5">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ciriello</surname><given-names>G.</given-names></name><etal/>. <article-title>Emerging landscape of oncogenic signatures across human cancers</article-title>. <source>Nat. Genet.</source><volume>45</volume>, <fpage>1127</fpage>–<lpage>1133</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24071851</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2762</pub-id><pub-id pub-id-type="pmcid">PMC4320046</pub-id></mixed-citation>
+        </ref>
+        <ref id="b6">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ali</surname><given-names>H. R.</given-names></name><etal/>. <article-title>Genome-driven integrated classification of breast cancer validated in over 7,500 samples</article-title>. <source>Genome Biol.</source><volume>15</volume>, <fpage>431</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25164602</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-014-0431-1</pub-id><pub-id pub-id-type="pmcid">PMC4166472</pub-id></mixed-citation>
+        </ref>
+        <ref id="b7">
+          <mixed-citation publication-type="journal">The Cancer Genome Atlas Network. <article-title>Comprehensive molecular portraits of human breast tumours</article-title>. <source>Nature</source><volume>490</volume>, <fpage>61</fpage>–<lpage>70</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23000897</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11412</pub-id><pub-id pub-id-type="pmcid">PMC3465532</pub-id></mixed-citation>
+        </ref>
+        <ref id="b8">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Stephens</surname><given-names>P. J.</given-names></name><etal/>. <article-title>The landscape of cancer genes and mutational processes in breast cancer</article-title>. <source>Nature</source><volume>486</volume>, <fpage>400</fpage>–<lpage>404</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22722201</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11017</pub-id><pub-id pub-id-type="pmcid">PMC3428862</pub-id></mixed-citation>
+        </ref>
+        <ref id="b9">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Banerji</surname><given-names>S.</given-names></name><etal/>. <article-title>Sequence analysis of mutations and translocations across breast cancer subtypes</article-title>. <source>Nature</source><volume>486</volume>, <fpage>405</fpage>–<lpage>409</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22722202</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11154</pub-id><pub-id pub-id-type="pmcid">PMC4148686</pub-id></mixed-citation>
+        </ref>
+        <ref id="b10">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shah</surname><given-names>S. P.</given-names></name><etal/>. <article-title>The clonal and mutational evolution spectrum of primary triple-negative breast cancers</article-title>. <source>Nature</source><volume>486</volume>, <fpage>395</fpage>–<lpage>399</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22495314</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10933</pub-id><pub-id pub-id-type="pmcid">PMC3863681</pub-id></mixed-citation>
+        </ref>
+        <ref id="b11">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ellis</surname><given-names>M. J.</given-names></name><etal/>. <article-title>Whole-genome analysis informs breast cancer response to aromatase inhibition</article-title>. <source>Nature</source><volume>486</volume>, <fpage>353</fpage>–<lpage>360</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22722193</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11143</pub-id><pub-id pub-id-type="pmcid">PMC3383766</pub-id></mixed-citation>
+        </ref>
+        <ref id="b12">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cerami</surname><given-names>E.</given-names></name><etal/>. <article-title>The cBio Cancer Genomics Portal: an open platform for exploring multidimensional cancer genomics data</article-title>. <source>Cancer Discov.</source><volume>2</volume>, <fpage>401</fpage>–<lpage>404</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22588877</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-12-0095</pub-id><pub-id pub-id-type="pmcid">PMC3956037</pub-id></mixed-citation>
+        </ref>
+        <ref id="b13">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gao</surname><given-names>J.</given-names></name><etal/>. <article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal</article-title>. <source>Sci. Signal.</source><volume>6</volume>, <fpage>pl1</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23550210</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scisignal.2004088</pub-id><pub-id pub-id-type="pmcid">PMC4160307</pub-id></mixed-citation>
+        </ref>
+        <ref id="b14">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Thériault</surname><given-names>C.</given-names></name><etal/>. <article-title>MUC16 (CA125) regulates epithelial ovarian cancer cell growth, tumorigenesis and metastasis</article-title>. <source>Gynecol. Oncol.</source><volume>121</volume>, <fpage>434</fpage>–<lpage>443</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21421261</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ygyno.2011.02.020</pub-id></mixed-citation>
+        </ref>
+        <ref id="b15">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lawrence</surname><given-names>M. S.</given-names></name><etal/>. <article-title>Mutational heterogeneity in cancer and the search for new cancer-associated genes</article-title>. <source>Nature</source><volume>499</volume>, <fpage>214</fpage>–<lpage>218</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23770567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12213</pub-id><pub-id pub-id-type="pmcid">PMC3919509</pub-id></mixed-citation>
+        </ref>
+        <ref id="b16">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Vogelstein</surname><given-names>B.</given-names></name><etal/>. <article-title>Cancer genome landscapes</article-title>. <source>Science</source><volume>339</volume>, <fpage>1546</fpage>–<lpage>1558</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23539594</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1235122</pub-id><pub-id pub-id-type="pmcid">PMC3749880</pub-id></mixed-citation>
+        </ref>
+        <ref id="b17">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Maguire</surname><given-names>S. L.</given-names></name><etal/>. <article-title>SF3B1 mutations constitute a novel therapeutic target in breast cancer</article-title>. <source>J. Pathol.</source><volume>235</volume>, <fpage>571</fpage>–<lpage>580</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25424858</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/path.4483</pub-id><pub-id pub-id-type="pmcid">PMC4643177</pub-id></mixed-citation>
+        </ref>
+        <ref id="b18">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Davies</surname><given-names>H.</given-names></name><etal/>. <article-title>Mutations of the BRAF gene in human cancer</article-title>. <source>Nature</source><volume>417</volume>, <fpage>949</fpage>–<lpage>954</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12068308</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature00766</pub-id></mixed-citation>
+        </ref>
+        <ref id="b19">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Prior</surname><given-names>I. A.</given-names></name>, <name name-style="western"><surname>Lewis</surname><given-names>P. D.</given-names></name> &amp; <name name-style="western"><surname>Mattos</surname><given-names>C.</given-names></name><article-title>A comprehensive survey of ras mutations in cancer</article-title>. <source>Cancer Res.</source><volume>72</volume>, <fpage>2457</fpage>–<lpage>2467</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22589270</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-11-2612</pub-id><pub-id pub-id-type="pmcid">PMC3354961</pub-id></mixed-citation>
+        </ref>
+        <ref id="b20">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chapman</surname><given-names>P. B.</given-names></name><etal/>. <article-title>Improved survival with vemurafenib in melanoma with BRAF V600E mutation</article-title>. <source>N. Engl. J. Med.</source><volume>364</volume>, <fpage>2507</fpage>–<lpage>2516</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21639808</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1103782</pub-id><pub-id pub-id-type="pmcid">PMC3549296</pub-id></mixed-citation>
+        </ref>
+        <ref id="b21">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>Q.</given-names></name><etal/>. <article-title>Smad4 inhibits tumor growth by inducing apoptosis in estrogen receptor-positive breast cancer cells</article-title>. <source>J. Biol. Chem.</source><volume>280</volume>, <fpage>27022</fpage>–<lpage>27028</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15886208</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.M505071200</pub-id></mixed-citation>
+        </ref>
+        <ref id="b22">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chaussade</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Cho</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Mawson</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Rewcastle</surname><given-names>G. W.</given-names></name> &amp; <name name-style="western"><surname>Shepherd</surname><given-names>P. R.</given-names></name><article-title>Functional differences between two classes of oncogenic mutation in the PIK3CA gene</article-title>. <source>Biochem. Biophys. Res. Commun.</source><volume>381</volume>, <fpage>577</fpage>–<lpage>581</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19233141</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbrc.2009.02.081</pub-id></mixed-citation>
+        </ref>
+        <ref id="b23">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zhao</surname><given-names>L.</given-names></name> &amp; <name name-style="western"><surname>Vogt</surname><given-names>P. K.</given-names></name><article-title>Helical domain and kinase domain mutations in p110alpha of phosphatidylinositol 3-kinase induce gain of function by different mechanisms</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>105</volume>, <fpage>2652</fpage>–<lpage>2657</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18268322</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0712169105</pub-id><pub-id pub-id-type="pmcid">PMC2268191</pub-id></mixed-citation>
+        </ref>
+        <ref id="b24">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bignell</surname><given-names>G. R.</given-names></name><etal/>. <article-title>Signatures of mutation and selection in the cancer genome</article-title>. <source>Nature</source><volume>463</volume>, <fpage>893</fpage>–<lpage>898</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20164919</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08768</pub-id><pub-id pub-id-type="pmcid">PMC3145113</pub-id></mixed-citation>
+        </ref>
+        <ref id="b25">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kandoth</surname><given-names>C.</given-names></name><etal/>. <article-title>Mutational landscape and significance across 12 major cancer types</article-title>. <source>Nature</source><volume>503</volume>, <fpage>333</fpage>–<lpage>339</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24132290</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12634</pub-id><pub-id pub-id-type="pmcid">PMC3927368</pub-id></mixed-citation>
+        </ref>
+        <ref id="b26">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hu</surname><given-names>M. C. T.</given-names></name><etal/>. <article-title>IκB kinase promotes tumorigenesis through inhibition of forkhead FOXO3a</article-title>. <source>Cell</source><volume>117</volume>, <fpage>225</fpage>–<lpage>237</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15084260</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0092-8674(04)00302-2</pub-id></mixed-citation>
+        </ref>
+        <ref id="b27">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Fox</surname><given-names>S. B.</given-names></name><etal/>. <article-title>Expression of the forkhead transcription factor FOXP1 Is associated with estrogen receptor α and improved survival in primary human breast carcinomas expression of the forkhead transcription factor FOXP1 is associated with estrogen receptor alpha and impr</article-title>. <source>Clin. Cancer Res.</source><volume>10</volume>, <fpage>3521</fpage>–<lpage>3527</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15161711</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-03-0461</pub-id></mixed-citation>
+        </ref>
+        <ref id="b28">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mandai</surname><given-names>K.</given-names></name><etal/>. <article-title>Afadin: a aovel actin filament-binding protein with one PDZ domain localized at cadherin-based cell-to-cell Adherens junction</article-title>. <source>J. Cell Biol.</source><volume>139</volume>, <fpage>517</fpage>–<lpage>528</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9334353</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1083/jcb.139.2.517</pub-id><pub-id pub-id-type="pmcid">PMC2139800</pub-id></mixed-citation>
+        </ref>
+        <ref id="b29">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Takai</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Ikeda</surname><given-names>W.</given-names></name>, <name name-style="western"><surname>Ogita</surname><given-names>H.</given-names></name> &amp; <name name-style="western"><surname>Rikitake</surname><given-names>Y.</given-names></name><article-title>The immunoglobulin-like cell adhesion molecule nectin and its associated protein afadin</article-title>. <source>Annu. Rev. Cell Dev. Biol.</source><volume>24</volume>, <fpage>309</fpage>–<lpage>342</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18593353</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev.cellbio.24.110707.175339</pub-id></mixed-citation>
+        </ref>
+        <ref id="b30">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ren</surname><given-names>Y.</given-names></name><etal/>. <article-title>JAK1 truncating mutations in gynecologic cancer define new role of cancer-associated protein tyrosine kinase aberrations</article-title>. <source>Sci. Rep.</source><volume>3</volume>, <fpage>3042</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24154688</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep03042</pub-id><pub-id pub-id-type="pmcid">PMC3807107</pub-id></mixed-citation>
+        </ref>
+        <ref id="b31">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Loi</surname><given-names>S.</given-names></name><etal/>. <article-title>CD73 promotes anthracycline resistance and poor prognosis in triple negative breast cancer</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>110</volume>, <fpage>11091</fpage>–<lpage>11096</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23776241</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1222251110</pub-id><pub-id pub-id-type="pmcid">PMC3704029</pub-id></mixed-citation>
+        </ref>
+        <ref id="b32">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hanker</surname><given-names>A. B.</given-names></name><etal/>. <article-title>Mutant PIK3CA accelerates HER2-driven transgenic mammary tumors and induces resistance to combinations of anti-HER2 therapies</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>110</volume>, <fpage>14372</fpage>–<lpage>14377</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23940356</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1303204110</pub-id><pub-id pub-id-type="pmcid">PMC3761610</pub-id></mixed-citation>
+        </ref>
+        <ref id="b33">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Nahta</surname><given-names>R.</given-names></name> &amp; <name name-style="western"><surname>Esteva</surname><given-names>F. J.</given-names></name><article-title>HER2 therapy: molecular mechanisms of trastuzumab resistance</article-title>. <source>Breast Cancer Res.</source><volume>8</volume>, <fpage>215</fpage> (<year>2006</year>).<pub-id pub-id-type="pmid">17096862</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/bcr1612</pub-id><pub-id pub-id-type="pmcid">PMC1797036</pub-id></mixed-citation>
+        </ref>
+        <ref id="b34">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ciriello</surname><given-names>G.</given-names></name><etal/>. <article-title>Comprehensive molecular portraits of invasive lobular breast cancer</article-title>. <source>Cell</source><volume>163</volume>, <fpage>506</fpage>–<lpage>519</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26451490</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.09.033</pub-id><pub-id pub-id-type="pmcid">PMC4603750</pub-id></mixed-citation>
+        </ref>
+        <ref id="b35">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Reed</surname><given-names>A. E. M.</given-names></name>, <name name-style="western"><surname>Kutasovic</surname><given-names>J. R.</given-names></name>, <name name-style="western"><surname>Lakhani</surname><given-names>S. R.</given-names></name> &amp; <name name-style="western"><surname>Simpson</surname><given-names>P. T.</given-names></name><article-title>Invasive lobular carcinoma of the breast: morphology, biomarkers and 'omics</article-title>. <source>Breast Cancer Res.</source><volume>17</volume>, <fpage>12</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25849106</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13058-015-0519-x</pub-id><pub-id pub-id-type="pmcid">PMC4310190</pub-id></mixed-citation>
+        </ref>
+        <ref id="b36">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ross</surname><given-names>J. S.</given-names></name><etal/>. <article-title>Relapsed classic E-cadherin (CDH1)-mutated invasive lobular breast cancer shows a high frequency of HER2 (ERBB2) gene mutations</article-title>. <source>Clin. Cancer Res.</source><volume>19</volume>, <fpage>2668</fpage>–<lpage>2676</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23575477</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-13-0295</pub-id></mixed-citation>
+        </ref>
+        <ref id="b37">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ma</surname><given-names>C. X.</given-names></name> &amp; <name name-style="western"><surname>Ellis</surname><given-names>M. J.</given-names></name><article-title>The Cancer Genome Atlas: clinical applications for breast cancer findings from TCGA: divergence of the four main breast cancer subtypes</article-title>. <source>Oncology</source><volume>7</volume>, <fpage>1</fpage>–<lpage>14</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24624545</pub-id></mixed-citation>
+        </ref>
+        <ref id="b38">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Russnes</surname><given-names>H. G.</given-names></name><etal/>. <article-title>Genomic architecture characterizes tumor progression paths and fate in breast cancer patients</article-title>. <source>Sci. Transl. Med.</source><volume>2</volume>, <fpage>38ra47</fpage> (<year>2010</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.3000611</pub-id><pub-id pub-id-type="pmcid">PMC3972440</pub-id><pub-id pub-id-type="pmid">20592421</pub-id></mixed-citation>
+        </ref>
+        <ref id="b39">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bjorge</surname><given-names>J. D.</given-names></name>, <name name-style="western"><surname>Chan</surname><given-names>T. O.</given-names></name>, <name name-style="western"><surname>Antczak</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Kung</surname><given-names>H. J.</given-names></name> &amp; <name name-style="western"><surname>Fujita</surname><given-names>D. J.</given-names></name><article-title>Activated type I phosphatidylinositol kinase is associated with the epidermal growth factor (EGF) receptor following EGF stimulation</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>87</volume>, <fpage>3816</fpage>–<lpage>3820</lpage> (<year>1990</year>).<pub-id pub-id-type="pmid">2160078</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.87.10.3816</pub-id><pub-id pub-id-type="pmcid">PMC53994</pub-id></mixed-citation>
+        </ref>
+        <ref id="b40">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McGranahan</surname><given-names>N.</given-names></name><etal/>. <article-title>Clonal status of actionable driver events and the timing of mutational processes in cancer evolution</article-title>. <source>Sci. Transl. Med.</source><volume>7</volume>, <fpage>283ra54</fpage>–<lpage>283ra54</lpage> (<year>2015</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.aaa1408</pub-id><pub-id pub-id-type="pmcid">PMC4636056</pub-id><pub-id pub-id-type="pmid">25877892</pub-id></mixed-citation>
+        </ref>
+        <ref id="b41">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>de Kruijf</surname><given-names>E. M.</given-names></name><etal/>. <article-title>The prognostic role of TGF-β signaling pathway in breast cancer patients</article-title>. <source>Ann. Oncol.</source><volume>24</volume>, <fpage>384</fpage>–<lpage>390</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23022998</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mds333</pub-id></mixed-citation>
+        </ref>
+        <ref id="b42">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kalinsky</surname><given-names>K.</given-names></name><etal/>. <article-title>PIK3CA mutation associates with improved outcome in breast cancer</article-title>. <source>Clin. Cancer Res.</source><volume>15</volume>, <fpage>5049</fpage>–<lpage>5059</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19671852</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-09-0632</pub-id></mixed-citation>
+        </ref>
+        <ref id="b43">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Sabine</surname><given-names>V. S.</given-names></name><etal/>. <article-title>Mutational analysis of PI3K/AKT signaling pathway in tamoxifen exemestane adjuvant multinational pathology study</article-title>. <source>J. Clin. Oncol.</source><volume>32</volume>, <fpage>2951</fpage>–<lpage>2958</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25071141</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2013.53.8272</pub-id></mixed-citation>
+        </ref>
+        <ref id="b44">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>S. Y.</given-names></name>, <name name-style="western"><surname>Rong</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Grieu</surname><given-names>F.</given-names></name> &amp; <name name-style="western"><surname>Iacopetta</surname><given-names>B.</given-names></name><article-title>PIK3CA mutations in breast cancer are associated with poor outcome</article-title>. <source>Breast Cancer Res. Treat.</source><volume>96</volume>, <fpage>91</fpage>–<lpage>95</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16317585</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10549-005-9048-0</pub-id></mixed-citation>
+        </ref>
+        <ref id="b45">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mayer</surname><given-names>I. A.</given-names></name> &amp; <name name-style="western"><surname>Arteaga</surname><given-names>C. L.</given-names></name><article-title>PIK3CA activating mutations: a discordant role in early versus advanced hormone-dependent estrogen receptor-positive breast cancer?</article-title><source>J. Clin. Oncol.</source><volume>32</volume>, <fpage>2932</fpage>–<lpage>2934</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25071103</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2014.55.9591</pub-id></mixed-citation>
+        </ref>
+        <ref id="b46">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mroz</surname><given-names>E. A.</given-names></name> &amp; <name name-style="western"><surname>Rocco</surname><given-names>J. W.</given-names></name><article-title>MATH, a novel measure of intratumor genetic heterogeneity, is high in poor-outcome classes of head and neck squamous cell carcinoma</article-title>. <source>Oral Oncol.</source><volume>49</volume>, <fpage>211</fpage>–<lpage>215</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23079694</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.oraloncology.2012.09.007</pub-id><pub-id pub-id-type="pmcid">PMC3570658</pub-id></mixed-citation>
+        </ref>
+        <ref id="b47">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Suganuma</surname><given-names>T.</given-names></name><etal/>. <article-title>Functional expression of the angiotensin II type 1 receptor in human ovarian carcinoma cells and its blockade therapy resulting in suppression of tumor invasion, angiogenesis, and peritoneal dissemination</article-title>. <source>Clin. Cancer Res.</source><volume>11</volume>, <fpage>2686</fpage>–<lpage>2694</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15814650</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-04-1946</pub-id></mixed-citation>
+        </ref>
+        <ref id="b48">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Weinstein</surname><given-names>J. N.</given-names></name><etal/>. <article-title>Comprehensive molecular characterization of urothelial bladder carcinoma</article-title>. <source>Nature</source><volume>507</volume>, <fpage>315</fpage>–<lpage>322</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24476821</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12965</pub-id><pub-id pub-id-type="pmcid">PMC3962515</pub-id></mixed-citation>
+        </ref>
+        <ref id="b49">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Varela</surname><given-names>I.</given-names></name><etal/>. <article-title>Exome sequencing identifies frequent mutation of the SWI/SNF Complex Gene PBRM1 in renal carcinoma</article-title>. <source>J. Urol.</source><volume>186</volume>, <fpage>1150</fpage> (<year>2011</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09639</pub-id><pub-id pub-id-type="pmcid">PMC3030920</pub-id><pub-id pub-id-type="pmid">21248752</pub-id></mixed-citation>
+        </ref>
+        <ref id="b50">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Helming</surname><given-names>K. C.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name> &amp; <name name-style="western"><surname>Roberts</surname><given-names>C. W. M.</given-names></name><article-title>Vulnerabilities of mutant SWI/SNF complexes in cancer</article-title>. <source>Cancer Cell</source><volume>26</volume>, <fpage>309</fpage>–<lpage>317</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25203320</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2014.07.018</pub-id><pub-id pub-id-type="pmcid">PMC4159614</pub-id></mixed-citation>
+        </ref>
+        <ref id="b51">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Helming</surname><given-names>K. C.</given-names></name><etal/>. <article-title>ARID1B is a specific vulnerability in ARID1A-mutant cancers</article-title>. <source>Nat. Med.</source><volume>20</volume>, <fpage>251</fpage>–<lpage>254</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24562383</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3480</pub-id><pub-id pub-id-type="pmcid">PMC3954704</pub-id></mixed-citation>
+        </ref>
+        <ref id="b52">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Sotiriou</surname><given-names>C.</given-names></name><etal/>. <article-title>Breast cancer classification and prognosis based on gene expression profiles from a population-based study</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>100</volume>, <fpage>10393</fpage>–<lpage>10398</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12917485</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1732912100</pub-id><pub-id pub-id-type="pmcid">PMC193572</pub-id></mixed-citation>
+        </ref>
+        <ref id="b53">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Koren</surname><given-names>S.</given-names></name><etal/>. <article-title>PIK3CAH1047R induces multipotency and multi-lineage mammary tumours</article-title>. <source>Nature</source><volume>525</volume>, <fpage>114</fpage>–<lpage>118</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26266975</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature14669</pub-id></mixed-citation>
+        </ref>
+        <ref id="b54">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Van Keymeulen</surname><given-names>A.</given-names></name><etal/>. <article-title>Reactivation of multipotency by oncogenic PIK3CA induces breast tumour heterogeneity</article-title>. <source>Nature</source><volume>525</volume>, <fpage>119</fpage>–<lpage>123</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26266985</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature14665</pub-id></mixed-citation>
+        </ref>
+        <ref id="b55">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Yap</surname><given-names>T. A.</given-names></name>, <name name-style="western"><surname>Gerlinger</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Futreal</surname><given-names>P. A.</given-names></name>, <name name-style="western"><surname>Pusztai</surname><given-names>L.</given-names></name> &amp; <name name-style="western"><surname>Swanton</surname><given-names>C.</given-names></name><article-title>Intratumor heterogeneity: seeing the wood for the trees</article-title>. <source>Sci. Transl. Med.</source><volume>4</volume>, <fpage>127ps10</fpage>–<lpage>127ps10</lpage> (<year>2012</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.3003854</pub-id><pub-id pub-id-type="pmid">22461637</pub-id></mixed-citation>
+        </ref>
+        <ref id="b56">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Earl</surname><given-names>H. M.</given-names></name><etal/>. <article-title>Effects of the addition of gemcitabine, and paclitaxel-first sequencing, in neoadjuvant sequential epirubicin, cyclophosphamide, and paclitaxel for women with high-risk early breast cancer (Neo-tAnGo): An open-label, 2 × 2 factorial randomised phase 3 trial</article-title>. <source>Lancet Oncol.</source><volume>15</volume>, <fpage>201</fpage>–<lpage>212</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24360787</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(13)70554-0</pub-id></mixed-citation>
+        </ref>
+        <ref id="b57">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chin</surname><given-names>S.-F.</given-names></name><etal/>. <article-title>Using array-comparative genomic hybridization to define molecular portraits of primary breast cancers</article-title>. <source>Oncogene</source><volume>26</volume>, <fpage>1959</fpage>–<lpage>1970</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17001317</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1209985</pub-id></mixed-citation>
+        </ref>
+        <ref id="b58">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Dawson</surname><given-names>S.-J.</given-names></name><etal/>. <article-title>Analysis of circulating tumor DNA to monitor metastatic breast cancer</article-title>. <source>N. Engl. J. Med.</source><volume>368</volume>, <fpage>1199</fpage>–<lpage>1209</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23484797</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1213261</pub-id></mixed-citation>
+        </ref>
+        <ref id="b59">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Benaglia</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Chauveau</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Hunter</surname><given-names>D. R.</given-names></name> &amp; <name name-style="western"><surname>Young</surname><given-names>D. S.</given-names></name><article-title>mixtools: an R package for analyzing mixture models</article-title>. <source>J. Stat. Softw.</source><volume>32</volume>, <fpage>2</fpage>–<lpage>7</lpage> (<year>2009</year>).</mixed-citation>
+        </ref>
+        <ref id="b60">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McKenna</surname><given-names>A.</given-names></name><etal/>. <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>. <source>Genome Res.</source><volume>20</volume>, <fpage>1297</fpage>–<lpage>1303</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20644199</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.107524.110</pub-id><pub-id pub-id-type="pmcid">PMC2928508</pub-id></mixed-citation>
+        </ref>
+        <ref id="b61">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cibulskis</surname><given-names>K.</given-names></name><etal/>. <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>. <source>Nat. Biotechnol.</source><volume>31</volume>, <fpage>213</fpage>–<lpage>219</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23396013</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2514</pub-id><pub-id pub-id-type="pmcid">PMC3833702</pub-id></mixed-citation>
+        </ref>
+        <ref id="b62">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wang</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>M.</given-names></name> &amp; <name name-style="western"><surname>Hakonarson</surname><given-names>H.</given-names></name><article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>. <source>Nucleic Acids Res.</source><volume>38</volume>, <fpage>e164</fpage>–<lpage>e164</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20601685</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkq603</pub-id><pub-id pub-id-type="pmcid">PMC2938201</pub-id></mixed-citation>
+        </ref>
+        <ref id="b63">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Reumers</surname><given-names>J.</given-names></name><etal/>. <article-title>Optimized filtering reduces the error rate in detecting genomic variants by short-read sequencing</article-title>. <source>Nat. Biotechnol.</source><volume>30</volume>, <fpage>61</fpage>–<lpage>68</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">22178994</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2053</pub-id></mixed-citation>
+        </ref>
+        <ref id="b64">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Choi</surname><given-names>Y.</given-names></name> &amp; <name name-style="western"><surname>Chan</surname><given-names>A. P.</given-names></name><article-title>PROVEAN web server: a tool to predict the functional effect of amino acid substitutions and indels</article-title>. <source>Bioinformatics</source><volume>31</volume>, <fpage>btv195</fpage> (<year>2015</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btv195</pub-id><pub-id pub-id-type="pmcid">PMC4528627</pub-id><pub-id pub-id-type="pmid">25851949</pub-id></mixed-citation>
+        </ref>
+        <ref id="b65">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Van Loo</surname><given-names>P.</given-names></name><etal/>. <article-title>Allele-specific copy number analysis of tumors</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>107</volume>, <fpage>16910</fpage>–<lpage>16915</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20837533</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1009843107</pub-id><pub-id pub-id-type="pmcid">PMC2947907</pub-id></mixed-citation>
+        </ref>
+        <ref id="b66">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mermel</surname><given-names>C. H.</given-names></name><etal/>. <article-title>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</article-title>. <source>Genome Biol.</source><volume>12</volume>, <fpage>R41</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21527027</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2011-12-4-r41</pub-id><pub-id pub-id-type="pmcid">PMC3218867</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+      <fn-group>
+        <fn fn-type="conflict">
+          <p>Helen Northen, John F. Peden, David R. Bentley and Mark T. Ross are full-time employees of Illumina Inc. Nitzan Rosenfeld is the Co-Founder and Chief Scientific Officer of Inivata Ltd. Dana W.Y. Tsui has acted as a consultant for Inivata Ltd prior to her current affiliation. Michelle Pugh is an employee of Inivata Ltd. The remaining authors declare no financial interests.</p>
+        </fn>
+        <fn>
+          <p><bold>Author contributions</bold> B.P. led the analysis and wrote the manuscript, with S.-F.C. and C.C. S.-F.C. also generated data, and designed and performed experiments. S.-F.C., G.T., H.B., S.-J.D., L.J., A.R.G., J.A. and A.O. contributed to sample collection and processing, and M.P., H.N. and D.W.Y.T. generated data. O.M.R., J.F.P., H.-K.M.V. and R.R. performed data analyses. E.P., A.M. and S.E.P. provided histopathology expertise, and E.P., S.-J.S., S.McK and B.L. collected and managed clinical data. P.D.P., H.M.E., N.R., L.M., D.R.B, I.O.E., A.-L.B.-D., M.T.R. and S.S. helped interpret results, collected data, and provided guidance on the manuscript. The project was directed and co-supervised by S.A. and C.C., who were also responsible for final editing. All authors read and approved the manuscript.</p>
+        </fn>
+      </fn-group>
+    </back>
+    <floats-group>
+      <fig id="f1" position="float" orientation="portrait">
+        <label>Figure 1</label>
+        <caption>
+          <title>Identification of 40 mutation-driver genes in 2,433 primary breast cancer samples.</title>
+          <p>(<bold>a</bold>) Bars depict proportions of ER+ and ER− samples harbouring mutations in mutation-driver (Mut-driver) genes. Red and blue points indicate for each gene, the proportions of recurrent (oncogene; ONC score) and inactivating (tumour suppressor gene; TSG score) mutations, respectively. ‘' indicates genes previously highlighted in other studies: COSMIC, Cancer gene census from the Catalogue of Somatic Mutations in Cancer; TCGA-BRCA, TCGA breast cancer study; TCGA-PAN, TCGA pan-cancer analysis. ER status available for 2,410 tumours. MAPK, mitogen-activated protein kinase. The genes are grouped by pathway or function. (<bold>b</bold>) Bars depict proportion of tumours with copy number alterations (CNAs) in genes altered in at least 1% of ER+ or ER− samples. The percentages of tumours with amplifications, simultaneous amplification and mutation events, homozygous deletions and simultaneous mutations and LOH events are shown. LOH was defined as any CNA in which with either the major or minor allele was entirely deleted as determined by ASCAT (Methods).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms11479-f1.jpg"/>
+      </fig>
+      <fig id="f2" position="float" orientation="portrait">
+        <label>Figure 2</label>
+        <caption>
+          <title>Associations between mutations and clinical-pathological variables.</title>
+          <p>(<bold>a</bold>) The associations between functional mutations in Mut-driver genes and patient age, tumour grade, size and number of lymph nodes involved are depicted for ER+ (left) and ER− (right) samples. Bars depict the categorical distributions of each variable in samples harbouring a functional mutation in the specified gene. The single bars on the left of each panel show the distributions of the variables for either all ER+ or ER− samples. The numbers of samples with mutations in the genes are shown in brackets. For each gene, we looked for a difference in the distributions of a variable between wild-type and mutant samples. All genes for which at least one association was found (<italic toggle="yes">χ</italic><sup>2</sup>-test; FDR=0.05) are shown, and ‘' indicates the significant associations. The analysis was performed for genes mutated in at least 1% of ER+ or ER− samples. (<bold>b</bold>) Bars depict prevalence of mutations in Mut-driver genes across histological subtypes. The 15 most frequently mutated genes in each subtype are shown. The coloured part of each bar indicates functional mutations, which were defined as recurrent mutations that contribute to an oncogene's ONC score (red), or inactivating mutations that contribute to a tumour suppressor gene's TSG score (see main text). Both recurrent and inactivating mutations were considered for <italic toggle="yes">TP53</italic>. Up arrows and down arrows indicate over/under-representation of mutations, respectively, in the specified gene relative to all other samples (Fisher's exact test; FDR=0.05). NST, no special type.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms11479-f2.jpg"/>
+      </fig>
+      <fig id="f3" position="float" orientation="portrait">
+        <label>Figure 3</label>
+        <caption>
+          <title>Patterns of association between somatic events.</title>
+          <p>(<bold>a</bold>) Pairwise association plot for 40 Mut-driver genes in 2,433 samples. Purple squares represent negative associations (mutually exclusive mutations); green squares represent positively associated events (co-mutation). The colour scale represents the magnitude of the association (log odds). We considered all genes mutated in at least 0.5% of the entire cohort, and only associations at FDR=0.1 are shown (Fisher's exact test). (<bold>b</bold>) Association plot of CNAs and Mut-driver gene mutations. Top panel: significantly recurrent copy number aberrations (CNAs) identified by GISTIC2 are shown across the genome, along with the percentage of samples affected by the particular CNA. Bottom panel: plot showing Mut-driver gene mutations associated with CNAs. Associations (Ass.) with amplifications and deletions are coloured red and blue respectively, and the colour scale corresponds to the magnitude of the association (log odds). Associations with dots represent mutual exclusivity and those without dots represent co-occurrence. Only genes with at least one significant association (Fisher's exact test; FDR=0.01) are shown, and only associations with absolute log odds ⩾log(2) were considered.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms11479-f3.jpg"/>
+      </fig>
+      <fig id="f4" position="float" orientation="portrait">
+        <label>Figure 4</label>
+        <caption>
+          <title>Genomic profiles of the Integrative Clusters.</title>
+          <p>Tumours with both mutation and copy number data available (<italic toggle="yes">n</italic>=2,021) are grouped by IntClust along the <italic toggle="yes">x</italic>-axis, and alterations in the 40 Mut-driver genes are indicated by coloured bars. For each tumour, the number of functional mutations in Mut-driver genes and the number of recurrent CNAs (as defined by GISTIC2) events are also shown. AMP, amplification; ACT, activating mutation; HOMD, homozygous deletion; INACT, inactivating mutation; LOH+MUT, mutation and hemizygous deletion.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms11479-f4.jpg"/>
+      </fig>
+      <fig id="f5" position="float" orientation="portrait">
+        <label>Figure 5</label>
+        <caption>
+          <title>Prevalence and clonal states of Mut-driver mutations across the Integrative Clusters.</title>
+          <p>(<bold>a</bold>) Bars showing prevalence of mutations for the nine Mut-driver genes that were either under- or over-represented in one of the IntClusts relative to all other samples (Fisher's exact test; FDR=0.05). Up arrows and down arrows indicate over/under-representation of mutations, respectively, in the specified IntClust. The grey lines represent mutation prevalence of the indicated gene for all samples in the cohort. (<bold>b</bold>) Box plots depicting cancer cell fractions (CCFs) of mutations in the nine genes across the IntClusts. CCFs were estimated as described in Methods, and we compared the CCF distribution of a gene's mutations in each IntClust with that of all other tumours. The dark grey shading represents interquartile ranges and outliers are not shown for the purpose of clarity. ‘*' indicates a significantly different CCF distribution (two-sample Wilcoxon test, <italic toggle="yes">P</italic>=0.05). (<bold>c</bold>) Example plots of CCF distributions in individual samples. Three samples (MTS-T1775, MTS-T1719 and MTS-T1226) were considered, and the IntClust to which they belong are also indicated. FS, frameshift indel.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms11479-f5.jpg"/>
+      </fig>
+      <fig id="f6" position="float" orientation="portrait">
+        <label>Figure 6</label>
+        <caption>
+          <title>Associations between mutations in the 40 Mut-driver genes and survival.</title>
+          <p>(<bold>a</bold>) Multivariable Cox proportional hazards models were constructed to assess the associations between functional mutations in Mut-driver genes and breast cancer-specific survival (BCSS) in ER+ (left) and ER− (right) cancers. For oncogenes (red), we considered only recurrent mutations, whereas only inactivating mutations were used for tumour suppressor genes (blue). Both classes of mutations were used for <italic toggle="yes">TP53</italic>. The lines represent 95% confidence intervals and sizes of the boxes correspond to the inverse of the interval size. Arrows indicate confidence intervals extending beyond plot range, and ‘' mark genes where mutations are associated BCSS at <italic toggle="yes">P</italic>&lt;0.05. Some genes did not have sufficient mutations in the ER− cohort to obtain a hazard ratio estimate. (<bold>b</bold>) The association between functional <italic toggle="yes">PIK3CA</italic> mutations and BCSS were analyzed in ER+ tumours after stratifying by IntClust. For each IntClust, univariable Cox models were constructed to obtain a hazard ratio estimate for <italic toggle="yes">PIK3CA</italic> mutations in tumours not belonging to the particular IntClust (left; black point, solid line), the effect of IntClust membership for tumours with wild-type <italic toggle="yes">PIK3CA</italic> (middle; coloured point, dashed line), and the simultaneous effects of <italic toggle="yes">PIK3CA</italic> mutation and IntClust membership (right; coloured point, solid line). Lines and arrows represent confidence intervals as in <xref ref-type="fig" rid="f6">Fig. 6a</xref>. The <italic toggle="yes">P</italic> values represent the significance of the interaction between <italic toggle="yes">PIK3CA</italic> mutation and IntClust membership in the Cox model. The fraction of tumours harbouring <italic toggle="yes">PIK3CA</italic> mutations within each IntClust is also indicated in brackets.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms11479-f6.jpg"/>
+      </fig>
+      <fig id="f7" position="float" orientation="portrait">
+        <label>Figure 7</label>
+        <caption>
+          <title>Intra-tumour heterogeneity in breast cancers stratified by IntClust.</title>
+          <p>(<bold>a</bold>) The distributions of mutant-allele tumour heterogeneity (MATH) scores are shown for ER+ and ER− tumours. The score represents a measure of the level of intra-tumour heterogeneity, and was calculated for each tumour as described in Methods. In general, ER+ samples have lower MATH scores than ER− samples, although there are a number of ER+ samples with higher scores. Tumours with fewer than five mutations were excluded from this analysis. (<bold>b</bold>) Kaplan–Meier survival curves (BCSS) are shown for tumours whose MATH scores fall in the lower or upper quartiles of the ER+ (top) and ER− (bottom) distributions. The numbers of samples under consideration are indicated, and the numbers in brackets represent the deaths occurring in each cohort. (<bold>c</bold>) Bubble plot of median MATH scores and CIN scores for each IntClust. The CIN is a measure of the percentage of the genome altered by CNAs. Dashed lines depict the quartiles for both scores (vertical lines, CIN quartiles; horizontal lines, MATH score quartiles) in the cohort as a whole. The areas of the circles are proportional to number of samples in each IntClust.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms11479-f7.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

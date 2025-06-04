@@ -1,0 +1,1828 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Genet</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC7891089</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC7891089.1</article-id>
+        <article-id pub-id-type="pmcaid">7891089</article-id>
+        <article-id pub-id-type="pmcaiid">7891089</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS1626060</article-id>
+        <article-id pub-id-type="pmid">33106634</article-id>
+        <article-id pub-id-type="doi">10.1038/s41588-020-00710-0</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS1626060</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA1626060</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Cancer therapy shapes the fitness landscape of clonal hematopoiesis</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bolton</surname>
+              <given-names initials="KL">Kelly L</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ptashkin</surname>
+              <given-names initials="RN">Ryan N</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="T">Teng</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Braunstein</surname>
+              <given-names initials="L">Lior</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Devlin</surname>
+              <given-names initials="SM">Sean M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kelly</surname>
+              <given-names initials="D">Daniel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Patel</surname>
+              <given-names initials="M">Minal</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Berthon</surname>
+              <given-names initials="A">Antonin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Syed</surname>
+              <given-names initials="A">Aijazuddin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yabe</surname>
+              <given-names initials="M">Mariko</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Coombs</surname>
+              <given-names initials="CC">Catherine C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Caltabellotta</surname>
+              <given-names initials="NM">Nicole M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Walsh</surname>
+              <given-names initials="M">Mike</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Offit</surname>
+              <given-names initials="K">Kenneth</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stadler</surname>
+              <given-names initials="Z">Zsofia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mandelker</surname>
+              <given-names initials="D">Diana</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schulman</surname>
+              <given-names initials="J">Jessica</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Patel</surname>
+              <given-names initials="A">Akshar</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Philip</surname>
+              <given-names initials="J">John</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bernard</surname>
+              <given-names initials="E">Elsa</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gundem</surname>
+              <given-names initials="G">Gunes</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ossa</surname>
+              <given-names initials="JEA">Juan E Arango</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Levine</surname>
+              <given-names initials="M">Max</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Martinez</surname>
+              <given-names initials="JSM">Juan S Medina</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Farnoud</surname>
+              <given-names initials="N">Noushin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Glodzik</surname>
+              <given-names initials="D">Dominik</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="S">Sonya</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Robson</surname>
+              <given-names initials="ME">Mark E</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="C">Choonsik</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pharoah</surname>
+              <given-names initials="PDP">Paul D P</given-names>
+            </name>
+            <xref ref-type="aff" rid="A15">15</xref>
+            <xref ref-type="aff" rid="A16">16</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stopsack</surname>
+              <given-names initials="KH">Konrad H</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Spitzer</surname>
+              <given-names initials="B">Barbara</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mantha</surname>
+              <given-names initials="S">Simon</given-names>
+            </name>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fagin</surname>
+              <given-names initials="J">James</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Boucai</surname>
+              <given-names initials="L">Laura</given-names>
+            </name>
+            <xref ref-type="aff" rid="A19">19</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gibson</surname>
+              <given-names initials="CJ">Christopher J</given-names>
+            </name>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ebert</surname>
+              <given-names initials="BL">Benjamin L</given-names>
+            </name>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Young</surname>
+              <given-names initials="AL">Andrew L</given-names>
+            </name>
+            <xref ref-type="aff" rid="A21">21</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Druley</surname>
+              <given-names initials="T">Todd</given-names>
+            </name>
+            <xref ref-type="aff" rid="A22">22</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Takahashi</surname>
+              <given-names initials="K">Koichi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A23">23</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gillis</surname>
+              <given-names initials="N">Nancy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A24">24</xref>
+            <xref ref-type="aff" rid="A25">25</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ball</surname>
+              <given-names initials="M">Markus</given-names>
+            </name>
+            <xref ref-type="aff" rid="A25">25</xref>
+            <xref ref-type="aff" rid="A26">26</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Padron</surname>
+              <given-names initials="E">Eric</given-names>
+            </name>
+            <xref ref-type="aff" rid="A25">25</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hyman</surname>
+              <given-names initials="DM">David M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baselga</surname>
+              <given-names initials="J">Jose</given-names>
+            </name>
+            <xref ref-type="aff" rid="A28">28</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Norton</surname>
+              <given-names initials="L">Larry</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gardos</surname>
+              <given-names initials="S">Stuart</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Klimek</surname>
+              <given-names initials="VM">Virginia M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scher</surname>
+              <given-names initials="H">Howard</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bajorin</surname>
+              <given-names initials="D">Dean</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Paraiso</surname>
+              <given-names initials="E">Eder</given-names>
+            </name>
+            <xref ref-type="aff" rid="A19">19</xref>
+            <xref ref-type="aff" rid="A29">29</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Benayed</surname>
+              <given-names initials="R">Ryma</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Arcila</surname>
+              <given-names initials="ME">Maria E</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ladanyi</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Solit</surname>
+              <given-names initials="DB">David B</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A19">19</xref>
+            <xref ref-type="aff" rid="A30">30</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A19">19</xref>
+            <xref ref-type="aff" rid="A30">30</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tallman</surname>
+              <given-names initials="M">Martin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Garcia-Closas</surname>
+              <given-names initials="M">Montserrat</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chatterjee</surname>
+              <given-names initials="N">Nilanjan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A31">31</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Diaz</surname>
+              <given-names initials="LA">Luis A</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A32">32</xref>
+            <xref ref-type="aff" rid="A33">33</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Levine</surname>
+              <given-names initials="RL">Ross L</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morton</surname>
+              <given-names initials="LM">Lindsay M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zehir</surname>
+              <given-names initials="A">Ahmet</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Papaemmanuil</surname>
+              <given-names initials="E">Elli</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1.</label>Department of Medicine, Leukemia Service, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A2"><label>2.</label>Department of Pathology, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A3"><label>3.</label>Computational Oncology Service, Department of Epidemiology &amp; Biostatistics, Center for Computational Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A4"><label>4.</label>Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A5"><label>5.</label>Department of Epidemiology &amp; Biostatistics, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A6"><label>6.</label>Department of Information Systems, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A7"><label>7.</label>Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A8"><label>8.</label>Department of Pathology, Hematopathology Service, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A9"><label>9.</label>Department of Medicine, University of North Carolina at Chapel Hill, 321 S Columbia St, Chapel Hill, NC 27599, USA</aff>
+        <aff id="A10"><label>10.</label>Department of Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A11"><label>11.</label>Department of Medicine, Clinical Genetics Service, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A12"><label>12.</label>Department of Health Informatics, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A13"><label>13.</label>Department of Pediatrics, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A14"><label>14.</label>Division of Cancer Epidemiology and Genetics, National Cancer Institute, National Institutes of Health, 9609 Medical Center Drive, MSC 9776, Bethesda, MD 20892, USA</aff>
+        <aff id="A15"><label>15.</label>Department of Oncology, University of Cambridge, Addenbrooke’s Hospital, Hills Rd, Cambridge CB2 0SP, United Kingdom</aff>
+        <aff id="A16"><label>16.</label>Department of Public Health and Primary Care, University of Cambridge, Strangeways Research Laboratory, Worts Causeway, Cambridge CB1 8RN, United Kingdom</aff>
+        <aff id="A17"><label>17.</label>Department of Medicine, Hematology Service, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A18"><label>18.</label>Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A19"><label>19.</label>Department of Medicine, Endocrinology Service, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A20"><label>20.</label>Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Ave, Boston, MA 02215, USA</aff>
+        <aff id="A21"><label>21.</label>Department of Medicine, Washington University School of Medicine, 660 S Euclid Ave, St. Louis, MO 63110, USA</aff>
+        <aff id="A22"><label>22.</label>Department of Pediatrics, Washington University School of Medicine, 660 S Euclid Ave, St. Louis, MO 63110, USA</aff>
+        <aff id="A23"><label>23.</label>Department of Leukemia, The University of Texas MD Anderson Cancer Center, 1515 Holcombe Blvd, Houston, TX 77030, USA</aff>
+        <aff id="A24"><label>24.</label>Department of Cancer Epidemiology, Moffitt Cancer Center, 12902 Magnolia Dr, Tampa, FL 33612, USA</aff>
+        <aff id="A25"><label>25.</label>Department of Malignant Hematology, Moffitt Cancer Center, 12902 Magnolia Dr Tampa, FL 33612, USA</aff>
+        <aff id="A26"><label>26.</label>Institute of Pathology, Faculty of Medicine and University Hospital Cologne, University of Cologne, Kerpener Str 62, 50937 Cologne, Germany</aff>
+        <aff id="A27"><label>27.</label>Weill Cornell Medical College, 407 E 61st St, New York, NY 10065, USA</aff>
+        <aff id="A28"><label>28.</label>Research &amp; Development, AstraZeneca, The Darwin Building, 310 Milton Rd, Milton, Cambridge CB4 0WG, United Kingdom</aff>
+        <aff id="A29"><label>29.</label>Center for Strategy &amp; Innovation, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A30"><label>30.</label>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A31"><label>31.</label>Department of Biostatistics, Bloomberg School of Public Health Department of Oncology, School of Medicine, Johns Hopkins University, 615 N Wolfe St, Baltimore, MD 21205, USA</aff>
+        <aff id="A32"><label>32.</label>Program in Precision Interception and Prevention, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <aff id="A33"><label>33.</label>Department of Medicine, Solid Tumor Division, Memorial Sloan Kettering Cancer Center, 1275 York Ave, New York, NY 10065, USA</aff>
+        <author-notes>
+          <fn fn-type="equal" id="FN1">
+            <label>*:</label>
+            <p id="P1">These authors contributed equally</p>
+          </fn>
+          <fn fn-type="con" id="FN2">
+            <p id="P2">AUTHOR CONTRIBUTIONS</p>
+            <p id="P3">K.L.B., R.L.L., A.Z., and E. Papaemmanuil conceived and designed the study. K.L.B., D.K., M.P., A.P., L.B., and N.C. collected clinical data. R.N.P., A.S., R.B., M.E.A., M. Ladanyi, M.F.B., and A.Z. led the generation of IMPACT sequencing data. K.L.B., M.P., A.P., N.C., D.M.H., M.S.T., and R.L.L. collected sequential samples. R.N.P, T.G., and K.L.B. called variants and performed post-processing of sequencing data. K.L.B., T.G., S.M.D., A.B., M.G-C., N.C., L.M.M., A.Z., and E. Papaemmanuil performed statistical analyses and/or participated in data interpretation. K.L.B., R.N.P., T.G., L.B., S.M.D., D.K., M.P., A.B., A.S., M.Y., C.C.C., N.M.C., M.W., K.O., Z.S., D.M., J.S., A.P., J.P., E.B., G.G., J.E.A.O., M. Levine, J.S.M.M., N.F., D.G., S.L., M.E.R., C.L., P.D.P.P., K.H.S., B.S., S.M., J.F., L.B., C.J.G., B.L.E., A.L.Y., T.D., K.T., N.G., M.B., E. Padron, D.M.H., J.B., L.N., S.G., V.M.K., H.S., D.B., E. Paraiso, R.B., M.E.A., M. Ladanyi, D.B.S., M.F.B., M.S.T., M.G-C., N.C., L.A.D., R.L.L., L.M.M., A.Z., and E. Papaemmanuil contributed to the writing of the manuscript and approved it for submission. R.N.P. and T.G. contributed equally to the work. A.Z. and E. Papaemmanuil are shared senior authors.</p>
+          </fn>
+          <corresp id="CR1">Correspondence: <email>zehira@mskcc.org</email>, <email>papaemme@mskcc.org</email></corresp>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>26</day>
+          <month>10</month>
+          <year>2020</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>11</month>
+          <year>2020</year>
+        </pub-date>
+        <volume>52</volume>
+        <issue>11</issue>
+        <issue-id pub-id-type="pmc-issue-id">375648</issue-id>
+        <fpage>1219</fpage>
+        <lpage>1226</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>31</day>
+              <month>01</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>26</day>
+              <month>04</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>26</day>
+              <month>04</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-17 00:25:33.407">
+              <day>17</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms-1626060.pdf"/>
+        <abstract id="ABS1">
+          <p id="P4">Acquired mutations are pervasive across normal tissues. However, our understanding of the processes that drive transformation of certain clones to cancer is limited. Here we study this phenomenon in the context of clonal hematopoiesis (CH) and the development of therapy-related myeloid neoplasms (tMN). We find mutations are selected differentially based on exposures. Mutations in <italic toggle="yes">ASXL1</italic> are enriched in current or former smokers, whereas cancer therapy with radiation, platinum and topoisomerase II inhibitors preferentially selects for mutations in DNA damage response (DDR) genes (<italic toggle="yes">TP53, PPM1D, CHEK2</italic>). Sequential sampling provides definitive evidence that DDR clones outcompete other clones when exposed to certain therapies. Among cases where CH was previously detected, the CH mutation was present at tMN diagnosis. We identify the molecular characteristics of CH that increase risk of tMN. The increasing implementation of clinical sequencing at diagnosis provides an opportunity to identify patients at risk of tMN for prevention strategies.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="S1">
+        <title>MAIN</title>
+        <p id="P5">The multistage model of carcinogenesis suggests that the successive acquisition of somatic mutations predates cancer development<sup><xref rid="R1" ref-type="bibr">1</xref></sup>. Each mutation contributes to a clone’s fitness advantage, resulting in clonal expansions that culminate in malignant transformation, in a process that parallels Darwinian evolution<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. This evolutionary process results from a complex interplay between the mechanisms that drive mutagenesis, the genetic targets of selection and the contexts in which these mutations contribute to differential clonal fitness.</p>
+        <p id="P6">Systematic cancer sequencing studies have delivered a detailed understanding of the processes that lead to mutations, the resulting mutation signature, and the genetic drivers of malignant disease.<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref></sup> However, our understanding of the evolutionary trajectories that underlie cancer development is primarily based on retrospective modeling of clonal structures observed at diagnosis<sup><xref rid="R5" ref-type="bibr">5</xref></sup> or disease progression<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Such approaches do not allow characterization of the genetic and clonal dynamics of early oncogenesis. Recent sequencing studies of normal tissues show that acquisition of somatic mutations is pervasive with aging<sup><xref rid="R7" ref-type="bibr">7</xref>–<xref rid="R16" ref-type="bibr">16</xref></sup>. Our understanding of the environmental factors that drive a subset of these mutated clones towards malignant transformation is limited and largely based on <italic toggle="yes">in vitro</italic> and animal studies<sup><xref rid="R17" ref-type="bibr">17</xref>–<xref rid="R19" ref-type="bibr">19</xref></sup>. Progress in this regard has been challenged by the paucity of longitudinal genetic and clonal studies with detailed annotation of intervening exposures.</p>
+        <p id="P7">Studies of clonal hematopoiesis (CH) present a unique opportunity to study the evolutionary process underlying malignant transformation in blood. Non-invasive sampling enables acquisition of statistically powered cohorts and longitudinal samples that permit assessment of the transition from normal to transformed disease. Population studies show that individuals with CH are at increased risk of transformation to myeloid neoplasms (MN)<sup><xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R21" ref-type="bibr">21</xref></sup>. However, only a small proportion of CH subjects progress to MN. Cancer patients are at heightened risk of subsequent therapy-related myeloid neoplasms (tMN) such as AML and MDS<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup>. tMN was traditionally thought to develop from the mutagenic effects of cancer therapy<sup><xref rid="R23" ref-type="bibr">23</xref></sup>. However, recent studies show that tMN-initiating mutations can predate cancer therapy<sup><xref rid="R19" ref-type="bibr">19</xref></sup>, consistent with CH<sup><xref rid="R24" ref-type="bibr">24</xref></sup>. Here, we sought to characterize the relationships between CH and environmental exposures and determine how cancer therapy shapes patterns of selection that contribute towards progression to overt leukemia.</p>
+        <sec id="S2">
+          <title>Molecular characteristics and clinical determinants of CH</title>
+          <p id="P8">Utilizing prospective targeted sequencing data (MSK-IMPACT) from 24,146 cancer patients representing a wide range of primary tumor types (n=56) and ages (<xref rid="T1" ref-type="table">Extended Data Table 1</xref>), we established a stringent variant calling and filtration workflow to detect CH variants in blood, with a minimum variant allele frequency (VAF) of 2% (see <xref rid="S9" ref-type="sec">Methods</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Notes</xref>). We identified 11,076 unique CH mutations in 7,216 individuals, representing 30% of patients in our cohort. The median VAF of CH mutations was 5.0% (range, 2–78%). Among individuals with CH, 69% (n=4952) had one mutation and 31% (2264) had two or more. The spectrum of CH mutations followed expected patterns of positive selection for truncating variants and missense mutations in tumor suppressors and oncogenes, respectively (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 1</xref>). As the design of our panel limits interrogation to bona fide cancer genes, we annotated each mutation on the basis of its putative role in cancer pathogenesis using OncoKB<sup><xref rid="R25" ref-type="bibr">25</xref></sup> and recurrence in an in-house dataset of myeloid neoplasms<sup><xref rid="R26" ref-type="bibr">26</xref>–<xref rid="R28" ref-type="bibr">28</xref></sup> (see <xref rid="S9" ref-type="sec">Methods</xref>). Over half of the CH mutations that we detected were classified as putative cancer-driver mutations (CH-PD, 52%, n=5810). Almost all CH-PD variants (91%, n=5301) were recurrent mutations in myeloid neoplasms (CH-myeloid PD) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 2</xref>).</p>
+          <p id="P9">Overall, mutations in myeloid driver genes (median=0.047) and CH-PD (0.050) showed higher VAFs than non-myeloid (0.038) and non-PD (0.038) mutations, respectively (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 3a</xref>-<xref rid="SD1" ref-type="supplementary-material">b</xref>, <xref rid="T2" ref-type="table">Extended Data Table 2</xref>). Similarly, hotspot mutations at R882 within <italic toggle="yes">DNMT3A</italic> had higher VAFs compared to non-hotspot mutations, even after accounting for total number of mutations (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 4</xref>). The VAF of mutations within individuals who harbored multiple mutations were higher compared to individuals with one mutation (<xref rid="T2" ref-type="table">Extended Data Table 2</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 3c</xref>). Consistent with prior literature<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>, CH mutations were most frequently identified in <italic toggle="yes">DNMT3A, TET2</italic> and <italic toggle="yes">ASXL1</italic>. Overall, 48% of CH mutations identified were in myeloid driver genes, while only 20% of genes on the MSK-IMPACT panel are myeloid driver genes. The strong enrichment of myeloid variants highlights the strength of the fitness advantage imparted on hematopoietic stem and progenitor cells (HSPCs) by mutations in genes implicated in myeloid pathogenesis as compared to bona fide oncogenic mutations in other cancer driver genes (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 2</xref>).</p>
+          <p id="P10">To assess the role of cancer therapy alongside other factors in driving selection of CH clones, we extracted and curated detailed clinical data for 10,138 patients who had received all their cancer care at Memorial Sloan Kettering (MSK) (see <xref rid="SD1" ref-type="supplementary-material">Supplementary Notes</xref>). These patients’ demographic characteristics and solid tumor primary site did not differ from those who received treatment outside of MSK or whose treatment information was unavailable (n=14,008) (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 1</xref>). As previously reported<sup><xref rid="R24" ref-type="bibr">24</xref></sup>, older age strongly correlated with the presence of CH clones in cancer patients (OR=1.9, p&lt;10<sup>−6</sup>) (<xref rid="T3" ref-type="table">Extended Data Table 3</xref>). CH was less common in patients of Asian ancestry relative to Caucasian descent (OR=0.7, p=1×10<sup>−3</sup>) (<xref rid="T3" ref-type="table">Extended Data Table 3</xref>), consistent with recent reports <sup><xref rid="R29" ref-type="bibr">29</xref></sup>.</p>
+          <p id="P11">Overall, a total of 5,978 patients (59%) were exposed to cancer therapy (including cytotoxic therapy, radiation therapy, targeted therapy and immunotherapy) prior to blood draw (<xref rid="F5" ref-type="fig">Extended Data Figure 1</xref>), whereas 4,160 (41%) were treatment-naive. Patients who had received prior cancer treatment were more likely to have CH compared to treatment-naive patients at time of testing (OR=1.3, p=1×10<sup>−6</sup>). The same was true for current and former smokers (OR=1.1, p=5×10<sup>−3</sup>), and effect sizes were similar between current (n=729, OR=1.2, p=0.10) and former smokers (n=4260, OR=1.1, p=8×10<sup>−3</sup>). The number of CH mutations in each patient was positively associated with cancer therapy and smoking, and clone size was also positively associated with smoking (<xref rid="T2" ref-type="table">Extended Data Tables 2</xref>, <xref rid="T4" ref-type="table">4</xref>). The association between age, therapy and CH was stronger for CH-PD compared to mutations not known to be putative cancer drivers (<xref rid="T2" ref-type="table">Extended Data Table 2</xref>). All subsequent analyses were limited to CH-PD.</p>
+          <p id="P12">The odds of having CH among cancer patients differed by primary tumor type even after adjustment for age (<xref rid="F6" ref-type="fig">Extended Data Figure 2</xref>). The overall mutational spectrum of CH was similar across cancer types, with the exception of DDR gene mutations being more frequent in patients with ovarian and endometrial cancers. This enrichment was most striking for mutations in <italic toggle="yes">PPM1D</italic>, which were found in 13% of patients with ovarian cancer and 7% of patients with endometrial cancer as compared to &lt;5% in other cancer subgroups (<xref rid="F7" ref-type="fig">Extended Data Figure 3</xref>). However, among patients who received no cancer therapy prior to blood draw, 8% of women with ovarian cancer and 0% of women with endometrial cancer had CH in <italic toggle="yes">PPM1D,</italic> suggesting that differences in the spectrum of CH mutations across tumor type could be explained by interactions with specific classes of cancer therapy and/or specific oncologic context.</p>
+        </sec>
+        <sec id="S3">
+          <title>Clinical parameters shape the fitness landscape of CH</title>
+          <p id="P13">We next sought to determine how specific external exposures might influence the fitness landscape of CH mutations and found that age, treatment and smoking correlated with specific molecular subtypes of CH (<xref rid="F1" ref-type="fig">Figure 1a</xref>-<xref rid="F1" ref-type="fig">b</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 5</xref>). For example, mutations in the spliceosome genes <italic toggle="yes">SRSF2</italic> and <italic toggle="yes">SF3B1</italic> were less common in our cohort relative to other CH mutations, but showed the strongest association with age (OR<sub><italic toggle="yes">SRSF2</italic></sub> = 3.6, q (FDR-corrected p-value)=7×10<sup>−6</sup>; OR<sub><italic toggle="yes">SF3B1</italic></sub> = 5.0, q=&lt;10<sup>−6</sup>) (<xref rid="F1" ref-type="fig">Figure 1b</xref>-<xref rid="F1" ref-type="fig">c</xref>). Overall, in tests of heterogeneity, <italic toggle="yes">DNMT3A</italic> showed significantly weaker associations with age than other mutations, including spliceosome genes (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 5</xref>). CH mutations in the DDR genes <italic toggle="yes">TP53, PPM1D</italic> and <italic toggle="yes">CHEK2</italic> were most strongly associated with prior exposure to cancer therapy (OR<sub><italic toggle="yes">TP53</italic></sub> = 2.8, q=2×10<sup>−4</sup>; OR<sub><italic toggle="yes">PPM1D</italic></sub> = 4.3, q=&lt;10<sup>−6</sup>; OR<sub><italic toggle="yes">CHEK2</italic></sub> =4.5, q= 6×10<sup>−6</sup>, <xref rid="F1" ref-type="fig">Figure 1c</xref>). Besides differences in the frequency of DDR mutations, CH mutational features were otherwise similar between treated and untreated individuals (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 6</xref>). Mutations in <italic toggle="yes">ASXL1</italic> were significantly associated with smoking history (OR=2.5, q=1×10<sup>−4</sup>, <xref rid="F1" ref-type="fig">Figure 1c</xref>). Current smokers had a stronger association with CH in <italic toggle="yes">ASXL1</italic> (OR=3.1, p=1×10<sup>−3</sup>) compared to former smokers (OR=2.4, p=1×10<sup>−4</sup>) although the OR did not significantly differ (p=0.4). While CH was more frequent overall among patients who received cancer-specific therapy, CH defined by mutations in epigenetic modifiers (<italic toggle="yes">DNMT3A, TET2</italic>) or splicing regulators (<italic toggle="yes">SRSF2, SF3B1, U2AF1</italic>) was not strongly affected by exposure to therapy (<xref rid="F1" ref-type="fig">Figure 1b</xref>-<xref rid="F1" ref-type="fig">c</xref>). Together, these observations provide evidence that the relative fitness of acquired mutations in HSPCs is modulated by environmental factors such as cancer treatment, smoking or the aging microenvironment in a gene-dependent manner.</p>
+          <p id="P14">Given the variety of cancer therapies, different therapeutic classes may impart distinct effects on CH. In our study, subjects were exposed to 490 different agents (<xref rid="SD1" ref-type="supplementary-material">Supplementary Notes</xref> and <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 2</xref>). To this point, we found evidence of heterogeneity in the strength of association between class agent and CH gene mutations. For example, of all treatment modalities, external beam radiation therapy (OR=1.4, p&lt;10<sup>−6</sup>), cytotoxic chemotherapy (OR=1.2, p=2×10<sup>−3</sup>) and radionuclide therapy (OR=1.6, p=0.01) were most strongly associated with CH-PD (global test of heterogeneity p<sub>het</sub>=0.03). With respect to subclasses of cytotoxic therapy, CH-PD was most strongly associated with prior exposure to topoisomerase II inhibitors (OR=1.3, p=0.01) and platinum agents (OR=1.2, p=0.02), and of the platinum agents, carboplatin (OR=1.4, 0.001) was associated with CH, unlike cisplatin (OR=1.1, p=0.10) and oxaliplatin (OR=0.98, p=0.88) (<xref rid="F2" ref-type="fig">Figure 2a</xref>). Targeted therapies and immunotherapeutic agent exposure were not significantly associated with CH (<xref rid="F2" ref-type="fig">Figure 2a</xref>).</p>
+          <sec id="S4">
+            <title>Associations with therapy exposure also varied by gene.</title>
+            <p id="P15">Mutations in <italic toggle="yes">PPM1D</italic> were most strongly associated with prior exposure to platinum (OR=3.2, q&lt;10<sup>−6</sup>) or radionuclide therapy (OR=6.2, q=7×10<sup>−6</sup>) and also showed associations with topoisomerase II inhibitors (OR=2.0, q=0.002), taxanes (OR=1.8, q=0.003), topoisomerase I inhibitors (OR=1.7, q=0.002) and external beam radiation therapy (OR=1.8, q=0.04) (<xref rid="F2" ref-type="fig">Figure 2b</xref>). Mutations in <italic toggle="yes">TP53</italic> were associated with prior platinum (OR=2.1, q=0.03), radiation therapy (OR=1.8, q=0.04) and taxane (OR=1.9, q=0.05) exposure, whereas <italic toggle="yes">CHEK2</italic> was associated with platinum (OR=2.4, q=0.02) and topoisomerase II inhibitors (OR=2.2, q=0.02) (<xref rid="F2" ref-type="fig">Figure 2b</xref>). The strength of the association between DDR CH and cytotoxic therapy differed by cytotoxic therapy subclass (p=4×10<sup>−6</sup>) and platinum subclass (p=0.03).</p>
+            <p id="P16">To evaluate whether treatment dose modulated these relationships, we calculated each patient’s relative cumulative exposure to specific therapy classes (see <xref rid="SD1" ref-type="supplementary-material">Supplementary Notes</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 7</xref>). Increasing exposure to platinum chemotherapy was associated with CH-PD (p-trend=0.04). Among platinum agents, CH-PD was associated with higher cumulative doses of carboplatin (p-trend=3×10<sup>−5</sup>) and cisplatin (p-trend=0.04) (<xref rid="F2" ref-type="fig">Figure 2c</xref>). Evidence of dose-response further supports a possible causal relationship between the associated exposures and CH.</p>
+          </sec>
+        </sec>
+        <sec id="S5">
+          <title>Clonal dynamics of CH in response to cancer therapy</title>
+          <p id="P17">Our retrospective analysis suggests that exposure to cancer therapy results in a higher likelihood of CH, particularly in patients with mutations in DDR genes, following exposure to specific therapies. To definitively characterize how treatment affects mutational presentation and clonal dominance of CH across time, we collected sequential blood samples from 525 patients with solid tumors (median sampling interval time = 23 months, range: 6–53 months), of whom 61% received cytotoxic therapy or external beam radiation therapy and 39% received either targeted or immunotherapy or were untreated (see <xref rid="S9" ref-type="sec">Methods</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 8</xref>). None of these patients developed secondary hematologic malignancies during follow-up. Of these patients, 389 (74%) had CH, defined as a mutation present at a VAF of ≥2%, at the time of first sampling. The majority of CH mutations were present at both time points (n=590/620, 95%), allowing us to examine how clones evolved in the presence or absence of therapy and whether the clone-defining mutations influenced these trajectories.</p>
+          <p id="P18">We found evidence of both positive and negative changes in clone size across treatment modalities (<xref rid="F3" ref-type="fig">Figure 3a</xref>). Among mutations detected at both time-points, the majority (62% (n=367) of CH mutations remained stable, 28% (n=164) had evidence of growth, and 10% (n=59) decreased in clonal size. Among patients receiving external beam radiation therapy or cytotoxic therapy, growth was most pronounced for CH with mutations in DDR genes <italic toggle="yes">TP53</italic>, <italic toggle="yes">CHEK2</italic> and <italic toggle="yes">PPM1D</italic> (<xref rid="F3" ref-type="fig">Figure 3b</xref>-<xref rid="F3" ref-type="fig">c</xref>). Similar to our retrospective series, increasing cumulative exposure to these therapies resulted in faster clone growth in patients whose CH was defined by DDR mutations (<xref rid="F3" ref-type="fig">Figure 3d</xref>). We did not see evidence of a significant association between change in VAF and time from end of cytotoxic therapy to the second blood sampling. Future studies with sequential sampling before, during and after therapy will be needed to characterize the kinetics of CH. Patients with multiple mutations exhibited faster CH growth<sup><xref rid="R30" ref-type="bibr">30</xref></sup> as compared to those with one mutation (p=0.03) irrespective of mutation type and treatment status (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 9</xref>). This likely reflects the greater competitive advantage of a subset of clones harboring multiple mutations, although this cannot be determined with certainty in the absence of single-cell sequencing. The proportion of patients with newly detected mutations among those who received interval cytotoxic/radiation therapy (4%, n=13) was non-significantly higher as compared to those who did not (1%, n=2, p=0.06) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 10</xref>). Thus, in addition to therapy selecting for CH, therapy may have mutagenic effects on HSPCs.</p>
+          <p id="P19">Many parameters likely influence evolutionary trajectories of emerging CH clones. To study competing clonal dynamics in patients, we identified 34 subjects in our prospective serial sampling series with one mutation in a DDR gene and one in a non-DDR gene (<xref rid="F3" ref-type="fig">Figure 3e</xref>). The presence of these distinct classes of gene mutations within the same patient controls for any confounding parameters. In patients receiving interval cytotoxic therapy or radiation therapy, CH clones with DDR mutations grew faster compared to clones with other CH mutations in the same patient. However, the reverse was true in untreated patients: clones with mutations in non-DDR CH genes (<italic toggle="yes">e.g</italic>. <italic toggle="yes">DNMT3A</italic>) outcompeted clones with DDR mutations (<xref rid="F3" ref-type="fig">Figure 3e</xref>). In summary, our serial sampling data provide direct evidence in patients that cancer therapy selects for clones with mutations in the DDR genes <italic toggle="yes">TP53</italic>, <italic toggle="yes">PPM1D</italic> and <italic toggle="yes">CHEK2</italic> and that these clones have lower competitive fitness relative to non-DDR gene mutations in the absence of cytotoxic or radiation therapy.</p>
+        </sec>
+        <sec id="S6">
+          <title>Genetic and clonal evolution to tMN</title>
+          <p id="P20">Recent studies have shown that tMN-initiating mutations can predate cancer therapy<sup><xref rid="R19" ref-type="bibr">19</xref></sup>, challenging the traditional hypothesis that tMN develops from the mutagenic effects of cancer therapy<sup><xref rid="R31" ref-type="bibr">31</xref></sup> and suggesting a relationship with CH. We hypothesized that tMN development is at least in part mediated by therapeutic selection of mutant clones in a gene-dependent manner.</p>
+          <p id="P21">To study the molecular events defining progression of CH to tMN, we analyzed 35 cases for which paired samples were available at the time of molecular profiling for primary cancer and at time of leukemic transformation for tMN (median inter-sampling time of 24 months, range:5–90 months) (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 3</xref>). We called mutations present at a VAF of ≥2% in at least one time-point. We detected disease-defining events at time of tMN in 34 patients. Strikingly at least one of these mutations was present at the time of CH (with at least one supporting read) in 19 patients (59%), with 13 (41%) harboring two or more. In all of these cases, the CH mutation was present at the time of tMN diagnosis (<xref rid="F8" ref-type="fig">Extended Data Figure 4</xref>). However, these mutations are unlikely sufficient for leukemic transformation. In 91% of cases, transformation was associated with acquisition of additional somatic mutations, including chromosomal aneuploidies or mutations in genes (e.g. <italic toggle="yes">FLT3, KRAS, NRAS</italic>) known to drive late progression to myeloid disease<sup><xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R32" ref-type="bibr">32</xref>–<xref rid="R34" ref-type="bibr">34</xref></sup> (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 11</xref>).</p>
+          <p id="P22">Nearly half (n=14, 40%) of the tMN patients had mutations in <italic toggle="yes">TP53</italic>. Overall, 10/14 <italic toggle="yes">TP53</italic> mutations were detectable at time of CH testing. Of these, four cases had a concomitant <italic toggle="yes">TP53</italic> mutation and another non-DDR mutation at time of CH. In agreement with prospective serial sequencing, in the presence of therapy the <italic toggle="yes">TP53</italic> clone had consistently attained dominance by the time of tMN (<xref rid="F9" ref-type="fig">Extended Data Figure 4</xref>). At transformation, in 12/13 (92%) cases with available karyotype, <italic toggle="yes">TP53</italic> mutations co-occurred with isolated chromosomal aneuploidies or complex karyotype. This provides a direct mechanistic link, whereby cells carrying mutations in <italic toggle="yes">TP53</italic> are positively selected when exposed to oncologic therapy and attain clonal dominance with further genetic diversification, such as the acquisition of chromosomal aneuploidies.</p>
+        </sec>
+        <sec id="S7">
+          <title>Clinical implications of CH in cancer patients</title>
+          <p id="P23">Based on the direct evidence that CH mutations lead to tMN transformation in our paired sample data, we sought to identify risk factors associated with tMN. By combining patient data from our cohort with detailed clinical histories and three previously published studies<sup><xref rid="R35" ref-type="bibr">35</xref>–<xref rid="R37" ref-type="bibr">37</xref></sup>, we created a cohort of 9,437 cancer patients exposed to cancer therapy, of whom 75 developed tMN (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 2</xref>, see <xref rid="SD1" ref-type="supplementary-material">Supplementary Notes</xref>). Cause-specific Cox proportional hazards analysis (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 2</xref>) showed that CH present at a VAF of &gt;2% was positively associated with tMN risk (HR=6.9, p&lt;10<sup>−6</sup>), and increased with the total number of mutations and clone size (<xref rid="F4" ref-type="fig">Figure 4a</xref>). The strongest associations were observed for mutations in <italic toggle="yes">TP53</italic>, further validating the relevance of <italic toggle="yes">TP53</italic> in tMN, and for mutations in spliceosome genes (<italic toggle="yes">SRSF2</italic>, <italic toggle="yes">U2AF1</italic> and <italic toggle="yes">SF3B1</italic>). Future studies using error-corrected sequencing methods will clarify the relationship between CH and tMN at VAFs &lt;2%. Comparison of HRs for tMN and AML risk showed similar effect sizes (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 12</xref>) in our cohort as in recent studies of healthy individuals<sup><xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup>. These data suggest that the relative risk of myeloid neoplasms associated with CH and related parameters (gene, VAF and mutation number) is similar between healthy individuals and cancer patients.</p>
+          <p id="P24">We next sought to evaluate how CH, in combination with clinical parameters such as age and peripheral blood counts, might help stratify tMN risk for cancer patients. For example, in solid tumor patients undergoing surgical resection, adjuvant cancer therapy can improve overall survival by reducing cancer recurrence. However, in some situations, the absolute survival benefit of adjuvant therapy is modest and is countered, at least in part, by the risk for subsequent tMN, which is almost universally fatal, with a 5-year survival of 10%<sup><xref rid="R39" ref-type="bibr">39</xref></sup>. In the absence of prospective clinical studies, we performed an exploratory analysis using a synthetic model to quantify the absolute risk of AML/MDS following a breast cancer diagnosis. Using previously established methodology<sup><xref rid="R40" ref-type="bibr">40</xref>,<xref rid="R41" ref-type="bibr">41</xref></sup>, we combined estimates of HR parameters obtained from our multivariable analysis with the distribution of CH mutational features and blood count parameters from untreated patients at MSK and external sources to model the 10-year cumulative absolute AML/MDS risk distribution for women with breast cancer aged 50–75 in the United States. This risk model assumes a multiplicative effect of CH mutational features and cancer therapy on risk of tMN, based on the similarity between risk estimates for CH mutational features in AML that develops in individuals never exposed to therapy and tMN (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 12</xref>). We determined how the risk distribution would change with receipt of adjuvant therapy by shifting the population between receiving and not receiving adjuvant chemotherapy.</p>
+          <p id="P25">In our model, the majority (96%) of breast cancer patients have a low 10-year absolute risk (&lt; 1%) for MN (<xref rid="F4" ref-type="fig">Figure 4b</xref>) and for these patients, deferment of adjuvant chemotherapy would not impact their absolute MN risk (<xref rid="F4" ref-type="fig">Figure 4c</xref>). However, for women at the highest risk of MN based on CH and blood count parameters in our synthetic model (top 1%), adjuvant chemotherapy increased the absolute risk of MN by approximately 9%. This would exceed the predicted absolute benefit in overall survival of chemotherapy in many women with early-stage breast cancer<sup><xref rid="R42" ref-type="bibr">42</xref></sup>. While not appropriate for clinical implementation, our findings may inform the design and provide a rationale for future studies to formally estimate the benefits of risk-adapted treatment decisions in cancer patients with CH.</p>
+        </sec>
+      </sec>
+      <sec id="S8">
+        <title>DISCUSSION</title>
+        <p id="P26">Longitudinal studies of CH present a unique opportunity to study the patterns of early mutagenesis and the dynamics of clonal selection in the progression towards malignant transformation. Here, by combining epidemiologic and genetic approaches, we provide insights into the mechanisms that drive the transition of a normal HSPC to a cell with a considerably stronger proliferation advantage, and study how the ensuing trajectories are shaped by host and environmental exposures including age, ethnicity, smoking and cancer therapy. We provide evidence that the fate of CH mutations is dictated by a complex interplay between the inherent fitness advantage of the mutation(s) in HSPCs and parameters that preferentially select for specific mutations, i.e. aging for spliceosome mutations, smoking for mutations in <italic toggle="yes">ASXL1</italic>, and cancer therapy for specific genes involved in DDR (<xref rid="F9" ref-type="fig">Extended Data Figure 5</xref>). These relationships provide insight into disease biology and may inform early detection and prevention strategies in cancer. We refine the relevance of CH as a predictor and precursor of tMN in cancer patients and show that CH mutations detected prior to tMN diagnosis were consistently part of the dominant clone at transformation. We demonstrate that cancer therapy directly favors growth of clones with mutations in genes such as <italic toggle="yes">TP53</italic>, which is associated with chemo-resistant disease and is strongly enriched in tMN. This provides a direct mechanistic link between genetic subtypes of CH, receipt of subsequent cancer therapy, and how these modulate the transition from CH to attainment of clonal dominance and, for a subset of cases, development of tMN.</p>
+        <p id="P27">Previous murine and in vitro modelling studies have provided evidence supporting an association between cancer therapy and increased fitness of DDR clones in CH. However, these observations have not been verified in human subjects, nor do they define how therapy enables the transition of CH to MN. Here we show that clones with DDR mutations are positively selected in the presence of cancer therapy but not in its absence. We also show that beyond clonal dominance the transition to tMN is most parsimoniously associated with the acquisition of further genetic lesions. Our detailed treatment information including agent class, dose and mechanism of action allowed us to refine the specificity and strength of the association between cancer therapy and CH and characterize distinct gene-treatment effects. We show that radiation therapy and cytotoxic therapy are significantly associated with CH, with regimens containing platinum and topoisomerase II inhibitors most strongly correlating with CH in specific DDR pathway genes including <italic toggle="yes">TP53, PPM1D</italic> and <italic toggle="yes">CHEK2.</italic> Serial sampling before and after therapy provided clear, definitive evidence that therapy induces gene-specific clonal expansion, whereby clones with mutations in DDR genes outcompete other clones in the setting of cancer therapy, but not in its absence. Last, the dose-response relationships observed in both our cross-sectional arm and longitudinal study further support a causal relationship between platinum and CH and the cumulative effect of therapy on selection.</p>
+        <p id="P28">The specificity of the associations at a genetic and exposure level (i.e. therapeutic subclasses and agents such as carboplatin) sets a framework for future correlative and mechanistic studies into early oncogenesis for blood disorders. The specific mechanisms and pathways through which chemotherapeutic agents induce HSC injury may be agent-specific<sup><xref rid="R43" ref-type="bibr">43</xref>,<xref rid="R44" ref-type="bibr">44</xref></sup>. Further work will be needed to elucidate the mechanisms responsible for the differential fitness effects of cancer therapy and other environmental exposures such as smoking on CH both during and after exposure, and how this relates to tMN risk. Beyond the most frequent cancer genes surveyed here, comprehensive genome studies such as deep whole exome or whole genome analyses in cohorts linked to detailed registries of environmental exposures are warranted to uncover the full repertoire of selection in CH.</p>
+        <p id="P29">We find overlap in the types of cancer therapy associated with selection of DDR CH and those linked to tMN risk (carboplatin, topoisomerase II inhibitors and radiation). Selection of <italic toggle="yes">TP53</italic> is only one mechanism driving tMN and may be distinct from the processes driving initiation and selection for other tMN-associated alterations including chromosomal aneuploidies and genomic rearrangement (i.e. <italic toggle="yes">MLL</italic> fusion genes). Our work adds to early evidence<sup><xref rid="R45" ref-type="bibr">45</xref>,<xref rid="R46" ref-type="bibr">46</xref></sup> that external stressors are critical in shaping gene-dependent selection of clonal mosaicism. Characterization of the complex interplay between genotype, fitness challenges, and environmental factors will be key to understanding age-associated clonal mosaicism and the associated exposures that result in malignant transformation. These insights would provide the premise for risk stratification and prevention strategies.</p>
+        <p id="P30">Our observations provide a rationale for clinical therapeutic intervention, including the development of therapies aimed to target high-risk CH clones and modulation of the use of adjuvant systemic cancer therapy in patients at highest risk of subsequent myeloid neoplasm. The latter could entail deferring adjuvant cytotoxic therapy or substituting therapies shown to promote high-risk CH with alternative agents when clinically appropriate. We showcase this with a prototype synthetic model; however, development and validation of risk prediction models for specific clinical scenarios are needed prior to implementation. The realization of precision medicine is reliant upon the development of evidence-based guidelines that consider molecular biomarkers alongside standard clinical criteria to inform clinical care. The decreasing cost of prospective clinical sequencing assays and the high frequency of CH in cancer patients suggest that screening for CH prior to initiation of cancer therapy may be feasible, and may enable molecularly based early detection and interception.</p>
+      </sec>
+      <sec id="S9">
+        <title>METHODS</title>
+        <sec id="S10">
+          <title>MSK-IMPACT Cohort</title>
+          <p id="P31">The study population included patients with non-hematologic cancers at MSKCC that underwent matched tumor and blood sequencing using the MSK-IMPACT panel on an institutional prospective tumor sequencing protocol (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ClinicalTrials.gov">ClinicalTrials.gov</ext-link> number, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01775072">NCT01775072</ext-link>) before July 1<sup>st</sup>, 2018; all patients enrolled on this protocol provided informed consent. This study was approved by the MSKCC Institutional Review Board (IRB). A subset of patients that underwent tumor-genomic profiling as standard of care were not directly consented, in which case an IRB waiver was obtained to allow for inclusion into this study.</p>
+          <p id="P32">We extracted data on ethnicity, smoking, date of birth and cancer history through the MSK cancer registry. Subjects who had a hematologic malignancy diagnosed within three years prior to blood collection for MSK-IMPACT testing or who had an active hematologic malignancy at the time of blood draw were excluded. Subjects who were diagnosed with a hematologic malignancy less than three months following MSK-IMPACT were considered to have an active hematologic malignancy at the time of MSK-IMPACT and were also excluded. When unavailable through the cancer registry, we extracted data on ethnicity and smoking through structured fields in clinician medical notes if available. Subjects for which age was not available were excluded. Blood indices were taken from clinical labs closest to the date of blood collection for MSK-IMPACT, within one year before or after blood collection (median 0 days). The 8,810 individuals included in the previous MSK-IMPACT publication studying CH are included in the current manuscript. A major difference between the two studies, in addition to an expanded sample size, is the comprehensiveness of the clinical data, including therapeutic exposure data, that was obtained as detailed in the <xref rid="SD1" ref-type="supplementary-material">supplementary notes section</xref>.</p>
+        </sec>
+        <sec id="S11">
+          <title>Serial Sampling Cohort</title>
+          <p id="P33">In order to study the growth rate of clonal hematopoiesis mutations over time we collected additional blood samples on patients sequenced using MSK-IMPACT for repeat CH mutation testing. These came from three sources: first, from 372 patients with CH in whom we obtained a second blood sample at least 18 months after initial MSK-IMPACT blood collection, second, from 21 samples from patients with clonal hematopoiesis on MSK-IMPACT who had a blood sample banked at least 12 months prior to MSK-IMPACT testing, and third, from 132 samples that were taken for repeat MSK-IMPACT testing for clinical purposes at least six months after the first MSK-IMPACT testing irrespective of clonal hematopoiesis status (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 8</xref>). For all patients who had sequential sampling data, we manually reviewed their medical records to capture receipt of cancer therapy received at outside institutions during the follow-up period. If subjects received therapy outside MSK during the follow-up period, we excluded them from analyses of dose-response relationships since cumulative dose of therapy could not be consistently collected from outside records. This study was approved by the MSKCC IRB.</p>
+        </sec>
+        <sec id="S12">
+          <title>Targeted Capture-Based Sequencing</title>
+          <p id="P34">Subjects had a tumor and blood sample (as a matched normal) sequenced using MSK-IMPACT, a FDA-authorized hybridization capture-based next-generation sequencing assay encompassing all protein-coding exons from the canonical transcript of 341, 410, or 468 cancer-associated genes (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 4</xref>). MSK-IMPACT is validated and approved for clinical use by New York State Department of Health Clinical Laboratory Evaluation Program and is used to sequence cancer patients at Memorial Sloan Kettering. Genomic DNA is extracted from formalin-fixed paraffin-embedded (FFPE) tumor tissue and patient matched blood sample, sheared and DNA fragments were captured using custom probes<sup><xref rid="R47" ref-type="bibr">47</xref></sup>. MSK-IMPACT contains most of the commonly reported CH genes with few exceptions. Earlier versions of the panel did not contain <italic toggle="yes">PPM1D</italic> or <italic toggle="yes">SRSF2.</italic> Additionally, three genes commonly reported to be observed in patients with malignancies, <italic toggle="yes">SRCAP</italic>, <italic toggle="yes">BRCC3</italic> and <italic toggle="yes">ZNF318</italic> were not included, the former two belonging to the DNA damage response pathway.</p>
+          <p id="P35">The blood samples in the serial sampling cohort that were obtained for repeat CH testing were sequenced using a comparable capture-based custom panel using 163 genes implicated in myeloid pathogenesis, which included the most commonly mutated genes in our MSK-IMPACT study, with the exception of ATM. The median sequencing depth was 665X (range=111–1987X) which was comparable to that obtained in the blood using MSK-IMPACT. For all subsequent analyses using the serial sampling cohort we only considered mutations that were present in both the initial and follow-up panel.</p>
+        </sec>
+        <sec id="S13">
+          <title>Variant Calling</title>
+          <p id="P36">Pooled libraries were sequenced on an Illumina HiSeq 2500 with 2×100bp paired-end reads. Sequencing reads were aligned to human genome (hg19) using BWA (0.7.5a). Reads were re-aligned around indels using ABRA (0.92), followed by base quality score recalibration with Genome Analysis Toolkit (GATK) (3.3–0). Median coverage in the blood samples was 497x, and median coverage in the tumors was 790x. Variant calling for each blood sample was performed unmatched, using a pooled control sample of DNA from 10 unrelated individuals as a comparator. Single nucleotide variants (SNVs) were called using Mutect and VarDict. Insertions and deletions were called using Somatic Indel Detector (SID) and VarDict. Variants that were called by two callers were retained. Dinucleotide substitution variants (DNVs) were detected by VarDict and retained if any base overlapped a SNV called by Mutect. All called mutations were genotyped in the patient matched tumor sample. Mutations were annotated with VEP (version 86) and OncoKb.</p>
+        </sec>
+        <sec id="S14">
+          <title>Post-Processing Filters for Clonal Hematopoiesis Calling</title>
+          <p id="P37">We applied a series of post-processing filters to further remove false positive variants caused by sequencing artifacts and putative germline polymorphisms. We removed variants that were found (with a VAF of &gt;2% at least once) in a panel of sequencing data from 300 blood samples obtained from persons under 20 years of age and without evidence of clonal hematopoiesis. We further filtered single nucleotide deletions within a homopolymer stretch of (≥3 base repetition) of the same deleted base pair, single nucleotide substitutions completing a stretch of a ≥5 bp-long homopolymer (E.g. GGCGG -&gt; GGGGG) in-frame deletions or insertions in a highly repetitive region (DUST<sup><xref rid="R48" ref-type="bibr">48</xref></sup> algorithm score of ≥5), and variants with unequal proportions of forward/reverse direction supporting reads based on a fisher test. We performed manual review in IGV of recurrent mutations not previously reported in public databases. We required a variant allele fraction of at least 2% and at least 10 supporting reads. All genotypes were calculated using sequencing reads and bases with a quality value of at least 20. Because somatic mutations in the blood would be expected to be detected in the blood but not other tissue compartments, we compared the variant allele fraction (VAF) of mutations in the blood compared to the matched tumor. Variant calls that were present in the blood with a VAF of at least twice that in the tumor or 1.5 times the VAF if the tumor biopsy site was a lymph node were considered somatic. This ratio was chosen based on minimizing sensitivity and specificity of CH calls through simulations of leukocyte contamination in the tumor (see <xref rid="SD1" ref-type="supplementary-material">Supplementary Notes</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Figures 11</xref> and <xref rid="SD1" ref-type="supplementary-material">12</xref>). To further filter putative germline polymorphisms that passed the blood/tumor solid tissue ratio due to allelic imbalance in the tumor specimen, we removed any variant reported in any population in the gnomAD database at a frequency greater than 0.005.</p>
+        </sec>
+        <sec id="S15">
+          <title>Validation of Calls</title>
+          <p id="P38">To test the reproducibility of our clonal hematopoiesis mutation calling, we compared the mutational calling results from 1,173 samples, where the same DNA library for a blood sample was sequenced and analyzed twice using MSK-IMPACT. We detected 91% of variants in both samples using our calling criteria with a correlation coefficient of 0.98 for the variant allele fraction between the two calls indicating that the reproducibility of our calls was high. In 10 cases with CH, we obtained a second blood sample and re-sequenced using a custom capture based panel with unique molecular identifiers and found that this independent method confirmed all 18 of our CH calls using MSK-IMPACT.</p>
+        </sec>
+        <sec id="S16">
+          <title>Variant Annotation</title>
+          <p id="P39">Variants were annotated according to evidence for functional relevance in cancer (putative driver or CH-PD) and for relevance to myeloid neoplasms specifically (CH-myeloid-PD). We annotated variants as oncogenic in myeloid disease (CH-myeloid-PD) if they were in a gene hypothesized to drive myeloid/hematologic malignancies (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 5</xref>) and if they fulfilled any of the following criteria: 1) truncating variants in <italic toggle="yes">NF1, DNMT3A, TET2, IKZF1, RAD21, WT1, KMT2D, SH2B3, TP53, CEBPA, ASXL1, RUNX1, BCOR, KDM6A, STAG2, PHF6, KMT2C, PPM1D, ATM, ARID1A, ARID2, ASXL2, CHEK2, CREBBP, ETV6, EZH2, FBXW7, MGA, MPL, RB1, SETD2, SUZ12, ZRSR2</italic> or in <italic toggle="yes">CALR</italic> exon 9; 2) translation start site mutations in <italic toggle="yes">SH2B3</italic>; 3) <italic toggle="yes">TERT</italic> promoter mutations; 4) <italic toggle="yes">FLT3</italic>-ITDs; 5) in-frame indels in <italic toggle="yes">CALR, CEBPA, CHEK2, ETV6, EZH2</italic>; 6) any variant occurring in the COSMIC “haematopoietic and lymphoid” category greater than or equal to 10 times; 7) any variant noted as potentially oncogenic in an in-house dataset of 7,000 individuals with myeloid neoplasm greater than or equal to 5 times. We annotated variants as oncogenic (CH-PD) if they fulfilled any of the following criteria: 1) any variant noted as oncogenic or likely oncogenic in OncoKB<sup><xref rid="R25" ref-type="bibr">25</xref></sup>; 2) any truncating mutations (nonsense, essential splice site or frameshift indel) in known tumor suppressor genes as per the Cancer Gene Census, OncoKB, or the scientific literature; 3) any variant reported as somatic at least 20 times in COSMIC<sup><xref rid="R49" ref-type="bibr">49</xref></sup>; 4) any variant meeting criteria for CH-Myeloid-PD as above. All missense variants not meeting the above criteria were individually reviewed for potential oncogenicity as previously described<sup><xref rid="R50" ref-type="bibr">50</xref></sup>.</p>
+        </sec>
+        <sec id="S17">
+          <title>Calculation of dN/dS Ratios</title>
+          <p id="P40">We used the dNdScv (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/im3sanger/dndscv">https://github.com/im3sanger/dndscv</ext-link>) package to quantify the dN/dS ratios for missense and truncating mutations at the gene level as well as on the panel level. Due to the difference in the gene panel between different MSK-IMPACT panel versions, we excluded all MSK-IMPACT-341 samples and only included genes that were present on both MSK-IMPACT-410 and MSK-IMPACT-468 panels in the analysis. Finally, to generate the overall dN/dS landscape in CH, we only presented genes that reached a significance level of q&lt;0.1 after multiple testing correction and contained more than 25 variants.</p>
+        </sec>
+        <sec id="S18">
+          <title>Modeling the Association Between CH and Prior Exposure to Cancer Therapy</title>
+          <p id="P41">We used multivariable logistic regression to evaluate for an association between clonal hematopoiesis (including gene and variant specific factors) and therapy, age, gender and smoking history. In addition to these variables, we also adjusted for time from cancer diagnosis to blood draw for MSK-IMPACT testing because trends in preferred oncologic agents vary over time and CH is known to associate with survival. We did not adjust for primary tumor type since we hypothesized that most of the difference in CH-PD rates reflected differences in treatment regimens. Indeed, among untreated patients, a global Wald test for differences in CH-PD prevalence by tumor type was not significant (p=0.98). Analyses stratified by the time since start and by completion of external beam radiation and chemotherapy showed no clear evidence of a time-dependence/latency between CH-PD and cumulative exposure to therapy. Thus, the time from start or stop of therapy was not adjusted for. While considering exploratory analyses, we performed multiple hypothesis correction using the false discovery rate (FDR) q-values for gene-specific analyses to control for inflation of type I error. We did not perform multiple hypothesis correction for analyses testing an association between subclasses of cancer therapy and CH because the association between cancer therapy and CH is known and our goal was to define the relative strength of these associations with subtypes of therapy rather than hypothesis testing. Heterogeneity p-values to test for differences in the strength of the association between subclasses of CH and clinical variables were calculated through logistic regression models limited to CH-positive individuals testing for a difference in the odds of having CH with the mutational feature of interest (<italic toggle="yes">e.g</italic>. CH-PD) vs. having CH without the mutational feature (<italic toggle="yes">e.g</italic>. non-CH-PD). Generalized estimating equations were used to test for an association between CH VAF and selected clinical and mutational features among CH positive individuals accounting for correlation between the VAF of mutations in the same person. Ordinal logistic regression among CH positive individuals was used to test for an association between clinical characteristics and increasing CH mutation number. A test for trend between increasing cumulative exposure to cancer therapy and the odds of CH-PD was performed using multivariable logistic regression limited to individuals exposed to the therapy of interest.</p>
+        </sec>
+        <sec id="S19">
+          <title>Modeling the Effect of Cancer Therapy on Mutation Growth Rate</title>
+          <p id="P42">For each mutation in each individual with sequential sequencing data available, we modeled the growth rate of the mutation between the two time points according to the following formula:
+<disp-formula id="FD1"><mml:math display="block" id="M1"><mml:mrow><mml:mtext>α</mml:mtext><mml:mspace width="0.25em"/><mml:mtext>=</mml:mtext><mml:mspace width="0.25em"/><mml:mtext>log</mml:mtext><mml:mspace width="0.25em"/><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mtext>V</mml:mtext><mml:mspace width="0.25em"/><mml:mtext>/</mml:mtext><mml:mspace width="0.25em"/><mml:mtext>V</mml:mtext></mml:mrow><mml:mtext>0</mml:mtext></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mspace width="0.25em"/><mml:mtext>/</mml:mtext><mml:mspace width="0.25em"/><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mtext>T</mml:mtext><mml:mspace width="0.25em"/><mml:mtext>−</mml:mtext><mml:mspace width="0.25em"/><mml:mtext>T</mml:mtext></mml:mrow><mml:mtext>0</mml:mtext></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+          <p id="P43">Where T and T<sub>0</sub> indicates the age of the individual (in days) at the two measurement time points and V and V<sub>0</sub> correspond to the VAF at T and T<sub>0</sub> respectively. We also classified mutations as having increased, decreased or remained constant during the follow-up period based on a binomial test comparing the two VAFs. Generalized estimating equations were used to test for an association between exposure to cytotoxic therapy and external beam radiation therapy and CH growth rate adjusting for age, gender and smoking status accounting for correlation between the growth rate of mutations in the same person. Among patients with at least one mutation in a DDR CH gene and another non-DDR CH gene, we calculated the difference in the growth rate between mutations. When patients had more than two mutations in the same gene category, we used the highest growth rate for that category. A paired t-test was used to test for significance in the difference between growth rates of DDR mutations compared to non-DDR mutations within individuals who received cytotoxic therapy and/or external beam radiation therapy and within those who were untreated during the follow-up period.</p>
+        </sec>
+        <sec id="S20">
+          <title>Combined Analysis for AML/MDS Risk</title>
+          <p id="P44">We combined data from MSK and three previously published studies, Gillis et al., abbreviated MOF (n=68), Takahashi et al., abbreviated MDA (n=67), Gibson et al., abbreviated DFC (n=401) studying the effect of CH on tMN risk in cancer patients. We defined tMN as an MDS or AML diagnosed following exposure to therapeutic radiation or cytotoxic therapy as per the WHO criteria<sup><xref rid="R51" ref-type="bibr">51</xref></sup>. For all samples, uniform post processing filters were applied to ensure retention of variants in accordance with the QC standards of the MSK cohort including a universal 2% minimum VAF cutoff. We only included mutations within genes that are present on the panel from all centers and on all panel versions from each center (Supplementary Table 6). The only exceptions were <italic toggle="yes">SRSF2</italic> which the IMPACT-341 sequencing panel did not cover and <italic toggle="yes">PPM1D</italic> which was not sequenced in IMPACT-341, MDA or MOF. We performed mean imputation of missing clinical data for blood counts. Only mutations that we classified as CH-PD were included in analyses. We performed univariate cause-specific Cox proportional hazards regression for the effect of maximum VAF, total number of CH mutations, CH in specific genes and blood count parameters adjusted for age and gender and stratified by study site. Interaction terms between study and CH were used to test for heterogeneity between studies on the effect of CH on tMN risk. The proportional hazards assumption was tested through visual inspection of residual plots and through the inclusion of time-varying covariates. We performed a multivariable analysis including age, gender and all variables that were significant in the univariate analysis with the exception of the genes not included in all studies to prevent reduction of sample size, <italic toggle="yes">PPM1D</italic> and <italic toggle="yes">SRSF2.</italic> Because our sample set was limited to individuals who received cancer therapy, we were unable to study gene-treatment interactions in the risk of myeloid neoplasm. Thus, in our combined model CH and cancer therapy are modeled as having multiplicative effects, i.e. no multiplicative interaction on myeloid neoplasm risk. We think this is a reasonable assumption for an exploratory analysis such as the one presented in our study. Much larger studies (including solid tumor patients who did and did not receive any cancer therapy besides surgery) would be needed to define the magnitude of CH-treatment interactions.</p>
+          <p id="P45">We also combined data from two studies investigating the effect of CH on AML risk in healthy individuals, Abelson et al., abbreviated PMC (n=969) and Young et al., abbreviated WSU (n=103), with data from MSK and applied uniform processing to mutation data from different centers. As in the solid tumor combined analysis, the same post processing filters used in the main MSK cohort including a universal 2% minimum VAF cutoff were applied to these studies and only mutations that we classified as CH-PD were included in analyses. We performed a multivariable Cox regression adjusted for age and gender including the variables used in the multivariable tMN risk analysis in solid tumor patients.</p>
+        </sec>
+        <sec id="S21">
+          <title>Modeling Absolute Risk of AML/MDS</title>
+          <p id="P46">We used the iCARE R package<sup><xref rid="R40" ref-type="bibr">40</xref>,<xref rid="R41" ref-type="bibr">41</xref></sup> to build a model for absolute risk of AML/MDS in women with breast cancer aged 50–75 in the United States (U.S) by combining 1) the multivariate HR estimates from our study that were significant in the univariate model including maximum VAF of CH, gene specific effects and peripheral blood count indexes (RDW, hemoglobin); 2. Age-specific AML/MDS rates in breast cancer using data provided by the National Comprehensive Cancer Network (NCCN)<sup><xref rid="R52" ref-type="bibr">52</xref></sup>; 3. Competing hazards for mortality in women with breast cancer in the U.S aged 50–75 as reported in SEER<sup><xref rid="R53" ref-type="bibr">53</xref></sup>; 4. Previously published HR estimates for chemotherapy on the risk of tMN in women with breast cancer from the NCCN<sup><xref rid="R52" ref-type="bibr">52</xref></sup>; 5. The distribution of CH VAF, number of mutations, CH gene and peripheral blood count indexes using our cohort of MSK solid tumor cancer patients aged 50–75 who were untreated prior to blood draw; 6. The proportion of women who receive adjuvant chemotherapy for breast cancer in the U.S from SEER<sup><xref rid="R53" ref-type="bibr">53</xref></sup>. While our IMPACT cohort is not representative of the general breast cancer population in the U.S, since the distribution of CH mutational features is largely driven by age and since we do not see major differences in rates of CH between gender or untreated tumor types, we believe that the distribution of CH mutational features in untreated solid tumor patients sequenced on IMPACT reasonably approximates an age-matched untreated breast cancer population. While blood count indexes are known to differ by sex and we chose to use the distribution of blood counts from the entire treatment-naive IMPACT population (both male and female) to capture the inter-relationship between blood count indexes and CH mutational features. Sensitivity analyses using the distribution of blood count parameters from female IMPACT patients only produced similar results. This risk model assumes an additive association on the log scale of CH mutational features and cancer therapy for risk of tMN. This assumption is supported by the similarity between risk estimates for CH mutational features between AML in healthy individuals never exposed to therapy and tMN (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 10</xref>).</p>
+          <p id="P47">All the statistical analyses were performed using the R statistical package (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.r-project.org/">www.r-project.org</ext-link>). The code used in statistical analysis is provided in the <xref rid="SD1" ref-type="supplementary-material">Supplementary Notes</xref>.</p>
+        </sec>
+      </sec>
+      <sec sec-type="extended-data" id="S22">
+        <title>Extended Data</title>
+        <fig id="F5" orientation="portrait" position="anchor">
+          <label>Extended Data Figure 1.</label>
+          <caption>
+            <title>Distribution of cancer therapy received prior to blood collection for sequencing.</title>
+            <p id="P48">A) Frequency of patients receiving systemic therapy or external beam radiation therapy by primary tumor type. B) Frequency of patients receiving specific classes of systemic therapy by primary tumor type. C) Frequency of patients receiving top ten subclasses of cytotoxic therapy. Most patients (91%) who received at least one of these cytotoxic therapy classes received multiple classes.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0005.jpg"/>
+        </fig>
+        <fig id="F6" orientation="portrait" position="anchor">
+          <label>Extended Data Figure 2.</label>
+          <caption>
+            <title>Association between primary tumor site and CH-PD.</title>
+            <p id="P49">Odds ratios (circle) and 95% confidence intervals for CH-PD in selected primary tumor types with at least 100 subjects compared to breast cancer (n=3540) in a logistic regression model adjusted for age. * p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0006.jpg"/>
+        </fig>
+        <fig id="F7" orientation="portrait" position="anchor">
+          <label>Extended Data Figure 3.</label>
+          <caption>
+            <p id="P50">Proportion of patients with common CH-PD mutations by primary tumor sites. Genes mutated in at least 75 individuals and the top 12 primary tumor sites are shown.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0007.jpg"/>
+        </fig>
+        <fig id="F8" orientation="portrait" position="anchor">
+          <label>Extended Data Figure 4.</label>
+          <caption>
+            <title>Variant frequencies (VAF) at time of pre-tMN testing and tMN diagnosis.</title>
+            <p id="P51">Plots show changes in mutational frequencies in relation to cancer therapy exposure in 19 CH cases. Below each graph are listed treatments received prior to pre-tMN testing and the number of days between the end of treatment and the pre-tMN sample.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0008.jpg"/>
+        </fig>
+        <fig id="F9" orientation="portrait" position="anchor">
+          <label>Extended Data Figure 5.</label>
+          <caption>
+            <title>Differences in the fitness effect of CH mutations and the environment shape clonal dominance over an individual’s lifetime.</title>
+            <p id="P52">Conceptual graph illustrating how associations between specific exposures and CH mutations may shape clonal dominance over an individual’s lifetime. AML, acute myeloid leukemia; cyclophosph, cyclophosphamide; MDS, myelodysplastic syndrome.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0009.jpg"/>
+        </fig>
+        <table-wrap id="T1" position="anchor" orientation="portrait">
+          <label>Extended Data Table 1.</label>
+          <caption>
+            <p id="P53">Clinical characteristics of solid tumor patients assessed for CH.</p>
+          </caption>
+          <table frame="box" rules="all">
+            <colgroup span="1">
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" valign="top" rowspan="1" colspan="1"/>
+                <th align="center" valign="top" rowspan="1" colspan="1">CH−</th>
+                <th align="center" valign="top" rowspan="1" colspan="1">CH+</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">
+                  <bold>Total</bold>
+                </td>
+                <td align="left" valign="top" rowspan="1" colspan="1">16930 (70%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">7216 (30%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">
+                  <bold>Smoking status</bold>
+                </td>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Non-smoker</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">8979 (74%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3086 (26%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Current/former</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">7255 (65%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3894 (35%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Missing</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">696 (75%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">236 (25%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">
+                  <bold>Gender</bold>
+                </td>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Male</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">7710 (70%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3315 (30%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Female</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">9220 (70%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3901 (30%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">
+                  <bold>Age</bold>
+                </td>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 0–10</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">324 (96%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">13 (3.9%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 10–20</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">284 (96%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">13 (4.4%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 20–30</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">672 (95%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">36 (5.1%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 30–40</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1398 (92%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">121 (8%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 40–50</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2757 (87%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">420 (13%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 50–60</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">4490 (78%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1298 (22%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 60–70</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">4499 (64%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2575 (36%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 70–80</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2127 (50%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2092 (50%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 80–90</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">379 (37%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">648 (63%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">
+                  <bold>Ethnicity</bold>
+                </td>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> White</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">12628 (69%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">5802 (31%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Asian</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1274 (78%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">356 (22%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Black</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1081 (73%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">410 (27%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Other</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1175 (77%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1"> 355 (23%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Unknown</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">772 (72%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">293 (28%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">
+                  <bold>Therapy</bold>
+                </td>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Treated</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">4193 (70%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1785 (30%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Untreated</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3027 (73%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1133 (27%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1"> Unknown</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">9710 (69%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">4298 (31%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">
+                  <bold>Primary tumor subtype</bold>
+                </td>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+                <td align="left" valign="top" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Ampullary carcinoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">47 (76%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">15 (24%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Anal cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">38 (67%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">19 (33%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Appendiceal cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">128 (79%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">34 (21%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Biliary cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">351 (69%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">157 (31%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Bladder cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">445 (62%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">267 (38%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Breast carcinoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2610 (74%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">930 (26%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Cancer of unknown primary</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">484 (67%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">239 (33%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Cervical cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">91 (77%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">27 (23%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Chondroblastoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1 (100%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0 (0%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Chondrosarcoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">42 (78%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">12 (22%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Chordoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">27 (75%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">9 (25%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Choroid plexus tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3 (100%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0 (0%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Colorectal cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1625 (75%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">528 (25%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Embryonal tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">153 (89%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">18 (11%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Endometrial cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">510 (61%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">321 (39%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Ependymomal tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">26 (90%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3 (10%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Esophagogastric carcinoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">464 (70%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">196 (30%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Ewing sarcoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">66 (89%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">8 (11%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Gastrointestinal neuroendocrine tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">73 (68%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">34 (32%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Gastrointestinal stromal tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">200 (70%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">84 (30%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Germ cell tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">352 (91%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">35 (9%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Gestational trophoblastic disease</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">10 (77%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3 (23%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Glioma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">834 (76%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">260 (24%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Head and neck carcinoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">252 (69%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">111 (31%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Hepatocellular carcinoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">134 (71%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">55 (29%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Melanoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">612 (69%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">269 (31%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Meningothelial tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">52 (79%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">14 (21%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Mesothelioma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">146 (65%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">78 (35%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Miscellaneous brain tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">22 (85%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">4 (15%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Miscellaneous neuroepithelial tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">11 (65%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">6 (35%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Nerve sheath tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">43 (88%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">6 (12%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Non-small cell lung cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2235 (63%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1324 (37%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Osteosarcoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">98 (90%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">11 (10%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Ovarian cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">411 (62%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">254 (38%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Pancreatic cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">964 (68%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">452 (32%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Penile cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">7 (78%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2 (22%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Pheochromocytoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">6 (86%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1 (14%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Pineal tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1 (25%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">3 (75%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Prostate cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">971 (65%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">523 (35%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Renal cell carcinoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">445 (78%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">128 (22%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Retinoblastoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">38 (95%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2 (5%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Salivary carcinoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">161 (76%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">52 (24%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Sellar tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">53 (88%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">7 (12%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Sex cord stromal tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">29 (81%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">7 (19%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Skin cancer, non-melanoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">137 (60%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">91 (40%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Small bowel cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">66 (77%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">20 (23%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Small cell lung cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">128 (60%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">84 (40%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Soft tissue sarcoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">751 (76%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">233 (24%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Thymic tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">35 (70%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">15 (30%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Thyroid cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">267 (62%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">165 (38%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Uterine sarcoma</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">124 (73%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">46 (27%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Vaginal cancer</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">10 (67%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">5 (33%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Wilms tumor</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">23 (96%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1 (4.2%)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Unknown</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">75 (69%)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">34 (31%)</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="T2" position="anchor" orientation="portrait">
+          <label>Extended Data Table 2.</label>
+          <caption>
+            <title>Association between variant allele fraction (VAF) of CH mutations and clinical characteristics.</title>
+            <p id="P54">Generalized estimating equations were used to test for association between VAF of CH mutations (among those with a mutation) and selected clinical and mutational features, accounting for correlation between the VAF of mutations in the same person. Age expressed in decile.</p>
+          </caption>
+          <table frame="box" rules="all">
+            <colgroup span="1">
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" valign="top" rowspan="1" colspan="1">Variable (ref)</th>
+                <th align="left" valign="top" rowspan="1" colspan="1"/>
+                <th align="center" valign="top" rowspan="1" colspan="1">OR</th>
+                <th align="center" valign="top" rowspan="1" colspan="1">95% CI</th>
+                <th align="center" valign="top" rowspan="1" colspan="1">p</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Age</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">-</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1–1.1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.0011</td>
+              </tr>
+              <tr>
+                <td rowspan="4" align="left" valign="top" colspan="1">Ethnicity (white)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">Asian</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.94–1.2</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.42</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Black</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.9</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.82–1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.053</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Other</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.93</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.83–1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.24</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Unknown</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.92</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.8–1.1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.22</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Smoking status (non-smoker)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">Smoker</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.1–1.2</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.000023</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Therapy (untreated)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">Treated</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.96–1.1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.8</td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="top" colspan="1">PD status (Non-PD non-myeloid)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">Myeloid PD</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.3</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.3–1.4</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">&lt; 1 × 10<sup>−6</sup></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Non-myeloid PD</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.3</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.2–1.5</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.000052</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Non-PD myeloid</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.99</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.92–1.1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">Number of mutations (1)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">≥ 2</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.1</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">1.1–1.2</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.0000038</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="T3" position="anchor" orientation="portrait">
+          <label>Extended Data Table 3.</label>
+          <caption>
+            <title>Association among clinical characteristics and CH mutational characteristics.</title>
+            <p id="P55">Myeloid PD, genes mutated in myeloid neoplasms; non-myeloid, genes not linked to myeloid neoplasms; myeloid PD, variants known to be myeloid drivers or putative somatic driver mutations in myeloid neoplasms; myeloid non-PD, mutations within genes linked to myeloid neoplasms but that are not putative drivers; non-myeloid PD, mutations that are putative somatic driver mutations of cancer in genes not linked to myeloid neoplasms; non-myeloid non-PD, mutations within genes not linked to myeloid neoplasms that are not putative drivers of cancer. Associations were evaluated using multivariable logistic regression models to generate heterogeneity p-values. Sensitivity analyses restricted to individuals with only one mutation yielded similar results. Age expressed in decile.</p>
+          </caption>
+          <table frame="box" rules="all">
+            <colgroup span="1">
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" valign="middle" rowspan="1" colspan="1">Variable (reference)</th>
+                <th align="left" valign="top" rowspan="1" colspan="1"/>
+                <th align="center" valign="middle" rowspan="1" colspan="1">OR</th>
+                <th align="center" valign="middle" rowspan="1" colspan="1">95% CI</th>
+                <th align="center" valign="middle" rowspan="1" colspan="1">p</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Age</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">-</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1–1.1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.0011</td>
+              </tr>
+              <tr>
+                <td rowspan="4" align="left" valign="middle" colspan="1">Ethnicity (white)</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Asian</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.94–1.2</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.42</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Black</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.9</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.82–1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.053</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Other</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.93</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.83–1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.24</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Unknown</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.92</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.8–1.1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.22</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Smoke (non-smoker)</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Smoker</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.1–1.2</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.000023</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Therapy (untreated)</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Treated</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.96–1.1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.8</td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle" colspan="1">PD status (non-PD non-myeloid)</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Myeloid PD</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.3</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.3–1.4</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">&lt; 1 × 10<sup>−6</sup></td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Non-myeloid PD</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.3</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.2–1.5</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.000052</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Non-PD myeloid</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.99</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.92–1.1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle" rowspan="1" colspan="1">Number of mutations (1)</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">≥ 2</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.1</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">1.1–1.2</td>
+                <td align="left" valign="middle" rowspan="1" colspan="1">0.0000038</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="T4" position="anchor" orientation="portrait">
+          <label>Extended Data Table 4.</label>
+          <caption>
+            <title>Association between CH mutation number and clinical characteristics.</title>
+            <p id="P56">Ordinal logistic regression was used to test for association between clinical characteristics and mutation number in patients with clonal hematopoiesis in a multivariable model. Age expressed in decile.</p>
+          </caption>
+          <table frame="box" rules="all">
+            <colgroup span="1">
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" valign="bottom" rowspan="1" colspan="1">Variable (reference)</th>
+                <th align="left" valign="bottom" rowspan="1" colspan="1"/>
+                <th align="left" valign="bottom" rowspan="1" colspan="1">OR</th>
+                <th align="left" valign="bottom" rowspan="1" colspan="1">95% CI</th>
+                <th align="left" valign="bottom" rowspan="1" colspan="1">p</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Age (0–10)</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">&gt; 10</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">2.3</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">2–2.6</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">&lt; 1 × 10<sup>−6</sup></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Gender (male)</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Female</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">1.1</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">0.94–1.3</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">0.2</td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Ethnicity (white)</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Non-white</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">0.83</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">0.67–1</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">0.087</td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Smoke (non-smoker)</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Smoker</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">1.2</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">1–1.4</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">0.027</td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Therapy (untreated)</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">Treated</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">1.2</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">1.1–1.5</td>
+                <td align="left" valign="bottom" rowspan="1" colspan="1">0.011</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM1">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1626060-supplement-1.pdf" orientation="portrait" id="d40e2749" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1626060-supplement-2.xlsx" orientation="portrait" id="d40e2753" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S23">
+        <title>ACKNOWLEDGEMENTS</title>
+        <p id="P57">This work was supported by the National Institutes of Health (K08 CA241318 to K.B., K12 CA120780 to C.C., P50 CA172012 to L.B., P50 CA172012 to J.F., UG1 HL069315 to V.K.), American Society of Hematology (K.B. and Elli Papaemmanuil), EvansMDS Foundation (K.B.), European Hematology Association (Elli Papaemmanuil), Gabrielle’s Angels Foundation (Elli Papaemmanuil), V Foundation (Elli Papaemmanuil), Geoffrey Beene Foundation (Elli Papaemmanuil), UNC Oncology Clinical Translational Research Training Program (C.C.), Cycle for Survival (V.K.), Starr Cancer Consortium (to R.L., A.Z., M.F.B., R.P.), and the Cancer Colorectal Cancer Dream Team Translational Research Grant (SU2C-AACR-DT22-17 to L.D.). Elli Papaemmanuil is a Josie Robertson Investigator. C.C. is a recipient of the Conquer Cancer Foundation Young Investigator Award and the Prostate Cancer Foundation Young Investigator Award. K.S. is a recipient of the Defense Early Investigator Research Award (W81XWH-18-1-0330), Prostate Cancer Foundation Young Investigator Award and the Prostate Cancer Foundation Challenge Award. C.L., M.G. and L.M. are supported by funds from the Intramural Research Program of the National Cancer Institute, National Institutes of Health. Work performed at Memorial Sloan Kettering Cancer Center was supported in part by the Cancer Center Support Grant (P30 CA008748). N.G.’s work was supported in part by the Tissue Core and Genomic Core Facilities at the H. Lee Moffitt Cancer Center &amp; Research Institute, an NCI-designated Comprehensive Cancer Center (P30 CA076292). The University of Cambridge has received salary support in respect of PDPP from the NHS in the East of England through the Clinical Academic Reserve.</p>
+        <p id="P58">The authors declare the following competing interests: K.L.B. has received research funding from GRAIL. C.C.C. has received honoraria from AbbVie, Loxo, H3 Biomedicine, Medscape, Octapharma, and Pharmacyclics; has served as a consultant for AbbVie, Covance, Cowen &amp; Co., and Dedham Group and has received institutional research funding from AROG, Gilead, Loxo, H3 Biomedicine, and Incyte. Z.S. has an immediate family member who holds consulting/advisory roles within the field of ophthalmology with Allergan, Adverum Biotechnologies, Alimera Sciences, Biomarin, Fortress Biotech, Genentech, Novartis, Optos, Regeneron, Regenxbio, and Spark Therapeutics. E.B. receives research funding from Celgene. D.G. is a consultant of MNM Diagnostics and has received honoraria for speaking and scientific advisory engagements with Celgene, Prime Oncology, Novartis, Illumina and Kyowa Hakko Kirin. S.L. is an employee of GRAIL. M.E.R. holds an uncompensated advisory role with AstraZeneca, Daiichi-Sankyo, Merck, and Pfizer and receives institutional research funding from AstraZeneca, AbbVie, Medivation, and Pfizer. B.L.E. has received research funding from Celgene and Deerfield. T.D. is the Chief Medical Officer, ArcherDX, Inc. and receives salary from and holds an ownership stake in the company. K.T. receives consultancy fees from Symbio Pharmaceuticals. D.M.H. has consulted for Fount, Chugai, Boehringer Ingelheim, AstraZeneca, Pfizer, Bayer, and Genentech/Roche; has equity in Fount; and has received research grants from Loxo, Bayer, Puma, and AstraZeneca. J.B. is an employee of AstraZeneca; is on the Board of Directors of Foghorn and is a past board member of Varian Medical Systems, Bristol‐Myers Squibb, Grail, Aura Biosciences and Infinity Pharmaceuticals; has performed consulting and/or advisory work for Grail, PMV Pharma, ApoGen, Juno, Eli Lilly, Seragon, Novartis, and Northern Biologics; has stock or other ownership interests in PMV Pharma, Grail, Juno, Varian, Foghorn, Aura, Infinity Pharmaceuticals, ApoGen, Northern Biologics as well as Tango and Venthera, for which is a co‐founder; and has previously received honoraria or travel expenses from Roche, Novartis, and Eli Lilly. M. Ladanyi serves on the advisory boards for Astra-Zeneca, Bristol Myers Squibb, Takeda, Bayer, and Merck, and has received research support from Loxo Oncology and Helsinn Therapeutics. D.B.S. has served as a consultant or received honoraria from Pfizer, Loxo Oncology, Lilly Oncology, Illumina and Vivideon Therapeutics. M.F.B. is on the advisory board for Roche and receives research support from Illumina. M.S.T. receives research funding from AbbVie, Cellerant, Orsenix, ADC Therapeutics, and Biosight; serves on the advisory boards of Daiichi-Sankyo, KAHR, Rigel, Nohla, Delta Fly Pharma, Tetraphase, Oncolyze, and Jazz Pharma; has received royalties from UpToDate; and has received research funding from Incyte, Kura Oncology, and Celgene. L.A.D. is a member of the board of directors of Personal Genome Diagnostics (PGDx) and Jounce Therapeutics; is a paid consultant to PGDx and Neophore; is an uncompensated consultant for Merck (with the exception of travel and research support for clinical trials); is an inventor of multiple licensed patents related to technology for circulating tumor DNA analyses and mismatch repair deficiency for diagnosis and therapy from Johns Hopkins University, some of which are associated with equity or royalty payments directly to Johns Hopkins and L.A.D.; and holds equity in PGDx, Jounce Therapeutics, Thrive Earlier Detection and Neophore; his wife holds equity in Amgen. The terms of all these arrangements are being managed by Johns Hopkins and Memorial Sloan Kettering in accordance with their conflict of interest policies. R.L.L. is on the supervisory board of Qiagen and is a scientific advisor to Loxo, Imago, C4 Therapeutics and Isoplexis, which include equity interest; receives research support from and has consulted for Celgene and Roche and has consulted for Lilly, Janssen, Astellas, Morphosys and Novartis; and has received honoraria from Roche, Lilly and Amgen for invited lectures and from Gilead for grant reviews. A.Z. received honoraria from Illumina. E. Papaemmanuil receives research funding from Celgene and is a co-founder in Isabl Technologies, a software analytics company for high-throughput clinical whole-genome and RNA-sequencing analyses.</p>
+      </ack>
+      <fn-group>
+        <fn id="FN3">
+          <p id="P59">CODE AVAILABILITY</p>
+          <p id="P60">The code to replicate the findings in the article are publicly available, except those shown in <xref rid="F9" ref-type="fig">Extended Data Figure 5</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 12</xref>, on Github: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/papaemmelab/bolton_NG_CH">https://github.com/papaemmelab/bolton_NG_CH</ext-link>. The code used to generate the excepted figures are not included because the data cannot be shared (see above).</p>
+        </fn>
+        <fn id="FN4">
+          <p id="P61">DATA AVAILABILITY</p>
+          <p id="P62">The minimal clinical and mutational data necessary to replicate the findings in the article, except those shown in <xref rid="F9" ref-type="fig">Extended Data Figure 5</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 12</xref>, are publicly available on Github: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/papaemmelab/bolton_NG_CH">https://github.com/papaemmelab/bolton_NG_CH</ext-link>. Data for the excepted figures (individual drug names and start and stop dates, and combinations of mutations at tMN diagnosis, respectively) cannot be made public to preserve patient anonymity. Raw sequencing data cannot be publicly deposited for legal and privacy reasons, as sequencing was performed for clinical purposes. Mutation calls are available on cBioPortal: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/study/summary?id=msk_ch_2020">http://www.cbioportal.org/study/summary?id=msk_ch_2020</ext-link></p>
+        </fn>
+        <fn fn-type="COI-statement" id="FN5">
+          <p id="P63">COMPETING INTEREST DECLARATION</p>
+          <p id="P64">The remaining authors declare no competing interests.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="R1">
+          <label>1.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Armitage</surname><given-names>P</given-names></name> &amp; <name name-style="western"><surname>Doll</surname><given-names>R</given-names></name><article-title>The Age Distribution of Cancer and a Multi-stage Theory of Carcinogenesis</article-title>. <source>British Journal of Cancer</source> vol. <volume>8</volume><fpage>1</fpage>–<lpage>12</lpage> (<year>1954</year>).<pub-id pub-id-type="pmid">13172380</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.1954.1</pub-id><pub-id pub-id-type="pmcid">PMC2007940</pub-id></mixed-citation>
+        </ref>
+        <ref id="R2">
+          <label>2.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Greaves</surname><given-names>M</given-names></name> &amp; <name name-style="western"><surname>Maley</surname><given-names>CC</given-names></name><article-title>Clonal evolution in cancer</article-title>. <source>Nature</source><volume>481</volume>, <fpage>306</fpage>–<lpage>313</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22258609</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10762</pub-id><pub-id pub-id-type="pmcid">PMC3367003</pub-id></mixed-citation>
+        </ref>
+        <ref id="R3">
+          <label>3.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Alexandrov</surname><given-names>LB</given-names></name><etal/><source>The Repertoire of Mutational Signatures in Human Cancer</source>. doi:<pub-id pub-id-type="doi">10.1101/322859</pub-id><comment>.</comment><pub-id pub-id-type="pmcid">PMC7054213</pub-id><pub-id pub-id-type="pmid">32025018</pub-id></mixed-citation>
+        </ref>
+        <ref id="R4">
+          <label>4.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Sabarinathan</surname><given-names>R</given-names></name><etal/><source>The whole-genome panorama of cancer drivers</source>. doi:<pub-id pub-id-type="doi">10.1101/190330</pub-id><comment>.</comment></mixed-citation>
+        </ref>
+        <ref id="R5">
+          <label>5.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Yates</surname><given-names>LR</given-names></name> &amp; <name name-style="western"><surname>Campbell</surname><given-names>PJ</given-names></name><article-title>Evolution of the cancer genome</article-title>. <source>Nature Reviews Genetics</source> vol. <volume>13</volume><fpage>795</fpage>–<lpage>806</lpage> (<year>2012</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg3317</pub-id><pub-id pub-id-type="pmcid">PMC3666082</pub-id><pub-id pub-id-type="pmid">23044827</pub-id></mixed-citation>
+        </ref>
+        <ref id="R6">
+          <label>6.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ding</surname><given-names>L</given-names></name><etal/><article-title>Clonal evolution in relapsed acute myeloid leukaemia revealed by whole-genome sequencing</article-title>. <source>Nature</source><volume>481</volume>, <fpage>506</fpage>–<lpage>510</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22237025</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10738</pub-id><pub-id pub-id-type="pmcid">PMC3267864</pub-id></mixed-citation>
+        </ref>
+        <ref id="R7">
+          <label>7.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Blokzijl</surname><given-names>F</given-names></name><etal/><article-title>Tissue-specific mutation accumulation in human adult stem cells during life</article-title>. <source>Nature</source><volume>538</volume>, <fpage>260</fpage>–<lpage>264</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27698416</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature19768</pub-id><pub-id pub-id-type="pmcid">PMC5536223</pub-id></mixed-citation>
+        </ref>
+        <ref id="R8">
+          <label>8.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Martincorena</surname><given-names>I</given-names></name><etal/><article-title>Somatic mutant clones colonize the human esophagus with age</article-title>. <source>Science</source><volume>362</volume>, <fpage>911</fpage>–<lpage>917</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30337457</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aau3879</pub-id><pub-id pub-id-type="pmcid">PMC6298579</pub-id></mixed-citation>
+        </ref>
+        <ref id="R9">
+          <label>9.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Martincorena</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>PH</given-names></name> &amp; <name name-style="western"><surname>Campbell</surname><given-names>PJ</given-names></name><article-title>Constrained positive selection on cancer mutations in normal skin</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source> vol. <volume>113</volume> E1128–9 (<year>2016</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1600910113</pub-id><pub-id pub-id-type="pmcid">PMC4780655</pub-id><pub-id pub-id-type="pmid">26884187</pub-id></mixed-citation>
+        </ref>
+        <ref id="R10">
+          <label>10.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Martincorena</surname><given-names>I</given-names></name><etal/><article-title>Tumor evolution. High burden and pervasive positive selection of somatic mutations in normal human skin</article-title>. <source>Science</source><volume>348</volume>, <fpage>880</fpage>–<lpage>886</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25999502</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aaa6806</pub-id><pub-id pub-id-type="pmcid">PMC4471149</pub-id></mixed-citation>
+        </ref>
+        <ref id="R11">
+          <label>11.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Yokoyama</surname><given-names>A</given-names></name><etal/><article-title>Age-related remodelling of oesophageal epithelia by mutated cancer drivers</article-title>. <source>Nature</source><volume>565</volume>, <fpage>312</fpage>–<lpage>317</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30602793</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0811-x</pub-id></mixed-citation>
+        </ref>
+        <ref id="R12">
+          <label>12.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Suda</surname><given-names>K</given-names></name><etal/><article-title>Clonal Expansion and Diversification of Cancer-Associated Mutations in Endometriosis and Normal Endometrium</article-title>. <source>Cell Reports</source> vol. <volume>24</volume><fpage>1777</fpage>–<lpage>1789</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30110635</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2018.07.037</pub-id></mixed-citation>
+        </ref>
+        <ref id="R13">
+          <label>13.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jaiswal</surname><given-names>S</given-names></name><etal/><article-title>Age-related clonal hematopoiesis associated with adverse outcomes</article-title>. <source>N. Engl. J. Med</source>. <volume>371</volume>, <fpage>2488</fpage>–<lpage>2498</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25426837</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1408617</pub-id><pub-id pub-id-type="pmcid">PMC4306669</pub-id></mixed-citation>
+        </ref>
+        <ref id="R14">
+          <label>14.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Genovese</surname><given-names>G</given-names></name><etal/><article-title>Clonal hematopoiesis and blood-cancer risk inferred from blood DNA sequence</article-title>. <source>N. Engl. J. Med</source>. <volume>371</volume>, <fpage>2477</fpage>–<lpage>2487</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25426838</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1409405</pub-id><pub-id pub-id-type="pmcid">PMC4290021</pub-id></mixed-citation>
+        </ref>
+        <ref id="R15">
+          <label>15.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McKerrell</surname><given-names>T</given-names></name><etal/><article-title>Leukemia-Associated Somatic Mutations Drive Distinct Patterns of Age-Related Clonal Hemopoiesis</article-title>. <source>Cell Reports</source> vol. <volume>10</volume><fpage>1239</fpage>–<lpage>1245</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25732814</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2015.02.005</pub-id><pub-id pub-id-type="pmcid">PMC4542313</pub-id></mixed-citation>
+        </ref>
+        <ref id="R16">
+          <label>16.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Xie</surname><given-names>M</given-names></name><etal/><article-title>Age-related mutations associated with clonal hematopoietic expansion and malignancies</article-title>. <source>Nature Medicine</source> vol. <volume>20</volume><fpage>1472</fpage>–<lpage>1478</lpage> (<year>2014</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3733</pub-id><pub-id pub-id-type="pmcid">PMC4313872</pub-id><pub-id pub-id-type="pmid">25326804</pub-id></mixed-citation>
+        </ref>
+        <ref id="R17">
+          <label>17.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Fernandez-Antoran</surname><given-names>D</given-names></name><etal/><article-title>Outcompeting p53-Mutant Cells in the Normal Esophagus by Redox Manipulation</article-title>. <source>Cell Stem Cell</source><volume>25</volume>, 329–341.e6 (<year>2019</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.stem.2019.06.011</pub-id><pub-id pub-id-type="pmcid">PMC6739485</pub-id><pub-id pub-id-type="pmid">31327664</pub-id></mixed-citation>
+        </ref>
+        <ref id="R18">
+          <label>18.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hsu</surname><given-names>JI</given-names></name><etal/><article-title>PPM1D Mutations Drive Clonal Hematopoiesis in Response to Cytotoxic Chemotherapy</article-title>. <source>Cell Stem Cell</source><volume>23</volume>, 700–713.e6 (<year>2018</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.stem.2018.10.004</pub-id><pub-id pub-id-type="pmcid">PMC6224657</pub-id><pub-id pub-id-type="pmid">30388424</pub-id></mixed-citation>
+        </ref>
+        <ref id="R19">
+          <label>19.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wong</surname><given-names>TN</given-names></name><etal/><article-title>Role of TP53 mutations in the origin and evolution of therapy-related acute myeloid leukaemia</article-title>. <source>Nature</source><volume>518</volume>, <fpage>552</fpage>–<lpage>555</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25487151</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13968</pub-id><pub-id pub-id-type="pmcid">PMC4403236</pub-id></mixed-citation>
+        </ref>
+        <ref id="R20">
+          <label>20.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Abelson</surname><given-names>S</given-names></name><etal/><article-title>Prediction of acute myeloid leukaemia risk in healthy individuals</article-title>. <source>Nature</source><volume>559</volume>, <fpage>400</fpage>–<lpage>404</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29988082</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0317-6</pub-id><pub-id pub-id-type="pmcid">PMC6485381</pub-id></mixed-citation>
+        </ref>
+        <ref id="R21">
+          <label>21.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Desai</surname><given-names>P</given-names></name><etal/><source>Somatic Mutations Predict Acute Myeloid Leukemia Years Before Diagnosis</source>. doi:<pub-id pub-id-type="doi">10.1101/237941</pub-id><comment>.</comment><pub-id pub-id-type="pmcid">PMC6849383</pub-id><pub-id pub-id-type="pmid">29988143</pub-id></mixed-citation>
+        </ref>
+        <ref id="R22">
+          <label>22.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Morton</surname><given-names>LM</given-names></name><etal/><article-title>Evolving risk of therapy-related acute myeloid leukemia following cancer chemotherapy among adults in the United States, 1975–2008</article-title>. <source>Blood</source><volume>121</volume>, <fpage>2996</fpage>–<lpage>3004</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23412096</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2012-08-448068</pub-id><pub-id pub-id-type="pmcid">PMC3624944</pub-id></mixed-citation>
+        </ref>
+        <ref id="R23">
+          <label>23.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McNerney</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Godley</surname><given-names>LA</given-names></name> &amp; <name name-style="western"><surname>Le Beau</surname><given-names>MM</given-names></name><article-title>Therapy-related myeloid neoplasms: when genetics and environment collide</article-title>. <source>Nature Reviews Cancer</source> vol. <volume>17</volume><fpage>513</fpage>–<lpage>527</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28835720</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc.2017.60</pub-id><pub-id pub-id-type="pmcid">PMC5946699</pub-id></mixed-citation>
+        </ref>
+        <ref id="R24">
+          <label>24.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Coombs</surname><given-names>CC</given-names></name><etal/><article-title>Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes</article-title>. <source>Cell Stem Cell</source><volume>21</volume>, 374–382.e4 (<year>2017</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.stem.2017.07.010</pub-id><pub-id pub-id-type="pmcid">PMC5591073</pub-id><pub-id pub-id-type="pmid">28803919</pub-id></mixed-citation>
+        </ref>
+        <ref id="R25">
+          <label>25.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chakravarty</surname><given-names>D</given-names></name><etal/><article-title>OncoKB: A Precision Oncology Knowledge Base</article-title>. <source>JCO Precis Oncol 2017</source>, (<year>2017</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id><pub-id pub-id-type="pmid">28890946</pub-id></mixed-citation>
+        </ref>
+        <ref id="R26">
+          <label>26.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Papaemmanuil</surname><given-names>E</given-names></name><etal/><article-title>Somatic SF3B1 mutation in myelodysplasia with ring sideroblasts</article-title>. <source>N. Engl. J. Med</source>. <volume>365</volume>, <fpage>1384</fpage>–<lpage>1395</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21995386</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1103283</pub-id><pub-id pub-id-type="pmcid">PMC3322589</pub-id></mixed-citation>
+        </ref>
+        <ref id="R27">
+          <label>27.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Papaemmanuil</surname><given-names>E</given-names></name><etal/><article-title>Genomic Classification and Prognosis in Acute Myeloid Leukemia</article-title>. <source>N. Engl. J. Med</source>. <volume>374</volume>, <fpage>2209</fpage>–<lpage>2221</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27276561</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1516192</pub-id><pub-id pub-id-type="pmcid">PMC4979995</pub-id></mixed-citation>
+        </ref>
+        <ref id="R28">
+          <label>28.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Grinfeld</surname><given-names>J</given-names></name><etal/><article-title>Classification and Personalized Prognosis in Myeloproliferative Neoplasms</article-title>. <source>N. Engl. J. Med</source>. <volume>379</volume>, <fpage>1416</fpage>–<lpage>1430</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30304655</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1716614</pub-id><pub-id pub-id-type="pmcid">PMC7030948</pub-id></mixed-citation>
+        </ref>
+        <ref id="R29">
+          <label>29.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bick</surname><given-names>AG</given-names></name><etal/><article-title>Inherited Causes of Clonal Hematopoiesis of Indeterminate Potential in TOPMed Whole Genomes</article-title>. <source>bioRxiv</source> 782748 (<year>2019</year>) doi:<pub-id pub-id-type="doi">10.1101/782748</pub-id><comment>.</comment></mixed-citation>
+        </ref>
+        <ref id="R30">
+          <label>30.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Abelson</surname><given-names>S</given-names></name><etal/><article-title>Prediction of acute myeloid leukaemia risk in healthy individuals</article-title>. <source>Nature</source><volume>559</volume>, <fpage>400</fpage>–<lpage>404</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29988082</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0317-6</pub-id><pub-id pub-id-type="pmcid">PMC6485381</pub-id></mixed-citation>
+        </ref>
+        <ref id="R31">
+          <label>31.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McNerney</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Godley</surname><given-names>LA</given-names></name> &amp; <name name-style="western"><surname>Le Beau</surname><given-names>MM</given-names></name><article-title>Therapy-related myeloid neoplasms: when genetics and environment collide</article-title>. <source>Nature Reviews Cancer</source> vol. <volume>17</volume><fpage>513</fpage>–<lpage>527</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28835720</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc.2017.60</pub-id><pub-id pub-id-type="pmcid">PMC5946699</pub-id></mixed-citation>
+        </ref>
+        <ref id="R32">
+          <label>32.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lindsley</surname><given-names>RC</given-names></name><etal/><article-title>Acute myeloid leukemia ontogeny is defined by distinct somatic mutations</article-title>. <source>Blood</source><volume>125</volume>, <fpage>1367</fpage>–<lpage>1376</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25550361</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2014-11-610543</pub-id><pub-id pub-id-type="pmcid">PMC4342352</pub-id></mixed-citation>
+        </ref>
+        <ref id="R33">
+          <label>33.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Welch</surname><given-names>JS</given-names></name><etal/><article-title>The origin and evolution of mutations in acute myeloid leukemia</article-title>. <source>Cell</source><volume>150</volume>, <fpage>264</fpage>–<lpage>278</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22817890</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.06.023</pub-id><pub-id pub-id-type="pmcid">PMC3407563</pub-id></mixed-citation>
+        </ref>
+        <ref id="R34">
+          <label>34.</label>
+          <mixed-citation publication-type="journal"><collab>Cancer Genome Atlas Research Network</collab><etal/><article-title>Genomic and epigenomic landscapes of adult de novo acute myeloid leukemia</article-title>. <source>N. Engl. J. Med</source>. <volume>368</volume>, <fpage>2059</fpage>–<lpage>2074</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23634996</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1301689</pub-id><pub-id pub-id-type="pmcid">PMC3767041</pub-id></mixed-citation>
+        </ref>
+        <ref id="R35">
+          <label>35.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gillis</surname><given-names>NK</given-names></name><etal/><article-title>Clonal haemopoiesis and therapy-related myeloid malignancies in elderly patients: a proof-of-concept, case-control study</article-title>. <source>Lancet Oncol</source>. <volume>18</volume>, <fpage>112</fpage>–<lpage>121</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">27927582</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(16)30627-1</pub-id><pub-id pub-id-type="pmcid">PMC7771361</pub-id></mixed-citation>
+        </ref>
+        <ref id="R36">
+          <label>36.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Takahashi</surname><given-names>K</given-names></name><article-title>Germline polymorphisms and the risk of therapy-related myeloid neoplasms</article-title>. <source>Best Pract. Res. Clin. Haematol</source>. <volume>32</volume>, <fpage>24</fpage>–<lpage>30</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30927971</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.beha.2019.02.005</pub-id></mixed-citation>
+        </ref>
+        <ref id="R37">
+          <label>37.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Gibson</surname><given-names>CJ</given-names></name><etal/><article-title>Clonal Hematopoiesis Associated With Adverse Outcomes After Autologous Stem-Cell Transplantation for Lymphoma</article-title>. <source>J. Clin. Oncol</source>. <volume>35</volume>, <fpage>1598</fpage>–<lpage>1605</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28068180</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2016.71.6712</pub-id><pub-id pub-id-type="pmcid">PMC5455707</pub-id></mixed-citation>
+        </ref>
+        <ref id="R38">
+          <label>38.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Young</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Tong</surname><given-names>RS</given-names></name>, <name name-style="western"><surname>Birmann</surname><given-names>BM</given-names></name> &amp; <name name-style="western"><surname>Druley</surname><given-names>TE</given-names></name><article-title>Clonal haematopoiesis and risk of acute myeloid leukemia</article-title>. <source>Haematologica</source> (<year>2019</year>) doi:<pub-id pub-id-type="doi">10.3324/haematol.2018.215269</pub-id><comment>.</comment><pub-id pub-id-type="pmcid">PMC6959179</pub-id><pub-id pub-id-type="pmid">31004019</pub-id></mixed-citation>
+        </ref>
+        <ref id="R39">
+          <label>39.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Fianchi</surname><given-names>L</given-names></name><etal/><article-title>Characteristics and outcome of therapy-related myeloid neoplasms: Report from the Italian network on secondary leukemias</article-title>. <source>Am. J. Hematol</source>. <volume>90</volume>, <fpage>E80</fpage>–<lpage>5</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25653205</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajh.23966</pub-id></mixed-citation>
+        </ref>
+        <ref id="R40">
+          <label>40.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Choudhury</surname><given-names>PP</given-names></name><etal/><source>iCARE: R package to build, validate and apply absolute risk models</source>. doi:<pub-id pub-id-type="doi">10.1101/079954</pub-id><comment>.</comment><pub-id pub-id-type="pmcid">PMC7001949</pub-id><pub-id pub-id-type="pmid">32023287</pub-id></mixed-citation>
+        </ref>
+        <ref id="R41">
+          <label>41.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Maas</surname><given-names>P</given-names></name><etal/><article-title>Breast Cancer Risk From Modifiable and Nonmodifiable Risk Factors Among White Women in the United States</article-title>. <source>JAMA Oncol</source><volume>2</volume>, <fpage>1295</fpage>–<lpage>1302</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27228256</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2016.1025</pub-id><pub-id pub-id-type="pmcid">PMC5719876</pub-id></mixed-citation>
+        </ref>
+        <ref id="R42">
+          <label>42.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Candido Dos Reis</surname><given-names>FJ</given-names></name><etal/><article-title>An updated PREDICT breast cancer prognostication and treatment benefit prediction model with independent validation</article-title>. <source>Breast Cancer Res</source>. <volume>19</volume>, <fpage>58</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28532503</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13058-017-0852-3</pub-id><pub-id pub-id-type="pmcid">PMC5440946</pub-id></mixed-citation>
+        </ref>
+        <ref id="R43">
+          <label>43.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Meng</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Van Zant</surname><given-names>G</given-names></name> &amp; <name name-style="western"><surname>Zhou</surname><given-names>D</given-names></name><article-title>Ionizing radiation and busulfan induce premature senescence in murine bone marrow hematopoietic cells</article-title>. <source>Cancer Res</source>. <volume>63</volume>, <fpage>5414</fpage>–<lpage>5419</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14500376</pub-id></mixed-citation>
+        </ref>
+        <ref id="R44">
+          <label>44.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hu</surname><given-names>W</given-names></name><etal/><article-title>Mechanistic Investigation of Bone Marrow Suppression Associated with Palbociclib and its Differentiation from Cytotoxic Chemotherapies</article-title>. <source>Clin. Cancer Res</source>. <volume>22</volume>, <fpage>2000</fpage>–<lpage>2008</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26631614</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-15-1421</pub-id></mixed-citation>
+        </ref>
+        <ref id="R45">
+          <label>45.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Meisel</surname><given-names>M</given-names></name><etal/><article-title>Microbial signals drive pre-leukaemic myeloproliferation in a Tet2-deficient host</article-title>. <source>Nature</source><volume>557</volume>, <fpage>580</fpage>–<lpage>584</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29769727</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0125-z</pub-id><pub-id pub-id-type="pmcid">PMC6238954</pub-id></mixed-citation>
+        </ref>
+        <ref id="R46">
+          <label>46.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zhu</surname><given-names>M</given-names></name><etal/><article-title>Somatic Mutations Increase Hepatic Clonal Fitness and Regeneration in Chronic Liver Disease</article-title>. <source>Cell</source><volume>177</volume>, 608–621.e12 (<year>2019</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2019.03.026</pub-id><pub-id pub-id-type="pmcid">PMC6519461</pub-id><pub-id pub-id-type="pmid">30955891</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+      <ref-list>
+        <title>METHODS-ONLY REFERENCES</title>
+        <ref id="R47">
+          <label>47.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cheng</surname><given-names>DT</given-names></name><etal/><article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): A Hybridization Capture-Based Next-Generation Sequencing Clinical Assay for Solid Tumor Molecular Oncology</article-title>. <source>J. Mol. Diagn</source>. <volume>17</volume>, <fpage>251</fpage>–<lpage>264</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25801821</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2014.12.006</pub-id><pub-id pub-id-type="pmcid">PMC5808190</pub-id></mixed-citation>
+        </ref>
+        <ref id="R48">
+          <label>48.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Schmieder</surname><given-names>R</given-names></name> &amp; <name name-style="western"><surname>Edwards</surname><given-names>R</given-names></name><article-title>Quality control and preprocessing of metagenomic datasets</article-title>. <source>Bioinformatics</source><volume>27</volume>, <fpage>863</fpage>–<lpage>864</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21278185</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr026</pub-id><pub-id pub-id-type="pmcid">PMC3051327</pub-id></mixed-citation>
+        </ref>
+        <ref id="R49">
+          <label>49.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Tate</surname><given-names>JG</given-names></name><etal/><article-title>COSMIC: the Catalogue Of Somatic Mutations In Cancer</article-title>. <source>Nucleic Acids Res</source>. <volume>47</volume>, <fpage>D941</fpage>–<lpage>D947</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30371878</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gky1015</pub-id><pub-id pub-id-type="pmcid">PMC6323903</pub-id></mixed-citation>
+        </ref>
+        <ref id="R50">
+          <label>50.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Papaemmanuil</surname><given-names>E</given-names></name><etal/><article-title>Identification of Novel Somatic Mutations in SF3B1, a Gene Encoding a Core Component of RNA Splicing Machinery, in Myelodysplasia with Ring Sideroblasts and Other Common Cancers</article-title>. <source>European Journal of Cancer</source> vol. <volume>47</volume><issue>7</issue> (<year>2011</year>).</mixed-citation>
+        </ref>
+        <ref id="R51">
+          <label>51.</label>
+          <mixed-citation publication-type="book"><name name-style="western"><surname>Campo</surname><given-names>E</given-names></name><etal/><source>WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues</source>. (<publisher-name>IARC Who Classification of Tum</publisher-name>, <year>2017</year>).</mixed-citation>
+        </ref>
+        <ref id="R52">
+          <label>52.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wolff</surname><given-names>AC</given-names></name><etal/><article-title>Risk of marrow neoplasms after adjuvant breast cancer therapy: the national comprehensive cancer network experience</article-title>. <source>J. Clin. Oncol</source>. <volume>33</volume>, <fpage>340</fpage>–<lpage>348</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25534386</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2013.54.6119</pub-id><pub-id pub-id-type="pmcid">PMC4302215</pub-id></mixed-citation>
+        </ref>
+        <ref id="R53">
+          <label>53.</label>
+          <mixed-citation publication-type="book"><collab>Website. Surveillance, Epidemiology, and End Results (SEER) Program Populations (1969–2017)</collab><source>(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.seer.cancer.gov/popdata">www.seer.cancer.gov/popdata</ext-link>), National Cancer Institute, DCCPS</source>, <publisher-name>Surveillance Research Program</publisher-name>, released December 2018.</mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1.</label>
+        <caption>
+          <title>Specific molecular subtypes of CH-PD correlate with age, prior therapy exposure and smoking history.</title>
+          <p id="P65">(A) Proportion of patients with CH-PD mutations in specific genes among treated and untreated patients. Multivariable logistic regression was used to test whether the odds of having a specific gene mutated differed between treated (n=5,978) and untreated (n=4,160) patients after adjustment for age, gender, smoking and ethnicity. * p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001 (B) Among patients with CH-PD, the proportion with mutations in specific genes, by age group and treatment status. (C) Odds ratio with 95% confidence interval for CH-PD mutation in the ten most commonly mutated genes with top, increasing age (n=10,138); middle, for patients previously exposed to cancer therapy (n=5,978) compared to those with no exposure (n=4160); bottom, for current/former smokers (n=4,989) compared to non-smokers (n=5,145) in multivariable logistic regression models adjusted for therapy, smoking, ethnicity, age, gender and time from diagnosis to blood draw. *, q-value (FDR-corrected p-value) &lt;0.05, ** q&lt;0.01, *** q&lt;0.001. Age is expressed as the mean centered values.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0001.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2.</label>
+        <caption>
+          <title>Association between CH-PD and prior exposure to cancer therapy.</title>
+          <p id="P66">(A) Odds ratios (OR) and 95% confidence intervals for CH-PD and specific classes of cancer therapy in multivariable logistic regression adjusted for each other, smoking, ethnicity, gender and time from diagnosis to blood draw. Top, OR for broad classes of cancer therapy; middle. OR between CH-PD and prior exposure to subclasses of cytotoxic therapy; bottom, OR between CH-PD and exposure to specific platinum-based drugs. (B) OR between prior receipt of cancer therapy and CH-PD stratified by tertile of cumulative exposure for the agent. Multivariable logistic regression was used adjusted as in (A) but with cumulative weight-adjusted dose of systemic therapy classes and cumulative radiation dose (as expressed in EQD<sub>2</sub>. The p-trend was calculated to test for association between CH and increasing tertiles of cumulative cancer therapy exposure among those who received the therapy in the multivariable model. Shaded bands indicate 95% confidence intervals. (C) Heatmap showing the log(OR) between CH-PD in specific genes and prior exposure to the major classes of cytotoxic therapy and radiation therapy in logistic regression models adjusted for therapy subclass, smoking, ethnicity, gender and time from diagnosis to blood draw. * q (FDR-corrected p-value) &lt;0.05, ** q&lt;0.01, *** q&lt;0.001.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0002.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3.</label>
+        <caption>
+          <title>Clonal evolution of CH mutations under the selective pressure of cancer therapy.</title>
+          <p id="P67">(A) Change in VAF for CH mutations from initial to follow-up sequencing for patients stratified by type of therapy received during the follow-up period. XRT, external beam radiation. (B) Change in growth rate for DDR and non-DDR CH mutations among those who received XRT (n=167) or cytotoxic therapy (n=285) during the follow-up period. Shown are the p-values generated from t-tests comparing the growth rate of CH mutations among patients exposed to either of these therapies compared to untreated patients. (C) Change in growth rate for specific CH mutations stratified by whether patients received cytotoxic or radiation therapy (n=268) or no therapy (n=177) during the follow-up period. Shown are the FDR-corrected p-values (q-value) from a t-test comparing the growth rate of mutations in treated and untreated patients. (D) Change in growth rate for DDR and non-DDR CH mutations stratified by tertile of cumulative exposure to cytotoxic therapy and XRT. Shown are the p-values for a trend test for increasing growth rate of CH with increasing tertile of therapy exposure using generalized linear regression adjusted for age, gender and smoking. Shaded bands indicate interquartile ranges. Intra-subject competition between DDR and non-DDR CH mutations. Connecting lines show the difference in growth rate between DDR vs. other genes in patients who received XRT or cytotoxic therapy vs. those who did not receive such therapy during the follow-up period. A paired t-test was used to test for significance in the difference between growth rates of DDR and non-DDR CH mutations within individuals. All p-values are two-sided.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0003.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4.</label>
+        <caption>
+          <title>Risk of AML or MDS by clinical and CH-PD mutational characteristics in patients with solid tumors.</title>
+          <p id="P68">(A) Hazard ratio and 95% confidence intervals from Cox regression for blood count indexes, and CH-PD mutational characteristics for therapy-related myeloid neoplasms (tMN; AML or MDS, n=75). All models were adjusted for age and gender and stratified by study center. Blood counts are expressed as the mean centered score (the OR is per 1 SD of the blood count). * p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001. (B) Projected distribution of absolute 10-year risk of AML or MDS for women after a breast cancer diagnosis in the United States aged 50–75 at presentation based on our synthetic model. (C) Comparison of distribution of absolute 10-year risk of AML or MDS among women at the top percentiles of risk between those who go on to receive adjuvant cytotoxic chemotherapy and those who receive surgery only. n=9,437.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1626060-f0004.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

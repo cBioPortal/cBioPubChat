@@ -1,0 +1,1725 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">NPJ Breast Cancer</journal-id>
+        <journal-id journal-id-type="iso-abbrev">NPJ Breast Cancer</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">3134</journal-id>
+        <journal-id journal-id-type="pmc-domain">npjbcancer</journal-id>
+        <journal-title-group>
+          <journal-title>NPJ Breast Cancer</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2374-4677</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8052452</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8052452.1</article-id>
+        <article-id pub-id-type="pmcaid">8052452</article-id>
+        <article-id pub-id-type="pmcaiid">8052452</article-id>
+        <article-id pub-id-type="pmid">33863915</article-id>
+        <article-id pub-id-type="doi">10.1038/s41523-021-00250-8</article-id>
+        <article-id pub-id-type="publisher-id">250</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title><italic toggle="yes">TERT</italic> promoter hotspot mutations and gene amplification in metaplastic breast cancer</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3281-7333</contrib-id>
+            <name name-style="western">
+              <surname>da Silva</surname>
+              <given-names initials="EM">Edaise M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Selenica</surname>
+              <given-names initials="P">Pier</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-9424-537X</contrib-id>
+            <name name-style="western">
+              <surname>Vahdatinia</surname>
+              <given-names initials="M">Mahsa</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3748-8049</contrib-id>
+            <name name-style="western">
+              <surname>Pareja</surname>
+              <given-names initials="F">Fresia</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Da Cruz Paula</surname>
+              <given-names initials="A">Arnaud</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4025-7930</contrib-id>
+            <name name-style="western">
+              <surname>Ferrando</surname>
+              <given-names initials="L">Lorenzo</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gazzo</surname>
+              <given-names initials="AM">Andrea M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0060-1861</contrib-id>
+            <name name-style="western">
+              <surname>Dopeso</surname>
+              <given-names initials="H">Higinio</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ross</surname>
+              <given-names initials="DS">Dara S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bakhteri</surname>
+              <given-names initials="A">Ariya</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9873-5862</contrib-id>
+            <name name-style="western">
+              <surname>Riaz</surname>
+              <given-names initials="N">Nadeem</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4532-8053</contrib-id>
+            <name name-style="western">
+              <surname>Chandarlapaty</surname>
+              <given-names initials="S">Sarat</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4236-0576</contrib-id>
+            <name name-style="western">
+              <surname>Razavi</surname>
+              <given-names initials="P">Pedram</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Norton</surname>
+              <given-names initials="L">Larry</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wen</surname>
+              <given-names initials="HY">Hannah Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4737-8468</contrib-id>
+            <name name-style="western">
+              <surname>Brogi</surname>
+              <given-names initials="E">Edi</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9927-1270</contrib-id>
+            <name name-style="western">
+              <surname>Weigelt</surname>
+              <given-names initials="B">Britta</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="H">Hong</given-names>
+            </name>
+            <address>
+              <email>zhangh3@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2969-3173</contrib-id>
+            <name name-style="western">
+              <surname>Reis-Filho</surname>
+              <given-names initials="JS">Jorge S.</given-names>
+            </name>
+            <address>
+              <email>reisfilj@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Surgery, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.5606.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 2151 3065</institution-id><institution>Department of Internal Medicine, </institution><institution>University of Genoa, </institution></institution-wrap>Genova, Italy </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Radiation Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>16</day>
+          <month>4</month>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2021</year>
+        </pub-date>
+        <volume>7</volume>
+        <issue-id pub-id-type="pmc-issue-id">372046</issue-id>
+        <elocation-id>43</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>6</day>
+            <month>10</month>
+            <year>2020</year>
+          </date>
+          <date date-type="accepted">
+            <day>15</day>
+            <month>3</month>
+            <year>2021</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>16</day>
+              <month>04</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>05</day>
+              <month>05</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-04-01 01:25:14.353">
+              <day>01</day>
+              <month>04</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2021</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41523_2021_Article_250.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Metaplastic breast cancers (MBCs) are characterized by complex genomes, which seem to vary according to their histologic subtype. <italic toggle="yes">TERT</italic> promoter hotspot mutations and gene amplification are rare in common forms of breast cancer, but present in a subset of phyllodes tumors. Here, we sought to determine the frequency of genetic alterations affecting <italic toggle="yes">TERT</italic> in a cohort of 60 MBCs with distinct predominant metaplastic components (squamous, 23%; spindle, 27%; osseous, 8%; chondroid, 42%), and to compare the repertoire of genetic alterations of MBCs according to the presence of <italic toggle="yes">TERT</italic> promoter hotspot mutations or gene amplification. Forty-four MBCs were subjected to: whole-exome sequencing (WES; <italic toggle="yes">n</italic> = 27) or targeted sequencing of 341-468 cancer-related genes (<italic toggle="yes">n</italic> = 17); 16 MBCs were subjected to Sanger sequencing of the <italic toggle="yes">TERT</italic> promoter, <italic toggle="yes">TP53</italic> and selected exons of <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">HRAS</italic>, and <italic toggle="yes">BRAF</italic>. <italic toggle="yes">TERT</italic> promoter hotspot mutations (<italic toggle="yes">n</italic> = 9) and <italic toggle="yes">TERT</italic> gene amplification (<italic toggle="yes">n</italic> = 1) were found in 10 of the 60 MBCs analyzed, respectively. These <italic toggle="yes">TERT</italic> alterations were less frequently found in MBCs with predominant chondroid differentiation than in other MBC subtypes (<italic toggle="yes">p</italic> = 0.01, Fisher’s exact test) and were mutually exclusive with <italic toggle="yes">TP53</italic> mutations (<italic toggle="yes">p</italic> &lt; 0.001, CoMEt). In addition, a comparative analysis of the MBCs subjected to WES or targeted cancer gene sequencing (<italic toggle="yes">n</italic> = 44) revealed that MBCs harboring <italic toggle="yes">TERT</italic> promoter hotspot mutations or gene amplification (<italic toggle="yes">n</italic> = 6) more frequently harbored <italic toggle="yes">PIK3CA</italic> than <italic toggle="yes">TERT</italic> wild-type MBCs (<italic toggle="yes">n</italic> = 38; <italic toggle="yes">p</italic> = 0.001; Fisher’s exact test). In conclusion, <italic toggle="yes">TERT</italic> somatic genetic alterations are found in a subset of <italic toggle="yes">TP53</italic> wild-type MBCs with squamous/spindle differentiation, highlighting the genetic diversity of these cancers.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Cancer genomics</kwd>
+          <kwd>Cancer genetics</kwd>
+          <kwd>Breast cancer</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000054</institution-id>
+                <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30CA008748</award-id>
+            <award-id>P50 CA247749 01</award-id>
+            <award-id>K12 CA184746</award-id>
+            <award-id>P50 CA247749 01</award-id>
+            <award-id>P50 CA247749 01</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Pareja</surname>
+                <given-names>Fresia</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weigelt</surname>
+                <given-names>Britta</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reis-Filho</surname>
+                <given-names>Jorge S.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100001006</institution-id>
+                <institution>Breast Cancer Research Foundation (BCRF)</institution>
+              </institution-wrap>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2021</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par2">Metaplastic breast cancer (MBC) is a rare (0.2–1%)<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>, aggressive histologic subtype of breast cancer, characterized histologically by neoplastic epithelium displaying differentiation towards squamous or mesenchymal elements, including spindle, chondroid, osseous, or rhabdoid cells. MBCs can present one (monophasic) or two or more (biphasic) components. These components can both display metaplastic histology or can be one metaplastic component and one adenocarcinoma component, which is most commonly in the form of invasive ductal carcinoma of no special type (IDC-NST). MBCs are most often of high histologic grade and display a triple-negative phenotype<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>.</p>
+        <p id="Par3">The histologic diversity of MBCs is associated with distinct genomic and transcriptomic profiles<sup><xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR12">12</xref></sup>. From a genetic standpoint, MBCs are shown to frequently harbor mutations affecting <italic toggle="yes">TP53</italic> and genes related to the PI3K/AKT/mTOR pathways. While <italic toggle="yes">TP53</italic> mutations are found to be less frequent in MBCs with prominent spindle cell component, <italic toggle="yes">PIK3CA</italic> mutations are vanishingly rare in MBCs with chondroid metaplasia<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. The transcriptomic features of MBCs also vary according to the predominant histologic component; for instance, MBCs with a predominant spindle cell component are preferentially classified as of claudin-low subtype, whereas MBCs with squamous or chondroid metaplasia are more frequently classified as of basal-like or even normal breast-like subtypes than as of claudin-low subtype<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>.</p>
+        <p id="Par4">Somatic <italic toggle="yes">TERT</italic> promoter mutations (C228T and C250T), associated with telomerase activation, have been reported at a relatively high frequency in human cancers (12% overall)<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> and are associated with disease progression and recurrences<sup><xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref></sup>. Although thought to be absent or extremely rare in common forms of breast cancer<sup><xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR20">20</xref></sup>, <italic toggle="yes">TERT</italic> promoter mutations and <italic toggle="yes">TERT</italic> gene amplifications have been reported in up to 68% of malignant phyllodes tumors of the breast, a potential differential diagnosis of MBCs, and may have a role in the malignant progression in fibroepithelial lesions<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup>. <italic toggle="yes">TERT</italic> gene amplification has been reported in 13% of adenomyoepitheliomas of the breast, tumors of uncertain malignant potential which have been reported to progress to spindle cell MBCs in a minority of cases<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>. Interestingly, in one adenomyoepithelioma progressing to a triple-negative spindle cell MBC, the submodal clone that most likely gave rise to the invasive carcinoma harbored a <italic toggle="yes">TERT</italic> promoter hotspot mutation<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. In the context of MBCs, <italic toggle="yes">TERT</italic> promoter hotspot mutations have been reported in up to 25% of cases, and to be associated with MBCs with spindle and/or squamous differentiation<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>.</p>
+        <p id="Par5">Here, we sought to determine the frequency of genetic alterations affecting <italic toggle="yes">TERT</italic>, including <italic toggle="yes">TERT</italic> promoter hotspot mutations and <italic toggle="yes">TERT</italic> gene amplifications in MBCs with distinct types of predominant metaplastic component (e.g. squamous, spindle cell, osseous and chondroid). We have also compared the repertoire of somatic genetic alterations of MBCs harboring <italic toggle="yes">TERT</italic> promoter mutations or gene amplification to MBCs lacking genetic alterations targeting <italic toggle="yes">TERT</italic>. These analyses have revealed that 17% (10 out of 60) of MBCs harbor <italic toggle="yes">TERT</italic> somatic genetic alterations, and that these are associated with specific predominant metaplastic components and are seemingly mutually exclusive with <italic toggle="yes">TP53</italic> mutations.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Clinicopathologic characteristics</title>
+          <p id="Par6">Sixty primary MBCs were included in this study (Table <xref rid="Tab1" ref-type="table">1</xref> and Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>), including 4 biopsies and 56 resection specimens; of these specimens, 6 (5 resections and 1 biopsy) were obtained post neoadjuvant therapy. The median age at diagnosis was 57 years old (range 34–85). Most (92%, 55/60) MBCs were of histologic grade 3 and 95% (57/60) of the MBCs analyzed were of triple-negative phenotype (Table <xref rid="Tab1" ref-type="table">1</xref>). Upon central histopathological review, the MBCs included in this study were classified according to their predominant histologic type into squamous (23%; 14/60), spindle cell (27%; 16/60), osseous (8%; 5/60), or chondroid (42%, 25/60) MBCs (Fig. <xref rid="Fig1" ref-type="fig">1</xref> and Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>). Forty-seven percent (28/60) of the MBCs were matrix-producing, including MBCs with predominant chondroid (<italic toggle="yes">n</italic> = 24) and osseous (<italic toggle="yes">n</italic> = 4; Table <xref rid="Tab1" ref-type="table">1</xref> and Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>) histologic components.<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>Clinicopathologic features of 60 metaplastic breast carcinomas included in this study.</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="3" colspan="1"/><th rowspan="3" colspan="1"/><th colspan="1" rowspan="1"/><th colspan="4" rowspan="1">Predominant histologic component</th></tr><tr><th colspan="1" rowspan="1">MBCs</th><th colspan="1" rowspan="1">SQUAMOUS</th><th colspan="1" rowspan="1">SPINDLE</th><th colspan="1" rowspan="1">OSSEOUS</th><th colspan="1" rowspan="1">CHONDROID</th></tr><tr><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 60)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 14)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 16)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 5)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 25)</th></tr></thead><tbody><tr><td rowspan="2" colspan="1">Histologic grade<sup>a</sup></td><td colspan="1" rowspan="1">2</td><td colspan="1" rowspan="1">5 (8%)</td><td colspan="1" rowspan="1">1 (7%)</td><td colspan="1" rowspan="1">1 (6%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">3 (12%)</td></tr><tr><td colspan="1" rowspan="1">3</td><td colspan="1" rowspan="1">55 (92%)</td><td colspan="1" rowspan="1">13 (93%)</td><td colspan="1" rowspan="1">15 (94%)</td><td colspan="1" rowspan="1">5</td><td colspan="1" rowspan="1">22 (88%)</td></tr><tr><td rowspan="2" colspan="1">Matrix producing</td><td colspan="1" rowspan="1">No</td><td colspan="1" rowspan="1">32 (53%)</td><td colspan="1" rowspan="1">14 (100%)</td><td colspan="1" rowspan="1">16 (100%)</td><td colspan="1" rowspan="1">1 (20%)</td><td colspan="1" rowspan="1">1 (4%)</td></tr><tr><td colspan="1" rowspan="1">Yes</td><td colspan="1" rowspan="1">28 (47%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">4 (80%)</td><td colspan="1" rowspan="1">24 (96%)</td></tr><tr><td rowspan="3" colspan="1">ER status</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">59 (98%)</td><td colspan="1" rowspan="1">13 (93%)</td><td colspan="1" rowspan="1">16 (100%)</td><td colspan="1" rowspan="1">5 (100%)</td><td colspan="1" rowspan="1">25 (100%)</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td></tr><tr><td colspan="1" rowspan="1">Not available</td><td colspan="1" rowspan="1">1 (2%)</td><td colspan="1" rowspan="1">1 (7%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td></tr><tr><td rowspan="3" colspan="1">PR status</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">59 (98%)</td><td colspan="1" rowspan="1">13 (93%)</td><td colspan="1" rowspan="1">16 (100%)</td><td colspan="1" rowspan="1">5 (100%)</td><td colspan="1" rowspan="1">25 (100%)</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td></tr><tr><td colspan="1" rowspan="1">Not available</td><td colspan="1" rowspan="1">1 (2%)</td><td colspan="1" rowspan="1">1 (7%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td></tr><tr><td rowspan="3" colspan="1">HER2 status</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">57 (95%)</td><td colspan="1" rowspan="1">11 (79%)</td><td colspan="1" rowspan="1">16 (100%)</td><td colspan="1" rowspan="1">5 (100%)</td><td colspan="1" rowspan="1">25 (100%)</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">2 (3%)</td><td colspan="1" rowspan="1">2 (14%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td></tr><tr><td colspan="1" rowspan="1">Not available</td><td colspan="1" rowspan="1">1 (2%)</td><td colspan="1" rowspan="1">1 (7%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td></tr><tr><td colspan="1" rowspan="1">Triple-negative phenotype</td><td colspan="1" rowspan="1"><italic toggle="yes">n</italic> (%)</td><td colspan="1" rowspan="1">57 (95%)</td><td colspan="1" rowspan="1">11 (79%)</td><td colspan="1" rowspan="1">16 (100%)</td><td colspan="1" rowspan="1">5 (100%)</td><td colspan="1" rowspan="1">25 (100%)</td></tr></tbody></table><table-wrap-foot><p><italic toggle="yes">ER,</italic> estrogen receptor<italic toggle="yes">; PR,</italic> progesterone receptor.</p><p><sup>a</sup>Nottingham grading system.</p></table-wrap-foot></table-wrap><fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Histologic features of the metaplastic breast cancers included in this study.</title><p>Representative hematoxylin-and-eosin photomicrographs of metaplastic breast cancers (MBCs) with predominant <bold>a</bold> squamous cell carcinoma component (MBC103T), <bold>b</bold> spindle cell component (MBC118T), <bold>c</bold> osseous metaplasia component (MBC120T), and <bold>d</bold> chondroid metaplasia component (MBC108T). Scale bars, 200 μM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1089" position="float" orientation="portrait" xlink:href="41523_2021_250_Fig1_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec4">
+          <title><italic toggle="yes">TERT</italic> genetic alterations in MBCs</title>
+          <p id="Par7">We first sought to determine the frequency of <italic toggle="yes">TERT</italic> genetic alterations in 60 MBCs included in this study. Genetic alterations affecting <italic toggle="yes">TERT</italic> were identified in 17% (10/60) of the MBCs, including a recurrent hotspot mutation affecting the <italic toggle="yes">TERT</italic> promoter hotspot locus (C228T; 15%, 9/60) and <italic toggle="yes">TERT</italic> gene amplification (2%, 1/60; Fig. <xref rid="Fig2" ref-type="fig">2</xref>). All MBCs harboring <italic toggle="yes">TERT</italic> promoter alterations were of triple-negative phenotype (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). We next performed a hypothesis-generating, exploratory analysis of the associations between the presence of <italic toggle="yes">TERT</italic> somatic genetic alterations and the phenotype of MBCs (Fig. <xref rid="Fig2" ref-type="fig">2</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">S1</xref>). This analysis revealed that <italic toggle="yes">TERT</italic> genetic alterations were significantly less frequently found in MBCs with a predominant chondroid component (0/25) than in the remaining MBCs (10/35; <italic toggle="yes">p</italic> = 0.005, Fisher’s exact test, Table <xref rid="Tab2" ref-type="table">2</xref> and Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Nonetheless, two of these 10 MBCs harboring <italic toggle="yes">TERT</italic> genetic alterations including a predominant spindle cell MBC (MBC119T, <italic toggle="yes">TERT</italic> promoter mutation) and a predominantly osseous MBC (MT82, <italic toggle="yes">TERT</italic> gene amplification) displayed focal areas of chondroid differentiation (Fig. <xref rid="Fig2" ref-type="fig">2</xref>).<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Recurrent somatic <italic toggle="yes">TERT, TP53, PIK3CA</italic>, <italic toggle="yes">HRAS</italic>, and <italic toggle="yes">BRAF</italic> genetic alterations in distinct histologic subtypes of 60 metaplastic breast cancers.</title><p>Heatmap depicting the proportion of the histologic component, frequency of <italic toggle="yes">TERT</italic> genetic alterations, <italic toggle="yes">TP53</italic> mutations, <italic toggle="yes">PIK3CA</italic> mutations, <italic toggle="yes">HRAS</italic> mutations and <italic toggle="yes">BRAF</italic> genetic alterations in 60 MBCs. Mutation types are color-coded according to the legend. Cases are shown in columns, the percentage of the histological components, matrix producing, ER and HER2 status, and sequencing methods are depicted in phenobars. *Mutual exclusivity analysis, CoMEt, <italic toggle="yes">p</italic> &lt; 0.001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1192" position="float" orientation="portrait" xlink:href="41523_2021_250_Fig2_HTML.jpg"/></fig><table-wrap id="Tab2" position="float" orientation="portrait"><label>Table 2</label><caption><p>Frequency of genetic alterations affecting <italic toggle="yes">TERT</italic> gene in 60 metaplastic breast cancers according to their predominant histologic component.</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="3" colspan="1"/><th colspan="1" rowspan="1"/><th colspan="4" rowspan="1">Predominant histologic component</th><th colspan="1" rowspan="1"/></tr><tr><th colspan="1" rowspan="1">MBCs</th><th colspan="1" rowspan="1">SQUAMOUS</th><th colspan="1" rowspan="1">SPINDLE</th><th colspan="1" rowspan="1">OSSEOUS</th><th colspan="1" rowspan="1">CHONDROID</th><th colspan="1" rowspan="1"><italic toggle="yes">p</italic> value<sup>a</sup></th></tr><tr><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 60)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 14)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 16)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 5)</th><th colspan="1" rowspan="1">(<italic toggle="yes">n</italic> = 25)</th><th colspan="1" rowspan="1"/></tr></thead><tbody><tr><td colspan="1" rowspan="1"><italic toggle="yes">TERT</italic> genetic alteration</td><td colspan="1" rowspan="1">10 (17%)</td><td colspan="1" rowspan="1">3 (21%)</td><td colspan="1" rowspan="1">5 (31%)</td><td colspan="1" rowspan="1">2 (40%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0.005</td></tr><tr><td colspan="1" rowspan="1"><italic toggle="yes">TERT</italic> wild-type</td><td colspan="1" rowspan="1">50 (83%)</td><td colspan="1" rowspan="1">11 (79%)</td><td colspan="1" rowspan="1">11 (69%)</td><td colspan="1" rowspan="1">3 (60%)</td><td colspan="1" rowspan="1">25 (50%)</td><td colspan="1" rowspan="1"/></tr></tbody></table><table-wrap-foot><p><sup>a</sup>Statistical significance was evaluated by Fisher’s exact test.</p></table-wrap-foot></table-wrap></p>
+        </sec>
+        <sec id="Sec5">
+          <title>Comparative analysis between <italic toggle="yes">TERT</italic> altered MBCs and <italic toggle="yes">TERT</italic> wild-type MBCs</title>
+          <p id="Par8">We next sought to define whether the six MBCs harboring <italic toggle="yes">TERT</italic> gene promoter hotspot mutations or gene amplification displayed a distinct repertoire of somatic genetic alterations as compared to the 38 <italic toggle="yes">TERT</italic> wild-type MBCs (Fig. <xref rid="Fig3" ref-type="fig">3</xref>, Supplementary Table <xref rid="MOESM1" ref-type="media">S2</xref>) subjected to whole-exome sequencing (WES) or MSK-IMPACT targeted sequencing of 341–468 cancer-related genes. In our study, MBCs harboring <italic toggle="yes">TERT</italic> genetic alterations had a tumor mutation burden (median 3.1 mutations/Mb; range 0.8–6.1) comparable to that of MBCs lacking genetic alterations affecting <italic toggle="yes">TERT</italic> (median 3.5 mutations/Mb; range 0.8–8.7; <italic toggle="yes">p</italic> = 0.72, Mann–Whitney <italic toggle="yes">U</italic> test; Supplementary Fig. <xref rid="MOESM1" ref-type="media">S2a</xref>). Our exploratory analysis revealed that, despite having similar tumor mutation burden, MBCs harboring <italic toggle="yes">TERT</italic> genetic alterations were significantly enriched for <italic toggle="yes">PIK3CA</italic> clonal mutations preferentially affecting hotspots (5/6, 83% <italic toggle="yes">TERT</italic> altered <italic toggle="yes">vs</italic> 5/38, 13% <italic toggle="yes">TERT</italic> WT; <italic toggle="yes">p</italic> = 0.001, Fisher’s exact test). Four of the 5 MBCs harbored clonal <italic toggle="yes">TERT</italic> promoter hotspot mutations co-occurring with <italic toggle="yes">PIK3CA</italic> mutations, and one MBC (MT45) that lacked mutations affecting <italic toggle="yes">PIK3CA</italic> harbored a subclonal <italic toggle="yes">TERT</italic> promoter mutation (Fig. <xref rid="Fig3" ref-type="fig">3a</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">S3</xref>). <italic toggle="yes">TP53</italic> mutations were significantly more frequently detected in MBCs lacking genetic alterations affecting <italic toggle="yes">TERT</italic> (34/38, 89% <italic toggle="yes">TERT</italic> wild-type <italic toggle="yes">vs</italic> 3/6, 50% <italic toggle="yes">TERT</italic> altered; <italic toggle="yes">p</italic> = 0.04, Fisher’s exact test; Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). A formal mutually exclusivity analysis based on CoMEt<sup><xref ref-type="bibr" rid="CR25">25</xref></sup> in these 44 MBCs demonstrated that <italic toggle="yes">TP53</italic> mutations were significantly mutually exclusive with <italic toggle="yes">TERT</italic> genetic alterations (<italic toggle="yes">p</italic> &lt; 0.01, CoMEt). This observation was further confirmed when the entire cohort (<italic toggle="yes">n</italic> = 60) of MBCs was analyzed (<italic toggle="yes">p</italic> &lt; 0.001, CoMEt; Fig. <xref rid="Fig2" ref-type="fig">2</xref>).<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>Repertoire of non-synonymous somatic mutations identified in metaplastic breast cancers.</title><p><bold>a</bold> Comparison of the most frequent genetic alterations affecting cancer genes identified in metaplastic breast cancers harboring <italic toggle="yes">TERT</italic> genetic alterations (<italic toggle="yes">TERT</italic> promoter hotspot mutations, <italic toggle="yes">n</italic> = 5; <italic toggle="yes">TERT</italic> gene amplification, <italic toggle="yes">n</italic> = 1; left) and <italic toggle="yes">TERT</italic> wild-type (<italic toggle="yes">n</italic> = 38, right), by whole-exome sequencing or MSK-IMPACT targeted sequencing. Cases are shown in columns and genes in rows. Clinicopathologic characteristics are shown on the top. Mutations are color coded according to the legend. Frequency plots and Fisher’s exact test comparison corrected for multiple testing of (<bold>b</bold>) copy number gains and losses, and (<bold>c</bold>) amplifications and homozygous deletions between <italic toggle="yes">TERT</italic> altered (<italic toggle="yes">n</italic> = 6) and <italic toggle="yes">TERT</italic> promoter wild-type (n = 38) MBCs. Frequency (y-axis) of gains and losses and amplifications and homozygous deletions is shown for each genomic region (x-axis). Inverse Log<sub>10</sub> values of the two-sided Fisher’s exact test p-values are plotted according to the genomic region (lower panel). Gains and amplifications are colored in green. Losses and homozygous deletions are colored in purple. *Statistical significance was evaluated by the Fisher’s exact test (<italic toggle="yes">p</italic> &lt; 0.05). **Mutual exclusivity analysis was performed using combinations of mutually exclusive alterations (CoMEt, <italic toggle="yes">p</italic> &lt; 0.01). HRD, homologous recombination DNA repair defect; SNV, single nucleotide variants.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1508" position="float" orientation="portrait" xlink:href="41523_2021_250_Fig3_HTML.jpg"/></fig></p>
+          <p id="Par9">Although no other gene was significantly differentially altered between <italic toggle="yes">TERT</italic> altered vs wild-type MBCs (<italic toggle="yes">p</italic> &gt; 0.05; Fisher’s exact test, Fig. <xref rid="Fig3" ref-type="fig">3a</xref>), mutations affecting <italic toggle="yes">PTEN</italic>, <italic toggle="yes">PIK3R1</italic>, chromatin remodeling genes (<italic toggle="yes">ARID1A</italic>, <italic toggle="yes">KMT2C</italic>) and tumor suppressor genes (<italic toggle="yes">RB1</italic>, <italic toggle="yes">NOTCH1</italic>, and <italic toggle="yes">NOTCH2</italic>) were only identified in MBCs lacking <italic toggle="yes">TERT</italic> genetic alterations (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). In addition, activating mutations affecting Ras pathway genes were detected in three MBCs harboring <italic toggle="yes">TERT</italic> promoter hotspot mutations, including hotspot mutations affecting <italic toggle="yes">KRAS</italic> (MTC01, subclonal A59G, <italic toggle="yes">n</italic> = 1), <italic toggle="yes">NRAS</italic> (MT45, clonal Q61L, <italic toggle="yes">n</italic> = 1) and <italic toggle="yes">HRAS</italic> Q61R (MT35, clonal, <italic toggle="yes">n</italic> = 1), which coexisted with mutations affecting <italic toggle="yes">TP53</italic> (subclonal V173L and clonal E204Vfs*4) and a subclonal <italic toggle="yes">BRAF</italic> D594N hotspot mutation (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>; Supplementary Fig. <xref rid="MOESM1" ref-type="media">S3</xref>). Two <italic toggle="yes">TERT</italic> wild-type MBCs harbored <italic toggle="yes">BRAF</italic> amplification (MTC23 and MBC104T; Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). Similar observations were made when the 16 additional MBCs were subjected to Sanger sequencing of <italic toggle="yes">HRAS</italic> and <italic toggle="yes">BRAF</italic> hotspot loci (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). This additional analysis revealed another MBC (MBC113T) harboring an <italic toggle="yes">HRAS</italic> hotspot mutation (Q61K, Fig. <xref rid="Fig2" ref-type="fig">2</xref>) co-occurring with a <italic toggle="yes">TP53</italic> hotspot mutation (D281E) but did not identify mutations affecting <italic toggle="yes">TERT</italic> promoter or <italic toggle="yes">PIK3CA</italic> hotspot locus.</p>
+          <p id="Par10">Given the previous observation that <italic toggle="yes">HRAS</italic> Q61R hotspot mutations co-occurring with <italic toggle="yes">TERT</italic> promoter mutations were preferentially found in adenomyoepitheliomas<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>, we sought to define whether the MBCs harboring <italic toggle="yes">HRAS</italic> Q61 hotspot mutations would be associated with or originate from adenomyoepitheliomas. Not surprisingly, the <italic toggle="yes">HRAS</italic> Q61 mutant MBCs identified in our study lacked histologic features of adenomyoepithelioma, unlike TNBCs originating from adenomyoepithelioma, which have been shown to lack <italic toggle="yes">TP53</italic> mutations and consistently harbor <italic toggle="yes">PIK3CA</italic> or <italic toggle="yes">PIK3R1</italic> mutations<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. Upon re-review of the MBCs, including all diagnostic slides available per case harboring <italic toggle="yes">HRAS</italic> Q61 mutations, only one MBC (MBC103T; Supplementary Fig. <xref rid="MOESM1" ref-type="media">S4</xref>) was found to display features consistent with the presence of a breast adenomyoepithelioma. This MBC contained a biphasic proliferation of epithelial and myoepithelial cells (Supplementary Fig. <xref rid="MOESM1" ref-type="media">S4</xref>), where the abluminal layer expressed p63 and calponin by immunohistochemical analysis, consistent with a diagnosis of MBC developing in the context of an adenomyoepithelioma. Sanger sequencing analysis of this case revealed mutations affecting <italic toggle="yes">TERT</italic> promoter (C228T) and <italic toggle="yes">PIK3CA</italic> hotspot locus (H1047R), but no <italic toggle="yes">TP53</italic> mutations or alterations in <italic toggle="yes">HRAS</italic> codon Q61 (Fig. <xref rid="Fig2" ref-type="fig">2</xref>).</p>
+          <p id="Par11">Here we demonstrate that, thirty-eight of the 44 MBCs subjected to WES or MSK-IMPACT sequencing had sufficient single nucleotide variants (SNVs) to infer accurate mutational signature (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>, Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>). Based on SigMA analysis, an algorithm previously validated for the analysis of formalin-fixed paraffin-embedded (FFPE) samples subjected to the FDA-approved MSK-IMPACT sequencing assay, 23 MBCs (60%, 23/38) displayed dominant COSMIC mutational signatures 3 and 8 (associated with homologous recombination DNA repair defect; HRD; Supplementary Table <xref rid="MOESM1" ref-type="media">S3</xref>)<sup><xref ref-type="bibr" rid="CR26">26</xref>,<xref ref-type="bibr" rid="CR27">27</xref></sup>. The aging signatures 1 and 5 were dominant in 34% (13/38) of MBCs, one case displayed a dominant APOBEC signature 2 (3%, 1/38) and one harbored a dominant signature 17 of unknown etiology (3%, 1/38). No statistically significant differences were observed in the frequency of mutational signatures between <italic toggle="yes">TERT</italic> altered and <italic toggle="yes">TERT</italic> wild-type MBCs (<italic toggle="yes">p</italic> &gt; 0.05; Fisher’s exact test; Fig. <xref rid="Fig3" ref-type="fig">3a</xref>; Supplementary Table <xref rid="MOESM1" ref-type="media">S3</xref>). MBCs harboring <italic toggle="yes">TERT</italic> genetic alterations (<italic toggle="yes">n</italic> = 5) displayed a lower fraction of the genome altered (FGA, median 22%; 9–51%) than MBCs lacking genetic alterations affecting <italic toggle="yes">TERT</italic> (median = 54%; range, 20–86%, <italic toggle="yes">p</italic> = 0.002, Mann–Whitney <italic toggle="yes">U</italic> test; Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">S2b</xref>). Nonetheless, the patterns of gene copy number profiles of both groups were comparable (Fig. <xref rid="Fig3" ref-type="fig">3b, c</xref>).</p>
+        </sec>
+      </sec>
+      <sec id="Sec6" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par12">The genomic and transcriptomic diversity of MBCs has been documented by our group and others<sup><xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR11">11</xref></sup>. In fact, the repertoire of genetic alterations and transcriptomic features of MBCs appear to vary according to the predominant metaplastic component, consistent with the notion of likely genotypic–phenotypic correlations in these cancers. Here we demonstrate that in agreement with the results by Krings and Chen<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> at variance with other forms of triple-negative breast cancer, <italic toggle="yes">TERT</italic> promoter hotspot mutations and gene amplification are found in substantial subset of MBCs (17%), and that these alterations are less frequently found in MBCs with a predominant chondroid component.</p>
+        <p id="Par13">Previous studies<sup><xref ref-type="bibr" rid="CR7">7</xref>–<xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup> have shown that <italic toggle="yes">TP53</italic> and <italic toggle="yes">PIK3CA</italic> genes are the two most frequently mutated known cancer genes in MBC and that these mutations, however, vary in frequency according to the predominant metaplastic component. Consistent with previous observations<sup><xref ref-type="bibr" rid="CR7">7</xref>–<xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>, the MBCs with predominant chondroid metaplasia included in this study lacked mutations affecting <italic toggle="yes">PIK3CA</italic> and Ras pathway genes, whereas <italic toggle="yes">TP53</italic> mutations were found to be less frequent in MBCs with predominant spindle cell component compared to squamous and chondroid MBCs. These findings support the notion that a subset of MBCs harboring <italic toggle="yes">PIK3CA</italic> mutations may benefit from therapies targeting the PI3K/AKT/mTOR pathway. Recent studies have investigated the addition of PI3K/mTOR inhibitors to standard chemotherapy<sup><xref ref-type="bibr" rid="CR28">28</xref>–<xref ref-type="bibr" rid="CR31">31</xref></sup>, and found that patients with PI3K pathway-altered advanced triple-negative MBCs had significantly higher response rates when treated with mTOR inhibitors (temsirolimus or everolimus) in combination with liposomal doxorubicin and bevacizumab than patients with MBCs lacking PI3K/mTOR pathway alterations<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Given the enrichment of <italic toggle="yes">PIK3CA</italic> mutations in non-chondroid MBCs, these findings have further implications for the targeted treatment of specific histological subtypes of MBCs.</p>
+        <p id="Par14">The <italic toggle="yes">TERT</italic> promoter hotspot mutations and <italic toggle="yes">TER</italic>T gene amplification described here were inversely correlated with <italic toggle="yes">TP53</italic> mutations in a subset of MBCs analyzed, and significantly associated with <italic toggle="yes">PIK3CA</italic> hotspot mutations. It should be noted that pathogenic mutations affecting <italic toggle="yes">TP53</italic> and <italic toggle="yes">TERT</italic> promoter hotspot mutations have also been found to be inversely correlated in other cancer types<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR32">32</xref></sup>, whereas <italic toggle="yes">TERT</italic> promoter and <italic toggle="yes">PIK3CA</italic> hotspot mutations have been shown to be mutually exclusive in ovarian cancers<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>, but to co-occur in other cancer types<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR35">35</xref></sup>, including breast cancer<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Whether these associations reflect epistatic interactions between <italic toggle="yes">TERT, TP53</italic>, and <italic toggle="yes">PIK3CA</italic> or whether they would result from the different prevalence of <italic toggle="yes">TERT</italic> alterations in different subtypes of MBC warrant further investigation.</p>
+        <p id="Par15"><italic toggle="yes">TERT</italic> promoter hotspot mutations and <italic toggle="yes">TERT</italic> gene amplification have been reported in phyllodes tumors of the breast, suggesting that these genetic alterations might be the drivers of the progression from benign to malignant lesions in a subset of patients<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR22">22</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>. In addition, we have previously demonstrated that <italic toggle="yes">TERT</italic> somatic genetic alterations in 13% of breast adenomyoepitheliomas and in the carcinomas originating in association with or from these tumors<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. The <italic toggle="yes">TERT</italic> promoter mutations detected in the present study are the result of an exchange of a single cytosine to a thymine at chromosome 5 base position 1,295,228 (C228T, c.-124 C &gt; T), which results in a new binding motif for ETS transcription factors and leads to an increased transcriptional activity of the <italic toggle="yes">TERT</italic> promoter<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>. These mutations have been shown to constitute a mechanism of upregulated telomerase and to result in increased proliferative capacity and other oncogenic properties<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. The frequency of <italic toggle="yes">TERT</italic> somatic alterations (i.e. in 17% of MBCs) reported here is consistent with that reported by Krings and Chen<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> (i.e. 25% of MBCs), who observed an enrichment of <italic toggle="yes">TERT</italic> promoter mutations in MBCs with predominant spindle cell and/or squamous components. In contrast to the observations by Krings and Chen<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, who reported the absence of <italic toggle="yes">TERT</italic> promoter mutations in chondroid matrix-producing carcinomas, in our study, <italic toggle="yes">TERT</italic> genetic alterations were identified in two cases displaying minor areas of chondroid differentiation, including one MBC with predominant spindle cell component and another MBC with predominant osseous component. It is possible that these discrepancies might be related to the fact that our series included MBCs with mixed histologic subtypes, in contrast to Krings and Chen<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, who included only 3 MBCs with mixed components. Of these 3 cases, two had only one of the components (osseous) subjected to sequencing. The remaining cases included in their study<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> were categorized as pure matrix-producing, spindle, squamous, or spindle/squamous MBCs that did not display differentiation along other metaplastic lineages.</p>
+        <p id="Par16">The observations reported here as well as those made by others<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> have diagnostic and taxonomic implications. First, given that <italic toggle="yes">TERT</italic> promoter hotspot mutations and gene amplification can also be found in MBCs, their detection should be used with caution in the differential diagnosis between MBC and malignant phyllodes tumor of the breast. Second, <italic toggle="yes">TERT</italic> and <italic toggle="yes">HRAS</italic> mutations have been shown to be vanishingly rare in primary breast cancers, including those of triple-negative phenotype; however, these alterations can be found in adenomyoepitheliomas and in a subset of MBCs, suggesting a tantalizing hypothesis that a subset of MBCs may evolve through similar genetic pathways or be etiologically related to adenomyoepithelial tumors. Further studies to investigate whether a subset of MBCs may constitute malignant myoepithelial tumors are warranted.</p>
+        <p id="Par17">Our study has important limitations. Given the rarity of these tumors, the small sample size of the study and the limited amounts of DNA available for sequencing analysis in some cases, not all samples could be subjected to WES or MSK-IMPACT sequencing. Due to this limitation, our estimation of the frequency of <italic toggle="yes">TERT</italic> gene amplification is conservative as we cannot rule out the presence of <italic toggle="yes">TERT</italic> gene amplification in the 12 of the 16 MBCs subjected to Sanger sequencing that were <italic toggle="yes">TERT</italic> wild-type. Second, despite the multi-institutional cohort included in this study, we currently cannot define whether the mutually exclusive nature of <italic toggle="yes">TERT</italic> somatic genetic alterations and <italic toggle="yes">TP53</italic> mutations in MBCs are derived from epistatic interactions between these genes in the context of MBC or if this mutual exclusivity is solely the result of the different frequencies of alterations affecting these genes in MBCs with distinct types of predominant metaplastic components. Hence, these observations should be interpreted with caution and warrant further investigation in larger series of MBCs. Furthermore, the multi-institutional nature of our study precludes a definitive survival analysis due to the lack of clinical follow-up information in a large subset of cases in this series. Further studies to assess survival correlations with <italic toggle="yes">TERT</italic> genetic alterations in MBCs patients are warranted. Despite these limitations, our study provides evidence suggesting that <italic toggle="yes">TERT</italic> genetic alterations may play a role in MBCs and that these are likely associated with specific subsets of the disease, emphasizing the diversity and molecular heterogeneity of MBCs.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Methods</title>
+        <sec id="Sec8">
+          <title>Subjects and samples</title>
+          <p id="Par18">Following approval by the Institutional Review Board (IRB) of Memorial Sloan Kettering Cancer Center (MSKCC), a retrospective series of 60 primary MBCs was selected to be included in this study. Patient consents were obtained according to the approved IRB protocol. Cases were reviewed by at least two of four pathologists (MV, FP, HZ, and/or JSR-F) following the criteria put forward by the World Health Organization<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. Clinicopathologic characteristics, including age, tumor size and hormone-receptor status, were retrieved from the medical records (Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>). Tumors were graded according to the Nottingham grading system<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. The tumor cell content and composition of the metaplastic elements were estimated (i.e., squamous cell, spindle cell, chondroid and osseous) and in each case, the metaplastic component most abundantly present was defined as described<sup><xref ref-type="bibr" rid="CR8">8</xref></sup> (Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>). All samples were anonymized prior to tissue processing.</p>
+        </sec>
+        <sec id="Sec9">
+          <title>Tissue preparation and DNA extraction</title>
+          <p id="Par19">Ten-to-15 8-µm-thick sections from representative formalin-fixed paraffin embedded (FFPE) tumor and matched normal tissue blocks of 21 MBCs (21/60) were stained with nuclear fast red and microdissected using a sterile needle under a stereomicroscope (Olympus SZ61) to ensure a tumor content &gt;80%, as previously described<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. Genomic DNA was extracted from tumor and matched normal tissues using the DNeasy Blood and Tissue Kit (Qiagen) according to manufacturers’ instructions.</p>
+        </sec>
+        <sec id="Sec10">
+          <title>Whole-exome sequencing and MSK-IMPACT sequencing</title>
+          <p id="Par20">Out of 60 MBCs included in our cohort, 44 (73%) were subjected to WES (<italic toggle="yes">n</italic> = 27) or to massively parallel sequencing targeting all coding regions of 341 to 468 cancer-related genes using the FDA-approved MSK Integrated Mutation Profiling of Actionable Cancer Targets assay (MSK-IMPACT, <italic toggle="yes">n</italic> = 17, Supplementary Table <xref rid="MOESM1" ref-type="media">S2</xref>)<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>. Of the 27 MBCs subjected to WES, five MBCs were microdissected and subjected to WES at MSK’s Integrated Genomics Operations (IGO) using validated protocols, as previously described<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR43">43</xref></sup>, and for 22 MBCs the raw sequencing data (FASTQ files) reported in Ng et al.<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> were retrieved and reanalyzed (see below). Of the 17 MBCs subjected to MSK-IMPACT sequencing, three were previously reported in Zehir et al.<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. Hence, in this manuscript, we include massively parallel sequencing data from 19 previously unreported MBCs (5 subjected to WES and 14 to targeted MSK-IMPACT sequencing) as well as Sanger sequencing data from 16 previously unreported MBCs (see below). WES and MSK-IMPACT sequencing data were processed using our validated bioinformatics pipeline<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr" rid="CR44">44</xref></sup>. In brief, sequence reads were aligned to the reference human genome GRCh37 using the Burrows-Wheeler Aligner (BWA v0.7.15)<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Somatic single nucleotide variants (SNVs) were detected with MuTect (v1.0)<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. Insertion and deletions (indels) were detected using Strelka (v2.0.15)<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>, VarScan2 (v2.3.7)<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>, Platypus (v0.8.1)<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>, Lancet (v1.0.0)<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>, and Scalpel (v0.5.3)<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. Cancer cell fractions (CCFs) of each somatic mutation were computed using ABSOLUTE (v1.0.6)<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>, as previously described<sup><xref ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr" rid="CR53">53</xref></sup>. Copy number alterations (CNAs) and loss of heterozygosity were determined using FACETS<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>. Somatic mutations in tumor suppressor genes that were deleterious/loss-of-function or targeting a mutational hotspot in oncogenes were considered pathogenic. Mutations targeting hotspot loci were annotated using cancerhotspots.org<sup><xref ref-type="bibr" rid="CR55">55</xref></sup>. Mutational signatures were defined using Signature Multivariate Analysis (SigMA) tool<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>, for cases with at least 5 SNVs, as previously described<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. Exposure-based dominant mutational signatures obtained by SigMA<sup><xref ref-type="bibr" rid="CR56">56</xref></sup> (Supplementary Table <xref rid="MOESM1" ref-type="media">S3</xref>) were comparable to the mutational signatures reported by Ng et al.<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>, which were inferred using DeconstructSigs<sup><xref ref-type="bibr" rid="CR58">58</xref></sup>, in 68% (15/22) of the MBCs.</p>
+          <p id="Par21">Tumour mutation burden (TMB) was calculated as the total number of non-synonymous mutations divided by the number of bases analyzed, per megabase. The fraction of genome altered (FGA) was defined as the cumulative size of copy number segments which are not copy neutral divided by the cumulative size of all copy number segments, as previously described<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR59">59</xref></sup>.</p>
+          <p id="Par22">As part of an exploratory, hypothesis generating analysis, the repertoire of non-synonymous somatic mutations, mutational frequencies, and copy number alterations of MBCs harboring <italic toggle="yes">TERT</italic> somatic genetic alterations, including promoter mutations and gene amplification, were compared to MBCs lacking <italic toggle="yes">TERT</italic> genetic alterations. For the comparative analyses of the repertoire of non-synonymous somatic mutations, mutational frequencies, and copy number alterations of MBCs subjected to either WES or MSK-IMPACT, genes were restricted to the 341 genes included in MSK-IMPACT.</p>
+        </sec>
+        <sec id="Sec11">
+          <title>Assessment of somatic mutations by Sanger sequencing</title>
+          <p id="Par23">We conducted the assessment of <italic toggle="yes">TERT</italic> promoter hotspot loci, <italic toggle="yes">TP53</italic> (exons 2 to 11), <italic toggle="yes">PIK3CA</italic> (exons 9 and 20), <italic toggle="yes">HRAS</italic> (exon 3), and <italic toggle="yes">BRAF</italic> (exons 11 and 15) hotspot mutations in 16 MBCs with insufficient DNA yield by Sanger sequencing. In addition, as <italic toggle="yes">TERT</italic> promoter region is usually poorly covered by exome sequencing, <italic toggle="yes">TERT</italic> promoter hotspot mutations were assessed by Sanger sequencing in the 27 MBCs subjected to WES. PCR amplification of the selected genes was performed using the AmpliTaq Gold 360 Master Mix kit (Life Technologies, ThermoFisher Scientific) using previously described primers<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR60">60</xref></sup> (Supplementary Table <xref rid="MOESM1" ref-type="media">S4</xref>). PCR fragments were cleaned using ExoSAP It (ThermoFisher Scientific) and Sanger sequenced as previously described<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+        </sec>
+        <sec id="Sec12">
+          <title>Statistical analysis</title>
+          <p id="Par24">Fisher’s exact test and Chi-Square test were used for comparison of categorical variables, and Mann–Whitney <italic toggle="yes">U</italic> test for continuous variables. All tests were two-tailed and <italic toggle="yes">p</italic> values &lt;0.05 were considered statistically significant. A mutual exclusivity analysis was performed using combinations of mutually exclusive alterations (CoMEt) with the use of a pair-wise Fisher’s exact test to detect the presence of significant pairs of genes<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Reporting summary</title>
+          <p id="Par25">Further information on research design is available in the <xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec14">
+          <supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41523_2021_250_MOESM1_ESM.pdf" position="float" orientation="portrait">
+              <caption>
+                <p>Supplementary Information</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41523_2021_250_MOESM2_ESM.pdf" position="float" orientation="portrait">
+              <caption>
+                <p>Reporting Summary</p>
+              </caption>
+            </media>
+          </supplementary-material>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p>The online version contains supplementary material available at 10.1038/s41523-021-00250-8.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This study was funded by the Breast Cancer Research Foundation (J.S.R.-F., B.W.). J.S.R.-F., B.W. and F.P. are funded in part by the National Institutes of Health/National Cancer Institute P50 CA247749 01 grant. B.W. is funded in part by Cycle for Survival and Stand Up To Cancer grants. F.P. is funded in part by a National Institutes of Health/National Cancer Institute K12 CA184746 grant. Research reported in this publication was supported in part by a Cancer Center Support Grant of the NIH/NCI (Grant No. P30CA008748).</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>E.M.d.S., B.W., H.Z., and J.S.R.-F. conceived the study. M.V., F.P., H.Z., and J.S.R.-F. conducted pathology review. E.M.d.S. and A.B. performed sample processing. P.S., A.D.C.P., L.F., and A.G. performed bioinformatics analyses. Data acquisition, analysis, and interpretation were performed by E.M.d.S., P.S., F.P., A.D.C.P., H.D., D.S.R., N.R., S.C., P.R., L.N., H.Y.W., E.B., and H.Z. E.M.d.S., F.P., B.W. and J.S.R.-F. drafted the original manuscript, which was reviewed by all authors. The final draft of the manuscript was approved by all authors.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>“The data generated and analysed during this study are described in the following data record: 10.6084/m9.figshare.14160482<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>. The whole-exome sequencing data supporting Figs. <xref rid="Fig2" ref-type="fig">2</xref>, <xref rid="Fig3" ref-type="fig">3</xref>, Supplementary Figs. <xref rid="MOESM1" ref-type="media">S2</xref> and <xref rid="MOESM1" ref-type="media">S3</xref>, and Supplementary Tables <xref rid="MOESM1" ref-type="media">S1</xref>, <xref rid="MOESM1" ref-type="media">S2</xref>, and <xref rid="MOESM1" ref-type="media">S3</xref> are openly available in the Sequence Read Archive via the following accession: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://identifiers.org/ncbi/insdc.sra:SRP073692">https://identifiers.org/ncbi/insdc.sra:SRP073692</ext-link><sup><xref ref-type="bibr" rid="CR62">62</xref></sup>. These data were first described in the original publication by Ng et al.<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> MSK-IMPACT sequencing data of 3 samples included in the MSK-IMPACT Clinical Sequencing Cohort supporting Figs. <xref rid="Fig2" ref-type="fig">2</xref>, <xref rid="Fig3" ref-type="fig">3</xref>, Supplementary Figs. <xref rid="MOESM1" ref-type="media">S2</xref>, <xref rid="MOESM1" ref-type="media">S3</xref>, and Supplementary Tables <xref rid="MOESM1" ref-type="media">S1</xref> and <xref rid="MOESM1" ref-type="media">S2</xref> are publicly available at cBioPortal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://identifiers.org/cbioportal:msk_impact_2017">https://identifiers.org/cbioportal:msk_impact_2017</ext-link><sup><xref ref-type="bibr" rid="CR63">63</xref></sup>). These data were first described in the original publication by Zehir et al.<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> Sequencing data of 19 previously unreported MBCs (5 subjected to whole-exome sequencing and 14 to MSK-IMPACT sequencing) are available at cBioPortal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://identifiers.org/cbioportal:mbc_msk_2021">https://identifiers.org/cbioportal:mbc_msk_2021</ext-link><sup><xref ref-type="bibr" rid="CR64">64</xref></sup>). Additionally, the following data are available upon request from the corresponding authors: Histologic images supporting Fig. <xref rid="Fig1" ref-type="fig">1</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">S1</xref>; Sanger sequencing electropherograms supporting Fig. <xref rid="Fig2" ref-type="fig">2</xref>, Table <xref rid="Tab2" ref-type="table">2</xref>, and Supplementary Figs. <xref rid="MOESM1" ref-type="media">S1</xref> and <xref rid="MOESM1" ref-type="media">S4</xref>; Clinicopathologic data supporting Figs. <xref rid="Fig2" ref-type="fig">2</xref> and <xref rid="Fig3" ref-type="fig">3</xref>, Table <xref rid="Tab1" ref-type="table">1</xref>, and Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>.”</p>
+      </notes>
+      <notes id="FPar1" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par26">S.C. has received personal/consultancy fees from Lilly, Novartis, and Paige.AI. S.C. also reports research funds directed to MSK from Sanofi, Novartis, Daiichi-Sankyo, and Lilly, outside the scope of this study. H.Y.W. performed consulting/advisory services for Merck at one teleconference. H.Z. reports consultancy fee from Roche/Genentech, outside the scope of the submitted work. J.S.R.-F. reports receiving personal/consultancy fees from Goldman Sachs and REPARE Therapeutics, membership of the scientific advisory boards of VolitionRx, REPARE Therapeutics and Paige.AI, membership of the Board of Directors of Grupo Oncoclinicas, and ad hoc membership of the scientific advisory boards of Roche Tissue Diagnostics, Ventana Medical Systems, Novartis, Genentech and InVicro, outside the scope of this study. J.S.R.-F. and L.N. are editors with the journal. The remaining authors declare no competing interests.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Weigelt</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Metaplastic breast carcinoma: more than a special type</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2014</year>
+            <volume>14</volume>
+            <fpage>147</fpage>
+            <lpage>148</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrc3637</pub-id>
+            <pub-id pub-id-type="pmid">25688406</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <mixed-citation publication-type="other">Reis-Filho, J. S. et al. in <italic toggle="yes">WHO Classification of Tumours Editorial Board., ed. Breast Tumours</italic> Vol. 2 134–138 (International Agency for Research on Cancer, 2019).</mixed-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <mixed-citation publication-type="other">Reis-Filho J. S. et al. in <italic toggle="yes">WHO Classification of Tumours: Breast Tumours</italic> Vol. 2 (ed WHO Classification of Tumours Editorial Board) 134–138 (World Health Organization, 2019).</mixed-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Avigdor</surname>
+                <given-names>BE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-Exome Sequencing of Metaplastic Breast Carcinoma Indicates Monoclonality with Associated Ductal Carcinoma Component</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>4875</fpage>
+            <lpage>4884</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-17-0108</pub-id>
+            <pub-id pub-id-type="pmid">28424200</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5559334</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tray</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Metaplastic breast cancers: Genomic profiling, mutational burden and tumor-infiltrating lymphocytes</article-title>
+            <source>Breast</source>
+            <year>2019</year>
+            <volume>44</volume>
+            <fpage>29</fpage>
+            <lpage>32</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.breast.2018.12.010</pub-id>
+            <pub-id pub-id-type="pmid">30609392</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hennessy</surname>
+                <given-names>BT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Characterization of a naturally occurring breast cancer subset enriched in epithelial-to-mesenchymal transition and stem cell characteristics</article-title>
+            <source>Cancer Res</source>
+            <year>2009</year>
+            <volume>69</volume>
+            <fpage>4116</fpage>
+            <lpage>4124</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-08-3441</pub-id>
+            <pub-id pub-id-type="pmid">19435916</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2737191</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ng</surname>
+                <given-names>CKY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Landscape of Somatic Genetic Alterations in Metaplastic Breast Carcinomas</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>3859</fpage>
+            <lpage>3870</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-16-2857</pub-id>
+            <pub-id pub-id-type="pmid">28153863</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5511565</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Weigelt</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Metaplastic breast carcinomas display genomic and transcriptomic heterogeneity [corrected]</article-title>
+            <source>Mod. Pathol.</source>
+            <year>2015</year>
+            <volume>28</volume>
+            <fpage>340</fpage>
+            <lpage>351</lpage>
+            <pub-id pub-id-type="doi">10.1038/modpathol.2014.142</pub-id>
+            <pub-id pub-id-type="pmid">25412848</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4523239</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Piscuoglio</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic and transcriptomic heterogeneity in metaplastic carcinomas of the breast</article-title>
+            <source>NPJ Breast Cancer</source>
+            <year>2017</year>
+            <volume>3</volume>
+            <fpage>48</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41523-017-0048-0</pub-id>
+            <pub-id pub-id-type="pmid">29214215</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5711926</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <mixed-citation publication-type="other">Beca, F. et al. Whole-Exome Analysis of Metaplastic Breast Carcinomas with Extensive Osseous Differentiation. <italic toggle="yes">Histopathology</italic> (2020).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/his.14088</pub-id><pub-id pub-id-type="pmcid">PMC7518240</pub-id><pub-id pub-id-type="pmid">32043609</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McCart Reed</surname>
+                <given-names>AE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Phenotypic and molecular dissection of metaplastic breast cancer and the prognostic implications</article-title>
+            <source>J. Pathol.</source>
+            <year>2019</year>
+            <volume>247</volume>
+            <fpage>214</fpage>
+            <lpage>227</lpage>
+            <pub-id pub-id-type="doi">10.1002/path.5184</pub-id>
+            <pub-id pub-id-type="pmid">30350370</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Krings</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>YY</given-names>
+              </name>
+            </person-group>
+            <article-title>Genomic profiling of metaplastic breast carcinomas reveals genetic heterogeneity and relationship to ductal carcinoma</article-title>
+            <source>Mod. Pathol.</source>
+            <year>2018</year>
+            <volume>31</volume>
+            <fpage>1661</fpage>
+            <lpage>1674</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41379-018-0081-z</pub-id>
+            <pub-id pub-id-type="pmid">29946183</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ross</surname>
+                <given-names>JS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic profiling of advanced-stage, metaplastic breast carcinoma by next-generation sequencing reveals frequent, targetable genomic abnormalities and potential new treatment options</article-title>
+            <source>Arch. Pathol. Lab Med.</source>
+            <year>2015</year>
+            <volume>139</volume>
+            <fpage>642</fpage>
+            <lpage>649</lpage>
+            <pub-id pub-id-type="doi">10.5858/arpa.2014-0200-OA</pub-id>
+            <pub-id pub-id-type="pmid">25927147</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>703</fpage>
+            <lpage>713</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.4333</pub-id>
+            <pub-id pub-id-type="pmid">28481359</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Piscuoglio</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Massively parallel sequencing of phyllodes tumours of the breast reveals actionable mutations, and TERT promoter hotspot mutations and TERT gene amplification as likely drivers of progression</article-title>
+            <source>J. Pathol.</source>
+            <year>2016</year>
+            <volume>238</volume>
+            <fpage>508</fpage>
+            <lpage>518</lpage>
+            <pub-id pub-id-type="doi">10.1002/path.4672</pub-id>
+            <pub-id pub-id-type="pmid">26832993</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4962788</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Da Cruz Paula</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic profiling of primary and recurrent adult granulosa cell tumors of the ovary</article-title>
+            <source>Mod. Pathol.</source>
+            <year>2020</year>
+            <volume>33</volume>
+            <fpage>1606</fpage>
+            <lpage>1617</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41379-020-0514-3</pub-id>
+            <pub-id pub-id-type="pmid">32203090</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7390666</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Descotes</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Non-invasive prediction of recurrence in bladder cancer by detecting somatic TERT promoter mutations in urine</article-title>
+            <source>Br. J. Cancer</source>
+            <year>2017</year>
+            <volume>117</volume>
+            <fpage>583</fpage>
+            <lpage>587</lpage>
+            <pub-id pub-id-type="doi">10.1038/bjc.2017.210</pub-id>
+            <pub-id pub-id-type="pmid">28683471</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5558690</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gay-Bellile</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter status and gene copy number gains: effect on TERT expression and association with prognosis in breast cancer</article-title>
+            <source>Oncotarget</source>
+            <year>2017</year>
+            <volume>8</volume>
+            <fpage>77540</fpage>
+            <lpage>77551</lpage>
+            <pub-id pub-id-type="doi">10.18632/oncotarget.20560</pub-id>
+            <pub-id pub-id-type="pmid">29100407</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5652798</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shimoi</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter hotspot mutations in breast cancer</article-title>
+            <source>Breast Cancer</source>
+            <year>2018</year>
+            <volume>25</volume>
+            <fpage>292</fpage>
+            <lpage>296</lpage>
+            <pub-id pub-id-type="doi">10.1007/s12282-017-0825-5</pub-id>
+            <pub-id pub-id-type="pmid">29222734</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5906518</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Killela</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter mutations occur frequently in gliomas and a subset of tumors derived from cells with low rates of self-renewal</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2013</year>
+            <volume>110</volume>
+            <fpage>6021</fpage>
+            <lpage>6026</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.1303607110</pub-id>
+            <pub-id pub-id-type="pmid">23530248</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3625331</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yoshida</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter mutations are frequent and show association with MED12 mutations in phyllodes tumors of the breast</article-title>
+            <source>Br. J. Cancer</source>
+            <year>2015</year>
+            <volume>113</volume>
+            <fpage>1244</fpage>
+            <lpage>1248</lpage>
+            <pub-id pub-id-type="doi">10.1038/bjc.2015.326</pub-id>
+            <pub-id pub-id-type="pmid">26355235</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4647876</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Piscuoglio</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Massively parallel sequencing analysis of synchronous fibroepithelial lesions supports the concept of progression from fibroadenoma to phyllodes tumor</article-title>
+            <source>NPJ Breast Cancer</source>
+            <year>2016</year>
+            <volume>2</volume>
+            <fpage>16035</fpage>
+            <pub-id pub-id-type="doi">10.1038/npjbcancer.2016.35</pub-id>
+            <pub-id pub-id-type="pmid">28721388</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5515337</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pareja</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Immunohistochemical assessment of HRAS Q61R mutations in breast adenomyoepitheliomas</article-title>
+            <source>Histopathology</source>
+            <year>2020</year>
+            <volume>76</volume>
+            <fpage>865</fpage>
+            <lpage>874</lpage>
+            <pub-id pub-id-type="doi">10.1111/his.14057</pub-id>
+            <pub-id pub-id-type="pmid">31887226</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7225035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Geyer</surname>
+                <given-names>FC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent hotspot mutations in HRAS Q61 and PI3K-AKT pathway genes as drivers of breast adenomyoepitheliomas</article-title>
+            <source>Nat. Commun.</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>1816</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-018-04128-5</pub-id>
+            <pub-id pub-id-type="pmid">29739933</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5940840</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Leiserson</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>HT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vandin</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Raphael</surname>
+                <given-names>BJ</given-names>
+              </name>
+            </person-group>
+            <article-title>CoMEt: a statistical approach to identify combinations of mutually exclusive alterations in cancer</article-title>
+            <source>Genome Biol.</source>
+            <year>2015</year>
+            <volume>16</volume>
+            <fpage>160</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-015-0700-7</pub-id>
+            <pub-id pub-id-type="pmid">26253137</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4531541</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The repertoire of mutational signatures in human cancer</article-title>
+            <source>Nature</source>
+            <year>2020</year>
+            <volume>578</volume>
+            <fpage>94</fpage>
+            <lpage>101</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41586-020-1943-3</pub-id>
+            <pub-id pub-id-type="pmid">32025018</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7054213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutational processes in human cancer</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>500</volume>
+            <fpage>415</fpage>
+            <lpage>421</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature12477</pub-id>
+            <pub-id pub-id-type="pmid">23945592</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3776390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moulder</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Inhibition of the phosphoinositide 3-kinase pathway for the treatment of patients with metastatic metaplastic breast cancer</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2015</year>
+            <volume>26</volume>
+            <fpage>1346</fpage>
+            <lpage>1352</lpage>
+            <pub-id pub-id-type="doi">10.1093/annonc/mdv163</pub-id>
+            <pub-id pub-id-type="pmid">25878190</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6267938</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moulder</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Responses to liposomal Doxorubicin, bevacizumab, and temsirolimus in metaplastic carcinoma of the breast: biologic rationale and implications for stem-cell research in breast cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2011</year>
+            <volume>29</volume>
+            <fpage>e572</fpage>
+            <lpage>e575</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2010.34.0604</pub-id>
+            <pub-id pub-id-type="pmid">21482991</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>IC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lu</surname>
+                <given-names>YS</given-names>
+              </name>
+            </person-group>
+            <article-title>PI3K inhibitor provides durable response in metastatic metaplastic carcinoma of the breast: A hidden gem in the BELLE-4 study</article-title>
+            <source>J. Formos. Med. Assoc.</source>
+            <year>2019</year>
+            <volume>118</volume>
+            <fpage>1333</fpage>
+            <lpage>1338</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jfma.2018.12.004</pub-id>
+            <pub-id pub-id-type="pmid">30577988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Basho</surname>
+                <given-names>RK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Targeting the PI3K/AKT/mTOR Pathway for the Treatment of Mesenchymal Triple-Negative Breast Cancer: Evidence From a Phase 1 Trial of mTOR Inhibition in Combination With Liposomal Doxorubicin and Bevacizumab</article-title>
+            <source>JAMA Oncol.</source>
+            <year>2017</year>
+            <volume>3</volume>
+            <fpage>509</fpage>
+            <lpage>515</lpage>
+            <pub-id pub-id-type="doi">10.1001/jamaoncol.2016.5281</pub-id>
+            <pub-id pub-id-type="pmid">27893038</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>You</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Paradoxical prognostic impact of TERT promoter mutations in gliomas depends on different histological and genetic backgrounds</article-title>
+            <source>CNS Neurosci. Ther.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>790</fpage>
+            <lpage>797</lpage>
+            <pub-id pub-id-type="doi">10.1111/cns.12724</pub-id>
+            <pub-id pub-id-type="pmid">28868656</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6492727</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>RC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Frequent somatic mutations of the telomerase reverse transcriptase promoter in ovarian clear cell carcinoma but not in other major types of gynaecological malignancy</article-title>
+            <source>J. Pathol.</source>
+            <year>2014</year>
+            <volume>232</volume>
+            <fpage>473</fpage>
+            <lpage>481</lpage>
+            <pub-id pub-id-type="doi">10.1002/path.4315</pub-id>
+            <pub-id pub-id-type="pmid">24338723</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3946218</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tiedje</surname>
+                <given-names>V</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>NGS based identification of mutational hotspots for targeted therapy in anaplastic thyroid carcinoma</article-title>
+            <source>Oncotarget</source>
+            <year>2017</year>
+            <volume>8</volume>
+            <fpage>42613</fpage>
+            <lpage>42620</lpage>
+            <pub-id pub-id-type="doi">10.18632/oncotarget.17300</pub-id>
+            <pub-id pub-id-type="pmid">28489587</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5522092</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zacher</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular Diagnostics of Gliomas Using Next Generation Sequencing of a Glioma-Tailored Gene Panel</article-title>
+            <source>Brain Pathol.</source>
+            <year>2017</year>
+            <volume>27</volume>
+            <fpage>146</fpage>
+            <lpage>159</lpage>
+            <pub-id pub-id-type="doi">10.1111/bpa.12367</pub-id>
+            <pub-id pub-id-type="pmid">26919320</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8029406</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pareja</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Phyllodes tumors with and without fibroadenoma-like areas display distinct genomic features and may evolve through distinct pathways</article-title>
+            <source>NPJ Breast Cancer</source>
+            <year>2017</year>
+            <volume>3</volume>
+            <fpage>40</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41523-017-0042-6</pub-id>
+            <pub-id pub-id-type="pmid">29043292</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5638820</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Horn</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter mutations in familial and sporadic melanoma</article-title>
+            <source>Science</source>
+            <year>2013</year>
+            <volume>339</volume>
+            <fpage>959</fpage>
+            <lpage>961</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.1230062</pub-id>
+            <pub-id pub-id-type="pmid">23348503</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>FW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Highly recurrent TERT promoter mutations in human melanoma</article-title>
+            <source>Science</source>
+            <year>2013</year>
+            <volume>339</volume>
+            <fpage>957</fpage>
+            <lpage>959</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.1229259</pub-id>
+            <pub-id pub-id-type="pmid">23348506</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4423787</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yamagata</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Changes in telomerase activity in experimentally induced atretic follicles of immature rats</article-title>
+            <source>Endocr. J.</source>
+            <year>2002</year>
+            <volume>49</volume>
+            <fpage>589</fpage>
+            <lpage>595</lpage>
+            <pub-id pub-id-type="doi">10.1507/endocrj.49.589</pub-id>
+            <pub-id pub-id-type="pmid">12625407</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Elston</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ellis</surname>
+                <given-names>IO</given-names>
+              </name>
+            </person-group>
+            <article-title>Pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long-term follow-up</article-title>
+            <source>Histopathology</source>
+            <year>1991</year>
+            <volume>19</volume>
+            <fpage>403</fpage>
+            <lpage>410</lpage>
+            <pub-id pub-id-type="doi">10.1111/j.1365-2559.1991.tb00229.x</pub-id>
+            <pub-id pub-id-type="pmid">1757079</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pareja</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent MED12 exon 2 mutations in benign breast fibroepithelial lesions in adolescents and young adults</article-title>
+            <source>J. Clin. Pathol.</source>
+            <year>2019</year>
+            <volume>72</volume>
+            <fpage>258</fpage>
+            <lpage>262</lpage>
+            <pub-id pub-id-type="doi">10.1136/jclinpath-2018-205570</pub-id>
+            <pub-id pub-id-type="pmid">30467240</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6580856</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): A Hybridization Capture-Based Next-Generation Sequencing Clinical Assay for Solid Tumor Molecular Oncology</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Weigelt</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Landscape of Somatic Genetic Alterations in Breast Cancers From ATM Germline Mutation Carriers</article-title>
+            <source>J. Natl Cancer Inst.</source>
+            <year>2018</year>
+            <volume>110</volume>
+            <fpage>1030</fpage>
+            <lpage>1034</lpage>
+            <pub-id pub-id-type="doi">10.1093/jnci/djy028</pub-id>
+            <pub-id pub-id-type="pmid">29506079</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6136925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pareja</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Loss-of-function mutations in ATP6AP1 and ATP6AP2 in granular cell tumors</article-title>
+            <source>Nat. Commun.</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>3533</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-018-05886-y</pub-id>
+            <pub-id pub-id-type="pmid">30166553</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6117336</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate long-read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <year>2010</year>
+            <volume>26</volume>
+            <fpage>589</fpage>
+            <lpage>595</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btp698</pub-id>
+            <pub-id pub-id-type="pmid">20080505</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2828108</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2013</year>
+            <volume>31</volume>
+            <fpage>213</fpage>
+            <lpage>219</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.2514</pub-id>
+            <pub-id pub-id-type="pmid">23396013</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3833702</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR47">
+          <label>47.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Saunders</surname>
+                <given-names>CT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Strelka: accurate somatic small-variant calling from sequenced tumor-normal sample pairs</article-title>
+            <source>Bioinformatics</source>
+            <year>2012</year>
+            <volume>28</volume>
+            <fpage>1811</fpage>
+            <lpage>1817</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/bts271</pub-id>
+            <pub-id pub-id-type="pmid">22581179</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR48">
+          <label>48.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Koboldt</surname>
+                <given-names>DC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing</article-title>
+            <source>Genome Res.</source>
+            <year>2012</year>
+            <volume>22</volume>
+            <fpage>568</fpage>
+            <lpage>576</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.129684.111</pub-id>
+            <pub-id pub-id-type="pmid">22300766</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3290792</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR49">
+          <label>49.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rimmer</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrating mapping-, assembly- and haplotype-based approaches for calling variants in clinical sequencing applications</article-title>
+            <source>Nat. Genet.</source>
+            <year>2014</year>
+            <volume>46</volume>
+            <fpage>912</fpage>
+            <lpage>918</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3036</pub-id>
+            <pub-id pub-id-type="pmid">25017105</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4753679</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR50">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Narzisi</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genome-wide somatic variant calling using localized colored de Bruijn graphs</article-title>
+            <source>Commun. Biol.</source>
+            <year>2018</year>
+            <volume>1</volume>
+            <fpage>20</fpage>
+            <pub-id pub-id-type="doi">10.1038/s42003-018-0023-9</pub-id>
+            <pub-id pub-id-type="pmid">30271907</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6123722</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR51">
+          <label>51.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Narzisi</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Accurate de novo and transmitted indel detection in exome-capture data using microassembly</article-title>
+            <source>Nat. Methods</source>
+            <year>2014</year>
+            <volume>11</volume>
+            <fpage>1033</fpage>
+            <lpage>1036</lpage>
+            <pub-id pub-id-type="doi">10.1038/nmeth.3069</pub-id>
+            <pub-id pub-id-type="pmid">25128977</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4180789</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR52">
+          <label>52.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Carter</surname>
+                <given-names>SL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Absolute quantification of somatic DNA alterations in human cancer</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2012</year>
+            <volume>30</volume>
+            <fpage>413</fpage>
+            <lpage>421</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.2203</pub-id>
+            <pub-id pub-id-type="pmid">22544022</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4383288</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR53">
+          <label>53.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pareja</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genomic Landscape of Mucinous Breast Cancer</article-title>
+            <source>J. Natl Cancer Inst.</source>
+            <year>2019</year>
+            <volume>111</volume>
+            <fpage>737</fpage>
+            <lpage>741</lpage>
+            <pub-id pub-id-type="doi">10.1093/jnci/djy216</pub-id>
+            <pub-id pub-id-type="pmid">30649385</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6624163</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR54">
+          <label>54.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seshan</surname>
+                <given-names>VE</given-names>
+              </name>
+            </person-group>
+            <article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e131</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw520</pub-id>
+            <pub-id pub-id-type="pmid">27270079</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5027494</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR55">
+          <label>55.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chang</surname>
+                <given-names>MT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Accelerating Discovery of Functional Mutant Alleles in Cancer</article-title>
+            <source>Cancer Disco.</source>
+            <year>2018</year>
+            <volume>8</volume>
+            <fpage>174</fpage>
+            <lpage>183</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-17-0321</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5809279</pub-id>
+            <pub-id pub-id-type="pmid">29247016</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR56">
+          <label>56.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gulhan</surname>
+                <given-names>DC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Detecting the mutational signature of homologous recombination deficiency in clinical samples</article-title>
+            <source>Nat. Genet.</source>
+            <year>2019</year>
+            <volume>51</volume>
+            <fpage>912</fpage>
+            <lpage>919</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41588-019-0390-2</pub-id>
+            <pub-id pub-id-type="pmid">30988514</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR57">
+          <label>57.</label>
+          <mixed-citation publication-type="other">Smith, E. S. et al. Endometrial Cancers in BRCA1 or BRCA2 Germline Mutation Carriers: Assessment of Homologous Recombination DNA Repair Defects. <italic toggle="yes">JCO Precis Oncol</italic>. <bold>3</bold>, (2019).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.19.00103</pub-id><pub-id pub-id-type="pmcid">PMC7446423</pub-id><pub-id pub-id-type="pmid">32914019</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR58">
+          <label>58.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rosenthal</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DeconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution</article-title>
+            <source>Genome Biol.</source>
+            <year>2016</year>
+            <volume>17</volume>
+            <fpage>31</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-016-0893-4</pub-id>
+            <pub-id pub-id-type="pmid">26899170</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4762164</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR59">
+          <label>59.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Razavi</surname>
+                <given-names>P</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genomic Landscape of Endocrine-Resistant Advanced Breast Cancers</article-title>
+            <source>Cancer Cell</source>
+            <year>2018</year>
+            <volume>34</volume>
+            <fpage>427</fpage>
+            <lpage>438.e426</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccell.2018.08.008</pub-id>
+            <pub-id pub-id-type="pmid">30205045</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6327853</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR60">
+          <label>60.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pareja</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Immunohistochemical analysis of IDH2 R172 hotspot mutations in breast papillary neoplasms: applications in the diagnosis of tall cell carcinoma with reverse polarity</article-title>
+            <source>Mod. Pathol.</source>
+            <year>2020</year>
+            <volume>33</volume>
+            <fpage>1056</fpage>
+            <lpage>1064</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41379-019-0442-2</pub-id>
+            <pub-id pub-id-type="pmid">31896809</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7286791</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR61">
+          <label>61.</label>
+          <mixed-citation publication-type="other">da Silva, E. M. et al. Metadata record for the manuscript: TERT promoter hotspot mutations and gene amplification in metaplastic breast cancer. <italic toggle="yes">figshare</italic>. 10.6084/m9.figshare.14160482 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41523-021-00250-8</pub-id><pub-id pub-id-type="pmcid">PMC8052452</pub-id><pub-id pub-id-type="pmid">33863915</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR62">
+          <label>62.</label>
+          <mixed-citation publication-type="other"><italic toggle="yes">Sequence Read Archive</italic>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://identifiers.org/ncbi/insdc.sra:SRP073692">https://identifiers.org/ncbi/insdc.sra:SRP073692</ext-link> (2016).</mixed-citation>
+        </ref>
+        <ref id="CR63">
+          <label>63.</label>
+          <mixed-citation publication-type="other"><italic toggle="yes">cBioPortal</italic>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://identifiers.org/cbioportal:msk_impact_2017">https://identifiers.org/cbioportal:msk_impact_2017</ext-link> (2017).</mixed-citation>
+        </ref>
+        <ref id="CR64">
+          <label>64.</label>
+          <mixed-citation publication-type="other"><italic toggle="yes">cBioPortal</italic>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://identifiers.org/cbioportal:mbc_msk_2021">https://identifiers.org/cbioportal:mbc_msk_2021</ext-link> (2021).</mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

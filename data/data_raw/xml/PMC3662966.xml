@@ -1,0 +1,881 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nature</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nature</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0028-0836</issn>
+        <issn pub-type="epub">1476-4687</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC3662966</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC3662966.1</article-id>
+        <article-id pub-id-type="pmcaid">3662966</article-id>
+        <article-id pub-id-type="pmcaiid">3662966</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS466054</article-id>
+        <article-id pub-id-type="pmid">22832583</article-id>
+        <article-id pub-id-type="doi">10.1038/nature11284</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS466054</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA466054</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>ICGC PedBrain: Dissecting the genomic complexity underlying medulloblastoma</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="DTW">David TW</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="author-notes" rid="FN1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jäger</surname>
+              <given-names initials="N">Natalie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kool</surname>
+              <given-names initials="M">Marcel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zichner</surname>
+              <given-names initials="T">Thomas</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hutter</surname>
+              <given-names initials="B">Barbara</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sultan</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cho</surname>
+              <given-names initials="YJ">Yoon-Jae</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pugh</surname>
+              <given-names initials="TJ">Trevor J</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hovestadt</surname>
+              <given-names initials="V">Volker</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stütz</surname>
+              <given-names initials="AM">Adrian M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rausch</surname>
+              <given-names initials="T">Tobias</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Warnatz</surname>
+              <given-names initials="HJ">Hans-Jörg</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ryzhova</surname>
+              <given-names initials="M">Marina</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bender</surname>
+              <given-names initials="S">Sebastian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sturm</surname>
+              <given-names initials="D">Dominik</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pleier</surname>
+              <given-names initials="S">Sabrina</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cin</surname>
+              <given-names initials="H">Huriye</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pfaff</surname>
+              <given-names initials="E">Elke</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sieber</surname>
+              <given-names initials="L">Laura</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wittmann</surname>
+              <given-names initials="A">Andrea</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Remke</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Witt</surname>
+              <given-names initials="H">Hendrik</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hutter</surname>
+              <given-names initials="S">Sonja</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tzaridis</surname>
+              <given-names initials="T">Theophilos</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weischenfeldt</surname>
+              <given-names initials="J">Joachim</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Raeder</surname>
+              <given-names initials="B">Benjamin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Avci</surname>
+              <given-names initials="M">Meryem</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Amstislavskiy</surname>
+              <given-names initials="V">Vyacheslav</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zapatka</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weber</surname>
+              <given-names initials="UD">Ursula D</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="Q">Qi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lasitschka</surname>
+              <given-names initials="B">Bärbel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bartholomae</surname>
+              <given-names initials="CC">Cynthia C</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schmidt</surname>
+              <given-names initials="M">Manfred</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>von Kalle</surname>
+              <given-names initials="C">Christof</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ast</surname>
+              <given-names initials="V">Volker</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lawerenz</surname>
+              <given-names initials="C">Chris</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Eils</surname>
+              <given-names initials="J">Jürgen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kabbe</surname>
+              <given-names initials="R">Rolf</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Benes</surname>
+              <given-names initials="V">Vladimir</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>van Sluis</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Koster</surname>
+              <given-names initials="J">Jan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Volckmann</surname>
+              <given-names initials="R">Richard</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shih</surname>
+              <given-names initials="D">David</given-names>
+            </name>
+            <xref ref-type="aff" rid="A15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Betts</surname>
+              <given-names initials="MJ">Matthew J</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Russell</surname>
+              <given-names initials="RB">Robert B</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Coco</surname>
+              <given-names initials="S">Simona</given-names>
+            </name>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tonini</surname>
+              <given-names initials="GP">Gian Paolo</given-names>
+            </name>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schüller</surname>
+              <given-names initials="U">Ulrich</given-names>
+            </name>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hans</surname>
+              <given-names initials="V">Volkmar</given-names>
+            </name>
+            <xref ref-type="aff" rid="A19">19</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Graf</surname>
+              <given-names initials="N">Norbert</given-names>
+            </name>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="YJ">Yoo-Jin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A21">21</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Monoranu</surname>
+              <given-names initials="C">Camelia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A22">22</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Roggendorf</surname>
+              <given-names initials="W">Wolfgang</given-names>
+            </name>
+            <xref ref-type="aff" rid="A22">22</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Unterberg</surname>
+              <given-names initials="A">Andreas</given-names>
+            </name>
+            <xref ref-type="aff" rid="A23">23</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Herold-Mende</surname>
+              <given-names initials="C">Christel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A23">23</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Milde</surname>
+              <given-names initials="T">Till</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A24">24</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kulozik</surname>
+              <given-names initials="AE">Andreas E</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>von Deimling</surname>
+              <given-names initials="A">Andreas</given-names>
+            </name>
+            <xref ref-type="aff" rid="A25">25</xref>
+            <xref ref-type="aff" rid="A26">26</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Witt</surname>
+              <given-names initials="O">Olaf</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A24">24</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Maass</surname>
+              <given-names initials="E">Eberhard</given-names>
+            </name>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rössler</surname>
+              <given-names initials="J">Jochen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A28">28</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ebinger</surname>
+              <given-names initials="M">Martin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A29">29</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schuhmann</surname>
+              <given-names initials="MU">Martin U</given-names>
+            </name>
+            <xref ref-type="aff" rid="A30">30</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Frühwald</surname>
+              <given-names initials="MC">Michael C</given-names>
+            </name>
+            <xref ref-type="aff" rid="A31">31</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hasselblatt</surname>
+              <given-names initials="M">Martin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A32">32</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jabado</surname>
+              <given-names initials="N">Nada</given-names>
+            </name>
+            <xref ref-type="aff" rid="A33">33</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rutkowski</surname>
+              <given-names initials="S">Stefan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A34">34</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>von Bueren</surname>
+              <given-names initials="AO">André O</given-names>
+            </name>
+            <xref ref-type="aff" rid="A34">34</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Williamson</surname>
+              <given-names initials="D">Dan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A35">35</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Clifford</surname>
+              <given-names initials="SC">Steven C</given-names>
+            </name>
+            <xref ref-type="aff" rid="A35">35</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McCabe</surname>
+              <given-names initials="MG">Martin G</given-names>
+            </name>
+            <xref ref-type="aff" rid="A36">36</xref>
+            <xref ref-type="aff" rid="A37">37</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Collins</surname>
+              <given-names initials="VP">V. Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="A37">37</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wolf</surname>
+              <given-names initials="S">Stephan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wiemann</surname>
+              <given-names initials="S">Stefan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lehrach</surname>
+              <given-names initials="H">Hans</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brors</surname>
+              <given-names initials="B">Benedikt</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scheurlen</surname>
+              <given-names initials="W">Wolfram</given-names>
+            </name>
+            <xref ref-type="aff" rid="A39">39</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Felsberg</surname>
+              <given-names initials="J">Jörg</given-names>
+            </name>
+            <xref ref-type="aff" rid="A40">40</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reifenberger</surname>
+              <given-names initials="G">Guido</given-names>
+            </name>
+            <xref ref-type="aff" rid="A40">40</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Northcott</surname>
+              <given-names initials="PA">Paul A</given-names>
+            </name>
+            <xref ref-type="aff" rid="A15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names initials="MD">Michael D</given-names>
+            </name>
+            <xref ref-type="aff" rid="A41">41</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyerson</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A42">42</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pomeroy</surname>
+              <given-names initials="SL">Scott L</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A43">43</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yaspo</surname>
+              <given-names initials="ML">Marie-Laure</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Korbel</surname>
+              <given-names initials="JO">Jan O</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Korshunov</surname>
+              <given-names initials="A">Andrey</given-names>
+            </name>
+            <xref ref-type="aff" rid="A25">25</xref>
+            <xref ref-type="aff" rid="A26">26</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Eils</surname>
+              <given-names initials="R">Roland</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A44">44</xref>
+            <xref ref-type="author-notes" rid="FN2">#</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pfister</surname>
+              <given-names initials="SM">Stefan M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="author-notes" rid="FN2">#</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lichter</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="author-notes" rid="FN2">#</xref>
+          </contrib>
+          <on-behalf-of>on behalf of the ICGC PedBrain Tumor Project</on-behalf-of>
+          <xref ref-type="aff" rid="A45">45</xref>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Division of Pediatric Neurooncology, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, Heidelberg, 69120, Germany</aff>
+        <aff id="A2"><label>2</label>Division of Theoretical Bioinformatics, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, Heidelberg, 69120, Germany</aff>
+        <aff id="A3"><label>3</label>European Molecular Biology Laboratory (EMBL), Meyerhofstrasse 1, Heidelberg, 69117, Germany</aff>
+        <aff id="A4"><label>4</label>Max Planck Institute for Molecular Genetics, Ihnestrasse 63-73, Berlin, 14195, Germany</aff>
+        <aff id="A5"><label>5</label>Division of Child Neurology, Stanford University, 750 Welch Road, Palo Alto, CA, 94304, USA</aff>
+        <aff id="A6"><label>6</label>Broad Institute of MIT and Harvard, Cambridge, MA, 02142, USA</aff>
+        <aff id="A7"><label>7</label>Division of Molecular Genetics, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, Heidelberg, 69120, Germany</aff>
+        <aff id="A8"><label>8</label>Department of Neuropathology, NN Burdenko Neurosurgical Institute, 4th Tverskaya-Yamskaya 16, Moscow, 125047, Russia</aff>
+        <aff id="A9"><label>9</label>Department of Pediatric Oncology, Hematology &amp; Immunology, Heidelberg University Hospital, Im Neuenheimer Feld 430, Heidelberg, 69120, Germany</aff>
+        <aff id="A10"><label>10</label>Genomics and Proteomics Core Facility, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, Heidelberg, 69120, Germany</aff>
+        <aff id="A11"><label>11</label>Division of Translational Oncology, German Cancer Research Center (DKFZ) and National Center for Tumor Diseases (NCT), Im Neuenheimer Feld 460, Heidelberg, 69120, Germany</aff>
+        <aff id="A12"><label>12</label>Data Management Facility, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, Heidelberg, 69120, Germany</aff>
+        <aff id="A13"><label>13</label>Genomics Core Facility, European Molecular Biology Laboratory (EMBL), Meyerhofstrasse 1, Heidelberg, 69117, Germany</aff>
+        <aff id="A14"><label>14</label>Department of Oncogenomics, AMC, University of Amsterdam, Meibergdreef 9, Amsterdam, 1105 AZ, Netherlands</aff>
+        <aff id="A15"><label>15</label>The Arthur and Sonia Labbatt Brain Tumor Research Centre, Hospital for Sick Children, 555 University Avenue, Toronto, Ontario, M5G 1X8, Canada</aff>
+        <aff id="A16"><label>16</label>Cell Networks Cluster of Excellence, University of Heidelberg, Heidelberg, 69120, Germany</aff>
+        <aff id="A17"><label>17</label>Department of Advanced Diagnostic Technologies, IRCCS Azienda Ospedaliera Universitaria San Martino - IST Istituto Nazionale per la Ricerca sul Cancro, L.go R. Benzi, 10, Genoa, 16132, Italy</aff>
+        <aff id="A18"><label>18</label>Center for Neuropathology and Prion Research, University of Munich, Feodor-Lynen-Strasse 23, Munich, 81377, Germany</aff>
+        <aff id="A19"><label>19</label>Institute for Neuropathology, Evangelisches Krankenhaus, Remterweg 2, Bielefeld, 33617, Germany</aff>
+        <aff id="A20"><label>20</label>Department of Paediatric Oncology and Haematology, Saarland University Hospital, Homburg, 66421, Germany</aff>
+        <aff id="A21"><label>21</label>Institute for Pathology, Saarland University Hospital, Kirrberger Strasse, Homburg, 66424, Germany</aff>
+        <aff id="A22"><label>22</label>Department of Neuropathology, Institute of Pathology, Würzburg University Josef-Schneider Strasse 2, Würzburg, 97080, Germany</aff>
+        <aff id="A23"><label>23</label>Department of Neurosurgery, Heidelberg University Hospital, Im Neuenheimer Feld 400, Heidelberg, 69120, Germany</aff>
+        <aff id="A24"><label>24</label>Clinical Cooperation Unit Pediatric Oncology, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, Heidelberg, 69120, Germany</aff>
+        <aff id="A25"><label>25</label>Department of Neuropathology, University of Heidelberg, Im Neuenheimer Feld 220, Heidelberg, 69120, Germany</aff>
+        <aff id="A26"><label>26</label>Clinical Cooperation Unit Neuropathology, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 220-221, Heidelberg, 69120, Germany</aff>
+        <aff id="A27"><label>27</label>Department of Pediatric Oncology, Hematology &amp; Immunology, Klinikum Stuttgart Olgahospital, Bismarckstrasse 8, Stuttgart, 70176, Germany</aff>
+        <aff id="A28"><label>28</label>Department of Paediatric Haematology and Oncology, University Hospital Freiburg, Mathildenstrasse 1, Freiburg, 79106, Germany</aff>
+        <aff id="A29"><label>29</label>Department of Hematology and Oncology, Children's University Hospital, Hoppe-Seyler Strasse 1, Tübingen, 72076, Germany</aff>
+        <aff id="A30"><label>30</label>Department of Neurosurgery, University Hospital, Hoppe-Seyler Strasse 3, Tübingen, 72076, Germany</aff>
+        <aff id="A31"><label>31</label>Children's Hospital Augsburg, Stenglinstrasse 2, Augsburg, 86156, Germany</aff>
+        <aff id="A32"><label>32</label>Institute of Neuropathology, University Hospital Münster, Albert-Schweitzer-Campus 1, Münster, 48149, Germany</aff>
+        <aff id="A33"><label>33</label>Departments of Pediatrics and Human Genetics, McGill University and the McGill University Health Center Research Institute, Montreal, Quebec, H3Z 2Z3, Canada</aff>
+        <aff id="A34"><label>34</label>Department of Paediatric Haematology and Oncology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, Hamburg, 20246, Germany</aff>
+        <aff id="A35"><label>35</label>Northern Institute for Cancer Research, Newcastle University, Royal Victoria Infirmary, Newcastle-upon-Tyne, NE1 4LP, UK</aff>
+        <aff id="A36"><label>36</label>School of Cancer and Enabling Sciences, University of Manchester, Manchester Academic Health Science Centre, Manchester, M13 9PL, UK</aff>
+        <aff id="A37"><label>37</label>Division of Molecular Histopathology, Department of Pathology, University of Cambridge, Cambridge, CB2 0QQ, UK</aff>
+        <aff id="A38"><label>38</label>Division of Molecular Genome Analysis, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, Heidelberg, 69120, Germany</aff>
+        <aff id="A39"><label>39</label>Cnopf'sche Kinderklinik, Nürnberg Children's Hospital, St.-Johannis-Mühlgasse 19, Nürnberg, 90419, Germany</aff>
+        <aff id="A40"><label>40</label>Department of Neuropathology, Heinrich-Heine-University Düsseldorf, Moorenstrasse 5, Düsseldorf, 40225, Germany</aff>
+        <aff id="A41"><label>41</label>Division of Neurosurgery and The Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children, 555 University Avenue, Toronto, Ontario, M5G 1X8, Canada</aff>
+        <aff id="A42"><label>42</label>Dana Farber Cancer Institute, 450 Brookline Avenue, Boston, MA, 02215, USA</aff>
+        <aff id="A43"><label>43</label>Children's Hospital Boston, 300 Longwood Avenue, Boston, MA, 02115, USA</aff>
+        <aff id="A44"><label>44</label>Institute of Pharmacy and Molecular Biotechnology, and Bioquant Center, University of Heidelberg, Im Neuenheimer Feld 267, Heidelberg, 69120, Germany</aff>
+        <aff id="A45">
+          <label>45</label>
+          <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.pedbraintumor.org">http://www.pedbraintumor.org</ext-link>
+        </aff>
+        <author-notes>
+          <corresp id="cor1">Correspondence and requests for materials should be addressed to: R.E. (<email>r.eils@dkfz-heidelberg.de</email>), S.M.P (<email>s.pfister@dkfz-heidelberg.de</email>), or P.L. (<email>m.macleod@dkfz-heidelberg.de</email>)</corresp>
+          <fn id="FN1" fn-type="equal">
+            <label>*</label>
+            <p id="P1">These authors contributed equally</p>
+          </fn>
+          <fn id="FN2" fn-type="equal">
+            <label>#</label>
+            <p id="P2">These authors contributed equally</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="ppub">
+          <day>2</day>
+          <month>8</month>
+          <year>2012</year>
+        </pub-date>
+        <volume>488</volume>
+        <issue>7409</issue>
+        <issue-id pub-id-type="pmc-issue-id">223261</issue-id>
+        <fpage>100</fpage>
+        <lpage>105</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>30</day>
+              <month>04</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>24</day>
+              <month>05</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>24</day>
+              <month>05</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-05 22:06:41.443">
+              <day>05</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms466054.pdf"/>
+        <abstract>
+          <title>Summary</title>
+          <p id="P3">Medulloblastoma is an aggressively-growing tumour, arising in the cerebellum or medulla/brain stem. It is the most common malignant brain tumour in children, and displays tremendous biological and clinical heterogeneity<sup><xref ref-type="bibr" rid="R1">1</xref></sup>. Despite recent treatment advances, approximately 40% of children experience tumour recurrence, and 30% will die from their disease. Those who survive often have a significantly reduced quality of life.</p>
+          <p id="P4">Four tumour subgroups with distinct clinical, biological and genetic profiles are currently discriminated<sup><xref ref-type="bibr" rid="R2">2</xref>,<xref ref-type="bibr" rid="R3">3</xref></sup>. WNT tumours, displaying activated wingless pathway signalling, carry a favourable prognosis under current treatment regimens<sup><xref ref-type="bibr" rid="R4">4</xref></sup>. SHH tumours show hedgehog pathway activation, and have an intermediate prognosis<sup><xref ref-type="bibr" rid="R2">2</xref></sup>. Group 3 &amp; 4 tumours are molecularly less well-characterised, and also present the greatest clinical challenges<sup><xref ref-type="bibr" rid="R2">2</xref>,<xref ref-type="bibr" rid="R3">3</xref>,<xref ref-type="bibr" rid="R5">5</xref></sup>. The full repertoire of genetic events driving this distinction, however, remains unclear.</p>
+          <p id="P5">Here we describe an integrative deep-sequencing analysis of 125 tumour-normal pairs. Tetraploidy was identified as a frequent early event in Group 3 &amp; 4 tumours, and a positive correlation between patient age and mutation rate was observed. Several recurrent mutations were identified, both in known medulloblastoma-related genes (<italic toggle="yes">CTNNB1</italic>, <italic toggle="yes">PTCH1</italic>, <italic toggle="yes">MLL2, SMARCA4</italic>) and in genes not previously linked to this tumour (<italic toggle="yes">DDX3X</italic>, <italic toggle="yes">CTDNEP1</italic>, <italic toggle="yes">KDM6A, TBR1</italic>), often in subgroup-specific patterns. RNA-sequencing confirmed these alterations, and revealed the expression of the first medulloblastoma fusion genes. Chromatin modifiers were frequently altered across all subgroups.</p>
+          <p id="P6">These findings enhance our understanding of the genomic complexity and heterogeneity underlying medulloblastoma, and provide several potential targets for new therapeutics, especially for Group 3 &amp; 4 patients.</p>
+        </abstract>
+        <funding-group>
+          <award-group>
+            <funding-source country="United States">National Cancer Institute : NCI</funding-source>
+            <award-id>R01 CA109467 || CA</award-id>
+          </award-group>
+          <award-group>
+            <funding-source country="United States">National Institute of Child Health &amp; Human Development : NICHD</funding-source>
+            <award-id>P30 HD018655 || HD</award-id>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

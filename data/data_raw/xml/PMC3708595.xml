@@ -1,0 +1,2868 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC3708595</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC3708595.1</article-id>
+        <article-id pub-id-type="pmcaid">3708595</article-id>
+        <article-id pub-id-type="pmcaiid">3708595</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS474972</article-id>
+        <article-id pub-id-type="pmid">23685749</article-id>
+        <article-id pub-id-type="doi">10.1038/ng.2643</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS474972</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA474972</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>The Mutational Landscape of Adenoid Cystic Carcinoma</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ho</surname>
+              <given-names initials="AS">Allen S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN1">†</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kannan</surname>
+              <given-names initials="K">Kasthuri</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="author-notes" rid="FN1">†</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Roy</surname>
+              <given-names initials="DM">David M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="author-notes" rid="FN1">†</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names initials="LGT">Luc G.T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ganly</surname>
+              <given-names initials="I">Ian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Katabi</surname>
+              <given-names initials="N">Nora</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ramaswami</surname>
+              <given-names initials="D">Deepa</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Walsh</surname>
+              <given-names initials="LA">Logan A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Eng</surname>
+              <given-names initials="S">Stephanie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Huse</surname>
+              <given-names initials="JT">Jason T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="J">Jianan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dolgalev</surname>
+              <given-names initials="I">Igor</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Huberman</surname>
+              <given-names initials="K">Kety</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heguy</surname>
+              <given-names initials="A">Adriana</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Viale</surname>
+              <given-names initials="A">Agnes</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Drobnjak</surname>
+              <given-names initials="M">Marija</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Leversha</surname>
+              <given-names initials="MA">Margaret A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rice</surname>
+              <given-names initials="CE">Christine E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Singh</surname>
+              <given-names initials="B">Bhuvanesh</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Iyer</surname>
+              <given-names initials="NG">N. Gopalakrishna</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Leemans</surname>
+              <given-names initials="CR">C. Rene</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bloemena</surname>
+              <given-names initials="E">Elisabeth</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ferris</surname>
+              <given-names initials="RL">Robert L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Seethala</surname>
+              <given-names initials="RR">Raja R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gross</surname>
+              <given-names initials="BE">Benjamin E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liang</surname>
+              <given-names initials="Y">Yupu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sinha</surname>
+              <given-names initials="R">Rileen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Peng</surname>
+              <given-names initials="L">Luke</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Raphael</surname>
+              <given-names initials="BJ">Benjamin J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Turcan</surname>
+              <given-names initials="S">Sevin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gong</surname>
+              <given-names initials="Y">Yongxing</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schultz</surname>
+              <given-names initials="N">Nikolaus</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="S">Seungwon</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chiosea</surname>
+              <given-names initials="S">Simion</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="JP">Jatin P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sander</surname>
+              <given-names initials="C">Chris</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="W">William</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chan</surname>
+              <given-names initials="TA">Timothy A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A14">14</xref>
+            <xref ref-type="corresp" rid="cor1">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Human Oncology and Pathogenesis Program, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A2"><label>2</label>Head and Neck Service, Department of Surgery, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A3"><label>3</label>Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A4"><label>4</label>Genomics Core, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A5"><label>5</label>Pathology Core, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A6"><label>6</label>Molecular Cytogenetics Core, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A7"><label>7</label>Department of Surgical Oncology, National Cancer Center Singapore, Singapore.</aff>
+        <aff id="A8"><label>8</label>Department of Otolaryngology-Head and Neck Surgery, VU University Medical Center, Amsterdam, Netherlands.</aff>
+        <aff id="A9"><label>9</label>Department of Oral and Maxillofacial Surgery and Oral Pathology, VU University Medical Center, Academic Centre for Dentistry, Amsterdam, Netherlands.</aff>
+        <aff id="A10"><label>10</label>Department of Otolaryngology-Head and Neck Surgery, University of Pittsburgh Medical Center, Pittsburgh, PA.</aff>
+        <aff id="A11"><label>11</label>Department of Pathology, University of Pittsburgh Medical Center, Pittsburgh, PA.</aff>
+        <aff id="A12"><label>12</label>Department of Computer Science and Center for Computational Molecular Biology, Brown University, Rhode Island, RI.</aff>
+        <aff id="A13"><label>13</label>Computational Biology Center, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A14"><label>14</label>Department of Radiation Oncology, Memorial Sloan-Kettering Cancer Center, New York, NY.</aff>
+        <author-notes>
+          <corresp id="cor1"><label>*</label>Correspondence and requests for materials should be addressed to T.A.C. (<email>chant@mskcc.org</email>)</corresp>
+          <fn id="FN1" fn-type="equal">
+            <label>†</label>
+            <p id="P1">These authors contributed equally to this work.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>19</day>
+          <month>5</month>
+          <year>2013</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>7</month>
+          <year>2013</year>
+        </pub-date>
+        <volume>45</volume>
+        <issue>7</issue>
+        <issue-id pub-id-type="pmc-issue-id">224959</issue-id>
+        <fpage>791</fpage>
+        <lpage>798</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>12</day>
+              <month>06</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>01</day>
+              <month>01</month>
+              <year>2014</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>01</month>
+              <year>2014</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-12 15:25:15.407">
+              <day>12</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms474972.pdf"/>
+        <abstract>
+          <p id="P2">Adenoid cystic carcinomas (ACCs) are among the most enigmatic of human malignancies. These aggressive salivary cancers frequently recur and metastasize despite definitive treatment, with no known effective chemotherapy regimen. Here, we determined the ACC mutational landscape and report the exome or whole genome sequences of 60 ACC tumor/normal pairs. These analyses revealed a low exonic somatic mutation rate (0.31 non-silent events/megabase) and wide mutational diversity. Interestingly, mutations selectively involved chromatin state regulators, such as <italic toggle="yes">SMARCA2</italic>, <italic toggle="yes">CREBBP</italic>, and <italic toggle="yes">KDM6A</italic>, suggesting aberrant epigenetic regulation in ACC oncogenesis. Mutations in genes central to DNA damage and protein kinase A signaling also implicate these processes. We observed <italic toggle="yes">MYB-NFIB</italic> translocations and somatic mutations in <italic toggle="yes">MYB</italic>-associated genes, solidifying these aberrations as critical events. Lastly, we identified recurrent mutations in the FGF/IGF/PI3K pathway that may potentially offer new avenues for therapy (30%). Collectively, our observations establish a molecular foundation for understanding and exploring new treatments for ACC.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p id="P3">Adenoid cystic carcinomas (ACCs) are malignancies that cause significant morbidity and mortality. Typically arising from salivary glands, they are characterized by unpredictable growth, extensive perineural invasion, and high rates of metastasis, ultimately resulting in low survival rates. Treatment remains limited to surgery and radiation, and no systemic agent has been found to be effective.<sup><xref rid="R1" ref-type="bibr">1</xref></sup> Although high EGFR and c-kit expression have been identified<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R3" ref-type="bibr">3</xref></sup>, drugs against these targets have not led to substantive clinical responses.<sup><xref rid="R4" ref-type="bibr">4</xref></sup> Other initial findings include the identification of <italic toggle="yes">MYB-NFIB</italic> fusion proteins but their significance remains unclear.<sup><xref rid="R5" ref-type="bibr">5</xref></sup> A deeper grasp of the underlying genomic foundations of ACC is needed to understand its molecular basis and guide the development of effective therapies.</p>
+      <p id="P4">We sequenced the entire exome (n=55) or genome (n=5) of 60 ACC samples with matched normal DNA (<xref ref-type="table" rid="T1">Table 1</xref>). This approach generated 2,221 gigabases of mapped sequence with 92.4% of the target sequence covered to at least 10x depth. Sequencing generated a mean exome and genome coverage of 106x and 37x, respectively. To ensure the accuracy of our massively parallel sequencing data, we conducted extensive validation of nearly every candidate somatic mutation identified (2,751 variant calls) (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1</xref>) using targeted re-sequencing (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 2</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 1</xref>). In addition, we also performed FISH analysis for the <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> translocation (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 3</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 2</xref>).</p>
+      <p id="P5">We identified a mean of 22 somatic mutations per sample, corresponding to approximately 0.31 non-silent mutations per MB. This rate is quite low compared to most adult solid tumors such as head and neck squamous cell carcinoma<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup> and colon cancer<sup><xref rid="R8" ref-type="bibr">8</xref></sup> yet similar to hematologic malignancies and neuroblastoma.<sup><xref rid="R9" ref-type="bibr">9</xref>–<xref rid="R11" ref-type="bibr">11</xref></sup> The transition/transversion ratio (Ti/Tv) was 1.1, similar to some carcinogen-driven malignancies<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R12" ref-type="bibr">12</xref></sup> but unlike most described cancer types.<sup><xref rid="R13" ref-type="bibr">13</xref></sup> The somatic mutation frequency correlated with solid histology (Wilcoxon rank-sum test, p = 4.0 × 10<sup>−2</sup>), and <italic toggle="yes">MYB</italic> translocations occurred in 57% of samples (34/60).</p>
+      <p id="P6">We validated 710 distinct nonsynonymous mutations across 643 genes (1–36 per tumor) (<xref ref-type="fig" rid="F1">Fig. 1a</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 3</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 4</xref>). This represents substantial mutational heterogeneity across tumors (<xref ref-type="fig" rid="F1">Fig. 1b</xref>, <xref ref-type="fig" rid="F2">Fig. 2</xref>). We employed CHASM, a widely used approach for distinguishing driver from passenger mutations,<sup><xref rid="R14" ref-type="bibr">14</xref></sup> to identify multiple potential driver mutations, including those in <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">TP53</italic>, <italic toggle="yes">PTEN</italic>, <italic toggle="yes">SMARCA2</italic>, <italic toggle="yes">KDM6A</italic>, and <italic toggle="yes">CREBBP</italic> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Tables 4</xref>, <xref ref-type="supplementary-material" rid="SD1">5</xref>). Analysis of these driver genes demonstrated marked enrichment in pathways involved in chromatin remodeling, DNA damage, <italic toggle="yes">MYB</italic>, protein kinase A (PKA) signaling, and PI3K signaling (<xref ref-type="fig" rid="F1">Fig. 1c–e</xref>). For example, despite low overall mutation frequency, 35% of ACC tumors were mutated in chromatin regulators. These data suggest that the ACC mutational landscape is characterized by combinations of <italic toggle="yes">MYB</italic> pathway alterations and mutations in specific biological processes (<xref ref-type="fig" rid="F2">Fig. 2</xref>). Interestingly, a small subset (n=8) were observed with no CHASM-designated driver mutations. It is possible that some mutations in these tumors are drivers not called by CHASM or that other, non-exonic alterations are important in these tumors.</p>
+      <p id="P7">We used exome and genome sequencing data to characterize the copy number landscape of these tumors. We analyzed somatic copy number variations (CNVs) using ExomeCNV<sup><xref rid="R15" ref-type="bibr">15</xref></sup> and found high concordance with a subset (n=12) that underwent array-based analysis. GISTIC2.0<sup><xref rid="R16" ref-type="bibr">16</xref></sup> identified recurrent high-level losses in 6q24, 12q13, and 14q (<xref ref-type="fig" rid="F3">Fig. 3a</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 6</xref>).<sup><xref rid="R5" ref-type="bibr">5</xref></sup> Samples with 14q loss were more likely to be of solid histology (Fisher’s exact test, p = 2.0 × 10<sup>−4</sup>), while samples with 6q24 loss were enriched for advanced stage (p = 4.0 × 10<sup>−2</sup>). Expression array analysis on 23 ACC tumors found no distinct subgroups (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 5</xref>). Genes harboring driver mutations were confirmed to be generally expressed in ACC tumors (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 7</xref>).</p>
+      <p id="P8">Whole genome paired-end sequencing identified numerous structural variants (SVs) (<xref ref-type="fig" rid="F3">Fig. 3b</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 8</xref>), with the existence of 17 SVs across 5 samples confirmed using PCR (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 9</xref>). Combined with FISH data, <italic toggle="yes">MYB</italic> translocations were the only recurrent SVs detected. However, we cannot exclude the presence of less common recurrent translocations.<sup><xref rid="R17" ref-type="bibr">17</xref></sup> Intriguingly, one sample harbored a tandem duplication within <italic toggle="yes">FGFR2</italic>. Similar alterations comprised of dimerized, constitutively active variants have been described in hematologic malignancies.<sup><xref rid="R18" ref-type="bibr">18</xref></sup> We did not detect a fusion transcript from this tumor using RT-PCR, but this does not rule out an alternative transcript configuration. Larger numbers will need to be analyzed to further characterize its incidence and impact. The remaining variants were not predicted to be in-frame. Collectively, few CNVs or SVs were found across the cohort, demonstrating the relatively “quiet” nature of the ACC genome. Thus, our data indicate that ACC’s major SVs are <italic toggle="yes">MYB</italic> translocations and recurrent deletions on 6q24, 12q13, and 14q.</p>
+      <p id="P9">A prominent feature of the ACC mutational landscape is the presence of multiple mutations targeting chromatin remodeling genes (35% incidence) (<xref ref-type="fig" rid="F1">Fig. 1d</xref>, <xref ref-type="fig" rid="F4">Fig. 4a</xref>). Such alterations are increasingly recognized as playing key roles in oncogenesis<sup><xref rid="R19" ref-type="bibr">19</xref>,<xref rid="R20" ref-type="bibr">20</xref></sup> and have been reported in various other tumors<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R21" ref-type="bibr">21</xref></sup> but not ACC. Among ACC alterations, chromatin state modifiers were substantially enriched for somatic mutations (q = 4.5 × 10<sup>−3</sup>). We identified multiple aberrations in the SWI/SNF-related, matrix associated, actin dependent regulator of chromatin (SMARC) family, including <italic toggle="yes">SMARCA2</italic> (5%) and single mutations in <italic toggle="yes">SMARCE1</italic> (2%), <italic toggle="yes">ARID1A</italic> (2%), and <italic toggle="yes">ATRX</italic> (2%). SMARC mutations contribute to the development of both cancers and genetic diseases.<sup><xref rid="R21" ref-type="bibr">21</xref>–<xref rid="R25" ref-type="bibr">25</xref></sup>
+<italic toggle="yes">SMARCA2</italic> encodes a core catalytic subunit of the SWI/SNF complex involved in regulating gene transcription.<sup><xref rid="R26" ref-type="bibr">26</xref></sup> All <italic toggle="yes">SMARCA2</italic> mutations were clustered within the Helicase C family domain (T1126I, G1132V, G1164W). Notably, mutated helicases have been shown to increase cancer susceptibility, likely by disturbing core repair mechanisms.<sup><xref rid="R27" ref-type="bibr">27</xref></sup> Similarly, we identified likely loss of function in <italic toggle="yes">SMARCE1</italic> (2%), another SWI/SNF complex gene with a HMG box domain mutation (Y73C) that likely affects DNA binding.<sup><xref rid="R28" ref-type="bibr">28</xref></sup> Additional recurrent mutations include <italic toggle="yes">CREBBP</italic> (7%), a histone acetyltransferase that enables transcription across multiple critical signaling pathways.<sup><xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R25" ref-type="bibr">25</xref>,<xref rid="R29" ref-type="bibr">29</xref></sup> The majority of <italic toggle="yes">CREBBP</italic> mutations clustered in the critical KAT11 histone acetylation domain (R1446C, I1453N, W1472S).<sup><xref rid="R30" ref-type="bibr">30</xref></sup> We also observed numerous <italic toggle="yes">KDM6A</italic> missense mutations (7%), a histone demethylase also termed <italic toggle="yes">UTX</italic>.<sup><xref rid="R31" ref-type="bibr">31</xref></sup> The functional impact of these <italic toggle="yes">KDM6A</italic> mutations was evaluated via a well-characterized H3K27me3 assay. We observed abrogation of demethylase activity in cells overexpressing mutant but not those overexpressing wildtype <italic toggle="yes">KDM6A</italic> (<xref ref-type="fig" rid="F5">Fig. 5a–b</xref>). Moreover, whereas wildtype <italic toggle="yes">KDM6A</italic> suppressed growth, mutants either lost the ability to suppress growth or in some cases, augmented it (dominant phenotype).</p>
+      <p id="P10">Other related mutations include those involved in histone acetyltransferase/deacetylase activity (<italic toggle="yes">EP300</italic>, <italic toggle="yes">ARID4B</italic>, <italic toggle="yes">ARID5B</italic>, <italic toggle="yes">BRD1</italic>), histone methyltransferase/demethylase function (<italic toggle="yes">FTSDJ1</italic>, <italic toggle="yes">MLL3</italic>), as well as histones themselves (<italic toggle="yes">HIST1H2AL</italic>, <italic toggle="yes">HIST1H1E</italic>). <italic toggle="yes">EP300</italic> binds <italic toggle="yes">CREBBP</italic> as a transcriptional co-activator that regulates cell proliferation and differentiation<sup><xref rid="R32" ref-type="bibr">32</xref></sup>, and harbored a splice site mutation within its KAT11 histone acetylation domain (G1429_splice). <italic toggle="yes">HIST1H2AL</italic> encodes a core component of the nucleosome, while <italic toggle="yes">HIST1H1E</italic> is known to link histones for compaction into higher-order structures. Importantly, histone mutations have been implicated in cancers such as pediatric gliomas.<sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref></sup> While mutations in our study were observed within known domains, (R18L in core histone H2A/H2B/H3/H4 and K75N in linker histone H1/H5 domains, respectively), further investigation will be necessary to determine their functional impact. Overall, a diversity of chromatin genes was involved, suggesting that disparate means of chromatin dysregulation may promote ACC development through convergent pathways. Given the emerging importance of epigenetic agents on other disorders<sup><xref rid="R35" ref-type="bibr">35</xref>,<xref rid="R36" ref-type="bibr">36</xref></sup>, similar treatments for ACC cases with chromatin derangements may hold promise.</p>
+      <p id="P11">We observed a second group of mutations in genes involved in DNA damage response (q = 5.6 × 10<sup>−3</sup>) (<xref ref-type="fig" rid="F4">Fig. 4b</xref>). In <italic toggle="yes">TP53</italic> (5% incidence), one missense (P151S) and 2 nonsense mutations (R213*, R342*) in the central binding and tetramer motifs were found (<xref ref-type="fig" rid="F1">Fig. 1e</xref>). Similarly <italic toggle="yes">UHRF1</italic>, a ubiquitin ligase involved in the p53-dependent DNA damage checkpoint<sup><xref rid="R37" ref-type="bibr">37</xref></sup>, was altered in 8% of patients (2 mutations, 3 homozygous deletions). <italic toggle="yes">TXNIP</italic>, a protein frequently repressed in cancers<sup><xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R39" ref-type="bibr">39</xref></sup>, was noted to have a frameshift insertion in its arrestin domain (L129fs). We also discovered 2 missense mutations each within individual samples in <italic toggle="yes">ATM</italic>, <italic toggle="yes">BRCA1</italic>, and <italic toggle="yes">DCLRE1A</italic>, a DNA cross-link repair gene. Notably, markedly decreased expression in key <italic toggle="yes">TP53</italic> transcriptional targets was specifically identified in tumors with <italic toggle="yes">TP53</italic> pathway alterations (binomial test, p = 1.0 × 10<sup>−4</sup>) (<xref ref-type="fig" rid="F5">Fig. 5c</xref>).</p>
+      <p id="P12">Previous work has implicated <italic toggle="yes">MYB</italic> as an ACC fusion oncogene with <italic toggle="yes">NFIB</italic> via a t(6;9) translocation<sup><xref rid="R40" ref-type="bibr">40</xref></sup> (<xref ref-type="fig" rid="F4">Fig. 4c</xref>). Indeed, we verified 57% of our cohort as <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic>(+) by FISH analysis. We extend this initial finding and observe further <italic toggle="yes">MYB</italic> pathway dysregulation with alterations found in an additional 8% of cases. Specifically, splice site and coding mutations involving exon 10 of <italic toggle="yes">MYB</italic> were seen, potentially disrupting its leucine-rich negative regulatory domain<sup><xref rid="R40" ref-type="bibr">40</xref></sup> and triggering constitutive activation. Five additional homozygous deletions were identified on CNV analysis (4/5 were <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic>(+)), though these may be secondary alterations around the translocation. Other mutations identified in the <italic toggle="yes">MYB</italic> pathway included <italic toggle="yes">MYCBP2</italic>, <italic toggle="yes">MGA</italic>, and <italic toggle="yes">MCM4</italic>. In <italic toggle="yes">NFIB</italic>, we observed two truncating mutations in the CTF/NFI transcription modulation domains (Y249*, P390fs), in addition to 4 homozygous deletions (all were <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic>(+)). Our data highlight <italic toggle="yes">MYB</italic> in ACC as an active oncogenic partner in fusion transcripts but also suggest a separate role for <italic toggle="yes">NFIB</italic> given the presence of specific mutations in this gene.</p>
+      <p id="P13">Multiple genes involved in the PKA pathway were found to be mutated (27% incidence, q = 4.2 × 10<sup>−3</sup>). We identified recurrent mutations in <italic toggle="yes">RYR3</italic> (7%) and <italic toggle="yes">RYR2</italic> (2%), both tetrameric, intracellular calcium channels implicated in breast cancer progression.<sup><xref rid="R41" ref-type="bibr">41</xref>,<xref rid="R42" ref-type="bibr">42</xref></sup> Mutations were also observed in PKA pathway-associated genes that are known or potential tumor suppressors, including tyrosine phosphatases (<italic toggle="yes">PTPRG</italic>, <italic toggle="yes">PTPRH</italic>, <italic toggle="yes">PTPRJ</italic>, <italic toggle="yes">PTPRK</italic>). Nonsense (<italic toggle="yes">PTPRG</italic>, <italic toggle="yes">PTPRH</italic>) and frameshift mutations (<italic toggle="yes">PTPRK</italic>) abrogate their phosphatase domains (E736*, W602*, L457fs, respectively), while an additional 4 samples had <italic toggle="yes">PTPRK</italic> homozygous deletions. PKA-related genes are known to facilitate <italic toggle="yes">CREBBP</italic> recruitment via calcium influx<sup><xref rid="R43" ref-type="bibr">43</xref></sup> and CREB phosphorylation, regulating multiple critical developmental processes involved in tumorigenesis.<sup><xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R44" ref-type="bibr">44</xref></sup></p>
+      <p id="P14">Mutations in genes important in the FGF/IGF/PI3K pathway were also identified in 30% of our cohort (q = 2.4 × 10<sup>−2</sup>) (<xref ref-type="fig" rid="F4">Fig. 4d</xref>). Three tumors harbored separate missense mutations in <italic toggle="yes">PIK3CA</italic> (<xref ref-type="fig" rid="F1">Fig. 1e</xref>). Another tumor had two mutations in the catalytic domain of <italic toggle="yes">PTEN</italic> (R130fs, K144Q). All five lesions occurred in hotspots (COSMIC v61).<sup><xref rid="R45" ref-type="bibr">45</xref></sup>
+<italic toggle="yes">FOXO3</italic><sup><xref rid="R46" ref-type="bibr">46</xref></sup> was also altered in 7% of patients. We further identified mutations in receptor kinase/PI3K-associated genes, including <italic toggle="yes">FGF16</italic>, <italic toggle="yes">FGFR4</italic>, <italic toggle="yes">IGFBP2</italic>, and <italic toggle="yes">ILR17RD</italic>. Fibroblast growth factors and insulin-like growth factors are potent oncogenic PI3K activators<sup><xref rid="R47" ref-type="bibr">47</xref>,<xref rid="R48" ref-type="bibr">48</xref></sup>, while <italic toggle="yes">IL17RD</italic> appears to be a PI3K inhibitor through its interaction with <italic toggle="yes">FGFR</italic>.<sup><xref rid="R49" ref-type="bibr">49</xref></sup> The samples with PI3K-associated insults all demonstrated solid histology, the most aggressive ACC variant (Fisher’s exact test, p &lt; 1.6 × 10<sup>−3</sup>). We further evaluated PI3K-altered samples using immunohistochemistry (p-AKT and p-PRAS40). Functional activation of the PI3K pathway was observed in all ACC tumors harboring <italic toggle="yes">PIK3CA</italic> or <italic toggle="yes">PTEN</italic> mutations, but not in wild-type tumors (<xref ref-type="fig" rid="F5">Fig. 5d</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 7</xref>). This is supported by the presence of significantly enriched PI3K signatures in PI3K-mutant ACC tumors via GSEA (Gene Set Enrichment Analysis) (p &lt; 1.0 × 10<sup>−3</sup>) (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 8a</xref>). Together, these findings delineate a previously undescribed subset of ACC patients which we hypothesize may benefit from agents targeting this pathway.<sup><xref rid="R50" ref-type="bibr">50</xref></sup></p>
+      <p id="P15">Despite not meeting significance by CHASM analysis, we observed alterations in the Notch signaling pathway in 13% of samples (<xref ref-type="fig" rid="F4">Fig 4e</xref>). In addition to recurrent <italic toggle="yes">NOTCH1</italic> (5% incidence, including 3 missense and one nonsense) and <italic toggle="yes">FOXP2</italic> (3%) mutations, predicted functional mutations were found in <italic toggle="yes">DTX4</italic>, <italic toggle="yes">FBXW7</italic>, and <italic toggle="yes">CNTN6</italic>. <italic toggle="yes">FBXW7</italic> (R465H) is a tumor suppressor, targeting c-<italic toggle="yes">myc</italic> and <italic toggle="yes">NOTCH1</italic> for degradation.<sup><xref rid="R51" ref-type="bibr">51</xref></sup> Depending on cellular context, <italic toggle="yes">NOTCH1</italic> has a dual role in cancer as an oncogene or tumor suppressor.<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R52" ref-type="bibr">52</xref>–<xref rid="R55" ref-type="bibr">55</xref></sup> Analysis of <italic toggle="yes">NOTCH1</italic>-altered ACC samples using GSEA<sup><xref rid="R56" ref-type="bibr">56</xref></sup> showed a trend toward Notch signaling enrichment (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 8b</xref>). These alterations require further characterization, but may have therapeutic implications.<sup><xref rid="R57" ref-type="bibr">57</xref></sup></p>
+      <p id="P16">Intriguingly, we observed mutations in various genes involved in cell metabolism processes. Of particular interest are recurrent alterations in <italic toggle="yes">HSPG2</italic> or perlecan (7%), a basement membrane-based proteoglycan known to modulate tumorigenic growth factors, including FGF. FGF signaling promotes mitogenesis and angiogenesis<sup><xref rid="R58" ref-type="bibr">58</xref></sup>, while deletion of perlecan heparan sulfate domains has been shown to impair tumorigenesis.<sup><xref rid="R59" ref-type="bibr">59</xref>–<xref rid="R61" ref-type="bibr">61</xref></sup> Importantly, ACC produces high perlecan levels within its pseudocystic cribiform structures<sup><xref rid="R62" ref-type="bibr">62</xref>,<xref rid="R63" ref-type="bibr">63</xref></sup>, and maximum perlecan synthesis occurs during the tumor’s proliferative phase.<sup><xref rid="R64" ref-type="bibr">64</xref></sup> Additionally, we identified a hotspot <italic toggle="yes">IDH1</italic> mutation in its catalytic domain (R132H).<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R65" ref-type="bibr">65</xref>,<xref rid="R66" ref-type="bibr">66</xref>,<xref rid="R67" ref-type="bibr">67</xref></sup></p>
+      <p id="P17">ACC is unique in its propensity for perineural invasion and distant metastasis. We noted numerous mutations in cell adhesion proteins (29% incidence). We found mutations in the active domains of genes responsible for neuronal axon guidance cues, including <italic toggle="yes">NTNG1</italic>, <italic toggle="yes">SEMA3G</italic>, and <italic toggle="yes">SEMA5A</italic>. Netrins and semaphorins are implicated in neuronal invasion<sup><xref rid="R68" ref-type="bibr">68</xref></sup> and metastasis.<sup><xref rid="R69" ref-type="bibr">69</xref></sup> Additionally, mutations in protocadherins were observed, including truncating mutations in <italic toggle="yes">FAT3</italic> and <italic toggle="yes">FAT4</italic>. <italic toggle="yes">FAT4</italic> has been hypothesized as a tumor suppressor in gastric adenocarcinoma.<sup><xref rid="R70" ref-type="bibr">70</xref></sup> We examined <italic toggle="yes">FAT4</italic> through RNAi knockdown in human salivary cells (HSG, HSY, HTB-41) as well as fibroblasts (HFF-1) (<xref ref-type="fig" rid="F5">Fig. 5e</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 9</xref>). Significant increases in growth occurred in all cells tested following <italic toggle="yes">FAT4</italic> knockdown but not in controls.</p>
+      <p id="P18">In summary, we report a large-scale ACC analysis and highlight potential driver mutations in novel genes and pathways. Common alterations across ACC include pathways involving chromatin remodeling, MYB/MYC, DNA damage, and tyrosine kinase signaling (<xref ref-type="fig" rid="F4">Fig. 4</xref>). Our discovery of genomic alterations in targetable pathways suggests potential avenues for novel therapies for a typically chemoresistant malignancy. Verified ACC cell lines<sup><xref rid="R71" ref-type="bibr">71</xref>,<xref rid="R72" ref-type="bibr">72</xref></sup> are needed to further substantiate the clinical utility of mutations identified here. In total, our data provide insights into the genetic framework underlying ACC oncogenesis and establish a foundation for new therapeutic strategies.</p>
+      <p id="P19"><bold>URLs</bold>. MSKCC cBioPortal for Cancer Genomics, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/">http://www.cbioportal.org/</ext-link>; dbSNP, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/projects/SNP/">http://www.ncbi.nlm.nih.gov/projects/SNP/</ext-link>; ESP5400, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://evs.gs.washington.edu/EVS/">http://evs.gs.washington.edu/EVS/</ext-link>; 1000 Genomes Project, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.1000genomes.org/">http://www.1000genomes.org/</ext-link>; IPA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ingenuity.com/">http://www.ingenuity.com/</ext-link>; Pathway Commons, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.pathwaycommons.org/">http://www.pathwaycommons.org/</ext-link>.</p>
+      <sec sec-type="methods" id="S2" specific-use="web-only">
+        <title>ONLINE METHODS</title>
+        <sec id="S3">
+          <title>Tumor samples</title>
+          <p id="P21">Primary tumor samples and matched normal specimens (peripheral blood or tissue) were obtained with written informed consent per approved institutional review board protocols (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note</xref>). Specimens were snap-frozen in liquid nitrogen immediately upon surgical resection and stored at −80°C. Hematoxylin eosin-stained sections were prepared and diagnosis confirmed by a dedicated head and neck pathologist. Microdissection was performed to ensure &gt;70% tumor purity. DNA was extracted using the DNeasy Blood &amp; Tissue kit (Qiagen) and quantified via Quant-iTPicogreen dsDNA assay (Invitrogen). RNA was extracted using the RNeasy Mini kit (Qiagen) and quantified using a Nanodrop spectrophotometer (Thermo Fisher). The identities of tumor and normal DNA samples were reconfirmed by mass spectrometric fingerprint genotyping (Sequenom) as previously described.<sup><xref rid="R74" ref-type="bibr">74</xref></sup></p>
+        </sec>
+        <sec id="S4">
+          <title>Exome capture and sequencing</title>
+          <p id="P22">Whole exome capture libraries were constructed via Agilent Sureselect 51MB target enrichment (Agilent). Approximately 2–3µg of genomic DNA from each tumor and normal specimen were sheared and ligated to barcoded sequencing adaptors. Enriched exome libraries were sequenced on a HiSeq 2000 platform (Illumina) for generation of paired-end reads (2×76bp) (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 1</xref>).</p>
+        </sec>
+        <sec id="S5">
+          <title>Analysis pipeline and mutation annotation</title>
+          <p id="P23">Reads were aligned to the hg19 (GRCh37) build using the Burrows-Wheeler Aligner (BWA)<sup><xref rid="R75" ref-type="bibr">75</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1</xref>). Further indel realignment, base quality score recalibration, and duplicate read removal were performed using Genome Analysis Toolkit (GATK) v2.2.<sup><xref rid="R76" ref-type="bibr">76</xref></sup> Somatic Sniper v1.0.0<sup><xref rid="R77" ref-type="bibr">77</xref></sup> and GATK Somatic Indel Detector<sup><xref rid="R76" ref-type="bibr">76</xref></sup> were used to generate single nucleotide variations (SNVs) and indel calls, respectively, via standard default parameters. MuTect<sup><xref rid="R78" ref-type="bibr">78</xref></sup> was used to confirm SNV calls with conditions described previously.<sup><xref rid="R79" ref-type="bibr">79</xref></sup> Baseline filters (depth 3x coverage in both tumor and normal specimens, &gt;97% normal allelic fraction, &gt;10% tumor allelic fraction) were chosen. We excluded germline variants found in the 1000 Genomes Project<sup><xref rid="R80" ref-type="bibr">80</xref></sup>, ESP5400 (NHLBI GO Exome Sequencing Project), and dbSNP132.<sup><xref rid="R81" ref-type="bibr">81</xref></sup> Further filtering was based upon mapping quality score, average read length, and strand bias as previously described.<sup><xref rid="R77" ref-type="bibr">77</xref></sup> Resulting mutations were annotated based on RefSeq (Release 55) using Annovar.<sup><xref rid="R82" ref-type="bibr">82</xref></sup> All candidates were manually inspected via Integrative Genomics Viewer (IGV) v2.1<sup><xref rid="R83" ref-type="bibr">83</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 4</xref>). Mean somatic mutations per sample (16 nonsynonymous, 6 synonymous) are comprised of exonic SNVs and indels. The non-silent mutations per megabase (MB) rate (0.31) refers to nonsynonymous mutations found within the exon capture target regions (51MB).</p>
+        </sec>
+        <sec id="S6">
+          <title>Validation of mutations</title>
+          <p id="P24">Nearly all SNVs or indels were resequenced via SOLiD (Life Technologies) or MiSeq (Illumina) platforms to validate putative mutations. Regions encompassing putative candidates were amplified with PCR using Kapa Fast HotStartTaq Polymerase (KapaBiosystems) with WGA genomic DNA generated via Repli-G kits (Qiagen). For SOLiD preparation, 3µg of DNA was sheared, with 200–220 bp fragments selected by agarose gel electrophoresis. DNA was puriﬁed and ligated to P1 and P2 adaptors per manufacturer’s instructions. Following PCR ampliﬁcation, DNA was quantiﬁed and size conﬁrmed by Bioanalyzer DNA 1000 assay (Agilent Systems). Approximately 300–500 ng per sample was used for 24hr hybridization with custom SureSelect baits (Agilent Technologies) per manufacturer instructions. Captured DNA was separated from noncaptured DNA per SureSelect protocol. Following emulsion PCR and bead preparation, each sample was loaded into one octet of a SOLiD plate for paired-end sequencing. This was followed by BWA<sup><xref rid="R75" ref-type="bibr">75</xref></sup> alignment, GATK v2.2<sup><xref rid="R76" ref-type="bibr">76</xref></sup> variant detection, and manual inspection on IGV 2.1.</p>
+          <p id="P25">For MiSeq sequencing, amplified templates were purified using AMPure (Beckman Coulter). The purified PCR reactions were sequenced bidirectionally with M13 forward and reverse primer and Big Dye Terminator Kit v.3.1 (Applied Biosystems). Dye terminators were removed using the CleanSEQ kit (Beckman Coulter), and the resulting amplicons were barcoded and prepared for sequencing using the Nextera DNASample Prep Kit (Illumina). Libraries were sequenced using the paired-end 150-cycle protocol, followed by BWA<sup><xref rid="R75" ref-type="bibr">75</xref></sup> alignment, GATK v2.2<sup><xref rid="R76" ref-type="bibr">76</xref></sup> variant detection, and manual inspection on IGV 2.1 (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 3</xref>).</p>
+        </sec>
+        <sec id="S7">
+          <title>Whole genome capture and sequencing</title>
+          <p id="P26">Library construction and whole genome sequencing were performed as previously described.<sup><xref rid="R84" ref-type="bibr">84</xref></sup> Briefly, 5µg of native DNA from tumor and matched normal sample were separately sheared, standard paired-end adaptors were ligated, and products run on a gel and excised. Bands were purified via mini-elute columns (Qiagen) and enriched by PCR amplification (10 cycles). Paired-end sequencing (2×101bp) was performed on the HiSeq 2000 platform (Illumina) (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 8</xref>). The HumanOmni 2.5–8v1 BeadChip Kit (Illumina) was used for genotyping.</p>
+        </sec>
+        <sec id="S8">
+          <title>Structural variant and copy number analysis</title>
+          <p id="P27">Structural variants (SVs) were identified using CREST (Clipping REveals STructure)<sup><xref rid="R85" ref-type="bibr">85</xref></sup>, which employs soft-clipped reads to directly map the breakpoints of SVs. Samples were analyzed using the paired analysis module. Primers were designed for the 1000bp flanking regions surrounding the predicted SV breakpoint using Primer3<sup><xref rid="R86" ref-type="bibr">86</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 9</xref>). Using a standard touchdown PCR protocol, products were run on a gel, excised, purified using a NucleoSpin Gel and PCR Clean-up kit (Clontech), and sequenced. Candidates were considered germline if found in both the tumor and normal sample (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>).</p>
+          <p id="P28">Copy number variations (CNVs) were calculated with ExomeCNV<sup><xref rid="R15" ref-type="bibr">15</xref></sup>, a statistical method to detect somatic copy number variation using depth-of-coverage from mapped short sequence reads. A subset was also run on AffymetrixGenomeWide SNP 6.0 arrays (Affymetrix) as confirmation. Analysis was performed with the aroma.affymetrix package<sup><xref rid="R87" ref-type="bibr">87</xref></sup> and segmentation was performed using the CBS algorithm in the DNAcopy R package.<sup><xref rid="R88" ref-type="bibr">88</xref></sup> For quality control, the subset of samples genotyped on HumanOmni 2.5–8v1 BeadChips (as part of whole genome sequencing) were also analyzed for CNVs by using tQN<sup><xref rid="R89" ref-type="bibr">89</xref></sup> for normalization, followed by OncoSNP v1.2 for characterization of CNVs and loss-of-heterozygosity (LOH) events.<sup><xref rid="R90" ref-type="bibr">90</xref></sup> Copy number clustering was performed on segmented copy number data. A unified breakpoint profile (region by sample matrix) was derived by combining breakpoints across all samples and determining the minimal common regions of change. Unified breakpoint profiles were computed using the Bioconductor package CNTools.<sup><xref rid="R91" ref-type="bibr">91</xref></sup> Hierarchical clustering was done using the R function hclust, with manhattan distance and Ward’s agglomeration method. Gene level copy number changes across samples were identified using GISTIC2.0 (Genomic Identification of Significant Targets in Cancer)<sup><xref rid="R16" ref-type="bibr">16</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 6</xref>).</p>
+        </sec>
+        <sec id="S9">
+          <title>Gene expression profiling</title>
+          <p id="P29">Approximately 300ng of RNA was extracted from fresh frozen tissue, and RNA integrity was assessed using the Eukaryote Total RNA Nano Assay of the Agilent 2100 Bioanalyzer (Agilent Systems). Expression profiling of viable RNA was performed using the Human HT-12 Expression BeadChip array (Illumina). Analysis was performed with Partek Genomics Suite v6.5 (Partek).</p>
+        </sec>
+        <sec id="S10">
+          <title>Fluorescence In Situ Hybridization (FISH)</title>
+          <p id="P30">Tissue microarrays were constructed for tumors with available formalin-fixed, paraffin-embedded (FFPE) tissue. Unstained frozen slides were generated for all other tumors. FISH was performed using a 3-color probe mix consisting of BAC clones for 5’ <italic toggle="yes">MYB</italic> (RP11–614H6, RP11–104D9) (Green), 3’ <italic toggle="yes">MYB</italic> (RP11–323N12, RP11–1060C14) (Orange), and 3’ <italic toggle="yes">NFIB</italic> (RP11–413D24, RP11–589C16) (Red) (BACPAC Resources and Wellcome Trust Sanger Institute<sup><xref rid="R92" ref-type="bibr">92</xref></sup>) (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 3</xref>). DNA was prepared by standard alkaline lysis, and labeled by nick translation with fluorochrome-conjugated dUTPs (Enzo Life Sciences). Paraffin and frozen slide sections were processed as previously described.<sup><xref rid="R93" ref-type="bibr">93</xref></sup></p>
+        </sec>
+        <sec id="S11">
+          <title>Driver/Passenger and pathway analysis</title>
+          <p id="P31">Driver/Passenger analysis was performed with CHASM v1.0.5 (Cancer-specific High-throughput Annotation of Somatic Mutations), a random-forest-based classification algorithm that predicts whether tumor-derived somatic missense mutations are important contributors to cancer cell fitness.<sup><xref rid="R14" ref-type="bibr">14</xref></sup> The default set of 52 features was used with an FDR cutoff of 0.35 (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 4</xref>).</p>
+          <p id="P32">Pathway analyses for enrichment were performed using IPA (Ingenuity Pathway Analysis) (Winter Release 2012, Ingenuity Systems), DAVID v6.7<sup><xref rid="R94" ref-type="bibr">94</xref></sup> (Database for Annotation, Visualization and Integrated Discovery), and hypergeometric distribution, with potential CHASM drivers used as input. Enriched genesets reflecting Gene Ontology<sup><xref rid="R95" ref-type="bibr">95</xref></sup> biological processes, Kyoto Encyclopedia of Genes and Genomes (Release 64.0), and Biocarta pathways were corrected for multiple hypothesis testing using the Bonferroni method. Aberrant signaling pathways (<xref ref-type="fig" rid="F4">Fig. 4</xref>) were constructed referencing IPA and Pathway Commons.<sup><xref rid="R38" ref-type="bibr">38</xref></sup> Expression data was analyzed using Gene Set Enrichment Analysis (GSEA) v2.0.10.<sup><xref rid="R56" ref-type="bibr">56</xref></sup> Functional consequences were also evaluated using the MSKCC cBioPortal for Cancer Genomics.<sup><xref rid="R96" ref-type="bibr">96</xref>,<xref rid="R97" ref-type="bibr">97</xref></sup></p>
+        </sec>
+        <sec id="S12">
+          <title>Cell culture</title>
+          <p id="P33">Cell lines were cultured with the following: 293T and COS7 cell lines, DMEM 10% FBS; HSG, DMEM 5% FBS; HSY, DMEM:F12 10% FBS; HTB-41, McCoy 10% FBS; HFF-1, DMEM 15% FBS. All cell lines were obtained from ATCC except for HSG (O. Baker) and HSY cells (R. Wong).</p>
+        </sec>
+        <sec id="S13">
+          <title><italic toggle="yes">FAT4</italic> knockdown, transfection, and viral transduction</title>
+          <p id="P34"><italic toggle="yes">FAT4</italic> knockdown was performed using siRNA or shRNA (Dharmacon). siRNAs were transfected into cells in antibiotic-free medium using Lipofectamine RNAiMAX (Invitrogen), medium was changed after 6h and cells were harvested after 48h. shRNAs were transfected into 293T cells, along with packaging and envelope plasmids. Virus was harvested from cell culture supernatant at 48, 72, and 96h. Cells were transduced with 8 µg/mL polybrene. Two independent RNAi sequences were used for knockdown. Relative knockdown fold change was normalized to respective controls.</p>
+        </sec>
+        <sec id="S14">
+          <title><italic toggle="yes">KDM6A</italic> mutagenesis and overexpression</title>
+          <p id="P35">Flag-tagged <italic toggle="yes">KDM6A</italic> plasmid was obtained (AddGene, #17438) and site-directed mutagenesis performed with QuikChange II XL (Stratagene). 293T and COS7 cells were transfected with FuGene HD (Promega).</p>
+        </sec>
+        <sec id="S15">
+          <title>Immunofluorescence</title>
+          <p id="P36">COS7 cells were plated on poly-d-lysine cover slips (BD Biosciences) and transfected with wildtype or mutant FLAG-tagged <italic toggle="yes">KDM6A</italic>. After a 36h incubation, cells were fixed in 4% paraformaldehyde in PBS, permeabilized in 0.5% Triton X-100 in PBS, and blocked in 10% FBS. Primary antibodies were anti-FLAG (Sigma, F3165; 1:50 dilution) and anti-H3K27me3 (Millipore, 07–449; 1:50 dilution). Secondary antibodies were Alexa Fluor 488 anti-mouse IgG and Alex Fluor 568 anti-rabbit IgG (Molecular Probes; 1:200 dilution). Images were acquired using a SP5 confocal microscope (Leica).</p>
+        </sec>
+        <sec id="S16">
+          <title>Growth curves</title>
+          <p id="P37">Growth curve assays were performed in triplicate and quantified using the Vi-Cell XR Cell Viability Analyzer (Beckman Coulter) or in real time in quadruplicate with the xCELLigence System (Roche). xCELLigence plates were seeded with 5,000 or 20,000 cells per well, and growth is reported as the cell index, a measure of impedance reflecting viable, adherent cells.</p>
+        </sec>
+        <sec id="S17">
+          <title><italic toggle="yes">TP53</italic> Signaling Pathway PCR Array</title>
+          <p id="P38">Approximately 200 ng of RNA extracted from fresh frozen tissue was used to make cDNA using SuperScript III (Invitrogen). Gene expression was quantified using the RT<sup>2</sup> Profiler PCR Array Human p53 Signaling Pathway (SABioscience). The reactions were performed using a Mastercycler™ ep Realplex 4s and Realplex software (Eppendorf). The 2<sup>-(ΔΔCt)</sup> method was used to calculate the ΔΔCt values. In all tissue-specific comparisons, individual gene expression levels in tumor specimens were compared with that in normal salivary tissue. Comparisons were made within tissue between <italic toggle="yes">TP53</italic>-pathway wildtype and <italic toggle="yes">TP53</italic>-pathway altered tissue. All 84 genes were normalized against the average of two most stably expressed reference genes (<italic toggle="yes">GAPDH</italic>, <italic toggle="yes">HPRT1</italic>). Gene expression was considered below the limit of detection if the Ct value was 35.0 or greater.</p>
+        </sec>
+        <sec id="S18">
+          <title>PI3K immunohistochemistry staining</title>
+          <p id="P39">5µm FFPE tissue sections were stained for pAKT (Cell Signaling Technology; 1:100 dilution) on Benchmark Ultra (Ventana) using the OmniMap DAB anti-Rabbit Detection Kit (Ventana, 760-149) and multimer detection system. 5µm FFPE tissue sections were similarly stained for pPRAS40 (1:40 dilution) using biotinylated secondary antibody (Vector Labs, no. BA-1000; 1:300 dilution) and straptividin detection system (Ventana).</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS474972-supplement-1.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" id="d37e1639" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn id="FN2">
+          <p id="P40">
+            <bold>ACCESSION NUMBERS</bold>
+          </p>
+          <p id="P41">Sequencing and genotype data have been deposited into the NCBI database of Genotypes and Phenotypes (dbGaP) under accession number phs000612.v1.p1.</p>
+        </fn>
+        <fn id="FN3" fn-type="con">
+          <p id="P42">
+            <bold>AUTHOR CONTRIBUTIONS</bold>
+          </p>
+          <p id="P43">T.A.C., A.S.H., K.K., and W.L. designed the experiments. D.M.R., A.S.H., S.E., A.V., A.H., K.H., D.R., L.A.W., J.T.H., J.Z., N.G.I., Y.G., M.A.L., and C.E.R. performed the experiments. A.S.H., W.L., T.A.C., K.K., D.M.R., L.G.T.M., and S.T. analyzed the data. N.K. and R.R.S. provided histopathologic confirmation of sample purity. A.S.H., T.A.C., and W.L. wrote the manuscript. A.S.H., I.G., L.G.T.M., M.D., J.P.S., B.S., N.G.I., C.R.L., E.B., R.L.F., R.R.S., S.C., and S.K. contributed new reagents and provided tissues for analysis. W.L., K.K., A.S.H., T.A.C., L.P., B.J.R., I.D., Y.L., R.S., N.S., B.E.G., and C.S. conducted the bioinformatics analysis.</p>
+        </fn>
+        <fn id="FN4">
+          <p id="P44">
+            <bold>COMPETING FINANCIAL INTERESTS</bold>
+          </p>
+          <p id="P45">The authors declare no competing financial interests.</p>
+        </fn>
+      </fn-group>
+      <ack id="S19">
+        <title>ACKNOWLEDGEMENTS</title>
+        <p id="P46">We thank A. Kayserian and S. Thomas for technical assistance. We are indebted to R.J. Wong, F. Kaye, P.K. Brindle, and O.J. Baker for generously providing cell lines and constructs. We are additionally grateful to J.O. Boyle, S.G. Patel, A.R. Shaha, R.J. Wong, M.C. Mariano, and L. Lopez for facilitating tissue procurement. This grant was supported by the National Institutes of Health (RO1CA154767 (T.A.C.), R21DE023229 (T.A.C.), 5T32CA009685 (A.S.H.)), the Geoffrey Beene Foundation (T.A.C.), the STARR Cancer Consortium (T.A.C.), and the Louis Gerstner Foundation (T.A.C.). A.S.H. was supported by the American Head and Neck Society/American Academy of Otolaryngology-Head and Neck Surgery Foundation Young Investigator Combined Award. D.M.R. was supported by the Howard Hughes Medical Institute Medical Research Fellows Program. T.A.C. would like to thank Jeff and Marnie Kaufman and the Adenoid Cystic Carcinoma Research Foundation for support of the work and inspiration to see it through for the benefit of patients.</p>
+      </ack>
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Adelstein</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Koyfman</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>El-Naggar</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hanna</surname>
+                <given-names>EY</given-names>
+              </name>
+            </person-group>
+            <article-title>Biology and management of salivary gland cancers</article-title>
+            <source>Semin Radiat Oncol</source>
+            <year>2012</year>
+            <volume>22</volume>
+            <fpage>245</fpage>
+            <lpage>253</lpage>
+            <pub-id pub-id-type="pmid">22687949</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.semradonc.2012.03.009</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Agulnik</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Phase II study of lapatinib in recurrent or metastatic epidermal growth factor receptor and/or erbB2 expressing adenoid cystic carcinoma and non adenoid cystic carcinoma malignant tumors of the salivary glands</article-title>
+            <source>J Clin Oncol</source>
+            <year>2007</year>
+            <volume>25</volume>
+            <fpage>3978</fpage>
+            <lpage>3984</lpage>
+            <pub-id pub-id-type="pmid">17761983</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2007.11.8612</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Holst</surname>
+                <given-names>VA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Marshall</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Moskaluk</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Frierson</surname>
+                <given-names>HF</given-names>
+                <suffix>Jr</suffix>
+              </name>
+            </person-group>
+            <article-title>KIT protein expression and analysis of c-kit gene mutation in adenoid cystic carcinoma</article-title>
+            <source>Mod Pathol</source>
+            <year>1999</year>
+            <volume>12</volume>
+            <fpage>956</fpage>
+            <lpage>960</lpage>
+            <pub-id pub-id-type="pmid">10530560</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Laurie</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ho</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fury</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sherman</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pfister</surname>
+                <given-names>DG</given-names>
+              </name>
+            </person-group>
+            <article-title>Systemic therapy in the management of metastatic or locally recurrent adenoid cystic carcinoma of the salivary glands: a systematic review</article-title>
+            <source>Lancet Oncol</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>815</fpage>
+            <lpage>824</lpage>
+            <pub-id pub-id-type="pmid">21147032</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(10)70245-X</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Persson</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clinically significant copy number alterations and complex rearrangements of MYB and NFIB in head and neck adenoid cystic carcinoma</article-title>
+            <source>Genes Chromosomes Cancer</source>
+            <year>2012</year>
+            <volume>51</volume>
+            <fpage>805</fpage>
+            <lpage>817</lpage>
+            <pub-id pub-id-type="pmid">22505352</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/gcc.21965</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Agrawal</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing of head and neck squamous cell carcinoma reveals inactivating mutations in NOTCH1</article-title>
+            <source>Science</source>
+            <year>2011</year>
+            <volume>333</volume>
+            <fpage>1154</fpage>
+            <lpage>1157</lpage>
+            <pub-id pub-id-type="pmid">21798897</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1206923</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3162986</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stransky</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The mutational landscape of head and neck squamous cell carcinoma</article-title>
+            <source>Science</source>
+            <year>2011</year>
+            <volume>333</volume>
+            <fpage>1157</fpage>
+            <lpage>1160</lpage>
+            <pub-id pub-id-type="pmid">21798893</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1208130</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3415217</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas, N</collab>
+            <article-title>Comprehensive molecular characterization of human colon and rectal cancer</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>487</volume>
+            <fpage>330</fpage>
+            <lpage>337</lpage>
+            <pub-id pub-id-type="pmid">22810696</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11252</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3401966</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The genetic basis of early T-cell precursor acute lymphoblastic leukaemia</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>481</volume>
+            <fpage>157</fpage>
+            <lpage>163</lpage>
+            <pub-id pub-id-type="pmid">22237106</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10725</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3267575</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pugh</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Medulloblastoma exome sequencing uncovers subtype-specific somatic mutations</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>488</volume>
+            <fpage>106</fpage>
+            <lpage>110</lpage>
+            <pub-id pub-id-type="pmid">22820256</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11329</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3413789</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Molenaar</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sequencing of neuroblastoma identifies chromothripsis and defects in neuritogenesis genes</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>483</volume>
+            <fpage>589</fpage>
+            <lpage>593</lpage>
+            <pub-id pub-id-type="pmid">22367537</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10910</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas Research, N. <italic toggle="yes">et al</italic></collab>
+            <article-title>Comprehensive genomic characterization of squamous cell lung cancers</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>489</volume>
+            <fpage>519</fpage>
+            <lpage>525</lpage>
+            <pub-id pub-id-type="pmid">22960745</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11404</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3466113</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>DePristo</surname>
+                <given-names>MA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A framework for variation discovery and genotyping using next-generation DNA sequencing data</article-title>
+            <source>Nat Genet</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>491</fpage>
+            <lpage>498</lpage>
+            <pub-id pub-id-type="pmid">21478889</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.806</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3083463</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Carter</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cancer-specific high-throughput annotation of somatic mutations: computational prediction of driver missense mutations</article-title>
+            <source>Cancer Res</source>
+            <year>2009</year>
+            <volume>69</volume>
+            <fpage>6660</fpage>
+            <lpage>6667</lpage>
+            <pub-id pub-id-type="pmid">19654296</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-1133</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2763410</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sathirapongsasuti</surname>
+                <given-names>JF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing-based copy-number variation and loss of heterozygosity detection: ExomeCNV</article-title>
+            <source>Bioinformatics</source>
+            <year>2011</year>
+            <volume>27</volume>
+            <fpage>2648</fpage>
+            <lpage>2654</lpage>
+            <pub-id pub-id-type="pmid">21828086</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr462</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3179661</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mermel</surname>
+                <given-names>CH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</article-title>
+            <source>Genome Biol</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>R41</fpage>
+            <pub-id pub-id-type="pmid">21527027</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2011-12-4-r41</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3218867</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Vekony</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DNA copy number gains at loci of growth factors and their receptors in salivary gland adenoid cystic carcinoma</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2007</year>
+            <volume>13</volume>
+            <fpage>3133</fpage>
+            <lpage>3139</lpage>
+            <pub-id pub-id-type="pmid">17545515</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-06-2555</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Brooks</surname>
+                <given-names>AN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kilgour</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Smith</surname>
+                <given-names>PD</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular pathways: fibroblast growth factor signaling: a new therapeutic opportunity in cancer</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2012</year>
+            <volume>18</volume>
+            <fpage>1855</fpage>
+            <lpage>1862</lpage>
+            <pub-id pub-id-type="pmid">22388515</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-11-0699</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wolffe</surname>
+                <given-names>AP</given-names>
+              </name>
+            </person-group>
+            <article-title>Chromatin remodeling: why it is important in cancer</article-title>
+            <source>Oncogene</source>
+            <year>2001</year>
+            <volume>20</volume>
+            <fpage>2988</fpage>
+            <lpage>2990</lpage>
+            <pub-id pub-id-type="pmid">11420713</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1204322</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chi</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Allis</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>GG</given-names>
+              </name>
+            </person-group>
+            <article-title>Covalent histone modifications--miswritten, misinterpreted and mis-erased in human cancers</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2010</year>
+            <volume>10</volume>
+            <fpage>457</fpage>
+            <lpage>469</lpage>
+            <pub-id pub-id-type="pmid">20574448</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2876</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3262678</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dalgliesh</surname>
+                <given-names>GL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Systematic sequencing of renal carcinoma reveals inactivation of histone modifying genes</article-title>
+            <source>Nature</source>
+            <year>2010</year>
+            <volume>463</volume>
+            <fpage>360</fpage>
+            <lpage>363</lpage>
+            <pub-id pub-id-type="pmid">20054297</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08672</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2820242</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Van Houdt</surname>
+                <given-names>JK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Heterozygous missense mutations in SMARCA2 cause Nicolaides-Baraitser syndrome</article-title>
+            <source>Nat Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>445</fpage>
+            <lpage>449</lpage>
+            <comment>S1</comment>
+            <pub-id pub-id-type="pmid">22366787</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.1105</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tsurusaki</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutations affecting components of the SWI/SNF complex cause Coffin-Siris syndrome</article-title>
+            <source>Nat Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>376</fpage>
+            <lpage>378</lpage>
+            <pub-id pub-id-type="pmid">22426308</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2219</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pasqualucci</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Inactivating mutations of acetyltransferase genes in B-cell lymphoma</article-title>
+            <source>Nature</source>
+            <year>2011</year>
+            <volume>471</volume>
+            <fpage>189</fpage>
+            <lpage>195</lpage>
+            <pub-id pub-id-type="pmid">21390126</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09730</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3271441</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gui</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Frequent mutations of chromatin remodeling genes in transitional cell carcinoma of the bladder</article-title>
+            <source>Nat Genet</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>875</fpage>
+            <lpage>878</lpage>
+            <pub-id pub-id-type="pmid">21822268</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.907</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5373841</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Flaus</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Martin</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Barton</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Owen-Hughes</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Identification of multiple distinct Snf2 subfamilies with conserved structural motifs</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2006</year>
+            <volume>34</volume>
+            <fpage>2887</fpage>
+            <lpage>2905</lpage>
+            <pub-id pub-id-type="pmid">16738128</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkl295</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1474054</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>RECQL5/Recql5 helicase regulates homologous recombination and suppresses tumor formation via disruption of Rad51 presynaptic filaments</article-title>
+            <source>Genes Dev</source>
+            <year>2007</year>
+            <volume>21</volume>
+            <fpage>3073</fpage>
+            <lpage>3084</lpage>
+            <pub-id pub-id-type="pmid">18003859</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gad.1609107</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2081974</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Masse</surname>
+                <given-names>JE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The S. cerevisiae architectural HMGB protein NHP6A complexed with DNA: DNA and protein conformational changes upon binding</article-title>
+            <source>J Mol Biol</source>
+            <year>2002</year>
+            <volume>323</volume>
+            <fpage>263</fpage>
+            <lpage>284</lpage>
+            <pub-id pub-id-type="pmid">12381320</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0022-2836(02)00938-5</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mullighan</surname>
+                <given-names>CG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>CREBBP mutations in relapsed acute lymphoblastic leukaemia</article-title>
+            <source>Nature</source>
+            <year>2011</year>
+            <volume>471</volume>
+            <fpage>235</fpage>
+            <lpage>239</lpage>
+            <pub-id pub-id-type="pmid">21390130</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09727</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3076610</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reva</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Antipin</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sander</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Predicting the functional impact of protein mutations: application to cancer genomics</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2011</year>
+            <volume>39</volume>
+            <fpage>e118</fpage>
+            <pub-id pub-id-type="pmid">21727090</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkr407</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3177186</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Spangle</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Munger</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>The human papillomavirus type 16 E6 oncoprotein activates mTORC1 signaling and increases protein synthesis</article-title>
+            <source>J Virol</source>
+            <year>2010</year>
+            <volume>84</volume>
+            <fpage>9398</fpage>
+            <lpage>9407</lpage>
+            <pub-id pub-id-type="pmid">20631133</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/JVI.00974-10</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2937655</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Iyer</surname>
+                <given-names>NG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>p300 regulates p53-dependent apoptosis after DNA damage in colorectal cancer cells by modulation of PUMA/p21 levels</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2004</year>
+            <volume>101</volume>
+            <fpage>7386</fpage>
+            <lpage>7391</lpage>
+            <pub-id pub-id-type="pmid">15123817</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0401002101</pub-id>
+            <pub-id pub-id-type="pmcid">PMC409928</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Parsons</surname>
+                <given-names>DW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An integrated genomic analysis of human glioblastoma multiforme</article-title>
+            <source>Science</source>
+            <year>2008</year>
+            <volume>321</volume>
+            <fpage>1807</fpage>
+            <lpage>1812</lpage>
+            <pub-id pub-id-type="pmid">18772396</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1164382</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2820389</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jones</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Core signaling pathways in human pancreatic cancers revealed by global genomic analyses</article-title>
+            <source>Science</source>
+            <year>2008</year>
+            <volume>321</volume>
+            <fpage>1801</fpage>
+            <lpage>1806</lpage>
+            <pub-id pub-id-type="pmid">18772397</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1164368</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2848990</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Olsen</surname>
+                <given-names>EA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Phase IIb multicenter trial of vorinostat in patients with persistent, progressive, or treatment refractory cutaneous T-cell lymphoma</article-title>
+            <source>J Clin Oncol</source>
+            <year>2007</year>
+            <volume>25</volume>
+            <fpage>3109</fpage>
+            <lpage>3115</lpage>
+            <pub-id pub-id-type="pmid">17577020</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2006.10.2434</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fenaux</surname>
+                <given-names>P</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Efficacy of azacitidine compared with that of conventional care regimens in the treatment of higher-risk myelodysplastic syndromes: a randomised, open-label, phase III study</article-title>
+            <source>Lancet Oncol</source>
+            <year>2009</year>
+            <volume>10</volume>
+            <fpage>223</fpage>
+            <lpage>232</lpage>
+            <pub-id pub-id-type="pmid">19230772</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(09)70003-8</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4086808</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tien</surname>
+                <given-names>AL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>UHRF1 depletion causes a G2/M arrest, activation of DNA damage response and apoptosis</article-title>
+            <source>Biochem J</source>
+            <year>2011</year>
+            <volume>435</volume>
+            <fpage>175</fpage>
+            <lpage>185</lpage>
+            <pub-id pub-id-type="pmid">21214517</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1042/BJ20100840</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3291200</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>EG</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pathway Commons, a web resource for biological pathway data</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2011</year>
+            <volume>39</volume>
+            <fpage>D685</fpage>
+            <lpage>D690</lpage>
+            <pub-id pub-id-type="pmid">21071392</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkq1039</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3013659</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Egloff</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Grandis</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular pathways: context-dependent approaches to notch targeting as cancer therapy</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2012</year>
+            <volume>18</volume>
+            <fpage>5188</fpage>
+            <lpage>5195</lpage>
+            <pub-id pub-id-type="pmid">22773520</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-11-2258</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3463728</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Persson</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent fusion of MYB and NFIB transcription factor genes in carcinomas of the breast and head and neck</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2009</year>
+            <volume>106</volume>
+            <fpage>18740</fpage>
+            <lpage>18744</lpage>
+            <pub-id pub-id-type="pmid">19841262</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0909114106</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2773970</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Functional SNP in the microRNA-367 binding site in the 3'UTR of the calcium channel ryanodine receptor gene 3 (RYR3) affects breast cancer risk and calcification</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2011</year>
+            <volume>108</volume>
+            <fpage>13653</fpage>
+            <lpage>13658</lpage>
+            <pub-id pub-id-type="pmid">21810988</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1103360108</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3158174</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Abdul</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ramlal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hoosein</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Ryanodine receptor expression correlates with tumor grade in breast cancer</article-title>
+            <source>Pathol Oncol Res</source>
+            <year>2008</year>
+            <volume>14</volume>
+            <fpage>157</fpage>
+            <lpage>160</lpage>
+            <pub-id pub-id-type="pmid">18431693</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s12253-008-9045-9</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hu</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chrivia</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ghosh</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Regulation of CBP-mediated transcription by neuronal calcium signaling</article-title>
+            <source>Neuron</source>
+            <year>1999</year>
+            <volume>22</volume>
+            <fpage>799</fpage>
+            <lpage>808</lpage>
+            <pub-id pub-id-type="pmid">10230799</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0896-6273(00)80738-2</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bannister</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kouzarides</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>The CBP co-activator is a histone acetyltransferase</article-title>
+            <source>Nature</source>
+            <year>1996</year>
+            <volume>384</volume>
+            <fpage>641</fpage>
+            <lpage>643</lpage>
+            <pub-id pub-id-type="pmid">8967953</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/384641a0</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forbes</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>COSMIC: mining complete cancer genomes in the Catalogue of Somatic Mutations in Cancer</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2011</year>
+            <volume>39</volume>
+            <fpage>D945</fpage>
+            <lpage>D950</lpage>
+            <pub-id pub-id-type="pmid">20952405</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkq929</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3013785</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Essers</surname>
+                <given-names>MA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>FOXO transcription factor activation by oxidative stress mediated by the small GTPase Ral and JNK</article-title>
+            <source>EMBO J</source>
+            <year>2004</year>
+            <volume>23</volume>
+            <fpage>4802</fpage>
+            <lpage>4812</lpage>
+            <pub-id pub-id-type="pmid">15538382</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.emboj.7600476</pub-id>
+            <pub-id pub-id-type="pmcid">PMC535088</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dey</surname>
+                <given-names>JH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Targeting fibroblast growth factor receptors blocks PI3K/AKT signaling, induces apoptosis, and impairs mammary tumor outgrowth and metastasis</article-title>
+            <source>Cancer Res</source>
+            <year>2010</year>
+            <volume>70</volume>
+            <fpage>4151</fpage>
+            <lpage>4162</lpage>
+            <pub-id pub-id-type="pmid">20460524</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-4479</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Villanueva</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Acquired resistance to BRAF inhibitors mediated by a RAF kinase switch in melanoma can be overcome by cotargeting MEK and IGF-1R/PI3K</article-title>
+            <source>Cancer Cell</source>
+            <year>2010</year>
+            <volume>18</volume>
+            <fpage>683</fpage>
+            <lpage>695</lpage>
+            <pub-id pub-id-type="pmid">21156289</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2010.11.023</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3026446</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>RB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A novel interleukin-17 receptor-like protein identified in human umbilical vein endothelial cells antagonizes basic fibroblast growth factor-induced signaling</article-title>
+            <source>J Biol Chem</source>
+            <year>2003</year>
+            <volume>278</volume>
+            <fpage>33232</fpage>
+            <lpage>33238</lpage>
+            <pub-id pub-id-type="pmid">12807873</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.M305022200</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Engelman</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Targeting PI3K signalling in cancer: opportunities, challenges and limitations</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2009</year>
+            <volume>9</volume>
+            <fpage>550</fpage>
+            <lpage>562</lpage>
+            <pub-id pub-id-type="pmid">19629070</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2664</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tan</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sangfelt</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Spruck</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>The Fbxw7/hCdc4 tumor suppressor in human cancer</article-title>
+            <source>Cancer Lett</source>
+            <year>2008</year>
+            <volume>271</volume>
+            <fpage>1</fpage>
+            <lpage>12</lpage>
+            <pub-id pub-id-type="pmid">18541364</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.canlet.2008.04.036</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Weng</surname>
+                <given-names>AP</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Activating mutations of NOTCH1 in human T cell acute lymphoblastic leukemia</article-title>
+            <source>Science</source>
+            <year>2004</year>
+            <volume>306</volume>
+            <fpage>269</fpage>
+            <lpage>271</lpage>
+            <pub-id pub-id-type="pmid">15472075</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1102160</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reedijk</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High-level coexpression of JAG1 and NOTCH1 is observed in human breast cancer and is associated with poor overall survival</article-title>
+            <source>Cancer Res</source>
+            <year>2005</year>
+            <volume>65</volume>
+            <fpage>8530</fpage>
+            <lpage>8537</lpage>
+            <pub-id pub-id-type="pmid">16166334</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-05-1069</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Notch promotes radioresistance of glioma stem cells</article-title>
+            <source>Stem Cells</source>
+            <year>2010</year>
+            <volume>28</volume>
+            <fpage>17</fpage>
+            <lpage>28</lpage>
+            <pub-id pub-id-type="pmid">19921751</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/stem.261</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2825687</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Allen</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rodriguez</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jones</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bishop</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Activated Notch1 induces lung adenomas in mice and cooperates with Myc in the generation of lung adenocarcinoma</article-title>
+            <source>Cancer Res</source>
+            <year>2011</year>
+            <volume>71</volume>
+            <fpage>6010</fpage>
+            <lpage>6018</lpage>
+            <pub-id pub-id-type="pmid">21803744</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-11-0595</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3174331</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Subramanian</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2005</year>
+            <volume>102</volume>
+            <fpage>15545</fpage>
+            <lpage>15550</lpage>
+            <pub-id pub-id-type="pmid">16199517</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0506580102</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1239896</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sarmento</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Barata</surname>
+                <given-names>JT</given-names>
+              </name>
+            </person-group>
+            <article-title>Therapeutic potential of Notch inhibition in T-cell acute lymphoblastic leukemia: rationale, caveats and promises</article-title>
+            <source>Expert Rev Anticancer Ther</source>
+            <year>2011</year>
+            <volume>11</volume>
+            <fpage>1403</fpage>
+            <lpage>1415</lpage>
+            <pub-id pub-id-type="pmid">21929314</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1586/era.11.73</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R58">
+          <label>58</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Iozzo</surname>
+                <given-names>RV</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Murdoch</surname>
+                <given-names>AD</given-names>
+              </name>
+            </person-group>
+            <article-title>Proteoglycans of the extracellular environment: clues from the gene and protein side offer novel perspectives in molecular diversity and function</article-title>
+            <source>FASEB J</source>
+            <year>1996</year>
+            <volume>10</volume>
+            <fpage>598</fpage>
+            <lpage>614</lpage>
+            <pub-id pub-id-type="pmid">8621059</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tran</surname>
+                <given-names>PK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Increased intimal hyperplasia and smooth muscle cell proliferation in transgenic mice with heparan sulfate-deficient perlecan</article-title>
+            <source>Circ Res</source>
+            <year>2004</year>
+            <volume>94</volume>
+            <fpage>550</fpage>
+            <lpage>558</lpage>
+            <pub-id pub-id-type="pmid">14739157</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/01.RES.0000117772.86853.34</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R60">
+          <label>60</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhou</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Impaired angiogenesis, delayed wound healing and retarded tumor growth in perlecan heparan sulfate-deficient mice</article-title>
+            <source>Cancer Res</source>
+            <year>2004</year>
+            <volume>64</volume>
+            <fpage>4699</fpage>
+            <lpage>4702</lpage>
+            <pub-id pub-id-type="pmid">15256433</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-04-0810</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R61">
+          <label>61</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Savore</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Perlecan knockdown in metastatic prostate cancer cells reduces heparin-binding growth factor responses in vitro and tumor growth in vivo</article-title>
+            <source>Clin Exp Metastasis</source>
+            <year>2005</year>
+            <volume>22</volume>
+            <fpage>377</fpage>
+            <lpage>390</lpage>
+            <pub-id pub-id-type="pmid">16283481</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10585-005-2339-3</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R62">
+          <label>62</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Munakata</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Irie</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nakajima</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Saku</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Pseudocyst formation by adenoid cystic carcinoma cells in collagen gel culture and in SCID mice</article-title>
+            <source>J Oral Pathol Med</source>
+            <year>1996</year>
+            <volume>25</volume>
+            <fpage>441</fpage>
+            <lpage>448</lpage>
+            <pub-id pub-id-type="pmid">8930823</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1600-0714.1996.tb00294.x</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R63">
+          <label>63</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Saku</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Okabe</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Furthmayr</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Basement membranes in adenoid cystic carcinoma. An immunohistochemical study</article-title>
+            <source>Cancer</source>
+            <year>1992</year>
+            <volume>69</volume>
+            <fpage>2631</fpage>
+            <lpage>2640</lpage>
+            <pub-id pub-id-type="pmid">1315206</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/1097-0142(19920601)69:11&lt;2631::aid-cncr2820691103&gt;3.0.co;2-p</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R64">
+          <label>64</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kimura</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Perlecan (heparan sulfate proteoglycan) gene expression reflected in the characteristic histological architecture of salivary adenoid cystic carcinoma</article-title>
+            <source>Virchows Arch</source>
+            <year>2000</year>
+            <volume>437</volume>
+            <fpage>122</fpage>
+            <lpage>128</lpage>
+            <pub-id pub-id-type="pmid">10993271</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s004280000209</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R65">
+          <label>65</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yan</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>IDH1 and IDH2 mutations in gliomas</article-title>
+            <source>N Engl J Med</source>
+            <year>2009</year>
+            <volume>360</volume>
+            <fpage>765</fpage>
+            <lpage>773</lpage>
+            <pub-id pub-id-type="pmid">19228619</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa0808710</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2820383</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R66">
+          <label>66</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Figueroa</surname>
+                <given-names>ME</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Leukemic IDH1 and IDH2 mutations result in a hypermethylation phenotype, disrupt TET2 function, and impair hematopoietic differentiation</article-title>
+            <source>Cancer Cell</source>
+            <year>2010</year>
+            <volume>18</volume>
+            <fpage>553</fpage>
+            <lpage>567</lpage>
+            <pub-id pub-id-type="pmid">21130701</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2010.11.015</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4105845</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R67">
+          <label>67</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dang</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cancer-associated IDH1 mutations produce 2-hydroxyglutarate</article-title>
+            <source>Nature</source>
+            <year>2009</year>
+            <volume>462</volume>
+            <fpage>739</fpage>
+            <lpage>744</lpage>
+            <pub-id pub-id-type="pmid">19935646</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08617</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2818760</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R68">
+          <label>68</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Binmadi</surname>
+                <given-names>NO</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Plexin-B1 and semaphorin 4D cooperate to promote perineural invasion in a RhoA/ROK-dependent manner</article-title>
+            <source>Am J Pathol</source>
+            <year>2012</year>
+            <volume>180</volume>
+            <fpage>1232</fpage>
+            <lpage>1242</lpage>
+            <pub-id pub-id-type="pmid">22252234</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajpath.2011.12.009</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3349891</pub-id>
+            <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="retraction-forward" ext-link-type="pmc" xlink:href="PMC7506187"/>
+          </element-citation>
+        </ref>
+        <ref id="R69">
+          <label>69</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rodrigues</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>De Wever</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bruyneel</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rooney</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gespach</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Opposing roles of netrin-1 and the dependence receptor DCC in cancer cell invasion, tumor growth and metastasis</article-title>
+            <source>Oncogene</source>
+            <year>2007</year>
+            <volume>26</volume>
+            <fpage>5615</fpage>
+            <lpage>5625</lpage>
+            <pub-id pub-id-type="pmid">17334389</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1210347</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R70">
+          <label>70</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zang</surname>
+                <given-names>ZJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing of gastric adenocarcinoma identifies recurrent somatic mutations in cell adhesion and chromatin remodeling genes</article-title>
+            <source>Nat Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>570</fpage>
+            <lpage>574</lpage>
+            <pub-id pub-id-type="pmid">22484628</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2246</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R71">
+          <label>71</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Phuchareon</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ohta</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Woo</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Eisele</surname>
+                <given-names>DW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tetsu</surname>
+                <given-names>O</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic profiling reveals cross-contamination and misidentification of 6 adenoid cystic carcinoma cell lines: ACC2, ACC3, ACCM, ACCNS, ACCS and CAC2</article-title>
+            <source>PLoS One</source>
+            <year>2009</year>
+            <volume>4</volume>
+            <fpage>e6040</fpage>
+            <pub-id pub-id-type="pmid">19557180</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0006040</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2698276</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R72">
+          <label>72</label>
+          <element-citation publication-type="journal">
+            <collab>Retraction notice to "Nef from SIVmac239 decreases proliferation and migration of adenoid-cystic carcinoma cells and inhibits angiogenesis" [OO 47 (2011) 847–854]</collab>
+            <source>Oral Oncol</source>
+            <year>2012</year>
+            <volume>48</volume>
+            <fpage>95</fpage>
+            <pub-id pub-id-type="pmid">22359742</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.oraloncology.2011.11.011</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R73">
+          <label>73</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Krzywinski</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Circos: an information aesthetic for comparative genomics</article-title>
+            <source>Genome Res</source>
+            <year>2009</year>
+            <volume>19</volume>
+            <fpage>1639</fpage>
+            <lpage>1645</lpage>
+            <pub-id pub-id-type="pmid">19541911</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.092759.109</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2752132</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R74">
+          <label>74</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Janakiraman</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic and biological characterization of exon 4 KRAS mutations in human cancer</article-title>
+            <source>Cancer Res</source>
+            <year>2010</year>
+            <volume>70</volume>
+            <fpage>5901</fpage>
+            <lpage>5911</lpage>
+            <pub-id pub-id-type="pmid">20570890</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-10-0192</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2943514</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R75">
+          <label>75</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>1760</lpage>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R76">
+          <label>76</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McKenna</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+            <source>Genome Res</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>1297</fpage>
+            <lpage>1303</lpage>
+            <pub-id pub-id-type="pmid">20644199</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.107524.110</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R77">
+          <label>77</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Larson</surname>
+                <given-names>DE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SomaticSniper: identification of somatic point mutations in whole genome sequencing data</article-title>
+            <source>Bioinformatics</source>
+            <year>2012</year>
+            <volume>28</volume>
+            <fpage>311</fpage>
+            <lpage>317</lpage>
+            <pub-id pub-id-type="pmid">22155872</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr665</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3268238</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R78">
+          <label>78</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2013</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2514</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3833702</pub-id>
+            <pub-id pub-id-type="pmid">23396013</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R79">
+          <label>79</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Banerji</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sequence analysis of mutations and translocations across breast cancer subtypes</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>486</volume>
+            <fpage>405</fpage>
+            <lpage>409</lpage>
+            <pub-id pub-id-type="pmid">22722202</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11154</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4148686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R80">
+          <label>80</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Genomes Project</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>A map of human genome variation from population-scale sequencing</article-title>
+            <source>Nature</source>
+            <year>2010</year>
+            <volume>467</volume>
+            <fpage>1061</fpage>
+            <lpage>1073</lpage>
+            <pub-id pub-id-type="pmid">20981092</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09534</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3042601</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R81">
+          <label>81</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sherry</surname>
+                <given-names>ST</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>dbSNP: the NCBI database of genetic variation</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2001</year>
+            <volume>29</volume>
+            <fpage>308</fpage>
+            <lpage>311</lpage>
+            <pub-id pub-id-type="pmid">11125122</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/29.1.308</pub-id>
+            <pub-id pub-id-type="pmcid">PMC29783</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R82">
+          <label>82</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hakonarson</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2010</year>
+            <volume>38</volume>
+            <fpage>e164</fpage>
+            <pub-id pub-id-type="pmid">20601685</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkq603</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2938201</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R83">
+          <label>83</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>JT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative genomics viewer</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2011</year>
+            <volume>29</volume>
+            <fpage>24</fpage>
+            <lpage>26</lpage>
+            <pub-id pub-id-type="pmid">21221095</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.1754</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3346182</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R84">
+          <label>84</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>MF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The genomic complexity of primary human prostate cancer</article-title>
+            <source>Nature</source>
+            <year>2011</year>
+            <volume>470</volume>
+            <fpage>214</fpage>
+            <lpage>220</lpage>
+            <pub-id pub-id-type="pmid">21307934</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09744</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3075885</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R85">
+          <label>85</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>CREST maps somatic structural variation in cancer genomes with base-pair resolution</article-title>
+            <source>Nat Methods</source>
+            <year>2011</year>
+            <volume>8</volume>
+            <fpage>652</fpage>
+            <lpage>654</lpage>
+            <pub-id pub-id-type="pmid">21666668</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.1628</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3527068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R86">
+          <label>86</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rozen</surname>
+                <given-names>SS HJi</given-names>
+              </name>
+            </person-group>
+            <source>Primer3 on the WWW for general users and for biologist programmers</source>
+            <year>2000</year>
+            <publisher-loc>Totowa, NJ</publisher-loc>
+            <publisher-name>Humana Press</publisher-name>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1385/1-59259-192-2:365</pub-id>
+            <pub-id pub-id-type="pmid">10547847</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R87">
+          <label>87</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bengtsson</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Irizarry</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Carvalho</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Speed</surname>
+                <given-names>TP</given-names>
+              </name>
+            </person-group>
+            <article-title>Estimation and assessment of raw copy numbers at the single locus level</article-title>
+            <source>Bioinformatics</source>
+            <year>2008</year>
+            <volume>24</volume>
+            <fpage>759</fpage>
+            <lpage>767</lpage>
+            <pub-id pub-id-type="pmid">18204055</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btn016</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R88">
+          <label>88</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Venkatraman</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Olshen</surname>
+                <given-names>AB</given-names>
+              </name>
+            </person-group>
+            <article-title>A faster circular binary segmentation algorithm for the analysis of array CGH data</article-title>
+            <source>Bioinformatics</source>
+            <year>2007</year>
+            <volume>23</volume>
+            <fpage>657</fpage>
+            <lpage>663</lpage>
+            <pub-id pub-id-type="pmid">17234643</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btl646</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R89">
+          <label>89</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Staaf</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Normalization of Illumina Infinium whole-genome SNP data improves copy number estimates and allelic intensity ratios</article-title>
+            <source>BMC Bioinformatics</source>
+            <year>2008</year>
+            <volume>9</volume>
+            <fpage>409</fpage>
+            <pub-id pub-id-type="pmid">18831757</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-9-409</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2572624</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R90">
+          <label>90</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yau</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A statistical approach for detecting genomic aberrations in heterogeneous tumor samples from single nucleotide polymorphism genotyping data</article-title>
+            <source>Genome Biol</source>
+            <year>2010</year>
+            <volume>11</volume>
+            <fpage>R92</fpage>
+            <pub-id pub-id-type="pmid">20858232</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2010-11-9-r92</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2965384</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R91">
+          <label>91</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gentleman</surname>
+                <given-names>RC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Bioconductor: open software development for computational biology and bioinformatics</article-title>
+            <source>Genome Biol</source>
+            <year>2004</year>
+            <volume>5</volume>
+            <fpage>R80</fpage>
+            <pub-id pub-id-type="pmid">15461798</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2004-5-10-r80</pub-id>
+            <pub-id pub-id-type="pmcid">PMC545600</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R92">
+          <label>92</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fiegler</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DNA microarrays for comparative genomic hybridization based on DOP-PCR amplification of BAC and PAC clones</article-title>
+            <source>Genes Chromosomes Cancer</source>
+            <year>2003</year>
+            <volume>36</volume>
+            <fpage>361</fpage>
+            <lpage>374</lpage>
+            <pub-id pub-id-type="pmid">12619160</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/gcc.10155</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R93">
+          <label>93</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gopalan</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TMPRSS2-ERG gene fusion is not associated with outcome in patients treated by prostatectomy</article-title>
+            <source>Cancer Res</source>
+            <year>2009</year>
+            <volume>69</volume>
+            <fpage>1400</fpage>
+            <lpage>1406</lpage>
+            <pub-id pub-id-type="pmid">19190343</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-08-2467</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3676271</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R94">
+          <label>94</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang da</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sherman</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lempicki</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2009</year>
+            <volume>37</volume>
+            <fpage>1</fpage>
+            <lpage>13</lpage>
+            <pub-id pub-id-type="pmid">19033363</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkn923</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2615629</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R95">
+          <label>95</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ashburner</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</article-title>
+            <source>Nat Genet</source>
+            <year>2000</year>
+            <volume>25</volume>
+            <fpage>25</fpage>
+            <lpage>29</lpage>
+            <pub-id pub-id-type="pmid">10802651</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/75556</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3037419</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R96">
+          <label>96</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>
+            <source>Cancer Discov</source>
+            <year>2012</year>
+            <volume>2</volume>
+            <fpage>401</fpage>
+            <lpage>404</lpage>
+            <pub-id pub-id-type="pmid">22588877</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-12-0095</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3956037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R97">
+          <label>97</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative Analysis of Complex Cancer Genomics and Clinical Profiles Using the cBioPortal</article-title>
+            <source>Sci Signal</source>
+            <year>2013</year>
+            <volume>6</volume>
+            <comment>pl1</comment>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scisignal.2004088</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4160307</pub-id>
+            <pub-id pub-id-type="pmid">23550210</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title>Mutational landscape of adenoid cystic carcinoma</title>
+          <p id="P47">(<bold>a</bold>). Number of validated nonsynonymous somatic mutations per sample across 60 ACC cases. (<bold>b</bold>). Representative list of recurrent nonsynonymous somatic mutations. Multiple mutations within a given sample in the same gene were only counted once. (<bold>c</bold>). Pathways affected by driver mutations identified by CHASM. Bonferroni FDR-corrected p-values for pathway enrichment are shown. (<bold>d</bold>). Location of ACC mutations in key chromatin remodeling genes. HSA, helicase-SANT-associated; Zf-TAZ, TAZ zinc finger; DUF, domain of unknown function; KAT11, histone acetylation protein; ZZ, ZZ-type zinc finger; SNF2_N, SNF2 family N-terminal domain; Helicase_C, Helicase conserved C-terminal domain; TPR, tetratricopeptide repeat; JmjC, JmjC hydroxylase domain; FtsJ, FtsJ-like methyltransferase. (<bold>e</bold>). Location of ACC mutations in key established cancer genes. PI3K_p85B, PI3K p85-binding domain; PI3K_rbd, PI3K ras-binding domain; PI3Ka, PI3K accessory domain; EGF_Ca, calcium-binding EGF domain; hEGF, human growth factor-like EGF; Ank repeat, ankyrin repeat; DSPc, dual specificity phosphatase, catalytic domain; P53 TAD, P53 transactivation motif; P53_tetramer, P53 tetramerization motif.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms474972f1.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <title>Integrated analysis of adenoid cystic carcinoma genetic alterations</title>
+          <p id="P48">Clinical data, validated somatic mutations, validated structural variants, and copy number alterations for 60 ACC cases. Genes highlighted in bold contain significant driver mutations identified by CHASM.<sup><xref rid="R14" ref-type="bibr">14</xref></sup> Remaining genes contain selected mutations of interest that did not reach significance by CHASM but which are either altered in other malignancies or are integral components of affected pathways. Orange, nonsynonymous somatic mutation (missense, nonsense, splice site, indel); blue, homozygous copy number deletion; red, high-level copy number amplification.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms474972f2.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <title>Structural variations and copy number landscape of adenoid cystic carcinoma</title>
+          <p id="P49">(<bold>a</bold>). Clustered copy number profiles of 60 ACC cases. Clustering revealed 4 sub-clusters of tumors with one each defined by loss of 14q, loss of 12q13, a cluster with two samples containing a large number of copy number alterations, and most tumors in a large group with minimal copy number changes. White, normal (diploid) copy number log-ratio; blue, copy number loss; red, copy number amplification. (<bold>b</bold>). Circos plots<sup><xref rid="R73" ref-type="bibr">73</xref></sup> of genetic alterations in 5 ACC cases. Plots depict validated structural genetic variants, DNA copy number alterations, intra- and inter-chromosomal translocations, and sequence alterations. Loss-of-heterozygosity, green track; amplification, red track; copy number loss, blue track; missense mutation, black gene name; nonsense mutation, blue gene name; splice site mutation, orange gene name; inter-chromosomal translocation, red line; deletion, gray line; intra-chromosomal translocation, blue line; insertion, purple line.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms474972f3.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <title>Diversity and frequency of ACC genetic changes culminating in aberrant signaling pathways</title>
+          <p id="P50">Alterations are defined by somatic mutations, homozygous deletions, high-level focal amplifications, and structural variants validated by FISH or PCR. Frequencies are expressed as a percentage of all cases. Red background denotes activating alteration, blue background denotes inactivating alteration, white background denotes numerous alterations, and purple background denotes alteration of unclear significance. Interactions based upon IPA or Pathway Commons.<sup><xref rid="R38" ref-type="bibr">38</xref></sup> (<bold>a</bold>). Epigenetic modification. (<bold>b</bold>). DNA damage/checkpoint signaling pathway. (<bold>c</bold>). MYB/MYC signaling pathway, with fusion denoted by recurrent t(6;9) translocation between <italic toggle="yes">MYB</italic> and <italic toggle="yes">NFIB</italic>. (<bold>d</bold>). FGF/IGF/PI3K signaling pathway. (<bold>e</bold>). Notch signaling pathway.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms474972f4.jpg"/>
+      </fig>
+      <fig id="F5" orientation="portrait" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <title>Functional consequences of genetic alterations in <italic toggle="yes">KDM6A, TP53, PI3K</italic>, and <italic toggle="yes">FAT4</italic> pathway genes</title>
+          <p id="P51">(<bold>a</bold>). Overexpression of <italic toggle="yes">KDM6A</italic> mutants identified in ACC compared to overexpressed wildtype demonstrates increased growth. Experiments performed in triplicate. (<bold>b</bold>). <italic toggle="yes">KDM6A</italic> tumor-specific mutants exhibit abrogated H3K27me3 demethylase activity relative to wildtype <italic toggle="yes">KDM6A</italic>. Representative immunostaining of cells overexpressing wildtype or mutant <italic toggle="yes">KDM6A</italic> is shown with corresponding quantitation. Arrows represent cells expressing FLAG-tagged <italic toggle="yes">KDM6A</italic> construct. Experiments performed in triplicate. Scale bars, 20µm. (<bold>c</bold>). Heatmap shows differential expression of key <italic toggle="yes">TP53</italic> transcriptional targets in <italic toggle="yes">TP53</italic>-pathway altered ACC samples (<italic toggle="yes">TP53</italic>-mutant or <italic toggle="yes">MDM2</italic>-amplified) compared to <italic toggle="yes">TP53</italic>-wildtype ACC samples and normal salivary tissue. (<bold>d</bold>). PI3K-mutant ACCs demonstrate marked downstream p-AKT and p-PRAS40 immunohistochemistry staining relative to PI3K-wildtype ACCs. Scale bars, 120µm. (<bold>e</bold>). <italic toggle="yes">FAT4</italic> knockdown demonstrates increased growth in human foreskin fibroblasts (HFF-1), immortalized human salivary cells (HSG), and human salivary adenocarcinoma cells (HSY). Experiments performed in triplicate. KD, knockdown. *p&lt;0.05, **p&lt;0.01, ***p&lt;0.001, ****p&lt;0.0001, ns, not significant (ANOVA). Error bars, ± 1 S.E.M.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms474972f5.jpg"/>
+      </fig>
+      <table-wrap id="T1" position="float" orientation="portrait">
+        <label>Table 1</label>
+        <caption>
+          <p id="P52">ACC whole exome and whole genome sequencing statistics.</p>
+        </caption>
+        <table frame="box" rules="all">
+          <thead>
+            <tr>
+              <th align="left" valign="bottom" rowspan="1" colspan="1">Statistic</th>
+              <th align="center" valign="bottom" rowspan="1" colspan="1">Whole exome</th>
+              <th align="center" valign="bottom" rowspan="1" colspan="1">Whole Genome</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Tumor/normal pairs sequenced</td>
+              <td align="center" rowspan="1" colspan="1">55</td>
+              <td align="center" rowspan="1" colspan="1">5</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Total Gb sequenced</td>
+              <td align="center" rowspan="1" colspan="1">971.5</td>
+              <td align="center" rowspan="1" colspan="1">1249.4</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Mean fold tumor target coverage</td>
+              <td align="center" rowspan="1" colspan="1">100 (23–167)</td>
+              <td align="center" rowspan="1" colspan="1">38 (34–45)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Mean fold normal target coverage</td>
+              <td align="center" rowspan="1" colspan="1">112 (25–185)</td>
+              <td align="center" rowspan="1" colspan="1">35 (33–37)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Mean somatic mutation rate per Mb</td>
+              <td align="center" rowspan="1" colspan="1">0.4 (0.06–0.8)</td>
+              <td align="center" rowspan="1" colspan="1">0.3 (0.2–0.5)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="bottom" rowspan="1" colspan="1">Mean number of validated nonsynonymous mutations/patient</td>
+              <td align="center" valign="bottom" rowspan="1" colspan="1">11 (1–36)</td>
+              <td align="center" valign="bottom" rowspan="1" colspan="1">11 (5–17)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="bottom" rowspan="1" colspan="1">Mean number of transcribed noncoding mutations/patient (UTRs)</td>
+              <td align="center" valign="bottom" rowspan="1" colspan="1">6 (1–13)</td>
+              <td align="center" valign="bottom" rowspan="1" colspan="1">3 (1–6)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Total number of structural rearrangements</td>
+              <td align="center" rowspan="1" colspan="1">N/A</td>
+              <td align="center" rowspan="1" colspan="1">17</td>
+            </tr>
+            <tr>
+              <td align="left" valign="bottom" rowspan="1" colspan="1">Total number of frame-preserving genic rearrangements</td>
+              <td align="center" valign="bottom" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <boxed-text id="BX1" position="float" orientation="portrait">
+        <caption>
+          <title>Editorial Summary</title>
+        </caption>
+        <p id="P53">Timothy Chan and colleagues report exome and genome sequencing of 60 adenoid cystic carcinoma (ACC) tumor/normal pairs. They identify multiple pathways recurrently disrupted in ACC and provide evidence that <italic toggle="yes">KDM6A</italic> and <italic toggle="yes">PIK3CA</italic> are functionally relevant ACC candidate driver genes.</p>
+      </boxed-text>
+    </floats-group>
+  </article>
+</pmc-articleset>

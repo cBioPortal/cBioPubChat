@@ -1,0 +1,2579 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">101561693</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">39259</journal-id>
+      <journal-id journal-id-type="nlm-ta">Cancer Discov</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cancer Discov</journal-id>
+      <journal-title-group>
+        <journal-title>Cancer discovery</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">2159-8274</issn>
+      <issn pub-type="epub">2159-8290</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24265153</article-id>
+      <article-id pub-id-type="pmc">3947264</article-id>
+      <article-id pub-id-type="doi">10.1158/2159-8290.CD-13-0617</article-id>
+      <article-id pub-id-type="manuscript">NIHMS538714</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Van Allen</surname>
+            <given-names>Eliezer M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref rid="FN2" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wagle</surname>
+            <given-names>Nikhil</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref rid="FN2" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sucker</surname>
+            <given-names>Antje</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Treacy</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Johannessen</surname>
+            <given-names>Cory</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goetz</surname>
+            <given-names>Eva M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Place</surname>
+            <given-names>Chelsea S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Taylor-Weiner</surname>
+            <given-names>Amaro</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Whittaker</surname>
+            <given-names>Steven</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kryukov</surname>
+            <given-names>Gregory</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hodis</surname>
+            <given-names>Eran</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rosenberg</surname>
+            <given-names>Mara</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McKenna</surname>
+            <given-names>Aaron</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cibulskis</surname>
+            <given-names>Kristian</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Farlow</surname>
+            <given-names>Deborah</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zimmer</surname>
+            <given-names>Lisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hillen</surname>
+            <given-names>Uwe</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gutzmer</surname>
+            <given-names>Ralf</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goldinger</surname>
+            <given-names>Simone M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ugurel</surname>
+            <given-names>Selma</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gogas</surname>
+            <given-names>Helen J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Egberts</surname>
+            <given-names>Friederike</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Berking</surname>
+            <given-names>Carola</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Trefzer</surname>
+            <given-names>Uwe</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Loquai</surname>
+            <given-names>Carmen</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Weide</surname>
+            <given-names>Benjamin</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hassel</surname>
+            <given-names>Jessica C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gabriel</surname>
+            <given-names>Stacey B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carter</surname>
+            <given-names>Scott L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Getz</surname>
+            <given-names>Gad</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Garraway</surname>
+            <given-names>Levi A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref rid="FN3" ref-type="author-notes">**</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schadendorf</surname>
+            <given-names>Dirk</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref rid="FN3" ref-type="author-notes">**</xref>
+        </contrib>
+        <on-behalf-of>on behalf of DeCOG</on-behalf-of>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, 450 Brookline Avenue, Boston, MA 02115, USA</aff>
+      <aff id="A2"><label>2</label>Broad Institute of MIT and Harvard, 7 Cambridge Center, Cambridge, MA 02142</aff>
+      <aff id="A3"><label>3</label>Department of Dermatology, University Hospital, West German Cancer Center, University Duisburg-Essen, Essen, Germany</aff>
+      <aff id="A4"><label>4</label>German Cancer Consortium (DKTK), Germany</aff>
+      <aff id="A5"><label>5</label>Harvard-MIT Division of Health Sciences and Technology, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139 USA</aff>
+      <aff id="A6"><label>6</label>Department of Genome Sciences, University of Washington, Seattle, Washington 98195, USA</aff>
+      <aff id="A7"><label>7</label>Department of Dermatology and Allergy, Hannover Medical School, Hannover, Germany</aff>
+      <aff id="A8"><label>8</label>Department of Dermatology, University Hospital Zurich, Zurich, Switzerland</aff>
+      <aff id="A9"><label>9</label>Department of Dermatology, University of Wuerzburg, Germany</aff>
+      <aff id="A10"><label>10</label>First Department of Medicine, Medical School, University of Athens, Greece</aff>
+      <aff id="A11"><label>11</label>Department of Dermatology, Venerology and Allergology, University of Schleswig-Holstein Hospital, Campus Kiel, Germany</aff>
+      <aff id="A12"><label>12</label>Department of Dermatology and Allergology, Ludwig-Maximilian University, Munich, Germany</aff>
+      <aff id="A13"><label>13</label>Department of Dermatology, Venerology and Allergy, Charité Universitätsmedizin Berlin, Humboldt University, Berlin, Germany</aff>
+      <aff id="A14"><label>14</label>Department of Dermatology, University of Mainz, Germany</aff>
+      <aff id="A15"><label>15</label>University Medical Center, University of Tübingen, Tübingen, Germany</aff>
+      <aff id="A16"><label>16</label>Department of Dermatology, Heidelberg University Hospital, Heidelberg, Germany</aff>
+      <aff id="A17"><label>17</label>Massachusetts General Hospital Cancer Center and Department of Pathology, Boston, MA 02114</aff>
+      <author-notes>
+        <corresp id="FN1">CORRESPONDING AUTHORS: Levi A. Garraway, MD, PhD, Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Avenue, D1542, Boston, MA 02115, USA, Phone: 617-632-6689, Fax: 617- 582-7880, <email>levi_garraway@dfci.harvard.edu</email>. Dirk Schadendorf, MD, Department of Dermatology, University Hospital Essen, Hufelandstrabe 55, 45122 Essen, Germany, Phone: +49-201-723 4342, Fax: +49-201-723 5935, <email>dirk.schadendorf@uk-essen.de</email></corresp>
+        <fn id="FN2" fn-type="equal">
+          <label>*</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+        <fn id="FN3">
+          <label>**</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>16</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>11</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>1</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>01</day>
+        <month>7</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>1</issue>
+      <fpage>94</fpage>
+      <lpage>109</lpage>
+      <permissions>
+        <license>
+          <license-p>This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P1">Most patients with <italic>BRAF</italic><sup>V600</sup> metastatic melanoma develop resistance to selective RAF kinase inhibitors. The spectrum of clinical genetic resistance mechanisms to RAF inhibitors and options for salvage therapy are incompletely understood. We performed whole exome sequencing on formalin-fixed, paraffin embedded (FFPE) tumors from 45 patients with BRAF<sup>V600</sup> metastatic melanoma who received vemurafenib or dabrafenib monotherapy. Genetic alterations in known or putative RAF inhibitor resistance genes were observed in 23 of 45 patients (51%). Besides previously characterized alterations, we discovered a “long tail” of new MAPK pathway alterations (<italic>MAP2K2</italic>, <italic>MITF</italic>) that confer RAF inhibitor resistance. In three cases, multiple resistance gene alterations were observed within the same tumor biopsy. Overall, RAF inhibitor therapy leads to diverse clinical genetic resistance mechanisms, mostly involving MAPK pathway reactivation. Novel therapeutic combinations may be needed to achieve durable clinical control of BRAF<sup>V600</sup> melanoma. Integrating clinical genomics with preclinical screens may model subsequent resistance studies.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Melanoma</kwd>
+        <kwd>resistance</kwd>
+        <kwd>RAF</kwd>
+        <kwd>inhibitor</kwd>
+        <kwd>genetic</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="S1">
+      <title>INTRODUCTION</title>
+      <p id="P2">RAF inhibitors (vemurafenib, dabrafenib) administered alone or in combination with MEK inhibitors have improved progression-free and overall survival in patients with BRAF<sup>V600</sup>-mutated metastatic melanoma<sup><xref rid="R1" ref-type="bibr">1</xref>–<xref rid="R4" ref-type="bibr">4</xref></sup>. Although the vast majority of patients experience clinical benefit, almost all develop resistance to these agents<sup><xref rid="R5" ref-type="bibr">5</xref></sup>. Furthermore, some of these patients shows either intrinsic resistance or short-lived responses (e.g. disease progression (PD) in less than 12 weeks).</p>
+      <p id="P3">Several mechanisms of RAF inhibitor resistance have been identified. Genetic causes of resistance identified thus far include <italic>NRAS</italic><sup><xref rid="R6" ref-type="bibr">6</xref></sup> and MEK1<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup> mutations, <italic>BRAF</italic> amplification<sup><xref rid="R8" ref-type="bibr">8</xref></sup>, and <italic>NF1</italic> loss<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. Non-genetic causes of RAF inhibitor resistance include activation of COT<sup><xref rid="R10" ref-type="bibr">10</xref></sup> or EGFR<sup><xref rid="R11" ref-type="bibr">11</xref></sup>, suppression of BIM expression via PTEN loss<sup><xref rid="R12" ref-type="bibr">12</xref></sup>, alternative splicing of BRAF RNA transcripts<sup><xref rid="R13" ref-type="bibr">13</xref></sup>, disrupted feedback regulation<sup><xref rid="R14" ref-type="bibr">14</xref></sup>, receptor tyrosine kinase dysregulation<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup>, and stromal secretion of growth factors like HGF<sup><xref rid="R16" ref-type="bibr">16</xref>,<xref rid="R17" ref-type="bibr">17</xref></sup>.</p>
+      <p id="P4">Most previously described resistance mechanisms were identified using preclinical models and confirmed in limited numbers of clinical specimens. A detailed understanding of the somatic genetic causes of RAF inhibitor resistance may have longstanding clinical impact, since these mechanisms may inform future clinical development priorities. However, our understanding of the spectrum of genetic resistance mechanisms is incomplete. Therefore, we performed whole exome sequencing of BRAF<sup>V600</sup> melanoma tissue obtained before treatment and after the development of resistance to RAF inhibitors to characterize the clinical spectrum of genetic resistance for this patient population.</p>
+    </sec>
+    <sec sec-type="results" id="S2">
+      <title>RESULTS</title>
+      <sec id="S3">
+        <title>A spectrum of genetic alterations is associated with clinical resistance to RAF inhibition</title>
+        <p id="P5">Among the 45 patients in this cohort (<xref rid="F1" ref-type="fig">Fig. 1A</xref>), 14 (31%) had early resistance (on therapy for less than 12 weeks) and 31 (68.9%) developed acquired resistance (<xref rid="T1" ref-type="table">Table 1</xref>). Among the early resistance patients, 7 (50%) had progressive disease as best response, 6 (43%) had short-lived stable disease, and one (7%) had a brief partial response. The mean target coverage for tumor samples was 200X and 92X for germline DNA (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table S1</xref>). BRAF mutations were detected in all pre-treatment biopsy specimens by WES, of which 44 of 45 were missense mutations affecting codon V600. Patient 11 had an in-frame deletion event predicted to generate a functional effect similar to V600E (Val600_Lys601delinsGlu).</p>
+        <p id="P6">Mutational analysis of resistant tumors revealed several genes shown previously to confer resistance to RAF inhibition (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table S2</xref>–<xref rid="SD4" ref-type="supplementary-material">4</xref>). These include somatic mutations in <italic>NRAS</italic> (17.8%; seven involving the Q61 loci and one involving T58), amplifications of <italic>BRAF</italic> (8.9%), and mutations in <italic>MAP2K1</italic> (15.6%), although <italic>MAP2K1</italic> mutations did not universally preclude clinical response (<xref rid="F1" ref-type="fig">Fig. 1B</xref>). As expected, acquired <italic>NRAS</italic> mutations occurred exclusively in patients on therapy for more than 12 weeks (<italic>P</italic> = 0.04). We also observed multiple additional putative resistance drivers that occurred at low frequencies across the cohort (<xref rid="F1" ref-type="fig">Fig. 1B</xref>).</p>
+        <p id="P7">Globally, these events could be aggregated based on the cellular pathways or mechanisms implicated by the resistance-associated genes. Resistance alterations predominantly involved the MAPK pathway or downstream effectors (<italic>NRAS</italic>, <italic>BRAF</italic>, <italic>MAP2K1</italic>, <italic>MAP2K2</italic>, <italic>MITF, NF1</italic>), representing 44.4% (20/45) of the patient cohort. Additional alterations with less clear resistance relationships were observed in the phosphoinositide 3-kinase (PI3K) pathway (<italic>PIK3CA</italic>, <italic>PTEN</italic>, <italic>PIK3R1</italic>), and in <italic>HOXD8</italic> or <italic>RAC1</italic> (<xref rid="F1" ref-type="fig">Fig. 1B</xref>).</p>
+      </sec>
+      <sec id="S4">
+        <title>MEK2 mutations confer resistance to RAF and MEK inhibitors</title>
+        <p id="P8">We identified four mutations involving the <italic>MAP2K2</italic> gene (which encodes the MEK2 kinase) in drug-resistant melanoma specimens (<xref rid="F2" ref-type="fig">Fig. 2A–B</xref>). Like its homologue MEK1, MEK2 is situated immediately downstream of RAF proteins in the MAPK pathway. MEK2 forms a heterodimer with MEK1 that promotes extracellular signal-related kinase (ERK) phosphorylation<sup><xref rid="R18" ref-type="bibr">18</xref></sup>. One of these mutations (MEK2<sup>C125S</sup>) is homologous to a previously described MEK1<sup>C121S</sup> mutation that confers cross-resistance to RAF and MEK inhibitors <italic>in vitro</italic><sup><xref rid="R7" ref-type="bibr">7</xref></sup>.</p>
+        <p id="P9">To verify the predicted resistance phenotypes conferred by MEK2 mutations, MEK2 mutant constructs were cloned into a doxycycline-inducible vector and expressed in A375 melanoma cells – which harbor BRAF<sup>V600E</sup> mutation and are sensitive to RAF inhibition – and treated with increasing concentrations of MAP kinase pathway inhibitors. Compared to the effects of wild type MEK2, cells expressing resistance-associated MEK2 mutations were less sensitive to both RAF (dabrafenib; <xref rid="F2" ref-type="fig">Fig. 2C</xref>) and MEK (trametinib; <xref rid="F2" ref-type="fig">Fig. 2D</xref>) inhibition. As with the homologous and previously-reported MEK1<sup>C121S</sup> resistance mutation<sup><xref rid="R7" ref-type="bibr">7</xref></sup>, MEK2<sup>C125S</sup> conferred profound resistance to both RAF and MEK inhibition, with fold change in GI<sub>50</sub> (half-maximal inhibitor concentration) greater than 100. The MEK2<sup>V35M</sup><italic>,</italic> MEK2<sup>L46F</sup>, and MEK2<sup>N126D</sup> mutants also engendered resistance to RAF and MEK inhibition, although their effect were not as pronounced as those of MEK2<sup>C125S</sup>. In contrast, all resistance-associated MEK2 mutations remained sensitive to ERK inhibition using the tool compound VRT11E (<xref rid="F2" ref-type="fig">Fig. 2E</xref>). All MEK2 mutant alleles examined conferred sustained MEK and ERK phosphorylation in the context of RAF inhibitor treatment (<xref rid="F2" ref-type="fig">Fig. 2F</xref>).</p>
+      </sec>
+      <sec id="S5">
+        <title>MEK1 mutations confer resistance to RAF and MEK inhibitors when expressed inducibly</title>
+        <p id="P10">Five <italic>MAP2K1</italic> gene mutations (encodes the MEK1 kinase) were detected in either drug-resistance specimens (3 mutations; MEK1<sup>V60E</sup>, MEK1<sup>G128V</sup>, and MEK1<sup>V154I</sup> in Patients 41, 32, and 28, respectively) or pre-treatment tumors that progressed rapidly in the face of clinical RAF inhibition (2 mutations; MEK1<sup>P124S</sup> and MEK1<sup>P124L</sup> in Patients 4 and 15, respectively) (<xref rid="F1" ref-type="fig">Fig. 1B</xref>). Two additional MEK1 mutations (MEK1<sup>G276W</sup> and MEK1<sup>F53Y</sup>) occurred in pre-treatment tumor samples from patients (Patient 5 and 31) who experienced a clinical benefit from RAF inhibitors based on time on therapy (25–33 weeks; <xref rid="F1" ref-type="fig">Fig. 1B</xref>). This finding was consistent with prior studies indicating that the presence of MEK1 mutations does not necessarily preclude a clinical benefit from RAF inhibitors<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R19" ref-type="bibr">19</xref></sup>. Nonetheless, several MEK1 mutations involved residues predicted to cause RAF inhibitor resistance based on mutagenesis screens and experimental studies reported previously<sup><xref rid="R7" ref-type="bibr">7</xref></sup> (<xref rid="F3" ref-type="fig">Fig. 3A–B</xref>), including MEK1<sup>V60E</sup> and MEK1<sup>G128V</sup>. These results raised the possibility that somatic <italic>MAP2K1</italic> mutations might promote resistance to RAF inhibition in some contexts but not others.</p>
+        <p id="P11">To explore this possibility, we cloned several MEK1-mutant cDNAs identified herein into a doxycycline-inducible expression vector, and expressed the mutant proteins alongside wild-type MEK1 in A375 melanoma cells. Cell growth inhibition curves were generated in the presence of dabrafenib (RAF inhibitor), trametinib (MEK inhibitor), or VRT11E (ERK inhibitor), as shown in <xref rid="F3" ref-type="fig">Fig. 3</xref> (see Methods for additional details). All MEK1 mutations examined conferred robust resistance to both RAF and MEK inhibition following doxycycline induction, with fold change in GI<sub>50</sub> (half-maximal inhibitory concentration) of 10–80 fold for dabrafenib (<xref rid="F3" ref-type="fig">Fig. 3C</xref>) and 3–20 fold for trametinib (<xref rid="F3" ref-type="fig">Fig. 3D</xref>) as compared to wild-type MEK1, noting that only 50% growth inhibition was maximally achieved. Of note, doxycycline induction of wild-type MEK1 produced modest (approximately 3 fold) resistance to MEK1 inhibition but had no effect on the dabrafenib GI<sub>50</sub> value (<xref rid="F3" ref-type="fig">Figs. 3C–D</xref>). In contrast, doxycycline induction of these MEK1 mutants had no effect on BRAF<sup>V600E</sup>-mutant melanoma cell sensitivity to ERK inhibition using VRT11E (<xref rid="F3" ref-type="fig">Fig. 3E</xref>). As seen with the somatic MEK2 mutations described above, doxycycline-inducible expression of MEK1 mutations resulted in elevated MEK and ERK phosphyorylation, which was sustained in the presence of drug concentrations that inhibited MAPK signaling in A375 melanoma cells that overexpressed wild-type MEK1 (<xref rid="F3" ref-type="fig">Fig. 3F</xref>). Together, these results indicated that inducible expression of somatic MEK1 mutations can confer resistance to RAF/MEK inhibition, and suggested that dynamic regulation of mutant MEK1 protein may conceivably modulate clinical sensitivity to these agents in melanoma tumors.</p>
+      </sec>
+      <sec id="S6">
+        <title>MITF amplification is associated with resistance to MAPK inhibition</title>
+        <p id="P12">In one patient whose melanoma tumor lacked a previously described genetic resistance mechanism, we identified a relapse-associated focal amplification of <italic>MITF</italic> (<xref rid="F4" ref-type="fig">Fig. 4A</xref>). This gene encodes a master lineage transcription factor that governs melanocyte development, and is also an amplified oncogene within the melanocyte lineage<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. While paired RNA or immunohistochemistry analysis was not possible with this clinical sample, the highly focal nature of the amplification and its specificity for the relapsed tumor suggested that this amplicon in general, and MITF in particular, might contribute to the resistance phenotype. To test this hypothesis, we overexpressed wild type MITF alongside a DNA-binding impaired MITF mutant (MITF<sup>R217Δ</sup>), or negative control (LacZ) in WM266.4 (<italic>BRAF</italic><sup>V600E</sup>) melanoma cells. The resulting cells were cultured in the presence of RAF (PLX4720), MEK (AZD6244), or ERK (VRT11E) inhibitors at fixed concentrations shown previously to cause resistance. Indeed, forced MITF overexpression rendered these <italic>BRAF</italic><sup>V600E</sup> melanoma cells resistance to RAF, MEK, and ERK inhibition (<xref rid="F4" ref-type="fig">Fig. 4B–C</xref>).</p>
+        <p id="P13">Next, we overexpressed MITF in two additional <italic>BRAF</italic><sup>V600E</sup>-mutant melanoma cell lines (SKMEL19, UACC62) and performed cell growth inhibition studies using the RAF inhibitor tool compound (PLX4720). In both cell lines, MITF overexpression conferred a 30–80 fold increase in the PLX4720 GI<sub>50</sub> values relative to control (LacZ) gene expression (<xref rid="F4" ref-type="fig">Fig. 4D–E</xref>). Since <italic>MITF</italic> activity is regulated by MAPK signaling in melanocytes and melanoma, these results suggest that restoration of a <italic>MITF</italic>-driven transcriptional output (by genomic amplification or other means) comprises a newly recognized clinical resistance mechanism (Johannessen, et al, <italic>in press, Nature</italic>).</p>
+      </sec>
+      <sec id="S7">
+        <title>Intra-tumor heterogeneity of resistance mechanisms</title>
+        <p id="P14">In three patients, multiple independent resistance mechanisms were evident within the same resistant tumor biopsy. For example, one tumor biopsied at progression after 18 weeks on treatment contained resistance-associated mutations in both NRAS and MEK1 (Patient 41, <xref rid="F5" ref-type="fig">Fig. 5A</xref>). Moreover, two distinct somatic NRAS mutations were observed exclusively in the resistant tumor: a validated resistance alteration (Q61R), and a second alteration (T58I) that is homologous to germline KRAS alterations that cause Noonan syndrome<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. These alterations occurred on mutually exclusive reads that spanned both loci, suggesting either that the two alterations occur in <italic>trans</italic> in the same resistant tumor cells or that they represent separate subclonal resistant populations harboring different NRAS mutations (<xref rid="F5" ref-type="fig">Fig. 5A</xref>).</p>
+        <p id="P15">Another post-relapse tumor (Patient 08) harbored an acquired NRAS<sup>Q61K</sup> missense mutation together with focal <italic>BRAF</italic> amplification (<xref rid="F5" ref-type="fig">Fig. 5B</xref>). The resistant tumor from a third patient harbored both a MEK2 mutation and <italic>BRAF</italic> amplification (Patient 02, <xref rid="F5" ref-type="fig">Fig. 5C</xref>). While each of these events has been shown to confer a RAF inhibitor resistance phenotype, the pretreatment tumor was unavailable for this case. Thus, we cannot formally exclude the possibility that these mutations were present prior to treatment with RAF inhibition. Nonetheless, these results further indicate that <italic>BRAF</italic>-mutant melanoma tumors may elaborate multiple resistance mechanisms simultaneously, as suggested by an earlier study involving a single case<sup><xref rid="R22" ref-type="bibr">22</xref></sup>. Given that “non-genetic” resistance mechanisms such as <italic>BRAF</italic> alternative splicing or COT overexpression could not be assessed in this cohort, these findings may vastly undersample the actual clinical incidence of intra-tumor resistance heterogeneity.</p>
+      </sec>
+      <sec id="S8">
+        <title>PI3K pathway activation may contribute to clinical RAF inhibitor resistance</title>
+        <p id="P16">In contrast to MAPK pathway activation, the clinical importance of PI3K pathway dysregulation as a RAF inhibitor resistance mechanism has been less clear<sup><xref rid="R12" ref-type="bibr">12</xref>,<xref rid="R23" ref-type="bibr">23</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>. Prior studies have demonstrated that PI3K pathway activation through multiple mechanisms (e.g. PTEN loss, AKT activation) is associated with RAF inhibitor resistance in some preclinical models<sup><xref rid="R12" ref-type="bibr">12</xref>,<xref rid="R25" ref-type="bibr">25</xref></sup>, and that patients with PTEN loss trend towards shorter progression free survival to dabrafenib<sup><xref rid="R26" ref-type="bibr">26</xref></sup>. However, as is the case with MEK1 (above), PI3K pathway alterations did not necessarily preclude clinical response in tumors characterized herein. For example, Patient 58 harbored a pre-treatment <italic>PTEN</italic><sup>K128T</sup> missense mutation but was on therapy for 18 weeks with stable disease before developing an acquired MITF amplification. Patient 1 had a <italic>PTEN</italic><sup>H93D</sup> missense mutation in the pre-treatment tumor but was on therapy for 66 weeks and achieved a partial response.</p>
+        <p id="P17">We noted that several resistant tumors contained PI3K pathway gene alterations in the absence of known MAPK resistance mechanisms (<xref rid="F1" ref-type="fig">Fig. 1B</xref>, <xref rid="SD5" ref-type="supplementary-material">Supplementary Table S5</xref>). For example, one patient (Patient 48) whose pre-treatment tumor harbored <italic>PTEN</italic><sup>Y86fs</sup> frameshift exhibited a new <italic>PIK3CA</italic><sup>H1047R</sup> mutation in the resistant tumor biopsy (<italic>PIK3CA</italic><sup>H1047R</sup> is a well-characterized oncogenic mutation in the catalytic PI3 kinase alpha subunit<sup><xref rid="R27" ref-type="bibr">27</xref></sup>). The resistant tumor from Patient 36 harbored a <italic>PTEN</italic> deletion (<xref rid="F6" ref-type="fig">Fig. 6A</xref>), although the pre-treatment tumor was unavailable for this case. In 9 of the 11 patients with PTEN missense mutations, the mutation occurred in the phosphatase domain of the protein (<xref rid="SD5" ref-type="supplementary-material">Supplementary Table S5</xref>). Such mutations have been shown previously to confer a loss of function phenotype<sup><xref rid="R28" ref-type="bibr">28</xref>,<xref rid="R29" ref-type="bibr">29</xref></sup>. Other patients with known resistance mechanisms also harbored post-resistant somatic variants of uncertain significance in the PI3K pathway (predominantly <italic>PTEN</italic> missense mutations, but also <italic>PIK3R1</italic> alterations) that lack experimental validation. For instance, Patient 70 was on therapy for 29 weeks and achieved a partial response before acquiring an <italic>NRAS</italic><sup>Q60H</sup> mutation and a <italic>PTEN</italic><sup>R233*</sup> nonsense mutation that is may be inactivating but requires experimental confirmation.</p>
+        <p id="P18">In light of these observations, we sought to probe the possible therapeutic implications of PI3K pathway alterations in BRAF-mutant melanoma. Accordingly, we treated BRAF-mutant melanoma cells that were either wild type or mutant for <italic>PTEN</italic> with both a RAF inhibitor and a PI3 kinase inhibitor <italic>in vitro</italic>. Combined MAPK (PLX4720) and PI3K (GDC0941) inhibition had a modest but discernible impact on cell proliferation in BRAF<sup>V600E</sup>/PTEN<sup>WT</sup> cells (A375), but in the BRAF<sup>V600E</sup>/PTEN<sup>null</sup> cell line (A2058) the combination has a marked effect on cell proliferation and apoptosis (<xref rid="F6" ref-type="fig">Figure 6B–C</xref>), consistent with prior reports<sup><xref rid="R23" ref-type="bibr">23</xref>,<xref rid="R30" ref-type="bibr">30</xref>–<xref rid="R32" ref-type="bibr">32</xref></sup>. Despite these results (which are limited to only one cell line per condition), the cellular contexts in which PI3K pathway activation may promote cell viability in the setting of RAF inhibition remains unclear<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R10" ref-type="bibr">10</xref></sup>. Some <italic>in vitro</italic> studies argue against a strong proliferative effect (Johannessen, et al, <italic>in press, Nature</italic>), therefore implying that PI3K pathway dysregulation may augment cell survival in some contexts and allow such tumor cells the opportunity to elaborate additional (non-genetic) adaptive resistance mechanisms. This model is consistent with the observation that many, though not all, tumors with resistance-associated PI3K pathway mutations lack genetic resistance mechanisms linked to MAPK pathway activation (<xref rid="F1" ref-type="fig">Fig. 1B</xref>).</p>
+      </sec>
+      <sec id="S9">
+        <title>Genetic correlates of early resistance</title>
+        <p id="P19">Among the 14 patients exhibiting early disease progression in the setting of RAF inhibition (disease progression within 12 weeks of initial RAF inhibitor therapy), three pre-treatment tumor biopsies harbored <italic>RAC1</italic><sup>P29S</sup> mutations. Patients 26 and 46 had transient stable disease, and Patient 34 had immediate progressive disease. <italic>RAC1</italic><sup>P29S</sup> was previously identified as a gain-of-function oncogene mutation in melanoma<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref></sup>. No patients who demonstrated a sustained response to therapy (≥ 12 weeks on therapy) exhibited this mutation (<italic>P</italic> = 0.026) (<xref rid="F1" ref-type="fig">Fig. 1B</xref>). Conceivably, the <italic>RAC1</italic><sup>P29S</sup> mutations may mark a tumor cell population that is partially resistant to single-agent RAF inhibition, although experimental evidence in support of this notion is necessary.</p>
+        <p id="P20">Finally, a nonsense mutation in the <italic>HOXD8</italic> gene was observed in a single resistant tumor from a patient with early resistance (<xref rid="F1" ref-type="fig">Fig. 1B</xref>). <italic>HOXD8</italic> is a homeobox transcription factor<sup><xref rid="R35" ref-type="bibr">35</xref></sup> that has been shown to be dysregulated in multiple cancers<sup><xref rid="R36" ref-type="bibr">36</xref>,<xref rid="R37" ref-type="bibr">37</xref></sup>, although it has not previously been associated with melanoma, nor is there a known functional relationship between this gene and RAF signaling. Interestingly, <italic>HOXD8</italic> suppression was implicated in RAF inhibitor resistance following a genome-scale RNA interference suppressor screen reported previously<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. The presence of a <italic>HOXD8</italic> nonsense mutation in the absence of other known resistance associated alterations raises the possibility that inactivation of this homeobox transcription factor may represent another new resistance mechanism. However, this gene has not previously been interrogated in drug-resistant clinical specimens.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="S10">
+      <title>DISCUSSION</title>
+      <p id="P21">Whole-exome sequencing of BRAF<sup>V600</sup>-mutant melanoma tumors obtained prior to treatment with selective class I RAF inhibitors and following resistance has revealed a landscape of putative clinical resistance gene mutations linked to this therapy. This study utilized clinical FFPE tumor samples rather than research-grade frozen tissue. The regular use of FFPE material for massively parallel sequencing studies should greatly expand the specimens available for systematic studies of response and resistance to anticancer agents. In addition to known alterations, we found multiple new gene mutations that may implicate novel resistance mechanisms. Consequently, this work has extended knowledge of potential genetic avenues through which BRAF<sup>V600</sup>-mutant melanomas can achieve resistance to RAF inhibition.</p>
+      <p id="P22">This study was performed with patient samples longitudinally obtained from a nationwide clinical consortium (the Dermatologic Cooperative Oncology Group of Germany [DeCOG]). Whole exome sequencing was completed using genomic DNA obtained from archival (e.g. formalin-fixed, paraffin-embedded) tumor material. This study therefore demonstrates the feasibility of comprehensive clinical resistance studies that unite the potentially expansive clinical access of consortium groups with the production capabilities of a large-scale genome center. Such efforts may guide future cancer genomics studies that incorporate multiple biopsies obtained from patients for clinical purposes to effectively study therapeutic resistance and other salient clinical questions. The use of FFPE tumor samples for whole exome sequencing did not limit this study; indeed, sequencing metrics for this cohort met or exceeded standards that have been employed for The Cancer Genome Atlas (TCGA) and other cancer genome projects of similar scale. This technical success may therefore provide a framework for many new clinical studies that allow insights into the molecular basis of therapeutic response and resistance in cancer.</p>
+      <p id="P23">Computational analysis of the tumor genomic data in this study was enhanced by integration with available systematic functional screening data to prioritize candidate RAF inhibitor resistance-associated genes. Since the pattern or resistance genes may approximate a “long tail” distribution (similar to the distribution of cancer genes<sup><xref rid="R38" ref-type="bibr">38</xref></sup>), many nominated resistance-associated genes may not reach statistical significance without exceedingly large clinical cohorts, as was the case with this study. Genome-wide resistance screens that comprehensively assess for genes that, through loss or gain, promote resistance <italic>in vitro</italic> promote new resistance-associated genes, but in the absence of such events observed in patients may lack clinical validation. To better assess the functional significance of the genomics data generated for this study, we integrated it with existing and emerging preclinical biological studies that provide a biological foundation the potential importance of the alterations we observed in the clinical resistance setting. By analyzing genomics data in the context of genome-wide resistance screens, rare resistance-associated events that have clear functional roles may be characterized for future studies. Generally, the convergence of <italic>in vitro</italic> genome-wide resistance screens with <italic>in vivo</italic> comprehensive genomic profiling may enrich for robust resistance mechanisms, which demonstrates a potential model for resistance studies involving targeted therapies across tumor types.</p>
+      <p id="P24">The majority of resistance alterations involve reactivation of the MAPK pathway. Experimental assessment of a subset of resistance mutations further stratified these events into discrete categories that may inform future therapeutic or clinical trial options. Several MEK1 and MEK2 resistance mutations confer cross-resistance to MEK inhibitor therapy and raise the possibility that combined RAF/MEK inhibition may also have limited efficacy in this patient subpopulation (Wagle et al., co-submission). In contrast, <italic>NRAS</italic> mutations and <italic>BRAF</italic> amplifications may still prove responsive to subsequent MEK inhibitor-based regimens, although the existing clinical data suggests that patients who progress following single-agent RAF inhibition are less likely to benefit from MEK inhibitors<sup><xref rid="R39" ref-type="bibr">39</xref></sup>. Most of these mutations remain sensitive to ERK inhibitors <italic>in vitro</italic>, suggesting that such agents<sup><xref rid="R40" ref-type="bibr">40</xref></sup> may represent a high-priority avenue for new targeted therapeutic development.</p>
+      <p id="P25">Alterations in genes encoding transcription factors may also implicate a rare category of clinical resistance mechanisms that involves restoration (<italic>MITF</italic> amplification) of an oncogenic transcriptional output downstream of the MAPK pathway. Unlike signaling based resistance, transcriptional effectors may confer cross-resistance to all MAPK pathway inhibitors (including ERK inhibitors) and therefore require alternative therapeutic approaches. <italic>HOXD8</italic>, another transcriptional effector that emerged in an RNAi screen and was subsequently observed to be mutated in a patient with early resistance, may also contribute to RAF inhibitor resistance, although further functional studies are necessary to confirm this model. Moreover, the identification of alterations that activate PI3K signaling suggests that novel combinations of MAPK and PI3K pathway inhibitors may merit clinical evaluation in <italic>BRAF</italic>-mutant melanoma.</p>
+      <p id="P26">Comprehensive cancer genome characterization studies have revealed a “long tail” of mutated genes that drive carcinogenesis<sup><xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R41" ref-type="bibr">41</xref></sup>. The present study suggests that a similar long tail of genetic effectors may mediate resistance to RAF inhibitors. Additionally, multiple resistance mechanisms may arise within the same tumor, and the mechanisms observed in this study differ from those reported in case report form<sup><xref rid="R22" ref-type="bibr">22</xref></sup>. As noted earlier, given we could not interrogate non-somatic mechanisms of resistance, such as <italic>BRAF</italic> alternative splicing, this result likely underestimates the true incidence of intra-tumor resistance heterogeneity observed clinically. Therapeutically, this finding implies that multiple pathways may need to be targeted either in parallel if not limited by toxicity, or in series as part of an intermittent dosing schedule<sup><xref rid="R42" ref-type="bibr">42</xref></sup>.</p>
+      <p id="P27">Although informative, this study is limited in several aspects. For example, multiple known resistance mechanisms cannot be identified by whole exome sequencing (including <italic>BRAF</italic> alternative splicing, COT up-regulation, and ligand/receptor tyrosine kinase overexpression); thus, this study undoubtedly underestimates the true prevalence of molecular changes that drive clinical resistance to RAF inhibition. Also, since serial biopsies cannot always be performed on the same tumor focus, it may be difficult to discern resistance-associated changes between pre-treatment and resistant tumor samples given pre-existing tumor heterogeneity. The advent of systematic approaches to functional evaluation of candidate resistance effectors may help address such challenges, which are inherent to many genomics studies using clinical samples.</p>
+      <p id="P28">Moreover, some genetic alterations observed in this cohort (e.g. <italic>RAC1</italic>, <italic>HOXD8</italic>) require further experimental validation and assessment in large clinical cohorts to determine their specific impact on mediating RAF inhibitor resistance. It also seems possible that, in certain settings, dysregulation of the PI3K pathway may help improve tumor cell survival during treatment with these agents until a proliferative resistance allele emerges, although experimental validation of many PI3K variants observed in this cohort is necessary.</p>
+      <p id="P29">In conclusion, this work demonstrates the promise of serial tumor biopsies coupled with systematic genetic characterization to reveal a wide spectrum of clinical resistance mechanisms. Widespread clinical application of similar approaches may illuminate new biological and therapeutic insights across many cancer types and inform clinical trial design. Furthermore, these findings underscore the future importance of novel therapeutic combinations (including both targeted agents and immunotherapy) to achieve more durable control of metastatic melanoma and other advanced cancers.</p>
+    </sec>
+    <sec sec-type="methods" id="S11">
+      <title>METHODS</title>
+      <sec id="S12" sec-type="subjects">
+        <title>Patients and Tumor Specimens</title>
+        <p id="P30">Biopsy samples were secured from 45 patients with metastatic melanoma under an IRB-approved protocol to obtain research biopsies before and after resistance developed to systemic therapy (University Hospital Essen 12-4961-BO). All patients provided written informed consent. The clinical characteristics of these patients are described in <xref rid="T1" ref-type="table">Table 1</xref>. Clinical responses to therapy were determined using RECIST criteria. Pre-treatment biopsies were obtained prior to starting therapy, and resistant biopsy samples were obtained upon discontinuation of vemurafenib or dabrafenib at disease progression (<xref rid="F1" ref-type="fig">Fig. 1A</xref>). For patients where complete “trios” (germline sample, pre-treatment tumor, post-progression tumor) were not available (n = 13), pre-treatment biopsy results were included if the patient experienced rapid disease progression, and resistant biopsy results were included if an objective clinical response was achieved. Results from one responding patient (patient 65) were included to inform analyses related to predictors of early resistance, although this patient did not have a matched resistant tumor sample for analysis. Additional details regarding the patient cohort can be found in <xref rid="SD1" ref-type="supplementary-material">Supplementary Table S1</xref>.</p>
+        <sec id="S13">
+          <title>FFPE DNA Extraction</title>
+          <p id="P31">After fixation and mounting, 5–10 10μm slices from formalin-fixed, paraffin-embedded (FFPE) tumor block were obtained and tumor-enriched tissue was macrodissected. Germline DNA was obtained from adjacent normal tissue or peripheral blood mononuclear cells. Paraffin was removed from FFPE sections and cores using CitriSolv<sup>™</sup> (Fisher Scientific) followed by ethanol washes, then tissue was lysed overnight at 56°C. Samples were then incubated at 90°C to remove DNA crosslinks, and extraction was performed using Qiagen QiaAmp DNA Mini Kit (#51306).</p>
+        </sec>
+      </sec>
+      <sec id="S14">
+        <title>Whole Exome Sequencing</title>
+        <p id="P32">We performed whole exome sequencing on the extracted DNA using the Illumina HiSeq platform<sup><xref rid="R43" ref-type="bibr">43</xref></sup> (Van Allen, Wagle, et al, <italic>in press, Nature Medicine</italic>):</p>
+        <sec id="S15">
+          <title>Library Construction</title>
+          <p id="P33">DNA libraries for massively parallel sequencing were generated as previously described<sup><xref rid="R43" ref-type="bibr">43</xref></sup> with the following modifications: the initial genomic DNA input into the shearing step was reduced from 3μg to 10–100ng in 50μL of solution. For adapter ligation, Illumina paired-end adapters were replaced with palindromic forked adapters (purchased from Integrated DNA Technologies) with unique 8 base index molecular barcode sequences included in the adapter sequence to facilitate downstream pooling. With the exception of the palindromic forked adapters, all reagents used for end repair, A-base addition, adapter ligation, and library enrichment PCR were purchased from KAPA Biosciences in 96-reaction kits. In addition, during the post-enrichment solid phase reversible immobilization (SPRI) bead cleanup, elution volume was reduced to 20μL to maximize library concentration, and a vortexing step was added to maximize the amount of template eluted from the beads. Libraries with concentrations above 40ng/μl, as measured by a PicoGreen assay automated on an Agilent Bravo instrument, were considered acceptable for hybrid selection and sequencing.</p>
+        </sec>
+        <sec id="S16">
+          <title>Solution-phase hybrid selection</title>
+          <p id="P34">The exon capture procedure was performed as previously described<sup><xref rid="R43" ref-type="bibr">43</xref></sup> with the following modifications: prior to hybridization, any libraries with concentrations &gt;60ng/μL (as determined by PicoGreen) were brought to 60ng/μL, and 8.3μL of library was combined with blocking agent, bait, and hybridization buffer. Libraries with concentrations between 50 and 60ng/μL were normalized to 50ng/μL, and 10.3μL of library was combined with blocking agent, bait, and hybridization buffer. Libraries with concentrations between 40 and 50ng/μL were normalized to 40ng/μL, and 12.3μL of library was combined with blocking agent, bait, and hybridization buffer. Finally, the hybridization reaction was reduced to 17 hours, with no changes to the downstream capture protocol.</p>
+        </sec>
+        <sec id="S17">
+          <title>Preparation of libraries for cluster amplification and sequencing</title>
+          <p id="P35">After post-capture enrichment, libraries were quantified using PicoGreen, normalized to equal concentration using a Perkin Elmer MiniJanus instrument, and pooled by equal volume on the Agilent Bravo platform. Library pools were then quantified using quantitative PCR (KAPA Biosystems) with probes specific to the ends of the adapters; this assay was automated using Agilent’s Bravo liquid handling platform. Based on qPCR quantification, libraries were brought to 2nM and denatured using 0.2 N NaOH on the Perkin-Elmer MiniJanus. After denaturation, libraries were diluted to 20pM using hybridization buffer purchased from Illumina.</p>
+        </sec>
+        <sec id="S18">
+          <title>Cluster amplification and sequencing</title>
+          <p id="P36">Cluster amplification of denatured templates was performed according to the manufacturer’s protocol (Illumina). HiSeq v3 cluster chemistry and flowcells, as well as Illumina’s Multiplexing Sequencing Primer Kit. DNAs were added to flowcells and sequenced using the HiSeq 2000 v3 Sequencing-by-Synthesis method, then analyzed using RTA v.1.12.4.2 or later. Each pool of whole exome libraries was subjected to paired 76bp runs. An 8-base index sequencing read was performed to read molecular indices, across the number of lanes needed to meet coverage for all libraries in the pool.</p>
+        </sec>
+      </sec>
+      <sec id="S19" sec-type="methods|discussion">
+        <title>Sequencing Analysis and Interpretation</title>
+        <sec id="S20">
+          <title>Sequence data processing</title>
+          <p id="P37">Exome sequence data processing was performed using established analytical pipelines at the Broad Institute. A BAM file was produced with the Picard pipeline (<ext-link ext-link-type="uri" xlink:href="http://picard.sourceforge.net/">http://picard.sourceforge.net/</ext-link>), which aligns the tumor and normal sequences to the hg19 human genome build using Illumina sequencing reads. The BAM was uploaded into the Firehose pipeline (<ext-link ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/Firehose">http://www.broadinstitute.org/cancer/cga/Firehose</ext-link>), which manages input and output files to be executed by GenePattern<sup><xref rid="R44" ref-type="bibr">44</xref></sup>.</p>
+        </sec>
+        <sec id="S21">
+          <title>Sequencing quality control</title>
+          <p id="P38">Quality control modules within Firehose were applied to all sequencing data for comparison of the origin for tumor and normal genotypes and to assess fingerprinting concordance. Cross-contamination of samples was estimated using ContEst<sup><xref rid="R45" ref-type="bibr">45</xref></sup>. Where 5–15% contamination was observed (n = 2), SNP fingerprints from each lane of a tumor/normal pair were cross-checked to confirm concordance; those without global concordance were excluded from subsequent analysis.</p>
+        </sec>
+        <sec id="S22">
+          <title>Somatic alterations</title>
+          <p id="P39">MuTect<sup><xref rid="R46" ref-type="bibr">46</xref></sup> was applied to identify somatic single-nucleotide variants. Indelocator (<ext-link ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/indelocator">http://www.broadinstitute.org/cancer/cga/indelocator</ext-link>) was applied to identify small insertions or deletions. Artifacts introduced by DNA oxidation during sequencing were computationally removed using a filter-based method<sup><xref rid="R47" ref-type="bibr">47</xref></sup>. Annotation of identified variants was done using Oncotator (<ext-link ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/oncotator">http://www.broadinstitute.org/cancer/cga/oncotator</ext-link>). Copy ratios were calculated for each captured target by dividing the tumor coverage by the median coverage obtained in a set of reference normal samples. The resulting copy ratios were segmented using the circular binary segmentation algorithm<sup><xref rid="R48" ref-type="bibr">48</xref></sup>. Genes in copy ratio regions with segment means of greater than log<sub>2</sub>(4) were evaluated for focal amplifications, and genes in regions with segment means of less than log<sub>2</sub>(0.5) were evaluated for deletions. For cases where we had pre-treatment and post-resistance tumors (n = 32), alterations that we present in the post-resistance tumor only were selected; in other cases we included all non-synonymous alterations (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table S2</xref>–<xref rid="SD3" ref-type="supplementary-material">3</xref>). We then integrated this data with preclinical functional models of resistance and existing literature on melanoma oncogenesis<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref>,<xref rid="R49" ref-type="bibr">49</xref></sup>. The analyses were performed using the R statistical software. All somatic mutations and short insertion/deletions are provided in <xref rid="SD4" ref-type="supplementary-material">Supplementary Table S4</xref>.</p>
+        </sec>
+      </sec>
+      <sec id="S23">
+        <title>Experimental Analysis</title>
+        <p id="P40">Physical and biologic containment procedures for recombinant DNA followed institutional protocols in accordance with the National Institutes of Health Guidelines for Research Involving Recombinant DNA Molecules.</p>
+        <sec id="S24">
+          <title>Plasmids and site-directed mutagenesis</title>
+          <p id="P41">The tet-inducible construct, pCW57.1, was a generous gift of Dr. David Root and Dr. John Doench (The Broad Institute of Harvard and MIT). The V5-tagged tet-inducible construct, pLIX_403, was obtained from addgene (41395). MEK1 cDNA was described previously<sup><xref rid="R7" ref-type="bibr">7</xref></sup> and MEK2 cDNA was obtained from addgene (23555). MITF (m isoform) was previously described<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. Site-directed mutagenesis was performed in the pDONR (Invitrogen) construct using Quick-Change II (Stratagene) according to the manufacturer’s instructions. MEK cDNA was then transferred from pDONR to pCW57.1 or pLIX_403 using LR Clonase II (Invitrogen). Arginine 217 of MITF-m<sup><xref rid="R36" ref-type="bibr">36</xref></sup> was deleted using the QuikChange Lightning Mutagenesis Kit (Agilent), performed in pDonor223 (Invitrogen). MITF-m<sup>R217Δ</sup> was transferred into pLX304 using LR Clonase (Invitrogen) per manufacturer’s recommendation.</p>
+        </sec>
+        <sec id="S25">
+          <title>Viral infections</title>
+          <p id="P42">293T cells (70% confluent) were transfected with expression vectors (pCW57.1 MEK1 (tet-inducible), pLIX_403 MEK2 (V5 tagged, tet-inducible), or pLX_304 MIF-m (V5 tagged), together with packaging vectors Δ8.91 and VSVG, using X-treme Gene 9 (Roche). Viral supernatants were passed through a 0.45μm syringe. A375 cells were infected for 16 hours with virus in the presence of polybrene (4 ug/ml, Sigma); puromycin was introduced 48 hours post infection to create stable cell lines. For MITF expression in WM266.4, cells were infected at a 1:10–1:20 dilution of virus in 6-well plates (2.0 × 10<sup>5</sup> cells/well, for immunoblot assays) or 96-well plates (3.0 × 10<sup>3</sup>, for cell growth assays) in the presence of 5.5 μg/ml polybrene and centrifuged at 2250 RPM for 60 min. at 373 C followed immediately by removal of media and replacement with complete growth media.</p>
+        </sec>
+        <sec id="S26">
+          <title>Cell lines</title>
+          <p id="P43">A375, SKMEL28, A2058 and WM266.4 cells were purchased from ATCC and were maintained in DMEM or RPMI-1640 with 10% heat inactivated FBS. A375 cells stable expressing tet-inducible MEK1 (pCW57.1 MEK1) or tet-inducible MEK2-V5 (pLIX_403 MEK2) were maintained in 10% tet-approved FBS (Clontech) and 2 μg/mL puromycin. Cell lines obtained from ATCC, which verify identity by short tandem repeat profiling, were passaged less than 6 months following receipt.</p>
+        </sec>
+        <sec id="S27">
+          <title>In vitro pharmacologic growth inhibition assays</title>
+          <p id="P44">Dabrafenib (RAF inhibitor), trametinib (MEK inhibitor) and VRT11E (ERK inhibitor) were purchased from ChemieTek. PLX4720 (RAF inhibitor), GDC0941 (PI3K inhibitor) and selumetinib (MEK inhibitor) were purchased from Selleck Chemicals. For growth inhibition analysis, A375 cells expressing MEK1 or MEK2 WT and mutants were seeded in 96-well plates (2000 cells/well for A375 cells) and allowed to adhere for 16 hours. Afterwards, media containing serial dilutions of inhibitor were added, ensuring that the final volume of DMSO did not exceed 0.1%. Doxycycline (1μg/mL) was added to the media at the time of drug treatment to induce the protein expression. Cells were incubated for 72 hours in the presence of drug, and viability was measured by the CellTiter96 AQueous assay (Promega). For shoter-term culture growth inhibition analysis, cells were seeded in 96-well plates and treated the following day with serial dilutions of inhibitor. Cells were incubated for 72 hours in the presence of drug, and viability was measured by the CellTiter96 Aqueous assay (Promega). WM266.4 engineered to express MITF were seeded into 96-well, white-walled, clear bottom plates. Seventy-two hours after viral infection, dilutions of the relevant compound were prepared in DMSO to 1000x stocks. Drug stocks were then diluted 1:100 into appropriate growth media and added to cells at a dilution of 1:10(1x final). Cell viability was measured using CellTiterGlo viability assay (Promega) at a dilution of 1:6. Viability was calculated as a percentage of the control (untreated cells) after background subtraction. Six replicates were performed in each cell line and drug combination experiment, and the entire experiment was also repeated three times. Data from the pharmacologic growth-inhibition assays were modeled using a nonlinear regression curve fit with a sigmoidal dose response. These curves were displayed using GraphPad Prism 5 (GraphPad Software).</p>
+        </sec>
+        <sec id="S28">
+          <title>Western blot analysis</title>
+          <p id="P45">Immunoblot studies were performed using standard procedures. Briefly, melanoma cells were lysed with RIPA or 1% NP40 lysis buffer containing both protease and phosphatase inhibitor cocktails (Roche). Lysates were quantified (Bradford assay), denatured (95°C), and resolved by SDS gel electrophoresis. Protein was transferred to PVDF or nitrocellulose membranes and probed with primary antibodies recognizing p-ERK1/2, p-MEK1/2 (Ser217/221), MEK1/2, pan-AKT, pAKT Ser473, PARP, actin and α-tubulin (Cell Signaling Technology; 1:1000 dilution) or MITF (NeoMarkers, C5), Silver, pERK (Sigma), V5 (Invitrogen), ERK2 and Melan-A (Santa Cruz). After incubation with the appropriate secondary antibody (anti-rabbit or anti-mouse IgG, HRP-linked; 1:1000 dilution) (Cell Signaling Technology), proteins were detected using chemiluminescence (Pierce).</p>
+        </sec>
+      </sec>
+      <sec id="S29">
+        <title>Statistical analysis</title>
+        <p id="P46">Analyses of clinical parameters were performed using the R statistical package. Significance between two means was calculated with the two-tailed Mann-Whitney test. The two-tailed Fisher’s exact test was used to test the statistical significance of the contingency table represented by <italic>NRAS</italic> or <italic>RAC1</italic> mutation status in early resistance and responding cohorts. <italic>P</italic> &lt; 0.05 was considered significant.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="S31">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS538714-supplement-1.docx" mimetype="application" mime-subtype="msword" orientation="portrait" xlink:type="simple" id="d36e1453" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>2</label>
+        <media xlink:href="NIHMS538714-supplement-2.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d36e1457" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>3</label>
+        <media xlink:href="NIHMS538714-supplement-3.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d36e1461" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>4</label>
+        <media xlink:href="NIHMS538714-supplement-4.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d36e1465" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>5</label>
+        <media xlink:href="NIHMS538714-supplement-5.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d36e1469" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD6">
+        <label>6</label>
+        <media xlink:href="NIHMS538714-supplement-6.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d36e1473" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S32">
+      <p>We thank the patients that were enrolled in this study. We also thank the funding sources that support this effort, which include the National Cancer Institute (Award #P01 CA163222 01A1, P50 CA 93683; L.A.G.), National Human Genome Research Institute (Award #5U54HG003067-11; L.A.G., G.G., S.A.G.), the Melanoma Research Alliance (L.A.G.), the Dr. Miriam and Sheldon G. Adelson Medical Research Foundation (L.A.G.), the Harvard Clinical and Translational Science Center NIH Training Grant Award (Award #UL1 RR 025758; C.S.P.), the National Institute of General Medical Sciences Grant T32GM07753 (E.H.), the Conquer Cancer Foundation (E.M.V. and N.W.), the Dana-Farber Leadership Council (E.M.V.), and the American Cancer Society (E.M.V.).</p>
+    </ack>
+    <fn-group>
+      <fn id="FN4" fn-type="conflict">
+        <p>
+          <bold>CONFLICTS OF INTEREST</bold>
+        </p>
+        <p>Dr. Garraway and Dr. Wagle are equity holders in and consultants to Foundation Medicine. Dr. Garraway is a consultant to Novartis, Millenium/Takeda, and Boehringer Ingelheim, and a recipient of a grant from Novartis. Dr. Schadendorf is a consultant for GlaxoSmithKline, Bristol-Myers Squibb, Merck, Amgen, Novartis, and Roche, and a recipient of grant funding from Merck.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chapman</surname>
+              <given-names>PB</given-names>
+            </name>
+            <name>
+              <surname>Hauschild</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Robert</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Haanen</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Ascierto</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Larkin</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Improved survival with vemurafenib in melanoma with BRAF V600E mutation</article-title>
+          <source>The New England journal of medicine</source>
+          <year>2011</year>
+          <volume>364</volume>
+          <fpage>2507</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="pmid">21639808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sosman</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>KB</given-names>
+            </name>
+            <name>
+              <surname>Schuchter</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Pavlick</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>JS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Survival in BRAF V600-mutant advanced melanoma treated with vemurafenib</article-title>
+          <source>The New England journal of medicine</source>
+          <year>2012</year>
+          <volume>366</volume>
+          <fpage>707</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="pmid">22356324</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hauschild</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Grob</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Demidov</surname>
+              <given-names>LV</given-names>
+            </name>
+            <name>
+              <surname>Jouary</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gutzmer</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Millward</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dabrafenib in BRAF-mutated metastatic melanoma: a multicentre, open-label, phase 3 randomised controlled trial</article-title>
+          <source>Lancet</source>
+          <year>2012</year>
+          <volume>380</volume>
+          <fpage>358</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="pmid">22735384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flaherty</surname>
+              <given-names>KT</given-names>
+            </name>
+            <name>
+              <surname>Infante</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Daud</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kefford</surname>
+              <given-names>RF</given-names>
+            </name>
+            <name>
+              <surname>Sosman</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Combined BRAF and MEK inhibition in melanoma with BRAF V600 mutations</article-title>
+          <source>The New England journal of medicine</source>
+          <year>2012</year>
+          <volume>367</volume>
+          <fpage>1694</fpage>
+          <lpage>703</lpage>
+          <pub-id pub-id-type="pmid">23020132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trunzer</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Pavlick</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Schuchter</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>McArthur</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Hutson</surname>
+              <given-names>TE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Pharmacodynamic effects and mechanisms of resistance to vemurafenib in patients with metastatic melanoma</article-title>
+          <source>Journal of clinical oncology: official journal of the American Society of Clinical Oncology</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>1767</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="pmid">23569304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nazarian</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Koya</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Melanomas acquire resistance to B-RAF(V600E) inhibition by RTK or N-RAS upregulation</article-title>
+          <source>Nature</source>
+          <year>2010</year>
+          <volume>468</volume>
+          <fpage>973</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">21107323</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagle</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Emery</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Sawyer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pochanard</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dissecting therapeutic resistance to RAF inhibition in melanoma by tumor genomic profiling</article-title>
+          <source>Journal of clinical oncology: official journal of the American Society of Clinical Oncology</source>
+          <year>2011</year>
+          <volume>29</volume>
+          <fpage>3085</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="pmid">21383288</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Moriceau</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Koya</surname>
+              <given-names>RC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Melanoma whole-exome sequencing identifies (V600E)B-RAF amplification-mediated acquired B-RAF inhibitor resistance</article-title>
+          <source>Nature communications</source>
+          <year>2012</year>
+          <volume>3</volume>
+          <fpage>724</fpage>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whittaker</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Theurillat</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Van Allen</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Wagle</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Hsiao</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Cowley</surname>
+              <given-names>GS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A genome-scale RNA interference screen implicates NF1 loss in resistance to RAF inhibition</article-title>
+          <source>Cancer discovery</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>350</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="pmid">23288408</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johannessen</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Wardwell</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>LA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>COT drives resistance to RAF inhibition through MAP kinase pathway reactivation</article-title>
+          <source>Nature</source>
+          <year>2010</year>
+          <volume>468</volume>
+          <fpage>968</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="pmid">21107320</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Girotti</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sanchez-Laorden</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Viros</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Turajlic</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Niculescu-Duvaz</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Inhibiting EGF receptor or SRC family kinase signaling overcomes BRAF inhibitor resistance in melanoma</article-title>
+          <source>Cancer discovery</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>158</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="pmid">23242808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paraiso</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Rebecca</surname>
+              <given-names>VW</given-names>
+            </name>
+            <name>
+              <surname>Abel</surname>
+              <given-names>EV</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>YA</given-names>
+            </name>
+            <name>
+              <surname>Munko</surname>
+              <given-names>AC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PTEN loss confers BRAF inhibitor resistance to melanoma cells through the suppression of BIM expression</article-title>
+          <source>Cancer research</source>
+          <year>2011</year>
+          <volume>71</volume>
+          <fpage>2750</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="pmid">21317224</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poulikakos</surname>
+              <given-names>PI</given-names>
+            </name>
+            <name>
+              <surname>Persaud</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Janakiraman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Moriceau</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RAF inhibitor resistance is mediated by dimerization of aberrantly spliced BRAF(V600E)</article-title>
+          <source>Nature</source>
+          <year>2011</year>
+          <volume>480</volume>
+          <fpage>387</fpage>
+          <lpage>90</lpage>
+          <pub-id pub-id-type="pmid">22113612</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lito</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Pratilas</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Joseph</surname>
+              <given-names>EW</given-names>
+            </name>
+            <name>
+              <surname>Tadi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Halilovic</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Zubrowski</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Relief of profound feedback inhibition of mitogenic signaling by RAF inhibitors attenuates their activity in BRAFV600E melanomas</article-title>
+          <source>Cancer cell</source>
+          <year>2012</year>
+          <volume>22</volume>
+          <fpage>668</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="pmid">23153539</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Villanueva</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vultur</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JT</given-names>
+            </name>
+            <name>
+              <surname>Somasundaram</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Fukunaga-Kalabis</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cipolla</surname>
+              <given-names>AK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Acquired resistance to BRAF inhibitors mediated by a RAF kinase switch in melanoma can be overcome by cotargeting MEK and IGF-1R/PI3K</article-title>
+          <source>Cancer cell</source>
+          <year>2010</year>
+          <volume>18</volume>
+          <fpage>683</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="pmid">21156289</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Straussman</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Morikawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Shee</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Barzily-Rokni</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>ZR</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Tumour micro-environment elicits innate resistance to RAF inhibitors through HGF secretion</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>487</volume>
+          <fpage>500</fpage>
+          <lpage>4</lpage>
+          <pub-id pub-id-type="pmid">22763439</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>TR</given-names>
+            </name>
+            <name>
+              <surname>Fridlyand</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Penuel</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Burton</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Widespread potential for growth-factor-driven resistance to anticancer kinase inhibitors</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>487</volume>
+          <fpage>505</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">22763448</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Catalanotti</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Reyes</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Jesenberger</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Galabova-Kovacs</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>de Matos Simoes</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Carugo</surname>
+              <given-names>O</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A Mek1-Mek2 heterodimer determines the strength and duration of the Erk signal</article-title>
+          <source>Nature structural &amp; molecular biology</source>
+          <year>2009</year>
+          <volume>16</volume>
+          <fpage>294</fpage>
+          <lpage>303</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Moriceau</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Koya</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Nazarian</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Pupo</surname>
+              <given-names>GM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Preexisting MEK1 exon 3 mutations in V600E/KBRAF melanomas do not confer resistance to BRAF inhibitors</article-title>
+          <source>Cancer discovery</source>
+          <year>2012</year>
+          <volume>2</volume>
+          <fpage>414</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="pmid">22588879</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garraway</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Widlund</surname>
+              <given-names>HR</given-names>
+            </name>
+            <name>
+              <surname>Rubin</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Getz</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Ramaswamy</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Integrative genomic analyses identify MITF as a lineage survival oncogene amplified in malignant melanoma</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>436</volume>
+          <fpage>117</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="pmid">16001072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schubbert</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Zenker</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Rowe</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Boll</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bollag</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Germline KRAS mutations cause Noonan syndrome</article-title>
+          <source>Nature genetics</source>
+          <year>2006</year>
+          <volume>38</volume>
+          <fpage>331</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">16474405</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Romano</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Pradervand</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Paillusson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Harshman</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Muehlethaler</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of Multiple Mechanisms of Resistance to Vemurafenib in a Patient with BRAFV600E-Mutated Cutaneous Melanoma Successfully Rechallenged after Progression</article-title>
+          <source>Clinical cancer research: an official journal of the American Association for Cancer Research</source>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deng</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Gopal</surname>
+              <given-names>YN</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Woodman</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Role and therapeutic potential of PI3K-mTOR signaling in de novo resistance to BRAF inhibition</article-title>
+          <source>Pigment cell &amp; melanoma research</source>
+          <year>2012</year>
+          <volume>25</volume>
+          <fpage>248</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="pmid">22171948</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greger</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Eastman</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Bleam</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Smitheman</surname>
+              <given-names>KN</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Combinations of BRAF, MEK, and PI3K/mTOR inhibitors overcome acquired resistance to the BRAF inhibitor GSK2118436 dabrafenib, mediated by NRAS or MEK mutations</article-title>
+          <source>Molecular cancer therapeutics</source>
+          <year>2012</year>
+          <volume>11</volume>
+          <fpage>909</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="pmid">22389471</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xing</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Persaud</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Pratilas</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>BS</given-names>
+            </name>
+            <name>
+              <surname>Janakiraman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>She</surname>
+              <given-names>QB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Concurrent loss of the PTEN and RB1 tumor suppressors attenuates RAF dependence in melanomas harboring (V600E)BRAF</article-title>
+          <source>Oncogene</source>
+          <year>2012</year>
+          <volume>31</volume>
+          <fpage>446</fpage>
+          <lpage>57</lpage>
+          <pub-id pub-id-type="pmid">21725359</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nathanson</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Wubbenhorst</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Greshock</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Letrero</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>D’Andrea</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Tumor genetic analyses of patients with metastatic melanoma treated with the BRAF inhibitor Dabrafenib (GSK2118436)</article-title>
+          <source>Clinical cancer research: an official journal of the American Association for Cancer Research</source>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janku</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Wheler</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Naing</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Falchook</surname>
+              <given-names>GS</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>DS</given-names>
+            </name>
+            <name>
+              <surname>Stepanek</surname>
+              <given-names>VM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PIK3CA mutation H1047R is associated with response to PI3K/AKT/mTOR signaling pathway inhibitors in early-phase clinical trials</article-title>
+          <source>Cancer research</source>
+          <year>2013</year>
+          <volume>73</volume>
+          <fpage>276</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="pmid">23066039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodriguez-Escudero</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Oliver</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Andres-Pons</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Molina</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cid</surname>
+              <given-names>VJ</given-names>
+            </name>
+            <name>
+              <surname>Pulido</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>A comprehensive functional analysis of PTEN mutations: implications in tumor- and autism-related syndromes</article-title>
+          <source>Human molecular genetics</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>4132</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="pmid">21828076</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Shibata</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ishii</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Functional evaluation of PTEN missense mutations using in vitro phosphoinositide phosphatase assay</article-title>
+          <source>Cancer research</source>
+          <year>2000</year>
+          <volume>60</volume>
+          <fpage>3147</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="pmid">10866302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gopal</surname>
+              <given-names>YN</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Woodman</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Komurov</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ram</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>PD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Basal and treatment-induced activation of AKT mediates resistance to cell death by AZD6244 (ARRY-142886) in Braf-mutant human cutaneous melanoma cells</article-title>
+          <source>Cancer research</source>
+          <year>2010</year>
+          <volume>70</volume>
+          <fpage>8736</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="pmid">20959481</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoeflich</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Herter</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tien</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Berry</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Antitumor efficacy of the novel RAF inhibitor GDC-0879 is predicted by BRAFV600E mutational status and sustained extracellular signal-regulated kinase/mitogen-activated protein kinase pathway suppression</article-title>
+          <source>Cancer research</source>
+          <year>2009</year>
+          <volume>69</volume>
+          <fpage>3042</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="pmid">19276360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoeflich</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Merchant</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Orr</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Den Otter</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Berry</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Intermittent administration of MEK inhibitor GDC-0973 plus PI3K inhibitor GDC-0941 triggers robust apoptosis and tumor growth inhibition</article-title>
+          <source>Cancer research</source>
+          <year>2012</year>
+          <volume>72</volume>
+          <fpage>210</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">22084396</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hodis</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Watson</surname>
+              <given-names>IR</given-names>
+            </name>
+            <name>
+              <surname>Kryukov</surname>
+              <given-names>GV</given-names>
+            </name>
+            <name>
+              <surname>Arold</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>Imielinski</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Theurillat</surname>
+              <given-names>JP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A landscape of driver mutations in melanoma</article-title>
+          <source>Cell</source>
+          <year>2012</year>
+          <volume>150</volume>
+          <fpage>251</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="pmid">22817889</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krauthammer</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ha</surname>
+              <given-names>BH</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bacchiocchi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>McCusker</surname>
+              <given-names>JP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Exome sequencing identifies recurrent somatic RAC1 mutations in melanoma</article-title>
+          <source>Nature genetics</source>
+          <year>2012</year>
+          <volume>44</volume>
+          <fpage>1006</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="pmid">22842228</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spitz</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Peichel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vogt</surname>
+              <given-names>TF</given-names>
+            </name>
+            <name>
+              <surname>Duboule</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Zakany</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Large scale transgenic and cluster deletion analysis of the HoxD complex separate an ancestral regulatory module from evolutionary innovations</article-title>
+          <source>Genes &amp; development</source>
+          <year>2001</year>
+          <volume>15</volume>
+          <fpage>2209</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="pmid">11544178</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shinawi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>VK</given-names>
+            </name>
+            <name>
+              <surname>Krex</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Schackert</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Gentle</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Morris</surname>
+              <given-names>MR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>DNA methylation profiles of long- and short-term glioblastoma survivors</article-title>
+          <source>Epigenetics: official journal of the DNA Methylation Society</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>149</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="pmid">23291739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leshchenko</surname>
+              <given-names>VV</given-names>
+            </name>
+            <name>
+              <surname>Kuo</surname>
+              <given-names>PY</given-names>
+            </name>
+            <name>
+              <surname>Shaknovich</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>DT</given-names>
+            </name>
+            <name>
+              <surname>Gellen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Petrich</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genomewide DNA methylation analysis reveals novel targets for drug development in mantle cell lymphoma</article-title>
+          <source>Blood</source>
+          <year>2010</year>
+          <volume>116</volume>
+          <fpage>1025</fpage>
+          <lpage>34</lpage>
+          <pub-id pub-id-type="pmid">20427703</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garraway</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Lander</surname>
+              <given-names>ES</given-names>
+            </name>
+          </person-group>
+          <article-title>Lessons from the cancer genome</article-title>
+          <source>Cell</source>
+          <year>2013</year>
+          <volume>153</volume>
+          <fpage>17</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">23540688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kefford</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>WH</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>GV</given-names>
+            </name>
+            <name>
+              <surname>Dienstmann</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Preliminary results from a phase Ib/II, open-label, dose-escalation study of the oral BRAF inhibitor LGV818 in combination with the oral MEK1/2 inhibitor MEK162 in BRAF V600-dependent advanced solid tumors</article-title>
+          <source>J Clin Oncol</source>
+          <volume>31</volume>
+          <fpage>2013</fpage>
+          <comment>(suppl; abstr 9029)</comment>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morris</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Jha</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Restaino</surname>
+              <given-names>CR</given-names>
+            </name>
+            <name>
+              <surname>Dayananth</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Discovery of a novel ERK inhibitor with activity in models of acquired resistance to BRAF and MEK inhibitors</article-title>
+          <source>Cancer discovery</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>742</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">23614898</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vogelstein</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Papadopoulos</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Velculescu</surname>
+              <given-names>VE</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Diaz</surname>
+              <given-names>LA</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Kinzler</surname>
+              <given-names>KW</given-names>
+            </name>
+          </person-group>
+          <article-title>Cancer genome landscapes</article-title>
+          <source>Science</source>
+          <year>2013</year>
+          <volume>339</volume>
+          <fpage>1546</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="pmid">23539594</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Das Thakur</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Salangsang</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Landman</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Sellers</surname>
+              <given-names>WR</given-names>
+            </name>
+            <name>
+              <surname>Pryer</surname>
+              <given-names>NK</given-names>
+            </name>
+            <name>
+              <surname>Levesque</surname>
+              <given-names>MP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Modelling vemurafenib resistance in melanoma reveals a strategy to forestall drug resistance</article-title>
+          <source>Nature</source>
+          <year>2013</year>
+          <volume>494</volume>
+          <fpage>251</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="pmid">23302800</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fisher</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Barry</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Abreu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Minie</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Nolan</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Delorey</surname>
+              <given-names>TM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A scalable, fully automated process for construction of sequence-ready human exome targeted capture libraries</article-title>
+          <source>Genome biology</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <fpage>R1</fpage>
+          <pub-id pub-id-type="pmid">21205303</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reich</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Liefeld</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gould</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lerner</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Tamayo</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Mesirov</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <article-title>GenePattern 2. 0</article-title>
+          <source>Nature genetics</source>
+          <year>2006</year>
+          <volume>38</volume>
+          <fpage>500</fpage>
+          <lpage>1</lpage>
+          <pub-id pub-id-type="pmid">16642009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cibulskis</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>McKenna</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Fennell</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Banks</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>DePristo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Getz</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>ContEst: estimating cross-contamination of human samples in next-generation sequencing data</article-title>
+          <source>Bioinformatics</source>
+          <year>2011</year>
+          <volume>27</volume>
+          <fpage>2601</fpage>
+          <lpage>2</lpage>
+          <pub-id pub-id-type="pmid">21803805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cibulskis</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Sivachenko</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Jaffe</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Sougnez</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>
+          <source>Nature biotechnology</source>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Costello</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pugh</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Fennell</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lichtenstein</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Meldrim</surname>
+              <given-names>JC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Discovery and characterization of artifactual mutations in deep coverage targeted capture sequencing data due to oxidative DNA damage during sample preparation</article-title>
+          <source>Nucleic acids research</source>
+          <year>2013</year>
+          <volume>41</volume>
+          <fpage>e67</fpage>
+          <pub-id pub-id-type="pmid">23303777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olshen</surname>
+              <given-names>AB</given-names>
+            </name>
+            <name>
+              <surname>Venkatraman</surname>
+              <given-names>ES</given-names>
+            </name>
+            <name>
+              <surname>Lucito</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wigler</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Circular binary segmentation for the analysis of array-based DNA copy number data</article-title>
+          <source>Biostatistics</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>557</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="pmid">15475419</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berger</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Hodis</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Heffernan</surname>
+              <given-names>TP</given-names>
+            </name>
+            <name>
+              <surname>Deribe</surname>
+              <given-names>YL</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Protopopov</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Melanoma genome sequencing reveals frequent PREX2 mutations</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>485</volume>
+          <fpage>502</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">22622578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chou</surname>
+              <given-names>TC</given-names>
+            </name>
+            <name>
+              <surname>Talalay</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative analysis of dose-effect relationships: the combined effects of multiple drugs or enzyme inhibitors</article-title>
+          <source>Advances in enzyme regulation</source>
+          <year>1984</year>
+          <volume>22</volume>
+          <fpage>27</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="pmid">6382953</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <title>Genetic alterations in the context of RAF inhibitor therapy</title>
+        <p>(A) Schematic overview of tumor biopsy collection in the context of RAF inhibitor therapy, followed by whole exome sequencing and analysis. (B) Spectrum of putative resistance genes, including known genes (<italic>NRAS, BRAF, MEK1</italic>) and new genes (<italic>MEK2, MITF</italic>). Additional recurrently altered pathways (PI3K pathway) or genomic correlates of early resistance (<italic>HOXD8</italic>, <italic>RAC1</italic>) are also shown. Results are sorted by duration of therapy (weeks). CR = Complete response, PR = partial response, SD = stable disease, PD = progressive disease.</p>
+      </caption>
+      <graphic xlink:href="nihms538714f1"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <title>MEK2 mutations confer resistance to RAF/MEK but not ERK inhibition</title>
+        <p>(A) A stick plot of <italic>MAP2K2</italic> (which encodes the MEK2 kinase); the location of putative resistance-associated mutations observed in the patient cohort are indicated. (B) The crystal structure for MEK2. The locations of somatically mutated bases are denoted in yellow; the first stretch of amino acids are missing from the MEK2 structure in PDB, so the V35M and L46F mutations cannot be shown on the structure. (C–E) Growth inhibition curves are shown for MEK2 mutants in the context of RAF (C), MEK (D), or ERK (E) inhibitors. (F) The effect of dabrafenib or trametinib on ERK1/2 phosphorylation (pERK 1/2) in wild-type A375 cells (BRAF<sup>V600E</sup>) and those expressing wildtype MEK2 (WT) or mutant constructs for MEK2. The levels of pERK1/2, total ERK1/2, pMEK1/2, MEK1/2, and vinculin are shown for A375 cells expressing novel MEK2 mutations after a 16-hour incubation at various drug concentrations as indicated.</p>
+      </caption>
+      <graphic xlink:href="nihms538714f2"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <title>MEK1 mutations confer varying degrees of resistance to RAF/MEK but not ERK inhibition</title>
+        <p>(A) A stick plot of <italic>MAP2K1</italic> (which encodes the MEK1 kinase); the location of putative resistance-associated mutations observed in the patient cohort are indicated. (B) The crystal structure for <italic>MEK1</italic>. The locations of somatically mutated bases are denoted in yellow. (C-E) Growth inhibition curves are shown for MEK1 mutants in the context of RAF (C), MEK (D), or ERK (E) inhibitors. (F) The effect of dabrafenib or trametinib on ERK1/2 phosphorylation (pERK 1/2) in wild-type A375 cells (BRAF<sup>V600E</sup>) and those expressing wildtype MEK1 (WT) or mutant constructs for MEK1. The levels of pERK1/2, total ERK1/2, pMEK1/2, MEK1/2, and vinculin are shown for A375 cells expressing novel MEK2 mutations after a 16-hour incubation at various drug concentrations as indicated.</p>
+      </caption>
+      <graphic xlink:href="nihms538714f3"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <title>Acquired MITF amplification confers resistance to MAP kinase pathway inhibition</title>
+        <p>(A) Focal genomic amplification of <italic>MITF</italic> occurs in a post-relapse sample in the absence of additional, known resistance mechanisms. (B) Relative viability of BRAF<sup>V600E</sup>-mutant WM266.4 cells following overexpression of wild type MITF, a DNA-binding impaired MITF mutant (MITF-m<sup>R217Δ</sup>) or control (LacZ) in the presence of RAF, MEK, combined RAF/MEK, or ERK inhibitors. (C) Western blot analysis of WM266.4 expressing the constructs used in (B). Half-maximal drug response curves in BRAF<sup>V600E</sup>-mutant melanoma cell lines SKMEL19 (D) and UACC62 (E) expressing either LacZ or the melanocyte-specific isoform of MITF (MITFm) in the presence of increasing concentrations of PLX4720.</p>
+      </caption>
+      <graphic xlink:href="nihms538714f4"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <title>Intra-tumor resistance heterogeneity</title>
+        <p>(A) Co-occuring NRAS (Integrated Genomics Viewer [IGV] compressed window) and MEK1<sup>V60E</sup> (IGV regular window) missense mutations in a relapsed tumor sample (Patient 41). NRAS<sup>Q61R</sup> occurs in mutually exclusive reads compared to a neighboring NRAS<sup>T58I</sup> somatic missense mutation in this patient. (B) Acquired NRAS<sup>Q61K</sup> missense mutation together with <italic>BRAF</italic> amplification in the same tumor (Patient 8). (C) A MEK2<sup>L46F</sup> missense mutation coincident with <italic>BRAF</italic> amplification in a resistant tumor specimen (Patient 02 – no pre-treatment tumor sample was available in this case).</p>
+      </caption>
+      <graphic xlink:href="nihms538714f5"/>
+    </fig>
+    <fig id="F6" orientation="portrait" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <title>Combined inhibition of BRAF and PI3K can confer synergistic activity</title>
+        <p>(A) Copy number profile from a resistant tumor sample (Patient 36 – no pre-treatment tumor sample was available in this case) demonstrates a focal homozygous deletion in chromosome 10 that includes PTEN. (B) A375 (BRAF<sup>V600E</sup>, PTEN<sup>WT</sup>) and A2058 (BRAF<sup>V600E</sup>, PTEN<sup>null)</sup> cells were treated with multiples of their respective GI<sub>50</sub>s for PLX4720 or GDC0941 alone and in combination for 4 d. Cell proliferation was assessed using the CellTiter-Glo reagent. Combined BRAF and PI3K inhibition demonstrated synergistic activity in A2058 cells but to a lesser extent in A375 cells. The combination index (CI) was determined at the GI<sub>50</sub> concentration using the Chou and Talalay method and Calcusyn (Biosoft)<sup><xref rid="R50" ref-type="bibr">50</xref></sup>. (C) A375 and A2058 cells were treated with 4xGI<sub>50</sub> concentrations of PLX4720, GDC0941 or a combination of both inhibitors for 20 h. Cell lysates were analyzed by Western blotting for the indicated proteins.</p>
+      </caption>
+      <graphic xlink:href="nihms538714f6"/>
+    </fig>
+    <table-wrap id="T1" position="float" orientation="portrait">
+      <label>Table 1</label>
+      <caption>
+        <title>Clinical Characteristics</title>
+        <p>The RAF inhibitor used, duration of response, and best clinical response data for 45 patients are detailed here, further stratified by whether the patient exhibited early or acquired resistance to therapy. Age is defined as the age at time of starting therapy.</p>
+      </caption>
+      <table frame="void" rules="none">
+        <thead>
+          <tr>
+            <th valign="bottom" align="left" rowspan="1" colspan="1"/>
+            <th valign="bottom" align="center" rowspan="1" colspan="1">Total</th>
+            <th valign="bottom" align="center" rowspan="1" colspan="1">Early</th>
+            <th valign="bottom" align="center" rowspan="1" colspan="1">Acquired</th>
+          </tr>
+          <tr>
+            <th valign="bottom" align="left" rowspan="1" colspan="1"/>
+            <th colspan="3" valign="bottom" align="center" rowspan="1">
+<hr/></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Number of Patients</bold>
+            </td>
+            <td align="center" valign="top" rowspan="1" colspan="1">45</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">14</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">31</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Age (years)</bold>
+            </td>
+            <td align="center" valign="top" rowspan="1" colspan="1">51.0</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">48.8</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">52.0</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Gender (% Female)</bold>
+            </td>
+            <td align="center" valign="top" rowspan="1" colspan="1">48.9</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">50</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">48.3</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Medication</bold>
+            </td>
+            <td align="center" valign="top" rowspan="1" colspan="1"/>
+            <td align="center" valign="top" rowspan="1" colspan="1"/>
+            <td align="center" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1"> Vemurafenib (%)</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">66.6</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">64.3</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">67.7</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1"> Dabrafenib (%)</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">33.3</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">35.7</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">32.3</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Median Duration of therapy (weeks)</bold>
+            </td>
+            <td align="center" valign="top" rowspan="1" colspan="1">20 (SD 14.1)</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">9 (SD 2.3)</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">25 (SD 12.4)</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Best Response (%)</bold>
+            </td>
+            <td align="center" valign="top" rowspan="1" colspan="1"/>
+            <td align="center" valign="top" rowspan="1" colspan="1"/>
+            <td align="center" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1"> CR</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">2.2</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">3.2</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1"> PR</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">55.6</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">7.1</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">80.6</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1"> SD</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">24.4</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">42.9</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">16.1</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1"> PD</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">17.8</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">50</td>
+            <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td valign="bottom" align="left" rowspan="1" colspan="1"/>
+            <td colspan="3" valign="bottom" align="center" rowspan="1">
+<hr/></td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="TFN1">
+          <p>All values are medians across the cohort. CR = Complete response, PR = partial response, SD = stable disease, PD = progressive disease.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <boxed-text id="BX1" position="float" orientation="portrait">
+      <caption>
+        <title>STATEMENT OF SIGNIFICANCE</title>
+      </caption>
+      <p id="P47">The use of RAF inhibitors for BRAF<sup>V600</sup>-mutant metastatic melanoma improves patient outcomes, but most patients demonstrate early or acquired resistance to this targeted therapy. We reveal the genetic landscape of clinical resistance mechanisms to RAF inhibitors from patients using whole exome sequencing, and experimentally assess new observed mechanisms to define potential subsequent treatment strategies.</p>
+    </boxed-text>
+  </floats-group>
+</article>

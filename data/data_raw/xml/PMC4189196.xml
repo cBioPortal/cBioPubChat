@@ -1,0 +1,2378 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Genome Biol</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">7</journal-id>
+        <journal-id journal-id-type="pmc-domain">genbio</journal-id>
+        <journal-title-group>
+          <journal-title>Genome Biology</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1474-7596</issn>
+        <issn pub-type="epub">1474-760X</issn>
+        <publisher>
+          <publisher-name>BMC</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4189196</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4189196.1</article-id>
+        <article-id pub-id-type="pmcaid">4189196</article-id>
+        <article-id pub-id-type="pmcaiid">4189196</article-id>
+        <article-id pub-id-type="pmid">25164765</article-id>
+        <article-id pub-id-type="doi">10.1186/s13059-014-0454-7</article-id>
+        <article-id pub-id-type="publisher-id">454</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Research</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Comparative sequencing analysis reveals high genomic concordance between matched primary and metastatic colorectal cancer lesions</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brannon</surname>
+              <given-names initials="AR">A Rose</given-names>
+            </name>
+            <address>
+              <email>brannonar@gmail.com</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vakiani</surname>
+              <given-names initials="E">Efsevia</given-names>
+            </name>
+            <address>
+              <email>vakianie@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sylvester</surname>
+              <given-names initials="BE">Brooke E</given-names>
+            </name>
+            <address>
+              <email>sylvestb@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scott</surname>
+              <given-names initials="SN">Sasinya N</given-names>
+            </name>
+            <address>
+              <email>scotts1@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McDermott</surname>
+              <given-names initials="G">Gregory</given-names>
+            </name>
+            <address>
+              <email>gcm2001@med.cornell.edu</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1"/>
+            <xref ref-type="aff" rid="Aff7"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="RH">Ronak H</given-names>
+            </name>
+            <address>
+              <email>shahr2@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kania</surname>
+              <given-names initials="K">Krishan</given-names>
+            </name>
+            <address>
+              <email>kkania@princeton.edu</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Viale</surname>
+              <given-names initials="A">Agnes</given-names>
+            </name>
+            <address>
+              <email>vialea@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff5"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Oschwald</surname>
+              <given-names initials="DM">Dayna M</given-names>
+            </name>
+            <address>
+              <email>dmoschwald@nygenome.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff6"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vacic</surname>
+              <given-names initials="V">Vladimir</given-names>
+            </name>
+            <address>
+              <email>vvacic@nygenome.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff6"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Emde</surname>
+              <given-names initials="AK">Anne-Katrin</given-names>
+            </name>
+            <address>
+              <email>akemde@nygenome.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff6"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cercek</surname>
+              <given-names initials="A">Andrea</given-names>
+            </name>
+            <address>
+              <email>cerceka@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff3"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yaeger</surname>
+              <given-names initials="R">Rona</given-names>
+            </name>
+            <address>
+              <email>yaegerr@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff3"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kemeny</surname>
+              <given-names initials="NE">Nancy E</given-names>
+            </name>
+            <address>
+              <email>kemenyn@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff3"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Saltz</surname>
+              <given-names initials="LB">Leonard B</given-names>
+            </name>
+            <address>
+              <email>saltzl@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff3"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shia</surname>
+              <given-names initials="J">Jinru</given-names>
+            </name>
+            <address>
+              <email>shiaj@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>D’Angelica</surname>
+              <given-names initials="MI">Michael I</given-names>
+            </name>
+            <address>
+              <email>dangelim@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff4"/>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weiser</surname>
+              <given-names initials="MR">Martin R</given-names>
+            </name>
+            <address>
+              <email>weiser1@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff4"/>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Solit</surname>
+              <given-names initials="DB">David B</given-names>
+            </name>
+            <address>
+              <email>solitd@MSKCC.ORG</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2"/>
+            <xref ref-type="aff" rid="Aff3"/>
+            <xref ref-type="aff" rid="Aff7"/>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F</given-names>
+            </name>
+            <address>
+              <email>bergerm1@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1"/>
+            <xref ref-type="aff" rid="Aff2"/>
+            <xref ref-type="aff" rid="Aff7"/>
+          </contrib>
+          <aff id="Aff1"><label/>Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY 10065 USA </aff>
+          <aff id="Aff2"><label/>Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065 USA </aff>
+          <aff id="Aff3"><label/>Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY 10065 USA </aff>
+          <aff id="Aff4"><label/>Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY 10065 USA </aff>
+          <aff id="Aff5"><label/>Genomics Core Laboratory, Memorial Sloan Kettering Cancer Center, New York, NY 10065 USA </aff>
+          <aff id="Aff6"><label/>New York Genome Center, New York, NY 10065 USA </aff>
+          <aff id="Aff7"><label/>Weill Cornell Medical College, New York, NY 10065 USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>28</day>
+          <month>8</month>
+          <year>2014</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <year>2014</year>
+        </pub-date>
+        <volume>15</volume>
+        <issue>8</issue>
+        <issue-id pub-id-type="pmc-issue-id">242002</issue-id>
+        <elocation-id>454</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>30</day>
+            <month>4</month>
+            <year>2014</year>
+          </date>
+          <date date-type="accepted">
+            <day>22</day>
+            <month>8</month>
+            <year>2014</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>28</day>
+              <month>08</month>
+              <year>2014</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>09</day>
+              <month>10</month>
+              <year>2014</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2014-10-09 00:11:43.887">
+              <day>09</day>
+              <month>10</month>
+              <year>2014</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© Brannon et al.; licensee BioMed Central Ltd. 2014</copyright-statement>
+          <license license-type="open-access">
+            <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0">http://creativecommons.org/licenses/by/4.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="13059_2014_Article_454.pdf"/>
+        <abstract id="Abs1">
+          <sec>
+            <title>Background</title>
+            <p>Colorectal cancer is the second leading cause of cancer death in the United States, with over 50,000 deaths estimated in 2014. Molecular profiling for somatic mutations that predict absence of response to anti-EGFR therapy has become standard practice in the treatment of metastatic colorectal cancer; however, the quantity and type of tissue available for testing is frequently limited. Further, the degree to which the primary tumor is a faithful representation of metastatic disease has been questioned. As next-generation sequencing technology becomes more widely available for clinical use and additional molecularly targeted agents are considered as treatment options in colorectal cancer, it is important to characterize the extent of tumor heterogeneity between primary and metastatic tumors.</p>
+          </sec>
+          <sec>
+            <title>Results</title>
+            <p>We performed deep coverage, targeted next-generation sequencing of 230 key cancer-associated genes for 69 matched primary and metastatic tumors and normal tissue. Mutation profiles were 100% concordant for <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic>, and <italic toggle="yes">BRAF</italic>, and were highly concordant for recurrent alterations in colorectal cancer. Additionally, whole genome sequencing of four patient trios did not reveal any additional site-specific targetable alterations.</p>
+          </sec>
+          <sec>
+            <title>Conclusions</title>
+            <p>Colorectal cancer primary tumors and metastases exhibit high genomic concordance. As current clinical practices in colorectal cancer revolve around <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic>, and <italic toggle="yes">BRAF</italic> mutation status, diagnostic sequencing of either primary or metastatic tissue as available is acceptable for most patients. Additionally, consistency between targeted sequencing and whole genome sequencing results suggests that targeted sequencing may be a suitable strategy for clinical diagnostic applications.</p>
+          </sec>
+          <sec>
+            <title>Electronic supplementary material</title>
+            <p>The online version of this article (doi:10.1186/s13059-014-0454-7) contains supplementary material, which is available to authorized users.</p>
+          </sec>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2014</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Background</title>
+        <p>Precision oncology relies on the accurate characterization of targetable oncogenic mutations present at the time of metastatic disease. However, it is often challenging to obtain biopsies of metastatic tumors, and it is still preferable to use the least invasive screening methods possible. Emerging evidence of both inter- and intra-tumor genetic heterogeneity in several solid tumor types raises concerns that molecular profiling of primary tumors may not be representative of metastatic disease [<xref ref-type="bibr" rid="CR1">1</xref>-<xref ref-type="bibr" rid="CR3">3</xref>]. In colorectal cancer (CRC), comparative lesion sequencing of a small number of cases found a high degree of concordance between primary tumors and metastases [<xref ref-type="bibr" rid="CR4">4</xref>]. In contrast, a recent study of 21 patients using next generation sequencing reported a high degree of mutational discordance between primary and metastatic samples [<xref ref-type="bibr" rid="CR5">5</xref>].</p>
+        <p>We previously showed that when analysis was performed on the invasive compartment of primary tumors, KRAS, NRAS, BRAF, and TP53 mutations were highly concordant between primary and metastatic tumors [<xref ref-type="bibr" rid="CR6">6</xref>]. This study provided a preliminary indication that the use of archived primary tumor for molecular profiling may be suitable for clinical decision making in metastatic CRC. However, this conclusion was based on the analysis of only a small number of genes by mass-spectrometry based genotyping and Sanger sequencing.</p>
+        <p>To determine the extent of additional, clinically relevant genetic heterogeneity, we extended this analysis by performing high coverage, next generation sequencing analysis of 230 cancer-associated genes. Specifically, we performed targeted sequencing on primary, metastatic, and normal tissue from 69 colorectal cancer patients. We found that there was a high degree of concordance with regard to early occurring and recurrent mutations. KRAS, NRAS, and BRAF mutations were always identical in both the primary and metastatic tumors. Whole genome sequencing of two concordant and two discordant patient sets upheld the targeted sequencing results and revealed few additional recurrent mutations. In sum, these data suggest that for current clinical practices, either primary or metastatic tissue can be selected for testing, and targeted sequencing of key cancer genes is a suitable strategy for identifying clinically actionable alterations.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Patient selection</title>
+          <p>We analyzed 69 patient trios of primary CRC and matched metastases and normal tissue using a custom capture-based deep sequencing assay (IMPACT, see <xref rid="Sec10" ref-type="sec">Methods</xref>). The assay covers all protein-coding exons of 230 actionable or cancer-related genes (mean target coverage 692X). Only microsatellite-stable tumors were included in the study. Sixty-two (90%) patients presented with stage IV disease (Table <xref rid="Tab1" ref-type="table">1</xref>). In 52 (75%) patients, the primary tumor and metastasis were resected at the same time (concurrent). Among the remaining 17 cases the mean interval time between resections was 15.3 months. Thirty (43%) patients were chemonaive prior to resection (Table <xref rid="Tab1" ref-type="table">1</xref>). None of the treated patients received an anti-EGFR therapy prior to resection.<table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>
+<bold>Clinical characteristics of CRC cases subjected to targeted sequencing</bold>
+</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1">
+<bold>Clinical characteristic</bold>
+</th><th colspan="1" rowspan="1">
+<bold>N = 69</bold>
+</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Median age, years</td><td colspan="1" rowspan="1">59</td></tr><tr valign="top"><td colspan="1" rowspan="1"> Range</td><td colspan="1" rowspan="1">26-88</td></tr><tr valign="top"><td colspan="1" rowspan="1">Sex</td><td colspan="1" rowspan="1"/></tr><tr valign="top"><td colspan="1" rowspan="1"> Male</td><td colspan="1" rowspan="1">34 (49%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> Female</td><td colspan="1" rowspan="1">35 (51%)</td></tr><tr valign="top"><td colspan="1" rowspan="1">Primary tumor location</td><td colspan="1" rowspan="1"/></tr><tr valign="top"><td colspan="1" rowspan="1"> Right</td><td colspan="1" rowspan="1">28 (40%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> Left</td><td colspan="1" rowspan="1">30 (44%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> Rectum</td><td colspan="1" rowspan="1">11 (16%)</td></tr><tr valign="top"><td colspan="1" rowspan="1">Stage at presentation</td><td colspan="1" rowspan="1"/></tr><tr valign="top"><td colspan="1" rowspan="1"> I</td><td colspan="1" rowspan="1">0 (0%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> II</td><td colspan="1" rowspan="1">4 (6%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> III</td><td colspan="1" rowspan="1">3 (4%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> IV</td><td colspan="1" rowspan="1">62 (90%)</td></tr><tr valign="top"><td colspan="1" rowspan="1">Resection</td><td colspan="1" rowspan="1"/></tr><tr valign="top"><td colspan="1" rowspan="1"> Concurrent</td><td colspan="1" rowspan="1">52 (75%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> Subsequent</td><td colspan="1" rowspan="1">17 (25%)</td></tr><tr valign="top"><td colspan="1" rowspan="1">Treatment</td><td colspan="1" rowspan="1"/></tr><tr valign="top"><td colspan="1" rowspan="1"> Chemonaive</td><td colspan="1" rowspan="1">30 (43.5%)</td></tr><tr valign="top"><td colspan="1" rowspan="1"> Prior treatment</td><td colspan="1" rowspan="1">39 (56.5%)</td></tr><tr valign="top"><td colspan="1" rowspan="1">  Both tumors</td><td colspan="1" rowspan="1">27 (39%)</td></tr><tr valign="top"><td colspan="1" rowspan="1">  Primary only</td><td colspan="1" rowspan="1">1 (1.5%)</td></tr><tr valign="top"><td colspan="1" rowspan="1">  Metastasis only</td><td colspan="1" rowspan="1">11 (16%)</td></tr></tbody></table></table-wrap></p>
+        </sec>
+        <sec id="Sec4">
+          <title>Mutation profiles are highly concordant between primary and metastatic tumors</title>
+          <p>Overall, we detected 434 distinct non-synonymous somatic mutations and indels (Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Table S1). The mutation profile was consistent with the expected mutation frequencies for non-hypermutated samples reported by The Cancer Genome Atlas (TCGA) [<xref ref-type="bibr" rid="CR7">7</xref>] (Figure <xref rid="Fig1" ref-type="fig">1</xref>A). We observed APC and TP53 alterations at higher prevalence than the TCGA reported, whereas NRAS mutations were observed less frequently in our study compared to the TCGA. Of the 434 total mutations, 344 (79%) were shared between patient-matched tumors (Figure <xref rid="Fig1" ref-type="fig">1</xref>B-C, Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S1). No discordant mutations were observed in KRAS, NRAS, or BRAF in our cohort. Further, among the mutations in the genes reported by the TCGA to be significantly mutated in non-hypermutated tumors (Figure <xref rid="Fig1" ref-type="fig">1</xref>B; 247/434, 57%), there was very high (93%, 229/247) concordance between primary tumors and matched metastases. The 18 private mutations, defined as mutations called only in the primary or the metastatic tumor, were found in APC (n = 7), PIK3CA (n = 5), SMAD4 (n = 3), and TP53 (n = 3). The majority (n = 5) of the private mutations in APC were secondary mutations in cases that shared a clonal APC mutation. One ‘primary-specific’ event was detectable on further review at a low frequency in the metastasis by comparative analysis. In the remaining case, an APC mutation private to the primary tumor was likely lost in a chromosomal deletion in the paired metastasis (Figure <xref rid="Fig2" ref-type="fig">2</xref>). Our findings confirm that genetic alterations that occur early in colorectal carcinogenesis, namely mutations in APC, KRAS, NRAS, and BRAF, persist through tumor evolution and show an exceedingly high level of concordance between primary tumor and metastases [<xref ref-type="bibr" rid="CR8">8</xref>].<fig id="Fig1" position="float" orientation="portrait"><label>Figure 1</label><caption><p>
+<bold>Mutation patterns are concordant between primary and metastatic tumors and consistent with TCGA. (A)</bold> Most commonly mutated gene frequencies are similar to those of the TCGA non-hypermutated cohort, with minor differences likely due to increased sequencing depth and more advanced disease. <bold>(B, C)</bold> Mutations are highly concordant between primary and metastatic tumors. Shared mutations are in dark purple, private to primary is light red, private to metastasis in light blue. Mutations that are loss-of-function (nonsense, frameshift, or splice site) or that occur in at least five samples in Cosmic are marked with an orange dot.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="MO1" position="float" orientation="portrait" xlink:href="13059_2014_454_Fig1_HTML.jpg"/></fig><fig id="Fig2" position="float" orientation="portrait"><label>Figure 2</label><caption><p>
+<bold>Phenotypic concordance of mutations.</bold> In patient 10, the primary tumor harbors a nonsense mutation not found in the metastatic tumor <bold>(A)</bold>. <bold>(B)</bold> However, the tumor/normal ratio per exon of coverage on chromosome 5 shows that the exons of APC (red dots) are deleted in the metastatic tumor, yielding identical phenotypic results. Similar results were found for PIK3CA and TP53 (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S2).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="MO2" position="float" orientation="portrait" xlink:href="13059_2014_454_Fig2_HTML.jpg"/></fig></p>
+          <p>Despite the overall high concordance in mutation profiles we observed, we chose to further investigate the remaining discordance. To determine whether any of this discordance could be explained by intra-tumor heterogeneity, we sequenced 97 additional samples from spatially separate regions of the primary tumors (n = 62) and metastases (n = 37) from 22 patients, encompassing 46 discordant mutations. All 97 samples were derived from formalin fixed paraffin embedded (FFPE) tissue and reviewed for morphology and tumor cellularity. Sequencing of multiple regions and samples resolved 17/46 discordant mutations, including 12/22 (55%) mutations that were originally detected only in the metastasis but were subsequently found to be subclonal in the primary tumor (Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Table S1). Altogether these results suggest that the small proportion of discordant mutations we observed may itself be an overestimate of the true discordance when accounting for intra-tumor heterogeneity.</p>
+        </sec>
+        <sec id="Sec5">
+          <title>Private oncogenic alterations are occasionally detected</title>
+          <p>Convergent phenotypic evolution was observed in two patients harboring distinct mutations in individual genes, one involving independent mutations in TP53 (R248Q and Y163*) and the other involving separate hotspot mutations in PIK3CA (E542K and E545K, Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S2). Three additional private events were observed in PIK3CA including two E545K mutations specific to the primary tumor and one in-frame deletion at N107 specific to the metastasis. Private mutations of unknown significance were also found in PIK3CD, PIK3CG, PIK3C2G, PIK3R1, and PTEN. Four of these PI3K pathway events were found in other regions, indicative of subclonality. These results suggest that despite the overall high level of genomic concordance between primary and metastatic CRC, heterogeneity in potentially actionable genes, such as those within the PI3K pathway, is present in at least a subset of patients. This finding could have therapeutic implications given the ongoing evaluation of PI3K inhibitors in clinical trials as well as the potential benefit of aspirin therapy in CRC patients harboring PIK3CA mutations [<xref ref-type="bibr" rid="CR9">9</xref>].</p>
+          <p>Notably, we also found genetic events private to the metastasis in three patients lacking KRAS, NRAS, and BRAF mutations. In two cases, MAP2K1 (MEK1) mutations (A106T and Q56P) were detected only in the metastatic sample (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S3). While A106T has not been described, Q56P is a recurrent mutation. Transfection of a GFP-tagged MAP2K1 Q56P plasmid into human embryonic kidney 293H cells resulted in hyperactivation of ERK signaling to a similar degree as other known activating mutations of MAP2K1 (Figure <xref rid="Fig3" ref-type="fig">3</xref>A). By contrast, transfection of A106T did not affect signaling (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S4). In another patient, we found a gain of chromosome 7p, which included the CARD11, ETV1, IKZF1, and EGFR genes in the metastasis but not in the primary tumor (Figure <xref rid="Fig3" ref-type="fig">3</xref>B). To explore this finding, we performed FISH analysis of both samples. Both the primary tumor and metastasis displayed cells with 7p polysomy; however, the metastasis also contained regions of high-level EGFR amplification not observed within any region of the primary tumor (Figure <xref rid="Fig3" ref-type="fig">3</xref>C). These findings collectively suggest that in the absence of RAS mutations, analysis of a metastasis may reveal potentially actionable alterations within other members of the EGFR-RAS signaling pathway.<fig id="Fig3" position="float" orientation="portrait"><label>Figure 3</label><caption><p>
+<bold>Metastatic-specific RTK-RAS activating events in RAS/RAF wildtype tumors.</bold> In several tumors lacking KRAS, NRAS, or BRAF mutations, additional events in the RTK-RAS pathway were identified. <bold>(A)</bold> In patient 19, a metastatic-specific MAP2K1 p.Q56P mutation was identified. Transfection of GFP-tagged MAP2K1 plasmids demonstrate that the p.Q56P mutation hyperactivates downstream signaling to the same level as the known p.K57N mutation. <bold>(B)</bold> In patient 3, chromosome 7p is specifically amplified in the metastatic tumor. <bold>(C)</bold> FISH analysis confirms regions of high level amplification of EGFR in the metastatic tumor (right) while the primary tumor only shows 7p polysomy (left).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="MO3" position="float" orientation="portrait" xlink:href="13059_2014_454_Fig3_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec6">
+          <title>Clinical correlates of mutational concordance</title>
+          <p>We next examined whether mutational concordance was correlated with major clinical characteristics (Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S2). We observed no significant difference in the number of mutations or degree of mutational concordance for cases with different primary tumor locations (right colon, left colon, or rectum) or for cases with different time intervals between primary and metastasis resections (concurrent <italic toggle="yes">versus</italic> subsequent; Additional file <xref rid="MOESM4" ref-type="media">4</xref>: Table S3). We also observed no disease-specific survival differences for patients with concordant and discordant mutation profiles (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S5). However, among patients whose tumors were concurrently resected, those that did not receive prior treatment were more likely to harbor discordant mutations (22/28, 79%) compared to those that received prior therapy (11/24, 46%; chi-square <italic toggle="yes">P</italic> = 0.01. Patients without prior therapy also had a higher total number of mutations, although the difference was not statistically significant (6.6 <italic toggle="yes">vs.</italic> 5.8, <italic toggle="yes">P</italic> = 0.1). These differences may be due to either general tumor debulking and/or decreased tumor heterogeneity from effective drug treatment [<xref ref-type="bibr" rid="CR10">10</xref>]. In accordance with this hypothesis, the primary tumor size in patients receiving prior treatment was slightly smaller than in chemonaive patients (4.2 <italic toggle="yes">vs.</italic> 5.2 cm, T test <italic toggle="yes">P</italic> = 0.02). Additionally, pre-treated patients with concurrently resected tumors were less likely to harbor primary-only mutations than patients with subsequent resections where only the metastasis received treatment (6/24, 25% <italic toggle="yes">vs.</italic> 7/11, 64%; chi-square <italic toggle="yes">P</italic> = 0.03).</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Whole genome analysis reveals consistent mutation patterns</title>
+          <p>While our capture-based assay encompasses all well-established targetable or actionable genes in CRC, this approach by definition would fail to identify discordant mutations not included in the assay design. To determine whether our results were representative of the level of mutational concordance genome-wide, we performed whole genome sequencing (WGS) of two cases where the primary tumor and metastasis were concordant by IMPACT analysis (patients 14 and 54) and two cases that harbored discordant mutations (patients 3 and 19, with one and three discordant mutations by IMPACT, respectively). Given the slight disparity in mutations for pre-treated <italic toggle="yes">versus</italic> chemonaive tumors, we chose the patients such that within each group, one patient’s tumors were chemonaive (patients 3 and 54) and the other patient’s tumors had received prior treatment (patients 14 and 19). Primary and metastatic tumors were sequenced to &gt;80× coverage, and matched normal controls were sequenced to &gt;40× coverage. All SNVs and indels detected at higher than 5% allele frequency by IMPACT were detected in our WGS analysis, and no additional mutations in the 230 genes were identified, providing independent validation of the results produced by both methods.</p>
+          <p>The two patients whose primary and metastatic tumors exhibited discordance by IMPACT analysis displayed significant discordance at the WGS level as well (Figure <xref rid="Fig4" ref-type="fig">4</xref>, Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S6). Comparing all somatic mutations genome-wide, patients 3 and 19 had only 38% and 25% shared mutations, respectively. This rose only slightly to 46% and 32% when considering only non-synonymous exonic mutations (Additional file <xref rid="MOESM5" ref-type="media">5</xref>: Table S4). Patient 19 harbored nine loss-of-function mutations (nonsense, frameshift, or splice site) private to the metastasis. Four other metastasis-specific events, including MAP2K1 Q56P detected by IMPACT, are represented in the COSMIC database. Patient 3 harbored six metastasis-specific loss-of-function mutations and three metastasis-specific recurrent mutations also present in COSMIC. A novel PTK7 Q304* mutation was particularly noteworthy, as this protein inhibits canonical Wnt signaling through binding of the frizzled receptor [<xref ref-type="bibr" rid="CR11">11</xref>]. However, no nonsense mutations were reported in PTK7 in TCGA for CRC, and thus this event, though potentially functional, is rare in CRC. Patient 3 also harbored a metastasis-specific missense mutation in the transcriptional regulation domain of SMAD3 in addition to a metastasis-specific SMAD4 mutation detected by IMPACT.<fig id="Fig4" position="float" orientation="portrait"><label>Figure 4</label><caption><p>
+<bold>Whole genome analysis of mutational concordance. (A)</bold> Concordant and discordant non-synonymous mutations and indels for four CRC patients. <bold>(B)</bold> Percent of protein coding alterations per sample for IMPACT and WGS results. Patients 3 and 19 were discordant by IMPACT and remain so by WGS, while patients 14 and 54 remain largely concordant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="MO4" position="float" orientation="portrait" xlink:href="13059_2014_454_Fig4_HTML.jpg"/></fig></p>
+          <p>In contrast, WGS of the paired tumors from the two patients who exhibited 100% concordance by IMPACT analysis (patients 14 and 54) showed a high degree of similarity, with 80% and 83% shared mutations overall. As above, the level of concordance increased even further upon restricting the analysis to non-synonymous protein-coding mutations (87% and 86% shared) and loss-of-function mutations (91% and 91% shared). For patient 54, a single discordant mutation in RUNXT1 was the only discordant alteration present in COSMIC, and no discordant mutations were nonsense or splice-site mutations. Similarly none of the discordant mutations in patient 14 are currently represented in the COSMIC database. Case 14 was notable in that analysis by IMPACT revealed no mutations in both the beta-catenin and RAS pathways, although the tumor harbored an amplification of CDK8, which has be shown to dysregulate the WNT/beta-catenin pathway [<xref ref-type="bibr" rid="CR12">12</xref>]. No additional beta-catenin pathway alterations were identified by WGS; however, two nonsense mutations in RASA1 (C372* and R679*) were detected in the both primary and metastatic samples. RASA1, a negative regulator of RAS, was altered in 2% of CRC TCGA samples, with mutations in this gene mutually exclusive of KRAS and NRAS mutations. This result prompted the addition of capture probes for the RASA1 gene in our current version of IMPACT and highlights the utility of whole genome sequencing to identify rare alterations in driver pathways such as RAS in tumors pan-negative for the more commonly mutated genes.</p>
+        </sec>
+      </sec>
+      <sec id="Sec8" sec-type="discussion">
+        <title>Discussion</title>
+        <p>We performed deep sequencing of 230 cancer-associated genes in 69 primary CRC tumors and matched metastases to define the mutational concordance of these genes in primary and metastatic tumors. We identified a pattern of genomic alterations consistent with prior studies of CRC, including frequent mutations in the <italic toggle="yes">APC</italic>, <italic toggle="yes">TP53</italic>, and <italic toggle="yes">KRAS</italic> genes [<xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR7">7</xref>]. Mutations in TP53 were more prevalent in our series than TCGA. TCGA analyzed only primary tumors, the majority of which were derived from patients with stage 1 to 3 disease, whereas all patients in our cohort by definition had metastatic disease. This difference is likely the basis for both the higher prevalence of TP53 mutation and the lower prevalence of NRAS mutations in our cohort <italic toggle="yes">versus</italic> TCGA. The higher prevalence of certain mutations observed from IMPACT may also be the result of greater sensitivity for mutation detection afforded by deeper sequence coverage (mean coverage of 692X). Although we did not observe significant differences in the degree of heterogeneity between those tumors that were resected concurrently or subsequently, future studies are required to determine the extent to which systemic treatments result in preferential selection of specific mutational events.</p>
+        <p>The only major clinical feature that seemed to correlate with mutational concordance was whether the tumors had received prior treatment. In patients where tumors were concurrently resected, chemonaive tumors were more likely to have private mutations than pre-treated tumors. Similarly, patients with pre-treated metastatic tumors subsequently resected were more likely to harbor primary-only mutations than patients with pre-treated concurrent resections. These findings raise the possibility that prior treatment results in a decrease of apparent tumor heterogeneity, though larger studies are needed to further explore this hypothesis.</p>
+        <p>Overall, our exon capture data indicate a high degree of concordance in mutational profiles, especially when considering events that occur early in colorectal carcinogenesis. Further, multiple examples of discordance involved parallel evolution demonstrated by independent distinct mutations in the same gene [<xref ref-type="bibr" rid="CR13">13</xref>]. A subsequent whole genome analysis of four paired primary and metastatic samples further suggested that concordance by IMPACT is a good surrogate of genome-wide mutational concordance. Notably, mutations in KRAS, NRAS, and BRAF were 100% concordant between primary tumors and metastases in our cohort, which is consistent with prior studies [<xref ref-type="bibr" rid="CR6">6</xref>,<xref ref-type="bibr" rid="CR14">14</xref>-<xref ref-type="bibr" rid="CR16">16</xref>]. These results are also consistent with the recommendation that molecular testing of the primary tumor is appropriate in most clinical scenarios. Exceptions would include patients with a history of multiple primary tumors or polyps and patients in which interval drug treatment may result in clonal selection of clinically actionable mutations [<xref ref-type="bibr" rid="CR6">6</xref>]. An example of the latter would be treatment with anti-EGFR therapy, which has been shown to promote the selection of RAS mutant subclones in tumors that are otherwise KRAS, NRAS, and BRAF wild-type [<xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref>]. In primary tumors lacking KRAS, NRAS, or BRAF mutations, we did identify occult alterations in the EGFR/RAS pathway that in some patients were private to the metastatic tumor. Discordant mutations were also occasionally observed in components of the PI3K pathway, which could be clinically important as selective inhibitors of the pathway are being actively studied in patients with CRC.</p>
+        <p>Finally, we found that targeted sequencing was sufficient to identify the most clinically actionable alterations found by WGS. This result suggests that an updated IMPACT test may be a viable time- and cost-saving alternative to WGS for molecular profiling of CRC patients.</p>
+      </sec>
+      <sec id="Sec9" sec-type="conclusion">
+        <title>Conclusions</title>
+        <p>Inter- and intra-tumor heterogeneity, a growing concern in the molecular diagnostics field, is apparent in CRC. However, in patients who have not been treated with anti-EGFR therapies, the current clinically actionable genes, KRAS, NRAS, and BRAF, are 100% concordant between primary and metastatic tissues. As the mutational status of these genes guides current clinical practice, diagnostic testing from either tissue site as available is appropriate in most clinical scenarios. Additionally, targeted sequencing is becoming a more common practice in research and clinical settings, and our results demonstrate the clinical utility of this approach both through comparison of primary and metastatic tissue and similarities of results to whole genome sequencing.</p>
+      </sec>
+      <sec id="Sec10" sec-type="materials|methods">
+        <title>Methods</title>
+        <sec id="Sec11">
+          <title>Samples</title>
+          <p>With Institutional Review Board approval (WA0129-12) and compliance with the Helsinki Declaration, we analyzed 69 matched trios (normal, primary, and metastatic tissues) from patients undergoing resection at our institution where frozen tissue was available. The set was enriched for patients with stage IV disease at diagnosis to decrease potential discordant alterations caused by time. All specimens were reviewed for histological verification of a colorectal adenocarcinoma diagnosis and to ensure greater than 50% tumor content. Macrodissection was performed on specimens with less than 50% viable tumor to minimize stromal contamination. Normal DNA was obtained from normal colon tissue located at least 15 cm away from the tumor. Normal and tumor DNA were extracted from shaved sections cut from frozen tissue blocks using the Qiagen DNeasy Blood &amp; Tissue Kit. In two cases where the frozen section contained an adenoma, invasive regions of the primary were macrodissected from formalin-fixed paraffin-embedded sections, and DNA was extracted using the Qiagen DNeasy Blood &amp; Tissue Kit modified for deparaffinization and these sequencing results were used in place of the original frozen data. Additional regions for determination of private mutations were selected from available FFPE tissue blocks and similarly macrodissected and prepared.</p>
+        </sec>
+        <sec id="Sec12">
+          <title>Microsatellite testing</title>
+          <p>The microsatellite instability (MSI) status was determined for each case using a 5-microsatellite marker (BAT25, BAT26, D17S250, D2S123, and D5S346) genotyping platform according to a standard protocol [<xref ref-type="bibr" rid="CR19">19</xref>]. Fluorophore-labeled primers were designed (Applied Biosystems) targeting the five loci. All microsatellite loci were amplified for matched normal and tumor DNA in a multiplex polymerase chain reaction (PCR) and submitted for genotyping to the MSKCC Genomics Core. Microsatellite marker stability was analyzed using Peak Scanner™ software. MSI status was categorized as microsatellite stable if all markers were stable, MSI-low if &lt;30% of markers were unstable, and MSI-high if ≥30% of markers were unstable.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>IMPACT targeted sequencing</title>
+          <p>Library preparation and sequence analysis is as previously described [<xref ref-type="bibr" rid="CR20">20</xref>]. Briefly, 100 to 500 ng DNA from frozen or formalin fixed paraffin embedded (FFPE) tissue was prepared using NEBNext DNA Library Prep Kit for Illumina with Kapa HiFi DNA Polymerase for PCR steps. A total of 100 ng resulting library was pooled in sets of 12 to 24 samples for capture with custom Nimblegen probes. Each pool was sequenced in a single lane of an Illumina HiSeq 2000. Resulting fastq files were aligned according to best practice with BWA [<xref ref-type="bibr" rid="CR21">21</xref>], GATK, Picard [<xref ref-type="bibr" rid="CR22">22</xref>], and Samtools [<xref ref-type="bibr" rid="CR23">23</xref>]. Mutations and indels were called with Mutect [<xref ref-type="bibr" rid="CR24">24</xref>] and GATK SomaticIndelDetector, respectively, and annotated with Oncotator [<xref ref-type="bibr" rid="CR25">25</xref>] and Cosmic v65 [<xref ref-type="bibr" rid="CR26">26</xref>]. Only non-synonymous mutations above 5% allele frequency in exonic regions were retained. For primary or metastasis-specific mutations, the allele counts at the corresponding site in the alternate sample were examined. If the mutant allele was present in at least 3 total reads and at least 2% of all reads, the event was labeled as ‘both’ primary and metastasis by comparative analysis. Copy number analysis was performed using average read depth from GATK, loess-normalized for GC content, and compared to diploid normal.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>Cell lines and culture</title>
+          <p>Human embryonic kidney 293H cells were maintained in DME-HG medium supplemented with 10% FBS, 2 mM glutamine, and 50 units/mL each of penicillin and streptomycin. <italic toggle="yes">MAP2K1</italic> mutations were generated from the MEK1-GFP plasmid (Addgene, 14746) using the QuickChange Site-Directed Mutagenesis Kit (Stratagene) as recommended. All mutant plasmids were verified by DNA sequencing. 293H cells were seeded for 70% to 90% confluency at the time of transfection in the culture medium without penicillin and streptomycin overnight. Cells were transiently transfected with wild-type or mutant <italic toggle="yes">MAP2K1</italic> DNA using the Lipofectamine 2000 Transfection Reagent as recommended.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Western blot analysis</title>
+          <p>At 24 h post transfection, cells were collected and lysed in 1% NP-40 lysis buffer and processed for immunoblotting as previously described [<xref ref-type="bibr" rid="CR27">27</xref>]. Rabbit polyclonal antibodies recognizing phosphorylated Erk1/2 (Thr202/Tyr204), Erk1/2, phosphorylated p90RSK (Thr359/Ser363), and phosphorylated p90RSK (Ser380) were obtained from Cell Signaling. Rabbit monoclonal antibodies recognizing RSK1/2/3, GFP, and GAPDH were obtained from Cell Signaling. After incubation with horseradish peroxidase-conjugated secondary antibodies, proteins were detected by chemiluminescence (SuperSignal West Dura Chemiluminescent Substrate, Thermo Scientific) and visualized using the Fuji LAS-4000 (GE Life Sciences).</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Fluorescence <italic toggle="yes">in situ</italic> hybridization</title>
+          <p>Fluorescence <italic toggle="yes">in situ</italic> hybridization was performed by the MSKCC Molecular Cytogenetics Core using BAC clone RP11-339 F13 and PAC clone RP5-1091E12 spanning the <italic toggle="yes">EGFR</italic> locus in 7p11, both labeled by nick translation with Red dUTP, together with a chromosome 7 centromeric repeat probe (p7t1) labeled with Green dUTP (Enzo Life Sciences, supplied by Abbott Molecular). Initial hybridization showed weak FISH signals against a high level of background autofluorescence. Fresh probe was prepared and new slides were hybridized. FISH signals for the second hybridization were much stronger but the background autofluorescence was still high. Images stacks (9× 0.5 um slices for Red &amp; Green) were captured through the depth of the tissue for recording and analysis. R/G signal ratios were scored in representative tumor fields with a minimum of 30 nuclei, where possible.</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Whole genome sequencing</title>
+          <p>Five micrograms of DNA from patient-matched frozen primary tumor, metastatic tumor, and normal tissue for EV-003, EV-014, EV-019, and EV-054 were sent for whole genome sequencing at the New York Genome Center (NYGC) and Illumina. Median coverage was 87X for tumors and 50X for normals. Mutations were called on BAM files produced by the Illumina CASAVA alignment pipeline, using Strelka [<xref ref-type="bibr" rid="CR28">28</xref>]. These mutations were then genotyped on BAM files produced by the BWA aligner, using GATK Unified Genotyper [<xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR29">29</xref>]. Calls with fewer than 3 reads or 5% frequency in either the primary and metastatic tumor were removed, as well as those that were less than five times the frequency in the normal tissue. Remaining calls were annotated for the canonical isoform using Oncotator and COSMIC v65 [<xref ref-type="bibr" rid="CR26">26</xref>].</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Data availability</title>
+          <p>Data are publically available through dbGaP (accession phs000790.v1.p1) and the Memorial Sloan Kettering Cancer Center cBioPortal for Cancer Genomics ([<xref ref-type="bibr" rid="CR30">30</xref>]; study ‘Colorectal Adenocarcinoma Triplets’) [<xref ref-type="bibr" rid="CR31">31</xref>].</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <app-group>
+        <app id="App1">
+          <sec id="Sec19">
+            <title>Additional files</title>
+            <p>
+              <media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="13059_2014_454_MOESM1_ESM.xlsx" id="MOESM1" orientation="portrait">
+                <label>Additional file 1: Table S1.</label>
+                <caption>
+                  <p>Table of all IMPACT mutations in patient trios, with sequencing depth, allele frequency, and whether additional sampling resolved site-specific alterations.</p>
+                </caption>
+              </media>
+              <media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="13059_2014_454_MOESM2_ESM.pptx" id="MOESM2" orientation="portrait">
+                <label>Additional file 2: Figure S1.</label>
+                <caption>
+                  <p>Plotted allele frequencies of IMPACT mutations. <bold>Figure S2.</bold> IGV images of TP53 and PIK3CA convergent alterations. <bold>Figure S3.</bold> IGV image of metastatic-specific MAP2K1 Q56P mutation. <bold>Figure S4.</bold> Western blot analysis of MAP2K1 A106T plasmid. <bold>Figure S5.</bold> Kaplan Meier plot based on mutational concordance. <bold>Figure S6.</bold> IMPACT and WGS summary images for one concordant (patient 54) and one discordant sample (patient 19).</p>
+                </caption>
+              </media>
+              <media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="13059_2014_454_MOESM3_ESM.xlsx" id="MOESM3" orientation="portrait">
+                <label>Additional file 3: Table S2.</label>
+                <caption>
+                  <p>Table of patients and associated clinical and molecular data.</p>
+                </caption>
+              </media>
+              <media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="13059_2014_454_MOESM4_ESM.docx" id="MOESM4" orientation="portrait">
+                <label>Additional file 4: Table S3.</label>
+                <caption>
+                  <p>Tables of number of concordant mutations or samples for site of primary tumor and resection timing.</p>
+                </caption>
+              </media>
+              <media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="13059_2014_454_MOESM5_ESM.xlsx" id="MOESM5" orientation="portrait">
+                <label>Additional file 5: Table S4.</label>
+                <caption>
+                  <p>Table of non-synonymous exonic mutations from WGS.</p>
+                </caption>
+              </media>
+            </p>
+          </sec>
+        </app>
+      </app-group>
+      <glossary>
+        <title>Abbreviations</title>
+        <def-list>
+          <def-list>
+            <def-item>
+              <term>CRC</term>
+              <def>
+                <p>Colorectal cancer</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>IMPACT</term>
+              <def>
+                <p>Integrated mutation profiling of actionable cancer targets</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>MSI</term>
+              <def>
+                <p>Microsatellite instability</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>SNV</term>
+              <def>
+                <p>Single nucleotide variant</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>TCGA</term>
+              <def>
+                <p>The Cancer Genome Atlas</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>WGS</term>
+              <def>
+                <p>Whole genome sequencing</p>
+              </def>
+            </def-item>
+          </def-list>
+        </def-list>
+      </glossary>
+      <fn-group>
+        <fn>
+          <p>A Rose Brannon and Efsevia Vakiani contributed equally.</p>
+        </fn>
+        <fn>
+          <p>
+            <bold>Competing interests</bold>
+          </p>
+          <p>The authors have no competing interests to disclose.</p>
+        </fn>
+        <fn>
+          <p>
+            <bold>Authors’ contributions</bold>
+          </p>
+          <p>ARB, EV, DBS, and MFB conceived the project, designed and analyzed the experiments, and wrote the manuscript. BES, SNS, and AV performed and supervised laboratory experiments. ARB, SNS, GCM, RHS, KK, DMO, VV, and AKE analyzed next generation sequencing data. EV, AC, RY, NEK, LBS, JS, MID, and MRW collected and analyzed patient samples. All authors read and approved the final manuscript.</p>
+        </fn>
+      </fn-group>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>The authors wish to thank the MSKCC Geoffrey Beene Core and Genomics Core for their assistance in sample preparation and sequencing; the MSKCC Molecular Cytogenetics Core for FISH studies; and the New York Genome Center for whole genome sequencing. Research reported in this publication was supported by the Geoffrey Beene Cancer Research Center, the Farmer Family Foundation, and the National Cancer Institute of the National Institutes of Health under award numbers T32CA160001 and 1K08CA175150-01A1.</p>
+      </ack>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bedard</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hansen</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ratain</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Siu</surname>
+                <given-names>LL</given-names>
+              </name>
+            </person-group>
+            <article-title>Tumour heterogeneity in the clinic</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>501</volume>
+            <fpage>355</fpage>
+            <lpage>364</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature12627</pub-id>
+            <pub-id pub-id-type="pmid">24048068</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5224525</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gerlinger</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rowan</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Horswell</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Larkin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Endesfelder</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gronroos</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Martinez</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Matthews</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stewart</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tarpey</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Varela</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Phillimore</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Begum</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McDonald</surname>
+                <given-names>NQ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Butler</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jones</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Raine</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Latimer</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Santos</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nohadani</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Eklund</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Spencer-Dene</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Clark</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pickering</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stamp</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gore</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Szallasi</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Downward</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Futreal</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Swanton</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Intratumor heterogeneity and branched evolution revealed by multiregion sequencing</article-title>
+            <source>N Engl J Med</source>
+            <year>2012</year>
+            <volume>366</volume>
+            <fpage>883</fpage>
+            <lpage>892</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa1113205</pub-id>
+            <pub-id pub-id-type="pmid">22397650</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4878653</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yachida</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jones</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bozic</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Antal</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Leary</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kamiyama</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hruban</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Eshleman</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nowak</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Velculescu</surname>
+                <given-names>VE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kinzler</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vogelstein</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Iacobuzio-Donahue</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Distant metastasis occurs late during the genetic evolution of pancreatic cancer</article-title>
+            <source>Nature</source>
+            <year>2010</year>
+            <volume>467</volume>
+            <fpage>1114</fpage>
+            <lpage>1117</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature09515</pub-id>
+            <pub-id pub-id-type="pmid">20981102</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3148940</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jones</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>WD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Parmigiani</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Diehl</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Beerenwinkel</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Antal</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Traulsen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nowak</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Siegel</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Velculescu</surname>
+                <given-names>VE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kinzler</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vogelstein</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Willis</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Markowitz</surname>
+                <given-names>SD</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparative lesion sequencing provides insights into tumor evolution</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2008</year>
+            <volume>105</volume>
+            <fpage>4283</fpage>
+            <lpage>4288</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.0712345105</pub-id>
+            <pub-id pub-id-type="pmid">18337506</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2393770</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Vermaat</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nijman</surname>
+                <given-names>IJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Koudijs</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gerritse</surname>
+                <given-names>FL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scherer</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mokry</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roessingh</surname>
+                <given-names>WM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lansu</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>de Bruijn</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van Hillegersberg</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van Diest</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cuppen</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Voest</surname>
+                <given-names>EE</given-names>
+              </name>
+            </person-group>
+            <article-title>Primary colorectal cancers and their subsequent hepatic metastases are genetically different: implications for selection of patients for targeted treatment</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2012</year>
+            <volume>18</volume>
+            <fpage>688</fpage>
+            <lpage>699</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-11-1965</pub-id>
+            <pub-id pub-id-type="pmid">22173549</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Vakiani</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Janakiraman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sinha</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zeng</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shia</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cercek</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kemeny</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>D’Angelica</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Viale</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Heguy</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Paty</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chan</surname>
+                <given-names>TA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Saltz</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weiser</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Solit</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparative genomic analysis of primary versus metastatic colorectal carcinomas</article-title>
+            <source>J Clin Oncol</source>
+            <year>2012</year>
+            <volume>30</volume>
+            <fpage>2956</fpage>
+            <lpage>2962</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2011.38.2994</pub-id>
+            <pub-id pub-id-type="pmid">22665543</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3417049</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Cancer Genome Atlas Network</collab>
+            </person-group>
+            <article-title>Comprehensive molecular characterization of human colon and rectal cancer</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>487</volume>
+            <fpage>330</fpage>
+            <lpage>337</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11252</pub-id>
+            <pub-id pub-id-type="pmid">22810696</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3401966</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fearon</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vogelstein</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>A genetic model for colorectal tumorigenesis</article-title>
+            <source>Cell</source>
+            <year>1990</year>
+            <volume>61</volume>
+            <fpage>759</fpage>
+            <lpage>767</lpage>
+            <pub-id pub-id-type="doi">10.1016/0092-8674(90)90186-I</pub-id>
+            <pub-id pub-id-type="pmid">2188735</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Domingo</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Church</surname>
+                <given-names>DN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sieber</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ramamoorthy</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yanagisawa</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Johnstone</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Davidson</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kerr</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tomlinson</surname>
+                <given-names>IP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Midgley</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of PIK3CA mutation as a predictor of benefit from nonsteroidal anti-inflammatory drug therapy in colorectal cancer</article-title>
+            <source>J Clin Oncol</source>
+            <year>2013</year>
+            <volume>31</volume>
+            <fpage>4297</fpage>
+            <lpage>4305</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2013.50.0322</pub-id>
+            <pub-id pub-id-type="pmid">24062397</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lavi</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Greene</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Levy</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gottesman</surname>
+                <given-names>MM</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of cell density and intratumoral heterogeneity in multidrug resistance</article-title>
+            <source>Cancer Res</source>
+            <year>2013</year>
+            <volume>73</volume>
+            <fpage>7168</fpage>
+            <lpage>7175</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-13-1768</pub-id>
+            <pub-id pub-id-type="pmid">24163380</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4782773</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Peradziryi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kaplan</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Podleschny</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wehner</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Borchers</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tolwinski</surname>
+                <given-names>NS</given-names>
+              </name>
+            </person-group>
+            <article-title>PTK7/Otk interacts with Wnts and inhibits canonical Wnt signalling</article-title>
+            <source>EMBO J</source>
+            <year>2011</year>
+            <volume>30</volume>
+            <fpage>3729</fpage>
+            <lpage>3740</lpage>
+            <pub-id pub-id-type="doi">10.1038/emboj.2011.236</pub-id>
+            <pub-id pub-id-type="pmid">21772251</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3173783</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Firestein</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bass</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>SY</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dunn</surname>
+                <given-names>IF</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Silver</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Guney</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Freed</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ligon</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vena</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ogino</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chheda</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tamayo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Finn</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shrestha</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Boehm</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jain</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bojarski</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mermel</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Barretina</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chan</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>CDK8 is a colorectal cancer oncogene that regulates beta-catenin activity</article-title>
+            <source>Nature</source>
+            <year>2008</year>
+            <volume>455</volume>
+            <fpage>547</fpage>
+            <lpage>551</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature07179</pub-id>
+            <pub-id pub-id-type="pmid">18794900</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2587138</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Voss</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hakimi</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pham</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Brannon</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>YB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cunha</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Akin</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Takeda</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scott</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Socci</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Viale</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schultz</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sander</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reuter</surname>
+                <given-names>VE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Russo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>EH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Motzer</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hsieh</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Tumor Genetic Analyses of Patients with Metastatic Renal Cell Carcinoma and Extended Benefit from mTOR Inhibitor Therapy</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2014</year>
+            <volume>20</volume>
+            <fpage>1955</fpage>
+            <lpage>1964</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-13-2345</pub-id>
+            <pub-id pub-id-type="pmid">24622468</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4140619</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Italiano</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hostein</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Soubeyran</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fabas</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Benchimol</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Evrard</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gugenheim</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Becouarn</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Brunet</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fonck</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Francois</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Saint-Pual</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pedeutour</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>KRAS and BRAF mutational status in primary colorectal tumors and related metastatic sites: biological and clinical implications</article-title>
+            <source>Ann Surg Oncol</source>
+            <year>2010</year>
+            <volume>17</volume>
+            <fpage>1429</fpage>
+            <lpage>1434</lpage>
+            <pub-id pub-id-type="doi">10.1245/s10434-009-0864-z</pub-id>
+            <pub-id pub-id-type="pmid">20049644</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Knijn</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mekenkamp</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Klomp</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vink-Borger</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tol</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Teerenstra</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meijer</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tebar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Riemersma</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van Krieken</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Punt</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nagtegaal</surname>
+                <given-names>ID</given-names>
+              </name>
+            </person-group>
+            <article-title>KRAS mutation analysis: a comparison between primary tumours and matched liver metastases in 305 colorectal cancer patients</article-title>
+            <source>Br J Cancer</source>
+            <year>2011</year>
+            <volume>104</volume>
+            <fpage>1020</fpage>
+            <lpage>1026</lpage>
+            <pub-id pub-id-type="doi">10.1038/bjc.2011.26</pub-id>
+            <pub-id pub-id-type="pmid">21364579</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3065268</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Santini</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Loupakis</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vincenzi</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Floriani</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stasi</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Canestrari</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rulli</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Maltese</surname>
+                <given-names>PE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Andreoni</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Masi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Graziano</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Baldi</surname>
+                <given-names>GG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Salvatore</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Russo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Perrone</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tommasino</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Magnani</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Falcone</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tonini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ruzzo</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>High concordance of KRAS status between primary colorectal tumors and related metastatic sites: implications for clinical practice</article-title>
+            <source>Oncologist</source>
+            <year>2008</year>
+            <volume>13</volume>
+            <fpage>1270</fpage>
+            <lpage>1275</lpage>
+            <pub-id pub-id-type="doi">10.1634/theoncologist.2008-0181</pub-id>
+            <pub-id pub-id-type="pmid">19056857</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Diaz</surname>
+                <given-names>LA</given-names>
+                <suffix>Jr</suffix>
+              </name>
+              <name name-style="western">
+                <surname>Williams</surname>
+                <given-names>RT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kinde</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hecht</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Berlin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Allen</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bozic</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reiter</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nowak</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kinzler</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Oliner</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vogelstein</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>The molecular evolution of acquired resistance to targeted EGFR blockade in colorectal cancers</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>486</volume>
+            <fpage>537</fpage>
+            <lpage>540</lpage>
+            <pub-id pub-id-type="pmid">22722843</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11219</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3436069</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Misale</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yaeger</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hobor</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scala</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Janakiraman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liska</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Valtorta</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schiavo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Buscarino</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Siravegna</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bencardino</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cercek</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Veronese</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zanon</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sartore-Bianchi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gambacorta</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gallicchio</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vakiani</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Boscaro</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergence of KRAS mutations and acquired resistance to anti-EGFR therapy in colorectal cancer</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>486</volume>
+            <fpage>532</fpage>
+            <lpage>536</lpage>
+            <pub-id pub-id-type="pmid">22722830</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11156</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3927413</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Boland</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Thibodeau</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hamilton</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sidransky</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Eshleman</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Burt</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meltzer</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rodriguez-Bigas</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fodde</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ranzani</surname>
+                <given-names>GN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Srivastava</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A National Cancer Institute Workshop on Microsatellite Instability for cancer detection and familial predisposition: development of international criteria for the determination of microsatellite instability in colorectal cancer</article-title>
+            <source>Cancer Res</source>
+            <year>1998</year>
+            <volume>58</volume>
+            <fpage>5248</fpage>
+            <lpage>5257</lpage>
+            <pub-id pub-id-type="pmid">9823339</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Won</surname>
+                <given-names>HH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scott</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Brannon</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shah</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>MF</given-names>
+              </name>
+            </person-group>
+            <article-title>Detecting somatic genetic alterations in tumor specimens by exon capture and massively parallel sequencing</article-title>
+            <source>J Vis Exp</source>
+            <year>2013</year>
+            <volume>80</volume>
+            <fpage>e50710</fpage>
+            <pub-id pub-id-type="pmid">24192750</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.3791/50710</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3947962</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>1760</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <mixed-citation publication-type="other"><bold>Picard.</bold> [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://broadinstitute.github.io/picard/">http://broadinstitute.github.io/picard/</ext-link>]</mixed-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Handsaker</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wysoker</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fennell</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ruan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Homer</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Marth</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Abecasis</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+              <collab>Genome Project Data Processing Subgroup</collab>
+            </person-group>
+            <article-title>The Sequence Alignment/Map format and SAMtools</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>2078</fpage>
+            <lpage>2079</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btp352</pub-id>
+            <pub-id pub-id-type="pmid">19505943</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2723002</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lawrence</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Carter</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sivachenko</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jaffe</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sougnez</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gabriel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meyerson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lander</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Getz</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2013</year>
+            <volume>31</volume>
+            <fpage>213</fpage>
+            <lpage>219</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.2514</pub-id>
+            <pub-id pub-id-type="pmid">23396013</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3833702</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <mixed-citation publication-type="other"><bold>Oncotator.</bold> [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/oncotator">http://www.broadinstitute.org/oncotator</ext-link>]</mixed-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forbes</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bindal</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bamford</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cole</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kok</surname>
+                <given-names>CY</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Beare</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jia</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shepherd</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Leung</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Menzies</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Butler</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Teague</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Campbell</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Futreal</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>COSMIC: mining complete cancer genomes in the Catalogue of Somatic Mutations in Cancer</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2011</year>
+            <volume>39</volume>
+            <fpage>D945</fpage>
+            <lpage>D950</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkq929</pub-id>
+            <pub-id pub-id-type="pmid">20952405</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3013785</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pratilas</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hanrahan</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Halilovic</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Persaud</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Soh</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chitale</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shigematsu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yamamoto</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sawai</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Janakiraman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pao</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Toyooka</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ladanyi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gazdar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rosen</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Solit</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic predictors of MEK dependence in non-small cell lung cancer</article-title>
+            <source>Cancer Res</source>
+            <year>2008</year>
+            <volume>68</volume>
+            <fpage>9375</fpage>
+            <lpage>9383</lpage>
+            <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-08-2223</pub-id>
+            <pub-id pub-id-type="pmid">19010912</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2649746</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Saunders</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wong</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Swamy</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Becq</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Murray</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cheetham</surname>
+                <given-names>RK</given-names>
+              </name>
+            </person-group>
+            <article-title>Strelka: accurate somatic small-variant calling from sequenced tumor-normal sample pairs</article-title>
+            <source>Bioinformatics</source>
+            <year>2012</year>
+            <volume>28</volume>
+            <fpage>1811</fpage>
+            <lpage>1817</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/bts271</pub-id>
+            <pub-id pub-id-type="pmid">22581179</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McKenna</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hanna</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Banks</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sivachenko</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kernytsky</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Garimella</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Altshuler</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gabriel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Daly</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>DePristo</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+            <source>Genome Res</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>1297</fpage>
+            <lpage>1303</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id>
+            <pub-id pub-id-type="pmid">20644199</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <mixed-citation publication-type="other"><bold>cBioPortal for Cancer Genomics.</bold> [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cbioportal.org">http://cbioportal.org</ext-link>]</mixed-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dogrusoz</surname>
+                <given-names>U</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gross</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sumer</surname>
+                <given-names>SO</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Aksoy</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jacobsen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Byrne</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Heuer</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Larsson</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Antipin</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reva</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Goldberg</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sander</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schultz</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>
+            <source>Cancer Discov</source>
+            <year>2012</year>
+            <volume>2</volume>
+            <fpage>401</fpage>
+            <lpage>404</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-12-0095</pub-id>
+            <pub-id pub-id-type="pmid">22588877</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3956037</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

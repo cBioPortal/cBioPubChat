@@ -1,0 +1,2446 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Med</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Med.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature medicine</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1078-8956</issn>
+        <issn pub-type="epub">1546-170X</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC5461196</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC5461196.1</article-id>
+        <article-id pub-id-type="pmcaid">5461196</article-id>
+        <article-id pub-id-type="pmcaiid">5461196</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS865784</article-id>
+        <article-id pub-id-type="pmid">28481359</article-id>
+        <article-id pub-id-type="doi">10.1038/nm.4333</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS865784</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA865784</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Mutational Landscape of Metastatic Cancer Revealed from Prospective Clinical Sequencing of 10,000 Patients</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zehir</surname>
+              <given-names initials="A">Ahmet</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref rid="FN2" ref-type="author-notes">#</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Benayed</surname>
+              <given-names initials="R">Ryma</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref rid="FN2" ref-type="author-notes">#</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="RH">Ronak H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Syed</surname>
+              <given-names initials="A">Aijazuddin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Middha</surname>
+              <given-names initials="S">Sumit</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="HR">Hyunjae R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Srinivasan</surname>
+              <given-names initials="P">Preethi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="J">Jianjiong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chakravarty</surname>
+              <given-names initials="D">Debyani</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Devlin</surname>
+              <given-names initials="SM">Sean M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hellmann</surname>
+              <given-names initials="MD">Matthew D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Barron</surname>
+              <given-names initials="DA">David A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schram</surname>
+              <given-names initials="AM">Alison M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hameed</surname>
+              <given-names initials="M">Meera</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dogan</surname>
+              <given-names initials="S">Snjezana</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ross</surname>
+              <given-names initials="DS">Dara S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hechtman</surname>
+              <given-names initials="JF">Jaclyn F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>DeLair</surname>
+              <given-names initials="DF">Deborah F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yao</surname>
+              <given-names initials="J">JinJuan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mandelker</surname>
+              <given-names initials="DL">Diana L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cheng</surname>
+              <given-names initials="DT">Donavan T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chandramohan</surname>
+              <given-names initials="R">Raghu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mohanty</surname>
+              <given-names initials="AS">Abhinita S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ptashkin</surname>
+              <given-names initials="RN">Ryan N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jayakumaran</surname>
+              <given-names initials="G">Gowtham</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Prasad</surname>
+              <given-names initials="M">Meera</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Syed</surname>
+              <given-names initials="MH">Mustafa H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rema</surname>
+              <given-names initials="AB">Anoop Balakrishnan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="ZY">Zhen Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nafa</surname>
+              <given-names initials="K">Khedoudja</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Borsu</surname>
+              <given-names initials="L">Laetitia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sadowska</surname>
+              <given-names initials="J">Justyna</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Casanova</surname>
+              <given-names initials="J">Jacklyn</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bacares</surname>
+              <given-names initials="R">Ruben</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kiecka</surname>
+              <given-names initials="IJ">Iwona J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Razumova</surname>
+              <given-names initials="A">Anna</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Son</surname>
+              <given-names initials="JB">Julie B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stewart</surname>
+              <given-names initials="L">Lisa</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baldi</surname>
+              <given-names initials="T">Tessara</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mullaney</surname>
+              <given-names initials="KA">Kerry A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Al-Ahmadie</surname>
+              <given-names initials="H">Hikmat</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vakiani</surname>
+              <given-names initials="E">Efsevia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abeshouse</surname>
+              <given-names initials="AA">Adam A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Penson</surname>
+              <given-names initials="AV">Alexander V.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jonsson</surname>
+              <given-names initials="P">Philip</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Camacho</surname>
+              <given-names initials="N">Niedzica</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names initials="MT">Matthew T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Won</surname>
+              <given-names initials="HH">Helen H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gross</surname>
+              <given-names initials="BE">Benjamin E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kundra</surname>
+              <given-names initials="R">Ritika</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heins</surname>
+              <given-names initials="ZJ">Zachary J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names initials="HW">Hsiao-Wei</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Phillips</surname>
+              <given-names initials="S">Sarah</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="H">Hongxin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="J">Jiaojiao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ochoa</surname>
+              <given-names initials="A">Angelica</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wills</surname>
+              <given-names initials="J">Jonathan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Eubank</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Thomas</surname>
+              <given-names initials="SB">Stacy B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gardos</surname>
+              <given-names initials="SM">Stuart M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reales</surname>
+              <given-names initials="DN">Dalicia N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Galle</surname>
+              <given-names initials="J">Jesse</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Durany</surname>
+              <given-names initials="R">Robert</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cambria</surname>
+              <given-names initials="R">Roy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abida</surname>
+              <given-names initials="W">Wassim</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cercek</surname>
+              <given-names initials="A">Andrea</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Feldman</surname>
+              <given-names initials="DR">Darren R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gounder</surname>
+              <given-names initials="MM">Mrinal M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hakimi</surname>
+              <given-names initials="AA">A. Ari</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Harding</surname>
+              <given-names initials="JJ">James J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Iyer</surname>
+              <given-names initials="G">Gopa</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Janjigian</surname>
+              <given-names initials="YY">Yelena Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jordan</surname>
+              <given-names initials="EJ">Emmet J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kelly</surname>
+              <given-names initials="CM">Ciara M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lowery</surname>
+              <given-names initials="MA">Maeve A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names initials="LGT">Luc G.T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Omuro</surname>
+              <given-names initials="AM">Antonio M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Raj</surname>
+              <given-names initials="N">Nitya</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Razavi</surname>
+              <given-names initials="P">Pedram</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shoushtari</surname>
+              <given-names initials="AN">Alexander N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shukla</surname>
+              <given-names initials="N">Neerav</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Soumerai</surname>
+              <given-names initials="TE">Tara E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Varghese</surname>
+              <given-names initials="AM">Anna M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yaeger</surname>
+              <given-names initials="R">Rona</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Coleman</surname>
+              <given-names initials="J">Jonathan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bochner</surname>
+              <given-names initials="B">Bernard</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Riely</surname>
+              <given-names initials="GJ">Gregory J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Saltz</surname>
+              <given-names initials="LB">Leonard B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scher</surname>
+              <given-names initials="HI">Howard I.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sabbatini</surname>
+              <given-names initials="PJ">Paul J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Robson</surname>
+              <given-names initials="ME">Mark E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Klimstra</surname>
+              <given-names initials="DS">David S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names initials="BS">Barry S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baselga</surname>
+              <given-names initials="J">Jose</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schultz</surname>
+              <given-names initials="N">Nikolaus</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hyman</surname>
+              <given-names initials="DM">David M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Arcila</surname>
+              <given-names initials="ME">Maria E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Solit</surname>
+              <given-names initials="DB">David B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ladanyi</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Department of Pathology, MSKCC, New York, NY</aff>
+        <aff id="A2"><label>2</label>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, MSKCC, New York, NY</aff>
+        <aff id="A3"><label>3</label>Department of Epidemiology and Biostatistics, MSKCC, New York, NY</aff>
+        <aff id="A4"><label>4</label>Department of Medicine, MSKCC, New York, NY</aff>
+        <aff id="A5"><label>5</label>Department of Radiation Oncology, MSKCC, New York, NY</aff>
+        <aff id="A6"><label>6</label>Information Systems, MSKCC, New York, NY</aff>
+        <aff id="A7"><label>7</label>Clinical Research Administration, MSKCC, New York, NY</aff>
+        <aff id="A8"><label>8</label>Department of Surgery, MSKCC, New York, NY</aff>
+        <aff id="A9"><label>9</label>Department of Neurology, MSKCC, New York, NY</aff>
+        <aff id="A10"><label>10</label>Department of Pediatrics, MSKCC, New York, NY</aff>
+        <aff id="A11"><label>11</label>Human Oncology and Pathogenesis Program, MSKCC, New York, NY</aff>
+        <author-notes>
+          <corresp id="FN1"><label>*</label>Correspondence to: Michael F. Berger (<email>bergerm1@mskcc.org</email>)</corresp>
+          <fn id="FN2" fn-type="equal">
+            <label>#</label>
+            <p>These authors contributed equally.</p>
+          </fn>
+          <fn id="FN3" fn-type="present-address">
+            <p>Current addresses: Donavan T. Cheng: Illumina, Inc., San Francisco, CA. Raghu Chandramohan: Baylor College of Medicine, Houston, TX.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>08</day>
+          <month>5</month>
+          <year>2017</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>6</month>
+          <year>2017</year>
+        </pub-date>
+        <volume>23</volume>
+        <issue>6</issue>
+        <issue-id pub-id-type="pmc-issue-id">293629</issue-id>
+        <fpage>703</fpage>
+        <lpage>713</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>07</day>
+              <month>04</month>
+              <year>2017</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>08</day>
+              <month>11</month>
+              <year>2017</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>08</day>
+              <month>11</month>
+              <year>2017</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-17 15:25:24.457">
+              <day>17</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms865784.pdf"/>
+        <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="correction-forward" xml:lang="en" vol="23" page="1004" journal-id="Nat Med" journal-id-type="nlm-ta" ext-link-type="pubmed" xlink:href="28777785">
+          <article-title>Erratum: Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients.</article-title>
+          <volume>23</volume>
+          <issue>8</issue>
+          <date>
+            <day>4</day>
+            <month>8</month>
+            <year>2017</year>
+          </date>
+          <fpage>1004</fpage>
+          <lpage>1004</lpage>
+          <source>Nat Med</source>
+          <pub-id pub-id-type="pmid">28777785</pub-id>
+        </related-article>
+        <abstract>
+          <p id="P1">Tumor molecular profiling is a fundamental component of precision oncology, enabling the identification of genomic alterations in genes and pathways that can be targeted therapeutically. The existence of recurrent targetable alterations across distinct histologically-defined tumor types, coupled with an expanding portfolio of molecularly-targeted therapies, demands flexible and comprehensive approaches to profile clinically significant genes across the full spectrum of cancers. We established a large-scale, prospective clinical sequencing initiative utilizing a comprehensive assay, MSK-IMPACT, through which we have compiled matched tumor and normal sequence data from a unique cohort of more than 10,000 patients with advanced cancer and available pathological and clinical annotations. Using these data, we identified clinically relevant somatic mutations, novel non-coding alterations, and mutational signatures that were shared among common and rare tumor types. Patients were enrolled on genomically matched clinical trials at a rate of 11%. To enable discovery of novel biomarkers and deeper investigation into rare alterations and tumor types, all results are publicly accessible.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p id="P2">Over the last decade, oncology has served as a paragon for the application of clinical genomics to the diagnosis and treatment of disease.<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup> In certain tumor types, such as lung cancer and melanoma, it has become standard practice to profile tumors for recurrent targetable mutations.<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref></sup> Moreover, genomically-guided clinical trials have begun to evaluate the efficacy of approved and investigational molecularly-targeted therapies across distinct tumor types with shared genetic features.<sup><xref rid="R5" ref-type="bibr">5</xref></sup></p>
+      <p id="P3">While molecular pathology has historically relied upon low-throughput approaches to interrogate a single allele in a single sample, massively parallel “next generation” sequencing (NGS) has enabled a dramatic expansion in the content and throughput of diagnostic testing. Clinical laboratories are increasingly developing and deploying NGS tests, ranging from targeted “hotspot” panels to comprehensive genome-scale platforms.<sup><xref rid="R6" ref-type="bibr">6</xref>–<xref rid="R10" ref-type="bibr">10</xref></sup> However, the complexity of clinical NGS testing has prevented many laboratories from achieving sufficiently large-scale implementation to maximize the benefits of tumor genomic profiling for large populations of patients. Further, the nature of genomic alterations observed in patients with advanced metastatic cancer, who are most likely to benefit from mutational profiling, may differ substantially from what has been characterized in primary untreated cancers through research initiatives including The Cancer Genome Atlas (TCGA). Finally, the true clinical utility of mutation profiling remains uncertain, requiring careful evaluation of the degree to which molecular results are influencing therapeutic decisions in different clinical contexts.</p>
+      <p id="P4">At Memorial Sloan Kettering Cancer Center, we developed and implemented MSK-IMPACT, a hybridization capture-based NGS panel capable of detecting all protein-coding mutations, copy number alterations (CNAs), and selected promoter mutations and structural rearrangements in 341 (and more recently, 410) cancer-associated genes.<sup><xref rid="R11" ref-type="bibr">11</xref></sup> Since establishing MSK-IMPACT in our CLIA-compliant Molecular Diagnostics Service laboratory, we have prospectively sequenced tumors from more than 10,000 cancer patients, spanning a vast array of solid tumor types. A key feature of our process is the use of patient-matched normal controls, enabling us to compile a comprehensive catalog of definitively somatic (i.e., tumor-specific) mutations for every tumor sequenced. Through these efforts, we have produced an unparalleled dataset of matched tumor and normal DNA sequence from advanced cancer patients with associated pathological and clinical data.</p>
+      <p id="P5">Here we demonstrate the feasibility and utility of large-scale prospective clinical sequencing of matched tumor-normal pairs to guide clinical management. Using our dataset of 10,945 tumors, we explored the genomic landscape of metastatic cancer as encountered in clinical practice and performed an analysis of clinical utility through the prevalence of actionable mutations and the ability to match patients to molecularly targeted therapy. To facilitate biomarker discovery, development of molecularly based clinical trials, and integration with other genomic profiling efforts, we have made the full dataset publicly available through the cBioPortal for Cancer Genomics (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cbioportal.org/msk-impact">http://cbioportal.org/msk-impact</ext-link>).<sup><xref rid="R12" ref-type="bibr">12</xref></sup></p>
+      <sec sec-type="results" id="S1">
+        <title>RESULTS</title>
+        <sec id="S2">
+          <title>Description of the Sequencing Cohort</title>
+          <p id="P6">Between January 2014 and May 2016, we obtained 12,670 tumors from 11,369 patients for prospective MSK-IMPACT sequencing (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>). DNA isolated from tumor tissue and, in 98% of cases, matched normal peripheral blood was subjected to hybridization capture and deep-coverage NGS to detect somatic mutations, small insertions and deletions, CNAs and chromosomal rearrangements, all of which were manually reviewed and reported to patients and physicians in the electronic medical record (<xref rid="F1" ref-type="fig">Fig. 1</xref>). We achieved an average throughput of 563 cases per month over the last 12 months of this study, with a median turnaround time of &lt;21 days (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1</xref>).</p>
+          <p id="P7">Given the diversity of cases and specimen types submitted, including archival material obtained from outside hospitals, samples exhibited a range of tissue and DNA quality metrics (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>). Tissues with insufficient tumor content (n=328; 3%) or DNA yield (n=793; 6%) were reported as inadequate, and we excluded samples that did not meet strict post-sequencing quality control criteria (n=604; 5%) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3</xref>). DNA input and sample age influenced sequencing performance (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 4</xref>). For technical failures, we attempted to sequence a replacement sample, achieving a rescue rate of 75% when additional specimens were available. Altogether, we successfully sequenced 10,945 tumor samples from 10,336 patients (91%).</p>
+          <p id="P8">Our cohort of successfully sequenced tumors encompasses 62 principal tumor types and &gt;300 detailed tumor types, representative of the diversity of metastatic solid cancer patients treated at our institution (<xref rid="F2" ref-type="fig">Fig. 2a</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 2</xref>). 43% of all specimens were obtained from metastatic sites, most commonly liver, lymph node, and bone (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 5</xref>). Two panels were used throughout this study, encompassing 341 genes (2,809 tumors, 26%) and 410 genes (8,136 tumors, 74%), with all 341 genes included in the latter expanded panel (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 3</xref>). Tumors were sequenced to deep coverage (mean=718X) to ensure high sensitivity for detecting genomic alterations in heterogeneous and low purity specimens (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6</xref>). Altogether, we detected 78,066 non-synonymous mutations, with a median variant allele fraction of 0.21 (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 7</xref>), as well as 22,989 CNAs and 1,875 rearrangements. The number of mutations and CNAs per sample tended to be inversely proportional (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 8</xref>).<sup><xref rid="R13" ref-type="bibr">13</xref></sup></p>
+          <p id="P9">The breadth and depth of MSK-IMPACT, and the analysis of patient-matched normal DNA, allowed us to detect important genomic alterations that would have been missed by other approaches (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 9</xref>). 81% (n=63,184) of all mutations fell outside the combined target regions of commercially available amplicon-based “hotspot” panels, which are also unsuited for detecting most CNAs and rearrangements.<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R14" ref-type="bibr">14</xref></sup> Moreover, compared to whole exome sequencing (WES) where coverage depth is typically limited, downsampling our data revealed that at least 9% of all mutations would have been missed by WES to a mean target depth of 150X, including therapeutically targetable alterations in <italic toggle="yes">BRAF</italic>, <italic toggle="yes">EGFR</italic>, and <italic toggle="yes">MET</italic>. Further, while WES is capable of detecting many more mutations throughout the genome and is better suited to the characterization of certain mutation signatures, MSK-IMPACT produces more uniform coverage across the most clinically relevant genes and can also detect targetable gene fusions due to the inclusion of breakpoint-containing introns absent from current WES methods. Finally, as 69% of somatic mutations detected by MSK-IMPACT were not previously reported in the COSMIC database (v78)<sup><xref rid="R15" ref-type="bibr">15</xref></sup>, these mutations would have been difficult to distinguish from rare inherited variants in the absence of a patient-matched normal. In summary, our results represent a rich, comprehensive and unique genomic dataset of patients with metastatic cancer.</p>
+        </sec>
+        <sec id="S3">
+          <title>Landscape of Somatically Altered Genes</title>
+          <p id="P10">To compare how our results derived from patients with advanced or metastatic cancer who were often pretreated compared to untreated primary tumors characterized by TCGA, we considered TCGA results from 16 common tumor types.<sup><xref rid="R16" ref-type="bibr">16</xref>–<xref rid="R19" ref-type="bibr">19</xref></sup> Overall, the MSK-IMPACT results were highly consistent with TCGA, exhibiting strong concordance in the identities and population frequencies of the mutations detected (<xref rid="F2" ref-type="fig">Fig. 2b</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 10</xref>). However, we observed important differences between both cohorts, indicative of the distinct clinical features of the patients studied. To identify mutations associated with metastasis and/or treatment, we calculated the enrichment of mutations in each gene and tumor type in the MSK-IMPACT cohort compared to the TCGA cohort. We found that many genes originally identified as significant in TCGA studies were even more frequently mutated in the MSK-IMPACT cohort. Principal among these was <italic toggle="yes">TP53</italic>, which was significantly enriched in four tumor types (prostate cancer, kidney chromophobe, glioblastoma, and gastric cancer) as compared to TCGA. In prostate cancer alone, the frequency of <italic toggle="yes">TP53</italic> mutations was &gt;4-fold greater in MSK-IMPACT than TCGA (29% versus 7%), consistent with previously-noted associations between <italic toggle="yes">TP53</italic> status and more clinically aggressive disease.<sup><xref rid="R20" ref-type="bibr">20</xref></sup> We also observed frequent mutations in genes that were not significant in TCGA, including <italic toggle="yes">AR</italic> (androgen receptor) in prostate cancer (18% versus 1%) and <italic toggle="yes">ESR1</italic> (estrogen receptor) in breast cancer (11% versus 4%), consistent with their known role in promoting resistance to hormone therapy. The most common <italic toggle="yes">AR</italic> mutations in our cohort were L702H and H875Y (10 patients each), both of which have been described as acquired mutations conferring resistance to androgen receptor inhibitors.<sup><xref rid="R21" ref-type="bibr">21</xref></sup>
+<italic toggle="yes">ESR1</italic> mutations were observed at recurrent hotspots in both breast and endometrial cancers, almost exclusively in metastatic tumors arising after hormone treatment (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 11</xref>).<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup></p>
+          <p id="P11">The most frequently altered gene in the MSK-IMPACT cohort was <italic toggle="yes">TP53</italic> (41% of samples; <xref rid="F2" ref-type="fig">Fig. 2c</xref>). <italic toggle="yes">TP53</italic> mutations occurred most often in high-grade serous ovarian cancer (98%), esophageal adenocarcinoma (89%), and small cell lung cancer (85%) and were largely inactivating through truncation or disruption to splicing. Altogether <italic toggle="yes">TP53</italic> was altered in &gt;10% of cases for 43/62 principal tumor types. <italic toggle="yes">KRAS</italic> was the second most frequently altered gene (15% of samples). <italic toggle="yes">KRAS</italic> mutations were most prevalent in pancreatic adenocarcinoma (90%) and colon adenocarcinoma (44%). <italic toggle="yes">KRAS</italic> also harbored the most frequently altered codon among tumors sequenced (G12), accounting for 80% of all <italic toggle="yes">KRAS</italic> mutations and 12% of all patients. The next most commonly mutated codons were <italic toggle="yes">PIK3CA</italic> H1047, <italic toggle="yes">PIK3CA</italic> E545, and <italic toggle="yes">BRAF</italic> V600 (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 4</xref>), each observed in more than 20 principal tumor types, indicative of positive selection across lineages.<sup><xref rid="R24" ref-type="bibr">24</xref></sup> Tumor-type differences in the location of mutations within genes were observed. For example, in <italic toggle="yes">EGFR</italic>, mutations in glioma were localized to the extracellular N-terminal domain, while mutations in lung cancer arose mainly in the kinase domain (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 12</xref>).</p>
+          <p id="P12">Genomic rearrangements, many of which produced putative gene fusions, were reported in 1,597 patients (15%). The most commonly observed rearrangements were <italic toggle="yes">TMPRSS2-ERG</italic> (n=151), <italic toggle="yes">EGFR</italic>vIII (deletion of exons 2–7; n=65), <italic toggle="yes">EML4-ALK</italic> (n=38), and <italic toggle="yes">EWSR1-FLI1</italic> (n=25). Additional alterations, including cryptic rearrangements involving <italic toggle="yes">TMPRSS2</italic> detected in 23 prostate cancers, were suggestive of gene fusions produced by complex processes such as chromoplexy not easily discerned by targeted sequencing.<sup><xref rid="R25" ref-type="bibr">25</xref></sup></p>
+          <p id="P13">While some genes were mutated at similar rates across many tumor types (e.g., <italic toggle="yes">TP53</italic> and <italic toggle="yes">PIK3CA</italic>), others were highly enriched in only one or two cancer lineages (e.g., <italic toggle="yes">VHL</italic>, <italic toggle="yes">APC</italic>, and <italic toggle="yes">IDH1</italic>). Certain gene fusions were also exclusive to particular lineages, such as <italic toggle="yes">TMPRSS2-ERG</italic> in prostate cancer, <italic toggle="yes">EWSR1-FLI1</italic> in Ewing Sarcoma, and <italic toggle="yes">DNAJB1-PRKACA</italic> in fibrolamellar hepatocellular carcinoma. Nevertheless, excluding hypermutated tumors, 97% of the genes in our 410-gene panel were mutated at least once in five or more principal tumor types, reinforcing the potential benefit of broad mutation profiling regardless of lineage.</p>
+        </sec>
+        <sec id="S4">
+          <title>TERT Promoter Mutations</title>
+          <p id="P14">In addition to the coding regions of the aforementioned cancer genes, MSK-IMPACT also captures the promoter of <italic toggle="yes">TERT</italic>. Mutations at two highly recurrent hotspots in the <italic toggle="yes">TERT</italic> promoter have been shown to create novel consensus binding sites for ETS family transcription factors, leading to upregulated telomerase expression and decreased cell death.<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R27" ref-type="bibr">27</xref></sup> Yet these hotspots are absent from most genomic studies because the <italic toggle="yes">TERT</italic> promoter is typically not covered by WES analysis. The MSK-IMPACT results thus provide by far the largest analysis of somatic mutations in the <italic toggle="yes">TERT</italic> promoter across all tumor types reported to date. Consistent with prior reports, G-to-A substitutions at positions −124 or −146 relative to the <italic toggle="yes">TERT</italic> transcription start site were the most common alterations (96.3%), and were observed in 43 principal tumor types (<xref rid="F3" ref-type="fig">Fig. 3a</xref>).<sup><xref rid="R28" ref-type="bibr">28</xref></sup> However, we observed 10 additional sites of recurrent <italic toggle="yes">TERT</italic> promoter mutation, including position −138, which alone was mutated in 21 distinct patients and created a presumptive ETS binding site (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 5</xref>). All novel recurrent <italic toggle="yes">TERT</italic> mutations were clustered within 100 bp of the transcription start site. <italic toggle="yes">TERT</italic> promoter mutations were most commonly observed in bladder cancer (70%), glioma (67%), thyroid cancer (60%), and melanoma (49%), predominantly cutaneous melanoma (<xref rid="F3" ref-type="fig">Fig. 3b</xref>). We observed a consistent trend towards shorter survival for patients with altered <italic toggle="yes">TERT</italic> promoters (<xref rid="F3" ref-type="fig">Fig. 3c</xref>). While the clinical relevance of <italic toggle="yes">TERT</italic> promoter mutations remains incompletely understood, our results reaffirm the high prevalence of these alterations in patients with advanced solid tumors and suggest an association with progression and poor outcome<sup><xref rid="R29" ref-type="bibr">29</xref>–<xref rid="R31" ref-type="bibr">31</xref></sup>, which can be further characterized as longitudinal clinical data accumulate.</p>
+        </sec>
+        <sec id="S5">
+          <title>Kinase Fusions and Rearrangements</title>
+          <p id="P15">Of all gene fusions identified by MSK-IMPACT, 35% (n=268) involved kinase genes and encompassed all or part of the kinase domain (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 6</xref>). While certain kinase fusions were enriched in particular lineages (e.g., <italic toggle="yes">ALK</italic>, <italic toggle="yes">RET</italic>, and <italic toggle="yes">ROS1</italic> fusions in lung adenocarcinoma), others occurred widely across cancers (<xref rid="F4" ref-type="fig">Fig. 4a</xref>).<sup><xref rid="R32" ref-type="bibr">32</xref></sup> We also detected many known recurrent gene fusions in tumor types where they had not previously been reported. For example, gene fusions involving <italic toggle="yes">ALK</italic>, <italic toggle="yes">RET</italic>, and <italic toggle="yes">ROS1</italic>, for which effective targeted therapies exist in lung cancer, were found in 11 additional tumor types. Further, we identified 51 kinase fusions involving novel partner genes. In most cases, these fusions occurred in tumors lacking other clear driver mutations, supporting a bona fide functional role and underscoring the importance of methods capable of detecting multiple partner genes to ensure that all therapeutically actionable fusions are detected.</p>
+          <p id="P16">Among all kinases, <italic toggle="yes">BRAF</italic> fusions occurred in the greatest number of tumor types. Altogether we detected 33 <italic toggle="yes">BRAF</italic> fusions across 11 principal tumor types involving 18 distinct partner genes (10 novel), including a novel recurrent fusion gene, <italic toggle="yes">CDK5RAP2-BRAF</italic>, detected in two independent melanomas lacking other clear driver mutations (<xref rid="F4" ref-type="fig">Fig. 4b</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 13</xref>). All fusions involved the complete kinase domain and were predicted to be in-frame. We also confirmed 4 additional fusions transcripts associated with complex <italic toggle="yes">BRAF</italic> rearrangements using an independent RNA-based fusion assay (see Methods). These results, together with another set of 55 <italic toggle="yes">BRAF</italic> fusions recently identified from a parallel clinical sequencing effort<sup><xref rid="R33" ref-type="bibr">33</xref></sup>, indicate that the full spectrum of <italic toggle="yes">BRAF</italic> fusions in human cancers remains incomplete and highlight the need to continue to broadly profile fusions in solid tumors, especially given recent reports of clinical activity with MEK inhibitors in patients harboring <italic toggle="yes">BRAF</italic> fusions.<sup><xref rid="R34" ref-type="bibr">34</xref></sup></p>
+          <p id="P17">Additionally, seven cases harbored intragenic multi-exon deletions in <italic toggle="yes">BRAF</italic> (<xref rid="F4" ref-type="fig">Fig. 4c</xref>). All seven deletions were predicted to produce in-frame transcripts similar (and in some cases equivalent) to aberrant splicing isoforms previously reported in <italic toggle="yes">BRAF</italic> V600E mutant melanomas in the setting of acquired resistance to BRAF inhibition.<sup><xref rid="R35" ref-type="bibr">35</xref></sup> By eliminating the RAS-binding domain, these splicing isoforms enable RAS-independent BRAF dimerization and MAPK pathway activation. While this is a recurrent mechanism of acquired resistance to RAF inhibition, to our knowledge no underlying genomic basis has previously been described. Interestingly, only 3/7 cases with intragenic deletions detected by MSK-IMPACT harbored <italic toggle="yes">BRAF</italic> V600E mutations and had received prior BRAF inhibitor therapy (one lung adenocarcinoma, one colorectal adenocarcinoma, and one melanoma). The other 4 cases received no BRAF-directed therapy, suggesting that this alteration can also arise de novo as an independent driver of tumor initiation and progression. Patients harboring these <italic toggle="yes">BRAF</italic> deletions, either acquired or de novo, may potentially benefit from novel drugs that inhibit RAF dimerization.<sup><xref rid="R36" ref-type="bibr">36</xref></sup></p>
+        </sec>
+        <sec id="S6">
+          <title>Mutation Signatures and Somatic Hypermutation</title>
+          <p id="P18">Beyond individual somatic mutations, the presence of mutation signatures may inform the etiology of a patient’s disease and predict the likelihood of response to new therapies including immune checkpoint inhibitors. To determine whether mutation signatures could be inferred from targeted capture data, we first calculated the distribution of mutation rates for each cancer type (<xref rid="F5" ref-type="fig">Fig. 5a</xref>). Comparisons to matched WES data from 106 tumors in this cohort revealed high correlation (R<sup>2</sup>=0.76; <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 14</xref>), confirming that MSK-IMPACT results were representative of genome-wide processes and thus potentially capable of revealing signatures associated with biological processes that produce high mutation rates.</p>
+          <p id="P19">Using the pattern and nucleotide context of all observed silent and non-silent substitutions in 994 cases (9%) with elevated mutation rates (&gt;13.8 mut/Mb, <xref rid="F5" ref-type="fig">Fig. 5b</xref>), we assigned the mutations in each sample to constituent mutation signatures from the set of 30 signatures described previously.<sup><xref rid="R37" ref-type="bibr">37</xref></sup> Using this approach, we identified tumors with intrinsic defects in DNA repair (e.g., DNA polymerase ε (<italic toggle="yes">POLE</italic>) associated hypermutation, mismatch repair (MMR) deficiency), exposure to exogenous mutagens (e.g., ultraviolet radiation, cigarette smoke), and exposure to prior therapy (e.g., temozolomide) in representative tumor types (<xref rid="F5" ref-type="fig">Fig. 5c</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 7</xref>). As expected, signatures associated with ultraviolet radiation, temozolomide, and cigarette smoke predominated in melanoma, glioma, and lung cancer, respectively (<xref rid="F5" ref-type="fig">Fig. 5d</xref>). POLE and MMR signatures predominated in colorectal cancer and endometrial cancer and were associated with underlying loss-of-function somatic mutations. Furthermore, the MMR samples also had an overall increased indel-to-substitution ratio compared to tumors with POLE or other signatures (median 0.46 versus 0.06, <italic toggle="yes">p</italic>&lt;0.001), and 89% of samples had evidence of microsatellite instability (MSI) according to an orthogonal bioinformatics approach, MSIsensor.<sup><xref rid="R38" ref-type="bibr">38</xref></sup></p>
+          <p id="P20">Altogether we identified 102 patients across 11 tumor types harboring both a dominant MMR signature and MSI classification by MSIsensor (<xref rid="F5" ref-type="fig">Fig. 5e</xref>), 45% of whom were not previously tested for MMR deficiency. Notably, this analysis may underestimate the prevalence of the MSI phenotype in our cohort as it is restricted to the patients with the highest mutation burden. As MSI status is increasingly being used as a biomarker for response to immune checkpoint inhibitors and an enrollment criterion for immuno-oncology basket clinical trials<sup><xref rid="R39" ref-type="bibr">39</xref></sup>, our results suggest that comprehensive genomic profiling may significantly expand the number of patients who could potentially benefit from immunotherapy. Among MSI patients in our cohort, responses to immunotherapy (i.e., radiographic stable disease or regression) were observed in colorectal, endometrial, gastric, prostate, and bladder cancer. In one case of a 55-year-old patient with prostate cancer, where conventional MSI testing is rarely performed, MSK-IMPACT revealed an unanticipated MMR signature without a clear underlying somatic or germline pathway lesion. As a result, the patient was enrolled on a clinical trial of an anti-PD-L1 immunotherapy regimen and has exhibited a marked response (<xref rid="F5" ref-type="fig">Fig. 5f</xref>).</p>
+        </sec>
+        <sec id="S7">
+          <title>Clinical Actionability and Utility</title>
+          <p id="P21">Encouraged by such anecdotes, we attempted to broadly and systematically evaluate the clinical utility of prospective molecular profiling to guide treatment decisions. We used OncoKB, a curated knowledge base of the oncogenic effects and treatment implications of somatic mutations, to group all mutations into tiers of clinical actionability (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://oncokb.org">http://oncokb.org</ext-link>)<sup><xref rid="R40" ref-type="bibr">40</xref></sup>. Mutations were classified in a tumor type-specific manner according to the level of evidence that the mutation is a predictive biomarker of drug response. Altogether, 36.7% of patients (n=3,792) harbored at least one actionable alteration (<xref rid="F6" ref-type="fig">Fig. 6a</xref>). The tumor types with the highest proportion of actionable mutations were gastrointestinal stromal tumor (76%), thyroid cancer (60%), breast cancer (57%), and melanoma (56%) (<xref rid="F6" ref-type="fig">Fig. 6b</xref>). While mutations in additional oncogenes such as KRAS have been considered actionable in other analyses<sup><xref rid="R41" ref-type="bibr">41</xref>,<xref rid="R42" ref-type="bibr">42</xref></sup> and may soon become targetable by treatment modalities under investigation<sup><xref rid="R43" ref-type="bibr">43</xref>,<xref rid="R44" ref-type="bibr">44</xref></sup>, we utilized stricter criteria acknowledging current limited ability to therapeutically intervene in KRAS mutations with drugs currently in the clinic.</p>
+          <p id="P22">We expected that only a subset of patients with potentially actionable alterations would receive genomically matched therapy due to medical and logistical considerations. To begin to evaluate the clinical utility of MSK-IMPACT testing, we first examined the rate of enrollment on genomically-matched clinical trials based on tumor genotype. Acknowledging that not enough time has elapsed to assess how many patients may eventually receive targeted therapy during their full treatment course, we considered 5,009 patients tested by MSK-IMPACT at least one year prior to this analysis. 527 (11%) patients were enrolled on at least one of 197 trials involving molecularly targeted agents at our institution, based on a target aberration in their tumor. While the most common targets belonged to the MAPK and PI3K signaling pathways, patients were matched to trials on the basis of alterations in &gt;50 separate genes (<xref rid="F6" ref-type="fig">Fig. 6c</xref>).</p>
+          <p id="P23">We next considered additional cases where standard therapy was administered on the basis of genotypes revealed by MSK-IMPACT. As an example, <italic toggle="yes">BRAF</italic> V600 mutations were detected in 77 patients with melanoma, where they are FDA-approved biomarkers. Among these patients, 41/77 (53%) were treated with BRAF inhibitors as a single agent or in combination, with the remaining patients largely receiving first-line immunotherapy. Moreover, <italic toggle="yes">BRAF</italic> V600 mutations were detected in 211 patients with non-melanoma histologies, of which 75/211 (36%) received BRAF targeted therapy on- or off-trial. While the proportion of non-melanoma patients receiving BRAF inhibitors was smaller, the rate of clinical benefit assessed by radiographic measurement among non-melanoma and melanoma patients was identical (71%), reaffirming the potential efficacy of targeted therapies in diverse clinical contexts and the importance of broad molecular profiling across tumor types.</p>
+        </sec>
+      </sec>
+      <sec sec-type="discussion" id="S8">
+        <title>DISCUSSION</title>
+        <p id="P24">We report the overall experience of a large institution-wide, prospective clinical sequencing effort to guide the selection of genomically matched therapies for patients spanning all solid tumor malignancies. We demonstrate that enterprise-scale sequencing of tumors and patient-matched blood samples using a comprehensive cancer panel is feasible and achievable within a turnaround time that permits clinical interpretation and utilization. Through this initiative, we have generated an expansive dataset of manually reviewed mutations, CNAs, and genomic rearrangements in 10,945 tumors from 10,336 patients. Unlike most large-scale genome characterization efforts, our cohort was composed almost exclusively of patients with advanced disease, frequently heavily treated, and representative of the population most likely to be considered for molecularly targeted therapies. Further, our cohort encompasses &gt;300 detailed tumor types, providing an improved understanding of the prevalence of driver alterations across all cancers and allowing for the detection of uncommon and unanticipated clinically actionable mutations. With maturing clinical annotation of treatment response and disease-specific outcome, this dataset will prove a transformative resource for identifying novel biomarkers to inform prognosis and predict response and resistance to therapy.</p>
+        <p id="P25">Given the diversity of tumor types that can harbor potentially actionable mutations, broad molecular profiling is necessary to provide all patients the opportunity to receive a genomically matched therapy. Novel, flexible clinical trial designs are needed to test the efficacy of molecularly targeted therapies in different cancer types. So called “basket trials”, in which patients are enrolled on the basis of a specific genetic alteration irrespective of histology, have emerged as an efficient way to evaluate the degree to which responses are determined by disease context.<sup><xref rid="R5" ref-type="bibr">5</xref></sup> To facilitate patient identification and enrollment for genomically-guided clinical trials at our institution, we have established a process whereby all MSK-IMPACT results are transmitted to an institutional database for integration with other clinical and pharmacological data, and clinicians are automatically alerted in real-time to the presence of patients with selected mutations pertinent to their studies.<sup><xref rid="R45" ref-type="bibr">45</xref></sup></p>
+        <p id="P26">While our results provide novel insights into the biological processes that govern cancer progression and metastasis, the true value of prospective clinical sequencing is measured according to its ability to influence treatment decisions and improve outcomes for patients. We observed that 37% of patients harbored a clinically relevant alteration, and 11% of the first 5,009 patients to receive MSK-IMPACT testing were subsequently enrolled on a genomically matched clinical trial. This gap reflects systemic shortcomings in the availability and geographical accessibility of relevant trials as well as patient preferences. Additionally, many patients may have been too debilitated to qualify for a clinical trial and, conversely, others who may later receive from targeted therapy continued to benefit from conventional treatment protocols. Nevertheless, our results are encouraging in light of prior studies reporting lower rates of enrollment on clinical trials following NGS-based tumor profiling.<sup><xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R41" ref-type="bibr">41</xref>,<xref rid="R46" ref-type="bibr">46</xref>,<xref rid="R47" ref-type="bibr">47</xref></sup> Further, these results do not account for several hundred additional patients who received FDA-approved targeted therapies outside of clinical trials. We expect that the clinical utility of broad, prospective clinical sequencing will continue to increase with the proliferation of molecularly driven clinical trials, the approval of novel targeted therapies, and reductions in turnaround time of testing.</p>
+        <p id="P27">Further enriching the clinical utility of our approach is the inclusion of patient-matched normal DNA for every tumor that is profiled. By sequencing DNA from both tumor and normal blood, we were able to unambiguously call somatic mutations with greater sensitivity and specificity through the elimination of rare germline variants.<sup><xref rid="R48" ref-type="bibr">48</xref>,<xref rid="R49" ref-type="bibr">49</xref></sup> This allowed us to accurately determine the overall mutation burden for each patient and detect distinct mutation signatures in highly mutated tumors, thereby identifying patients who stood to benefit from immunotherapy. Moreover, direct analysis of the normal DNA can reveal pathogenic germline alleles, which may mediate response to therapy in patients (e.g., PARP inhibition in patients with DNA repair defects) and suggest cancer susceptibility in their family members.<sup><xref rid="R50" ref-type="bibr">50</xref></sup> We have thus established an IRB-approved process for prospective germline analysis whereby inherited pathogenic variants detected by MSK-IMPACT are reported to patients who wish to receive this information.</p>
+        <p id="P28">While this study represents a first step towards evaluating the clinical impact of large-scale prospective tumor sequencing, more systematic studies are needed to assess the long-term effects of clinical cancer genomics on patient outcomes. These studies will require detailed, longitudinal follow-up. Additionally, data sharing across laboratories and institutions engaged in tumor sequencing is paramount in order to realize the full discovery potential of the resulting datasets. To this end, we have deposited our full dataset into the cBioPortal for Cancer Genomics. It is our hope and expectation that this and other data-sharing efforts will enable the identification of promising drug targets and the development and extension of more effective treatment options to benefit more patients suffering from cancer.</p>
+      </sec>
+      <sec id="S10" specific-use="web-only">
+        <title>ONLINE METHODS</title>
+        <sec id="S11">
+          <title>Patient consent and accrual</title>
+          <p id="P30">MSK-IMPACT<sup>™</sup> testing for patients with advanced cancer was ordered by the treating physician to identify clinically relevant genomic alterations that could potentially inform treatment decisions. Patients undergoing MSK-IMPACT testing signed a clinical consent form or, in &gt;85% of cases, enrolled on an institutional IRB-approved research protocol (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01775072">NCT01775072</ext-link>), permitting return of results from clinical sequencing and broader genomic characterization of banked specimens for research. All MSK-IMPACT testing that was not submitted for reimbursement by insurance was paid for using institutional and philanthropic funds. Following consent, either archival or new tumor samples were obtained, and blood was drawn as a source of normal (germline) DNA. In total, MSK-IMPACT testing was requested for 11,369 unique patients across 62 principal tumor types between January 2014 and May 2016. To ensure uniform nomenclature of tumor types, tumors were annotated according to an institutional classification system, OncoTree (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/oncotree/">http://www.cbioportal.org/oncotree/</ext-link>).</p>
+        </sec>
+        <sec id="S12" sec-type="discussion">
+          <title>MSK-IMPACT sequencing workflow</title>
+          <p id="P31">MSK-IMPACT is a custom hybridization-capture based assay encompassing all genes that are druggable by approved therapies or are targets of experimental therapies being investigated in clinical trials at MSKCC, as well as frequently mutated genes in human cancer (somatic and germline). MSK-IMPACT is capable of detecting sequence mutations, small insertions and deletions, copy number alterations, and select structural rearrangements, and has been validated and approved for clinical use by the New York State Department of Health Clinical Laboratory Evaluation Program. Two different MSK-IMPACT panels containing 341 genes and, more recently, 410 genes were used in this study. Synthetic DNA probes were designed to capture all protein-coding exons of target genes, the promoter of <italic toggle="yes">TERT</italic>, and selected introns of 17 recurrently rearranged genes.</p>
+          <p id="P32">All samples received for MSK-IMPACT testing were accessioned by the CLIA-compliant Molecular Diagnostics Service laboratory where they were assigned a unique molecular accession number, a detailed description of the specimen submitted, and the number of submitted unstained sections. Tumor and patient-matched normal blood samples were matched for simultaneous sequencing using a patient-unique medical record number (MRN). Once accessioned, a hematoxylin and eosin (H&amp;E) stained slide was reviewed by a molecular pathology fellow and annotated for relevant specimen information including tumor type, tumor purity, and whether macrodissection of the indicated tumor region was necessary prior to nucleic extraction.</p>
+          <p id="P33">Genomic DNA extraction was performed on the Chemagic STAR instrument (Hamilton) from formalin-fixed, paraffin-embedded (FFPE) tumors and patient-matched normal blood using the chemagen magnetic bead technology (PerkinElmer). FFPE tissues were deparaffinized using mineral oil followed by digestion with the proteinase K enzyme, and blood samples were lysed followed by digestion with a protease enzyme to catalyze the breakdown of detrimental proteins. DNA was isolated utilizing the chemagen extraction chemistry, allowing for the high affinity binding of nucleic acids to M-PVA magnetic beads and subsequent elution. Extracted DNA samples were then transferred to the clinical next-generation sequencing laboratory for further quality control, library preparation and sequencing.</p>
+          <p id="P34">DNA samples were normalized to yield 50–250 ng input and diluted in 55 μl on the Biomek FX<sup>P</sup> Laboratory Automation Workstation (Beckman Coulter), prior to shearing on the Covaris instrument. Sequence libraries were prepared on the Biomek FX<sup>P</sup> through a series of enzymatic steps including shearing, end-repair, A-base addition, ligation of barcoded sequence adaptors, and low-cycle PCR amplification (Kapa Biosystems). Tumors and matched normal were combined in pools of 24–36 libraries for multiplexed captures using custom-designed biotinylated probes (Nimblegen). Captured DNA fragments were sequenced on an Illumina HiSeq2500 as paired-end 100-base pair reads. Tumor samples were sequenced to a mean unique depth of coverage of 718X.</p>
+          <p id="P35">Sequencers were monitored by an automated data management system, which initiates the analysis pipeline upon end of sequencing run. Sequence reads were aligned to human genome (hg19) using BWA MEM.<sup><xref rid="R51" ref-type="bibr">51</xref></sup> ABRA was used to realign reads around indels to reduce alignment artifacts, and the Genome Analysis Toolkit was used to recalibrate base quality scores.<sup><xref rid="R52" ref-type="bibr">52</xref>,<xref rid="R53" ref-type="bibr">53</xref></sup> Duplicate reads were marked for removal, and the resulting BAM files were used for variant discovery. The union calls made by MuTect<sup><xref rid="R54" ref-type="bibr">54</xref></sup>, Pindel<sup><xref rid="R55" ref-type="bibr">55</xref></sup>, and Somatic Indel Detector<sup><xref rid="R52" ref-type="bibr">52</xref></sup> were further subjected to automated filtering to generate a complete list of somatic mutation calls including single nucleotide variants, short and long indels. Copy number alterations were identified using an in-house developed algorithm, and structural variants were detected using Delly.<sup><xref rid="R56" ref-type="bibr">56</xref></sup> Germline variants were eliminated through the use of patient-matched blood DNA. Each alteration identified by the pipeline was manually reviewed to ensure that no false positives were reported, complex events identified separately were merged and represented properly, and mutation annotations were Human Genome Variation Society (HGVS, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://varnomen.hgvs.org">http://varnomen.hgvs.org</ext-link>) compliant. Following curation and review of MSK-IMPACT data, sequencing results were stored in a clinical-grade database and reported back to patients and physicians through the electronic medical record. The detailed laboratory protocol and bioinformatics analysis were described previously.<sup><xref rid="R11" ref-type="bibr">11</xref></sup></p>
+          <p id="P36">A total of 12,670 tumor samples from 11,369 unique patients were submitted for MSK-IMPACT sequencing between January 2014 and May 2016. Cases were deemed insufficient for sequencing according to low tumor purity (&lt;10%) based on histopathology review and low DNA yield (&lt;50ng) following DNA extraction. Out of 11,549 cases that qualified for sequencing, 604 failed one of multiple quality control metrics, including average unique sequence coverage (&lt;50X) and evidence of sample contamination. Samples with no detectable alterations (including silent mutations) were also excluded if the estimated tumor purity was &lt;20% or the average unique sequence coverage was &lt;200X due to the risk of false negatives. In total, 10,945 cases were successfully sequenced for a final assay success rate of 86%.</p>
+          <p id="P37">Re-sequencing of failed cases due to either low coverage (&lt;50X) or obvious sample contamination was attempted whenever possible. New specimens were obtained either from the same surgical block used in the initial extraction or from a different block, if available. The overall rescue rate of failed cases by repeating DNA extraction, library preparation, capture, and sequencing was 75%.</p>
+        </sec>
+        <sec id="S13">
+          <title>Comparison to other tumor profiling strategies</title>
+          <p id="P38">To compare MSK-IMPACT results to those attainable from ampllicon-based sequencing assays, the union of all targets of Illumina TruSeq Amplicon Cancer Panel and Ion AmpliSeq Cancer Hotspot Panel (v2) was considered. Each mutation identified by MSK-IMPACT was classified according to whether its location fell within the combined target region.</p>
+          <p id="P39">To compare MSK-IMPACT results to those attainable from whole exome sequencing (WES), we downsampled the underlying sequence reads supporting each mutation identified by MSK-IMPACT by the following factor: (Simulated coverage/Mean sample coverage). Exome sample coverage levels of 300X, 250X, 200X, 150X, and 100X were simulated. Downsampled total coverage and mutated allele coverage were determined for each mutation. To match the stringency of our MSK-IMPACT variant calling filters, we required a minimum total coverage of 20X unique reads, a minimum mutant allele coverage of 8X unique reads, and a minimum variant allele fraction of 0.05.</p>
+        </sec>
+        <sec id="S14">
+          <title>Comparison to mutational landscape of primary tumors</title>
+          <p id="P40">MSK-IMPACT results were compared to TCGA studies for the corresponding tumor sub-types. Coding mutations and indels excluding silent mutations were considered. Mutations in individual patient samples were aggregated to obtain gene-level alteration frequencies for each of the genes in the MSK-IMPACT panel. Chi-squared tests were performed to compare gene-level alteration frequencies between MSK-IMPACT and TCGA results. Correction for multiple hypothesis testing was performed using the Benjamini-Hochberg method. Genes that fell below an adjusted p-value cutoff of 0.05, and were altered in greater than 1% and 5 individual patients in either cohort, were reported as significant. Residual sum of square (RSS) values were calculated for individual tumor types (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 10</xref>).</p>
+        </sec>
+        <sec id="S15">
+          <title>TERT promoter mutation status and survival</title>
+          <p id="P41">The association between somatic TERT promoter mutations and overall survival was evaluated by the log-rank test and Kaplan-Meier survival curves within select tumor types. Overall survival was defined as the time between the procedure date when the tumor specimen was collected and the date of death or last follow up. Only cases where the procedure occurred within one year prior to MSK-IMPACT sequencing were included in the analysis.</p>
+        </sec>
+        <sec id="S16">
+          <title>Novel genomic rearrangements</title>
+          <p id="P42">Somatic structural variants (SVs) were identified by DELLY (v0.6.1)<sup><xref rid="R56" ref-type="bibr">56</xref></sup> based on the detection of read-pairs and split-reads supporting the underlying rearrangement. Deletions, duplications, and inversions were filtered if the length was &lt;500 bp. Candidate rearrangements were flagged for manual review if the tumor harbored ≥3 discordant reads with mapping quality of ≥5 and the normal harbored ≤3 discordant reads (sites of known recurrent rearrangements), or if the tumor harbored ≥5 discordant reads with mapping quality of ≥20 and the normal harbored ≤1 discordant reads (novel rearrangement sites). All candidate somatic structural rearrangements were annotated using in-house tools, and manually reviewed using the Integrative Genomics Viewer.<sup><xref rid="R57" ref-type="bibr">57</xref></sup> The current framework can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/rhshah/IMPACT-SV">https://github.com/rhshah/IMPACT-SV</ext-link>.</p>
+          <p id="P43">To identify novel fusion partners, we used COSMIC (v77)<sup><xref rid="R15" ref-type="bibr">15</xref></sup>, TCGA fusion database<sup><xref rid="R58" ref-type="bibr">58</xref></sup>, as well as literature review<sup><xref rid="R33" ref-type="bibr">33</xref></sup> to determine if the partner was known. For the analysis of kinase fusions, 521 protein kinases were considered.<sup><xref rid="R59" ref-type="bibr">59</xref></sup> To determine the involvement of kinase domains in predicted kinase fusions, we downloaded the RefSeq and Uniprot tracks for GRCh37/hg19 from the UCSC table browser.<sup><xref rid="R60" ref-type="bibr">60</xref></sup> RefSeq was used to determine the transcript orientation and Uniprot was used to determine the genomic location of the kinase domain with respect to the breakpoint at which the structural variant was called.</p>
+        </sec>
+        <sec id="S17">
+          <title>RNA fusion detection</title>
+          <p id="P44">For complex DNA rearrangements where the identity of the fusion partner gene was not clear, total RNA extracted from FFPE material was analyzed using the MSK-Solid Fusion assay, a custom targeted RNA-based panel that utilizes the Archer Anchored Multiplex PCR (AMP<sup>™</sup>) technology<sup><xref rid="R61" ref-type="bibr">61</xref></sup> and next generation sequencing to detect genes fusions. Unidirectional gene specific primers (GSPs) were designed to target specific exons in 35 genes known to be involved in chromosomal rearrangements. GSPs, in combination with adapter-specific primers, enrich for known and novel fusion transcripts. Final targeted amplicons are sequenced on an Illumina MiSeq. Data was analyzed using the Archer<sup>™</sup> Software (V4.0.10). This custom assay has been validated and approved for clinical use at MSKCC by the New York State Department of Health Clinical Laboratory Evaluation Program.</p>
+        </sec>
+        <sec id="S18" sec-type="discussion">
+          <title>Comparison of mutation rates for MSK-IMPACT and WES</title>
+          <p id="P45">Libraries for 106 tumor samples were re-captured using the Agilent Exome Kit (v3) and sequenced on an Illumina HiSeq 2500 to an average coverage of 240X. Sequencing reads were aligned to the human genome (hg19) using BWA MEM followed by post-processing using the Picard MarkDuplicates tool and GATK. Variants were identified using MuTect and GATK HaplotypeCaller. The analysis pipeline can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/soccin/BIC-variants_pipeline">https://github.com/soccin/BIC-variants_pipeline</ext-link>. Candidate mutations were filtered for various criteria including recurrence in historical normals, total and allele-level coverage, and known systematic artifacts. Tumor mutation burden (TMB) was calculated using the total number of non-synonymous mutations divided by the total genomic target region captured with the exome assay. Similarly, TMB from MSK-IMPACT was calculated by dividing the number of sequence mutations reported by MSK-IMPACT assay by the total genomic area where mutations were reported, according to the version of the assay that was used.</p>
+        </sec>
+        <sec id="S19">
+          <title>Mutational signatures</title>
+          <p id="P46">The overall TMB distribution was used to identify a threshold for considering highly mutated tumors suitable for the identification of mutational signatures, using the following formula: median(TMB) + 2*IQR(TMB), where IQR is interquartile range. Samples with a mutation burden greater than 13.8 non-synonymous mutations/Mb were analyzed.</p>
+          <p id="P47">Contributions of different mutation signatures were identified for each sample according to the distribution of the 6 substitution classes (C&gt;A, C&gt;G, C&gt;T, T&gt;A, T&gt;C, T&gt;G) and the bases immediately 5′ and 3′ of the mutated base, producing 96 possible mutation subtypes. These mutations were resampled 1000 times and then subjected to decomposition analysis in which the KL-divergence is minimized between the sample signature and the approximation built up from previously described 30 signatures<sup><xref rid="R37" ref-type="bibr">37</xref></sup> such that each signature is assigned a weight that corresponds to the percentage of mutations explained by each given signature. A sample was determined to have a dominant signature if &gt;40% of observed mutations were attributable to that signature.</p>
+          <p id="P48">For the analyses in the manuscript, we focused on 8 main signatures: Aging (Signature 1); APOBEC (Signatures 2 and 13); Smoking (Signature 4), BRCA1/2 (Signature 3); MMR (Signatures 6, 15, 20 and 26); UV (Signature 7); POLE (Signature 10) and TMZ (Signature 11). For each sample, we identified somatic mutations in POLE and mutations in MMR pathway genes, automatically retrieved smoking status from our institutional database, and calculated the ratio of indels-to-SNVs. We also analyzed each sample using the MSIsensor algorithm, which identifies the percentage of microsatellite loci that are unstable in the tumor genome compared to its matched normal.</p>
+        </sec>
+        <sec id="S20">
+          <title>Clinical assessment and matching to clinical trials</title>
+          <p id="P49">To assess clinical actionability of mutations detected by MSK-IMPACT, we annotated sequence mutations, copy number alterations, and rearrangements according to OncoKB, a curated knowledge base of the oncogenic effects and treatment implications of somatic mutations (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://oncokb.org">http://oncokb.org</ext-link>)<sup><xref rid="R40" ref-type="bibr">40</xref></sup>. Mutations were classified in a tumor type-specific manner according to the level of evidence that the mutation is a predictive biomarker of drug response. Briefly, mutations were classified according to whether they are FDA-recognized biomarkers (Level 1), predict response to standard-of-care therapies (Level 2), or predict response to investigational agents in clinical trials (Level 3). Levels 2 and 3 were subdivided according to whether the evidence exists for the pertinent tumor type (2A, 3A) or a different tumor type (2B, 3B). Tumor samples were annotated according to the highest level of evidence for any mutation identified by MSK-IMPACT.</p>
+          <p id="P50">To determine the rate of enrollment to genomically matched clinical trials, we obtained a list of 850 clinical trials open at MSKCC on which any patient tested by MSK-IMPACT was ever enrolled up to September 2016. After reviewing the enrollment criteria and mechanism of action of each therapy, 197/850 clinical trials were deemed to have a target aberration. A patient was considered to be “matched” if he/she harbored at least one alteration considered to be a target for at least one clinical trial on which they were enrolled. Only patients whose tumors were sequenced during the first 18 months of the MSK-IMPACT sequencing initiative (prior to July 2015) were considered, given that utilization of molecular profiling results and changes to treatment regimens may not occur for many months (or longer) after testing. Of 5,009 patients tested by MSK-IMPACT prior to July 2015, 1,894 (38%) were enrolled on any clinical trial, 811 (16%) were enrolled on a clinical trial with a targeted agent, and 527 (11%) harbored genomic alterations matching the drug target. 72% of all matches occurred after the MSK-IMPACT reports were issued, with the remaining matches based on the results of prior molecular testing.</p>
+          <p id="P51">Clinical responses for patients receiving immunotherapy and targeted BRAF-directed therapy were assessed by detailed chart review. Response was defined as radiographic stable disease or tumor regression at or near 3 months from the initiation of therapy.</p>
+        </sec>
+        <sec id="S21">
+          <title>Statistical analyses</title>
+          <p id="P52">Survival analyses based on TERT promoter mutations were performed using R (v3.2) with <italic toggle="yes">survival</italic> package. Log-rank test was used to calculate p-values, and Kaplan Meier curves were used to compare survival between different stratified groups. cor.test() function from R was used to calculate Pearson correlation of TMB between MSK-IMPACT and WES samples. Comparisons of indel-to-SNV ratios between samples with and without the MMR signature were evaluated using the Wilcoxon rank test.</p>
+        </sec>
+        <sec id="S22">
+          <title>Data Availability</title>
+          <p id="P53">All genomic results and associated clinical data for all patients in this study are publically available in the cBioPortal for Cancer Genomics at the following URL: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cbioportal.org/msk-impact">http://cbioportal.org/msk-impact</ext-link>.</p>
+        </sec>
+        <sec id="S23">
+          <title>Code Availability</title>
+          <p id="P54">The MSK-IMPACT data analysis pipeline can be found here: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/rhshah/IMPACT-Pipeline">https://github.com/rhshah/IMPACT-Pipeline</ext-link>. The mutational signature decomposition code can be found here: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/mutation-signatures">https://github.com/mskcc/mutation-signatures</ext-link>. The whole exome sequencing data analysis pipeline can be found here: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/soccin/BIC-variants_pipeline">https://github.com/soccin/BIC-variants_pipeline</ext-link>.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="S24">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS865784-supplement-1.pdf" orientation="portrait" id="d36e1780" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S25">
+        <p>This study was supported by the MSK Cancer Center Support Grant (P30 CA008748), Cycle for Survival, the Farmer Family Foundation, and the Marie-Josée and Henry R. Kravis Center for Molecular Oncology. We gratefully acknowledge Christine England, Joshua Somar, Tamim Malbari, Paulo Salazar, Shadia Islam, Elise Gallagher, Ivelise Rijo, Nana Mensah, Georgi Lukose, Talia Mitchell, Angela Yannes, Yvonne Chekaluk, George Jour, Navid Sadri, Ken Tian, Carlos Pagan, J. Keith Killian, Deepu Alex, Juan Gomez-Gelvez, Caleb Ho, Sandy Naupari, Jessica Arlequin, Carolina Carvajal, Luz Tovar Ramirez, Jake Bakas, Purvil Sukhadia, Ederlinda Paraiso, and Julia Rudolph for their important contributions.</p>
+      </ack>
+      <fn-group>
+        <fn fn-type="COI-statement" id="FN4">
+          <p>
+            <bold>COMPETING FINANCIAL INTERESTS</bold>
+          </p>
+          <p>The authors declare no competing financial interests.</p>
+        </fn>
+        <fn id="FN5" fn-type="con">
+          <p>
+            <bold>AUTHOR CONTRIBUTIONS</bold>
+          </p>
+          <p>AZ, RB, and MFB wrote the manuscript. RB, JS, JC, RB, IJK, AR, JBS, LS, TB, and KAM generated the genomic data. AZ, RB, RHS, SM, HRK, PS, SMD, MH, SD, DSR, JFH, DFD, JY, DLM, DTC, RC, ASM, RNP, GJ, KN, LB, PJ, NC, MTC, HHW, BST, NS, DMH, MEA, DBS, ML, and MFB reviewed and analyzed the genomic data. MDH, DB, AMS, HAA, EV, JW, ME, SBT, SMG, DNR, JG, RED, RC, WA, AC, DRF, MMG, AAH, JJH, GI, YYJ, EJJ, CMK, MAL, LGTM, AMO, NR, PR, ANS, NS, TES, AMV, RY, DMH, and DBS provided clinical data. AZ, AS, JG, DC, DTC, MP, MHS, ABR, ZYL, AAA, AVP, BEG, RK, ZJH, HWC, SP, HZ, JW, AO, BST, and NS created bioinformatics tools and systems to support data analysis, annotation, and dissemination. JC, BB, GJR, LBS, HIS, PJS, DSK, JTB, and DBS provided support for the MSK-IMPACT sequencing initiative. MER, DMH, and DBS developed the institutional molecular profiling protocol. All authors reviewed the manuscript.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garraway</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Genomics-driven oncology: framework for an emerging paradigm</article-title>
+            <source>J Clin Oncol</source>
+            <volume>31</volume>
+            <fpage>1806</fpage>
+            <lpage>14</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23589557</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2012.46.8934</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Varghese</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>MF</given-names>
+              </name>
+            </person-group>
+            <article-title>Advancing clinical oncology through genome biology and technology</article-title>
+            <source>Genome Biol</source>
+            <volume>15</volume>
+            <fpage>427</fpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25198155</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-014-0427-x</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4281954</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lindeman</surname>
+                <given-names>NI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular testing guideline for selection of lung cancer patients for EGFR and ALK tyrosine kinase inhibitors: guideline from the College of American Pathologists, International Association for the Study of Lung Cancer, and Association for Molecular Pathology</article-title>
+            <source>J Mol Diagn</source>
+            <volume>15</volume>
+            <fpage>415</fpage>
+            <lpage>53</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23562183</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2013.03.001</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chapman</surname>
+                <given-names>PB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Improved survival with vemurafenib in melanoma with BRAF V600E mutation</article-title>
+            <source>N Engl J Med</source>
+            <volume>364</volume>
+            <fpage>2507</fpage>
+            <lpage>16</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21639808</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1103782</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3549296</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hyman</surname>
+                <given-names>DM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Vemurafenib in Multiple Nonmelanoma Cancers with BRAF V600 Mutations</article-title>
+            <source>N Engl J Med</source>
+            <volume>373</volume>
+            <fpage>726</fpage>
+            <lpage>36</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26287849</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1502309</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4971773</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Singh</surname>
+                <given-names>RR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clinical validation of a next-generation sequencing screen for mutational hotspots in 46 cancer-related genes</article-title>
+            <source>J Mol Diagn</source>
+            <volume>15</volume>
+            <fpage>607</fpage>
+            <lpage>22</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23810757</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2013.05.003</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Roychowdhury</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Personalized oncology through integrative high-throughput sequencing: a pilot study</article-title>
+            <source>Sci Transl Med</source>
+            <volume>3</volume>
+            <fpage>111ra121</fpage>
+            <year>2011</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.3003161</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3476478</pub-id>
+            <pub-id pub-id-type="pmid">22133722</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Frampton</surname>
+                <given-names>GM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Development and validation of a clinical cancer genomic profiling test based on massively parallel DNA sequencing</article-title>
+            <source>Nat Biotechnol</source>
+            <volume>31</volume>
+            <fpage>1023</fpage>
+            <lpage>31</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">24142049</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2696</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5710001</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Beltran</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-Exome Sequencing of Metastatic Cancer and Biomarkers of Treatment Response</article-title>
+            <source>JAMA Oncol</source>
+            <volume>1</volume>
+            <fpage>466</fpage>
+            <lpage>74</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26181256</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2015.1313</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4505739</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sholl</surname>
+                <given-names>LM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Institutional implementation of clinical tumor profiling on an unselected cancer population</article-title>
+            <source>JCI Insight</source>
+            <volume>1</volume>
+            <fpage>e87062</fpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">27882345</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/jci.insight.87062</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5111542</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): A Hybridization Capture-Based Next-Generation Sequencing Clinical Assay for Solid Tumor Molecular Oncology</article-title>
+            <source>J Mol Diagn</source>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>64</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>
+            <source>Cancer Discov</source>
+            <volume>2</volume>
+            <fpage>401</fpage>
+            <lpage>4</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">22588877</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-12-0095</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3956037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ciriello</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Emerging landscape of oncogenic signatures across human cancers</article-title>
+            <source>Nat Genet</source>
+            <volume>45</volume>
+            <fpage>1127</fpage>
+            <lpage>33</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">24071851</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2762</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4320046</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Simen</surname>
+                <given-names>BB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Validation of a next-generation-sequencing cancer panel for use in the clinical laboratory</article-title>
+            <source>Arch Pathol Lab Med</source>
+            <volume>139</volume>
+            <fpage>508</fpage>
+            <lpage>17</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">25356985</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.5858/arpa.2013-0710-OA</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forbes</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>COSMIC: somatic cancer genetics at high-resolution</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2016</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkw1121</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5210583</pub-id>
+            <pub-id pub-id-type="pmid">27899578</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kandoth</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational landscape and significance across 12 major cancer types</article-title>
+            <source>Nature</source>
+            <volume>502</volume>
+            <fpage>333</fpage>
+            <lpage>9</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">24132290</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12634</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3927368</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas Research N</collab>
+            <article-title>Integrated genomic characterization of papillary thyroid carcinoma</article-title>
+            <source>Cell</source>
+            <volume>159</volume>
+            <fpage>676</fpage>
+            <lpage>90</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25417114</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2014.09.050</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4243044</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas Research N</collab>
+            <article-title>Comprehensive molecular characterization of gastric adenocarcinoma</article-title>
+            <source>Nature</source>
+            <volume>513</volume>
+            <fpage>202</fpage>
+            <lpage>9</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25079317</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13480</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4170219</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Davis</surname>
+                <given-names>CF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The somatic genomic landscape of chromophobe renal cell carcinoma</article-title>
+            <source>Cancer Cell</source>
+            <volume>26</volume>
+            <fpage>319</fpage>
+            <lpage>30</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25155756</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2014.07.014</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4160352</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Powell</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Piwnica-Worms</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Piwnica-Worms</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Contribution of p53 to metastasis</article-title>
+            <source>Cancer Discov</source>
+            <volume>4</volume>
+            <fpage>405</fpage>
+            <lpage>14</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24658082</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-0136</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4063123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Watson</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Arora</surname>
+                <given-names>VK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sawyers</surname>
+                <given-names>CL</given-names>
+              </name>
+            </person-group>
+            <article-title>Emerging mechanisms of resistance to androgen receptor inhibitors in prostate cancer</article-title>
+            <source>Nat Rev Cancer</source>
+            <volume>15</volume>
+            <fpage>701</fpage>
+            <lpage>11</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26563462</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc4016</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4771416</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Toy</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>ESR1 ligand-binding domain mutations in hormone-resistant breast cancer</article-title>
+            <source>Nat Genet</source>
+            <volume>45</volume>
+            <fpage>1439</fpage>
+            <lpage>45</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">24185512</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2822</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3903423</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>DR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Activating ESR1 mutations in hormone-resistant metastatic breast cancer</article-title>
+            <source>Nat Genet</source>
+            <volume>45</volume>
+            <fpage>1446</fpage>
+            <lpage>51</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">24185510</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2823</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4009946</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chang</surname>
+                <given-names>MT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identifying recurrent mutations in cancer reveals widespread lineage diversity and mutational specificity</article-title>
+            <source>Nat Biotechnol</source>
+            <volume>34</volume>
+            <fpage>155</fpage>
+            <lpage>63</lpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">26619011</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.3391</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4744099</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Baca</surname>
+                <given-names>SC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Punctuated evolution of prostate cancer genomes</article-title>
+            <source>Cell</source>
+            <volume>153</volume>
+            <fpage>666</fpage>
+            <lpage>77</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23622249</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2013.03.021</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3690918</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Horn</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter mutations in familial and sporadic melanoma</article-title>
+            <source>Science</source>
+            <volume>339</volume>
+            <fpage>959</fpage>
+            <lpage>61</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23348503</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1230062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>FW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Highly recurrent TERT promoter mutations in human melanoma</article-title>
+            <source>Science</source>
+            <volume>339</volume>
+            <fpage>957</fpage>
+            <lpage>9</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23348506</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1229259</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4423787</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Killela</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter mutations occur frequently in gliomas and a subset of tumors derived from cells with low rates of self-renewal</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>110</volume>
+            <fpage>6021</fpage>
+            <lpage>6</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23530248</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1303607110</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3625331</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter mutations and long telomere length predict poor survival and radiotherapy resistance in gliomas</article-title>
+            <source>Oncotarget</source>
+            <volume>7</volume>
+            <fpage>8712</fpage>
+            <lpage>25</lpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">26556853</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.6007</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4890999</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Melo</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TERT promoter mutations are a major indicator of poor outcome in differentiated thyroid carcinomas</article-title>
+            <source>J Clin Endocrinol Metab</source>
+            <volume>99</volume>
+            <fpage>E754</fpage>
+            <lpage>65</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24476079</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/jc.2013-3734</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4191548</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Piscuoglio</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Massively parallel sequencing of phyllodes tumours of the breast reveals actionable mutations, and TERT promoter hotspot mutations and TERT gene amplification as likely drivers of progression</article-title>
+            <source>J Pathol</source>
+            <volume>238</volume>
+            <fpage>508</fpage>
+            <lpage>18</lpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">26832993</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/path.4672</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4962788</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stransky</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schalm</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lengauer</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>The landscape of kinase fusions in cancer</article-title>
+            <source>Nat Commun</source>
+            <volume>5</volume>
+            <fpage>4846</fpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25204415</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms5846</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4175590</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ross</surname>
+                <given-names>JS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The distribution of BRAF gene fusions in solid tumors and response to targeted therapy</article-title>
+            <source>Int J Cancer</source>
+            <volume>138</volume>
+            <fpage>881</fpage>
+            <lpage>90</lpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">26314551</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.29825</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5049644</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Menzies</surname>
+                <given-names>AM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clinical activity of the MEK inhibitor trametinib in metastatic melanoma containing BRAF kinase fusion</article-title>
+            <source>Pigment Cell Melanoma Res</source>
+            <volume>28</volume>
+            <fpage>607</fpage>
+            <lpage>10</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26072686</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pcmr.12388</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4539279</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Poulikakos</surname>
+                <given-names>PI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>RAF inhibitor resistance is mediated by dimerization of aberrantly spliced BRAF(V600E)</article-title>
+            <source>Nature</source>
+            <volume>480</volume>
+            <fpage>387</fpage>
+            <lpage>90</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">22113612</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10662</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3266695</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yao</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>BRAF Mutants Evade ERK-Dependent Feedback by Different Mechanisms that Determine Their Sensitivity to Pharmacologic Inhibition</article-title>
+            <source>Cancer Cell</source>
+            <volume>28</volume>
+            <fpage>370</fpage>
+            <lpage>83</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26343582</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2015.08.001</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4894664</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutational processes in human cancer</article-title>
+            <source>Nature</source>
+            <volume>500</volume>
+            <fpage>415</fpage>
+            <lpage>21</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23945592</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12477</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3776390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Niu</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MSIsensor: microsatellite instability detection using paired tumor-normal sequence data</article-title>
+            <source>Bioinformatics</source>
+            <volume>30</volume>
+            <fpage>1015</fpage>
+            <lpage>6</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24371154</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btt755</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3967115</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Le</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PD-1 Blockade in Tumors with Mismatch-Repair Deficiency</article-title>
+            <source>N Engl J Med</source>
+            <volume>372</volume>
+            <fpage>2509</fpage>
+            <lpage>20</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26028255</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1500596</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4481136</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chakravarty</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>OncoKB: A Precision Oncology Knowledge Base</article-title>
+            <source>J Clin Oncol Precision Oncology</source>
+            <year>2017</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5586540</pub-id>
+            <pub-id pub-id-type="pmid">28890946</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Meric-Bernstam</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Feasibility of Large-Scale Genomic Testing to Facilitate Enrollment Onto Genomically Matched Clinical Trials</article-title>
+            <source>J Clin Oncol</source>
+            <volume>33</volume>
+            <fpage>2753</fpage>
+            <lpage>62</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26014291</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2014.60.4165</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4550690</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ross</surname>
+                <given-names>JS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive Genomic Profiling of Carcinoma of Unknown Primary Site: New Routes to Targeted Therapies</article-title>
+            <source>JAMA Oncol</source>
+            <volume>1</volume>
+            <fpage>40</fpage>
+            <lpage>9</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26182302</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2014.216</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhu</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Inhibition of KRAS-driven tumorigenicity by interruption of an autocrine cytokine circuit</article-title>
+            <source>Cancer Discov</source>
+            <volume>4</volume>
+            <fpage>452</fpage>
+            <lpage>65</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24444711</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-0646</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3980023</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Manchado</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A combinatorial strategy for treating KRAS-mutant lung cancer</article-title>
+            <source>Nature</source>
+            <volume>534</volume>
+            <fpage>647</fpage>
+            <lpage>51</lpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">27338794</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature18600</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4939262</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Eubank</surname>
+                <given-names>MH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Automated eligibility screening and monitoring for genotype-driven precision oncology trials</article-title>
+            <source>J Am Med Inform Assoc</source>
+            <volume>23</volume>
+            <fpage>777</fpage>
+            <lpage>81</lpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">27016727</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jamia/ocw020</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6370254</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Schwaederle</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>On the Road to Precision Cancer Medicine: Analysis of Genomic Biomarker Actionability in 439 Patients</article-title>
+            <source>Mol Cancer Ther</source>
+            <volume>14</volume>
+            <fpage>1488</fpage>
+            <lpage>94</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">25852059</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-14-1061</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stockley</surname>
+                <given-names>TL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular profiling of advanced solid tumors and patient outcomes with genotype-matched clinical trials: the Princess Margaret IMPACT/COMPACT trial</article-title>
+            <source>Genome Med</source>
+            <volume>8</volume>
+            <fpage>109</fpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">27782854</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13073-016-0364-2</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5078968</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jones</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Personalized genomic analyses for cancer mutation discovery and interpretation</article-title>
+            <source>Sci Transl Med</source>
+            <volume>7</volume>
+            <fpage>283ra53</fpage>
+            <year>2015</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.aaa7161</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4442685</pub-id>
+            <pub-id pub-id-type="pmid">25877891</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garofalo</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The impact of tumor profiling approaches and genomic data strategies for cancer precision medicine</article-title>
+            <source>Genome Med</source>
+            <volume>8</volume>
+            <fpage>79</fpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">27460824</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13073-016-0333-9</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4962446</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Schrader</surname>
+                <given-names>KA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Germline Variants in Targeted Tumor Sequencing Using Matched Normal DNA</article-title>
+            <source>JAMA Oncol</source>
+            <volume>2</volume>
+            <fpage>104</fpage>
+            <lpage>11</lpage>
+            <year>2016</year>
+            <pub-id pub-id-type="pmid">26556299</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2015.5208</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5477989</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>60</lpage>
+            <year>2009</year>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McKenna</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+            <source>Genome Res</source>
+            <volume>20</volume>
+            <fpage>1297</fpage>
+            <lpage>303</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20644199</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.107524.110</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mose</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wilkerson</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hayes</surname>
+                <given-names>DN</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Perou</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Parker</surname>
+                <given-names>JS</given-names>
+              </name>
+            </person-group>
+            <article-title>ABRA: improved coding indel detection via assembly-based realignment</article-title>
+            <source>Bioinformatics</source>
+            <volume>30</volume>
+            <fpage>2813</fpage>
+            <lpage>5</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24907369</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btu376</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4173014</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>
+            <source>Nat Biotechnol</source>
+            <volume>31</volume>
+            <fpage>213</fpage>
+            <lpage>9</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23396013</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2514</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3833702</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ye</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schulz</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Long</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Apweiler</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ning</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Pindel: a pattern growth approach to detect break points of large deletions and medium sized insertions from paired-end short reads</article-title>
+            <source>Bioinformatics</source>
+            <volume>25</volume>
+            <fpage>2865</fpage>
+            <lpage>71</lpage>
+            <year>2009</year>
+            <pub-id pub-id-type="pmid">19561018</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp394</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2781750</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rausch</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DELLY: structural variant discovery by integrated paired-end and split-read analysis</article-title>
+            <source>Bioinformatics</source>
+            <volume>28</volume>
+            <fpage>i333</fpage>
+            <lpage>i339</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">22962449</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/bts378</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3436805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Thorvaldsdottir</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mesirov</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration</article-title>
+            <source>Brief Bioinform</source>
+            <volume>14</volume>
+            <fpage>178</fpage>
+            <lpage>92</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">22517427</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bib/bbs017</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3603213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R58">
+          <label>58</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yoshihara</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The landscape and therapeutic relevance of cancer-associated transcript fusions</article-title>
+            <source>Oncogene</source>
+            <volume>34</volume>
+            <fpage>4845</fpage>
+            <lpage>54</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">25500544</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2014.406</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4468049</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Manning</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Whyte</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Martinez</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hunter</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sudarsanam</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The protein kinase complement of the human genome</article-title>
+            <source>Science</source>
+            <volume>298</volume>
+            <fpage>1912</fpage>
+            <lpage>34</lpage>
+            <year>2002</year>
+            <pub-id pub-id-type="pmid">12471243</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1075762</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R60">
+          <label>60</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Karolchik</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The UCSC Table Browser data retrieval tool</article-title>
+            <source>Nucleic Acids Res</source>
+            <volume>32</volume>
+            <fpage>D493</fpage>
+            <lpage>6</lpage>
+            <year>2004</year>
+            <pub-id pub-id-type="pmid">14681465</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkh103</pub-id>
+            <pub-id pub-id-type="pmcid">PMC308837</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R61">
+          <label>61</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zheng</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Anchored multiplex PCR for targeted next-generation sequencing</article-title>
+            <source>Nat Med</source>
+            <volume>20</volume>
+            <fpage>1479</fpage>
+            <lpage>84</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25384085</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3729</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Overview of MSK-IMPACT clinical workflow. Patients provide informed consent for paired tumor-normal sequence analysis, and a blood sample is collected as a source of normal DNA. DNA is extracted from tumor and blood samples using automated protocols, and sequence libraries are prepared and captured using hybridization probes targeting all coding exons of 410 genes and select introns of recurrently rearranged genes. Following sequencing, paired reads are analyzed through a custom bioinformatics pipeline that detects multiple classes of genomic rearrangements. Results are loaded into an in-house developed genomic variants database, MPath, upon which they are manually reviewed for quality and accuracy. Genomic alterations are reported in the electronic medical record, transmitted to an institutional database (Darwin) that facilitates automated clinical trial matching, and automatically uploaded to the cBioPortal for data mining and interpretation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms865784f1.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Overview of the MSK-IMPACT cohort. (<bold>a</bold>) Distribution of tumor types among cases successfully sequenced from 10,336 patients. Cases represented 62 principal tumor types encapsulating 361 detailed tumor types. (<bold>b</bold>) Frequency of gene alterations in TCGA and MSK-IMPACT cohorts. Genes that were statistically significantly mutated in TCGA studies are displayed, and genes that show a significant difference between the two cohorts are labeled. (<bold>c</bold>) Recurrent somatic alterations across common tumor types. Genes with a cohort-level alteration frequency of ≥5% or a tumor type-specific alteration frequency of ≥30% are displayed. Bars indicate the percent of cases within each tumor type harboring different classes of genomic alterations.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms865784f2.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Spectrum of <italic toggle="yes">TERT</italic> promoter mutations in cancer. (<bold>a</bold>) Location of all <italic toggle="yes">TERT</italic> promoter mutations relative to the transcription start site (+1). Observed nucleotide changes leading presumptive ETS transcription binding sites are shown for the three most common mutational hotspots. Inset shows the distribution of cancer types harboring mutations at each individual hotspot. (<bold>b</bold>) Bar plot depicting the percentage of cases in each common principal tumor type (left) and melanoma sub-types (right) harboring a <italic toggle="yes">TERT</italic> promoter mutation. (<bold>c</bold>) Kaplan-Meier survival curves for the most prominent detailed tumor types belonging to the principal tumor types with the highest prevalence of <italic toggle="yes">TERT</italic> promoter mutations. Survival was measured starting from the date of the procedure to obtain the specimen sequenced. Cases where specimens were obtained more than 12 months prior to MSK-IMPACT sequencing were excluded from this analysis.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms865784f3.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Spectrum of kinase fusions identified by MSK-IMPACT. (<bold>a</bold>) Kinase genes recurrently rearranged to form putative gene fusions including the kinase domain, displayed across principal tumor types. (<bold>b</bold>) List of fusions containing <italic toggle="yes">BRAF</italic> gene. * novel fusion partner; † complex fusion resolved using an orthogonal RNAseq based assay. (<bold>c</bold>) In-frame intragenic deletions observed in <italic toggle="yes">BRAF</italic>, encompassing 5 - 9 exons upstream of the kinase domain.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms865784f4.jpg"/>
+      </fig>
+      <fig id="F5" orientation="portrait" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Mutational signatures derived from MSK-IMPACT targeted sequencing data. (<bold>a</bold>) Distribution of the somatic tumor mutation burden (TMB), defined as non-synonymous coding mutations per Megabase, for common principal tumor types. (<bold>b</bold>) Distribution of observed mutation rates across all tumors sequenced was used to identify a threshold of 13.8 mutations/Mb, indicative of high mutation burden. (<bold>c</bold>) Dominant mutation signatures identified in cases with high mutation burden. The percent of cases harboring a dominant mutation signature is shown for each principal tumor type. POLE: DNA Polymerase ε; MMR: Mismatch repair deficiency; UV: Ultraviolet light; TMZ: Temozolomide. (<bold>d</bold>) Individual tumors harboring dominant mutation signatures. Bar charts display the total number of coding mutations (gray) and the fraction of mutations explained by the major signature (colored). Tracks below the bar charts indicate: i) POLE mutation status, ii) MMR pathway mutation status, iii) MSIsensor score, iv) indel to SNV ratio, v) reported smoking status, and vi) cancer type. (<bold>e</bold>) Tumor type distribution for samples with a high mutation burden, dominant MMR signature, and inferred MSI. (<bold>f</bold>) 55-year-old with castrate and enzalutamide resistant prostate cancer with an MMR signature (19 mutations, including 6 frameshift indels) and no clear underlying somatic or germline MMR pathway lesion. A pathogenic germline <italic toggle="yes">MUTYH</italic> variant was detected, which may contribute to the MSI phenotype. Upon initiation of treatment on an anti-PD-L1 immunotherapy regimen, significant tumor regression was observed. Line charts show the relative tumor size based on RECIST criteria and serum PSA levels. MRI images show the decreasing tumor size at indicated time points (scale bar = 10 cm).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms865784f5.jpg"/>
+      </fig>
+      <fig id="F6" orientation="portrait" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Clinical actionability of somatic alterations revealed by MSK-IMPACT. (<bold>a</bold>) Alterations were annotated based on their clinical actionability according to OncoKB, and samples were assigned the level of the most significant alteration. Briefly, levels of evidence varied according to whether mutations are FDA-recognized biomarkers (Level 1), predict response to standard-of-care therapies (Level 2), or predict for response to investigational agents in clinical trials (Level 3). Levels 2 and 3 were subdivided according to whether the evidence existed for the pertinent tumor type (2A, 3A) or a different tumor type (2B, 3B). The distribution of the highest level of actionability across all patients is displayed. (<bold>b</bold>) Distribution of levels of actionability across tumor types (GNET: gastrointestincal neuroendocrine tumor). (<bold>c</bold>) Number of patients enrolled on genomically-matched clinical trials on the basis of different gene alterations.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms865784f6.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1426 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nature</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nature</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0028-0836</issn>
+        <issn pub-type="epub">1476-4687</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC3413789</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC3413789.1</article-id>
+        <article-id pub-id-type="pmcaid">3413789</article-id>
+        <article-id pub-id-type="pmcaiid">3413789</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS386385</article-id>
+        <article-id pub-id-type="pmid">22820256</article-id>
+        <article-id pub-id-type="doi">10.1038/nature11329</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS386385</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA386385</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>MEDULLOBLASTOMA EXOME SEQUENCING UNCOVERS SUBTYPE-SPECIFIC SOMATIC MUTATIONS</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pugh</surname>
+              <given-names initials="TJ">Trevor J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weeraratne</surname>
+              <given-names initials="SD">Shyamal Dilhan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Archer</surname>
+              <given-names initials="TC">Tenley C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pomeranz Krummel</surname>
+              <given-names initials="DA">Daniel A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Auclair</surname>
+              <given-names initials="D">Daniel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bochicchio</surname>
+              <given-names initials="J">James</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Carneiro</surname>
+              <given-names initials="MO">Mauricio O.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Carter</surname>
+              <given-names initials="SL">Scott L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cibulskis</surname>
+              <given-names initials="K">Kristian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Erlich</surname>
+              <given-names initials="RL">Rachel L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Greulich</surname>
+              <given-names initials="H">Heidi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lawrence</surname>
+              <given-names initials="MS">Michael S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lennon</surname>
+              <given-names initials="NJ">Niall J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McKenna</surname>
+              <given-names initials="A">Aaron</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meldrim</surname>
+              <given-names initials="J">James</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ramos</surname>
+              <given-names initials="AH">Alex H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ross</surname>
+              <given-names initials="MG">Michael G.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Russ</surname>
+              <given-names initials="C">Carsten</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shefler</surname>
+              <given-names initials="E">Erica</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sivachenko</surname>
+              <given-names initials="A">Andrey</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sogoloff</surname>
+              <given-names initials="B">Brian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stojanov</surname>
+              <given-names initials="P">Petar</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tamayo</surname>
+              <given-names initials="P">Pablo</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mesirov</surname>
+              <given-names initials="JP">Jill P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Amani</surname>
+              <given-names initials="V">Vladimir</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Teider</surname>
+              <given-names initials="N">Natalia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sengupta</surname>
+              <given-names initials="S">Soma</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Francois</surname>
+              <given-names initials="JP">Jessica Pierre</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Northcott</surname>
+              <given-names initials="PA">Paul A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names initials="MD">Michael D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yu</surname>
+              <given-names initials="F">Furong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Crabtree</surname>
+              <given-names initials="GR">Gerald R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kautzman</surname>
+              <given-names initials="AG">Amanda G.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names initials="SB">Stacey B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jäger</surname>
+              <given-names initials="N">Natalie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="DTW">David T. W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lichter</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pfister</surname>
+              <given-names initials="SM">Stefan M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Roberts</surname>
+              <given-names initials="TM">Thomas M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyerson</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pomeroy</surname>
+              <given-names initials="SL">Scott L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cho</surname>
+              <given-names initials="YJ">Yoon-Jae</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref rid="FN1" ref-type="author-notes">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Broad Institute of MIT and Harvard, Cambridge, MA, United States</aff>
+        <aff id="A2"><label>2</label>Center for Cancer Genome Discovery, Departments of Medical Oncology and of Biological Chemistry and Molecular Pharmacology, Dana-Farber Cancer Institute, Boston, MA, United States</aff>
+        <aff id="A3"><label>3</label>Department of Neurology, Children’s Hospital Boston, Boston, MA, United States</aff>
+        <aff id="A4"><label>4</label>Department of Pathology, Brigham and Women’s Hospital, Boston, MA, United States</aff>
+        <aff id="A5"><label>5</label>Harvard Medical School, Boston, MA, United States</aff>
+        <aff id="A6"><label>6</label>German Cancer Research Center (DKFZ), Heidelberg, Germany</aff>
+        <aff id="A7"><label>7</label>Departments of Neurology and Neurosurgery, Stanford University School of Medicine, Stanford, CA, United States</aff>
+        <aff id="A8"><label>8</label>Brandeis University, Waltham, MA, United States</aff>
+        <aff id="A9"><label>9</label>The Hospital for Sick Children, Toronto, Canada</aff>
+        <aff id="A10"><label>10</label>Howard Hughes Medical Institute at Stanford University, Stanford, CA, United States</aff>
+        <author-notes>
+          <corresp id="FN1"><label>*</label>Correspondence should be addressed to Yoon-Jae Cho (<email>yjcho1@stanford.edu</email>)</corresp>
+        </author-notes>
+        <pub-date pub-type="ppub">
+          <day>2</day>
+          <month>8</month>
+          <year>2012</year>
+        </pub-date>
+        <volume>488</volume>
+        <issue>7409</issue>
+        <issue-id pub-id-type="pmc-issue-id">212836</issue-id>
+        <fpage>106</fpage>
+        <lpage>110</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>03</day>
+              <month>07</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>02</day>
+              <month>02</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>02</day>
+              <month>02</month>
+              <year>2013</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-05 22:06:41.443">
+              <day>05</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: 
+<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms386385.pdf"/>
+        <abstract>
+          <p id="P1">Medulloblastomas are the most common malignant brain tumors in children<sup><xref rid="R1" ref-type="bibr">1</xref></sup>. Identifying and understanding the genetic events that drive these tumors is critical for the development of more effective diagnostic, prognostic and therapeutic strategies. Recently, our group and others described distinct molecular subtypes of medulloblastoma based on transcriptional and copy number profiles<sup><xref rid="R2" ref-type="bibr">2</xref>–<xref rid="R5" ref-type="bibr">5</xref></sup>. Here, we utilized whole exome hybrid capture and deep sequencing to identify somatic mutations across the coding regions of 92 primary medulloblastoma/normal pairs. Overall, medulloblastomas exhibit low mutation rates consistent with other pediatric tumors, with a median of 0.35 non-silent mutations per megabase. We identified twelve genes mutated at statistically significant frequencies, including previously known mutated genes in medulloblastoma such as <italic toggle="yes">CTNNB1</italic>, <italic toggle="yes">PTCH1</italic>, <italic toggle="yes">MLL2</italic>, <italic toggle="yes">SMARCA4</italic> and <italic toggle="yes">TP53</italic>. Recurrent somatic mutations were identified in an RNA helicase gene, <italic toggle="yes">DDX3X,</italic> often concurrent with <italic toggle="yes">CTNNB1</italic> mutations, and in the nuclear co-repressor (N-CoR) complex genes <italic toggle="yes">GPS2</italic>, <italic toggle="yes">BCOR</italic>, and <italic toggle="yes">LDB1</italic>, novel findings in medulloblastoma. We show that mutant DDX3X potentiates transactivation of a TCF promoter and enhances cell viability in combination with mutant but not wild type beta-catenin. Together, our study reveals the alteration of Wnt, Hedgehog, histone methyltransferase and now N-CoR pathways across medulloblastomas and within specific subtypes of this disease, and nominates the RNA helicase DDX3X as a component of pathogenic beta-catenin signaling in medulloblastoma.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p id="P2">Medulloblastomas are aggressive tumors of primitive neuroectodermal origin. More than one third of patients diagnosed with medulloblastoma succumb to their disease within 5 years<sup><xref rid="R6" ref-type="bibr">6</xref></sup> and surviving patients often have significant long-term adverse effects from current therapies. Identifying the underlying genetic events responsible for medulloblastomas can help guide the development of more effective therapies and refine the selection of currently available chemotherapy and radiotherapy. Recent efforts profiling transcriptional and DNA copy number changes in medulloblastoma have provided insights into the biological processes involved in these tumors and have underscored the molecular heterogeneity of this disease<sup><xref rid="R2" ref-type="bibr">2</xref>–<xref rid="R4" ref-type="bibr">4</xref></sup>. Based on these data, four broad subgroups have been established, known according to a consensus nomenclature as SHH, WNT, Group 3 and Group 4<sup><xref rid="R5" ref-type="bibr">5</xref></sup>.</p>
+      <p id="P3">Recently, Parsons et al. reported the first genome-scale sequencing of protein coding regions in medulloblastoma<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. They identified alteration of genes encoding for histone modification proteins in 20% of cases, most notably <italic toggle="yes">MLL2</italic> and <italic toggle="yes">MLL3</italic><sup><xref rid="R7" ref-type="bibr">7</xref></sup>. This initial survey was limited by a small discovery sample size (22 patients), lack of subtype-specific analysis, and use of Sanger sequencing technology insensitive to variants present at low allelic fraction. Here we survey coding somatic mutations at deeper coverage in a larger cohort of 92 medulloblastoma/normal pairs and assess these mutations in the context of specific molecular subtypes (<xref rid="SD1" ref-type="supplementary-material">Supplemental Table 1</xref>).</p>
+      <p id="P4">In total, 1,908 mutations were detected within 1,671 of 18,863 genes sequenced to a median of 106X coverage (<xref rid="SD1" ref-type="supplementary-material">Supplemental Table 2</xref>). Confirmation of 20 candidate mutations in selected genes (<italic toggle="yes">CTNNB1, DDX3X, SMARCA4, TP53,</italic> and <italic toggle="yes">CTDNEP1</italic>) was performed by amplification of 48 exons using a microfluidic PCR device (Fluidigm) followed by single-molecule real-time sequencing (SMRT, Pacific Biosciences) (<xref rid="SD1" ref-type="supplementary-material">Supplemental text</xref>). Sequence data was unavailable for one <italic toggle="yes">DDX3X</italic> mutation due to poor PCR amplification from the sample. All remaining 19 mutations were confirmed by this orthogonal method (median 73 redundant subreads, range 3–287, <xref rid="SD1" ref-type="supplementary-material">Supplemental Figure 1</xref>).</p>
+      <p id="P5">A median of 16 somatic mutations (12 non-silent, 4 silent) per tumor was identified, corresponding to a mutation rate of 0.35 non-silent mutations per megabase of callable sequence, less than most adult solid tumors and consistent with results from Parsons et al<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. Six of the twelve most frequently mutated tumors were from the oldest patients (16–31 years at diagnosis), consistent with increased mutation frequency in adult versus childhood medulloblastomas (p=7.7×10<sup>−5</sup>, Wilcoxon rank-sum test, <xref rid="SD1" ref-type="supplementary-material">Supplemental Figure 2</xref>).</p>
+      <p id="P6">To identify genes mutated at statistically significant frequencies across our cohort, we utilized the MutSig algorithm<sup><xref rid="R8" ref-type="bibr">8</xref></sup> which takes into account gene size, sample-specific mutation rate, non-silent to silent mutation ratios, clustering within genes, and base conservation across species. In our cohort of 92 samples, we identified 12 significantly mutated genes (q &lt; 0.1, <xref rid="T1" ref-type="table">Table 1</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplemental Table 3</xref>). Strikingly, these genes were not mutated in c5 (Group 3) and c4 (Group 4) tumors with extensive somatic copy number alteration (<xref rid="F1" ref-type="fig">Figure 1</xref>), suggesting these subtypes are driven primarily by structural variation, rather than base mutation. Not unexpectedly, <italic toggle="yes">CTNNB1</italic> (beta-catenin) and <italic toggle="yes">PTCH1</italic> were the two most significantly mutated genes (see <xref rid="T1" ref-type="table">Table 1</xref>, <xref rid="F1" ref-type="fig">Figure 1</xref>). Point mutations of <italic toggle="yes">CTNNB1</italic> in combination with loss of chromosome 6 were found in all WNT subgroup tumors and were concurrent with several other recurrently mutated genes, namely <italic toggle="yes">CSNK2B</italic>, <italic toggle="yes">DDX3X, TP53</italic> and <italic toggle="yes">SMARCA4</italic>. Mutations involving <italic toggle="yes">PTCH1</italic> occurred exclusively in SHH subgroup tumors and mutations of genes associated with the Hedgehog (Hh) pathway were also restricted to this subgroup (<italic toggle="yes">p</italic> &lt; 0.0001, Fisher’s exact test). All but one of the tumors with <italic toggle="yes">PTCH1</italic> mutations had somatic loss of 9q, resulting in hemizygosity for the mutant allele. The remaining tumor had apparent copy neutral loss-of-heterozygosity of 9q22. Other somatic mutations of Hh pathway members include a splice site mutation in <italic toggle="yes">SUFU,</italic> an in-frame deletion in <italic toggle="yes">WNT6,</italic> and missense mutations in <italic toggle="yes">GLI2, SMO, PRKACA, WNT2,</italic> and <italic toggle="yes">WNT2B.</italic></p>
+      <p id="P7">Two patients with SHH subgroup tumors had germline variants in <italic toggle="yes">PTCH1</italic>, one with somatic loss of 9q resulting in hemizygosity for a loss-of-function germline allele (MD-085, c.3030delC, p.Asn1011Thrfs*38) and the other with a substitution previously reported in patients with holoprosencephaly (MD-286, p.T1052M<sup><xref rid="R9" ref-type="bibr">9</xref></sup>). Two additional cases (MD-097 and MD-335) had loss-of-function variants in <italic toggle="yes">SUFU</italic> (1 frameshift deletion and 1 nonsense) that began as heterozygotes in the germline and became hemizygous in the tumor, due to somatic loss of chromosome 10 in one case and copy neutral loss-of-heterozygosity in the other.</p>
+      <p id="P8"><italic toggle="yes">MLL2</italic> was also subject to recurrent inactivating mutations, consistent with findings by Parsons et al<sup><xref rid="R7" ref-type="bibr">7</xref></sup> and providing further evidence for dysregulated histone modification in medulloblastoma. Indeed, six of the twelve most significantly mutated genes are involved in histone modification and/or related chromatin remodeling complexes (<italic toggle="yes">MLL2, GPS2, KDM6A, BCOR, SMARCA4,</italic> and <italic toggle="yes">LDB1</italic>; see <xref rid="T1" ref-type="table">Table 1</xref>). As a gene set, histone methyltransferases (HMTs) were enriched for somatic mutation with 21 tumors having apparent, predominantly loss-of-function, HMT mutations (q = 5.8×10<sup>−9</sup>; <xref rid="F2" ref-type="fig">Figure 2</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplemental Table 4</xref>).</p>
+      <p id="P9">Subtype-specific MutSig analysis identified additional significant mutations of histone modifying genes, <italic toggle="yes">MLL3</italic> and <italic toggle="yes">HDAC2,</italic> in Group 4 tumors along with <italic toggle="yes">KDM6A</italic> mutations (q=0.039 and 0.066, see <xref rid="SD1" ref-type="supplementary-material">Supplemental Table 3</xref>). Mutations in KDM6A, interestingly, occurred exclusively in tumors with an i17q as the sole autosomal alteration (<italic toggle="yes">p</italic> = 0.0023, Fisher’s exact test) with the one female case with <italic toggle="yes">KDM6A</italic> mutation also having loss of a chromosome X. Notably, the two ‘i17q only’ tumors without <italic toggle="yes">KDM6A</italic> mutations had other histone modifying enzymes mutated, namely <italic toggle="yes">THUMPD3, ZMYM3</italic> and <italic toggle="yes">MLL3,</italic> perhaps suggesting a distinct biology for tumors with this karyotype.</p>
+      <p id="P10">Mutations in several genes encoding components of the nuclear co-repressor (N-CoR) complex were observed at a statistically significant frequency: <italic toggle="yes">BCOR</italic> in 3 tumors, <italic toggle="yes">GPS2</italic> in 3 tumors, and <italic toggle="yes">LDB1</italic> in 2 tumors. <italic toggle="yes">BCOR</italic> mutations have recently been reported at high frequency in retinoblastoma<sup><xref rid="R10" ref-type="bibr">10</xref></sup> and in ‘copy-neutral’ acute myelogenous leukemia<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. <italic toggle="yes">BCOR</italic> is located on the X-chromosome and two hemizygous frameshift mutants were found in tumors from males (allele fractions 0.90 and 0.92). A third nonsense mutation was also found in a male but at low allelic fraction (0.12), suggesting a subclonal event. Two of three <italic toggle="yes">BCOR</italic> mutations occurred in SHH subgroup tumors. <italic toggle="yes">LDB1</italic> missense and nonsense mutations were found in two additional SHH tumors, both appearing hemizygous due to loss of 10q and complete chromosome 10 loss, respectively (allele fractions 0.81 and 0.78). Both <italic toggle="yes">BCOR</italic> and <italic toggle="yes">LDB1</italic> promote assembly of the repressive N-CoR complex<sup><xref rid="R12" ref-type="bibr">12</xref></sup> and harbor apparent loss of function mutations. <italic toggle="yes">GPS2</italic>, which encodes a critical subunit of the N-CoR complex, a repressor of JNK/MAPK signaling through partnership with histone deacetylases<sup><xref rid="R2" ref-type="bibr">12</xref></sup>, was mutated in two Group 3 tumors. The <italic toggle="yes">GPS2</italic> mutations cluster within amino acids 53 – 90, the domain critical for heterodimerization with <italic toggle="yes">NCOR2</italic> (SMRT) and interacting with a TBL1-NTD tetramer to assemble the N-CoR repression complex<sup><xref rid="R12" ref-type="bibr">12</xref></sup>. Finally, an additional nonsense mutation in <italic toggle="yes">NCOR2</italic> was identified in a single SHH subgroup tumor, underscoring the central role of N-CoR dysregulation in medulloblastoma development and particularly within the SHH subgroup.</p>
+      <p id="P11">Several genes encoding subunits of the SWI/SNF-like chromatin-remodeling complex were also mutated in our cohort, including significant recurrent mutations of <italic toggle="yes">SMARCA4 (Brg/BAF190)</italic>, which encodes a DNA helicase with ATPase activity<sup><xref rid="R13" ref-type="bibr">13</xref></sup> and has been reported to be mutated in lung, ovarian, and pancreatic cancers<sup><xref rid="R14" ref-type="bibr">14</xref></sup> as well as medulloblastoma<sup><xref rid="R15" ref-type="bibr">15</xref></sup>. In our cohort, <italic toggle="yes">SMARCA4 (Brg/BAF190)</italic> mutations clustered in helicase domains and occurred in three Group 3 tumors (significant within the c1 subtype, q=0.019), and one WNT tumor. In addition, mutations were found in the alternative ATPase subunit <italic toggle="yes">SMARCD2 (Brm)</italic> (missense at a highly conserved residue) and two other members of the SWI/SNF complex, <italic toggle="yes">ARID1B (BAF250b)</italic> (2 bp frameshift deletion) and <italic toggle="yes">SMARCC2 (BAF170)</italic> (splice site). These were all apparent loss-of-function mutations and occurred in SHH tumors. Thus, it appears that disruption of this complex is frequent across medulloblastomas.</p>
+      <p id="P12">Novel and hemizygous mutations were found in <italic toggle="yes">CTDNEP1 (</italic>previously known as <italic toggle="yes">DULLARD),</italic> a phosphatase with roles in <italic toggle="yes">Xenopus</italic> neural development through regulation of BMP receptors<sup><xref rid="R16" ref-type="bibr">16</xref></sup>, and as a direct regulator of LIPIN, an integral component of the mTOR complex<sup><xref rid="R17" ref-type="bibr">17</xref></sup>. <italic toggle="yes">CTDNEP1</italic> mutations were found in two Group 3 tumors (significant within the subtype, q=0.0087), a 2 bp frameshift deletion and a substitution disruptive of a splice site. Both tumors have i17q chromosomes resulting in loss of the wild type allele at 17p13.</p>
+      <p id="P13">Mutations in <italic toggle="yes">DDX3X</italic>, an ATP-dependent RNA helicase with functions in transcription, splicing, RNA transport and translation<sup><xref rid="R18" ref-type="bibr">18</xref></sup>, were found in seven tumors, including half of the WNT pathway tumors (<italic toggle="yes">p</italic> = 0.005, Fisher’s exact test) and several SHH subgroup tumors. <italic toggle="yes">DDX3X</italic> mutations have recently been reported at low frequency in five other tumor types (Catalogue of Somatic Mutations in Cancer, COSMIC<sup><xref rid="R15" ref-type="bibr">15</xref></sup>) but the significance of these mutations for DDX3X function remains unclear. To understand the consequence of observed point mutations on DDX3X’s physical structure, we mapped the mutations onto the previously reported crystal structure of DDX3X<sup><xref rid="R19" ref-type="bibr">19</xref></sup> and its ortholog Vasa/DDX4<sup><xref rid="R20" ref-type="bibr">20</xref></sup> (<xref rid="F3" ref-type="fig">Figure 3a</xref>; <xref rid="SD1" ref-type="supplementary-material">Supplemental Figure 3</xref>; <xref rid="SD1" ref-type="supplementary-material">Supplemental table 5</xref>). The mutations appear to cluster in two structural domains, a helicase ATP-binding domain (residues 211–403) and a helicase C-terminal domain (residues 414–575). The location of these mutations suggests that they may alter DDX3X-RNA interaction (<xref rid="F3" ref-type="fig">Figure 3a</xref>; <xref rid="SD1" ref-type="supplementary-material">Supplementary table 5</xref>).</p>
+      <p id="P14">As half of the beta-catenin mutated tumors contained concurrent <italic toggle="yes">DDX3X</italic> mutations, we investigated whether DDX3X could enhance beta-catenin’s ability to transactivate a TCF4-luciferase reporter (TOPflash) and if DDX3X/beta-catenin co-expression had a measureable effect on cell viability/proliferation. In combination with wild-type beta-catenin, neither wild type nor mutant DDX3X alone significantly transactivated the TOPflash reporter. However, in combination with mutant beta-catenin (S33Y substitution), the majority of DDX3X point mutants in our cohort potentiated reporter activity (<xref rid="F3" ref-type="fig">Figure 3b</xref>; p &lt; 0.05). This potentiation was also apparent in cell viability assays in both HeLa (data not shown) and D425 medulloblastoma cell lines (<xref rid="F3" ref-type="fig">Figure 3c</xref>; p &lt; 0.05).</p>
+      <p id="P15">Given the apparent importance of <italic toggle="yes">DDX3X</italic> mutations in medulloblastoma, we searched the genes listed in the RNA Helicase Database<sup><xref rid="R30" ref-type="bibr">30</xref></sup> for low frequency mutations in medulloblastoma. We found five tumors with mutations within RNA helicase or RNA binding domains of <italic toggle="yes">DHX9</italic>, <italic toggle="yes">DHX32</italic>, <italic toggle="yes">DHX57</italic>, <italic toggle="yes">FANCM</italic> and <italic toggle="yes">SKIV2L</italic> (<xref rid="F2" ref-type="fig">Figure 2</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplemental Table 6</xref>). The missense mutations were at conserved residues and predicted to be deleterious by SIFT, AlignGVGD, and PolyPhen2. In addition, a frameshift insertion in <italic toggle="yes">SETX</italic> occurs upstream of, and likely disrupts, its RNA helicase domain. Overall, 15% of medulloblastomas appear to have some disruption of RNA helicase activity.</p>
+      <p id="P16">In summary, we report a next-generation sequencing analysis of medulloblastoma, the most common malignant brain tumor in children. Our results reveal mutations in several known pathways such as histone methylation (<italic toggle="yes">MLL2</italic> and others), sonic hedgehog (<italic toggle="yes">PTCH1</italic>, <italic toggle="yes">SUFU</italic>, and others) and Wnt (<italic toggle="yes">CTNNB1</italic> and others), and also mutations in novel genes including <italic toggle="yes">DDX3X</italic>, <italic toggle="yes">BCOR</italic>, <italic toggle="yes">LDB1</italic>, and <italic toggle="yes">GPS2</italic>. Our preliminary functional studies implicate DDX3X as a candidate component of pathogenic WNT/beta-catenin signaling. In a broader sense, <italic toggle="yes">DDX3X</italic> mutations have recently been reported in chronic lymphocytic leukemia<sup><xref rid="R21" ref-type="bibr">21</xref></sup> and head and neck cancers<sup><xref rid="R22" ref-type="bibr">22</xref></sup>, both of which have subsets of tumors with dysregulated WNT signaling. Studies investigating whether mutant DDX3X functions complicit with beta-catenin in these contexts should provide additional insights into this multifaceted molecule and open potential avenues for novel therapies. Finally, the delineation of nuclear receptor co-repressor complex molecules as altered in medulloblastoma provides new insight into the pathogenesis of this deadly childhood disease.</p>
+      <sec id="S1">
+        <title>Methods Summary</title>
+        <p id="P17">Informed consent was provided by families of medulloblastoma patients treated at Children’s Hospital Boston, The Hospital for Sick Children Toronto and institutions contributing to the Children’s Oncology Group/Cooperative Human Tissue Network, under approval and oversight by their respective Internal Review Boards. All tumors were obtained at the initial surgical resection and recurrent tumors were excluded from our analysis. Hematoxylin and eosin stained slides of tumor samples were pathologist reviewed to confirm the diagnosis of medulloblastoma, determine histological subtype when able, and assess tumor purity. DNA was isolated from tumor specimens and matched peripheral blood as previously described<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. Exome sequencing of DNA from 92 tumor/normal pairs was performed using in-solution hybrid-capture of 193,094 exons from 18,863 miRNA- and protein-coding genes, followed by sequencing of 76 bp paired-end reads using Illumina sequencing-by-synthesis technology<sup><xref rid="R23" ref-type="bibr">23</xref></sup>. Reads were aligned to human genome build GRCh37<sup><xref rid="R24" ref-type="bibr">24</xref></sup> using Burrows-Wheeler aligner<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. The ~33 Mb target region was sequenced to 106X mean coverage in each sample (range 73 – 234). Gene expression data and copy number profiles (derived from SNP microarrays or sequence data) were used to assign each tumor to a subgroup using published criteria<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. Our cohort consisted of 6 WNT(c6), 23 SHH(c3), 33 Group 3(12 c1, 21 c5), and 30 Group 4(12 c2, 18 c4) tumors (see <xref rid="SD1" ref-type="supplementary-material">Supplemental Table 1</xref> for case annotations). Mutations were detected using muTect, annotated using Oncotator<sup><xref rid="R26" ref-type="bibr">26</xref></sup>, and manually reviewed using the Integrated Genomics Viewer (IGV)<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. For validation, PCR on Access Array microfluidic chips (Fluidigm) was followed by single-molecule real-time sequencing (Pacific Biosciences) per manufacturer’s instructions. Subreads were extracted and assigned to samples using manufacturer’s and custom software, and aligned to the hg19 (GRCh37) build of the human reference genome sequence using BWA-SW<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. Candidate mutations were confirmed by manual review using IGV<sup><xref rid="R27" ref-type="bibr">27</xref></sup> (<xref rid="SD1" ref-type="supplementary-material">Supplemental Figure 1</xref>). See <xref rid="SD1" ref-type="supplementary-material">Supplementary Information</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/">http://www.broadinstitute.org/cancer/cga/</ext-link> for complete descriptions of materials and methods.</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="S2">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS386385-supplement-1.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" id="d37e1072" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS386385-supplement-2.zip" mimetype="application" mime-subtype="x-zip-compressed" orientation="portrait" id="d37e1076" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS386385-supplement-3.zip" mimetype="application" mime-subtype="x-zip-compressed" orientation="portrait" id="d37e1080" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD4" position="float" orientation="portrait">
+          <label>4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS386385-supplement-4.zip" mimetype="application" mime-subtype="x-zip-compressed" orientation="portrait" id="d37e1084" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD5" position="float" orientation="portrait">
+          <label>5</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS386385-supplement-5.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" id="d37e1088" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S3">
+        <p>This work was supported by NIH grants NHGRI U54HG003067 to ES Lander (ES, DA, SBG, GG, MM); R01CA109467(SLP, JPM); R01CA105607(HG, TMR, MM, SLP); P30 HD18655(SLP); R01 CA030002 and CA050661 (TMR); R01 NS046789(GRC); R01 CA154480(PT); R25NS070682(SS) and R01CA148699(MDT); St. Baldrick’s Foundation Scholar Award and the Beirne Faculty Scholar endowment and Center for Children’s Brain Tumors at Stanford University (YJC); German Cancer Aid (109252) and the BMBF ICGC-PedBrain project (NJ, DTWJ, PL, SMP); HHMI (GRC); the Pediatric Brain Tumor Foundation(MDT); Canadian Institutes of Health Research Fellowship (TJP); Restracomp funding from the Hospital for Sick Children (PAN); and the Mullarkey Research Fund (SLP). We thank Children’s Oncology Group and the Cooperative Human Tissue Network for providing tumor samples, the staff of the Broad Institute Biological Samples, Genome Sequencing and Genetic Analysis Platforms for their assistance in genomic processing of samples and generating the sequencing data used in this analysis, K. Keho and M. Brown at Pacific Biosciences for technical support with sample barcoding methods, and L. Gaffney of Broad Institute Communications for assistance with figure layout and design.</p>
+      </ack>
+      <fn-group>
+        <fn id="FN2">
+          <p>Sequence data used for this analysis are available in dbGaP under accession phs000504.v1.p1. Reprints and permissions information is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.nature.com/reprints">www.nature.com/reprints</ext-link>. MM is a paid consultant for and equity holder in Foundation Medicine, a genomics-based oncology diagnostics company, and is a paid consultant for Novartis. YJC has served on an advisory board for Novartis.</p>
+        </fn>
+        <fn id="FN3" fn-type="con">
+          <p>
+            <bold>Author contributions</bold>
+          </p>
+          <p>YJC, MM and SLP conceived the project. YJC, TJP, MM and SLP wrote the manuscript with input from coauthors. DW, TA, JPF, SS, NT, YJC, AK and FY performed functional characterization studies. DPK generated in silico structural modeling of DDX3X mutations. TJP conducted the bioinformatic analysis, supported by SLC, PS, KC, MSL, AM, AHR, AS, HG, PT, JPM, NJ, and DTWJ. DA, ES, SGB, and GG facilitated transfer, sequencing, and analysis of samples. PN and MDT provided tissues for analysis. YJC, JPF and VA processed tumor and blood samples for study. GC generated reagents used in functional characterization studies. PL, SMP, and TMR assisted with interpretation of results. JB, MOC, RE, NJL, JM, MR, CR and BS performed microfluidic PCR and single molecule real-time sequencing for validation analysis.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="book">
+            <source>CBTRUS Statistical Report: Primary Brain and Central Nervous System Tumors Diagnosed in the United States in 2004–2007</source>
+            <publisher-name>Central Brain Tumor Registry of the United States</publisher-name>
+            <publisher-loc>Hinsdale, IL</publisher-loc>
+            <year>2011</year>
+            <comment>at &lt;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.cbtrus.org">www.cbtrus.org</ext-link>&gt;</comment>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cho</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative Genomic Analysis of Medulloblastoma Identifies a Molecular Subgroup That Drives Poor Clinical Outcome</article-title>
+            <source>Journal of Clinical Oncology</source>
+            <volume>29</volume>
+            <fpage>1424</fpage>
+            <lpage>1430</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21098324</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2010.28.5148</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3082983</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kool</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrated Genomics Identifies Five Medulloblastoma Subtypes with Distinct Genetic Profiles, Pathway Signatures and Clinicopathological Features</article-title>
+            <source>PLoS ONE</source>
+            <volume>3</volume>
+            <fpage>e3088</fpage>
+            <year>2008</year>
+            <pub-id pub-id-type="pmid">18769486</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0003088</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2518524</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Remke</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Adult medulloblastoma comprises three major molecular variants</article-title>
+            <source>J Clin Oncol</source>
+            <volume>29</volume>
+            <fpage>2717</fpage>
+            <lpage>2723</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21632505</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2011.34.9373</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>MD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular subgroups of medulloblastoma: the current consensus</article-title>
+            <source>Acta Neuropathologica</source>
+            <year>2011</year>
+            <pub-id pub-id-type="doi">10.1007/s00401-011-0922-z</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3306779</pub-id>
+            <pub-id pub-id-type="pmid">22134537</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Smoll</surname>
+                <given-names>NR</given-names>
+              </name>
+            </person-group>
+            <article-title>Relative survival of childhood and adult medulloblastomas and primitive neuroectodermal tumors (PNETs)</article-title>
+            <source>Cancer</source>
+            <pub-id pub-id-type="doi">10.1002/cncr.26387</pub-id>
+            <pub-id pub-id-type="pmid">21837678</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Parsons</surname>
+                <given-names>DW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genetic Landscape of the Childhood Cancer Medulloblastoma</article-title>
+            <source>Science</source>
+            <volume>331</volume>
+            <fpage>435</fpage>
+            <lpage>439</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">21163964</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1198056</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3110744</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Getz</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comment on “The Consensus Coding Sequences of Human Breast and Colorectal Cancers</article-title>
+            <source>Science</source>
+            <volume>317</volume>
+            <fpage>1500</fpage>
+            <year>2007</year>
+            <pub-id pub-id-type="pmid">17872428</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1138764</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ming</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutations in PATCHED-1, the receptor for SONIC HEDGEHOG, are associated with holoprosencephaly</article-title>
+            <source>Human Genetics</source>
+            <volume>110</volume>
+            <fpage>297</fpage>
+            <lpage>301</lpage>
+            <year>2002</year>
+            <pub-id pub-id-type="pmid">11941477</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00439-002-0695-5</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A novel retinoblastoma therapy from genomic and epigenetic analyses</article-title>
+            <source>Nature</source>
+            <volume>481</volume>
+            <fpage>329</fpage>
+            <lpage>334</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">22237022</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10733</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3289956</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Grossmann</surname>
+                <given-names>V</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-exome sequencing identifies somatic mutations of BCOR in acute myeloid leukemia with normal karyotype</article-title>
+            <source>Blood</source>
+            <volume>118</volume>
+            <fpage>6153</fpage>
+            <lpage>6163</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">22012066</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2011-07-365320</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Oberoi</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Structural basis for the assembly of the SMRT/NCoR core transcriptional repression machinery</article-title>
+            <source>Nat Struct Mol Biol</source>
+            <volume>18</volume>
+            <fpage>177</fpage>
+            <lpage>184</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21240272</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nsmb.1983</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3232451</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Baek</surname>
+                <given-names>SH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Regulated subset of G1 growth-control genes in response to derepression by the Wnt pathway</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>100</volume>
+            <fpage>3245</fpage>
+            <lpage>3250</lpage>
+            <year>2003</year>
+            <pub-id pub-id-type="pmid">12629224</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0330217100</pub-id>
+            <pub-id pub-id-type="pmcid">PMC152277</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wilson</surname>
+                <given-names>BG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roberts</surname>
+                <given-names>CWM</given-names>
+              </name>
+            </person-group>
+            <article-title>SWI/SNF nucleosome remodellers and cancer</article-title>
+            <source>Nat Rev Cancer</source>
+            <volume>11</volume>
+            <fpage>481</fpage>
+            <lpage>492</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21654818</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc3068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Futreal</surname>
+                <given-names>PA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A census of human cancer genes</article-title>
+            <source>Nat Rev Cancer</source>
+            <volume>4</volume>
+            <fpage>177</fpage>
+            <lpage>183</lpage>
+            <year>2004</year>
+            <pub-id pub-id-type="pmid">14993899</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc1299</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2665285</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Satow</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kurisaki</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chan</surname>
+                <given-names>T-chuan</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hamazaki</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Asashima</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Dullard Promotes Degradation and Dephosphorylation of BMP Receptors and Is Required for Neural Induction</article-title>
+            <source>Developmental Cell</source>
+            <volume>11</volume>
+            <fpage>763</fpage>
+            <lpage>774</lpage>
+            <year>2006</year>
+            <pub-id pub-id-type="pmid">17141153</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.devcel.2006.10.001</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Peterson</surname>
+                <given-names>TR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>mTOR Complex 1 Regulates Lipin 1 Localization to Control the SREBP Pathway</article-title>
+            <source>Cell</source>
+            <volume>146</volume>
+            <fpage>408</fpage>
+            <lpage>420</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21816276</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2011.06.034</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3336367</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garbelli</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Beermann</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Di Cicco</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dietrich</surname>
+                <given-names>U</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Maga</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>A Motif Unique to the Human Dead-Box Protein DDX3 Is Important for Nucleic Acid Binding, ATP Hydrolysis, RNA/DNA Unwinding and HIV-1 Replication</article-title>
+            <source>PLoS ONE</source>
+            <volume>6</volume>
+            <fpage>e19810</fpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21589879</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0019810</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3093405</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Högbom</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Crystal structure of conserved domains 1 and 2 of the human DEAD-box helicase DDX3X in complex with the mononucleotide AMP</article-title>
+            <source>J Mol Biol</source>
+            <volume>372</volume>
+            <fpage>150</fpage>
+            <lpage>159</lpage>
+            <year>2007</year>
+            <pub-id pub-id-type="pmid">17631897</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmb.2007.06.050</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sengoku</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nureki</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nakamura</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kobayashi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yokoyama</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Structural basis for RNA unwinding by the DEAD-box protein Drosophila Vasa</article-title>
+            <source>Cell</source>
+            <volume>125</volume>
+            <fpage>287</fpage>
+            <lpage>300</lpage>
+            <year>2006</year>
+            <pub-id pub-id-type="pmid">16630817</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2006.01.054</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SF3B1 and Other Novel Cancer Genes in Chronic Lymphocytic Leukemia</article-title>
+            <source>New England Journal of Medicine</source>
+            <volume>365</volume>
+            <fpage>2497</fpage>
+            <lpage>2506</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">22150006</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1109016</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3685413</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stransky</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Mutational Landscape of Head and Neck Squamous Cell Carcinoma</article-title>
+            <source>Science</source>
+            <volume>333</volume>
+            <fpage>1157</fpage>
+            <lpage>1160</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21798893</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1208130</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3415217</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bentley</surname>
+                <given-names>DR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Accurate whole human genome sequencing using reversible terminator chemistry</article-title>
+            <source>Nature</source>
+            <volume>456</volume>
+            <fpage>53</fpage>
+            <lpage>59</lpage>
+            <year>2008</year>
+            <pub-id pub-id-type="pmid">18987734</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07517</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2581791</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="web">
+            <source>Genome Reference Consortium</source>
+            <comment>at &lt;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov.ezp-prod1.hul.harvard.edu/projects/genome/assembly/grc/index.shtml">http://www.ncbi.nlm.nih.gov.ezp-prod1.hul.harvard.edu/projects/genome/assembly/grc/index.shtml</ext-link>&gt;</comment>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>1760</lpage>
+            <year>2009</year>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="web">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ramos</surname>
+                <given-names>Alex</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <source>Oncotator</source>
+            <comment>at &lt;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/oncotator/">http://www.broadinstitute.org/oncotator/</ext-link>&gt;</comment>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>JT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative genomics viewer</article-title>
+            <source>Nat Biotech</source>
+            <volume>29</volume>
+            <fpage>24</fpage>
+            <lpage>26</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.1754</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3346182</pub-id>
+            <pub-id pub-id-type="pmid">21221095</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ren</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>DOG 1.0: illustrator of protein domain structures</article-title>
+            <source>Cell Res</source>
+            <volume>19</volume>
+            <fpage>271</fpage>
+            <lpage>273</lpage>
+            <year>2009</year>
+            <pub-id pub-id-type="pmid">19153597</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/cr.2009.6</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pettersen</surname>
+                <given-names>EF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>UCSF Chimera--a visualization system for exploratory research and analysis</article-title>
+            <source>J Comput Chem</source>
+            <volume>25</volume>
+            <fpage>1605</fpage>
+            <lpage>1612</lpage>
+            <year>2004</year>
+            <pub-id pub-id-type="pmid">15264254</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jcc.20084</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jankowsky</surname>
+                <given-names>Anja</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Guenther</surname>
+                <given-names>Ulf-Peter</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jankowsky</surname>
+                <given-names>Eckhard</given-names>
+              </name>
+            </person-group>
+            <year>2011</year>
+            <article-title>The RNA helicase database</article-title>
+            <source>Nucl Acids Res</source>
+            <volume>39</volume>
+            <issue>suppl 1</issue>
+            <fpage>D338</fpage>
+            <lpage>D341</lpage>
+            <comment>first published online November 25, 2010</comment>
+            <pub-id pub-id-type="doi">10.1093/nar/gkq1002</pub-id>
+            <pub-id pub-id-type="pmid">21112871</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3013637</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title>Demographic characteristics, molecular subtypes and selected copy number alterations and somatic mutations across 92 medulloblastoma cases</title>
+          <p>Data tracks describing 92 medulloblastoma cases. <bold>Identifier:</bold> Unique name used to denote each case. Identifiers also link samples to those analyzed by Cho et al. <bold>Sex:</bold> males in blue, females in pink. <bold>Age:</bold> years of age at diagnosis binned as infants, children, or adults. <bold>Histology:</bold> pathology review of primary tissue specimen. <bold>Subtypes:</bold> based on copy number profiles derived from sequence or microarray data. Consensus subtypes from Taylor et al. Cho et al subtypes as published. <bold>Copy number alterations:</bold> Selected copy number alterations used to assign tumors to subtypes. Losses are blue. Gains are red. <bold>Somatic mutations:</bold> Gene names (HUGO symbols) grouped by functional category. MutSig gene names are in bold. Missense mutations are black, nonsense/splice site/indel mutations are orange, silent mutations are purple, and germline variants are green.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms386385f1.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <title>Location of mutations in histone methyltransferases, RNA helicases, and N-CoR complex-associated genes</title>
+          <p>Location of somatic mutations on linear protein domain models of genes from sets frequently mutated in medulloblastoma. All domain annotations are from UniProt and InterPro annotations. Diagrams were constructed using Domain Graph (DOG)<sup><xref rid="R28" ref-type="bibr">28</xref></sup>, version 2.0. <bold>a.</bold> Histone methyltransferase domains: red = SET, green = coiled-coil, blue = zinc-finger, and cyan=other. <bold>b.</bold> N-CoR complex-associated domains: purple = anti-parallel coiled-coil domains required for GPS2/NCOR2 (SMRT) interaction<sup><xref rid="R12" ref-type="bibr">12</xref></sup>, yellow = other interaction domains as labeled: SANT domains binds DNA; CoRNR domains binds nuclear receptors; ANK repeats mediate a diversity of protein-protein interactions, and LIM-binding domains bind a common protein structural motif. <bold>c.</bold> RNA helicase domains: cyan = helicase and helicase-associated (InterPro), red = RNA-binding and RNA polymerase sigma factor (InterPro), blue = ATP binding site, and green = DEAD or DExH box motif. See <xref rid="SD1" ref-type="supplementary-material">Supplemental Table 1</xref> for UniProt protein model identifiers.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms386385f2.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <title>Functional consequence of DDX3X point mutations</title>
+          <p><bold>a,</bold> Three-dimensional model of the two recA-like domains of human DDX3X in complex with single-stranded RNA and a Mg-ATP analog. Displayed are the residues mutated in the N-terminal recA-like domain (R276K, D354H, R376C) and C-terminal recA-like domain (D506Y, R528H, R534H, P568L). Coloring: DDX3X residues 166–405 (light blue); DDX3X residues 406–582 (dark blue); single-stranded RNA (cyan); Mg-ATP analog (magenta and green). Molecular graphics images were produced using the University of San Francisco Chimera package<sup><xref rid="R29" ref-type="bibr">29</xref></sup> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cgl.ucsf.edu/chimera">http://www.cgl.ucsf.edu/chimera</ext-link>). <bold>b</bold>, Mutant DDX3X potentiates mutant beta-catenin transactivation of TOPflash promoter. Represented is relative luciferase activity in 293T cells co-transfected with TOPflash reporter, FOPflash control, and either wild type or mutant DDX3Xs in combination with wild type or mutant beta-catenin. One-dimensional model of DDX3X displayed about bar graphs to illustrates the position of the mutations. <bold>c</bold>, Cell viability assays of medulloblastoma D425 cells stably transduced with either wild type or mutant DDX3X lentivirus in combination with either wild type or mutant beta-catenin lentivirus.</p>
+          <p>For b and c, error bars depict the standard deviation of the mean from 5 replicate experiments performed for each condition. Student’s t-tests were performed to evaluate significance of differences in TOPflash intensity or cell proliferation value distributions as follows: increases with DDX3X alone vs. empty vector, increases with wtBetaCat vs. DDX3X alone, increases with mutBetaCat vs. DDX3X alone, and increases with mutBetaCat vs. wtBetaCat.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms386385f3.jpg"/>
+      </fig>
+      <table-wrap id="T1" position="float" orientation="landscape">
+        <label>Table 1</label>
+        <caption>
+          <p>Genes mutated at a statistically significant frequencyin 92 medulloblastomas</p>
+        </caption>
+        <table frame="box" rules="groups">
+          <thead>
+            <tr>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Gene</th>
+              <th valign="middle" align="left" rowspan="1" colspan="1">Description</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Mutations</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Patients</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Unique sites</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Silent</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Missense</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Indel or null</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">Double null</th>
+              <th valign="middle" align="center" rowspan="1" colspan="1">q</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">CTNNB1</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">beta-catenin</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">&lt;1.8×10<sup>−11</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">PTCH1</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">patched homolog 1(Drosophila)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4.0×10<sup>−9</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">MLL2</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">myeloid/lymphoid or mixed-lineage leukemia 2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">10</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">8</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">10</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4.0×10<sup>−9</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">DDX3X</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">DEAD box polypeptide 3, X-linked</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2.3×10<sup>−8</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">GPS2</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">G protein pathway suppressor 2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1.2×10<sup>−4</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">TP53</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">tumor protein p53</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0.039</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">KDM6A</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">UTX, lysine (K)-specific demethylase 6A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0.042</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">BCOR</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">BCL6 co-repressor</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0.046</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">SMARCA4</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">ATP-dependent helicase</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0.046</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">LDB1</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">LIM domain binding 1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0.047</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">CTDNEP1(DULLARD)</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">CTD nuclear envelope phosphatase 1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0.047</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">
+                <italic toggle="yes">CSNK2B</italic>
+              </td>
+              <td align="left" valign="top" rowspan="1" colspan="1">casein kinase 2, beta polypeptide</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0.071</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn id="TFN1">
+            <p><bold>null</bold> = nonsense, frameshift, or splice-site mutations; <bold>Double null</bold> = null mutations co-occurring in a single tumor; <bold>q</bold> = q-value, False Discovery Rate (Benjamini-Hochberg procedure). See <xref rid="SD1" ref-type="supplementary-material">Supplemental Table 3</xref> for further statistics and subtype analysis.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </floats-group>
+  </article>
+</pmc-articleset>

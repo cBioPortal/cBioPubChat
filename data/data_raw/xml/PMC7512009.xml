@@ -1,0 +1,640 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC7512009</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC7512009.1</article-id>
+        <article-id pub-id-type="pmcaid">7512009</article-id>
+        <article-id pub-id-type="pmcaiid">7512009</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS1627063</article-id>
+        <article-id pub-id-type="pmid">24121792</article-id>
+        <article-id pub-id-type="doi">10.1038/ng.2798</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS1627063</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA1627063</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Whole-genome and whole-exome sequencing of bladder cancer identifies frequent alterations in genes involved in sister chromatid cohesion and segregation</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Guo</surname>
+              <given-names initials="G">Guangwu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sun</surname>
+              <given-names initials="X">Xiaojuan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names initials="C">Chao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names initials="S">Song</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Huang</surname>
+              <given-names initials="P">Peide</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="Z">Zesong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dean</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Huang</surname>
+              <given-names initials="Y">Yi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jia</surname>
+              <given-names initials="W">Wenlong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhou</surname>
+              <given-names initials="Q">Quan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tang</surname>
+              <given-names initials="A">Aifa</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names initials="Z">Zuoquan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="X">Xianxin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Song</surname>
+              <given-names initials="P">Pengfei</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhao</surname>
+              <given-names initials="X">Xiaokun</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ye</surname>
+              <given-names initials="R">Rui</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="S">Shiqiang</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lin</surname>
+              <given-names initials="Z">Zhao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Qi</surname>
+              <given-names initials="M">Mingfu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wan</surname>
+              <given-names initials="S">Shengqing</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Xie</surname>
+              <given-names initials="L">Liangfu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fan</surname>
+              <given-names initials="F">Fan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nickerson</surname>
+              <given-names initials="ML">Michael L</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zou</surname>
+              <given-names initials="X">Xiangjun</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hu</surname>
+              <given-names initials="X">Xueda</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Xing</surname>
+              <given-names initials="L">Li</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lv</surname>
+              <given-names initials="Z">Zhaojie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mei</surname>
+              <given-names initials="H">Hongbin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="S">Shengjie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liang</surname>
+              <given-names initials="C">Chaozhao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="Z">Zhibo</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lu</surname>
+              <given-names initials="J">Jingxiao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yu</surname>
+              <given-names initials="Y">Yuan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="C">Chunxiao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="L">Lin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fang</surname>
+              <given-names initials="X">Xiaodong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jiang</surname>
+              <given-names initials="Z">Zhimao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names initials="J">Jie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="C">Cailing</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhao</surname>
+              <given-names initials="X">Xin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names initials="J">Jing</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="F">Fang</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lai</surname>
+              <given-names initials="Y">Yongqi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lin</surname>
+              <given-names initials="Z">Zheguang</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhou</surname>
+              <given-names initials="F">Fangjian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names initials="H">Hao</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chan</surname>
+              <given-names initials="HC">Hsiao Chang</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tsang</surname>
+              <given-names initials="S">Shirley</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Theodorescu</surname>
+              <given-names initials="D">Dan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="Y">Yingrui</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="X">Xiuqing</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="J">Jian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names initials="H">Huanming</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gui</surname>
+              <given-names initials="Y">Yaoting</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="J">Jun</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A16">16</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cai</surname>
+              <given-names initials="Z">Zhiming</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Department of Urological Surgery, Shenzhen Second People’s Hospital, The First Affiliated Hospital of Shenzhen University, Shenzhen, China.</aff>
+        <aff id="A2"><label>2</label>BGI-Shenzhen, Shenzhen, China.</aff>
+        <aff id="A3"><label>3</label>National-Regional Key Technology Engineering Laboratory for Clinical Application of Cancer Genomics, Shenzhen Second People’s Hospital, The First Affiliated Hospital of Shenzhen University, Shenzhen, China.</aff>
+        <aff id="A4"><label>4</label>Shenzhen Engineering Laboratory of Tumor Clinical Immune Gene Therapy, Shenzhen Second People’s Hospital, The First Affiliated Hospital of Shenzhen University, Shenzhen, China.</aff>
+        <aff id="A5"><label>5</label>Shenzhen Key Laboratory of Genitourinary Tumor, Shenzhen Second People’s Hospital, The First Affiliated Hospital of Shenzhen University, Shenzhen, China.</aff>
+        <aff id="A6"><label>6</label>Institute of Immunology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China.</aff>
+        <aff id="A7"><label>7</label>Department of Urology, Sun Yat-Sen University Cancer Center, Guangzhou, China.</aff>
+        <aff id="A8"><label>8</label>Cancer and Inflammation Program, National Cancer Institute, US National Institutes of Health (NIH), Frederick, Maryland, USA.</aff>
+        <aff id="A9"><label>9</label>Guangdong and Shenzhen Key Laboratory of Male Reproductive Medicine and Genetics, Institute of Urology, Peking University Shenzhen Hospital, Shenzhen PKU-HKUST Medical Center, Shenzhen, China.</aff>
+        <aff id="A10"><label>10</label>Department of Urology, The Second Xiangya Hospital of Central-Southern University, Changsha, China.</aff>
+        <aff id="A11"><label>11</label>Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.</aff>
+        <aff id="A12"><label>12</label>Department of Urology, Zhujiang Hospital of Southern Medical University, Guangzhou, China.</aff>
+        <aff id="A13"><label>13</label>Epithelial Cell Biology Research Center, School of Biomedical Sciences, Faculty of Medicine, The Chinese University of Hong Kong, Shatin, Hong Kong, China.</aff>
+        <aff id="A14"><label>14</label>BioMatrix, Rockville, Maryland, USA.</aff>
+        <aff id="A15"><label>15</label>Department of Surgery, University of Colorado Comprehensive Cancer Center, Aurora, Colorado, USA.</aff>
+        <aff id="A16"><label>16</label>Department of Biology, U niversity of Copenhagen, Copenhagen, Denmark.</aff>
+        <aff id="A17"><label>17</label>The Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark.</aff>
+        <aff id="A18"><label>18</label>These authors contributed equally to this work.</aff>
+        <author-notes>
+          <corresp id="CR1">Correspondence should be addressed to Z.C. (<email>caizhiming2000@163.com</email>), Jun Wang (<email>wangj@genomics.org.cn</email>) or Y.G. (<email>guiyaoting@hotmail.com</email>).</corresp>
+          <fn fn-type="con" id="FN1">
+            <p id="P1">AUTHOR CONTRIBUTIONS</p>
+            <p id="P2">Jun Wang, Z.C., Jian Wang, H.Y., Y. Li, X. Zhang and Y.G. managed the project. X.S., S. Wu, Z. Li, A.T., X.L., Xiaokun Zhao, S.Z., M.Q., L. Xie, X. Zou, L. Xing, Z. Lv, H.M., C. Liang, J.L., C. Liu, C. Li, J.C., Y. Lai, Zheguang Lin and F. Zhou prepared the samples. P.H., P.S., F.F., Y.Y. and Xin Zhao performed the sequencing. G.G., C.C., Y.H., W.J., Q.Z., Z.Y., R.Y., Zhao Lin, S. Wan, M.L.N., M.D., S.G., Z.G., L.L., X.F., J.Y., F. Zhang, S.T. and D.T. performed the bioinformatic analysis. X.S., P.H., Z. Li, P.S., F.F., X.H., Z.J., H.C. and H.C.C. performed the validation of somatic mutations, CNAs and gene fusion events. G.G. wrote the manuscript. G.G., X.S., C.C., S. Wu, P.H. and Z. Li revised the manuscript.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>13</day>
+          <month>10</month>
+          <year>2013</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>12</month>
+          <year>2013</year>
+        </pub-date>
+        <volume>45</volume>
+        <issue>12</issue>
+        <issue-id pub-id-type="pmc-issue-id">365691</issue-id>
+        <fpage>1459</fpage>
+        <lpage>1463</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>16</day>
+              <month>09</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>24</day>
+              <month>09</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>24</day>
+              <month>09</month>
+              <year>2020</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-16 19:25:15.590">
+              <day>16</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license license-type="open-access">
+            <license-p>Reprints and permissions information is available online at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.nature.com/reprints/index.html">http://www.nature.com/reprints/index.html</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms-1627063.pdf"/>
+        <abstract id="ABS1">
+          <p id="P3">Bladder cancer is one of the most common cancers worldwide, with transitional cell carcinoma (TCC) being the predominant form. Here we report a genomic analysis of TCC by both whole-genome and whole-exome sequencing of 99 individuals with TCC. Beyond confirming recurrent mutations in genes previously identified as being mutated in TCC, we identified additional altered genes and pathways that were implicated in TCC. Notably, we discovered frequent alterations in <italic toggle="yes">STAG2</italic> and <italic toggle="yes">ESPL1</italic>, two genes involved in the sister chromatid cohesion and segregation (SCCS) process. Furthermore, we also detected a recurrent fusion involving <italic toggle="yes">FGFR3</italic> and <italic toggle="yes">TACC3,</italic> another component of SCCS, by transcriptome sequencing of 42 DNA-sequenced tumors. Overall, 32 of the 99 tumors (32%) harbored genetic alterations in the SCCS process. Our analysis provides evidence that genetic alterations affecting the SCCS process may be involved in bladder tumorigenesis and identifies a new therapeutic possibility for bladder cancer.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,2145 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4884143</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4884143.1</article-id>
+        <article-id pub-id-type="pmcaid">4884143</article-id>
+        <article-id pub-id-type="pmcaiid">4884143</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS777795</article-id>
+        <article-id pub-id-type="pmid">27158780</article-id>
+        <article-id pub-id-type="doi">10.1038/ng.3564</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS777795</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA777795</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Campbell</surname>
+              <given-names initials="JD">Joshua D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Alexandrov</surname>
+              <given-names initials="A">Anton</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="J">Jaegil</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wala</surname>
+              <given-names initials="J">Jeremiah</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="AH">Alice H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pedamallu</surname>
+              <given-names initials="CS">Chandra Sekhar</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shukla</surname>
+              <given-names initials="SA">Sachet A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Guo</surname>
+              <given-names initials="G">Guangwu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brooks</surname>
+              <given-names initials="AN">Angela N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Murray</surname>
+              <given-names initials="BA">Bradley A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Imielinski</surname>
+              <given-names initials="M">Marcin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hu</surname>
+              <given-names initials="X">Xin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ling</surname>
+              <given-names initials="S">Shiyun</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Akbani</surname>
+              <given-names initials="R">Rehan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rosenberg</surname>
+              <given-names initials="M">Mara</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cibulskis</surname>
+              <given-names initials="C">Carrie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ramachandran</surname>
+              <given-names initials="A">Aruna</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Collisson</surname>
+              <given-names initials="EA">Eric A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kwiatkowski</surname>
+              <given-names initials="DJ">David J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lawrence</surname>
+              <given-names initials="MS">Michael S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weinstein</surname>
+              <given-names initials="JN">John N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Verhaak</surname>
+              <given-names initials="RGW">Roel G. W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names initials="CJ">Catherine J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hammerman</surname>
+              <given-names initials="PS">Peter S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cherniack</surname>
+              <given-names initials="AD">Andrew D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <collab>Cancer Genome Atlas Research Network<xref ref-type="author-notes" rid="FN1">10</xref></collab>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Artyomov</surname>
+              <given-names initials="MN">Maxim N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schreiber</surname>
+              <given-names initials="R">Robert</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Govindan</surname>
+              <given-names initials="R">Ramaswamy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyerson</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A11">12</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Cancer Program, The Eli and Edythe L. Broad Institute of Harvard and MIT, Cambridge, Massachusetts, USA</aff>
+        <aff id="A2"><label>2</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, USA</aff>
+        <aff id="A3"><label>3</label>Department of Pathology and Immunology, Washington University, St. Louis, Missouri, USA</aff>
+        <aff id="A4"><label>4</label>Computer Technologies Laboratory, ITMO University, St. Petersburg, Russia</aff>
+        <aff id="A5"><label>5</label>Molecular Pathology Unit, Massachusetts General Hospital, Charlestown, Massachusetts, USA</aff>
+        <aff id="A6"><label>6</label>Department of Bioinformatics and Computational Biology, University of Texas MD Anderson Cancer Center, Houston, TX, USA</aff>
+        <aff id="A7"><label>7</label>Department of Medicine, University of California San Francisco, San Francisco, California, USA</aff>
+        <aff id="A8"><label>8</label>Department of Medicine, Brigham and Women’s Hospital, Boston, Massachusetts, USA</aff>
+        <aff id="A9"><label>9</label>Department of Pathology, Massachusetts General Hospital, Boston, Massachusetts, USA</aff>
+        <aff id="A10"><label>11</label>Department of Medicine, Washington University School of Medicine, St. Louis, Missouri, USA</aff>
+        <aff id="A11"><label>12</label>Department of Pathology, Harvard Medical School, Boston, Massachusetts, USA</aff>
+        <author-notes>
+          <corresp id="cor1">Corresponding authors: Matthew Meyerson (<email>Matthew_Meyerson@dfci.harvard.edu</email>), Ramaswamy Govindan (<email>rgovinda@dom.wustl.edu</email>)</corresp>
+          <fn id="FN1">
+            <label>10</label>
+            <p id="P1">A full list of members appears under <xref ref-type="app" rid="APP1">Collaborators</xref> and in Supplementary Table 3.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>09</day>
+          <month>5</month>
+          <year>2016</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>6</month>
+          <year>2016</year>
+        </pub-date>
+        <volume>48</volume>
+        <issue>6</issue>
+        <issue-id pub-id-type="pmc-issue-id">270089</issue-id>
+        <fpage>607</fpage>
+        <lpage>616</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>28</day>
+              <month>04</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>09</day>
+              <month>11</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>09</day>
+              <month>11</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2025-01-08 11:25:35.807">
+              <day>08</day>
+              <month>01</month>
+              <year>2025</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms777795.pdf"/>
+        <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="commentary" xml:lang="en" xlink:title="editorial" journal-id="Transl Lung Cancer Res" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC5835629">
+          <article-title>Next-generation molecular therapy in lung cancer</article-title>
+          <volume>7</volume>
+          <issue>Suppl 1</issue>
+          <date>
+            <month>2</month>
+            <year>2018</year>
+          </date>
+          <fpage>S31</fpage>
+          <lpage>S34</lpage>
+          <source>Translational Lung Cancer Research</source>
+          <pub-id pub-id-type="pmcid">PMC5835629</pub-id>
+          <pub-id pub-id-type="pmid">29531901</pub-id>
+        </related-article>
+        <abstract>
+          <p id="P2">To compare lung adenocarcinoma (ADC) and lung squamous cell carcinoma (SqCC) and to identify new drivers of lung carcinogenesis, we examined exome sequences and copy number profiles of 660 lung ADC and 484 lung SqCC tumor/normal pairs. Recurrent alterations in lung SqCCs were more similar to other squamous carcinomas than to lung ADCs. Novel significantly mutated genes included <italic toggle="yes">PPP3CA, DOT1L</italic>, and <italic toggle="yes">FTSJD1</italic> in lung ADC, <italic toggle="yes">RASA1</italic> in lung SqCC, and <italic toggle="yes">KLF5, EP300</italic>, and <italic toggle="yes">CREBBP</italic> in both tumor types. Novel amplification peaks encompassed <italic toggle="yes">MIR21</italic> in lung ADC, <italic toggle="yes">MIR205</italic> in lung SqCC, and <italic toggle="yes">MAPK1</italic> in both. Lung ADCs lacking receptor tyrosine kinase/Ras/Raf alterations revealed mutations in <italic toggle="yes">SOS1, VAV1, RASA1</italic>, and <italic toggle="yes">ARHGAP35</italic>. Regarding neoantigens, 47% of the lung ADC and 53% of the lung SqCC tumors had at least 5 predicted neoepitopes. While targeted therapies for lung ADC and lung SqCC are largely distinct, immunotherapies may aid in treatment for both subtypes.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec sec-type="intro" id="S1">
+        <title>INTRODUCTION</title>
+        <p id="P3">Lung cancer remains the leading cause of death from cancer around the world<sup><xref rid="R1" ref-type="bibr">1</xref></sup>. An estimated 221,000 new cases and 158,000 deaths from lung cancer occurred in the United States alone in 2015<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. The two major histological classes are non-small cell lung cancers (NSCLC) and small-cell lung cancers (SCLC). NSCLCs are mostly comprised of lung adenocarcinomas (ADC) and lung squamous cell carcinomas (SqCC). These two NSCLC subtypes have both unique and shared clinical and histopathological characteristics. For example, while smoking is the major risk factor for both subtypes, approximately 10–15% of lung ADCs are observed in never smokers<sup><xref rid="R3" ref-type="bibr">3</xref></sup>. Molecularly targeted therapies directed against receptor tyrosine kinases (RTKs) lead to dramatic responses in subsets of patients with lung ADCs harboring activating genomic alterations in the corresponding kinase genes, including <italic toggle="yes">EGFR, ALK</italic>, and <italic toggle="yes">ROS1</italic><sup><xref rid="R4" ref-type="bibr">4</xref></sup>. Other targeted therapies under current investigation are directed against activating alterations in the <italic toggle="yes">MET, RET, NTRK1, NTRK2, ERBB2</italic>, and <italic toggle="yes">BRAF</italic> kinases<sup><xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R5" ref-type="bibr">5</xref></sup>.</p>
+        <p id="P4">Recent efforts have focused on comprehensively characterizing the changes found within the genome, epigenome, transcriptome, and proteome of lung ADCs and SqCCs in order to discover novel cancer driver genes that may be clinically actionable<sup><xref rid="R6" ref-type="bibr">6</xref>–<xref rid="R8" ref-type="bibr">8</xref></sup>. Identifying novel cancer genes can be challenging due to the large number of passenger mutations that can accumulate from prolonged exposure to tobacco carcinogens and from inherent mutagenic processes such as those caused by the aberrant activity of APOBEC cytidine deaminases<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. Profiling larger numbers of samples within a tumor type and combining samples across tumor types can help overcome this problem, by providing the additional statistical power necessary to distinguish important genes mutated at a lower frequency from other genes with passenger mutations<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. In addition, a comprehensive comparison of recurrently altered genes found in lung ADC and SqCC has not been performed. Such analyses may yield insights into the similarities and differences in carcinogenesis between the diseases and elucidate the degree to which common or distinct targeted and immunologic therapeutic strategies can be used to treat each cancer type.</p>
+      </sec>
+      <sec sec-type="results" id="S2">
+        <title>RESULTS</title>
+        <sec id="S3">
+          <title>Comparison of somatically altered genes</title>
+          <p id="P5">In order to compare the somatic profiles of lung ADC and lung SqCC and to identify novel genetic alterations, we studied 660 lung adenocarcinoma/normal paired exome sequences (including 274 previously unpublished cases, 227 previously described from The Cancer Genome Atlas (TCGA)<sup><xref rid="R6" ref-type="bibr">6</xref></sup>, and 159 cases from the Imielinski et al<sup><xref rid="R8" ref-type="bibr">8</xref></sup> cohort) and 484 lung SqCC/normal paired exome sequences (including 308 previously unpublished cases and 176 previously described from TCGA<sup><xref rid="R7" ref-type="bibr">7</xref></sup>; Supplementary Tables 1–4). Similarly to previous studies<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup>, we observed a median somatic mutation rate of 8.7/Mb and 9.7/Mb for lung ADCs and SqCCs, respectively. After excluding genes with lower median expression (6.16 log<sub>2</sub> FPKM for ADCs and 6.27 log<sub>2</sub> FPKM for SqCCs; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1</xref>; Online Methods), we identified 38 genes as significantly mutated in ADC and 20 genes significantly mutated in SqCC using MutSig2CV<sup><xref rid="R10" ref-type="bibr">10</xref></sup> (<italic toggle="yes">q</italic>-value &lt; 0.1; Supplementary Table 5,6). Only 6 genes, <italic toggle="yes">TP53, RB1, ARID1A, CDKN2A, PIK3CA</italic>, and <italic toggle="yes">NF1</italic>, were significantly mutated in both tumor types and of these, the frequency of <italic toggle="yes">TP53, CDKN2A</italic>, and <italic toggle="yes">PIK3CA</italic> mutation was significantly higher in SqCC tumors (p &lt; 0.01; Fisher’s exact test; <xref ref-type="fig" rid="F1">Figure 1a</xref>). Likewise, only 11 out of 42 focal amplification peaks were identified as altered in both tumor types (<xref ref-type="fig" rid="F1">Figure 1b</xref>), while 13 out of 50 focal deletion peaks were altered in both tumor types (<xref ref-type="fig" rid="F1">Figure 1c</xref>). Interestingly, when compared to 19 other tumor types from TCGA<sup><xref rid="R10" ref-type="bibr">10</xref></sup>, the lists of significantly mutated genes for lung ADC and SqCC had a greater overlap with significantly mutated gene lists from other tumor types (&gt;13% overlap; FDR <italic toggle="yes">q</italic>-value &lt; 0.1) than to each other (12% overlap; p = 0.105; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 2</xref>), consistent with previous pan-cancer analyses<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Recurrently mutated and amplified genes in lung SqCC most closely resembled the alterations in head and neck squamous cell carcinoma (HNSC) and bladder cancer (BLCA), two other epithelial cancers with epidemiological associations with smoking (&gt;25% overlap; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 2</xref>). Within these overlapping genes, <italic toggle="yes">TP53, CDKN2A</italic>, and <italic toggle="yes">FAT1</italic> are specifically enriched in HPV- HNSC<sup><xref rid="R12" ref-type="bibr">12</xref></sup>. In contrast, the significantly mutated genes in lung ADC were most similar to glioblastoma (GBM) and colorectal cancer (CRC) (FDR <italic toggle="yes">q</italic>-value &lt; 0.1). While lung ADC and lung SqCC did share several focal deletion peaks, five of these peaks were putative fragile sites (shown in green in <xref ref-type="fig" rid="F1">Figure 1c</xref>). Taken together, these results suggest that the somatic drivers of carcinogenesis may be largely distinct between lung adenocarcinoma and lung squamous cell carcinoma.</p>
+        </sec>
+        <sec id="S4">
+          <title>Mutational signatures in lung cancer</title>
+          <p id="P6">Various carcinogenic and cancer-related processes contribute to the mutational patterns observed in tumors<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R14" ref-type="bibr">14</xref></sup>. Previous large-scale studies of lung cancer genomes have identified signatures associated with non-smoking and smoking cases<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup>; here we extend these findings based on the improved statistical power of our larger sample set. Using non-negative matrix factorization<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R16" ref-type="bibr">16</xref></sup> (NMF, Online Methods), we identified six mutational signatures in this cohort, many of which are strongly correlated with previously defined signatures in the COSMIC database<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R17" ref-type="bibr">17</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figs. 3–5</xref>; Supplementary Table 7). These included a UV-related signature of C&gt;T at TpCpC or CpCpC (COSMIC Signature 7, abbreviated SI7), a smoking-related signature of C&gt;A transversions (SI4), a mismatch repair (MMR) signature of C&gt;T at GpCpG (SI15/SI6), two APOBEC-related signatures of C&gt;G or C&gt;T at TpCpT or TpCpA (SI13 and SI2), and a final signature with a moderate correlation to COSMIC signature 5 (SI5) with putative “molecular clock” properties<sup><xref rid="R18" ref-type="bibr">18</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 5</xref>). In addition to identifying mutational signatures, NMF also estimates the number of mutations contributed by each signature within each tumor. The estimated number of SI4 (i.e. smoking-related) mutations per Mb displayed a bimodal pattern in lung ADC but not in lung SqCC (<xref ref-type="fig" rid="F2">Figure 2a</xref>). Furthermore, the rate of SI4 mutations per Mb was able to classify tumors into those from never vs. ever smokers substantially better in lung ADCs (AUC=0.87; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>) than in lung SqCCs (AUC=0.62) suggesting that the smoking statuses for the 18 never smokers with lung SqCC may be inaccurate. 87% of lung ADCs from never smokers were categorized as transversion-low (TV-L; ≤0.696 of SI4 per Mb; p = 8.5 × 10<sup>−37</sup>; Fisher’s exact test; <xref ref-type="fig" rid="F2">Figure 2b</xref>; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>). However, only 45% of transversion-low lung ADCs were from patients who were never smokers (<xref ref-type="fig" rid="F2">Figure 2b</xref>). Within each tumor, we also derived the fraction of estimated mutations for a signature by dividing the number of estimated mutations for that signature by the sum of estimated mutations from all signatures. Lung SqCCs displayed significantly higher overall rates of SI5 mutations per Mb compared to all lung ADCs (p &lt; 0.001; Wilcoxon rank-sum test). However, lung ADCs from never smokers displayed the highest fraction of estimated mutations from this signature on average (<xref ref-type="fig" rid="F2">Figure 2c</xref>; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 7</xref>). In lung SqCC, we also observed moderate associations of tumor stage with SI5 activity and total mutation rate (p &lt; 0.01; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 8</xref>).</p>
+          <p id="P7">The mutational profiles of three lung SqCCs (~1% of lung SqCCs) exhibited a pattern of UV-related mutations (SI7) commonly observed in melanoma and displayed a significantly higher mutation rate of somatic single nucleotide variants (SSNVs) and somatic dinucleotide polymorphisms (DNPs) compared to the other lung tumors (p &lt; 0.01) but not higher rates of indels (p &gt; 0.05; <xref ref-type="fig" rid="F2">Figure 2d</xref>). One of these patients (TCGA-18–3409) had a previous history of basal cell carcinoma in the forehead raising the possibility that metastasis from the skin to the lung had occurred. The other two lung SqCCs with this signature may also represent squamous cell skin carcinomas metastatic to the lung. Mutational profiles for another 7 tumors (4 lung ADCs and 3 lung SqCCs) exhibited an MMR-like signature (SI15/SI6) commonly observed in microsatellite instable (MSI) colorectal carcinomas (<xref ref-type="fig" rid="F2">Figure 2e</xref>)<sup><xref rid="R13" ref-type="bibr">13</xref></sup>. These tumors had significantly higher rates of both SSNVs and short indels (p &lt; 0.00). They also displayed lower expression levels of the mismatch repair gene <italic toggle="yes">MLH1</italic> (p = 0.011) suggesting a potential etiology for this signature in lung.</p>
+        </sec>
+        <sec id="S5">
+          <title>Novel significantly mutated genes</title>
+          <p id="P8">Comparing the significantly mutated genes to other tumor types from the TCGA Pan-Cancer study<sup><xref rid="R10" ref-type="bibr">10</xref></sup> revealed that there were several genes significantly mutated exclusively in lung ADC including <italic toggle="yes">STK11, RBM10, KEAP1, RAF1, RIT1</italic>, and <italic toggle="yes">MET</italic> (MutSig2CV <italic toggle="yes">q</italic>-value &lt; 0.1; <xref ref-type="fig" rid="F3">Figure 3a</xref>; Supplementary Table 5). <italic toggle="yes">NFE2L2, KDM6A, RASA1, NOTCH1</italic>, and <italic toggle="yes">HRAS</italic> were significantly mutated in lung SqCC but not in other cancer types (excluding HNSC and BLCA) (<xref ref-type="fig" rid="F3">Figure 3b</xref>; Supplementary Table 6). Genes that reached modest statistical significance in lung ADC that have been observed previously in lung cancer or in other tumor types include <italic toggle="yes">AKT1</italic> with a recurrent mutation at p.E17K, <italic toggle="yes">CDK4</italic> with a recurrent mutation at p.R24L, and <italic toggle="yes">DNMT3A</italic> (p &lt; 0.005; Supplementary Table 5). Novel significantly mutated genes exclusive to lung ADC and which are absent in other tumor types include <italic toggle="yes">PPP3CA</italic>, which is the catalytic subunit for the calcium-dependent phosphatase, calcineurin. The mutations in <italic toggle="yes">PPP3CA</italic> clustered in the autoinhibitory domain near the C-terminus suggesting they may be gain-of-fuction alterations (<xref ref-type="fig" rid="F4">Figure 4a</xref>). In addition, mutations in the autoinhibitory domain also tended to co-occur with activating <italic toggle="yes">KRAS</italic> mutations (p = 0.033) suggesting a potential relationship between K-Ras and calcineurin signaling pathways. Significantly mutated methyltransferase genes included <italic toggle="yes">MLL3</italic> (<italic toggle="yes">KMT2C)</italic> and <italic toggle="yes">SETD2</italic>. A novel gene in this class was the H3K79 methyltransferase <italic toggle="yes">DOT1L</italic>, which was mutated in 3% of lung adenocarcinomas with enrichment for truncating mutations (<xref ref-type="fig" rid="F4">Figure 4a</xref>). Recurrent mutations in lung adenocarcinoma have been previously reported in splicing factors such as <italic toggle="yes">U2AF1</italic> and loss of function mutations in the RNA binding protein <italic toggle="yes">RBM10<sup>8</sup></italic>. In the current dataset, a cap methyltransferase, <italic toggle="yes">FTSJD1</italic> (also known as <italic toggle="yes">CMTR2</italic>), was significantly mutated and enriched for frame shift mutations (<xref ref-type="fig" rid="F4">Figure 4a</xref>). We also examined genes for other known proteins in this class and found recurrent mutations in <italic toggle="yes">SF3B1</italic><sup><xref rid="R19" ref-type="bibr">19</xref></sup> and <italic toggle="yes">SNRPD3</italic> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 9</xref>). <italic toggle="yes">EGFR</italic> mutations were enriched in females, and <italic toggle="yes">SMARCA4</italic> mutations were enriched in males (FDR <italic toggle="yes">q</italic>-value &lt; 0.1; Supplementary Table 8). <italic toggle="yes">RBM10</italic> mutations were modestly enriched in males as previously reported (<italic toggle="yes">q</italic>-value = 0.219)<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Novel significantly mutated genes in lung SqCC that were enriched for frame shift mutations (p &lt; 0.001) included <italic toggle="yes">RASA1</italic>, whose protein product is p120GAP<sup><xref rid="R20" ref-type="bibr">20</xref></sup> (<xref ref-type="fig" rid="F4">Figure 4b</xref>). <italic toggle="yes">CUL3</italic>, whose protein product is a known interaction partner of KEAP1, also reached statistical significance in the lung SqCC cohort<sup><xref rid="R21" ref-type="bibr">21</xref></sup> (<xref ref-type="fig" rid="F4">Figure 4b</xref>). <italic toggle="yes">RB1</italic> mutations were enriched in females, whereas <italic toggle="yes">PASK</italic> mutations were exclusive to males (FDR <italic toggle="yes">q</italic>-value &lt; 0.1; Supplementary Table 9). We did not observe significant associations between mutation status and patient survival or tumor stage after correction for multiple hypothesis testing (Supplementary Tables 10–13). Controlling for tumor stage did not reveal additional significant associations between mutation status and survival.</p>
+          <p id="P9">Previous studies have shown that joint analysis of different tumor types can yield additional statistical power to detect low-frequency events even if the tumor types are from vastly different tissues of origin and/or etiologies<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. Additionally, although the individual drivers may be distinct between two tumor types, pathways such as MAP kinase are often altered similarly in both. We therefore hypothesized that combining the lung ADC and SqCC tumor cohorts (i.e. Pan-Lung) would reveal additional recurrent somatic pathway alterations common to both. We found 14 genes to be significantly mutated in the Pan-Lung cohort but not significantly mutated in either individual tumor type (<italic toggle="yes">q</italic>-value &lt; 0.1; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 10</xref>; Supplementary Table 14). Many of these genes are involved in epigenetic regulation or immune-related pathways. <italic toggle="yes">KLF5</italic>, a transcription factor critical for lung development<sup><xref rid="R22" ref-type="bibr">22</xref></sup> contained a novel recurrent mutation in the zinc finger domain, which was observed in both ADCs and SqCCs (<xref ref-type="fig" rid="F4">Figure 4c</xref>). A regulator of <italic toggle="yes">KLF5</italic>, the E3 ubiquitin ligase <italic toggle="yes">FBXW7<sup><xref rid="R23" ref-type="bibr">23</xref></sup></italic>, was also significantly mutated in the lung SqCC and Pan-Lung cohorts but did not co-occur with <italic toggle="yes">KLF5</italic> mutations. A super-enhancer duplication associated with increased <italic toggle="yes">KLF5</italic> expression has also been recently reported in HNSC by our group<sup><xref rid="R24" ref-type="bibr">24</xref></sup>. The paralogs <italic toggle="yes">EP300</italic> and <italic toggle="yes">CREBBP</italic> had a mutational hotspot region within the histone acetyltransferase (HAT) domain. All missense mutations in the HAT domains and other loss-of-function mutations outside this domain were non-overlapping within these two proteins. For sites with sufficient sequencing depth in the RNA-seq (power &gt; 95%), we observed a somatic SNV validation rate of 88%.</p>
+        </sec>
+        <sec id="S6">
+          <title>Novel somatic copy number alterations</title>
+          <p id="P10">With a larger sample size, we had better resolution to detect novel copy number changes and ascertain the putative target genes of focal amplifications and deletions. For some peaks that still contained many genes, we inferred the most likely target gene by examining the same peak in a Pan-Cancer copy number analysis across 11 tumor types<sup><xref rid="R25" ref-type="bibr">25</xref></sup> that included a subset of lung cancers from this set. The most significantly focally amplified genes in lung ADC were <italic toggle="yes">NKX2-1, MYC, TERT, MCL1</italic>, and <italic toggle="yes">MDM2</italic> (<xref ref-type="fig" rid="F5">Figure 5a</xref>; Supplementary Table 15), while peaks at <italic toggle="yes">SOX2, CCND1, WHSC1L1</italic>/<italic toggle="yes">FGFR1, MYC</italic>, and <italic toggle="yes">EGFR</italic> were among the top for lung SqCC (<xref ref-type="fig" rid="F5">Figure 5b</xref>; Supplementary Table 16). Amplification peaks previously described in other tumor types but less characterized before in the lung tumors included <italic toggle="yes">KAT6A, ZNF217</italic>, and <italic toggle="yes">MYCL1</italic> for lung ADC (<xref ref-type="fig" rid="F5">Figure 5a</xref>) and <italic toggle="yes">IGF1R, KDM5A, PTP4A1/PHF3</italic>, and <italic toggle="yes">MYCL1</italic> for lung SqCC (<xref ref-type="fig" rid="F5">Figure 5b</xref>). <italic toggle="yes">CCND3</italic> was specifically amplified in lung ADC while an amplification peak near <italic toggle="yes">MIR21</italic>/<italic toggle="yes">TUBD1</italic> (<xref ref-type="fig" rid="F5">Figure 5c</xref>) was also observed in breast cancer<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. <italic toggle="yes">MIR21</italic> expression has been shown to be a prognostic factor for early stage ADC<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R27" ref-type="bibr">27</xref></sup>. Likewise, novel amplification peaks for lung SqCC included <italic toggle="yes">YES1</italic>, a Src family non-receptor protein kinase, and <italic toggle="yes">MIR205</italic> (<xref ref-type="fig" rid="F5">Figure 5d</xref>). Expression of <italic toggle="yes">MIR205</italic> has been used to distinguish lung squamous cell carcinomas from other NSCLC types<sup><xref rid="R28" ref-type="bibr">28</xref></sup> suggesting that amplification of this microRNA may represent a lineage specific alteration similar to that of <italic toggle="yes">SOX2</italic> amplification. Finally, combined Pan-Lung copy number analysis revealed additional amplification peaks around <italic toggle="yes">MAPK1</italic> (<xref ref-type="fig" rid="F5">Figure 5a–d</xref>; Supplementary Table 17).</p>
+          <p id="P11">Focal deletion peaks in lung ADC included the chromatin modifier genes <italic toggle="yes">SMARCA4</italic> and <italic toggle="yes">ARID2</italic> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 11</xref>; Supplementary Table 18), which were also significantly mutated and enriched for loss-of-function mutations. Novel lung SqCC focal deletions observed in other tumor types included <italic toggle="yes">ZMYND11, CREBBP, ROBO1, USP22</italic>, and <italic toggle="yes">KDM6A</italic> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 11</xref>; Supplementary Table 19). <italic toggle="yes">B2M</italic> (Beta2-microglobulin), a component of the MHC complex, was focally deleted in both tumor types, enriched for loss-of-function mutations in both tumor types (p &lt; 0.01), and was significantly mutated in the Pan-Lung analysis (FDR <italic toggle="yes">q</italic>-value = 0.006). Combined Pan-Lung copy number analysis revealed another focal deletion peak around <italic toggle="yes">TRAF3</italic> (Supplementary Table 20), which was also reported in HNSC<sup><xref rid="R12" ref-type="bibr">12</xref></sup>. In general, mRNA expression was significantly associated with copy number levels for target genes (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figs. 12 and 13</xref>). We did not observe substantial batch effects within or across tumor types in both the mRNA expression and CNV data (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figs. 14 and 15</xref>).</p>
+        </sec>
+        <sec id="S7">
+          <title>Identifying Ras/Raf/RTK drivers in lung ADC</title>
+          <p id="P12">In lung ADC, mutually exclusive alterations have been characterized in members of the receptor tyrosine kinase (RTK)/Ras/Raf signaling pathways. These alterations are of particular interest because of the dramatic responses that have been observed in response to RTK inhibitors in clinical trials such as those for lung ADC patients harboring <italic toggle="yes">EGFR</italic> mutation or <italic toggle="yes">ALK</italic> or <italic toggle="yes">ROS1</italic> translocations<sup><xref rid="R29" ref-type="bibr">29</xref></sup>. However, many lung ADCs do not exhibit a known activating mutation in the pathway raising the possibility that additional genes with low frequency somatic events are yet to be identified. To further understand the somatic landscape of this pathway, we first characterized alterations among the known pathway members and then identified novel genes with mutually exclusive alterations. Novel alterations in known pathway genes included a recurrent in-frame-insertion in <italic toggle="yes">MAP2K1</italic> and a fusion of <italic toggle="yes">MET</italic> with its neighboring gene, <italic toggle="yes">CAPZA2</italic> (<xref ref-type="fig" rid="F6">Figure 6</xref>; Supplementary Table 21)<sup><xref rid="R30" ref-type="bibr">30</xref></sup>. Previously reported <italic toggle="yes">TRIM24-NTRK2</italic> and <italic toggle="yes">KIF5B-MET</italic> fusions<sup><xref rid="R30" ref-type="bibr">30</xref></sup> were observed in tumors without other known activating alterations. Interestingly, another <italic toggle="yes">NTRK2</italic> fusion with <italic toggle="yes">TP63</italic> was also found in a lung SqCC (<xref ref-type="fig" rid="F6">Figure 6</xref>; Supplementary Table 21). As observed previously, high <italic toggle="yes">MET</italic> and <italic toggle="yes">ERBB2</italic> amplifications were enriched in tumors without other known activating alterations in this pathway (p &lt; 0.01; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 16</xref>)<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. A single lung adenocarcinoma (TCGA-49–4512) contained an activating <italic toggle="yes">EGFR</italic> kinase domain duplication<sup><xref rid="R31" ref-type="bibr">31</xref></sup>. By manual review, we found additional canonical mutations in <italic toggle="yes">KRAS, EGFR</italic>, or <italic toggle="yes">ERBB2</italic> in 17 tumors and complex indels in <italic toggle="yes">EGFR</italic> or <italic toggle="yes">MET</italic> in 11 tumors, some of which have been previously reported<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R32" ref-type="bibr">32</xref></sup> (Supplementary Table 22).</p>
+          <p id="P13">Lung ADCs that had an activating SSNV, indel, amplification or gene fusion in a known RTK/Ras/Raf driver<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref></sup> were designated “oncogene positive” (n=418) while the remaining lung ADCs were considered “oncogene negative” (n=242). For the purposes of this analysis, we did not include <italic toggle="yes">NF1</italic>-altered tumors in the oncogene positive group as mutations in this gene are not entirely mutually exclusive with alterations in other Ras/Raf/RTK related genes. To identify additional potential drivers in this pathway, we determined if genes that are significantly mutated in any of the MutSig2CV analyses (Supplementary Tables 5, 6, and 14) or that are important in regulation of the Ras pathway<sup><xref rid="R35" ref-type="bibr">35</xref></sup> were enriched in oncogene negative samples using a Fisher’s exact test. In total, 15 genes were significantly enriched among oncogene negative samples including known Ras pathway members <italic toggle="yes">SOS1</italic> and <italic toggle="yes">RASA1</italic>, and Rho kinase pathway members <italic toggle="yes">VAV1</italic> and <italic toggle="yes">ARHGAP35</italic> (<italic toggle="yes">q</italic>-value &lt; 0.1; <xref ref-type="fig" rid="F7">Figure 7a,c</xref>; Supplementary Table 23). SOS1 is a guanine nucleotide exchange factor (GEF) bound to the RTK complex and assists in the activation of Ras proteins<sup><xref rid="R36" ref-type="bibr">36</xref></sup>. Recurrent p.N233Y mutations were observed in the autoinhibitory domain (DH) of SOS1 in 4 lung ADCs and the mutation p.D309Y in the same region has been reported in Noonan syndrome<sup><xref rid="R37" ref-type="bibr">37</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 17</xref>). Similarly, VAV1 is a GEF for the Rho family GTPases. Interactions between the calponin homology (CH), Acidic (Ac), and pleckstrin homology (PH) domains are important for autoinhibition of the catalytic Dbl homology domain<sup><xref rid="R39" ref-type="bibr">39</xref></sup>. The p.S67Y mutation is located near the interface of the CH, Ac and PH domains and mutagenesis at this site has been shown to increase overall GEF activity<sup><xref rid="R39" ref-type="bibr">39</xref></sup> (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 17</xref>). <italic toggle="yes">RASA1</italic> and <italic toggle="yes">ARHGAP35</italic> (p190RhoGAP) are GTPase activating proteins (GAPs) for the Ras and Rho kinases, respectively, and are each enriched for loss-of-function mutations (p &lt; 0.01). We also identified amplifications peaks near <italic toggle="yes">FGFR1/WHSC1L1</italic> (8p11.21), <italic toggle="yes">PDGFRA/KIT/KDR</italic> (4q12), and <italic toggle="yes">MAPK1</italic> (chr22q11) that were only significant in the oncogene negative tumor set (<italic toggle="yes">q</italic>-value &lt; 0.25; <xref ref-type="fig" rid="F7">Figure 7b,c</xref>). In total, 499 (76%) lung ADCs displayed an alteration in known or putative Ras/Raf/RTK driver genes (<xref ref-type="fig" rid="F7">Figure 7c</xref>). Moreover, 193 out of 227 (85%) lung ADCs that previously underwent secondary expert pathological review and had RNA-seq data available for fusion analysis<sup><xref rid="R6" ref-type="bibr">6</xref></sup> contained a predicted activating alteration in the RTK/Ras/Raf pathway.</p>
+          <p id="P14">Novel co-occurrences included <italic toggle="yes">MET</italic> amplifications and <italic toggle="yes">NF1</italic> mutations (p = 0.019; <xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 16</xref>). Additionally, high <italic toggle="yes">EGFR</italic> amplification significantly overlapped with activating <italic toggle="yes">EGFR</italic> mutations (p = 1.9 × 10<sup>−8</sup>)<sup><xref rid="R40" ref-type="bibr">40</xref>,<xref rid="R41" ref-type="bibr">41</xref></sup> and <italic toggle="yes">STK11</italic> mutations significantly overlapped with activating <italic toggle="yes">KRAS</italic> mutations (p = 1.1 × 10<sup>−6</sup>; <xref ref-type="fig" rid="F7">Figure 7c</xref>)<sup><xref rid="R42" ref-type="bibr">42</xref>,<xref rid="R43" ref-type="bibr">43</xref></sup>. Furthermore, 28 lung ADCs that remain oncogene-negative for the RTK/Ras/Raf pathway harbor <italic toggle="yes">STK11</italic> mutations (<xref ref-type="fig" rid="F7">Figure 7c</xref>), suggesting the possibility of an additional hitherto-unrecognized <italic toggle="yes">KRAS</italic>-related genome alteration complementary to <italic toggle="yes">STK11</italic> mutation in these cancer samples.</p>
+        </sec>
+        <sec id="S8">
+          <title>Assessment of neoantigen load and recurrence</title>
+          <p id="P15">With increasing interest in the use of immune checkpoint inhibitors in lung cancer<sup><xref rid="R44" ref-type="bibr">44</xref>,<xref rid="R45" ref-type="bibr">45</xref></sup>, we comprehensively analyzed the potential immunogenic properties of the mutational landscape. Within each patient, we evaluated the ability of each somatic missense mutation to be processed and presented to immune cells by any one of the patient-specific HLA alleles<sup><xref rid="R46" ref-type="bibr">46</xref>,<xref rid="R47" ref-type="bibr">47</xref></sup>. We then assessed the association between the number of immunogenic mutations (i.e. neoepitopes or neoantigens) and clinical characteristics and identified the most common neoepitopes observed in lung cancer. Both nonsynonymous mutation and neoepitope counts were not significantly different between lung ADCs and lung SqCCs from ever smokers (<xref ref-type="fig" rid="F8">Figure 8a,b</xref>). However, these counts were significantly lower in lung ADCs from never smokers compared to lung ADCs from ever smokers (p &lt; 0.001; Wilcoxon rank-sum test; <xref ref-type="fig" rid="F8">Figure 8a,b</xref>) and associated with overall smoking history in lung ADCs but not lung SqCCs (p &lt; 0.001; Kruskal-Wallis test; <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 18</xref>). Mutations predicted to be neoepitopes in at least 4 tumors included <italic toggle="yes">PIK3CA</italic> p.E542K, <italic toggle="yes">NFE2L2</italic> p.E79Q, <italic toggle="yes">BRAF</italic> p.G466V, and <italic toggle="yes">EGFR</italic> p.G719A and several mutations in <italic toggle="yes">TP53</italic>, including p.V157F, p.G154V, p.R175G, and p.P278A (<xref ref-type="fig" rid="F8">Figure 8c</xref>). A gene not previously implicated in lung cancer, <italic toggle="yes">C3orf59</italic> (also known as <italic toggle="yes">MB21D2</italic>), contained a recurrent mutation at p.Q311E with predicted neoepitope properties (<xref ref-type="fig" rid="F8">Figure 8c</xref>). Overall, 47% of lung ADC and 53% of lung SqCC samples had at least 5 predicted neoepitopes suggesting a great potential for immunotherapy.</p>
+        </sec>
+      </sec>
+      <sec sec-type="discussion" id="S9">
+        <title>DISCUSSION</title>
+        <p id="P16">We examined exome sequences and copy number profiles of 1,144 lung cancers to explore similarities and differences between lung adenocarcinoma and lung squamous cell carcinoma. Consistent with studies of gene expression<sup><xref rid="R11" ref-type="bibr">11</xref></sup>, this comparison showed that both mutated genes and recurrent SCNAs are largely distinct between the two lung cancer types. The similarity between lung SqCCs, head and neck squamous carcinomas, and a subset of bladder carcinomas was also observed when 12 tumor types were reclassified using clustering of five molecular data types<sup><xref rid="R48" ref-type="bibr">48</xref></sup>. These differences suggest that somatic alterations can have different oncogenic potential in different cellular contexts. Thus, cancers arising from developmentally similar cells of origin across different tissues will be more similar than cancers arising from different cells of origin within an anatomically defined tissue. As we had only one tumor sample per patient, we were not able to analyze intra-tumoral heterogeneity, as has been done in other studies<sup><xref rid="R49" ref-type="bibr">49</xref>,<xref rid="R50" ref-type="bibr">50</xref></sup>.</p>
+        <p id="P17">Several novel focal amplification peaks containing protein-coding genes, including <italic toggle="yes">MAPK1, YES1</italic>, and <italic toggle="yes">CCND3</italic>, were identified. Interestingly, we also found two peaks that contained or were near microRNAs (<italic toggle="yes">MIR21</italic> in lung ADC and <italic toggle="yes">MIR205</italic> in lung SqCC). We have also recently reported a non-coding super-enhancer duplication that results in increased <italic toggle="yes">MYC</italic> expression<sup><xref rid="R24" ref-type="bibr">24</xref></sup>. As the mutational analyses in this study focused on whole-exome sequencing of protein-coding genes, we were not able to examine mutations in non-coding genes or regulatory elements. Future studies examining large numbers of lung cancer whole-genomes may be better suited for discovery of other oncogenic alterations in non-coding genes or regulatory elements.</p>
+        <p id="P18">Our study has uncovered multiple significantly mutated genes in the RTK/Ras/Raf pathway, including newly identified genes such as <italic toggle="yes">RASA1, SOS1</italic>, and <italic toggle="yes">VAV1</italic>. Previous studies examining smaller numbers of lung tumors were not able to detect recurrent mutations in <italic toggle="yes">SOS1</italic><sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup>. The fact that we were able to detect these mutants further highlights the utility of increasing sample size to detect rare events. Since we did not have matching RNA-seq data for every tumor, we may be underestimating the rates of oncogenic fusions or <italic toggle="yes">MET</italic> exon 14 skipping events. As 15% to 25% of lung ADCs still do not contain a known detectable alteration in the RTK/Ras/Raf pathway, we may yet be underpowered to find additional rare recurrent mutations in known and novel pathway members. Similar considerations may be present for other pathways. For example, we identified new epigenetic modifier mutations in <italic toggle="yes">CREBBP</italic> and <italic toggle="yes">EP300</italic>, previously shown in small cell lung cancer<sup><xref rid="R51" ref-type="bibr">51</xref></sup>.</p>
+        <p id="P19">Finally, we examined the immunogenicity of individual missense mutations to understand more fully the association between neoepitope loads, overall nonsynonymous rates, and clinical variables such as smoking status. Some highly recurrent mutations were predicted to be neoepitopes. Future studies may further unravel the relationship between these candidates and clinical responses to immune checkpoint inhibitors and customized vaccine therapies.</p>
+      </sec>
+      <sec sec-type="methods" id="S10">
+        <title>ONLINE METHODS</title>
+        <sec id="S11">
+          <title>Sample collection and pathology review</title>
+          <p id="P20">Sample collection and DNA sequencing were performed for the Imielinski et al and TCGA cohorts as previously described<sup><xref rid="R6" ref-type="bibr">6</xref>–<xref rid="R8" ref-type="bibr">8</xref></sup>. All specimens were obtained from patients with appropriate consent and with approval from the relevant institutional review boards. All patients were treatment-naïve with the exception of four patients with lung SqCC and three with lung ADC who received neoadjuvant treatment prior to resection (Supplementary Table 2). Initial pathological review was performed at the contributing tissue source sites (TSS) where each tumor was given an initial histological classification. After shipment of the frozen tissue to the Biospecimen Core Resource (BCR), one or two additional frozen sections were cut and stained with H&amp;E to confirm the histological classification of the original TSS. 159 of the lung ADCs from Imielinski et al, 289 of the lung ADCs from TCGA, and 213 of the lung SqCCs from TCGA had also undergone additional histological review by an expert pathology committee led by Dr. William Travis (MSKCC) in previous studies<sup><xref rid="R6" ref-type="bibr">6</xref>–<xref rid="R8" ref-type="bibr">8</xref></sup>. Nucleic acid extraction and molecular quality control were performed at the BCR.</p>
+        </sec>
+        <sec id="S12">
+          <title>DNA-sequencing, alignment, and mutation calling</title>
+          <p id="P21">Exome capture was performed using the Agilent SureSelect Human All Exon 50MB kit followed by Illumina paired-end sequencing. Reads were processed using the Picard pipeline<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. This pipeline utilizes BWA for read alignment, Picard tools for marking duplicates, and the Genome Analysis Tool Kit (GATK) for realignment around small insertions and deletions (indels) as well as base quality recalibration<sup><xref rid="R52" ref-type="bibr">52</xref></sup>. Contamination in tumor exomes was estimated using ContEst<sup><xref rid="R53" ref-type="bibr">53</xref></sup>. Only tumors with &lt;5% contamination, an available SNP6.0 array for copy number analysis, and a valid ABSOLUTE<sup><xref rid="R54" ref-type="bibr">54</xref></sup> solution were considered in the final analysis. The final sample set included 227 previously described lung ADCs from the TCGA<sup><xref rid="R6" ref-type="bibr">6</xref></sup>, 274 newly reported lung ADCs from the TCGA, and 159 lung ADCs from the Imielinski et al<sup><xref rid="R8" ref-type="bibr">8</xref></sup> cohort, together with 176 previously described lung SqCCs from TCGA<sup><xref rid="R7" ref-type="bibr">7</xref></sup>, and 308 newly reported lung SqCCs from TCGA. Somatic single nucleotide variants (SSNVs) and indels were called using MuTect<sup><xref rid="R55" ref-type="bibr">55</xref></sup> and Indelocator (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/indelocator">www.broadinstitute.org/cancer/cga/indelocator</ext-link>), respectively. These algorithms compare the tumor to the matched normal in order to exclude germline variants. Somatic calls were excluded if found in a panel of over 2,900 normal exomes as previously described<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. Coding mutation patterns can be viewed for individual genes at pubs.broadinstitute.org/panlung.</p>
+        </sec>
+        <sec id="S13">
+          <title>Identification of significantly mutated genes</title>
+          <p id="P22">Significantly mutated genes were identified using MutSig2CV which combines p-values from tests for high mutational frequency relative to the background mutation rate (pCV), clustering of mutations within the gene (pCL), and enrichment of mutations within evolutionarily conserved sites (pFN)<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. For 660 lung adenocarcinomas, we had 100% power to detect genes mutated in 10% of patients and 73% power for genes mutated in 5% of patients assuming a mutation rate of 8.7/Mb<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. For 484 lung squamous cell carcinomas, we had 100% power to detect genes mutated in 10% of patients and 41% power for genes mutated in 5% of patients assuming a mutation rate of 9.7/Mb<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. In order to reduce the number of hypotheses tested in the MutSig2CV analysis, we excluded genes that exhibited low expression across tumors with relatively high purity. The median log<sub>2</sub> FPKM value for each gene was obtained for 185 ADCs or 238 SqCCs which had a purity estimate from ABSOLUTE of &gt;50% and available RNA-seq data (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1</xref>). For each tumor type, a mixture model of two normal distributions was fit in R using the mclust package v4.2. Genes with 95% probability of belonging to the cluster with higher expression were considered in the multiple hypothesis correction of the MutSig2CV combined p-values. One gene, <italic toggle="yes">TRERF1</italic>, was excluded from the final results as closer inspection of its mutations revealed a recurrent frameshift deletion that was likely a false positive as all of these mutations had low allelic fractions (&lt;1.5%) and had no supporting reads in matching RNA-seq data. A one-sided Fisher’s exact test was used to determine if the proportion of loss-of-function mutations (including nonsense, frameshift, and <italic toggle="yes">de novo</italic> start out-of-frame mutations) to other mutations for a given gene was significantly higher compared to the proportion of loss-of-function mutations to other mutations across all other genes.</p>
+        </sec>
+        <sec id="S14">
+          <title>Identification of recurrent copy number changes</title>
+          <p id="P23">DNA was hybridized onto Affymetrix SNP 6.0 arrays and normalized as previously described<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Segmentation was performed using Circular Binary Segmentation algorithm<sup><xref rid="R56" ref-type="bibr">56</xref></sup> followed by Ziggurat Deconstruction to infer the length and amplitude each segment. Recurrent focal SCNA peaks were identified using GISTIC2.0<sup><xref rid="R57" ref-type="bibr">57</xref></sup>. A peak was considered focally amplified or deleted within a tumor if the GISTIC2.0-estimated focal copy number ratio was greater than 0.1 or less than −0.1, respectively. Purity and ploidy were estimated using ABSOLUTE<sup><xref rid="R54" ref-type="bibr">54</xref></sup>. Two peaks were considered the same across tumor types if 1) the known target gene of each peak was the same or 2) the genomic location of the peaks overlapped +/− 1 Mb and each of the overlapping peaks had less than 25 genes and was smaller than 10 Mb.</p>
+        </sec>
+        <sec id="S15">
+          <title>RNA sequencing for expression and fusion analyses</title>
+          <p id="P24">Of the 1,144 tumors examined in this study, 495 lung ADCs and 476 lung SqCCs also had corresponding RNA-seq data from TCGA. RNA reads were generated, aligned to the hg19 genome assembly with Mapsplice<sup><xref rid="R58" ref-type="bibr">58</xref></sup>, and normalized with RSEM<sup><xref rid="R59" ref-type="bibr">59</xref></sup> to Fragment per Kilobase per Million (FPKM) expression estimates as previously described<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Expression values less than 1 FPKM were set to 1 and all data were log<sub>2</sub> transformed. Exon skipping of <italic toggle="yes">MET</italic> exon 14 was identified with juncBASE<sup><xref rid="R60" ref-type="bibr">60</xref></sup> as previously described<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Lists of fusions were obtained from previous studies<sup><xref rid="R6" ref-type="bibr">6</xref>,3061</sup>. Fusions for additional tumors were identified with the PRADA pipeline<sup><xref rid="R62" ref-type="bibr">62</xref></sup>. For plotting of exonic expression of fusion transcripts, exon expression levels were counted and normalized to reads per kilobase per million (RPKM) as previously described<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Expression for an individual exon was first Z-score transformed across all tumors within each tumor type. Subsequently, all exons for a gene were Z-score transformed again within each tumor. Transcript annotations used for this analysis included ENST00000397752 for <italic toggle="yes">MET</italic>, ENST00000361183 for <italic toggle="yes">CAPZA2</italic>, ENST00000302418 for <italic toggle="yes">KIF5B</italic>, ENST00000323115 for <italic toggle="yes">NTRK2</italic>, ENST00000343526 for <italic toggle="yes">TRIM24</italic>, and ENST00000354600 for <italic toggle="yes">TP63</italic>.</p>
+        </sec>
+        <sec id="S16">
+          <title>Identification of mutational signatures</title>
+          <p id="P25">Non-negative matrix factorization (NMF) was used to deconvolute a <italic toggle="yes">K × G</italic> matrix of mutation catalogues into a <italic toggle="yes">K × N</italic> matrix of mutational processes and an <italic toggle="yes">N × G</italic> matrix of mutational exposures (where <italic toggle="yes">G</italic> is the number of lung exomes, <italic toggle="yes">K</italic> is the number of mutational states, and <italic toggle="yes">N</italic> is the number of estimated mutational processes)<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. Code to run NMF was obtained from MATLAB Central (see URLs) and run using the nnmf function from the MATLAB Statistics Toolbox. We used 6 mutation types with 16 different trinucleotide contexts and 2 transcriptional strands for a total of 192 mutational states. The number of possible signatures was varied from 1 to 10 and signature stability was assessed via bootstrapping as previously described<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. Within each tumor, the fraction of estimated mutations for a signature was derived by dividing the number of estimated mutations for that signature by the sum of estimated mutations from all signatures.</p>
+        </sec>
+        <sec id="S17">
+          <title>Predicting Immunogenicity</title>
+          <p id="P26">HLA alleles were called with POLYSOLVER<sup><xref rid="R46" ref-type="bibr">46</xref></sup> for all lung cancer exomes. Within each tumor, epitope predictions were made between confidently called alleles and single amino acid missense mutations. Separate lists were made consisting of wildtype and mutant peptides of length 8, 9, 10 and 11 amino acids since these are the possible peptide lengths known to be presented by human MHC class I molecules<sup><xref rid="R63" ref-type="bibr">63</xref></sup>. We then predicted MHC binding affinity for each of the peptide as described previously<sup><xref rid="R47" ref-type="bibr">47</xref></sup>. First, the proteasome processing score was calculated using the NetChop program<sup><xref rid="R64" ref-type="bibr">64</xref></sup>. Then, we used the NetMHC<sup><xref rid="R65" ref-type="bibr">65</xref></sup>, NetMHCpan<sup><xref rid="R66" ref-type="bibr">66</xref></sup>, SMM<sup><xref rid="R67" ref-type="bibr">67</xref></sup>, and SMMPMBEC<sup><xref rid="R68" ref-type="bibr">68</xref></sup> methods to predict the MHC binding affinity values for each peptide and used the median affinity value across all algorithms as a composite measure of binding strength. We also defined the neoepitope ratio for each mutant-wildtype peptide pair as the mutant median affinity value divided by wildtype median affinity value. This value was found to be a reliable comparator of the relative immunogenicities of the mutant versus wildtype peptide sequences<sup><xref rid="R47" ref-type="bibr">47</xref></sup>. Peptide pairs were further considered if the mutant peptide displayed a processing score ≥0.7, a median affinity value ≥0.01, a neoepitope ratio ≥1, and the mRNA transcript of the gene was expressed in the RNA-seq data for that tumor (top 15,000 expressed genes within each tumor). Since epitope binding is HLA-dependent, the previous steps were performed for each of the called MHC-I alleles. After that, only those peptides predicted to be the best epitopes for each mutation were considered.</p>
+        </sec>
+        <sec id="S18">
+          <title>Statistical comparisons</title>
+          <p id="P27">Nonparametric tests such as the Wilcoxon rank-sum test (comparison between 2 groups) or the Kruskal-Wallis test (comparison between more than two groups) were used for continuous variables unless otherwise noted. The Fisher’s exact test was used when comparing 2 categorical variables. In total, longitudinal data on survival were available for 481 patients with lung ADC and 473 patients with lung SqCC from TCGA. The Cox proportional hazards model was used to examine associations between patient survival and mutation status, with and without controlling for stage. Correction for multiple hypothesis testing was performed with the Benjamini-Hochberg procedure.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS777795-supplement-1.pdf" orientation="portrait" id="d37e1697" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn id="FN2">
+          <p id="P28">
+            <bold>URLs</bold>
+          </p>
+          <p id="P29">Picard tools: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://broadinstitute.github.io/picard/">http://broadinstitute.github.io/picard/</ext-link>,</p>
+          <p id="P30">MutSig algorithm: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/MutSig">www.broadinstitute.org/cancer/cga/MutSig</ext-link>,</p>
+          <p id="P31">Indelocator: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/indelocator">www.broadinstitute.org/cancer/cga/indelocator</ext-link>,</p>
+          <p id="P32">Broad Institute Firehose pipeline: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/cancer/cga/">http://www.broadinstitute.org/cancer/cga/</ext-link>,</p>
+          <p id="P33">Oncotator: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/oncotator/">http://www.broadinstitute.org/oncotator/</ext-link></p>
+          <p id="P34">Power calculations: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.tumorportal.org/">http://www.tumorportal.org/</ext-link>,</p>
+          <p id="P35">PRADA fusions: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.tumorfusions.org">http://www.tumorfusions.org</ext-link>,</p>
+          <p id="P36">Mutational signatures: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.mathworks.com/matlabcentral/fileexchange/38724">http://www.mathworks.com/matlabcentral/fileexchange/38724</ext-link>,</p>
+        </fn>
+        <fn id="FN3">
+          <p id="P37">
+            <bold>Accession codes</bold>
+          </p>
+          <p id="P38">Clinical and molecular data from Imielinski et al<sup><xref rid="R8" ref-type="bibr">8</xref></sup> are available in dbGAP under the accession phs000488.v1.p1. Binary alignment (BAM) files for all TCGA samples<sup>6,7</sup> can be downloaded from the University of California Santa Cruz Cancer Genomics Hub (cghub.ucsc.edu) using the UUIDs in Supplementary Table 2. Additional clinical and molecular data for TCGA samples can be accessed via TCGA Data Portal (tcga-data.nci.nih.gov/tcga/). Mutational patterns for individual genes can be viewed via the Pan-Lung Tumor Portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.broadinstitute.org/panlung">pubs.broadinstitute.org/panlung</ext-link>).</p>
+        </fn>
+        <fn id="FN4" fn-type="con">
+          <p id="P39">
+            <bold>Author Contributions</bold>
+          </p>
+          <p id="P40">J.D.C. performed sample quality control, mutation calling and review, ABSOLUTE analysis of tumors from the Imielinski et al cohort, identification and comparison of recurrently altered genes, mutational signature identification and characterization, identification of <italic toggle="yes">EGFR</italic> complex indels, and wrote the manuscript; A.A., M.N.A., and R.S. generated neoantigen calls; J.K. contributed to mutational signature analyses; J.W. contributed to <italic toggle="yes">EGFR</italic> complex indel characterization; A.H.B. contributed to oncogene negative analysis and manuscript preparation; C.S.P. generated the Pan-Lung portal; A.N.B. identified MET exon 14 skipping events using RNA-seq; X.H. and R.G.W.V. generated fusion calls; S.L. and R.A. performed batch effect analyses; G.Guo contributed to <italic toggle="yes">MET</italic> exon 14 complex indel identification; M.R., M.I., M.S.L., and G.Getz contributed algorithms for mutation calling and analyses; B.A.M. and A.D.C. contributed to copy number and ABSOLUTE analyses; S.A.S. and C.J.W. performed HLA genotyping; C.C. contributed to sample coordination and quality control; A.R., A.D.C., E.A.C., J.N.W., P.S.H., and D.J.K. contributed to manuscript preparation; R.G. and M.M. conceived and designed the study and wrote the manuscript.</p>
+        </fn>
+      </fn-group>
+      <ack id="S19">
+        <p id="P41">This work was supported by grants from the National Cancer Institute as part of The Cancer Genome Atlas project: U24CA126546, U24CA143867, U24CA143845, U24CA126544, and U24CA143883. Additionally, this work was also funded by the National Cancer Institute K08 CA163677 (P.S.H.), Government of Russian Federation Grant 074-U01 (A.A.), the Department of Defense W81XWH-12-1-0269 (M.M.), the American Cancer Society Research Professor Award (M.M.), and the National Cancer Institute R35CA197568 (M.M.).</p>
+        <p id="P42">
+          <bold>Competing Financial Interest</bold>
+        </p>
+        <p id="P43">Research support from Bayer Pharmaceuticals (C.S.P., B.A.M., A.D.C., M.M.).</p>
+      </ack>
+      <ref-list>
+        <title>References</title>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="editor">
+              <name name-style="western">
+                <surname>Stewart</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wild</surname>
+                <given-names>CP</given-names>
+              </name>
+            </person-group>
+            <source>World Cancer Report 2014</source>
+            <year>2014</year>
+            <publisher-name>International Agency for Research on Cancer</publisher-name>
+            <pub-id pub-id-type="pmid">39432694</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Siegel</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Miller</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jemal</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Cancer statistics, 2015</article-title>
+            <source>CA Cancer J Clin</source>
+            <year>2015</year>
+            <volume>65</volume>
+            <fpage>5</fpage>
+            <lpage>29</lpage>
+            <pub-id pub-id-type="pmid">25559415</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.3322/caac.21254</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Samet</surname>
+                <given-names>JM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Lung cancer in never smokers: clinical epidemiology and environmental risk factors</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2009</year>
+            <volume>15</volume>
+            <fpage>5626</fpage>
+            <lpage>5645</lpage>
+            <pub-id pub-id-type="pmid">19755391</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-09-0376</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3170525</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cardarella</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Johnson</surname>
+                <given-names>BE</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact of genomic changes on treatment of lung cancer</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2013</year>
+            <volume>188</volume>
+            <fpage>770</fpage>
+            <lpage>775</lpage>
+            <pub-id pub-id-type="pmid">23841470</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1164/rccm.201305-0843PP</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3826273</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Vaishnavi</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Oncogenic and drug-sensitive NTRK1 rearrangements in lung cancer</article-title>
+            <source>Nat Med</source>
+            <year>2013</year>
+            <volume>19</volume>
+            <fpage>1469</fpage>
+            <lpage>1472</lpage>
+            <pub-id pub-id-type="pmid">24162815</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3352</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3823836</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas Research Network</collab>
+            <article-title>Comprehensive molecular profiling of lung adenocarcinoma</article-title>
+            <source>Nature</source>
+            <year>2014</year>
+            <volume>511</volume>
+            <fpage>543</fpage>
+            <lpage>550</lpage>
+            <pub-id pub-id-type="pmid">25079552</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13385</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4231481</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas Research Network</collab>
+            <article-title>Comprehensive genomic characterization of squamous cell lung cancers</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>489</volume>
+            <fpage>519</fpage>
+            <lpage>525</lpage>
+            <pub-id pub-id-type="pmid">22960745</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11404</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3466113</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Imielinski</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</article-title>
+            <source>Cell</source>
+            <year>2012</year>
+            <volume>150</volume>
+            <fpage>1107</fpage>
+            <lpage>1120</lpage>
+            <pub-id pub-id-type="pmid">22980975</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.08.029</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3557932</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Roberts</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An APOBEC cytidine deaminase mutagenesis pattern is widespread in human cancers</article-title>
+            <source>Nat Genet</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>970</fpage>
+            <lpage>976</lpage>
+            <pub-id pub-id-type="pmid">23852170</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2702</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3789062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lawrence</surname>
+                <given-names>MS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Discovery and saturation analysis of cancer genes across 21 tumour types</article-title>
+            <source>Nature</source>
+            <year>2014</year>
+            <volume>505</volume>
+            <fpage>495</fpage>
+            <lpage>501</lpage>
+            <pub-id pub-id-type="pmid">24390350</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12912</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4048962</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hoadley</surname>
+                <given-names>KA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Multiplatform analysis of 12 cancer types reveals molecular classification within and across tissues of origin</article-title>
+            <source>Cell</source>
+            <year>2014</year>
+            <volume>158</volume>
+            <fpage>929</fpage>
+            <lpage>944</lpage>
+            <pub-id pub-id-type="pmid">25109877</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2014.06.049</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4152462</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas Network</collab>
+            <article-title>Comprehensive genomic characterization of head and neck squamous cell carcinomas</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <volume>517</volume>
+            <fpage>576</fpage>
+            <lpage>582</lpage>
+            <pub-id pub-id-type="pmid">25631445</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature14129</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4311405</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutational processes in human cancer</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>500</volume>
+            <fpage>415</fpage>
+            <lpage>421</lpage>
+            <pub-id pub-id-type="pmid">23945592</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12477</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3776390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lawrence</surname>
+                <given-names>MS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational heterogeneity in cancer and the search for new cancer-associated genes</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>499</volume>
+            <fpage>214</fpage>
+            <lpage>218</lpage>
+            <pub-id pub-id-type="pmid">23770567</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12213</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3919509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Govindan</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic landscape of non-small cell lung cancer in smokers and never-smokers</article-title>
+            <source>Cell</source>
+            <year>2012</year>
+            <volume>150</volume>
+            <fpage>1121</fpage>
+            <lpage>1134</lpage>
+            <pub-id pub-id-type="pmid">22980976</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.08.024</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3656590</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wedge</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Campbell</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Deciphering signatures of mutational processes operative in human cancer</article-title>
+            <source>Cell Rep</source>
+            <year>2013</year>
+            <volume>3</volume>
+            <fpage>246</fpage>
+            <lpage>259</lpage>
+            <pub-id pub-id-type="pmid">23318258</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2012.12.008</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3588146</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forbes</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>COSMIC: exploring the world’s knowledge of somatic mutations in human cancer</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2015</year>
+            <volume>43</volume>
+            <fpage>D805</fpage>
+            <lpage>D811</lpage>
+            <pub-id pub-id-type="pmid">25355519</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gku1075</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4383913</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clock-like mutational processes in human somatic cells</article-title>
+            <source>Nat Genet</source>
+            <year>2015</year>
+            <volume>47</volume>
+            <fpage>1402</fpage>
+            <lpage>1407</lpage>
+            <pub-id pub-id-type="pmid">26551669</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3441</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4783858</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Quesada</surname>
+                <given-names>V</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing identifies recurrent mutations of the splicing factor SF3B1 gene in chronic lymphocytic leukemia</article-title>
+            <source>Nat Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>47</fpage>
+            <lpage>52</lpage>
+            <pub-id pub-id-type="pmid">22158541</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.1032</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bernards</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>GAPs galore! A survey of putative Ras superfamily GTPase activating proteins in man and Drosophila</article-title>
+            <source>Biochim Biophys Acta</source>
+            <year>2003</year>
+            <volume>1603</volume>
+            <fpage>47</fpage>
+            <lpage>82</lpage>
+            <pub-id pub-id-type="pmid">12618308</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0304-419x(02)00082-3</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hast</surname>
+                <given-names>BE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cancer-derived mutations in KEAP1 impair NRF2 degradation but not ubiquitination</article-title>
+            <source>Cancer Res</source>
+            <year>2014</year>
+            <volume>74</volume>
+            <fpage>808</fpage>
+            <lpage>817</lpage>
+            <pub-id pub-id-type="pmid">24322982</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-13-1655</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3932503</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wan</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Kruppel-like factor 5 is required for perinatal lung morphogenesis and function</article-title>
+            <source>Development</source>
+            <year>2008</year>
+            <volume>135</volume>
+            <fpage>2563</fpage>
+            <lpage>2572</lpage>
+            <pub-id pub-id-type="pmid">18599506</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/dev.021964</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4459582</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhao</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zheng</surname>
+                <given-names>HQ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhou</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>The Fbw7 tumor suppressor targets KLF5 for ubiquitin-mediated degradation and suppresses breast cell proliferation</article-title>
+            <source>Cancer Res</source>
+            <year>2010</year>
+            <volume>70</volume>
+            <fpage>4728</fpage>
+            <lpage>4738</lpage>
+            <pub-id pub-id-type="pmid">20484041</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-10-0040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identification of focally amplified lineage-specific super-enhancers in human epithelial cancers</article-title>
+            <source>Nat Genet</source>
+            <year>2015</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3470</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4857881</pub-id>
+            <pub-id pub-id-type="pmid">26656844</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zack</surname>
+                <given-names>TI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Pan-cancer patterns of somatic copy number alteration</article-title>
+            <source>Nat Genet</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>1134</fpage>
+            <lpage>1140</lpage>
+            <pub-id pub-id-type="pmid">24071852</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2760</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3966983</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Akagi</surname>
+                <given-names>I</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Combination of protein coding and noncoding gene expression as a robust prognostic classifier in stage I lung adenocarcinoma</article-title>
+            <source>Cancer Res</source>
+            <year>2013</year>
+            <volume>73</volume>
+            <fpage>3821</fpage>
+            <lpage>3832</lpage>
+            <pub-id pub-id-type="pmid">23639940</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-13-0031</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6503978</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Saito</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The association of microRNA expression with prognosis and progression in early-stage, non-small cell lung adenocarcinoma: a retrospective analysis of three cohorts</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2011</year>
+            <volume>17</volume>
+            <fpage>1875</fpage>
+            <lpage>1882</lpage>
+            <pub-id pub-id-type="pmid">21350005</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-10-2961</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3477786</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lebanony</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Diagnostic assay based on hsa-miR-205 expression distinguishes squamous from nonsquamous non-small-cell lung carcinoma</article-title>
+            <source>J Clin Oncol</source>
+            <year>2009</year>
+            <volume>27</volume>
+            <fpage>2030</fpage>
+            <lpage>2037</lpage>
+            <pub-id pub-id-type="pmid">19273703</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2008.19.4134</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Oxnard</surname>
+                <given-names>GR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Binder</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Janne</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>New targetable oncogenes in non-small-cell lung cancer</article-title>
+            <source>J Clin Oncol</source>
+            <year>2013</year>
+            <volume>31</volume>
+            <fpage>1097</fpage>
+            <lpage>1104</lpage>
+            <pub-id pub-id-type="pmid">23401445</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2012.42.9829</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3589703</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stransky</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schalm</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lengauer</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>The landscape of kinase fusions in cancer</article-title>
+            <source>Nat Commun</source>
+            <year>2014</year>
+            <volume>5</volume>
+            <fpage>4846</fpage>
+            <pub-id pub-id-type="pmid">25204415</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms5846</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4175590</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gallant</surname>
+                <given-names>JN</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>EGFR Kinase Domain Duplication (EGFR-KDD) Is a Novel Oncogenic Driver in Lung Cancer That Is Clinically Responsive to Afatinib</article-title>
+            <source>Cancer Discov</source>
+            <year>2015</year>
+            <volume>5</volume>
+            <fpage>1155</fpage>
+            <lpage>1163</lpage>
+            <pub-id pub-id-type="pmid">26286086</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-15-0654</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4631701</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ye</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Systematic discovery of complex insertions and deletions in human cancers</article-title>
+            <source>Nat Med</source>
+            <year>2016</year>
+            <volume>22</volume>
+            <fpage>97</fpage>
+            <lpage>104</lpage>
+            <pub-id pub-id-type="pmid">26657142</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.4002</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5003782</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pao</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Girard</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>New driver mutations in non-small-cell lung cancer</article-title>
+            <source>Lancet Oncol</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>175</fpage>
+            <lpage>180</lpage>
+            <pub-id pub-id-type="pmid">21277552</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(10)70087-5</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pao</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hutchinson</surname>
+                <given-names>KE</given-names>
+              </name>
+            </person-group>
+            <article-title>Chipping away at the lung cancer genome</article-title>
+            <source>Nat Med</source>
+            <year>2012</year>
+            <volume>18</volume>
+            <fpage>349</fpage>
+            <lpage>351</lpage>
+            <pub-id pub-id-type="pmid">22395697</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.2697</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stephen</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Esposito</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bagni</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McCormick</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Dragging ras back in the ring</article-title>
+            <source>Cancer Cell</source>
+            <year>2014</year>
+            <volume>25</volume>
+            <fpage>272</fpage>
+            <lpage>281</lpage>
+            <pub-id pub-id-type="pmid">24651010</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2014.02.017</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rajalingam</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schreck</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rapp</surname>
+                <given-names>UR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Albert</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Ras oncogenes and their downstream targets</article-title>
+            <source>Biochim Biophys Acta</source>
+            <year>2007</year>
+            <volume>1773</volume>
+            <fpage>1177</fpage>
+            <lpage>1195</lpage>
+            <pub-id pub-id-type="pmid">17428555</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbamcr.2007.01.012</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lepri</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SOS1 mutations in Noonan syndrome: molecular spectrum, structural insights on pathogenic effects, and genotype-phenotype correlations</article-title>
+            <source>Hum Mutat</source>
+            <year>2011</year>
+            <volume>32</volume>
+            <fpage>760</fpage>
+            <lpage>772</lpage>
+            <pub-id pub-id-type="pmid">21387466</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/humu.21492</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3118925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Swanson</surname>
+                <given-names>KD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SOS1 mutations are rare in human malignancies: implications for Noonan Syndrome patients</article-title>
+            <source>Genes Chromosomes Cancer</source>
+            <year>2008</year>
+            <volume>47</volume>
+            <fpage>253</fpage>
+            <lpage>259</lpage>
+            <pub-id pub-id-type="pmid">18064648</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/gcc.20527</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yu</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Structural and energetic mechanisms of cooperative autoinhibition and activation of Vav1</article-title>
+            <source>Cell</source>
+            <year>2010</year>
+            <volume>140</volume>
+            <fpage>246</fpage>
+            <lpage>256</lpage>
+            <pub-id pub-id-type="pmid">20141838</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2009.12.033</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2825156</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shan</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Concurrence of EGFR amplification and sensitizing mutations indicate a better survival benefit from EGFR-TKI therapy in lung adenocarcinoma patients</article-title>
+            <source>Lung Cancer</source>
+            <year>2015</year>
+            <volume>89</volume>
+            <fpage>337</fpage>
+            <lpage>342</lpage>
+            <pub-id pub-id-type="pmid">26141217</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.lungcan.2015.06.008</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sholl</surname>
+                <given-names>LM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Lung adenocarcinoma with EGFR amplification has distinct clinicopathologic and molecular features in never-smokers</article-title>
+            <source>Cancer Res</source>
+            <year>2009</year>
+            <volume>69</volume>
+            <fpage>8341</fpage>
+            <lpage>8348</lpage>
+            <pub-id pub-id-type="pmid">19826035</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-2477</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2783286</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Metabolic and functional genomic studies identify deoxythymidylate kinase as a target in LKB1-mutant lung cancer</article-title>
+            <source>Cancer Discov</source>
+            <year>2013</year>
+            <volume>3</volume>
+            <fpage>870</fpage>
+            <lpage>879</lpage>
+            <pub-id pub-id-type="pmid">23715154</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-0015</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3753578</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>HS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Systematic identification of molecular subtype-selective vulnerabilities in non-small-cell lung cancer</article-title>
+            <source>Cell</source>
+            <year>2013</year>
+            <volume>155</volume>
+            <fpage>552</fpage>
+            <lpage>566</lpage>
+            <pub-id pub-id-type="pmid">24243015</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2013.09.041</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3836195</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Brahmer</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Nivolumab versus Docetaxel in Advanced Squamous-Cell Non-Small-Cell Lung Cancer</article-title>
+            <source>N Engl J Med</source>
+            <year>2015</year>
+            <volume>373</volume>
+            <fpage>123</fpage>
+            <lpage>135</lpage>
+            <pub-id pub-id-type="pmid">26028407</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1504627</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4681400</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rizvi</surname>
+                <given-names>NA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <collab>Cancer immunology</collab>
+            <article-title>Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer</article-title>
+            <source>Science</source>
+            <year>2015</year>
+            <volume>348</volume>
+            <fpage>124</fpage>
+            <lpage>128</lpage>
+            <pub-id pub-id-type="pmid">25765070</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aaa1348</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4993154</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shukla</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive analysis of cancer-associated somatic mutations in class I HLA genes</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2015</year>
+            <volume>33</volume>
+            <fpage>1152</fpage>
+            <lpage>1158</lpage>
+            <pub-id pub-id-type="pmid">26372948</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.3344</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4747795</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gubin</surname>
+                <given-names>MM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Checkpoint blockade cancer immunotherapy targets tumour-specific mutant antigens</article-title>
+            <source>Nature</source>
+            <year>2014</year>
+            <volume>515</volume>
+            <fpage>577</fpage>
+            <lpage>581</lpage>
+            <pub-id pub-id-type="pmid">25428507</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13988</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4279952</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hoadley</surname>
+                <given-names>KA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Multiplatform analysis of 12 cancer types reveals molecular classification within and across tissues of origin</article-title>
+            <source>Cell</source>
+            <year>2014</year>
+            <volume>158</volume>
+            <fpage>929</fpage>
+            <lpage>944</lpage>
+            <pub-id pub-id-type="pmid">25109877</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2014.06.049</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4152462</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Intratumor heterogeneity in localized lung adenocarcinomas delineated by multiregion sequencing</article-title>
+            <source>Science</source>
+            <year>2014</year>
+            <volume>346</volume>
+            <fpage>256</fpage>
+            <lpage>259</lpage>
+            <pub-id pub-id-type="pmid">25301631</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1256930</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4354858</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>de Bruin</surname>
+                <given-names>EC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Spatial and temporal diversity in genomic instability processes defines lung cancer evolution</article-title>
+            <source>Science</source>
+            <year>2014</year>
+            <volume>346</volume>
+            <fpage>251</fpage>
+            <lpage>256</lpage>
+            <pub-id pub-id-type="pmid">25301630</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1253462</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4636050</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Peifer</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative genome analyses identify key somatic driver mutations of small-cell lung cancer</article-title>
+            <source>Nat Genet</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>1104</fpage>
+            <lpage>1110</lpage>
+            <pub-id pub-id-type="pmid">22941188</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2396</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4915822</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+      <ref-list>
+        <title>Methods-only references</title>
+        <ref id="R52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>DePristo</surname>
+                <given-names>MA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A framework for variation discovery and genotyping using next-generation DNA sequencing data</article-title>
+            <source>Nat Genet</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>491</fpage>
+            <lpage>498</lpage>
+            <pub-id pub-id-type="pmid">21478889</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.806</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3083463</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>ContEst: estimating cross-contamination of human samples in next-generation sequencing data</article-title>
+            <source>Bioinformatics</source>
+            <year>2011</year>
+            <volume>27</volume>
+            <fpage>2601</fpage>
+            <lpage>2602</lpage>
+            <pub-id pub-id-type="pmid">21803805</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr446</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3167057</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Carter</surname>
+                <given-names>SL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Absolute quantification of somatic DNA alterations in human cancer</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2012</year>
+            <volume>30</volume>
+            <fpage>413</fpage>
+            <lpage>421</lpage>
+            <pub-id pub-id-type="pmid">22544022</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2203</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4383288</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2013</year>
+            <volume>31</volume>
+            <fpage>213</fpage>
+            <lpage>219</lpage>
+            <pub-id pub-id-type="pmid">23396013</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2514</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3833702</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Olshen</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Venkatraman</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lucito</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wigler</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Circular binary segmentation for the analysis of array-based DNA copy number data</article-title>
+            <source>Biostatistics</source>
+            <year>2004</year>
+            <volume>5</volume>
+            <fpage>557</fpage>
+            <lpage>572</lpage>
+            <pub-id pub-id-type="pmid">15475419</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/biostatistics/kxh008</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mermel</surname>
+                <given-names>CH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</article-title>
+            <source>Genome Biol</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>R41</fpage>
+            <pub-id pub-id-type="pmid">21527027</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2011-12-4-r41</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3218867</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R58">
+          <label>58</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MapSplice: accurate mapping of RNA-seq reads for splice junction discovery</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2010</year>
+            <volume>38</volume>
+            <fpage>e178</fpage>
+            <pub-id pub-id-type="pmid">20802226</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkq622</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2952873</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dewey</surname>
+                <given-names>CN</given-names>
+              </name>
+            </person-group>
+            <article-title>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</article-title>
+            <source>BMC Bioinformatics</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>323</fpage>
+            <pub-id pub-id-type="pmid">21816040</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-12-323</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3163565</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R60">
+          <label>60</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Brooks</surname>
+                <given-names>AN</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Conservation of an RNA regulatory map between Drosophila and mammals</article-title>
+            <source>Genome Res</source>
+            <year>2011</year>
+            <volume>21</volume>
+            <fpage>193</fpage>
+            <lpage>202</lpage>
+            <pub-id pub-id-type="pmid">20921232</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.108662.110</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3032923</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R61">
+          <label>61</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yoshihara</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The landscape and therapeutic relevance of cancer-associated transcript fusions</article-title>
+            <source>Oncogene</source>
+            <year>2014</year>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2014.406</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4468049</pub-id>
+            <pub-id pub-id-type="pmid">25500544</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R62">
+          <label>62</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Torres-Garcia</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PRADA: pipeline for RNA sequencing data analysis</article-title>
+            <source>Bioinformatics</source>
+            <year>2014</year>
+            <volume>30</volume>
+            <fpage>2224</fpage>
+            <lpage>2226</lpage>
+            <pub-id pub-id-type="pmid">24695405</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btu169</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4103589</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R63">
+          <label>63</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alberts</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <source>Molecular biology of the cell</source>
+            <year>2002</year>
+            <publisher-loc>New York</publisher-loc>
+            <publisher-name>Garland Science</publisher-name>
+            <fpage>1548</fpage>
+            <comment>xxxiv</comment>
+          </element-citation>
+        </ref>
+        <ref id="R64">
+          <label>64</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nielsen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lundegaard</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lund</surname>
+                <given-names>O</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kesmir</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of the proteasome in generating cytotoxic T-cell epitopes: insights obtained from improved predictions of proteasomal cleavage</article-title>
+            <source>Immunogenetics</source>
+            <year>2005</year>
+            <volume>57</volume>
+            <fpage>33</fpage>
+            <lpage>41</lpage>
+            <pub-id pub-id-type="pmid">15744535</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00251-005-0781-7</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R65">
+          <label>65</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nielsen</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Reliable prediction of T-cell epitopes using neural networks with novel sequence representations</article-title>
+            <source>Protein Sci</source>
+            <year>2003</year>
+            <volume>12</volume>
+            <fpage>1007</fpage>
+            <lpage>1017</lpage>
+            <pub-id pub-id-type="pmid">12717023</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1110/ps.0239403</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2323871</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R66">
+          <label>66</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hoof</surname>
+                <given-names>I</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>NetMHCpan, a method for MHC class I binding prediction beyond humans</article-title>
+            <source>Immunogenetics</source>
+            <year>2009</year>
+            <volume>61</volume>
+            <fpage>1</fpage>
+            <lpage>13</lpage>
+            <pub-id pub-id-type="pmid">19002680</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00251-008-0341-z</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3319061</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R67">
+          <label>67</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Peters</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sette</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Generating quantitative models describing the sequence specificity of biological processes with the stabilized matrix method</article-title>
+            <source>BMC Bioinformatics</source>
+            <year>2005</year>
+            <volume>6</volume>
+            <fpage>132</fpage>
+            <pub-id pub-id-type="pmid">15927070</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-6-132</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1173087</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R68">
+          <label>68</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sidney</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pinilla</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sette</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Peters</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Derivation of an amino acid similarity matrix for peptide: MHC binding and its application as a Bayesian prior</article-title>
+            <source>BMC Bioinformatics</source>
+            <year>2009</year>
+            <volume>10</volume>
+            <fpage>394</fpage>
+            <pub-id pub-id-type="pmid">19948066</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-10-394</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2790471</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+      <app-group>
+        <app id="APP1">
+          <title>Collaborators</title>
+          <p id="P44">Jean C. Zenklusen, Jiashan Zhang, Ina Felau, John A. Demchok, Liming Yang, Zhining Wang, Martin L. Ferguson, Roy Tarnuzzer, Carolyn M. Hutter, Heidi J. Sofia, Todd Pihl, Yunhu Wan, Sudha Chudamani, Jia Liu, Charlie Sun, Rashi Naresh, Laxmi Lolla, Ye Wu, Chad J. Creighton, W. Kimryn Rathmell, J. Todd Auman, Saianand Balu, Tom Bodenheimer, D. Neil Hayes, Katherine A. Hoadley, Alan P. Hoyle, Corbin D. Jones, Stuart R. Jefferys, Shaowu Meng, Piotr A. Mieczkowski, Lisle E. Mose, Charles M. Perou, Jeffrey Roach, Yan Shi, Janae V. Simons, Tara Skelly, Matthew G. Soloway, Donghui Tan, Junyuan Wu, Umadevi Veluvolu, Joel S. Parker, Matthew D. Wilkerson, Lori Boice, Mei Huang, Leigh B. Thorne, Gad Getz, Michael S. Noble, Hailei Zhang, David I. Heiman, Juok Cho, Nils Gehlenborg, Gordon Saksena, Doug Voet, Pei Lin, Scott Frazer, Jaegil Kim, Michael S. Lawrence, Lynda Chin, Ming-Sound Tsao, Frances Allison, Dianne Chadwick, Thomas Muley, Michael Meister, Hendrik Dienemann, Raju Kucherlapati, Peter Park, Jay Bowen, Julie M. Gastier-Foster, Mark Gerken, Kristen M. Leraas, Tara M. Lichtenberg, Nilsa C. Ramirez, Lisa Wise, Erik Zmuda, Josh Stuart, Eric Collisson, Martin Peifer, David Kwiatkowski, Joshua D. Campbell, Bradley A. Murray, Andrew D. Cherniack, Alice H. Berger, Carrie Sougnez, Gordon Saksena, Steven E. Schumacher, Juliann Shih, Rameen Beroukhim, Travis I. Zack, Stacey B. Gabriel, Matthew Meyerson, Lauren A. Byers, Tanja Davidsen, Peter W. Laird, Daniel J. Weisenberger, David J. Van Den Berg, Moiz S. Bootwalla, Phillip H. Lai, Dennis T. Maglinte, Stephen B. Baylin, James G. Herman, Ludmila Danilova, Leslie Cope, Daniel J. Crain, Erin Curley, Johanna Gardner, Kevin Lau, David Mallery, Scott Morris, Joeseph Paulauskis, Robert Penny, Candace Shelton, Troy Shelton, Mark Sherman, Peggy Yena</p>
+        </app>
+      </app-group>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title>Distinct somatic alterations in lung ADC and SqCC</title>
+          <p id="P45"><bold>(a)</bold> The MutSig2CV algorithm<sup><xref rid="R10" ref-type="bibr">10</xref></sup> was used to identify significantly mutated genes across 660 lung ADCs and 484 lung SqCCs. Genes with <italic toggle="yes">q</italic>-values &lt; 0.1 were considered significant. The <italic toggle="yes">q</italic>-value for each gene in the lung ADC cohort is plotted against its respective <italic toggle="yes">q</italic>-value in the lung SqCC cohort. The majority of significantly mutated genes were unique to either tumor type. The GISTIC2.0 algorithm was used to identify significantly recurrent copy number gains and losses. The <italic toggle="yes">q</italic>-values for <bold>(b)</bold> amplifications and <bold>(c)</bold> deletions in the lung ADC cohort are plotted against the <italic toggle="yes">q</italic>-values in the lung SqCC cohort. Peaks with <italic toggle="yes">q</italic>-values &lt; 0.25 were considered significant. Deletions located within putative fragile sites are indicated with green labels. Only points from previously characterized lung cancer genes are labeled. N.S. = Not Significant.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f1.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <title>Comparison of mutational signatures in lung cancer</title>
+          <p id="P46">Six mutational signatures were identified using non-negative matrix factorization (NMF) on 192 distinct mutation types. <bold>(a)</bold> The estimated number of SI4 (smoking-related) mutations per Mb within each tumor displayed a bimodal pattern in lung ADC (red). <bold>(b)</bold> Lung ADCs categorized as transversion-low (TV-L) were enriched in clinically-annotated life-long never smokers (p = 8.5 × 10<sup>−37</sup>). <bold>(c)</bold> The estimated number of mutations for each signature per Mb (top) or the fraction of estimated mutations for each signature (bottom) was averaged across life-long never smokers (NS), longer-term former smokers (LFS), shorter-term former smokers (SFS), and current smokers (CS) for both lung ADCs and lung SqCCs (excluding UV-High and MMR-High tumors discussed below). <bold>(d)</bold> Three lung SqCCs had a high number of estimated mutations from a UV-associated signature commonly observed in melanoma. These tumors displayed a significantly higher overall rate of SSNVs and DNPs compared to all other lung tumors (p &lt; 0.01). <bold>(e)</bold> Mutational profiles for another 7 tumors exhibited an MMR-like signature commonly observed in MSI colorectal carcinomas. These tumors had significantly higher rates of both SSNVs and short indels (p &lt; 0.001), as well as lower levels of MHL1 expression (p = 0.011). Asterisks indicate significance level from a Wilcoxon rank-sum test (*p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001). Boxplots show median (middle bar), 1<sup>st</sup> quartile (bottom of box), 3<sup>rd</sup> quartile (top of box). Boxplot whiskers demark 1.5 times the interquartile range or minimum/maximum value.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f2.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <title>Significantly mutated genes in lung cancer compared to other cancer types</title>
+          <p id="P47"><bold>(a)</bold> The <italic toggle="yes">q</italic>-value for each significantly mutated gene in the lung ADC cohort is plotted against the best <italic toggle="yes">q</italic>-value for the same gene from 19 other tumor types from a Pan-Cancer study<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. <bold>(b)</bold> The <italic toggle="yes">q</italic>-values from the lung SqCC cohort were similarly compared to the other tumor types excluding head and neck squamous cell (HNSC) and bladder urothelial carcinomas (BLCA). Size of the point is proportional to the frequency of mutations in the gene. The color of the point indicates enrichment for mutation clustering defined by MutSig2CV (−log10 pCL) and/or enrichment for loss-of-function mutations (−log10 p-value from a Fisher’s exact test, Online Methods). Black circles in the lower quadrant indicate genes significant in another cancer type but not in lung ADC and/or lung SqCC.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f3.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <title>Novel significantly mutated genes in lung cancer</title>
+          <p id="P48">Mutation profiles of novel genes specific to each lung tumor type include <bold>(a)</bold>
+<italic toggle="yes">PPP3CA, DOT1L</italic>, and <italic toggle="yes">FTSJD1</italic> in lung ADC and <bold>(b)</bold>
+<italic toggle="yes">RASA1</italic> and <italic toggle="yes">CUL3</italic> in lung SqCC. <bold>(c)</bold> Combined analysis of both tumor types (Pan-Lung) revealed additional significantly mutated genes with hotspots including <italic toggle="yes">KLF5</italic> and two paralogs, <italic toggle="yes">EP300</italic> and <italic toggle="yes">CREBBP</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f4.jpg"/>
+      </fig>
+      <fig id="F5" orientation="portrait" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <title>Significant amplifications in lung cancer</title>
+          <p id="P49"><bold>(a)</bold> The <italic toggle="yes">q</italic>-value for amplifications in lung ADC are plotted against the best q-value for the same gene across 9 other non-lung tumor types<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. <bold>(b)</bold> The <italic toggle="yes">q</italic>-values for amplifications in lung SqCC are compared against 7 other tumor types excluding HNSC and BLCA. Size of the point is proportional to the frequency of focal alterations. Brackets around gene names indicate that the most likely target gene was inferred from Pan-Cancer copy number analysis across 11 tumor types or from the combined Pan-Lung copy number analysis. Black circles in the lower quadrant indicate genes significantly altered in another cancer type but not in lung ADC and/or lung SqCC. Gene expression is plotted against focal copy number ratios for novel amplification peaks that include <bold>(c)</bold>
+<italic toggle="yes">CCND3, MIR21</italic>, and <italic toggle="yes">MAPK1</italic> in lung ADC and <bold>(d)</bold>
+<italic toggle="yes">YES1, MIR205</italic>, and <italic toggle="yes">MAPK1</italic> in lung SqCC.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f5.jpg"/>
+      </fig>
+      <fig id="F6" orientation="portrait" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <title>Fusions in <italic toggle="yes">MET</italic> and <italic toggle="yes">NTRK2</italic></title>
+          <p id="P50">Two fusions in <italic toggle="yes">MET</italic> were identified which retained the receptor tyrosine kinase domain including one with its neighboring gene, <italic toggle="yes">CAPZA2</italic>. This fusion mostly likely arose via tandem duplication resulting in the 3’ end of <italic toggle="yes">MET</italic> being fused with the 5’ end of <italic toggle="yes">CAPZA2</italic>. Previously reported <italic toggle="yes">TRIM24, NTRK2</italic> and <italic toggle="yes">KIF5B-MET</italic> fusions<sup><xref rid="R30" ref-type="bibr">30</xref></sup> were observed in lung ADCs without other known Ras/Raf/RTK activating alterations. Another <italic toggle="yes">NTRK2</italic> fusion with <italic toggle="yes">TP63</italic> was also found in a lung SqCC. The expression of exons retained in the putative fusion transcript was relatively higher than the expression of exons not in the putative fusion transcript (as indicated by the grey box).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f6.jpg"/>
+      </fig>
+      <fig id="F7" orientation="portrait" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <title>Novel alterations in the Ras/Raf/Rho/RTK pathway in lung ADC</title>
+          <p id="P51">Lung ADCs were classified as “oncogene positive” if they contained a known activating or recurrent alteration in previously characterized pathway members and classified as “oncogene negative” otherwise. <bold>(a)</bold> Mutations from 15 genes (red points) were significantly enriched among oncogene negative tumors (Fisher’s exact test; FDR <italic toggle="yes">q</italic>-value &lt; 0.1; Supplementary Table 23). A log odds ratio (LOR) greater than zero indicates that the frequency of mutations was higher in the oncogene negative set. <bold>(B)</bold> Significant amplification peaks near <italic toggle="yes">FGFR1/WHSC1L1, PDGFRA/KIT/KDR</italic>, and <italic toggle="yes">MAPK1</italic> were only found in the oncogene negative tumor set using GISTIC2.0 (<italic toggle="yes">q</italic>-value &lt; 0.25). <bold>(c)</bold> Co-mutation plot for known and novel activators of this pathway. Tumors were considered to have high amplification for a given gene if they had a total log<sub>2</sub> copy number ratio greater than 1. For genes with gain-of-function SSNVs or indels, only recurrently mutated sites or sites with previous experimental functional evidence are included. Novel oncogene negative enriched genes that are members of the Ras/Raf/Rho/RTK pathway are indicated with red labels in all panels.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f7.jpg"/>
+      </fig>
+      <fig id="F8" orientation="portrait" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <title>Neoepitope load in lung cancer</title>
+          <p id="P52">The immunogenicity of each missense mutation was predicted after inferring HLA alleles within each tumor with available RNA-seq data (n=971). <bold>(a)</bold> Nonsynonymous mutation counts and <bold>(b)</bold> neoepitope counts were not significantly different between ever smokers from lung ADCs and lung SqCCs (p &gt; 0.05). However, these counts were significantly lower in lung ADCs from never smokers compared to lung ADCs from ever smokers (p &lt; 0.001). <bold>(c)</bold> Some of the most common mutations predicted to be neoepitopes included <italic toggle="yes">TP53</italic> p.V157F, <italic toggle="yes">PIK3CA</italic> p.E542K and <italic toggle="yes">C3orf59</italic> p.Q311E.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms777795f8.jpg"/>
+      </fig>
+    </floats-group>
+  </article>
+</pmc-articleset>

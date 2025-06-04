@@ -1,0 +1,624 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Blood Cancer Discov</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Blood Cancer Discov</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">4090</journal-id>
+        <journal-id journal-id-type="pmc-domain">bcd</journal-id>
+        <journal-title-group>
+          <journal-title>Blood Cancer Discovery</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">2643-3230</issn>
+        <issn pub-type="epub">2643-3249</issn>
+        <publisher>
+          <publisher-name>American Association for Cancer Research</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC10150291</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC10150291.1</article-id>
+        <article-id pub-id-type="pmcaid">10150291</article-id>
+        <article-id pub-id-type="pmcaiid">10150291</article-id>
+        <article-id pub-id-type="pmid">36723991</article-id>
+        <article-id pub-id-type="doi">10.1158/2643-3230.BCD-22-0128</article-id>
+        <article-id pub-id-type="publisher-id">BCD-22-0128</article-id>
+        <article-version-alternatives>
+          <article-version article-version-type="pmc-version">1</article-version>
+          <article-version id="ver1" article-version-type="VoR">Version of Record</article-version>
+        </article-version-alternatives>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Research Articles</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Molecular Evolution of Classic Hodgkin Lymphoma Revealed Through Whole-Genome Sequencing of Hodgkin and Reed Sternberg Cells</article-title>
+          <alt-title alt-title-type="short">Molecular Evolution of Hodgkin Lymphoma</alt-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5017-1620</contrib-id>
+            <name name-style="western">
+              <surname>Maura</surname>
+              <given-names initials="F">Francesco</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="cor1" ref-type="corresp">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2746-0053</contrib-id>
+            <name name-style="western">
+              <surname>Ziccheddu</surname>
+              <given-names initials="B">Bachisio</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0484-2769</contrib-id>
+            <name name-style="western">
+              <surname>Xiang</surname>
+              <given-names initials="JZ">Jenny Z.</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6685-8761</contrib-id>
+            <name name-style="western">
+              <surname>Bhinder</surname>
+              <given-names initials="B">Bhavneet</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8610-370X</contrib-id>
+            <name name-style="western">
+              <surname>Rosiene</surname>
+              <given-names initials="J">Joel</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6201-1587</contrib-id>
+            <name name-style="western">
+              <surname>Abascal</surname>
+              <given-names initials="F">Federico</given-names>
+            </name>
+            <xref rid="aff4" ref-type="aff">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7873-4854</contrib-id>
+            <name name-style="western">
+              <surname>Maclachlan</surname>
+              <given-names initials="KH">Kylee H.</given-names>
+            </name>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3404-3610</contrib-id>
+            <name name-style="western">
+              <surname>Eng</surname>
+              <given-names initials="KW">Kenneth Wha</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3628-1716</contrib-id>
+            <name name-style="western">
+              <surname>Uppal</surname>
+              <given-names initials="M">Manik</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6872-7586</contrib-id>
+            <name name-style="western">
+              <surname>He</surname>
+              <given-names initials="F">Feng</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6129-0772</contrib-id>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="W">Wei</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1054-4418</contrib-id>
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="Q">Qi</given-names>
+            </name>
+            <xref rid="aff6" ref-type="aff">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1592-7741</contrib-id>
+            <name name-style="western">
+              <surname>Yellapantula</surname>
+              <given-names initials="VD">Venkata D.</given-names>
+            </name>
+            <xref rid="aff5" ref-type="aff">5</xref>
+            <xref rid="aff7" ref-type="aff">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7642-6954</contrib-id>
+            <name name-style="western">
+              <surname>Trujillo-Alonso</surname>
+              <given-names initials="V">Vicenta</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8606-0519</contrib-id>
+            <name name-style="western">
+              <surname>Park</surname>
+              <given-names initials="SI">Sunita I.</given-names>
+            </name>
+            <xref rid="aff8" ref-type="aff">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6419-2513</contrib-id>
+            <name name-style="western">
+              <surname>Oberley</surname>
+              <given-names initials="MJ">Matthew J.</given-names>
+            </name>
+            <xref rid="aff9" ref-type="aff">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0985-1309</contrib-id>
+            <name name-style="western">
+              <surname>Ruckdeschel</surname>
+              <given-names initials="E">Elizabeth</given-names>
+            </name>
+            <xref rid="aff10" ref-type="aff">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0415-2867</contrib-id>
+            <name name-style="western">
+              <surname>Lim</surname>
+              <given-names initials="MS">Megan S.</given-names>
+            </name>
+            <xref rid="aff11" ref-type="aff">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1585-846X</contrib-id>
+            <name name-style="western">
+              <surname>Wertheim</surname>
+              <given-names initials="GB">Gerald B.</given-names>
+            </name>
+            <xref rid="aff11" ref-type="aff">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5263-9509</contrib-id>
+            <name name-style="western">
+              <surname>Barth</surname>
+              <given-names initials="MJ">Matthew J.</given-names>
+            </name>
+            <xref rid="aff12" ref-type="aff">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8293-4242</contrib-id>
+            <name name-style="western">
+              <surname>Horton</surname>
+              <given-names initials="TM">Terzah M.</given-names>
+            </name>
+            <xref rid="aff13" ref-type="aff">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2178-8493</contrib-id>
+            <name name-style="western">
+              <surname>Derkach</surname>
+              <given-names initials="A">Andriy</given-names>
+            </name>
+            <xref rid="aff14" ref-type="aff">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6742-6749</contrib-id>
+            <name name-style="western">
+              <surname>Kovach</surname>
+              <given-names initials="AE">Alexandra E.</given-names>
+            </name>
+            <xref rid="aff15" ref-type="aff">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2246-1206</contrib-id>
+            <name name-style="western">
+              <surname>Forlenza</surname>
+              <given-names initials="CJ">Christopher J.</given-names>
+            </name>
+            <xref rid="aff6" ref-type="aff">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6138-6080</contrib-id>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="Y">Yanming</given-names>
+            </name>
+            <xref rid="aff6" ref-type="aff">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6485-4839</contrib-id>
+            <name name-style="western">
+              <surname>Landgren</surname>
+              <given-names initials="O">Ola</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9189-3152</contrib-id>
+            <name name-style="western">
+              <surname>Moskowitz</surname>
+              <given-names initials="CH">Craig H.</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3303-6299</contrib-id>
+            <name name-style="western">
+              <surname>Cesarman</surname>
+              <given-names initials="E">Ethel</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2211-4741</contrib-id>
+            <name name-style="western">
+              <surname>Imielinski</surname>
+              <given-names initials="M">Marcin</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <xref rid="aff3" ref-type="aff">3</xref>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8061-9617</contrib-id>
+            <name name-style="western">
+              <surname>Elemento</surname>
+              <given-names initials="O">Olivier</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9585-0790</contrib-id>
+            <name name-style="western">
+              <surname>Roshal</surname>
+              <given-names initials="M">Mikhail</given-names>
+            </name>
+            <xref rid="aff6" ref-type="aff">6</xref>
+            <xref rid="cor1" ref-type="corresp">*</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6040-8644</contrib-id>
+            <name name-style="western">
+              <surname>Giulino-Roth</surname>
+              <given-names initials="L">Lisa</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <xref rid="cor1" ref-type="corresp">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="aff1">
+<label>1</label>Sylvester Comprehensive Cancer Center, University of Miami, Miami, Florida.</aff>
+        <aff id="aff2">
+<label>2</label>Weill Cornell Medical College, New York, New York.</aff>
+        <aff id="aff3">
+<label>3</label>Englander Institute for Precision Medicine, Institute for Computational Biomedicine, and Meyer Cancer Center, Weill Cornell Medical College, New York, New York.</aff>
+        <aff id="aff4">
+<label>4</label>The Cancer, Ageing and Somatic Mutation Programme, Wellcome Sanger Institute, Hinxton, United Kingdom.</aff>
+        <aff id="aff5">
+<label>5</label>Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff6">
+<label>6</label>Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff7">
+<label>7</label>Department of Pathology and Laboratory Medicine at Children's Hospital Los Angeles, Los Angeles, California.</aff>
+        <aff id="aff8">
+<label>8</label>Department of Pathology, Children's Hospital of Atlanta, Atlanta, Georgia.</aff>
+        <aff id="aff9">
+<label>9</label>Caris Life Sciences, Phoenix, Arizona.</aff>
+        <aff id="aff10">
+<label>10</label>Department of Pathology, Upstate Medical University, Syracuse, New York.</aff>
+        <aff id="aff11">
+<label>11</label>Department of Pathology, Children's Hospital of Philadelphia, Philadelphia, Philadelphia.</aff>
+        <aff id="aff12">
+<label>12</label>Department of Pediatrics, Roswell Park Comprehensive Cancer Center, Buffalo, New York.</aff>
+        <aff id="aff13">
+<label>13</label>Department of Pediatrics, Baylor College of Medicine, Houston, Texas.</aff>
+        <aff id="aff14">
+<label>14</label>Department of Epidemiology and Statistics, Memorial Sloan Kettering Cancer Center, New York, New York.</aff>
+        <aff id="aff15">
+<label>15</label>Children's Hospital of Los Angeles, Los Angeles, California.</aff>
+        <author-notes>
+          <corresp id="cor1"><label>*</label><bold>Corresponding Authors:</bold> Lisa Giulino-Roth, Pediatrics, Weill Cornell Medicine, 525 East 68th Street, Payson 695, New York, NY 10065. Phone: 212-746-3494; E-mail: <email>lgr2002@med.cornell.edu</email>; Francesco Maura, Sylvester Comprehensive Cancer Center, University of Miami, 1120 NW 14th Avenue, Clinical Research Building, Miami, FL 33136. Phone: 305-243-7687; E-mail: <email>fxm557@med.miami.edu</email>; and Mikhail Roshal, 1275 York Avenue, Suite C563, New York, NY 10065. Phone: 212-639-6091; E-mail: <email>roshalm@mskcc.org</email></corresp>
+          <fn fn-type="other">
+            <p>Blood Cancer Discov 2023;4:208–27</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="ppub" iso-8601-date="2023-05-01">
+          <day>01</day>
+          <month>5</month>
+          <year>2023</year>
+        </pub-date>
+        <pub-date pub-type="epub" iso-8601-date="2023-01-31">
+          <day>31</day>
+          <month>1</month>
+          <year>2023</year>
+        </pub-date>
+        <volume>4</volume>
+        <issue>3</issue>
+        <issue-id pub-id-type="pmc-issue-id">434680</issue-id>
+        <fpage>208</fpage>
+        <lpage>227</lpage>
+        <history>
+          <date date-type="received" iso-8601-date="2022-08-08">
+            <day>08</day>
+            <month>8</month>
+            <year>2022</year>
+          </date>
+          <date date-type="rev-recd" iso-8601-date="2022-11-21">
+            <day>21</day>
+            <month>11</month>
+            <year>2022</year>
+          </date>
+          <date date-type="accepted" iso-8601-date="2023-01-26">
+            <day>26</day>
+            <month>1</month>
+            <year>2023</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>01</day>
+              <month>11</month>
+              <year>2023</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>11</month>
+              <year>2023</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-09-16 22:25:15.310">
+              <day>16</day>
+              <month>09</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>©2023 American Association for Cancer Research</copyright-statement>
+          <copyright-year>2023</copyright-year>
+          <copyright-holder>American Association for Cancer Research</copyright-holder>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="208.pdf"/>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="208.pdf"/>
+        <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="commentary" xml:lang="en" xlink:title="in-brief" journal-id="Blood Cancer Discov" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10150293">
+          <article-title>Highlighted research articles</article-title>
+          <volume>4</volume>
+          <issue>3</issue>
+          <date>
+            <day>1</day>
+            <month>5</month>
+            <year>2023</year>
+          </date>
+          <fpage>171</fpage>
+          <lpage>171</lpage>
+          <source>Blood Cancer Discovery</source>
+          <pub-id pub-id-type="doi">10.1158/2643-3230.BCD-4-3-ITI</pub-id>
+          <pub-id pub-id-type="pmcid">PMC10150293</pub-id>
+        </related-article>
+        <abstract abstract-type="teaser">
+          <p>Whole-genome sequencing of Hodgkin lymphoma identifies driver events and reconstructs their acquisition timing during B-cell ontogenesis and oncogenesis.</p>
+        </abstract>
+        <abstract>
+          <title>Abstract</title>
+          <p>The rarity of malignant Hodgkin and Reed Sternberg (HRS) cells in classic Hodgkin lymphoma (cHL) limits the ability to study the genomics of cHL. To circumvent this, our group has previously optimized fluorescence-activated cell sorting to purify HRS cells. Using this approach, we now report the whole-genome sequencing landscape of HRS cells and reconstruct the chronology and likely etiology of pathogenic events leading to cHL. We identified alterations in driver genes not previously described in cHL, APOBEC mutational activity, and the presence of complex structural variants including chromothripsis. We found that high ploidy in cHL is often acquired through multiple, independent chromosomal gains events including whole-genome duplication. Evolutionary timing analyses revealed that structural variants enriched for RAG motifs, driver mutations in <italic toggle="yes">B2M, BCL7A, GNA13</italic>, and <italic toggle="yes">PTPN1</italic>, and the onset of AID-driven mutagenesis usually preceded large chromosomal gains. This study provides a temporal reconstruction of cHL pathogenesis.</p>
+          <sec>
+            <title>Significance:</title>
+            <p>Previous studies in cHL were limited to coding sequences and therefore not able to comprehensively decipher the tumor complexity. Here, leveraging cHL whole-genome characterization, we identify driver events and reconstruct the tumor evolution, finding that structural variants, driver mutations, and AID mutagenesis precede chromosomal gains.</p>
+            <p>
+<italic toggle="yes">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://aacrjournals.org/bloodcancerdiscov/article/doi/10.1158/2643-3230.BCD-4-3-ITI" ext-link-type="uri" xlink:show="new">This article is highlighted in the In This Issue feature, p. 171</ext-link>
+</italic>
+</p>
+          </sec>
+        </abstract>
+        <funding-group>
+          <award-group id="funding-1">
+            <funding-source>
+              <institution-wrap>
+                <institution>National Cancer Institute (NCI)</institution>
+                <institution-id>https://doi.org/10.13039/100000054</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <award-id>K08CA219473</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Giulino-Roth</surname>
+                <given-names>L.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-2">
+            <funding-source>
+              <institution-wrap>
+                <institution>National Cancer Institute (NCI)</institution>
+                <institution-id>https://doi.org/10.13039/100000054</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30 CA008743</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Maura</surname>
+                <given-names>F.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-3">
+            <funding-source>
+              <institution-wrap>
+                <institution>National Cancer Institute (NCI)</institution>
+                <institution-id>https://doi.org/10.13039/100000054</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30 CA240139</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Maura</surname>
+                <given-names>F.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-4">
+            <funding-source>
+              <institution-wrap>
+                <institution>Hartwell Foundation (The Hartwell Foundation)</institution>
+                <institution-id>https://doi.org/10.13039/100006792</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Giulino-Roth</surname>
+                <given-names>L.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-5">
+            <funding-source>
+              <institution-wrap>
+                <institution>The Children's Oncology Group</institution>
+                <institution-id>https://doi.org/10.13039/</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Giulino-Roth</surname>
+                <given-names>L.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-6">
+            <funding-source>
+              <institution-wrap>
+                <institution>American Society of Hematology (ASH)</institution>
+                <institution-id>https://doi.org/10.13039/100001422</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Giulino-Roth</surname>
+                <given-names>L.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-7">
+            <funding-source>
+              <institution-wrap>
+                <institution>Gant Family Foundation</institution>
+                <institution-id>https://doi.org/10.13039/</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Giulino-Roth</surname>
+                <given-names>L.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+          <award-group id="funding-8">
+            <funding-source>
+              <institution-wrap>
+                <institution>Riney Family Foundation</institution>
+                <institution-id>https://doi.org/10.13039/</institution-id>
+              </institution-wrap>
+            </funding-source>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Maura</surname>
+                <given-names>F.</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <counts>
+          <page-count count="20"/>
+        </counts>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,787 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">981</journal-id>
+        <journal-id journal-id-type="pmc-domain">npgopen</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>Nature Portfolio</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4354107</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4354107.1</article-id>
+        <article-id pub-id-type="pmcaid">4354107</article-id>
+        <article-id pub-id-type="pmcaiid">4354107</article-id>
+        <article-id pub-id-type="pmid">25233892</article-id>
+        <article-id pub-id-type="doi">10.1038/ncomms6006</article-id>
+        <article-id pub-id-type="pii">ncomms6006</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Genomic analyses of gynaecologic carcinosarcomas reveal frequent mutations in chromatin remodelling genes</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="S">Siân</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="author-notes" rid="n1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stransky</surname>
+              <given-names initials="N">Nicolas</given-names>
+            </name>
+            <xref ref-type="aff" rid="a2">2</xref>
+            <xref ref-type="author-notes" rid="n1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McCord</surname>
+              <given-names initials="CL">Christine L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cerami</surname>
+              <given-names initials="E">Ethan</given-names>
+            </name>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lagowski</surname>
+              <given-names initials="J">James</given-names>
+            </name>
+            <xref ref-type="aff" rid="a3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kelly</surname>
+              <given-names initials="D">Devon</given-names>
+            </name>
+            <xref ref-type="aff" rid="a3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Angiuoli</surname>
+              <given-names initials="SV">Samuel V.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sausen</surname>
+              <given-names initials="M">Mark</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kann</surname>
+              <given-names initials="L">Lisa</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shukla</surname>
+              <given-names initials="M">Manish</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Makar</surname>
+              <given-names initials="R">Rosemary</given-names>
+            </name>
+            <xref ref-type="aff" rid="a3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wood</surname>
+              <given-names initials="LD">Laura D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Diaz</surname>
+              <given-names initials="LA">Luis A.</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+            <xref ref-type="aff" rid="a6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lengauer</surname>
+              <given-names initials="C">Christoph</given-names>
+            </name>
+            <xref ref-type="corresp" rid="c1">a</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Velculescu</surname>
+              <given-names initials="VE">Victor E.</given-names>
+            </name>
+            <xref ref-type="corresp" rid="c1">a</xref>
+            <xref ref-type="aff" rid="a5">5</xref>
+          </contrib>
+          <aff id="a1"><label>1</label><institution>Personal Genome Diagnostics</institution>, Baltimore, Maryland 21224, <country>USA</country></aff>
+          <aff id="a2"><label>2</label><institution>Blueprint Medicines</institution>, Cambridge, Massachusetts 02142, <country>USA</country></aff>
+          <aff id="a3"><label>3</label><institution>Knight Cancer Institute, Oregon Health and Science University</institution>, Portland, Oregon 97239, <country>USA</country></aff>
+          <aff id="a4"><label>4</label><institution>Department of Pathology, Johns Hopkins University</institution>, Baltimore, Maryland 21287, <country>USA</country></aff>
+          <aff id="a5"><label>5</label><institution>The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine</institution>, Baltimore, Maryland 21287, <country>USA</country></aff>
+          <aff id="a6"><label>6</label><institution>Swim Across America Laboratory and the Ludwig Center for Cancer Genetics and Therapeutics at Johns Hopkins</institution>, Baltimore, Maryland 21287, <country>USA</country></aff>
+        </contrib-group>
+        <author-notes>
+          <corresp id="c1">
+            <label>a</label>
+            <email>clengauer@blueprintmedicines.com</email>
+          </corresp>
+          <corresp id="c2">
+            <label>b</label>
+            <email>velculescu@jhmi.edu</email>
+          </corresp>
+          <fn id="n1">
+            <label>*</label>
+            <p>These authors contributed equally to this work</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>19</day>
+          <month>09</month>
+          <year>2014</year>
+        </pub-date>
+        <volume>5</volume>
+        <issue-id pub-id-type="pmc-issue-id">250338</issue-id>
+        <elocation-id>5006</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>01</day>
+            <month>03</month>
+            <year>2014</year>
+          </date>
+          <date date-type="accepted">
+            <day>15</day>
+            <month>08</month>
+            <year>2014</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>10</day>
+              <month>03</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>17</day>
+              <month>03</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2015-03-20 00:09:41.917">
+              <day>20</day>
+              <month>03</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-version" specific-use="live">
+            <article-id pub-id-type="pmcaiid">4354107</article-id>
+            <article-id pub-id-type="doi">10.1038/ncomms6006</article-id>
+            <article-version>1</article-version>
+            <pub-date>
+              <day>19</day>
+              <month>09</month>
+              <year>2014</year>
+            </pub-date>
+          </event>
+          <event event-type="pmc-version" specific-use="live">
+            <article-id pub-id-type="pmcaiid">4361896</article-id>
+            <article-id pub-id-type="doi">10.1038/ncomms6006</article-id>
+            <article-id pub-id-type="manuscript-id">NIHMS658760</article-id>
+            <article-version>2</article-version>
+            <pub-date>
+              <day>19</day>
+              <month>09</month>
+              <year>2014</year>
+            </pub-date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>Copyright © 2014, Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-statement>
+          <copyright-year>2014</copyright-year>
+          <copyright-holder>Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-holder>
+          <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+            <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ncomms6006.pdf"/>
+        <abstract>
+          <p>Malignant mixed Müllerian tumours, also known as carcinosarcomas, are rare tumours of gynaecological origin. Here we perform whole-exome analyses of 22 tumours using massively parallel sequencing to determine the mutational landscape of this tumour type. On average, we identify 43 mutations per tumour, excluding four cases with a mutator phenotype that harboured inactivating mutations in mismatch repair genes. In addition to mutations in <italic toggle="yes">TP53</italic> and <italic toggle="yes">KRAS</italic>, we identify genetic alterations in chromatin remodelling genes, <italic toggle="yes">ARID1A</italic> and <italic toggle="yes">ARID1B</italic>, in histone methyltransferase <italic toggle="yes">MLL3</italic>, in histone deacetylase modifier <italic toggle="yes">SPOP</italic> and in chromatin assembly factor <italic toggle="yes">BAZ1A</italic>, in nearly two thirds of cases. Alterations in genes with potential clinical utility are observed in more than three quarters of the cases and included members of the PI3-kinase and homologous DNA repair pathways. These findings highlight the importance of the dysregulation of chromatin remodelling in carcinosarcoma tumorigenesis and suggest new avenues for personalized therapy.</p>
+        </abstract>
+        <abstract abstract-type="web-summary">
+          <p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="i1" xlink:href="ncomms6006-i1.jpg"/>Malignant mixed Müllerian tumours are a rare and aggressive gynaecological cancer with poor 5-year survival rates. Here, the authors characterize the mutational landscape of carcinosarcomas and highlight the role of chromatin remodelling dysregulation in carcinosarcoma tumorigenesis.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p>Malignant mixed Müllerian tumours (MMMT) are infrequent gynaecological cancers with histological features of both carcinoma and sarcoma<xref ref-type="bibr" rid="b1">1</xref>. These tumours arise most commonly in the uterus<xref ref-type="bibr" rid="b2">2</xref>, but have also been identified in the vagina<xref ref-type="bibr" rid="b3">3</xref>, cervix<xref ref-type="bibr" rid="b4">4</xref>, ovary<xref ref-type="bibr" rid="b5">5</xref>, fallopian tube<xref ref-type="bibr" rid="b6">6</xref> and peritoneum<xref ref-type="bibr" rid="b7">7</xref>. Despite affecting only two per 100,000 US women per year, these tumours are highly aggressive and 5-year survival rates have been reported between 35% and 65% in early-stage carcinosarcoma and only around 10% for stage IV neoplasms<xref ref-type="bibr" rid="b8">8</xref>.</p>
+      <p>MMMT typically affect women over the age of 50 years, with a median age of onset of 62 years<xref ref-type="bibr" rid="b9">9</xref>. Patients may present with vaginal bleeding, abdominal pain and/or mass, but are generally not diagnosed until the disease is in late stage<xref ref-type="bibr" rid="b10">10</xref>. In addition to advanced age, risk factors include nulliparity, obesity, exogenous oestrogen exposure, pelvic irradiation and treatment with Tamoxifen<xref ref-type="bibr" rid="b9">9</xref><xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b12">12</xref>. The primary treatment for MMMT is total abdominal hysterectomy with bilateral salpingo-oophorectomy<xref ref-type="bibr" rid="b13">13</xref>. In addition to surgery, high rates of recurrence and metastasis necessitate the use of adjuvant chemotherapy and radiation<xref ref-type="bibr" rid="b13">13</xref>. Despite these interventions, the prognosis is poor and more effective therapeutic options are needed to aid the clinical management of affected patients.</p>
+      <p>There are three theories for the origin of carcinosarcomas. The collision theory suggests that the tumours are biclonal arising from separate cells that later merge. The combination theory assumes that a common precursor differentiates bidirectionally and the conversion theory posits that a single cell undergoes metaplasmic differentiation<xref ref-type="bibr" rid="b9">9</xref><xref ref-type="bibr" rid="b10">10</xref>. Molecular and histological evidence supports the conversion hypothesis<xref ref-type="bibr" rid="b14">14</xref> and these tumours are now thought to derive from sarcomatous differentiation in a high-grade carcinoma<xref ref-type="bibr" rid="b10">10</xref>.</p>
+      <p>Alterations in <italic toggle="yes">TP53</italic>, <italic toggle="yes">KRAS</italic> and the <italic toggle="yes">PIK3CA</italic> pathway have previously been observed in 25%, 15% and 19% of carcinosarcomas, respectively<xref ref-type="bibr" rid="b15">15</xref><xref ref-type="bibr" rid="b16">16</xref>. Mutations of <italic toggle="yes">CTNNB1</italic> and <italic toggle="yes">NRAS</italic>, as well as mismatch repair deficiency, are known to occur at a lower frequency<xref ref-type="bibr" rid="b15">15</xref><xref ref-type="bibr" rid="b16">16</xref><xref ref-type="bibr" rid="b17">17</xref>. However, the genetic basis of this tumour type remains largely unexplored. We report here the results of the first unbiased systematic genetic analysis of carcinosarcomas using whole-exome sequencing. These analyses define the mutational landscape of carcinosarcoma and reveal the importance of chromatin remodelling in this tumour type.</p>
+      <sec disp-level="1" sec-type="results">
+        <title>Results</title>
+        <sec disp-level="2">
+          <title>Overall approach and spectrum of somatic mutations</title>
+          <p>We used a next-generation sequencing approach to analyse the entire exomes (&gt;20,000 genes) of matched tumour and normal specimens from 22 carcinosarcoma patients for tumour-specific (somatic) mutations. All samples were primary tumours, with the exception of MM02, which was a recurrence at the primary site, and included 17 tumours originating in the uterus and 5 tumours arising in the ovaries (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>). On average, the sequencing coverage was 191-fold and &gt;90% of bases were covered by at least 10 high-quality reads (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 2</xref>). The number of somatic non-synonymous mutations in 18 of these tumours ranged from 4 to 88, with an average of 43 mutations per tumour. The number of somatic mutations per tumour was similar to that of other gynaecological cancers, including ovarian clear cell<xref ref-type="bibr" rid="b18">18</xref>, high-grade ovarian serous<xref ref-type="bibr" rid="b19">19</xref> and uterine serous<xref ref-type="bibr" rid="b20">20</xref> carcinomas, but significantly higher than previously observed in low-grade ovarian cancers and pediatric tumours<xref ref-type="bibr" rid="b21">21</xref><xref ref-type="bibr" rid="b22">22</xref><xref ref-type="bibr" rid="b23">23</xref>. Four tumours harboured a significantly higher number of somatic alterations, ranging from 904 to 5,913. Further analyses revealed somatic mutations in the mismatch repair genes, <italic toggle="yes">MLH1</italic> (MM20T) and <italic toggle="yes">MSH6</italic> (MM04T, MM12T and MM18T) in all cases, suggesting that these defects were responsible for the observed mutator phenotype (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 3</xref>). MM12T harboured truncating mutations in <italic toggle="yes">MSH6</italic> in both alleles, whereas single nonsense or frameshift mutations were observed in the other three cases. Microsatellite instability has been previously reported in type I endometrial cancers and low-grade ovarian tumours, as well as in carcinosarcomas<xref ref-type="bibr" rid="b16">16</xref><xref ref-type="bibr" rid="b17">17</xref><xref ref-type="bibr" rid="b21">21</xref><xref ref-type="bibr" rid="b24">24</xref>.</p>
+          <p>The vast majority of somatic alterations observed were single base substitutions, including non-synonymous coding changes, nonsense mutations and splice site alterations, with the remaining mutations as small insertions and deletions (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 3</xref>). The non-silent substitutions in the microsatellite stable cases were predominantly C:G to T:A transitions (<xref ref-type="fig" rid="f1">Fig. 1</xref>). These mutations are thought to arise as a result of deamination of 5-methyl cytosine at CpG sites<xref ref-type="bibr" rid="b25">25</xref> and are a common feature across cancer types, including other gynaecological tumours<xref ref-type="bibr" rid="b18">18</xref><xref ref-type="bibr" rid="b26">26</xref>. Mismatch repair-defective cases displayed an atypical mutational signature consistent with previous reports<xref ref-type="bibr" rid="b26">26</xref><xref ref-type="bibr" rid="b27">27</xref><xref ref-type="bibr" rid="b28">28</xref>. Almost half of the somatic mutations in the tumour harbouring an <italic toggle="yes">MLH1</italic> alteration were small insertions and deletions, compared with only 10% in the microsatellite stable cases. In the <italic toggle="yes">MSH6</italic>-mutated cases, C:G to T:A transitions were the most common, accounting for 53% of somatic mutations, but there was also an overrepresentation of C:G to A:T transversions (30%), probably as a consequence of the inability to repair mismatches arising as a result of oxidative damage<xref ref-type="bibr" rid="b28">28</xref> (<xref ref-type="fig" rid="f1">Fig. 1</xref>).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Recurrently mutated genes</title>
+          <p>Overall, we identified 777 somatic mutations in 702 genes in the 18 microsatellite stable cancers, as well as 18,371 alterations in 4 mismatch repair-deficient tumours. The analyses of tumour-specific mutations revealed a number of known genes with recurrent alterations. Mutations in <italic toggle="yes">TP53</italic> were observed in 67% (16/22) of cases, a significantly higher fraction than previously appreciated<xref ref-type="bibr" rid="b15">15</xref>. The phosphoinositide 3-kinase (PI3-kinase) pathway was affected by activating mutations in <italic toggle="yes">PIK3CA</italic> (9/22 cases) and <italic toggle="yes">PTEN</italic> (9/22 cases). We identified mutations in <italic toggle="yes">PIK3R1</italic>, a member of the PI3-kinase pathway that had not been previously implicated in carcinosarcomas, in 3 of 22 cases. As in endometrial tumours<xref ref-type="bibr" rid="b24">24</xref>, mutations in <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">PIK3R1</italic> were mutually exclusive, but loss of PTEN function co-occurred with other genes in this pathway. Unlike in previous studies of carcinosarcomas, PI3-kinase pathway mutations were not confined to tumours located in the uterus, but also occurred in ovarian cases<xref ref-type="bibr" rid="b15">15</xref>. Hotspot mutations in <italic toggle="yes">CTNNB1</italic> were observed in two microsatellite stable cases (<xref ref-type="fig" rid="f1">Fig. 1</xref>).</p>
+          <p>In addition to genes already associated with carcinosarcomas, we identified mutations in genes not previously implicated in this tumour type (<xref ref-type="fig" rid="f1">Fig. 1</xref>). Truncating mutations in <italic toggle="yes">ARID1A</italic> were detected in 32% (7/22) of tumours (<xref ref-type="fig" rid="f1">Figs 1</xref> and <xref ref-type="fig" rid="f2">2</xref>). Four of the five ovarian tumours had <italic toggle="yes">ARID1A</italic> mutations and these were not observed in the microsatellite-stable tumours of the uterus. Three of the <italic toggle="yes">ARID1A</italic>-mutated tumours also harboured frameshift and nonsense alterations in <italic toggle="yes">ARID1B</italic>. Alterations in <italic toggle="yes">ARID1A</italic> have been reported in other gynaecological cancers, including a high proportion of ovarian clear cell carcinoma (57%)<xref ref-type="bibr" rid="b18">18</xref>, endometrioid carcinoma of the ovary<xref ref-type="bibr" rid="b29">29</xref> and endometrial tumours<xref ref-type="bibr" rid="b24">24</xref>, as well as a range of other tumour types such as neuroblastoma, colorectal, gastric, prostate and breast cancers<xref ref-type="bibr" rid="b23">23</xref><xref ref-type="bibr" rid="b30">30</xref>. Intragenic deletions and point mutations in <italic toggle="yes">ARID1B</italic> were recently discovered in around 10% of neuroblastomas<xref ref-type="bibr" rid="b23">23</xref> and have been seen in a small fraction of hepatocellular<xref ref-type="bibr" rid="b31">31</xref>, breast<xref ref-type="bibr" rid="b32">32</xref> and medulloblastoma tumours<xref ref-type="bibr" rid="b33">33</xref><xref ref-type="bibr" rid="b34">34</xref>.</p>
+          <p>Alterations of the histone methyltransferase <italic toggle="yes">MLL3</italic> were identified in 27% (6/22) of carcinosarcomas. One of these tumours also harboured a splice site alteration in the related gene, <italic toggle="yes">MLL2</italic>. Mutations in these genes have been observed in ovarian clear cell carcinomas<xref ref-type="bibr" rid="b18">18</xref> and are known to be involved in the tumorigenesis of medulloblastoma<xref ref-type="bibr" rid="b22">22</xref>, lung squamous cell carcinoma<xref ref-type="bibr" rid="b35">35</xref> and Mantle cell lymphoma<xref ref-type="bibr" rid="b36">36</xref>. In addition, <italic toggle="yes">SPOP</italic>, a putative tumour suppressor involved in chromatin remodelling was found to be altered in 3 cases (14%). Mutations in <italic toggle="yes">SPOP</italic> have been previously reported in endometrial<xref ref-type="bibr" rid="b37">37</xref>, prostate<xref ref-type="bibr" rid="b38">38</xref>, lung<xref ref-type="bibr" rid="b39">39</xref> and colorectal cancers<xref ref-type="bibr" rid="b40">40</xref>. These mutations fall nearby the reported alterations within the MATH domain and the encoded protein is known to modulate the transcriptional repression activities of DAXX, a component of the histone deacetylase co-repressor complex<xref ref-type="bibr" rid="b41">41</xref>. <italic toggle="yes">BAZ1A</italic>, an accessory unit of the ATP-dependent chromatin assembly factor<xref ref-type="bibr" rid="b42">42</xref> was mutated in 4 of the 22 carcinosarcomas. <italic toggle="yes">BAZ1A</italic> is mutated at a low frequency in ovarian cancer<xref ref-type="bibr" rid="b19">19</xref> and deletions of this gene are known to occur in renal papillary carcinoma<xref ref-type="bibr" rid="b43">43</xref>. Overall, approximately two-thirds of cases harboured mutations in genes involved in chromatin remodelling or modification.</p>
+          <p>Mutations in the tumour suppressor gene, <italic toggle="yes">FBXW7</italic>, were identified in 23% (5/22) of cases. The encoded protein is a member of the SCF (SKP-cullin-F-box) ubiquitin ligase complex that targets cyclin E for degradation<xref ref-type="bibr" rid="b44">44</xref>. One mutation was a frameshift predicted to truncate the protein and the other three missense alterations were clustered in the WD repeat domain. Tumour MM19 carried the previously described hotspot mutation, 505R&gt;C. <italic toggle="yes">FBXW7</italic> is mutated in a number of different tumour types, including colorectal and haematopoietic malignancies, and has been recently reported in approximately a third of endometrial cancers<xref ref-type="bibr" rid="b20">20</xref><xref ref-type="bibr" rid="b37">37</xref>.</p>
+          <p>The serine/threonine phosphatase, <italic toggle="yes">PPP2R1A</italic>, was mutated in one uterine carcinosarcoma. Alterations in this gene were initially identified in ovarian clear cell carcinomas<xref ref-type="bibr" rid="b18">18</xref> and more recently in a range of tumour types, including a number of endometrial cancers and across different ovarian cancer subtypes<xref ref-type="bibr" rid="b24">24</xref><xref ref-type="bibr" rid="b45">45</xref>. The missense mutation, 180M&gt;R, falls nearby other hotspot mutations within the HEAT domain<xref ref-type="bibr" rid="b18">18</xref><xref ref-type="bibr" rid="b24">24</xref>.</p>
+          <p>Consistent with the accepted theory of carcinosarcomas arising from a single cell, mutations in known cancer genes identified through whole-exome analyses appeared to be clonal in nature. Seven of the cases had <italic toggle="yes">TP53</italic> mutation frequencies above 80%, indicating a homozygous change in all tumour cells when adjusted for the presence of contaminating normal tissue, while heterozygous mutations in <italic toggle="yes">TP53</italic> or other known cancer genes in 10 additional cases were present at an average of 49.5%. These analyses suggest that individual carcinosarcomas comprises a population of cells that contain largely identical somatic sequence alterations.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Clinically actionable alterations</title>
+          <p>There are currently no targeted therapies for carcinosarcomas and the prognosis for patients with this tumour type is poor. We investigated whether the observed mutations may be clinically actionable using existing or investigational therapies. We examined genetic alterations that were associated with Food and Drug Administration-approved therapies for oncologic indications, therapies in published prospective or retrospective clinical studies and ongoing clinical trials for cancer patients. We also evaluated alterations in 84 well-known cancer predisposing genes in the patients’ germline that may affect cancer susceptibility as detection of such changes have important implications for early detection and intervention. We identified mutations in a number of potentially clinically actionable genes (<xref ref-type="table" rid="t1">Table 1</xref>). The PI3-kinase pathway was activated in over half of the carcinosarcomas through alterations in <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">PIK3R1</italic> and <italic toggle="yes">PTEN</italic>. Targeted inhibition of this pathway using PI3K/mammalian target of rapamycin/AKT/MEK inhibitors has been reported and is being studied in ongoing Phase I and II trials in endometrial cancer and other tumour types<xref ref-type="bibr" rid="b46">46</xref><xref ref-type="bibr" rid="b47">47</xref><xref ref-type="bibr" rid="b48">48</xref><xref ref-type="bibr" rid="b49">49</xref>. A known hotspot missense mutation, 104V&gt;M, in the extracellular domain of the kinase ERBB3 (ref. <xref ref-type="bibr" rid="b50">50</xref>) was observed in a single tumour, and antibodies targeting this protein have been in clinical development, including phase II studies. Similarly, <italic toggle="yes">KRAS</italic> hotspot mutations were identified in five cases and tumours of these patients may respond to MEK/BRAF inhibitors. Pre-clinical evidence suggests that loss of <italic toggle="yes">FBXW7</italic> function, as observed in a number of the carcinosarcomas, may result in sensitivity to HDAC inhibitors<xref ref-type="bibr" rid="b51">51</xref>. Two somatic nonsense mutations in <italic toggle="yes">BRCA2</italic>, a frameshift in <italic toggle="yes">BRCA1</italic> and a splice site alteration of <italic toggle="yes">FANCM</italic> were also identified providing further evidence for the role of homologous recombination repair defects in carcinosarcomas<xref ref-type="bibr" rid="b52">52</xref>. In addition, we identified a nonsense mutation (3326K&gt;X) in the <italic toggle="yes">BRCA2</italic> gene in the germline of a patient (MM08) with a family history of cervical (mother) and lung cancer (sister). Tumours of these patients may be sensitive to DNA cross-linking agents and to poly (ADP-ribose) polymerase inhibitors<xref ref-type="bibr" rid="b53">53</xref><xref ref-type="bibr" rid="b54">54</xref>. The relatively high frequency of mismatch repair-deficient tumours may also be clinically significant, as the efficacy of the antibody, MK-34775, is actively being evaluated in patients with microsatellite unstable tumours.</p>
+        </sec>
+      </sec>
+      <sec disp-level="1" sec-type="discussion">
+        <title>Discussion</title>
+        <p>These analyses have provided the most comprehensive characterization of the mutational landscape of carcinosarcomas to date. Our data show that carcinosarcomas have one of the highest frequencies of chromatin remodelling dysregulation of all tumour types analysed to date. The most highly mutated genes, <italic toggle="yes">ARID1A</italic>, along with <italic toggle="yes">ARID1B</italic>, are key components of the conserved, ATP-dependent SWI/SNF chromatin remodelling complex<xref ref-type="bibr" rid="b55">55</xref>. This complex uses helicase activity to allow transcription factors access to DNA<xref ref-type="bibr" rid="b56">56</xref> and is important in the regulation of multiple cellular processes, including DNA repair, cell cycle progression and cell migration<xref ref-type="bibr" rid="b57">57</xref><xref ref-type="bibr" rid="b58">58</xref>. Inactivation of the ARID1 complex appears to be particularly important in gynaecological cancers as observed in this study and in other tumours of the female genital tract<xref ref-type="bibr" rid="b18">18</xref><xref ref-type="bibr" rid="b24">24</xref><xref ref-type="bibr" rid="b29">29</xref>. Among the microsatellite-stable tumours, <italic toggle="yes">ARID1A</italic> mutations were unique to carcinosarcomas originating in the ovaries, which may suggest different mutational signatures in carcinosarcomas of different sites. This is a potentially significant finding as the prognosis for ovarian carcinosarcomas tends to be better than for those of the uterus<xref ref-type="bibr" rid="b8">8</xref>.</p>
+        <p>Other genes involved in chromatin modification in this tumour type include <italic toggle="yes">MLL3</italic>, <italic toggle="yes">SPOP</italic> and <italic toggle="yes">BAZ1A</italic>. <italic toggle="yes">MLL3</italic> encodes a histone H3K4 trimethylase that is part of the ASC-2 complex (ASCOM). This complex is a co-activator of <italic toggle="yes">TP53</italic> and regulates the expression of <italic toggle="yes">TP53</italic> target genes in response to DNA damage<xref ref-type="bibr" rid="b59">59</xref>. Members of the MLL family have also been shown to have a role in <italic toggle="yes">HOX</italic> gene expression<xref ref-type="bibr" rid="b60">60</xref> and Wnt signalling<xref ref-type="bibr" rid="b61">61</xref>. SPOP is a BTB (Bric-a-brac/Tramtrack/Broad complex) protein that recruits DAXX to the ubiquitin ligase Cul3, resulting in ubiquitination and degradation of the DAXX protein<xref ref-type="bibr" rid="b62">62</xref>. This leads to the reversal of DAXX-mediated repression of ETS1 and p53-dependent transcription<xref ref-type="bibr" rid="b62">62</xref>. The <italic toggle="yes">BAZ1A</italic> gene encodes the accessory subunit of the ATP-dependent chromatin assembly factor. This complex generates and maintains nucleosome spacing, a function critical for chromatin condensation and appropriate gene silencing<xref ref-type="bibr" rid="b42">42</xref>. These observations suggest that a variety of different aspects of chromatin regulation and modification are genetically altered in carcinosarcomas. Genomic analyses in other tumour types have shown that somatic mutations of epigenetic regulators can have important clinical consequences, including improved outcome in patients with <italic toggle="yes">DAXX/ATRX</italic> alterations in pancreatic neuroendocrine tumours<xref ref-type="bibr" rid="b63">63</xref> and gliomas<xref ref-type="bibr" rid="b64">64</xref>, and a decreased survival in patients with <italic toggle="yes">ARID1A</italic> and <italic toggle="yes">ARID1B</italic> mutations in neuroblastoma<xref ref-type="bibr" rid="b23">23</xref>.</p>
+        <p>The presence of carcinoma and sarcomatous components in MMMTs has hindered the clinical management of patients, as the prognosis and appropriate therapies for carcinomas and sarcomas differ. These molecular data support the idea that carcinosarcomas are most similar to carcinomas, based on the presence of alterations in genes such as <italic toggle="yes">PTEN</italic> that have only rarely been observed in endometrial sarcomas<xref ref-type="bibr" rid="b65">65</xref> and uterine sarcomas<xref ref-type="bibr" rid="b66">66</xref>, but are common in uterine adenocarcinomas<xref ref-type="bibr" rid="b67">67</xref>. In addition, the number of non-synonymous mutations observed in the carcinosarcomas was similar to that reported in carcinomas and significantly higher than is typical for sarcomas analysed to date<xref ref-type="bibr" rid="b19">19</xref><xref ref-type="bibr" rid="b68">68</xref>. Our genomic analyses suggest that the unusual pathology of this tumour type could be related to the loss of control of genetic programing as a result of mutations in chromatin remodelling genes in the specific context of progenitor cells that lead to carcinosarcomas.</p>
+        <p>In addition to providing therapeutic insight, understanding the mutational profile of MMMTs will be beneficial for diagnostic purposes, including early detection, which can immediately have an impact on survival. Recent studies have used mutations as highly specific biomarkers heralding the presence of malignancy even at the earliest stages by sequencing cell-free DNA in the circulation as well as DNA extracted from liquid Papanicolaou smear specimens for the detection of gynaecological cancers<xref ref-type="bibr" rid="b69">69</xref><xref ref-type="bibr" rid="b70">70</xref>.</p>
+        <p>Defining the mutational landscape of carcinosarcomas has highlighted alterations in specific genes and pathways that may aid the diagnosis and future clinical management of patients with this malignancy. Alterations of the PI3K and DNA repair pathways have identified specific actionable targets, which have not been previously considered in this tumour type, as well as a frequent dysregulation of chromatin remodelling. These analyses suggest future efforts at defining the downstream targets of chromatin regulators in carcinosarcomas as well as interventional clinical trials based on potentially actionable alterations observed in these cancer patients.</p>
+      </sec>
+      <sec disp-level="1" sec-type="methods">
+        <title>Methods</title>
+        <sec disp-level="2">
+          <title>Samples</title>
+          <p>Twenty-two carcinosarcoma tumour samples and matched normal tissues were obtained with consent from all study participants and approved for research use by the OHSU Institutional Review Board and the Knight BioLibrary. Eleven patients were treated with chemotherapy or radiation after surgery. Samples underwent pathological review to determine tumour cellularity. Tumours were macrodissected to remove contaminating normal tissue. An average of 85% neoplastic cellularity was obtained. DNA was extracted from 10 fresh-frozen tumours, 12 formalin-fixed paraffin embedded tumours and matched normal tissue samples (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Library generation and sequencing</title>
+          <p>Genomic DNA from tumour and normal samples were fragmented and used for Illumina TruSeq library construction (Illumina, San Diego, CA). Exonic regions were captured in solution using the Agilent SureSelect 51 Mb kit (version 4) according to the manufacturer’s instructions (Agilent, Santa Clara, CA). Paired-end sequencing, resulting in 100 bases from each end of the fragments, was performed using a HiSeq 2000 Genome Analyzer (Illumina).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Bioinformatic analyses</title>
+          <p>Sequencing reads were analysed and aligned to human genome hg19 with the Eland algorithm in CASAVA 1.7 software (Illumina). Reads were mapped using the default seed-and-extend algorithm, which allowed a maximum of two mismatched bases in the first 32 bp of sequence. Identification of somatic alterations was performed using a next-generation sequencing analysis pipeline that enriched for tumour-specific single-nucleotide alterations and small indels. Briefly, for each position with a mismatch (compared with the hg19 reference sequence using the Eland algorithm), the read coverage of the mismatched and wild-type sequence at that base was calculated. For determination of tumour-specific alterations, tumour and matched normal sequences were compared and known polymorphisms were removed from the analysis. Potential somatic mutations were filtered and visually inspected, and a candidate-mismatched base was identified as a mutation when distinct paired tags contained the mismatched base and the mismatched base was not present in the matched normal sample.</p>
+        </sec>
+      </sec>
+      <sec disp-level="1">
+        <title>Author contributions</title>
+        <p>S.J. and N.S. performed the analyses, and wrote and revised the paper. C.L.M., E.C., S.V.A. and M.S. analysed the data. J.L. and D.K. collected the specimens and provided clinical information. L.K. and M.S. carried out the experimental work. R.M. and L.D.W. provided histopathological confirmation. L.A.D., C.L. and V.E.V. conceived the study, and wrote and revised the paper.</p>
+      </sec>
+      <sec disp-level="1">
+        <title>Additional information</title>
+        <p><bold>Accession codes:</bold> Carcinosarcoma exome sequence data has been deposited at the European Genome-phenome Archive ( <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ega/">http://www.ebi.ac.uk/ega/</ext-link>), which is hosted by the EBI, under the accession code EGAS00001000941.</p>
+        <p><bold>How to cite this article</bold>: Jones, S. <italic toggle="yes">et al.</italic> Genomic analyses of gynaecologic carcinosarcomas reveal frequent mutations in chromatin remodelling genes. <italic toggle="yes">Nat. Commun.</italic> 5:5006 doi: 10.1038/ncomms6006 (2014).</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="S1">
+        <title>Supplementary Material</title>
+        <supplementary-material id="d33e18" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Information</title>
+            <p>Supplementary Tables 1-3</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms6006-s1.pdf" position="float" orientation="portrait"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <p>We thank David R. Riley and Karli Lytle for their assistance with next-generation sequencing analyses. This work was supported in part by Dr Miriam and Sheldon G. Adelson Medical Research Foundation, the Commonwealth Foundation, Swim Across America, and NIH grant CA121113.</p>
+      </ack>
+      <ref-list>
+        <ref id="b1">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jin</surname><given-names>Z.</given-names></name><italic toggle="yes">et al.</italic><article-title>Carcinosarcomas (malignant mullerian mixed tumors) of the uterus and ovary: a genetic study with special reference to histogenesis</article-title>. <source>Int. J. Gynecol. Pathol.</source><volume>22</volume>, <fpage>368</fpage>–<lpage>373</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14501818</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/01.pgp.0000092134.88121.56</pub-id></mixed-citation>
+        </ref>
+        <ref id="b2">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>El-Nashar</surname><given-names>S. A.</given-names></name> &amp; <name name-style="western"><surname>Mariani</surname><given-names>A.</given-names></name><article-title>Uterine carcinosarcoma</article-title>. <source>Clin. Obstet. Gynecol.</source><volume>54</volume>, <fpage>292</fpage>–<lpage>304</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21508698</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/GRF.0b013e31821ac635</pub-id></mixed-citation>
+        </ref>
+        <ref id="b3">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ahuja</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Safaya</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Prakash</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Kumar</surname><given-names>L.</given-names></name> &amp; <name name-style="western"><surname>Shukla</surname><given-names>N. K.</given-names></name><article-title>Primary mixed mullerian tumor of the vagina--a case report with review of the literature</article-title>. <source>Pathol. Res. Pract.</source><volume>207</volume>, <fpage>253</fpage>–<lpage>255</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21376478</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.prp.2010.10.002</pub-id></mixed-citation>
+        </ref>
+        <ref id="b4">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Sharma</surname><given-names>N. K.</given-names></name>, <name name-style="western"><surname>Sorosky</surname><given-names>J. I.</given-names></name>, <name name-style="western"><surname>Bender</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Fletcher</surname><given-names>M. S.</given-names></name> &amp; <name name-style="western"><surname>Sood</surname><given-names>A. K.</given-names></name><article-title>Malignant mixed mullerian tumor (MMMT) of the cervix</article-title>. <source>Gynecol. Oncol.</source><volume>97</volume>, <fpage>442</fpage>–<lpage>445</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15863143</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ygyno.2005.01.022</pub-id></mixed-citation>
+        </ref>
+        <ref id="b5">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Duman</surname><given-names>B. B.</given-names></name>, <name name-style="western"><surname>Kara</surname><given-names>I. O.</given-names></name>, <name name-style="western"><surname>Gunaldi</surname><given-names>M.</given-names></name> &amp; <name name-style="western"><surname>Ercolak</surname><given-names>V.</given-names></name><article-title>Malignant mixed Mullerian tumor of the ovary with two cases and review of the literature</article-title>. <source>Arch. Gynecol. Obstet.</source><volume>283</volume>, <fpage>1363</fpage>–<lpage>1368</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21298439</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00404-011-1845-6</pub-id></mixed-citation>
+        </ref>
+        <ref id="b6">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shen</surname><given-names>Y. M.</given-names></name><italic toggle="yes">et al.</italic><article-title>Malignant mixed mullerian tumor of the fallopian tube: report of two cases and review of literature</article-title>. <source>Arch. Gynecol. Obstet.</source><volume>281</volume>, <fpage>1023</fpage>–<lpage>1028</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20033419</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00404-009-1331-6</pub-id></mixed-citation>
+        </ref>
+        <ref id="b7">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Rajanbabu</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Zahoor</surname><given-names>A. S.</given-names></name>, <name name-style="western"><surname>Vijajkumar</surname><given-names>D. K.</given-names></name>, <name name-style="western"><surname>Pavithran</surname><given-names>K.</given-names></name> &amp; <name name-style="western"><surname>Kuriakose</surname><given-names>S.</given-names></name><article-title>The significance of the site of origin in primary peritoneal carcinosarcoma: case report and literature review</article-title>. <source>Ecancermedicalscience</source><volume>7</volume>, <fpage>295</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23589725</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3332/ecancer.2013.295</pub-id><pub-id pub-id-type="pmcid">PMC3622447</pub-id></mixed-citation>
+        </ref>
+        <ref id="b8">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>George</surname><given-names>E. M.</given-names></name><italic toggle="yes">et al.</italic><article-title>Carcinosarcoma of the ovary: natural history, patterns of treatment, and outcome</article-title>. <source>Gynecol. Oncol.</source><volume>131</volume>, <fpage>42</fpage>–<lpage>45</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23838036</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ygyno.2013.06.034</pub-id><pub-id pub-id-type="pmcid">PMC4230696</pub-id></mixed-citation>
+        </ref>
+        <ref id="b9">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kanthan</surname><given-names>R.</given-names></name> &amp; <name name-style="western"><surname>Senger</surname><given-names>J. L.</given-names></name><article-title>Uterine carcinosarcomas (malignant mixed mullerian tumours): a review with special emphasis on the controversies in management</article-title>. <source>Obstet. Gynecol. Int.</source><volume>2011</volume>, <fpage>470795</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">22007228</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2011/470795</pub-id><pub-id pub-id-type="pmcid">PMC3189599</pub-id></mixed-citation>
+        </ref>
+        <ref id="b10">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kernochan</surname><given-names>L. E.</given-names></name> &amp; <name name-style="western"><surname>Garcia</surname><given-names>R. L.</given-names></name><article-title>Carcinosarcomas (malignant mixed Mullerian tumor) of the uterus: advances in elucidation of biologic and clinical characteristics</article-title>. <source>J. Natl Compr. Canc. Netw.</source><volume>7</volume>, <fpage>550</fpage>–<lpage>556</lpage> quiz 557 (<year>2009</year>).<pub-id pub-id-type="pmid">19460280</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.6004/jnccn.2009.0037</pub-id></mixed-citation>
+        </ref>
+        <ref id="b11">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Meredith</surname><given-names>R. F.</given-names></name><italic toggle="yes">et al.</italic><article-title>An excess of uterine sarcomas after pelvic irradiation</article-title>. <source>Cancer</source><volume>58</volume>, <fpage>2003</fpage>–<lpage>2007</lpage> (<year>1986</year>).<pub-id pub-id-type="pmid">3756818</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/1097-0142(19861101)58:9&lt;2003::aid-cncr2820580908&gt;3.0.co;2-2</pub-id></mixed-citation>
+        </ref>
+        <ref id="b12">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Curtis</surname><given-names>R. E.</given-names></name>, <name name-style="western"><surname>Freedman</surname><given-names>D. M.</given-names></name>, <name name-style="western"><surname>Sherman</surname><given-names>M. E.</given-names></name> &amp; <name name-style="western"><surname>Fraumeni</surname><given-names>J. F.</given-names><suffix>Jr</suffix></name><article-title>Risk of malignant mixed mullerian tumors after tamoxifen therapy for breast cancer</article-title>. <source>J. Natl Cancer Inst.</source><volume>96</volume>, <fpage>70</fpage>–<lpage>74</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">14709741</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djh007</pub-id></mixed-citation>
+        </ref>
+        <ref id="b13">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Callister</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Ramondetta</surname><given-names>L. M.</given-names></name>, <name name-style="western"><surname>Jhingran</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Burke</surname><given-names>T. W.</given-names></name> &amp; <name name-style="western"><surname>Eifel</surname><given-names>P. J.</given-names></name><article-title>Malignant mixed Mullerian tumors of the uterus: analysis of patterns of failure, prognostic factors, and treatment outcome</article-title>. <source>Int. J. Radiat. Oncol. Biol. Phys.</source><volume>58</volume>, <fpage>786</fpage>–<lpage>796</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">14967435</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0360-3016(03)01561-X</pub-id></mixed-citation>
+        </ref>
+        <ref id="b14">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Armstrong</surname><given-names>A. B.</given-names></name><italic toggle="yes">et al.</italic><article-title>TP53 mutational analysis supports monoclonal origin of biphasic sarcomatoid urothelial carcinoma (carcinosarcoma) of the urinary bladder</article-title>. <source>Mod. Pathol.</source><volume>22</volume>, <fpage>113</fpage>–<lpage>118</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">18997737</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/modpathol.2008.176</pub-id></mixed-citation>
+        </ref>
+        <ref id="b15">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Growdon</surname><given-names>W. B.</given-names></name><italic toggle="yes">et al.</italic><article-title>Tissue-specific signatures of activating PIK3CA and RAS mutations in carcinosarcomas of gynecologic origin</article-title>. <source>Gynecol. Oncol.</source><volume>121</volume>, <fpage>212</fpage>–<lpage>217</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21168197</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ygyno.2010.11.039</pub-id></mixed-citation>
+        </ref>
+        <ref id="b16">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>de Jong</surname><given-names>R. A.</given-names></name><italic toggle="yes">et al.</italic><article-title>Molecular markers and clinical behavior of uterine carcinosarcomas: focus on the epithelial tumor component</article-title>. <source>Mod. Pathol.</source><volume>24</volume>, <fpage>1368</fpage>–<lpage>1379</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21572397</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/modpathol.2011.88</pub-id></mixed-citation>
+        </ref>
+        <ref id="b17">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>South</surname><given-names>S. A.</given-names></name>, <name name-style="western"><surname>Hutton</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Farrell</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Mhawech-Fauceglia</surname><given-names>P.</given-names></name> &amp; <name name-style="western"><surname>Rodabaugh</surname><given-names>K. J.</given-names></name><article-title>Uterine carcinosarcoma associated with hereditary nonpolyposis colorectal cancer</article-title>. <source>Obstet. Gynecol.</source><volume>110</volume>, <fpage>543</fpage>–<lpage>545</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17666659</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/01.AOG.0000275262.60526.01</pub-id></mixed-citation>
+        </ref>
+        <ref id="b18">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jones</surname><given-names>S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Frequent mutations of chromatin remodeling gene ARID1A in ovarian clear cell carcinoma</article-title>. <source>Science</source><volume>330</volume>, <fpage>228</fpage>–<lpage>231</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20826764</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1196333</pub-id><pub-id pub-id-type="pmcid">PMC3076894</pub-id></mixed-citation>
+        </ref>
+        <ref id="b19">
+          <mixed-citation publication-type="journal">Cancer Genome Atlas Research, N. <article-title>Integrated genomic analyses of ovarian carcinoma</article-title>. <source>Nature</source><volume>474</volume>, <fpage>609</fpage>–<lpage>615</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21720365</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10166</pub-id><pub-id pub-id-type="pmcid">PMC3163504</pub-id></mixed-citation>
+        </ref>
+        <ref id="b20">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kuhn</surname><given-names>E.</given-names></name><italic toggle="yes">et al.</italic><article-title>Identification of molecular pathway aberrations in uterine serous carcinoma by genome-wide analyses</article-title>. <source>J. Natl Cancer Inst.</source><volume>104</volume>, <fpage>1503</fpage>–<lpage>1513</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22923510</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djs345</pub-id><pub-id pub-id-type="pmcid">PMC3692380</pub-id></mixed-citation>
+        </ref>
+        <ref id="b21">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jones</surname><given-names>S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Low-grade serous carcinomas of the ovary contain very few point mutations</article-title>. <source>J. Pathol.</source><volume>226</volume>, <fpage>413</fpage>–<lpage>420</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22102435</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/path.3967</pub-id><pub-id pub-id-type="pmcid">PMC3503448</pub-id></mixed-citation>
+        </ref>
+        <ref id="b22">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Parsons</surname><given-names>D. W.</given-names></name><italic toggle="yes">et al.</italic><article-title>The genetic landscape of the childhood cancer medulloblastoma</article-title>. <source>Science</source><volume>331</volume>, <fpage>435</fpage>–<lpage>439</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21163964</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1198056</pub-id><pub-id pub-id-type="pmcid">PMC3110744</pub-id></mixed-citation>
+        </ref>
+        <ref id="b23">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Sausen</surname><given-names>M.</given-names></name><italic toggle="yes">et al.</italic><article-title>Integrated genomic analyses identify ARID1A and ARID1B alterations in the childhood cancer neuroblastoma</article-title>. <source>Nat. Genet.</source><volume>45</volume>, <fpage>12</fpage>–<lpage>17</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23202128</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2493</pub-id><pub-id pub-id-type="pmcid">PMC3557959</pub-id></mixed-citation>
+        </ref>
+        <ref id="b24">
+          <mixed-citation publication-type="journal">Cancer Genome Atlas Research Network. <italic toggle="yes">et al.</italic><article-title>Integrated genomic characterization of endometrial carcinoma</article-title>. <source>Nature</source><volume>497</volume>, <fpage>67</fpage>–<lpage>73</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23636398</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12113</pub-id><pub-id pub-id-type="pmcid">PMC3704730</pub-id></mixed-citation>
+        </ref>
+        <ref id="b25">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Pfeifer</surname><given-names>G. P.</given-names></name><article-title>Mutagenesis at methylated CpG sequences</article-title>. <source>Curr. Top. Microbiol. Immunol.</source><volume>301</volume>, <fpage>259</fpage>–<lpage>281</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16570852</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/3-540-31390-7_10</pub-id></mixed-citation>
+        </ref>
+        <ref id="b26">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Alexandrov</surname><given-names>L. B.</given-names></name><italic toggle="yes">et al.</italic><article-title>Signatures of mutational processes in human cancer</article-title>. <source>Nature</source><volume>500</volume>, <fpage>415</fpage>–<lpage>421</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23945592</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12477</pub-id><pub-id pub-id-type="pmcid">PMC3776390</pub-id></mixed-citation>
+        </ref>
+        <ref id="b27">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Pena-Diaz</surname><given-names>J.</given-names></name><italic toggle="yes">et al.</italic><article-title>Noncanonical mismatch repair as a source of genomic instability in human cells</article-title>. <source>Mol. Cell</source><volume>47</volume>, <fpage>669</fpage>–<lpage>680</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22864113</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2012.07.006</pub-id></mixed-citation>
+        </ref>
+        <ref id="b28">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ni</surname><given-names>T. T.</given-names></name>, <name name-style="western"><surname>Marsischky</surname><given-names>G. T.</given-names></name> &amp; <name name-style="western"><surname>Kolodner</surname><given-names>R. D.</given-names></name><article-title>MSH2 and MSH6 are required for removal of adenine misincorporated opposite 8-oxo-guanine in S. cerevisiae</article-title>. <source>Mol. Cell</source><volume>4</volume>, <fpage>439</fpage>–<lpage>444</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10518225</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s1097-2765(00)80346-9</pub-id></mixed-citation>
+        </ref>
+        <ref id="b29">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wiegand</surname><given-names>K. C.</given-names></name><italic toggle="yes">et al.</italic><article-title>ARID1A mutations in endometriosis-associated ovarian carcinomas</article-title>. <source>N. Engl. J. Med.</source><volume>363</volume>, <fpage>1532</fpage>–<lpage>1543</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20942669</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1008433</pub-id><pub-id pub-id-type="pmcid">PMC2976679</pub-id></mixed-citation>
+        </ref>
+        <ref id="b30">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jones</surname><given-names>S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Somatic mutations in the chromatin remodeling gene ARID1A occur in several tumor types</article-title>. <source>Hum. Mutat.</source><volume>33</volume>, <fpage>100</fpage>–<lpage>103</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22009941</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/humu.21633</pub-id><pub-id pub-id-type="pmcid">PMC3240719</pub-id></mixed-citation>
+        </ref>
+        <ref id="b31">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Fujimoto</surname><given-names>A.</given-names></name><italic toggle="yes">et al.</italic><article-title>Whole-genome sequencing of liver cancers identifies etiological influences on mutation patterns and recurrent mutations in chromatin regulators</article-title>. <source>Nat. Genet.</source><volume>44</volume>, <fpage>760</fpage>–<lpage>764</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22634756</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2291</pub-id></mixed-citation>
+        </ref>
+        <ref id="b32">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Stephens</surname><given-names>P. J.</given-names></name><italic toggle="yes">et al.</italic><article-title>The landscape of cancer genes and mutational processes in breast cancer</article-title>. <source>Nature</source><volume>486</volume>, <fpage>400</fpage>–<lpage>404</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22722201</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11017</pub-id><pub-id pub-id-type="pmcid">PMC3428862</pub-id></mixed-citation>
+        </ref>
+        <ref id="b33">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jones</surname><given-names>D. T.</given-names></name><italic toggle="yes">et al.</italic><article-title>Dissecting the genomic complexity underlying medulloblastoma</article-title>. <source>Nature</source><volume>488</volume>, <fpage>100</fpage>–<lpage>105</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22832583</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11284</pub-id><pub-id pub-id-type="pmcid">PMC3662966</pub-id></mixed-citation>
+        </ref>
+        <ref id="b34">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Pugh</surname><given-names>T. J.</given-names></name><italic toggle="yes">et al.</italic><article-title>Medulloblastoma exome sequencing uncovers subtype-specific somatic mutations</article-title>. <source>Nature</source><volume>488</volume>, <fpage>106</fpage>–<lpage>110</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22820256</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11329</pub-id><pub-id pub-id-type="pmcid">PMC3413789</pub-id></mixed-citation>
+        </ref>
+        <ref id="b35">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kim</surname><given-names>Y.</given-names></name><italic toggle="yes">et al.</italic><article-title>Integrative and comparative genomic analysis of lung squamous cell carcinomas in east asian patients</article-title>. <source>J. Clin. Oncol.</source><volume>32</volume>, <fpage>121</fpage>–<lpage>128</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24323028</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2013.50.8556</pub-id><pub-id pub-id-type="pmcid">PMC4062710</pub-id></mixed-citation>
+        </ref>
+        <ref id="b36">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bea</surname><given-names>S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Landscape of somatic mutations and clonal evolution in mantle cell lymphoma</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>110</volume>, <fpage>18250</fpage>–<lpage>18255</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24145436</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1314608110</pub-id><pub-id pub-id-type="pmcid">PMC3831489</pub-id></mixed-citation>
+        </ref>
+        <ref id="b37">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Le Gallo</surname><given-names>M.</given-names></name><italic toggle="yes">et al.</italic><article-title>Exome sequencing of serous endometrial tumors identifies recurrent somatic mutations in chromatin-remodeling and ubiquitin ligase complex genes</article-title>. <source>Nat. Genet.</source><volume>44</volume>, <fpage>1310</fpage>–<lpage>1315</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23104009</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2455</pub-id><pub-id pub-id-type="pmcid">PMC3515204</pub-id></mixed-citation>
+        </ref>
+        <ref id="b38">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Berger</surname><given-names>M. F.</given-names></name><italic toggle="yes">et al.</italic><article-title>The genomic complexity of primary human prostate cancer</article-title>. <source>Nature</source><volume>470</volume>, <fpage>214</fpage>–<lpage>220</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21307934</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09744</pub-id><pub-id pub-id-type="pmcid">PMC3075885</pub-id></mixed-citation>
+        </ref>
+        <ref id="b39">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kan</surname><given-names>Z.</given-names></name><italic toggle="yes">et al.</italic><article-title>Diverse somatic mutation patterns and pathway alterations in human cancers</article-title>. <source>Nature</source><volume>466</volume>, <fpage>869</fpage>–<lpage>873</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20668451</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09208</pub-id></mixed-citation>
+        </ref>
+        <ref id="b40">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kim</surname><given-names>M. S.</given-names></name>, <name name-style="western"><surname>Je</surname><given-names>E. M.</given-names></name>, <name name-style="western"><surname>Oh</surname><given-names>J. E.</given-names></name>, <name name-style="western"><surname>Yoo</surname><given-names>N. J.</given-names></name> &amp; <name name-style="western"><surname>Lee</surname><given-names>S. H.</given-names></name><article-title>Mutational and expressional analyses of SPOP, a candidate tumor suppressor gene, in prostate, gastric and colorectal cancers</article-title>. <source>APMIS</source><volume>121</volume>, <fpage>626</fpage>–<lpage>633</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23216165</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/apm.12030</pub-id></mixed-citation>
+        </ref>
+        <ref id="b41">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hollenbach</surname><given-names>A. D.</given-names></name>, <name name-style="western"><surname>McPherson</surname><given-names>C. J.</given-names></name>, <name name-style="western"><surname>Mientjes</surname><given-names>E. J.</given-names></name>, <name name-style="western"><surname>Iyengar</surname><given-names>R.</given-names></name> &amp; <name name-style="western"><surname>Grosveld</surname><given-names>G.</given-names></name><article-title>Daxx and histone deacetylase II associate with chromatin through an interaction with core histones and the chromatin-associated protein Dek</article-title>. <source>J. Cell. Sci.</source><volume>115</volume>, <fpage>3319</fpage>–<lpage>3330</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12140263</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/jcs.115.16.3319</pub-id></mixed-citation>
+        </ref>
+        <ref id="b42">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Racki</surname><given-names>L. R.</given-names></name><italic toggle="yes">et al.</italic><article-title>The chromatin remodeller ACF acts as a dimeric motor to space nucleosomes</article-title>. <source>Nature</source><volume>462</volume>, <fpage>1016</fpage>–<lpage>1021</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">20033039</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08621</pub-id><pub-id pub-id-type="pmcid">PMC2869534</pub-id></mixed-citation>
+        </ref>
+        <ref id="b43">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Krill-Burger</surname><given-names>J. M.</given-names></name><italic toggle="yes">et al.</italic><article-title>Renal cell neoplasms contain shared tumor type-specific copy number variations</article-title>. <source>Am. J. Pathol.</source><volume>180</volume>, <fpage>2427</fpage>–<lpage>2439</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22483639</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajpath.2012.01.044</pub-id><pub-id pub-id-type="pmcid">PMC3378847</pub-id></mixed-citation>
+        </ref>
+        <ref id="b44">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Welcker</surname><given-names>M.</given-names></name> &amp; <name name-style="western"><surname>Clurman</surname><given-names>B. E.</given-names></name><article-title>FBW7 ubiquitin ligase: a tumour suppressor at the crossroads of cell division, growth and differentiation</article-title>. <source>Nat. Rev. Cancer</source><volume>8</volume>, <fpage>83</fpage>–<lpage>93</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18094723</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2290</pub-id></mixed-citation>
+        </ref>
+        <ref id="b45">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Rahman</surname><given-names>M.</given-names></name><italic toggle="yes">et al.</italic><article-title>PPP2R1A mutation is a rare event in ovarian carcinoma across histological subtypes</article-title>. <source>Anticancer Res.</source><volume>33</volume>, <fpage>113</fpage>–<lpage>118</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23267135</pub-id></mixed-citation>
+        </ref>
+        <ref id="b46">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Moroney</surname><given-names>J.</given-names></name><italic toggle="yes">et al.</italic><article-title>Phase I study of the antiangiogenic antibody bevacizumab and the mTOR/hypoxia-inducible factor inhibitor temsirolimus combined with liposomal doxorubicin: tolerance and biological activity</article-title>. <source>Clin. Cancer Res.</source><volume>18</volume>, <fpage>5796</fpage>–<lpage>5805</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22927482</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-12-1158</pub-id></mixed-citation>
+        </ref>
+        <ref id="b47">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Fu</surname><given-names>S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Perifosine plus docetaxel in patients with platinum and taxane resistant or refractory high-grade epithelial ovarian cancer</article-title>. <source>Gynecol. Oncol.</source><volume>126</volume>, <fpage>47</fpage>–<lpage>53</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22487539</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ygyno.2012.04.006</pub-id><pub-id pub-id-type="pmcid">PMC3738300</pub-id></mixed-citation>
+        </ref>
+        <ref id="b48">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Seront</surname><given-names>E.</given-names></name><italic toggle="yes">et al.</italic><article-title>Phase II study of everolimus in patients with locally advanced or metastatic transitional cell carcinoma of the urothelial tract: clinical activity, molecular response, and biomarkers</article-title>. <source>Ann. Oncol.</source><volume>23</volume>, <fpage>2663</fpage>–<lpage>2670</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22473592</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mds057</pub-id></mixed-citation>
+        </ref>
+        <ref id="b49">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Slomovitz</surname><given-names>B. M.</given-names></name><italic toggle="yes">et al.</italic><article-title>A phase 2 study of the oral mammalian target of rapamycin inhibitor, everolimus, in patients with recurrent endometrial carcinoma</article-title>. <source>Cancer</source><volume>116</volume>, <fpage>5415</fpage>–<lpage>5419</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20681032</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cncr.25515</pub-id><pub-id pub-id-type="pmcid">PMC5120730</pub-id></mixed-citation>
+        </ref>
+        <ref id="b50">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jaiswal</surname><given-names>B. S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Oncogenic ERBB3 mutations in human cancers</article-title>. <source>Cancer Cell</source><volume>23</volume>, <fpage>603</fpage>–<lpage>617</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23680147</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2013.04.012</pub-id></mixed-citation>
+        </ref>
+        <ref id="b51">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Garnett</surname><given-names>M. J.</given-names></name><italic toggle="yes">et al.</italic><article-title>Systematic identification of genomic markers of drug sensitivity in cancer cells</article-title>. <source>Nature</source><volume>483</volume>, <fpage>570</fpage>–<lpage>575</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22460902</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11005</pub-id><pub-id pub-id-type="pmcid">PMC3349233</pub-id></mixed-citation>
+        </ref>
+        <ref id="b52">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Pennington</surname><given-names>K. P.</given-names></name><italic toggle="yes">et al.</italic><article-title>Germline and somatic mutations in homologous recombination genes predict platinum response and survival in ovarian, fallopian tube, and peritoneal carcinomas</article-title>. <source>Clin. Cancer Res.</source><volume>20</volume>, <fpage>764</fpage>–<lpage>775</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24240112</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-13-2287</pub-id><pub-id pub-id-type="pmcid">PMC3944197</pub-id></mixed-citation>
+        </ref>
+        <ref id="b53">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Villarroel</surname><given-names>M. C.</given-names></name><italic toggle="yes">et al.</italic><article-title>Personalizing cancer treatment in the age of global genomic analyses: PALB2 gene mutations and the response to DNA damaging agents in pancreatic cancer</article-title>. <source>Mol. Cancer Ther.</source><volume>10</volume>, <fpage>3</fpage>–<lpage>8</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21135251</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-10-0893</pub-id><pub-id pub-id-type="pmcid">PMC3307340</pub-id></mixed-citation>
+        </ref>
+        <ref id="b54">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Williamson</surname><given-names>C. T.</given-names></name><italic toggle="yes">et al.</italic><article-title>Enhanced cytotoxicity of PARP inhibition in mantle cell lymphoma harbouring mutations in both ATM and p53</article-title>. <source>EMBO Mol. Med.</source><volume>4</volume>, <fpage>515</fpage>–<lpage>527</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22416035</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/emmm.201200229</pub-id><pub-id pub-id-type="pmcid">PMC3443945</pub-id></mixed-citation>
+        </ref>
+        <ref id="b55">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name><italic toggle="yes">et al.</italic><article-title>Two related ARID family proteins are alternative subunits of human SWI/SNF complexes</article-title>. <source>Biochem. J.</source><volume>383</volume>, <fpage>319</fpage>–<lpage>325</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15170388</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1042/BJ20040524</pub-id><pub-id pub-id-type="pmcid">PMC1134073</pub-id></mixed-citation>
+        </ref>
+        <ref id="b56">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Wilson</surname><given-names>B. G.</given-names></name> &amp; <name name-style="western"><surname>Roberts</surname><given-names>C. W.</given-names></name><article-title>SWI/SNF nucleosome remodellers and cancer</article-title>. <source>Nat. Rev. Cancer</source><volume>11</volume>, <fpage>481</fpage>–<lpage>492</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21654818</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc3068</pub-id></mixed-citation>
+        </ref>
+        <ref id="b57">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Weissman</surname><given-names>B.</given-names></name> &amp; <name name-style="western"><surname>Knudsen</surname><given-names>K. E.</given-names></name><article-title>Hijacking the chromatin remodeling machinery: impact of SWI/SNF perturbations in cancer</article-title>. <source>Cancer Res.</source><volume>69</volume>, <fpage>8223</fpage>–<lpage>8230</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19843852</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-2166</pub-id><pub-id pub-id-type="pmcid">PMC3272668</pub-id></mixed-citation>
+        </ref>
+        <ref id="b58">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Caramel</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Quignon</surname><given-names>F.</given-names></name> &amp; <name name-style="western"><surname>Delattre</surname><given-names>O.</given-names></name><article-title>RhoA-dependent regulation of cell migration by the tumor suppressor hSNF5/INI1</article-title>. <source>Cancer Res.</source><volume>68</volume>, <fpage>6154</fpage>–<lpage>6161</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18676838</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-08-0115</pub-id></mixed-citation>
+        </ref>
+        <ref id="b59">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lee</surname><given-names>J.</given-names></name><italic toggle="yes">et al.</italic><article-title>A tumor suppressive coactivator complex of p53 containing ASC-2 and histone H3-lysine-4 methyltransferase MLL3 or its paralogue MLL4</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>106</volume>, <fpage>8513</fpage>–<lpage>8518</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19433796</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0902873106</pub-id><pub-id pub-id-type="pmcid">PMC2689008</pub-id></mixed-citation>
+        </ref>
+        <ref id="b60">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ansari</surname><given-names>K. I.</given-names></name> &amp; <name name-style="western"><surname>Mandal</surname><given-names>S. S.</given-names></name><article-title>Mixed lineage leukemia: roles in gene expression, hormone signaling and mRNA processing</article-title>. <source>FEBS J.</source><volume>277</volume>, <fpage>1790</fpage>–<lpage>1804</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20236313</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1742-4658.2010.07606.x</pub-id></mixed-citation>
+        </ref>
+        <ref id="b61">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Sierra</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Yoshida</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Joazeiro</surname><given-names>C. A.</given-names></name> &amp; <name name-style="western"><surname>Jones</surname><given-names>K. A.</given-names></name><article-title>The APC tumor suppressor counteracts beta-catenin activation and H3K4 methylation at Wnt target genes</article-title>. <source>Genes Dev.</source><volume>20</volume>, <fpage>586</fpage>–<lpage>600</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16510874</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gad.1385806</pub-id><pub-id pub-id-type="pmcid">PMC1410807</pub-id></mixed-citation>
+        </ref>
+        <ref id="b62">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kwon</surname><given-names>J. E.</given-names></name><italic toggle="yes">et al.</italic><article-title>BTB domain-containing speckle-type POZ protein (SPOP) serves as an adaptor of Daxx for ubiquitination by Cul3-based ubiquitin ligase</article-title>. <source>J. Biol. Chem.</source><volume>281</volume>, <fpage>12664</fpage>–<lpage>12672</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16524876</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.M600204200</pub-id></mixed-citation>
+        </ref>
+        <ref id="b63">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jiao</surname><given-names>Y.</given-names></name><italic toggle="yes">et al.</italic><article-title>DAXX/ATRX, MEN1, and mTOR pathway genes are frequently altered in pancreatic neuroendocrine tumors</article-title>. <source>Science</source><volume>331</volume>, <fpage>1199</fpage>–<lpage>1203</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21252315</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1200609</pub-id><pub-id pub-id-type="pmcid">PMC3144496</pub-id></mixed-citation>
+        </ref>
+        <ref id="b64">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jiao</surname><given-names>Y.</given-names></name><italic toggle="yes">et al.</italic><article-title>Frequent ATRX, CIC, FUBP1 and IDH1 mutations refine the classification of malignant gliomas</article-title>. <source>Oncotarget</source><volume>3</volume>, <fpage>709</fpage>–<lpage>722</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22869205</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.588</pub-id><pub-id pub-id-type="pmcid">PMC3443254</pub-id></mixed-citation>
+        </ref>
+        <ref id="b65">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Amant</surname><given-names>F.</given-names></name><italic toggle="yes">et al.</italic><article-title>PTEN mutations in uterine sarcomas</article-title>. <source>Gynecol. Oncol.</source><volume>85</volume>, <fpage>165</fpage>–<lpage>169</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">11925138</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/gyno.2002.6601</pub-id></mixed-citation>
+        </ref>
+        <ref id="b66">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lancaster</surname><given-names>J. M.</given-names></name>, <name name-style="western"><surname>Risinger</surname><given-names>J. I.</given-names></name>, <name name-style="western"><surname>Carney</surname><given-names>M. E.</given-names></name>, <name name-style="western"><surname>Barrett</surname><given-names>J. C.</given-names></name> &amp; <name name-style="western"><surname>Berchuck</surname><given-names>A.</given-names></name><article-title>Mutational analysis of the PTEN gene in human uterine sarcomas</article-title>. <source>Am. J. Obstet. Gynecol.</source><volume>184</volume>, <fpage>1051</fpage>–<lpage>1053</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11349153</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1067/mob.2001.114508</pub-id></mixed-citation>
+        </ref>
+        <ref id="b67">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Risinger</surname><given-names>J. I.</given-names></name>, <name name-style="western"><surname>Hayes</surname><given-names>A. K.</given-names></name>, <name name-style="western"><surname>Berchuck</surname><given-names>A.</given-names></name> &amp; <name name-style="western"><surname>Barrett</surname><given-names>J. C.</given-names></name><article-title>PTEN/MMAC1 mutations in endometrial cancers</article-title>. <source>Cancer Res.</source><volume>57</volume>, <fpage>4736</fpage>–<lpage>4738</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9354433</pub-id></mixed-citation>
+        </ref>
+        <ref id="b68">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Barretina</surname><given-names>J.</given-names></name><italic toggle="yes">et al.</italic><article-title>Subtype-specific genomic alterations define new targets for soft-tissue sarcoma therapy</article-title>. <source>Nat. Genet.</source><volume>42</volume>, <fpage>715</fpage>–<lpage>721</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20601955</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.619</pub-id><pub-id pub-id-type="pmcid">PMC2911503</pub-id></mixed-citation>
+        </ref>
+        <ref id="b69">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Bettegowda</surname><given-names>C.</given-names></name><italic toggle="yes">et al.</italic><article-title>Detection of circulating tumor DNA in early- and late-stage human malignancies</article-title>. <source>Sci. Transl. Med.</source><volume>6</volume>, <fpage>224ra24</fpage> (<year>2014</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.3007094</pub-id><pub-id pub-id-type="pmcid">PMC4017867</pub-id><pub-id pub-id-type="pmid">24553385</pub-id></mixed-citation>
+        </ref>
+        <ref id="b70">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Haber</surname><given-names>D. A.</given-names></name><italic toggle="yes">et al.</italic><article-title>Blood-Based Analyses of Cancer: Circulating Tumor Cells and Circulating Tumor DNA</article-title>. <source>Cancer Discov</source><volume>4</volume>, <fpage>650</fpage>–<lpage>661</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24801577</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-1014</pub-id><pub-id pub-id-type="pmcid">PMC4433544</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+      <fn-group>
+        <fn fn-type="conflict">
+          <p>L.A.D. and V.E.V. are co-founders of Personal Genome Diagnostics and are members of its Scientific Advisory Board and Board of Directors. L.A.D. and V.E.V. own Personal Genome Diagnostics stock, which is subject to certain restrictions under University policy. The terms of these arrangements are managed by the Johns Hopkins University in accordance with its conflict-of-interest policies. The remaining authors declare no competing financial interests.</p>
+        </fn>
+      </fn-group>
+    </back>
+    <floats-group>
+      <fig id="f1" position="float" orientation="portrait">
+        <label>Figure 1</label>
+        <caption>
+          <title>Recurrently mutated genes in gynecological carcinosarcomas.</title>
+          <p>(<bold>a</bold>) The frequency of non-synonymous mutations in each sample of the study is displayed as mutations per megabase. (<bold>b</bold>) The matrix represents individual mutations in 22 patient samples, colour coded by type of mutation. Only the most damaging mutation per gene is shown if multiple mutations were found in a sample. Genes are classified into four functional categories displayed on the right. Mutations occurring at known hotspots are circled in green. Left: bar plot shows the number of mutations in each gene across 22 samples. Percentages represent the fraction of tumours with at least one mutation in the specified gene. (<bold>c</bold>) Base substitution spectrum of individual samples: transitions (ts) and transversions (tv) at CpG and non-CpG sites, indels and dinucleotide substitutions. (<bold>d</bold>) Site of the primary tumour.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms6006-f1.jpg"/>
+      </fig>
+      <fig id="f2" position="float" orientation="portrait">
+        <label>Figure 2</label>
+        <caption>
+          <title>Mutations in chromatin remodelling genes.</title>
+          <p>Locations of mutations in the ARID1A, ARID1B, SPOP, BAZ1A and MLL3 proteins are indicated with arrows. Red arrows indicate mutations predicted to truncate the protein, while black arrows indicate missense alterations. Each tumour sample is depicted in a different colour.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms6006-f2.jpg"/>
+      </fig>
+      <table-wrap position="float" id="t1" orientation="portrait">
+        <label>Table 1</label>
+        <caption>
+          <title>Alterations in genes with potential clinical actionability.</title>
+        </caption>
+        <table frame="hsides" rules="groups" border="1">
+          <colgroup span="1">
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+            <col align="center" span="1"/>
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+          </colgroup>
+          <thead valign="bottom">
+            <tr>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Gene symbol</bold>
+              </th>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Gene description</bold>
+              </th>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Type of mutation</bold>
+              </th>
+              <th align="center" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Number of cases mutated</bold>
+              </th>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Information type</bold>
+              </th>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Therapy type</bold>
+              </th>
+            </tr>
+          </thead>
+          <tbody valign="top">
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">BRCA1</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Breast cancer 1; early onset</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Frameshift</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">1</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial, published clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">PARP inhibitor</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">BRCA2</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Breast cancer 2; early onset</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Nonsense</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">3</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial, published clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">PARP inhibitor</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">ERBB3</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">v-erb-b2 erythroblastic leukemia viral oncogene homologue 3</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Hotspot</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">1</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial, published clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">ERBB family inhibitors</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">FANCM</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Fanconi anaemia, complementation group M</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Splice site, frameshift</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">2</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Mitomycin</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">FBXW7</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">F-box and WD repeat domain containing 7, E3 ubiquitin protein ligase</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Frameshift, nonsense, hotspot, missense</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">5</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Preclinical</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">HDAC inhibitors</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">KRAS</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">v-Ki-ras2 Kirsten rat sarcoma viral oncogene homologue</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Hotspot</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">5</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial, published clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">MEK/BRAF inhibitor</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">MLH1</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">mutL homologue 1, colon cancer, non-polyposis type 2 (<italic toggle="yes">Escherichia coli</italic>)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Frameshift</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">1</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Anti-PD-1 immunotherapy</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">MSH6</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">mutS homologue 6 (<italic toggle="yes">E. coli</italic>)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Nonsense, frameshift</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">3</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Anti-PD-1 immunotherapy</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">PIK3CA</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Phosphoinositide-3-kinase; catalytic; alpha polypeptide</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Hotspot</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">8</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial, published clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">PI3K/mTOR/AKT/MEKi</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">PIK3R1</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Phosphoinositide-3-kinase, regulatory subunit 1 (alpha)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">In-frame deletion, in-frame insertion, frameshift</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">3</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">mTOR inhibitor</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <italic toggle="yes">PTEN</italic>
+              </td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Phosphatase and tensin homologue</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Missense, nonsense, frameshift</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">8</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Active clinical trial, published clinical trial</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">PI3K/AKT inhibitor</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn id="t1-fn1">
+            <p>HDAC, histone deacetylase; mTOR, mammalian target of rapamycin; PARP, poly (ADP-ribose) polymerase; PI3K, phosphoinositide 3-kinase.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </floats-group>
+  </article>
+</pmc-articleset>

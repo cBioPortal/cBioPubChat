@@ -1,0 +1,1662 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8213710</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8213710.1</article-id>
+        <article-id pub-id-type="pmcaid">8213710</article-id>
+        <article-id pub-id-type="pmcaiid">8213710</article-id>
+        <article-id pub-id-type="pmid">34145282</article-id>
+        <article-id pub-id-type="doi">10.1038/s41467-021-24109-5</article-id>
+        <article-id pub-id-type="publisher-id">24109</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Enhanced specificity of clinical high-sensitivity tumor mutation profiling in cell-free DNA via paired normal sequencing using MSK-ACCESS</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4610-0149</contrib-id>
+            <name name-style="western">
+              <surname>Rose Brannon</surname>
+              <given-names initials="A">A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Jayakumaran</surname>
+              <given-names initials="G">Gowtham</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3475-9985</contrib-id>
+            <name name-style="western">
+              <surname>Diosdado</surname>
+              <given-names initials="M">Monica</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Patel</surname>
+              <given-names initials="J">Juber</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Razumova</surname>
+              <given-names initials="A">Anna</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hu</surname>
+              <given-names initials="Y">Yu</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meng</surname>
+              <given-names initials="F">Fanli</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Haque</surname>
+              <given-names initials="M">Mohammad</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sadowska</surname>
+              <given-names initials="J">Justyna</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Murphy</surname>
+              <given-names initials="BJ">Brian J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baldi</surname>
+              <given-names initials="T">Tessara</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0353-1195</contrib-id>
+            <name name-style="western">
+              <surname>Johnson</surname>
+              <given-names initials="I">Ian</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ptashkin</surname>
+              <given-names initials="R">Ryan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6496-4752</contrib-id>
+            <name name-style="western">
+              <surname>Hasan</surname>
+              <given-names initials="M">Maysun</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Srinivasan</surname>
+              <given-names initials="P">Preethi</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6104-5665</contrib-id>
+            <name name-style="western">
+              <surname>Rema</surname>
+              <given-names initials="AB">Anoop Balakrishnan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rijo</surname>
+              <given-names initials="I">Ivelise</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Agarunov</surname>
+              <given-names initials="A">Aaron</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Won</surname>
+              <given-names initials="H">Helen</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Perera</surname>
+              <given-names initials="D">Dilmi</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names initials="DN">David N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Samoila</surname>
+              <given-names initials="A">Aliaksandra</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jing</surname>
+              <given-names initials="X">Xiaohong</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1749-0045</contrib-id>
+            <name name-style="western">
+              <surname>Gedvilaite</surname>
+              <given-names initials="E">Erika</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4747-6391</contrib-id>
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names initials="JL">Julie L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stephens</surname>
+              <given-names initials="DP">Dennis P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8822-4049</contrib-id>
+            <name name-style="western">
+              <surname>Dix</surname>
+              <given-names initials="JM">Jenna-Marie</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>DeGroat</surname>
+              <given-names initials="N">Nicole</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nafa</surname>
+              <given-names initials="K">Khedoudja</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Syed</surname>
+              <given-names initials="A">Aijazuddin</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="A">Alan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lebow</surname>
+              <given-names initials="ES">Emily S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8651-5317</contrib-id>
+            <name name-style="western">
+              <surname>Bowman</surname>
+              <given-names initials="AS">Anita S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ferguson</surname>
+              <given-names initials="DC">Donna C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="Y">Ying</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mata</surname>
+              <given-names initials="DA">Douglas A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sharma</surname>
+              <given-names initials="R">Rohit</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names initials="SR">Soo-Ryum</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bale</surname>
+              <given-names initials="T">Tejus</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5542-9857</contrib-id>
+            <name name-style="western">
+              <surname>Benhamida</surname>
+              <given-names initials="JK">Jamal K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names initials="JC">Jason C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dogan</surname>
+              <given-names initials="S">Snjezana</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hameed</surname>
+              <given-names initials="MR">Meera R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hechtman</surname>
+              <given-names initials="JF">Jaclyn F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Moung</surname>
+              <given-names initials="C">Christine</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ross</surname>
+              <given-names initials="DS">Dara S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vakiani</surname>
+              <given-names initials="E">Efsevia</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8114-0237</contrib-id>
+            <name name-style="western">
+              <surname>Vanderbilt</surname>
+              <given-names initials="CM">Chad M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yao</surname>
+              <given-names initials="J">JinJuan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4236-0576</contrib-id>
+            <name name-style="western">
+              <surname>Razavi</surname>
+              <given-names initials="P">Pedram</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0986-9285</contrib-id>
+            <name name-style="western">
+              <surname>Smyth</surname>
+              <given-names initials="LM">Lillian M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4532-8053</contrib-id>
+            <name name-style="western">
+              <surname>Chandarlapaty</surname>
+              <given-names initials="S">Sarat</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5093-6099</contrib-id>
+            <name name-style="western">
+              <surname>Iyer</surname>
+              <given-names initials="G">Gopa</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abida</surname>
+              <given-names initials="W">Wassim</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Harding</surname>
+              <given-names initials="JJ">James J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Krantz</surname>
+              <given-names initials="B">Benjamin</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8076-9199</contrib-id>
+            <name name-style="western">
+              <surname>O’Reilly</surname>
+              <given-names initials="E">Eileen</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yu</surname>
+              <given-names initials="HA">Helena A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6661-8733</contrib-id>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="BT">Bob T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5204-3465</contrib-id>
+            <name name-style="western">
+              <surname>Rudin</surname>
+              <given-names initials="CM">Charles M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7079-8914</contrib-id>
+            <name name-style="western">
+              <surname>Diaz</surname>
+              <given-names initials="L">Luis</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6614-802X</contrib-id>
+            <name name-style="western">
+              <surname>Solit</surname>
+              <given-names initials="DB">David B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Arcila</surname>
+              <given-names initials="ME">Maria E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ladanyi</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1863-1199</contrib-id>
+            <name name-style="western">
+              <surname>Loomis</surname>
+              <given-names initials="B">Brian</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tsui</surname>
+              <given-names initials="D">Dana</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3882-5000</contrib-id>
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5406-4104</contrib-id>
+            <name name-style="western">
+              <surname>Zehir</surname>
+              <given-names initials="A">Ahmet</given-names>
+            </name>
+            <address>
+              <email>zehira@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3754-0321</contrib-id>
+            <name name-style="western">
+              <surname>Benayed</surname>
+              <given-names initials="R">Ryma</given-names>
+            </name>
+            <address>
+              <email>benayedr@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Kravis Center for Molecular Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Laboratory Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Radiation Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>18</day>
+          <month>6</month>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2021</year>
+        </pub-date>
+        <volume>12</volume>
+        <issue-id pub-id-type="pmc-issue-id">372028</issue-id>
+        <elocation-id>3770</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>2</day>
+            <month>12</month>
+            <year>2020</year>
+          </date>
+          <date date-type="accepted">
+            <day>26</day>
+            <month>5</month>
+            <year>2021</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>18</day>
+              <month>06</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>07</month>
+              <year>2021</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2025-01-07 22:25:21.783">
+              <day>07</day>
+              <month>01</month>
+              <year>2025</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2021</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2021_Article_24109.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Circulating cell-free DNA from blood plasma of cancer patients can be used to non-invasively interrogate somatic tumor alterations. Here we develop MSK-ACCESS (Memorial Sloan Kettering - Analysis of Circulating cfDNA to Examine Somatic Status), an NGS assay for detection of very low frequency somatic alterations in 129 genes. Analytical validation demonstrated 92% sensitivity in de-novo mutation calling down to 0.5% allele frequency and 99% for a priori mutation profiling. To evaluate the performance of MSK-ACCESS, we report results from 681 prospective blood samples that underwent clinical analysis to guide patient management. Somatic alterations are detected in 73% of the samples, 56% of which have clinically actionable alterations. The utilization of matched normal sequencing allows retention of somatic alterations while removing over 10,000 germline and clonal hematopoiesis variants. Our experience illustrates the importance of analyzing matched normal samples when interpreting cfDNA results and highlights the importance of cfDNA as a genomic profiling source for cancer patients.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">Liquid biopsies allow the non-invasive detection of somatic mutations from tumours. Here, the authors develop and test MSK-ACCESS, an NGS-based clinical assay for identifying low frequency mutations in 129 genes and describe how it benefits patients in the clinic.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Cancer genomics</kwd>
+          <kwd>Predictive markers</kwd>
+          <kwd>Tumour biomarkers</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2021</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par3">Advances in molecular profiling have led to a rapid expansion in the number of predictive molecular biomarkers and associated targeted therapies, heightening the need for large-scale, prospective tumor profiling assays across all cancer types. The majority of comprehensive next-generation sequencing (NGS)-based profiling methods utilize tumor tissue as the primary specimen of choice for biomarker detection. Although widely used, obtaining an adequate tissue sample can be challenging in some cases due to the need for invasive biopsies that may pose an excessive risk to the patient. In addition, based on our clinical experience, 8.8% of the tissue submitted for molecular analysis is inadequate for testing due to low tumor cellularity, low DNA yield, or quality<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Finally, a single tissue biopsy may not capture the full genetic heterogeneity of a patient’s cancer, and consequently, clinically actionable biomarkers may be overlooked even with the most sensitive and specific genomic assay. Taken together, a sole tissue-based genomic profiling approach may not be comprehensive and may limit treatment options for cancer patients.</p>
+        <p id="Par4">The successful detection of cancer drivers in circulating-tumor DNA (ctDNA) found within plasma cell-free DNA (cfDNA)<sup><xref ref-type="bibr" rid="CR2">2</xref></sup> has provided a means to overcome the limitations of tissue profiling<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. cfDNA profiling can have a direct impact on patient care by informing treatment decisions<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>, enabling the monitoring of cancer response to therapy<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup>, revealing drug resistance mechanisms<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>, and detecting minimal residual disease or relapse<sup><xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR13">13</xref></sup>. In addition, by providing a less invasive collection procedure, cfDNA analyses also enable serial molecular profiling during the course of the patient’s disease<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. Plasma profiling can also potentially capture inter- and intra-tumor heterogeneity across disease sites especially in patients with advanced metastatic disease<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup>. In addition, recent studies have shown that ctDNA fragmentation profiles can better facilitate cancer screening and early diagnosis<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>.</p>
+        <p id="Par5">The use of ctDNA as an analyte, however, has its inherent limitations. It is usually found in low concentrations in the plasma<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, which may be the result of low disease burden in early-stage tumors, disease control in response to treatment, or low tumor DNA shedding in blood. Moreover, the vast majority of cfDNA is typically derived from normal hematopoietic cells, leading to low levels of ctDNA and very low mutant allele frequencies for somatic mutations. Highly sensitive assays that are limited to single mutation ctDNA profiling assays such as droplet digital PCR (ddPCR)<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> are not practical for broad clinical use given the increasing number of genomic alterations that are predictive of response to FDA-approved targeted therapies or required as inclusion criteria for clinical trial enrollment. Given the low levels of ctDNA in a blood sample, the development of a highly sensitive NGS assay that comprehensively encompasses all clinically actionable targets is crucial for the detection of more low-frequency alterations. Advances in NGS technologies, such as the introduction of unique molecular identifiers (UMIs) and dual barcode indexing, have enabled ultra-deep sequencing of cfDNA while dramatically reducing background error rates, thereby allowing high-confidence mutation detection of very low allele frequencies<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. Further, technical improvements in sequencing library preparation methods have reduced the input DNA required for sequencing, allowing for the efficient generation of libraries with input DNA as low as 10 ng.</p>
+        <p id="Par6">Herein, we describe the design, analytical validation, and clinical implementation of MSK-ACCESS (Memorial Sloan Kettering - Analysis of Circulating cfDNA to Examine Somatic Status) as a clinical test that can detect all classes of somatic genetic alterations (single nucleotide variants (SNVs), indels, copy number alterations, and structural variants (SV)) in cfDNA specimens. This assay utilizes hybridization capture and deep sequencing (~20,000× raw coverage) to identify genomic alterations in selected regions of 129 key cancer-associated genes. MSK-ACCESS was approved for clinical use by the New York State Department of Health on 31 May 2019, and has since been used prospectively to guide patient care. We therefore also report our clinical experience utilizing MSK-ACCESS to prospectively profile 681 clinical blood samples from 617 patients, representing a total of 31 distinct tumor types.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Panel design and background error assessment</title>
+          <p id="Par7">We utilized genomic data from over 25,000 solid tumors sequenced by MSK-IMPACT to generate a list of 826 exons from 129 genes encompassing the most recurrent oncogenic mutations; variants that are targets of approved or investigational therapies based on OncoKB, an in-house, institutional knowledge base of variant annotations<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>; frequently mutated exons; entire kinase domains of targetable receptor tyrosine kinases; and all coding exons of selected tumor suppressor genes. This MSK-IMPACT-informed design targets an average of three non-synonymous mutations and at least one non-synonymous mutation in 84% of the 25,000 tumors previously sequenced using MSK-IMPACT, including 91% of breast cancers and 94% of non-small cell lung cancers (NSCLC) (Fig. <xref rid="Fig1" ref-type="fig">1a</xref>). To further expand the detection capability of copy number alterations and SV in 10 genes, we additionally targeted 560 common SNPs and 40 introns known to be involved in rearrangements. MSK-ACCESS incorporates unique molecular indexes (UMIs) to increase fidelity of the sequencing reads. The overall process (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>) involves the sequencing of plasma cfDNA and genomic DNA from white blood cells (WBCs) to ~20,000× and 1000× raw coverage, respectively, followed by collapsing read pairs to duplex (both strands of the initial cfDNA molecule) or simplex (one strand of the initial molecule) consensus sequences based on UMIs to suppress background sequencing errors. Duplex coverage represents the number of unique double-stranded cfDNA molecules for which both complementary strands were successfully sequenced. Replicate read pairs from both strands are jointly collapsed into a duplex consensus sequence to ensure highest-stringency mutation calling. Only mutations present on reads originating from both strands of the cfDNA template are retained and considered high-confidence calls<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>).<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>Design, characterization, and validation of MSK-ACCESS.</title><p><bold>a</bold> The MSK-ACCESS panel was designed using data from 25,000 tumors analyzed using MSK-IMPACT tumor sequencing assay to identify at least one mutation in 94% of lung cancers, 91% of breast, and 84% of all cancers. <bold>b</bold> The laboratory workflow includes the extraction of cfDNA from plasma and genomic DNA from WBC originating from the same tube of blood. The addition of UMIs during library construction enables the identification of original cfDNA molecules during analysis and error suppression. <bold>c</bold> The analysis pipeline is modified from the standard MSK-IMPACT pipeline to incorporate UMI clipping and the generation of simplex and duplex consensus reads. <bold>d</bold> The sequencing of healthy donors to a mean raw coverage of 18,818× yielded a mean duplex coverage of 1103× and a mean simplex coverage of 658× across 47 samples. <bold>e</bold> The background error rate of non-reference sites demonstrates the reduction of overall and substitution specific errors via consensus read generation. Only the genomic position with non-reference reads are used; error rate is defined as the percentage of reads that support non-reference alleles. <italic toggle="yes">N</italic> = 47 for each boxplot. <bold>f</bold> A heatmap of error rate at all positions demonstrates how effective consensus read generation is at decreasing the error to zero at over 85% of sites. <bold>g</bold> Comparison of orthogonal and validated testing (expected VAF) to MSK-ACCESS (observed VAF) in the accuracy analysis showed high concordance (<italic toggle="yes">R</italic><sup>2</sup> = 0.98). All boxplots show the median (center line) and 25th and 75th percentiles (bounding box) along with the 1.5 interquartile range (whiskers).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e892" position="float" orientation="portrait" xlink:href="41467_2021_24109_Fig1_HTML.jpg"/></fig></p>
+          <p id="Par8">We first sought to characterize the error rate of MSK-ACCESS using a cohort of 47 plasma samples collected from healthy donors. The donor plasma samples were sequenced to a mean raw coverage of 18,818×. Post collapsing, the mean simplex and duplex coverage were 658× and 1103×, respectively (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>, Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). When considering only the sites with background error across all targeted sites (i.e., positions with non-reference alleles), we observed a median error rate of 1.2 × 10<sup>−5</sup> and 1.7 × 10<sup>−6</sup> in simplex and duplex BAM files, respectively, compared to a median of 3.3 × 10<sup>−4</sup> in the standard BAMs (Fig. <xref rid="Fig1" ref-type="fig">1e</xref>). Compared to the relatively equivalent background error rate on the HiSeq 2500 (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>), the standard BAMs on the NovaSeq 6000 showed a higher error rate for T &gt; A, T &gt; G, and C &gt; A base transversions (Fig. <xref rid="Fig1" ref-type="fig">1e</xref>). However, following collapsing, we observed lower and more uniform error rates across both sequencers. Moreover, while &lt;1% of targeted positions in the standard BAM had an error rate of zero, 85% of positions in the simplex BAM and 99% in duplex BAMs had no observed base pair mismatches (Fig. <xref rid="Fig1" ref-type="fig">1f</xref>).</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Analytical validation</title>
+          <p id="Par9">For the analytical validation of MSK-ACCESS, we assembled a cohort of 70 cfDNA samples with a total of 100 known SNVs and indels in <italic toggle="yes">AKT1, ALK, BRAF, EGFR, ERBB2, ESR1, KRAS, MET, PIK3CA</italic>, and <italic toggle="yes">TP53</italic> identified by orthogonal cfDNA assays (ddPCR or a commercial NGS assay) from the same specimen to demonstrate accuracy. The range of VAF for the expected mutations, based on orthogonal assays, was 0.1–73%. We detected 94% of the expected variants (<italic toggle="yes">n</italic> = 94, 95% CI: 87.4–97.8%) based on genotyping and 82% of them (<italic toggle="yes">n</italic> = 82, 95% CI: 72.7–88.7%) with de novo mutation calling (<italic toggle="yes">R</italic><sup>2</sup> = 0.98) (Fig. <xref rid="Fig1" ref-type="fig">1g</xref>, Supplementary Data <xref rid="MOESM4" ref-type="media">1</xref>, Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). Amongst the undetected mutations, leftover DNA was available for only one of the samples (orthogonal VAF = 0.16%), and ddPCR testing of this sample revealed no evidence of the alteration in our specimen. For mutations with VAF ≥ 0.5% from orthogonal assays (<italic toggle="yes">n</italic> = 83), we called 92% (<italic toggle="yes">n</italic> = 76, 95% CI: 84–96.5%) de novo, and we detected 99% of the mutations by genotyping (<italic toggle="yes">n</italic> = 82, 95% CI: 92.5–99.9%).</p>
+          <p id="Par10">To determine the reproducibility of the assay, we prepared and sequenced seven samples, harboring a total of 152 mutations, both three different times within the same sequencing run and also across four separate runs (Supplementary Data <xref rid="MOESM2" ref-type="media">2</xref>). By genotyping, we detected 99% (<italic toggle="yes">n</italic> = 151, 95% CI: 96.4–100%) of the expected mutations with an overall median coefficient of variation of 0.16 (range: 0.04–1.2) for each sample and alteration. To test the limit of detection of the assay, we sequenced five different dilution levels (5, 2.5, 1, 0.5, and 0.1%) with a positive control sample containing19 known mutations. In the 0.1% dilution, 11% of the mutations (<italic toggle="yes">n</italic> = 2, 95% CI: 1.3–33.1%) were called de novo and 74% (<italic toggle="yes">n</italic> = 14, 95% CI: 48.8–90.9%) were detected by genotyping. All expected mutations were called de novo in the 0.5% sample (Supplementary Data <xref rid="MOESM3" ref-type="media">3</xref>).</p>
+          <p id="Par11">Finally, to calculate specificity, variant calling was performed on 47 healthy donor plasma samples in comparison to their matched WBCs, and no mutations were called. In addition, we utilized the samples from the accuracy analysis with orthogonal NGS results (<italic toggle="yes">n</italic> = 37), and considered all genomic positions interrogated by these assays (<italic toggle="yes">n</italic> = 1620) (Supplementary Data <xref rid="MOESM4" ref-type="media">4</xref>). Four potential false positives not reported by the orthogonal NGS assay (TP53 p.R253H with VAFs 0.17 and 0.24%, and PIK3CA p.H1047R with VAFs 0.05 and 0.07%) were detected by MSK-ACCESS using genotyping thresholds, implying a specificity of at least 99.7% (95% CI: 99.3–99.9%). Through de novo mutation calling, we identified only one false positive mutation, for a specificity of 99.9% (95% CI: 99.6–100%). Overall, our positive predictive agreement (PPA) for genotyping was 94% (95% CI: 85–98%) and for de novo mutation calling was 98% (95% CI: 90–99.9%). The negative predictive agreement (NPA) was 99.7% and 99.2% for genotyping and de novo calling, respectively.</p>
+        </sec>
+        <sec id="Sec5">
+          <title>Clinical experience—genomic landscape</title>
+          <p id="Par12">Based on the above analytical validation results, MSK-ACCESS received approval for clinical use from the New York State Department of Health (NYS-DOH) on 31 May 2019 and was subsequently launched for routine clinical diagnostics assessment. Here, we describe the results from the first 617 patients prospectively sequenced in our clinical laboratory. A total of 687 blood samples were accessioned, and 681 (99%) yielded sufficient cfDNA and passed quality control metrics. The median raw coverage of the plasma isolated from these blood samples were 18,264× and 1273× for WBCs. Median duplex consensus coverage for plasma was 1497×.</p>
+          <p id="Par13">Of the 681 samples, 51% (<italic toggle="yes">n</italic> = 349) were from NSCLC patients, followed by prostate, bladder, pancreatic, and biliary samples as the next most common cancer types (28%) (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>). We assessed the clinical actionability of genomic alterations detected by MSK-ACCESS using OncoKB, and 41% (<italic toggle="yes">n</italic> = 278) of samples had at least one targetable alteration as defined by the presence of an OncoKB level 1-3B alteration. The highest frequency of level 1 OncoKB alterations were observed in bladder cancer, breast cancer, and NSCLC patients at 48%, 37%, and 33%, respectively. Seventy-three percent (<italic toggle="yes">n</italic> = 498) of all samples had at least one alteration (mutation, copy number alteration or a SV) detected, with a non-zero median of 3 per patient (range 1–28) (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>), 56% of which harbored clinically actionable alterations.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Clinical experience with MSK-ACCESS.</title><p><bold>a</bold> Distribution of cancer types amongst the first 617 patients sequenced with MSK-ACCESS. Colors indicate the highest OncoKB level ascribed to each patient’s genomic findings. <bold>b</bold> Distribution of all alterations found in each ctDNA sample (<italic toggle="yes">n</italic> = 681). <bold>c</bold> Variant allele frequencies (VAF) of all mutations found in ctDNA samples from MSK-ACCESS. Samples were sorted by the median VAF and each mutation was colored based on whether prior evidence was found for the mutation. De novo: mutations were called in ctDNA and were not reported in tissue testing or tissue testing was not performed; De novo and prior evidence: mutations were called in ctDNA and also were present in tissue testing; Genotyped from prior evidence: mutations were not detected in ctDNA by genotyping based on tissue results. <bold>d</bold> Same mutations in <italic toggle="yes">c</italic> showing the distribution of total collapsed coverage and VAF. Dotted line indicates the theoretical limits of calling threshold. <bold>e</bold> Oncoprint of genomic alterations found in lung, biliary, bladder, breast, prostate and pancreatic cancer samples with reported alterations. Colors indicate the OncoKB levels as in (<bold>a</bold>). <bold>f</bold> Comparison of cohort alteration rate of tumor types in (<bold>e</bold>) for genes where the alteration rate was greater than 3% by both MSK-ACCESS and MSK-IMPACT.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1055" position="float" orientation="portrait" xlink:href="41467_2021_24109_Fig2_HTML.jpg"/></fig></p>
+          <p id="Par14">Altogether, we clinically reported a total of 1697 SNVs and indels in 486 samples from 435 patients, with a median VAF of 1.9% (range 0.02–99%) (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>). Of these mutation calls, 95% (<italic toggle="yes">n</italic> = 1606) were called de novo without the aid of prior molecular profiling results for the tested patient. For the remaining 91 variants that were rescued by genotyping, the median observed VAF was 0.08%. As expected, deeper coverage enabled the detection of mutations at lower allele fractions for both de novo and genotyping thresholds (Fig. <xref rid="Fig2" ref-type="fig">2d</xref>). However, de novo calling of alterations that were independently seen previously in tumors occurred across the entire mathematically possible range, given minimum required alternate alleles, allele frequencies, and coverage depths (Fig. <xref rid="Fig2" ref-type="fig">2c, d</xref>).</p>
+          <p id="Par15">To ensure the accurate identification of the expected alterations by our assay, we examined the most frequently called mutations, copy number alterations, and SVs in lung cancer and the next five largest disease cohorts (Fig. <xref rid="Fig2" ref-type="fig">2e</xref>). As expected, <italic toggle="yes">TP53</italic> was the most commonly altered gene, with variants in 144 of the 248 (58%) NSCLC samples with detectable alterations. Of greater therapeutic relevance, MSK-ACCESS identified oncogenic targetable driver mutations and amplifications in <italic toggle="yes">EGFR, KRAS, MET, ERBB2</italic>, and <italic toggle="yes">BRAF</italic>. Characteristically, lung cancer samples lacking known mitogenic drivers by MSK-ACCESS were found to harbor <italic toggle="yes">STK11</italic> and <italic toggle="yes">KEAP1</italic> mutations. <italic toggle="yes">EML4-ALK</italic> and <italic toggle="yes">KIF5B-RET</italic> fusions were also detected, de novo and by genotyping, in this cohort, along with rearrangements of <italic toggle="yes">ROS1</italic> with multiple partners.</p>
+          <p id="Par16">Both clinically actionable and oncogenic alterations were similarly found in the next five most represented tumor types prospectively sequenced by MSK-ACCESS (Fig. <xref rid="Fig2" ref-type="fig">2e</xref>). <italic toggle="yes">TP53</italic> was again the most commonly altered gene, including both mutations and likely oncogenic deletions identified. <italic toggle="yes">FGFR2</italic> mutations and fusions (most commonly fused to <italic toggle="yes">BICC1</italic>) were identified in 8 of the 24 intrahepatic cholangiocarcinomas with detectable ctDNA, including missense mutations in the <italic toggle="yes">FGFR2</italic> kinase domain known to confer resistance to targeted therapies. Targetable alterations were also identified in <italic toggle="yes">IDH1</italic> and <italic toggle="yes">PIK3CA</italic>. Alterations in <italic toggle="yes">FGFR3</italic>, <italic toggle="yes">ERBB2</italic>, <italic toggle="yes">AR</italic>, and <italic toggle="yes">KRAS</italic> were recurrently detected in bladder, breast, prostate, and pancreatic cancer, respectively. Overall, the alteration rates in select genes and cancer types between MSK-ACCESS and MSK-IMPACT were comparable, with some notable exceptions such as a decrease in <italic toggle="yes">KRAS</italic> mutations in pancreatic cancer, an increase of <italic toggle="yes">EGFR</italic> mutations in the lung, <italic toggle="yes">AR</italic> mutations in prostate cancer, and <italic toggle="yes">NF1</italic> mutations in Breast cancer in the ctDNA (Fig. <xref rid="Fig2" ref-type="fig">2f</xref>).</p>
+        </sec>
+        <sec id="Sec6">
+          <title>Concordance with MSK-IMPACT</title>
+          <p id="Par17">To compare the detection sensitivity and the spectrum of mutations observed between tumor tissue and plasma, we sought to examine the concordance of mutation calling between MSK-IMPACT and MSK-ACCESS where available. For a consistent comparison analysis across all patients, we selected plasma mutations from the first sample sequenced by MSK-ACCESS for each patient for whom multiple time points were analyzed, and used the union of mutations across all tissue samples for each patient sequenced on MSK-IMPACT. Of the 617 patients tested with MSK-ACCESS, 383 also had clinical MSK-IMPACT results from 520 sequenced tumor tissues. A total of 1206 mutations were reported in the overlapping target regions across both assays, and 59% (<italic toggle="yes">n</italic> = 706) of the mutations were reported by both assays (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). The distribution of allele frequencies in tissue was slightly higher for the shared mutations than for the MSK-IMPACT-only calls (<italic toggle="yes">p</italic> = 2.06 × 10<sup>−18</sup>), but this effect was not observed for the MSK-ACCESS-only calls (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). While the VAFs of shared mutations in tissue and plasma were weakly correlated, we nonetheless observed high-frequency tumor mutations at extremely low VAF by MSK-ACCESS, and vice versa (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>).<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>Comparison of mutation calls between ctDNA and tissue.</title><p>Comparison of mutation calls between ctDNA and tissue. <bold>a</bold> Venn diagrams indicating the number of samples with concurrent cfDNA and tissue testing (<italic toggle="yes">n</italic> = 383) and the number of mutation calls identified in each (total <italic toggle="yes">n</italic> = 1206). <bold>b</bold> VAF distribution of mutations identified by MSK-ACCESS-only, shared by both MSK-ACCESS and MSK-IMPACT, and by MSK-IMPACT only (<italic toggle="yes">p</italic> = 2.06 × 10<sup>−18</sup>). The <italic toggle="yes">p</italic> value was obtained from pairwise comparisons using two-sided Mann–Whitney <italic toggle="yes">U</italic>-tests and adjusted for multiple testing using the Bonferroni method. <bold>c</bold> Comparison of VAF distributions of mutations identified in both the ctDNA and tissue from both MSK-ACCESS and MSK-IMPACT. <bold>d</bold> Tumor purity distribution of MSK-IMPACT tissue samples of (i) all patients in the concordance analysis, (ii) samples belonging to patients presenting actionable mutations on both assays, (iii) samples belonging to patients with actionable mutations detected in MSK-IMPACT only, and (iv) samples belonging to patients with actionable mutations detected in MSK-ACCESS only. <bold>e</bold> Clonality of all and actionable mutations detected in MSK-IMPACT only and in both assays (all mutations: <italic toggle="yes">p</italic> = 8.10 × 10<sup>−13</sup>, actionable mutations: <italic toggle="yes">p</italic> = 6.06 × 10<sup>−3</sup>). The <italic toggle="yes">p</italic> values were obtained from two-by-two Fisher’s exact tests and adjusted for multiple testing using the Bonferroni method. <bold>f</bold> Absolute time difference (ΔDOP) between MSK-IMPACT tissue sample and MSK-ACCESS blood sample collection for patients with actionable mutations in MSK-IMPACT only (<italic toggle="yes">p</italic> = 3.63 × 10<sup>−14</sup>), in both assays, and in MSK-ACCESS only (<italic toggle="yes">p</italic> = 1.33 × 10<sup>−9</sup>). The <italic toggle="yes">p</italic> values were obtained from pairwise comparisons using two-sided Mann–Whitney <italic toggle="yes">U</italic>-tests and adjusted for multiple testing using the Bonferroni method. All boxplots show the median (center line) and 25th and 75th percentiles (bounding box) along with the 1.5 interquartile range (whiskers).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1258" position="float" orientation="portrait" xlink:href="41467_2021_24109_Fig3_HTML.jpg"/></fig></p>
+          <p id="Par18">We next considered the alterations specific to one assay. Twenty-one and twenty percent of the mutations were reported individually by either MSK-IMPACT tumor sequencing (<italic toggle="yes">n</italic> = 254) or MSK-ACCESS plasma sequencing (<italic toggle="yes">n</italic> = 246), respectively (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). Interestingly, 58 of 246 mutations reported by MSK-ACCESS-only were present at low sub-threshold levels in tissue by MSK-IMPACT, highlighting the potential for increased sensitivity obtained by utilizing ultra-high depth of coverage and UMIs. Eighteen percent (<italic toggle="yes">n</italic> = 46) of the MSK-IMPACT-only mutations were clinically actionable (OncoKB Level 1-3), as were 12% (<italic toggle="yes">n</italic> = 30) of the MSK-ACCESS-only detected mutations (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>), clearly demonstrating the importance and value of complementary tissue and cfDNA analyses. Moreover, for patients that did not receive MSK-IMPACT testing (<italic toggle="yes">n</italic> = 234), MSK-ACCESS detected 79 total clinically actionable mutations in 26% (<italic toggle="yes">n</italic> = 61) of the patients.</p>
+          <p id="Par19">In order to evaluate whether the tumor content played a role in mutation discordance, we computationally estimated tumor purity of tissue samples (<italic toggle="yes">n</italic> = 433 samples from 331 of the 383 patients for whom purity can be determined by FACETS, see “Methods”) and found no significant difference between samples from patients who had mutations detected only in plasma vs both plasma and tissue (<italic toggle="yes">p</italic> = 0.812) (Fig. <xref rid="Fig3" ref-type="fig">3d</xref>). This was also true when purity was compared for patients with only actionable mutations (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4</xref>). Next, we evaluated the clonality of mutations (see “Methods”) in tissue samples of patients tested on both MSK-IMPACT and MSK-ACCESS. A larger proportion of shared mutations were clonal compared to tissue-only mutations (<italic toggle="yes">p</italic> = 8.10 ×10<sup>−13</sup>), which was also true when only actionable mutations were considered (<italic toggle="yes">p</italic> = 6.06 × 10<sup>−3</sup>) (Fig. <xref rid="Fig3" ref-type="fig">3e</xref>), indicating the role clonality plays in mutation concordance between tissue and plasma testing.</p>
+          <p id="Par20">We also assessed whether the time between the tissue collection for MSK-IMPACT and blood collection for MSK-ACCESS (difference in date of procedure, ΔDOP) had an impact on the mutation concordance (see “Methods”). Overall, the average ΔDOP was 65 weeks (median: 27 weeks, range: 0–679 weeks). Patients with mutations only detected on either MSK-IMPACT (mean = 598 days; median = 491 days, <italic toggle="yes">p</italic> = 3.63 × 10<sup>−</sup><sup>14</sup>) or MSK-ACCESS (mean = 616 days; median = 288 days, <italic toggle="yes">p</italic> = 1.33 × 10<sup>−9</sup>) showed a higher ΔDOP than patients for whom mutations were detected on both assays (mean = 351 days; median = 83 days; Fig. <xref rid="Fig3" ref-type="fig">3f</xref>, Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). Evaluation of ΔDOP based only on actionable mutations across the three categories−MSK-IMPACT only, shared mutations, and MSK-ACCESS only−yielded similar findings (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5</xref>). Taken together, these results underlie the importance of timing of sample collection and tumor heterogeneity with respect to mutation concordance between tissue and plasma-based testing.</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Utility of matched WBC analysis</title>
+          <p id="Par21">Similar to MSK-IMPACT, MSK-ACCESS utilizes matched WBC sequencing to confidently identify and remove germline variants from cfDNA results. To quantify the benefit of matched WBC sequencing, we performed plasma-only variant calling in all clinical cases, resulting in 24,561 variant calls. We then simulated filtering criteria for unmatched sequencing, removing 14,508 variant calls (median: 14 ± 8 variants per sample), based on their presence in our curated plasma normal samples or in at least 0.5% of the population by gnomAD (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>, Supplementary Fig. <xref rid="MOESM1" ref-type="media">6</xref>). We could further filter out 721 (7.2%) likely germline variants based on their VAF within the heterozygous germline variant VAF range (between 35 and 65% in both WBCs and cfDNA). However, using this VAF-based filtering would improperly remove a total of 70 verified somatic mutations from the cfDNA callset, 15 of which were clinically actionable (Supplementary Table <xref rid="MOESM1" ref-type="media">3</xref>). Therefore, 10,053 variants with a mean VAF of 4.7% (median: 0.05%) still remained after database-driven filtering, highlighting the utility of patient-matched WBC profiling to filter out definitive germline mutations.<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><title>Use of WBC sequencing data to classify variants found in cfDNA.</title><p><bold>a</bold> VAF distribution of all mutations called in plasma from cfDNA and WBCs. Colors indicate the origin of mutations. Boxes indicate different populations of mutations: I: Variants only present in cfDNA, II: Variants present in cfDNA at high VAF but also present in WBC at lower VAF, III: Variants present in both cfDNA and WBCs with VAFs in the presumed germline range (35–65%), IV: Variants present in both cfDNA and WBCs with VAFs lower than 10% in both. <bold>b</bold> Insert size distribution of sequencing reads (fragment size) in healthy donors with characteristic peaks at 161 bp and 317 bp <bold>c</bold> Fragment size distribution for reads encompassing the variants highlighted by the boxes and labels in (<bold>a</bold>) for both reference and alternate alleles. Clear differences are observed for reads originating from ctDNA vs normal tissue.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1377" position="float" orientation="portrait" xlink:href="41467_2021_24109_Fig4_HTML.jpg"/></fig></p>
+          <p id="Par22">Notably, we were able to use the sequenced WBC sample to correctly classify several events as germline that were included as somatic events by commercial providers. As an example, a commercial cfDNA test reported an <italic toggle="yes">ATM</italic> p.E522fs*43 mutations as somatic and suggested therapies for this alteration, but our matched analysis revealed the indel to be present at ~50% in both the plasma and WBC and clearly ruled it out as a germline event. We have similarly been able to reassign mutations in <italic toggle="yes">TP53</italic>, <italic toggle="yes">BRCA2</italic>, and <italic toggle="yes">ROS1</italic> that had been previously reported as somatic as germline variants. In addition, the use of WBC sequencing revealed the germline origin of observed copy number deletions in <italic toggle="yes">ATM</italic>, <italic toggle="yes">BRCA2</italic>, and for two patients with retinoblastoma, <italic toggle="yes">RB1</italic>, based on deletions in their matched WBC sample (Supplementary Fig. <xref rid="MOESM1" ref-type="media">7</xref>).</p>
+          <p id="Par23">As previous reports have demonstrated that tumor- and normal-derived cfDNA may be distinguishable from genomic DNA by fragment length<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>, we sought to confirm this observation in MSK-ACCESS data and use this information to better inform the origin of variants detected in cfDNA. The general fragment length distribution exhibited the expected bimodal cfDNA peaks around 161 and 317 base pairs, when factoring the trimming of 3 bases from read ends by the pipeline<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). For all cfDNA fragments harboring a somatic tumor-derived mutation confirmed to be absent in WBCs (<italic toggle="yes">n</italic> = 1558), we observed that these fragments were significantly shorter than those harboring the wild-type allele, consistent with their tumor origin (Fig. <xref rid="Fig4" ref-type="fig">4c–i</xref>) (bootstrapped <italic toggle="yes">p</italic> value &lt; 0.0001). In several variants with limited supporting evidence in WBC DNA but significantly greater VAF in plasma cfDNA we were able to distinguish the origin as somatic tumor-derived (ctDNA) nature based on the slight cfDNA insert size profile peak in the WBC sample. As demonstrated in Fig. <xref rid="Fig4" ref-type="fig">4c</xref><bold>-</bold>II, these reads did have a shortened fragment length (bootstrapped <italic toggle="yes">p</italic> value &lt; 0.0001), confirming that they originated from the cell-free compartment. In stark contrast, the variant calls from the unmatched analysis that were filtered out as putative germline variants by their presence in WBCs at high VAF demonstrated an equivalent fragment length distribution as wild-type alleles (Fig. <xref rid="Fig4" ref-type="fig">4c</xref><bold>-</bold>III) (bootstrapped <italic toggle="yes">p</italic> value = 0.94). As we have shown, by integrating the fragment length analysis into the MSK-ACCESS assay, we can confidently distinguish between tumor-derived somatic and normal-derived variants in cfDNA.</p>
+        </sec>
+        <sec id="Sec8">
+          <title>Assessing the filtering of putative clonal hematopoiesis (CH) mutations</title>
+          <p id="Par24">Several recent studies have suggested that CH mutations present a challenge for proper filtering in highly sensitive NGS-based liquid biopsy assays<sup><xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR30">30</xref></sup>. We observed that the use of patient-matched normal WBC DNA in MSK-ACCESS eliminated 7,760 (77%) of variant calls below 10% VAF (Fig. <xref rid="Fig4" ref-type="fig">4a</xref><bold>-</bold>IV). We posited that the majority of these calls represent potential CH mutations. Recent reports<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> have suggested that fragments supporting CH variants have length distributions similar to cfDNA derived from non-cancerous cells and distinct from ctDNA<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR32">32</xref></sup>. Indeed, the sequence reads harboring variants with plasma VAF &lt; 10% and present in WBCs exhibited fragment lengths indistinguishable from wild-type and germline variants (Fig. <xref rid="Fig4" ref-type="fig">4c</xref><bold>-</bold>IV) (bootstrapped <italic toggle="yes">p</italic> value = 0.99), adding confidence to the hypothesis that these were properly filtered WBC-derived somatic mutations associated with CH. The previously described alterations in Fig. <xref rid="Fig4" ref-type="fig">4c</xref><bold>-</bold>II with a lower frequency of reads in the WBC sample than in the cfDNA sample could also have been interpreted as having a CH origin. Nonetheless, the shorter length distribution for fragments harboring these mutations reaffirmed that these were likely tumor-derived as originally postulated.</p>
+          <p id="Par25">Given our ability to recognize CH from WBCs, we have been able to reclassify several variant calls reported as somatic events by commercial vendors. While some of these calls were in commonly mutated CH genes such as <italic toggle="yes">DNMT3A</italic>, some were in less common genes. In one case, a patient with lung adenocarcinoma with an external report of <italic toggle="yes">KRAS</italic> p.G12S. However, we identified this alteration at equivalent frequencies (0.44 and 0.31%) in the plasma and WBC, suggesting that it most likely represents a CH mutation, underlying the complexities of assigning such alterations to different compartments when considering the clinical presentation of the patient.</p>
+          <p id="Par26">The identification of driver genetic alterations in key oncogenes and tumor suppressor genes plays an essential role in the diagnosis and treatment of many cancers. For more than a decade, biomarker analyses have been predominantly accomplished in solid tumors by sequencing tumor tissue collected at the time of surgical resection, diagnostic tumor biopsy, or cytology. However, in recent years, several studies have demonstrated that “liquid biopsies” could provide similar, and in some cases, more comprehensive information accompanied by a less invasive approach. Due to the significantly reduced procedure risk, they also enable longitudinal monitoring, which can substantially impact patient management. Here, we describe the analytical validation and clinical implementation of MSK-ACCESS, a hybridization capture-based NGS assay comprising 129 genes and capturing multiple classes of genomic alterations (SNV, indels, copy number alterations, and SV). Because of the scarcity of cfDNA material in the plasma and even smaller amounts of ctDNA, the development of this assay was guided by two key considerations: First, the assay had to enable the detection of low-frequency genomic alterations; and second, it had to incorporate the implementation of matched WBC sequencing to effectively filter out germline variants and CH mutations.</p>
+          <p id="Par27">Our analytical validation of MSK-ACCESS was performed using 70 cfDNA samples known to be positive for mutation hotspots using orthogonal methods. MSK-ACCESS has demonstrated a low background error rate, a 92% de novo sensitivity down to 0.5% VAF for SNVs and indels, and a 99% specificity. Following approval by the NYS Department of Health, we prospectively sequenced 681 plasma samples from 617 unique patients with non-small lung cancer, prostate, bladder, pancreatic, and biliary cancer most commonly. Alterations were detected in 73% of all prospective clinical samples, with some of the negative cases representing patients with known disease control or in the post-operative setting. Clinically actionable alterations were called in 41% of all samples and 56% of samples with alterations. Mutations were detected with VAF as low as 0.02%. While, we did leverage available MSK-IMPACT data to genotype prior mutations for higher sensitivity at lower allele frequencies, 95% of mutations were called de novo without the need for additional data.</p>
+          <p id="Par28">In our clinical cohort, 62% of patients had a patient-matched tissue specimen analyzed using MSK-IMPACT. A total of 260 mutations found in the tissue were not reported by MSK-ACCESS. This discordance could be the result of a very low tumor fraction in cfDNA, tumor heterogeneity, or differential shedding into the plasma by different tumor sites. Therefore, we do not believe that plasma cfDNA profiling can replace tissue testing in all situations. Studies are ongoing to better elucidate the clinical and analytic factors that may lead to a lack of mutation detection in the cfDNA of such discordant cases. In addition, 250 mutations were detected by MSK-ACCESS but not reported in the patient tissue, and 12% of those were actionable. These MSK-ACCESS specific alterations are likely due in part to the inherent spatial/temporal limitations of tissue profiling, though in some cases it represented acquired drug resistance, such as the identification of <italic toggle="yes">FGFR3</italic> point mutations known to confer resistance to FGFR inhibitor therapy in the <italic toggle="yes">FGFR3-TACC3</italic> bladder cancers. As comprehensive data on oncologic therapy becomes available, the detailed mechanisms of discordance between tissue and plasma-derived mutations can be investigated further in future studies.</p>
+          <p id="Par29">Taken together, our clinical experience has shown the importance of deep sequencing and the inclusion of matched WBCs to achieve high sensitivity and specificity to detect mutations in cfDNA. In addition, it has also demonstrated that tissue and cfDNA based sequencing approaches are complementary in certain cases and can be used to effectively and comprehensively detect all classes of genomic alterations. Specifically, 91 out of the 1697 mutations detected by MSK-ACCESS with a median VAF of 0.08% were rescued by genotyping based on events called previously by MSK-IMPACT in the matched tissue. Conversely, 26% of patients in this cohort harbored at least one actionable mutation not previously known from tumor tissue profiling.</p>
+          <p id="Par30">As the ability to detect ctDNA in the minimal residual disease setting is proportional to the number of mutations interrogated, a uniform panel such as MSK-ACCESS will exhibit differential sensitivity across patients with variable mutation burden. In most cases, MSK-ACCESS will not be as sensitive as patient-specific bespoke panels customized to detect dozens or more mutations identified from a tumor exome or genome<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. However, the path to clinical validation and operationalization of a patient-specific approach is uncertain and unattainable to most laboratories. Moreover, the design of MSK-ACCESS incorporates the most frequently mutated genomic regions from a cohort of more than 25,000 solid tumors clinically profiled, thereby maximizing the number of mutations that may be genotyped and monitored throughout treatment for a standardized assay.</p>
+          <p id="Par31">Correctly classifying mutations associated with CH represents a major challenge for all blood-based liquid biopsy assays. Commercially reported CH mutations could be misconstrued as recurrence when in fact no recurrence may be present or wrongfully considered as a tumor mutation and tracked across multiple blood draws for monitoring of response to therapy. By incorporating the sequencing of a time-matched WBC sample, we significantly decrease the likelihood of calling and reporting CH alterations that are frequently observed in commercial tests that do not include the normal DNA. CH<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup> mutations that occur at very low allele frequencies may be incorrectly classified as tumor-derived somatic mutations when they are detected in individual cfDNA molecules but not in WBC DNA. Reassuringly, our analysis suggests that our approach effectively eliminates a large number of CH events that exhibit fragment length characteristics consistent with hematopoietic cell-derived rather than tumor cell-derived cfDNA.</p>
+          <p id="Par32">In conclusion, MSK-ACCESS can be used to detect clinically relevant alterations through a less invasive mechanism than tumor biopsies, better enabling treatment decisions. The use of WBCs from the same blood draw limits the improper reporting of germline and CH alterations, which allows for more accurate reporting of somatic alterations. By automatically integrating prior patient-specific results into the analysis of plasma sequencing data, liquid biopsy profiling can provide a more sensitive and comprehensive representation of the genomic makeup of a patient’s cancer, enabling improved patient care.</p>
+        </sec>
+      </sec>
+      <sec id="Sec9">
+        <title>Methods</title>
+        <sec id="Sec10">
+          <title>Cohort information</title>
+          <p id="Par33">All samples were collected with informed consent from the patients for routine prospective clinical genomic analyses. Clinical sequencing data from 681 patients who were enrolled in an IRB-approved research protocol (MSKCC; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01775072">NCT01775072</ext-link>) were used. This study was approved by the MSKCC Institutional Review Board/Privacy Board.</p>
+        </sec>
+        <sec id="Sec11">
+          <title>Panel design</title>
+          <p id="Par34">Probes (120 bp long) were designed to cover the entire length of 826 exons and 40 introns of 129 genes, targeting ~400 kilobases of the human genome. Probes were divided into 2 pools: Pool A included regions covering protein-coding exons for the detection of SNVs and indels, as well as 171 microsatellite regions for the detection of microsatellite instability (MSI). Pool B included regions covering introns for the detection of gene fusion breakpoints in 10 genes and SNPs for quality control and improved detection of copy number alterations. Pool A and Pool B were combined in a 50:1 ratio to efficiently distribute sequence reads such that, in a single capture reaction, we achieved ultra-deep raw sequencing coverage (12,000–25,000×) for Pool A targets and standard raw sequencing coverage (500–1500×) for Pool B targets. For matched WBC samples, a 1:1 ratio of Pool A to Pool B was used.</p>
+        </sec>
+        <sec id="Sec12">
+          <title>cfDNA extraction, library construction, and capture</title>
+          <p id="Par35">For each patient, with appropriate informed consent, both cfDNA and WBC DNA were extracted from plasma (MagMAX cfDNA isolation kit) and buffy coat (Chemagen magnetic bead technology). Whenever possible, 20 ng of plasma cfDNA was used, but analyses were attempted for samples with as little as 3 ng plasma cfDNA. UMIs and xGen Duplex Seq Adapters with dual index barcodes from IDT (Integrated DNA Technologies) were introduced during library construction. Libraries were pooled in equimolar concentrations and captured using the above-described custom IDT xGen Lockdown probes. Captured DNA fragments were then sequenced on an Illumina sequencer (HiSeq 2500 or NovaSeq 6000) as paired-end reads as described above for plasma cfDNA samples and to a target depth of ~1500× of raw sequencing coverage for WBCs.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Analysis pipeline</title>
+          <p id="Par36">Sequencing data were demultiplexed with BCL2FASTQv2.1.9 (Illumina), UMIs were trimmed with Trim Galore (v0.2.5) and Marianas (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/Marianas">https://github.com/mskcc/Marianas</ext-link>), and read pairs underwent alignment to the human GRCh37 reference genome with further post-processing using BWA MEM (v0.7.5a), ABRA2 (v2.17), and GATK (v3.3) to generate a “standard” BAM file. All pipeline workflows were built using the common workflow language (CWL) specification (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.commonwl.org/">https://www.commonwl.org/</ext-link>) and toil workflow engine<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. Aligned PCR duplicates were collapsed into error-suppressed consensus reads based on UMI and position by Marianas. An additional three bases were trimmed from the ends of the collapsed reads due to increased sequencing errors at these positions. Collapsed and trimmed, reads were then re-aligned using the above standard pipeline. Collapsed BAM files include the “duplex” BAM with consensus reads generated from both strands of the original cfDNA template molecule, the “simplex” BAM with consensus reads generated from at least 3 reads of only one strand of the original template molecule, and the “all unique” BAM representing all sequenced template molecules: duplex consensus reads, simplex consensus reads, as well as sub-simplex consensus reads and singleton reads from 2 or 1 reads of one strand.</p>
+          <p id="Par37">Variant calling was performed in a matched tumor-informed manner (“genotyping”) using GetBaseCountsMultiSample (GBCM v.1.2.2, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/GetBaseCountsMultiSample">https://github.com/mskcc/GetBaseCountsMultiSample</ext-link>) when prior molecular profiling results were available for an individual. This genotyping method required at least 1 duplex or 2 simplex consensus reads, comprised of both Read1 and Read2, to call a SNV or indel at a site known to be mutated in a previous sample from that patient. De novo mutation calling by VarDict (v1.5.1) or MuTect (v1.1.5) required a minimum of 3 duplex consensus reads for a known cancer hotspot mutation or 5 for a non-hotspot mutation. Unless otherwise noted, reported variant allele depths (AD), total depth (DP), and allele frequencies (VAFs) represent the combined counts from simplex and duplex consensus reads. Copy number alterations were identified from the “all unique” BAM using a described previously method<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. SV were called in the “standard” BAM files using Manta (v1.5.0)<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> and required a minimum of 3 fusion-spanning reads for a de novo SV or 1 fusion-spanning read for an SV previously identified in that patient.</p>
+          <p id="Par38">Quality control metrics were calculated for all samples. Coverage and background error rate were calculated using Waltz (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/Waltz">https://github.com/mskcc/Waltz</ext-link>). Base quality metrics per cycle were collected by Picard (v2.8.1). Plasma—normal matches were confirmed using a set of fingerprint SNPs.</p>
+          <p id="Par39">Clinical actionability and treatment implications of specific cancer gene alterations were annotated using OncoKB (v2.2.0)<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>Error rate analysis</title>
+          <p id="Par40">Background error rate was characterized using Waltz, for pool A regions covering protein-coding exons for the detection of SNVs and indels (~200 kilobases). Using a cohort of 47 plasma samples from healthy donors, the error rate was calculated as fraction of reads supporting each of the substitution types across all targeted sites. A maximum allele frequency cut off of 2% was used in the error rate analysis. For each of the standard, duplex, and simplex bam types, median error rates were determined using the error rates for all substitution types across all 47 plasma samples. To determine the percentage of targeted sites with zero error rate, first, a matrix of error rate for all possible substitution types in each of the targeted sites across the 47 plasma samples was generated for standard, simplex, and duplex bams. For each substitution type at a given genomic position, the error rate was determined as the 95th percentile of the error rates across the 47 plasma samples. The substitution type error rates were then summarized to yield error rates for each of the targeted sites. Percentage of targeted sites with zero error rates were determined and reported for standard, simplex, and duplex bam types.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Fragment size analysis</title>
+          <p id="Par41">Fragment size calculations were performed using the pysam module (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/pysam-developers/pysam">https://github.com/pysam-developers/pysam</ext-link>). Read pairs, identified using SAM flags, mapping to all ACCESS targets were used to determine sample level fragment size distribution. Read pairs overlapping mutated loci that support either reference allele or variant allele were used to determine the size distribution of reference DNA fragments and mutated fragments, respectively. Analysis was restricted to fragments of size 500 bp or lower, which accounted for at least 95% of all fragments in a duplex plasma bam (Supplementary Fig. <xref rid="MOESM1" ref-type="media">8</xref>). Mutations with allele frequency lower than 0.05% in plasma samples were also excluded. Non-parametric bootstrap hypothesis testing was used to test the null hypothesis that the mean fragment sizes of reference and variant alleles are the same.<disp-formula id="Equa"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${H}_{0}:{\mu }_{\mathrm{REF}}={\mu }_{\mathrm{ALT}}$$\end{document}</tex-math><mml:math id="M2"><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">REF</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">ALT</mml:mi></mml:mrow></mml:msub></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2021_24109_Article_Equa.gif"/></alternatives></disp-formula><disp-formula id="Equb"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varDelta ={\mu }_{\mathrm{REF}}-{\mu }_{\mathrm{ALT}}$$\end{document}</tex-math><mml:math id="M4"><mml:mi>Δ</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">REF</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">ALT</mml:mi></mml:mrow></mml:msub></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2021_24109_Article_Equb.gif"/></alternatives></disp-formula>where, <italic toggle="yes">µ</italic><sub>REF</sub>, is the mean fragment size of reference allele fragments, <italic toggle="yes">µ</italic><sub>ALT</sub>, is the mean size of variant allele fragments, and, Δ, is the test statistic. The null hypothesis was modeled using the data and the test statistic was calculated for 10,000 null datasets simulated using bootstrapping. Bootstrapped <italic toggle="yes">p</italic> values were estimated based on the fraction of the time that the simulated dataset gave a statistic equal to or greater than the observed statistic in the original dataset.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Performance statistic calculations</title>
+          <p id="Par42">Error assessment was calculated using plasma and matched WBCs collected from a cohort of 47 healthy donors (median age 29, range 21–48). The mean duplex consensus coverage for the normal plasmas was 1103X (sd = 181X). The error rate was calculated by averaging across all targeted genomic positions at non-SNP and in non-repetitive regions where the non-reference variant frequency was &lt;2%.</p>
+          <p id="Par43">The reference set for the analytical validation was generated from time-matched plasma samples or its extracted cfDNA tested with a validated ddPCR test or a commercial NGS assay. Seventy unique cfDNA samples from patient plasma, as well as SeraCare and AccuRef control samples, were used for assay validation. All calculations were performed for both genotyping of known variants as well as de novo calling thresholds. Sensitivity was calculated on patient samples as true positive (TP, called by both MSK-ACCESS and the orthogonal test) divided by all calls made orthogonally.</p>
+          <p id="Par44">To calculate specificity, PPA, and NPA, we selected the 36 samples orthogonally sequenced by a commercial NGS assay and considered the 45 sites that had been called positive by at least one sample orthogonally, yielding 1620 total sites. A true negative (TN) was one called by neither MSK-ACCESS nor the orthogonal assay, a false positive (FP) was one called positive by MSK-ACCESS but negative by the orthogonal assay, and a false negative (FN) as negative by MSK-ACCESS but called orthogonally. Specificity was calculated as TN/(TN + FP). PPA was calculated as TP/(TP + FP), and NPA was calculated as TN/(TN + FN). For each, we also calculated Pearson exact confidence intervals at 95% power.</p>
+          <p id="Par45">To calculate precision and reproducibility, the cfDNA from four patient samples, AccuRef 1% control, SeraCare 1%, and SeraCare 2.5% control samples were tested in triplicate within the same library preparation and sequencing run and in triplicate across multiple days of library construction and sequencing runs, each with a different barcode. To assess the limit of detection of the assay, 19 known mutations in SeraCare control samples at 5, 2.5, 1, 0.5, and 0.1% allele frequencies, and wild type were used.</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Clinical experience and concordance analysis</title>
+          <p id="Par46">For MSK-ACCESS/MSK-IMPACT concordance analysis, only the clinically reported mutation calls from the first MSK-ACCESS sample per patient were used when multiple samples were sequenced. The union of clinically reported mutation calls from all samples sequenced on MSK-IMPACT for each patient was used given that MSK-ACCESS could potentially overcome tumor heterogeneity. This combined mutation list was re-genotyped as fragments, or overlapping reads, using GBCM, and the genotyped values were used for downstream analyses. Where mutations were reported in multiple IMPACT samples, the maximum genotyped VAF was used. Calls labeled as sub-threshold had at least two supporting fragments.</p>
+          <p id="Par47">For comparisons of the prevalence of alterations across patients, we used mutation data from 47,116 solid tumor samples sequenced with MSK-IMPACT and considered only mutations that intersected with the MSK-ACCESS target exons. Comparisons were performed for select genes and cancer types where the alteration rate was greater than 3% by both MSK-ACCESS and MSK-IMPACT.</p>
+          <p id="Par48">Tumor content in tissues and clonality of mutations on MSK-IMPACT were estimated using FACETS<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> (v0.5.14, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/facets">https://github.com/mskcc/facets</ext-link>). A mutation was classified as clonal if the cancer cell fraction value obtained from FACETS was greater than 80%, otherwise the mutation was classified as sub-clonal. Since a union of clinically reported mutation calls from all MSK-IMPACT samples per patient was used for the concordance analysis, tumor content of all MSK-IMPACT samples for these patients were used to assess the impact of tumor purity on mutation concordance. Mutations for which purity and clonality were indeterminate by FACETS, were excluded from analyses evaluating the impact of purity and clonality, respectively, on mutation concordance between MSK-IMPACT and MSK-ACCESS.</p>
+          <p id="Par49">To assess the impact of time between sample collection for MSK-IMPACT and MSK-ACCESS on mutation concordance, we determined for each patient the absolute time difference between first blood collection for MSK-ACCESS and the tissue collection for MSK-IMPACT (ΔDOP) corresponding to a particular mutation.</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Reporting summary</title>
+          <p id="Par50">Further information on research design is available in the <xref rid="MOESM8" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec19">
+          <supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM1_ESM.pdf" position="float" orientation="portrait">
+              <caption>
+                <p>Supplementary information</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM2_ESM.pdf" position="float" orientation="portrait">
+              <caption>
+                <p>Peer Review File</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM3" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM3_ESM.pdf" position="float" orientation="portrait">
+              <caption>
+                <p>Descriptions of Additional Supplementary Files</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM4" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM4_ESM.xlsx" position="float" orientation="portrait">
+              <caption>
+                <p>Sumpplementary Dataset 1</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM5" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM5_ESM.xlsx" position="float" orientation="portrait">
+              <caption>
+                <p>Sumpplementary Dataset 2</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM6" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM6_ESM.xlsx" position="float" orientation="portrait">
+              <caption>
+                <p>Sumpplementary Dataset 3</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM7" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM7_ESM.xlsx" position="float" orientation="portrait">
+              <caption>
+                <p>Sumpplementary Dataset 4</p>
+              </caption>
+            </media>
+          </supplementary-material>
+          <supplementary-material content-type="local-data" id="MOESM8" position="float" orientation="portrait">
+            <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2021_24109_MOESM8_ESM.pdf" position="float" orientation="portrait">
+              <caption>
+                <p>Reporting Summary</p>
+              </caption>
+            </media>
+          </supplementary-material>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn>
+          <p><bold>Peer review information</bold>
+<italic toggle="yes">Nature Communications</italic> thanks Aparna Parikh and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.</p>
+        </fn>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+        <fn>
+          <p>These authors contributed equally: A. Rose Brannon, Gowtham Jayakumaran.</p>
+        </fn>
+        <fn>
+          <p>These authors jointly supervised this work: Dana Tsui, Michael F. Berger, Ahmet Zehir, Ryma Benayed.</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p>The online version contains supplementary material available at 10.1038/s41467-021-24109-5.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>We gratefully acknowledge Jesse Galle, Dalicia Reales, Risha Huq, Laetitia Borsu, Georgi Lukose, Ellinor Peerschke, William Leach, Mariam Khan, Sandy Naupari, Jake Bakas, Nelio Chaves, Shadia Islam, Yingjuan Xu, Hina Patel, Kizzia Carmel Perez, Srushti Kakadiya, Paulo Salazar, Brian Tedino, Elise Gallagher, Agnes Viale, and Kety H. Huberman for their important contributions. The study was supported by P30 core grant, Cycle for Survival, Marie-Josée and Henry R. Kravis Center for Molecular Oncology, NIH P50-CA221745, NIH P01-CA228696, R01-CA234361, the Wien Initiative in Liver Cancer Research, and the Society of MSKCC.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>M.F.B. and D.T. designed the panel and the assay. M.F.B., D.T., B.H.L., J.P., F.M., I.J., M.H., P.S., H.W., D.P., R.P., G.J., D.B., A.Z., E.G., X.J., and A.L. developed the assay. I.J., G.J., J.P., M.H., Y.H., and R.P., developed the bioinformatics pipeline. D.T., B.L., C.R., A.S., N.D., P.R., L.M.S., S.C., G.I., W.A., J.J.H., B.K., E.O., H.A.Y., and L.D. collected specimens for assay validation. R.B., M.D., A.R.B., G.J., A.Z., B.H.L., J.P., M.F.B., D.T., Y.H., I.J., M.H., P.S., R.P., J.Y., D.S., J.S., B.J.M., J.D., N.D., and K.N. generated and interpreted the validation data. R.B., A.Z., M.D., A.R.B., G.J., A.R., M.H., J.S., B.J.M., T.B., R.P., A.S., A.B., A.A., E.L., K.N., M.E.A., M.L., A.S.B., D.C.F., Y.L., D.A.M., R.S., S.R.Y., T.B., J.K.B., J.C.C., S.D., M.R.H., J.F.H., C.M., D.S.R., E.V., C.M.V., J.J.Y., and I.R. generated and interpreted the clinical data. A.R.B., G.J., R.B., and A.Z. performed the analyses for the manuscript. A.R.B., G.J., A.Z., and R.B. wrote the manuscript with input from all authors.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>The raw sequencing data are protected and are not available due to privacy laws. All results derived from the analysis of clinical sequencing data (mutations, copy number alterations, and structural variants) for all samples from 617 patients, including MSK-ACCESS and MSK-IMPACT, where applicable, are available through publicly accessible cBio Portal study (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cbioportal.org/study/summary?id=msk_access_2021">https://www.cbioportal.org/study/summary?id=msk_access_2021</ext-link>). The remaining data are available within the Article or Supplementary Information.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Code availability</title>
+        <p>Analysis code for in-house developed pipeline modules are made available on Github. Marianas: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/Marianas">https://github.com/mskcc/Marianas</ext-link>. Waltz: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/Waltz">https://github.com/mskcc/Waltz</ext-link>. GetBaseCountsMultiSample: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/GetBaseCountsMultiSample">https://github.com/mskcc/GetBaseCountsMultiSample</ext-link>.</p>
+      </notes>
+      <notes id="FPar1" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par51">D.B.S. has served as a consultant for/received honoraria from Loxo Oncology, Lilly Oncology, Pfizer, QED Therapeutics, Vivideon Therapeutics and Illumina. M.E.A. received speaker and consulting fees from Invivoscribe, Biocartis, AstraZeneca,Bristol-Myers Squibb, Clinical Care Options, PVI Peerview, Janssen Global Services, LLC, Physicians’ Education Resource, LLC. M.L. has received advisory board compensation from Boehringer Ingelheim, AstraZeneca, Bristol-Myers Squibb, Takeda, and Bayer, and research support from LOXO Oncology and Helsinn Healthcare. <bold>A.</bold>R.B. has stock ownership in Johnson &amp; Johnson. <bold>S.R.Y</bold> has received consulting fees from Invitae. M.F.B. has received consulting fees from Roche and grant support from Illumina and Grail. M.F.B., D.T., P.S., J.P., B.H.L., M.H., and F.M. are co-inventors on a provisional patent application for systems and methods for detecting cancer via cfDNA screening. A.Z. received speaking fees from Illumina. B.H.L. receives royalties from BioLegend for development of products related to CITE-seq. J.H. has received research funding from Bayer, Eli Lilly, and Boehringer Ingelheim; and honoraria or consulting fees from Axiom Healthcare Stetegies, WebMD, Illumina, and Cor2Ed. K.N. has received honoraria from Biocartis. S.C. has received consulting fees from Sermonix, Paige.ai, Novartis, and Lilly. J.J.H. has received consulting fees from Bristol Myers Squibb, Exelexis, Eisai, Merck, ImVax, CytomX, and Eli Lilly and research support from Bristol Myers Squibb, the Wien Initiative in Liver Cancer Research, and the Society of MSKCC. H.Y. has consulted for AstraZeneca, Blueprint Medicine, Janssen Oncology and Daiichi. Her institution has received research funding for clinical trials from AstraZeneca, Daiichi, Pfizer, Novartis, Cullinan Oncology, Lilly. W.A. has received research funding from AstraZeneca, Zenith Epigenetics, Clovis Oncology, GlaxoSmithKline; and honoraria or consulting fees from CARET, Clovis Oncology, Janssen, MORE Health, ORIC Pharmaceuticals, Daiichi Sankyo. L.M.S. is an employee of Loxo Oncology at Lilly. L.M.S. has consulted for Novartis, Pfizer, AstraZeneca and Roche Genentech; received research funding from AstraZeneca, Puma Biotechnology and Roche Genentech; travel or accommodations expenses from AstraZeneca, Pfizer, Puma Biotechnology and Roche Genentech; honoraria from Pfizer and AstraZeneca. D.T. has received research support from ThermoFisher Scientific, EPIC Sciences, speaking honoraria and travel support from Nanodigmbio, Cowen, BoA Merrill Lynch, D.T. and L.D. are co-inventors on a provisional patent application for systems and methods for distinguishing pathological mutations from clonal hematopoietic mutations in plasma cell-free DNA by fragment size analysis. R.B. has received a grant and travel credit from ArcherDx, honoraria for advisory board participation from Loxo oncology and speaking fees from Illumina. B.T.L. has served as an uncompensated advisor and consultant to Amgen, Genentech, Boehringer Ingelheim, Lilly, AstraZeneca, Daiichi Sankyo, and has received consulting fees from Guardant Health and Hengrui Therapeutics. He has received research grants to his institution from Amgen, Genentech, AstraZeneca, Daiichi Sankyo, Lilly, Illumina, GRAIL, Guardant Health, Hengrui Therapeutics, MORE Health and Bolt Biotherapeutics. He has received academic travel support from Resolution Bioscience, MORE Health, and Jiangsu Hengrui Medicine. He is an inventor on two institutional patents at MSK (US62/685,057, US62/514,661) and has intellectual property rights as a book author at Karger Publishers and Shanghai Jiao Tong University Press. B.T.L. is supported by the Memorial Sloan Kettering Cancer Center Support Grant P30 CA008748 from the National Institutes of Health. C.M.V. discloses relationships and financial interests with the following: DocDoc Pte. Ltd. (Provision of Services), Paige.AI, Inc (Ownership/Equity Interests; Provision of Services). E.O.: Research Funding to MSK: Genentech/Roche, Celgene/BMS, BioNTech, BioAtla, AstraZeneca, Arcus, Elicio, Parker Institute, AstraZeneca, Pertzye. Consulting Role: Cytomx Therapeutics (DSMB), Rafael Therapeutics (DSMB), Sobi, Silenseed, Tyme, Seagen, Molecular Templates, Boehringer Ingelheim, BioNTech, Ipsen, Polaris, Merck, IDEAYA, Cend, AstraZeneca, Noxxon, BioSapien, Bayer (spouse), Genentech-Roche (spouse), Celgene-BMS (spouse), Eisai (spouse). P.R. received institutional grant/funding from Grail, Illumina, Novartis, Epic Sciences, ArcherDx and Consultation/Ad board/Honoraria from Novartis, Foundation Medicine, AstraZeneca, Epic Sciences, Inivata, Natera, and Tempus. C.M.R. has consulted regarding oncology drug development with AbbVie, Amgen, Astra Zeneca, Epizyme, Genentech/Roche, Ipsen, Jazz, Lilly, and Syros. CMR serves on the scientific advisory boards of Bridge Medicines, Earli, and Harpoon Therapeutics. G.I. reports consulting/advisory role: Bayer, Janssen, Mirati Therapeutics, Basilea Pharmaceutical and Research Funding: Mirati Therapeutics, Novartis, Seagen, Inc, Bayer, Janssen, Debiopharm. Honoraria: The Lynx Group, DAVA Oncology. G.J., M.D., A.R., Y.H., M.H., J.S., B.J.M., T.B., I.J., R.P., A.B.R., I.R., A.A., H.W., D.P., D.N.B., A.S., X.J., E.G., J.L.Y., D.P.S., J.D., N.D., A.S., A.L., E.S.L., A.S.B., D.C.F., Y.L., D.A.M., R.S., T.B., J.K.B., J.C.C., S.D., M.H., C.M., D.S.R., V.E., J.Y., and B.K. have no relevant competing interests to declare.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zehir</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>703</fpage>
+            <lpage>713</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.4333</pub-id>
+            <pub-id pub-id-type="pmid">28481359</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5461196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bettegowda</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Detection of circulating tumor DNA in early- and late-stage human malignancies</article-title>
+            <source>Sci. Transl. Med.</source>
+            <year>2014</year>
+            <volume>6</volume>
+            <fpage>224ra224</fpage>
+            <pub-id pub-id-type="doi">10.1126/scitranslmed.3007094</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4017867</pub-id>
+            <pub-id pub-id-type="pmid">24553385</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Odegaard</surname>
+                <given-names>JI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Validation of a plasma-based comprehensive cancer genotyping assay utilizing orthogonal tissue- and plasma-based methodologies</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2018</year>
+            <volume>24</volume>
+            <fpage>3539</fpage>
+            <lpage>3549</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-17-3831</pub-id>
+            <pub-id pub-id-type="pmid">29691297</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Clark</surname>
+                <given-names>TA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Analytical validation of a hybrid capture-based next-generation sequencing clinical assay for genomic profiling of cell-free circulating tumor DNA</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2018</year>
+            <volume>20</volume>
+            <fpage>686</fpage>
+            <lpage>702</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jmoldx.2018.05.004</pub-id>
+            <pub-id pub-id-type="pmid">29936259</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6593250</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Douillard</surname>
+                <given-names>JY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gefitinib treatment in EGFR mutated caucasian NSCLC: circulating-free tumor DNA as a surrogate for determination of EGFR status</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2014</year>
+            <volume>9</volume>
+            <fpage>1345</fpage>
+            <lpage>1353</lpage>
+            <pub-id pub-id-type="doi">10.1097/JTO.0000000000000263</pub-id>
+            <pub-id pub-id-type="pmid">25122430</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4224589</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Brevet</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Johnson</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Azzoli</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ladanyi</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Detection of EGFR mutations in plasma DNA from lung cancer patients by mass spectrometry genotyping is predictive of tumor EGFR status and response to EGFR inhibitors</article-title>
+            <source>Lung Cancer</source>
+            <year>2011</year>
+            <volume>73</volume>
+            <fpage>96</fpage>
+            <lpage>102</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.lungcan.2010.10.014</pub-id>
+            <pub-id pub-id-type="pmid">21130517</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3282180</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mok</surname>
+                <given-names>TS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gefitinib or carboplatin-paclitaxel in pulmonary adenocarcinoma</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2009</year>
+            <volume>361</volume>
+            <fpage>947</fpage>
+            <lpage>957</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa0810699</pub-id>
+            <pub-id pub-id-type="pmid">19692680</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Marchetti</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Early prediction of response to tyrosine kinase inhibitors by quantification of EGFR mutations in plasma of NSCLC patients</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2015</year>
+            <volume>10</volume>
+            <fpage>1437</fpage>
+            <lpage>1443</lpage>
+            <pub-id pub-id-type="doi">10.1097/JTO.0000000000000643</pub-id>
+            <pub-id pub-id-type="pmid">26295376</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chabon</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Circulating tumour DNA profiling reveals heterogeneity of EGFR inhibitor resistance mechanisms in lung cancer patients</article-title>
+            <source>Nat. Commun.</source>
+            <year>2016</year>
+            <volume>7</volume>
+            <fpage>11815</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms11815</pub-id>
+            <pub-id pub-id-type="pmid">27283993</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4906406</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jenkins</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Plasma ctDNA analysis for detection of the EGFR T790M mutation in patients with advanced non-small cell lung cancer</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2017</year>
+            <volume>12</volume>
+            <fpage>1061</fpage>
+            <lpage>1070</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jtho.2017.04.003</pub-id>
+            <pub-id pub-id-type="pmid">28428148</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tie</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Circulating tumor DNA analysis detects minimal residual disease and predicts recurrence in patients with stage II colon cancer</article-title>
+            <source>Sci. Transl. Med.</source>
+            <year>2016</year>
+            <volume>8</volume>
+            <fpage>346ra392</fpage>
+            <pub-id pub-id-type="doi">10.1126/scitranslmed.aaf6219</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5346159</pub-id>
+            <pub-id pub-id-type="pmid">27384348</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Comino-Mendez</surname>
+                <given-names>I</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Turner</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Predicting relapse with circulating tumor DNA analysis in lung cancer</article-title>
+            <source>Cancer Discov.</source>
+            <year>2017</year>
+            <volume>7</volume>
+            <fpage>1368</fpage>
+            <lpage>1370</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-17-1086</pub-id>
+            <pub-id pub-id-type="pmid">29208774</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reinert</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Analysis of circulating tumour DNA to monitor disease burden following colorectal cancer surgery</article-title>
+            <source>Gut</source>
+            <year>2016</year>
+            <volume>65</volume>
+            <fpage>625</fpage>
+            <lpage>634</lpage>
+            <pub-id pub-id-type="doi">10.1136/gutjnl-2014-308859</pub-id>
+            <pub-id pub-id-type="pmid">25654990</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Siravegna</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clonal evolution and resistance to EGFR blockade in the blood of colorectal cancer patients</article-title>
+            <source>Nat. Med.</source>
+            <year>2015</year>
+            <volume>21</volume>
+            <fpage>795</fpage>
+            <lpage>801</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.3870</pub-id>
+            <pub-id pub-id-type="pmid">26030179</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4868598</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Thress</surname>
+                <given-names>KS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Acquired EGFR C797S mutation mediates resistance to AZD9291 in non-small cell lung cancer harboring EGFR T790M</article-title>
+            <source>Nat. Med.</source>
+            <year>2015</year>
+            <volume>21</volume>
+            <fpage>560</fpage>
+            <lpage>562</lpage>
+            <pub-id pub-id-type="doi">10.1038/nm.3854</pub-id>
+            <pub-id pub-id-type="pmid">25939061</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4771182</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>De Mattos-Arruda</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Capturing intra-tumor genetic heterogeneity by de novo mutation profiling of circulating cell-free tumor DNA: a proof-of-principle</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2014</year>
+            <volume>25</volume>
+            <fpage>1729</fpage>
+            <lpage>1735</lpage>
+            <pub-id pub-id-type="doi">10.1093/annonc/mdu239</pub-id>
+            <pub-id pub-id-type="pmid">25009010</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6276937</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Parikh</surname>
+                <given-names>AR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Liquid versus tissue biopsy for detecting acquired resistance and tumor heterogeneity in gastrointestinal cancers</article-title>
+            <source>Nat. Med.</source>
+            <year>2019</year>
+            <volume>25</volume>
+            <fpage>1415</fpage>
+            <lpage>1421</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41591-019-0561-9</pub-id>
+            <pub-id pub-id-type="pmid">31501609</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6741444</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cristiano</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genome-wide cell-free DNA fragmentation in patients with cancer</article-title>
+            <source>Nature</source>
+            <year>2019</year>
+            <volume>570</volume>
+            <fpage>385</fpage>
+            <lpage>389</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41586-019-1272-6</pub-id>
+            <pub-id pub-id-type="pmid">31142840</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6774252</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Valpione</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Plasma total cell-free DNA (cfDNA) is a surrogate biomarker for tumour burden and a prognostic biomarker for survival in metastatic melanoma patients</article-title>
+            <source>Eur. J. Cancer</source>
+            <year>2018</year>
+            <volume>88</volume>
+            <fpage>1</fpage>
+            <lpage>9</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ejca.2017.10.029</pub-id>
+            <pub-id pub-id-type="pmid">29175734</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5769519</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mehrotra</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Detection of somatic mutations in cell-free DNA in plasma and correlation with overall survival in patients with solid tumors</article-title>
+            <source>Oncotarget</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>10259</fpage>
+            <lpage>10271</lpage>
+            <pub-id pub-id-type="doi">10.18632/oncotarget.21982</pub-id>
+            <pub-id pub-id-type="pmid">29535804</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5828199</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Newman</surname>
+                <given-names>AM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrated digital error suppression for improved detection of circulating tumor DNA</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2016</year>
+            <volume>34</volume>
+            <fpage>547</fpage>
+            <lpage>555</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.3520</pub-id>
+            <pub-id pub-id-type="pmid">27018799</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4907374</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <mixed-citation publication-type="other">Chakravarty, D. et al. OncoKB: A Precision Oncology Knowledge Base. <italic toggle="yes">JCO Precis. Oncol.</italic>10.1200/PO.17.00011 (2017).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id><pub-id pub-id-type="pmid">28890946</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alcaide</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Targeted error-suppressed quantification of circulating tumor DNA using semi-degenerate barcoded adapters and biotinylated baits</article-title>
+            <source>Sci. Rep.</source>
+            <year>2017</year>
+            <volume>7</volume>
+            <fpage>10574</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41598-017-10269-2</pub-id>
+            <pub-id pub-id-type="pmid">28874686</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5585219</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tsui</surname>
+                <given-names>NB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High resolution size analysis of fetal DNA in the urine of pregnant women by paired-end massively parallel sequencing</article-title>
+            <source>PLoS ONE</source>
+            <year>2012</year>
+            <volume>7</volume>
+            <fpage>e48319</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pone.0048319</pub-id>
+            <pub-id pub-id-type="pmid">23118982</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3485143</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mouliere</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High fragmentation characterizes tumour-derived circulating DNA</article-title>
+            <source>PLoS ONE</source>
+            <year>2011</year>
+            <volume>6</volume>
+            <fpage>e23418</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pone.0023418</pub-id>
+            <pub-id pub-id-type="pmid">21909401</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3167805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Snyder</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kircher</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hill</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Daza</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shendure</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Cell-free DNA comprises an in vivo nucleosome footprint that informs its tissues-of-origin</article-title>
+            <source>Cell</source>
+            <year>2016</year>
+            <volume>164</volume>
+            <fpage>57</fpage>
+            <lpage>68</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cell.2015.11.050</pub-id>
+            <pub-id pub-id-type="pmid">26771485</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4715266</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Razavi</surname>
+                <given-names>P</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants</article-title>
+            <source>Nat. Med.</source>
+            <year>2019</year>
+            <volume>25</volume>
+            <fpage>1928</fpage>
+            <lpage>1937</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41591-019-0652-7</pub-id>
+            <pub-id pub-id-type="pmid">31768066</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7061455</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mayrhofer</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cell-free DNA profiling of metastatic prostate cancer reveals microsatellite instability, structural rearrangements and clonal hematopoiesis</article-title>
+            <source>Genome Med.</source>
+            <year>2018</year>
+            <volume>10</volume>
+            <fpage>85</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13073-018-0595-5</pub-id>
+            <pub-id pub-id-type="pmid">30458854</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6247769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Leal</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>White blood cell and cell-free DNA analyses for detection of residual disease in gastric cancer</article-title>
+            <source>Nat. Commun.</source>
+            <year>2020</year>
+            <volume>11</volume>
+            <fpage>525</fpage>
+            <pub-id pub-id-type="doi">10.1038/s41467-020-14310-3</pub-id>
+            <pub-id pub-id-type="pmid">31988276</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6985115</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>BT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Ultra-deep next-generation sequencing of plasma cell-free DNA in patients with advanced lung cancers: results from the Actionable Genome Consortium</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2019</year>
+            <volume>30</volume>
+            <fpage>597</fpage>
+            <lpage>603</lpage>
+            <pub-id pub-id-type="doi">10.1093/annonc/mdz046</pub-id>
+            <pub-id pub-id-type="pmid">30891595</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6503621</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Marass</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Fragment size analysis may distinguish clonal hematopoiesis from tumor-derived mutations in cell-free DNA</article-title>
+            <source>Clin. Chem.</source>
+            <year>2020</year>
+            <volume>66</volume>
+            <fpage>616</fpage>
+            <lpage>618</lpage>
+            <pub-id pub-id-type="doi">10.1093/clinchem/hvaa026</pub-id>
+            <pub-id pub-id-type="pmid">32191320</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7108495</pub-id>
+            <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="expression-of-concern" ext-link-type="pmc" xlink:href="PMC7936663"/>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chabon</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrating genomic features for non-invasive early lung cancer detection</article-title>
+            <source>Nature</source>
+            <year>2020</year>
+            <volume>580</volume>
+            <fpage>245</fpage>
+            <lpage>251</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41586-020-2140-0</pub-id>
+            <pub-id pub-id-type="pmid">32269342</pub-id>
+            <pub-id pub-id-type="pmcid">PMC8230734</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <mixed-citation publication-type="other">Reinert, T. et al. Analysis of plasma cell-free DNA by ultradeep sequencing in patients with stages I to III colorectal cancer. <italic toggle="yes">JAMA Oncol</italic>. 10.1001/jamaoncol.2019.0528 (2019).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2019.0528</pub-id><pub-id pub-id-type="pmcid">PMC6512280</pub-id><pub-id pub-id-type="pmid">31070691</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>False-positive plasma genotyping due to clonal hematopoiesis</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2018</year>
+            <volume>24</volume>
+            <fpage>4437</fpage>
+            <lpage>4443</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-18-0143</pub-id>
+            <pub-id pub-id-type="pmid">29567812</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Vivian</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Toil enables reproducible, open source, big biomedical data analyses</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2017</year>
+            <volume>35</volume>
+            <fpage>314</fpage>
+            <lpage>316</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.3772</pub-id>
+            <pub-id pub-id-type="pmid">28398314</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5546205</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seshan</surname>
+                <given-names>VE</given-names>
+              </name>
+            </person-group>
+            <article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e131</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw520</pub-id>
+            <pub-id pub-id-type="pmid">27270079</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5027494</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>
