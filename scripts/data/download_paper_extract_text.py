@@ -33,18 +33,22 @@ def download_paper_extract_text(pmid, xml_dir="data/data_raw/xml", txt_dir="data
 
     This function takes a PubMed ID, looks up the corresponding PubMed Central ID,
     downloads the XML file from PMC S3 storage, extracts the text content,
-    and saves it to a text file in the 'loaded_pmc' directory.
+    and saves it to a text file in the specified output directory.
 
     Parameters
     ----------
     pmid : str
         PubMed ID of the paper to download and process.
+    xml_dir : str, optional
+        Directory to store downloaded XML files (default: data/data_raw/xml).
+    txt_dir : str, optional
+        Directory to store extracted text files (default: data/data_raw/txt).
 
     Returns
     -------
     None
         This function does not return a value but saves the extracted text
-        to a file and prints the content to the console.
+        to a file.
     """
     try:
         pmcid = id_lookup(pmid).get("pmcid")

@@ -107,8 +107,8 @@ def predict(question, history):
 
     Parameters
     ----------
-    message : str
-        The current user message to be processed.
+    question : str
+        The current user question to be processed.
     history : list
         List of tuples containing (user_message, bot_response) pairs from
         previous interactions.
