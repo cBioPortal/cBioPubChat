@@ -1,0 +1,789 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">981</journal-id>
+        <journal-id journal-id-type="pmc-domain">npgopen</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>Nature Portfolio</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4403382</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4403382.1</article-id>
+        <article-id pub-id-type="pmcaid">4403382</article-id>
+        <article-id pub-id-type="pmcaiid">4403382</article-id>
+        <article-id pub-id-type="pmid">25855536</article-id>
+        <article-id pub-id-type="doi">10.1038/ncomms7744</article-id>
+        <article-id pub-id-type="pii">ncomms7744</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Whole-exome sequencing of pancreatic cancer defines genetic diversity and therapeutic targets</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Witkiewicz</surname>
+              <given-names initials="AK">Agnieszka K.</given-names>
+            </name>
+            <xref ref-type="corresp" rid="c1">a</xref>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McMillan</surname>
+              <given-names initials="EA">Elizabeth A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a3">3</xref>
+            <xref ref-type="author-notes" rid="n1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Balaji</surname>
+              <given-names initials="U">Uthra</given-names>
+            </name>
+            <xref ref-type="aff" rid="a2">2</xref>
+            <xref ref-type="author-notes" rid="n1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baek</surname>
+              <given-names initials="G">GuemHee</given-names>
+            </name>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lin</surname>
+              <given-names initials="WC">Wan-Chi</given-names>
+            </name>
+            <xref ref-type="aff" rid="a4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mansour</surname>
+              <given-names initials="J">John</given-names>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mollaee</surname>
+              <given-names initials="M">Mehri</given-names>
+            </name>
+            <xref ref-type="aff" rid="a6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wagner</surname>
+              <given-names initials="KU">Kay-Uwe</given-names>
+            </name>
+            <xref ref-type="aff" rid="a4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Koduru</surname>
+              <given-names initials="P">Prasad</given-names>
+            </name>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yopp</surname>
+              <given-names initials="A">Adam</given-names>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Choti</surname>
+              <given-names initials="MA">Michael A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yeo</surname>
+              <given-names initials="CJ">Charles J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McCue</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="a6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>White</surname>
+              <given-names initials="MA">Michael A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Knudsen</surname>
+              <given-names initials="ES">Erik S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="a1">1</xref>
+            <xref ref-type="aff" rid="a2">2</xref>
+          </contrib>
+          <aff id="a1"><label>1</label><institution>Simmons Cancer Center, UT Southwestern Medical Center</institution>, Dallas, Texas 75390, <country>USA</country></aff>
+          <aff id="a2"><label>2</label><institution>Department of Pathology, UT Southwestern Medical Center</institution>, Dallas, Texas 75390, <country>USA</country></aff>
+          <aff id="a3"><label>3</label><institution>Department of Cell Biology, UT Southwestern Medical Center</institution>, Dallas, Texas 75390, <country>USA</country></aff>
+          <aff id="a4"><label>4</label><institution>Eppley Institute for Research in Cancer and Allied Diseases, University of Nebraska Medical Center</institution>, Omaha Nebraska 68198, <country>USA</country></aff>
+          <aff id="a5"><label>5</label><institution>Department of Surgery, UT Southwestern Medical Center</institution>, Dallas, Texas 75390, <country>USA</country></aff>
+          <aff id="a6"><label>6</label><institution>Department of Pathology, Thomas Jefferson University</institution> Philadelphia Pennsylvania 19107, <country>USA</country></aff>
+          <aff id="a7"><label>7</label><institution>Department of Surgery, Thomas Jefferson University</institution>, Philadelphia Pennsylvania 19107, <country>USA</country></aff>
+        </contrib-group>
+        <author-notes>
+          <corresp id="c1">
+            <label>a</label>
+            <email>agnes.witkiewicz@utsouthwestern.edu</email>
+          </corresp>
+          <fn id="n1">
+            <label>*</label>
+            <p>These authors contributed equally to this work</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>09</day>
+          <month>04</month>
+          <year>2015</year>
+        </pub-date>
+        <volume>6</volume>
+        <issue-id pub-id-type="pmc-issue-id">252058</issue-id>
+        <elocation-id>6744</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>26</day>
+            <month>01</month>
+            <year>2015</year>
+          </date>
+          <date date-type="accepted">
+            <day>24</day>
+            <month>02</month>
+            <year>2015</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>20</day>
+              <month>04</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>29</day>
+              <month>04</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-07-06 20:25:30.990">
+              <day>06</day>
+              <month>07</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>Copyright © 2015, Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-statement>
+          <copyright-year>2015</copyright-year>
+          <copyright-holder>Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-holder>
+          <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+            <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ncomms7744.pdf"/>
+        <abstract>
+          <p>Pancreatic ductal adenocarcinoma (PDA) has a dismal prognosis and insights into both disease etiology and targeted intervention are needed. A total of 109 micro-dissected PDA cases were subjected to whole-exome sequencing. Microdissection enriches tumour cellularity and enhances mutation calling. Here we show that environmental stress and alterations in DNA repair genes associate with distinct mutation spectra. Copy number alterations target multiple tumour suppressive/oncogenic loci; however, amplification of <italic toggle="yes">MYC</italic> is uniquely associated with poor outcome and adenosquamous subtype. We identify multiple novel mutated genes in PDA, with select genes harbouring prognostic significance. <italic toggle="yes">RBM10</italic> mutations associate with longer survival in spite of histological features of aggressive disease. <italic toggle="yes">KRAS</italic> mutations are observed in &gt;90% of cases, but codon Q61 alleles are selectively associated with improved survival. Oncogenic <italic toggle="yes">BRAF</italic> mutations are mutually exclusive with <italic toggle="yes">KRAS</italic> and define sensitivity to vemurafenib in PDA models. High-frequency alterations in Wnt signalling, chromatin remodelling, Hedgehog signalling, DNA repair and cell cycle processes are observed. Together, these data delineate new genetic diversity of PDA and provide insights into prognostic determinants and therapeutic targets.</p>
+        </abstract>
+        <abstract abstract-type="web-summary">
+          <p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="i1" xlink:href="ncomms7744-i1.jpg"/>Diagnosis of pancreatic ductal adenocarcinoma (PDA) has poor long-term survival rates with limited therapy options. Here Witkiewicz <italic toggle="yes">et al.</italic> use microdissection and whole-exome sequencing to identify novel recurrent PDA mutations, highlighting the genetic diversity of this aggressive cancer.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p>Pancreatic ductal adenocarcinoma (PDA) portends a poor prognosis, with a 5-year survival rate of ∼6% (refs <xref ref-type="bibr" rid="b1">1</xref>, <xref ref-type="bibr" rid="b2">2</xref>, <xref ref-type="bibr" rid="b3">3</xref>). This poor outcome is related to multiple factors, including the relatively late stage of diagnosis, many patients presenting with unresectable disease, and therapy recalcitrance resulting in disease recurrence in spite of operable disease and systemic therapy<xref ref-type="bibr" rid="b1">1</xref>. Genetic analysis of PDA yielded insights related to altered signalling pathways<xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b5">5</xref>; however, unlike other cancers the number of sequenced PDA genomes has been relatively modest. This reflects the difficulty of sequencing a tumour that is dominated by presence of stromal and inflammatory cells<xref ref-type="bibr" rid="b2">2</xref><xref ref-type="bibr" rid="b6">6</xref>. Tumour cellularity in samples subjected to whole-exome or -genome sequencing represents a known barrier in obtaining high quality data; therefore, many studies recommended &gt;60% tumour cell content in the samples<xref ref-type="bibr" rid="b7">7</xref>. To facilitate mutation detection and remove contaminating non-neoplastic tissue the initial PDA sequencing effort employed patient-derived xenografts and cell lines<xref ref-type="bibr" rid="b5">5</xref>. This approach resulted in detecting an average of 48 somatic mutations per model sequenced. Subsequent work employed exome sequencing on 99 clinical cases of PDA, and applied the q-pure algorithm to overcome contamination with non-neoplastic tissue, yielding an average of 26 mutations per case<xref ref-type="bibr" rid="b4">4</xref>.</p>
+      <p>Here 109 micro-dissected PDA cases annotated with outcome data were subjected to whole-exome sequencing. The data from this analyses demonstrates that there is substantial genetic diversity within PDA with a mutation frequency comparable to other solid tumours. Alterations in mutation spectra and burden are associated with hallmark pancreatic cancer risk factors. Increased copy number variation indicative of chromosomal instability is associated with poor outcome. Amplification of the locus involving the <italic toggle="yes">MYC</italic> oncogene are specifically associated with poor outcome and association with adenosquamous subtype of PDA. In contrast, select mutated genes (for example, <italic toggle="yes">RBM10</italic>) are associated with longer patient survival. Diversity within the canonical KRAS signalling pathway defined prognostic features of the disease and the potential for targeted therapy of BRAF-mutated cases. The mutation and copy number alterations frequently involved important signalling pathways that contribute to tumour development and represent therapeutic targets.</p>
+      <sec disp-level="1" sec-type="results">
+        <title>Results</title>
+        <sec disp-level="2">
+          <title>Tissue cell enrichment and mutation burden</title>
+          <p>To enhance tumour cellularity in PDA patient samples, needle dissection was employed to significantly enrich PDA tumour cells from the surrounding microenvironment (<xref ref-type="fig" rid="f1">Fig. 1a</xref>). This approach was applied to a total of 109 surgically resected PDA cases annotated with clinical outcome and etiological features (<xref ref-type="table" rid="t1">Table 1</xref>). The cohort had a median survival of 21 months that is consistent with historical survival of resected PDA<xref ref-type="bibr" rid="b8">8</xref><xref ref-type="bibr" rid="b9">9</xref>. Of standard pathological features, grade 3 was associated with poor outcome, while nodal status and adenosquamous subtype trended towards poor outcome (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 1 and 2</xref>). Enriched tumour cells were utilized as the substrate for whole-exome sequencing (Methods). Average tumour purity exceeded 50% and the average sequencing depth was ∼50 × . In prior studies sequencing PDA<xref ref-type="bibr" rid="b4">4</xref>, 26 mutations were detected per case representing a relatively low mutational burden when compared with the majority of solid tumours (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 3 and 4</xref>). The average mutation burden observed in our cohort was 67 non-synonymous events per case, equivalent to multiple other solid-tumour types (<xref ref-type="fig" rid="f1">Fig. 1b</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 3–5</xref>). Sanger sequencing was used to validate 248 genetic events with validation occurring in 92% of cases (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>). In addition, p53 immunohistochemistry performed across the cohort demonstrated the expected strong correlation between <italic toggle="yes">TP53</italic> mutation and stabilization of the protein (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 6</xref>). To determine whether deeper sequencing would further increase the number of mutations detected, 21 cases were sequenced to ∼120 × depth. The majority of events identified with deeper sequencing had low allelic frequency or coverage depth, and only a small fraction of statistically significant mutations were identified (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7</xref> and Methods).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Determinants of mutation burden and spectrum</title>
+          <p>Consistent with observations in other solid malignancies<xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b12">12</xref>, cases with the highest relative mutational burden harboured genetic lesions in mismatch repair genes, known to be associated with a mutator phenotype (<xref ref-type="fig" rid="f1">Fig. 1c</xref>). These cases also displayed a mutation spectrum consistent with mismatch repair deficiency, T&gt;C transition at CTG tri-nucleotides<xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b13">13</xref> (<xref ref-type="fig" rid="f1">Fig. 1c</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8</xref>). The overarching mutational spectra of the PDA cohort were dominated by C&gt;T mutations associated with age, and had minimal evidence for enriched APOBEC-associated mutagenesis at TCW tri-nucleotides (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8</xref>). By hierarchical clustering it was apparent that the variable mutational spectra of individual PDA cases specified discrete subtypes (<xref ref-type="fig" rid="f1">Fig. 1d</xref>). Smoking status was associated with an enrichment of C&gt;A transversions that resembled the mutational ‘smoking signature' observed in other cancers for which smoking is a significant risk factor (<xref ref-type="fig" rid="f1">Fig. 1e</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 9–11</xref>)<xref ref-type="bibr" rid="b12">12</xref><xref ref-type="bibr" rid="b14">14</xref>. Smokers had generally poor outcome, with a median survival half that of non-smokers (<xref ref-type="fig" rid="f1">Fig. 1f</xref>). Thus, etiological events associated with the development of PDA were identifiably associated with the mutational spectrum of the tumours.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Copy number variation and the role of MYC</title>
+          <p>Affinity propagation clustering (APC) was used to delineate deterministic patterns of commonality associated with copy number alterations (<xref ref-type="fig" rid="f2">Fig. 2a</xref>, left panel) and partitioned cases in discrete subtypes with increasing genetic complexity (<xref ref-type="fig" rid="f2">Fig. 2a</xref>, right panel). Cases with high levels of amplifications/deletions (clusters 5 and 6) were significantly over-represented for alterations of genes involved in DNA break repair, but not <italic toggle="yes">TP53</italic> (<xref ref-type="fig" rid="f2">Fig. 2b</xref>). Similar results were observed with standard hierarchical clustering methods based on Euclidean distance (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 12 and 13</xref>). Both cluster 5 and 6 harboured poor outcome relative to other clusters with fewer copy number changes (<xref ref-type="fig" rid="f2">Fig. 2c</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 12 and 13</xref>). GISTIC analysis defined significant common regions of amplification and deletion that harbour multiple oncogenes (for example, <italic toggle="yes">MYC</italic> and <italic toggle="yes">CCND1</italic>) and tumour suppressors (for example, <italic toggle="yes">SMAD4</italic> and <italic toggle="yes">CDKN2A</italic>) (<xref ref-type="fig" rid="f2">Fig. 2d</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Data 2</xref>). Interrogation of amplified and deleted regions for association with survival (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 2</xref>) revealed that the amplification of the 8q24 locus, harbouring the <italic toggle="yes">MYC</italic> oncogene, was uniquely associated with poor outcome (<xref ref-type="fig" rid="f2">Fig. 2e</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 2</xref>). While <italic toggle="yes">MYC</italic> overexpression has been shown to facilitate the development of pancreatic cancer in mouse models<xref ref-type="bibr" rid="b15">15</xref>, little analysis has been performed in patient specimens. The amplification of <italic toggle="yes">MYC</italic> was confirmed by fluorescent <italic toggle="yes">in situ</italic> hybridization (<xref ref-type="fig" rid="f2">Fig. 2f</xref>). The <italic toggle="yes">MYC</italic> amplified cases did not have a higher mutation burden or association with other hallmark mutations of PDA; however, amplification was significantly over-represented in the adenosquamous subtype of pancreatic carcinoma (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 14</xref>). Evaluation of precursor lesions pancreatic intraepithelial neoplasia (PanIN) associated with invasive disease also revealed <italic toggle="yes">MYC</italic> amplification (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 15</xref>). These data suggest a role of <italic toggle="yes">MYC</italic> in initiation and progression of this exceedingly aggressive form of PDA. Consistent with this observation, in a <italic toggle="yes">MYC</italic>-driven mouse model of pancreatic cancer, the tumours exhibited adenosquamous histology and stained positively for p63, an established marker of squamous differentiation (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 16</xref>).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Significantly mutated genes in pancreatic cancer</title>
+          <p>MutSigCV analysis<xref ref-type="bibr" rid="b16">16</xref> of 109 PDA/normal tissue pairs revealed 24 significantly mutated genes occurring in &gt;3.5% of cases (<xref ref-type="fig" rid="f3">Fig. 3a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 3</xref>). For comparison. similar analysis performed using data from prior sequencing effort<xref ref-type="bibr" rid="b4">4</xref> revealed only four non-synonymous mutations (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 17–18</xref>). The identification of <italic toggle="yes">KRAS, TP53, CDKN2A</italic> and <italic toggle="yes">SMAD4</italic> confirmed that our approach detected known alterations promoting PDA tumorigenesis. <italic toggle="yes">GNAS</italic> mutations were present in all four colloid carcinomas and two conventional PDAs. Most <italic toggle="yes">GNAS</italic> mutations were in hotspot codon 201 (R201C and R201H) (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 19 and 20</xref>). Consistent with recent studies<xref ref-type="bibr" rid="b17">17</xref>, all <italic toggle="yes">GNAS</italic>-mutated invasive carcinoma cases were derived from a common precursor, intraductal pancreatic neoplasm (IPMN). Four of the six PDAs harbouring <italic toggle="yes">GNAS</italic> alteration had concomitant mutations in <italic toggle="yes">KRAS</italic> (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>). Two other genes reported as mutated in IPMN, <italic toggle="yes">RNF43 </italic>and <italic toggle="yes">RBM10</italic>, were detected in six and four conventional PDA cases, respectively. Notably, PDAs harbouring <italic toggle="yes">RNF43</italic> and <italic toggle="yes">RBM10</italic> alterations did not arise from IPMN and there was no association between these genes and <italic toggle="yes">GNAS</italic> mutations in this cohort. We also identified a number of ‘cancer genes'<xref ref-type="bibr" rid="b18">18</xref> as significantly mutated in PDA, including <italic toggle="yes">BCLAF1</italic> (5% of cases), <italic toggle="yes">IRF6</italic> (4% of cases), <italic toggle="yes">FLG</italic> (10% of cases), <italic toggle="yes">AXIN1</italic> (5% of cases), <italic toggle="yes">GLI3</italic> (6% of cases) and <italic toggle="yes">PIK3CA</italic> (4% of cases).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Mutated genes associated with pancreatic cancer prognosis</title>
+          <p>Selected mutations were associated with pathological features of disease or survival (<xref ref-type="fig" rid="f3">Fig. 3b</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>). <italic toggle="yes">RBM10</italic> is critical regulator of alternative splicing that was recently identified as significantly mutated in lung cancer<xref ref-type="bibr" rid="b19">19</xref><xref ref-type="bibr" rid="b20">20</xref>. Remarkably, <italic toggle="yes">RBM10</italic> mutations were associated with enhanced survival (<xref ref-type="fig" rid="f3">Fig. 3b</xref>), although all <italic toggle="yes">RBM10-</italic>mutated cases were of high grade, pT3 stage and harboured lymph node metastasis in three of four cases (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 21</xref>). Mutations in the chromatin remodelling gene ARID1A trended towards poor survival (<xref ref-type="fig" rid="f3">Fig. 3b</xref>). Immunohistochemical analyses of additional 296 PDA cases demonstrated that ARID1A protein deficiency was significantly associated with poor outcome in this expanded cohort (<xref ref-type="fig" rid="f3">Fig. 3c</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Table 2</xref>). The loss of ARID1A protein is similarly observed in multiple PDA cell lines, although whether this event is functionally significant is unknown (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 22</xref>). Loss of ARID1A is known to induce vulnerability to ARID1B depletion in other cancer models<xref ref-type="bibr" rid="b21">21</xref> and we could confirm this finding in ARID1A-deficient PDA cell lines, indicating that loss of protein has a functional consequence (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 22</xref>). To further explore gene interactions, deterministic clustering was performed followed by analysis of exemplar cases (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 23</xref>). This work further reinforced the significance of genetic alterations beyond <italic toggle="yes">KRAS</italic> and <italic toggle="yes">TP53</italic>, as coordinate mutation of <italic toggle="yes">ARID1A</italic> delineated a cluster with worse prognosis (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 23</xref>). Correlation of mutations with clinicopathologic data revealed specific somatic aberrations associated with PDA grade, presence of lymph node metastasis and adenosquamous histology (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>).</p>
+          <p>To comprehensively interrogate significant mutations in PDA clinical cases, MutSigCV analysis was performed using combined data from current and 99 previously reported PDA cases<xref ref-type="bibr" rid="b4">4</xref>. The combined 208 cases yielded no additional high-frequency mutated genes, however, multiple lower frequency (&lt;2.5% recurrence) cancer-related genes were identified including <italic toggle="yes">ATM, ARID2, TGFBR2</italic> and <italic toggle="yes">ACVR1B</italic> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 24</xref>). This additional discovery is consistent with the added power of combined data analysis being required for a full accounting of cancer genomes<xref ref-type="bibr" rid="b18">18</xref>.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Genetic diversity in the KRAS pathway</title>
+          <p>PDA is dominated by mutations in <italic toggle="yes">KRAS</italic> that were detected in 92% of the cases in our cohort (<xref ref-type="fig" rid="f4">Fig. 4a</xref>). The majority of KRAS mutations occurred in codon 12, although mutations also occurred in codons 13 and 61 (<xref ref-type="fig" rid="f4">Fig. 4b and c</xref>), consistent with other sequencing studies<xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b5">5</xref> (<xref ref-type="fig" rid="f4">Fig. 4c</xref>). It has been suggested that different <italic toggle="yes">KRAS</italic> mutations harbour diverse biological activity<xref ref-type="bibr" rid="b22">22</xref>. Notably, while all mutations affecting codon 12 exhibited similar association with survival (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 25</xref>), cases mutated at codon 61 had a remarkably favourable prognosis in this cohort (<xref ref-type="fig" rid="f4">Fig. 4d</xref>). Interestingly, as we observed in the <italic toggle="yes">RBM10</italic> mutant tumours, cases harbouring mutations at codon 61 paradoxically exhibited histological and clinical features indicative of poor survival (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 26</xref>). When assessed for pERK staining, cases with <italic toggle="yes">KRAS</italic> mutations at codon 61 exhibited less ERK activation as compared with cases with other <italic toggle="yes">KRAS</italic> alleles (<xref ref-type="fig" rid="f4">Fig. 4e</xref>). This finding suggests that in PDA, <italic toggle="yes">KRAS</italic> mutant allele status potentially determines the quality of RAS pathway activation and the prognosis of disease.</p>
+          <p>While prior sequencing studies have shown that a small subset of PDA cases harbour wild-type <italic toggle="yes">KRAS</italic>, the genomic driver(s) of these tumours has remained obscure. Here we found that <italic toggle="yes">KRAS</italic> wild-type PDA exhibit somatic lesions in known oncogenes that are also RAS effector proteins (<xref ref-type="fig" rid="f4">Fig. 4a</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 27–30</xref>). Importantly, the <italic toggle="yes">PIK3CA</italic> mutations and <italic toggle="yes">BRAF</italic> mutations, occurring in cases with wild-type KRAS, are known to be mechanistically activating and are enriched in other tumour types (<xref ref-type="fig" rid="f4">Fig. 4f</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 27–30</xref>). In cases with wild-type <italic toggle="yes">KRAS, BRAF</italic> and <italic toggle="yes">PIK3CA</italic> a number of cancer-associated genes representing potential drivers were identified (for example, <italic toggle="yes">STK11, GNAS, CHEK2</italic> and <italic toggle="yes">RB1</italic>) (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 28</xref>). <italic toggle="yes">BRAF</italic> V600E mutations, occurring at a frequency of 3%, were mutually exclusive with <italic toggle="yes">KRAS</italic> mutations (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 29</xref>). While the expression of <italic toggle="yes">BRAF</italic> V600E would suggest that it is a driver event based on mouse models<xref ref-type="bibr" rid="b23">23</xref>, no endogenous model of this form of pancreatic cancer had been developed. One of the <italic toggle="yes">BRAF</italic> V600E cases (PDA_014) was utilized to develop a cell line that maintained the <italic toggle="yes">BRAF</italic> mutation (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 30</xref>). <italic toggle="yes">BRAF</italic> V600E PDA cell line was equally sensitive as MNT1 melanoma cells to the FDA-approved BRAF inhibitor PLX-4032, while KRAS driven cells (PL45) are resistant (<xref ref-type="fig" rid="f4">Fig. 4g-i</xref>). Together, these data suggest that genetic analysis of PDA could identify a subset of patients, <italic toggle="yes">albeit</italic> small, who may benefit from targeted therapy along the KRAS/BRAF axis.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Frequently mutated pathways in pancreatic cancer</title>
+          <p>In addition to heterogeneity within the core KRAS pathway, we detected multiple additional pathways that were genetically altered at high frequency (&gt;20%) in PDA (<xref ref-type="fig" rid="f5">Fig. 5a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Figs 31–33</xref>). Specifically, we found that the TGF-ß pathway is disrupted via a combination of largely mutually exclusive events in addition to the frequent disruption of <italic toggle="yes">SMAD4</italic>. This includes loss of <italic toggle="yes">TGFBR2/TGFBR1</italic>, as well as mutations in <italic toggle="yes">ACVR1B</italic>, which is a newly identified cancer-associated gene in the pathway<xref ref-type="bibr" rid="b18">18</xref>. Similarly, in concert with frequent deletion of <italic toggle="yes">CDKN2A</italic> and <italic toggle="yes">CDKN2B, CDK4</italic> and <italic toggle="yes">CCND1</italic> amplification and <italic toggle="yes">RB1</italic> loss was observed in the RB pathway. Among signalling pathways, beta-catenin and NOTCH pathways exhibited frequent alterations indicative of oncogenic activation. Multiple Fanconi Anaemia genes as well as <italic toggle="yes">ATM, CHEK2, BCLAF1, BRCA1</italic> and <italic toggle="yes">BRCA2</italic> were observed to be mutated or deleted at relatively high frequency with alterations targeting some facet of DNA repair occurring in &gt;35% of cases. Genetic lesions in chromatin remodelling SWI/SNF pathway occurred in 42% of the cases. In addition to these well-described pathways, we observed frequent aberrations that impinge on histone modification and the FAT/HIPPO pathway (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 31–32</xref>). Each pathway was interrogated for association with outcome (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 34</xref>). Only DNA repair-associated pathways had a trend towards poor outcome, while beta-catenin signalling trended towards improved outcome. In general, the associations between pathways were limited as determined by Pearson's correlation (<xref ref-type="fig" rid="f5">Fig. 5b</xref>). Random Forest and APC clustering were used to define subtypes of PDA based on altered pathways, and demonstrated marked diversity of combinations of deregulated pathways (<xref ref-type="fig" rid="f5">Fig. 5c</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 35</xref>). While tumours with isolated KRAS-pathway alterations alone or in combination with TP53 have a poor prognosis, tumours with more complex pathway deregulations trended towards even poorer outcome (<xref ref-type="fig" rid="f5">Fig. 5d</xref>). Many of the highlighted pathways represent therapeutic targets that are actionable in preclinical models and, in some cases, in the clinic (<xref ref-type="table" rid="t2">Table 2</xref>). For example, BRAF V600E has been shown to be a potential target in melanoma and other cancers. Loss of <italic toggle="yes">RNF43</italic> or <italic toggle="yes">AXIN1</italic> are associated with sensitivity to porcupine and tankyrase inhibitors targeting the beta-catenin pathway<xref ref-type="bibr" rid="b24">24</xref>, while deletion of <italic toggle="yes">CDKN2A</italic> or amplification of <italic toggle="yes">CDK4/CCND1</italic> confer sensitivity to CDK4/6 inhibitors<xref ref-type="bibr" rid="b25">25</xref>. Deficits in Fanconi Anaemia genes can be targeted by cross-linking agents<xref ref-type="bibr" rid="b26">26</xref>, a finding readily observed in cell lines harbouring homozygous deletion of <italic toggle="yes">FANCF</italic> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 36</xref>). Similarly, loss of BRCA function is associated with response to PARP inhibitors<xref ref-type="bibr" rid="b27">27</xref>. A number of these genetic alterations remain actionable in the presence of an activating KRAS mutation and could provide the opportunity for genetically targeted therapy in PDA.</p>
+        </sec>
+      </sec>
+      <sec disp-level="1" sec-type="discussion">
+        <title>Discussion</title>
+        <p>In total, the data herein demonstrates that PDA is a genetically diverse disease harbouring mutational burden similar to other solid malignancies. Due to the enrichment approach utilized, we identified multiple significantly mutated genes that have not been previously described in PDA and provide genetic insights into the etiology, prognostic features and potential therapeutic targets.</p>
+        <p>Risk factors for PDA, include smoking and deficits in DNA mismatch repair as exemplified by Lynch Syndrome<xref ref-type="bibr" rid="b28">28</xref><xref ref-type="bibr" rid="b29">29</xref><xref ref-type="bibr" rid="b30">30</xref>. We observed that smoking status in PDA was associated with a mutation spectra similar to other smoking-associated tumours<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b14">14</xref>. We also found that select cases exhibit a ‘mutator' phenotype, suggesting a contribution of mismatch repair deficiency in tumorigenesis<xref ref-type="bibr" rid="b12">12</xref>.</p>
+        <p>In the analysis of copy number, we identified many regions that have been previously identified by CGH and other methods<xref ref-type="bibr" rid="b31">31</xref>. In general, tumors with more copy number alterations (indicative of chromosomal instability) exhibited mutations in DNA break repair genes and trended toward poor prognosis. Importantly, we discovered that <italic toggle="yes">MYC</italic> amplification was associated with poor prognosis and adenosquamous histology. We did not identify mutations in <italic toggle="yes">UPF1,</italic> which has been recently reported to be selectively mutated with high frequency in pancreatic adenosquamous carcinoma<xref ref-type="bibr" rid="b32">32</xref>. In spite of a comprehensive unbiased survey of amplicons/deleted regions only one locus (MYC) was associated with outcome; however, clearly there is variation in the overall magnitude of copy number alterations, suggesting that there are perhaps distinct drivers for the chromosomal instability observed in PDA.</p>
+        <p>Using MutSigCV and pathway analysis, multiple genes and pathways altered at high frequency were identified, a subset of which associated with survival. <italic toggle="yes">ARID1A</italic> was confirmed as a marker of poorer outcome using an independent cohort, and <italic toggle="yes">RBM10</italic> mutation was associated with longer survival. We also uncovered a number of novel <italic toggle="yes">albeit</italic> rare alterations in signalling pathways important in PDA biology. While <italic toggle="yes">CDKN2A</italic> loss is common in PDA and contributes to the aberrant cell cycle progression, loss of <italic toggle="yes">RB1</italic> or <italic toggle="yes">CCND1</italic> amplification has not been previously reported. In PDA tumours harbouring wild-type KRAS, we identified <italic toggle="yes">BRAF</italic> and <italic toggle="yes">PIK3CA</italic> mutations at oncogenic hotspots expanding the spectrum of oncogenic drivers in PDA. Importantly, a cell line developed from BRAF V600E-mutated PDA was equally sensitive as melanoma cells to FDA-approved BRAF inhibitor PLX-4032. In addition to these rare, potentially, clinically actionable events, several pathways that were genetically altered at high frequency (&gt;20%) in our study could yield selective therapeutic sensitivities. Genetic lesions targeting some facet of DNA repair or chromatin remodelling SWI/SNF pathway occurred in &gt;35% and 42% of PDA cases, respectively. Alteration in WNT/beta-catenin pathway were common and included loss of RNF43 or AXIN1 conferring sensitivity to porcupine and tankyrase inhibitors targeting. A number of these genetic alterations remain actionable in the presence of an activating KRAS mutation and could provide the opportunity for genetically targeted therapy in PDA.</p>
+        <p>Together this expanded genetic framework of PDA reveals disease complexity that will contribute to future efforts of disease modelling and patient stratification for treatment.</p>
+      </sec>
+      <sec disp-level="1" sec-type="methods">
+        <title>Methods</title>
+        <sec disp-level="2">
+          <title>Tissue collection and microdissection</title>
+          <p>All tissues were collected under approved protocols of the Thomas Jefferson University Institutional Review Board and UT Southwestern Medical Center Institutional Review Board that require the informed consent of all patients. Cases represented diverse histological subtypes including colloid (<italic toggle="yes">n</italic>=4), adenosquamous (<italic toggle="yes">n</italic>=11) and ductal carcinoma, NOS (<italic toggle="yes">n</italic>=94). The majority of the analysed tumours were stage I (<italic toggle="yes">n</italic>=5) or II (<italic toggle="yes">n</italic>= 97); the remainder were stage III (<italic toggle="yes">n</italic>=6) or IV (<italic toggle="yes">n</italic>=1). For stage IV case tissue form the primary pancreatic tumour was analysed. About 7-μM thick slides were cut from frozen tissue and lightly stained with haematoxylin. Tumour epithelial cells were dissected manually using a 14 gauge needle under a dissecting microscope (Leica Microsystems). DNA was extracted using the QIAamp DNA Mini Kit. Between 500 ng and 1.5 μg of enriched tumour DNA was recovered from each case. Analysis of KRAS mutation and other tumour-associated mutations demonstrated that average tumour cellularity &gt;50%. Germline DNA was obtained from normal tissue resected at surgery (<italic toggle="yes">n</italic>=105) or peripheral blood (<italic toggle="yes">n</italic>=4).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>DNA quality control and sequencing</title>
+          <p>Recovered DNA was quantified by Nanodrop and Qubit using standard procedures. Integrity of genomic DNA was confirmed by gel electrophoresis. A total of 109 tumour/normal pairs passed the quality control to move forward for whole-exome sequencing. TruSeq Exome Enrichment (FC-121-1048) and Nextera Exome Enrichment (FC-140-1003) kits were utilized to build the sequencing libraries as per manufacturer's protocol. The DNA was then subjected to paired-end whole-exome sequencing using Illumina HiSeq2500 instruments. The sequence reads were aligned to the human genome (Build-UCSC hg19) using the BWA alignment algorithm<xref ref-type="bibr" rid="b33">33</xref>. A general sequencing depth of 51.28 × (95% confidence interval (CI): 49.5 and 53.1) was observed for sequenced cases, and represented 99.26% (95% CI: 99.20–99.31%) of the target sequences. Across the target sequences, 91.51% (95% CI: 90.97–92.05%) had &gt;15 read coverage, and on average 2.178 × 10<sup>9</sup> bases were sequenced per case. For 21 cases, the sequencing depth was doubled with an average number of 5.523 × 10<sup>9</sup> bases sequenced per case. The average fold coverage was 123.01 (95% CI: 115.4−130.6). Across target sequences, 94.74% (95% CI: 93.41–96.07) had &gt;15 read coverage. With the deeper sequencing relatively few additional mutation were discovered. The increased depth largely served to detect mutations with low sequence coverage and allele frequency. These data are summarized in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7</xref>.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Informatics pipeline</title>
+          <p>Somatic point mutations and INDELS in the tumour tissues compared with their corresponding normal tissues were identified using the MuTect<xref ref-type="bibr" rid="b34">34</xref> and VarScan2 algorithms<xref ref-type="bibr" rid="b35">35</xref>, respectively, with default parameter settings. The mutations were annotated using Broad Institute's Oncotator programme. Minimum of 14 reads covering a site in the tumour and 8 in the normal were required for mutation calling. Only INDELS with reference allele counts greater than eight and tumour variant allele counts greater than three were considered.</p>
+          <p>Genome Analysis Toolkit (v2.4, DepthOfCoverage) was used to calculate the coverage for all sequenced cases<xref ref-type="bibr" rid="b36">36</xref>. Log ratio of coverage between tumour and normal were normalized by circular binary segmentation using ExomeCNV and DNAcopy packages in R/Bioconductor. To obtain copy number alterations in tumours compared with normal tissue, GISTIC 2.0 module version 6.2 with join segment size=4 and confidence level=0.95 was used<xref ref-type="bibr" rid="b37">37</xref>. SNV and INDEL analyses were summarized into tables using R (R Core Team-2014; R Foundation for Statistical Computing, Vienna, Austria, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Computational and statistical analysis</title>
+          <p>Hierarchical clustering and Kaplan–Meier analyses were performed using the stats and survival packages in R. Associations of genes with features of disease was determined using hypergeometric testing, with <italic toggle="yes">P</italic>&lt;0.05 considered significant. Survival between two groups was determined using log-rank statistic, with <italic toggle="yes">P</italic>&lt;0.05 considered significant. Heatmaps for mutation spectrum and pathway oncoprints were generated using the R package pheatmap. All other plots were generated using the graphics package in R.</p>
+          <p>The MutSigCV algorithm<xref ref-type="bibr" rid="b16">16</xref> was run locally with default settings to define significantly mutated genes with input MAF files developed from the merge of MuTect and VarScan outputs. To remove any gene paralogue or alignment driven artifacts, the mutations at all positions for high-frequency genes were interrogated by BLAST against the human genome. This approach removed a number of high-frequency false positives, including CDC27 and FRG1. Mutations in significantly mutated genes and all INDELs were manually interrogated by examining BAM files in Integrative Genomics Viewer<xref ref-type="bibr" rid="b38">38</xref>. Subsequent filtering was employed were genes with at least four nonsilent mutations (&gt;3.5%) were retained. A <italic toggle="yes">P</italic> value cut-off of 0.05 was used to obtain a list of top significantly mutated genes. Subsequent analysis of sequenced paralogues or analogous sequences was used to further restrict the results to 24 genes. A list of MutSigCV-defined genes to <italic toggle="yes">P</italic>&lt;0.1 with associated <italic toggle="yes">P</italic> and <italic toggle="yes">Q</italic> values is provided in <xref ref-type="supplementary-material" rid="S1">Supplementary Data 3</xref>. Unsupervised Random Forest clustering approach was used to cluster the pathways<xref ref-type="bibr" rid="b39">39</xref>. Random Forest package in R was used to obtain the Random forest dissimilarity measure and the data was classified into clusters using the partitioning around medoids implemented in the cluster package in R.</p>
+          <p>Clustering analysis was performed with the APC algorithm using the ‘apcluster' package in R. APC is a deterministic clustering method, which identifies the number of clusters, and cluster ‘exemplars' (that is, the cluster centroid or the data point that is the best representative of all the other data points within that cluster) from the data<xref ref-type="bibr" rid="b40">40</xref>. APC performs clustering by passing messages between the data points. It takes as input a square matrix representing pairwise similarity measures between all data points. The algorithm views each data point as a node in a network and is initialized by connecting all the nodes together where edges between nodes are proportional to Pearson correlations. The algorithm then iteratively transmits messages along the edges, pruning edges with each iteration until a set of clusters and exemplars emerges.</p>
+          <p>Two real valued messages are passed between nodes. The ‘responsibility' message computes how well-suited it is for point <italic toggle="yes">i</italic> to choose point <italic toggle="yes">k</italic> as an exemplar, given all the other candidate exemplars, <italic toggle="yes">k′</italic>, and is updated by:</p>
+          <p>
+            <disp-formula id="eq1">
+              <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e1107" xlink:href="ncomms7744-m1.jpg"/>
+            </disp-formula>
+          </p>
+          <p>The availability message, <italic toggle="yes">a</italic>(<italic toggle="yes">i</italic>, <italic toggle="yes">k</italic>), computes how appropriate it is for point <italic toggle="yes">i</italic> to select point <italic toggle="yes">k</italic> as an exemplar, taking into account all the other points for which <italic toggle="yes">k</italic> is an exemplar, <italic toggle="yes">i′</italic>, and is given by:</p>
+          <p>
+            <disp-formula id="eq2">
+              <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e1134" xlink:href="ncomms7744-m2.jpg"/>
+            </disp-formula>
+          </p>
+          <p>In the above equation, <italic toggle="yes">a</italic>(<italic toggle="yes">i, k</italic>) is set to the self responsibility, <italic toggle="yes">r</italic>(<italic toggle="yes">k,k</italic>), plus the sum of the positive responsibilities candidate <italic toggle="yes">k</italic> receives from other points. The entire sum is thresholded at 0, and a negative availability indicates that it is inappropriate for point <italic toggle="yes">i</italic> to chose point <italic toggle="yes">k</italic> as an exemplar and the tie is severed. The self-availability, <italic toggle="yes">a</italic>(<italic toggle="yes">k,k</italic>), reflects the accumulated evidence that point <italic toggle="yes">k</italic> is an exemplar and is updated with the following rule, which reflects the evidence that <italic toggle="yes">k</italic> is an exemplar based on the positive responsibilities sent to <italic toggle="yes">k</italic> from all points, and is updated by:</p>
+          <p>
+            <disp-formula id="eq3">
+              <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e1177" xlink:href="ncomms7744-m3.jpg"/>
+            </disp-formula>
+          </p>
+          <p>In the first iteration, all points are considered equally likely to be candidate exemplars, and <italic toggle="yes">a</italic>(<italic toggle="yes">i, k</italic>) is set to 0 and <italic toggle="yes">s</italic>(<italic toggle="yes">i, k</italic>) is set to the input similarity measure between points <italic toggle="yes">i</italic> and <italic toggle="yes">k</italic>. The above rules are then iteratively updated until a clear, stable set of clusters and exemplars emerges.</p>
+          <p>In our implementation of the algorithm, we first ran the algorithm to identify an initial set of exemplars and clusters from the data. The exemplars were then clustered together and this procedure was repeated until no more clusters emerged to identify a hierarchical structure of clusters. Networks were drawn with cytoscape<xref ref-type="bibr" rid="b41">41</xref>.</p>
+          <p>To generate mutation peg plots, protein domain information was downloaded from the Pfam database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pfam.xfam.org/">http://pfam.xfam.org/</ext-link>) and isoforms were matched between data sets with Uniprot IDs. Mutation information for various TCGA tumour data sets were gathered using the cBioPortal R package, ‘cgdsr' (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="cbioportal.org">cbioportal.org</ext-link>).</p>
+          <p>To compare the mutational spectra of the PDA_COHORT data set to the TCGA tumour data sets, individual MAF files from the most current TCGA data were downloaded from the TCGA website (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cancergenome.nih.gov/">http://cancergenome.nih.gov/</ext-link>) and nucleotide substitution information was compared.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Validation</title>
+          <p>A total of 248 nonsilent mutations from 84 of the 109 tumour/normal tissue pairs were selected to validate by Sanger sequencing. This validation encompassed 132 different genes, including most that were referenced in the text (for example <italic toggle="yes">BRAF</italic>, <italic toggle="yes">BRCA2</italic>, <italic toggle="yes">RB1</italic>, <italic toggle="yes">ARID1A</italic>). We aimed to validate mutations with allelic frequency of &gt;0.15, recognizing that Sanger sequencing sensitivity is impaired by low mutant allele frequency. Mutations confirmation was 92% (95% CI: 87.64–94.58%). This range is consistent with other studies using MuTect to define mutations<xref ref-type="bibr" rid="b42">42</xref>, validated mutations are denoted in <xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>.</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Immunohistochemistry and FISH</title>
+          <p>ARID1A immunohistochemistry was performed in a clinical laboratory using a BenchMark Ultra autostainer (Ventana Medical Systems). The ARID1A antibody (cat# sc-32761, Santa Cruz Biotechnology—dilution 1:150) specificity was confirmed by negative staining in cases with known mutation in ARID1A. All scores were read blind to outcome, and data were dichotomized based on loss of the homogeneous ARID1A staining observed in normal tissue or known cases with intact ARID1A gene. Association with survival was performed by Kaplan–Meier analysis. Phospho-ERK immunohistochemistry (cat#4370, Cell Signaling Technology-dilution 1:150) was performed on a DAKO autostainer. All scores were read blind to outcome or association with KRAS mutation.</p>
+          <p>Tumours from the Pdx1-Cre/CAG-βgeo-tTA/TetO-Myc transgenic mice were formalin fixed<xref ref-type="bibr" rid="b15">15</xref>, embedded and stained for haematoxylin and eosin. Immunohistochemical staining for p63 (cat#619002, Biolegend-1dilution :100) was performed on a DAKO autostainer.</p>
+          <p>Fluorecence <italic toggle="yes">in situ</italic> hybridization (FISH) at the MYC locus was performed in a CLIA clinical laboratory using Vysis LSI MYC dual colour ‘break apart' rearrangement probe. The probes detect regions directly centromeric and telomeric of the MYC genes, facilitating the detection of amplifications (both colours amplified in proximity) and/or translations (resulting in the separation of the two colours spatially).</p>
+        </sec>
+        <sec disp-level="2">
+          <title>Functional studies</title>
+          <p>The established PDA cell lines PL45, CAPAN2, PL5, ASPC1 and HS7662 were obtained from ATCC and cultured in DMEM supplemented with 10% FBS. The cell line derived from PDA_014 was established from primary tumour fresh tissue that was digested with trypsin and plated on collagen coated plates in Keratinocyte Serum-Free Media supplemented with Bovine Pituitary Extract, EGF and 2% FBS. Tumour cells were expanded and subjected to sequencing analysis, which confirmed the retention of select tumour-associated mutations including BRAF V600E. The melanoma cell line MNT1 was cultured in DMEM supplemented with 10% FBS. Sensitivity to PLX-4032 was determined by flow-cytometry, crystal violet and CTG analysis as we have previously published<xref ref-type="bibr" rid="b25">25</xref>. For immunoblotting, 30 μg of total protein were resolved by SDS–PAGE and transferred to polyvinylidene fluoride membranes (Immobilon-P, Millipore). Membranes were immunoblotted with anti-ARID1A (SC-32761, Santa Cruz, dilution 1:500), β-actin (SC47778, Santa Cruz, dilution 1:500), anti-phospho-ERK (SC-7383, Cell Signaling dilution 1:500), anti-ERK (SC-94, Cell Signaling, dilution 1:500) and anti-horse radish peroxidase-conjugated antibodies (Jackson ImmunoResearch-dilution 1:2,500). ). Representative immunoblots are shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 37</xref>.</p>
+          <p>For knockdown experiments, 5,000 cells were plated in each well of 96-well plate followed by transfection of siARID1B (L-013970-01-0005, GE HealthCare/Dharmacon: pool of 3′-UGAUCAACAUGGCGGACAA-5′, 3′-CCGAAUUACAAACGCCAUA-5′, 3′-UCUCAAAGCAGACGGCAAA-5′ and 3′-ACGAGCAUCCAGAGAGAAA-5′) with transfection reagent (Lipofectamine RNAiMAX, Lif Technologies) and incubated for 4 days at 37 °C. Non-targeting siRNA pools (D001810-10-20, GE Healthcare/Dharmacon) were used as negative control. Cell Titer-Glo reagent (Promega) was used to see cell viability. About 15 μl of reagent was added to each well and mixed by orbital shaker. Luminescence of each well was measured in a microplate reader (BioTek).</p>
+        </sec>
+      </sec>
+      <sec disp-level="1">
+        <title>Author contributions</title>
+        <p>A.K.W., K.-U.W., M.A.W. and E.S.K. designed and directed the studies. A.K.W., K.-U.W., J.M., A.Y., M.A.C., C.J.Y., M.M. and P.M. were involved in specimens and sample collection, and logistical contribution. A.K.W., E.A.M., U.B., G.B., W.-C.L., P.K. and E.S.K. generated experimental data in the publication. E.A.M. and U.B were involved in informatics and statistical studies.</p>
+      </sec>
+      <sec disp-level="1">
+        <title>Additional information</title>
+        <p><bold>Accession codes:</bold> Tumor sequencing data is deposited at SRA (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/sra">http://www.ncbi.nlm.nih.gov/sra</ext-link>) with the BioProject ID: PRJNA278883 and Title: Whole Exome Sequencing of Microdissected Pancreatic Cancer.</p>
+        <p><bold>How to cite this article:</bold> Witkiewicz, A. K. <italic toggle="yes">et al.</italic> Whole-exome sequencing of pancreatic cancer defines genetic diversity and therapeutic targets. <italic toggle="yes">Nat. Commun.</italic> 6:6744 doi: 10.1038/ncomms7744 (2015).</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="S1">
+        <title>Supplementary Material</title>
+        <supplementary-material id="d33e18" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Figures and Supplementary Tables</title>
+            <p>Supplementary Figures 1-37 and Supplementary Tables 1-2</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms7744-s1.pdf" position="float" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material id="d33e24" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Data 1</title>
+            <p>Data summary of SNV and INDEL.</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms7744-s2.xlsx" position="float" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material id="d33e30" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Data 2</title>
+            <p>Data summary of CNV</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms7744-s3.xlsx" position="float" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material id="d33e36" content-type="local-data" position="float" orientation="portrait">
+          <caption>
+            <title>Supplementary Data 3</title>
+            <p>Summary of significantly mutated genes</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms7744-s4.xlsx" position="float" orientation="portrait"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <p>We thank all members of the laboratories and their colleagues for thought-provoking discussion and logistical support. Special thanks to Mr Christopher Moxom for technical support, Dr Nicholas Borja for editorial assistance and Dr. Karoliina Stefanius for performing immunohistochemical stains. The sequencing was carried out in the UT Southwestern Core Next Generation Sequencing Facility (Dr Ralph Kittler, Director) and Genomics Core Facility (Dr Ward Wakeland, Director). We regret any oversight in citation, as there were significant constraints on the number of outstanding studies that could be referenced. Support for tissue acquisition and processing was through the Simmons Cancer Center Tissue Management Resource (5P30 CA 142543-05). Training grant support for G.H. was from (CPRIT RP140110) and for E.A.M. from (T32 GM 8203-26). A.K.W and E.S.K are supported by P30 CA142543-S2.</p>
+      </ack>
+      <ref-list>
+        <ref id="b1">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Paulson</surname><given-names>A. S.</given-names></name>, <name name-style="western"><surname>Tran Cao</surname><given-names>H. S.</given-names></name>, <name name-style="western"><surname>Tempero</surname><given-names>M. A.</given-names></name> &amp; <name name-style="western"><surname>Lowy</surname><given-names>A. M.</given-names></name><article-title>Therapeutic advances in pancreatic cancer</article-title>. <source>Gastroenterology</source><volume>144</volume>, <fpage>1316</fpage>–<lpage>1326</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23622141</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2013.01.078</pub-id></mixed-citation>
+        </ref>
+        <ref id="b2">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cowan</surname><given-names>R. W.</given-names></name> &amp; <name name-style="western"><surname>Maitra</surname><given-names>A.</given-names></name><article-title>Genetic progression of pancreatic cancer</article-title>. <source>Cancer J.</source><volume>20</volume>, <fpage>80</fpage>–<lpage>84</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24445769</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/PPO.0000000000000011</pub-id></mixed-citation>
+        </ref>
+        <ref id="b3">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Vincent</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Herman</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Schulick</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Hruban</surname><given-names>R. H.</given-names></name> &amp; <name name-style="western"><surname>Goggins</surname><given-names>M.</given-names></name><article-title>Pancreatic cancer</article-title>. <source>Lancet</source><volume>378</volume>, <fpage>607</fpage>–<lpage>620</lpage> (<year>2011</year>) .<pub-id pub-id-type="pmid">21620466</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(10)62307-0</pub-id><pub-id pub-id-type="pmcid">PMC3062508</pub-id></mixed-citation>
+        </ref>
+        <ref id="b4">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Biankin</surname><given-names>A. V.</given-names></name><italic toggle="yes">et al.</italic><article-title>Pancreatic cancer genomes reveal aberrations in axon guidance pathway genes</article-title>. <source>Nature</source><volume>491</volume>, <fpage>399</fpage>–<lpage>405</lpage> (<year>2012</year>) .<pub-id pub-id-type="pmid">23103869</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11547</pub-id><pub-id pub-id-type="pmcid">PMC3530898</pub-id></mixed-citation>
+        </ref>
+        <ref id="b5">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jones</surname><given-names>S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Core signalling pathways in human pancreatic cancers revealed by global genomic analyses</article-title>. <source>Science</source><volume>321</volume>, <fpage>1801</fpage>–<lpage>1806</lpage> (<year>2008</year>) .<pub-id pub-id-type="pmid">18772397</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1164368</pub-id><pub-id pub-id-type="pmcid">PMC2848990</pub-id></mixed-citation>
+        </ref>
+        <ref id="b6">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Erkan</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Reiser-Erkan</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Michalski</surname><given-names>C. W.</given-names></name> &amp; <name name-style="western"><surname>Kleeff</surname><given-names>J.</given-names></name><article-title>Tumour microenvironment and progression of pancreatic cancer</article-title>. <source>Exp. Oncol.</source><volume>32</volume>, <fpage>128</fpage>–<lpage>131</lpage> (<year>2010</year>) .<pub-id pub-id-type="pmid">21403605</pub-id></mixed-citation>
+        </ref>
+        <ref id="b7">
+          <mixed-citation publication-type="journal">Cancer Genome Atlas Research, N. <article-title>Comprehensive genomic characterization of squamous cell lung cancers</article-title>. <source>Nature</source><volume>489</volume>, <fpage>519</fpage>–<lpage>525</lpage> (<year>2012</year>) .<pub-id pub-id-type="pmid">22960745</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11404</pub-id><pub-id pub-id-type="pmcid">PMC3466113</pub-id></mixed-citation>
+        </ref>
+        <ref id="b8">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Yeo</surname><given-names>C. J.</given-names></name><italic toggle="yes">et al.</italic><article-title>Six hundred fifty consecutive pancreaticoduodenectomies in the 1990s: pathology, complications, and outcomes</article-title>. <source>Ann. Surg.</source><volume>226</volume>, <fpage>248</fpage>–<lpage>257</lpage> (<year>1997</year>) .<pub-id pub-id-type="pmid">9339931</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00000658-199709000-00004</pub-id><pub-id pub-id-type="pmcid">PMC1191017</pub-id></mixed-citation>
+        </ref>
+        <ref id="b9">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Weber</surname><given-names>C. E.</given-names></name><italic toggle="yes">et al.</italic><article-title>Clinical and pathologic features influencing survival in patients undergoing pancreaticoduodenectomy for pancreatic adenocarcinoma</article-title>. <source>J. Gastrointest. Surg.</source><volume>18</volume>, <fpage>340</fpage>–<lpage>347</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24272772</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11605-013-2388-x</pub-id></mixed-citation>
+        </ref>
+        <ref id="b10">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Barbieri</surname><given-names>C. E.</given-names></name><italic toggle="yes">et al.</italic><article-title>Exome sequencing identifies recurrent SPOP, FOXA1 and MED12 mutations in prostate cancer</article-title>. <source>Nat. Genet.</source><volume>44</volume>, <fpage>685</fpage>–<lpage>689</lpage> (<year>2012</year>) .<pub-id pub-id-type="pmid">22610119</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2279</pub-id><pub-id pub-id-type="pmcid">PMC3673022</pub-id></mixed-citation>
+        </ref>
+        <ref id="b11">
+          <mixed-citation publication-type="journal">Cancer Genome Atlas Research Network. <italic toggle="yes">et al.</italic><article-title>Integrated genomic characterization of endometrial carcinoma</article-title>. <source>Nature</source><volume>497</volume>, <fpage>67</fpage>–<lpage>73</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23636398</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12113</pub-id><pub-id pub-id-type="pmcid">PMC3704730</pub-id></mixed-citation>
+        </ref>
+        <ref id="b12">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Alexandrov</surname><given-names>L. B.</given-names></name><italic toggle="yes">et al.</italic><article-title>Signatures of mutational processes in human cancer</article-title>. <source>Nature</source><volume>500</volume>, <fpage>415</fpage>–<lpage>421</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23945592</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12477</pub-id><pub-id pub-id-type="pmcid">PMC3776390</pub-id></mixed-citation>
+        </ref>
+        <ref id="b13">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Helleday</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Eshtad</surname><given-names>S.</given-names></name> &amp; <name name-style="western"><surname>Nik-Zainal</surname><given-names>S.</given-names></name><article-title>Mechanisms underlying mutational signatures in human cancers</article-title>. <source>Nat. Rev. Genet.</source><volume>15</volume>, <fpage>585</fpage>–<lpage>598</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24981601</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrg3729</pub-id><pub-id pub-id-type="pmcid">PMC6044419</pub-id></mixed-citation>
+        </ref>
+        <ref id="b14">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Henderson</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Chakravarthy</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Su</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Boshoff</surname><given-names>C.</given-names></name> &amp; <name name-style="western"><surname>Fenton</surname><given-names>T. R.</given-names></name><article-title>APOBEC-mediated cytosine deamination links PIK3CA helical domain mutations to human papillomavirus-driven tumour development</article-title>. <source>Cell Rep.</source><volume>7</volume>, <fpage>1833</fpage>–<lpage>1841</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24910434</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2014.05.012</pub-id></mixed-citation>
+        </ref>
+        <ref id="b15">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lin</surname><given-names>W. C.</given-names></name><italic toggle="yes">et al.</italic><article-title>Dormant cancer cells contribute to residual disease in a model of reversible pancreatic cancer</article-title>. <source>Cancer Res.</source><volume>73</volume>, <fpage>1821</fpage>–<lpage>1830</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23467612</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-12-2067</pub-id><pub-id pub-id-type="pmcid">PMC3602120</pub-id></mixed-citation>
+        </ref>
+        <ref id="b16">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lawrence</surname><given-names>M. S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Mutational heterogeneity in cancer and the search for new cancer-associated genes</article-title>. <source>Nature</source><volume>499</volume>, <fpage>214</fpage>–<lpage>218</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23770567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12213</pub-id><pub-id pub-id-type="pmcid">PMC3919509</pub-id></mixed-citation>
+        </ref>
+        <ref id="b17">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Furukawa</surname><given-names>T.</given-names></name><italic toggle="yes">et al.</italic><article-title>Whole-exome sequencing uncovers frequent GNAS mutations in intraductal papillary mucinous neoplasms of the pancreas</article-title>. <source>Sci. Rep.</source><volume>1</volume>, <fpage>161</fpage> (<year>2011</year>) .<pub-id pub-id-type="pmid">22355676</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep00161</pub-id><pub-id pub-id-type="pmcid">PMC3240977</pub-id></mixed-citation>
+        </ref>
+        <ref id="b18">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lawrence</surname><given-names>M. S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Discovery and saturation analysis of cancer genes across 21 tumour types</article-title>. <source>Nature</source><volume>505</volume>, <fpage>495</fpage>–<lpage>501</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24390350</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12912</pub-id><pub-id pub-id-type="pmcid">PMC4048962</pub-id></mixed-citation>
+        </ref>
+        <ref id="b19">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Imielinski</surname><given-names>M.</given-names></name><italic toggle="yes">et al.</italic><article-title>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</article-title>. <source>Cell</source><volume>150</volume>, <fpage>1107</fpage>–<lpage>1120</lpage> (<year>2012</year>) .<pub-id pub-id-type="pmid">22980975</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.08.029</pub-id><pub-id pub-id-type="pmcid">PMC3557932</pub-id></mixed-citation>
+        </ref>
+        <ref id="b20">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Inoue</surname><given-names>A.</given-names></name><italic toggle="yes">et al.</italic><article-title>RBM10 regulates alternative splicing</article-title>. <source>FEBS Lett.</source><volume>588</volume>, <fpage>942</fpage>–<lpage>947</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24530524</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.febslet.2014.01.052</pub-id></mixed-citation>
+        </ref>
+        <ref id="b21">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Helming</surname><given-names>K. C.</given-names></name><italic toggle="yes">et al.</italic><article-title>ARID1B is a specific vulnerability in ARID1A-mutant cancers</article-title>. <source>Nat. Med.</source><volume>20</volume>, <fpage>251</fpage>–<lpage>254</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24562383</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3480</pub-id><pub-id pub-id-type="pmcid">PMC3954704</pub-id></mixed-citation>
+        </ref>
+        <ref id="b22">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ihle</surname><given-names>N. T.</given-names></name><italic toggle="yes">et al.</italic><article-title>Effect of KRAS oncogene substitutions on protein behavior: implications for signalling and clinical outcome</article-title>. <source>J. Natl. Cancer Inst.</source><volume>104</volume>, <fpage>228</fpage>–<lpage>239</lpage> (<year>2012</year>) .<pub-id pub-id-type="pmid">22247021</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djr523</pub-id><pub-id pub-id-type="pmcid">PMC3274509</pub-id></mixed-citation>
+        </ref>
+        <ref id="b23">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Collisson</surname><given-names>E. A.</given-names></name><italic toggle="yes">et al.</italic><article-title>A central role for RAF--&gt;MEK--&gt;ERK signalling in the genesis of pancreatic ductal adenocarcinoma</article-title>. <source>Cancer Discov.</source><volume>2</volume>, <fpage>685</fpage>–<lpage>693</lpage> (<year>2012</year>) .<pub-id pub-id-type="pmid">22628411</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-11-0347</pub-id><pub-id pub-id-type="pmcid">PMC3425446</pub-id></mixed-citation>
+        </ref>
+        <ref id="b24">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jiang</surname><given-names>X.</given-names></name><italic toggle="yes">et al.</italic><article-title>Inactivating mutations of RNF43 confer Wnt dependency in pancreatic ductal adenocarcinoma</article-title>. <source>Proc. Natl Acad. Sci. USA</source><volume>110</volume>, <fpage>12649</fpage>–<lpage>12654</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23847203</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1307218110</pub-id><pub-id pub-id-type="pmcid">PMC3732970</pub-id></mixed-citation>
+        </ref>
+        <ref id="b25">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Franco</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Witkiewicz</surname><given-names>A. K.</given-names></name> &amp; <name name-style="western"><surname>Knudsen</surname><given-names>E. S.</given-names></name><article-title>CDK4/6 inhibitors have potent activity in combination with pathway selective therapeutic agents in models of pancreatic cancer</article-title>. <source>Oncotarget</source><volume>5</volume>, <fpage>6512</fpage>–<lpage>6525</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">25156567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.2270</pub-id><pub-id pub-id-type="pmcid">PMC4171647</pub-id></mixed-citation>
+        </ref>
+        <ref id="b26">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>van der Heijden</surname><given-names>M. S.</given-names></name><italic toggle="yes">et al.</italic><article-title>In vivo therapeutic responses contingent on Fanconi anemia/BRCA2 status of the tumour</article-title>. <source>Clin. Cancer Res.</source><volume>11</volume>, <fpage>7508</fpage>–<lpage>7515</lpage> (<year>2005</year>) .<pub-id pub-id-type="pmid">16243825</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-05-1048</pub-id></mixed-citation>
+        </ref>
+        <ref id="b27">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Farmer</surname><given-names>H.</given-names></name><italic toggle="yes">et al.</italic><article-title>Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy</article-title>. <source>Nature</source><volume>434</volume>, <fpage>917</fpage>–<lpage>921</lpage> (<year>2005</year>) .<pub-id pub-id-type="pmid">15829967</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature03445</pub-id></mixed-citation>
+        </ref>
+        <ref id="b28">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Yadav</surname><given-names>D.</given-names></name> &amp; <name name-style="western"><surname>Lowenfels</surname><given-names>A. B.</given-names></name><article-title>The epidemiology of pancreatitis and pancreatic cancer</article-title>. <source>Gastroenterology</source><volume>144</volume>, <fpage>1252</fpage>–<lpage>1261</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23622135</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2013.01.068</pub-id><pub-id pub-id-type="pmcid">PMC3662544</pub-id></mixed-citation>
+        </ref>
+        <ref id="b29">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Klein</surname><given-names>A. P.</given-names></name>, <name name-style="western"><surname>Hruban</surname><given-names>R. H.</given-names></name>, <name name-style="western"><surname>Brune</surname><given-names>K. A.</given-names></name>, <name name-style="western"><surname>Petersen</surname><given-names>G. M.</given-names></name> &amp; <name name-style="western"><surname>Goggins</surname><given-names>M.</given-names></name><article-title>Familial pancreatic cancer</article-title>. <source>Cancer J.</source><volume>7</volume>, <fpage>266</fpage>–<lpage>273</lpage> (<year>2001</year>) .<pub-id pub-id-type="pmid">11561603</pub-id></mixed-citation>
+        </ref>
+        <ref id="b30">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Jones</surname><given-names>S.</given-names></name><italic toggle="yes">et al.</italic><article-title>Exomic sequencing identifies PALB2 as a pancreatic cancer susceptibility gene</article-title>. <source>Science</source><volume>324</volume>, <fpage>217</fpage> (<year>2009</year>) .<pub-id pub-id-type="pmid">19264984</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1171202</pub-id><pub-id pub-id-type="pmcid">PMC2684332</pub-id></mixed-citation>
+        </ref>
+        <ref id="b31">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Holzmann</surname><given-names>K.</given-names></name><italic toggle="yes">et al.</italic><article-title>Genomic DNA-chip hybridization reveals a higher incidence of genomic amplifications in pancreatic cancer than conventional comparative genomic hybridization and leads to the identification of novel candidate genes</article-title>. <source>Cancer Res.</source><volume>64</volume>, <fpage>4428</fpage>–<lpage>4433</lpage> (<year>2004</year>) .<pub-id pub-id-type="pmid">15231651</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-04-0431</pub-id></mixed-citation>
+        </ref>
+        <ref id="b32">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Liu</surname><given-names>C.</given-names></name><italic toggle="yes">et al.</italic><article-title>The UPF1 R. N. A. surveillance gene is commonly mutated in pancreatic adenosquamous carcinoma</article-title>. <source>Nat. Med.</source><volume>20</volume>, <fpage>596</fpage>–<lpage>598</lpage> (<year>2014</year>) .<pub-id pub-id-type="pmid">24859531</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3548</pub-id><pub-id pub-id-type="pmcid">PMC4048332</pub-id></mixed-citation>
+        </ref>
+        <ref id="b33">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Li</surname><given-names>H.</given-names></name> &amp; <name name-style="western"><surname>Durbin</surname><given-names>R.</given-names></name><article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source><volume>25</volume>, <fpage>1754</fpage>–<lpage>1760</lpage> (<year>2009</year>) .<pub-id pub-id-type="pmid">19451168</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id><pub-id pub-id-type="pmcid">PMC2705234</pub-id></mixed-citation>
+        </ref>
+        <ref id="b34">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cibulskis</surname><given-names>K.</given-names></name><italic toggle="yes">et al.</italic><article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>. <source>Nat. Biotechnol.</source><volume>31</volume>, <fpage>213</fpage>–<lpage>219</lpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">23396013</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2514</pub-id><pub-id pub-id-type="pmcid">PMC3833702</pub-id></mixed-citation>
+        </ref>
+        <ref id="b35">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Koboldt</surname><given-names>D. C.</given-names></name><italic toggle="yes">et al.</italic><article-title>VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing</article-title>. <source>Genome Res.</source><volume>22</volume>, <fpage>568</fpage>–<lpage>576</lpage> (<year>2012</year>) .<pub-id pub-id-type="pmid">22300766</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.129684.111</pub-id><pub-id pub-id-type="pmcid">PMC3290792</pub-id></mixed-citation>
+        </ref>
+        <ref id="b36">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McKenna</surname><given-names>A.</given-names></name><italic toggle="yes">et al.</italic><article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>. <source>Genome Res.</source><volume>20</volume>, <fpage>1297</fpage>–<lpage>1303</lpage> (<year>2010</year>) .<pub-id pub-id-type="pmid">20644199</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.107524.110</pub-id><pub-id pub-id-type="pmcid">PMC2928508</pub-id></mixed-citation>
+        </ref>
+        <ref id="b37">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mermel</surname><given-names>C. H.</given-names></name><italic toggle="yes">et al.</italic><article-title>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</article-title>. <source>Genome Biol.</source><volume>12</volume>, <fpage>R41</fpage> (<year>2011</year>) .<pub-id pub-id-type="pmid">21527027</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2011-12-4-r41</pub-id><pub-id pub-id-type="pmcid">PMC3218867</pub-id></mixed-citation>
+        </ref>
+        <ref id="b38">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Robinson</surname><given-names>J. T.</given-names></name><italic toggle="yes">et al.</italic><article-title>Integrative genomics viewer</article-title>. <source>Nat. Biotechnol.</source><volume>29</volume>, <fpage>24</fpage>–<lpage>26</lpage> (<year>2011</year>) .<pub-id pub-id-type="pmid">21221095</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.1754</pub-id><pub-id pub-id-type="pmcid">PMC3346182</pub-id></mixed-citation>
+        </ref>
+        <ref id="b39">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shi</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Seligson</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Belldegrun</surname><given-names>A. S.</given-names></name>, <name name-style="western"><surname>Palotie</surname><given-names>A.</given-names></name> &amp; <name name-style="western"><surname>Horvath</surname><given-names>S.</given-names></name><article-title>Tumour classification by tissue microarray profiling: random forest clustering applied to renal cell carcinoma</article-title>. <source>Mod. Pathol.</source><volume>18</volume>, <fpage>547</fpage>–<lpage>557</lpage> (<year>2005</year>) .<pub-id pub-id-type="pmid">15529185</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/modpathol.3800322</pub-id></mixed-citation>
+        </ref>
+        <ref id="b40">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Frey</surname><given-names>B. J.</given-names></name> &amp; <name name-style="western"><surname>Dueck</surname><given-names>D.</given-names></name><article-title>Clustering by passing messages between data points</article-title>. <source>Science</source><volume>315</volume>, <fpage>972</fpage>–<lpage>976</lpage> (<year>2007</year>) .<pub-id pub-id-type="pmid">17218491</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1136800</pub-id></mixed-citation>
+        </ref>
+        <ref id="b41">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shannon</surname><given-names>P.</given-names></name><italic toggle="yes">et al.</italic><article-title>Cytoscape: a software environment for integrated models of biomolecular interaction networks</article-title>. <source>Genome Res.</source><volume>13</volume>, <fpage>2498</fpage>–<lpage>2504</lpage> (<year>2003</year>) .<pub-id pub-id-type="pmid">14597658</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.1239303</pub-id><pub-id pub-id-type="pmcid">PMC403769</pub-id></mixed-citation>
+        </ref>
+        <ref id="b42">
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Goode</surname><given-names>D. L.</given-names></name><italic toggle="yes">et al.</italic><article-title>A simple consensus approach improves somatic mutation prediction accuracy</article-title>. <source>Genome Med.</source><volume>5</volume>, <fpage>90</fpage> (<year>2013</year>) .<pub-id pub-id-type="pmid">24073752</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gm494</pub-id><pub-id pub-id-type="pmcid">PMC3978449</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="f1" position="float" orientation="portrait">
+        <label>Figure 1</label>
+        <caption>
+          <title>Overall mutational landscape of PDA and association with etiological features of disease.</title>
+          <p>(<bold>a</bold>) Representative image of the needle dissection approach used to enrich tumour cells for whole-exome sequencing (scale bar, 600 μM) (<bold>b</bold>) Mutational burden across the sequenced cohort. The presence of genetic alterations in genes associated with mutator phenotypes are shown for the cases with the top 25% of mutational burden. Association with mutational burden was determined by a hypergeometric test. (<bold>c</bold>) Mutation spectra of the hypermutated cases, top quartile cases with mutator mutations and others (** denotes <italic toggle="yes">P</italic>&lt;0.05, Student's <italic toggle="yes">t</italic>-test). The boxes show the distance between the first and third quartile with the whiskers extending up to 1.5 times the interquartile range. (<bold>d</bold>) Unsupervised hierarchical clustering of cases based on mutation spectra. (<bold>e</bold>) Mutation spectra based on smoking status, the increase in G&gt;T transversion is significant (<italic toggle="yes">P</italic>&lt;0.05, Student's <italic toggle="yes">t</italic>-test). The boxes show the distance between the first and third quartile with the whiskers extending up to 1.5 times the interquartile range. The unfilled circles represent possible outliers. (<bold>f</bold>) Association of PDA smoking status with overall survival. Hazard ratio and <italic toggle="yes">P</italic> value were obtained from Cox proportional hazard test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms7744-f1.jpg"/>
+      </fig>
+      <fig id="f2" position="float" orientation="portrait">
+        <label>Figure 2</label>
+        <caption>
+          <title>Copy number alterations in PDA.</title>
+          <p>(<bold>a</bold>) APC clustering of PDA cases by CNV revealed several distinct clades and associated clusters. Clusters 5 and 6 exhibit higher overall CNV relative to the other clusters. (<bold>b</bold>) Clusters 5 and 6 are enriched for mutations or homozygous deletion of genes involved in double-strand break repair, but not in TP53. Significance was determined by hypergeometric test. (<bold>c</bold>) Cluster 5 and 6 trend towards poor survival relative to clusters with less CNV. Hazard ratio and <italic toggle="yes">P</italic> values were obtained from Cox proportional hazard test. (<bold>d</bold>) GISTIC analysis of cases reveals chromosomal regions that are significantly deleted/amplified. (<bold>e</bold>) Kaplan–Meier analysis of the association of the 8q24.13 locus amplification with overall survival. <italic toggle="yes">P</italic> value was obtained from Cox proportional hazard test. (<bold>f</bold>) Fluorescence <italic toggle="yes">in situ</italic> hybridization with MYC break apart probes demonstrates amplification in the absence of translocation at the MYC locus (Scale bar, 5 μM).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms7744-f2.jpg"/>
+      </fig>
+      <fig id="f3" position="float" orientation="portrait">
+        <label>Figure 3</label>
+        <caption>
+          <title>Significantly mutated genes in PDA.</title>
+          <p>(<bold>a</bold>) Mutational significance was determined for SNV and INDELS from the 109 sequenced cases using MutsigCV. Genes were subjected to unsupervised clustering, and the frequency and <italic toggle="yes">P</italic> value as determined by MutsigCV are shown. (<bold>b</bold>) Kaplan–Meier analysis of select significantly mutated genes. <italic toggle="yes">P</italic> value was obtained from Cox proportional hazard test. (<bold>c</bold>) IHC was used to confirm loss of ARID1A protein in a large cohort of PDA cases (scale bar, 150 μM). Diminished ARID1A protein level was associated with overall survival. <italic toggle="yes">P</italic> value was obtained from Cox proportional hazard test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms7744-f3.jpg"/>
+      </fig>
+      <fig id="f4" position="float" orientation="portrait">
+        <label>Figure 4</label>
+        <caption>
+          <title>KRAS/BRAF-Pathway in PDA.</title>
+          <p>(<bold>a</bold>) Oncomap showing the distribution of KRAS, BRAF and PIK3CA mutation in the cohort. (<bold>b</bold>) KRAS mutations in the cohort exhibit a diverse spectrum concentrated at known oncogenic codons 12, 13 and 61 (<bold>c</bold>) Analysis of KRAS mutations in the PDA cohort in comparison with all cancer cases in cbioportal (<bold>d</bold>) Kaplan–Meier analysis of codon 12 versus codon 61 mutated cases. Kaplan–Meier analysis of codon 12 versus codon 61 mutated cases. <italic toggle="yes">P</italic> value was obtained from Cox proportional hazard test. (<bold>e</bold>) Representative staining of pERK in pancreatic cancer cases (scale bar, 150 μM), and the association of pERK staining in PDA cases with KRAS codon 12 versus codon 61 mutations. The boxes show the distance between the first and third quartile with the whiskers extending up to 1.5 times the interquartile range. (<bold>f</bold>) Analysis of BRAF mutations identified in the PDA cohort in comparison with the analysis of all cancer cases in bioportal. (<bold>g</bold>) Impact of PLX-4032 on the phosphorylation of ERK in the indicated cell lines. PL45 is KRAS mutated, PDA_014 is a patient-derived cell line harbouring BRAF V600E and MNT1 is a BRAF V600E melanoma cell line (<bold>h</bold>) Impact of PLX-4032 on cell cycle progression in the indicated cell lines (data analysis was performed in triplicate and error bars denote s.d.). (<bold>i</bold>) Impact of PLX-4032 on viability in the indicated cell lines (data points are from at least six values and error bars denote s.d.).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms7744-f4.jpg"/>
+      </fig>
+      <fig id="f5" position="float" orientation="portrait">
+        <label>Figure 5</label>
+        <caption>
+          <title>Pathways in PDA.</title>
+          <p>(<bold>a</bold>) Oncomaps and schematics of pathways with combined genetic lesions occurring at a frequency &gt;15% in the PDA cohort. (<bold>b</bold>) Correlation between pathways in the PDA cohort reveals relatively weak interactions between pathways. (<bold>c</bold>) Random forest-based clustering of pathways. (<bold>d</bold>) Overall survival related to genetic alterations targeting KRAS and TP53 in clusters 1 and 2 versus all others. <italic toggle="yes">P</italic> value was obtained from Cox proportional hazard test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="ncomms7744-f5.jpg"/>
+      </fig>
+      <table-wrap position="float" id="t1" orientation="portrait">
+        <label>Table 1</label>
+        <caption>
+          <title>Demographic and clinicopathologic features of the PDA 109 patient cohort analysed.</title>
+        </caption>
+        <table frame="hsides" rules="groups" border="1">
+          <colgroup span="1">
+            <col align="left" span="1"/>
+            <col align="center" span="1"/>
+          </colgroup>
+          <thead valign="bottom">
+            <tr>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Variable</bold>
+              </th>
+              <th align="center" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold><italic toggle="yes">N</italic> (109)</bold>
+              </th>
+            </tr>
+          </thead>
+          <tbody valign="top">
+            <tr>
+              <td colspan="2" align="center" valign="top" charoff="50" rowspan="1">
+                <italic toggle="yes">Age (years)</italic>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> Average (range)</td>
+              <td align="char" valign="top" char="(" charoff="50" colspan="1" rowspan="1">66 (29-86)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="top" charoff="50" rowspan="1">
+                <italic toggle="yes">Gender</italic>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> Male</td>
+              <td align="char" valign="top" char="(" charoff="50" colspan="1" rowspan="1">55 (50%)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> Female</td>
+              <td align="char" valign="top" char="(" charoff="50" colspan="1" rowspan="1">54 (50%)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="top" charoff="50" rowspan="1">
+                <italic toggle="yes">Diagnosis</italic>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> PDA</td>
+              <td align="char" valign="top" char="(" charoff="50" colspan="1" rowspan="1">94 (86%)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> Adenosquamous</td>
+              <td align="char" valign="top" char="(" charoff="50" colspan="1" rowspan="1">11 (10%)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> Colloid</td>
+              <td align="char" valign="top" char="(" charoff="50" colspan="1" rowspan="1">4 (4%)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="top" charoff="50" rowspan="1">
+                <italic toggle="yes">Grade</italic>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> 1</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">5</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> 2</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">77</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> 3</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">27</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1"> </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="top" charoff="50" rowspan="1">
+                <italic toggle="yes">Survival (months)</italic>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1"> Median</td>
+              <td align="center" valign="top" charoff="50" colspan="1" rowspan="1">21</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn id="t1-fn1">
+            <p>PDA, pancreatic ductal adenocarcinoma.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap position="float" id="t2" orientation="portrait">
+        <label>Table 2</label>
+        <caption>
+          <title>Tabular summary of potential pharmacological strategies for specific genetic pathway deregulation.</title>
+        </caption>
+        <table frame="hsides" rules="groups" border="1">
+          <colgroup span="1">
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+          </colgroup>
+          <thead valign="bottom">
+            <tr>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1"> </th>
+              <th align="center" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Genetic event (frequency)</bold>
+              </th>
+              <th align="left" valign="top" charoff="50" colspan="1" rowspan="1">
+                <bold>Target: drugs</bold>
+              </th>
+            </tr>
+          </thead>
+          <tbody valign="top">
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">BRAF</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">BRAF V600E (3%)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">BRAF: Vemurafinib</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">PIK3CA</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">PIK3CA activating mutation (1%)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">PIK3CA: BKM120, GDC0941</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">RB pathway</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">CDKN2A loss (41%) CDK4 amp, CCND1 amp. (9%)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">CDK4/6: PD-0332991, LEE-11CDK4/6: PD-0332991, LEE-11</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Myc</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Myc amp (14%)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">CDK9: PHA767491BET-Bromodomain: JQ1</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Double-strand break repair</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">FANC gene family (14%)BRCA gene family (3%)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">DNA: Mitomycin CPARP: Olaparib</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Beta-Catenin</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">RNF43 loss (7%)AXIN1/2 or APC loss (11%)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Porcupine: LGK974Tankyrase: XAV939</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Notch</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Notch family amp (31%)</td>
+              <td align="left" valign="top" charoff="50" colspan="1" rowspan="1">Gamma secretase: MK0752</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </floats-group>
+  </article>
+</pmc-articleset>

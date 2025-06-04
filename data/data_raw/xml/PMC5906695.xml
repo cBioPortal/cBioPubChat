@@ -1,0 +1,2304 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC5906695</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC5906695.1</article-id>
+        <article-id pub-id-type="pmcaid">5906695</article-id>
+        <article-id pub-id-type="pmcaiid">5906695</article-id>
+        <article-id pub-id-type="pmid">29670109</article-id>
+        <article-id pub-id-type="doi">10.1038/s41467-018-03828-2</article-id>
+        <article-id pub-id-type="publisher-id">3828</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Mutation hotspots at CTCF binding sites coupled to chromosomal instability in gastrointestinal cancers</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Guo</surname>
+              <given-names initials="YA">Yu Amanda</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names initials="MM">Mei Mei</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Huang</surname>
+              <given-names initials="W">Weitai</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ooi</surname>
+              <given-names initials="WF">Wen Fong</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Xing</surname>
+              <given-names initials="M">Manjie</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Tan</surname>
+              <given-names initials="P">Patrick</given-names>
+            </name>
+            <address>
+              <email>gmstanp@duke-nus.edu.sg</email>
+            </address>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6847-4980</contrib-id>
+            <name name-style="western">
+              <surname>Skanderup</surname>
+              <given-names initials="AJ">Anders Jacobsen</given-names>
+            </name>
+            <address>
+              <email>skanderupamj@gis.a-star.edu.sg</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0620 715X</institution-id><institution-id institution-id-type="GRID">grid.418377.e</institution-id><institution>Computational and Systems Biology, Agency for Science Technology and Research, </institution><institution> Genome Institute of Singapore, </institution></institution-wrap>60 Biopolis Street, Singapore, 138672 Singapore </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2180 6431</institution-id><institution-id institution-id-type="GRID">grid.4280.e</institution-id><institution>Graduate School of Integrative Sciences and Engineering, </institution><institution>National University of Singapore, </institution></institution-wrap>5 Lower Kent Ridge Road, Singapore, 117456 Singapore </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0620 715X</institution-id><institution-id institution-id-type="GRID">grid.418377.e</institution-id><institution>Cancer Therapeutics and Stratified Oncology, Agency for Science Technology and Research, </institution><institution> Genome Institute of Singapore, </institution></institution-wrap>60 Biopolis Street, Singapore, 138672 Singapore </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0385 0924</institution-id><institution-id institution-id-type="GRID">grid.428397.3</institution-id><institution>Cancer and Stem Cell Biology Program, </institution><institution>Duke-NUS Medical School, </institution></institution-wrap>8 College Road, Singapore, 169857 Singapore </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2180 6431</institution-id><institution-id institution-id-type="GRID">grid.4280.e</institution-id><institution>Cancer Science Institute of Singapore, </institution><institution>National University of Singapore, </institution></institution-wrap>14 Medical Drive, Singapore, 117599 Singapore </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>18</day>
+          <month>4</month>
+          <year>2018</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2018</year>
+        </pub-date>
+        <volume>9</volume>
+        <issue-id pub-id-type="pmc-issue-id">303893</issue-id>
+        <elocation-id>1520</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>31</day>
+            <month>8</month>
+            <year>2017</year>
+          </date>
+          <date date-type="accepted">
+            <day>15</day>
+            <month>3</month>
+            <year>2018</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>18</day>
+              <month>04</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>20</day>
+              <month>04</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-07-20 01:25:15.193">
+              <day>20</day>
+              <month>07</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2018</copyright-statement>
+          <license license-type="OpenAccess">
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2018_Article_3828.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Tissue-specific driver mutations in non-coding genomic regions remain undefined for most cancer types. Here, we unbiasedly analyze 212 gastric cancer (GC) whole genomes to identify recurrently mutated non-coding regions in GC. Applying comprehensive statistical approaches to accurately model background mutational processes, we observe significant enrichment of non-coding indels (insertions/deletions) in three gastric lineage-specific genes. We further identify 34 mutation hotspots, of which 11 overlap CTCF binding sites (CBSs). These CBS hotspots remain significant even after controlling for a genome-wide elevated mutation rate at CBSs. In 3 out of 4 tested CBS hotspots, mutations are nominally associated with expression change of neighboring genes. CBS hotspot mutations are enriched in tumors showing chromosomal instability, co-occur with neighboring chromosomal aberrations, and are common in gastric (25%) and colorectal (19%) tumors but rare in other cancer types. Mutational disruption of specific CBSs may thus represent a tissue-specific mechanism of tumorigenesis conserved across gastrointestinal cancers.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">The impact of non-coding somatic mutations in gastric cancer is unknown. Here, using whole genome sequencing data from 212 gastric tumors, the authors identify recurring mutations at specific CTCF binding sites that are common across gastrointestinal cancers and associated with chromosomal instability.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2018</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par3">Non-coding DNA constitutes over 98% of the human genome and harbors numerous functional elements essential for regulating gene expression and maintaining chromosomal architecture<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Mutations at non-coding regions may drive cancer by dysregulating proto-oncogenes and tumor suppressor genes, as exemplified by recent studies demonstrating recurrent point mutations at the <italic toggle="yes">TERT</italic> promoter in multiple cancer types<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup> and <italic toggle="yes">TAL1</italic> enhancer insertions in T-cell acute lymphoblastic leukemia<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. While previous pan-cancer analyses of tumor genomes have nominated regulatory driver mutations<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>, these studies have typically not been sufficiently powered to identify tissue-specific non-coding driver mutations, as hundreds of samples are usually needed to reliably identify driver mutations in individual cancer types<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. Recently, the whole-genome mutational landscapes of breast<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, liver<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>, and pancreatic<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> cancer tumors have been studied to identify cancer-specific non-coding drivers. However, the prevalence and impact of non-coding driver mutations is still unknown for most cancer types.</p>
+        <p id="Par4">CTCF is a DNA-binding protein essential for the maintenance of genome architecture by mediating both short and long-range chromosomal contacts<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref></sup>. Together with the cohesin complex, CTCF organizes chromatin into large topologically associating domains (TADs), insulating the local chromosomal neighborhoods from adjacent regions. Disruption of CTCF binding can therefore lead to dysregulation of gene expression<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref></sup>. In cancer, CTCF binding is disrupted through various mechanisms, such as DNA copy number alterations spanning domain boundaries<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>, microdeletions within CBSs<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>, and hypermethylation of CBSs<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. These alterations at CBSs may drive cancer progression by allowing ectopic expression of oncogenes. Notably, recent studies have reported a genome-wide elevated somatic mutation rate across CBSs in several cancer types<sup><xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR18">18</xref></sup>. This suggests that mutational and DNA repair processes may act differently at CBSs relative to other genomic regions, thereby resulting in an overall elevated mutational burden at such sites in cancer. However, no study to date has rigorously tested the hypothesis that even amidst this elevated mutational burden, positive selection may still act on specific CBSs to drive cancer in individual tumor types. To accurately identify such genomic sites under positive selection, statistical tests must take into account regional biases in the mutation burden.</p>
+        <p id="Par5">Comprehensive genetic and molecular profiling have previously identified new molecular subtypes and genetic drivers of gastric adenocarcinoma<sup><xref ref-type="bibr" rid="CR19">19</xref>–<xref ref-type="bibr" rid="CR21">21</xref></sup>. Studies have also investigated the extent and impact of mutational signatures<sup><xref ref-type="bibr" rid="CR22">22</xref>,<xref ref-type="bibr" rid="CR23">23</xref></sup> and epigenetic dysregulation in gastric cancer (GC) genomes<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>. Yet, it is unknown to what extent mutations in specific non-coding elements may drive GC, a leading cause of global cancer mortality. Here, we performed uniform and accurate identification of somatic single nucleotide variants (SNVs) and insertions/deletions (indels) in 212 GC genomes using an ensemble mutation calling approach. We present a comprehensive statistical approach, incorporating both epigenetic and sequence covariates, to identify non-coding regions with significantly higher mutation burdens over background, indicating positive selection and a role in gastric tumorigenesis. Performing an unbiased genome-wide scan of focal mutation hotspots (~20 bp, as TF binding motifs are typically &lt;20 bp), we detect 34 significant recurring non-coding hotspots—of these, 11 overlapped CBSs. We further characterize these sites by analyzing CBS specific mutation biases, gene expression of neighboring genes, chromosomal instability, and incidence of these mutations in other cancer types. Overall, our analyses nominate these CBS hotspots as candidate drivers of GC. Furthermore, our analysis suggests a general link between CBS mutations and chromosomal instability in gastrointestinal cancers.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>The mutation landscape of gastric adenocarcinoma</title>
+          <p id="Par6">We analyzed the whole-genome sequences of 212 gastric adenocarcinoma tumors and matched normal samples collated from four different sources (Supplementary Data <xref rid="MOESM4" ref-type="media">1</xref>; Methods). All samples were uniformly processed using an accurate somatic mutation calling pipeline (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1a–b</xref>). Briefly, we trained a random forest classifier that predicts high confidence somatic mutation calls (SNVs and indels) by combining the outputs of four independent mutation callers. This approach achieved &gt;85% accuracy on an independent test data set of curated somatic mutations<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. We excluded 20 low-quality samples with less than 400 mutation calls from the discovery cohort (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1c</xref>). In addition, we removed five samples with strong enrichment of C&gt;A substitutions, a sign of oxidative damage during DNA preparation<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup> (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1c</xref>). Somatic mutations in coding (CDS) regions, immunoglobin loci, and poorly mappable regions were also removed from further analyses. After uniform processing, samples from the four cohorts showed comparable distributions of somatic mutation counts and similar mutation spectra (Fig. <xref rid="Fig1" ref-type="fig">1a</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">1a</xref>). The ICGC cohort had slightly fewer mutations per tumor, probably due to the lower sequencing depth of this cohort.<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><p>Summary of the data. <bold>a</bold> Gastric tumor samples grouped by cohort and ordered by SNV count within each cohort. The panels show coverage, SNV count, indel count, mutation spectrum, molecular subtype, and Lauren’s classification of each sample. <bold>b</bold> Correlations between epigenetic features and somatic mutation rates in different tumor subtypes (error bars represent s.e.m of the correlation coefficient). <bold>c</bold> Principle component analysis of contributions of epigenetic features to the variance in the mutation rate of individual tumors. Colored stacked bars show the contribution of individual epigenetic features to the first two principal components</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e465" position="float" orientation="portrait" xlink:href="41467_2018_3828_Fig1_HTML.jpg"/></fig></p>
+          <p id="Par7">A previous study identified four molecular subtypes of gastric adenocarcinoma<sup><xref ref-type="bibr" rid="CR19">19</xref>:</sup> tumors that are EBV positive (EBV), tumors with high levels of microsatellite instability (MSI), tumors that exhibit copy number instability (CIN), and tumor that are genomically stable (GS). We investigated the correlations between somatic mutation rates of the four cancer subtypes and epigenetic profiles of gastric tissue obtained from the Roadmap Epigenomics project<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. In general, somatic mutation rates were negatively correlated with regions of open chromatin (DNaseI hypersensitivity) and histone marks of active promoters (H3K4me3) and enhancers (H3K27ac) (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). The depletion of somatic mutations in regions of open chromatin is likely due to enhanced accessibility to the DNA repair machinery<sup><xref ref-type="bibr" rid="CR30">30</xref>–<xref ref-type="bibr" rid="CR32">32</xref></sup>. Notably, somatic mutations in the EBV subtype were less correlated with histone features and replication timing compared to the CIN and GS subtypes, suggesting that additional mutational biases may exist in EBV infected tumors.</p>
+          <p id="Par8">Tumors belonging to the MSI subtype displayed strikingly different associations between epigenetic features and mutation patterns. We observed little association between mutation rate and open chromatin marks or replication timing in MSI tumors. This is likely because mismatch repair (MMR) deficient MSI tumors have lost MMR-coupled enhanced repair efficiency at early replicating open-chromatin regions<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. In addition, we found that MSI mutation profiles showed a strong positive association with heterochromatin (H3K9me3) and repressive domains (H3K27me3) (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). This is in contrast with a previous study by Supek et al. reporting that mutations generated after MMR inactivation are no longer enriched in heterochromatin regions, arguing that genome-wide regional mutation rate variation is mostly a result of MMR<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Instead, our data suggests that, in addition to MMR, other repair or mutational processes may further contribute to variation of the GC mutation landscape. Principal component analysis (PCA) on the correlation matrix between the mutation profiles of individual tumors and the epigenetic covariates also revealed MSI tumors as a distinct cluster (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>). Accordingly, we removed the small number of MSI tumors (<italic toggle="yes">N</italic> = 19) from the discovery cohort to ensure all tumors had similar mutational biases.</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Statistical framework for mutational hotspot identification</title>
+          <p id="Par9">To identify positive selection in cancer genomes, it is essential to build an accurate background mutation rate model that corrects for covariates (features) that impact regional mutation rate variation, such as local sequence context and chromatin profiles. We considered a range of genetic and epigenetic features that could be correlated with GC somatic mutation rates. The features included 33 general and 36 gastric-specific chromatin features, 133 transcription factor binding profiles, and DNA replication timing profiles (Supplementary Data <xref rid="MOESM5" ref-type="media">2</xref>; Methods). To model the effect of local sequence context on mutation rate, previous studies have considered the single or tri-nucleotide sequence context of each mutation<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref>,<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>. However, as mutation rates may also be influenced by wider sequence contexts<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>, we thus used an expanded sequence context model that considers the effects of tri-nucleotide (1 bp flanks) and penta-nucleotide (2 bp flanks) contexts on the mutation probability of each base. Least absolute shrinkage and selection operator (LASSO) logistic regression was used to identify the most predictive epigenetic and sequence context features (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>). We used these features to estimate sample-specific background mutation probabilities, and to identify individual focal regions (21 bp) exhibiting mutational recurrence across samples beyond chance expectation (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>; Methods). Overlapping significantly mutated regions were merged to obtain a list of unique hotspots.<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><p>Genome-wide analysis of non-coding indel recurrence. <bold>a</bold> Workflow of the method to detect recurrently mutated non-coding regions. <bold>b</bold> Genome-wide negative log <italic toggle="yes">P</italic>-values of indel recurrence of 21 bp regions with at least one indel. The horizontal line marks the Bonferroni adjusted <italic toggle="yes">P</italic>-value of 0.01. <bold>c</bold> Negative log <italic toggle="yes">P</italic>-value of indel recurrence in merged non-coding regions of each gene. The top three significantly mutated genes are highlighted. The horizontal line marks the Bonferroni adjusted <italic toggle="yes">P</italic>-value of 0.01. <bold>d</bold>–<bold>f</bold> Gene expression of <italic toggle="yes">LIPF</italic> (<bold>d</bold>), <italic toggle="yes">PGC</italic> (<bold>e</bold>), and <italic toggle="yes">MUC6</italic> (<bold>f</bold>) in normal gastric samples, tumors wildtype for the gene of interest, and tumors with non-coding indels in the gene of interest</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e593" position="float" orientation="portrait" xlink:href="41467_2018_3828_Fig2_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec5">
+          <title>Recurrent indels in gastric lineage-specific genes</title>
+          <p id="Par10">We used this statistical framework to identify somatic mutation hotspots (both indels and point mutations) across the non-coding genome (Fig. <xref rid="Fig2" ref-type="fig">2b</xref> and Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). The top indel hotspot was located ~100 kbp upstream of the <italic toggle="yes">AFDN</italic> gene, which is frequently translocated in leukemia and down-regulated in multiple cancer types<sup><xref ref-type="bibr" rid="CR34">34</xref>–<xref ref-type="bibr" rid="CR36">36</xref></sup>. The effect of hotspot mutations on <italic toggle="yes">AFDN</italic> expression could not be tested, as we lacked paired tumor expression data for the mutated samples. The second most significant indel hotspot was located in an intron of the <italic toggle="yes">PGC</italic> gene, which encodes the precursor of gastric proteinase pepsinogen (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). <italic toggle="yes">PGC</italic> is expressed at 11940 TPM in the stomach, 39 TPM in the lung, and ≤2 TPM in all other tissues in the Genotype-Tissue Expression (GTEx) project<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>. Interestingly, a recent study reported that <italic toggle="yes">LIPF</italic>, a lineage-specific gastric lipase, has broad enrichment of indels in GC<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. Hypothesizing that other lineage-specific genes could show similar patterns of indel enrichment, we performed a gene-based recurrence analysis to identify all genes with broad enrichment of indels in their non-coding regions (combining promoter, untranslated, and intronic regions for each gene; Methods). Interestingly, the top three genes in this analysis were all lineage-specific genes highly expressed in stomach tissue: <italic toggle="yes">LIPF</italic>, <italic toggle="yes">PGC,</italic> and <italic toggle="yes">MUC6</italic> (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>; Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). <italic toggle="yes">MUC6</italic> encodes a mucin glycoprotein that is a major constituent of the gut mucosa, and is expressed at 133 TPM in stomach tissue, 38 TPM in the pancreas, and ≤2 TPM in all other tissues in GTEx<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>. However, consistent with the previous report<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>, non-coding indels in these three recurrently mutated lineage-specific genes were not associated with expression change (Fig. <xref rid="Fig2" ref-type="fig">2d–f</xref>).<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><p>Genome-wide analysis of non-coding SNV hotspots. <bold>a</bold> The negative log <italic toggle="yes">P</italic>-values of SNV recurrence for all 21 bp regions genome-wide, only regions with at least three mutations are displayed. Significantly mutated hotspots overlapping CBSs are highlighted. The horizontal line marks the Bonferroni adjusted <italic toggle="yes">P</italic>-value of 0.01. <bold>b</bold> Log odds ratio of the enrichment of hotspot mutations and non-hotspot mutations in transcription factor binding regions and conserved regions. Error bars indicate the s.e.m of the log odds ratio. <bold>c</bold> Gastric cancer samples sorted by molecular subtype, with each row representing a significant mutation hotspot. Mutated samples are highlighted in black in the matrix. The mutation load of each sample is shown in the bottom panel. The right panel annotates the location of each hotspot with respect to annotated functional regions</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e699" position="float" orientation="portrait" xlink:href="41467_2018_3828_Fig3_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec6">
+          <title>Mutation hotspots enriched at CBSs in GC</title>
+          <p id="Par11">We then performed a genome-wide analysis of SNVs in non-coding regions and identified 34 significant mutation hotspots (Bonferroni adjusted <italic toggle="yes">P</italic>-value &lt; 0.01; Fig. <xref rid="Fig3" ref-type="fig">3a</xref>; Supplementary Table <xref rid="MOESM1" ref-type="media">3</xref>). These hotspots were enriched in conserved sequences and TF binding regions, suggesting that many hotspot mutations may disrupt functional elements (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). Strikingly, of the 34 mutation hotspots, 11 were located in CBSs (Fig. <xref rid="Fig3" ref-type="fig">3a, c</xref>). The majority of mutations at CBS hotspots occurred in CIN tumors (71%, <italic toggle="yes">P</italic> = 0.012 by two-sided Fisher’s exact test), which is the most common GC subtype, accounting for ~50% of all GC cases (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>). The remaining 23 non-CBS hotspots often overlapped gene regions, but never co-located with TF binding regions. Furthermore, we observed a depletion of somatic mutations at gastric-specific TFBSs among the non-hotspot mutations (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). Overall, gastric tissue TFBSs comprises about 1% of the genome, but only 0.58% of the non-hotspot mutations were located in these regions. A similar depletion of mutations was observed for constitutive TFBSs (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>). This is striking, as two recent studies have found that somatic mutation rates are elevated at transcription factor binding sites (TFBSs), and that this higher overall mutation load at TFBSs may be explained by reduced accessibility to nucleotide-excision repair (NER) enzymes at these sites<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup>. This phenomenon is primarily observed in melanoma and lung adenocarcinoma where NER plays an important role in repairing carcinogen induced DNA lesions<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. In contrast, our finding demonstrates that NER and TF occupancy is not a cause of regional mutational bias in GC.</p>
+          <p id="Par12">To test if the 21 bp window size was adequate to capture most mutation hotspots, we repeated the hotspot analysis using larger 41 bp windows. In general, the rankings of the hotspots remained stable (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4</xref>). 17/34 hotspots remained significant and only two additional hotspots were identified (<italic toggle="yes">P</italic> &lt; 0.01, Bonferroni correction).</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Differential CBS mutation load across GC subtypes</title>
+          <p id="Par13">Despite the general depletion of somatic mutations at TFBSs in gastrointestinal tumors, several studies have reported an increased mutation rate specifically at CBSs in gastrointestinal tumors<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. Indeed, when we examined all CBS across the genome, we found a 3-fold increased mutation rate at CBSs (11 mutations/Mb) compared to their 1 Kb flanking regions (3.6 mutations/Mb). In addition, the mutation frequencies at CBSs were very different among tumors of different molecular subtypes. The somatic mutation rate was 7.1 and 4.7-fold higher at CBSs compared to flanking regions in CIN and GS tumors, respectively (Fig. <xref rid="Fig4" ref-type="fig">4a–e</xref>). There was no enrichment of somatic mutations at CBSs in MSI tumors, likely due to impaired DNA MMR. Surprisingly, EBV tumors, which are not MMR-deficient, only had a modest 1.7-fold increase in mutation load at CBSs. The enrichment of somatic mutations at CBSs is therefore unlikely the result of differential DNA repair alone.<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><p>Analysis of CBS mutations in different gastric cancer subtypes. <bold>a</bold>–<bold>d</bold> Mutation count per tumor around CBSs in the four gastric cancer subtypes. <bold>e</bold> Elevated mutation rates at CBSs compared to flanking regions. <bold>f</bold> Somatic substitution patterns within CTCF motifs for hotspot mutations and all mutations, respectively. <bold>g</bold> The negative log <italic toggle="yes">P</italic>-values of mutation recurrence of all CBSs evaluated with a CBS-specific background model. CBS hotspots identified in Fig. <xref rid="Fig3" ref-type="fig">3a</xref> are highlighted in magenta. The horizontal line marks the Bonferroni adjusted <italic toggle="yes">P</italic>-value of 0.01</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e803" position="float" orientation="portrait" xlink:href="41467_2018_3828_Fig4_HTML.jpg"/></fig></p>
+          <p id="Par14">Consistent with findings by Katainen et al. in colorectal cancer<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, we found that somatic mutations at CTCF motifs, including the CBS hotspot mutations, were predominately A.T&gt;C.G and A.T&gt;G.C substitutions (Fig. <xref rid="Fig4" ref-type="fig">4f</xref>), suggesting that hotspot mutations are generated by the same mutational process as other CBS mutations. The mutation pattern at CBS hotspots was overall similar to that of all CBSs. However, while a conserved base at position 9 of the 19 bp CTCF binding motif was the most commonly mutated position at CBSs in general, the CBS hotspot mutations had the highest enrichment in the 4 bp sequence flanking the 5′ end of the CTCF motif. Furthermore, C&gt;T changes, which are relatively common among all CBS mutations are much rarer among the CBS hotspot mutations (Fisher’s exact test <italic toggle="yes">P</italic>-value = 4.4 × 10<sup>−7</sup>). These differences could indicate a functional difference between CBS hotspot and non-hotspot mutations.</p>
+        </sec>
+        <sec id="Sec8">
+          <title>Hotspots remain significant with a CBS-specific model</title>
+          <p id="Par15">To explicitly test if the CBS hotspots could be explained by the genome-wide elevated mutation rate at CBSs, we constructed a CBS-specific background mutation model. Since CBS mutation rates varied across tumor subtypes, this model further included the tumor subtype as a covariate. Also, since CBSs located at chromatin loop boundaries have higher somatic mutation burden than non-boundary CBSs<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>, the CBS-specific background model differentiated between CBSs inside and outside chromatin loop boundaries. CTCF loop domains have not been profiled in gastric tissue but tend to be cell-type invariant<sup><xref ref-type="bibr" rid="CR41">41</xref>,<xref ref-type="bibr" rid="CR42">42</xref></sup>. We therefore used a constitutive set of CTCF domains shared across three cell lines (CM12878, Jurkat, and K562) to define CTCF loop boundaries<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR43">43</xref></sup>. In addition, since the mutation spectrum at CBSs is distinct from the overall genomic mutation spectrum, we performed LASSO logistic regression to identify sequence context features correlated with the somatic mutation rate at CBSs. To identify other mutational processes that might be associated with the occurrence of CBS mutations, we calculated the correlation between the proportion of CBS mutations in each tumor and the percentage contribution of each COSMIC mutation signature to each tumor<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. While CBS mutations are known to be positively associated with signature 17<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, we found that CBS mutations were also strongly negatively associated with COSMIC mutation signature 1, an age related signature (Pearson correlation = −0.41; Supplementary Fig. <xref rid="MOESM1" ref-type="media">5</xref>). Therefore, we added the percentage contributions of mutation signatures 1 and 17 in each individual as covariates. Finally, this model also corrected for replication timing and local mutation rate. With this model, 9/11 CBS hotspots remained significant at the Bonferroni corrected significance threshold of 0.01 and the other two were borderline with adjusted <italic toggle="yes">P</italic>-values of 0.025 and 0.086 (Fig. <xref rid="Fig4" ref-type="fig">4g</xref>). Furthermore, seven additional CBSs became significant with the restricted hypothesis testing (Supplementary Table <xref rid="MOESM1" ref-type="media">4</xref>; Supplementary Figs. <xref rid="MOESM1" ref-type="media">6, </xref><xref rid="MOESM1" ref-type="media">7</xref>). Mutations at these specific sites can therefore not be explained by a genome-wide elevated mutation rate at CBS, indicating that mutations at these focal sites are may be positively selected in gastric tumors.</p>
+        </sec>
+        <sec id="Sec9">
+          <title>CBS hotspot mutations associated with gene expression changes</title>
+          <p id="Par16">We next examined the possibility that the CBS hotspots were associated with changes in expression of nearby genes. We restricted the analysis to the four CBS hotspots that had at least three mutated samples with gene expression data in the TCGA cohort (<italic toggle="yes">N</italic> = 35 samples). We validated the results using expression data from the SG cohort (<italic toggle="yes">N</italic> = 14 samples). Since the chromatin structure is generally cell-type invariant<sup><xref ref-type="bibr" rid="CR41">41</xref>,<xref ref-type="bibr" rid="CR42">42</xref></sup> and there is no published Hi–C data from gastric tissue, we used the Hi–C data from IMR90 cells published by Dixon et al.<sup><xref ref-type="bibr" rid="CR41">41</xref></sup> to examine the 3D chromatin structure around each hotspot (Supplementary Figs. <xref rid="MOESM1" ref-type="media">8</xref>–<xref rid="MOESM1" ref-type="media">10</xref>). We identified the flanking TAD boundary nearest to each hotspot, and tested the association between the mutation status of each hotspot and the expression of genes within the two adjacent TADs. We found genes with nominally altered expression for three of the four hotspots (Fig. <xref rid="Fig5" ref-type="fig">5</xref>), two of them remain significant after correcting for multiple testing in each region.<fig id="Fig5" position="float" orientation="portrait"><label>Fig. 5</label><caption><p>Association of CBS hotspot mutations and cis-gene expression. <bold>a</bold>,<bold> d</bold>,<bold> g</bold> Association between mutation status of the CBS hotspot and expression levels of neighboring genes (two-sided Wilcoxon rank-sum test). Upregulated genes are shown above the <italic toggle="yes">x</italic>-axis, and downregulated genes are shown below the <italic toggle="yes">x</italic>-axis. Non-expressed genes are shown with empty circles on the <italic toggle="yes">x</italic>-axis (normalized count &lt; 10 in all samples). <bold>b</bold>,<bold> e</bold>,<bold> h</bold> The reference sequence and mutated alleles at the three CBS hotspots. The mutations in tumors with expression data are underlined. <bold>c</bold>,<bold> f</bold>,<bold> i</bold> The gene expression of <italic toggle="yes">CENPQ</italic> (<bold>c</bold>), <italic toggle="yes">KCNQ5</italic> (<bold>f</bold>), and <italic toggle="yes">SPG20</italic> (<bold>i</bold>) in normal gastric tissue, and tumors with and without mutations at the corresponding CBS hotspot. <italic toggle="yes">P</italic>-values were adjusted using the Benjamini–Hochberg method</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e971" position="float" orientation="portrait" xlink:href="41467_2018_3828_Fig5_HTML.jpg"/></fig></p>
+          <p id="Par17">The first hotspot we identified is located in a CBS on chromosome 6 and has mutations in 12 samples (Fig. <xref rid="Fig5" ref-type="fig">5a–c</xref>). The expression of two neighboring genes, <italic toggle="yes">CENPQ</italic> and <italic toggle="yes">MUT</italic>, ~1 Mb upstream of this hotspot was significantly elevated in the mutated samples (<italic toggle="yes">P</italic> = 0.007 and 0.0021 respectively, Benjamini–Hochberg adjusted <italic toggle="yes">P</italic> = 0.026 and 0.042 respectively, two-sided Wilcoxon rank-sum test; Fig. <xref rid="Fig5" ref-type="fig">5a–c</xref>). A similar trend of <italic toggle="yes">CENPQ</italic> expression was observed using the expression data from the SG cohort (Supplementary Fig. <xref rid="MOESM1" ref-type="media">11a</xref>). CENPQ is a subunit of a centromeric complex, and is involved in mitotic progression and chromosomal segregation<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Interestingly, the tumor with the highest expression of <italic toggle="yes">CENPQ</italic> was mutated at the highly conserved position 9 of the CTCF motif, while the other two tumors were mutated at position 2 of the CTCF motif. This indicates that different mutations in the same hotspot may have different disruptive potentials. However, a formal evaluation of such effects requires a larger set of tumor samples with both CBS mutations and RNA-seq data available.</p>
+          <p id="Par18">The next hotspot we tested is located on chromosome 6 with 9 mutated samples. Tumors with mutations at this hotspot had significantly lower expression of the <italic toggle="yes">KCNQ5</italic> gene (Wilcoxon <italic toggle="yes">P</italic> = 0.0059, adjusted <italic toggle="yes">P</italic> = 0.047), located ~200 kb downstream of the hotspot (Fig. <xref rid="Fig5" ref-type="fig">5d–f</xref>). A similar trend in <italic toggle="yes">KCNQ5</italic> expression was observed using the expression data from the SG cohort (Supplementary Fig. <xref rid="MOESM1" ref-type="media">11b</xref>). A recent study by Umer et al. found the same mutation hotspot by analyzing motif-breaking mutations<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. Using an electrophoretic mobility shift assay, Umer et al. confirmed that the chr6:73,122,103 A&gt;G mutation disrupts CTCF binding. In addition, it has been reported that CTCF is involved in the spatial organization of the <italic toggle="yes">KCNQ5</italic> locus, and knockdown of CTCF downregulates <italic toggle="yes">KCNQ5</italic> expression<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>.</p>
+          <p id="Par19">At the third hotspot located on chromosome 13, mutated tumors had on average a 3-fold decrease in <italic toggle="yes">SPG20</italic> expression (Wilcoxon <italic toggle="yes">P</italic> = 0.045, adjusted <italic toggle="yes">P</italic> = 0.65; Fig. <xref rid="Fig5" ref-type="fig">5g–i</xref>). However, only three tumors with expression data were mutated at this hotspot, and the expression change was not significant after correcting for multiple testing. A larger sample size is needed to evaluate if this is a spurious or true correlation. A similar trend in <italic toggle="yes">SPG20</italic> expression is observed using the expression data from the SG cohort (Supplementary Fig. <xref rid="MOESM1" ref-type="media">11c</xref>). <italic toggle="yes">SPG20</italic> is involved in epidermal growth factor receptor trafficking<sup><xref ref-type="bibr" rid="CR47">47</xref></sup> and was previously found to be significantly mutated in the exome of esopheagal cancer<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>.</p>
+          <p id="Par20">In all three cases, we confirmed that the expression changes of these genes were significant after correcting for variation in DNA copy numbers and tumor purity between samples (Supplementary Fig. <xref rid="MOESM1" ref-type="media">12</xref>). We would expect mutations at these hotspots to be associated with expression change of the altered allele. However, allele-specific expression analysis is challenging to evaluate across distant sites. Indeed, for all three candidate CBS hotspots, we could not unambiguously resolve the two alleles because the maximum inter-SNP distance between hotspot and candidate target gene were &gt;5 kb. As CBSs are essential in maintaining the chromosomal architecture, it is likely that these CBS hotspot mutations cause altered expression of nearby cancer driver genes by disrupting the local chromosomal organization. Indeed, using the set of constitutive CTCF-CTCF loops, we observed chromatin contacts between the <italic toggle="yes">KCNQ5</italic> and <italic toggle="yes">SPG20</italic> loci and their corresponding CBS hotspots (Supplementary Figs. <xref rid="MOESM1" ref-type="media">9, </xref><xref rid="MOESM1" ref-type="media">10</xref>). Interestingly, the three genes were also differentially expressed in GC tumors compared to normal gastric tissue. <italic toggle="yes">CENPQ</italic> expression was upregulated in tumors (Wilcoxon <italic toggle="yes">P</italic> = 0.0028; Fig. <xref rid="Fig5" ref-type="fig">5c</xref>), while both <italic toggle="yes">KCNQ5</italic> and <italic toggle="yes">SPG20</italic> expression was downregulated in tumors compared to normal gastric samples (Wilcoxon <italic toggle="yes">P</italic> = 3.2 × 10<sup>−7</sup> and 0.00082 respectively; Fig. <xref rid="Fig5" ref-type="fig">5f, i</xref>). Therefore, it is plausible that the expression of these three genes could be altered in GC through additional mechanisms. Indeed, <italic toggle="yes">KCNQ5</italic> and <italic toggle="yes">SPG20</italic> were found to be downregulated in colorectal cancer compared to the normal mucosa due to promoter hypermethylation<sup><xref ref-type="bibr" rid="CR49">49</xref>–<xref ref-type="bibr" rid="CR51">51</xref></sup>. These results further support the contributions of these genes to GC tumorigenesis.</p>
+          <p id="Par21">Many of the hotspot mutations were located in the 5′ flanks of the consensus CTCF motif (Fig. <xref rid="Fig4" ref-type="fig">4f</xref>). Previous studies have found increased conservation in the flanking sequences of weak CTCF and REST binding sites, suggesting that the sequence context is important for TF binding at these sites<sup><xref ref-type="bibr" rid="CR52">52</xref>,<xref ref-type="bibr" rid="CR53">53</xref></sup>. We examined the evolutionary conservation<sup><xref ref-type="bibr" rid="CR54">54</xref></sup> at the CTCF binding motifs and their flanking sequences. In general, the 5′ flanks of the CTCF motifs are not conserved (Supplementary Fig. <xref rid="MOESM1" ref-type="media">13a</xref>). However, in the hotspot upstream of <italic toggle="yes">CENPQ</italic>, the mutation cluster in the 5′ flank co-occurred with conserved bases (Supplementary Fig. <xref rid="MOESM1" ref-type="media">13b</xref>). In addition, we found another CBS hotspot with nine 5′-flank mutations that coincided with a highly conserved base (Supplementary Fig. <xref rid="MOESM1" ref-type="media">13c</xref>). Such hotspot mutations, affecting conserved 5′ flanks of CTCF motifs, could disrupt context-specific binding of CTCF.</p>
+          <p id="Par22">We also examined the possibility that mutations in the flanking regions of CTCF motifs create or disrupt binding motifs of other TFs. We used DeepBind<sup><xref ref-type="bibr" rid="CR55">55</xref></sup> to predict the binding scores of wildtype and mutated sequences for 472 transcription factors. However, we only found mutations at three CBS sites with predicted change in TF binding (Supplementary Table <xref rid="MOESM1" ref-type="media">5</xref>). Lastly, it is also possible that some mutations at CBS flanks are passenger mutations arising due to the overall elevated mutation rates at CBSs. While our model identifies individual CBS regions with overall mutation enrichment, it does not allow us to distinguish between passenger and driver mutations within such regions.</p>
+        </sec>
+        <sec id="Sec10">
+          <title>CBS hotspots are often mutated in gastrointestinal cancers</title>
+          <p id="Par23">Taken collectively, 25% of all gastric tumors are mutated in at least one of the 11 CBS hotspots, representing the second most mutated functional region in GC after <italic toggle="yes">TP53</italic> (50% of gastric tumors). To study if these hotspots could also play a role in other cancer types, we examined the recurrence of these 11 hotspots in 826 non-hypermutated tumors of 18 other cancer types<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> (Fig. <xref rid="Fig6" ref-type="fig">6</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">15</xref>). Strikingly, we found that 19% of colorectal cancer tumors were mutated at one or more of the CBS hotspots (Fig. <xref rid="Fig6" ref-type="fig">6a</xref>). Since colorectal cancer have pathological and molecular similarities to GC<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>, the CBS hotspot mutations may drive cancer progression in colorectal cancer through similar mechanisms as in GC. The CBS hotspots were mutated at lower frequencies in breast cancer, liver cancer, lung cancer, pancreas cancer, and lymphoma. Interestingly, while melanoma and bladder carcinoma also have high genome-wide mutation rates at CBS, none of the CBS hotspots were mutated in these two cancer types. Similarly, we found that mutations at all CBS hotspots had previously been reported in COSMIC<sup><xref ref-type="bibr" rid="CR57">57</xref></sup> or other genome-wide studies of gastrointestinal tumors<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup> (Supplementary Table <xref rid="MOESM1" ref-type="media">6</xref>). This suggests that the CBS hotspot mutations are generated and act in a cancer-specific manner.<fig id="Fig6" position="float" orientation="portrait"><label>Fig. 6</label><caption><p>Pan-cancer analysis of mutation recurrence at the 11 CBS mutation hotspots. <bold>a</bold> Fraction of samples with mutation in at least one of the CBS hotspots in different cancer types. <bold>b</bold> Mutation rate of CBSs in different cancer types. <bold>c</bold> Mutation recurrence of individual CBS hotspots in different cancer types</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1223" position="float" orientation="portrait" xlink:href="41467_2018_3828_Fig6_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec11">
+          <title>CBS mutations are associated with chromosomal instability</title>
+          <p id="Par24">Enrichment of CBS mutations was highest in CIN tumors, which are characterized by increased chromosomal aneuploidy. This prompted us to examine if mutations at CBSs in CIN tumors were correlated with somatic copy number alteration (SCNA) breakpoints. Strikingly, the distance between a CBS hotspot and its nearest SCNA breakpoint was significantly shorter in mutated than non-mutated tumors (<italic toggle="yes">P</italic> = 0.0018, two-sided Wilcoxon rank-sum test; Fig. <xref rid="Fig7" ref-type="fig">7a</xref>). In contrast, non-CBS mutation hotspots showed no such association (<italic toggle="yes">P</italic> = 0.53). The median distance between CBS hotspot mutations and its nearest SCNA breakpoint in the same sample was ~1 Mbp, notably shorter than the ~2 Mbp distance for non-CBS hotspots (Fig. <xref rid="Fig7" ref-type="fig">7a</xref>). To study whether this correlation between CBS mutations and SCNA breakpoints was specific to the CBS hotspots, we extended the analysis to all CBSs. Interestingly, we found that CBS mutations were correlated with occurrence of nearby SCNA breakpoints in the same samples, especially for mutations affecting CBSs at loop boundaries (Wilcoxon <italic toggle="yes">P</italic> = 5.7 × 10<sup>−16</sup>; Fig. <xref rid="Fig7" ref-type="fig">7b</xref>). Conversely, when we grouped 1 Mb windows of the genome according to SCNA breakpoint density, we found that the normalized CBS mutation rate was positively associated with SCNA breakpoint density (Fig. <xref rid="Fig7" ref-type="fig">7c–d</xref>). Overall, these results highlight a link between regional chromosomal instability and mutations at both CBS hotspots and boundary CBSs in general.<fig id="Fig7" position="float" orientation="portrait"><label>Fig. 7</label><caption><p>Association between CBS mutations and genomic instability. <bold>a</bold> Distance to the nearest CNV breakpoint from CBS hotspots and other non-CBS mutation hotspots. <bold>b</bold> Distance to the nearest CNV breakpoint from CBSs at loop boundary and non-boundary CBSs. Wilcoxon rank-sum test <italic toggle="yes">P</italic>-values are shown. <bold>c</bold> Correlation of mutation rates with SCNA breakpoint density. <bold>d</bold> Correlation of normalized mutation rates with SCNA breakpoint density, correcting for the background mutation rate in each bin. Error bars represent the s.e.m. <bold>e</bold> The violin plots show the VAF distributions of somatic mutations in diploid regions of individual tumors. VAFs of the mutations at CBS hotspots are marked by red vertical lines. <bold>f</bold> Comparison between VAFs of the CBS hotspot mutations and VAFs of non-silent coding mutation on GC driver genes. The red points represent the median VAFs in each group. The dashed lines match mutations from the same samples. <italic toggle="yes">P</italic>-value is calculated by paired Wilcoxon rank-sum test</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1287" position="float" orientation="portrait" xlink:href="41467_2018_3828_Fig7_HTML.jpg"/></fig></p>
+          <p id="Par25">As the CBS mutation rate was also elevated in GS tumors (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>), we investigated if there was a similar association between CBS mutations and SCNA in GS tumors. Although we found that mutated CBSs also tended to be closer to SCNA breakpoints compared to the non-mutated CBSs in GS tumors, the difference was not statistically significant (Supplementary Fig. <xref rid="MOESM1" ref-type="media">14</xref>), and the relative difference was greater in CIN (2.17-fold difference in distance to nearest breakpoint) compared to GS (1.58-fold difference) tumors. This may indicate that the coupling of CBS mutations and nearby chromosomal instability is a process that is specific to, or exacerbated in, the CIN tumors.</p>
+        </sec>
+      </sec>
+      <sec id="Sec12" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par26">In this study, we performed a comprehensive and unbiased analysis of non-coding SNVs and indels in 212 GC genomes, the largest studied cohort thus far. In addition to a previously identified indel enrichment at <italic toggle="yes">LIPF</italic><sup><xref ref-type="bibr" rid="CR39">39</xref></sup>, our analysis identified two other gastric lineage-specific genes with broad enrichment of non-coding indels (<italic toggle="yes">PGC</italic> and <italic toggle="yes">MUC6</italic>). Our results show that the accumulation of indels occur in multiple lineage specific genes in GC. Yet, indels at these three genes were not associated with change in gene expression. The functional consequences of these indels are therefore still unclear. Strikingly, genome-wide analysis of somatic SNVs revealed 34 significant mutation hotspots (Bonferroni adjusted <italic toggle="yes">P</italic>-value &lt; 0.01) that were disproportionately enriched in CBSs. Katainen et al. previously reported an increased mutation load at CBSs in colorectal cancer<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, and a subsequent study by Kaiser et al. confirmed the general hypermutation at CBSs in 11 cancer types<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. Both studies generally discounted CBS mutations as passengers, yet they did not rigorously explore the hypothesis that a subset of these mutated CBSs may be undergoing positive selection within individual cancer types. Indeed, a recent study on motif-breaking mutations identified a recurrent CBS mutation that disrupts CTCF binding<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>, confirming the motif-breaking potential of CBS mutations. Here, we used a large cohort of GC genomes in combination with rigorous statistics, to show that mutation rates at 11 specific CBSs are unexpectedly high and cannot alone be explained by a genome-wide elevated mutation burden at CBS, indicating positive selection at these sites. Out of the four CBS hotspots we examined, three of them were associated with nominally significant expression changes of neighboring genes (<italic toggle="yes">CENPQ</italic>, <italic toggle="yes">KCNQ5</italic>, and <italic toggle="yes">SPG20</italic>), and these associations were validated in an independent tumor cohort. Furthermore, it is possible that mutations at these CBS hotspots also have long-range or spatio-temporal regulatory effects on gene expression that are not captured by bulk tumor transcriptome profiling. Overall, our analyses nominate these CBS hotspots as potential drivers in GC, and support the hypothesis that driver mutations may arise as a by-product of the increased mutation load at CBSs followed by positive selection at specific CBSs. This is comparable to a model of genomic rearrangement hotspots in breast cancer, where rearrangements initially arise from defective homologous-recombination-repair and those affecting cancer risk loci are subsequently positively selected, forming rearrangement hotspots<sup><xref ref-type="bibr" rid="CR58">58</xref></sup>.</p>
+        <p id="Par27">We found that gastric tumors of the genomic instable subtype (CIN) exhibited the highest mutation rate at CBSs compared to tumors of the other GC subtypes. Furthermore, CBS mutations were associated with the occurrence of nearby chromosomal breakpoints, suggesting a general link between CBS mutations and genomic instability. A previous study has suggested a model where genome higher-order interactions are directly poised for chromosomal breaks<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>. One important open question is whether these processes are coupled, and if so, what is the temporal order of CBS mutations and chromosomal breaks. Interestingly, somatic variant allele frequencies (VAFs) of the CBS hotspot mutations supported that these were generally clonal and likely early events in tumor evolution (Fig. <xref rid="Fig7" ref-type="fig">7e</xref>). Furthermore, we found that the VAFs of CBS hotspot mutations were comparable to non-silent coding mutations of known GC driver genes from the same sample (paired Wilcoxon <italic toggle="yes">P</italic>-value = 0.49; Fig. <xref rid="Fig7" ref-type="fig">7f</xref>).</p>
+        <p id="Par28">Previous studies found kilobase sized regions of hypermutation, termed “kataegis”, that tend to co-occur with genomic rearrangements in cancer<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR60">60</xref></sup>. Importantly, our data suggest that the mutational mechanism underlying the association between CBS mutations and DNA breakpoints is distinct from that of kataegis. While kataegis is characterized by C&gt;T and C&gt;G substitutions, CBS mutations are mostly T&gt;G and T&gt;C substitutions. In addition, kataegis is defined by mutation clusters with inter-mutation distance &lt;1 kb. CBS hotspots are confined focal regions of &lt;30 bps including the CTCF motif and its 5′ flanking sequence.</p>
+        <p id="Par29">Only a subset of tumor samples in our cohort had paired gene expression data (49/187 samples). This limited our ability to test for functional consequences of CBS hotspot mutations. Additional focused experiments involving transcriptome, copy number, and chromatin structure data should further clarify the regulatory and functional effects of the CBS mutations. We did not uncover a shared theme for the 23 significant non-CBS hotspots. Among the non-CBS hotspots, seven of them are intronic, one is downstream of a gene and the rest are intergenic. None of the genes associated with the hotspots are known cancer drivers. We did not observe any mutation hotspot near <italic toggle="yes">TERT</italic>, confirming that the reactivation of <italic toggle="yes">TERT</italic> is very rare in GC<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. For the non-CBS hotspots that overlapped gene regions, focused functional validation experiments could be performed on a case-by-case basis.</p>
+        <p id="Par30">The statistics of cancer driver identification is still limited by our knowledge of the somatic mutation and repair processes. Although our background model corrected for many covariates of the somatic mutation rate, such as epigenetic and sequence context features, false positives and false negatives could still arise from the current model not considering as yet unknown mutational biases.</p>
+        <p id="Par31">Taken collectively, 25% of GC tumors and 19% of colorectal cancer tumors are mutated in at least one of the 11 CBS hotspots. Overall, our analyses nominate these CBS hotspots as potentially common drivers of gastrointestinal cancers. Furthermore, the data supports a general link between CBS mutations and chromosomal instability. This suggests that non-coding regulatory mutations could potentially drive tumor evolution through interfacing with cancer genome and epigenome plasticity.</p>
+      </sec>
+      <sec id="Sec13" sec-type="materials|methods">
+        <title>Methods</title>
+        <sec id="Sec14">
+          <title>GC whole-genome sequence data</title>
+          <p id="Par32">We performed whole-genome sequencing of 40 gastric GC tumors and matched normal samples from patients from Singapore (study protocol approved by National University of Singapore Institutional Review Board). Informed consent was obtained from all participating patients. Genomic DNA of tumors and matched normal gastric tissues was extracted (QIAGEN). Libraries were constructed with 300–400 bp insert length, and 101 bp or 151 bp paired-end sequencing was performed on Illumina Hiseq instruments. The tumors were classified into four molecular subtypes as described previously by TCGA<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>.</p>
+          <p id="Par33">We obtained WGS data of 40 GC tumors from TCGA (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://gdc.cancer.gov">https://gdc.cancer.gov</ext-link>), 32 tumors from ICGC (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ega-archive.org/datasets/EGAD00001003132">https://ega-archive.org/datasets/EGAD00001003132</ext-link>), and 100 tumors from Wang et al. (HK)<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. The molecular subtypes of tumors from the TCGA cohort were defined by TCGA. For the HK cohort, only EBV and MSI subtype status was available. The molecular subtypes of tumors from the ICGC cohort were unavailable, but we identified one MSI sample from the ICGC cohort using MSIseq<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Alignment and somatic mutation calling</title>
+          <p id="Par34">Raw sequencing data was uniformly processed using the bcbio-nextgen pipeline (v0.9.3). Briefly, sequencing reads were aligned to the human reference genome (hg19) using BWA<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>. Duplicated reads marked by Picard were removed. Indel regions were realigned using GATK<sup><xref ref-type="bibr" rid="CR63">63</xref></sup>. Somatic mutations were called by four independent mutation callers: VarScan<sup><xref ref-type="bibr" rid="CR64">64</xref></sup>, MuTect<sup><xref ref-type="bibr" rid="CR65">65</xref></sup>, VarDict<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>, and FreeBayes<sup><xref ref-type="bibr" rid="CR67">67</xref></sup> using default parameters of the bcbio-nextgen pipeline. As the nature of our analyses requires high specificity in somatic mutation calling, we developed a random forest predictor, SMuRF<sup><xref ref-type="bibr" rid="CR68">68</xref></sup>, trained on manually curated true somatic mutations to identify high confidence somatic mutation calls from the output of the four mutation callers. For each GC WGS sample, a set of high confidence consensus calls were obtained by running the random forest prediction algorithm.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Additional filters to remove sequencing artefacts</title>
+          <p id="Par35">False positive somatic calls could arise from sequencing and mapping errors. More false positives tend to be called in the non-coding regions of the genome because these regions are enriched for repeats and low sequence complexity regions. As the downstream mutation recurrence analysis is extremely sensitive to recurrent artefacts in somatic mutation calling, we applied additional post-processing filters to eliminate potential false positive calls. We removed candidate somatic mutation calls that:<list list-type="order"><list-item><p id="Par36">Are found at &gt;1% allele frequency in the 1000 Genomes Project<sup><xref ref-type="bibr" rid="CR69">69</xref></sup> (potential germline mutations)</p></list-item><list-item><p id="Par37">Are found in more than 10% of the matched normal samples (potential systematic sequencing errors)</p></list-item><list-item><p id="Par38">Are found in more than 1% of the matched normal samples and are within 20 bp to a common indel in the 1000 Genomes Project (potential errors arising from mapping errors near indels).</p></list-item></list></p>
+          <p id="Par39">In addition, we removed indel calls that overlap mono-nucleotide repeats of 8 bp or longer. The final set of somatic SNVs and indels are provided in Supplementary Data <xref rid="MOESM6" ref-type="media">3</xref> and <xref rid="MOESM7" ref-type="media">4</xref>.</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Gene expression data</title>
+          <p id="Par40">We performed RNA-sequencing on 19 matched tumor-normal pairs. Total RNA was extracted using the Qiagen RNeasy Mini kit. RNA-seq libraries were constructed according to manufacturer’s instructions using Illumina Stranded Total RNA Sample Prep Kit v2 (Illumina, San Diego, CA), Ribo-Zero Gold option (Epicenter, Madison, WI), and 1 μg total RNA. We validated the completed libraries with Agilent Bioanalyzer (Agilent Technologies, Palo Alto, CA), and applied the libraries to an Illumina flow cell via the Illumina Cluster Station. RNA-seq reads (2 × 101 bp) were aligned to the human genome (hg19) using TopHat2-2.0.12 (default parameter and—library-type fr-firststrand). Transcript abundances at the gene level were estimated by Cufflinks<sup><xref ref-type="bibr" rid="CR70">70</xref></sup>. The normalized counts of RNA sequencing data of 35 tumors from the TCGA cohort were obtained from the Genomic Data Commons Portal.</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Epigenomic and sequence covariates of somatic mutation rate</title>
+          <p id="Par41">The somatic mutation rate is correlated with epigenetic features such as histone modification and chromatin accessibility<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>, especially those derived from the cell type of origin of the cancer<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. We compiled 36 gastric specific and 24 general chromatin features that potentially affect mutation rate in GC. These 66 histone modification profiles and chromatin accessibility profiles were obtained from Roadmap Epigenomics<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> and in-house data. We obtained <italic toggle="yes">P</italic>-value signal tracks of 853 DNaseI and histone modification profiles of 111 primary tissues and cell types from the Roadmap Epigenomics project. Among them, 27 epigenetic profiles were derived from gastric related tissues. For the 24 histone marks that were not assayed in gastric-related tissues, we created meta histone modifications profiles by taking the median profile of each mark across all tissues and cell-types assayed. In addition, we included histone modifications profiles of H3K4Me1, H3K4me3, and H3K27Ac of 19 GC tumor/normal samples and 13 GC cell lines (FU97, KATO3, MKN7, NCC24, NCC59, OCUM1, RERF-GC-1B, SNU16, SNU1750, YCC3, YCC7, YCC21, and YCC22)<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>. We used the median signal of each histone mark over all tumor samples, all normal samples, and all cell lines, respectively.</p>
+          <p id="Par42">Replication timing profiles were not available for gastric tissue. We therefore used the mean replication timing profile of 13 cell lines (Bj, Nhek, K562, Mcf7, Gm06990, Gm12812, Imr90, Hepg2, Helas3, Gm12801, Huvec, Gm12878, and Gm12813) generated by ENCODE<sup><xref ref-type="bibr" rid="CR71">71</xref></sup>.</p>
+          <p id="Par43">Binding profiles of 132 transcription factors and a meta-profile of all TFBSs were obtained from the Ensembl Regulatory Build<sup><xref ref-type="bibr" rid="CR72">72</xref></sup>. We used generic TF binding profiles as there is no comprehensive TF binding assay done in gastric tissue. In total, we considered 194 candidate epigenetic covariates potentially informative of somatic mutation rates in GC (Supplementary Data <xref rid="MOESM5" ref-type="media">2</xref>).</p>
+          <p id="Par44">To identify sequence context features affecting somatic mutation accumulation in GC, we considered 1-mer, 3-mer, and 5-mer nucleotide motifs centered at the mutated site, as well as 1-bp and 2-bp left/right flank motifs of the site. All nucleotide context features were grouped into reverse compliment pairs. As indels tend to occur in poly-monomer sequences, especially poly-A and poly-T sequences, we used the presence of poly-A, poly-T, poly-G, and poly-C sequences at the indel sites as features in the indel background mutation model.</p>
+          <p id="Par45">Lastly, we included local mutation rate as a covariate to account for other unknown factors affecting mutation rate. The local mutation rate was calculated for 100 kb non-overlapping bins across the genome after masking CDS regions, immunoglobulin loci, and poorly mappable regions (mappability score &lt; 1 in the ENCODE 75mers Alignability track).</p>
+        </sec>
+        <sec id="Sec19">
+          <title>PCA on the epigenetic features</title>
+          <p id="Par46">The genome was divided into 1 Mb non-overlapping windows. CDS regions, immunoglobulin loci, and poorly mappable regions were masked from the genomic windows. Windows smaller than 250 kb after masking were removed. We calculated the mean signal of each epigenetic feature (in Fig. <xref rid="Fig1" ref-type="fig">1b</xref>) and the mutation rate of each tumor in each window. The Pearson correlations between the epigenetic features and mutation rates of the each tumor were calculated. To identify the contributions of epigenetic features to the variance in the mutation rate of individual tumors, we performed PCA on the correlation matrix between the mutation rates of individual tumors and epigenetic features using the “prcomp function in R. The contribution of each feature to a principal component is calculated as the feature’s loading (rotation) divided by the sum of loadings of all features for that principal component.</p>
+        </sec>
+        <sec id="Sec20">
+          <title>Feature selection using LASSO regression</title>
+          <p id="Par47">The LASSO is a regularized regression approach commonly used for automated feature selection. LASSO penalizes the sum of the absolute size of the regression coefficients, forcing some of the regression coefficients to shrink to zero, thereby selecting a simpler and more interpretable model. The LASSO objective function can be written as:<disp-formula id="Equa"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathop {{\min }}\limits_{\beta _0,\beta } \frac{1}{N}\mathop {\sum }\limits_{i = 1}^N l(y_i,\beta _0 + \beta ^Tx_i) + \lambda \parallel \beta \parallel _1$$\end{document}</tex-math><mml:math id="M2" display="block" overflow="scroll"><mml:munder><mml:mrow><mml:mo>min</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>β</mml:mi></mml:mrow></mml:munder><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mi>l</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msup><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>λ</mml:mi><mml:mo>∥</mml:mo><mml:mi>β</mml:mi><mml:msub><mml:mrow><mml:mo>∥</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Equa.gif"/></alternatives></disp-formula>Where <italic toggle="yes">l</italic> is the negative log-likelihood function and <italic toggle="yes">λ</italic> is the regularization parameter.</p>
+          <p id="Par48">We used LASSO logistic regression to identify the most informative features for modeling the somatic mutation rate in GC. As it is computationally expensive to run a logistic regression on all positions in the non-coding genome with a large number of predictor variables, we used all mutated sites and an equal number of randomly sampled non-mutated sites as the input for feature selection in the LASSO logistic regression model. We regressed the binary mutation status of each site against the mean signal of each feature over an 11 bp region centered at the site. The regularization parameter <italic toggle="yes">λ</italic> was chosen by 10-fold cross-validation such that the error of the selected model was within one standard deviation from the minimum error. LASSO regression and cross validation were performed using the “glmnet” package in R.<disp-formula id="Equb"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathrm{glmnet}(y\sim \beta X,\mathrm{family} = \mathrm{logistic})$$\end{document}</tex-math><mml:math id="M4" display="block" overflow="scroll"><mml:mi mathvariant="normal">glmnet</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>y</mml:mi><mml:mo>~</mml:mo><mml:mi>β</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">family</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">logistic</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Equb.gif"/></alternatives></disp-formula></p>
+          <p id="Par49">We bootstrapped 100 samples with 50% of the data at each bootstrap, and performed LASSO regression using the bootstrap samples. Assuming that the most informative features would be robustly selected, we used features selected in more than 95% of the bootstrap samples for the final regression model.</p>
+        </sec>
+        <sec id="Sec21">
+          <title>Tumor-specific background mutation model</title>
+          <p id="Par50">The patient specific background mutation probabilities were estimated by fitting a logistic regression model on all genomic sites after masking CDS regions, immunoglobin loci, and poorly mappable regions. Replication timing was discretized into eight equally sized bins, the local mutation rate was discretized into ten equally sized bins, and the chromatin features and TF-binding profiles were binarized. <italic toggle="yes">P</italic>-value signal tracks of the histone modification profiles from the Roadmap Epigenomics were binarized using a cutoff of 10<sup>−4</sup>. ENCODE TF-binding profiles were binarized according to the presence of a peak in any cell line assayed. We performed logistic regression using the frequency table of the counts of mutated and non-mutated sites for each combination of the covariates. Separate logistic regression models were fit to estimate the background mutation probabilities of SNVs and indels. This is to account for the different mutational processes from which SNVs and indels arise, as well as the different uncertainties associated with SNV and indel calls.<disp-formula id="Equc"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathrm{glm}\left( {y\sim \mathrm{rep} + \mathrm{epi} + \mathrm{sequence} + \mathrm{pid},\,\mathrm{family} = \mathrm{logit}} \right)$$\end{document}</tex-math><mml:math id="M6" display="block" overflow="scroll"><mml:mi mathvariant="normal">glm</mml:mi><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mi>y</mml:mi><mml:mo>~</mml:mo><mml:mi mathvariant="normal">rep</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">epi</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">sequence</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">pid</mml:mi><mml:mo>,</mml:mo><mml:mspace width="0.3em"/><mml:mi mathvariant="normal">family</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">logit</mml:mi></mml:mrow></mml:mfenced></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Equc.gif"/></alternatives></disp-formula></p>
+          <p id="Par51">Here rep is the Repli-seq profile, epi represents the epigenomic features, sequence represents the sequence context features, and pid is the patient ID. Features used in each model are shown in Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>.</p>
+        </sec>
+        <sec id="Sec22">
+          <title>Poisson binomial model of mutation recurrence</title>
+          <p id="Par52">For a specific region of interest, the probability, <italic toggle="yes">p</italic><sub><italic toggle="yes">i</italic></sub>, of mutation in tumor <italic toggle="yes">i</italic> is a function of the length of that region and the expected mutation rates of individual nucleotides in that region under the null hypothesis. Assuming <italic toggle="yes">q</italic><sub><italic toggle="yes">i, j</italic></sub> is the mutation probability of nucleotide <italic toggle="yes">j</italic> in tumor <italic toggle="yes">i</italic>, and <italic toggle="yes">l</italic> is the length of the region of interest:<disp-formula id="Equd"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p_i = 1 - \mathop {\prod }\limits_{j = 0}^l (1 - q_{i,j})$$\end{document}</tex-math><mml:math id="M8" display="block" overflow="scroll"><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mo>∏</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Equd.gif"/></alternatives></disp-formula></p>
+          <p id="Par53">Mutation recurrence is then modeled using the Poisson binomial distribution, which accounts for variation in mutation rate across tumors. For a specific region of interest, the probability of having mutations in <italic toggle="yes">k</italic> or more individuals is given by:<disp-formula id="Eque"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Pr \left( {K \ge k} \right) = \mathop {\sum }\limits_{m = k}^n \mathop {\sum }\limits_{A \in F_m} \mathop {\prod }\limits_{i \in A} p_i\mathop {\prod }\limits_{j \in A^c} (1 - p_j)$$\end{document}</tex-math><mml:math id="M10" display="block" overflow="scroll"><mml:mo>Pr</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mi>K</mml:mi><mml:mo>≥</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mo> ∑</mml:mo></mml:mrow><mml:mrow><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:munder><mml:mrow><mml:mo> ∑</mml:mo></mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:mo>∈</mml:mo><mml:msub><mml:mrow><mml:mi>F</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munder><mml:munder><mml:mrow><mml:mo> ∏</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:munder><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:munder><mml:mrow><mml:mo> ∏</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:munder><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Eque.gif"/></alternatives></disp-formula></p>
+          <p id="Par54">Here <italic toggle="yes">n</italic> is the total number of tumors sequenced, <italic toggle="yes">k</italic> is the number of tumors with mutations in the region of interest, <italic toggle="yes">F</italic><sub><italic toggle="yes">m</italic></sub> is the set of all subsets of <italic toggle="yes">k</italic> integers selected from {1,2,…,<italic toggle="yes">n</italic>}, <italic toggle="yes">A</italic> is a subset of <italic toggle="yes">F</italic><sub><italic toggle="yes">m</italic></sub>, <italic toggle="yes">A</italic><sup><italic toggle="yes">c</italic></sup> is the complement of set <italic toggle="yes">A</italic>, <italic toggle="yes">p</italic><sub><italic toggle="yes">i</italic></sub> is the probability of mutation in tumor <italic toggle="yes">i</italic>, and <italic toggle="yes">p</italic><sub><italic toggle="yes">j</italic></sub> is the probability of mutation in tumor <italic toggle="yes">j</italic>. The Poisson binomial probability is calculated using an efficient and accurate normal approximation in the “poibin” R package.</p>
+        </sec>
+        <sec id="Sec23">
+          <title>Identification of mutation hotspots</title>
+          <p id="Par55">The hotspot analysis aims to identify small focal regions with high mutation rates. We first considered all mutated 21 bp regions by taking 10 bp flanks on each side of each mutation. Then we calculated the mutation recurrence scores for all 21 bp regions with three or more mutated samples (two or more for indels). The <italic toggle="yes">P</italic> value of mutation recurrence of each hotspot was calculated using the Poisson binomial model described in the previous section. The total number of hypothesis tested is equal to the number of bases in the masked non-coding genome. We used the Bonferroni correction to adjust for multiple testing of 2,533,374,732 hypotheses, to maintain the overall <italic toggle="yes">α</italic> at 0.01.</p>
+        </sec>
+        <sec id="Sec24">
+          <title>Identification of non-coding regions with indel recurrence</title>
+          <p id="Par56">We scanned for non-coding regions of genes with recurrence of indels. Gene regions were defined by Ensembl v75 annotations. We considered the merged non-coding regions of each gene by masking all coding regions of each gene, and extending the gene boundaries by 1 kb to take into account its promoter region. We calculated the mutation recurrence scores for all protein-coding genes, and their individual merged non-coding regions, using the Poisson binomial model described in the previous section. The Bonferroni correction was used to maintain the overall <italic toggle="yes">α</italic> at 0.01.</p>
+        </sec>
+        <sec id="Sec25">
+          <title>Enrichment of mutation hotspots in functional regions</title>
+          <p id="Par57">We calculated the log odds ratio of the enrichment of hotspot mutations in TF binding regions and conserved DNA elements. Gastric-specific TFBSs were defined as a ChIP-seq peak of a TF in any of the ENCODE cell lines that overlaps a gastric tissue DNaseI hypersensitivity site (data from Roadmap Epigenomics). Constitutive TFBSs are defined as TFBSs with <italic toggle="yes">P</italic><sub>tfbs</sub> &gt; 0.75, where <italic toggle="yes">P</italic><sub>tfbs</sub> is the probability that the TFBS is bound by a TF for any given ENCODE cell line. <italic toggle="yes">P</italic><sub>tfbs</sub> for all TFBSs were obtained from the ENSEMBL regulatory build. Conserved elements generated by GERP<sup><xref ref-type="bibr" rid="CR73">73</xref></sup> from the alignment of hg19 to 36 mammals were downloaded from the UCSC genome browser.</p>
+          <p id="Par58">The expected fraction of hotspot (or non-hotspot) mutations in the functional region type (<italic toggle="yes">p</italic><sub>2</sub>) is the fraction of the genome that constitutes the functional region. The observed fraction of hotspot (or non-hotspot) mutations in the functional region is calculated by adding all mutations in the functional region type and dividing by the total number of mutations genome-wide (<italic toggle="yes">p</italic><sub>1</sub>). The log odds ratio of the enrichment of hotspot (or non-hotspot) mutations in a functional region type is given by,<disp-formula id="Equf"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathrm{LOD} = {\mathrm{ln}}(\frac{{p_1/(1 - p_1)}}{{p_2/(1 - p_2)}})$$\end{document}</tex-math><mml:math id="M12" display="block" overflow="scroll"><mml:mi mathvariant="normal">LOD</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">ln</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>∕</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>∕</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Equf.gif"/></alternatives></disp-formula>The standard error of the LOD is calculated as,<disp-formula id="Equg"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{SE}}_{\mathrm{LOD}} = \sqrt {\frac{{{{\mathrm{SE}}_{p1}}^2}}{{{p_1}^2 - \left( {1 - p_1} \right)^2}} + \frac{{{{\mathrm{SE}}_{p2}}^2}}{{{p_2}^2 - \left( {1 - p_2} \right)^2}}}$$\end{document}</tex-math><mml:math id="M14" display="block" overflow="scroll"><mml:msub><mml:mrow><mml:mi mathvariant="normal">SE</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">LOD</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">SE</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>-</mml:mo><mml:msup><mml:mrow><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">SE</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>-</mml:mo><mml:msup><mml:mrow><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:msqrt></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Equg.gif"/></alternatives></disp-formula>The statistical significance of the enrichment was evaluated by the <italic toggle="yes">Z-</italic>test.</p>
+        </sec>
+        <sec id="Sec26">
+          <title>Identification of gastric-specific CBSs</title>
+          <p id="Par59">The position weight matrix of the CTCF binding motif was obtained from JASPAR<sup><xref ref-type="bibr" rid="CR74">74</xref></sup>. Genomic locations of CTCF binding motifs were identified using the FIMO<sup><xref ref-type="bibr" rid="CR75">75</xref></sup> function of the MEME tool suite<sup><xref ref-type="bibr" rid="CR76">76</xref></sup> with a <italic toggle="yes">P</italic>-value threshold of 0.01. Gastric-specific CBSs were defined as CBS motifs overlapping both a CTCF ChIP-seq peak in at least one ENCODE cell line and a DNaseI hypersensitivity site in gastric tissue from Roadmap epigenomics. We used the set of constitutive CTCF–CTCF loops shared across three cell lines (GM12878, Jurkat, and K562) obtained from the supplementary information of Hnisz et al.<sup><xref ref-type="bibr" rid="CR13">13</xref></sup> CBSs that overlap the boundaries of these constitutive CTCF loops were defined as boundary CBSs.</p>
+        </sec>
+        <sec id="Sec27">
+          <title>The CBS-specific background model</title>
+          <p id="Par60">For the CBS-specific background model, we limited the model and search space to CBS regions and their 5 bp flanking DNA.<disp-formula id="Equh"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{glm}}\left( {{y}_{{\mathrm{CBS}}}\sim {\mathrm{rep}} + {\mathrm{subtype}} + {\mathrm{boundary}} + {\mathrm{sequence}} + {\mathrm{pid}} }\right.\\ \left.{+ {\mathrm{mutsig}}1 + {\mathrm{mutsig}}17,{\mathrm{family}} = {\mathrm{logit}}} \right)$$\end{document}</tex-math><mml:math id="M16" display="block" overflow="scroll"><mml:mi mathvariant="normal">glm</mml:mi><mml:mfenced close="" open="(" separators=""><mml:mrow><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">CBS</mml:mi></mml:mrow></mml:msub><mml:mo>~</mml:mo><mml:mi mathvariant="normal">rep</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">subtype</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">boundary</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">sequence</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">pid</mml:mi></mml:mrow></mml:mfenced><mml:mfenced close=")" open="" separators=""><mml:mrow><mml:mo>+</mml:mo><mml:mi mathvariant="normal">mutsig</mml:mi><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi mathvariant="normal">mutsig</mml:mi><mml:mn>17</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="normal">family</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">logit</mml:mi></mml:mrow></mml:mfenced></mml:math><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="41467_2018_3828_Article_Equh.gif"/></alternatives></disp-formula></p>
+          <p id="Par61">Here subtype is the tumor subtype, boundary indicates if the CBS is located at a CTCF loop boundary, and mutsig1 and mutsig17 represent the percentage contributions of signature 1 and signature 17 of the tumor. We used deconstructSigs<sup><xref ref-type="bibr" rid="CR77">77</xref></sup> to quantify the prevalence of each of the 30 COSMIC consensus mutation signatures in each tumor.</p>
+          <p id="Par62">The <italic toggle="yes">P</italic> value of mutation recurrence of each CBS was calculated using the Poisson binomial model described in the previous section. The Bonferroni correction was applied to maintain the overall <italic toggle="yes">α </italic>at 0.01.</p>
+        </sec>
+        <sec id="Sec28">
+          <title>Motif analysis of hotspot mutations in the CTCF motif flanks</title>
+          <p id="Par63">We extracted the ±40 bp sequence context around each mutation, and used DeepBind to predict the binding scores of 472 TFs for the reference (ref score) and mutated sequences (alt score) of each mutation. Since the binding scores output by DeepBind are on an arbitrary scale and vary between different TF models, we estimated the background distributions of the binding scores of each TF by applying DeepBind to 10,000 randomly sampled non-hotspot mutations. For a particular TF, a mutation is predicted to be motif-disrupting if its reference sequence scores higher than 99.9% of the random mutations, and the score difference between its alternate and reference sequences (alt score – ref score) is smaller than 99.9% of the random mutations for that TF. A mutation is predicted to create a motif for a specific TF if its alternate sequence scores higher than 99.9% of the random mutations, and the score difference between its alternate and reference sequences (alt score – ref score) is greater than 99.9% of the random mutations for that TF.</p>
+        </sec>
+        <sec id="Sec29">
+          <title>Pan-cancer analysis of mutation recurrence at CBS hotspots</title>
+          <p id="Par64">Somatic mutations of 858 tumors from 22 cancer types were downloaded from the supplementary information of Weinhold et al.<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> Hypermutated tumors with more than 200,000 mutations were excluded from the analysis. Cancer types with less than ten samples were excluded from the analysis. For CBS mutation rate calculation in Fig. <xref rid="Fig6" ref-type="fig">6b</xref>, CBSs were defined as CTCF motifs overlapping a CTCF ChIP-seq peak in at least one ENCODE cell line. We further defined tissue-specific CBSs for 14/19 cancer types for which DNaseI profiles in the matched tissue types are available in Roadmap Epigenomics. Tissue-specific CBSs were defined as generic CBSs that fall under DNaseI peaks in the respective tissue. Supplementary Figure <xref rid="MOESM1" ref-type="media">15</xref> shows the mutation rates at tissue-specific CBSs.</p>
+        </sec>
+        <sec id="Sec30">
+          <title>Analysis of SCNA breakpoints</title>
+          <p id="Par65">Copy number segmentations were generated by CNVkit<sup><xref ref-type="bibr" rid="CR78">78</xref></sup> using default settings (bcbio-nextgen v0.9.3). SCNA breakpoints were defined as the ends of non-diploid segments. Assuming tumor purity of 50%, the estimated mean purity of these tumors, non-diploid segments were defined as segments with log2(tumor coverage/normal coverage) &lt; log2(1.5/2) or log2(tumor coverage/normal coverage) &gt; log2(2.5/2).</p>
+        </sec>
+        <sec id="Sec31">
+          <title>Analysis of VAFs</title>
+          <p id="Par66">The list of known GC driver genes was collated from the Cancer Gene Census<sup><xref ref-type="bibr" rid="CR79">79</xref></sup> and the driver genes identified by TCGA<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> and Wang et al.<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> We excluded <italic toggle="yes">TP53</italic> from the analysis as <italic toggle="yes">TP53</italic> frequently undergo deletions and loss of heterozyosity. We identified non-synonymous and truncating mutations on known GC driver genes, and compared their VAFs to the VAFs of CBS hotspot mutations from the same samples using a matched Wilcoxon rank-sum test. Only mutations in diploid regions in each sample were included in the analysis.</p>
+        </sec>
+        <sec id="Sec32">
+          <title>Code availability</title>
+          <p id="Par67">All R code used to generate the figures and statistics of the paper is included in Supplementary Data <xref rid="MOESM8" ref-type="media">5</xref>. Source code for the ensemble somatic mutation caller, SMuRF<sup><xref ref-type="bibr" rid="CR68">68</xref></sup>, can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/skandlab/SMuRF">https://github.com/skandlab/SMuRF</ext-link>. Source code for estimating background mutation rate from genomic covariates and identification of non-coding mutation hotspots is available at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/skandlab/MutSpot">https://github.com/skandlab/MutSpot</ext-link>.</p>
+        </sec>
+        <sec id="Sec33">
+          <title>Data availability</title>
+          <p id="Par68">SG tumor data: Sequence data has been deposited at the European Genome–phenome Archive (EGA), which is hosted by the EBI and the CRG, under accession number EGAS00001002872.</p>
+          <p id="Par69">TCGA tumor data: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://portal.gdc.cancer.gov/projects/TCGA-TAD">https://portal.gdc.cancer.gov/projects/TCGA-STAD</ext-link></p>
+          <p id="Par70">ICGC tumor data: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ega-archive.org/datasets/EGAD00001003132">https://ega-archive.org/datasets/EGAD00001003132</ext-link></p>
+          <p id="Par71">HK tumor data: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ega-archive.org/datasets/EGAD00001000782">https://ega-archive.org/datasets/EGAD00001000782</ext-link></p>
+          <p id="Par72">Roadmap Epigenomics data: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.roadmapepigenomics.org/data/">http://www.roadmapepigenomics.org/data/</ext-link></p>
+          <p id="Par73">Encode data: ftp://ftp.ensembl.org/pub/release-85/regulation/homo_sapiens/.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Electronic supplementary material</title>
+        <sec id="Sec34">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM3_ESM.pdf" position="float" orientation="portrait"><caption><p>Description of Additional Supplementary Files</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM4_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM5_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM6_ESM.txt" position="float" orientation="portrait"><caption><p>Supplementary Data 3</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM7" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM7_ESM.txt" position="float" orientation="portrait"><caption><p>Supplementary Data 4</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM8" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_3828_MOESM8_ESM.zip" position="float" orientation="portrait"><caption><p>Supplementary Data 5</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn>
+          <p>
+            <bold>Electronic supplementary material</bold>
+          </p>
+          <p><bold>Supplementary Information</bold> accompanies this paper at 10.1038/s41467-018-03828-2.</p>
+        </fn>
+        <fn>
+          <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+      </fn-group>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This study makes use of data generated by the Department of Pathology of the University of Hong Kong and Pfizer Inc. A full list of the investigators who contributed to the generation of the data is available from <italic toggle="yes">Nature Genetics</italic> 2014: 46(6):573-82, doi:10.1038/ng.2983, Epub 2014 May 11. This work was supported by Singapore National Medical Research Council grants OFIRG15nov072, TCR/009-NUHS/2013, and NMRC/STaR/0026/2015.</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>A.J.S., P.T., and Y.A.G. designed the study. Y.A.G. and M.M.C. analyzed the data. W.H. performed mutation calling. M.X. and W.F.O. contributed data analysis. Y.A.G., A.J.S., and P.T. interpreted the data and wrote the manuscript, with contributions from all authors.</p>
+      </notes>
+      <notes notes-type="COI-statement">
+        <sec id="FPar1">
+          <title>Competing interests</title>
+          <p id="Par74">The authors declare no competing interests.</p>
+        </sec>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Encode Project Consortium.</collab>
+            </person-group>
+            <article-title>An integrated encyclopedia of DNA elements in the human genome</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>489</volume>
+            <fpage>57</fpage>
+            <lpage>74</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11247</pub-id>
+            <pub-id pub-id-type="pmid">22955616</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3439153</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>FW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Highly recurrent TERT promoter mutations in human melanoma</article-title>
+            <source>Science</source>
+            <year>2013</year>
+            <volume>339</volume>
+            <fpage>957</fpage>
+            <lpage>959</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.1229259</pub-id>
+            <pub-id pub-id-type="pmid">23348506</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4423787</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Vinagre</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Frequency of TERT promoter mutations in human cancers</article-title>
+            <source>Nat. Commun.</source>
+            <year>2013</year>
+            <volume>4</volume>
+            <fpage>2185</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms3185</pub-id>
+            <pub-id pub-id-type="pmid">23887589</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mansour</surname>
+                <given-names>MR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Oncogene regulation. An oncogenic super-enhancer formed through somatic mutation of a noncoding intergenic element</article-title>
+            <source>Science</source>
+            <year>2014</year>
+            <volume>346</volume>
+            <fpage>1373</fpage>
+            <lpage>1377</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.1259037</pub-id>
+            <pub-id pub-id-type="pmid">25394790</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4720521</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Weinhold</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jacobsen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schultz</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sander</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Genome-wide analysis of noncoding regulatory mutations in cancer</article-title>
+            <source>Nat. Genet</source>
+            <year>2014</year>
+            <volume>46</volume>
+            <fpage>1160</fpage>
+            <lpage>1165</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3101</pub-id>
+            <pub-id pub-id-type="pmid">25261935</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4217527</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Melton</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Reuter</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Spacek</surname>
+                <given-names>DV</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Snyder</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Recurrent somatic mutations in regulatory regions of human cancer genomes</article-title>
+            <source>Nat. Genet</source>
+            <year>2015</year>
+            <volume>47</volume>
+            <fpage>710</fpage>
+            <lpage>716</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3332</pub-id>
+            <pub-id pub-id-type="pmid">26053494</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4485503</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lawrence</surname>
+                <given-names>MS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Discovery and saturation analysis of cancer genes across 21 tumour types</article-title>
+            <source>Nature</source>
+            <year>2014</year>
+            <volume>505</volume>
+            <fpage>495</fpage>
+            <lpage>501</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature12912</pub-id>
+            <pub-id pub-id-type="pmid">24390350</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4048962</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Landscape of somatic mutations in 560 breast cancer whole-genome sequences</article-title>
+            <source>Nature</source>
+            <year>2016</year>
+            <volume>534</volume>
+            <fpage>47</fpage>
+            <lpage>54</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature17676</pub-id>
+            <pub-id pub-id-type="pmid">27135926</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4910866</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fujimoto</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-genome mutational landscape and characterization of noncoding and structural mutations in liver cancer</article-title>
+            <source>Nat. Genet.</source>
+            <year>2016</year>
+            <volume>48</volume>
+            <fpage>500</fpage>
+            <lpage>509</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3547</pub-id>
+            <pub-id pub-id-type="pmid">27064257</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Feigin</surname>
+                <given-names>ME</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent noncoding regulatory mutations in pancreatic ductal adenocarcinoma</article-title>
+            <source>Nat. Genet.</source>
+            <year>2017</year>
+            <volume>49</volume>
+            <fpage>825</fpage>
+            <lpage>833</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3861</pub-id>
+            <pub-id pub-id-type="pmid">28481342</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5659388</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ghirlando</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Felsenfeld</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>CTCF: making the right connections</article-title>
+            <source>Genes Dev.</source>
+            <year>2016</year>
+            <volume>30</volume>
+            <fpage>881</fpage>
+            <lpage>891</lpage>
+            <pub-id pub-id-type="doi">10.1101/gad.277863.116</pub-id>
+            <pub-id pub-id-type="pmid">27083996</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4840295</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Phillips</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Corces</surname>
+                <given-names>VG</given-names>
+              </name>
+            </person-group>
+            <article-title>CTCF: master weaver of the genome</article-title>
+            <source>Cell</source>
+            <year>2009</year>
+            <volume>137</volume>
+            <fpage>1194</fpage>
+            <lpage>1211</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cell.2009.06.001</pub-id>
+            <pub-id pub-id-type="pmid">19563753</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3040116</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hnisz</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Activation of proto-oncogenes by disruption of chromosome neighborhoods</article-title>
+            <source>Science</source>
+            <year>2016</year>
+            <volume>351</volume>
+            <fpage>1454</fpage>
+            <lpage>1458</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.aad9024</pub-id>
+            <pub-id pub-id-type="pmid">26940867</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4884612</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Flavahan</surname>
+                <given-names>WA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Insulator dysfunction and oncogene activation in IDH mutant gliomas</article-title>
+            <source>Nature</source>
+            <year>2016</year>
+            <volume>529</volume>
+            <fpage>110</fpage>
+            <lpage>114</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature16490</pub-id>
+            <pub-id pub-id-type="pmid">26700815</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4831574</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Katainen</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>CTCF/cohesin-binding sites are frequently mutated in cancer</article-title>
+            <source>Nat. Genet.</source>
+            <year>2015</year>
+            <volume>47</volume>
+            <fpage>818</fpage>
+            <lpage>821</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3335</pub-id>
+            <pub-id pub-id-type="pmid">26053496</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sabarinathan</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mularoni</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Deu-Pons</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gonzalez-Perez</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lopez-Bigas</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Nucleotide excision repair is impaired by binding of transcription factors to DNA</article-title>
+            <source>Nature</source>
+            <year>2016</year>
+            <volume>532</volume>
+            <fpage>264</fpage>
+            <lpage>267</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature17661</pub-id>
+            <pub-id pub-id-type="pmid">27075101</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Perera</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Differential DNA repair underlies mutation hotspots at active promoters in cancer genomes</article-title>
+            <source>Nature</source>
+            <year>2016</year>
+            <volume>532</volume>
+            <fpage>259</fpage>
+            <lpage>263</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature17437</pub-id>
+            <pub-id pub-id-type="pmid">27075100</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kaiser</surname>
+                <given-names>VB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Semple</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutational biases drive elevated rates of substitution at regulatory sites across cancer types</article-title>
+            <source>PLoS Genet.</source>
+            <year>2016</year>
+            <volume>12</volume>
+            <fpage>e1006207</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pgen.1006207</pub-id>
+            <pub-id pub-id-type="pmid">27490693</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4973979</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Cancer Genome Atlas Research N.</collab>
+            </person-group>
+            <article-title>Comprehensive molecular characterization of gastric adenocarcinoma</article-title>
+            <source>Nature</source>
+            <year>2014</year>
+            <volume>513</volume>
+            <fpage>202</fpage>
+            <lpage>209</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature13480</pub-id>
+            <pub-id pub-id-type="pmid">25079317</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4170219</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-genome sequencing and comprehensive molecular profiling identify new driver mutations in gastric cancer</article-title>
+            <source>Nat. Genet.</source>
+            <year>2014</year>
+            <volume>46</volume>
+            <fpage>573</fpage>
+            <lpage>582</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.2983</pub-id>
+            <pub-id pub-id-type="pmid">24816253</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zang</surname>
+                <given-names>ZJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing of gastric adenocarcinoma identifies recurrent somatic mutations in cell adhesion and chromatin remodeling genes</article-title>
+            <source>Nat. Genet.</source>
+            <year>2012</year>
+            <volume>44</volume>
+            <fpage>570</fpage>
+            <lpage>574</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.2246</pub-id>
+            <pub-id pub-id-type="pmid">22484628</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Siu</surname>
+                <given-names>HC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Leung</surname>
+                <given-names>SY</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>A mutational signature in gastric cancer suggests therapeutic strategies</article-title>
+            <source>Nat. Commun.</source>
+            <year>2015</year>
+            <volume>6</volume>
+            <fpage>8683</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms9683</pub-id>
+            <pub-id pub-id-type="pmid">26511885</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4918743</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nagarajan</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole-genome reconstruction and mutational signatures in gastric cancer</article-title>
+            <source>Genome Biol.</source>
+            <year>2012</year>
+            <volume>13</volume>
+            <fpage>R115</fpage>
+            <pub-id pub-id-type="doi">10.1186/gb-2012-13-12-r115</pub-id>
+            <pub-id pub-id-type="pmid">23237666</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4056366</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ooi</surname>
+                <given-names>WF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Epigenomic profiling of primary gastric adenocarcinoma reveals super-enhancer heterogeneity</article-title>
+            <source>Nat. Commun.</source>
+            <year>2016</year>
+            <volume>7</volume>
+            <fpage>12983</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms12983</pub-id>
+            <pub-id pub-id-type="pmid">27677335</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5052795</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Qamra</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Epigenomic promoter alterations amplify gene isoform and immunogenic diversity in gastric adenocarcinoma</article-title>
+            <source>Cancer Discov.</source>
+            <year>2017</year>
+            <volume>7</volume>
+            <fpage>630</fpage>
+            <lpage>651</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-16-1022</pub-id>
+            <pub-id pub-id-type="pmid">28320776</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alioto</surname>
+                <given-names>TS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A comprehensive assessment of somatic mutation detection in cancer using whole-genome sequencing</article-title>
+            <source>Nat. Commun.</source>
+            <year>2015</year>
+            <volume>6</volume>
+            <fpage>10001</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms10001</pub-id>
+            <pub-id pub-id-type="pmid">26647970</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4682041</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Evans</surname>
+                <given-names>TC</given-names>
+                <suffix>Jr.</suffix>
+              </name>
+              <name name-style="western">
+                <surname>Ettwiller</surname>
+                <given-names>LM</given-names>
+              </name>
+            </person-group>
+            <article-title>DNA damage is a pervasive cause of sequencing errors, directly confounding variant identification</article-title>
+            <source>Science</source>
+            <year>2017</year>
+            <volume>355</volume>
+            <fpage>752</fpage>
+            <lpage>756</lpage>
+            <pub-id pub-id-type="doi">10.1126/science.aai8690</pub-id>
+            <pub-id pub-id-type="pmid">28209900</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Costello</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Discovery and characterization of artifactual mutations in deep coverage targeted capture sequencing data due to oxidative DNA damage during sample preparation</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2013</year>
+            <volume>41</volume>
+            <fpage>e67</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gks1443</pub-id>
+            <pub-id pub-id-type="pmid">23303777</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3616734</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Roadmap Epigenomics Consortium.</collab>
+              <etal/>
+            </person-group>
+            <article-title>Integrative analysis of 111 reference human epigenomes</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <volume>518</volume>
+            <fpage>317</fpage>
+            <lpage>330</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature14248</pub-id>
+            <pub-id pub-id-type="pmid">25693563</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4530010</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Schuster-Bockler</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lehner</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Chromatin organization is a major influence on regional mutation rates in human cancer cells</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>488</volume>
+            <fpage>504</fpage>
+            <lpage>507</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11273</pub-id>
+            <pub-id pub-id-type="pmid">22820252</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Supek</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lehner</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Differential DNA mismatch repair underlies mutation rate variation across the human genome</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <volume>521</volume>
+            <fpage>81</fpage>
+            <lpage>84</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature14173</pub-id>
+            <pub-id pub-id-type="pmid">25707793</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4425546</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Polak</surname>
+                <given-names>P</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cell-of-origin chromatin organization shapes the mutational landscape of cancer</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <volume>518</volume>
+            <fpage>360</fpage>
+            <lpage>364</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature14221</pub-id>
+            <pub-id pub-id-type="pmid">25693567</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4405175</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Aggarwala</surname>
+                <given-names>V</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Voight</surname>
+                <given-names>BF</given-names>
+              </name>
+            </person-group>
+            <article-title>An expanded sequence context model broadly explains variability in polymorphism levels across the human genome</article-title>
+            <source>Nat. Genet.</source>
+            <year>2016</year>
+            <volume>48</volume>
+            <fpage>349</fpage>
+            <lpage>355</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3511</pub-id>
+            <pub-id pub-id-type="pmid">26878723</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4811712</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Prasad</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cloning of the ALL-1 fusion partner, the AF-6 gene, involved in acute myeloid leukemias with the t(6;11) chromosome translocation</article-title>
+            <source>Cancer Res.</source>
+            <year>1993</year>
+            <volume>53</volume>
+            <fpage>5624</fpage>
+            <lpage>5628</lpage>
+            <pub-id pub-id-type="pmid">8242616</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Letessier</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Correlated break at PARK2/FRA6E and loss of AF-6/Afadin protein expression are associated with poor outcome in breast cancer</article-title>
+            <source>Oncogene</source>
+            <year>2007</year>
+            <volume>26</volume>
+            <fpage>298</fpage>
+            <lpage>307</lpage>
+            <pub-id pub-id-type="doi">10.1038/sj.onc.1209772</pub-id>
+            <pub-id pub-id-type="pmid">16819513</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Xu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Loss of polarity protein AF6 promotes pancreatic cancer metastasis by inducing Snail expression</article-title>
+            <source>Nat. Commun.</source>
+            <year>2015</year>
+            <volume>6</volume>
+            <fpage>7184</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms8184</pub-id>
+            <pub-id pub-id-type="pmid">26013125</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Petryszak</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Expression Atlas update-an integrated database of gene and protein expression in humans, animals and plants</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>D746</fpage>
+            <lpage>D752</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkv1045</pub-id>
+            <pub-id pub-id-type="pmid">26481351</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4702781</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Consortium GT.</collab>
+            </person-group>
+            <article-title>The genotype-tissue expression (GTEx) project</article-title>
+            <source>Nat. Genet.</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>580</fpage>
+            <lpage>585</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.2653</pub-id>
+            <pub-id pub-id-type="pmid">23715323</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4010069</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Imielinski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Guo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meyerson</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Insertions and deletions target lineage-defining genes in human cancers</article-title>
+            <source>Cell</source>
+            <year>2017</year>
+            <volume>168</volume>
+            <fpage>460</fpage>
+            <lpage>472 e414</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cell.2016.12.025</pub-id>
+            <pub-id pub-id-type="pmid">28089356</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5564321</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Umer</surname>
+                <given-names>HM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A significant regulatory mutation burden at a high-affinity position of the CTCF motif in gastrointestinal cancers</article-title>
+            <source>Hum. Mutat.</source>
+            <year>2016</year>
+            <volume>37</volume>
+            <fpage>904</fpage>
+            <lpage>913</lpage>
+            <pub-id pub-id-type="doi">10.1002/humu.23014</pub-id>
+            <pub-id pub-id-type="pmid">27174533</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dixon</surname>
+                <given-names>JR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Topological domains in mammalian genomes identified by analysis of chromatin interactions</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>485</volume>
+            <fpage>376</fpage>
+            <lpage>380</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11082</pub-id>
+            <pub-id pub-id-type="pmid">22495300</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3356448</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rao</surname>
+                <given-names>SS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping</article-title>
+            <source>Cell</source>
+            <year>2014</year>
+            <volume>159</volume>
+            <fpage>1665</fpage>
+            <lpage>1680</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cell.2014.11.021</pub-id>
+            <pub-id pub-id-type="pmid">25497547</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5635824</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Heidari</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genome-wide map of regulatory interactions in the human genome</article-title>
+            <source>Genome Res.</source>
+            <year>2014</year>
+            <volume>24</volume>
+            <fpage>1905</fpage>
+            <lpage>1917</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.176586.114</pub-id>
+            <pub-id pub-id-type="pmid">25228660</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4248309</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutational processes in human cancer</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>500</volume>
+            <fpage>415</fpage>
+            <lpage>421</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature12477</pub-id>
+            <pub-id pub-id-type="pmid">23945592</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3776390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Okada</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The CENP-H-I complex is required for the efficient incorporation of newly synthesized CENP-A into centromeres</article-title>
+            <source>Nat. Cell Biol.</source>
+            <year>2006</year>
+            <volume>8</volume>
+            <fpage>446</fpage>
+            <lpage>457</lpage>
+            <pub-id pub-id-type="doi">10.1038/ncb1396</pub-id>
+            <pub-id pub-id-type="pmid">16622420</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ren</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>CTCF mediates the cell-type specific spatial organization of the Kcnq5 locus and the local gene regulation</article-title>
+            <source>PLoS One</source>
+            <year>2012</year>
+            <volume>7</volume>
+            <fpage>e31416</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pone.0031416</pub-id>
+            <pub-id pub-id-type="pmid">22347474</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3275579</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR47">
+          <label>47.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bakowska</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Jupille</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fatheddin</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Puertollano</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Blackstone</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Troyer syndrome protein spartin is mono-ubiquitinated and functions in EGF receptor trafficking</article-title>
+            <source>Mol. Biol. Cell</source>
+            <year>2007</year>
+            <volume>18</volume>
+            <fpage>1683</fpage>
+            <lpage>1692</lpage>
+            <pub-id pub-id-type="doi">10.1091/mbc.E06-09-0833</pub-id>
+            <pub-id pub-id-type="pmid">17332501</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1855030</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR48">
+          <label>48.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dulak</surname>
+                <given-names>AM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity</article-title>
+            <source>Nat. Genet.</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>478</fpage>
+            <lpage>486</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.2591</pub-id>
+            <pub-id pub-id-type="pmid">23525077</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3678719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR49">
+          <label>49.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Varley</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mitra</surname>
+                <given-names>RD</given-names>
+              </name>
+            </person-group>
+            <article-title>Bisulfite patch PCR enables multiplexed sequencing of promoter methylation across cancer samples</article-title>
+            <source>Genome Res.</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>1279</fpage>
+            <lpage>1287</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.101212.109</pub-id>
+            <pub-id pub-id-type="pmid">20627893</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR50">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>YH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Epigenomic analysis of aberrantly methylated genes in colorectal cancer identifies genes commonly affected by epigenetic alterations</article-title>
+            <source>Ann. Surg. Oncol.</source>
+            <year>2011</year>
+            <volume>18</volume>
+            <fpage>2338</fpage>
+            <lpage>2347</lpage>
+            <pub-id pub-id-type="doi">10.1245/s10434-011-1573-y</pub-id>
+            <pub-id pub-id-type="pmid">21298349</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3393129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR51">
+          <label>51.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lind</surname>
+                <given-names>GE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SPG20, a novel biomarker for early detection of colorectal cancer, encodes a regulator of cytokinesis</article-title>
+            <source>Oncogene</source>
+            <year>2011</year>
+            <volume>30</volume>
+            <fpage>3967</fpage>
+            <lpage>3978</lpage>
+            <pub-id pub-id-type="doi">10.1038/onc.2011.109</pub-id>
+            <pub-id pub-id-type="pmid">21499309</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3174365</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR52">
+          <label>52.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bruce</surname>
+                <given-names>AW</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Functional diversity for REST (NRSF) is defined by in vivo binding affinity hierarchies at the DNA sequence level</article-title>
+            <source>Genome Res.</source>
+            <year>2009</year>
+            <volume>19</volume>
+            <fpage>994</fpage>
+            <lpage>1005</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.089086.108</pub-id>
+            <pub-id pub-id-type="pmid">19401398</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2694481</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR53">
+          <label>53.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Essien</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>CTCF binding site classes exhibit distinct evolutionary, genomic, epigenomic and transcriptomic features</article-title>
+            <source>Genome Biol.</source>
+            <year>2009</year>
+            <volume>10</volume>
+            <fpage>R131</fpage>
+            <pub-id pub-id-type="doi">10.1186/gb-2009-10-11-r131</pub-id>
+            <pub-id pub-id-type="pmid">19922652</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3091324</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR54">
+          <label>54.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pollard</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hubisz</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rosenbloom</surname>
+                <given-names>KR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Siepel</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Detection of nonneutral substitution rates on mammalian phylogenies</article-title>
+            <source>Genome Res.</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>110</fpage>
+            <lpage>121</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.097857.109</pub-id>
+            <pub-id pub-id-type="pmid">19858363</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2798823</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR55">
+          <label>55.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alipanahi</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Delong</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weirauch</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Frey</surname>
+                <given-names>BJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2015</year>
+            <volume>33</volume>
+            <fpage>831</fpage>
+            <lpage>838</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.3300</pub-id>
+            <pub-id pub-id-type="pmid">26213851</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR56">
+          <label>56.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bijlsma</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sadanandam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vermeulen</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular subtypes in cancers of the gastrointestinal tract</article-title>
+            <source>Nat. Rev. Gastroenterol. Hepatol.</source>
+            <year>2017</year>
+            <volume>14</volume>
+            <fpage>333</fpage>
+            <lpage>342</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrgastro.2017.33</pub-id>
+            <pub-id pub-id-type="pmid">28400627</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR57">
+          <label>57.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forbes</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>COSMIC: somatic cancer genetics at high-resolution</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2017</year>
+            <volume>45</volume>
+            <fpage>D777</fpage>
+            <lpage>D783</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw1121</pub-id>
+            <pub-id pub-id-type="pmid">27899578</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5210583</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR58">
+          <label>58.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Glodzik</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A somatic-mutational process recurrently duplicates germline susceptibility loci and tissue-specific super-enhancers in breast cancers</article-title>
+            <source>Nat. Genet</source>
+            <year>2017</year>
+            <volume>49</volume>
+            <fpage>341</fpage>
+            <lpage>348</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3771</pub-id>
+            <pub-id pub-id-type="pmid">28112740</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5988034</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR59">
+          <label>59.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fudenberg</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Getz</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Meyerson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mirny</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>High order chromatin architecture shapes the landscape of chromosomal alterations in cancer</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2011</year>
+            <volume>29</volume>
+            <fpage>1109</fpage>
+            <lpage>1113</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.2049</pub-id>
+            <pub-id pub-id-type="pmid">22101486</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3268007</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR60">
+          <label>60.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational processes molding the genomes of 21 breast cancers</article-title>
+            <source>Cell</source>
+            <year>2012</year>
+            <volume>149</volume>
+            <fpage>979</fpage>
+            <lpage>993</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cell.2012.04.024</pub-id>
+            <pub-id pub-id-type="pmid">22608084</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3414841</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR61">
+          <label>61.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>MN</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MSIseq: software for assessing microsatellite instability from catalogs of somatic mutations</article-title>
+            <source>Sci. Rep.</source>
+            <year>2015</year>
+            <volume>5</volume>
+            <fpage>13321</fpage>
+            <pub-id pub-id-type="doi">10.1038/srep13321</pub-id>
+            <pub-id pub-id-type="pmid">26306458</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4549793</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR62">
+          <label>62.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>1760</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR63">
+          <label>63.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McKenna</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+            <source>Genome Res</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>1297</fpage>
+            <lpage>1303</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id>
+            <pub-id pub-id-type="pmid">20644199</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR64">
+          <label>64.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Koboldt</surname>
+                <given-names>DC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing</article-title>
+            <source>Genome Res.</source>
+            <year>2012</year>
+            <volume>22</volume>
+            <fpage>568</fpage>
+            <lpage>576</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.129684.111</pub-id>
+            <pub-id pub-id-type="pmid">22300766</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3290792</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR65">
+          <label>65.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2013</year>
+            <volume>31</volume>
+            <fpage>213</fpage>
+            <lpage>219</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.2514</pub-id>
+            <pub-id pub-id-type="pmid">23396013</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3833702</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR66">
+          <label>66.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lai</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>VarDict: a novel and versatile variant caller for next-generation sequencing in cancer research</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e108</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw227</pub-id>
+            <pub-id pub-id-type="pmid">27060149</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4914105</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR67">
+          <label>67.</label>
+          <mixed-citation publication-type="other">Garrison, E., Marth, G. Haplotype-based variant detection from short-read sequencing. Preprint at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://adsabs.harvard.edu/abs/2012arXiv1207.3907G">http://adsabs.harvard.edu/abs/2012arXiv1207.3907G</ext-link> (2012).</mixed-citation>
+        </ref>
+        <ref id="CR68">
+          <label>68.</label>
+          <mixed-citation publication-type="other">Huang, W. et al. SMuRF: portable and accurate ensemble-based somatic variant calling. Preprint at <italic toggle="yes">bioRxiv</italic> 10.1101/270413 (2018).</mixed-citation>
+        </ref>
+        <ref id="CR69">
+          <label>69.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Genomes Project</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A global reference for human genetic variation</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <volume>526</volume>
+            <fpage>68</fpage>
+            <lpage>74</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature15393</pub-id>
+            <pub-id pub-id-type="pmid">26432245</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4750478</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR70">
+          <label>70.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Trapnell</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Transcript assembly and quantification by RNA-seq reveals unannotated transcripts and isoform switching during cell differentiation</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2010</year>
+            <volume>28</volume>
+            <fpage>511</fpage>
+            <lpage>515</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.1621</pub-id>
+            <pub-id pub-id-type="pmid">20436464</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3146043</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR71">
+          <label>71.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hansen</surname>
+                <given-names>RS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sequencing newly replicated DNA reveals widespread plasticity in human replication timing</article-title>
+            <source>Proc. Natl Acad. Sci. USA</source>
+            <year>2010</year>
+            <volume>107</volume>
+            <fpage>139</fpage>
+            <lpage>144</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.0912402107</pub-id>
+            <pub-id pub-id-type="pmid">19966280</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2806781</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR72">
+          <label>72.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zerbino</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wilder</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Johnson</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Juettemann</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Flicek</surname>
+                <given-names>PR</given-names>
+              </name>
+            </person-group>
+            <article-title>The ensembl regulatory build</article-title>
+            <source>Genome Biol.</source>
+            <year>2015</year>
+            <volume>16</volume>
+            <fpage>56</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-015-0621-5</pub-id>
+            <pub-id pub-id-type="pmid">25887522</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4407537</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR73">
+          <label>73.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Davydov</surname>
+                <given-names>EV</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identifying a high fraction of the human genome to be under selective constraint using GERP++</article-title>
+            <source>PLoS Comput. Biol.</source>
+            <year>2010</year>
+            <volume>6</volume>
+            <fpage>e1001025</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pcbi.1001025</pub-id>
+            <pub-id pub-id-type="pmid">21152010</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2996323</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR74">
+          <label>74.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mathelier</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>JASPAR 2016: a major expansion and update of the open-access database of transcription factor binding profiles</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>D110</fpage>
+            <lpage>D115</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkv1176</pub-id>
+            <pub-id pub-id-type="pmid">26531826</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4702842</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR75">
+          <label>75.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Grant</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bailey</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Noble</surname>
+                <given-names>WS</given-names>
+              </name>
+            </person-group>
+            <article-title>FIMO: scanning for occurrences of a given motif</article-title>
+            <source>Bioinformatics</source>
+            <year>2011</year>
+            <volume>27</volume>
+            <fpage>1017</fpage>
+            <lpage>1018</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btr064</pub-id>
+            <pub-id pub-id-type="pmid">21330290</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3065696</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR76">
+          <label>76.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bailey</surname>
+                <given-names>TL</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MEME SUITE: tools for motif discovery and searching</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2009</year>
+            <volume>37</volume>
+            <fpage>W202</fpage>
+            <lpage>W208</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkp335</pub-id>
+            <pub-id pub-id-type="pmid">19458158</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2703892</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR77">
+          <label>77.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rosenthal</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McGranahan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Herrero</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Swanton</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>DeconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution</article-title>
+            <source>Genome Biol.</source>
+            <year>2016</year>
+            <volume>17</volume>
+            <fpage>31</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-016-0893-4</pub-id>
+            <pub-id pub-id-type="pmid">26899170</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4762164</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR78">
+          <label>78.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Talevich</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shain</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Botton</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bastian</surname>
+                <given-names>BC</given-names>
+              </name>
+            </person-group>
+            <article-title>CNVkit: genome-wide copy number detection and visualization from targeted DNA sequencing</article-title>
+            <source>PLoS Comput. Biol.</source>
+            <year>2016</year>
+            <volume>12</volume>
+            <fpage>e1004873</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pcbi.1004873</pub-id>
+            <pub-id pub-id-type="pmid">27100738</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4839673</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR79">
+          <label>79.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Futreal</surname>
+                <given-names>PA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A census of human cancer genes</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2004</year>
+            <volume>4</volume>
+            <fpage>177</fpage>
+            <lpage>183</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrc1299</pub-id>
+            <pub-id pub-id-type="pmid">14993899</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2665285</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

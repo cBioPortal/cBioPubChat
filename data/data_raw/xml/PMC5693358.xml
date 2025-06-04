@@ -1,0 +1,1767 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Cell</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Cell</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Cell</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0092-8674</issn>
+        <issn pub-type="epub">1097-4172</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC5693358</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC5693358.1</article-id>
+        <article-id pub-id-type="pmcaid">5693358</article-id>
+        <article-id pub-id-type="pmcaiid">5693358</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS912614</article-id>
+        <article-id pub-id-type="pmid">29100075</article-id>
+        <article-id pub-id-type="doi">10.1016/j.cell.2017.10.014</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS912614</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA912614</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>COMPREHENSIVE AND INTEGRATED GENOMIC CHARACTERIZATION OF ADULT SOFT TISSUE SARCOMAS</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <collab>The Cancer Genome Atlas Research Network</collab>
+            <xref ref-type="author-notes" rid="FN1">1</xref>
+            <xref ref-type="author-notes" rid="FN2">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abeshouse</surname>
+              <given-names initials="A">Adam</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Adebamowo</surname>
+              <given-names initials="C">Clement</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Adebamowo</surname>
+              <given-names initials="SN">Sally N</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Akbani</surname>
+              <given-names initials="R">Rehan</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Akeredolu</surname>
+              <given-names initials="T">Teniola</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ally</surname>
+              <given-names initials="A">Adrian</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Anderson</surname>
+              <given-names initials="ML">Matthew L</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Anur</surname>
+              <given-names initials="P">Pavana</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Appelbaum</surname>
+              <given-names initials="EL">Elizabeth L</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Armenia</surname>
+              <given-names initials="J">Joshua</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Auman</surname>
+              <given-names initials="JT">J Todd</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bailey</surname>
+              <given-names initials="MH">Matthew H</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baker</surname>
+              <given-names initials="L">Laurence</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Balasundaram</surname>
+              <given-names initials="M">Miruna</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Balu</surname>
+              <given-names initials="S">Saianand</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Barthel</surname>
+              <given-names initials="FP">Floris P</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bartlett</surname>
+              <given-names initials="J">John</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baylin</surname>
+              <given-names initials="SB">Stephen B</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Behera</surname>
+              <given-names initials="M">Madhusmita</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Belyaev</surname>
+              <given-names initials="D">Dmitry</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bennett</surname>
+              <given-names initials="J">Joesph</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Benz</surname>
+              <given-names initials="C">Christopher</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Beroukhim</surname>
+              <given-names initials="R">Rameen</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Birrer</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bocklage</surname>
+              <given-names initials="T">Thèrése</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bodenheimer</surname>
+              <given-names initials="T">Tom</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Boice</surname>
+              <given-names initials="L">Lori</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bootwalla</surname>
+              <given-names initials="MS">Moiz S</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bowen</surname>
+              <given-names initials="J">Jay</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bowlby</surname>
+              <given-names initials="R">Reanne</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Boyd</surname>
+              <given-names initials="J">Jeff</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brohl</surname>
+              <given-names initials="AS">Andrew S</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brooks</surname>
+              <given-names initials="D">Denise</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Byers</surname>
+              <given-names initials="L">Lauren</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Carlsen</surname>
+              <given-names initials="R">Rebecca</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Castro</surname>
+              <given-names initials="P">Patricia</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names initials="HW">Hsiao-Wei</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cherniack</surname>
+              <given-names initials="AD">Andrew D</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chibon</surname>
+              <given-names initials="F">Fréderic</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chin</surname>
+              <given-names initials="L">Lynda</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cho</surname>
+              <given-names initials="J">Juok</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chuah</surname>
+              <given-names initials="E">Eric</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chudamani</surname>
+              <given-names initials="S">Sudha</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cibulskis</surname>
+              <given-names initials="C">Carrie</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cooper</surname>
+              <given-names initials="LAD">Lee AD</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cope</surname>
+              <given-names initials="L">Leslie</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cordes</surname>
+              <given-names initials="MG">Matthew G</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Crain</surname>
+              <given-names initials="D">Daniel</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Curley</surname>
+              <given-names initials="E">Erin</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Danilova</surname>
+              <given-names initials="L">Ludmila</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dao</surname>
+              <given-names initials="F">Fanny</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Davis</surname>
+              <given-names initials="IJ">Ian J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Davis</surname>
+              <given-names initials="LE">Lara E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Defreitas</surname>
+              <given-names initials="T">Timothy</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Delman</surname>
+              <given-names initials="K">Keith</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Demchok</surname>
+              <given-names initials="JA">John A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Demetri</surname>
+              <given-names initials="GD">George D</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Demicco</surname>
+              <given-names initials="EG">Elizabeth G</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dhalla</surname>
+              <given-names initials="N">Noreen</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Diao</surname>
+              <given-names initials="L">Lixia</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ding</surname>
+              <given-names initials="L">Li</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>DiSaia</surname>
+              <given-names initials="P">Phil</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dottino</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Doyle</surname>
+              <given-names initials="LA">Leona A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Drill</surname>
+              <given-names initials="E">Esther</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dubina</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Eschbacher</surname>
+              <given-names initials="J">Jennifer</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fedosenko</surname>
+              <given-names initials="K">Konstantin</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Felau</surname>
+              <given-names initials="I">Ina</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ferguson</surname>
+              <given-names initials="ML">Martin L</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Frazer</surname>
+              <given-names initials="S">Scott</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fronick</surname>
+              <given-names initials="CC">Catrina C</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fulidou</surname>
+              <given-names initials="V">Victoria</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fulton</surname>
+              <given-names initials="LA">Lucinda A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fulton</surname>
+              <given-names initials="RS">Robert S</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names initials="SB">Stacey B</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="J">Jianjiong</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="Q">Qingsong</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gardner</surname>
+              <given-names initials="J">Johanna</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gastier-Foster</surname>
+              <given-names initials="JM">Julie M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gay</surname>
+              <given-names initials="CM">Carl M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gehlenborg</surname>
+              <given-names initials="N">Nils</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gerken</surname>
+              <given-names initials="M">Mark</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Godwin</surname>
+              <given-names initials="AK">Andrew K</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Godwin</surname>
+              <given-names initials="EM">Eryn M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gordienko</surname>
+              <given-names initials="E">Elena</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Grilley-Olson</surname>
+              <given-names initials="JE">Juneko E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gutman</surname>
+              <given-names initials="DA">David A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gutmann</surname>
+              <given-names initials="DH">David H</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hayes</surname>
+              <given-names initials="DN">D Neil</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hegde</surname>
+              <given-names initials="AM">Apurva M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heiman</surname>
+              <given-names initials="DI">David I</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heins</surname>
+              <given-names initials="Z">Zachary</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Helsel</surname>
+              <given-names initials="C">Carmen</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hepperla</surname>
+              <given-names initials="AJ">Austin J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Higgins</surname>
+              <given-names initials="K">Kelly</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hoadley</surname>
+              <given-names initials="KA">Katherine A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hobensack</surname>
+              <given-names initials="S">Shital</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Holt</surname>
+              <given-names initials="RA">Robert A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hoon</surname>
+              <given-names initials="DB">Dave B</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hornick</surname>
+              <given-names initials="JL">Jason L</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hoyle</surname>
+              <given-names initials="AP">Alan P</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hu</surname>
+              <given-names initials="X">Xin</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Huang</surname>
+              <given-names initials="M">Mei</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hutter</surname>
+              <given-names initials="CM">Carolyn M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Iacocca</surname>
+              <given-names initials="M">Mary</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ingram</surname>
+              <given-names initials="DR">Davis R</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ittmann</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Iype</surname>
+              <given-names initials="L">Lisa</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jefferys</surname>
+              <given-names initials="SR">Stuart R</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="KB">Kevin B</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="CD">Corbin D</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names initials="SJM">Steven JM</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kalir</surname>
+              <given-names initials="T">Tamara</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Karlan</surname>
+              <given-names initials="BY">Beth Y</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Karseladze</surname>
+              <given-names initials="A">Apollon</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kasaian</surname>
+              <given-names initials="K">Katayoon</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="J">Jaegil</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kundra</surname>
+              <given-names initials="R">Ritika</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kuo</surname>
+              <given-names initials="H">Hanluen</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ladanyi</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lai</surname>
+              <given-names initials="PH">Phillip H</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Laird</surname>
+              <given-names initials="PW">Peter W</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Larsson</surname>
+              <given-names initials="E">Erik</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lawrence</surname>
+              <given-names initials="MS">Michael S</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lazar</surname>
+              <given-names initials="AJ">Alexander J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="S">Sanghoon</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="D">Darlene</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lehmann</surname>
+              <given-names initials="KV">Kjong-Van</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Leraas</surname>
+              <given-names initials="KM">Kristen M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lester</surname>
+              <given-names initials="J">Jenny</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Levine</surname>
+              <given-names initials="DA">Douglas A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names initials="I">Irene</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lichtenberg</surname>
+              <given-names initials="TM">Tara M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lin</surname>
+              <given-names initials="P">Pei</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="J">Jia</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="W">Wenbin</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="EM">Eric Minwei</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lolla</surname>
+              <given-names initials="L">Laxmi</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lu</surname>
+              <given-names initials="Y">Yiling</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ma</surname>
+              <given-names initials="Y">Yussanne</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Madan</surname>
+              <given-names initials="R">Rashna</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Maglinte</surname>
+              <given-names initials="DT">Dennis T</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Magliocco</surname>
+              <given-names initials="A">Anthony</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Maki</surname>
+              <given-names initials="RG">Robert G</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mallery</surname>
+              <given-names initials="D">David</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Manikhas</surname>
+              <given-names initials="G">Georgy</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mardis</surname>
+              <given-names initials="ER">Elaine R</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mariamidze</surname>
+              <given-names initials="A">Armaz</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Marra</surname>
+              <given-names initials="MA">Marco A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Martignetti</surname>
+              <given-names initials="JA">John A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Martinez</surname>
+              <given-names initials="C">Cathleen</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mayo</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McLellan</surname>
+              <given-names initials="MD">Michael D</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meier</surname>
+              <given-names initials="S">Sam</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meng</surname>
+              <given-names initials="S">Shaowu</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyerson</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mieczkowski</surname>
+              <given-names initials="PA">Piotr A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names initials="CA">Christopher A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mills</surname>
+              <given-names initials="GB">Gordon B</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Moore</surname>
+              <given-names initials="RA">Richard A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names initials="S">Scott</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mose</surname>
+              <given-names initials="LE">Lisle E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mozgovoy</surname>
+              <given-names initials="E">Evgeny</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mungall</surname>
+              <given-names initials="AJ">Andrew J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mungall</surname>
+              <given-names initials="K">Karen</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nalisnik</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Naresh</surname>
+              <given-names initials="R">Rashi</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Newton</surname>
+              <given-names initials="Y">Yulia</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Noble</surname>
+              <given-names initials="MS">Michael S</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Novak</surname>
+              <given-names initials="JE">Janet E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ochoa</surname>
+              <given-names initials="A">Angelica</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Olvera</surname>
+              <given-names initials="N">Narciso</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Owonikoko</surname>
+              <given-names initials="TK">Taofeek K</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Paklina</surname>
+              <given-names initials="O">Oxana</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Parfitt</surname>
+              <given-names initials="J">Jeremy</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Parker</surname>
+              <given-names initials="JS">Joel S</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pastore</surname>
+              <given-names initials="A">Alessandro</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Paulauskis</surname>
+              <given-names initials="J">Joseph</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Penny</surname>
+              <given-names initials="R">Robert</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names initials="E">Elena</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Perou</surname>
+              <given-names initials="CM">Charles M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Perou</surname>
+              <given-names initials="AH">Amy H</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pihl</surname>
+              <given-names initials="T">Todd</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pollock</surname>
+              <given-names initials="RE">Raphael E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Potapova</surname>
+              <given-names initials="O">Olga</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Radenbaugh</surname>
+              <given-names initials="AJ">Amie J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ramalingam</surname>
+              <given-names initials="SS">Suresh S</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ramirez</surname>
+              <given-names initials="NC">Nilsa C</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rathmell</surname>
+              <given-names initials="WK">W Kimryn</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Raut</surname>
+              <given-names initials="CP">Chandrajit P</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Riedel</surname>
+              <given-names initials="RF">Richard F</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reilly</surname>
+              <given-names initials="C">Colleen</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reynolds</surname>
+              <given-names initials="SM">Sheila M</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Roach</surname>
+              <given-names initials="J">Jeffrey</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names initials="AG">A Gordon</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Roszik</surname>
+              <given-names initials="J">Jason</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rubin</surname>
+              <given-names initials="BP">Brian P</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sadeghi</surname>
+              <given-names initials="S">Sara</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Saksena</surname>
+              <given-names initials="G">Gordon</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Salner</surname>
+              <given-names initials="A">Andrew</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sanchez-Vega</surname>
+              <given-names initials="F">Francisco</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sander</surname>
+              <given-names initials="C">Chris</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schein</surname>
+              <given-names initials="JE">Jacqueline E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schmidt</surname>
+              <given-names initials="HK">Heather K</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schultz</surname>
+              <given-names initials="N">Nikolaus</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schumacher</surname>
+              <given-names initials="SE">Steven E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sekhon</surname>
+              <given-names initials="H">Harman</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Senbabaoglu</surname>
+              <given-names initials="Y">Yasin</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Setdikova</surname>
+              <given-names initials="G">Galiya</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shelton</surname>
+              <given-names initials="C">Candace</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shelton</surname>
+              <given-names initials="T">Troy</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shen</surname>
+              <given-names initials="R">Ronglai</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shi</surname>
+              <given-names initials="Y">Yan</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shih</surname>
+              <given-names initials="J">Juliann</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shmulevich</surname>
+              <given-names initials="I">Ilya</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sica</surname>
+              <given-names initials="GL">Gabriel L</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Simons</surname>
+              <given-names initials="JV">Janae V</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Singer</surname>
+              <given-names initials="S">Samuel</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sipahimalani</surname>
+              <given-names initials="P">Payal</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Skelly</surname>
+              <given-names initials="T">Tara</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Socci</surname>
+              <given-names initials="N">Nicholas</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sofia</surname>
+              <given-names initials="HJ">Heidi J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Soloway</surname>
+              <given-names initials="MG">Matthew G</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Spellman</surname>
+              <given-names initials="P">Paul</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sun</surname>
+              <given-names initials="Q">Qiang</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Swanson</surname>
+              <given-names initials="P">Patricia</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tam</surname>
+              <given-names initials="A">Angela</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tan</surname>
+              <given-names initials="D">Donghui</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tarnuzzer</surname>
+              <given-names initials="R">Roy</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Thiessen</surname>
+              <given-names initials="N">Nina</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names initials="E">Eric</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Thorne</surname>
+              <given-names initials="LB">Leigh B</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tong</surname>
+              <given-names initials="P">Pan</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Torres</surname>
+              <given-names initials="KE">Keila E</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>van de Rijn</surname>
+              <given-names initials="M">Matt</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Van Den Berg</surname>
+              <given-names initials="DJ">David J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Van Tine</surname>
+              <given-names initials="BA">Brian A</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Veluvolu</surname>
+              <given-names initials="U">Umadevi</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Verhaak</surname>
+              <given-names initials="R">Roel</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Voet</surname>
+              <given-names initials="D">Doug</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Voronina</surname>
+              <given-names initials="O">Olga</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wan</surname>
+              <given-names initials="Y">Yunhu</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="Z">Zhining</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names initials="J">Jing</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weinstein</surname>
+              <given-names initials="JN">John N</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weisenberger</surname>
+              <given-names initials="DJ">Daniel J</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wilkerson</surname>
+              <given-names initials="MD">Matthew D</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names initials="RK">Richard K</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wise</surname>
+              <given-names initials="L">Lisa</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wong</surname>
+              <given-names initials="T">Tina</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wong</surname>
+              <given-names initials="W">Winghing</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wrangle</surname>
+              <given-names initials="J">John</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names initials="Y">Ye</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wyczalkowski</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names initials="L">Liming</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yau</surname>
+              <given-names initials="C">Christina</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yellapantula</surname>
+              <given-names initials="V">Venkata</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zenklusen</surname>
+              <given-names initials="JC">Jean C</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="J">Jiashan (Julia)</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="H">Hailei</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="H">Hongxin</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zmuda</surname>
+              <given-names initials="E">Erik</given-names>
+            </name>
+          </contrib>
+          <aff id="A1">Cancer Genome Atlas Program Office, National Cancer Institute at NIH, 31 Center Drive, Bldg. 31, Suite 3A20, Bethesda, MD 20892, USA.</aff>
+        </contrib-group>
+        <author-notes>
+          <fn id="FN1">
+            <label>1</label>
+            <p id="P1">Lead Contact: Alexander J Lazar</p>
+          </fn>
+          <fn id="FN2">
+            <label>*</label>
+            <p id="P2">Elizabeth G Demicco (<email>elizabeth.demicco@sinaihealthsystem.ca</email>), Li Ding (<email>lding@wustl.edu</email>), Marc Ladanyi (<email>ladanyim@mskcc.org</email>), Alexander J Lazar (<email>alazar@mdanderson.org</email>), Samuel Singer (<email>singers@mskcc.org</email>)</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="ppub">
+          <day>02</day>
+          <month>11</month>
+          <year>2017</year>
+        </pub-date>
+        <volume>171</volume>
+        <issue>4</issue>
+        <issue-id pub-id-type="pmc-issue-id">301766</issue-id>
+        <fpage>950</fpage>
+        <lpage>965.e28</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>04</day>
+              <month>11</month>
+              <year>2017</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>02</day>
+              <month>11</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>02</day>
+              <month>11</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2025-04-29 22:25:26.643">
+              <day>29</day>
+              <month>04</month>
+              <year>2025</year>
+            </date>
+          </event>
+        </pub-history>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms912614.pdf"/>
+        <abstract id="Abs1">
+          <title>SUMMARY</title>
+          <p id="P3">Sarcomas are a broad family of mesenchymal malignancies exhibiting remarkable histologic diversity. We describe the multi-platform molecular landscape of 206 adult soft tissue sarcomas representing 6 major types. Along with novel insights into the biology of individual sarcoma types, we report three overarching findings: 1) unlike most epithelial malignancies, these sarcomas (excepting synovial sarcoma) are characterized predominantly by copy number changes, with low mutational loads and only a few genes (<italic toggle="yes">TP53, ATRX, RB1</italic>) highly recurrently mutated across sarcoma types, 2) within sarcoma types, genomic and regulomic diversity of driver pathways defines molecular subtypes associated with patient outcome, and 3) the immune microenvironment, inferred from DNA methylation and mRNA profiles, associates with outcome and may inform clinical trials of immune checkpoint inhibitors. Overall, this large-scale analysis reveals previously unappreciated sarcoma type-specific changes in copy number, methylation, RNA, and protein, providing insights into refining sarcoma therapy and relationships to other cancer types.</p>
+        </abstract>
+        <abstract abstract-type="graphical" id="Abs2">
+          <title>ETOC</title>
+          <p id="P4">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="nihms912614u1.jpg"/></p>
+          <p id="P5">Genetic analysis of soft tissue sarcomas shows that they are characterized predominantly by copy number changes and offers insights into the immune microenviroment to inform clinical trials of checkpoint inhibitors.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

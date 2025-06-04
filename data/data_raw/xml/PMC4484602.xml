@@ -1,0 +1,828 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Cell</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Cell</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Cell</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0092-8674</issn>
+        <issn pub-type="epub">1097-4172</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4484602</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4484602.1</article-id>
+        <article-id pub-id-type="pmcaid">4484602</article-id>
+        <article-id pub-id-type="pmcaiid">4484602</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS702018</article-id>
+        <article-id pub-id-type="pmid">26000489</article-id>
+        <article-id pub-id-type="doi">10.1016/j.cell.2015.05.001</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS702018</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA702018</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Integrative clinical genomics of advanced prostate cancer</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dan</surname>
+              <given-names initials="R">Robinson</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN1">43</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Van Allen</surname>
+              <given-names initials="EM">Eliezer M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="author-notes" rid="FN1">43</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names initials="YM">Yi-Mi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schultz</surname>
+              <given-names initials="N">Nikolaus</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A40">40</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lonigro</surname>
+              <given-names initials="RJ">Robert J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mosquera</surname>
+              <given-names initials="JM">Juan-Miguel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Montgomery</surname>
+              <given-names initials="B">Bruce</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Taplin</surname>
+              <given-names initials="ME">Mary-Ellen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pritchard</surname>
+              <given-names initials="CC">Colin C</given-names>
+            </name>
+            <xref ref-type="aff" rid="A26">26</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Attard</surname>
+              <given-names initials="G">Gerhardt</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Beltran</surname>
+              <given-names initials="H">Himisha</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A13">13</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abida</surname>
+              <given-names initials="WM">Wassim M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bradley</surname>
+              <given-names initials="RK">Robert K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vinson</surname>
+              <given-names initials="J">Jake</given-names>
+            </name>
+            <xref ref-type="aff" rid="A15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cao</surname>
+              <given-names initials="X">Xuhong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A42">42</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vats</surname>
+              <given-names initials="P">Pankaj</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kunju</surname>
+              <given-names initials="LP">Lakshmi P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hussain</surname>
+              <given-names initials="M">Maha</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Feng</surname>
+              <given-names initials="FY">Felix Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+            <xref ref-type="aff" rid="A19">19</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tomlins</surname>
+              <given-names initials="SA">Scott A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cooney</surname>
+              <given-names initials="KA">Kathleen A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names initials="DC">David C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brennan</surname>
+              <given-names initials="C">Christine</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Siddiqui</surname>
+              <given-names initials="J">Javed</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mehra</surname>
+              <given-names initials="R">Rohit</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names initials="Y">Yu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+            <xref ref-type="aff" rid="A14">14</xref>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rathkopf</surname>
+              <given-names initials="DE">Dana E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names initials="MJ">Michael J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Solomon</surname>
+              <given-names initials="SB">Stephen B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A21">21</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Durack</surname>
+              <given-names initials="JC">Jeremy C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A21">21</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reuter</surname>
+              <given-names initials="VE">Victor E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A22">22</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gopalan</surname>
+              <given-names initials="A">Anuradha</given-names>
+            </name>
+            <xref ref-type="aff" rid="A22">22</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="J">Jianjiong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A40">40</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Loda</surname>
+              <given-names initials="M">Massimo</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A23">23</xref>
+            <xref ref-type="aff" rid="A39">39</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lis</surname>
+              <given-names initials="RT">Rosina T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A23">23</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bowden</surname>
+              <given-names initials="M">Michaela</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A23">23</xref>
+            <xref ref-type="aff" rid="A39">39</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Balk</surname>
+              <given-names initials="SP">Stephen P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A24">24</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gaviola</surname>
+              <given-names initials="G">Glenn</given-names>
+            </name>
+            <xref ref-type="aff" rid="A25">25</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sougnez</surname>
+              <given-names initials="C">Carrie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gupta</surname>
+              <given-names initials="M">Manaswi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Yu</surname>
+              <given-names initials="EY">Evan Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mostaghel</surname>
+              <given-names initials="EA">Elahe A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cheng</surname>
+              <given-names initials="HH">Heather H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mulcahy</surname>
+              <given-names initials="H">Hyojeong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A27">27</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>True</surname>
+              <given-names initials="LD">Lawrence D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A28">28</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Plymate</surname>
+              <given-names initials="SR">Stephen R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dvinge</surname>
+              <given-names initials="H">Heidi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ferraldeschi</surname>
+              <given-names initials="R">Roberta</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Flohr</surname>
+              <given-names initials="P">Penny</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names initials="S">Susana</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zafeiriou</surname>
+              <given-names initials="Z">Zafeiris</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tunariu</surname>
+              <given-names initials="N">Nina</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mateo</surname>
+              <given-names initials="J">Joaquin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lopez</surname>
+              <given-names initials="RP">Raquel Perez</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Demichelis</surname>
+              <given-names initials="F">Francesca</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A29">29</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Robinson</surname>
+              <given-names initials="BD">Brian D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schiffman</surname>
+              <given-names initials="MA">Marc A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A31">31</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nanus</surname>
+              <given-names initials="DM">David M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A13">13</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tagawa</surname>
+              <given-names initials="ST">Scott T.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A13">13</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sigaras</surname>
+              <given-names initials="A">Alexandros</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A30">30</xref>
+            <xref ref-type="aff" rid="A32">32</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Eng</surname>
+              <given-names initials="KW">Kenneth W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A30">30</xref>
+            <xref ref-type="aff" rid="A32">32</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Elemento</surname>
+              <given-names initials="O">Olivier</given-names>
+            </name>
+            <xref ref-type="aff" rid="A30">30</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sboner</surname>
+              <given-names initials="A">Andrea</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A30">30</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heath</surname>
+              <given-names initials="EI">Elisabeth I.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A33">33</xref>
+            <xref ref-type="aff" rid="A34">34</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scher</surname>
+              <given-names initials="HI">Howard I.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+            <xref ref-type="aff" rid="A20">20</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pienta</surname>
+              <given-names initials="KJ">Kenneth J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A35">35</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kantoff</surname>
+              <given-names initials="P">Philip</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="author-notes" rid="FN2">44</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>de Bono</surname>
+              <given-names initials="JS">Johann S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+            <xref ref-type="author-notes" rid="FN2">44</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rubin</surname>
+              <given-names initials="MA">Mark A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+            <xref ref-type="author-notes" rid="FN2">44</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nelson</surname>
+              <given-names initials="PS">Peter S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A36">36</xref>
+            <xref ref-type="aff" rid="A37">37</xref>
+            <xref ref-type="aff" rid="A38">38</xref>
+            <xref ref-type="author-notes" rid="FN2">44</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Garraway</surname>
+              <given-names initials="LA">Levi A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="author-notes" rid="FN2">44</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sawyers</surname>
+              <given-names initials="CL">Charles L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+            <xref ref-type="aff" rid="A41">41</xref>
+            <xref ref-type="author-notes" rid="FN2">44</xref>
+            <xref ref-type="author-notes" rid="FN3">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chinnaiyan</surname>
+              <given-names initials="AM">Arul M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+            <xref ref-type="aff" rid="A18">18</xref>
+            <xref ref-type="aff" rid="A42">42</xref>
+            <xref ref-type="author-notes" rid="FN2">44</xref>
+            <xref ref-type="author-notes" rid="FN3">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI 48109</aff>
+        <aff id="A2"><label>2</label>Department of Pathology, University of Michigan Medical School, Ann Arbor, MI 48109</aff>
+        <aff id="A3"><label>3</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215</aff>
+        <aff id="A4"><label>4</label>Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142</aff>
+        <aff id="A5"><label>5</label>Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY 10065</aff>
+        <aff id="A6"><label>6</label>Department of Pathology and Laboratory Medicine, Weill Medical College of Cornell University, New York, NY 10021</aff>
+        <aff id="A7"><label>7</label>Institute for Precision Medicine, Weill Medical College of Cornell University, New York, NY 10021</aff>
+        <aff id="A8"><label>8</label>New York Presbyterian Hospital, New York, NY 10021</aff>
+        <aff id="A9"><label>9</label>Computational Biology Program, Public Health Sciences Division and Basic Science Division, Fred Hutchinson Cancer Center, University of Washington, Seattle, WA 98109</aff>
+        <aff id="A10"><label>10</label>Department of Medicine and VAPSHCS, University of Washington, Seattle, WA 98109</aff>
+        <aff id="A11"><label>11</label>Cancer Biomarkers Team, Division of Clinical Studies, The Institute of Cancer Research, Sutton, Surrey, SM2 5NG, UK</aff>
+        <aff id="A12"><label>12</label>Prostate Cancer Targeted Therapy Group and Drug Development Unit, The Royal Marsden NHS Foundation Trust, Sutton, Surrey, SM2 5NG, UK</aff>
+        <aff id="A13"><label>13</label>Department of Medicine, Weill Medical College of Cornell University, New York, NY 10021</aff>
+        <aff id="A14"><label>14</label>Human Oncology and Pathogenesis Oncology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065</aff>
+        <aff id="A15"><label>15</label>Prostate Cancer Clinical Trials Consortium, Memorial Sloan Kettering Cancer Center, New York, NY 10065</aff>
+        <aff id="A16"><label>16</label>Department of Internal Medicine, Division of Hematology Oncology, University of Michigan Medical School, Ann Arbor, MI 48109</aff>
+        <aff id="A17"><label>17</label>Comprehensive Cancer Center, University of Michigan Medical School, Ann Arbor, MI 48109</aff>
+        <aff id="A18"><label>18</label>Department of Urology, University of Michigan Medical School, Ann Arbor, MI 48109</aff>
+        <aff id="A19"><label>19</label>Department of Radiation Oncology, University of Michigan Medical School, Ann Arbor, MI 48109</aff>
+        <aff id="A20"><label>20</label>Genitourinary Oncology Service, Department of Medicine, Sidney Kimmel Center for Prostate and Urologic Cancers, Memorial Sloan Kettering Cancer Center, New York, NY 10065</aff>
+        <aff id="A21"><label>21</label>Interventional Radiology, Department of Radiology Service, Memorial Sloan Kettering Cancer Center, New York, NY 10065</aff>
+        <aff id="A22"><label>22</label>Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY 10065</aff>
+        <aff id="A23"><label>23</label>Center for Molecular Oncologic Pathology, Dana-Farber Cancer Institute, Boston, MA 02215</aff>
+        <aff id="A24"><label>24</label>Division of Hematology-Oncology, Department of Medicine, Beth Israel Deaconess Cancer Center, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA 02215</aff>
+        <aff id="A25"><label>25</label>Department of Musculoskeletal Radiology, Brigham and Women's Hospital, Boston, MA 02115</aff>
+        <aff id="A26"><label>26</label>Department of Laboratory Medicine, University of Washington, Seattle, WA 98109</aff>
+        <aff id="A27"><label>27</label>Department of Radiology, University of Washington, Seattle, WA 98109</aff>
+        <aff id="A28"><label>28</label>Department of Pathology, University of Washington Medical Center, Seattle, WA 98109</aff>
+        <aff id="A29"><label>29</label>Laboratory of Computational Oncology, CIBIO, Centre for Integrative Biology, University of Trento, Italy</aff>
+        <aff id="A30"><label>30</label>Institute for Computational Biomedicine, Department of Physiology and Biophysics, Weill Medical College of Cornell University, New York, NY 10021</aff>
+        <aff id="A31"><label>31</label>Division of Interventional Radiology, Department of Radiology, New York-Presbyterian Hospital/Weill Cornell Medical Center, New York, NY 10021</aff>
+        <aff id="A32"><label>32</label>Department of Physiology &amp; Biophysics, Weill Medical College of Cornell University, New York, NY 10021</aff>
+        <aff id="A33"><label>33</label>Department of Oncology, Wayne State University School of Medicine, Detroit, MI 48201</aff>
+        <aff id="A34"><label>34</label>Molecular Therapeutics Program, Barbara Ann Karmanos Cancer Institute, Detroit, MI 48201</aff>
+        <aff id="A35"><label>35</label>The James Buchanan Brady Urological Institute and Department of Urology, Johns Hopkins School of Medicine, Baltimore, MD 21205</aff>
+        <aff id="A36"><label>36</label>Division of Human Biology, Fred Hutchinson Cancer Research Center, Seattle, WA 98109</aff>
+        <aff id="A37"><label>37</label>Division of Clinical Research, Fred Hutchinson Cancer Research Center, Seattle, WA 98109</aff>
+        <aff id="A38"><label>38</label>Meyer Cancer, Weill Cornell Medical College, New York, NY, 10021</aff>
+        <aff id="A39"><label>39</label>Department of Pathology, Brigham &amp; Women’s Hospital, Boston, MA 02115, USA</aff>
+        <aff id="A40"><label>40</label>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA</aff>
+        <aff id="A41"><label>41</label>Howard Hughes Medical Institute, Memorial Sloan Kettering Cancer Center, New York, NY 10065</aff>
+        <aff id="A42"><label>42</label>Howard Hughes Medical Institute, University of Michigan, Ann Arbor, MI 48109</aff>
+        <author-notes>
+          <corresp id="cor1"><bold>CORRESPONDING AUTHORS:</bold> Arul M. Chinnaiyan, M.D., Ph.D., University of Michigan, 1400 E. Medical Center Dr. 5316 CCC, Ann Arbor, MI 48109-5940, USA; <email>arul@umich.edu</email>, Charles L. Sawyers, Memorial Sloan-Kettering Cancer Center, 1275 York Avenue, New York, New York 10021, USA; <email>sawyersc@mskcc.org</email></corresp>
+          <fn id="FN1">
+            <label>43</label>
+            <p id="P1">Co-First Author</p>
+          </fn>
+          <fn id="FN2">
+            <label>44</label>
+            <p id="P2">Co-Senior Author</p>
+          </fn>
+          <fn id="FN3">
+            <label>*</label>
+            <p id="P3">Co-Corresponding</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="ppub">
+          <day>21</day>
+          <month>5</month>
+          <year>2015</year>
+        </pub-date>
+        <volume>161</volume>
+        <issue>5</issue>
+        <issue-id pub-id-type="pmc-issue-id">254704</issue-id>
+        <fpage>1215</fpage>
+        <lpage>1228</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>24</day>
+              <month>06</month>
+              <year>2015</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>21</day>
+              <month>05</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>21</day>
+              <month>05</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-05 14:06:38.133">
+              <day>05</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms702018.pdf"/>
+        <related-article related-article-type="correction-forward" xml:lang="en" vol="162" page="454"/>
+        <abstract>
+          <title>SUMMARY</title>
+          <p id="P4">Toward development of a precision medicine framework for metastatic, castration resistant prostate cancer (mCRPC), we established a multi-institutional clinical sequencing infrastructure to conduct prospective whole exome and transcriptome sequencing of bone or soft tissue tumor biopsies from a cohort of 150 mCRPC affected individuals. Aberrations of <italic toggle="yes">AR</italic>, ETS genes, <italic toggle="yes">TP53</italic> and <italic toggle="yes">PTEN</italic> were frequent (40–60% of cases), with <italic toggle="yes">TP53</italic> and <italic toggle="yes">AR</italic> alterations enriched in mCRPC compared to primary prostate cancer. We identified novel genomic alterations in <italic toggle="yes">PIK3CA/B</italic>, R-spondin, <italic toggle="yes">BRAF</italic>/<italic toggle="yes">RAF1</italic>, <italic toggle="yes">APC</italic>, β-catenin and <italic toggle="yes">ZBTB16/PLZF</italic>. Aberrations of <italic toggle="yes">BRCA2</italic>, <italic toggle="yes">BRCA1</italic> and <italic toggle="yes">ATM</italic> were observed at substantially higher frequencies (19.3% overall) than seen in primary prostate cancers. 89% of affected individuals harbored a clinically actionable aberration including 62.7% with aberrations in AR, 65% in other cancer-related genes, and 8% with actionable pathogenic germline alterations. This cohort study provides evidence that clinical sequencing in mCRPC is feasible and could impact treatment decisions in significant numbers of affected individuals.</p>
+        </abstract>
+        <kwd-group>
+          <kwd>precision oncology</kwd>
+          <kwd>whole exome sequencing</kwd>
+          <kwd>transcriptome sequencing</kwd>
+          <kwd>prostate cancer genomics</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

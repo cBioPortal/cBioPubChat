@@ -1,0 +1,286 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Cell Syst</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Cell Syst</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Cell systems</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">2405-4712</issn>
+        <issn pub-type="epub">2405-4720</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC6075717</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC6075717.1</article-id>
+        <article-id pub-id-type="pmcaid">6075717</article-id>
+        <article-id pub-id-type="pmcaiid">6075717</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS954142</article-id>
+        <article-id pub-id-type="pmid">29596782</article-id>
+        <article-id pub-id-type="doi">10.1016/j.cels.2018.03.002</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS954142</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA954142</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Scalable Open Science Approach for Mutation Calling of Tumor Exomes Using Multiple Genomic Pipelines</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ellrott</surname>
+              <given-names initials="K">Kyle</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="author-notes" rid="FN1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bailey</surname>
+              <given-names initials="MH">Matthew H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Saksena</surname>
+              <given-names initials="G">Gordon</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Covington</surname>
+              <given-names initials="KR">Kyle R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kandoth</surname>
+              <given-names initials="C">Cyriac</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stewart</surname>
+              <given-names initials="C">Chip</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hess</surname>
+              <given-names initials="J">Julian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ma</surname>
+              <given-names initials="S">Singer</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>McLellan</surname>
+              <given-names initials="M">Michael</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sofia</surname>
+              <given-names initials="HJ">Heidi J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hutter</surname>
+              <given-names initials="C">Carolyn</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wheeler</surname>
+              <given-names initials="D">David</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ding</surname>
+              <given-names initials="L">Li</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <collab>the MC3 Working Group and The Cancer Genome Atlas Research Network The Cancer Genome Atlas Research Network</collab>
+          </contrib>
+        </contrib-group>
+        <aff id="A1">
+<label>1</label>Biomedical Engineering; Oregon Health and Science University; Portland OR 97239, USA</aff>
+        <aff id="A2">
+<label>2</label>Department of Medicine, Washington University in St. Louis, 660 S. Euclid Ave., CB 8066, St. Louis, MO 63110</aff>
+        <aff id="A3">
+<label>3</label>The Eli and Edythe L. Broad Institute of Massachusetts Institute of Technology and Harvard University Cambridge, Massachusetts 02142, USA</aff>
+        <aff id="A4">
+<label>4</label>Baylor College of Medicine Human Genome Sequencing Center, 1 Baylor Plaza, Houston, TX 77030</aff>
+        <aff id="A5">
+<label>5</label>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, NY 10021, USA</aff>
+        <aff id="A6">
+<label>6</label>National Human Genome Research Institute (NHGRI), NIH, Bethesda, MD 20892</aff>
+        <aff id="A7">
+<label>7</label>DNAnexus, 1975 W El Camino Real, Suite 204, Mountain View, CA 94040</aff>
+        <author-notes>
+          <corresp id="FN1"><label>*</label>Corresponding Author and Lead Contact, <email>ellrott@ohsu</email>, <email>ellrott@kellrott</email> (twitter)</corresp>
+        </author-notes>
+        <pub-date pub-type="ppub">
+          <day>28</day>
+          <month>3</month>
+          <year>2018</year>
+        </pub-date>
+        <volume>6</volume>
+        <issue>3</issue>
+        <issue-id pub-id-type="pmc-issue-id">318092</issue-id>
+        <fpage>271</fpage>
+        <lpage>281.e7</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>29</day>
+              <month>06</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>28</day>
+              <month>03</month>
+              <year>2019</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>28</day>
+              <month>03</month>
+              <year>2019</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2025-04-30 05:26:45.323">
+              <day>30</day>
+              <month>04</month>
+              <year>2025</year>
+            </date>
+          </event>
+        </pub-history>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms954142.pdf"/>
+        <abstract id="Abs1">
+          <title>Summary</title>
+          <p id="P1">The Cancer Genome Atlas (TCGA) cancer genomics dataset includes over ten-thousand tumor-normal exome pairs across 33 different cancer types, in total &gt;400 TB of raw data files requiring analysis. Here we describe the Multi-Center Mutation Calling in Multiple Cancers (MC3) project, our effort to generate a comprehensive encyclopedia of somatic mutation calls for the TCGA data to enable robust cross-tumor-type analyses. Our approach accounts for variance and batch effects introduced by the rapid advancement of DNA extraction, hybridization-capture, sequencing, and analysis methods over time. We present best practices for applying an ensemble of seven mutation-calling algorithms with scoring and artifact filtering. The dataset created by this analysis includes 3.5 million somatic variants and forms the basis for PanCan Atlas papers. The results have been made available to the research community along with the methods used to generate them. This project is the result of collaboration from a number of institutes and demonstrates how team science drives extremely large genomics projects.</p>
+        </abstract>
+        <abstract abstract-type="graphical" id="Abs2">
+          <title>Graphical abstract</title>
+          <p id="P2">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="nihms954142u1.jpg"/></p>
+          <p id="P3">The MC3 project is a variant calling of over 10,000 cancer exome samples from 33 cancer types. Over 3 million somatic variants were detected using 7 different methods developed from institutions across the United States. These variants formed the basis for the PanCan Atlas papers.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

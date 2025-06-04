@@ -1,0 +1,521 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Proc Natl Acad Sci U S A</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Proc. Natl. Acad. Sci. U.S.A</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2</journal-id>
+        <journal-id journal-id-type="pmc-domain">pnas</journal-id>
+        <journal-id journal-id-type="publisher-id">PNAS</journal-id>
+        <journal-title-group>
+          <journal-title xml:lang="en">Proceedings of the National Academy of Sciences of the United States of America</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0027-8424</issn>
+        <issn pub-type="epub">1091-6490</issn>
+        <publisher>
+          <publisher-name>National Academy of Sciences</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC3309757</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC3309757.1</article-id>
+        <article-id pub-id-type="pmcaid">3309757</article-id>
+        <article-id pub-id-type="pmcaiid">3309757</article-id>
+        <article-id pub-id-type="pmid">22343534</article-id>
+        <article-id pub-id-type="doi">10.1073/pnas.1121343109</article-id>
+        <article-id pub-id-type="publisher-id">201121343</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Biological Sciences</subject>
+            <subj-group>
+              <subject>Genetics</subject>
+            </subj-group>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Discovery and prioritization of somatic mutations in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lohr</surname>
+              <given-names initials="JG">Jens G.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff2">
+              <sup>b</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stojanov</surname>
+              <given-names initials="P">Petar</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff2">
+              <sup>b</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lawrence</surname>
+              <given-names initials="MS">Michael S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Auclair</surname>
+              <given-names initials="D">Daniel</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chapuy</surname>
+              <given-names initials="B">Bjoern</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff2">
+              <sup>b</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sougnez</surname>
+              <given-names initials="C">Carrie</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cruz-Gordillo</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Knoechel</surname>
+              <given-names initials="B">Birgit</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff2">
+              <sup>b</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff3">
+              <sup>c</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Asmann</surname>
+              <given-names initials="YW">Yan W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff4">
+              <sup>d</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Slager</surname>
+              <given-names initials="SL">Susan L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff4">
+              <sup>d</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Novak</surname>
+              <given-names initials="AJ">Anne J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff4">
+              <sup>d</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Dogan</surname>
+              <given-names initials="A">Ahmet</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff4">
+              <sup>d</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ansell</surname>
+              <given-names initials="SM">Stephen M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff4">
+              <sup>d</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Link</surname>
+              <given-names initials="BK">Brian K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff5">
+              <sup>e</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zou</surname>
+              <given-names initials="L">Lihua</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gould</surname>
+              <given-names initials="J">Joshua</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Saksena</surname>
+              <given-names initials="G">Gordon</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stransky</surname>
+              <given-names initials="N">Nicolas</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rangel-Escareño</surname>
+              <given-names initials="C">Claudia</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff6">
+              <sup>f</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fernandez-Lopez</surname>
+              <given-names initials="JC">Juan Carlos</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff6">
+              <sup>f</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hidalgo-Miranda</surname>
+              <given-names initials="A">Alfredo</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff6">
+              <sup>f</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Melendez-Zajgla</surname>
+              <given-names initials="J">Jorge</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff6">
+              <sup>f</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hernández-Lemus</surname>
+              <given-names initials="E">Enrique</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff6">
+              <sup>f</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schwarz-Cruz y Celis</surname>
+              <given-names initials="A">Angela</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff6">
+              <sup>f</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Imaz-Rosshandler</surname>
+              <given-names initials="I">Ivan</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff6">
+              <sup>f</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ojesina</surname>
+              <given-names initials="AI">Akinyemi I.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jung</surname>
+              <given-names initials="J">Joonil</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pedamallu</surname>
+              <given-names initials="CS">Chandra S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lander</surname>
+              <given-names initials="ES">Eric S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff7">
+              <sup>g</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff8">
+              <sup>h</sup>
+            </xref>
+            <xref ref-type="corresp" rid="cor1">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Habermann</surname>
+              <given-names initials="TM">Thomas M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff4">
+              <sup>d</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cerhan</surname>
+              <given-names initials="JR">James R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff4">
+              <sup>d</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shipp</surname>
+              <given-names initials="MA">Margaret A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff2">
+              <sup>b</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Golub</surname>
+              <given-names initials="TR">Todd R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="aff1">
+              <sup>a</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff2">
+              <sup>b</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff7">
+              <sup>g</sup>
+            </xref>
+            <xref ref-type="aff" rid="aff9">
+              <sup>i</sup>
+            </xref>
+          </contrib>
+          <aff id="aff1"><sup>a</sup><institution>Eli and Edythe Broad Institute</institution>, Cambridge, <addr-line>MA</addr-line> 02412;</aff>
+          <aff id="aff2"><sup>b</sup><institution>Dana–Farber Cancer Institute</institution>, Boston, <addr-line>MA</addr-line> 02115;</aff>
+          <aff id="aff4"><sup>d</sup><institution>Mayo Clinic College of Medicine</institution>, Rochester, <addr-line>MN</addr-line> 55902;</aff>
+          <aff id="aff3"><sup>c</sup><institution>Children's Hospital Boston</institution>, Boston, <addr-line>MA</addr-line> 02115;</aff>
+          <aff id="aff5"><sup>e</sup><institution>University of Iowa College of Medicine</institution>, Iowa City, <addr-line>IA</addr-line> 52245;</aff>
+          <aff id="aff6"><sup>f</sup><institution>Instituto Nacional de Medicina Genómica</institution>, 14610 Mexico DF, <country>Mexico</country>;</aff>
+          <aff id="aff7"><sup>g</sup><institution>Harvard Medical School</institution>, Boston, <addr-line>MA</addr-line> 02115;</aff>
+          <aff id="aff8"><sup>h</sup><institution>Massachusetts Institute of Technology</institution>, Cambridge, <addr-line>MA</addr-line> 02142; and</aff>
+          <aff id="aff9"><sup>i</sup><institution>Howard Hughes Medical Institute</institution>, Chevy Chase, <addr-line>MD</addr-line> 20815</aff>
+        </contrib-group>
+        <author-notes>
+          <corresp id="cor1"><sup>1</sup>To whom correspondence should be addressed. E-mail: <email>lander@broadinstitute.org</email>.</corresp>
+          <fn fn-type="edited-by">
+            <p>Contributed by Eric S. Lander, December 29, 2011 (sent for review November 22, 2011)</p>
+          </fn>
+          <fn fn-type="con">
+            <p>Author contributions: J.G.L., P.S., M.S.L., E.S.L., T.M.H., J.R.C., M.A.S., G.G., and T.R.G. designed research; J.G.L., D.A., C.S., and P.C.-G. performed research; P.S., M.S.L., Y.W.A., S.L.S., A.J.N., A.D., S.M.A., B.K.L., L.Z., J.G., G.S., N.S., A.I.O., J.J., and C.S.P. contributed new reagents/analytic tools; J.G.L., P.S., M.S.L., B.C., C.S., B.K., C.R.-E., J.C.F.-L., A.H.-M., J.M.-Z., E.H.-L., A.S.-C.y.C., and I.I.-R. analyzed data; and J.G.L., P.S., M.S.L., B.K., M.A.S., G.G., and T.R.G. wrote the paper.</p>
+          </fn>
+          <fn fn-type="conflict">
+            <p>The authors declare no conflict of interest.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="ppub">
+          <day>6</day>
+          <month>3</month>
+          <year>2012</year>
+        </pub-date>
+        <pub-date pub-type="epub">
+          <day>17</day>
+          <month>2</month>
+          <year>2012</year>
+        </pub-date>
+        <volume>109</volume>
+        <issue>10</issue>
+        <issue-id pub-id-type="pmc-issue-id">207023</issue-id>
+        <fpage>3879</fpage>
+        <lpage>3884</lpage>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>17</day>
+              <month>02</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>22</day>
+              <month>03</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2013-01-16 16:15:13.910">
+              <day>16</day>
+              <month>01</month>
+              <year>2013</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license license-type="open-access">
+            <license-p>Freely available online through the PNAS open access option.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="pnas.201121343.pdf"/>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="pdf" xlink:href="pnas.201121343.pdf"/>
+        <abstract>
+          <p>To gain insight into the genomic basis of diffuse large B-cell lymphoma (DLBCL), we performed massively parallel whole-exome sequencing of 55 primary tumor samples from patients with DLBCL and matched normal tissue. We identified recurrent mutations in genes that are well known to be functionally relevant in DLBCL, including <italic>MYD88</italic>, <italic>CARD11</italic>, <italic>EZH2</italic>, and <italic>CREBBP</italic>. We also identified somatic mutations in genes for which a functional role in DLBCL has not been previously suspected. These genes include <italic>MEF2B</italic>, <italic>MLL2</italic>, <italic>BTG1</italic>, <italic>GNA13</italic>, <italic>ACTB</italic>, <italic>P2RY8</italic>, <italic>PCLO</italic>, and <italic>TNFRSF14</italic>. Further, we show that <italic>BCL2</italic> mutations commonly occur in patients with <italic>BCL2</italic>/<italic>IgH</italic> rearrangements as a result of somatic hypermutation normally occurring at the <italic>IgH</italic> locus. The <italic>BCL2</italic> point mutations are primarily synonymous, and likely caused by activation-induced cytidine deaminase–mediated somatic hypermutation, as shown by comprehensive analysis of enrichment of mutations in WRCY target motifs. Those nonsynonymous mutations that are observed tend to be found outside of the functionally important BH domains of the protein, suggesting that strong negative selection against <italic>BCL2</italic> loss-of-function mutations is at play. Last, by using an algorithm designed to identify likely functionally relevant but infrequent mutations, we identify <italic>KRAS</italic>, <italic>BRAF</italic>, and <italic>NOTCH1</italic> as likely drivers of DLBCL pathogenesis in some patients. Our data provide an unbiased view of the landscape of mutations in DLBCL, and this in turn may point toward new therapeutic strategies for the disease.</p>
+        </abstract>
+        <kwd-group>
+          <kwd>next-generation sequencing</kwd>
+          <kwd>human genetics</kwd>
+          <kwd>activation-induced deaminase</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+  </article>
+</pmc-articleset>

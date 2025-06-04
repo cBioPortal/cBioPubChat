@@ -1,0 +1,1378 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8933489</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8933489.1</article-id>
+        <article-id pub-id-type="pmcaid">8933489</article-id>
+        <article-id pub-id-type="pmcaiid">8933489</article-id>
+        <article-id pub-id-type="pmid">35304457</article-id>
+        <article-id pub-id-type="doi">10.1038/s41467-022-28848-x</article-id>
+        <article-id pub-id-type="publisher-id">28848</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>The evolution of RET inhibitor resistance in RET-driven lung and thyroid cancers</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Rosen</surname>
+              <given-names initials="EY">Ezra Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Won</surname>
+              <given-names initials="HH">Helen H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4507-2708</contrib-id>
+            <name name-style="western">
+              <surname>Zheng</surname>
+              <given-names initials="Y">Youyun</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1397-2656</contrib-id>
+            <name name-style="western">
+              <surname>Cocco</surname>
+              <given-names initials="E">Emiliano</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Selcuklu</surname>
+              <given-names initials="D">Duygu</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gong</surname>
+              <given-names initials="Y">Yixiao</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Friedman</surname>
+              <given-names initials="ND">Noah D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5427-4750</contrib-id>
+            <name name-style="western">
+              <surname>de Bruijn</surname>
+              <given-names initials="I">Ino</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9726-9441</contrib-id>
+            <name name-style="western">
+              <surname>Sumer</surname>
+              <given-names initials="O">Onur</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bielski</surname>
+              <given-names initials="CM">Craig M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Savin</surname>
+              <given-names initials="C">Casey</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bourque</surname>
+              <given-names initials="C">Caitlin</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Falcon</surname>
+              <given-names initials="C">Christina</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Clarke</surname>
+              <given-names initials="N">Nikeysha</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jing</surname>
+              <given-names initials="X">Xiaohong</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meng</surname>
+              <given-names initials="F">Fanli</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zimel</surname>
+              <given-names initials="C">Catherine</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shifman</surname>
+              <given-names initials="S">Sophie</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kittane</surname>
+              <given-names initials="S">Srushti</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3960-320X</contrib-id>
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names initials="F">Fan</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ladanyi</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ebata</surname>
+              <given-names initials="K">Kevin</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kherani</surname>
+              <given-names initials="J">Jennifer</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Brandhuber</surname>
+              <given-names initials="BJ">Barbara J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2365-2517</contrib-id>
+            <name name-style="western">
+              <surname>Fagin</surname>
+              <given-names initials="J">James</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sherman</surname>
+              <given-names initials="EJ">Eric J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rekhtman</surname>
+              <given-names initials="N">Natasha</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3882-5000</contrib-id>
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scaltriti</surname>
+              <given-names initials="M">Maurizio</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+            <xref ref-type="aff" rid="Aff9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8150-9762</contrib-id>
+            <name name-style="western">
+              <surname>Hyman</surname>
+              <given-names initials="DM">David M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names initials="BS">Barry S.</given-names>
+            </name>
+            <address>
+              <email>taylor.lab.msk@gmail.com</email>
+            </address>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+            <xref ref-type="aff" rid="Aff8">8</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6806-9061</contrib-id>
+            <name name-style="western">
+              <surname>Drilon</surname>
+              <given-names initials="A">Alexander</given-names>
+            </name>
+            <address>
+              <email>drilona@mskcc.org</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Medicine, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Marie-Josee and Henry R. Kravis Center for Molecular Oncology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Pathology, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Human Oncology and Pathogenesis Program, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.26790.3a</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8606</institution-id><institution>University of Miami, Miller School of Medicine, </institution><institution>Department of Biochemistry and Molecular Biology/Sylvester Comprehensive Cancer Center, </institution></institution-wrap>Miami, FL USA </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.51462.34</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9952</institution-id><institution>Department of Epidemiology and Biostatistics, </institution><institution>Memorial Sloan Kettering Cancer Center, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution>Weill Cornell Medical College, </institution></institution-wrap>New York, NY USA </aff>
+          <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.511691.b</institution-id><institution>Present Address: Loxo Oncology at Lilly, </institution></institution-wrap>Stamford, CT USA </aff>
+          <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.418152.b</institution-id><institution-id institution-id-type="ISNI">0000 0004 0543 9493</institution-id><institution>Present Address: AstraZeneca, </institution></institution-wrap>Waltham, MA USA </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>18</day>
+          <month>3</month>
+          <year>2022</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2022</year>
+        </pub-date>
+        <volume>13</volume>
+        <issue-id pub-id-type="pmc-issue-id">397308</issue-id>
+        <elocation-id>1450</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>19</day>
+            <month>2</month>
+            <year>2021</year>
+          </date>
+          <date date-type="accepted">
+            <day>11</day>
+            <month>2</month>
+            <year>2022</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>18</day>
+              <month>03</month>
+              <year>2022</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>04</month>
+              <year>2022</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2022-04-09 00:16:48.030">
+              <day>09</day>
+              <month>04</month>
+              <year>2022</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2022, corrected publication 2022</copyright-statement>
+          <license>
+            <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2022_Article_28848.pdf"/>
+        <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="correction-forward" xml:lang="en" xlink:title="correction" journal-id="Nat Commun" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC8983712">
+          <article-title>Author Correction: The evolution of RET inhibitor resistance in RET-driven lung and thyroid cancers</article-title>
+          <volume>13</volume>
+          <date>
+            <day>5</day>
+            <month>4</month>
+            <year>2022</year>
+          </date>
+          <elocation-id>1936</elocation-id>
+          <source>Nature Communications</source>
+          <pub-id pub-id-type="pmcid">PMC8983712</pub-id>
+          <pub-id pub-id-type="pmid">35383193</pub-id>
+        </related-article>
+        <abstract id="Abs1">
+          <p id="Par1">The efficacy of the highly selective RET inhibitor selpercatinib is now established in <italic toggle="yes">RET</italic>-driven cancers, and we sought to characterize the molecular determinants of response and resistance. We find that the pre-treatment genomic landscape does not shape the variability of treatment response except for rare instances of RAS-mediated primary resistance. By contrast, acquired selpercatinib resistance is driven by MAPK pathway reactivation by one of two distinct routes. In some patients, on- and off-target pathway reactivation via secondary <italic toggle="yes">RET</italic> solvent front mutations or <italic toggle="yes">MET</italic> amplifications are evident. In other patients, rare <italic toggle="yes">RET</italic>-wildtype tumor cell populations driven by an alternative mitogenic driver are selected for by treatment. Multiple distinct mechanisms are often observed in the same patient, suggesting polyclonal resistance may be common. Consequently, sequential RET-directed therapy may require combination treatment with inhibitors targeting alternative MAPK effectors, emphasizing the need for prospective characterization of selpercatinib-treated tumors at the time of monotherapy progression.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">The results of the phase 1/2 LIBRETTO-001 clinical trial has recently established the efficacy of the RET inhibitor selpercatinib in RET-driven cancers. Here, the authors characterize the molecular determinants of response and resistance in 72 LIBRETTO-001 lung and thyroid cancer patients treated at a single site.</p>
+        </abstract>
+        <kwd-group kwd-group-type="npg-subject">
+          <title>Subject terms</title>
+          <kwd>Oncogenes</kwd>
+          <kwd>Cancer genomics</kwd>
+          <kwd>Cancer therapeutic resistance</kwd>
+        </kwd-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution-wrap>
+                <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000054</institution-id>
+                <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>CA009512</award-id>
+            <award-id>CA008748</award-id>
+            <award-id>CA160001</award-id>
+            <award-id>CA207244</award-id>
+            <award-id>CA204749</award-id>
+            <award-id>CA245069</award-id>
+            <award-id>CA251591</award-id>
+            <principal-award-recipient>
+              <name name-style="western">
+                <surname>Rosen</surname>
+                <given-names>Ezra Y.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cocco</surname>
+                <given-names>Emiliano</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>Barry S.</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Drilon</surname>
+                <given-names>Alexander</given-names>
+              </name>
+            </principal-award-recipient>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>MSK scholar prize</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <funding-group>
+          <award-group>
+            <funding-source>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute (NCI)</institution>
+            </funding-source>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2022</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par3">Activating <italic toggle="yes">RET</italic> fusions or mutations drive oncogenic signaling in lung, thyroid, and other cancers. Oncogenic RET proteins occur via two primary mechanisms. First, gene fusions that contain the RET kinase domain produce constitutively active chimeric RET homodimers that drive cancer growth, and these fusions are most commonly present in non-small cell lung cancers and in papillary thyroid cancers. Second, somatic or germline point mutations in the kinase domain of RET result in aberrant RET kinase activation, causing medullary thyroid cancer.</p>
+        <p id="Par4">The treatment of these patients with existing RET inhibitors (multikinase agents) yields only modest benefit and substantial toxicity. Selpercatinib is now established as one of two first-in-class FDA approved selective RET inhibitors for lung and thyroid cancers with RET mutations or fusions. Selpercatinib has shown unprecedented efficacy in RET-fusion-driven lung cancers with an objective response rate (ORR) of 64% (85% in previously untreated patients)<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, while in RET-altered thyroid cancer patients who had previously received cabozantinib, vandetanib, or both, the ORR was 69%<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. While these clinical responses to selpercatinib are impressive, the differential response to selpercatinib remains unexplained. In addition, while in vitro work has been performed predicting activation of oncogenic pathways including RAS/MAPK signaling as a mechanism of resistance to selective RET inhibition<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>, the precise description of these resistance mechanisms in treated patients remain largely unknown. Further, resistance to tyrosine kinase inhibitors is universal, therefore we anticipate emergence of resistance to selpercatinib in all treated patients.</p>
+        <p id="Par5">In this work, we characterize the genomic determinants of response and resistance to selpercatinib. We find that the variability of treatment response is not affected by pre-treatment genomics, except in rare cases of RAS-mediated primary resistance. While diverse PI3K alterations can pre-exist and emerge on therapy, their temporal and response dynamics are inconsistent with therapeutic resistance. Conversely, MAPK pathway reactivation drives selpercatinib resistance either by (1) secondary <italic toggle="yes">RET</italic> solvent front mutations or <italic toggle="yes">MET</italic> amplifications, or (2) selection for <italic toggle="yes">RET</italic>-wild-type tumor cell populations characterized by an alternative driver. The emergence of these acquired MAPK pathway mutations suggests that later lines of therapy for RET-driven cancers may require strategies combining next-generation RET inhibitors with inhibitors targeting specific nodes in the MAPK pathway. Collectively, the pattern of resistance observed in <italic toggle="yes">RET</italic>-driven tumors demonstrates the intrinsic MAPK dependence of RET-altered cancers.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Baseline patient attributes and response to selpercatinib</title>
+          <p id="Par6">To identify the determinants of response and resistance to RET inhibitor therapy in patients with <italic toggle="yes">RET</italic>-dependent cancers, we characterized pre-treatment and post-progression tumor biopsies and plasma cell-free DNA (cfDNA) specimens collected from 72 patients treated with the selective RET inhibitor selpercatinib on LIBRETTO-001, a registrational phase 1/2 trial (see “Methods”, Supplemental Fig. <xref rid="MOESM1" ref-type="media">1</xref>). All patients had tumors harboring either a <italic toggle="yes">RET</italic> fusion, germline pathogenic variant, or somatic activating substitution or small in-frame insertion or deletion. Among <italic toggle="yes">RET</italic> fusion-positive cancers, lung adenocarcinomas predominated (81%), followed by papillary thyroid cancers (12%), and finally a variety of five other unique cancer types (Fig. <xref rid="Fig1" ref-type="fig">1a</xref> and Supplemental Table <xref rid="MOESM1" ref-type="media">1</xref>). Fusions involved a diversity of upstream partners and all retained the full RET kinase domain, with a subset also retaining regions of either the RET transmembrane or cysteine-rich domains (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). There was no statistically significant difference in treatment response as a function of the <italic toggle="yes">RET</italic> fusion partner. All patients with <italic toggle="yes">RET</italic> mutations had medullary thyroid cancer (MTC). All somatic mutations were either statistically significant hotspot mutations identified from computational analysis of 31,447 sequenced cancers (see “Methods”) or previously established oncogenic alleles<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. All germline <italic toggle="yes">RET</italic> carriers had known pathogenic variants previously associated with increased heritable risk of medullary thyroid cancer (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>).<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><title>RET inhibition in RET-mutant solid cancers.</title><p><bold>a</bold> The distribution of <italic toggle="yes">RET</italic> fusions and mutations (somatic or germline) in the study cohort by affected cancer type. PD, poorly differentiated; LCNEC, large cell neuroendocrine carcinoma of the lung; non-LCH, non-Langerhans cell histiocytosis of the skin; HGNEC, high-grade neuroendocrine carcinoma of the rectum. <bold>b</bold> The structure of all unique <italic toggle="yes">RET</italic> fusions in the study cohort (at right, number of affected cases). In light gray is the sequence from the indicated fusion partner. Red line demarcates fusion breakpoint. <bold>c</bold> Somatic mutations and germline variants (top and bottom, respectively) in two key regions of <italic toggle="yes">RET</italic> (left and right, respectively) in 31,447 prospectively sequenced human cancers. Labeled mutations correspond to enrolled patients. The mutational origin is indicated by the legend. Protein domains colored and indicated as in panel (<bold>b</bold>). <bold>d</bold> The clinical response of patients with <italic toggle="yes">RET</italic>-fusion or -mutant tumors to selpercatinib therapy is shown.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e746" position="float" orientation="portrait" xlink:href="41467_2022_28848_Fig1_HTML.jpg"/></fig></p>
+          <p id="Par7">In total, 19 patients received selpercatinib as their first line of therapy. Among the 53 remaining previously treated patients, 29 (55%) had received prior multi-targeted kinase inhibitor (MKI) therapy (Supplemental Tables <xref rid="MOESM1" ref-type="media">1</xref> and <xref rid="MOESM1" ref-type="media">2</xref>). Selpercatinib efficacy was evident independent of either tissue of origin, alteration type (fusion versus mutation), or prior MKI exposure (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>). The overall response rate according to RECIST version 1.1 per investigator assessment was 67% and 58% in the <italic toggle="yes">RET</italic> fusion-positive and <italic toggle="yes">RET</italic>-mutant cancers, respectively. Responses were durable, with 82% of patients ongoing on selpercatinib treatment at 1 year. At the time of data analysis, 47 patients remained on protocol therapy. These data are representative of the broader efficacy experience of selpercatinib which has been separately reported<sup><xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR5">5</xref></sup>. Given the similar treatment outcomes across tumor types and alteration classes, <italic toggle="yes">RET</italic>-mutant and fusion-positive patients were combined for all subsequent molecular analyses.</p>
+        </sec>
+        <sec id="Sec4">
+          <title>Pre-treatment genomic profile and response to selpercatinib</title>
+          <p id="Par8">To assess whether the pre-treatment genomic profile of tumors shaped the initial sensitivity to selpercatinib, we performed targeted (<italic toggle="yes">n</italic> = 51) and/or whole-exome sequencing of tumor tissue (<italic toggle="yes">n</italic> = 44) acquired prior to treatment. The landscape of pre-existent genomic alterations overall reflected underlying tumor lineage. Among <italic toggle="yes">RET</italic>-mutant MTCs, five germline carriers were enrolled in addition to other somatic mutant cases, but an insufficient number of germline patients were treated to rigorously assess differences in response (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>). In lung cancers harboring <italic toggle="yes">RET</italic> fusions, concurrent MAPK-activating alterations were not observed in tumor tissue, consistent with prior reports suggesting <italic toggle="yes">RET</italic> fusions are mutually exclusive with other mitogenic drivers<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Of note, patients with concurrent <italic toggle="yes">TP53</italic> mutations (<italic toggle="yes">n</italic> = 8, all with <italic toggle="yes">RET</italic> fusions) had shorter median PFS (HR = 3.5, 95% CI 1.3–9.7, <italic toggle="yes">P</italic> = 0.016; Supplemental Fig. <xref rid="MOESM1" ref-type="media">2a</xref>). Beyond <italic toggle="yes">TP53</italic>, there was no other pre-treatment co-mutation pattern associated with differential response to selpercatinib (Fig. <xref rid="Fig2" ref-type="fig">2a</xref> and Supplemental Fig. <xref rid="MOESM1" ref-type="media">3</xref>). Broader whole-exome sequencing of pre-treatment tumors in 44 patients indicated a landscape of mutational signatures consisting predominantly of age, APOBEC, MMR etiologies as well as a smoking signature in select <italic toggle="yes">RET</italic> fusion-positive lung cancers with a history of smoking, but was otherwise unremarkable (Supplemental Table <xref rid="MOESM1" ref-type="media">3</xref>). There was no apparent association between either tumor mutational burden or the degree of subclonal heterogeneity with the depth or durability of selpercatinib response (see “Methods”, <italic toggle="yes">P</italic> &gt; 0.4 for all comparisons; Supplemental Fig. <xref rid="MOESM1" ref-type="media">4a–c</xref>).<fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><title>Determinants of initial sensitivity to RET inhibitor therapy.</title><p><bold>a</bold> The genomic landscape of tumors acquired prior to selpercatinib treatment (dark and light gray, evaluated and no alterations observed). <bold>b</bold> Clinical benefit from selpercatinib treatment in patients with or without (no or minimal) evidence of tumor shedding in cfDNA (blue and red, respectively). <italic toggle="yes">P</italic> as indicated, likelihood ratio test. <bold>c</bold> The percent reduction in the mutant allele fraction of the enrolling <italic toggle="yes">RET</italic> alteration from baseline to the first time point after the start of treatment. Black line is the median (82.5%) reduction in all evaluable patients, the diamond is a single patient with an increased plasma frequency of <italic toggle="yes">RET</italic> after treatment initiation (patient had partial response lasting nearly a year, but second time point collected three weeks after progression). <bold>d</bold> In plasma, the percent reduction in the frequency of the <italic toggle="yes">RET</italic> enrolling alteration alongside the additional <italic toggle="yes">RET</italic> lesion present prior to selpercatinib therapy due to prior MKI therapy. <bold>e</bold> Two patients with primary resistance to selpercatinib in whom plasma cfDNA profiling at baseline identified <italic toggle="yes">KRAS</italic> mutations not detected by tumor tissue sequencing and presumed in distinct cancer populations (shading signifies the minimum and maximum allele frequency detected in each independent subclone) from the sensitizing <italic toggle="yes">RET</italic> fusion, which decreases upon treatment initiations.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e890" position="float" orientation="portrait" xlink:href="41467_2022_28848_Fig2_HTML.jpg"/></fig></p>
+          <p id="Par9">Pre-treatment circulating tumor-derived cell-free DNA (cfDNA) was sequenced in 68 of 72 cases using an ultra-deep and error-corrected sequencing assay targeting select exons of 129 key cancer genes. Plasma profiling detected the qualifying <italic toggle="yes">RET</italic> alteration in 95% (18/19) of <italic toggle="yes">RET</italic>-mutant cases (5 germline, 13 somatic) and in 74% (36/49) <italic toggle="yes">RET</italic> fusion-positive cases (Supplemental Fig. <xref rid="MOESM1" ref-type="media">5a</xref>). In five of the 14 patients in whom the <italic toggle="yes">RET</italic> alteration was not detected (four fusions and one mutation), no other mutations were detected at the limit of assay sensitivity (0.1%), potentially suggesting that a lack of shedding of tumor-derived DNA explains the discordance in these cases. In the other nine cases (all fusions), the mutant allele fraction of other detected mutations was low (0.1–0.8% allelic frequencies, 1–3 mutations per patient detected), suggesting that a minimal burden of tumor-derived cfDNA in circulation combined with potentially lower sensitivity for fusion detection explained observed discordance (Supplemental Fig. <xref rid="MOESM1" ref-type="media">5b, c</xref>, Supplemental Fig. <xref rid="MOESM1" ref-type="media">6</xref>). Notably, patients with no evidence or low rates of tumor shedding in baseline plasma presented with a lower burden of disease prior to treatment as measured by RECIST (<italic toggle="yes">P</italic> = 0.02, Supplemental Fig. <xref rid="MOESM1" ref-type="media">5d</xref>) and had superior progression-free survival on selpercatinib therapy (HR = 3.7, 95% CI 1.1–12.4, <italic toggle="yes">P</italic> = 0.013, likelihood ratio test; Fig. <xref rid="Fig2" ref-type="fig">2b</xref>). Among patients followed longitudinally by cfDNA (<italic toggle="yes">n</italic> = 23), the mutant allele frequency of the qualifying <italic toggle="yes">RET</italic> alteration (fusions or mutations) decreased in all but one evaluable patient (median 82.5% decrease, Fig. <xref rid="Fig2" ref-type="fig">2c</xref>). These data suggest that serial plasma ctDNA measurements can be used as a surrogate for molecular target engagement in treated patients.</p>
+        </sec>
+        <sec id="Sec5">
+          <title>The impact of prior therapy and sensitivity to selpercatinib</title>
+          <p id="Par10">We next sought to determine the impact of prior therapy on the initial sensitivity and molecular dynamics of selpercatinib treatment. In total, 29 patients were previously treated with MKIs vandetanib, cabozantinib, or RXDX-105. Prior exposure to these agents did not alter subsequent outcomes with selpercatinib (HR = 1.2, 95% CI 0.6–2.6, <italic toggle="yes">P</italic> = 0.6, Supplemental Fig. <xref rid="MOESM1" ref-type="media">2b</xref>). However, among patients previously treated with MKIs, baseline plasma profiling revealed coincident secondary <italic toggle="yes">RET</italic> mutations in addition to the primary documented <italic toggle="yes">RET</italic> driver that led to trial enrollment in four MTC patients (Supplemental Tables <xref rid="MOESM1" ref-type="media">2</xref> and <xref rid="MOESM1" ref-type="media">4</xref>). In these 4 patients, the secondary <italic toggle="yes">RET</italic> mutations were all previously established activating mutations including V804M (<italic toggle="yes">n</italic> = 2) and G601E, K666E, and D898Y (1 each). Unlike the antecedent germline or somatic <italic toggle="yes">RET</italic> mutations that led to trial enrollment, all four activating alleles were detected only in plasma and at low frequencies (0.65–7%). Despite this prior therapy-mediated serial genetic evolution of <italic toggle="yes">RET</italic>, the plasma frequency of both the enrolling and secondary <italic toggle="yes">RET</italic> mutations decreased with selpercatinib treatment in all patients, indicating that the tumor cell with both <italic toggle="yes">RET</italic> alterations remained sensitive to RET inhibition (Fig. <xref rid="Fig2" ref-type="fig">2d</xref>). Among MKI-naive patients, only 1 of 19 had a secondary <italic toggle="yes">RET</italic> mutation, a T1078M variant of uncertain significance and presumed a passenger mutation.</p>
+        </sec>
+        <sec id="Sec6">
+          <title>Mechanisms of primary resistance to selpercatinib</title>
+          <p id="Par11">As secondary <italic toggle="yes">RET</italic> mutations identified after prior MKI therapy did not preclude response, we sought to identify alternative potential mechanisms of primary resistance to selpercatinib. In total, 11 patients harbored PI3K pathway lesions including two patients for whom pre-treatment tumor tissue sequencing identified <italic toggle="yes">PTEN</italic> loss-of-function mutations (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>), and nine patients for whom baseline plasma sequencing identified additional <italic toggle="yes">PTEN</italic> or <italic toggle="yes">PIK3CA</italic> mutations (Supplemental Fig. <xref rid="MOESM1" ref-type="media">7a</xref>). The patients harboring PI3K pathway alterations had a clinical benefit rate of 91% on selpercatinib (see “Methods”), indicating that these co-alterations did not preclude disease control, though longer clinical follow-up on larger groups of patients will be necessary to definitively establish the effect of PI3K alterations on efficacy (Supplemental Fig. <xref rid="MOESM1" ref-type="media">7a, b</xref>). Moreover, in three PI3K co-mutant patients for whom longitudinal cfDNA was profiled, the PI3K activating mutation decreased upon treatment initiation with a magnitude similar to that of the <italic toggle="yes">RET</italic> sensitizing alteration (Supplemental Fig. <xref rid="MOESM1" ref-type="media">7c</xref>). By contrast, in two patients with primary resistance to selpercatinib, pre-treatment plasma sequencing revealed <italic toggle="yes">KRAS</italic> mutations (G12D and G12V) shedding into circulation at low allele frequencies otherwise not detected by tumor tissue profiling, suggesting inter-tumoral heterogeneity and limitations of bulk tissue sequencing (Fig. <xref rid="Fig2" ref-type="fig">2e</xref>). In both patients, the <italic toggle="yes">RET</italic> fusion decreased in frequency upon selpercatinib treatment, indicating therapeutic target engagement in that tumor cell population, with one patient indeed showing a mixed response on their first scan. Concurrently, the KRAS-mutant allele fraction conversely increased in allele frequency at the time of progression in both cases. While not definitively establishing the absence of a double-positive cell population, we confirmed reduced levels of inhibition as shown by higher levels of phosphorylated ERK in selpercatinib-treated cells co-expressing the observed <italic toggle="yes">KRAS</italic> alleles, (Supplemental Fig. <xref rid="MOESM1" ref-type="media">8</xref>), indicating the existence of distinct cancer cell populations from the sensitizing <italic toggle="yes">RET</italic> alteration. Collectively, these data suggest that multiple tumor clones with distinct mitogenic drivers (either <italic toggle="yes">RET</italic> or <italic toggle="yes">KRAS</italic>) may co-exist at baseline, each shedding into circulation at different rates, ultimately leading to either short duration of at-best mixed response or primary resistance (Fig. <xref rid="Fig2" ref-type="fig">2e</xref>). Therefore, despite there being no relationship between pre-treatment intratumoral heterogeneity assessed from tumor tissue and response to treatment, plasma sequencing, although inapt for the comprehensive landscape of evolutionary genomics, identified occult heterogeneity that was variably associated with treatment response and demonstrated the impact of the breadth and type of prospective clinical genomics to guide trial enrollment.</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Determinants of acquired resistance to selpercatinib</title>
+          <p id="Par12">Based in part on these instances of mechanism-based primary resistance, we sought to more broadly establish the determinants of acquired resistance to selpercatinib. In 18 of 27 patients who had progressed on selpercatinib, adequate pre- and post-progression tumor or longitudinal plasma specimens existed for sequencing (see “Methods”, Supplemental Fig. <xref rid="MOESM1" ref-type="media">1</xref>, Supplemental Table <xref rid="MOESM1" ref-type="media">5</xref>). Overall, we identified a genetically driven mechanism of resistance in 11 of 18 evaluable progressing patients. Three patients developed on-target resistance with the emergence of secondary <italic toggle="yes">RET</italic> mutations, of which multiple were identified in individual subclones in the same patient (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). Specifically, two patients with truncal <italic toggle="yes">KIF5B-RET</italic> fusions developed <italic toggle="yes">RET</italic> solvent front mutations (G810C or G810S), consistent with our prior case series demonstrating bulky substitution at this residue leads to steric hindrance with available selective RET inhibitors<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. The third <italic toggle="yes">RET</italic> M918T-mutant medullary thyroid cancer patient in whom we detected a gatekeeper V804M mutation at baseline subsequently developed an acquired Y806C mutation in cis (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). Selpercatinib binds the pocket adjacent to V804 and Y806 and is thought to maintain binding activity against either mutation alone. We hypothesized that in tumor cells with the <italic toggle="yes">cis</italic> composite mutation of both residues, however, selpercatinib binding is unaccommodated by the altered pocket (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>). To test this hypothesis, we expressed each of these <italic toggle="yes">RET</italic> mutations alone or in combination in 293T cells and assessed the dose-dependent effect of selpercatinib on signaling. While expressing double in cis RET mutants reduced sensitivity to lower concentrations of selpercatinib, the compound triple mutant (M918T/V804M/Y806C) that emerged on therapy abrogated the effect of selpercatinib on phosphorylated RET and ERK (Fig. <xref rid="Fig3" ref-type="fig">3d</xref>). These in vitro experimental, structural, genomic, and clinical data indicate that the serial genetic evolution of mutant <italic toggle="yes">RET</italic> can lead to selpercatinib resistance in patients. This emergence of multiple <italic toggle="yes">RET</italic> mutations expands on a pattern recently observed in ALK-driven lung cancers with sequentially more potent ALK inhibitors, whereby compound mutations confer a similar response liability<sup><xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR8">8</xref></sup>.<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><title>Mechanisms of RET inhibitor resistance.</title><p><bold>a</bold> Selpercatinib-treated patients with either primary resistance, oligo-progression, or acquired resistance are shown indicating the duration of treatment response (arrows: ongoing) along with plasma sequencing time points and identified mechanism(s) of resistance (see legend). <bold>b</bold> Plasma <italic toggle="yes">RET</italic> M918T, V804M, and V806C mutant allele frequencies (top) and sequencing reads reflecting <italic toggle="yes">cis</italic>-acting mutants at progression timepoint (bottom). <bold>c</bold> The structure of <italic toggle="yes">RET</italic> bound by selpercatinib (as indicated) with <italic toggle="yes">cis</italic> V804M and Y806C composite mutations. <bold>d</bold> In 293T cells, expressing double in <italic toggle="yes">cis</italic> mutants (<italic toggle="yes">RET</italic> V804M/Y806C) reduced sensitivity to selpercatinib as measured by the dose-dependent decrease of both pRET and pERK by western blot. The triple <italic toggle="yes">cis</italic> mutant <italic toggle="yes">RET</italic> M918T/V804M/Y806C was resistant to selpercatinib (<italic toggle="yes">n</italic> = 2 experiments). <bold>e</bold> Longitudinal plasma cfDNA profiling indicates the <italic toggle="yes">RET</italic> fusion-positive and <italic toggle="yes">PIK3CA</italic>-mutant clone responding with a likely <italic toggle="yes">RET</italic>-wild-type <italic toggle="yes">KRAS</italic> G12V subclone emerging at resistance (independent cellular populations represented by shading which signifies the minimum and maximum allele frequency detected in each independent subclone). <bold>f</bold> As in panel (<bold>e</bold>) but for a patient with a subclonal <italic toggle="yes">MET</italic> amplification (green) that is selected for by selpercatinib therapy despite reduction of the <italic toggle="yes">RET</italic> fusion in plasma. Subsequent combined <italic toggle="yes">MET</italic> and <italic toggle="yes">RET</italic> inhibition selects for the outgrowth of a <italic toggle="yes">BRAF</italic> D594N-mutant subclone. <bold>g</bold> As in panel (<bold>e</bold>) but for a patient with a complex pattern of polyclonal resistance with cell populations emerging mediated by distinct and non-overlapping on-target and bypass mechanisms of selpercatinib resistance.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1202" position="float" orientation="portrait" xlink:href="41467_2022_28848_Fig3_HTML.jpg"/></fig></p>
+          <p id="Par13">By contrast, emergent MAPK-activating alterations similar to those mediating primary resistance indicated that bypass signaling was another important mechanism of selpercatinib resistance. Overall, seven patients acquired <italic toggle="yes">KRAS</italic> (G12A/R/V, G13D, A59del), <italic toggle="yes">NRAS</italic> (G13D, Q61R), or <italic toggle="yes">BRAF</italic> activating mutations or <italic toggle="yes">MET</italic> or <italic toggle="yes">FGFR1</italic> amplifications (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>, Supplemental Table <xref rid="MOESM1" ref-type="media">5</xref>). Typical among these was a <italic toggle="yes">KIF5B-RET</italic> fusion-positive lung cancer patient for whom a <italic toggle="yes">KRAS</italic> G12V mutation was not detected in either baseline tissue or plasma but emerged on therapy (Fig. <xref rid="Fig3" ref-type="fig">3e</xref>). Notably, the frequency of the <italic toggle="yes">RET</italic> fusion in plasma at progression was still 85% lower than the pre-treatment baseline while the <italic toggle="yes">KRAS</italic> mutation was simultaneously growing out. This suggests that the <italic toggle="yes">RET</italic> fusion and <italic toggle="yes">KRAS</italic> mutation were likely not present in the same cell population and selpercatinib created a selective pressure that eliminated the still-sensitive <italic toggle="yes">RET</italic> fusion-positive cells but fostered the resistant <italic toggle="yes">KRAS</italic>-mutant cell population (Fig. <xref rid="Fig3" ref-type="fig">3e</xref>). This pattern is consistent with that observed in the few patients to exhibit primary resistance (Fig. <xref rid="Fig2" ref-type="fig">2d</xref>).</p>
+          <p id="Par14">Beyond mutant RAS, <italic toggle="yes">MET</italic> amplifications were observed in multiple progressing patients after only modest and short-lived responses to selpercatinib (PFS of less than or equal to 6 months), consistent with prior reports<sup><xref ref-type="bibr" rid="CR9">9</xref>, <xref ref-type="bibr" rid="CR10">10</xref></sup>. In one patient, pre-treatment tissue sequencing revealed a subclonal <italic toggle="yes">MET</italic> amplification which grew out upon selpercatinib treatment. Testing the clinical hypothesis that combination therapy may re-sensitize this patient, they were subsequently treated with and re-responded to the combination of selpercatinib and the <italic toggle="yes">MET</italic> inhibitor crizotinib<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Treatment was discontinued after four months due to an unrelated adverse event. However, plasma sequencing during combination therapy revealed an emerging <italic toggle="yes">BRAF</italic> D594N mutation, a functionally distinct kinase-dead RAS- and <italic toggle="yes">BRAF</italic> dimer-dependent mutant<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> that reinforces the RAS/MAPK dependence of <italic toggle="yes">RET</italic>-driven tumors (Fig. <xref rid="Fig3" ref-type="fig">3f</xref>). Two other patients with an extensive burden of disease at trial enrollment had oligo-progression on selpercatinib with ongoing clinical benefit. In one such patient, tissue sequencing revealed a focal <italic toggle="yes">FGFR1</italic> amplification was acquired in the solitary oligo-progressing site that was absent prior to selpercatinib treatment and may also mediate MAPK reactivation<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. After receiving local radiation therapy, both patients continued on selpercatinib, ultimately remaining on therapy for two and four times longer than their initial response, respectively.</p>
+          <p id="Par15">This diversity of MAPK-driven mechanisms of primary or acquired resistance was also evident within individual patients, indicating a complex pattern of polyclonal resistance to selpercatinib therapy can emerge. Typifying this pattern were two patients in whom solvent-front <italic toggle="yes">RET</italic> mutations co-existed with <italic toggle="yes">KRAS</italic> G12A and G12R mutations. Plasma sequencing indicated that these were likely distinct resistant subclones as they emerged at different time points (Fig. <xref rid="Fig3" ref-type="fig">3g</xref>). Presumably, the solvent front mutation was acquired in the <italic toggle="yes">RET</italic> fusion-positive clone, which was distinct from the likely <italic toggle="yes">RET</italic>-wild-type cell population that was driven by <italic toggle="yes">KRAS</italic> G12, as was the case for patients with RAS-driven primary resistance (Fig. <xref rid="Fig2" ref-type="fig">2d</xref>).</p>
+          <p id="Par16">While these analyses identified a mechanism of resistance in 11 of 18 evaluable patients with disease progression (61%), our data do not preclude a non-genetic mechanism of resistance in the remaining cases. Notably, beyond the acquisition of these discrete resistance mechanisms, in four cases with matched pre- and post-treatment tissue samples, we did not observe significant clonal evolution. Nevertheless, to examine the possibility of a mechanism of resistance beyond discrete alterations leading to either on-target or bypass resistance, we explored lineage plasticity which has been associated with resistance to EGFR inhibitors such as osimertinib in NSCLC<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. We found no evidence of lineage/histology changes as a source of acquired resistance in evaluable patients (three <italic toggle="yes">RET</italic> fusion-positive lung cancers) who developed drug resistance without an identified clear genetic driver where a post-progression biopsy was available (Supplemental Fig. <xref rid="MOESM1" ref-type="media">9</xref>).</p>
+        </sec>
+      </sec>
+      <sec id="Sec8" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par17">Collectively, these results indicate that key mechanisms of primary and acquired resistance to selective RET inhibitor therapy in <italic toggle="yes">RET</italic>-altered lung and thyroid cancers converge on MAPK pathway activation, with diverse yet partially overlapping and often co-existent mechanisms in individual patients. In many cases, these MAPK pathway-activating events can be polyclonal within the same patient. Moreover, these events can occur alone or in combination with on-target <italic toggle="yes">RET</italic> resistance mutations, of which solvent front mutations appear the most common. Similar patterns have been observed in other kinases involved in fusions in cancer such as ALK, ROS, and TRK<sup><xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref></sup>. Typified by selpercatinib in mutant <italic toggle="yes">RET</italic> tumors, a newer generation of superior inhibitors targeting mutant oncogenes are beginning to challenge long-held assumptions about the perceived mutual exclusivity of mitogenic drivers in lung cancer and beyond, uncovering co-existent mitogenic drivers whereby one ostensibly fitter sensitizing allele becomes dominant after which therapy reveals the other as a mechanism of escape. Ultimately, identifying the mechanisms of primary and acquired resistance to selective inhibitors in oncogene-addicted tumors has facilitated the development of multiple therapeutic strategies that can dramatically extend clinical benefit<sup><xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR19">19</xref></sup>. Our results suggest that the strategy of sequential TKI treatment developed for other oncogene-driven cancers may not be as broadly effective in <italic toggle="yes">RET</italic>-driven cancers, possibly due to the selectivity and potency of currently available purpose-built <italic toggle="yes">RET</italic> inhibitors. Alternative strategies may be necessary to extend the profound clinical benefit of selpercatinib therapy.</p>
+      </sec>
+      <sec id="Sec9">
+        <title>Methods</title>
+        <sec id="Sec10">
+          <title>Study cohort</title>
+          <p id="Par18">All patients had a confirmed <italic toggle="yes">RET</italic> activating fusion or mutation, qualified for treatment based on screening guidelines, and were subsequently treated with selpercatinib on the phase 1/2 LIBRETTO-001 trial at Memorial Sloan Kettering Cancer Center (ClinicalTrials.gov #<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT03157128">NCT03157128</ext-link>). This protocol was approved by the Institutional Review Board at Memorial Sloan Kettering Cancer Center. Selpercatinib was dosed as specified by the protocol in the clinical manuscript describing the efficacy of this drug<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. One patient in the study cohort was treated on a single patient-use protocol due to the presence of leptomeningeal disease. All patients met the previously described eligibility criteria<sup><xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR21">21</xref></sup>, having adequate hematopoietic, hepatic, kidney, and cardiac function for inclusion. All patients provided written informed consent including for clinical and research next-generation sequencing. Included in the study cohort are patients enrolled between May 2017 and clinical data freeze for analysis in December 2019. Disease response was assessed using RECIST 1.1 criteria. Clinical benefit rate (CBR) was defined as the sum of best overall response rates of SD, PR, and CR.</p>
+          <p id="Par19">A total of 70 patient samples (two patients were excluded as lost to follow-up) were included for correlative genomic analyses (51 fusion, 19 mutations) from the December 2019 clinical data freeze. Specimens underwent either tumor tissue sequencing using the MSK-IMPACT targeted sequencing assay (up to 468 cancer-associated genes and regions) or whole-exome sequencing (WES) as well as plasma cfDNA sequencing using the MSK-ACCESS targeted sequencing panel (see “Plasma cell-free DNA sequencing” for details) of which 47 patients were still receiving ongoing treatment. For tumor tissue sequencing, 19 patients with insufficient tissue or quality were excluded. A total of 51 pre-treatment tumor tissue samples and their matched germline controls were sequenced using MSK-IMPACT, of which samples from 44 patients also underwent further WES. For plasma cfDNA sequencing, a total of 68 pre-treatment baseline samples were sequenced using MSK-ACCESS. Of the 70 patients, 28 patients had sufficient samples for pre- and post-treatment sequencing. This included nine patients with pre- and post-treatment tumor tissue sequencing with MSK-IMPACT and 26 patients with longitudinal cfDNA time points for sequencing with MSK-ACCESS. Longitudinal plasma sequencing included 18 patients who clinically progressed on selpercatinib and an additional eight MTC patients who received prior MKI therapy (Supplemental Fig. <xref rid="MOESM1" ref-type="media">1</xref>).</p>
+        </sec>
+        <sec id="Sec11">
+          <title>Tumor tissue sequencing and analyses</title>
+          <p id="Par20">Genomic DNA from pre-treatment tumor tissue and matched germline DNA were sequenced for 51 patients using MSK-IMPACT to identify somatic single-nucleotide variants, small insertions and deletions, copy-number alterations, and structural variants as previously described<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. To enhance the breadth of somatic alterations (mutational signatures, DNA copy number, and tumor mutational burden), broader WES was also performed on the existing MSK-IMPACT barcoded libraries in 44 of these 51 patients using the IDT xGen Exome Research Panel (v1.0) according to the manufacturer’s protocol to achieve an average coverage of 208X and 89X for the tumor and matched normal specimens, respectively. WES data were processed and analyzed using the Tempo pipeline (v1.3, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ccstempo.netlify.app/">https://ccstempo.netlify.app/</ext-link>). Briefly, demultiplexed FASTQ files were aligned to the b37 assembly of the human reference genome from the GATK bundle using BWA mem (v0.7.17). Aligned reads were converted and sorted into BAM files using samtools (v1.9) and marked for PCR duplicates using GATK MarkDuplicates (v3.8-1). Somatic mutations (SNVs and small indels) were called in tumor-normal pairs using MuTect2 (v4.1.0.0) and Strelka2 (v2.9.10), and structural variants were detected using Delly (v0.8.2) and Manta (v1.5.0). Variants were annotated and filtered for recurrent artifacts and false positives using methods as previously described<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>.</p>
+          <p id="Par21">Sequencing data were used to confirm the enrolling <italic toggle="yes">RET</italic> alteration; define co-mutational patterns and tumor mutational burden (TMB); assess microsatellite instability (MSI) status; and infer allele-specific copy number, clonality, and mutational signature decomposition, all using previously described methods. Briefly, for patients with WES data, TMB was calculated as the number of non-synonymous mutations per targeted megabase, and MSI status was assessed using MSIsensor (v0.5)<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. MSIsensor scores &lt;10 were classified as microsatellite stable and &gt;10 were classified as MSI-high using a previously validated cut-off score<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>. We estimated tumor purity and ploidy as well as total and allele-specific copy number using the FACETS algorithm (v0.5.14, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://github.com/mskcc/facets">http://github.com/mskcc/facets</ext-link>)<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. To infer clonality and subclonal heterogeneity, cancer cell fractions (CCFs) were estimated with 95% confidence intervals by integrating somatic mutations with FACETS-derived joint segmentation<sup><xref ref-type="bibr" rid="CR27">27</xref>, <xref ref-type="bibr" rid="CR28">28</xref></sup>. Briefly, CCFs were calculated for all mutations using the mutant allele fraction, locus-specific sequencing coverage, and the tumor purity estimate using a binomial distribution and maximum likelihood estimation to generate posterior probabilities<sup><xref ref-type="bibr" rid="CR27">27</xref>, <xref ref-type="bibr" rid="CR29">29</xref></sup>. Mutations were classified as either clonal or subclonal on the following criteria: clonal if the upper bound of the 95% confidence interval was &gt;0.85, otherwise subclonal. Tumors were classified as having significant subclonal heterogeneity if more than 30% of the somatic non-synonymous mutations were subclonal per the aforementioned criteria. In addition, in samples with five or more SNVs, mutations were decomposed into one of ~30 constituent mutational signatures (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://github.com/mskcc/mutation-signatures">http://github.com/mskcc/mutation-signatures</ext-link>) and annotated for their presumed etiology as previously described<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>.</p>
+          <p id="Par22"><italic toggle="yes">RET</italic> mutational hotspots were identified using a previously described method<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> applied to an extended cohort of 31,447 prospectively sequenced human cancers using MSK-IMPACT. Briefly, the statistical significance of substitution hotspots was assessed with a truncated binomial probability model incorporating underlying features of gene-specific mutation rates including gene length, gene- and position-specific mutability, and overall mutational burden. Hotspots with a false discovery rate (Benjamini and Yekutieli method) adjusted <italic toggle="yes">p</italic>-value &lt;0.1 were considered significant. For small in-frame indel hotspots, indels were grouped using a maximal common region approach to count the number of indel events spanning a particular region and the same binomial probability model was applied without a background model (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://github.com/taylor-lab/hotspots">http://github.com/taylor-lab/hotspots</ext-link>). In addition, alterations were annotated as oncogenic using the OncoKB knowledgebase<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>.</p>
+        </sec>
+        <sec id="Sec12">
+          <title>Plasma cell-free DNA sequencing</title>
+          <p id="Par23">Cell-free DNA (4–10 ng) and white blood cells (200 ng) were extracted from all plasma time points (baseline, <italic toggle="yes">n</italic> = 68; on- and post-treatment, <italic toggle="yes">n</italic> = 26; matched buffy-coat, <italic toggle="yes">n</italic> = 9) and sequenced using a custom, ultra-deep coverage sequencing panel (MSK-ACCESS) that targets key exons of 129 genes and introns of 10 genes harboring recurrent breakpoints<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Additional probes targeting all exons and introns of <italic toggle="yes">RET</italic> were spiked in to increase the coverage and sensitivity of <italic toggle="yes">RET</italic> mutation and fusion detection. Briefly, this custom assay utilizes duplex unique molecular identifiers (UMIs) and dual index barcodes to minimize background sequencing errors to generate error-suppressed consensus reads with representation from both strands of the original cfDNA duplex. Briefly, FASTQ files were processed using a custom pipeline that trims the UMIs, aligns the sequences to the human genome, and collapses PCR replicates into consensus sequences using the in-house Marianas algorithm (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/mskcc/Marianas">https://github.com/mskcc/Marianas</ext-link>). Consensus reads with representation from both strands of the original cfDNA duplex were used for de novo variant calling using VarDict (v1.5.1). Synonymous, intronic, or intergenic mutations were excluded from further analysis and all exonic mutation calling required at least one consensus read at a known cancer hotspot or at least three consensus reads at non-hotspot sites and were called down to the limit-of-detection of 0.1% allele frequency<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. All cfDNA samples were sequenced to an average depth of approximately 19,348-fold (range: 11,139–32,848) total coverage and 1271-fold (range: 552–3134) unique duplex coverage. In samples with matched buffy-coat, germline and potential clonal hematopoiesis (CH) variants were removed from analysis if the mutation was observed in the buffy-coat normal. Otherwise, variants were called against unmatched healthy plasma donors to identify any specimen type-related artifacts. To further exclude the possibility that low mutant allele frequency somatic mutations observed in plasma originated from CH rather than the tumor, we assessed the fragment size distribution of the variants. We observed shorter fragment sizes for tumor-derived variants when compared to germline variants originating from non-cancer cells (white blood cells, hematopoietic cells), as previously reported<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. De novo <italic toggle="yes">RET</italic> fusion calling was performed using Manta (v1.5.0) and were manually reviewed and additionally confirmed using a priori fusion breakpoint data from tumor tissue sequencing. Fusion allele frequencies were quantified by calculating the depth of coverage from both sides of the breakpoint. Cell-free DNA samples with the detection of either the enrolling <italic toggle="yes">RET</italic> alteration or other somatic alterations were considered to be shedding ctDNA in plasma. <italic toggle="yes">RET</italic> alterations in a subset of baseline plasma samples (<italic toggle="yes">n</italic> = 49) were validated using an orthogonal commercial assay targeting key regions of 73 cancer-related genes (Guardant360) using previously published methods<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. All relevant findings were cross-validated and confirmed.</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Outcome analyses</title>
+          <p id="Par24">Clinical benefit was defined as stable disease (SD), partial response (PR), or complete response (CR) lasting 24 weeks or greater, or these same response types in patients if they were continuing on treatment but their total duration of treatment was &lt;24 weeks at time of data freeze. Two patients withdrew consent prior to confirmation of response on imaging assessment and were thus removed from outcome analysis. We defined progression of disease (PD) as the date of radiologic progression or death. We calculated confidence intervals for response rate using the Clopper-Pearson method, and used the likelihood ratio test for assessing the significance between groups for all outcome analyses. All genomic correlative associated <italic toggle="yes">P</italic> values were generated using one-way ANOVA or Wilcoxon test accordingly.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>Plasmid generation, cell culture, western blots, and immunohistochemistry</title>
+          <p id="Par25">The pDONR RET plasmid was purchased from ADDGENE (# 23906). Mutagenesis was performed on this vector to generate the RET V804M single mutant: RETV804MmutF: CTCCTCATCaTGGAGTACGCC and RETV804MmutR: GGCGTACTCCAtGATGAGGAG; the RET Y806C single mutant: RETY806CmutF: ATCGTGGAGTgCGCCAAATAC and RETY806CmutR: GTATTTGGCGcACTCCACGAT; the RET M918T single mutant: RETM918TmutF: GTTAAATGGAcGGCAATTGAA and RETM918TmutR: TTCAATTGCCgTCCATTTAAC; the RET V804M/Y806C double mutant: RETV804MY806CmutF: ATCaTGGAGTgCGCCAAATAC and RETV804MY806CmutR. To generate the RET V804M/M918T double mutant the M918T primers pairs were used on the RET V804M single mutant. The same set of primers was used on the RET V804M/M918T to generate the triple mutant. Gateway™ LR Clonase™ II Enzyme mix (Invitrogen; #11791020) was used to clone the above from pDONR into the PLX302 destination vector. The PLX302 KRAS, KRAS G12A, and G12D were generated as previously described<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. The RET encoding constructs were used to transiently transfect 293T cells while the KRAS constructs to transfect MZ-CRC-1 Medullary Thyroid Carcinoma cells obtained from Dr. Fagin’s laboratory using Lipofectamine™ 3000 Transfection Reagent (Thermo Fisher; #L30000008) according to the manufacturer’s protocol. Twenty-four hours after transfection, cells were treated with the indicated concentrations of selpercatinib for 30 min. After incubation, cells were frozen. The day after protein lysates were extracted, quantified and used for western blots. The following antibodies were used: RET mAB (1:1000 dilution, CST, #14556), pRET Y905 (1:500 dilution, CST, #3221), ERK (1:1000 dilution, CST, #9102S), pERK T202/Y204 (1:1000 dilution, CST, #4370S), KRAS (1:500 dilution, LSBio, #LS-C175665-100) and actin (1:2000 dilution, CST, #4970S). Western blot experiments shown are representative of two biological replicates. Immunohistochemistry (IHC) antibodies were used as follows: CD56 (1:100 dilution, clone MRQ42, Cell Marque), Chromagrannin A (1:4 dilution, clone LK2H10, Ventana), Ki-67 (1:1000 dilution, clone MIB1, Dako), Synaptophysin (1:2000 dilution, clone SNP88, Bio Genex). Due to limited tissue availability this IHC was performed on single tissue sections.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Reporting summary</title>
+          <p id="Par26">Further information on research design is available in the <xref rid="MOESM3" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <sec id="Sec16">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_28848_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_28848_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2022_28848_MOESM3_ESM.pdf" position="float" orientation="portrait"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <app-group>
+        <app id="App1">
+          <sec id="Sec17">
+            <title>Source data</title>
+            <p id="Par30">
+<media xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" xlink:href="41467_2022_28848_MOESM4_ESM.pdf" id="MOESM4" orientation="portrait"><caption><p>Source Data</p></caption></media>
+</p>
+          </sec>
+        </app>
+      </app-group>
+      <fn-group>
+        <fn>
+          <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+        <fn>
+          <p>These authors contributed equally: Ezra Y. Rosen, Helen H. Won, Barry S. Taylor, Alexander Drilon.</p>
+        </fn>
+        <fn>
+          <p>
+            <bold>Change history</bold>
+          </p>
+          <p>4/5/2022</p>
+          <p>A Correction to this paper has been published: 10.1038/s41467-022-29700-y</p>
+        </fn>
+      </fn-group>
+      <sec>
+        <title>Supplementary information</title>
+        <p>The online version contains supplementary material available at 10.1038/s41467-022-28848-x.</p>
+      </sec>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This work was supported by National Institutes of Health awards P30 CA008748, T32 CA009512-29A1 (E.Y.R.), T32 CA160001-08 (E.C.), R01 CA207244 (B.S.T.), R01 CA204749 (B.S.T.), R01 CA245069 (B.S.T.), and R01 CA251591 (A.D.). This work was also supported by an MSK scholar prize (E.C.).</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>E.Y.R., B.S.T., and A.D. conceived the study. E.Y.R., H.H.W., Y.Z., E.C., Y.G., N.D.F., I.B., O.S., C.M.B., S.S., B.J.B., and B.S.T. designed and performed the analysis. D.S., C.S., C.B., C.F., N.C., X.J., F.M., C.Z., S.K., F.W., M.L., K.E., J.K., J.F., E.J.S., N.R., M.F.B., M.S., D.M.H., and A.D. assisted with genomic and clinical data collection. E.Y.R., H.H.W., B.S.T., and A.D. wrote the manuscript with input from all authors.</p>
+      </notes>
+      <notes notes-type="peer-review">
+        <title>Peer review</title>
+        <sec id="FPar1">
+          <title>Peer review information</title>
+          <p id="Par27"><italic toggle="yes">Nature Communications</italic> thanks the anonymous reviewer(s) for their contribution to the peer review of this work. Peer review reports are available.</p>
+        </sec>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Data availability</title>
+        <p>All patient-level clinical and genomic data from the study cohort is available through the cBioPortal for Cancer Genomics<sup><xref ref-type="bibr" rid="CR35">35</xref>, <xref ref-type="bibr" rid="CR36">36</xref></sup>: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://cbioportal.mskcc.org/study/summary?id=mixed_selpercatinib_2020">https://cbioportal.mskcc.org/study/summary?id=mixed_selpercatinib_2020</ext-link>. The whole-exome sequencing data are deposited at dbGAP under the following URL: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001783.v2.p1">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001783.v2.p1</ext-link>. <xref rid="Sec17" ref-type="sec">Source data</xref> are provided with this paper.</p>
+      </notes>
+      <notes notes-type="data-availability">
+        <title>Code availability</title>
+        <p>All other genomic and clinical data accompanies the manuscript and is available as Supplemental Data and Supplementary Information. All statistical analysis and figures were generated using R software. Source code for these analyses is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://github.com/taylor-lab/RET">http://github.com/taylor-lab/RET</ext-link>.</p>
+      </notes>
+      <notes id="FPar2" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par28">E.Y.R. received research funding from Bayer. M.F.B. received honoraria from Roche and research funding from Grail outside of this work. He is also a co-inventor on a provisional patent application for systems and methods for detecting cancer via cfDNA screening. A.D. received honoraria for advisory board activities for Ignyta/Genentech/Roche, Loxo/Bayer/Eli Lilly, Takeda/Ariad/Millenium, TP Therapeutics, AstraZeneca, Pfizer, Blueprint Medicines, Helsinn, Beigene, BergenBio, Hengrui Therapeutics, Exelixis, Tyra Biosciences, Verastem, MORE Health, Abbvie, 14ner/Elevation Oncology, Remedica Ltd., ArcherDX, Monopteros; and research funding from Pfizer, Exelixis, GlaxoSmithKlein, Teva, Taiho, PharmaMar, Foundation Medicine; royalties from Wolters Kluwer; and miscellaneous expenses from Merck, Puma, Merus, and Boehringer Ingelheim. M.S. is an employee of AstraZeneca. D.M.H. is an employee of Loxo Oncology, a wholly-owned subsidiary of Eli Lilly. H.H.W. and B.S.T. are currently employees of Loxo Oncology, a wholly-owned subsidiary of Eli Lilly. B.S.T. reports receiving honoraria and research funding from Genentech and advisory board activities for Boehringer Ingelheim. All stated activities were outside of the work described herein. No other disclosures were noted.</p>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Drilon</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Efficacy of selpercatinib in RET fusion-positive non-small-cell lung cancer</article-title>
+            <source>N. Engl. J. Med.</source>
+            <year>2020</year>
+            <volume>383</volume>
+            <fpage>813</fpage>
+            <lpage>824</lpage>
+            <pub-id pub-id-type="doi">10.1056/NEJMoa2005653</pub-id>
+            <pub-id pub-id-type="pmid">32846060</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7506467</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shah</surname>
+                <given-names>MH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Selpercatinib (LOXO-292) in patients with <italic toggle="yes">RET</italic> -mutant medullary thyroid cancer</article-title>
+            <source>JCO</source>
+            <year>2020</year>
+            <volume>38</volume>
+            <fpage>3594</fpage>
+            <lpage>3594</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2020.38.15_suppl.3594</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7608524</pub-id>
+            <pub-id pub-id-type="pmid">33154983</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nelson-Taylor</surname>
+                <given-names>SK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Resistance to RET-inhibition in RET-rearranged NSCLC is mediated by reactivation of RAS/MAPK signaling</article-title>
+            <source>Mol. Cancer Ther.</source>
+            <year>2017</year>
+            <volume>16</volume>
+            <fpage>1623</fpage>
+            <lpage>1633</lpage>
+            <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-17-0008</pub-id>
+            <pub-id pub-id-type="pmid">28500237</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5544556</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <mixed-citation publication-type="other">Chakravarty, D. et al. Oncokb: a precision oncology knowledge base. <italic toggle="yes">JCO Precis. Oncol</italic>. <bold>2017</bold>, 10.1200/PO.17.00011 (2017).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id><pub-id pub-id-type="pmid">28890946</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Goto</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Selpercatinib (LOXO-292) in patients with <italic toggle="yes">RET-</italic> fusion+ non-small cell lung cancer</article-title>
+            <source>JCO</source>
+            <year>2020</year>
+            <volume>38</volume>
+            <fpage>3584</fpage>
+            <lpage>3584</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2020.38.15_suppl.3584</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kato</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>RET aberrations in diverse cancers: next-generation sequencing of 4,871 patients</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2017</year>
+            <volume>23</volume>
+            <fpage>1988</fpage>
+            <lpage>1997</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-16-1679</pub-id>
+            <pub-id pub-id-type="pmid">27683183</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yoda</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sequential ALK inhibitors can select for lorlatinib-resistant compound ALK mutations in ALK-positive lung cancer</article-title>
+            <source>Cancer Discov.</source>
+            <year>2018</year>
+            <volume>8</volume>
+            <fpage>714</fpage>
+            <lpage>729</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-17-1256</pub-id>
+            <pub-id pub-id-type="pmid">29650534</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5984716</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Recondo</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Diverse resistance mechanisms to the third-generation ALK inhibitor lorlatinib in ALK-rearranged lung cancer</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2020</year>
+            <volume>26</volume>
+            <fpage>242</fpage>
+            <lpage>255</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-19-1104</pub-id>
+            <pub-id pub-id-type="pmid">31585938</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6942925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhu</surname>
+                <given-names>VW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Madison</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schrock</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ignatius Ou</surname>
+                <given-names>S-H</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergence of high level of MET amplification as off-target resistance to selpercatinib treatment in KIF5B-RET NSCLC</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2020</year>
+            <volume>15</volume>
+            <fpage>e124</fpage>
+            <lpage>e127</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jtho.2020.03.020</pub-id>
+            <pub-id pub-id-type="pmid">32593453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lin</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mechanisms of resistance to selective RET tyrosine kinase inhibitors in RET fusion-positive non-small-cell lung cancer</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2020</year>
+            <volume>31</volume>
+            <fpage>1725</fpage>
+            <lpage>1733</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.annonc.2020.09.015</pub-id>
+            <pub-id pub-id-type="pmid">33007380</pub-id>
+            <pub-id pub-id-type="pmcid">PMC9538591</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <mixed-citation publication-type="other">Rosen, E. Y. et al. Overcoming MET-dependent resistance to selective RET inhibition in RET fusion-positive lung cancer (in press). <italic toggle="yes">Clin. Cancer Res</italic>. <bold>27</bold>, 34–42 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-20-2278</pub-id><pub-id pub-id-type="pmcid">PMC8009613</pub-id><pub-id pub-id-type="pmid">33082208</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yao</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Tumours with class 3 BRAF mutants are sensitive to the inhibition of activated RAS</article-title>
+            <source>Nature</source>
+            <year>2017</year>
+            <volume>548</volume>
+            <fpage>234</fpage>
+            <lpage>238</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature23291</pub-id>
+            <pub-id pub-id-type="pmid">28783719</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5648058</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Babina</surname>
+                <given-names>IS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Turner</surname>
+                <given-names>NC</given-names>
+              </name>
+            </person-group>
+            <article-title>Advances and challenges in targeting FGFR signalling in cancer</article-title>
+            <source>Nat. Rev. Cancer</source>
+            <year>2017</year>
+            <volume>17</volume>
+            <fpage>318</fpage>
+            <lpage>332</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrc.2017.8</pub-id>
+            <pub-id pub-id-type="pmid">28303906</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Schoenfeld</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Tumor analyses reveal squamous transformation and off-target alterations as early resistance mechanisms to first-line osimertinib in EGFR-mutant lung cancer</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2020</year>
+            <volume>26</volume>
+            <fpage>2654</fpage>
+            <lpage>2663</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-19-3563</pub-id>
+            <pub-id pub-id-type="pmid">31911548</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7448565</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cocco</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scaltriti</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Drilon</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>NTRK fusion-positive cancers and TRK inhibitor therapy</article-title>
+            <source>Nat. Rev. Clin. Oncol.</source>
+            <year>2018</year>
+            <volume>15</volume>
+            <fpage>731</fpage>
+            <lpage>747</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41571-018-0113-0</pub-id>
+            <pub-id pub-id-type="pmid">30333516</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6419506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cocco</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Resistance to TRK inhibition mediated by convergent MAPK pathway activation</article-title>
+            <source>Nat. Med.</source>
+            <year>2019</year>
+            <volume>25</volume>
+            <fpage>1422</fpage>
+            <lpage>1427</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41591-019-0542-z</pub-id>
+            <pub-id pub-id-type="pmid">31406350</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6736691</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Drilon</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Repotrectinib (TPX-0005) is a next-generation ROS1/TRK/ALK inhibitor that potently inhibits ROS1/TRK/ALK solvent-front mutations</article-title>
+            <source>Cancer Disco.</source>
+            <year>2018</year>
+            <volume>8</volume>
+            <fpage>1227</fpage>
+            <lpage>1236</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-18-0484</pub-id>
+            <pub-id pub-id-type="pmid">30093503</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lovly</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shaw</surname>
+                <given-names>AT</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular pathways: resistance to kinase inhibitors and implications for therapeutic strategies</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2014</year>
+            <volume>20</volume>
+            <fpage>2249</fpage>
+            <lpage>2256</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-13-1610</pub-id>
+            <pub-id pub-id-type="pmid">24789032</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4029617</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shaw</surname>
+                <given-names>AT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>ALK resistance mutations and efficacy of lorlatinib in advanced anaplastic lymphoma kinase-positive non-small-cell lung cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2019</year>
+            <volume>37</volume>
+            <fpage>1370</fpage>
+            <lpage>1379</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.18.02236</pub-id>
+            <pub-id pub-id-type="pmid">30892989</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6544460</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wirth</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Registrational results of LOXO-292 in patients with RET-altered thyroid cancers</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2019</year>
+            <volume>30</volume>
+            <fpage>v933</fpage>
+            <pub-id pub-id-type="doi">10.1093/annonc/mdz394.093</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Drilon</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PL02.08 registrational results of LIBRETTO-001: a phase 1/2 trial of LOXO-292 in patients with RET fusion-positive lung cancers</article-title>
+            <source>J. Thorac. Oncol.</source>
+            <year>2019</year>
+            <volume>14</volume>
+            <fpage>S6</fpage>
+            <lpage>S7</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jtho.2019.08.059</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>DT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): a hybridization capture-based next-generation sequencing clinical assay for solid tumor molecular oncology</article-title>
+            <source>J. Mol. Diagn.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>251</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jmoldx.2014.12.006</pub-id>
+            <pub-id pub-id-type="pmid">25801821</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5808190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jonsson</surname>
+                <given-names>P</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Tumour lineage shapes BRCA-mediated phenotypes</article-title>
+            <source>Nature</source>
+            <year>2019</year>
+            <volume>571</volume>
+            <fpage>576</fpage>
+            <lpage>579</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41586-019-1382-1</pub-id>
+            <pub-id pub-id-type="pmid">31292550</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7048239</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Niu</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>MSIsensor: microsatellite instability detection using paired tumor-normal sequence data</article-title>
+            <source>Bioinformatics</source>
+            <year>2014</year>
+            <volume>30</volume>
+            <fpage>1015</fpage>
+            <lpage>1016</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btt755</pub-id>
+            <pub-id pub-id-type="pmid">24371154</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3967115</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <mixed-citation publication-type="other">Middha, S. et al. Reliable pan-cancer microsatellite instability assessment by using targeted next-generation sequencing data. <italic toggle="yes">JCO Precis. Oncol</italic>. <bold>2017</bold>, 10.1200/PO.17.00084 (2017).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00084</pub-id><pub-id pub-id-type="pmcid">PMC6130812</pub-id><pub-id pub-id-type="pmid">30211344</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seshan</surname>
+                <given-names>VE</given-names>
+              </name>
+            </person-group>
+            <article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>e131</fpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkw520</pub-id>
+            <pub-id pub-id-type="pmid">27270079</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5027494</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McGranahan</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clonal status of actionable driver events and the timing of mutational processes in cancer evolution</article-title>
+            <source>Sci. Transl. Med.</source>
+            <year>2015</year>
+            <volume>7</volume>
+            <fpage>283ra54</fpage>
+            <pub-id pub-id-type="doi">10.1126/scitranslmed.aaa1408</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4636056</pub-id>
+            <pub-id pub-id-type="pmid">25877892</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bielski</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Widespread selection for oncogenic mutant allele imbalance in cancer</article-title>
+            <source>Cancer Cell</source>
+            <year>2018</year>
+            <volume>34</volume>
+            <fpage>852</fpage>
+            <lpage>862.e4</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.ccell.2018.10.003</pub-id>
+            <pub-id pub-id-type="pmid">30393068</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6234065</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bielski</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genome doubling shapes the evolution and prognosis of advanced cancers</article-title>
+            <source>Nat. Genet.</source>
+            <year>2018</year>
+            <volume>50</volume>
+            <fpage>1189</fpage>
+            <lpage>1195</lpage>
+            <pub-id pub-id-type="doi">10.1038/s41588-018-0165-1</pub-id>
+            <pub-id pub-id-type="pmid">30013179</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6072608</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutational processes in human cancer</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>500</volume>
+            <fpage>415</fpage>
+            <lpage>421</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature12477</pub-id>
+            <pub-id pub-id-type="pmid">23945592</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3776390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chang</surname>
+                <given-names>MT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Identifying recurrent mutations in cancer reveals widespread lineage diversity and mutational specificity</article-title>
+            <source>Nat. Biotechnol.</source>
+            <year>2016</year>
+            <volume>34</volume>
+            <fpage>155</fpage>
+            <lpage>163</lpage>
+            <pub-id pub-id-type="doi">10.1038/nbt.3391</pub-id>
+            <pub-id pub-id-type="pmid">26619011</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4744099</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <mixed-citation publication-type="other">Brannon et al. Enhanced specificity of clinical high-sensitivity tumor mutation profiling in cell-free DNA via paired normal sequencing using MSK-ACCESS. <italic toggle="yes">Nat. Commun.</italic><bold>12</bold>, 3770 (2021).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-021-24109-5</pub-id><pub-id pub-id-type="pmcid">PMC8213710</pub-id><pub-id pub-id-type="pmid">34145282</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Marass</surname>
+                <given-names>F</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Fragment size analysis may distinguish clonal hematopoiesis from tumor-derived mutations in cell-free DNA</article-title>
+            <source>Clin. Chem.</source>
+            <year>2020</year>
+            <volume>66</volume>
+            <fpage>616</fpage>
+            <lpage>618</lpage>
+            <pub-id pub-id-type="doi">10.1093/clinchem/hvaa026</pub-id>
+            <pub-id pub-id-type="pmid">32191320</pub-id>
+            <pub-id pub-id-type="pmcid">PMC7108495</pub-id>
+            <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="expression-of-concern" ext-link-type="pmc" xlink:href="PMC7936663"/>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Odegaard</surname>
+                <given-names>JI</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Validation of a plasma-based comprehensive cancer genotyping assay utilizing orthogonal tissue- and plasma-based methodologies</article-title>
+            <source>Clin. Cancer Res.</source>
+            <year>2018</year>
+            <volume>24</volume>
+            <fpage>3539</fpage>
+            <lpage>3549</lpage>
+            <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-17-3831</pub-id>
+            <pub-id pub-id-type="pmid">29691297</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Cerami</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>
+            <source>Cancer Disco.</source>
+            <year>2012</year>
+            <volume>2</volume>
+            <fpage>401</fpage>
+            <lpage>404</lpage>
+            <pub-id pub-id-type="doi">10.1158/2159-8290.CD-12-0095</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3956037</pub-id>
+            <pub-id pub-id-type="pmid">22588877</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gao</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal</article-title>
+            <source>Sci. Signal.</source>
+            <year>2013</year>
+            <volume>6</volume>
+            <fpage>pl1</fpage>
+            <pub-id pub-id-type="doi">10.1126/scisignal.2004088</pub-id>
+            <pub-id pub-id-type="pmid">23550210</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4160307</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1456 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nature</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nature</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">0028-0836</issn>
+        <issn pub-type="epub">1476-4687</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC3367798</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC3367798.1</article-id>
+        <article-id pub-id-type="pmcaid">3367798</article-id>
+        <article-id pub-id-type="pmcaiid">3367798</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS362881</article-id>
+        <article-id pub-id-type="pmid">22622578</article-id>
+        <article-id pub-id-type="doi">10.1038/nature11071</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS362881</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA362881</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Melanoma genome sequencing reveals frequent <italic toggle="yes">PREX2</italic> mutations</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Berger</surname>
+              <given-names initials="MF">Michael F.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="author-notes" rid="FN1">12</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hodis</surname>
+              <given-names initials="E">Eran</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heffernan</surname>
+              <given-names initials="TP">Timothy P.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN2">13</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Deribe</surname>
+              <given-names initials="YL">Yonathan Lissanu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN2">13</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lawrence</surname>
+              <given-names initials="MS">Michael S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Protopopov</surname>
+              <given-names initials="A">Alexei</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN2">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ivanova</surname>
+              <given-names initials="E">Elena</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Watson</surname>
+              <given-names initials="IR">Ian R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN2">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nickerson</surname>
+              <given-names initials="E">Elizabeth</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ghosh</surname>
+              <given-names initials="P">Papia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names initials="H">Hailei</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zeid</surname>
+              <given-names initials="R">Rhamy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ren</surname>
+              <given-names initials="X">Xiaojia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cibulskis</surname>
+              <given-names initials="K">Kristian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sivachenko</surname>
+              <given-names initials="AY">Andrey Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wagle</surname>
+              <given-names initials="N">Nikhil</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sucker</surname>
+              <given-names initials="A">Antje</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sougnez</surname>
+              <given-names initials="C">Carrie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Onofrio</surname>
+              <given-names initials="R">Robert</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ambrogio</surname>
+              <given-names initials="L">Lauren</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Auclair</surname>
+              <given-names initials="D">Daniel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fennell</surname>
+              <given-names initials="T">Timothy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Carter</surname>
+              <given-names initials="SL">Scott L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Drier</surname>
+              <given-names initials="Y">Yotam</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stojanov</surname>
+              <given-names initials="P">Petar</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Singer</surname>
+              <given-names initials="MA">Meredith A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="author-notes" rid="FN2">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Voet</surname>
+              <given-names initials="D">Douglas</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jing</surname>
+              <given-names initials="R">Rui</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Saksena</surname>
+              <given-names initials="G">Gordon</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Barretina</surname>
+              <given-names initials="J">Jordi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ramos</surname>
+              <given-names initials="AH">Alex H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pugh</surname>
+              <given-names initials="TJ">Trevor J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Stransky</surname>
+              <given-names initials="N">Nicolas</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Parkin</surname>
+              <given-names initials="M">Melissa</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Winckler</surname>
+              <given-names initials="W">Wendy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mahan</surname>
+              <given-names initials="S">Scott</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ardlie</surname>
+              <given-names initials="K">Kristin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Baldwin</surname>
+              <given-names initials="J">Jennifer</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wargo</surname>
+              <given-names initials="J">Jennifer</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schadendorf</surname>
+              <given-names initials="D">Dirk</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyerson</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names initials="SB">Stacey B.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Golub</surname>
+              <given-names initials="TR">Todd R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A6">6</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wagner</surname>
+              <given-names initials="SN">Stephan N.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lander</surname>
+              <given-names initials="ES">Eric S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chin</surname>
+              <given-names initials="L">Lynda</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="author-notes" rid="FN2">13</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+            <xref ref-type="corresp" rid="CR1">*</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Garraway</surname>
+              <given-names initials="LA">Levi A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="author-notes" rid="FN3">14</xref>
+            <xref ref-type="corresp" rid="CR1">*</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>The Broad Institute of Harvard and MIT, Cambridge, Massachusetts, 02142, USA
+</aff>
+        <aff id="A2"><label>2</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, 02115, USA
+</aff>
+        <aff id="A3"><label>3</label>Department of Dermatology, University Hospital Essen, Essen, Germany
+</aff>
+        <aff id="A4"><label>4</label>Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, 76100, Israel
+</aff>
+        <aff id="A5"><label>5</label>Harvard Medical School, Boston, Massachusetts, 02115, USA
+</aff>
+        <aff id="A6"><label>6</label>Department of Pediatric Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, 02115, USA
+</aff>
+        <aff id="A7"><label>7</label>Howard Hughes Medical Institute, Chevy Chase, MD, 20815, USA
+</aff>
+        <aff id="A8"><label>8</label>Department of Surgery, Massachusetts General Hospital, Boston, Massachusetts, 02114, USA
+</aff>
+        <aff id="A9"><label>9</label>Center for Cancer Genome Discovery, Dana-Farber Cancer Institute, Boston, Massachusetts, 02115, USA
+</aff>
+        <aff id="A10"><label>10</label>Division of Immunology, Allergy and Infectious Diseases, Department of Dermatology, Medical University of Vienna and CeMM-Research Center for Molecular Medicine of the Austrian Academy of Sciences, 1090 Vienna, Austria
+</aff>
+        <aff id="A11"><label>11</label>Whitehead Institute for Biomedical Research, 9 Cambridge Center, Cambridge, Massachusetts 02142, USA
+</aff>
+        <author-notes>
+          <corresp id="CR1"><label>*</label><bold>To whom correspondence should be addressed</bold> Correspondence and requests for materials should be addressed to L.C. (<email>lynda_chin@dfci.harvard.edu</email>) or L.A.G. (<email>levi_garraway@dfci.harvard.edu</email>).</corresp>
+          <fn fn-type="present-address" id="FN1">
+            <label>12</label>
+            <p id="P1">Current address: Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, New York, 10065, USA</p>
+          </fn>
+          <fn fn-type="present-address" id="FN2">
+            <label>13</label>
+            <p id="P2">Current address: Department of Genomic Medicine, Institute for Applied Cancer Science, The University of Texas MD Anderson Cancer Center, Houston, Texas, 77030 USA</p>
+          </fn>
+          <fn fn-type="equal" id="FN3">
+            <label>14</label>
+            <p id="P3">These authors contributed equally to this work: see Author Contributions section for details.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>09</day>
+          <month>5</month>
+          <year>2012</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <day>24</day>
+          <month>5</month>
+          <year>2012</year>
+        </pub-date>
+        <volume>485</volume>
+        <issue>7399</issue>
+        <issue-id pub-id-type="pmc-issue-id">210713</issue-id>
+        <fpage>502</fpage>
+        <lpage>506</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>12</day>
+              <month>03</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>24</day>
+              <month>11</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>24</day>
+              <month>11</month>
+              <year>2012</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-05 22:06:41.443">
+              <day>05</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms-362881.pdf"/>
+        <abstract>
+          <p id="P4">Melanoma is notable for its metastatic propensity, lethality in the advanced setting, and association with ultraviolet (UV) exposure early in life<sup><xref rid="R1" ref-type="bibr">1</xref></sup>. To obtain a comprehensive genomic view of melanoma, we sequenced the genomes of 25 metastatic melanomas and matched germline DNA. A wide range of point mutation rates was observed: lowest in melanomas whose primaries arose on non-UV exposed hairless skin of the extremities (3 and 14 per Mb genome), intermediate in those originating from hair-bearing skin of the trunk (range = 5 to 55 per Mb), and highest in a patient with a documented history of chronic sun exposure (111 per Mb). Analysis of whole-genome sequence data identified <italic toggle="yes">PREX2</italic> - a PTEN-interacting protein and negative regulator of PTEN in breast cancer<sup><xref rid="R2" ref-type="bibr">2</xref></sup> - as a significantly mutated gene with a mutation frequency of approximately 14% in an independent extension cohort of 107 human melanomas. <italic toggle="yes">PREX2</italic> mutations are biologically relevant, as ectopic expression of mutant PREX2 accelerated tumor formation of immortalized human melanocytes <italic toggle="yes">in vivo</italic>. Thus, whole-genome sequencing of human melanoma tumors revealed genomic evidence of UV pathogenesis and discovered a new recurrently mutated gene in melanoma.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p id="P5">To gain a comprehensive view of the genomic landscape in human melanoma tumors, we sequenced the genomes of twenty-five metastatic melanomas and peripheral blood obtained from the same patients (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table S1</xref>). Two tumors (ME015 and ME032) were metastases from cutaneous melanomas arising on glabrous (or hairless) skin of the extremities, representing the acral subtype. The other tumors were primarily metastases from melanomas originating on hair-bearing skin of the trunk (the most common clinical subtype). Further, ME009 represented a metastasis from a primary melanoma with a clinical history of chronic ultraviolet (UV) exposure.</p>
+      <p id="P6">We obtained 59-fold mean haploid genome coverage for tumor and 32-fold for normal DNA (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table S2</xref>). On average, 78,775 somatic base substitutions per tumor were identified, consistent with prior reports<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref></sup> (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table S3</xref>). This corresponded to an average mutation rate of 30 per megabase (Mb). However, the mutation rate varied by nearly two orders of magnitude across the 25 tumors (<xref ref-type="fig" rid="F1">Fig. 1</xref>). The acral melanomas showed mutation rates comparable to other solid tumor types (3 and 14 mutations per megabase)<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref></sup>, whereas melanomas from the trunk harbored substantially more mutations, in agreement with previous studies<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R8" ref-type="bibr">8</xref></sup>. In particular, sample ME009 exhibited a striking rate of 111 somatic mutations per Mb, consistent with a history of chronic sun exposure.</p>
+      <p id="P7">In tumors with elevated mutation rates, most nucleotide substitutions were C/G &gt; T/A transitions consistent with UV irradiation<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. The variations in mutation rate correlated with differences in the UV mutational signature. For example, 93% of substitutions in ME009 but only 36% in acral melanoma ME015 were C&gt;T transitions (<xref ref-type="fig" rid="F1">Fig. 1</xref>); these tumors contained the highest and lowest base mutation rates, respectively (111 and 3 mutation per megabase). Interestingly, the acral tumor ME032 also showed a discernible enrichment of UV-associated mutations (<xref ref-type="fig" rid="F1">Fig. 1</xref>). Thus, genome sequencing readily confirmed the contribution of sun exposure in melanoma etiology.</p>
+      <p id="P8">In agreement with prior studies<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R9" ref-type="bibr">9</xref></sup>, we detected an overall enrichment for dipyrimidines at C&gt;T transitions. Analysis of intragenic C&gt;T mutations yielded a significant bias against C&gt;T mutations on the transcribed strand for most melanomas, consistent with transcription-coupled repair (TCR) (<xref ref-type="supplementary-material" rid="SD1">Suppl. Fig. 1</xref>)<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R10" ref-type="bibr">10</xref></sup>. Most commonly, C&gt;T mutations occurred at the 3′ base of a pyrimidine dinucleotide (CpC or TpC) (<xref ref-type="supplementary-material" rid="SD1">Suppl. Fig. 2</xref>). In contrast, the C&gt;T mutations in sample ME009 (with hypermutation and chronic sun exposure history) more often occurred at the 5′ base of a pyrimidine dinucleotide. As expected, the acral tumor ME015 exhibited mutation patterns observed in non-UV associated tumor types<sup><xref rid="R11" ref-type="bibr">11</xref></sup>, such as an increased mutation rate at CpG dinucleotides relative to their overall genome-wide frequency (<xref ref-type="supplementary-material" rid="SD1">Suppl. Fig.2</xref>). These different mutational signatures suggest a complex mechanism of UV mutagenesis across the clinical spectrum of melanoma, likely reflecting distinct histories of environmental exposures and cutaneous biology.</p>
+      <p id="P9">We detected 9,653 missense, nonsense, or splice site mutations in 5,712 genes (out of a total of 14,680 coding mutations; <xref ref-type="supplementary-material" rid="SD3">Supplementary Tables S4, S5</xref>), with an estimated specificity of 95% (<xref ref-type="supplementary-material" rid="SD1">Supplementary Methods</xref>). The <italic toggle="yes">BRAF<sup>V600E</sup></italic> mutation was present in 16 of 25 tumors (64%), including the acral melanoma ME015. <italic toggle="yes">NRAS</italic> was mutated in 9 of 25 tumors (36%) in a mutually exclusive fashion with <italic toggle="yes">BRAF</italic>, with the exception of one non-canonical substitution (<italic toggle="yes">NRAS<sup>T50I</sup></italic>) in the hypermutated sample ME009. We also identified 6 insertions and 34 deletions in protein coding exons (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table S6</xref>), including a 21-bp in-frame deletion involving exon 11 of the <italic toggle="yes">KIT</italic> oncogene in the acral tumor ME032 (<xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. S3</xref>). <italic toggle="yes">KIT</italic> mutations occur in 15% of acral and mucosal melanomas<sup><xref rid="R12" ref-type="bibr">12</xref></sup>, and melanoma patients with activating <italic toggle="yes">KIT</italic> mutations in exon 11 have demonstrated marked responses to imatinib treatment<sup><xref rid="R13" ref-type="bibr">13</xref></sup>.</p>
+      <p id="P10">We identified an average of 97 structural rearrangements per melanoma genome (range: 6-420) (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table S7</xref>). In addition to displaying a wide range of rearrangement frequencies, the proportion of intrachromosomal and interchromosomal rearrangements varied widely across genomes. ME029, which harbored the largest number of rearrangements (420), contained only 8 interchromosomal events (<xref ref-type="fig" rid="F2">Fig. 2a</xref>). In contrast, ME020 and ME035 contained 95 and 90 interchromosomal rearrangements, respectively (<xref ref-type="fig" rid="F2">Fig. 2a</xref>). In both cases, the vast majority of interchromosomal rearrangements were restricted to two chromosomes. This pattern is reminiscent of chromothripsis<sup><xref rid="R14" ref-type="bibr">14</xref></sup>, a process involving catastrophic chromosome breakage that has been observed in several tumor types<sup><xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R16" ref-type="bibr">16</xref></sup>.</p>
+      <p id="P11">106 genes harbored chromosomal rearrangements in two or more samples (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table S8</xref>). Many recurrently rearranged loci contain large genes or reside at known or suspected fragile sites<sup><xref rid="R17" ref-type="bibr">17</xref></sup>; examples include <italic toggle="yes">FHIT</italic> (6 tumors), <italic toggle="yes">MACROD2</italic> (5 tumors), and <italic toggle="yes">CSMD1</italic> (4 tumors). On the other hand, several known cancer genes were also recurrently rearranged, including the <italic toggle="yes">PTEN</italic> tumor suppressor (4 tumors) and <italic toggle="yes">MAGI2</italic> (3 tumors), which encodes a protein known to bind and stabilize PTEN. <italic toggle="yes">MAGI2</italic> was also found disrupted in recent whole genome studies of prostate cancer<sup><xref rid="R18" ref-type="bibr">18</xref></sup> and a melanoma cell line<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. Rearrangements involving the 5′ untranslated region of the ataxin 2-binding protein 1 gene (<italic toggle="yes">A2BP1</italic>) were observed in 4 tumors. <italic toggle="yes">A2BP1</italic> encodes an RNA binding protein whose genetic disruption has been linked to spinocerebellar ataxia and other neurodegenerative diseases. <italic toggle="yes">A2BP1</italic> undergoes complex splicing regulation in the central nervous system and other tissues<sup><xref rid="R19" ref-type="bibr">19</xref></sup>; in melanoma, these rearrangements may disrupt a known <italic toggle="yes">A2BP1</italic> splice isoform or enable a <italic toggle="yes">de novo</italic> splicing product. Together, these results suggest that chromosomal rearrangements may contribute importantly to melanoma genesis or progression.</p>
+      <p id="P12">Acral melanoma (ME032) harbored the second-largest number of total rearrangements (314; <xref ref-type="fig" rid="F2">Fig. 2a</xref>). We employed high throughput PCR followed by massively parallel sequencing to successfully validate 177 of 182 events tested in this sample, confirming its high rate of rearrangement. The elevated frequency of genomic rearrangements in acral melanomas has been reported previously<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. In comparison, ME032 exhibited one of the lowest base pair mutation rates of the melanomas examined (21<sup>st</sup> out of 25 samples), suggesting that different tumors might preferentially enact alternative mechanisms of genomic alteration to drive tumorigenesis.</p>
+      <p id="P13">As noted above, many rearrangements in ME032 involved multiple breakpoints within a narrow genomic interval. One such event disrupted the <italic toggle="yes">ETV1</italic> locus. We previously demonstrated an oncogenic role for ETV1 in melanoma, whose dysregulated expression was associated with upregulation of microphthalmia-associated transcription factor (MITF)<sup><xref rid="R21" ref-type="bibr">21</xref></sup>, the master melanocyte transcriptional regulator and a melanoma lineage survival oncogene<sup><xref rid="R22" ref-type="bibr">22</xref></sup>. We validated 6 distinct rearrangements (4 interchromosomal translocations) in ME032 involving breakpoints within <italic toggle="yes">ETV1</italic> introns (<xref ref-type="fig" rid="F2">Fig. 2b</xref>). These events join regions of <italic toggle="yes">ETV1</italic> to distal loci on chromosomes 8, 9, 11, and 15. In support of their possible functional relevance, these rearrangements were associated with high-level <italic toggle="yes">ETV1</italic> amplification in this tumor.</p>
+      <p id="P14">A second complex rearrangement involved the <italic toggle="yes">PREX2</italic> locus. <italic toggle="yes">PREX2</italic> encodes a phosphatidylinositol 3,4,5-trisphosphate RAC exchange factor recently shown to interact with the PTEN tumor suppressor and modulate its function<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. We validated 9 somatic rearrangements in the vicinity of <italic toggle="yes">PREX2</italic> (6 interchromosomal translocations), including 5 with intronic breakpoints (<xref ref-type="fig" rid="F2">Fig. 2c</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. S4</xref>). One event joined specific intronic regions of <italic toggle="yes">PREX2</italic> and <italic toggle="yes">ETV1</italic>. Like <italic toggle="yes">ETV1, PREX2</italic> is highly amplified in this tumor, as verified by FISH analysis (<xref ref-type="fig" rid="F2">Fig. 2d</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. S5</xref>). The presence of these complex structural rearrangements in addition to amplification may indicate multiple mechanisms of <italic toggle="yes">PREX2</italic> dysregulation in melanoma. More generally, these findings raised the possibility that sites of complex rearrangement might denote genes of functional importance in melanoma.</p>
+      <p id="P15">Next, we calculated the mutational significance of each gene based on the number of mutations detected, gene length, and background mutation rates (<xref ref-type="table" rid="T1">Table 1</xref>, <xref ref-type="supplementary-material" rid="SD3">Supplementary Table S9</xref>) (See Methods). Eleven genes were found to be significantly mutated across the 25 samples (q &lt; 0.01). As expected, the two most significant genes were <italic toggle="yes">BRAF</italic> and <italic toggle="yes">NRAS</italic>, mutated in 16 and 9 samples, respectively. Interestingly, <italic toggle="yes">PREX2</italic> scored as one of the top significant genes (<xref ref-type="table" rid="T1">Table 1</xref>). Furthermore, 4 samples harbored nonsense truncation mutations in <italic toggle="yes">PREX2</italic>, more than any of the other genes identified as statistically significant in this analysis. <italic toggle="yes">PREX2</italic> mutations have occasionally been reported in colon, lung, and pancreatic cancer<sup><xref rid="R23" ref-type="bibr">23</xref></sup>, albeit at low frequencies. Here, we detected 13 non-synonymous point mutations in <italic toggle="yes">PREX2</italic> — including 4 nonsense mutations — and 1 synonymous mutation, with 11 of 25 melanomas harboring at least 1 non-synonymous mutation. The mutations were distributed throughout the entire length of <italic toggle="yes">PREX2</italic> (<xref ref-type="fig" rid="F3">Fig. 3a</xref>, green circles), and 13 of 14 mutations were non-synonymous, suggestive of strong positive selection. An analysis of the mutant allele frequencies and estimated tumor purities indicates that at least 2 mutations are homozygous. One melanoma, ME018, harbors 3 missense mutations, two of which (I534M and G1581R) appear to co-occur on a single allele based on their observed mutation frequencies. Notably, a <italic toggle="yes">PREX2</italic> nonsense mutation was detected in ME032, in addition to the rearrangements and amplification of this locus present in this tumor (<xref ref-type="fig" rid="F2">Fig. 2c</xref>). This <italic toggle="yes">PREX2</italic> mutation was truncating (E824*), removing the C-terminal region with homology to an inositol phosphatase domain. Based on the allele frequency of this mutation, we infer that it occurs on the non-amplified allele. Taken together, whole-genome sequencing of this 25-sample discovery cohort identified <italic toggle="yes">PREX2</italic> as a candidate melanoma gene whose amplifications, rearrangements or mutations appeared to undergo positive selection in human melanoma genesis.</p>
+      <p id="P16">To determine the prevalence of <italic toggle="yes">PREX2</italic> mutations in melanoma, we performed bidirectional capillary sequencing in an extension cohort of 107 tumor/normal pairs, comprising 45 tumors and 62 short-term cultures collected from multiple institutions and geographic regions (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table S10</xref>). We identified 23 somatic base pair mutations and one frame-shift insertion in <italic toggle="yes">PREX2</italic> in this cohort (<xref ref-type="fig" rid="F3">Fig. 3a</xref>; <xref ref-type="supplementary-material" rid="SD3">Supplementary Table S11</xref>), 15 of which represented non-synonymous changes. We therefore inferred a 14% frequency of non-synonymous <italic toggle="yes">PREX2</italic> mutations in this melanoma cohort.</p>
+      <p id="P17">Discrepant non-synonymous:synonymous ratios were observed between the tumor samples and short-term cultures in the extension cohort. In line with results from the discovery cohort, 100% of <italic toggle="yes">PREX2</italic> mutations detected across 45 tumor samples were non-synonymous in nature (n = 4), consistent with positive selection. In contrast, only 55% of the sequence mutations found in the 64 short-term cultures were non-synonymous (a ratio of 11:9). Conceivably, these findings may indicate that subsets of melanoma cells capable of robust growth <italic toggle="yes">in vitro</italic> may have experienced reduced selective pressure for <italic toggle="yes">PREX2</italic> mutations. Alternatively (or in addition), the PREX2 locus may exhibit an enhanced “local” mutation rate, a by-product of which is the production of variants that undergo positive selection <italic toggle="yes">in vivo</italic>.</p>
+      <p id="P18">To demonstrate the functional relevance of <italic toggle="yes">PREX2</italic> mutations in melanoma tumorigenesis, we ectopically expressed six representative mutations (three truncation variants and three non-synonymous point mutations predicted to carry functional impact<sup><xref rid="R24" ref-type="bibr">24</xref></sup>) in TERT-immortalized human melanocytes engineered to express NRAS(G12D) (PMEL-NRAS*)<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. These melanocytic lines were transplanted into immunodeficient mice alongside control melanocytes expressing either wild-type PREX2 or GFP. Overexpression of all 3 truncated variants as well as a point mutant (G844D) of PREX2 significantly accelerated <italic toggle="yes">in vivo</italic> tumorigenesis when compared to GFP control or WT PREX2 expressing melanocytes (<xref ref-type="fig" rid="F3">Fig. 3b</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>). These results therefore affirmed the aforementioned genomic data suggesting that <italic toggle="yes">PREX2</italic> mutations may undergo positive selection <italic toggle="yes">in vivo</italic>. Although the spectrum of <italic toggle="yes">PREX2</italic> mutations in human melanoma (<xref ref-type="fig" rid="F3">Fig. 3a</xref>) is reminiscent of inactivating mutations, our findings suggest that <italic toggle="yes">PREX2</italic> somatic mutations generate truncated or variant proteins that gain oncogenic activity in melanoma cells.</p>
+      <p id="P19">In summary, following recent efforts to characterize whole genomes from several hematologic and solid tumors, we provide the first high-resolution view of the genomic landscape across a spectrum of metastatic melanoma tumors. The analysis reveals global genomic evidence for the role of UV mutagenesis in melanoma, and identifies several recurrently mutated and rearranged genes not previously implicated in this malignancy. In particular, we discovered that <italic toggle="yes">PREX2</italic> mutations are both recurrent and functionally consequential in melanoma biology. Although its precise mechanism(s) of action remain to be elucidated in melanoma, <italic toggle="yes">PREX2</italic> appears to acquire oncogenic activity through mutations that perturb or inactivate one or more of its cellular functions. This pattern of mutations may exemplify a category of cancer genes that is distinct from “classic” oncogenes (often characterized by highly recurrent gain-of-function mutations) and tumor suppressors (inactivated by simple loss-of-function alterations). Instead, (over)expression of certain cancer genes with distributed mutation patterns may promote tumorigenicity either through dominant negative effects or more subtle dysregulation of normal protein functions.</p>
+      <p id="P20">Cancer genomics has enabled the discovery and rational application of the first truly effective targeted therapy for metastatic melanoma: <italic toggle="yes">BRAF</italic> mutations predict sensitivity to selective RAF inhibitors<sup><xref rid="R25" ref-type="bibr">25</xref>-<xref rid="R27" ref-type="bibr">27</xref></sup>. However, the emergence of acquired resistance is rapid and often driven by other genomic events<sup><xref rid="R28" ref-type="bibr">28</xref></sup>. Our genomic exploration of the melanoma genomes revealed a large number of complex alterations that likely impact on many other genes in addition to <italic toggle="yes">PREX2</italic>. Understanding how this spectrum of genomic aberrations contributes to melanoma genesis and progression should provide new insights into tumor biology, therapeutic resistance, and developing treatment regimens aimed at durable control of this malignancy.</p>
+      <sec sec-type="methods" id="S1">
+        <title>METHODS SUMMARY</title>
+        <p id="P21">The complete genomes of 25 metastatic melanomas and patient-matched germline samples were sequenced to approximately 30x and 30x haploid coverage, respectively, on an Illumina GAIIx sequencer (5 cases), and approximately 65x and 32x haploid coverage, respectively, on an Illumina HiSeq 2000 sequencer (20 cases) as paired-end 101-nucleotide reads. Read pairs were aligned to the reference human genome (hg19) using BWA<sup><xref rid="R29" ref-type="bibr">29</xref></sup>. Somatic alterations (single base substitutions, small insertions and deletions, and structural rearrangements) were identified according to their presence in the tumor genome and absence from the corresponding normal genome. A subset of rearrangements were validated by PCR and an independent sequencing technology in order to assess the specificity of the detection algorithm. Fluorescence in situ hybridization (FISH) was performed to confirm the high level amplification and rearrangement of <italic toggle="yes">PREX2</italic>. Significantly mutated genes were identified by comparing the observed mutations to the background mutation rates calculated for different sequence context categories per tumor sample. 40 exons of <italic toggle="yes">PREX2</italic> were sequenced by PCR and bidirectional capillary sequencing in a validation panel of 107 additional melanoma tumors and short term cultures; mutations were confirmed as somatic by sequencing matched normal DNA. For gain of function studies,<italic toggle="yes">PREX2</italic> mutation constructs were engineered and introduced to PMELcell lines by lentiviral transduction. To assess the oncogenic roles of PREX2 mutants, PMEL-NRAS* cells were injected subcutaneously into NUDE mice, and tumor growth was measured over time. A complete description of the materials and methods is provided in the Supplementary Information. All Illumina sequence data are publicly available in dbGaP (accession number phs000452.v1.p1).</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS362881-supplement-1.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" id="d37e1094" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS362881-supplement-2.txt" mimetype="trace" mime-subtype="text" orientation="portrait" id="d37e1098" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS362881-supplement-3.xlsx" mimetype="application" mime-subtype="octet-stream" orientation="portrait" id="d37e1102" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S2">
+        <title>Acknowledgements</title>
+        <p>Illumina sequencing was performed at the Broad Institute and array-based genomic characterization and functional studies were performed at the Belfer Institute of DFCI. We are grateful to the Broad Institute Genome Sequencing Platform, Genome Analysis Platform, and Biological Samples Platform. This work was supported by the National Human Genome Research Institute (S.B.G., E.S.L.), National Cancer Institute (M.M., L.C.), FWF-Austrian Science Fund (S.N.W.), NIH Director’s New Innovator Award (L.A.G.), Melanoma Research Alliance (L.A.G., L.C.), Starr Cancer Consortium (L.A.G.), and the Burroughs-Wellcome Fund (L.A.G.).</p>
+      </ack>
+      <fn-group>
+        <fn id="FN4">
+          <p id="P22"><bold>Author Information</bold> All Illumina sequence data will be made available in dbGaP (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/gap">http://www.ncbi.nlm.nih.gov/gap</ext-link>) upon publication of this manuscript. Reprints and permissions information is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.nature.com/reprints">www.nature.com/reprints</ext-link>.</p>
+        </fn>
+        <fn id="FN5">
+          <p id="P23">The authors declare no competing financial interests.</p>
+        </fn>
+        <fn id="FN6">
+          <p id="P24">
+            <bold>Author Contributions</bold>
+          </p>
+          <p id="P25">M.F.B., E.H., T.P.H. and Y.L.D. are lead authors; E.S.L., G.G., L.C. and L.A.G. are senior authors. M.F.B. and E.H. performed the genomic analysis of the whole genome sequencing data. T.P.H. and Y.L.D. performed the molecular biology and mouse experiments to interrogate the function of PREX2. E.I., P.G., R.Z., and M.A.S. participated in the functional experiments. M.S.L. performed genomic analysis of mutations and rearrangements. A.P. and X.R. performed FISH studies of PREX2. H.Z, K.C, A.Y.S., T.F., S.L.C., Y.D., P.S., D.V., R.J., G.S., A.H.R., T.J.P., and N.S. provided additional computational analyses. A.S. and D.S. contributed melanoma short-term cultures for the extension cohort. I.R.W. contributed clinical information. C.S., R.O., W.W., S.M. D.A., and K.A. participated in DNA sample processing and quality control. E.N. played a project management role. M.F.B., M.S.L., R.O., M.P., L.A., W.W., G.G. and L.A.G. validated candidate rearrangements. J.B. and S.B.G. oversaw the generation of DNA sequence data. J.B., M.M., S.B.G. and T.R.G contributed to the study design and interpretation of data. S.N.W. contributed most melanoma tumors for the discovery and extension cohort and participated in the study design. J.W. and N.W. also contributed tumor material for the discovery cohort. E.S.L., G.G., L.C., and L.A.G. conceived of and designed the study and participated in the data analysis and interpretation. M.F.B., T.P.H., L.C. and L.A.G. wrote the paper.</p>
+        </fn>
+        <fn id="FN7">
+          <p id="P26"><bold>Supplementary Information</bold> is linked to the online version of the paper at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.nature.com/nature">www.nature.com/nature</ext-link>.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chin</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>The genetics of malignant melanoma: lessons from mouse and man</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2003</year>
+            <volume>3</volume>
+            <fpage>559</fpage>
+            <lpage>70</lpage>
+            <pub-id pub-id-type="pmid">12894244</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc1145</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fine</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Activation of the PI3K pathway in cancer through inhibition of PTEN by exchange factor P-REX2a</article-title>
+            <source>Science</source>
+            <year>2009</year>
+            <volume>325</volume>
+            <fpage>1261</fpage>
+            <lpage>5</lpage>
+            <pub-id pub-id-type="pmid">19729658</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1173569</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2936784</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>MF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative analysis of the melanoma transcriptome</article-title>
+            <source>Genome Res</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>413</fpage>
+            <lpage>27</lpage>
+            <pub-id pub-id-type="pmid">20179022</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.103697.109</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2847744</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chapman</surname>
+                <given-names>MA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Initial genome sequencing and analysis of multiple myeloma</article-title>
+            <source>Nature</source>
+            <year>2011</year>
+            <volume>471</volume>
+            <fpage>467</fpage>
+            <lpage>72</lpage>
+            <pub-id pub-id-type="pmid">21430775</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09837</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3560292</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Greenman</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Patterns of somatic mutation in human cancer genomes</article-title>
+            <source>Nature</source>
+            <year>2007</year>
+            <volume>446</volume>
+            <fpage>153</fpage>
+            <lpage>8</lpage>
+            <pub-id pub-id-type="pmid">17344846</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature05610</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2712719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kan</surname>
+                <given-names>Z</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Diverse somatic mutation patterns and pathway alterations in human cancers</article-title>
+            <source>Nature</source>
+            <year>2010</year>
+            <volume>466</volume>
+            <fpage>869</fpage>
+            <lpage>73</lpage>
+            <pub-id pub-id-type="pmid">20668451</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09208</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pleasance</surname>
+                <given-names>ED</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A comprehensive catalogue of somatic mutations from a human cancer genome</article-title>
+            <source>Nature</source>
+            <year>2010</year>
+            <volume>463</volume>
+            <fpage>191</fpage>
+            <lpage>6</lpage>
+            <pub-id pub-id-type="pmid">20016485</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08658</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3145108</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wei</surname>
+                <given-names>X</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing identifies GRIN2A as frequently mutated in melanoma</article-title>
+            <source>Nat Genet</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>442</fpage>
+            <lpage>6</lpage>
+            <pub-id pub-id-type="pmid">21499247</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.810</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3161250</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Drobetsky</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Grosovsky</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Glickman</surname>
+                <given-names>BW</given-names>
+              </name>
+            </person-group>
+            <article-title>The specificity of UV-induced mutations at an endogenous locus in mammalian cells</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1987</year>
+            <volume>84</volume>
+            <fpage>9103</fpage>
+            <lpage>7</lpage>
+            <pub-id pub-id-type="pmid">3480533</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.84.24.9103</pub-id>
+            <pub-id pub-id-type="pmcid">PMC299700</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Vrieling</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Strand specificity for UV-induced DNA repair and mutations in the Chinese hamster HPRT gene</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>1991</year>
+            <volume>19</volume>
+            <fpage>2411</fpage>
+            <lpage>5</lpage>
+            <pub-id pub-id-type="pmid">1674998</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/19.9.2411</pub-id>
+            <pub-id pub-id-type="pmcid">PMC329450</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rubin</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Green</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutation patterns in cancer genomes</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2009</year>
+            <volume>106</volume>
+            <fpage>21766</fpage>
+            <lpage>70</lpage>
+            <pub-id pub-id-type="pmid">19995982</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0912499106</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2799788</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Curtin</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Busam</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pinkel</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bastian</surname>
+                <given-names>BC</given-names>
+              </name>
+            </person-group>
+            <article-title>Somatic activation of KIT in distinct subtypes of melanoma</article-title>
+            <source>J Clin Oncol</source>
+            <year>2006</year>
+            <volume>24</volume>
+            <fpage>4340</fpage>
+            <lpage>6</lpage>
+            <pub-id pub-id-type="pmid">16908931</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2006.06.2984</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hodi</surname>
+                <given-names>FS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Major response to imatinib mesylate in KIT-mutated melanoma</article-title>
+            <source>J Clin Oncol</source>
+            <year>2008</year>
+            <volume>26</volume>
+            <fpage>2046</fpage>
+            <lpage>51</lpage>
+            <pub-id pub-id-type="pmid">18421059</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2007.14.0707</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stephens</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Massive genomic rearrangement acquired in a single catastrophic event during cancer development</article-title>
+            <source>Cell</source>
+            <year>2011</year>
+            <volume>144</volume>
+            <fpage>27</fpage>
+            <lpage>40</lpage>
+            <pub-id pub-id-type="pmid">21215367</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2010.11.055</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3065307</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rausch</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genome Sequencing of Pediatric Medulloblastoma Links Catastrophic DNA Rearrangements with TP53 Mutations</article-title>
+            <source>Cell</source>
+            <year>2012</year>
+            <volume>148</volume>
+            <fpage>59</fpage>
+            <lpage>71</lpage>
+            <pub-id pub-id-type="pmid">22265402</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2011.12.013</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3332216</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kloosterman</surname>
+                <given-names>WP</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Chromothripsis is a common mechanism driving genomic rearrangements in primary and metastatic colorectal cancer</article-title>
+            <source>Genome Biol</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>R103</fpage>
+            <pub-id pub-id-type="pmid">22014273</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2011-12-10-r103</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3333773</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bignell</surname>
+                <given-names>GR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutation and selection in the cancer genome</article-title>
+            <source>Nature</source>
+            <year>2010</year>
+            <volume>463</volume>
+            <fpage>893</fpage>
+            <lpage>8</lpage>
+            <pub-id pub-id-type="pmid">20164919</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08768</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3145113</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>MF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The genomic complexity of primary human prostate cancer</article-title>
+            <source>Nature</source>
+            <year>2011</year>
+            <volume>470</volume>
+            <fpage>214</fpage>
+            <lpage>20</lpage>
+            <pub-id pub-id-type="pmid">21307934</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09744</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3075885</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nakahata</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kawamoto</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Tissue-dependent isoforms of mammalian Fox-1 homologs are associated with tissue-specific splicing activities</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2005</year>
+            <volume>33</volume>
+            <fpage>2078</fpage>
+            <lpage>89</lpage>
+            <pub-id pub-id-type="pmid">15824060</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gki338</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1075922</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Curtin</surname>
+                <given-names>JA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Distinct sets of genetic alterations in melanoma</article-title>
+            <source>N Engl J Med</source>
+            <year>2005</year>
+            <volume>353</volume>
+            <fpage>2135</fpage>
+            <lpage>47</lpage>
+            <pub-id pub-id-type="pmid">16291983</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa050092</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jane-Valbuena</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An oncogenic role for ETV1 in melanoma</article-title>
+            <source>Cancer Res</source>
+            <year>2010</year>
+            <volume>70</volume>
+            <fpage>2075</fpage>
+            <lpage>84</lpage>
+            <pub-id pub-id-type="pmid">20160028</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-3092</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2846410</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garraway</surname>
+                <given-names>LA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrative genomic analyses identify MITF as a lineage survival oncogene amplified in malignant melanoma</article-title>
+            <source>Nature</source>
+            <year>2005</year>
+            <volume>436</volume>
+            <fpage>117</fpage>
+            <lpage>22</lpage>
+            <pub-id pub-id-type="pmid">16001072</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature03664</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Forbes</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>COSMIC (the Catalogue of Somatic Mutations in Cancer): a resource to investigate acquired mutations in human cancer</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2010</year>
+            <volume>38</volume>
+            <fpage>D652</fpage>
+            <lpage>7</lpage>
+            <pub-id pub-id-type="pmid">19906727</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkp995</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2808858</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reva</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Antipin</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sander</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Predicting the functional impact of protein mutations: application to cancer genomics</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2011</year>
+            <volume>39</volume>
+            <fpage>e118</fpage>
+            <pub-id pub-id-type="pmid">21727090</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkr407</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3177186</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Flaherty</surname>
+                <given-names>KT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hodi</surname>
+                <given-names>FS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bastian</surname>
+                <given-names>BC</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutation-driven drug development in melanoma</article-title>
+            <source>Curr Opin Oncol</source>
+            <year>2010</year>
+            <volume>22</volume>
+            <fpage>178</fpage>
+            <lpage>83</lpage>
+            <pub-id pub-id-type="pmid">20401974</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/cco.0b013e32833888ee</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3107971</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Flaherty</surname>
+                <given-names>KT</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Inhibition of Mutated, Activated BRAF in Metastatic Melanoma</article-title>
+            <source>New Eng J Med</source>
+            <year>2010</year>
+            <volume>363</volume>
+            <fpage>809</fpage>
+            <lpage>819</lpage>
+            <pub-id pub-id-type="pmid">20818844</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1002011</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3724529</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chapman</surname>
+                <given-names>PB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Improved survival with vemurafenib in melanoma with BRAF V600E mutation</article-title>
+            <source>N Engl J Med</source>
+            <year>2011</year>
+            <volume>364</volume>
+            <fpage>2507</fpage>
+            <lpage>16</lpage>
+            <pub-id pub-id-type="pmid">21639808</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1103782</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3549296</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Solit</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rosen</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Resistance to BRAF inhibition in melanomas</article-title>
+            <source>N Engl J Med</source>
+            <year>2011</year>
+            <volume>364</volume>
+            <fpage>772</fpage>
+            <lpage>4</lpage>
+            <pub-id pub-id-type="pmid">21345109</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMcibr1013704</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>60</lpage>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Elevated mutation rates and spectra indicative of UV radiation damage. Top bar plot shows somatic mutation rate of 25 sequenced melanoma genomes, in decreasing order. Middle matrix indicates BRAF/NRAS somatic mutation status, with left-adjacent bar plot indicating total number of mutations in each oncogene as well as percent frequency. Bottom plot displays each tumor’s somatic mutation spectrum. Tumor sample names are indicated at the bottom of the figure, with acral melanomas in red.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-362881-f0001.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Hubs of rearrangement breakpoints affect known and putative oncogenes. (a) Circos plots representing 4 melanoma genomes with notable structural alterations. Interchromosomal and intrachromosomal rearrangements are shown in purple and green, respectively. (b) Location of breakpoints associated with <italic toggle="yes">ETV1</italic> in melanoma ME032. (c) Location of breakpoints associated with <italic toggle="yes">PREX2</italic> in melanoma ME032. The red arrow indicates a premature stop codon (E824*). All rearrangements in <italic toggle="yes">ETV1</italic> and <italic toggle="yes">PREX2</italic> were validated by multiplexed PCR and 454 sequencing. (d) Confirmation of high-level amplification and rearrangement in <italic toggle="yes">PREX2</italic> by fluorescence in situ hybridization (FISH).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-362881-f0002.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Mutant PREX2 expression promotes melanoma genesis. (a) Non-synonymous sequence mutations detected from Illumina sequencing of 25 melanomas (green) or from capillary sequencing of a validation cohort of 107 additional melanomas (purple). Mutations are dispersed throughout all annotated structural domains of <italic toggle="yes">PREX2</italic>. (DH = DBL Homology domain; PH = Plekstrin Homology domain). The C-terminal half of PREX2 exhibits sequence homology to an inositol phosphatase domain. Engineered PREX2 mutants are labeled with red arrowheads. (b) Kaplan-Meier curve showing tumor free survival of NUDE mice (n=10) injected with pMEL-NRAS* cells expressing GFP, WT, truncated, and mutated PREX2 subcutaneously.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-362881-f0003.jpg"/>
+      </fig>
+      <table-wrap id="T1" position="float" orientation="landscape">
+        <label>TABLE 1</label>
+        <caption>
+          <title>Significantly mutated genes in 25 melanoma tumors</title>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <thead>
+            <tr>
+              <th align="left" valign="top" rowspan="1" colspan="1">Rank</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">Gene</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">Total<break/>Number of<break/>Covered<break/>Bases</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">Samples with<break/>Non-<break/>Synonymous<break/>Mutations</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">Non-<break/>Synonymous<break/>Mutations</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">Nonsense<break/>Mutations</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">Synonymous<break/>Mutations</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">P-val</th>
+              <th align="left" valign="top" rowspan="1" colspan="1">Q-val</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">BRAF<xref ref-type="table-fn" rid="TFN1">*</xref></td>
+              <td align="left" valign="top" rowspan="1" colspan="1">56520</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">12</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">12</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">&lt;1e-15</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">&lt;1e-11</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">NRAS</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">14160</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">9</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">9</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">4.1e-15</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3.8e-11</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">MUC4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">77038</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">19</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">42</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">17</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">2.4e-11</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1.5e-07</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">PREX2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">127041</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">11</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">13</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1.7e-08</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.00008</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">5</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">GOLGA6L6</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">18902</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">5</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">5.8e-07</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.002</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">VCX3B</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">7132</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">7.1e-07</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.002</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">POTEH</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">21545</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">5</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">7</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">7.7e-07</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.002</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">8</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">OR2T33</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">21978</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">5</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">5</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">8.6e-07</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.002</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">9</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">C1orf127</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">53004</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1.5e-06</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.003</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">10</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">PRG4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">100212</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">8</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">9</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3.4e-06</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.006</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">11</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">MST1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">46400</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">8</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">12</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">5.3e-06</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">0.009</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn id="TFN1">
+            <label>*</label>
+            <p id="P27"><italic toggle="yes">BRAF<sup>V600E</sup></italic> mutations were detected in four additional samples by exon capture upon manual review of Illumina sequencing data (shown in <xref ref-type="fig" rid="F1">Fig. 1</xref>).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </floats-group>
+  </article>
+</pmc-articleset>

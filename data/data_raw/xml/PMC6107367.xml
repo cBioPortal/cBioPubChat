@@ -1,0 +1,902 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC6107367</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC6107367.1</article-id>
+        <article-id pub-id-type="pmcaid">6107367</article-id>
+        <article-id pub-id-type="pmcaiid">6107367</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS938028</article-id>
+        <article-id pub-id-type="pmid">29610475</article-id>
+        <article-id pub-id-type="doi">10.1038/s41588-018-0078-z</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS938028</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA938028</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>The long tail of oncogenic drivers in prostate cancer</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Armenia</surname>
+              <given-names initials="J">Joshua</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Wankowicz</surname>
+              <given-names initials="SAM">Stephanie A.M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names initials="D">David</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gao</surname>
+              <given-names initials="J">Jianjiong</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kundra</surname>
+              <given-names initials="R">Ritika</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reznik</surname>
+              <given-names initials="E">Ed</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chatila</surname>
+              <given-names initials="WK">Walid K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chakravarty</surname>
+              <given-names initials="D">Debyani</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Han</surname>
+              <given-names initials="GC">G. Celine</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Coleman</surname>
+              <given-names initials="I">Ilsa</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Montgomery</surname>
+              <given-names initials="B">Bruce</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Pritchard</surname>
+              <given-names initials="C">Colin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Morrissey</surname>
+              <given-names initials="C">Colm</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Barbieri</surname>
+              <given-names initials="CE">Christopher E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Beltran</surname>
+              <given-names initials="H">Himisha</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sboner</surname>
+              <given-names initials="A">Andrea</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Zafeiriou</surname>
+              <given-names initials="Z">Zafeiris</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names initials="S">Susana</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bielski</surname>
+              <given-names initials="CM">Craig M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Penson</surname>
+              <given-names initials="AV">Alexander V.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Tolonen</surname>
+              <given-names initials="C">Charlotte</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Huang</surname>
+              <given-names initials="FW">Franklin W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Robinson</surname>
+              <given-names initials="D">Dan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names initials="YM">Yi Mi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lonigro</surname>
+              <given-names initials="R">Robert</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Garraway</surname>
+              <given-names initials="LA">Levi A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Demichelis</surname>
+              <given-names initials="F">Francesca</given-names>
+            </name>
+            <xref ref-type="aff" rid="A15">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kantoff</surname>
+              <given-names initials="PW">Philip W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Taplin</surname>
+              <given-names initials="ME">Mary-Ellen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Abida</surname>
+              <given-names initials="W">Wassim</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names initials="BS">Barry S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Scher</surname>
+              <given-names initials="HI">Howard I.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A16">16</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nelson</surname>
+              <given-names initials="PS">Peter S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>de Bono</surname>
+              <given-names initials="JS">Johann S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rubin</surname>
+              <given-names initials="MA">Mark A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sawyers</surname>
+              <given-names initials="CL">Charles L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chinnaiyan</surname>
+              <given-names initials="AM">Arul M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <collab>PCF/SU2C International Prostate Cancer Dream Team</collab>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Schultz</surname>
+              <given-names initials="N">Nikolaus</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A17">17</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Van Allen</surname>
+              <given-names initials="EM">Eliezer M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A2"><label>2</label>Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A3"><label>3</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA.</aff>
+        <aff id="A4"><label>4</label>Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA.</aff>
+        <aff id="A5"><label>5</label>Divisions of Human Biology and Clinical Research, Fred Hutchinson Cancer Research Center, Seattle, WA.</aff>
+        <aff id="A6"><label>6</label>Department of Medicine, University of Washington, Seattle, WA.</aff>
+        <aff id="A7"><label>7</label>Department of Laboratory Medicine, University of Washington, Seattle, WA.</aff>
+        <aff id="A8"><label>8</label>Department of Urology, University of Washington, Seattle, WA.</aff>
+        <aff id="A9"><label>9</label>Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY.</aff>
+        <aff id="A10"><label>10</label>Department of Medicine, Division of Medical Oncology, Weill Cornell Medicine, New York, NY.</aff>
+        <aff id="A11"><label>11</label>Englander Institute for Precision Medicine, Weill Cornell Medical College-New York Presbyterian Hospital. New York, NY.</aff>
+        <aff id="A12"><label>12</label>Sandra and Edward Meyer Cancer Center at Weill Cornell Medical College</aff>
+        <aff id="A13"><label>13</label>Biomarkers Team, Division of Clinical Studies, The Institute of Cancer Research and Royal Marsden Hospital, London, UK.</aff>
+        <aff id="A14"><label>14</label>Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI.</aff>
+        <aff id="A15"><label>15</label>Centre for Integrated Biology, University of Trento, Trento, Italy.</aff>
+        <aff id="A16"><label>16</label>Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY.</aff>
+        <aff id="A17"><label>17</label>Department of Epidemiology &amp; Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY.</aff>
+        <author-notes>
+          <fn fn-type="con" id="FN2">
+            <p id="P1">AUTHOR CONTRIBUTIONS</p>
+            <p id="P2">J.A., S.A.M.W., N.S., E.M.V.A., D.L., J.G., R.K., E.R., W.K.C., D.C., G.C.H., C.E.B., A.S., C.M.B., A.V.P., C.T., F.D., M.A.R., B.S.T. contributed with algorithm development and analysis of genomic data. I.C., B.M., C.P., C.M., H.B., Z.Z., S.M., F.W.H., D.R., Y.M.W., P.W.K., M.-E.T., W.A., H.I.S., P.S.N., J.S.d.B., M.A.R., C.L.S., A.M.C. developed the patient cohort, obtained tumor biopsies, performed molecular testing for metastatic cases, and data interpretation of the overall cohort. J.A., S.A.M.W., D.L., N.S., and E.M.V.A. performed final aggregate cohort assembly, mutation review, interpretation, and manuscript preparation.</p>
+          </fn>
+          <corresp id="CR1"><bold>CORRESPONDING AUTHORS</bold>: Eliezer M. Van Allen, MD, Dana-Farber Cancer Institute 450 Brookline Avenue, Smith 1036B Boston, MA 02215 <email>eliezerm_vanallen@dfci.harvard.edu</email>; Nikolaus Schultz, PhD Marie-Josée and Henry R. Kravis Center for Molecular Oncology Department of Epidemiology &amp; Biostatistics Memorial Sloan Kettering Cancer Center 1275 York Ave New York, NY 10065 <email>schultzn@mskcc.org</email></corresp>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>02</day>
+          <month>4</month>
+          <year>2018</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>5</month>
+          <year>2018</year>
+        </pub-date>
+        <volume>50</volume>
+        <issue>5</issue>
+        <issue-id pub-id-type="pmc-issue-id">319342</issue-id>
+        <fpage>645</fpage>
+        <lpage>651</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>02</day>
+              <month>08</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>02</day>
+              <month>10</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>02</day>
+              <month>10</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-18 05:25:29.310">
+              <day>18</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms-938028.pdf"/>
+        <related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="correction-forward" xml:lang="en" vol="51" page="1194" journal-id="Nat Genet" journal-id-type="nlm-ta" ext-link-type="pubmed" xlink:href="31152158">
+          <article-title>Publisher Correction: The long tail of oncogenic drivers in prostate cancer.</article-title>
+          <date>
+            <day>31</day>
+            <month>5</month>
+            <year>2019</year>
+          </date>
+          <source>Nat Genet</source>
+          <pub-id pub-id-type="pmid">31152158</pub-id>
+        </related-article>
+        <abstract id="ABS1">
+          <p id="P3">Comprehensive genomic characterization of prostate cancer has identified recurrent alterations in androgen signaling, DNA repair, and PI3K among others. However, larger and uniform genomic analysis may reveal additional recurrently mutated genes at lower frequencies. Here we aggregate and uniformly analyze exome sequencing data from 1013 prostate cancers. We identify and validate a new class of E26 transformation-specific (ETS) fusion negative tumors defined by mutations in epigenetic regulators, as well as alterations in pathways not previously implicated in prostate cancer, such as the spliceosome pathway. We find that the incidence of significantly mutated genes (SMGs) follows a long-tail distribution, with many genes mutated in less than 3% of cases. We identify a total of 97 SMGs, including 70 not previously implicated in prostate cancer, such as the ubiquitin ligase <italic toggle="yes">CUL3</italic> and the transcription factor <italic toggle="yes">SPEN</italic>. Finally, comparing primary and metastatic prostate cancer reveals a set of genomic markers that may inform risk stratification.</p>
+        </abstract>
+        <kwd-group>
+          <kwd>Prostate cancer</kwd>
+          <kwd>whole exome sequencing</kwd>
+          <kwd>cancer genomics</kwd>
+          <kwd>mutational significance</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <p id="P4">The genomic landscape of primary and metastatic prostate cancer has been robustly assessed through whole exome sequencing (WES) of tumors and matched germline samples. These studies have identified multiple recurrently altered genes and pathways, including androgen signaling, DNA repair, and phosphoinositide 3-kinase (<italic toggle="yes">PI3K</italic>)/<italic toggle="yes">AKT</italic> signaling<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup>. Additionally, they revealed genomically distinct classes of prostate cancer, defined by <italic toggle="yes">ETS</italic> transcription family fusions<sup><xref rid="R3" ref-type="bibr">3</xref></sup> or mutations in <italic toggle="yes">SPOP</italic><sup><xref rid="R4" ref-type="bibr">4</xref></sup>, <italic toggle="yes">FOXA1</italic><sup><xref rid="R4" ref-type="bibr">4</xref></sup>, or <italic toggle="yes">IDH1</italic><sup><xref rid="R2" ref-type="bibr">2</xref></sup>. Nevertheless, prostate cancer harbors significant interpatient genomic heterogeneity, and power analyses have suggested that larger WES studies may reveal additional statistically significant mutated genes occurring at lower frequencies, indicating that the spectrum of novel prostate cancer genes is incompletely defined<sup><xref rid="R5" ref-type="bibr">5</xref></sup>. As the aggregation and uniform meta-analysis of WES data has been transformative to research and clinical interpretation of germline genetics<sup><xref rid="R6" ref-type="bibr">6</xref></sup>, we hypothesized that mutational significance analysis using statistical and biological frameworks in a large and uniformly analyzed WES cohort may similarly identify novel genes and pathways to refine the genomic landscape of prostate cancer.</p>
+      <p id="P5">We assembled and uniformly analyzed whole exome sequencing data from 1013 tumor and matched germline prostate cancers (680 primary and 333 metastatic tumors) (<xref rid="SD4" ref-type="supplementary-material">Supplementary Table 1</xref>)<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R7" ref-type="bibr">7</xref>–<xref rid="R9" ref-type="bibr">9</xref></sup> that passed joint quality control parameters (<xref rid="F1" ref-type="fig">Fig. 1a</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1</xref>, <xref rid="SD5" ref-type="supplementary-material">Supplementary Table 2</xref>, <xref rid="SD3" ref-type="supplementary-material">Supplementary Note</xref>, <xref rid="S1" ref-type="sec">Methods</xref>). Patient characteristics, including age at diagnosis, Gleason score, and metastatic site, are shown in <xref rid="T1" ref-type="table">Table 1</xref> and <xref rid="SD6" ref-type="supplementary-material">Supplementary Table 3</xref>. The mean non- synonymous mutational load for primary and metastatic prostate cancers was 1.36 mutations/Mb and 2.93 mutations/Mb, respectively (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>). As previously reported<sup><xref rid="R2" ref-type="bibr">2</xref></sup>, mutational load was significantly higher in metastatic tumors (p&lt;0.001, estimated 1.43 mut/MB higher mutational load adjusted for differences in tumor sequencing depth and tumor purity) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>, <xref rid="S1" ref-type="sec">Methods</xref>). Additionally, copy-number burden was significantly higher in metastatic tumor (p&lt;0.001). In primary tumors, increased age and higher Gleason score was associated with higher mutation burden (p = 0.02, p &lt; 0.001) and copy-number burden (p &lt; 0.001, p &lt; 0.001) (all adjusted for tumor purity and tumor sequencing depth) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>)<sup><xref rid="R10" ref-type="bibr">10</xref></sup>.</p>
+      <p id="P6">Mutational significance analysis of point mutations and short insertion/deletions using MutSig2CV<sup><xref rid="R11" ref-type="bibr">11</xref></sup> and additional biological significance filters (<xref rid="S1" ref-type="sec">Methods</xref>) identified 97 significantly recurrently mutated genes (SMGs) (<xref rid="F1" ref-type="fig">Fig. 1a,b</xref>; <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3, 4a-c</xref>; <xref rid="SD7" ref-type="supplementary-material">Supplementary Table 4</xref>). As predicted by prior power analyses<sup><xref rid="R5" ref-type="bibr">5</xref></sup>, the majority of these new SMGs occurred in less than 5% of the overall cohort and could only be discovered in cohorts with over 900 samples (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 5</xref>). SMGs include well known prostate cancer genes<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R7" ref-type="bibr">7</xref>–<xref rid="R9" ref-type="bibr">9</xref></sup>, such as <italic toggle="yes">AR</italic>, <italic toggle="yes">SPOP</italic>, <italic toggle="yes">FOXA1</italic>, <italic toggle="yes">TP53</italic>, and <italic toggle="yes">PTEN</italic> (<xref rid="F1" ref-type="fig">Fig. 1b</xref> and <xref rid="SD7" ref-type="supplementary-material">Supplementary Table 4</xref>). We identified 70 SMGs previously implicated in cancer, but not previously reported as significantly altered in prostate cancer<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R7" ref-type="bibr">7</xref>–<xref rid="R9" ref-type="bibr">9</xref></sup> and an additional 9 SMGs not previously identified as recurrently altered in any cancer type (<xref rid="F1" ref-type="fig">Fig. 1b</xref> and <xref rid="SD7" ref-type="supplementary-material">Supplementary Table 4</xref>)<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R12" ref-type="bibr">12</xref></sup>.</p>
+      <p id="P7">We then integrated focal copy-number events and available ETS fusion data to stratify these findings by pathway and function and developed a categorized set of significantly mutated genes in prostate cancer. Through this approach, we identified 20% of prostate cancer samples with mutations, frequently truncating, in epigenetic modifiers or chromatin remodeling genes (<xref rid="F1" ref-type="fig">Fig. 1c,d</xref> and <xref rid="SD8" ref-type="supplementary-material">Supplementary Table 6</xref>). Within this class of tumors, 5% had mutations in genes that encode SWI/SNF nucleosome remodeling complex members (<xref rid="F1" ref-type="fig">Fig. 1d</xref>), including <italic toggle="yes">ARID1A</italic> (1.6%), <italic toggle="yes">ARID4A</italic> (1%), <italic toggle="yes">ARID2</italic> (1.3%), <italic toggle="yes">SMARCA1</italic> (1.1%) similar to observations made in other tumor types<sup><xref rid="R12" ref-type="bibr">12</xref>,<xref rid="R13" ref-type="bibr">13</xref></sup>. In primary tumors, mutations in epigenetic regulators and chromatin modifiers are significantly associated with higher Gleason score (10% Gleason 3+4, 22% Gleason 8–10, p=0.001 Fisher’s exact test). Furthermore, upon examination of the subset of our cohort for which ETS fusion status was available (n=765), we found that alterations in epigenetic regulators and chromatin remodelers were significantly more common in tumors that lack an ETS fusion (p=1e-04, Fisher’s exact test), and in tumors without previously known drivers (ETS fusion, <italic toggle="yes">IDH1/SPOP/CUL3</italic>, or <italic toggle="yes">FOXA1</italic>) (p = 0.007, Fisher’s exact test) (<xref rid="F1" ref-type="fig">Fig. 1c,d</xref> and <xref rid="SD8" ref-type="supplementary-material">Supplementary Table 6</xref>).</p>
+      <p id="P8">Our analysis also identified recurrently mutated genes in the ubiquitin protease (USP) and ligase gene family, of which <italic toggle="yes">SPOP</italic> is a member, with mutations found in <italic toggle="yes">USP28</italic> (1.4%), <italic toggle="yes">USP7</italic> (1.2%), <italic toggle="yes">CUL3</italic> (1.3%) (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). <italic toggle="yes">CUL3</italic> encodes part of a cullin-RING-based (<italic toggle="yes">BTB-CUL3-RBX1</italic>) E3 ubiquitin ligase complex with <italic toggle="yes">SPOP</italic><sup><xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup>, and mutations may affect degradation of prostate cancer tumorigenesis regulators including <italic toggle="yes">AR, SRC-3, and TRIM24</italic><sup><xref rid="R16" ref-type="bibr">16</xref>,<xref rid="R17" ref-type="bibr">17</xref></sup>. <italic toggle="yes">CUL3</italic> mutations were primarily in a hotspot, p.Met299Arg, and were mutually exclusive with <italic toggle="yes">SPOP</italic> mutations (<xref rid="F2" ref-type="fig">Fig. 2a</xref>), although this cohort size was not sufficiently powered to establish statistical significance. <italic toggle="yes">CUL3</italic> mutant tumors also exhibited copy-number profiles similar to those of <italic toggle="yes">SPOP</italic>-mutant tumors, with losses at chromosomes 5q, 6q and 13 (<xref rid="F2" ref-type="fig">Fig. 2b</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 5</xref>)<sup><xref rid="R18" ref-type="bibr">18</xref></sup>. To confirm this finding in an orthogonal cohort, we identified nine additional somatic <italic toggle="yes">CUL3</italic> mutations in an independent cohort of advanced prostate cancers (1.3% in the MSK-IMPACT data<sup><xref rid="R19" ref-type="bibr">19</xref><xref rid="R20" ref-type="bibr">20</xref></sup>), including three p.Met299Arg mutations (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6a</xref>).</p>
+      <p id="P9">In addition, the splicing pathway was altered in 4% of prostate tumors (<xref rid="F2" ref-type="fig">Fig. 2c</xref>), most notably through hotspot mutations in <italic toggle="yes">SF3B1</italic> (1.1%) and <italic toggle="yes">U2AF1</italic> (0.5%). Mutations in <italic toggle="yes">SF3B1</italic> mostly clustered around the highly conserved HEAT repeats in the C-terminus (<xref rid="F2" ref-type="fig">Fig. 2c</xref>), similar to other cancer types<sup><xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R22" ref-type="bibr">22</xref></sup>. This alteration is thought to disrupt the recognition and binding of 3’ splice sites<sup><xref rid="R23" ref-type="bibr">23</xref></sup>.</p>
+      <p id="P10">We also identified SMGs in previously known prostate cancer pathways, including <italic toggle="yes">AR</italic> signaling, WNT/beta-catenin, PI3K, and RAS/MAPK. Within the <italic toggle="yes">AR</italic>/hormone signaling pathway, our analysis identified <italic toggle="yes">SPEN</italic>, which encodes a hormone inducible transcription repressor, mutated in 2.4% of this cohort, mostly through truncating mutations (<xref rid="F3" ref-type="fig">Fig. 3a,b</xref>). The <italic toggle="yes">SPEN</italic> protein known to repress the estrogen receptor via <italic toggle="yes">NCOR2</italic>, by recruiting histone deacetylases and SRA, an RNA co-activator, interaction<sup><xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R25" ref-type="bibr">25</xref></sup>. <italic toggle="yes">SPEN</italic> is activated via estrogen, and potentially other hormones<sup><xref rid="R25" ref-type="bibr">25</xref></sup>, and its overexpression is associated with response to tamoxifen in breast cancer<sup><xref rid="R25" ref-type="bibr">25</xref>,<xref rid="R26" ref-type="bibr">26</xref></sup>. <italic toggle="yes">SPEN</italic> mutations were significantly enriched in metastatic samples (q=0.008, Fisher’s exact test) and clonal (<xref rid="F3" ref-type="fig">Fig 3a</xref>), suggestive of <italic toggle="yes">SPEN</italic> being a driver in advanced disease.</p>
+      <p id="P11">The PI3-Kinase pathway was altered in 25% of our samples, primarily due to homozygous loss and truncating mutations in <italic toggle="yes">PTEN</italic> (16%). Our analysis identified a novel prostate cancer gene in the PI3-kinase pathway, <italic toggle="yes">PIK3R2</italic> (1%), which, like <italic toggle="yes">PIK3R1</italic>, encodes a PI3K regulatory subunit<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. One of the <italic toggle="yes">PIK3R2</italic> mutations, p.Asp557Tyr, is paralogous to the known oncogenic p.Asp560Tyr mutation in <italic toggle="yes">PIK3R1</italic> (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6b</xref>), and was also found in our validation cohort.</p>
+      <p id="P12">Genomic alterations in the <italic toggle="yes">WNT/CTNNB1</italic> pathway were found in 10% of the cohort (<xref rid="F3" ref-type="fig">Fig. 3c</xref> and <xref rid="SD8" ref-type="supplementary-material">Supplementary Table 6</xref>). For <italic toggle="yes">CTNNB1</italic>, while the majority of mutations clustered in the N-terminal domain (<xref rid="F3" ref-type="fig">Fig. 3d</xref>), three residues, including a novel p.Lys335Ile hotspot cluster around the <italic toggle="yes">CTNNB1</italic> interacting domain of <italic toggle="yes">AXIN</italic> (<xref rid="F3" ref-type="fig">Fig. 3e</xref>, <italic toggle="yes">CTNNB1</italic> binding domain of <italic toggle="yes">AXIN</italic> highlighted in light gray). The <italic toggle="yes">RAS/RAF/MAPK</italic> pathway was altered in 5% of samples (<xref rid="SD8" ref-type="supplementary-material">Supplementary Table 6</xref>), including SMGs in <italic toggle="yes">KRAS</italic> and <italic toggle="yes">BRAF</italic>, mostly due to established hotspot mutations not previously enriched for significance in prostate cancer.</p>
+      <p id="P13">As previously reported, we observed a significant number of inactivating alterations in DNA repair genes (16% of samples, <xref rid="SD8" ref-type="supplementary-material">Supplementary Table 6</xref>). Novel prostate cancer specific SMGs in this pathway included <italic toggle="yes">MRE11A</italic> and <italic toggle="yes">PALB2</italic>. <italic toggle="yes">CDK12</italic> was mutated primarily by truncating mutations (p&lt;0.001, binomial test), as previously observed in ovarian cancer. Of note, <italic toggle="yes">CDK12</italic> missense variants significantly clustered in the kinase domain (p&lt;0.001, binomial test) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6c</xref>), suggesting a putative functional relevance. Furthermore, 15 of 31 <italic toggle="yes">CDK12</italic> mutant tumors (as well as 27 of 56 samples in the validation cohort) harbored two mutations in the gene, suggestive of frequent biallelic inactivation of the gene. Broadly, these results expand on SMGs in known cancer pathways not previously implicated in prostate cancer, and further delineate the genomic heterogeneity of mutations in the long tail of this disease.</p>
+      <p id="P14">Finally, we conducted a systematic comparison of primary and metastatic tumors to identify which events are associated with advanced disease (<xref rid="F4" ref-type="fig">Fig. 4a</xref>, <xref rid="S1" ref-type="sec">Methods</xref>). Genes with enrichment in metastatic samples include <italic toggle="yes">TP53</italic>, <italic toggle="yes">AR</italic>, <italic toggle="yes">PTEN</italic>, <italic toggle="yes">RB1</italic>, <italic toggle="yes">FOXA1</italic>, <italic toggle="yes">APC</italic>, and <italic toggle="yes">BRCA2</italic> (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Alterations in epigenetic regulators, including <italic toggle="yes">KMT2C</italic> and <italic toggle="yes">KMT2D</italic> are also significantly enriched in metastatic tumors, and in aggregate define a genomic signature of high risk disease. Conversely, mutations in <italic toggle="yes">SPOP</italic> were significantly enriched in primary tumors (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). After correction for differences in mutational load, <italic toggle="yes">IDH1 and ZMYM3</italic> mutations were also enriched in primary tumors (p=0.01, mutation rate-adjusted permutation test). At the pathway level, PI3K, DNA repair, Cell cycle, <italic toggle="yes">WNT/CTNNB1</italic>, and epigenetic regulators were significantly more frequently altered in metastatic compared to primary tumors (p&lt;0.0001 Fisher’s exact test, <xref rid="F4" ref-type="fig">Fig. 4b</xref> and <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 7</xref>).</p>
+      <p id="P15">Within a given cancer type, the ability to redefine mutational significance with rapidly expanding sample sizes may identify new biologically and clinically relevant genes and pathways not previously appreciated. This study has leveraged this strategy to identify novel driver genes and pathways potentially implicated in the pathogenesis of prostate cancer. While many of the significantly altered genes and pathways are mutated at low frequencies, given the incidence of prostate cancer these alterations still impact large patient populations. In addition, whereas expanded analysis of primary indolent prostate cancer suggests near saturation for gene discovery<sup><xref rid="R28" ref-type="bibr">28</xref></sup>, this analysis, which includes more advanced cases, has revealed new biologically and clinically relevant events and creates an opportunity to prospectively assess a metastasis-associated genomic marker for clinical stratification in localized prostate cancer.</p>
+      <p id="P16">Combined statistical and biological significance analysis enabled a focused assessment of the SMGs identified herein, and efforts to functionally characterize this long tail of SMGs in prostate cancer may inform their relative phenotypic effects on oncogenicity, metastatic potential, and response characteristics to known or emerging prostate cancer therapeutics. Indeed, many of the genes identified through statistical analysis alone are of unknown function and suggest that even larger sample sizes paired with functional analysis will be necessary to discriminate which are relevant to prostate cancer oncogenesis. Subsequent studies that harmonize even larger prostate cancer molecular cohorts through uniform genomic analysis may also orthogonally validate these findings and further mitigate technical differences, such as stochastic effects of sequencing on variant detection, when analyzed in aggregate. Overall, our analysis demonstrates the utility of uniform genomic analysis in a single cancer type at a larger scale than previously reported, thereby redefining the molecular landscape of prostate cancer and providing rationale to revisit mutational significance in other cancer types as data generation scales by orders of magnitude.</p>
+      <sec sec-type="methods" id="S1" specific-use="web-only">
+        <title>ONLINE METHODS</title>
+        <sec id="S2">
+          <title>Cohort collection and quality control</title>
+          <p id="P17">Samples were included in this study if tumor and matched germline WES raw sequencing data (BAM or Fastq files) were accessible and met downstream quality control characteristics (see Quality Control, below). These cohorts were identified through review of the literature and expert review (<xref rid="SD4" ref-type="supplementary-material">Supplementary Table 1</xref>). All cohorts had institutional review board approval for access from the original studies, listed in the citation. We obtained the WES BAM files from all samples. All samples underwent uniform alignment through the same version of the PICARD pipeline. Details of versions and parameters for all tasks within the PICARD pipeline are provided in the <xref rid="SD3" ref-type="supplementary-material">Supplementary Note</xref>. All tumor samples were required to have at least 50x mean target coverage and all paired normals were required to have at least 30x mean target coverage. Mean target coverage across the cohorts for tumors was 104.7x and for normals was 103.8x. ContEst was used to estimate the level of contamination with foreign DNA<sup><xref rid="R29" ref-type="bibr">29</xref></sup>. All samples had Contest scores lower than 5%, and the mean Contest value was 0.6%.</p>
+        </sec>
+        <sec id="S3">
+          <title>Clinical Data</title>
+          <p id="P18">All clinicopathological annotations were obtained from the original papers<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R7" ref-type="bibr">7</xref>–<xref rid="R9" ref-type="bibr">9</xref></sup>. All primary tumors were treatment-naive; all metastatic tumors were castration resistant.</p>
+        </sec>
+        <sec id="S4">
+          <title>Variant Calling</title>
+          <p id="P19">To restrict the analysis to consider sites in the common pool of bases covered the bait sets used in the respective source projects, an intersected BED file was created using the bedtools intersect tool (<xref rid="SD9" ref-type="supplementary-material">Supplementary Table 8</xref>; <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 7</xref>)</p>
+          <p id="P20">(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://bedtools.readthedocs.io/en/latest/content/tools/intersect.html">http://bedtools.readthedocs.io/en/latest/content/tools/intersect.html</ext-link>). Single nucleotide variants (SNVs) were called with MuTect (version 1.1.6)<sup><xref rid="R30" ref-type="bibr">30</xref></sup>, using the intersected BED file. Unfiltered MuTect mutation call are located in Supplementary Table 9.</p>
+          <p id="P21">Artifacts introduced by DNA oxidation during sequencing or formalin fixation process were removed when appropriate<sup><xref rid="R31" ref-type="bibr">31</xref></sup>. Specifically regarding artifacts from formalin fixation, formalin fixation introduces multiple types of DNA damage including deamination, which converts cytosine to uracil and leads to downstream mispairing in PCR: C&gt;T / G&gt;A. Because deamination occurs prior to ligation of palindromic Illumina adapters, likely deamination artifacts will have a read orientation bias. We then use this read orientation to identify artifacts and calculate a Phred scaled Q-score for FFPE artifacts<sup><xref rid="R32" ref-type="bibr">32</xref></sup>.</p>
+          <p id="P22">To further reduce low confidence mutations with potential strand bias, we performed a Fisher’s exact test on each called mutation site in aggregate to identify variants occurring significantly more frequently in one read direction than in the other. A false discovery rate threshold, measured by Benjamini-Hochberg, of &lt;0.0001 was used. In addition, all SNVs were required to have an allelic fraction of &gt;= 0.01 to be called.</p>
+          <p id="P23">Insertions and deletions (indels) were called with Strelka (version 1.0.11)<sup><xref rid="R33" ref-type="bibr">33</xref></sup>. SNVs and indels were also filtered through a large panel of normals to extract additional poor calls. Any mutations in hotspot genes, defined by cancerhotspots.org<sup><xref rid="R34" ref-type="bibr">34</xref></sup>, initially called by MuTect but subsequently filtered out were rescued for the final variant list. When possible, we used ERG fusions calls defined as per the original source data<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R4" ref-type="bibr">4</xref></sup>. For the 126 additional TCGA samples that were not part of the TCGA manuscript, we derived ERG fusion status via mRNA expression levels, inferring from samples with outlier expression of ERG likely contain an ERG fusion<sup><xref rid="R2" ref-type="bibr">2</xref></sup>.</p>
+          <p id="P24">Exome-wide copy-number ratios were inferred from coverage information using ReCapSeg (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://gatkforums.broadinstitute.org/gatk/categories/recapseg">http://gatkforums.broadinstitute.org/gatk/categories/recapseg</ext-link>). For 303 prostate cancer samples that were analyzed by TCGA, we compared the segmented copy-number profiles generated by ReCapSeg to those from SNP6 data<sup><xref rid="R2" ref-type="bibr">2</xref></sup> (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 8</xref>). We generated a scatter plot to compare the segment means of matched segments &gt;200KB from the SNP6 and the ReCapSeg data, resulting in a pearson correlation of 0.92. Significant focal copy-number alterations were identified from segmented data using GISTIC 2.0<sup><xref rid="R35" ref-type="bibr">35</xref></sup>. In addition, we called the allelic copy-number of well known prostate cancer genes, accounting for purity and ploidy, obtained from FACETS (version 0.5.10)<sup><xref rid="R36" ref-type="bibr">36</xref></sup> (genes examined: <italic toggle="yes">TP53, APC, PTEN, RB1, BRCA2, CDKN1B, FANCA, ATM, AR</italic>). We performed manual review of copy number calls for selected oncogenes and tumor suppressors. All data is available for visualization and analysis in the cBioPortal for Cancer Genomics at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/study.do?cancer_study_id=prad_fhcrc">http://www.cbioportal.org/</ext-link><sup><xref rid="R37" ref-type="bibr">37</xref></sup>.</p>
+        </sec>
+        <sec id="S5">
+          <title>Mutation and Copy-Number Burden</title>
+          <p id="P25">Mutational burden was calculated as the number of mutations over the number of bases covered per sample and is reported as mutations per megabase. Copy-number burden was calculated as fraction of genome altered using copy-number segments with &gt;|0.2|, as previously defined<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. A multivariate linear regression adjusting for purity and coverage was used to evaluate the difference in mutational and copy-number burden in metastatic and primary tumors. Additional information is provided in the <xref rid="SD3" ref-type="supplementary-material">Supplementary Note</xref>.</p>
+        </sec>
+        <sec id="S6">
+          <title>Mutational Significance Analysis</title>
+          <p id="P26">All mutations that passed QC were analyzed using Mutsig2CV<sup><xref rid="R5" ref-type="bibr">5</xref></sup> to identify significantly mutated genes (SMGs). Mutsig2CV integrates three separate significance algorithms: MutsigCV, MutsigFN, which looks at the functionality of a mutation in a gene, and MutsigCL, which looks at the clustering of mutations within the gene, specifically looking for hotspot mutations. Both MutsigFN and MutsigCL measure significance based on permutations. Significantly mutated genes (SMGs) fell within two different categories: 1) <italic toggle="yes">q</italic> values less than 0.1 and altered in at least 10 samples, 2) q values between 0.1 and 0.25, altered in 10 samples, and in known cancer genes<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup>. Additionally, genes with low median allelic fraction (&lt;0.1) were removed from the SMG list. Genes whose length was &gt;1500aa (except for cancer genes<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup> or if the gene had a fraction of truncating variants larger than 50% of total mutations, indicating a putative tumor suppressor) were also removed from the SMG list. Genes with low expression in prostate cancer (median expression below bottom tertile TCGA RNAseq<sup><xref rid="R2" ref-type="bibr">2</xref></sup>) were also removed from the SMG list. Finally, genes with at least five oncogenic variants (according to OncoKB, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://oncokb.org/">http://oncokb.org</ext-link>), but were not previously included in the SMG list, were added to the SMG list<sup><xref rid="R39" ref-type="bibr">39</xref></sup>.</p>
+        </sec>
+        <sec id="S7">
+          <title>Comparison of genomic alterations between primary and metastatic tumors</title>
+          <p id="P27">Enrichment analysis of mutations and copy-number alterations observed in metastatic tumors compared to primary tumors was performed by tabulating the frequency of mutations or copy-number events observed in either metastatic or primary prostate cancer and performing a two-sided Fisher’s exact test on a set of biologically relevant cancer genes (n=650 genes)<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup>. Multiple hypothesis test correction was performed using Benjamini-Hochberg method. To adjust for differences due to increased mutation load in metastatic tumors, we also performed a modified Fisher’s exact test; a permutation test where the probability of mutation in each sample is weighted by the mutation rate in that sample, and a simulation of 10,000 permutations performed with a two-sided p-value calculated as the proportion of those permutations with the observed or more extreme outcome. This directly corrects for differential observed mutation rates between primary and metastatic tumors, and represents the null hypothesis that mutations are equally likely to be found in primary vs. metastatic tumors, adjusting for differences in mutation rate. We were able to perform this mutational-rate based adjustment in genes where the only events were mutations. In cases where functional events included both gene mutations and copy-number changes (e.g. <italic toggle="yes">PTEN</italic>), we performed only a Fisher’s Exact test.</p>
+        </sec>
+        <sec id="S8">
+          <title>Clonality analysis</title>
+          <p id="P28">Clonality of mutations was estimated as cancer cell fraction (CCF)<sup><xref rid="R40" ref-type="bibr">40</xref></sup>, and implemented in the FACETS algorithm<sup><xref rid="R36" ref-type="bibr">36</xref></sup>. Additional information is provided in the <xref rid="SD3" ref-type="supplementary-material">Supplementary Note</xref>.</p>
+        </sec>
+        <sec id="S9">
+          <title>Statistical Analysis</title>
+          <p id="P29">Two-tailed Fisher’s exact test was used to assess enrichment of alterations in epigenetic regulators and chromatin remodelers in ETS-negative tumors. Association of mutation burden and fraction genome altered with metastasis status, age at diagnosis and Gleason score were evaluated using Mann Whitney Wilcoxon test and permutation test. All statistical analysis were performed using R version 3.3.1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org</ext-link>).</p>
+        </sec>
+        <sec id="S10">
+          <title>Validation Datasets</title>
+          <p id="P30">To validate mutations detected in this study cohort, we queried cancer panel data from two sources: 1) Foundation Medicine, 204 patients with prostate cancer, as published<sup><xref rid="R41" ref-type="bibr">41</xref></sup>. Mutation calling for this cohort was obtained as previously described and data is available in phs001179. 2) Clinical sequencing data from 706 samples from Memorial Sloan Kettering patients (MSK-IMPACT)<sup><xref rid="R19" ref-type="bibr">19</xref>,<xref rid="R20" ref-type="bibr">20</xref></sup>. Mutation calling for this cohort was obtained as previously described and data is available from the paper or at cBioPortal.org.</p>
+        </sec>
+        <sec id="S11">
+          <title>Data Availability</title>
+          <p id="P31">BAM files are accessible as described for the original cohorts (<xref rid="SD4" ref-type="supplementary-material">Supplementary Table 1</xref>). In addition, all mutation calls and clinical annotation were deposited into cBioPortal for analysis and visualization: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cbioportal.org/study?id=prad_p1000">http://www.cbioportal.org/study?id=prad_p1000</ext-link>.</p>
+        </sec>
+        <sec id="S12">
+          <title>Code Availability</title>
+          <p id="P32">Bioinformatics tools used in the analysis of this data set are publicly available. Any that are not are available upon request.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM1">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-1.doc" orientation="portrait" id="d36e1364" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD10" position="float" orientation="portrait">
+          <label>9</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-9.txt" orientation="portrait" id="d36e1368" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>10</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-10.pdf" orientation="portrait" id="d36e1372" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-2.pdf" orientation="portrait" id="d36e1376" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD4" position="float" orientation="portrait">
+          <label>3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-3.xlsx" orientation="portrait" id="d36e1380" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD5" position="float" orientation="portrait">
+          <label>4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-4.txt" orientation="portrait" id="d36e1384" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD6" position="float" orientation="portrait">
+          <label>5</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-5.xlsx" orientation="portrait" id="d36e1388" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD7" position="float" orientation="portrait">
+          <label>6</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-6.xlsx" orientation="portrait" id="d36e1392" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD8" position="float" orientation="portrait">
+          <label>7</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-7.xlsx" orientation="portrait" id="d36e1396" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD9" position="float" orientation="portrait">
+          <label>8</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS938028-supplement-8.txt" orientation="portrait" id="d36e1400" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S13">
+        <title>ACKNOWLEDGEMENTS</title>
+        <p id="P33">We thank the patients for participating in this study. We also thank the Broad Cancer Genome Analysis and Data Sciences groups for analysis methodology and computational support.</p>
+        <p id="P34"><bold>FUNDING</bold>: This work was supported by the SU2C-PCF Prostate Cancer International Dream Team, Prostate Cancer Foundation Young Investigator Awards (B.S.T., C.P., N.S., E.M.V.A.), Prostate Cancer Foundation-V Foundation Challenge Award (E.M.V.A., P.S.N., J. S. d.B.), NIH K08CA188615 (E.M.V.A.), NCI P50-CA097186 and NCI P50-CA92629 SPOREs in Prostate Cancer, the Marie-Josée and Henry R. Kravis Center for Molecular Oncology, a National Cancer Institute Cancer Center Core Grant (P30-CA008748), and the Robertson Foundation (B.S.T, N.S.).</p>
+      </ack>
+      <fn-group>
+        <fn fn-type="COI-statement" id="FN1">
+          <p id="P35">COMPETING FINANCIAL INTEREST</p>
+          <p id="P36">Dr. Van Allen is a consultant for Tango Therapeutics and Genome Medical.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="R1">
+          <label>1.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Robinson</surname><given-names>D</given-names></name><etal/><article-title>Integrative clinical genomics of advanced prostate cancer</article-title>. <source>Cell</source><volume>161</volume>, <fpage>1215</fpage>–<lpage>1228</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26000489</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.05.001</pub-id><pub-id pub-id-type="pmcid">PMC4484602</pub-id></mixed-citation>
+        </ref>
+        <ref id="R2">
+          <label>2.</label>
+          <mixed-citation publication-type="journal"><collab>The Molecular Taxonomy of Primary Prostate Cancer</collab>. <source>Cell</source><volume>163</volume>, <fpage>1011</fpage>–<lpage>1025</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26544944</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.10.025</pub-id><pub-id pub-id-type="pmcid">PMC4695400</pub-id></mixed-citation>
+        </ref>
+        <ref id="R3">
+          <label>3.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Tomlins</surname><given-names>SA</given-names></name><etal/><article-title>Recurrent fusion of TMPRSS2 and ETS transcription factor genes in prostate cancer</article-title>. <source>Science</source><volume>310</volume>, <fpage>644</fpage>–<lpage>648</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16254181</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1117679</pub-id></mixed-citation>
+        </ref>
+        <ref id="R4">
+          <label>4.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Barbieri</surname><given-names>CE</given-names></name><etal/><article-title>Exome sequencing identifies recurrent SPOP, FOXA1 and MED12 mutations in prostate cancer</article-title>. <source>Nat. Genet</source><volume>44</volume>, <fpage>685</fpage>–<lpage>689</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22610119</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2279</pub-id><pub-id pub-id-type="pmcid">PMC3673022</pub-id></mixed-citation>
+        </ref>
+        <ref id="R5">
+          <label>5.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lawrence</surname><given-names>MS</given-names></name><etal/><article-title>Discovery and saturation analysis of cancer genes across 21 tumour types</article-title>. <source>Nature</source><volume>505</volume>, <fpage>495</fpage>–<lpage>501</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24390350</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12912</pub-id><pub-id pub-id-type="pmcid">PMC4048962</pub-id></mixed-citation>
+        </ref>
+        <ref id="R6">
+          <label>6.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lek</surname><given-names>M</given-names></name><etal/><article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>. <source>Nature</source><volume>536</volume>, <fpage>285</fpage>–<lpage>291</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27535533</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature19057</pub-id><pub-id pub-id-type="pmcid">PMC5018207</pub-id></mixed-citation>
+        </ref>
+        <ref id="R7">
+          <label>7.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Beltran</surname><given-names>H</given-names></name><etal/><article-title>Divergent clonal evolution of castration-resistant neuroendocrine prostate cancer</article-title>. <source>Nat. Med</source><volume>22</volume>, <fpage>298</fpage>–<lpage>305</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26855148</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.4045</pub-id><pub-id pub-id-type="pmcid">PMC4777652</pub-id></mixed-citation>
+        </ref>
+        <ref id="R8">
+          <label>8.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kumar</surname><given-names>A</given-names></name><etal/><article-title>Substantial interindividual and limited intraindividual genomic diversity among tumors from men with metastatic prostate cancer</article-title>. <source>Nat. Med</source><volume>22</volume>, <fpage>369</fpage>–<lpage>378</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26928463</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.4053</pub-id><pub-id pub-id-type="pmcid">PMC5045679</pub-id></mixed-citation>
+        </ref>
+        <ref id="R9">
+          <label>9.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Baca</surname><given-names>SC</given-names></name><etal/><article-title>Punctuated evolution of prostate cancer genomes</article-title>. <source>Cell</source><volume>153</volume>, <fpage>666</fpage>–<lpage>677</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23622249</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2013.03.021</pub-id><pub-id pub-id-type="pmcid">PMC3690918</pub-id></mixed-citation>
+        </ref>
+        <ref id="R10">
+          <label>10.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hieronymus</surname><given-names>H</given-names></name><etal/><article-title>Copy number alteration burden predicts prostate cancer relapse</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source><volume>111</volume>, <fpage>11139</fpage>–<lpage>11144</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25024180</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1411446111</pub-id><pub-id pub-id-type="pmcid">PMC4121784</pub-id></mixed-citation>
+        </ref>
+        <ref id="R11">
+          <label>11.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Lawrence</surname><given-names>MS</given-names></name><etal/><article-title>Mutational heterogeneity in cancer and the search for new cancer-associated genes</article-title>. <source>Nature</source><volume>499</volume>, <fpage>214</fpage>–<lpage>218</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23770567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12213</pub-id><pub-id pub-id-type="pmcid">PMC3919509</pub-id></mixed-citation>
+        </ref>
+        <ref id="R12">
+          <label>12.</label>
+          <mixed-citation publication-type="journal"><collab>Cancer Genome Atlas Research Network</collab>. <article-title>Comprehensive molecular characterization of clear cell renal cell carcinoma</article-title>. <source>Nature</source><volume>499</volume>, <fpage>43</fpage>–<lpage>49</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23792563</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12222</pub-id><pub-id pub-id-type="pmcid">PMC3771322</pub-id></mixed-citation>
+        </ref>
+        <ref id="R13">
+          <label>13.</label>
+          <mixed-citation publication-type="journal"><collab>Cancer Genome Atlas Research Network</collab>. <article-title>Comprehensive molecular characterization of urothelial bladder carcinoma</article-title>. <source>Nature</source><volume>507</volume>, <fpage>315</fpage>–<lpage>322</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24476821</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12965</pub-id><pub-id pub-id-type="pmcid">PMC3962515</pub-id></mixed-citation>
+        </ref>
+        <ref id="R14">
+          <label>14.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Theurillat</surname><given-names>J-PP</given-names></name><etal/><article-title>Ubiquitylome analysis identifies dysregulation of effector substrates in SPOP-mutant prostate cancer</article-title>. <source>Science</source><volume>346</volume>, <fpage>85</fpage>–<lpage>89</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25278611</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1250255</pub-id><pub-id pub-id-type="pmcid">PMC4257137</pub-id></mixed-citation>
+        </ref>
+        <ref id="R15">
+          <label>15.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Geng</surname><given-names>C</given-names></name><etal/><article-title>Prostate cancer-associated mutations in speckle-type POZ protein (SPOP) regulate steroid receptor coactivator 3 protein turnover</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source><volume>110</volume>, <fpage>6997</fpage>–<lpage>7002</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23559371</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1304502110</pub-id><pub-id pub-id-type="pmcid">PMC3637757</pub-id></mixed-citation>
+        </ref>
+        <ref id="R16">
+          <label>16.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Yuan</surname><given-names>W-C</given-names></name><etal/><article-title>A Cullin3-KLHL20 Ubiquitin ligase-dependent pathway targets PML to potentiate HIF-1 signaling and prostate cancer progression</article-title>. <source>Cancer Cell</source><volume>20</volume>, <fpage>214</fpage>–<lpage>228</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21840486</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccr.2011.07.008</pub-id></mixed-citation>
+        </ref>
+        <ref id="R17">
+          <label>17.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Groner</surname><given-names>AC</given-names></name><etal/><article-title>TRIM24 Is an Oncogenic Transcriptional Activator in Prostate Cancer</article-title>. <source>Cancer Cell</source><volume>29</volume>, <fpage>846</fpage>–<lpage>858</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27238081</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2016.04.012</pub-id><pub-id pub-id-type="pmcid">PMC5124371</pub-id></mixed-citation>
+        </ref>
+        <ref id="R18">
+          <label>18.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Boysen</surname><given-names>G</given-names></name><etal/><article-title>SPOP mutation leads to genomic instability in prostate cancer</article-title>. <source>Elife</source><volume>4</volume>, (<year>2015</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.09207</pub-id><pub-id pub-id-type="pmcid">PMC4621745</pub-id><pub-id pub-id-type="pmid">26374986</pub-id></mixed-citation>
+        </ref>
+        <ref id="R19">
+          <label>19.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Abida</surname><given-names>W</given-names></name><etal/><article-title>Prospective Genomic Profiling of Prostate Cancer Across Disease States Reveals Germline and Somatic Alterations That May Affect Clinical Decision Making</article-title>. <source>JCO Precis Oncol 2017</source>, (<year>2017</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00029</pub-id><pub-id pub-id-type="pmcid">PMC5558263</pub-id><pub-id pub-id-type="pmid">28825054</pub-id></mixed-citation>
+        </ref>
+        <ref id="R20">
+          <label>20.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Zehir</surname><given-names>A</given-names></name><etal/><article-title>Mutational Landscape of Metastatic Cancer Revealed from Prospective Clinical Sequencing of 10,000 Patients</article-title>. <source>Nat. Med</source> (<year>2017</year>). doi:<pub-id pub-id-type="doi">10.1038/nm0817-1004c</pub-id><pub-id pub-id-type="pmcid">PMC5461196</pub-id><pub-id pub-id-type="pmid">28481359</pub-id></mixed-citation>
+        </ref>
+        <ref id="R21">
+          <label>21.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Dolatshad</surname><given-names>H</given-names></name><etal/><article-title>Disruption of SF3B1 results in deregulated expression and splicing of key genes and pathways in myelodysplastic syndrome hematopoietic stem and progenitor cells</article-title>. <source>Leukemia</source><volume>29</volume>, <fpage>1092</fpage>–<lpage>1103</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25428262</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/leu.2014.331</pub-id><pub-id pub-id-type="pmcid">PMC4430703</pub-id></mixed-citation>
+        </ref>
+        <ref id="R22">
+          <label>22.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Ciriello</surname><given-names>G</given-names></name><etal/><article-title>Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer</article-title>. <source>Cell</source><volume>163</volume>, <fpage>506</fpage>–<lpage>519</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26451490</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.09.033</pub-id><pub-id pub-id-type="pmcid">PMC4603750</pub-id></mixed-citation>
+        </ref>
+        <ref id="R23">
+          <label>23.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Papaemmanuil</surname><given-names>E</given-names></name><etal/><article-title>Somatic SF3B1 mutation in myelodysplasia with ring sideroblasts</article-title>. <source>N. Engl. J. Med</source><volume>365</volume>, <fpage>1384</fpage>–<lpage>1395</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21995386</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1103283</pub-id><pub-id pub-id-type="pmcid">PMC3322589</pub-id></mixed-citation>
+        </ref>
+        <ref id="R24">
+          <label>24.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McHugh</surname><given-names>CA</given-names></name><etal/><article-title>The Xist lncRNA interacts directly with SHARP to silence transcription through HDAC3</article-title>. <source>Nature</source><volume>521</volume>, <fpage>232</fpage>–<lpage>236</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25915022</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature14443</pub-id><pub-id pub-id-type="pmcid">PMC4516396</pub-id></mixed-citation>
+        </ref>
+        <ref id="R25">
+          <label>25.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shi</surname><given-names>Y</given-names></name><article-title>Sharp, an inducible cofactor that integrates nuclear receptor repression and activation</article-title>. <source>Genes Dev</source><volume>15</volume>, <fpage>1140</fpage>–<lpage>1151</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11331609</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gad.871201</pub-id><pub-id pub-id-type="pmcid">PMC312688</pub-id></mixed-citation>
+        </ref>
+        <ref id="R26">
+          <label>26.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Légaré</surname><given-names>S</given-names></name><etal/><article-title>The Estrogen Receptor Cofactor SPEN Functions as a Tumor Suppressor and Candidate Biomarker of Drug Responsiveness in Hormone-Dependent Breast Cancers</article-title>. <source>Cancer Res</source><volume>75</volume>, <fpage>4351</fpage>–<lpage>4363</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26297734</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-14-3475</pub-id></mixed-citation>
+        </ref>
+        <ref id="R27">
+          <label>27.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Kuchay</surname><given-names>S</given-names></name><etal/><article-title>FBXL2- and PTPL1-mediated degradation of p110-free p85β regulatory subunit controls the PI(3)K signalling cascade</article-title>. <source>Nat. Cell Biol</source><volume>15</volume>, <fpage>472</fpage>–<lpage>480</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23604317</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncb2731</pub-id><pub-id pub-id-type="pmcid">PMC3865866</pub-id></mixed-citation>
+        </ref>
+        <ref id="R28">
+          <label>28.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Fraser</surname><given-names>M</given-names></name><etal/><article-title>Genomic hallmarks of localized, non-indolent prostate cancer</article-title>. <source>Nature</source> (<year>2017</year>). doi:<pub-id pub-id-type="doi">10.1038/nature20788</pub-id><pub-id pub-id-type="pmid">28068672</pub-id></mixed-citation>
+        </ref>
+        <ref id="R29">
+          <label>29.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name><etal/><article-title>ContEst: estimating cross-contamination of human samples in next-generation sequencing data</article-title>. <source>Bioinformatics</source><volume>27</volume>, <fpage>2601</fpage>–<lpage>2602</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21803805</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr446</pub-id><pub-id pub-id-type="pmcid">PMC3167057</pub-id></mixed-citation>
+        </ref>
+        <ref id="R30">
+          <label>30.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name><etal/><article-title>Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples</article-title>. <source>Nat. Biotechnol</source><volume>31</volume>, <fpage>213</fpage>–<lpage>219</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23396013</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2514</pub-id><pub-id pub-id-type="pmcid">PMC3833702</pub-id></mixed-citation>
+        </ref>
+        <ref id="R31">
+          <label>31.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Costello</surname><given-names>M</given-names></name><etal/><article-title>Discovery and characterization of artifactual mutations in deep coverage targeted capture sequencing data due to oxidative DNA damage during sample preparation</article-title>. <source>Nucleic Acids Res</source><volume>41</volume>, <fpage>e67</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23303777</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gks1443</pub-id><pub-id pub-id-type="pmcid">PMC3616734</pub-id></mixed-citation>
+        </ref>
+        <ref id="R32">
+          <label>32.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Van Allen</surname><given-names>EM</given-names></name><etal/><article-title>Whole-exome sequencing and clinical interpretation of formalin-fixed, paraffin-embedded tumor samples to guide precision cancer medicine</article-title>. <source>Nat. Med</source><volume>20</volume>, <fpage>682</fpage>–<lpage>688</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24836576</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3559</pub-id><pub-id pub-id-type="pmcid">PMC4048335</pub-id></mixed-citation>
+        </ref>
+        <ref id="R33">
+          <label>33.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Saunders</surname><given-names>CT</given-names></name><etal/><article-title>Strelka: accurate somatic small-variant calling from sequenced tumor-normal sample pairs</article-title>. <source>Bioinformatics</source><volume>28</volume>, <fpage>1811</fpage>–<lpage>1817</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22581179</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/bts271</pub-id></mixed-citation>
+        </ref>
+        <ref id="R34">
+          <label>34.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chang</surname><given-names>MT</given-names></name><etal/><article-title>Identifying recurrent mutations in cancer reveals widespread lineage diversity and mutational specificity</article-title>. <source>Nat. Biotechnol</source><volume>34</volume>, <fpage>155</fpage>–<lpage>163</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26619011</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.3391</pub-id><pub-id pub-id-type="pmcid">PMC4744099</pub-id></mixed-citation>
+        </ref>
+        <ref id="R35">
+          <label>35.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Mermel</surname><given-names>CH</given-names></name><etal/><article-title>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</article-title>. <source>Genome Biol</source><volume>12</volume>, <fpage>R41</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21527027</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2011-12-4-r41</pub-id><pub-id pub-id-type="pmcid">PMC3218867</pub-id></mixed-citation>
+        </ref>
+        <ref id="R36">
+          <label>36.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Shen</surname><given-names>R</given-names></name> &amp; <name name-style="western"><surname>Seshan</surname><given-names>VE</given-names></name><article-title>FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing</article-title>. <source>Nucleic Acids Res</source><volume>44</volume>, <fpage>e131</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27270079</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkw520</pub-id><pub-id pub-id-type="pmcid">PMC5027494</pub-id></mixed-citation>
+        </ref>
+        <ref id="R37">
+          <label>37.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cerami</surname><given-names>E</given-names></name><etal/><article-title>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</article-title>. <source>Cancer Discov</source><volume>2</volume>, <fpage>401</fpage>–<lpage>404</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22588877</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-12-0095</pub-id><pub-id pub-id-type="pmcid">PMC3956037</pub-id></mixed-citation>
+        </ref>
+        <ref id="R38">
+          <label>38.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Cheng</surname><given-names>DT</given-names></name><etal/><article-title>Memorial Sloan Kettering-Integrated Mutation Profiling of Actionable Cancer Targets (MSK-IMPACT): A Hybridization Capture-Based Next-Generation Sequencing Clinical Assay for Solid Tumor Molecular Oncology</article-title>. <source>J. Mol. Diagn</source><volume>17</volume>, <fpage>251</fpage>–<lpage>264</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25801821</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jmoldx.2014.12.006</pub-id><pub-id pub-id-type="pmcid">PMC5808190</pub-id></mixed-citation>
+        </ref>
+        <ref id="R39">
+          <label>39.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Chakravarty</surname><given-names>D</given-names></name>. <article-title>OncoKB: A Precision Oncology Knowledge Base</article-title>. <source>Journal of Clinical Oncology Precision Oncology</source> (<year>2017</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/PO.17.00011</pub-id><pub-id pub-id-type="pmcid">PMC5586540</pub-id><pub-id pub-id-type="pmid">28890946</pub-id></mixed-citation>
+        </ref>
+        <ref id="R40">
+          <label>40.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>McGranahan</surname><given-names>N</given-names></name><etal/><article-title>Clonal status of actionable driver events and the timing of mutational processes in cancer evolution</article-title>. <source>Sci. Transl. Med</source><volume>7</volume>, <fpage>283ra54</fpage> (<year>2015</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.aaa1408</pub-id><pub-id pub-id-type="pmcid">PMC4636056</pub-id><pub-id pub-id-type="pmid">25877892</pub-id></mixed-citation>
+        </ref>
+        <ref id="R41">
+          <label>41.</label>
+          <mixed-citation publication-type="journal"><name name-style="western"><surname>Hartmaier</surname><given-names>RJ</given-names></name><etal/><article-title>High-Throughput Genomic Profiling of Adult Solid Tumors Reveals Novel Insights into Cancer Pathogenesis</article-title>. <source>Cancer Res</source> (<year>2017</year>). doi:<pub-id pub-id-type="doi">10.1158/0008-5472.CAN-16-2479</pub-id><pub-id pub-id-type="pmid">28235761</pub-id></mixed-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p id="P37">Mutational significance in 1013 prostate cancers. <bold>(a)</bold> Uniform alignment, mutation calling, and significance analysis. <bold>(b)</bold> Recurrently mutated genes (n = 97). Genes are ordered by frequency, and mutations are stratified by mutation type and, for missense mutation, by recurrence. Recurrence is defined via <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cancerhotspots.org/">cancerhotspots.org</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://OncoKB.org/">OncoKB.org</ext-link>, and COSMIC; truncating mutations are defined as frameshift, nonsense, splice, nonstop. (<bold>c</bold>) Mutations in epigenetic regulators and chromatin remodelers are significantly enriched in ETS-negative tumors. p-values are calculated using a two-tailed Fisher’s exact test and shown for ETS fusions compared to all epigenetic mutations (including those co-occurring with <italic toggle="yes">SPOP</italic> and <italic toggle="yes">CUL3</italic>) and for ETS fusions compared to non-overlapping mutations in epigenetic modifiers only. (<bold>d</bold>) Cohort-wide view of mutations in epigenetic regulators and chromatin remodelers, which affect 20% of samples. Samples are shown from left to right (only the 202 tumors with alterations are shown, out of 1013), and gene alterations are color-coded by mutation type and, for missense mutations, by assumed driver status; mutations are assumed to be drivers if they have been previously reported and entered into COSMIC or annotated in OncoKB or variants of unknown significance (VUS).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-938028-f0001.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p id="P38">Ubiquitin and splicing pathways in prostate cancer. <bold>(a)</bold> Mutations in <italic toggle="yes">CUL3</italic> are exclusively missense mutations, and five tumors show the recurrent p.Met299Arg mutation. <italic toggle="yes">CUL3</italic> mutations are mutually exclusive with <italic toggle="yes">SPOP</italic> mutations, and including USP28, <italic toggle="yes">USP7</italic>, 12% of tumors harbor alterations in members of the ubiquitin pathway. <bold>(b)</bold>
+<italic toggle="yes">CUL3</italic>-mutant tumors show copy-number profile similar to those of <italic toggle="yes">SPOP</italic>-mutant tumors. Chromosomes are shown from left to right, samples from top to bottom. Regions of loss are indicated by shades of blue, and gains are indicated by shades of red. <bold>(c)</bold> Mutations in members of the splicing pathway are found in 4% of tumors, including oncogenic mutations in <italic toggle="yes">SF3B1</italic> and <italic toggle="yes">U2AF1</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-938028-f0002.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p id="P39"><italic toggle="yes">SPEN</italic> mutations and WNT pathway alterations. <bold>(a)</bold> The majority of <italic toggle="yes">SPEN</italic> mutations are truncating and clonal in metastatic samples. <bold>(b)</bold> Oncoprint highlighting the distributions of <italic toggle="yes">SPEN</italic> mutations with alterations in members of the <italic toggle="yes">AR</italic> signaling. (<bold>c</bold>) Alterations in WNT/CTNNB1 pathway are found in 10% of tumors, primarily with loss of function mutations in <italic toggle="yes">APC</italic> and missense mutations in <italic toggle="yes">CTNNB1</italic>. <bold>(d)</bold>
+<italic toggle="yes">CTNNB1</italic> mutations cluster primarily in hotspots in the N-terminal domain. <bold>(e)</bold> 3D structure of <italic toggle="yes">CTNNB1</italic> showing novel mutations clustered around the CTNNB1-interacting domain of AXIN (highlighted in light gray).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-938028-f0003.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p id="P40">Enrichment of genomic alterations in metastatic tumors. (a) Most genomic alterations are enriched in metastatic disease. Alteration percentages in metastatic samples (n=333) are shown on the x-axis, primary samples (n=680) on the y-axis. The significance of enrichment (two-sided Fisher’s test q-value or weighted permutation test) is shown by the size of the dots. Genes in bold have a significant enrichment of mutations using Fisher’s test and weighted permutation test correcting for mutation burden. (b) Pathway alteration frequencies in metastatic disease compared to primary disease. A sample was considered altered in a given pathway if at least a single gene in the pathway had a genomic alteration. p-values indicate the level of significance (two-sided Fisher’s exact test).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-938028-f0004.jpg"/>
+      </fig>
+      <table-wrap id="T1" position="float" orientation="portrait">
+        <label>Table 1</label>
+        <caption>
+          <p id="P41">Cohort characteristics. Baseline demographic and clinical data for the aggregate cohort, including age, Gleason score, metastatic site (if applicable).</p>
+        </caption>
+        <table frame="box" rules="all">
+          <colgroup span="1">
+            <col align="left" valign="middle" span="1"/>
+            <col align="left" valign="middle" span="1"/>
+            <col align="left" valign="middle" span="1"/>
+            <col align="left" valign="middle" span="1"/>
+          </colgroup>
+          <tbody>
+            <tr>
+              <td rowspan="7" align="center" valign="top" colspan="1">Primary Tumors <break/>(n=680)</td>
+              <td rowspan="5" align="center" valign="top" colspan="1">Gleason Score</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">6</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">103</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">3+4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">208</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">4+3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">143</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">8–10</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">196</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Unknown</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">30</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="top" colspan="1">Age at Diagnosis</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Median</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">62</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Unknown (n)</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">80</td>
+            </tr>
+            <tr>
+              <td rowspan="6" align="center" valign="top" colspan="1">Metastatic Tumors <break/>(n=333)</td>
+              <td rowspan="6" align="center" valign="top" colspan="1">Metastatic Site</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Bone</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">80</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lymph Node</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">82</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lung</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">7</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Soft Tissue</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Other</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">26</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Unknown</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">107</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </floats-group>
+  </article>
+</pmc-articleset>

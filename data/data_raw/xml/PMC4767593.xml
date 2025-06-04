@@ -1,0 +1,2203 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4767593</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4767593.1</article-id>
+        <article-id pub-id-type="pmcaid">4767593</article-id>
+        <article-id pub-id-type="pmcaiid">4767593</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS750468</article-id>
+        <article-id pub-id-type="pmid">26829750</article-id>
+        <article-id pub-id-type="doi">10.1038/ng.3502</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS750468</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA750468</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>An oncogenic MYB feedback loop drives alternate cell fates in adenoid cystic carcinoma</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Drier</surname>
+              <given-names initials="Y">Yotam</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cotton</surname>
+              <given-names initials="MJ">Matthew J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Williamson</surname>
+              <given-names initials="KE">Kaylyn E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gillespie</surname>
+              <given-names initials="SM">Shawn M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ryan</surname>
+              <given-names initials="RJH">Russell J.H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kluk</surname>
+              <given-names initials="MJ">Michael J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Carey</surname>
+              <given-names initials="CD">Christopher D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Rodig</surname>
+              <given-names initials="SJ">Scott J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sholl</surname>
+              <given-names initials="LM">Lynette M</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Afrogheh</surname>
+              <given-names initials="AH">Amir H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Faquin</surname>
+              <given-names initials="WC">William C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Queimado</surname>
+              <given-names initials="L">Lurdes</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Qi</surname>
+              <given-names initials="J">Jun</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wick</surname>
+              <given-names initials="MJ">Michael J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>El-Naggar</surname>
+              <given-names initials="AK">Adel K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bradner</surname>
+              <given-names initials="JE">James E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Moskaluk</surname>
+              <given-names initials="CA">Christopher A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Aster</surname>
+              <given-names initials="JC">Jon C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Knoechel</surname>
+              <given-names initials="B">Birgit</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A11">11</xref>
+            <xref ref-type="aff" rid="A12">12</xref>
+            <xref rid="FN2" ref-type="author-notes">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Bernstein</surname>
+              <given-names initials="BE">Bradley E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref rid="FN2" ref-type="author-notes">13</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Department of Pathology, Massachusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA</aff>
+        <aff id="A2"><label>2</label>Center for Cancer Research, Massachusetts General Hospital, Boston, Massachusetts, USA</aff>
+        <aff id="A3"><label>3</label>Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA</aff>
+        <aff id="A4"><label>4</label>Howard Hughes Medical Institute, Chevy Chase, Maryland, USA</aff>
+        <aff id="A5"><label>5</label>Department of Pathology, Brigham and Women’s Hospital and Harvard Medical School, Boston, Massachusetts, USA</aff>
+        <aff id="A6"><label>6</label>Department of Otorhinolaryngology, The University of Oklahoma Health Sciences Center, Oklahoma City, USA</aff>
+        <aff id="A7"><label>7</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, USA</aff>
+        <aff id="A8"><label>8</label>South Texas Accelerated Research Therapeutics, START, San Antonio, Texas, USA</aff>
+        <aff id="A9"><label>9</label>Department of Pathology, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA</aff>
+        <aff id="A10"><label>10</label>Department of Pathology, University of Virginia Health Sciences Center, Charlottesville, Virginia, USA</aff>
+        <aff id="A11"><label>11</label>Division of Hematology/Oncology, Boston Children’s Hospital, Boston, Massachusetts, USA</aff>
+        <aff id="A12"><label>12</label>Department of Pediatric Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, USA</aff>
+        <author-notes>
+          <corresp id="FN1">Correspondence should be addressed to B.E.B. (<email>Bernstein.Bradley@mgh.harvard.edu</email>) and B.K. (<email>birgit_knoechel@dfci.harvard.edu</email>)</corresp>
+          <fn id="FN2" fn-type="equal">
+            <label>13</label>
+            <p>These authors contributed equally to this work.</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>01</day>
+          <month>2</month>
+          <year>2016</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <day>24</day>
+          <month>2</month>
+          <year>2016</year>
+        </pub-date>
+        <volume>48</volume>
+        <issue>3</issue>
+        <issue-id pub-id-type="pmc-issue-id">265728</issue-id>
+        <fpage>265</fpage>
+        <lpage>272</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>12</day>
+              <month>01</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>01</day>
+              <month>08</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>08</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2025-04-15 16:25:14.160">
+              <day>15</day>
+              <month>04</month>
+              <year>2025</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms750468.pdf"/>
+        <abstract>
+          <p id="P1">Translocation events are frequent in cancer and may create chimeric fusions or ‘regulatory rearrangements’ that drive oncogene overexpression. Here we identify super-enhancer translocations that drive overexpression of the oncogenic transcription factor <italic toggle="yes">MYB</italic> as a recurrent theme in adenoid cystic carcinoma (ACC). Whole-genome sequencing data and chromatin maps reveal distinct chromosomal rearrangements that juxtapose super-enhancers to the <italic toggle="yes">MYB</italic> locus. Chromosome conformation capture confirms that the translocated enhancers interact with the <italic toggle="yes">MYB</italic> promoter. Remarkably, MYB protein binds to the translocated enhancers, creating a positive feedback loop that sustains its expression. MYB also binds enhancers that drive different regulatory programs in alternate cell lineages in ACC, cooperating with TP63 in myoepithelial cells and a Notch program in luminal epithelial cells. Bromodomain inhibitors slow tumor growth in ACC primagraft models <italic toggle="yes">in vivo</italic>. Thus, our study identifies super-enhancer translocations that drive <italic toggle="yes">MYB</italic> expression and provides insight into downstream MYB functions in the alternate ACC lineages.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec sec-type="intro" id="S1">
+        <title>Introduction</title>
+        <p id="P2">Chromosomal rearrangements that create a chimeric fusion gene or drive oncogene overexpression are common in cancer. The discovery of the “Philadelphia chromosome” translocation in chronic myelogenous leukemia, which creates the <italic toggle="yes">BCR-ABL</italic> fusion gene, ushered in an era of targeted therapy with kinase inhibitors. Oncogenic rearrangements that juxtapose a strong enhancer near an oncogene, triggering its overexpression, are also frequent in leukemia and lymphoma<sup><xref rid="R1" ref-type="bibr">1</xref>–<xref rid="R3" ref-type="bibr">3</xref></sup>. Recently, a similar enhancer hijacking mechanism was described in medulloblastoma<sup><xref rid="R4" ref-type="bibr">4</xref></sup>, wherein chromosomal translocations involving enhancers cause over-expression of <italic toggle="yes">GFI1</italic> or <italic toggle="yes">GFI1B</italic>, which function as transcriptional repressors of tumor suppressor genes. In other cases, translocation events drive the expression of an oncogene by replacing its promoter with a highly active promoter, as is the case for <italic toggle="yes">TMPRSS2</italic>-<italic toggle="yes">ERG</italic> fusions in prostate cancer<sup><xref rid="R5" ref-type="bibr">5</xref></sup>.</p>
+        <p id="P3">Adenoid cystic carcinoma (ACC) is a malignant neoplasm that arises within the secretory glands, most commonly in the salivary glands of the head and neck. Though typically slow growing, these tumors are locally aggressive, with a tendency to spread along nerves. Perhaps most challenging clinically, ACC can recur loco-regionally or with distant metastases decades after primary tumor resection, requiring careful long-term surveillance of all patients. Due to the resistance of these tumors to chemotherapy and radiation therapy, non-resectable cases are usually fatal<sup><xref rid="R6" ref-type="bibr">6</xref></sup>.</p>
+        <p id="P4">The <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> translocation is a molecular hallmark that is present in a majority of ACC<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. <italic toggle="yes">MYB</italic> is a master transcription factor (TF) involved in cellular differentiation and proliferation. It functions as an oncogene in a variety of cancers, including breast cancer, pancreatic cancer, and leukemia<sup><xref rid="R8" ref-type="bibr">8</xref></sup>. The <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> translocation reportedly disrupts the <italic toggle="yes">MYB</italic> 3′UTR, which contains a microRNA (miRNA) regulatory site that down-regulates <italic toggle="yes">MYB</italic> expression<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. However, <italic toggle="yes">MYB</italic> translocations that retain the 3′UTR are still associated with high <italic toggle="yes">MYB</italic> expression, indicating the existence of additional mechanisms for <italic toggle="yes">MYB</italic> overexpression in ACC.</p>
+        <p id="P5">Here we identify the juxtaposition of super-enhancer regions to the <italic toggle="yes">MYB</italic> locus as the unifying feature of ACC translocations. Detailed genomic and epigenomic analyses of ACCs reveal alternate rearrangements that translocate super-enhancers in the <italic toggle="yes">NFIB</italic> and <italic toggle="yes">TGFBR3</italic> loci either upstream or downstream of the <italic toggle="yes">MYB</italic> gene. MYB protein binds these super-enhancers, which loop to the <italic toggle="yes">MYB</italic> promoter, thereby establishing a positive feedback loop that sustains expression of this master regulator. MYB also binds a larger repertoire of enhancers genome-wide, which appear to support alternate ACC expression signatures in the myoepithelial and luminal epithelial compartments of ACC. BET bromodomain inhibitors, which disrupt enhancer functions, slow tumor growth in ACC primagraft models <italic toggle="yes">in vivo</italic>. However, these inhibitors appear to be ineffective against high grade ACCs that harbor activating mutations in the Notch pathway. Thus, we identify a novel mechanism of transformation in which a regulatory element rearrangement creates a positive feedback loop between an oncogenic TF protein and its gene locus, with implications for diagnosis and therapeutic strategies in ACC.</p>
+      </sec>
+      <sec sec-type="results" id="S2">
+        <title>Results</title>
+        <sec id="S3">
+          <title>Novel <italic toggle="yes">MYB</italic> translocations in ACC</title>
+          <p id="P6">A diagnostic feature of ACC is a t(6:9) rearrangement that translocates <italic toggle="yes">MYB</italic> to the <italic toggle="yes">NFIB</italic> locus, and results in high <italic toggle="yes">MYB</italic> expression<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. This translocation results in a fusion gene whose coding sequence is almost identical to <italic toggle="yes">MYB</italic>, but with an altered 3′UTR that lacks negative regulatory elements and leads to increased transcript stability<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. Yet, while nearly all ACCs overexpress <italic toggle="yes">MYB</italic>, only about 30% carry an actual fusion transcript<sup><xref rid="R10" ref-type="bibr">10</xref></sup>.</p>
+          <p id="P7">We therefore examined whole genome sequencing data for 18 ACCs, including 12 published primary ACCs<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup> and 6 primary patient-derived xenografts (ACC primagrafts). Consistent with previous reports, we identified <italic toggle="yes">MYB</italic> translocations as the main recurrent event (13 out of 18 ACCs) in these tumors (<xref rid="F1" ref-type="fig">Fig. 1a</xref>). We confirmed the presence of <italic toggle="yes">MYB</italic> rearrangements in four of these primagrafts by PCR. <italic toggle="yes">MYB</italic> rearrangements in the primagrafts were verified by FISH previously<sup><xref rid="R12" ref-type="bibr">12</xref></sup>. We also confirmed by PCR representative rearrangements involving other loci that were detected in the sequencing data (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 1</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>). These results support the validity of rearrangements detected from whole genome sequencing data for these 18 ACCs. Finally, we identified MYB rearrangements in two additional tumors by targeted paired-end sequencing. This yielded a total of 15 (out of 20) ACCs with MYB rearrangements.</p>
+          <p id="P8">We identified canonical <italic toggle="yes">NFIB</italic>-<italic toggle="yes">MYB</italic> fusions with loss of the <italic toggle="yes">MYB</italic> 3′ UTR in 6 of the 20 tumors (30%; <xref rid="F1" ref-type="fig">Fig. 1b</xref>, <xref rid="T1" ref-type="table">Table 1</xref>). An additional 6 tumors (30%) harbor an <italic toggle="yes">NFIB</italic>-<italic toggle="yes">MYB</italic> rearrangement but retain the <italic toggle="yes">MYB</italic> 3′UTR. We also identified novel translocations involving the <italic toggle="yes">MYB</italic> locus: two tumors harbored rearrangements between <italic toggle="yes">MYB</italic> and the <italic toggle="yes">TGFBR3</italic> locus, and one tumor harbored a rearrangement between <italic toggle="yes">MYB</italic> and the <italic toggle="yes">RAD51B</italic> locus. We used quantitative RT-PCR to confirm that all of these rearrangements are associated with high levels of <italic toggle="yes">MYB</italic> expression (<xref rid="F1" ref-type="fig">Fig. 1c</xref>). Notably, several rearrangements occur at the 5′ end of the <italic toggle="yes">MYB</italic> gene, which is inconsistent with production of any fusion protein (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). These findings indicate that neither fusion gene products nor 3′ UTR loss are unifying features of ACC rearrangements, and raise the alternate possibility that these translocations increase <italic toggle="yes">MYB</italic> expression through regulatory alterations.</p>
+        </sec>
+        <sec id="S4">
+          <title>Enhancer rearrangements act as drivers of <italic toggle="yes">MYB</italic> activation</title>
+          <p id="P9">We postulated that ACC translocations might reposition distal regulatory elements in proximity to <italic toggle="yes">MYB</italic>, thereby triggering its overexpression. We therefore mapped the chromatin landscapes of 13 ACCs, including 5 primary specimens and 8 primagrafts. We mapped histone H3 lysine 4 trimethylation (H3K4me3), a promoter-associated mark, and H3 lysine 27 acetylation (H3K27ac), a marker of active enhancers<sup><xref rid="R13" ref-type="bibr">13</xref></sup>. In a subset of samples, we also mapped the enhancer-associated BET bromodomain protein BRD4. Overall H3K27ac patterns were similar across primary ACCs and primagraft models, but distinct from an ACC cell line derived by viral transformation<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. The ACC landscapes were distinct from other tumor types and non-malignant tissues (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 2</xref>). The conserved epigenomic landscapes between primary tumor and primagraft, together with the conserved histology<sup><xref rid="R12" ref-type="bibr">12</xref></sup>, support the fidelity of the <italic toggle="yes">in vivo</italic> primagraft models.</p>
+          <p id="P10">We next examined the genomic loci that were translocated to <italic toggle="yes">MYB</italic> in the various tumors – specifically, the regions downstream of <italic toggle="yes">NFIB</italic>, <italic toggle="yes">TGFBR3</italic> and <italic toggle="yes">RAD51B</italic>. We found that all three regions contain large clusters of enhancers that are active in ACCs (<xref rid="F2" ref-type="fig">Fig. 2c,e</xref>). Indeed, when we collated super-enhancers in ACCs based on expanse and signal intensity of H3K27ac<sup><xref rid="R15" ref-type="bibr">15</xref></sup> and BRD4 occupancy<sup><xref rid="R16" ref-type="bibr">16</xref></sup> we identified several super-enhancers in the rearranged portions of <italic toggle="yes">NFIB</italic> and <italic toggle="yes">TGFRB3</italic> (<xref rid="F2" ref-type="fig">Fig. 2b,c,e</xref>; <xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 3</xref>). We also identified smaller enhancers downstream of <italic toggle="yes">RAD51B</italic>, which was rearranged in one ACC (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 4</xref>). Interestingly <italic toggle="yes">NFIB, TGFBR3</italic> and <italic toggle="yes">RAD51B</italic> are all highly expressed in normal salivary gland, suggesting these regions are indeed active before transformation (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 5</xref>). These findings suggest that the various rearrangements in ACC may act by repositioning potent regulatory elements close to <italic toggle="yes">MYB</italic>.</p>
+          <p id="P11">To test whether specific enhancers within the translocated super-enhancers might activate the <italic toggle="yes">MYB</italic> promoter, we examined their physical proximity using Chromosome Conformation Capture (3C). First, we examined an ACC with a translocation involving <italic toggle="yes">MYB</italic> and the <italic toggle="yes">NFIB</italic> locus. We examined 8 acetylated elements located between 13 and 750kb from the <italic toggle="yes">MYB</italic> promoter. We identified 4 elements that demonstrated a significant interaction with the <italic toggle="yes">MYB</italic> promoter (<xref rid="F2" ref-type="fig">Fig. 2d</xref>). We also examined a second ACC with a <italic toggle="yes">MYB</italic>-<italic toggle="yes">TGFBR3</italic> translocation. In this case, 7 out of 9 tested H3K27ac peaks interacted with the <italic toggle="yes">MYB</italic> promoter (<xref rid="F2" ref-type="fig">Fig. 2f</xref>). These data suggest that the translocations reposition super-enhancers that subsequently loop to the promoter and sustain high-level <italic toggle="yes">MYB</italic> expression.</p>
+        </sec>
+        <sec id="S5">
+          <title>Positive feedback MYB circuit</title>
+          <p id="P12">To examine potential downstream targets of <italic toggle="yes">MYB</italic> overexpression, we mapped MYB protein binding genome-wide in 3 ACC primagrafts using ChIP-Seq. MYB binding profiles were similar across the 3 ACC primagrafts and strongly enriched for the MYB motif in all samples (CAGTT, p&lt;10<sup>−759</sup>). MYB binding patterns differ from published datasets for other human and mouse tissues<sup><xref rid="R17" ref-type="bibr">17</xref>,<xref rid="R18" ref-type="bibr">18</xref></sup>, yet share a statistically significant overlap: 62% overlap with MYB-bound promoters in MCF7 (p&lt;10<sup>−6</sup>); 60% overlap with MYB targets in mouse myeloid progenitors (p&lt;10<sup>−51</sup>).</p>
+          <p id="P13">Notably, MYB binds to the enhancers in the <italic toggle="yes">NFIB</italic> and <italic toggle="yes">TGFBR3</italic> loci that are translocated to the <italic toggle="yes">MYB</italic> locus in ACC (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). When we ranked MYB bound enhancers per gene by binding signal, the translocated enhancers were near the top ranked genes (<italic toggle="yes">NFIB,</italic> #5 in ACCX5M1, and #17 in ACCX16; <italic toggle="yes">TGFBR3,</italic> #77 in ACCX2; see Methods, <xref rid="F3" ref-type="fig">Fig. 3b</xref>). Moreover, in the respective rearranged tumors, these MYB-bound enhancers physically interact with the <italic toggle="yes">MYB</italic> gene promoter (<xref rid="F2" ref-type="fig">Fig. 2d,f</xref>; <xref rid="F3" ref-type="fig">Fig. 3a</xref>). Thus, MYB binding to translocated enhancer clusters may augment its own expression by activating transcription of the <italic toggle="yes">MYB</italic> gene (<xref rid="F3" ref-type="fig">Fig. 3c</xref>). To test whether the translocated enhancers can drive transcription in a MYB-dependent manner, we cloned five 250 bp intervals from the <italic toggle="yes">NFIB</italic> and <italic toggle="yes">TGFBR3</italic> enhancers into a minimal promoter vector. We tested these reporter constructs in Jurkat cells, which express high levels of MYB protein at baseline<sup><xref rid="R19" ref-type="bibr">19</xref></sup>. We found that four of the five elements strongly induce reporter activity. Moreover, we found that the activity of two of these elements was diminished when we mutated their MYB motifs (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 6</xref>). These data support the enhancer identify and MYB responsiveness of sequence elements juxtaposed to the <italic toggle="yes">MYB</italic> locus by rearrangements. They are most consistent with a model in which positive feedback sustains <italic toggle="yes">MYB</italic> expression in this disease.</p>
+        </sec>
+        <sec id="S6">
+          <title>MYB-related regulatory programs in ACC</title>
+          <p id="P14">To infer potential downstream effects of <italic toggle="yes">MYB</italic> overexpression, we called 13,278 high confidence MYB binding sites (Methods, <xref rid="SD3" ref-type="supplementary-material">Supplementary Table 2</xref>). A majority of these sites coincides with distal regulatory elements (75%), while a minority coincides with promoters (<xref rid="F3" ref-type="fig">Fig. 3d</xref>). MYB shows a strong preference for active elements as marked by H3K4me3 (promoters) or H3K27ac (enhancers). We predicted MYB target genes by assigning MYB-bound enhancers to nearby genes that are expressed in ACC<sup><xref rid="R12" ref-type="bibr">12</xref></sup> (Methods). These genes are expressed at relatively higher levels in the primagrafts, compared to all expressed genes, but are weakly expressed in normal salivary gland (<xref rid="F3" ref-type="fig">Fig. 3e</xref>). We refer to these genes as <italic toggle="yes">putative</italic> MYB targets as they are probabilistic predictions based on binding profiles and expression patterns, whose further validation will require the development of faithful <italic toggle="yes">in vitro</italic> models for ACC.</p>
+          <p id="P15">Putative MYB targets in ACC are enriched for genes related to development, migration, cell signaling, cell cycle, transcription regulation and angiogenesis (REACTOME, Gene Ontology, MSigDB; FDR&lt;1%, <xref rid="SD4" ref-type="supplementary-material">Supplementary Table 3</xref>). Specific examples include <italic toggle="yes">MYC, BCL2, AURKA, CCND1, MET, FGFR2, IGF1R, MALAT1, CASC4</italic> and <italic toggle="yes">NENF</italic>. We compared these expression patterns to normal salivary gland<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. Out of 4853 highly expressed MYB bound genes in ACC, 50% are also highly expressed in normal salivary gland, 38% show low levels of expression and 12% are not expressed. Functional annotation of putative MYB targets that are also expressed in the normal counterpart revealed enrichment for genes involved in neurodevelopmental processes. In contrast, putative MYB targets that are uniquely expressed in ACC are enriched for cell cycle regulators, including <italic toggle="yes">CDK6</italic> and <italic toggle="yes">GMNN</italic> (<xref rid="SD3" ref-type="supplementary-material">Supplementary Table 2</xref>). Thus, MYB may engage two distinct regulatory circuits in ACC, one that reinforces a pre-existing neurodevelopmental program in salivary epithelial cells and another that drives proliferation.</p>
+          <p id="P16">We next sought to identify other TFs or pathways that mediate or cooperate with MYB-driven regulatory programs in ACC. We scanned the high confidence MYB peaks collated above for enriched TF motifs. As expected, the top ranked motif corresponded to the MYB consensus. The second ranked motif is the TP53/TP63/TP73 consensus (p&lt;10<sup>−340</sup>). <italic toggle="yes">TP63</italic> was also identified as a putative MYB target (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 7</xref>). To directly test whether TP63 co-binds with MYB, we mapped binding of this TF by ChIP-seq. Remarkably, we found that 81% of TP63 binding sites in ACC are co-bound by MYB (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 8</xref>). We next collated putative target genes near the top ranked MYB binding sites, focusing on TFs and transcriptional regulators (<xref rid="F3" ref-type="fig">Fig. 3f</xref>, <xref rid="SD5" ref-type="supplementary-material">Supplementary Table 4</xref>). This revealed activators such as <italic toggle="yes">EN1</italic>, recently identified as a biomarker for high grade ACC<sup><xref rid="R21" ref-type="bibr">21</xref></sup>, the <italic toggle="yes">ARID1A</italic> chromatin remodeler, which is mutated in ACC<sup><xref rid="R11" ref-type="bibr">11</xref></sup>, and <italic toggle="yes">NOTCH1</italic>. In addition to <italic toggle="yes">NOTCH1,</italic> the Notch activators, <italic toggle="yes">JAG1</italic> and <italic toggle="yes">JAG2,</italic> and the Notch transcriptional repressor <italic toggle="yes">SPEN,</italic> were identified among these highly ranked putative MYB targets. These data suggest that MYB, TP63 and NOTCH signaling may coordinately orchestrate the diverse expression programs in ACC.</p>
+        </sec>
+        <sec id="S7">
+          <title>Inter- and intra-tumoral epigenetic heterogeneity in ACC</title>
+          <p id="P17">ACC is notable for its biphenotypic differentiation with myoepithelial and (luminal) epithelial cells arranged in a ‘cribriform’ pattern. This histology is seen in low grade (grade 1 and 2) tumors, which constitute the majority of ACC cases. However, a smaller fraction of tumors have a ‘solid’ histology dominated by luminal epithelial cells, and are more aggressive (grade 3). Grade 3 tumors can originate from grade 2 tumors, but more commonly presented independently<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup>. We therefore considered how MYB might promote these alternate cell fates in ACC.</p>
+          <p id="P18">We focused in particular on regulatory programs related to TP63 and Notch, which were both highlighted by our epigenomic analysis. We first examined the expression of these regulators in 19 grade 2 ACCs (<xref rid="F4" ref-type="fig">Fig. 4a</xref>, <xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 9</xref>, <xref rid="T2" ref-type="table">Table 2</xref>). Immunohistochemistry (IHC) confirmed strong staining for TP63 – a marker of myoepithelial cells<sup><xref rid="R24" ref-type="bibr">24</xref></sup> – specifically in the myoepithelial compartments. TP63 was conspicuously absent from the luminal epithelial tumor cells, which stain positive for KIT. We also stained these tumors for ICN1, the active intracellular form of NOTCH1. ICN1 is expressed only in the luminal epithelial cells, and is exclusive with TP63 (<xref rid="F4" ref-type="fig">Fig. 4b</xref>). This exclusivity is consistent with established antagonism between TP63 and NOTCH1 during development<sup><xref rid="R25" ref-type="bibr">25</xref>,<xref rid="R26" ref-type="bibr">26</xref></sup>. Thus, MYB appears to coordinate seemingly opposing regulatory programs in the distinct cellular compartments of ACC.</p>
+          <p id="P19">We next examined TP63 and NOTCH1 expression in eight grade 3 ACCs. These more aggressive specimens lack TP63 staining, consistent with loss of the myoepithelial component. Remarkably, they all show strong diffuse staining for ICN1. ACCs can harbor activating mutations in <italic toggle="yes">NOTCH1</italic> or loss of function mutations in the <italic toggle="yes">RBPJ</italic> repressor <italic toggle="yes">SPEN</italic><sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R11" ref-type="bibr">11</xref>,<xref rid="R27" ref-type="bibr">27</xref></sup>. These mutations are present in 7 out of 9 grade 3 tumors, but none of the lower grade tumors examined (<xref rid="SD6" ref-type="supplementary-material">Supplementary Table 5</xref>). The other two grade 3 tumors display <italic toggle="yes">NOTCH1</italic> alterations that may also upregulate Notch signaling- ACC X11 has a tandem duplication 3′ of <italic toggle="yes">NOTCH1</italic>, in a region containing <italic toggle="yes">NOTCH1</italic> enhancers; ACC D1 has partial 5′ deletion of <italic toggle="yes">NOTCH1</italic>, similar to deletions we and others recently detected in breast cancer and T-ALL<sup><xref rid="R27" ref-type="bibr">27</xref>–<xref rid="R29" ref-type="bibr">29</xref></sup>.</p>
+          <p id="P20">To gain further insight into the circuits that drive these respective regulatory programs, we compared enhancer patterning between low and high grade ACCs. First, we performed unsupervised clustering of putative active enhancers based on their H3K27ac patterns across 13 primagrafts and primary tumors (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 10</xref>). This analysis distinguished sets of enhancers preferential to either grade 2 or grade 3 tumors, which we then scanned for over-represented TF motifs (<xref rid="F3" ref-type="fig">Fig. 3g</xref>). The TP63 motif was highly enriched in grade 2 specific enhancers, while the RBPJ/Notch motif was enriched in grade 3 specific enhancers. <italic toggle="yes">TP63</italic> exists in two main isoforms, TAp63, a transcriptional activator, and ΔNp63, which lacks the transactivation domain and exerts stem-like and oncogenic functions<sup><xref rid="R30" ref-type="bibr">30</xref></sup>. Only the oncogenic isoform ΔNp63 is transcribed in our ACC cohort (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 7</xref>), as is frequently the case in salivary tumors<sup><xref rid="R31" ref-type="bibr">31</xref></sup>.</p>
+          <p id="P21">Thus, TP63 appears to be a mediator of the MYB regulatory program in the myoepithelial component of low grade ACCs. Conversely, Notch signaling is active in luminal epithelial components of low grade ACC. Its further activation by somatic Notch pathway gain-of-function mutations likely underlies the switch to solid histology and the aggressive clinical course of grade 3 tumors.</p>
+        </sec>
+        <sec id="S8">
+          <title>BET and Notch inhibitors target alternate ACC phenotypes</title>
+          <p id="P22">Our findings suggest that chromosomal rearrangements in ACC engage a positive feedback loop, in which MYB protein activates juxtaposed super-enhancers, which loop to the MYB gene and sustain its expression. BET bromodomain inhibitors have been shown to suppress MYB function in acute myeloid leukemia<sup><xref rid="R32" ref-type="bibr">32</xref></sup> and, more generally, may suppress super-enhancers with strong BRD4 occupancy<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. This suggests that MYB target loci in ACC, which also have high BRD4 occupancy (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 11</xref>), may be sensitive to BET bromodomain inhibition. We specifically hypothesized that grade 2 tumors would be particularly sensitive to bromodomain inhibitors given their prominent MYB regulatory circuits. In contrast, somatic Notch activation might render grade 3 tumors relatively less sensitive to bromodomain inhibition, as recently observed in T-ALL with activating <italic toggle="yes">NOTCH1</italic> mutations<sup><xref rid="R33" ref-type="bibr">33</xref></sup>. We therefore examined the <italic toggle="yes">in vivo</italic> efficacy of BET inhibitors<sup><xref rid="R34" ref-type="bibr">34</xref></sup> in ACC primagrafts. To this end, we engrafted nude mice with 4 different ACCs, two grade 2 and two grade 3 tumors. We confirmed that both grade 3 primagrafts harbor genetic events leading to Notch activation (<xref rid="SD6" ref-type="supplementary-material">Supplementary Table 5</xref>), and stain strongly positive for ICN1 and the proliferation marker Ki-67 (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Randomized groups of 5 mice each were treated with vehicle or the BET bromodomain inhibitor JQ1, and tumor growth was measured over time (<xref rid="F5" ref-type="fig">Fig. 5a</xref>). BET inhibition significantly slowed tumor growth in the grade 2 primagrafts (<xref rid="F5" ref-type="fig">Fig. 5b</xref>). We also detected a modest decrease in <italic toggle="yes">MYB</italic> and MYB target gene expression (<xref rid="F5" ref-type="fig">Fig. 5c</xref>). In contrast, the grade 3 tumors did not respond to BET inhibition, potentially reflecting a relatively stronger dependency on Notch signaling. Of note, we recently showed that Notch-mutant ACCs are sensitive to Notch inhibitors<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. Our results suggest that BET inhibitors may be sufficient to disrupt core MYB circuitry in low grade ACC, but are ineffective against high grade tumors, which may instead be sensitive to Notch inhibitors.</p>
+        </sec>
+      </sec>
+      <sec sec-type="discussion" id="S9">
+        <title>Discussion</title>
+        <p id="P23">Adenoid cystic carcinoma is an incurable disease with slow but chronic tumor progression that is refractory to conventional chemotherapy or radiation. We have shown that most cases of ACC harbor translocations that juxtapose a super-enhancer to the <italic toggle="yes">MYB</italic> locus. A convergence of genetic, epigenetic and therapeutic data indicate that these rearrangements establish a positive feedback loop in which MYB protein binds the translocated enhancers, which in turn physically interact with the <italic toggle="yes">MYB</italic> promoter and drive its expression. Thus, although MYB is known to autoregulate itself in wildtype cells<sup><xref rid="R35" ref-type="bibr">35</xref>,<xref rid="R36" ref-type="bibr">36</xref></sup>, enhancer hijacking events perturb this physiologic control in ACC, yielding a high degree of over-expression.</p>
+        <p id="P24">MYB coordinates with distinct regulatory programs in the alternate cell lineages in the cribriform grade 2 tumors, cooperating with a TP63 program in myoepithelial cells or a Notch program in luminal epithelial cells. In grade 3 tumors, however, additional genomic events frequently lead to constitutive Notch activation, and tip the balance towards the luminal epithelial fate, and a ‘solid’ histology. Grade 2 tumors appear dependent on bromodomain proteins to maintain MYB driven enhancer programs, as indicated by their sensitivity to the corresponding inhibitors. In contrast, grade 3 tumors with constitutive Notch activation are insensitive to bromodomain inhibitors, consistent with other Notch-driven tumors. In grade 2 tumors, IHC staining for MYB tends to be stronger in myoepithelial cells than in luminal cells, in line with previous reports<sup><xref rid="R37" ref-type="bibr">37</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup>, while grade 3 tumors exhibit diffuse MYB staining with variable intensity across tumors (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 9</xref>). Although these differences may in part reflect technical issues, they raise the possibility that lower MYB protein levels in grade 3 tumors influence tumor response to BET inhibitors. In conclusion, our study advances understanding of ACC biology, and underscores how interplay between genetic and epigenetic alterations can affect malignant transformation, disease progression, and therapeutic sensitivities.</p>
+      </sec>
+      <sec id="S10" specific-use="web-only">
+        <title>Online Methods</title>
+        <sec id="S11">
+          <title>Primary tumors</title>
+          <p id="P25">Primary adenoid cystic carcinomas were collected at MD Anderson Cancer Center, University of Virgina, and Massachusetts General Hospital with approval by the respective Institutional Review Boards.</p>
+        </sec>
+        <sec id="S12">
+          <title>Primagraft experiments</title>
+          <p id="P26">To generate adenoid cystic carcinoma primagrafts, viable adenoid cystic carcinoma cells were injected into the flank of nude (Foxn1<sup>nu</sup>) mice. Tumors that grew were passaged through at least three rounds of nude transplantation prior to <italic toggle="yes">in vivo</italic> drug testing use. Studies were performed under the auspices of protocols approved by the University of Virginia IACUC<sup><xref rid="R12" ref-type="bibr">12</xref></sup>.</p>
+          <p id="P27">For <italic toggle="yes">in vivo</italic> drug testing, 10<sup>6</sup> viable adenoid cystic carcinoma cells were injected into the flank of nude mice. Once tumor was visible, the mice were randomized to receive vehicle or JQ1 (50mg/kg daily) diluted in 10:90 DMSO:10%hydroxypropyl-beta-cyclodextrin orally until reaching minimal tumor volume of 1000 mm<sup>3</sup> (4 – 9 mice per group: X5M1 &amp; X6 4 treated vs. 9 vehicle controls, X9 4 treated vs. 5 vehicle controls, X11 5 treated vs. 8 vehicle controls). Tumor growth was monitored and mice were weighed daily and sacrificed when moribund. In these experiments, no statistical methods were employed to determine the sample size, and no blinding of investigators was performed. All animal procedures used in this study were approved by the IACUC at START, Texas.</p>
+        </sec>
+        <sec id="S13">
+          <title>Cell lines</title>
+          <p id="P28">The HPV-transformed ACC cell line ACC112 was cultured in RPMI supplemented with 10% fetal bovine serum, Epidermal Growth Factor, Hydrocortisone and Insulin (all from R&amp;D) as previously described <sup><xref rid="R14" ref-type="bibr">14</xref></sup>. Jurkat cells were obtained from ATCC and Oci-Ly3 cells from the Broad-Novartis Cancer Cell Line Encyclopedia. Both cell lines were cultured in RPMI with 10% fetal bovine serum and propagated at a density of 1 – 2 million cells per mL.</p>
+        </sec>
+        <sec id="S14">
+          <title>Calling <italic toggle="yes">MYB</italic> translocations</title>
+          <p id="P29"><italic toggle="yes">MYB</italic> translocations were called from paired-end whole genome sequencing data using the following datasets. Data of 12 primary tumors were obtained from the European Genome-phenome Archive, study EGAS00001000030. Out of the 12 tumors, 5 tumors were not considered for analysis due to low coverage or unreliable paired-end alignment. Data of 5 additional tumors were recently published and included in the analysis<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. We performed 100bp paired end whole genome sequencing for 6 additional patient derived primagrafts with Illumina HiSeq. <italic toggle="yes">MYB</italic> translocation in the ACC primagrafts X5M1 and X11 were detected by paired end sequencing of H3K27ac ChIP-Seq and input control. All fastq files were aligned to the reference genome (hg19) using BWA ALN. Reads from primgrafts that align to the mouse genome (mm10) with maximal editing distance of 3bp (based on BWA alignment) were filtered out. Rearrangements were called with dRanger and BreakPointer<sup><xref rid="R39" ref-type="bibr">39</xref>,<xref rid="R40" ref-type="bibr">40</xref></sup>. Due to the lack of matching normal controls, we could not use the default germline filtering. Instead we have filtered against a panel of 100 non-matched normals, defining the rearrangement score as <italic toggle="yes">10*q*t</italic>/max(<italic toggle="yes">n</italic>,1), where <italic toggle="yes">q</italic> is the quality (as defined by dRanger), <italic toggle="yes">t</italic> the number of supporting read pairs in the tumor, and <italic toggle="yes">n</italic> the average number of supporting reads in the normals. Only rearrangement with score &gt;= 5 were kept. Known germline variants from the DGV database<sup><xref rid="R41" ref-type="bibr">41</xref></sup> were filtered out. Intra-chromosomal rearrangements that span less than 1Mb were filtered out, as they were suspected to be germline. Rearrangements from ChIP-seq paired end data were called as previously described<sup><xref rid="R42" ref-type="bibr">42</xref></sup>. All <italic toggle="yes">MYB</italic> translocations were manually reviewed in IGV<sup><xref rid="R43" ref-type="bibr">43</xref></sup>. Only <italic toggle="yes">MYB</italic> and <italic toggle="yes">NFIB</italic> were found to have recurrent rearrangements in more than two primagrafts (even when considering all rearrangements with score &gt;= 3). <italic toggle="yes">CDH18, EYS</italic> and <italic toggle="yes">TAF13</italic> were rearranged in two primagrafts, but not in the other 12 primary tumors. All new data has been deposited at the European Genome-phenome Archive (EGA), which is hosted by the EBI, under accession number EGAS00001001457.</p>
+        </sec>
+        <sec id="S15">
+          <title>Chromatin immunoprecipitation</title>
+          <p id="P30">We performed chromatin immunoprecipitation (ChIP) in primary tumors and primagrafts as described with the following modifications<sup><xref rid="R44" ref-type="bibr">44</xref></sup>. Frozen tissue was chopped up using a scalpel before fixation and then further dissociated after fixation by shearing with an 18G needle. Chromatin from formaldehyde-fixed cells (1–5 × 10<sup>6</sup> cells per histone mark, 10<sup>7</sup> cells for <italic toggle="yes">MYB</italic> binding) was fragmented to a size range of 200–700 bases with a Branson 250 Sonifier. Solubilized chromatin was immunoprecipitated with antibody against H3K4me3 (2.5 μl; Millipore, 07-473CA), H3K27ac (2.5 μl; Abcam, ab4729), MYB (10 μl; Bethyl, A304-136A) and TP63 (5 μl; ActiveMotif, #39739). Each of these antibodies was validated by protein blot or dot blot as described<sup><xref rid="R45" ref-type="bibr">45</xref></sup>. Antibody-chromatin complexes were pulled down with protein G magnetic beads (Dynabead, 10003D), washed and then eluted. After cross-link reversal and proteinase K treatment, immunoprecipitated DNA was treated with RNase and purified with Agencourt AMPure XP (Beckman Coulter A63880). Libraries were prepared according to Illumina’s instructions. ChIP DNA and input controls were sequenced with the Illumina HiSeq 2500 or the NextSeq 500 instrument. Reads were aligned to the reference genome (hg19) using BWA<sup><xref rid="R46" ref-type="bibr">46</xref></sup>. Reads mapping to more than two genomic loci were ignored. Reads aligned to the same position and strand were only counted once. All data were deposited at the European Genome-phenome Archive (EGA), which is hosted by the EBI, under accession number EGAS00001001457.</p>
+        </sec>
+        <sec id="S16">
+          <title>Statistical analysis</title>
+          <p id="P31">Data for bone marrow derived mesenchymal stem cells and gastric and fetal leg muscle tissues are publicly available through the Roadmap Program (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSM1112792">GSM1112792</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSM1013128">GSM1013128</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSM1058767">GSM1058767</ext-link>); HMEC, PANC1 and MCF7 cell line data were downloaded from ENCODE (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSM733660">GSM733660</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSM818826">GSM818826</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSM945854">GSM945854</ext-link>); data for MGG28 and Ewing sarcoma were recently published<sup><xref rid="R47" ref-type="bibr">47</xref>,<xref rid="R48" ref-type="bibr">48</xref></sup>; MOLT3 data were taken from<sup><xref rid="R19" ref-type="bibr">19</xref></sup>.</p>
+          <p id="P32">Peaks and motifs were called using HOMER<sup><xref rid="R49" ref-type="bibr">49</xref></sup>. H3K27ac peaks were centered on nucleosome free regions, set to be 400bp with a minimal distance of 600bp, and required to be 4 fold more than matching input. MYB peaks were called with default parameters. To call putative super-enhancers, BRD4 or H3K27ac peaks up to 12.5kb apart were stitched together, and enhancers with a slope greater than 1 were considered super enhancers, as described in reference<sup><xref rid="R15" ref-type="bibr">15</xref></sup>. H3K27ac heat maps were calculated after merging all H3K27ac peaks across samples. Signal was normalized by total signal per sample. Only peaks with normalized signal &gt; 10 fpm in at least one sample were considered. Inter-sample correlations were calculated by Spearman’s rho. Motifs were called with HOMER in a 300bp region around the peak center. To identify top H3K27ac motifs, known motifs were sorted based on median p-value across all samples. To identify differential motifs between grades, we merged H3K27ac of all grade 2 and all grade 3 primagrafts, and then defined peaks with more than 4 fold higher signal, averaging across 2kb regions in one over the other set.</p>
+          <p id="P33">High confidence MYB peaks were called by merging peaks from 3 grade 2 primagrafts, summing MYB signal over each peak in each sample, normalizing each sample by the average signal of that sample, and selecting peaks where the average signal over all samples was at least 0.75. To determine which genes are expressed we used published microarray data<sup><xref rid="R12" ref-type="bibr">12</xref></sup>, averaging over the 3 samples (log<sub>2</sub> space). Any gene with an average expression level greater than 5 was considered to be expressed. Peaks were assigned to genes using GREAT<sup><xref rid="R50" ref-type="bibr">50</xref></sup>, limited to 100kb maximal distance. We calculated GOBP<sup><xref rid="R51" ref-type="bibr">51</xref></sup>, MSigDB<sup><xref rid="R52" ref-type="bibr">52</xref></sup> and REACTOME<sup><xref rid="R53" ref-type="bibr">53</xref></sup> annotation enrichment of all MYB bound and expressed genes versus all expressed genes using Fisher exact test (FDR &lt; 1%). To identify MYB driven transcriptional regulators we focused on targets annotated as “positive regulation of transcription, DNA-templated” by GOBP (GO:0045893) that were found to be significantly enriched (p&lt;3.8 x10<sup>−7</sup>) in the analysis above. We then ranked all those genes by total normalized MYB signal on all MYB peaks assigned to the respective gene. Normal salivary gland RNA-seq data were obtained from the human protein atlas (HPA)<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. Genes were divided into “not detected”, “low” or “high”, based on HPA definitions, where “high” includes both “medium” and “high” genes of HPA definitions. Annotation enrichment of expressed MYB targets in a given set was compared to all genes in that set that are expressed in ACC. To test expression of MYB targets and non-MYB targets we compared the average expression of the expressed MYB targets in ACC as described above to the average expression of other expressed (log<sub>2</sub> ≥5) genes. To control for MYB independent expression differences between those genes we compared the expression of the same sets of genes in normal salivary gland. To compare MYB binding profiles to previously published promoters bound by MYB in MCF7 cells<sup><xref rid="R17" ref-type="bibr">17</xref></sup>, we compared it to the subset of our high confidence MYB peaks above at most 2kb from TSS. To compare these MYB binding profiles to previously published MYB profiles for mouse myeloid progenitors<sup><xref rid="R18" ref-type="bibr">18</xref></sup>, we compared bound genes in mouse (as listed there in <xref rid="SD6" ref-type="supplementary-material">Supplementary Tables 5</xref> and <xref rid="SD7" ref-type="supplementary-material">6</xref>) to homologous human genes (by NCBI’s HomoloGene), with assigned high confidence MYB peak in ACC. To estimate BRD4 overlap with MYB peaks, we called MYB and BRD4 signal on all MYB peaks detected in ACCX5M1 and ACCX9, and counted peaks with normalized binding &gt; 30 fpm. To estimate TP63 overlap with MYB peaks we called MYB and TP63 signal on all TP63 peaks detected in ACCX5M1 and count peaks with normalized binding &gt; 30 fpm.</p>
+          <p id="P34">To quantify MYB signal over enhancers per target gene, MYB peaks more than 2kb away from the TSS were assigned to genes using GREAT, limiting maximal distance to 1Mb to allow for fair comparison of the wide range of translocated NFIB enhancers. We then compared the total MYB signal over the translocated enhancers to the total signal over all enhancers of any MYB target.</p>
+          <p id="P35">Significance of 3C analysis was called based on 95% confidence interval not intersecting zero interaction. Significance of JQ1 treatment in primagraft experiments was called by one-tailed student’s t-test at the last time point for which tumor measurements were obtained. Significance of qPCR after JQ1 treatment was called by one-tailed student’s t-test between JQ1 treated and vehicle.</p>
+        </sec>
+        <sec id="S17">
+          <title>Quantitative RT-PCR analyses</title>
+          <p id="P36">Frozen tumor tissue was mechanically homogenized and total RNA was extracted with Trizol (Life Technologies) followed by the RNeasy Mini Kit (Qiagen) with on-the-column DNase treatment. Total RNA was reverse transcribed into cDNA using the SuperScript III First-Strand Synthesis system for RT-PCR. qPCR was performed with FastStart Universal SYBR Green Master (Roche) on an ABI 7500 (primer sequences are listed in <xref rid="SD7" ref-type="supplementary-material">Supplementary Table 6</xref>). Gene expression was measured by determining the log<sub>2</sub>(C<sub>t</sub>) value of the desired transcript compared to <italic toggle="yes">GAPDH</italic> transcript. A one-tailed p-value &lt; 0.05 was considered statistically significant.</p>
+        </sec>
+        <sec id="S18">
+          <title>Genomic breakpoint PCR analyses</title>
+          <p id="P37">For validation of genomic rearrangements, genomic DNA was extracted from ACC primagrafts using the QiaAmp DNA mini kit (Qiagen). PCR reactions were performed with 2 min extension times to allow for adequate amplification of longer fragments. PCR products were visualized on a 1.5% agarose gel. MYB rearrangements, and representative highest confidence and lowest confidence rearrangements were selected for validation (See <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>). Rearrangements in 4 primagrafts were validated. The primer sequences are listed in <xref rid="SD7" ref-type="supplementary-material">Supplementary Table 6</xref>.</p>
+        </sec>
+        <sec id="S19">
+          <title>Reporter assays</title>
+          <p id="P38">Five translocated enhancer sequences and five controls with scrambled MYB consensus motifs (replacing CNGTT with GTAAG, see <xref rid="SD7" ref-type="supplementary-material">Supplementary Table 6</xref>) were synthesized and cloned into the pGL 4.23 [luc2/minP] vector (Promega) by BlueHeron. Enhancer activity was measured in 6 replicates as relative luminescence of the pGL 4.23 [luc2/minP] vector compared to the pGL 4.73 [hRluc/SV40] with Dual-Glo Luciferase (Promega) after a 36 hour co-nucleofection into Jurkat cells following the manufacturer’s instructions (Amaxa cell line nucleofactor kit V from Lonza).</p>
+        </sec>
+        <sec id="S20">
+          <title>Chromosome Conformation Capture</title>
+          <p id="P39">Chromosome Conformation Capture was performed as described<sup><xref rid="R54" ref-type="bibr">54</xref></sup>. In brief, frozen tumor tissue was chopped up using a scalpel before fixation and then further dissociated after fixation by shearing with an 18G needle. Cross-linked chromatin was then digested with 500U of HindIII (Roche) overnight at 37°C followed by ligation. 3C products were phenol/chloroform extracted, ethanol-precipitated, and dissolved in Tris/EDTA buffer. Each PCR was performed under the following conditions: 95°C for 10 minutes; 65 cycles at 95°C for 15 seconds; 60°C for 1 minute; 72°C for 1 minute; and a final extension at 72°C for 10 minutes. PCR products were analyzed by agarose gel electrophoresis. Primer and TaqMan probe sequences are listed in <xref rid="SD7" ref-type="supplementary-material">Supplementary Table 6</xref>. Any undetected qPCR call, or Ct&gt;50 were considered as Ct=50. 95% confidence intervals were used to call statistical significance.</p>
+        </sec>
+        <sec id="S21">
+          <title>Immunohistochemistry</title>
+          <p id="P40">Formalin fixed paraffin embedded sections were cut at 4 microns and place on Superfrost plus glass slides, which were were baked for 60 minutes at 60° C. Staining was conducted on a Leica Bond III automated immunohistochemical staining work station. To stain for MYB, antigen retrieval was performed using Bond Epitope Retrieval 1 solution for 30 minutes. Staining was carried out by incubation with a MYB-specific rabbit monoclonal primary antibody (EP769Y, Abcam, ab45150) at 1:400 for 30 minutes at room temperature, followed by incubation with a rabbit-specific secondary antibody linked to horseradish peroxidase (Bond Polymer Refine Detection kit). Staining was developed by incubation with diaminobenzamidine (Leica Detection Kit), and slides were then dehydrated and coverslipped. Dual staining for activated NOTCH1 (ICN1) and p63 was carried out by first performing antigen retrieval using Bond Epitope Retrieval 2 solution for 40 minutes. Slides were then incubated with ICN1 antibody (D3B8, Cell Signaling Technologies, #4147) at 1:100 for 60 minutes at room temperature, followed by incubation with a rabbit-specific secondary antibody linked to horseradish peroxidase (Bond Polymer Refine Detection kit). ICN1 staining was then developed by incubation with diaminobenzamidine (Leica Detection Kit). Slides were then incubated in a second primary antibody, a murine monoclonal antibody specific for p63 (4A4, Biocare, CM163A) at 1:250 for 30 minutes. The second antibody was detected using the murine specific Bond Polymer Refine Red Detection kit, which detects staining using Fast Red, part of the detection kit. Slides were then dehydrated and coverslipped. Dual staining for ICN1 and KIT was performed as above, using a rabbit monoclonal antibody specific for ICN1 (D3B8, Cell Signaling Technologies, #4147) at 1:100 for 60 minutes at room temperature, and a second primary antibody, a murine monoclonal antibody specific for KIT (Dako, A4502), at 1:250 for 30 minutes.</p>
+          <p id="P41">To generate spectral libraries, single-stained tissue sections were imaged using the Mantra multispectral imaging platform (PerkinElmer, Hopkinton, MA). The spectrally resolved, individual profiles between 420–720 nm of 3,3′-diaminobenzidine (DAB; ICN1), fast red (KIT or p63), and the haematoxylin counterstain were used to deconvolute staining patterns in triple-stained tissue sections. Three representative areas of each stained tissue section were imaged at 20x magnification and deconvoluted using the Inform 2.1 software package (PerkinElmer). Each image was manually divided into tumor and stromal tissue, and individual tumor cells were segmented using Inform 2.1 algorithms that score positive staining of nuclei and cell membranes for each color.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="S22">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS750468-supplement-1.doc" orientation="portrait" id="d37e1378" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS750468-supplement-2.pdf" orientation="portrait" id="d37e1382" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS750468-supplement-3.xlsx" orientation="portrait" id="d37e1386" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD4" position="float" orientation="portrait">
+          <label>4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS750468-supplement-4.xlsx" orientation="portrait" id="d37e1390" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD5" position="float" orientation="portrait">
+          <label>5</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS750468-supplement-5.xlsx" orientation="portrait" id="d37e1394" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD6" position="float" orientation="portrait">
+          <label>6</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS750468-supplement-6.xlsx" orientation="portrait" id="d37e1398" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD7" position="float" orientation="portrait">
+          <label>7</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS750468-supplement-7.xlsx" orientation="portrait" id="d37e1402" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack id="S23">
+        <p>We thank M. Rivera, N. Riggi, S. Puram, P. van Galen, J. Lohr and J. Kaufman for helpful discussions and critical comments on the manuscript; J. Voisine, R. Isenhart, R. Issner, H. Whitton, A. Spooner, M. Uziel, C. Epstein, N. Shoresh, and the Broad Genome Sequencing Platform for technical assistance; T. Chan and V. Makarov for help with WGS data access; and The Salivary Gland Tumor Biorepository for providing the primary tumors (NIDCR Award Reference Number HHSN268200900039C 04). This work was supported by the Adenoid Cystic Carcinoma Research Foundation (B.E.B; B.K.), the Temares Family Foundation, and the Howard Hughes Medical Institute. B.E.B. is an American Cancer Society Research Professor.</p>
+      </ack>
+      <fn-group>
+        <fn id="FN3">
+          <p>
+            <bold>Accession codes</bold>
+          </p>
+          <p>European Genome-phenome Archive (EGA), accession number EGAS00001001457.</p>
+        </fn>
+        <fn id="FN4" fn-type="con">
+          <p>
+            <bold>Author Contributions</bold>
+          </p>
+          <p>B.K. and Y.D. designed and performed experiments and analyzed the data. B.K. and B.E.B. designed the experimental strategy and supervised the study and analysis. Y.D. carried out computational analyses. Y.D., B.K. and B.E.B. wrote the manuscript. J.C.A, M.J.C., K.E.W., S.M.G., C.D.C., S.J.R., L.M.S., M.J.W. contributed to experiments and data analysis. A.H.A., R.J.R., M.J.K., W.C.F, L.Q., J.Q., J.E.B., C.A.M., A.K.E.-N., and J.E.B. provided reagents, contributed to analysis and gave conceptual advice. All authors discussed the results and implications and reviewed the manuscript.</p>
+        </fn>
+        <fn id="FN5" fn-type="conflict">
+          <p>
+            <bold>Competing financial interests</bold>
+          </p>
+          <p>J.E.B. is a scientific founder of Tensha Therapeutics, which has licensed drug-like derivatives of the JQ1 bromodomain inhibitor from the Dana-Farber Cancer Institute. The remaining authors declare no competing financial interests.</p>
+        </fn>
+      </fn-group>
+      <ref-list>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ohno</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular analysis of a chromosomal translocation, t(9;14)(p13;q32), in a diffuse large-cell lymphoma cell line expressing the Ki-1 antigen</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>87</volume>
+            <fpage>628</fpage>
+            <lpage>32</lpage>
+            <year>1990</year>
+            <pub-id pub-id-type="pmid">2153959</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.87.2.628</pub-id>
+            <pub-id pub-id-type="pmcid">PMC53318</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rabbitts</surname>
+                <given-names>TH</given-names>
+              </name>
+            </person-group>
+            <article-title>Chromosomal translocations in human cancer</article-title>
+            <source>Nature</source>
+            <volume>372</volume>
+            <fpage>143</fpage>
+            <lpage>9</lpage>
+            <year>1994</year>
+            <pub-id pub-id-type="pmid">7969446</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/372143a0</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Groschel</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A single oncogenic enhancer rearrangement causes concomitant EVI1 and GATA2 deregulation in leukemia</article-title>
+            <source>Cell</source>
+            <volume>157</volume>
+            <fpage>369</fpage>
+            <lpage>81</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24703711</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2014.02.019</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Northcott</surname>
+                <given-names>PA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Enhancer hijacking activates GFI1 family oncogenes in medulloblastoma</article-title>
+            <source>Nature</source>
+            <volume>511</volume>
+            <fpage>428</fpage>
+            <lpage>34</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25043047</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13379</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4201514</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Tomlins</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent fusion of TMPRSS2 and ETS transcription factor genes in prostate cancer</article-title>
+            <source>Science</source>
+            <volume>310</volume>
+            <fpage>644</fpage>
+            <lpage>8</lpage>
+            <year>2005</year>
+            <pub-id pub-id-type="pmid">16254181</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1117679</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Adelstein</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Koyfman</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>El-Naggar</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hanna</surname>
+                <given-names>EY</given-names>
+              </name>
+            </person-group>
+            <article-title>Biology and management of salivary gland cancers</article-title>
+            <source>Semin Radiat Oncol</source>
+            <volume>22</volume>
+            <fpage>245</fpage>
+            <lpage>53</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">22687949</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.semradonc.2012.03.009</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ho</surname>
+                <given-names>AS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The mutational landscape of adenoid cystic carcinoma</article-title>
+            <source>Nat Genet</source>
+            <volume>45</volume>
+            <fpage>791</fpage>
+            <lpage>8</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23685749</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2643</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3708595</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ramsay</surname>
+                <given-names>RG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gonda</surname>
+                <given-names>TJ</given-names>
+              </name>
+            </person-group>
+            <article-title>MYB function in normal and cancer cells</article-title>
+            <source>Nat Rev Cancer</source>
+            <volume>8</volume>
+            <fpage>523</fpage>
+            <lpage>34</lpage>
+            <year>2008</year>
+            <pub-id pub-id-type="pmid">18574464</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2439</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Persson</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Recurrent fusion of MYB and NFIB transcription factor genes in carcinomas of the breast and head and neck</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>106</volume>
+            <fpage>18740</fpage>
+            <lpage>4</lpage>
+            <year>2009</year>
+            <pub-id pub-id-type="pmid">19841262</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0909114106</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2773970</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mitani</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive analysis of the MYB-NFIB gene fusion in salivary adenoid cystic carcinoma: Incidence, variability, and clinicopathologic significance</article-title>
+            <source>Clin Cancer Res</source>
+            <volume>16</volume>
+            <fpage>4722</fpage>
+            <lpage>31</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20702610</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-10-0463</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5862426</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stephens</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Whole exome sequencing of adenoid cystic carcinoma</article-title>
+            <source>J Clin Invest</source>
+            <volume>123</volume>
+            <fpage>2965</fpage>
+            <lpage>8</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23778141</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI67201</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3999050</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moskaluk</surname>
+                <given-names>CA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Development and characterization of xenograft model systems for adenoid cystic carcinoma</article-title>
+            <source>Lab Invest</source>
+            <volume>91</volume>
+            <fpage>1480</fpage>
+            <lpage>90</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21709671</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/labinvest.2011.105</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4151120</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rivera</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ren</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Mapping human epigenomes</article-title>
+            <source>Cell</source>
+            <volume>155</volume>
+            <fpage>39</fpage>
+            <lpage>55</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">24074860</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2013.09.011</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3838898</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Queimado</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>In vitro transformation of cell lines from human salivary gland tumors</article-title>
+            <source>Int J Cancer</source>
+            <volume>81</volume>
+            <fpage>793</fpage>
+            <lpage>8</lpage>
+            <year>1999</year>
+            <pub-id pub-id-type="pmid">10328235</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(sici)1097-0215(19990531)81:5&lt;793::aid-ijc21&gt;3.0.co;2-4</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Whyte</surname>
+                <given-names>WA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Master transcription factors and mediator establish super-enhancers at key cell identity genes</article-title>
+            <source>Cell</source>
+            <volume>153</volume>
+            <fpage>307</fpage>
+            <lpage>19</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23582322</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2013.03.035</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3653129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Loven</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Selective inhibition of tumor oncogenes by disruption of super-enhancers</article-title>
+            <source>Cell</source>
+            <volume>153</volume>
+            <fpage>320</fpage>
+            <lpage>34</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23582323</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2013.03.036</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3760967</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Quintana</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>O’Rourke</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ness</surname>
+                <given-names>SA</given-names>
+              </name>
+            </person-group>
+            <article-title>Identification and regulation of c-Myb target genes in MCF-7 cells</article-title>
+            <source>BMC Cancer</source>
+            <volume>11</volume>
+            <fpage>30</fpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21261996</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2407-11-30</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3038977</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhao</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Integrated genome-wide chromatin occupancy and expression analyses identify key myeloid pro-differentiation transcription factors repressed by Myb</article-title>
+            <source>Nucleic Acids Res</source>
+            <volume>39</volume>
+            <fpage>4664</fpage>
+            <lpage>79</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21317192</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkr024</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3113568</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mansour</surname>
+                <given-names>MR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Oncogene regulation. An oncogenic super-enhancer formed through somatic mutation of a noncoding intergenic element</article-title>
+            <source>Science</source>
+            <volume>346</volume>
+            <fpage>1373</fpage>
+            <lpage>7</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25394790</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1259037</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4720521</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Uhlen</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Proteomics. Tissue-based map of the human proteome</article-title>
+            <source>Science</source>
+            <volume>347</volume>
+            <fpage>1260419</fpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">25613900</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1260419</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bell</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roberts</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Weber</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>El-Naggar</surname>
+                <given-names>AK</given-names>
+              </name>
+            </person-group>
+            <article-title>Developmental transcription factor EN1--a novel biomarker in human salivary gland adenoid cystic carcinoma</article-title>
+            <source>Cancer</source>
+            <volume>118</volume>
+            <fpage>1288</fpage>
+            <lpage>92</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">21800291</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cncr.26412</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3208084</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yamamoto</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Saka</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Makimoto</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Takahashi</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Histological changes during progression of adenoid cystic carcinoma</article-title>
+            <source>J Laryngol Otol</source>
+            <volume>106</volume>
+            <fpage>1016</fpage>
+            <lpage>20</lpage>
+            <year>1992</year>
+            <pub-id pub-id-type="pmid">1336026</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1017/s0022215100121656</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sato</surname>
+                <given-names>K</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Adenoid cystic carcinoma of the maxillary sinus with gradual histologic transformation to high-grade adenocarcinoma: a comparative report with dedifferentiated carcinoma</article-title>
+            <source>Virchows Arch</source>
+            <volume>448</volume>
+            <fpage>204</fpage>
+            <lpage>8</lpage>
+            <year>2006</year>
+            <pub-id pub-id-type="pmid">16133359</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00428-005-0054-8</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Barbareschi</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>p63, a p53 homologue, is a selective nuclear marker of myoepithelial cells of the human breast</article-title>
+            <source>Am J Surg Pathol</source>
+            <volume>25</volume>
+            <fpage>1054</fpage>
+            <lpage>60</lpage>
+            <year>2001</year>
+            <pub-id pub-id-type="pmid">11474290</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00000478-200108000-00010</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nguyen</surname>
+                <given-names>BC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cross-regulation between Notch and p63 in keratinocyte commitment to differentiation</article-title>
+            <source>Genes Dev</source>
+            <volume>20</volume>
+            <fpage>1028</fpage>
+            <lpage>42</lpage>
+            <year>2006</year>
+            <pub-id pub-id-type="pmid">16618808</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gad.1406006</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1472299</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yalcin-Ozuysal</surname>
+                <given-names>O</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Antagonistic roles of Notch and p63 in controlling mammary epithelial cell fates</article-title>
+            <source>Cell Death Differ</source>
+            <volume>17</volume>
+            <fpage>1600</fpage>
+            <lpage>12</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20379195</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/cdd.2010.37</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Stoeck</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Discovery of Biomarkers Predictive of GSI Response in Triple-Negative Breast Cancer and Adenoid Cystic Carcinoma</article-title>
+            <source>Cancer Discov</source>
+            <volume>4</volume>
+            <fpage>1154</fpage>
+            <lpage>67</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25104330</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-0830</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4184927</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>DR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Functionally recurrent rearrangements of the MAST kinase and Notch gene families in breast cancer</article-title>
+            <source>Nat Med</source>
+            <volume>17</volume>
+            <fpage>1646</fpage>
+            <lpage>51</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">22101766</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.2580</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3233654</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Haydu</surname>
+                <given-names>JE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An activating intragenic deletion in NOTCH1 in human T-ALL</article-title>
+            <source>Blood</source>
+            <volume>119</volume>
+            <fpage>5211</fpage>
+            <lpage>4</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">22510873</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1182/blood-2011-10-388504</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3369611</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moll</surname>
+                <given-names>UM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Slade</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>p63 and p73: roles in development and tumor formation</article-title>
+            <source>Mol Cancer Res</source>
+            <volume>2</volume>
+            <fpage>371</fpage>
+            <lpage>86</lpage>
+            <year>2004</year>
+            <pub-id pub-id-type="pmid">15280445</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mitani</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Expression and regulation of the DeltaN and TAp63 isoforms in salivary gland tumorigenesis clinical and experimental findings</article-title>
+            <source>Am J Pathol</source>
+            <volume>179</volume>
+            <fpage>391</fpage>
+            <lpage>9</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21703418</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajpath.2011.03.037</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3123859</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Roe</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mercan</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rivera</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pappin</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vakoc</surname>
+                <given-names>CR</given-names>
+              </name>
+            </person-group>
+            <article-title>BET Bromodomain Inhibition Suppresses the Function of Hematopoietic Transcription Factors in Acute Myeloid Leukemia</article-title>
+            <source>Mol Cell</source>
+            <volume>58</volume>
+            <fpage>1028</fpage>
+            <lpage>39</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">25982114</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2015.04.011</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4475489</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Knoechel</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An epigenetic mechanism of resistance to targeted therapy in T cell acute lymphoblastic leukemia</article-title>
+            <source>Nat Genet</source>
+            <volume>46</volume>
+            <fpage>364</fpage>
+            <lpage>70</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24584072</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2913</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4086945</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Filippakopoulos</surname>
+                <given-names>P</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Selective inhibition of BET bromodomains</article-title>
+            <source>Nature</source>
+            <volume>468</volume>
+            <fpage>1067</fpage>
+            <lpage>73</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20871596</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09504</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3010259</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nicolaides</surname>
+                <given-names>NC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gualdi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Casadevall</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Manzella</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Calabretta</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Positive autoregulation of c-myb expression via Myb binding sites in the 5′ flanking region of the human c-myb gene</article-title>
+            <source>Mol Cell Biol</source>
+            <volume>11</volume>
+            <fpage>6166</fpage>
+            <lpage>76</lpage>
+            <year>1991</year>
+            <pub-id pub-id-type="pmid">1944282</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/mcb.11.12.6166</pub-id>
+            <pub-id pub-id-type="pmcid">PMC361795</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nomura</surname>
+                <given-names>T</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Negative autoregulation of c-Myb activity by homodimer formation through the leucine zipper</article-title>
+            <source>J Biol Chem</source>
+            <volume>268</volume>
+            <fpage>21914</fpage>
+            <lpage>23</lpage>
+            <year>1993</year>
+            <pub-id pub-id-type="pmid">8408047</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Brill</surname>
+                <given-names>LB</given-names>
+                <suffix>2nd</suffix>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Analysis of MYB expression and MYB-NFIB gene fusions in adenoid cystic carcinoma and other salivary neoplasms</article-title>
+            <source>Mod Pathol</source>
+            <volume>24</volume>
+            <fpage>1169</fpage>
+            <lpage>76</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21572406</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/modpathol.2011.86</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Bell</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Clinical significance of Myb protein and downstream target genes in salivary adenoid cystic carcinoma</article-title>
+            <source>Cancer Biol Ther</source>
+            <volume>12</volume>
+            <fpage>569</fpage>
+            <lpage>73</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21785271</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.4161/cbt.12.7.17008</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3218383</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Berger</surname>
+                <given-names>MF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The genomic complexity of primary human prostate cancer</article-title>
+            <source>Nature</source>
+            <volume>470</volume>
+            <fpage>214</fpage>
+            <lpage>20</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21307934</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09744</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3075885</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Drier</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Somatic rearrangements across cancer reveal classes of samples with distinct patterns of DNA breakage and rearrangement-induced hypermutability</article-title>
+            <source>Genome Res</source>
+            <volume>23</volume>
+            <fpage>228</fpage>
+            <lpage>35</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">23124520</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.141382.112</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3561864</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>MacDonald</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ziman</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yuen</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Feuk</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Scherer</surname>
+                <given-names>SW</given-names>
+              </name>
+            </person-group>
+            <article-title>The Database of Genomic Variants: a curated collection of structural variation in the human genome</article-title>
+            <source>Nucleic Acids Res</source>
+            <volume>42</volume>
+            <fpage>D986</fpage>
+            <lpage>92</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24174537</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkt958</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3965079</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ryan</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Detection of Enhancer-Associated Rearrangements Reveals Mechanisms of Oncogene Dysregulation in B-cell Lymphoma</article-title>
+            <source>Cancer Discov</source>
+            <volume>5</volume>
+            <fpage>1058</fpage>
+            <lpage>71</lpage>
+            <year>2015</year>
+            <pub-id pub-id-type="pmid">26229090</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-15-0370</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4592453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Thorvaldsdottir</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mesirov</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration</article-title>
+            <source>Brief Bioinform</source>
+            <volume>14</volume>
+            <fpage>178</fpage>
+            <lpage>92</lpage>
+            <year>2013</year>
+            <pub-id pub-id-type="pmid">22517427</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bib/bbs017</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3603213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ku</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomewide analysis of PRC1 and PRC2 occupancy identifies two classes of bivalent domains</article-title>
+            <source>PLoS Genet</source>
+            <volume>4</volume>
+            <fpage>e1000242</fpage>
+            <year>2008</year>
+            <pub-id pub-id-type="pmid">18974828</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1000242</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2567431</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ernst</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mapping and analysis of chromatin state dynamics in nine human cell types</article-title>
+            <source>Nature</source>
+            <volume>473</volume>
+            <fpage>43</fpage>
+            <lpage>9</lpage>
+            <year>2011</year>
+            <pub-id pub-id-type="pmid">21441907</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature09906</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3088773</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>60</lpage>
+            <year>2009</year>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Suva</surname>
+                <given-names>ML</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Reconstructing and reprogramming the tumor-propagating potential of glioblastoma stem-like cells</article-title>
+            <source>Cell</source>
+            <volume>157</volume>
+            <fpage>580</fpage>
+            <lpage>94</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">24726434</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2014.02.030</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4004670</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Riggi</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>EWS-FLI1 utilizes divergent chromatin remodeling mechanisms to directly activate or repress enhancer elements in Ewing sarcoma</article-title>
+            <source>Cancer Cell</source>
+            <volume>26</volume>
+            <fpage>668</fpage>
+            <lpage>81</lpage>
+            <year>2014</year>
+            <pub-id pub-id-type="pmid">25453903</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2014.10.004</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4492343</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Heinz</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Simple combinations of lineage-determining transcription factors prime cis-regulatory elements required for macrophage and B cell identities</article-title>
+            <source>Mol Cell</source>
+            <volume>38</volume>
+            <fpage>576</fpage>
+            <lpage>89</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20513432</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2010.05.004</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2898526</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McLean</surname>
+                <given-names>CY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>GREAT improves functional interpretation of cis-regulatory regions</article-title>
+            <source>Nat Biotechnol</source>
+            <volume>28</volume>
+            <fpage>495</fpage>
+            <lpage>501</lpage>
+            <year>2010</year>
+            <pub-id pub-id-type="pmid">20436461</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.1630</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4840234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ashburner</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</article-title>
+            <source>Nat Genet</source>
+            <volume>25</volume>
+            <fpage>25</fpage>
+            <lpage>9</lpage>
+            <year>2000</year>
+            <pub-id pub-id-type="pmid">10802651</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/75556</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3037419</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Subramanian</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <volume>102</volume>
+            <fpage>15545</fpage>
+            <lpage>50</lpage>
+            <year>2005</year>
+            <pub-id pub-id-type="pmid">16199517</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0506580102</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1239896</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Milacic</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Annotating cancer variants and anti-cancer therapeutics in reactome</article-title>
+            <source>Cancers (Basel)</source>
+            <volume>4</volume>
+            <fpage>1180</fpage>
+            <lpage>211</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">24213504</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers4041180</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3712731</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Deng</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Controlling long-range genomic interactions at a native locus by targeted tethering of a looping factor</article-title>
+            <source>Cell</source>
+            <volume>149</volume>
+            <fpage>1233</fpage>
+            <lpage>44</lpage>
+            <year>2012</year>
+            <pub-id pub-id-type="pmid">22682246</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.03.051</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3372860</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title>MYB translocations involve alternate partners and frequently retain the 3′ UTR</title>
+          <p><bold>a</bold>. Circos plots of inter-chromosomal translocations in 6 ACC primagrafts. Only <italic toggle="yes">MYB</italic> translocations (marked in purple) occur in more than 2 tumors. <bold>b.</bold> For a cohort of 20 tumors, pie chart depicts fraction of <italic toggle="yes">MYB</italic> translocations that involve the <italic toggle="yes">NFIB</italic> locus, with or without loss of the <italic toggle="yes">MYB</italic> 3′UTR, or that rearrange to other loci (<italic toggle="yes">TGFBR3</italic> or <italic toggle="yes">RAD51B</italic>). These rearrangements to alternative partners retain the <italic toggle="yes">MYB</italic> 3′UTR. <bold>c.</bold> Log plot shows <italic toggle="yes">MYB</italic> mRNA expression in ACC primagrafts, relative to normal salivary gland. Error bars reflect standard error of means (SEM, n=3 experiments per sample); p &lt; 10<sup>−5</sup> compared to normal in all cases. These data suggest that neither UTR loss nor NFIB fusion is sufficient to explain robust <italic toggle="yes">MYB</italic> overexpression in ACC.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms750468f1.jpg"/>
+      </fig>
+      <fig id="F2" orientation="portrait" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <title>Translocation partners contain super-enhancers that loop to the MYB promoter</title>
+          <p><bold>a</bold>. H3K27ac (enhancer) profiles are shown for alternate ACC rearrangements: <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> translocation with loss of <italic toggle="yes">MYB</italic> 3′UTR (X16); <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> translocation with retained 3′UTR (X19); and <italic toggle="yes">MYB-TGFBR3</italic> translocation with retained <italic toggle="yes">MYB</italic> 3′UTR (X6). Arrows indicate the rearrangements. H3K27ac signal is scaled in fragments per million. <bold>b.</bold> Candidate enhancers ranked by H3K27ac signal in ACC primagrafts diagramed in Panel a. Expansive enhancers in the <italic toggle="yes">NFIB</italic> (red and purple) and <italic toggle="yes">TGFBR3</italic> (blue) loci satisfy super-enhancer criteria. These enhancers score similarly in other tumors (<xref rid="SD2" ref-type="supplementary-material">Supplementary Fig. 3</xref>). <bold>c.</bold> H3K27ac (enhancer) profiles for the <italic toggle="yes">NFIB</italic> locus (negative strand shown) in 5ACCs and 6 <italic toggle="yes">MYB-NFIB</italic> positive primagrafts. Enhancers are numbered as indicated (En1–En8). Translocations occur close to the 5′UTR of <italic toggle="yes">NFIB</italic> near the En1 enhancer (black triangles). Bars below peaks mark super-enhancers. <bold>d</bold>. Chromosome Conformation Capture (3C) demonstrates looping of translocated enhancers to <italic toggle="yes">MYB</italic> promoter in X19. The plot depicts, for each enhancer (En1–En8) or control site, its normalized interaction frequency with the <italic toggle="yes">MYB</italic> promoter. Significant interactions (p&lt;0.05) are marked by ‘*’, and error bars show SEM (n=5). <bold>e.</bold> H3K27ac profiles for the <italic toggle="yes">TGFBR3</italic> locus (negative strand) in 5 ACCs and 2 <italic toggle="yes">MYB-TGFBR3</italic> positive primagrafts. Translocations occur within <italic toggle="yes">TGFBR3</italic>, near the Et1 enhancer (black triangles). <bold>f.</bold> 3C demonstrates looping of translocated enhancers to <italic toggle="yes">MYB</italic> promoter in X6 (<italic toggle="yes">MYB-TGFBR3</italic> rearrangement), as in Panel d. Error bars show SEM (n=5). These data suggest that alternate ACC rearrangements juxtapose super-enhancers to the <italic toggle="yes">MYB</italic> locus that physically interact with the <italic toggle="yes">MYB</italic> promoter, and activate its expression.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms750468f2.jpg"/>
+      </fig>
+      <fig id="F3" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <title>MYB protein binds translocated super-enhancers and other active enhancers</title>
+          <p><bold>a.</bold> MYB binding and H3K27ac profiles are shown for the <italic toggle="yes">NFIB</italic> locus in X16 or the <italic toggle="yes">TGFBR3</italic> locus in X2 (negative strand shown). MYB-bound enhancers looping to MYB promoter are labeled as in <xref rid="F2" ref-type="fig">Figure 2c–f</xref>. <bold>b</bold>. Box plot depicts distribution of MYB signal over enhancers in ACCs. Box shows quartiles (<italic toggle="yes">q</italic>1, <italic toggle="yes">q</italic>2, <italic toggle="yes">q</italic>3), whiskers extending to <italic toggle="yes">q</italic>3+<italic toggle="yes">1.5*</italic>(<italic toggle="yes">q</italic>3 <italic toggle="yes">q</italic>1). Super-enhancers in the <italic toggle="yes">NFIB</italic> locus are top-ranked MYB targets in tumors with <italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> translocation (red points; #5 in X5M1, #17 in X16). Super-enhancers in the <italic toggle="yes">TGFBR3</italic> locus are top-ranked MYB targets in tumors with <italic toggle="yes">MYB</italic>-<italic toggle="yes">TGFBR3</italic> (#77 in X2). <bold>c.</bold> Schematic depicts positive feedback loop, engaged by chromosomal rearrangements, that sustains <italic toggle="yes">MYB</italic> overexpression in ACC. <bold>d.</bold> High confidence <italic toggle="yes">MYB</italic> peaks in three grade 2 primagrafts (see methods) were annotated as ‘promoter’ (+/− 2kb from TSS; top) or ‘enhancer’ (bottom). Heat maps show MYB and H3K4me3 signals over 2776 promoters (rows; 5Kb regions centered on MYB peaks, ranked by MYB signal), or MYB and H3K27ac signals over 10502 enhancers (rows; 5Kb regions centered on MYB peaks, ranked by MYB signal). <bold>e</bold>. Expression of MYB target genes, compared to control genes, in ACC primagrafts (left) and normal salivary gland (right). High expression of genes near MYB binding sites supports a role for MYB as a transcriptional activator in ACC. <bold>f</bold>. MYB target genes ranked by cumulative MYB signal over promoter and nearby enhancers (Notch pathway genes in red). <bold>g.</bold> Heat map shows enhancers with preferential H3K27 acetylation in grade 2 (top) or grade 3 (bottom) primagrafts. TF motifs enriched in the respective enhancer groups are indicated.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms750468f3.jpg"/>
+      </fig>
+      <fig id="F4" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <title>MYB drives alternate cell fates in ACC</title>
+          <p><bold>a.</bold> Images show H&amp;E stains and immunohistochemistry for Ki-67, KIT, TP63 and activated NOTCH1 (ICN1) in two grade 2 and two grade 3 primagrafts. Scale bar is 100μm. Grade 2 tumors have a cribriform histology with a mixture of myoepithelial (TP63) and luminal epithelial cells (KIT, ICN1). Grade 3 tumors show strong Notch activation with loss of myoepithelial cells (TP63). <bold>b.</bold> Co-staining of ICN1 and TP63 or ICN1 and KIT in a grade 2 ACC (top 2 panels) and grade 3 ACC (bottom 2 panels). Scale bar is 100μm. Expression of ICN1 and TP63 are almost always mutually exclusive.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms750468f4.jpg"/>
+      </fig>
+      <fig id="F5" orientation="portrait" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <title>BET inhibition slows tumor growth in grade 2 ACC primagrafts</title>
+          <p><bold>a.</bold> Experimental design for ACC xenotransplantation trials with the BET bromodomain inhibitor JQ1. ACC cells from four different human tumors were transplanted into the flanks of nude mice. Once tumor size reached 200 – 300 cc, mice were randomized into 2 treatment groups (vehicle or JQ1). Mice were treated daily, and were monitored for disease burden. The trial was stopped when mice became moribund. <bold>b.</bold> Average tumor size from 3–9 mice per group is depicted during the period of the xenotransplantation trial (Grade 2 tumors: X6, X5M1; grade 3 tumors: X9, X11). Error bars show standard error of means. <bold>c.</bold> Plot shows mRNA expression of <italic toggle="yes">MYB</italic> and selected MYB target genes after JQ1 treatment (normalized to GAPDH; * = p&lt;10<sup>−2</sup>, ** = p&lt;10<sup>−3</sup>, *** = p&lt;10<sup>−4</sup>, **** = p&lt;10<sup>−5</sup>; error bars show standard error of means, n=3). BET inhibition slows growth and leads to downregulation of <italic toggle="yes">MYB</italic> and MYB target genes in grade 2 tumors.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms750468f5.jpg"/>
+      </fig>
+      <table-wrap id="T1" position="float" orientation="landscape">
+        <label>Table 1</label>
+        <caption>
+          <title><italic toggle="yes">MYB</italic> translocations</title>
+          <p><italic toggle="yes">MYB</italic> translocations as detected in 12 primary ACCs and 8 primagrafts. The source of the samples is 1. WGS data from the European Genome-phenome Archive, dataset EGAD00001000062, 2. WGS data from Ho et al.<sup><xref rid="R7" ref-type="bibr">7</xref></sup>, 3. WGS conducted in this study, 4. Paired-end ChIP-seq of H3K27ac and input control conducted in this study.</p>
+        </caption>
+        <table frame="box" rules="all">
+          <thead>
+            <tr>
+              <th valign="bottom" align="left" rowspan="1" colspan="1">Sample</th>
+              <th valign="bottom" align="left" rowspan="1" colspan="1">Origin</th>
+              <th valign="bottom" align="left" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic> translocation</th>
+              <th valign="bottom" align="left" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic> 3′UTR</th>
+              <th valign="bottom" align="left" rowspan="1" colspan="1">Source</th>
+              <th valign="bottom" align="left" rowspan="1" colspan="1">Remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">PD3185</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Not detected</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">PD3186</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Not detected</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Low coverage</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">2012</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Not detected</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+              <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">2128</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Not detected</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+              <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">6536</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Not detected</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+              <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">PD3176a</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> fusion</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lost</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Inversion</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">PD3208a</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> fusion</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lost</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Inversion</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">505</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> fusion</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lost</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Inversion</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">131169</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">NFIB</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">PD3226a</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">NFIB</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Complex</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">PD5912a</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">NFIB</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Complex</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">PD3177a</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">TGFBR3</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX5M1</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> fusion</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lost</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Inversion</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX11</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> fusion</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lost</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Inversion</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX16</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"><italic toggle="yes">MYB</italic>-<italic toggle="yes">NFIB</italic> fusion</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Lost</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Inversion</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX9</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">NFIB</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX19</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">NFIB</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX22</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">NFIB</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX2</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">TGFBR3</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">ACCX12</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Primagraft</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">To <italic toggle="yes">RAD51B</italic> locus</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">Retained</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="left" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="T2" position="float" orientation="landscape">
+        <label>Table 2</label>
+        <caption>
+          <title>MYB, Notch and TP63 immunohistochemistry</title>
+          <p>Tumors of all grades express MYB in all cells, while grade 3 have strong intercellular NOTCH1 (ICN1) stains but no TP63 expression, as opposed to grade 1 and 2 tumors, expressing TP63 in some cells and Notch in some (unk = unkown).</p>
+        </caption>
+        <table frame="box" rules="all">
+          <thead>
+            <tr>
+              <th valign="top" align="center" rowspan="1" colspan="1">Tumor</th>
+              <th valign="top" align="center" rowspan="1" colspan="1">MYB</th>
+              <th valign="top" align="center" rowspan="1" colspan="1">ICN1</th>
+              <th valign="top" align="center" rowspan="1" colspan="1">TP63</th>
+              <th valign="top" align="center" rowspan="1" colspan="1">Grade</th>
+              <th valign="top" align="center" rowspan="1" colspan="1">Tumor Site</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCD1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Minor subset +, periphery (&lt;5%)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Trachea</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCD2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Minor subset +, periphery (&lt;5%)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCD3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Minor subset +, periphery (&lt;5%)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Trachea</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCD4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Negative</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Maxillary Sinus</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCD5</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Diffuse +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Negative</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Trachea</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCS1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">70% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">60% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">40% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCS2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Staining failed</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">60% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Trachea</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCS3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">60% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">10% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">90% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCS4</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">70% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">70% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Auditory Canal</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCS5</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">90% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">50% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">20% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCS6</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">80% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">40% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">60% +</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">20%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">50%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX5M1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">80%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Metastatic tumor to lungs</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX6</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">80%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Metastatic tumor to lungs</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX9</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">100%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX11</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">100%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Sinonasal cavity</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX12</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">&lt;10%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">20%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Trachea</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX14</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">&lt;10%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">90%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Trachea</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX15</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">100%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">unk</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Oral cavity</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX16</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">80%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Bronchus</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX19</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">60%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Oral cavity</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX20M1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">50%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Metastatic tumor to liver</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX2002</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">50%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX21</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">70%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX22</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">&lt;10%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">30%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">Parotid</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX24</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">&lt;10%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="center" valign="top" rowspan="1" colspan="1">ACCX29</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">N/A</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">40%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">80%</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2</td>
+              <td align="center" valign="top" rowspan="1" colspan="1"/>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </floats-group>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,1920 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2873</journal-id>
+        <journal-id journal-id-type="pmc-domain">ncomms</journal-id>
+        <journal-title-group>
+          <journal-title>Nature Communications</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2041-1723</issn>
+        <publisher>
+          <publisher-name>Nature Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC5928087</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC5928087.1</article-id>
+        <article-id pub-id-type="pmcaid">5928087</article-id>
+        <article-id pub-id-type="pmcaiid">5928087</article-id>
+        <article-id pub-id-type="pmid">29713003</article-id>
+        <article-id pub-id-type="doi">10.1038/s41467-018-04129-4</article-id>
+        <article-id pub-id-type="publisher-id">4129</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Multi-omics profiling of younger Asian breast cancers reveals distinctive molecular signatures</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4280-0850</contrib-id>
+            <name name-style="western">
+              <surname>Kan</surname>
+              <given-names initials="Z">Zhengyan</given-names>
+            </name>
+            <address>
+              <email>zhengyan.kan@pfizer.com</email>
+            </address>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Ding</surname>
+              <given-names initials="Y">Ying</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author" equal-contrib="yes">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="J">Jinho</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jung</surname>
+              <given-names initials="HH">Hae Hyun</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chung</surname>
+              <given-names initials="W">Woosung</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lal</surname>
+              <given-names initials="S">Samir</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cho</surname>
+              <given-names initials="S">Soonweng</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fernandez-Banet</surname>
+              <given-names initials="J">Julio</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="SK">Se Kyung</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="SW">Seok Won</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="JE">Jeong Eon</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8485-8933</contrib-id>
+            <name name-style="western">
+              <surname>Choi</surname>
+              <given-names initials="YL">Yoon-La</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff5">5</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Deng</surname>
+              <given-names initials="S">Shibing</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="JY">Ji-Yeon</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ahn</surname>
+              <given-names initials="JS">Jin Seok</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sha</surname>
+              <given-names initials="Y">Ying</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mu</surname>
+              <given-names initials="XJ">Xinmeng Jasmine</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff1">1</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nam</surname>
+              <given-names initials="JY">Jae-Yong</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Im</surname>
+              <given-names initials="YH">Young-Hyuck</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="S">Soohyeon</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Park</surname>
+              <given-names initials="WY">Woong-Yang</given-names>
+            </name>
+            <xref ref-type="aff" rid="Aff2">2</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Nam</surname>
+              <given-names initials="SJ">Seok Jin</given-names>
+            </name>
+            <address>
+              <email>sjnam@skku.edu</email>
+            </address>
+            <xref ref-type="aff" rid="Aff4">4</xref>
+          </contrib>
+          <contrib contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Park</surname>
+              <given-names initials="YH">Yeon Hee</given-names>
+            </name>
+            <address>
+              <email>yhparkhmo@skku.edu</email>
+            </address>
+            <xref ref-type="aff" rid="Aff3">3</xref>
+            <xref ref-type="aff" rid="Aff6">6</xref>
+          </contrib>
+          <aff id="Aff1"><label>1</label>Pfizer Oncology Research, San Diego, CA 92121 USA </aff>
+          <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2181 989X</institution-id><institution-id institution-id-type="GRID">grid.264381.a</institution-id><institution>Samsung Genome Institute, Biomedical Research Institute, Samsung Medical Center, </institution><institution>Sungkyunkwan University School of Medicine, </institution></institution-wrap>Seoul, 06351 Korea </aff>
+          <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2181 989X</institution-id><institution-id institution-id-type="GRID">grid.264381.a</institution-id><institution>Samsung Biological Research Institute, Samsung Medical Center, </institution><institution>Sungkyunkwan University School of Medicine, </institution></institution-wrap>Seoul, 06351 Korea </aff>
+          <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2181 989X</institution-id><institution-id institution-id-type="GRID">grid.264381.a</institution-id><institution>Department of Surgery, Samsung Medical Center, </institution><institution>Sungkyunkwan University School of Medicine, </institution></institution-wrap>Seoul, 06351 Korea </aff>
+          <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2181 989X</institution-id><institution-id institution-id-type="GRID">grid.264381.a</institution-id><institution>Department of Pathology and Translational Genomics, Samsung Medical Center, </institution><institution>Sungkyunkwan University School of Medicine, </institution></institution-wrap>Seoul, 06351 Korea </aff>
+          <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2181 989X</institution-id><institution-id institution-id-type="GRID">grid.264381.a</institution-id><institution>Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, </institution><institution>Sungkyunkwan University School of Medicine, </institution></institution-wrap>Seoul, 06351 Korea </aff>
+          <aff id="Aff7"><label>7</label>Pfizer Oncology, Seoul, 04631 Korea </aff>
+        </contrib-group>
+        <pub-date pub-type="epub">
+          <day>30</day>
+          <month>4</month>
+          <year>2018</year>
+        </pub-date>
+        <pub-date pub-type="collection">
+          <year>2018</year>
+        </pub-date>
+        <volume>9</volume>
+        <issue-id pub-id-type="pmc-issue-id">303893</issue-id>
+        <elocation-id>1725</elocation-id>
+        <history>
+          <date date-type="received">
+            <day>15</day>
+            <month>8</month>
+            <year>2017</year>
+          </date>
+          <date date-type="accepted">
+            <day>6</day>
+            <month>4</month>
+            <year>2018</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>30</day>
+              <month>04</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>02</day>
+              <month>05</month>
+              <year>2018</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-07-20 04:25:15.287">
+              <day>20</day>
+              <month>07</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>© The Author(s) 2018</copyright-statement>
+          <license license-type="OpenAccess">
+            <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="41467_2018_Article_4129.pdf"/>
+        <abstract id="Abs1">
+          <p id="Par1">Breast cancer (BC) in the Asia Pacific regions is enriched in younger patients and rapidly rising in incidence yet its molecular bases remain poorly characterized. Here we analyze the whole exomes and transcriptomes of 187 primary tumors from a Korean BC cohort (SMC) enriched in pre-menopausal patients and perform systematic comparison with a primarily Caucasian and post-menopausal BC cohort (TCGA). SMC harbors higher proportions of HER2+ and Luminal B subtypes, lower proportion of Luminal A with decreased <italic toggle="yes">ESR1</italic> expression compared to TCGA. We also observe increased mutation prevalence affecting <italic toggle="yes">BRCA1</italic>, <italic toggle="yes">BRCA2</italic>, and <italic toggle="yes">TP53</italic> in SMC with an enrichment of a mutation signature linked to homologous recombination repair deficiency in TNBC. Finally, virtual microdissection and multivariate analyses reveal that Korean BC status is independently associated with increased TIL and decreased TGF-β signaling expression signatures, suggesting that younger Asian BCs harbor more immune-active microenvironment than western BCs.</p>
+        </abstract>
+        <abstract id="Abs2" abstract-type="web-summary">
+          <p id="Par2">While breast cancer incidence in the Asia Pacific region is rising, the molecular basis remains poorly characterized. Here the authors perform genomic screening of 187 Korean breast cancer patients and find differences in molecular subtype distribution, mutation pattern and prevalence, and gene expression signature when compared to TCGA.</p>
+        </abstract>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>issue-copyright-statement</meta-name>
+            <meta-value>© The Author(s) 2018</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="Sec1" sec-type="introduction">
+        <title>Introduction</title>
+        <p id="Par3">Breast cancer (BC) remains a leading cause of cancer deaths despite recent progress in its prevention and treatment<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. There are also wide variations in both incidence and mortality rates around the world as country-specific trends vary widely and may differ from global trends<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. In countries of the Asia-Pacific region, rapid rises of BC incidence in recent years<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR3">3</xref></sup> have brought increased appreciation of Asian breast cancer as a distinct patient population. Most notably, peak age of Asian BC is much younger than that in western countries such as the United States, as approximately half of the Asian BC patients were pre-menopausal whereas only 15−30% of western BCs are pre-menopausal<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>. The distinctive demographics of Asian BC raised the issue of how to appropriately adapt therapeutic strategies mainly established in the western countries in Asia-Pacific countries such as Korea. Breast cancers arising in younger patients (YBC) are known to be more aggressive with increased risk of relapse and mortality<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. In particular, YBCs with estrogen receptor-positive (ER+) diseases tend to be resistant to endocrine therapies such as tamoxifen compared to older patients<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. A recent paper also suggests that young age was associated with significantly increased risk of mortality only among the Luminal subtypes<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. There appeared to be higher proportions of triple negative/basal-like and HER2 subtypes but lower proportions of ER+/Luminal A subtypes in YBC than in older breast cancers (OBC). Hence, it remains controversial whether YBC has a unique biology or is only surrogate for aggressive intrinsic subtypes. The main cause of worse outcomes in YBC also remains undetermined<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>.</p>
+        <p id="Par4">Genomic and molecular profiling studies have significantly advanced our understanding of breast cancer biology along with increasing elucidation of its intrinsic molecular subtypes and genetic driver mechanisms<sup><xref ref-type="bibr" rid="CR9">9</xref>–<xref ref-type="bibr" rid="CR13">13</xref></sup>. Several studies have compared the molecular landscape of YBC with that of OBC using primarily Caucasian BC cohorts. <italic toggle="yes">ESR1</italic> gene expression was reported to be significantly lower along with lower protein expression (IHC) and more hyper-methylation in YBCs than in OBCs<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup>. <italic toggle="yes">GATA3</italic> mutations were found to be significantly enriched in YBCs<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> while <italic toggle="yes">CDH1</italic> mutations are enriched in OBCs<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. Within the ER+ subtype, YBCs were reported to harbor elevated integrin/laminin, <italic toggle="yes">EGFR</italic> signaling, and TGF-β signaling expression signatures<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. Higher expression signatures of proliferation, stem cell, and endocrine resistance were also associated with YBCs<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. Recent studies comparing breast cancers from different racial groups have reported genomic differences mainly in the distribution of intrinsic molecular subtypes<sup><xref ref-type="bibr" rid="CR16">16</xref>–<xref ref-type="bibr" rid="CR18">18</xref></sup>. One study compared gene expression profiles of different age groups within a BC cohort of 113 Middle Eastern women and identified 63 genes specific to tumors in young women<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Another study compared gene expression and microRNA profiles between Chinese and Italian BCs and found lower prevalence of Luminal A subtype among Chinese BCs<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. However, none of the studies to date conducted multi-omics profiling encompassing both the genome and the transcriptome of younger, pre-menopausal Asian BCs. It remains unclear what molecular differences distinguish younger Asian BCs from BCs in the western countries, the focus for most of the currently available genomic and molecular profiling work.</p>
+        <p id="Par5">Here we report a study where we perform whole exome and transcriptome profiling of a large cohort of Asian BCs enriched in younger pre-menopausal patients. We then systematically compare different categories of molecular characteristics between our cohort and a benchmark BC cohort and are able to identify significant differences in molecular subtype distribution, mutation prevalence affecting oncogenes, and mutation and gene expression signatures.</p>
+      </sec>
+      <sec id="Sec2" sec-type="results">
+        <title>Results</title>
+        <sec id="Sec3">
+          <title>Overview of multi-omics profiling data</title>
+          <p id="Par6">We performed whole exome sequencing (WES) on 186 tumors and matched normal samples and transcriptome sequencing (RNA-Seq) on 168 tumor and 10 adjacent normal samples from a breast cancer cohort assembled by the Samsung Medical Center in Korea—SMC (Supplementary Data <xref rid="MOESM4" ref-type="media">1</xref>). We predicted somatic mutations and copy number variations (CNVs) from the WES data and gene expression from RNA-Seq data using published bioinformatics tools (see Methods). As a benchmark of the currently available breast cancer genomics data, we used WES and RNA-Seq data provided by the TCGA BRCA study (TCGA) consisting of 1116 subjects from the United States<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. The vast majority of the SMC cohort (88.2%, <italic toggle="yes">n</italic> = 165) are pre-menopausal while only 19 patients (10.2%) are post-menopausal (Fig. <xref rid="Fig1" ref-type="fig">1a</xref>). In contrast, only 23.5% of TCGA are pre-menopausal while 72.3% are post-menopausal. For comparison analyses, SMC was divided into two age groups—YBC (age ≤ 40, <italic toggle="yes">n</italic> = 125) and IBC (age &gt; 40, <italic toggle="yes">n</italic> = 62). TCGA was divided into three age groups—YBC (age ≤ 40, <italic toggle="yes">n</italic> = 181), IBC (40 &lt; age ≤ 60, <italic toggle="yes">n</italic> = 562) and OBC (age &gt; 60, <italic toggle="yes">n</italic> = 535). The TCGA cohort also has more lobular carcinoma cases and higher tumor purity levels than SMC (Table <xref rid="Tab1" ref-type="table">1</xref>, Supplementary Data <xref rid="MOESM5" ref-type="media">2</xref>).<fig id="Fig1" position="float" orientation="portrait"><label>Fig. 1</label><caption><p>Age and molecular subtype distribution in SMC and TCGA. <bold>a</bold> Bar charts comparing the distribution of patient age between SMC and TCGA colored by menopausal status. Stacked bar charts comparing molecular subtype distribution across SMC and TCGA age groups based on three classifications: Consensus (<bold>b</bold>), IHC (<bold>c</bold>), and PAM50 (<bold>d</bold>)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e615" position="float" orientation="portrait" xlink:href="41467_2018_4129_Fig1_HTML.jpg"/></fig><table-wrap id="Tab1" position="float" orientation="portrait"><label>Table 1</label><caption><p>Clinical data summary for SMC and TCGA</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1"/><th colspan="1" rowspan="1">SMC</th><th colspan="1" rowspan="1">TCGA</th><th colspan="1" rowspan="1">Statistical significance</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Subjects (<italic toggle="yes">n</italic>)</td><td colspan="1" rowspan="1">187</td><td colspan="1" rowspan="1">1,116</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Patient age (yr)</td><td colspan="1" rowspan="1">39.3 ± 8.5</td><td colspan="1" rowspan="1">58.3 ± 13.2</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> &lt; 2.2e-16</td></tr><tr><td colspan="1" rowspan="1">Tumor purity (%)</td><td colspan="1" rowspan="1">71 ± 17.8</td><td colspan="1" rowspan="1">77.7 ± 10.7</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 0.0005</td></tr><tr><td colspan="1" rowspan="1">Menopausal status (<italic toggle="yes">n</italic>(%))</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  Pre-menopausal</td><td colspan="1" rowspan="1">165 (88.2%)</td><td colspan="1" rowspan="1">232 (20.8%)</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 1.12e-76</td></tr><tr><td colspan="1" rowspan="1">  Post-menopausal</td><td colspan="1" rowspan="1">19 (10.2%)</td><td colspan="1" rowspan="1">715 (64.1%)</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 2.4e-68</td></tr><tr><td colspan="1" rowspan="1">  Peri-menopausal</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">41 (3.7%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  N/A</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">128 (11.5%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Clinical subtype (<italic toggle="yes">n</italic>(%))</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  ER+</td><td colspan="1" rowspan="1">103 (55.1%)</td><td colspan="1" rowspan="1">480 (43.0%)</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 0.04</td></tr><tr><td colspan="1" rowspan="1">  ER+/HER2+</td><td colspan="1" rowspan="1">27 (14.4%)</td><td colspan="1" rowspan="1">116 (10.4%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  HER2+</td><td colspan="1" rowspan="1">15 (8%)</td><td colspan="1" rowspan="1">32 (2.9%)</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 0.07</td></tr><tr><td colspan="1" rowspan="1">  TNBC</td><td colspan="1" rowspan="1">37 (19.8%)</td><td colspan="1" rowspan="1">121 (10.8%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  N/A</td><td colspan="1" rowspan="1">5 (2.7%)</td><td colspan="1" rowspan="1">367 (32.9%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">TNM stage (n(%))</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  I</td><td colspan="1" rowspan="1">27 (14.4%)</td><td colspan="1" rowspan="1">177 (15.9%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  II</td><td colspan="1" rowspan="1">101 (54%)</td><td colspan="1" rowspan="1">605 (54.2%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  III</td><td colspan="1" rowspan="1">58 (31%)</td><td colspan="1" rowspan="1">237 (21.2%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  V</td><td colspan="1" rowspan="1">1 (0.5%)</td><td colspan="1" rowspan="1">18 (1.6%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  N/A</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">79 (7.1%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Histology subtype (<italic toggle="yes">n</italic>(%))</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  Lobular carcinoma</td><td colspan="1" rowspan="1">7 (3.7%)</td><td colspan="1" rowspan="1">193 (17.3%)</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 2.9e-08</td></tr><tr><td colspan="1" rowspan="1">  Ductal Carcinoma</td><td colspan="1" rowspan="1">172 (92.0%)</td><td colspan="1" rowspan="1">830 (74.4%)</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 2.9e-08</td></tr><tr><td colspan="1" rowspan="1">  Others</td><td colspan="1" rowspan="1">8 (4.3%)</td><td colspan="1" rowspan="1">37 (3.3%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  N/A</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">56 (5.0%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">Race (<italic toggle="yes">n</italic>(%))</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  Asian</td><td colspan="1" rowspan="1">187 (100%)</td><td colspan="1" rowspan="1">57 (5.1%)</td><td colspan="1" rowspan="1"><italic toggle="yes">p</italic> = 2.53e-193</td></tr><tr><td colspan="1" rowspan="1">  Black</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">158 (14.2%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  White</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">745 (66.8%)</td><td colspan="1" rowspan="1"/></tr><tr><td colspan="1" rowspan="1">  N/A</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">156 (14%)</td><td colspan="1" rowspan="1"/></tr></tbody></table><table-wrap-foot><p>For SMC vs. TCGA comparisons of continuous and categorical variables, <italic toggle="yes">p </italic>values were calculated using Student’s <italic toggle="yes">t</italic> test and Fisher’s exact test respectively</p></table-wrap-foot></table-wrap></p>
+        </sec>
+        <sec id="Sec4">
+          <title>Molecular subtype classification and distribution</title>
+          <p id="Par7">We classified intrinsic molecular subtypes for the BC cohorts using three methods—ER and HER2 immunohistochemistry (IHC) analyses, gene expression classifier (PAM50) and a naïve molecular classifier (NMC) based on <italic toggle="yes">ESR1</italic>, <italic toggle="yes">PGR, ERBB2</italic> gene expression and <italic toggle="yes">ERBB2</italic> copy number data. Three sets of classification results were highly concordant, with 88% of SMC samples having matching classifications between IHC and PAM50, 92% between NMC and PAM50 and 89% between IHC and NMC. A consensus classification was derived based on three classifications and used in subsequent analyses (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). SMC had significantly higher proportion of the ER+/HER2+ subtype than TCGA (16.1 vs. 5.4%, logistic regression (LR): <italic toggle="yes">p</italic> = 1.5e-05) but lower proportion of the ER+ subtype than TCGA (53.6 vs. 72.8%, LR: <italic toggle="yes">p</italic> = 3.3e-06) (Fig. <xref rid="Fig1" ref-type="fig">1b, c</xref>, Supplementary Data <xref rid="MOESM6" ref-type="media">3</xref>). SMC also had significantly lower proportion of the Luminal A subtype than TCGA (28.3 vs. 43.7%, LR: <italic toggle="yes">p</italic> = 7.5e-4) and higher proportion of Luminal B (39.2 vs. 33.2%, LR: <italic toggle="yes">p</italic> = 0.136). In fact, the majority of Luminal cases in SMC were Luminal B (58%) whereas the majority of Luminal cases in TCGA were Luminal A (57%) (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>). These observed differences in the distribution of estrogen receptor-positive subtypes were concordant between gene expression-based classifications and IHC-based classifications, and remain statistically significant after correcting for confounding effects of tumor stage and histology subtype (Supplementary Data <xref rid="MOESM6" ref-type="media">3</xref>). We then applied an integrative genomics approach to classify samples from two cohorts into ten IntClust subtypes using gene expression and copy number data<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup>. Comparison of subtype distribution revealed a significant enrichment of IntClust5, a subtype known to harbor intermediate levels of genomic instability and an enrichment of HER2 amplifications<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>, in SMC compared to TCGA (Fisher’s exact test (FE): <italic toggle="yes">p</italic> = 0.02). The “CNA-void” IntClust4 subtype characterized by a flat copy number landscape was enriched in TCGA (FE: <italic toggle="yes">p</italic> = 0.13) (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>).</p>
+        </sec>
+        <sec id="Sec5">
+          <title>Germline pathogenic mutations in BC predisposition genes</title>
+          <p id="Par8">Hereditary factors such as germline deleterious mutations in <italic toggle="yes">BRCA1</italic> and <italic toggle="yes">BRCA2</italic> genes significantly increases predisposition to breast cancer. About 1−5% of BCs were attributed to <italic toggle="yes">BRCA1</italic>/<italic toggle="yes">BRCA2</italic> mutations in primarily Caucasian BC populations<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> while 3−7% of BCs were attributed to <italic toggle="yes">BRCA1</italic>/<italic toggle="yes">BRCA2</italic> mutations in Asian BC<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. Higher prevalence of <italic toggle="yes">BRCA1/BRCA2</italic> mutation has been associated with younger age of diagnosis and family histories of breast cancers<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>. We examined germline pathogenic mutations, defined as mutations that truncate protein reading frame or reported as a disease-causing variant in ClinVar<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>, in 13 genes known to increase breast cancer susceptibility with high to moderate penetrance<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. In total, 18.8% (35/186) of SMC harbor germline pathogenic mutations in at least one of the 13 selected BC predisposition genes (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3a</xref>). We found that <italic toggle="yes">BRCA1</italic> or <italic toggle="yes">BRCA2</italic> germline pathogenic mutations were significantly enriched in SMC compared to TCGA, affecting 10.8% of SMC but only 4.7% of TCGA (LR: <italic toggle="yes">p</italic> = 0.0027) (Supplementary Data <xref rid="MOESM7" ref-type="media">4</xref>−<xref rid="MOESM8" ref-type="media">5</xref>). <italic toggle="yes">BRCA1</italic> or <italic toggle="yes">BRCA2</italic> germline mutations were enriched in younger patients, affecting 13.7% of SMC YBCs but only 4.8% of SMC IBC (<italic toggle="yes">p</italic> = 0.08) and 3.4% of TCGA OBC (<italic toggle="yes">p</italic> = 6.85e-05). Within TCGA, the YBC group also harbored higher prevalence of <italic toggle="yes">BRCA1</italic>/<italic toggle="yes">BRCA2</italic> mutations (12.0%) than IBCs (4.2%) and OBCs (3.4%) (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3b</xref>). Moreover, SMC patients with family histories of breast cancers were significantly enriched in YBC relative to IBC (24 vs. 8%, FE: <italic toggle="yes">p</italic> = 0.02). Hence, <italic toggle="yes">BRCA1</italic>/<italic toggle="yes">BRCA2</italic> pathogenic mutations among other hereditary factors appeared to be a more prevalent cancer driver in this younger Asian BC cohort.</p>
+        </sec>
+        <sec id="Sec6">
+          <title>Significantly mutated genes</title>
+          <p id="Par9">WES data analyses detected 6885 somatic protein-altering mutations affecting 4949 genes with an average of 0.6 missense mutations per Mb per sample (Supplementary Data <xref rid="MOESM9" ref-type="media">6</xref>). Observed mutation burden is significantly higher in TCGA (1.4 ± 4.5) than in SMC (0.90 ± 0.97) (Student’s <italic toggle="yes">t</italic> test (ST): <italic toggle="yes">p</italic> = 0.01), consistent with recent reports that somatic mutation burden increases with age in cancers<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup>. MutSigCV analysis<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> further identified six significantly mutated genes (FDR &lt; 0.1) with a higher prevalence of somatic, protein-altering mutations than expected—<italic toggle="yes">TP53</italic>, <italic toggle="yes">PIK3CA</italic>, <italic toggle="yes">GATA3</italic>, <italic toggle="yes">CBFB</italic>, <italic toggle="yes">PTEN</italic>, and <italic toggle="yes">CDH1</italic> (Table <xref rid="Tab2" ref-type="table">2</xref>). All six genes were previously reported as being significantly mutated by the TCGA BRCA study, which also listed <italic toggle="yes">TP53</italic>, <italic toggle="yes">PIK3CA</italic>, and <italic toggle="yes">GATA3</italic> as top three mutated genes<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. We also performed MutSigCV analysis on the combined list of mutations from two cohorts and identified 109 significantly mutated genes, all of which were already identified to be significant in TCGA or rarely mutated in SMC (Supplementary Data <xref rid="MOESM10" ref-type="media">7</xref>). <italic toggle="yes">TP53</italic> somatic mutation prevalence within the SMC cohort substantially varied by subtypes, with the highest mutation prevalence observed in TNBC (87.5%) followed by HER2+ (75%), ER+/HER2+ (64.3%) and ER+ (23.5%) (Supplementary Data <xref rid="MOESM8" ref-type="media">5</xref>). <italic toggle="yes">TP53</italic> mutation prevalence was significantly higher in SMC compared to TCGA overall (47.9 vs. 32.0%, LR: <italic toggle="yes">p</italic> = 5.0e-5) and after excluding Lobular carcinoma cases (49.4 vs. 37.3%, LR: <italic toggle="yes">p</italic> = 0.003) (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>). <italic toggle="yes">GATA3</italic>, a transcription factor implicated in estrogen signaling, and E-cadherin (<italic toggle="yes">CDH1</italic>) were exclusively mutated in hormone positive subtypes. Consistent with earlier reports<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>, <italic toggle="yes">GATA3</italic> mutation prevalence was higher in SMC (12.4%) than in TCGA (9.1%) whereas <italic toggle="yes">CDH1</italic> was more frequently mutated in TCGA (10.1%) than in SMC (2.4%).<table-wrap id="Tab2" position="float" orientation="portrait"><label>Table 2</label><caption><p>Significantly mutated genes in SMC</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="1" rowspan="1"/><th colspan="1" rowspan="1"/><th colspan="3" rowspan="1">SMC</th><th colspan="2" rowspan="1">TCGA</th><th colspan="1" rowspan="1">SMC vs. TCGA</th></tr><tr><th colspan="1" rowspan="1">Gene symbol</th><th colspan="1" rowspan="1">Gene description</th><th colspan="1" rowspan="1">Mut Freq (<italic toggle="yes">n</italic>=186)</th><th colspan="1" rowspan="1"><italic toggle="yes">p</italic> value</th><th colspan="1" rowspan="1"><italic toggle="yes">q</italic> value</th><th colspan="1" rowspan="1">Mut Freq (<italic toggle="yes">n</italic>=1001)</th><th colspan="1" rowspan="1"><italic toggle="yes">q</italic> value</th><th colspan="1" rowspan="1"><italic toggle="yes">p</italic> value</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">
+<italic toggle="yes">TP53</italic>
+</td><td colspan="1" rowspan="1">tumor protein p53</td><td colspan="1" rowspan="1">89 (47.9%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">320 (32.0%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">2.89e-04</td></tr><tr><td colspan="1" rowspan="1">
+<italic toggle="yes">PIK3CA</italic>
+</td><td colspan="1" rowspan="1">phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha</td><td colspan="1" rowspan="1">53 (28.5%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">320 (32.0%)</td><td colspan="1" rowspan="1">2.09e-12</td><td colspan="1" rowspan="1">0.81</td></tr><tr><td colspan="1" rowspan="1">
+<italic toggle="yes">GATA3</italic>
+</td><td colspan="1" rowspan="1">GATA binding protein 3</td><td colspan="1" rowspan="1">23 (12.4%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">91 (9.1%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0.49</td></tr><tr><td colspan="1" rowspan="1">
+<italic toggle="yes">CBFB</italic>
+</td><td colspan="1" rowspan="1">core-binding factor, beta subunit</td><td colspan="1" rowspan="1">5 (2.7%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">21 (2.1%)</td><td colspan="1" rowspan="1">7.85e-07</td><td colspan="1" rowspan="1">0.83</td></tr><tr><td colspan="1" rowspan="1">
+<italic toggle="yes">PTEN</italic>
+</td><td colspan="1" rowspan="1">phosphatase and tensin homolog</td><td colspan="1" rowspan="1">6 (3.2%)</td><td colspan="1" rowspan="1">6.40e-06</td><td colspan="1" rowspan="1">0.015</td><td colspan="1" rowspan="1">44 (4.4%)</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0.83</td></tr><tr><td colspan="1" rowspan="1">
+<italic toggle="yes">CDH1</italic>
+</td><td colspan="1" rowspan="1">Cadherin-1</td><td colspan="1" rowspan="1">4 (2.2%)</td><td colspan="1" rowspan="1">3.64e-05</td><td colspan="1" rowspan="1">0.076</td><td colspan="1" rowspan="1">115 (11.5%)</td><td colspan="1" rowspan="1">8.64e-13</td><td colspan="1" rowspan="1">2.46e-04</td></tr></tbody></table><table-wrap-foot><p>SMC has 186 WES samples and 167 tumor samples with both WES and RNA-Seq data. TCGA has 1002 WES samples. Mut Freq: number of mutated samples (% of mutated samples). <italic toggle="yes">p</italic> value, <italic toggle="yes">q</italic> value: mutation significance reported by MutSigCV. SMC vs. TCGA: Mutation prevalence were compared between SMC and TCGA by Fisher’s exact test to determine the <italic toggle="yes">p</italic> value</p></table-wrap-foot></table-wrap><fig id="Fig2" position="float" orientation="portrait"><label>Fig. 2</label><caption><p>Landscape of somatic alterations in SMC and TCGA. <bold>a</bold> Heatmap showing the integrated statuses of protein-altering somatic mutations and copy number alterations affecting the most frequently altered genes (rows) and samples (columns) from SMC and TCGA. Cell colors represent different types of genomic alterations—Mut (mutation), Amp (amplification), Del (deletion), and Multi (multiple alterations). Genes are sorted by the prevalence of alterations (≥3 samples) in descending order. The bar chart above represents the sample-level count of protein-altering somatic mutations. The unstacked bar chart to the right compares the prevalence of somatic alterations in SMC and TCGA for individual genes. Column color labels represent age-based group (Cohort), intrinsic molecular subtype classifications (Consensus), and menopausal statuses for all samples. <bold>b</bold> Comparison of TP53 mutation frequencies between SMC and TCGA overall and within individual subtypes. Lobular carcinoma cases were excluded from frequency calculations. <bold>c</bold> Distribution of <italic toggle="yes">TP53</italic> mutation and <italic toggle="yes">ERBB2</italic> amplification statuses across PAM50 subtypes in SMC and TCGA. TP53: <italic toggle="yes">TP53</italic> mutated, ERBB2: <italic toggle="yes">ERBB2</italic> amplified (CN ≥ 6), ERBB2 &amp; TP53: <italic toggle="yes">TP53</italic> mutated and <italic toggle="yes">ERBB2</italic> amplified, WT: wild-type <italic toggle="yes">TP53</italic> and <italic toggle="yes">ERBB2</italic></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1557" position="float" orientation="portrait" xlink:href="41467_2018_4129_Fig2_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec7">
+          <title>Comparing the landscape of genomic alterations</title>
+          <p id="Par10">We compared gene-level prevalence of somatic alterations integrating mutations and CNVs between SMC and TCGA overall and within subtypes (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>). Notably, known oncogenes such as <italic toggle="yes">TP53</italic> (SMC: 47.9% vs. TCGA: 32%) and <italic toggle="yes">ERBB2</italic> (20 vs. 9.1%) were enriched in somatic alterations in SMC compared to TCGA overall (Supplementary Data <xref rid="MOESM11" ref-type="media">8</xref>). We then examined the prevalence of alterations at the pathway level by grouping frequently altered genes into five interconnected oncogenic pathways—receptor tyrosine kinase (RTK) signaling, MAPK signaling, PI3K/AKT signaling, cell cycle checkpoints and epigenetic regulators (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4</xref>, Supplementary Data <xref rid="MOESM12" ref-type="media">9</xref>). Cell cycle, PI3K/AKT, and RTK pathways were the most frequently altered, affecting 56.5, 36.0, and 28.0% of the SMC cohort respectively compared to 46.7, 42.7, and 21.7% of TCGA. Individually altered at low frequencies, epigenetic regulator genes in aggregate were altered in about 10% of SMC and 15% of TCGA. Cell cycle checkpoint pathway alterations were significantly enriched in SMC compared to TCGA (LR: <italic toggle="yes">p</italic> = 0.019). The higher frequency of <italic toggle="yes">ERBB2</italic> amplification is probably the underlying cause for the enrichment of ER+/HER2+ and HER2+ subtypes in SMC compared to TCGA. Furthermore, as <italic toggle="yes">TP53</italic> is more frequently inactivated in Luminal B than in Luminal A<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, the enrichment of Luminal B vs. Luminal A in SMC could result from higher prevalence of <italic toggle="yes">TP53</italic> mutations as well as <italic toggle="yes">ERBB2</italic> amplifications (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>). Hence somatic alterations affecting oncogenic pathways when co-occurring with aberrant ER expression could play a greater role in the pathogenesis of younger Asian BCs.</p>
+        </sec>
+        <sec id="Sec8">
+          <title>Identification and comparison of mutation signatures</title>
+          <p id="Par11">Mutation signatures are characteristic mutation patterns defined by different types of DNA damage that occurred as a result of exogenous and endogenous mutagens as well as DNA repair or replicative mechanisms<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. We quantified the contribution of 30 predefined mutation signatures<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> in single tumors and detected 10 mutation signatures in the combined SMC and TCGA cohorts. These signatures include age-related signature S1, homologous recombination repair deficiency (HRD)-related signature S3, and APOBEC enzyme-related signatures S2 and S13 (Fig. <xref rid="Fig3" ref-type="fig">3</xref>, Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a−b</xref>). Six of the signatures (S1-3, S5-6 and S13) were also found by a previous mutation signature analysis of 560 BC whole genomes<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Different intrinsic subtypes exhibited distinctive patterns of mutation signatures that were consistent between SMC and TCGA (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a−b</xref>). APOBEC signatures were over-represented in HER2+ or ER+/HER2+ tumors while HRD signature was predominant in TNBC (Fig. <xref rid="Fig3" ref-type="fig">3a, b</xref>, Supplementary Data <xref rid="MOESM13" ref-type="media">10</xref>). Mutation burden was the most strongly correlated with APOBEC signatures S2 and S13 in non-TNBC subtypes and the HRD signature S3 in TNBC, indicating that distinctive mutagenic processes are active in different intrinsic subtypes (Supplementary Data <xref rid="MOESM13" ref-type="media">10</xref>). APOBEC signatures S2 and S13 were enriched in <italic toggle="yes">ERBB2</italic> amplified tumors in both cohorts, confirming previous report based on analysis of TCGA data alone<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> (Fig. <xref rid="Fig3" ref-type="fig">3d, e</xref>). HRD signature S3 was enriched in tumors harboring <italic toggle="yes">BRCA1/BRCA2</italic> pathogenic mutations in both cohorts as expected (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>). Notably, HRD signature S3 was significantly enriched in the TNBC subtype of SMC compared to TCGA (Fig. <xref rid="Fig3" ref-type="fig">3f</xref>). As much as 85% of TNBC cases in SMC were HRD positive (S3 score &gt; 0.2) compared to only 52% of TNBCs in TCGA (FE: <italic toggle="yes">p</italic> = 0.7e-4). The HRD signature S3 was significantly correlated with younger patient age in both cohorts (Pearson correlation = −0.18, <italic toggle="yes">p</italic> = 1.0e-9) and under-represented in TCGA OBC (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a</xref>). Further, we observed an enrichment of S3 scores in tumors harboring recurrent <italic toggle="yes">BRCA1/BRCA2</italic> germline missense variants compared to wild types in SMC but not in TCGA (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5c−d</xref>). Hence homologous recombination repair deficiency may contribute more frequently to the carcinogenesis of TNBCs in SMC compared to TCGA, potentially due to differences in patient age as well as genetic predisposition.<fig id="Fig3" position="float" orientation="portrait"><label>Fig. 3</label><caption><p>Landscape of mutation signatures in SMC and TCGA. <bold>a</bold> Distribution of major mutation signatures across subtypes in SMC and TCGA. <bold>b</bold> Heatmap showing scores of major mutation signatures in SMC samples grouped by molecular subtypes. Sample-level mutation counts, age group, and menopausal status are illustrated by colored column labels. <bold>c</bold> Violin plots comparing signature 3 scores in SMC and TCGA samples binned by <italic toggle="yes">BRCA1/BRCA2</italic> mutation and <italic toggle="yes">TP53</italic> mutation statuses. Horizontal line indicates the median value. Violin plots of APOBEC signatures S2 (<bold>d</bold>) and S13 (<bold>e</bold>) vs. <italic toggle="yes">ERBB2</italic> amplification status (amp: CN ≥ 6; WT: CN &lt; 6) in SMC and TCGA; <bold>f</bold> Violin plots of HRD signature S3 vs. consensus molecular subtypes of SMC and TCGA. Student’s <italic toggle="yes">t</italic> test: ***<italic toggle="yes">p</italic> &lt; 0.001; **<italic toggle="yes">p</italic> &lt; 0.01; *<italic toggle="yes">p</italic> &lt; 0.05</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1726" position="float" orientation="portrait" xlink:href="41467_2018_4129_Fig3_HTML.jpg"/></fig></p>
+        </sec>
+        <sec id="Sec9">
+          <title>Virtual microdissection analysis</title>
+          <p id="Par12">Bulk tumor is a complex mixture containing tumor cells, stroma, immune cells, and normal tissue. We applied a computational approach called non-negative matrix factorization (NMF) to perform a virtual microdissection, separating bulk tumor gene expression into factors representing distinct tissue compartments<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. We assembled a compendium of RNA-Seq data consisting of 1,678 samples, including tumor and adjacent normal tissue samples from SMC and TCGA, BC cell lines (CCLE) and healthy breast tissue samples (GTEx) (Supplementary Fig. <xref rid="MOESM1" ref-type="media">6a</xref>). NMF analysis on this expression compendium identified nine factors attributed to four tissue compartments—tumor, stroma, tumor infiltrating leukocytes (TIL), and normal tissue compartments (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>; Supplementary Fig. <xref rid="MOESM1" ref-type="media">6b</xref>). Tumor intrinsic factors exhibited differential enrichment across molecular subtypes, allowing further association of these factors with ER+ (F4, F7), HER2+ (F2) and TNBC (F13) subtypes (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). The exemplar genes of factor F9 were enriched in immune and inflammatory pathways (Supplementary Data <xref rid="MOESM14" ref-type="media">11</xref>). Moreover, its factor weight was strongly correlated with the CYT score<sup><xref ref-type="bibr" rid="CR34">34</xref></sup> and a wide range of immune cell signatures (Fig. <xref rid="Fig4" ref-type="fig">4c, d</xref>). Based on these evidences, we attributed F9 to the TIL compartment. Surprisingly, we found that TIL factor was significantly enriched in SMC compared to TCGA (Student’s <italic toggle="yes">t</italic> test (ST): <italic toggle="yes">p</italic> = 1.55e-06) (Fig. <xref rid="Fig5" ref-type="fig">5a</xref>). Among the many F9 associated genes overexpressed in SMC vs. TCGA were <italic toggle="yes">CD8A</italic>, a marker of the cytotoxic T lymphocytes and PD-L1, an important mediator of immune checkpoint and target of multiple cancer immunotherapies (Fig. <xref rid="Fig5" ref-type="fig">5b</xref>).<fig id="Fig4" position="float" orientation="portrait"><label>Fig. 4</label><caption><p>Tumor virtual microdissection identified distinct tumor intrinsic and microenvironment factors. <bold>a</bold> Distribution of NMF factors representing TME or tumor intrinsic compartment across subtypes of SMC and TCGA. <bold>b</bold> Heatmap showing the mean sample factor weight for 14 NMF factors, z-normalized by rows, in different cohorts. Samples of normal tissue origins were clustered to the left and samples of tumor origins were clustered to the right. <bold>c</bold> Plot of CYT score vs. F9 factor weight with color gradient representing <italic toggle="yes">CD8A</italic> gene expression. <bold>d</bold> Heatmap of Pearson correlation coefficients between Bindea immune expression signature scores (GSVA) and NMF factors</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1798" position="float" orientation="portrait" xlink:href="41467_2018_4129_Fig4_HTML.jpg"/></fig><fig id="Fig5" position="float" orientation="portrait"><label>Fig. 5</label><caption><p>Distribution and multivariate analyses of distinctive molecular features. Boxplots showing the distributions of TIL factor F9 weights (<bold>a</bold>), PD-L1 gene expression (<bold>b</bold>), TGF-β expression signature score (<bold>c</bold>) and <italic toggle="yes">TGFB1</italic> gene expression (<bold>d</bold>) across molecular subtypes of SMC and TCGA. TPM transcript per million. <italic toggle="yes">p</italic>value was determined by Student’s <italic toggle="yes">t</italic> test: ***<italic toggle="yes">p</italic> &lt; 0.001; **<italic toggle="yes">p</italic> &lt; 0.01; *<italic toggle="yes">p</italic> &lt; 0.05; NS: <italic toggle="yes">p</italic> ≥ 0.05. The box is bounded by the first and third quartile with a horizontal line at the median and whiskers extend to 1.5 times IQR. <bold>e</bold> Heatmap showing the statistical significance of associations (−log<sub>10</sub><italic toggle="yes">p</italic>) between distinctive molecular features (rows) and key clinical features (columns) in the combined cohort. Molecular features were ranked by variable usage frequencies in descending order. Clinical features include two continuous variables—Patient age and Tumor purity and five discrete variables—Cohort status: SMC or TCGA; Subtype: ER positive or ER negative; Tumor stage: early (1−2) or late (3−4); Menopausal status: pre or post; Histology subtype: Lobular carcinoma or Invasive ductal carcinoma. Molecular features include S3: HRD-related mutation signature 3; F7: NMF factor 7 associated with ER+ subtype; F9: NMF factor 9 associated with TILs; ESR1-Exp: <italic toggle="yes">ESR1</italic> gene expression; HER2-Amp: <italic toggle="yes">ERBB2</italic> amplification status; BRCA-Mut: <italic toggle="yes">BRCA1</italic>/<italic toggle="yes">BRCA2</italic> germline pathogenic mutation status; TP53-Mut: <italic toggle="yes">TP53</italic> somatic mutation status; TGFB-Sig: TGF-β pathway expression signature</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d29e1866" position="float" orientation="portrait" xlink:href="41467_2018_4129_Fig5_HTML.jpg"/></fig></p>
+          <p id="Par13">Two ER+ associated factors (F4, F7) were strongly enriched in estrogen signaling pathways with F7 enriched in Luminal A than in Luminal B (Supplementary Fig. <xref rid="MOESM1" ref-type="media">7a</xref>). F7 was also significantly overweight in TCGA than in SMC within the ER+ subtype (ST: <italic toggle="yes">p</italic> = 1.49e-04). Moreover, F7 factor weight appeared to increase with patient age, with YBCs harboring the lowest weights and TCGA OBCs harboring the highest weight (Supplementary Fig. <xref rid="MOESM1" ref-type="media">7b</xref>). We noticed that the estrogen receptor gene (<italic toggle="yes">ESR1</italic>) expression was also positively correlated with patient age. In both SMC and TCGA, <italic toggle="yes">ESR1</italic> expression was substantially higher in post-menopausal vs. pre-menopausal cases. ER+ tumors also expressed <italic toggle="yes">ESR1</italic> at substantially higher levels in the older TCGA cohort compared to SMC (Supplementary Fig. <xref rid="MOESM1" ref-type="media">7c−d</xref>). Hence, ER+/Luminal A tumors were less prevalent in SMC while harboring weaker ER expression level and ER expression signature compared to TCGA, suggesting that SMC tumors were less dependent on estrogen receptor-mediated signaling.</p>
+        </sec>
+        <sec id="Sec10">
+          <title>Differential expression analyses</title>
+          <p id="Par14">The SMC cohort was predominantly pre-menopausal (88.2%) while TCGA was predominantly post-menopausal (72.3%) (Table <xref rid="Tab1" ref-type="table">1</xref>). Several studies have compared gene expression profiles of younger, pre-menopausal BCs with older, post-menopausal BCs within TCGA and identified differential expression (DE) of pathways associated with proliferation, stem cell, and endocrine resistance<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. However, previous expression comparisons did not take into consideration the heterogeneous tissue compartments within bulk tumors. To identify molecular differences between the SMC pre-menopausal BCs (SMC-Pre) and the TCGA post-menopausal BCs (TCGA-Post), we performed differential gene expression analysis between two groups of tumors while adjusting for the confounding effect of molecular subtype and tumor purity. A total of 827 DE genes, among which 570 were upregulated in SMC-Pre and 257 were upregulated in TCGA-Post, were found to be statistically significant (see Methods, FDR &lt; 0.01, fold-change &gt; 2 or &lt; 0.5) (Supplementary Data <xref rid="MOESM15" ref-type="media">12</xref>). We then computed GSVA scores of 6475 known pathway genesets<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> and performed similar differential comparisons between SMC-Pre vs. TCGA-Post. We found that 123 statistically significant DE pathways were upregulated in SMC-Pre and 591 were upregulated in TCGA-Post (Supplementary Data <xref rid="MOESM15" ref-type="media">12</xref>, Supplementary Fig. <xref rid="MOESM1" ref-type="media">8a</xref>).</p>
+          <p id="Par15">To enhance biological insights into the molecular differences and mitigate confounding effects of heterogeneous tumor composition, we attributed DE genes and pathways to different tissue compartments in bulk tumor through correlation analysis with NMF factors (Supplementary Fig. <xref rid="MOESM1" ref-type="media">8b</xref>, Methods). We were surprised to see that more of the molecular differences were attributed to the tumor microenvironment (TME) than to the tumor intrinsic compartment. About 51.6% (427/827) of DE genes were associated with TME and 13.2% (109/827) of individual DE genes were associated with tumor intrinsic compartment. As much as 73% (253/345) of the DE pathways unambiguously assigned to a tissue compartment were attributed to TME while only 18% (61/345) were attributed to the tumor intrinsic compartment. We attributed 31 DE pathways to cohort-specific factors that may not represent true biological differences. The strongest DE patterns in TME are dominated by immune- and inflammation-associated pathways. About 86% (91/106) of the TIL factor-associated pathways were upregulated in SMC-Pre compared to TCGA-Post. T-cell markers, cytokine signaling genes as well as immune-related pathways such as allograft rejection, interferon α and IL-2 signaling pathways and immune cell type signatures such as cytotoxic cells and NK cells were also upregulated in the SMC pre-menopausal group (Supplementary Fig. <xref rid="MOESM1" ref-type="media">8c</xref>). On the other hand, 96% (144/150) of tumor stroma-associated pathways, such as response to TGF-β1 signaling, and nearly all of the tumor intrinsic DE pathways (58/61) were upregulated in TCGA-Post compared to SMC-Pre (Supplementary Fig. <xref rid="MOESM1" ref-type="media">8c</xref>). Eight of the 26 top tumor intrinsic DE pathways were associated with ER+ factors, further supporting the hypothesis that ER signaling is a more prevalent driver in TCGA compared to SMC BCs (Supplementary Fig. <xref rid="MOESM1" ref-type="media">8d</xref>).</p>
+          <p id="Par16">Differential expression analysis of SMC pre-menopausal BCs (SMC-Pre) and the TCGA pre-menopausal BCs (TCGA-Pre) yielded similar observations. Most of the expression differences, 54.3% (425/782) of DE genes and 79% (333/423) of DE pathways, were associated with TME whereas only 10.2% (80/782) of individual DE genes and 14% (61/423) of DE pathways were associated with tumor intrinsic compartment (Supplementary Fig. <xref rid="MOESM1" ref-type="media">9a</xref>, Supplementary Data <xref rid="MOESM15" ref-type="media">12</xref>). Mainly immune- and inflammation-associated pathways were upregulated in SMC pre-menopausal tumors compared to TCGA pre-menopausal tumors (Supplementary Fig. <xref rid="MOESM1" ref-type="media">9b</xref>). Both TCGA pre-menopausal and post-menopausal BCs appeared to upregulate TGF-β1 signaling and estrogen signaling pathways compared to SMC pre-menopausal BCs (Supplementary Fig. <xref rid="MOESM1" ref-type="media">9b−c</xref>). The TGF-β signaling pathway has pleiotropic functions regulating multiple cellular processes and is known to play immune suppressive roles<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. Further analysis revealed that the TGF-β expression signature quantified using GSVA<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> as well as <italic toggle="yes">TGFB1</italic> gene expression were strongly enriched in TCGA compared to SMC within multiple molecular subtypes, suggesting that TCGA tumors harbor a more immune suppressed microenvironment than SMC tumors (Fig. <xref rid="Fig5" ref-type="fig">5c, d</xref>).</p>
+        </sec>
+        <sec id="Sec11">
+          <title>Multivariate analyses of distinctive features</title>
+          <p id="Par17">To identify causal factors contributing to the observed molecular differences between SMC and TCGA, we performed multivariate analyses to evaluate independent associations among distinctive molecular features and key clinical features (Fig. <xref rid="Fig5" ref-type="fig">5e</xref>). The Elastic Net method<sup><xref ref-type="bibr" rid="CR38">38</xref></sup> was used to identify clinical and molecular features that were independently associated with the SMC vs. TCGA cohort status. For each feature, the variable usage statistic was determined based on the frequency of variable selection by the predictive model and through bootstrapping<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> (Fig. <xref rid="Fig5" ref-type="fig">5e</xref>, Supplementary Data <xref rid="MOESM16" ref-type="media">13</xref>). The TGF-β signature and TIL factor F9 had the top variable usage of 100% among all distinctive molecular features. After adjusting for confounder effects of key clinical variables including patient age, tumor purity, molecular and histology subtypes, multiple regression analysis further demonstrated that both features were significantly and independently associated with the cohort status (Supplementary Data <xref rid="MOESM16" ref-type="media">13</xref>). Hence, SMC BCs seemed to harbor a more immune active TME characterized by higher TIL factor while TCGA BCs harbored a more immune suppressed TME characterized by higher TGF-β signature, which were more likely to be due to ethnic or environmental factors rather than difference in age or menopausal status.</p>
+          <p id="Par18">Regression analyses have also identified <italic toggle="yes">ERBB2</italic> amplification, Luminal A/B subtypes and TP53 mutation as having significant independent associations with the cohort status while <italic toggle="yes">BRCA1/BRCA2</italic> pathogenic mutation and ER gene expression were independently associated with patient age (Fig. <xref rid="Fig5" ref-type="fig">5e</xref>). F7, one of the two NMF factors associated with ER signaling, was strongly associated with histology subtype (lobular carcinoma) as well as older patient age. <italic toggle="yes">TP53</italic> mutation remained significantly associated with the cohort status (multiple linear regression (MLR): <italic toggle="yes">p</italic> = 0.035) after adjusting for positive associations with intrinsic molecular subtypes and negative association with lobular carcinoma. HRD mutation signature S3 was strongly associated with <italic toggle="yes">BRCA1/BRCA2</italic> mutation (MLR: <italic toggle="yes">p</italic> = 2.0e-08) and TNBC (MLR: <italic toggle="yes">p</italic> = 5.1e-39) but not with cohort status. To further examine casual associations of S3, we performed multivariate analyses for only TNBC samples from SMC and TCGA. We observed that the variable usage frequency for S3 increased from 19.8% over all subtypes to 86.4% within TNBC, where independent associations were also increased for cohort status (MLR <italic toggle="yes">p</italic> = 0.084) and patient age (MLR <italic toggle="yes">p</italic> = 0.036) (Supplementary Data <xref rid="MOESM14" ref-type="media">11</xref>). Taken together, multivariate analyses have dissected the complex interrelationships among key clinical and molecular variables to reveal independent association of patient age with tumor intrinsic features such as HRD and ER signaling and link cohort status, a surrogate for genetic predisposition and environmental factors, to TME features such as TILs and TGF-β signaling.</p>
+        </sec>
+      </sec>
+      <sec id="Sec12" sec-type="discussion">
+        <title>Discussion</title>
+        <p id="Par19">In this study, we have performed whole exome and whole transcriptome profiling of 187 breast cancer tumors from a Korean cohort enriched in younger and pre-menopausal patients, portraying a distinctive patient segment that remained poorly characterized and underrepresented in previous genomic and molecular profiling studies. To identify distinguishing molecular characteristics of younger Asian BCs, we compared multi-omics profiles between our cohort and a BC cohort from the benchmark TCGA study, mainly consisting of Caucasian and post-menopausal patients. We observed that the landscapes of oncogenic alterations in SMC and TCGA bear the same hallmarks of cancer driver genes such as <italic toggle="yes">TP53</italic>, <italic toggle="yes">PIK3CA</italic>, and <italic toggle="yes">GATA3</italic> while <italic toggle="yes">BRCA1</italic> and <italic toggle="yes">BRCA2</italic> are the predominant BC predisposition genes in both cohorts. Upon closer examination, we found a number of significant differences in SMC compared to TCGA—lower proportions of ER+ and Luminal A subtypes but higher proportions of Luminal B, lower ER gene expression within ER+ subtypes, increased prevalence of <italic toggle="yes">BRCA1/BRCA2</italic> germline pathogenic mutations, <italic toggle="yes">ERBB2</italic> amplifications and <italic toggle="yes">TP53</italic> mutations, enrichment of HRD mutation signature (S3) in TNBC, increased levels of TIL factor (F9) and decreased levels of TGF-β signaling. Using multivariate analysis approaches, we sought to elucidate causal associations between these molecular distinctions and key clinicopathologic factors including cohort status and patient age. We found that tumor intrinsic molecular differences such as <italic toggle="yes">BRCA1/BRCA2</italic> mutation and ER signaling were mainly associated with patient age and menopausal status. On the other hand, TME-associated features such as TILs and TGF-β signaling were independently associated with cohort status after excluding the confounding effects of age, molecular subtype among other clinicopathologic features, pointing to genetic predisposition or environmental factors being the primary causes. Hence, younger Asian BCs appeared to harbor significant molecular differences from western BCs that could hold important implications for patient stratification and therapeutic treatment. As the SMC cohort was heavily enriched in younger patients and from a single institution, we believe our study provided a first step towards elucidating the molecular bases of Asian BCs which would require larger studies that include more patients from all age strata, multiple institutions and countries.</p>
+        <p id="Par20">The apparent age disparity between the two BC cohorts was a major driver of observed molecular distinctions. <italic toggle="yes">BRCA1/BRCA2</italic> germline loss-of-function mutation frequencies were found to be age-dependent and enriched in SMC vs. TCGA, indicating there is a greater hereditary contribution to the pathogenesis of Asian BCs. Consistent with earlier reports, the SMC cohort harbored higher proportions of aggressive subtypes such as HER2+ and TNBC compared to TCGA. These younger BCs also expressed ER at lower levels along with weaker expression signature for ER signaling, suggesting that these tumors were less dependent on estrogen signaling than older BCs. Further, hormone receptor-positive tumors within SMC appeared to be more complex, harboring more Luminal B than Luminal A as well as a higher prevalence of oncogenic alterations including HER2 amplification and TP53 mutations. These findings in an Asian BC cohort independently corroborated and expanded previous reports of lower ER mRNA expression and higher HER2 mRNA expression in YBCs vs. OBCs<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. Mutations affecting <italic toggle="yes">TP53</italic>, the most frequently mutated gene in cancer, are associated with more aggressive subtypes and resistance to chemotherapies<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>. Weaker tumor addiction to ER signaling coupled with co-occurring oncogenic drivers could in part explain the clinical observations that hormone receptor-positive YBCs respond more poorly to endocrine therapies than their older counterparts.</p>
+        <p id="Par21">Mutation signatures are genomic footprints of mutagenic processes that occur throughout the lineage of the tumor cell and therefore can be used to infer cancer etiologies. We predicted the relative contributions of 30 pre-defined mutation signatures to the complement of somatic mutations in both SMC and TCGA BCs. Age-related signature S1, APOBEC signatures S2 and S13 and HRD signature S3 were the most predominant signatures identified. HRD signature was found to be significantly enriched in SMC compared to TCGA within TNBC, suggesting that DNA repair deficiencies may be a stronger etiological factor in younger Asian BCs. A class of inhibitors targeting the enzyme poly ADP ribose polymerase (PARP) has shown greater efficacies in treating tumors deficient in homologous recombination repair pathways, such as those harboring <italic toggle="yes">BRCA1</italic> or <italic toggle="yes">BRCA2</italic> mutations. Taken together with the observation of increased <italic toggle="yes">BRCA1/BRCA2</italic> mutation frequencies in younger BCs, our findings raised the possibility that PARP inhibitors could be more effective in treating younger Asian BCs particularly within the TNBC subtype.</p>
+        <p id="Par22">Previous studies of younger vs. older breast cancers relied upon comparing gene expression profiles of primary tumors. As bulk tumor expression derive from a heterogeneous mixture of different cell types and tissue compartments, cohort-level comparisons tend to be confounded by differences in the composition of these mixtures. Virtual tumor microdissection through NMF analysis enabled us to separate expression differences that are tumor intrinsic from those attributed to other sources such as tumor stroma or even cohort-specific artifacts. Five of the 14 factors identified by NMF analysis were attributed to the TME but only four were attributed to tumor intrinsic biology. Differential expression analyses integrated with tissue compartment associations found that some DE features such as estrogen signaling are tumor intrinsic whereas the majority of DE features appear to reside in the TME. Moreover, SMC tumors appeared to harbor more inflammatory immune microenvironments than TCGA BCs, as indicated by higher expression levels of cytotoxic T-cell markers and checkpoint mediators such as PD-L1. At the same time, TCGA tumors appeared to harbor more immune suppressed TMEs that significantly upregulate <italic toggle="yes">TGFB1</italic> gene expression and TGF-β signaling compared to SMC BCs. Increased TILs have been associated with <italic toggle="yes">BRCA1</italic> mutation<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, younger patient age and ER-negative subtypes in breast cancers<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. However, multivariate analyses indicated that the TIL factor was not independently associated with patient age or <italic toggle="yes">BRCA1/BRCA2</italic> mutation status. Hence, these observed differences in tumor immune microenvironment could represent an important distinction between Asian and western BCs inherently linked to hereditary and environmental factors. As immuno-oncology therapies are fast becoming a major addition to the anti-cancer arsenal, these findings call for greater strides in applying IO therapies as single agent or in combination with conventional therapies for the treatment of Asian BC patients.</p>
+      </sec>
+      <sec id="Sec13" sec-type="materials|methods">
+        <title>Methods</title>
+        <sec id="Sec14">
+          <title>Patient sample collection and multi-omics profiling</title>
+          <p id="Par23">This study was reviewed and approved by the Institutional Review Board (IRB) of Samsung Medical Center, Seoul, Korea (IRB No. 2013-04-005, 2012-08-065) with informed consents from the patients for the research use of clinical and genomic data. The tumor tissues and blood samples were prospectively collected at surgery. Ninety-five percent (179/187) of the tumors were treatment naive. All patients were diagnosed and treated at Samsung Medical Center. Patient samples were subjected to pathology review to ensure that &gt;80% of samples are composed of ≥60% tumor cells (Supplementary Data <xref rid="MOESM4" ref-type="media">1</xref>). No statistical methods were used to predetermine sample size.</p>
+          <p id="Par24">Genomic DNA from tumor was extracted using the QIAamp® DNA Mini kit (51304, Qiagen) and AllPrep DNA/RNA Mini kit (80204, Qiagen). Genomic DNA from whole blood was extracted using the QIAamp DNA Blood Maxi Kit (51194, Qiagen). Both tumor and blood DNA were enriched for exonic regions using the SureSelect XT regent kit (G9611B, Agilent) and SureSelect XT Human All Exon V5 kit (5190-6210, Agilent). Sequencing libraries were constructed for an Illumina HiSeq 2500 systems (Illumina) and sequenced in 100-bp paired-end mode of the TruSeq Rapid PE Cluster kit and TruSeq Rapid SBS kit (PE-402-4001, Illumina). Exome sequencing reads were mapped to the hg19 reference genome using Burrows-Wheeler Aligner (BWA-0.7.5a)<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. PCR duplicates were removed by picard-1.93 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://broadinstitute.github.io/picard">http://broadinstitute.github.io/picard</ext-link>). The mapped reads near putative indels were realigned and base quality was recalibrated using the GATK-2.4-7 suite<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. We aimed for 100× mean target coverage for tumors and 50× for paired blood samples. For RNA-Seq, sequencing libraries were prepared using TruSeq RNA Sample Preparation kit v2 (RS-122-2001 and RS-122-2002, Illumina). Sequencing of the RNA libraries was performed on an Illumina HiSeq2500 in 100-bp paired-end mode of the TruSeq Rapid PE Cluster kit and the TruSeq Rapid SBS kit.</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Multi-omics data analysis</title>
+          <p id="Par25">RNA-Seq-derived gene expression data (TPM) from TCGA breast cancer, CCLE and GTEX normal breast samples were obtained from Omicsoft 2016 Q1 release, which consistently analyzed all datasets using the Omicsoft RSEM pipeline with the same library of gene models (OmicsoftGene20130723)<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. Gene expression (TPM) was predicted from RNA-Seq data of 178 SMC samples (168 tumors, 10 normals) using RSEM<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>, hg19 as the genome reference and the same gene model library as used by Omicsoft. We processed a subset of SMC RNA-Seq data using the Omicsoft RSEM pipeline and found an average correlation of 0.99 with expression profiles computed using the original RSEM, indicating that analysis results from two RSEM pipelines are highly compatible.</p>
+          <p id="Par26">We obtained TCGA somatic mutation and CNV data from Omicsoft 2016 Q1 release, which derived the data from TCGA firehose release on January 28, 2016. Somatic mutations were detected from WES data on 186 SMC matched tumor/normal samples using Varscan2 v2.4.1<sup><xref ref-type="bibr" rid="CR48">48</xref></sup> in the paired mutation calling mode. Parameters were selected based on the DREAM-3<sup><xref ref-type="bibr" rid="CR49">49</xref></sup> setting of the false positive filter as recommended by Varscan2. All germline and somatic mutations were annotated using the Ensembl Variant Effect Predictor<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. Significantly mutated gene analysis was performed using MutSigCV v1.2<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> from the online GenePattern tools<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. We used GATK<sup><xref ref-type="bibr" rid="CR52">52</xref></sup> to estimate depth of coverage from the bam files of 186 SMC tumor/normal samples using hg19 as genome reference. CNV segmentation was then called by ExomeCNV v1.4<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> based on coverage estimates and further annotated to derive copy number value for each gene.</p>
+        </sec>
+        <sec id="Sec16">
+          <title>Molecular subtype classification</title>
+          <p id="Par27">We applied three methods for classifying molecular intrinsic subtypes—IHC, PAM50, and NMC. The IHC subtypes were determined by IHC assays for ER, PR, and HER2 and used in clinical diagnoses and treatment. PAM50 subtypes were predicted using Genefu<sup><xref ref-type="bibr" rid="CR54">54</xref></sup> from the gene expression data. We developed an in-house breast cancer subtype classifier called naïve molecular classifier (NMC) based on <italic toggle="yes">ERBB2</italic>, <italic toggle="yes">ESR1</italic>, and <italic toggle="yes">PGR</italic> gene expression and <italic toggle="yes">ERBB2</italic> copy number. NMC assumed that HR-negative and -positive samples have expression values drawn from two Gaussian distributions with their respective mean and standard deviations. Using an expectation maximization (EM) method implemented by the mixtools package in R, we assigned probabilities of being drawn from either distribution to each sample with measured expression levels. Proportion of receptor positive/negative samples as measured by IHC were used as priors and EM algorithm was allowed to run until convergence. The distribution with the higher probability was assigned as the NMC prediction for each of the receptors. We determined the Consensus subtypes by integrating classification results from IHC, PAM50, and NMC. If IHC is available, the majority vote by IHC, NMC, and PAM50 was used. Otherwise, the NMC classification result was used. If three methods disagree with each other, then the IHC result was used. The following rules were used to map IHC or NMC subtypes with PAM50 subtypes: ER+ (Luminal A and Luminal B), ER+ /HER2+(Luminal B and Her2), HER2+ (Her2) and TN (Basal).</p>
+        </sec>
+        <sec id="Sec17">
+          <title>Integrated genomic subtype classification</title>
+          <p id="Par28">The iC10 package<sup><xref ref-type="bibr" rid="CR22">22</xref></sup> in R was used for integrative cluster assignment for both the TCGA and SMC cohort. The classifier was trained on the genes using the “pamr” R package based on shrunken centroids. The optimal threshold for classification was determined using cross-validation. Intersecting genes from both gene-level copy number and gene expression data were used. The gene expression matrix was scaled to have a zero mean and standard deviation of 1 before integrative cluster assignment. Fisher’s exact test and Chi-squared test were performed to assess significance of differences found in comparison analyses.</p>
+        </sec>
+        <sec id="Sec18">
+          <title>Mutation signature analysis</title>
+          <p id="Par29">We obtained a predefined set of 30 mutational signatures from the Wellcome Trust Sanger Institute, which have been established by analyzing somatic mutation profiles of more than 10,000 tumor samples across 40 cancer types<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Each signature represents a characteristic pattern of 96 possible nucleotide substitution motifs, which combine six types of substitutions of central nucleotide and 16 combinations of the immediate flanking sequence. We included the complete set of the signatures in all the signature analyses as some signatures share similar patterns; thus exclusion of a signature may cause overestimation of the contribution of other signatures. To quantify the relative contribution of each mutational signature for tumor samples, we used deconstructSigs<sup><xref ref-type="bibr" rid="CR55">55</xref></sup>, which identifies the linear combination of input signatures to best explain the mutation profile provided in trinucleotide context. Once we computed sample-wise signature profiles, we filtered mutation signatures present in &lt;20% of the samples in both SMC and TCGA cohorts. For group-wise comparisons, we pooled all the variants in a group-wise manner, and then applied deconstructSigs to quantify mutational signatures present in each group.</p>
+        </sec>
+        <sec id="Sec19">
+          <title>Non-negative matrix factorization analysis</title>
+          <p id="Par30">The NMF algorithm factorizes the gene expression matrix V of <italic toggle="yes">g</italic> genes and <italic toggle="yes">s</italic> samples into two matrixes of <italic toggle="yes">k</italic> factors: gene factor matrix <italic toggle="yes">W</italic> of <italic toggle="yes">n</italic> gene weights for <italic toggle="yes">k</italic> factors and sample factor matrix <italic toggle="yes">H</italic> of <italic toggle="yes">m</italic> sample weights for <italic toggle="yes">k</italic> factors. <italic toggle="yes">W</italic> represents the expression pattern of the <italic toggle="yes">k</italic> parts and <italic toggle="yes">H</italic> represents the respective contribution of <italic toggle="yes">k</italic> parts in each sample or bulk tumor<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. NMF was performed on log transformed gene expression matrix V, log<sub>2</sub>(TPM + 1), of the combined cohorts using the R package NMF which used the “brunet” algorithm<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. We performed 30 runs of NMF and chose the factorization that achieved the lowest approximation error for subsequent analyses. To extract exemplar genes for each of the <italic toggle="yes">k</italic> factors, a score for each gene <italic toggle="yes">g</italic> was first calculated representing how factor-specific it is based on an entropy measure<sup><xref ref-type="bibr" rid="CR58">58</xref></sup>. Two criteria were then used for selecting the genes. First, the gene score has to be greater than <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar \mu + 3\bar \sigma$$\end{document}</tex-math><mml:math id="M2" overflow="scroll"><mml:mover accent="true"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mover accent="true"><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq1.gif"/></alternatives></inline-formula> where <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar \mu$$\end{document}</tex-math><mml:math id="M4" overflow="scroll"><mml:mover accent="true"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq2.gif"/></alternatives></inline-formula> and <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar \sigma$$\end{document}</tex-math><mml:math id="M6" overflow="scroll"><mml:mover accent="true"><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq3.gif"/></alternatives></inline-formula> represents the median and the median absolute deviation of the scores respectively. Second, the maximum contribution to a basis component of the feature has to be greater than the median of all contributions. Pathway enrichment analyses were performed on the exemplar genes for each factor using the Fisher’s exact test and the MSigDB v5.1 pathway gene sets (Supplementary Data <xref rid="MOESM14" ref-type="media">11</xref>). Fractional contribution of each factor in each sample was calculated by normalizing <italic toggle="yes">W</italic> and <italic toggle="yes">H</italic> to facilitate cross factor comparison after excluding the cohort-specific factors. <italic toggle="yes">W</italic> was normalized so that<inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathop {\sum}\nolimits_i {w_{ij} = 1}$$\end{document}</tex-math><mml:math id="M8" overflow="scroll"><mml:msub><mml:mrow><mml:mo> ∑</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq4.gif"/></alternatives></inline-formula>, which is equivalent to multiplying a diagonal matrix <italic toggle="yes">S</italic> of <italic toggle="yes">k</italic> by <italic toggle="yes">k</italic>. Then <italic toggle="yes">H</italic> was multiplied by <italic toggle="yes">S</italic><sup>−1</sup> and normalized by summing to 1. The average weights for each factor of various sample groups were calculated for Fig. <xref rid="Fig4" ref-type="fig">4</xref>.</p>
+          <p id="Par31">To attribute NMF factors to different tissue compartments, we examined the distribution of sample factor weights in sample groups with known labels (Fig. <xref rid="Fig4" ref-type="fig">4a, b</xref>). For example, Factor F7 exhibits the highest sample weights for ER+ samples in SMC and TCGA, lower weights in other subtypes and the lowest weight in normal and cell line names. Based on this pattern of distribution, F7 was interpreted as a tumor intrinsic ER factor. Similarly we identified three additional tumor factors—ER factor (F4), HER2 factor (F2), and TN factor (F13)—and three factors associated with the normal tissues—F3, F8, and F14 (Supplementary Fig. <xref rid="MOESM1" ref-type="media">6</xref>). Factor F3 has higher weight in SMC or TCGA adjacent normal samples than GTEx normal breast samples, indicating that it harbors biological characteristics specific to tumor adjacent normal tissue. In contrast, F8 and F14 have higher weights in GTEx normal breast samples than in SMC or TCGA adjacent normal samples, indicating that these factors are more presentative of health normal tissue. Besides the three normal factors, we also attributed two more factors to the TME. TIL factor F9 has the highest weights in tumor tissue groups such as SMC and TCGA, lower weights in adjacent normal groups and the lowest weights in GTEx normal and CCLE cancer cell line samples. F9 was also highly correlated with the CYT score, a measure of cellular cytolytic activities defined as the geometric mean of <italic toggle="yes">GZMA</italic> and <italic toggle="yes">PRF1</italic> expression levels<sup><xref ref-type="bibr" rid="CR34">34</xref></sup> (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>). F9 exemplar genes were significantly enriched in the immune- and inflammation-related pathways. Moreover, factor 9 sample weight is significantly correlated with expression signatures for many immune cell subtypes (Fig. <xref rid="Fig4" ref-type="fig">4d</xref>). The stroma factor F1 exhibited higher weights in SMC and TCGA tumor samples than in cancer cell line and GTEx normal samples. Moreover, F1 exemplar genes are significantly enriched in epithelial mesenchymal transition, extracellular matrix (ECM) organization and ECM regulation. Four factors (F5, F6, F11, and F12) appear to be cohort-specific factors due to significantly higher sample weights in one specific cohort—F5, F6 (TCGA), F6 (SMC), and F12 (CCLE). We did not find a clear association with any tissue compartment for F10, which did not yield any significantly enriched pathway.</p>
+        </sec>
+        <sec id="Sec20">
+          <title>Differential expression and pathway enrichment analyses</title>
+          <p id="Par32">We filtered 25% of genes having the lowest mean expression levels and then 25% having the lowest variation measured as standard deviation before conducting differential expression analyses. Voom was applied to transform the gene-level normalized counts to log2-counts per million (logCPM). For the DE pathway analysis, the GSVA algorithm<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> was used to calculate signature scores for 6475 gene sets of collections H (hallmark gene sets), C2 (curated gene sets), C5 (GO gene sets), and C6 (oncogenic gene sets) from MsigDB v5.1<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>. The TGF-β pathway expression signature was based on the “HALLMARK_TGF_BETA_SIGNALING” gene set. Limma was then applied to perform the DE gene and pathway analyses and calculate the fold change differences and statistical significance<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>. Molecular subtype and tumor purity were adjusted as confounder variable in the linear model. DE pathways were selected if FDR &lt; 0.01 and |log<sub>2</sub>FC| &gt; 0.2 (FC: fold-change).</p>
+        </sec>
+        <sec id="Sec21">
+          <title>Association of DE genes and pathways with NMF factors</title>
+          <p id="Par33">Differential expression analyses were typically performed to compare two groups of bulk tumors without considering heterogeneity in tumor composition. What appears to be upregulation of a gene in one cohort vs. another may be due to tumor intrinsic upregulation of the DE gene or tumors from that cohort harboring greater proportions of non-tumor cells that overexpress the DE gene. In this study, we tried to identify compartmental origins of the differential expression patterns based on NMF inferred contribution of different tissue compartments in the bulk tumor. To associate DE genes with NMF factors, we calculated Pearson correlation <italic toggle="yes">r</italic> between gene expression and factor sample weight across all samples of the expression compendium. The maximum correlation max(<italic toggle="yes">r</italic>) for each gene against all factors was used as the test statistics. Ten permutation runs were conducted on the gene expression matrix by reshuffling samples. The max(<italic toggle="yes">r</italic>) for all genes then formed the null distribution. For each DE gene, <italic toggle="yes">p</italic> value was calculated based on the number of times the max(<italic toggle="yes">r</italic>) from the null distribution exceeded the test statistic and FDR corrected using the Benjamini−Hochberg method. A cutoff of FDR ≤ 0.05 was used to identify significant association with an NMF factor. Pearson correlation <italic toggle="yes">r</italic> was also calculated between pathway signature scores and sample factor weight requiring <italic toggle="yes">r</italic> <italic toggle="yes">≥</italic> 0.6 to define an association. We then categorized DE pathways into four major types—tumor intrinsic, TME, cohort-specific, and ambiguous. For each pathway, the max(<italic toggle="yes">r</italic>) with categories of factors were calculated: max(<italic toggle="yes">r</italic>)<sub>tumor</sub>—tumor factors (F2, F4, F7, and F13); max(<italic toggle="yes">r</italic>)<sub>TME</sub>—TME factors (F1, F3, F8, F9, and F14); max(<italic toggle="yes">r</italic>)<sub>cohort</sub>—cohort-specific factors (F5, F6, F11, and F14). The following criteria were then applied: A pathway was classified as (1) tumor intrinsic if max(<italic toggle="yes">r</italic>)<sub>tumor</sub> –  max(<italic toggle="yes">r</italic>)<sub>TME</sub> &gt; 0.2 and max(<italic toggle="yes">r</italic>)<sub>tumor</sub> &gt; 0.2; (2) TME if max(<italic toggle="yes">r</italic>)<sub>TME</sub> – max(<italic toggle="yes">r</italic>)<sub>tumor</sub> &gt; 0.2 and max(<italic toggle="yes">r</italic>)<sub>TME</sub> &gt; 0.2; (3) cohort-specific if max(<italic toggle="yes">r</italic>)<sub>cohort</sub> – max(max(<italic toggle="yes">r</italic>)<sub>tumor</sub>, max(<italic toggle="yes">r</italic>)<sub>TME</sub>) &gt; 0.2 and max(<italic toggle="yes">r</italic>)<sub>cohort</sub> &gt; 0.2. Remaining DE pathways were classified as “ambiguous”.</p>
+        </sec>
+        <sec id="Sec22">
+          <title>Multivariate analyses of clinical and molecular features</title>
+          <p id="Par34">We performed logistic regression adjusting for confounder variables to compare gene-level prevalence of somatic and germline mutations among different groups of patients. The group status was set as the response variable with the case group as 1 and the control group as 0. The binary mutation status for each gene was designated as the main factor while other potential confounder variables were treated as covariates. The <italic toggle="yes">p</italic> value associated with the main factor represented the statistical significance of the differences in mutation frequency between the case group and the control group. FDR was calculated using the Benjamini−Hochberg method.</p>
+          <p id="Par35">We performed multiple regression analyses with adjustment for confounder variables to assess the associations between molecular differences and clinical features. For the combined TCGA and SMC cohort, seven clinical variables were evaluated—cohort status (SMC vs. TCGA), patient age, ER status (positive vs. negative), tumor stage (early vs. late), menopausal status (pre vs. post), tumor purity, and histology subtype (lobular carcinoma: yes vs. no). Nine molecular features were evaluated—HRD-related mutation signature 3 (S3), NMF factor 7 associated with ER+ subtype (F7), NMF factor 9 associated with TILs (F9), <italic toggle="yes">ESR1</italic> gene expression in log2TPM (ESR1-Exp), <italic toggle="yes">ERBB2</italic> amplification status (ERBB2-Amp), <italic toggle="yes">BRCA1/BRCA2</italic> germline pathogenic mutation status (BRCA-Mut) and <italic toggle="yes">TP53</italic> somatic mutation status (TP53-Mut). Logistic regression was applied if the molecular difference was a binary variable and regular linear regression was applied for continuous variables. For multiple linear regression analyses, we solved the function <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Y = \beta _0 + \beta _1X_1 + \beta _2X_2 + \cdots + \beta _pX_p + \varepsilon,$$\end{document}</tex-math><mml:math id="M10" overflow="scroll"><mml:mi>Y</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>⋯</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>ε</mml:mi><mml:mo>,</mml:mo></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq5.gif"/></alternatives></inline-formula> where <inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta _j$$\end{document}</tex-math><mml:math id="M12" overflow="scroll"><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq6.gif"/></alternatives></inline-formula> quantify the association between variable <italic toggle="yes">j</italic> with the response. R function “lm” from “stats” package was used to estimate the regression coefficients <inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta _0,\beta _1, \ldots \beta _p$$\end{document}</tex-math><mml:math id="M14" overflow="scroll"><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq7.gif"/></alternatives></inline-formula> and corresponding <italic toggle="yes">p</italic> values. For logistic regression analyses, we solved the function <inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{log}}\left( {{{p\left( x \right)}}/{{\left( {1 - p\left( x \right)} \right)}}} \right) = \beta _0 + \beta _1X_1 + \beta _2X_2 + \cdots + \beta _pX_p + \varepsilon$$\end{document}</tex-math><mml:math id="M16" overflow="scroll"><mml:mi mathvariant="normal">log</mml:mi><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mi>p</mml:mi><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:mfenced><mml:mo>∕</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>p</mml:mi><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>⋯</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>ε</mml:mi></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq8.gif"/></alternatives></inline-formula>, where <inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p\left( x \right) = {\mathrm{Pr}}(Y = 1|X)$$\end{document}</tex-math><mml:math id="M18" overflow="scroll"><mml:mi>p</mml:mi><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mi mathvariant="normal">Pr</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>∣</mml:mo><mml:mi>X</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq9.gif"/></alternatives></inline-formula> and <italic toggle="yes">Y</italic> was the binary response variable. R function “glm” from “stats” package was used to estimate the regression coefficients <inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta _0,\beta _1, \ldots \beta _p$$\end{document}</tex-math><mml:math id="M20" overflow="scroll"><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_Article_IEq10.gif"/></alternatives></inline-formula> and corresponding <italic toggle="yes">p</italic> values.</p>
+          <p id="Par36">Generalized linear model using penalization (Elastic Net<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>) was performed to evaluate independent association between each variable from the combined list of molecular and clinical features and cohort status (SMC vs. TCGA). Consistent lasso estimation and consistent selection of variables were achieved through bootstrapping. The % variable usage estimate was determined as the frequency of variable selection by the predictive model in 500 bootstraps. In addition, the statistical significance of association between each feature vs. cohort status was calculated using a generalized linear model that incorporated all clinical and molecular features as covariates.</p>
+        </sec>
+        <sec id="Sec23">
+          <title>Data availability</title>
+          <p id="Par37">WES and RNA-Seq data are available at European Genome-Phenome Archive under the accession code <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ebi.ac.uk/ega/studies/EGAS00001002621">EGAS00001002621 and GEO under the accession</ext-link> <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE113184">GSE113184</ext-link>. All other remaining data are available within the Article and Supplementary Files, or available from the authors upon request.</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material">
+        <title>Electronic supplementary material</title>
+        <sec id="Sec24">
+          <p>
+<supplementary-material content-type="local-data" id="MOESM1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM1_ESM.pdf" position="float" orientation="portrait"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM2_ESM.pdf" position="float" orientation="portrait"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM3_ESM.pdf" position="float" orientation="portrait"><caption><p>Description of Additional Supplementary Files</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM4_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM5_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM6_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 3</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM7" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM7_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 4</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM8" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM8_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 5</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM9" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM9_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 6</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM10" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM10_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 7</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM11" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM11_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 8</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM12" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM12_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 9</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM13" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM13_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 10</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM14" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM14_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 11</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM15" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM15_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 12</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM16" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="41467_2018_4129_MOESM16_ESM.xlsx" position="float" orientation="portrait"><caption><p>Supplementary Data 13</p></caption></media></supplementary-material>
+</p>
+        </sec>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn>
+          <p>These authors contributed equally: Zhengyan Kan, Ying Ding, Jinho Kim.</p>
+        </fn>
+        <fn>
+          <p>These authors jointly supervised this work: Zhengyan Kan, Soohyeon Lee, Woong-Yang Park, Seok Jin Nam, Yeon Hee Park.</p>
+        </fn>
+        <fn>
+          <p>
+            <bold>Electronic supplementary material</bold>
+          </p>
+          <p><bold>Supplementary Information</bold> accompanies this paper at 10.1038/s41467-018-04129-4.</p>
+        </fn>
+        <fn>
+          <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+        </fn>
+      </fn-group>
+      <ack>
+        <title>Acknowledgements</title>
+        <p>This work was supported by a grant from the National Research Foundation of Korea (NRF-2017R1D1A1B03031497) and the Ministry of Health &amp; Welfare Republic of Korea (HI13C2096). S.L. is funded by a fellowship from the Pfizer worldwide R&amp;D postdoctoral program. We thank the TCGA, CCLE and GTEx consortia for making their data publicly available. Finally, we thank all members of the SMC-Pfizer breast cancer collaboration team for their contributions: Sripad Ram (Pfizer), Keith Ching (Pfizer), Eric Powell (Pfizer), Pamela Vizcarra (Pfizer), Paul Lira (Pfizer), Tim Nichols (Pfizer), Vinicius Bonato (Pfizer), Sooyoun Cho (SMC), Jonghan Yu (SMC), Eun-Suk Kang (SMC), Yuan-hua Ding (Pfizer), Jadwiga Bienkowska (Pfizer), and Paul Rejto (Pfizer).</p>
+      </ack>
+      <notes notes-type="author-contribution">
+        <title>Author contributions</title>
+        <p>The study was initiated and designed by Y.H.P., S.H.L., and S.J.N. Collection of specimens was coordinated by S.K.L., S.W.K., and J.E.L. H.H.J., Y.H.P., J.-Y.K., J.S.A., and Y.H.-I. collected and organized clinical data. Y.-L.C. performed pathology review of tumor specimens. WES and RNA-Seq were done by W.C., J.K. and W.-Y.P. Data analyses were conducted by Y.D., Z.K., J.K., S.L., S.C., S.D., X.J.M., J.-Y.N., Y.S., and J.F.-B. Y.D., Z.K., S.L. and J.K. produced tables and figures. Z.K., Y.D., J.K., S.H.L., W.C., S.L., and Y.H.P. wrote the manuscript.</p>
+      </notes>
+      <notes notes-type="COI-statement">
+        <sec id="FPar1">
+          <title>Competing interests</title>
+          <p id="Par38">Z.K., Y.D., S.H.L., S.L., J.F.-B., S.C., S.D., X.J.M., and Y.S. were employees of Pfizer Inc. at the time the work was performed. The remaining authors declare no competing interests.</p>
+        </sec>
+      </notes>
+      <ref-list id="Bib1">
+        <title>References</title>
+        <ref id="CR1">
+          <label>1.</label>
+          <mixed-citation publication-type="other">GLOBOCAN 2012. Estimated cancer incidence, mortality and prevalence worldwide in 2012 (2015). Available at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://globocan.iarc.fr/Pages/fact_sheets_cancer.aspx">https://globocan.iarc.fr/Pages/fact_sheets_cancer.aspx</ext-link>. (Accessed: 14th April 2018)</mixed-citation>
+        </ref>
+        <ref id="CR2">
+          <label>2.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ferlay</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cancer incidence and mortality worldwide: sources, methods and major patterns in GLOBOCAN 2012</article-title>
+            <source>Int J. Cancer</source>
+            <year>2015</year>
+            <volume>136</volume>
+            <fpage>E359</fpage>
+            <lpage>E386</lpage>
+            <pub-id pub-id-type="doi">10.1002/ijc.29210</pub-id>
+            <pub-id pub-id-type="pmid">25220842</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR3">
+          <label>3.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>DeSantis</surname>
+                <given-names>CE</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Breast cancer statistics, 2015: Convergence of incidence rates between black and white women</article-title>
+            <source>CA Cancer J. Clin.</source>
+            <year>2015</year>
+            <volume>66</volume>
+            <fpage>31</fpage>
+            <lpage>42</lpage>
+            <pub-id pub-id-type="doi">10.3322/caac.21320</pub-id>
+            <pub-id pub-id-type="pmid">26513636</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR4">
+          <label>4.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ahn</surname>
+                <given-names>SH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Poor outcome of hormone receptor-positive breast cancer at very young age is due to tamoxifen resistance: nationwide survival data in Korea—a report from the Korean Breast Cancer Society</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2007</year>
+            <volume>25</volume>
+            <fpage>2360</fpage>
+            <lpage>2368</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2006.10.3754</pub-id>
+            <pub-id pub-id-type="pmid">17515570</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR5">
+          <label>5.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Min</surname>
+                <given-names>SY</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The basic facts of Korean breast cancer in 2013: results of a Nationwide Survey and Breast Cancer Registry Database</article-title>
+            <source>J. Breast Cancer</source>
+            <year>2016</year>
+            <volume>19</volume>
+            <fpage>1</fpage>
+            <lpage>7</lpage>
+            <pub-id pub-id-type="doi">10.4048/jbc.2016.19.1.1</pub-id>
+            <pub-id pub-id-type="pmid">27066090</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4822102</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR6">
+          <label>6.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Fredholm</surname>
+                <given-names>H</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Breast cancer in young women: poor survival despite intensive treatment</article-title>
+            <source>PLoS ONE</source>
+            <year>2009</year>
+            <volume>4</volume>
+            <fpage>e7695</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pone.0007695</pub-id>
+            <pub-id pub-id-type="pmid">19907646</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2770847</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR7">
+          <label>7.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Partridge</surname>
+                <given-names>AH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Subtype-dependent relationship between young age at diagnosis and breast cancer survival</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2016</year>
+            <volume>34</volume>
+            <fpage>3308</fpage>
+            <lpage>3314</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2015.65.8013</pub-id>
+            <pub-id pub-id-type="pmid">27480155</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR8">
+          <label>8.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Anders</surname>
+                <given-names>CK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Young age at diagnosis correlates with worse prognosis and defines a subset of breast cancers with shared patterns of gene expression</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2008</year>
+            <volume>26</volume>
+            <fpage>3324</fpage>
+            <lpage>3330</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2007.14.2471</pub-id>
+            <pub-id pub-id-type="pmid">18612148</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR9">
+          <label>9.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Perou</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular portraits of human breast tumours</article-title>
+            <source>Nature</source>
+            <year>2000</year>
+            <volume>406</volume>
+            <fpage>747</fpage>
+            <lpage>752</lpage>
+            <pub-id pub-id-type="doi">10.1038/35021093</pub-id>
+            <pub-id pub-id-type="pmid">10963602</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR10">
+          <label>10.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Banerji</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sequence analysis of mutations and translocations across breast cancer subtypes</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>486</volume>
+            <fpage>405</fpage>
+            <lpage>409</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11154</pub-id>
+            <pub-id pub-id-type="pmid">22722202</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4148686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR11">
+          <label>11.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Cancer Genome Atlas, N.</collab>
+            </person-group>
+            <article-title>Comprehensive molecular portraits of human breast tumours</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>490</volume>
+            <fpage>61</fpage>
+            <lpage>70</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature11412</pub-id>
+            <pub-id pub-id-type="pmid">23000897</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3465532</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR12">
+          <label>12.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Pereira</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The somatic mutation profiles of 2,433 breast cancers refines their genomic and transcriptomic landscapes</article-title>
+            <source>Nat. Commun.</source>
+            <year>2016</year>
+            <volume>7</volume>
+            <fpage>11479</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms11479</pub-id>
+            <pub-id pub-id-type="pmid">27161491</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4866047</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR13">
+          <label>13.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Landscape of somatic mutations in 560 breast cancer whole-genome sequences</article-title>
+            <source>Nature</source>
+            <year>2016</year>
+            <volume>534</volume>
+            <fpage>47</fpage>
+            <lpage>54</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature17676</pub-id>
+            <pub-id pub-id-type="pmid">27135926</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4910866</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR14">
+          <label>14.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Liao</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The molecular landscape of premenopausal breast cancer</article-title>
+            <source>Breast Cancer Res.</source>
+            <year>2015</year>
+            <volume>17</volume>
+            <fpage>104</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13058-015-0618-8</pub-id>
+            <pub-id pub-id-type="pmid">26251034</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4531812</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR15">
+          <label>15.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Azim</surname>
+                <given-names>HA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genomic aberrations in young and elderly breast cancer patients</article-title>
+            <source>BMC Med.</source>
+            <year>2015</year>
+            <volume>13</volume>
+            <fpage>266</fpage>
+            <pub-id pub-id-type="doi">10.1186/s12916-015-0504-3</pub-id>
+            <pub-id pub-id-type="pmid">26467651</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4606505</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR16">
+          <label>16.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ihemelandu</surname>
+                <given-names>CU</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular breast cancer subtypes in premenopausal and postmenopausal African-American women: age-specific prevalence and survival</article-title>
+            <source>J. Surg. Res.</source>
+            <year>2007</year>
+            <volume>143</volume>
+            <fpage>109</fpage>
+            <lpage>118</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.jss.2007.03.085</pub-id>
+            <pub-id pub-id-type="pmid">17950079</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR17">
+          <label>17.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Elesawy</surname>
+                <given-names>BH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Abd</surname>
+                <given-names>ElhafezA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shawky Ael</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Arafa</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Immunohistochemistry-based subtyping of breast carcinoma in Egyptian women: a clinicopathologic study on 125 patients</article-title>
+            <source>Ann. Diagn. Pathol.</source>
+            <year>2014</year>
+            <volume>18</volume>
+            <fpage>21</fpage>
+            <lpage>26</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.anndiagpath.2013.10.005</pub-id>
+            <pub-id pub-id-type="pmid">24321463</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR18">
+          <label>18.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huo</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comparison of breast cancer molecular features and survival by African and European ancestry in the Cancer Genome Atlas</article-title>
+            <source>JAMA Oncol.</source>
+            <year>2017</year>
+            <volume>3</volume>
+            <fpage>1654</fpage>
+            <lpage>1662</lpage>
+            <pub-id pub-id-type="doi">10.1001/jamaoncol.2017.0595</pub-id>
+            <pub-id pub-id-type="pmid">28472234</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5671371</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR19">
+          <label>19.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Colak</surname>
+                <given-names>D</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Age-specific gene expression signatures for breast tumors and cross-species conserved potential cancer progression markers in young women</article-title>
+            <source>PLoS ONE</source>
+            <year>2013</year>
+            <volume>8</volume>
+            <fpage>e63204</fpage>
+            <pub-id pub-id-type="doi">10.1371/journal.pone.0063204</pub-id>
+            <pub-id pub-id-type="pmid">23704896</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3660335</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR20">
+          <label>20.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>X</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular portrait of breast cancer in China reveals comprehensive transcriptomic likeness to Caucasian breast cancer and low prevalence of luminal A subtype</article-title>
+            <source>Cancer Med.</source>
+            <year>2015</year>
+            <volume>4</volume>
+            <fpage>1016</fpage>
+            <lpage>1030</lpage>
+            <pub-id pub-id-type="doi">10.1002/cam4.442</pub-id>
+            <pub-id pub-id-type="pmid">25787708</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4529340</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR21">
+          <label>21.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Curtis</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The genomic and transcriptomic architecture of 2,000 breast tumours reveals novel subgroups</article-title>
+            <source>Nature</source>
+            <year>2012</year>
+            <volume>486</volume>
+            <fpage>346</fpage>
+            <lpage>352</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature10983</pub-id>
+            <pub-id pub-id-type="pmid">22522925</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3440846</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR22">
+          <label>22.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ali</surname>
+                <given-names>HR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genome-driven integrated classification of breast cancer validated in over 7,500 samples</article-title>
+            <source>Genome Biol.</source>
+            <year>2014</year>
+            <volume>15</volume>
+            <fpage>431</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-014-0431-1</pub-id>
+            <pub-id pub-id-type="pmid">25164602</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4166472</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR23">
+          <label>23.</label>
+          <mixed-citation publication-type="other">Anglian Breast Cancer Study Group. Prevalence and penetrance of BRCA1 and BRCA2 mutations in a population-based series of breast cancer cases. <italic toggle="yes">Br. J. Cancer</italic><bold>83</bold>, 1301−1308 (2000).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1054/bjoc.2000.1407</pub-id><pub-id pub-id-type="pmcid">PMC2408797</pub-id><pub-id pub-id-type="pmid">11044354</pub-id></mixed-citation>
+        </ref>
+        <ref id="CR24">
+          <label>24.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ahn</surname>
+                <given-names>SH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Prevalence of BRCA1 and BRCA2 mutations in Korean breast cancer patients</article-title>
+            <source>J. Korean Med Sci.</source>
+            <year>2004</year>
+            <volume>19</volume>
+            <fpage>269</fpage>
+            <lpage>274</lpage>
+            <pub-id pub-id-type="doi">10.3346/jkms.2004.19.2.269</pub-id>
+            <pub-id pub-id-type="pmid">15082902</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2822310</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR25">
+          <label>25.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Landrum</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>ClinVar: public archive of interpretations of clinically relevant variants</article-title>
+            <source>Nucleic Acids Res.</source>
+            <year>2016</year>
+            <volume>44</volume>
+            <fpage>D862</fpage>
+            <lpage>D868</lpage>
+            <pub-id pub-id-type="doi">10.1093/nar/gkv1222</pub-id>
+            <pub-id pub-id-type="pmid">26582918</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4702865</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR26">
+          <label>26.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Shiovitz</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Korde</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetics of breast cancer: a topic in evolution</article-title>
+            <source>Ann. Oncol.</source>
+            <year>2015</year>
+            <volume>26</volume>
+            <fpage>1291</fpage>
+            <lpage>1299</lpage>
+            <pub-id pub-id-type="pmid">25605744</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdv022</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4478970</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR27">
+          <label>27.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Podolskiy</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lobanov</surname>
+                <given-names>AV</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kryukov</surname>
+                <given-names>GV</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gladyshev</surname>
+                <given-names>VN</given-names>
+              </name>
+            </person-group>
+            <article-title>Analysis of cancer genomes reveals basic features of human aging and its role in cancer development</article-title>
+            <source>Nat. Commun.</source>
+            <year>2016</year>
+            <volume>7</volume>
+            <fpage>12157</fpage>
+            <pub-id pub-id-type="doi">10.1038/ncomms12157</pub-id>
+            <pub-id pub-id-type="pmid">27515585</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4990632</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR28">
+          <label>28.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Chalmers</surname>
+                <given-names>ZR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Analysis of 100,000 human cancer genomes reveals the landscape of tumor mutational burden</article-title>
+            <source>Genome Med.</source>
+            <year>2017</year>
+            <volume>9</volume>
+            <fpage>34</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13073-017-0424-2</pub-id>
+            <pub-id pub-id-type="pmid">28420421</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5395719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR29">
+          <label>29.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lawrence</surname>
+                <given-names>MS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutational heterogeneity in cancer and the search for new cancer-associated genes</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>499</volume>
+            <fpage>214</fpage>
+            <lpage>218</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature12213</pub-id>
+            <pub-id pub-id-type="pmid">23770567</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3919509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR30">
+          <label>30.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Helleday</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Eshtad</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms underlying mutational signatures in human cancers</article-title>
+            <source>Nat. Rev. Genet.</source>
+            <year>2014</year>
+            <volume>15</volume>
+            <fpage>585</fpage>
+            <lpage>598</lpage>
+            <pub-id pub-id-type="doi">10.1038/nrg3729</pub-id>
+            <pub-id pub-id-type="pmid">24981601</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6044419</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR31">
+          <label>31.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Signatures of mutational processes in human cancer</article-title>
+            <source>Nature</source>
+            <year>2013</year>
+            <volume>500</volume>
+            <fpage>415</fpage>
+            <lpage>421</lpage>
+            <pub-id pub-id-type="doi">10.1038/nature12477</pub-id>
+            <pub-id pub-id-type="pmid">23945592</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3776390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR32">
+          <label>32.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Roberts</surname>
+                <given-names>SA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>An APOBEC cytidine deaminase mutagenesis pattern is widespread in human cancers</article-title>
+            <source>Nat. Genet.</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>970</fpage>
+            <lpage>976</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.2702</pub-id>
+            <pub-id pub-id-type="pmid">23852170</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3789062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR33">
+          <label>33.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moffitt</surname>
+                <given-names>RA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Virtual microdissection identifies distinct tumor- and stroma-specific subtypes of pancreatic ductal adenocarcinoma</article-title>
+            <source>Nat. Genet</source>
+            <year>2015</year>
+            <volume>47</volume>
+            <fpage>1168</fpage>
+            <lpage>1178</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.3398</pub-id>
+            <pub-id pub-id-type="pmid">26343385</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4912058</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR34">
+          <label>34.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rooney</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shukla</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Getz</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hacohen</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular and genetic properties of tumors associated with local immune cytolytic activity</article-title>
+            <source>Cell</source>
+            <year>2015</year>
+            <volume>160</volume>
+            <fpage>48</fpage>
+            <lpage>61</lpage>
+            <pub-id pub-id-type="doi">10.1016/j.cell.2014.12.033</pub-id>
+            <pub-id pub-id-type="pmid">25594174</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4856474</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR35">
+          <label>35.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Liberzon</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular signatures database (MSigDB) 3.0</article-title>
+            <source>Bioinformatics</source>
+            <year>2011</year>
+            <volume>27</volume>
+            <fpage>1739</fpage>
+            <lpage>1740</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btr260</pub-id>
+            <pub-id pub-id-type="pmid">21546393</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3106198</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR36">
+          <label>36.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Letterio</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roberts</surname>
+                <given-names>AB</given-names>
+              </name>
+            </person-group>
+            <article-title>Regulation of immune responses by TGF-beta</article-title>
+            <source>Annu Rev. Immunol.</source>
+            <year>1998</year>
+            <volume>16</volume>
+            <fpage>137</fpage>
+            <lpage>161</lpage>
+            <pub-id pub-id-type="doi">10.1146/annurev.immunol.16.1.137</pub-id>
+            <pub-id pub-id-type="pmid">9597127</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR37">
+          <label>37.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hanzelmann</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Castelo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Guinney</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>GSVA: gene set variation analysis for microarray and RNA-seq data</article-title>
+            <source>BMC Bioinform.</source>
+            <year>2013</year>
+            <volume>14</volume>
+            <fpage>7</fpage>
+            <pub-id pub-id-type="doi">10.1186/1471-2105-14-7</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3618321</pub-id>
+            <pub-id pub-id-type="pmid">23323831</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR38">
+          <label>38.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zou</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hastie</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Regularization and variable selection via the elastic net</article-title>
+            <source>J. R. Stat. Soc.: Ser. B (Stat. Methodol.)</source>
+            <year>2005</year>
+            <volume>67</volume>
+            <fpage>301</fpage>
+            <lpage>320</lpage>
+            <pub-id pub-id-type="doi">10.1111/j.1467-9868.2005.00503.x</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR39">
+          <label>39.</label>
+          <mixed-citation publication-type="other">Bach, F. R. <italic toggle="yes">Proc. 25th International Conference on Machine Learning</italic>, 33−40 (ACM, Helsinki, Finland, 2008).</mixed-citation>
+        </ref>
+        <ref id="CR40">
+          <label>40.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Olivier</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hollstein</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hainaut</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>TP53 mutations in human cancers: origins, consequences, and clinical use</article-title>
+            <source>Cold Spring Harb. Perspect. Biol.</source>
+            <year>2010</year>
+            <volume>2</volume>
+            <fpage>a001008</fpage>
+            <pub-id pub-id-type="doi">10.1101/cshperspect.a001008</pub-id>
+            <pub-id pub-id-type="pmid">20182602</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2827900</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR41">
+          <label>41.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>TP53 mutation-mediated genomic instability induces the evolution of chemoresistance and recurrence in epithelial ovarian cancer</article-title>
+            <source>Diagn. Pathol.</source>
+            <year>2017</year>
+            <volume>12</volume>
+            <fpage>16</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13000-017-0605-8</pub-id>
+            <pub-id pub-id-type="pmid">28148293</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5288946</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR42">
+          <label>42.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nolan</surname>
+                <given-names>E</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Combined immune checkpoint blockade as a therapeutic strategy for BRCA1-mutated breast cancer</article-title>
+            <source>Sci. Transl. Med.</source>
+            <year>2017</year>
+            <volume>9</volume>
+            <fpage>eaal4922</fpage>
+            <pub-id pub-id-type="doi">10.1126/scitranslmed.aal4922</pub-id>
+            <pub-id pub-id-type="pmid">28592566</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5822709</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR43">
+          <label>43.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Mahmoud</surname>
+                <given-names>SM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Tumor-infiltrating CD8+lymphocytes predict clinical outcome in breast cancer</article-title>
+            <source>J. Clin. Oncol.</source>
+            <year>2011</year>
+            <volume>29</volume>
+            <fpage>1949</fpage>
+            <lpage>1955</lpage>
+            <pub-id pub-id-type="doi">10.1200/JCO.2010.30.5037</pub-id>
+            <pub-id pub-id-type="pmid">21483002</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR44">
+          <label>44.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows−Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>1760</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR45">
+          <label>45.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>DePristo</surname>
+                <given-names>MA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A framework for variation discovery and genotyping using next-generation DNA sequencing data</article-title>
+            <source>Nat. Genet.</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>491</fpage>
+            <lpage>498</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng.806</pub-id>
+            <pub-id pub-id-type="pmid">21478889</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3083463</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR46">
+          <label>46.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Newman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ge</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>RNA-Seq analysis pipeline based on OshellEnvironment</article-title>
+            <source>IEEE/ACM Trans. Comput. Biol. Bioinform</source>
+            <year>2014</year>
+            <volume>11</volume>
+            <fpage>973</fpage>
+            <lpage>978</lpage>
+            <pub-id pub-id-type="doi">10.1109/TCBB.2014.2321156</pub-id>
+            <pub-id pub-id-type="pmid">26356868</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR47">
+          <label>47.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dewey</surname>
+                <given-names>CN</given-names>
+              </name>
+            </person-group>
+            <article-title>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</article-title>
+            <source>BMC Bioinform.</source>
+            <year>2011</year>
+            <volume>12</volume>
+            <fpage>323</fpage>
+            <pub-id pub-id-type="doi">10.1186/1471-2105-12-323</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3163565</pub-id>
+            <pub-id pub-id-type="pmid">21816040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR48">
+          <label>48.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Koboldt</surname>
+                <given-names>DC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing</article-title>
+            <source>Genome Res.</source>
+            <year>2012</year>
+            <volume>22</volume>
+            <fpage>568</fpage>
+            <lpage>576</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.129684.111</pub-id>
+            <pub-id pub-id-type="pmid">22300766</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3290792</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR49">
+          <label>49.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ewing</surname>
+                <given-names>AD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Combining tumor genome simulation with crowdsourcing to benchmark somatic single-nucleotide-variant detection</article-title>
+            <source>Nat. Methods</source>
+            <year>2015</year>
+            <volume>12</volume>
+            <fpage>623</fpage>
+            <lpage>630</lpage>
+            <pub-id pub-id-type="doi">10.1038/nmeth.3407</pub-id>
+            <pub-id pub-id-type="pmid">25984700</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4856034</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR50">
+          <label>50.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McLaren</surname>
+                <given-names>W</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Ensembl Variant Effect Predictor</article-title>
+            <source>Genome Biol.</source>
+            <year>2016</year>
+            <volume>17</volume>
+            <fpage>122</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-016-0974-4</pub-id>
+            <pub-id pub-id-type="pmid">27268795</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4893825</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR51">
+          <label>51.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reich</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>GenePattern 2.0</article-title>
+            <source>Nat. Genet.</source>
+            <year>2006</year>
+            <volume>38</volume>
+            <fpage>500</fpage>
+            <lpage>501</lpage>
+            <pub-id pub-id-type="doi">10.1038/ng0506-500</pub-id>
+            <pub-id pub-id-type="pmid">16642009</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR52">
+          <label>52.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McKenna</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+            <source>Genome Res.</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>1297</fpage>
+            <lpage>1303</lpage>
+            <pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id>
+            <pub-id pub-id-type="pmid">20644199</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR53">
+          <label>53.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Sathirapongsasuti</surname>
+                <given-names>JF</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing-based copy-number variation and loss of heterozygosity detection: ExomeCNV</article-title>
+            <source>Bioinformatics</source>
+            <year>2011</year>
+            <volume>27</volume>
+            <fpage>2648</fpage>
+            <lpage>2654</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btr462</pub-id>
+            <pub-id pub-id-type="pmid">21828086</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3179661</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR54">
+          <label>54.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gendoo</surname>
+                <given-names>DM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Genefu: an R/Bioconductor package for computation of gene expression-based signatures in breast cancer</article-title>
+            <source>Bioinformatics</source>
+            <year>2016</year>
+            <volume>32</volume>
+            <fpage>1097</fpage>
+            <lpage>1099</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btv693</pub-id>
+            <pub-id pub-id-type="pmid">26607490</pub-id>
+            <pub-id pub-id-type="pmcid">PMC6410906</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR55">
+          <label>55.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Rosenthal</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McGranahan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Herrero</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Swanton</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>DeconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution</article-title>
+            <source>Genome Biol.</source>
+            <year>2016</year>
+            <volume>17</volume>
+            <fpage>31</fpage>
+            <pub-id pub-id-type="doi">10.1186/s13059-016-0893-4</pub-id>
+            <pub-id pub-id-type="pmid">26899170</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4762164</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR56">
+          <label>56.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lee</surname>
+                <given-names>DD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Seung</surname>
+                <given-names>HS</given-names>
+              </name>
+            </person-group>
+            <article-title>Learning the parts of objects by non-negative matrix factorization</article-title>
+            <source>Nature</source>
+            <year>1999</year>
+            <volume>401</volume>
+            <fpage>788</fpage>
+            <lpage>791</lpage>
+            <pub-id pub-id-type="doi">10.1038/44565</pub-id>
+            <pub-id pub-id-type="pmid">10548103</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR57">
+          <label>57.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Brunet</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tamayo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Golub</surname>
+                <given-names>TR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mesirov</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Metagenes and molecular pattern discovery using matrix factorization</article-title>
+            <source>Proc. Natl. Acad. Sci. USA</source>
+            <year>2004</year>
+            <volume>101</volume>
+            <fpage>4164</fpage>
+            <lpage>4169</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.0308531101</pub-id>
+            <pub-id pub-id-type="pmid">15016911</pub-id>
+            <pub-id pub-id-type="pmcid">PMC384712</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR58">
+          <label>58.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Sparse non-negative matrix factorizations via alternating non-negativity-constrained least squares for microarray data analysis</article-title>
+            <source>Bioinformatics</source>
+            <year>2007</year>
+            <volume>23</volume>
+            <fpage>1495</fpage>
+            <lpage>1502</lpage>
+            <pub-id pub-id-type="doi">10.1093/bioinformatics/btm134</pub-id>
+            <pub-id pub-id-type="pmid">17483501</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR59">
+          <label>59.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Subramanian</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>
+            <source>Proc. Natl. Acad. Sci. USA</source>
+            <year>2005</year>
+            <volume>102</volume>
+            <fpage>15545</fpage>
+            <lpage>15550</lpage>
+            <pub-id pub-id-type="doi">10.1073/pnas.0506580102</pub-id>
+            <pub-id pub-id-type="pmid">16199517</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1239896</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="CR60">
+          <label>60.</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Law</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shi</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Smyth</surname>
+                <given-names>GK</given-names>
+              </name>
+            </person-group>
+            <article-title>voom: precision weights unlock linear model analysis tools for RNA-seq read counts</article-title>
+            <source>Genome Biol.</source>
+            <year>2014</year>
+            <volume>15</volume>
+            <fpage>R29</fpage>
+            <pub-id pub-id-type="doi">10.1186/gb-2014-15-2-r29</pub-id>
+            <pub-id pub-id-type="pmid">24485249</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4053721</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>

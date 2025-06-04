@@ -1,0 +1,2460 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">319</journal-id>
+        <journal-id journal-id-type="pmc-domain">nihpa</journal-id>
+        <journal-title-group>
+          <journal-title>Nature genetics</journal-title>
+        </journal-title-group>
+        <issn pub-type="ppub">1061-4036</issn>
+        <issn pub-type="epub">1546-1718</issn>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-is-collection-domain</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-collection-title</meta-name>
+            <meta-value>NIHPA Author Manuscripts</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC2911503</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC2911503.1</article-id>
+        <article-id pub-id-type="pmcaid">2911503</article-id>
+        <article-id pub-id-type="pmcaiid">2911503</article-id>
+        <article-id pub-id-type="manuscript-id">NIHMS212743</article-id>
+        <article-id pub-id-type="pmid">20601955</article-id>
+        <article-id pub-id-type="doi">10.1038/ng.619</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHMS212743</article-id>
+        <article-id pub-id-type="manuscript-id-alternative">NIHPA212743</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Article</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Subtype-specific genomic alterations define new targets for soft tissue sarcoma therapy</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Barretina</surname>
+              <given-names initials="J">Jordi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="author-notes" rid="FN1">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names initials="BS">Barry S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+            <xref ref-type="aff" rid="A5">5</xref>
+            <xref ref-type="author-notes" rid="FN1">15</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Banerji</surname>
+              <given-names initials="S">Shantanu</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ramos</surname>
+              <given-names initials="AH">Alexis H.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lagos-Quintana</surname>
+              <given-names initials="M">Mariana</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>DeCarolis</surname>
+              <given-names initials="PL">Penelope L.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shah</surname>
+              <given-names initials="K">Kinjal</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Socci</surname>
+              <given-names initials="ND">Nicholas D.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Weir</surname>
+              <given-names initials="BA">Barbara A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ho</surname>
+              <given-names initials="A">Alan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Chiang</surname>
+              <given-names initials="DY">Derek Y.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Reva</surname>
+              <given-names initials="B">Boris</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Mermel</surname>
+              <given-names initials="C">Craig</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Getz</surname>
+              <given-names initials="G">Gad</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Antipin</surname>
+              <given-names initials="Y">Yevgenyi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Beroukhim</surname>
+              <given-names initials="R">Rameen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Major</surname>
+              <given-names initials="JE">John E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hatton</surname>
+              <given-names initials="C">Charlie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nicoletti</surname>
+              <given-names initials="R">Richard</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hanna</surname>
+              <given-names initials="M">Megan</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sharpe</surname>
+              <given-names initials="T">Ted</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Fennell</surname>
+              <given-names initials="T">Tim</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Cibulskis</surname>
+              <given-names initials="K">Kristian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Onofrio</surname>
+              <given-names initials="RC">Robert C.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Saito</surname>
+              <given-names initials="T">Tsuyoshi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Shukla</surname>
+              <given-names initials="N">Neerav</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lau</surname>
+              <given-names initials="C">Christopher</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Nelander</surname>
+              <given-names initials="S">Sven</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Silver</surname>
+              <given-names initials="S">Serena</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sougnez</surname>
+              <given-names initials="C">Carrie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Viale</surname>
+              <given-names initials="A">Agnes</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">10</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Winckler</surname>
+              <given-names initials="W">Wendy</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Maki</surname>
+              <given-names initials="RG">Robert G.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A11">11</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Garraway</surname>
+              <given-names initials="LA">Levi A.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lash</surname>
+              <given-names initials="A">Alex</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Greulich</surname>
+              <given-names initials="H">Heidi</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Root</surname>
+              <given-names initials="D">David</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sellers</surname>
+              <given-names initials="WR">William R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A12">12</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schwartz</surname>
+              <given-names initials="GK">Gary K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A7">7</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Antonescu</surname>
+              <given-names initials="CR">Cristina R.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Lander</surname>
+              <given-names initials="ES">Eric S.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">3</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Varmus</surname>
+              <given-names initials="HE">Harold E.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A13">13</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ladanyi</surname>
+              <given-names initials="M">Marc</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">8</xref>
+            <xref ref-type="aff" rid="A9">9</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Sander</surname>
+              <given-names initials="C">Chris</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">4</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Meyerson</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">1</xref>
+            <xref ref-type="aff" rid="A2">2</xref>
+            <xref ref-type="aff" rid="A3">3</xref>
+            <xref ref-type="aff" rid="A14">14</xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Singer</surname>
+              <given-names initials="S">Samuel</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">6</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><label>1</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, 44 Binney Street, Boston, MA 02115, USA</aff>
+        <aff id="A2"><label>2</label>Center for Cancer Genome Discovery, Dana-Farber Cancer Institute, Harvard Medical School, 44 Binney Street, Boston, MA 02115, USA</aff>
+        <aff id="A3"><label>3</label>The Broad Institute of M.I.T. and Harvard, 7 Cambridge Center, Cambridge, MA 02142, USA</aff>
+        <aff id="A4"><label>4</label>Computational Biology Center, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA</aff>
+        <aff id="A5"><label>5</label>Department of Physiology and Biophysics, Weill Medical College of Cornell University, New York, NY 10065, USA</aff>
+        <aff id="A6"><label>6</label>Sarcoma Biology Laboratory, Sarcoma Disease Management Program, Department of Surgery, Memorial Sloan-Kettering Cancer Center, New York, NY 10021, USA</aff>
+        <aff id="A7"><label>7</label>Laboratory of New Drug Development, Department of Medicine, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA</aff>
+        <aff id="A8"><label>8</label>Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA</aff>
+        <aff id="A9"><label>9</label>Human Oncology and Pathogenesis Program, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA</aff>
+        <aff id="A10"><label>10</label>Genomics Core Laboratory, Sloan-Kettering Institute, New York, NY 10065, USA</aff>
+        <aff id="A11"><label>11</label>Department of Medicine, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA</aff>
+        <aff id="A12"><label>12</label>Novartis Institutes for Biomedical Research, 250 Massachusetts Avenue, Cambridge, MA 02139, USA</aff>
+        <aff id="A13"><label>13</label>Program in Cancer Biology and Genetics, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA</aff>
+        <aff id="A14"><label>14</label>Departments of Pathology, Harvard Medical School, Boston, MA 02115, USA</aff>
+        <author-notes>
+          <corresp id="cor1"><bold>Corresponding Authors:</bold> Correspondence to: Chris Sander (<email>sanderc@mskcc.org</email>), Matthew Meyerson (<email>matthew_meyerson@dfci.harvard.edu</email>) or Samuel Singer (<email>singers@mskcc.org</email>)</corresp>
+          <fn id="FN1" fn-type="equal">
+            <label>15</label>
+            <p id="P1">These authors contributed equally to this work.</p>
+          </fn>
+          <fn id="FN2">
+            <p id="P2"><bold>These authors jointly directed this work:</bold> Matthew Meyerson and Samuel Singer</p>
+          </fn>
+        </author-notes>
+        <pub-date pub-type="epub">
+          <day>04</day>
+          <month>7</month>
+          <year>2010</year>
+        </pub-date>
+        <pub-date pub-type="ppub">
+          <month>8</month>
+          <year>2010</year>
+        </pub-date>
+        <volume>42</volume>
+        <issue>8</issue>
+        <issue-id pub-id-type="pmc-issue-id">188826</issue-id>
+        <fpage>715</fpage>
+        <lpage>721</lpage>
+        <pub-history>
+          <event event-type="nihms-submitted">
+            <date>
+              <day>13</day>
+              <month>07</month>
+              <year>2010</year>
+            </date>
+          </event>
+          <event event-type="pmc-release">
+            <date>
+              <day>01</day>
+              <month>02</month>
+              <year>2011</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>01</day>
+              <month>02</month>
+              <year>2011</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2024-06-06 10:48:32.067">
+              <day>06</day>
+              <month>06</month>
+              <year>2024</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <license>
+            <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri>
+</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms212743.pdf"/>
+        <kwd-group>
+          <kwd>Sarcoma</kwd>
+          <kwd>DNA copy number</kwd>
+          <kwd>Sequencing</kwd>
+          <kwd>RNAi</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="S1">
+        <title>Introductory Paragraph</title>
+        <p id="P3">Soft tissue sarcomas, which encompass approximately 10,700 diagnoses and 3800 deaths per year in the US<xref rid="R1" ref-type="bibr">1</xref>, exhibit remarkable histologic diversity, with more than 50 recognized subtypes<xref rid="R2" ref-type="bibr">2</xref>. However, knowledge of their genomic alterations is limited. We describe an integrative analysis of DNA sequence, copy number, and mRNA expression in 207 samples encompassing seven major subtypes. Frequently mutated genes included <italic toggle="yes">TP53</italic> (17% of pleomorphic liposarcomas), <italic toggle="yes">NF1</italic> (10.5% of myxofibrosarcomas and 8% of pleomorphic liposarcomas), and <italic toggle="yes">PIK3CA</italic> (18% of myxoid/round-cell liposarcomas). <italic toggle="yes">PIK3CA</italic> mutations in myxoid/round-cell liposarcomas were associated with AKT activation and poor clinical outcomes. In myxofibrosarcomas and pleomorphic liposarcomas, we found both point mutations and genomic deletions affecting the tumor suppressor <italic toggle="yes">NF1</italic>. Finally, we found that shRNA-based knockdown of several genes amplified in dedifferentiated liposarcoma, including <italic toggle="yes">CDK4</italic> and <italic toggle="yes">YEATS4</italic>, decreased cell proliferation. Our study yields a detailed map of molecular alterations across diverse sarcoma subtypes and provides potential subtype-specific targets for therapy.</p>
+        <p id="P4">Current knowledge of the key genomic aberrations in soft tissue sarcoma is limited to the most recurrent alterations or translocations. Subtypes with simple, near-diploid karyotypes bear few chromosomal rearrangements but have pathognomonic alterations: translocations in myxoid/round-cell liposarcoma (MRC) [t(12;16)(q13;p11), t(12;22)(q13;q12)] and synovial sarcomas (SS) [t(X;18)(p11;q11)]; activating mutations in <italic toggle="yes">KIT</italic> or <italic toggle="yes">PDGFRA</italic> in gastrointestinal stromal tumors (GIST)<xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref>. The discovery of the latter mutations led to the clinical deployment of imatinib for the treatment of GIST<xref rid="R5" ref-type="bibr">5</xref>, providing a model for genotype-directed therapies in molecularly defined sarcoma subtypes. Conversely, sarcomas with complex karyotypes, including dedifferentiated and pleomorphic liposarcoma, leiomyosarcoma, and myxofibrosarcoma, have no known characteristic mutations or fusion genes, although abnormalities are frequently observed in the Rb, p53, and specific growth-factor signaling pathways<xref rid="R6" ref-type="bibr">6</xref>.</p>
+        <p id="P5">Recent large-scale analyses<xref rid="R7" ref-type="bibr">7</xref>–<xref rid="R10" ref-type="bibr">10</xref> have established a standard for cancer genome studies, but soft tissue sarcomas have not yet been a focus of this type of effort. Given the urgent need for new treatments for the ~4000 patients who die each year in the US of soft tissue sarcoma<xref rid="R1" ref-type="bibr">1</xref>, we sought to identify novel genomic alterations that could serve as therapeutic targets. Here, we describe complementary genome and functional genetic analyses of seven subtypes of high-grade soft tissue sarcoma (<xref ref-type="table" rid="T1">Table 1</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 1</xref>) to discover subtype-specific events. Several of our findings, detailed below, could have nearly immediate therapeutic implications.</p>
+        <p id="P6">To study the genomic alterations in sarcomas, we initially analyzed 47 tumor/normal DNA pairs encompassing six soft tissue sarcoma subtypes by sequencing 722 protein-coding and microRNA genes, followed by verifying discovered mutations with mass spectrometry-based genotyping (see Methods, <xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 1A, and Supplementary Table 2</xref>). The results revealed 28 somatic non-synonymous coding point mutations and 9 somatic insertions/deletions (indels) involving 21 genes in total (<xref ref-type="table" rid="T2">Table 2</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 1B</xref>). No mutations were detected in microRNAs genes. We extended the analysis to an additional 160 tumors, where we genotyped each of the mutations found above and re-sequenced exons of <italic toggle="yes">NF1</italic> and <italic toggle="yes">ERBB4</italic> in pleomorphic liposarcoma and myxofibrosarcoma, <italic toggle="yes">PIK3CA</italic> and <italic toggle="yes">KIT</italic> in myxoid/round cell liposarcoma, and <italic toggle="yes">CDH1</italic> in dedifferentiated liposarcoma; this revealed nine additional mutations (<xref ref-type="table" rid="T2">Table 2</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 3</xref>).</p>
+        <p id="P7"><italic toggle="yes">KIT</italic> was frequently mutated in GISTs and unexpectedly, in one myxoid/round cell liposarcoma sample (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note</xref>). The next most frequently mutated genes observed within specific sarcoma subtypes were <italic toggle="yes">PIK3CA</italic>, in 18% of myxoid/round cell liposarcomas, <italic toggle="yes">TP53</italic> in 17% of pleomorphic liposarcomas (interestingly, the only subtype in which mutations of this gene were found), and <italic toggle="yes">NF1</italic> in 10.5% of myxofibrosarcomas and 8% of pleomorphic liposarcomas (<xref ref-type="table" rid="T2">Table 2</xref> and <xref ref-type="fig" rid="F1">Figure 1</xref>). Additional genes, including protein and lipid kinases, as well as known or candidate tumor suppressor genes, were found mutated in just one sample for each sarcoma subtype (<xref ref-type="table" rid="T2">Table 2</xref>, <xref ref-type="fig" rid="F1">Figure 1</xref>, and <xref ref-type="supplementary-material" rid="SD1">Supplementary Note</xref>). Further studies will be needed to establish the functional impact of these mutations in sarcoma.</p>
+        <p id="P8">Below, we focus on three major specific genomic findings with therapeutic implications: point mutation and deletion of <italic toggle="yes">NF1</italic> in a subset of soft tissue sarcomas, point mutation of <italic toggle="yes">PIK3CA</italic> in myxoid/round cell liposarcoma, and the complex pattern of amplification of chromosome 12q in dedifferentiated liposarcoma.</p>
+        <p id="P9">Integrated analysis of DNA copy number, expression, and mutation data uncovered diverse alterations of the Neurofibromatosis type 1 gene (<italic toggle="yes">NF1</italic>) in several sarcoma subtypes. While germline and somatic inactivation of <italic toggle="yes">NF1</italic> is associated with malignant peripheral nerve sheath tumors<xref rid="R11" ref-type="bibr">11</xref> and GISTs in Neurofibromatosis type 1 patients<xref rid="R12" ref-type="bibr">12</xref>, no somatic <italic toggle="yes">NF1</italic> alterations have been reported in other sarcomas. We detected six point mutations and twelve genomic deletions encompassing the <italic toggle="yes">NF1</italic> locus, occurring in both myxofibrosarcoma and pleomorphic liposarcoma (<xref ref-type="table" rid="T2">Table 2</xref> and <xref ref-type="fig" rid="F1">Figure 1</xref>, <xref ref-type="fig" rid="F2">2A–B</xref>; copy number analysis discussed further below). Two of the mutations, R304* and Q369*, were previously reported as germline mutations in patients with Neurofibromatosis type 1<xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R14" ref-type="bibr">14</xref>, while the other four mutations (three missense and one nonsense) have not been previously reported. In some tumors, biallelic inactivation was evident, with heterozygous point mutations accompanied by deletion of the wild-type allele and correspondingly reduced gene expression compared to normal adipose tissue<xref rid="R15" ref-type="bibr">15</xref> in most cases (<xref ref-type="fig" rid="F2">Figure 2B</xref>). Together, these data indicate a diverse pattern of <italic toggle="yes">NF1</italic> aberrations in myxofibrosarcomas and pleomorphic liposarcomas. These results complement recent reports of <italic toggle="yes">NF1</italic> alterations in lung cancers and glioblastomas<xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R8" ref-type="bibr">8</xref>.</p>
+        <p id="P10"><italic toggle="yes">PIK3CA</italic>, encoding the catalytic subunit of phosphatidylinositol 3-kinase (PI3K), had one of the highest somatic mutation frequencies among the genes in this analysis (<xref ref-type="table" rid="T2">Table 2</xref>). Nucleotide substitutions in <italic toggle="yes">PIK3CA</italic> were initially detected in 4 of 21 myxoid/round-cell liposarcomas (MRCs). We measured the frequency of point mutations in <italic toggle="yes">PIK3CA</italic> in this subtype by genotyping an independent cohort of 50 MRCs<xref rid="R16" ref-type="bibr">16</xref> for 13 common sites of <italic toggle="yes">PIK3CA</italic> mutation, including those discovered in our initial sequencing; mutations were detected in 9 additional patients (in total, 13 of 71). The mutations were clustered in two domains, the helical domain (E542K and E545K) and the kinase domain (H1047L and H1047R) (<xref ref-type="table" rid="T2">Table 2</xref>); both these domains are also mutated in epithelial tumors<xref rid="R17" ref-type="bibr">17</xref>.</p>
+        <p id="P11">MRC patients whose tumors harbored mutations in <italic toggle="yes">PIK3CA</italic> had a shorter duration of disease–specific survival than did those with wildtype <italic toggle="yes">PIK3CA</italic> (p=0.036, log-rank test). Similar to observations in breast cancers<xref rid="R18" ref-type="bibr">18</xref>, patients with helical-domain <italic toggle="yes">PIK3CA</italic> mutations had worse outcomes than those with kinase-domain mutations (<xref ref-type="fig" rid="F3">Figure 3A</xref>). However, this difference was not statistically significant given the small number of cases in our study.</p>
+        <p id="P12">As both helical- and kinase-domain <italic toggle="yes">PIK3CA</italic> mutants are believed to activate Akt, although through different mechanisms<xref rid="R19" ref-type="bibr">19</xref>–<xref rid="R21" ref-type="bibr">21</xref>, we assessed Akt activation in MRC tumors harboring wildtype and mutated <italic toggle="yes">PIK3CA</italic>. Of note, only E545K helical-domain mutations were associated with increased Akt phosphorylation relative to wildtype, both at serine-473 and threonine-308 (TORC2 and PDK1 phosphorylation sites, respectively), and with increased phosphorylation of Akt substrates PRAS40 and S6 kinase (<xref ref-type="fig" rid="F3">Figure 3B</xref>). Surprisingly, tumors with H1047R kinase-domain mutations did not have similar increases in Akt phosphorylation or activation (<xref ref-type="fig" rid="F3">Figure 3B</xref>). However, H1047R-mutant tumors exhibited variably higher levels of PTEN, a negative regulator of PI3K activity, which may partly explain lower Akt activity. In addition, we detected a single MRC tumor with homozygous <italic toggle="yes">PTEN</italic> deletion and high Akt phosphorylation levels (data not shown). Further studies are needed to determine the relationship between activated PI3K signaling (resulting from <italic toggle="yes">PIK3CA</italic> mutations) and the pathognomonic t(12;16)(q13;p11) translocation in this subtype.</p>
+        <p id="P13">In addition to sequencing, we characterized the spectrum of genomic aberrations in soft tissue sarcoma with 250K single nucleotide polymorphism (SNP) arrays for somatic copy number alterations (SCNAs: n=207; <xref ref-type="fig" rid="F1">Figure 1</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 2A</xref>) and loss-of-heterozygosity (LOH) (n=200; <xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 2B</xref>) and with oligonucleotide gene expression arrays (n=149) (see Methods). The patterns of statistically significant SCNAs<xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref> (<xref ref-type="fig" rid="F1">Figure 1</xref>) revealed substantial differences between subtypes with simple and complex karyotypes (<xref ref-type="fig" rid="F1">Figure 1</xref>). Myxoid/round-cell liposarcoma, synovial sarcoma, and GIST had relatively normal karyotypes compared to dedifferentiated and pleomorphic liposarcoma, leiomyosarcoma, and myxofibrosarcoma. In addition, only the four complex subtypes harbored significant copy-neutral LOH (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 2B and Supplementary Table 4</xref>). These types exhibit varied levels of complexity: both dedifferentiated liposarcoma and leiomyosarcoma are less complex than pleomorphic liposarcoma and myxofibrosarcoma (<xref ref-type="fig" rid="F1">Figure 1</xref>). The latter two subtypes were strikingly similar (<xref ref-type="fig" rid="F1">Figure 1</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 2A</xref>), indicating they might appropriately be considered a single entity in a molecular classification, as previously suggested<xref rid="R24" ref-type="bibr">24</xref>.</p>
+        <p id="P14">Our copy number profiling revealed both focal and broad regions of recurrent amplification (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 5</xref>). The alteration with the highest prevalence in any subtype was chromosome 12q amplification in dedifferentiated liposarcoma (~90%; <xref ref-type="fig" rid="F1">Figure 1</xref> and <xref ref-type="fig" rid="F4">Figure 4A</xref>). As amplification is a common mechanism of oncogenic activation, we designed an RNA interference (RNAi) screen to help identify genes in amplified regions that are necessary for cancer cell proliferation in this subtype. We performed knockdown with short hairpin RNAs (shRNA) on 385 genes (<xref ref-type="supplementary-material" rid="SD1">Supplementary Table 2</xref>) in three dedifferentiated liposarcoma cell lines (LPS141, DDLS8817, and FU-DDLS-1) with copy number profiles similar to those observed in primary tumors of this subtype. A total of 2,007 shRNA lentiviruses, a median of five per gene, were tested for their effects on cell proliferation after 5 days (see Methods).</p>
+        <p id="P15">Using a statistical method, RSA (see Methods, <xref ref-type="supplementary-material" rid="SD1">Supplementary Note</xref>, and ref. <xref rid="R25" ref-type="bibr">25</xref>), we identified 99 genes whose knockdown significantly decreased cell growth in at least one cell line (nominal p&lt;0.05; <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 6</xref>). For 91 of the 99 genes, two or more independent shRNAs had anti-proliferative activity, reducing the likelihood that our results are due to off-target effects. To determine whether the effect of gene knockdown on cell proliferation was specific for dedifferentiated liposarcoma, we compared our results to a pooled shRNA screen of ~9500 genes in 12 cancer cell lines of different types<xref rid="R26" ref-type="bibr">26</xref> which included 58 of the 99 genes whose knock-down reduced proliferation. Only one of the 58 genes, <italic toggle="yes">PSMB4</italic>, was identified as a common essential gene, for which depletion reduced cell proliferation in ≥8 of 12 cancer cell lines in the prior study<xref rid="R26" ref-type="bibr">26</xref>.</p>
+        <p id="P16">27 of the 99 genes whose knockdown reduced proliferation were amplified in at least one of the three dedifferentiated liposarcoma cell lines used in our study (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 3</xref>). Among these 27 genes, the most strongly overexpressed in dedifferentiated liposarcoma compared to normal fat<xref rid="R15" ref-type="bibr">15</xref> was <italic toggle="yes">CDK4</italic>, a cell-cycle regulator and a known oncogene<xref rid="R27" ref-type="bibr">27</xref>. We confirmed that sustained knockdown of <italic toggle="yes">CDK4</italic> (&gt;10 days) inhibited proliferation when we assayed two of the three cell lines we screened (see Methods, <xref ref-type="fig" rid="F4">Figure 4B</xref>). Furthermore, pharmacological inhibition of CDK4 in dedifferentiated liposarcoma cells with PD0332991, a selective CDK4/CDK6 inhibitor currently in clinical trials<xref rid="R28" ref-type="bibr">28</xref>, induced G1 arrest in the same two cell lines (<xref ref-type="fig" rid="F4">Figure 4C</xref>).</p>
+        <p id="P17">For <italic toggle="yes">MDM2</italic>, another oncogene found in focal 12q amplifications, knockdown did not significantly impair proliferation in our arrayed screen in any of the three cell lines tested. Nevertheless, proliferation was impaired by subsequent knockdown lasting more than a week when we assayed two of those three cell lines (<xref ref-type="fig" rid="F4">Figure 4D</xref>). Interestingly, another gene whose knockdown reduced proliferation of cells in which it was amplified was <italic toggle="yes">YEATS4</italic> (<italic toggle="yes">GAS41</italic>), encoding a putative transcription factor that represses the p53 tumor suppressor network during normal cell proliferation<xref rid="R29" ref-type="bibr">29</xref>. <italic toggle="yes">YEATS4</italic>, frequently co-amplified with <italic toggle="yes">MDM2</italic> (<xref ref-type="fig" rid="F4">Figure 4A</xref>), was transcriptionally upregulated both in tumors relative to normal adipose tissue and in tumors with amplification compared to those copy-neutral for the locus (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 3</xref>). Repeat shRNA experiments confirmed the effect of <italic toggle="yes">YEATS4</italic> knockdown seen in the arrayed screen (<xref ref-type="fig" rid="F4">Figure 4E</xref>), consistent with the hypothesis that <italic toggle="yes">YEATS4</italic> and <italic toggle="yes">MDM2</italic> amplification may cooperatively repress the p53 network in dedifferentiated liposarcoma, as recently suggested<xref rid="R30" ref-type="bibr">30</xref>. This finding may have consequences for Nutlin-based antagonism of the p53-MDM2 interaction<xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R31" ref-type="bibr">31</xref> in dedifferentiated liposarcomas. Our findings lend additional support for <italic toggle="yes">YEATS4</italic> serving as a likely key amplified gene in cancer, as recently suggested through a weight-of-evidence classification scheme proposed for identifying such amplified cancer genes<xref rid="R32" ref-type="bibr">32</xref>.</p>
+        <p id="P18">This dataset provides the most comprehensive database of sarcoma genome alterations to date, revealing genes and signaling pathways not previously associated with this group of diseases. The study results are available as a community resource that might further the biological understanding of sarcomas and, eventually, shed light on additional strategies to improve patient care. Some of our findings already have potential therapeutic implications. For instance, the <italic toggle="yes">PIK3CA</italic> mutations found in MRC constitute the first report of such mutations in a mesenchymal cancer. These mutations identify a subset of tumors that might respond to treatment with PI3K inhibitors currently in clinical trials<xref rid="R33" ref-type="bibr">33</xref>. Our results also provide further rationale for use of CDK4 inhibitors in dedifferentiated liposarcoma and suggest the use of mTOR inhibitors in NF1-deficient sarcomas, since loss of NF1 function appears to cause mTOR pathway activation<xref rid="R34" ref-type="bibr">34</xref>. Finally, these data lend support for the clinical evaluation of agents targeting the p53/MDM2 interaction in dedifferentiated liposarcoma.</p>
+        <p id="P19">This work argues for the therapeutic importance of genomic alterations in sarcoma and encourages us to pursue next-generation sequencing strategies that will continue to define the landscape of genomic aberrations in these deadly diseases.</p>
+      </sec>
+      <sec sec-type="methods" id="S2">
+        <title>Methods</title>
+        <p id="P20">Methods and any associated references are available in the online version of the paper at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.nature.com/naturegenetics/">http://www.nature.com/naturegenetics/</ext-link>.</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="SM">
+        <title>Supplementary Material</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <label>1</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS212743-supplement-1.pdf" mimetype="application" mime-subtype="pdf" id="d37e1056" position="anchor" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <label>2</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS212743-supplement-2.xlsx" mimetype="application" mime-subtype="octet-stream" id="d37e1060" position="anchor" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <label>3</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS212743-supplement-3.xlsx" mimetype="application" mime-subtype="octet-stream" id="d37e1064" position="anchor" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD4" position="float" orientation="portrait">
+          <label>4</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS212743-supplement-4.xlsx" mimetype="application" mime-subtype="octet-stream" id="d37e1068" position="anchor" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD5" position="float" orientation="portrait">
+          <label>5</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS212743-supplement-5.xlsx" mimetype="application" mime-subtype="octet-stream" id="d37e1072" position="anchor" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD6" position="float" orientation="portrait">
+          <label>6</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS212743-supplement-6.xlsx" mimetype="application" mime-subtype="octet-stream" id="d37e1076" position="anchor" orientation="portrait"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD7" position="float" orientation="portrait">
+          <label>01</label>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS212743-supplement-01.pdf" mimetype="application" mime-subtype="pdf" id="d37e1080" position="anchor" orientation="portrait"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <fn-group>
+        <fn id="FN3">
+          <p id="P21">
+            <bold>URLs</bold>
+          </p>
+          <p id="P22">Sarcoma Genome Project (SGP) data portals, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/sarcoma/">http://www.broadinstitute.org/sarcoma/</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cbio.mskcc.org/cancergenomics/sgp">http://cbio.mskcc.org/cancergenomics/sgp</ext-link>; The RNAi Consortium shRNA library, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/rnai/trc/lib/">http://www.broadinstitute.org/rnai/trc/lib/</ext-link>; UCSC Genome Browser, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://genome.ucsc.edu/">http://genome.ucsc.edu/</ext-link>; Database of Genomic Variants (DGV), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://projects.tcag.ca/variation/">http://projects.tcag.ca/variation/</ext-link>; GenePattern, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/genepattern/">http://www.broadinstitute.org/genepattern/</ext-link>; Integrative Genomics Viewer (IGV), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.broadinstitute.org/igv/">http://www.broadinstitute.org/igv/</ext-link></p>
+        </fn>
+        <fn id="FN4">
+          <p id="P23">
+            <bold>Accession numbers</bold>
+          </p>
+          <p id="P24">Study data is deposited in NCBI GEO under accession number <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE21124">GSE21124</ext-link>.</p>
+        </fn>
+        <fn id="FN5" fn-type="con">
+          <p id="P25">
+            <bold>Author Contributions</bold>
+          </p>
+          <p id="P26">Project conception: E.S.L, H.E.V., W.R.S., M.M., S. Singer. Study design and oversight by J.B., B.S.T, A.L., R.G.M., L.A.G., G.K.S., E.S.L, H.E.V., W.R.S., C.R.A., M.L., C. Sander, M.M., S. Singer. Sample selection and analyte processing was carried out by P.L.D, A.V., C.R.A, M.L., S. Singer. Sequencing and genotyping experiments were performed by J.B., A.H.R., K.S., C.H., R.N., M.H., T. Sharpe., T.F., K.C., R.C.O., C. Sougnez. W.W., H.G., T. Saito, N.S., C.L. RNA interference screen was performed by J.B., K.S., S. Silver, D.R. Validation experiments performed by S.B., M.L.Q., A.H., G.K.S. Statistical and bioinformatics analyses were performed by B.S.T, A.H.R, N.D.S, B.A.W, D.Y.C, B.R., C.M. G.G., Y.A., R.B., S.N., J.E.M. Analysis and interpretation of the results was carried out by J.B. and B.S.T. J.B., B.S.T., S.B., A.H.R., M.L., C.S., M.M., S. Singer drafted the manuscript. All authors contributed to critical review of the paper.</p>
+        </fn>
+        <fn id="FN6">
+          <p id="P27"><bold>Author Information:</bold> The authors declare no competing financial interests.</p>
+        </fn>
+      </fn-group>
+      <ack id="S3">
+        <title>Acknowledgements</title>
+        <p id="P28">For advice and discussion, we thank W. Lin, J. Boehm, C. Johannessen, A. Bass, M. Garber, S. Finn, J. Fletcher, W.C. Hahn, T. Golub, and all the members of the Spanish Group for Research on Sarcomas (GEIS). We are grateful for the technical assistance and support of B. Blumenstail, L. Ziaugra and S. Gabriel of the Broad Genetic Analysis Platform; J. Baldwin of the Broad Sequencing Platform; J. Franklin, S. Mahan and K. Ardlie of the Broad Biological Samples Platform; and H. Le, P. Lizotte, B. Wong, A. Allen, A. Derr, C. Nguyen and J. Grenier of the Broad RNAi Platform. We thank L. Borsu for assistance with Sequenom assays at MSKCC. The MSKCC Sequenom facility is supported by the Anbinder Fund. We also thank the members of the MSKCC Genomics Core Laboratory and N.H. Moraco for clinical data support. J. Fletcher and J. Nishio provided the LPS141 and FU-DDLS-1 cell lines respectively. J.B. is a <italic toggle="yes">Beatriu de Pinos</italic> fellow of the <italic toggle="yes">Departament d’Universitats, Recerca i Societat de la Informacio de la Generalitat de Catalunya</italic>. B.S.T is a fellow of the Geoffrey Beene Cancer Research Center at MSKCC. This work was supported in part by The Soft Tissue Sarcoma Program Project (P01 CA047179, S.S., M.L. and C.S.), The Kristen Ann Carr Fund, the Starr Foundation Cancer Consortium, and by a generous donation from Mr. Mortimer B. Zuckerman.</p>
+      </ack>
+      <ref-list>
+        <title>References</title>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Jemal</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Cancer statistics, 2009</article-title>
+            <source>CA Cancer J Clin</source>
+            <year>2009</year>
+            <volume>59</volume>
+            <fpage>225</fpage>
+            <lpage>249</lpage>
+            <pub-id pub-id-type="pmid">19474385</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.3322/caac.20006</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="editor">
+              <name name-style="western">
+                <surname>Fletcher</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Unni</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Mertens</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <source>Pathology and Genetics of Tumors of Soft Tissue and Bone</source>
+            <year>2002</year>
+            <publisher-loc>Lyon</publisher-loc>
+            <publisher-name>International Agency for Research on Cancer Press</publisher-name>
+            <fpage>427</fpage>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Heinrich</surname>
+                <given-names>MC</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>PDGFRA activating mutations in gastrointestinal stromal tumors</article-title>
+            <source>Science</source>
+            <year>2003</year>
+            <volume>299</volume>
+            <fpage>708</fpage>
+            <lpage>710</lpage>
+            <pub-id pub-id-type="pmid">12522257</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1079666</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hirota</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gain-of-function mutations of c-kit in human gastrointestinal stromal tumors</article-title>
+            <source>Science</source>
+            <year>1998</year>
+            <volume>279</volume>
+            <fpage>577</fpage>
+            <lpage>580</lpage>
+            <pub-id pub-id-type="pmid">9438854</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.279.5350.577</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Demetri</surname>
+                <given-names>GD</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Efficacy and safety of imatinib mesylate in advanced gastrointestinal stromal tumors</article-title>
+            <source>N Engl J Med</source>
+            <year>2002</year>
+            <volume>347</volume>
+            <fpage>472</fpage>
+            <lpage>480</lpage>
+            <pub-id pub-id-type="pmid">12181401</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa020461</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>van de Rijn</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fletcher</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetics of soft tissue tumors</article-title>
+            <source>Annu Rev Pathol</source>
+            <year>2006</year>
+            <volume>1</volume>
+            <fpage>435</fpage>
+            <lpage>466</lpage>
+            <pub-id pub-id-type="pmid">18039122</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev.pathol.1.110304.100052</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ding</surname>
+                <given-names>L</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Somatic mutations affect key pathways in lung adenocarcinoma</article-title>
+            <source>Nature</source>
+            <year>2008</year>
+            <volume>455</volume>
+            <fpage>1069</fpage>
+            <lpage>1075</lpage>
+            <pub-id pub-id-type="pmid">18948947</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07423</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2694412</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <collab>Cancer Genome Atlas Research Network</collab>
+            <article-title>Comprehensive genomic characterization defines human glioblastoma genes and core pathways</article-title>
+            <source>Nature</source>
+            <year>2008</year>
+            <volume>455</volume>
+            <fpage>1061</fpage>
+            <lpage>1068</lpage>
+            <pub-id pub-id-type="pmid">18772890</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07385</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2671642</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Greenman</surname>
+                <given-names>C</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Patterns of somatic mutation in human cancer genomes</article-title>
+            <source>Nature</source>
+            <year>2007</year>
+            <volume>446</volume>
+            <fpage>153</fpage>
+            <lpage>158</lpage>
+            <pub-id pub-id-type="pmid">17344846</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature05610</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2712719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Velculescu</surname>
+                <given-names>VE</given-names>
+              </name>
+            </person-group>
+            <article-title>Defining the blueprint of the cancer genome</article-title>
+            <source>Carcinogenesis</source>
+            <year>2008</year>
+            <volume>29</volume>
+            <fpage>1087</fpage>
+            <lpage>1091</lpage>
+            <pub-id pub-id-type="pmid">18495658</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/carcin/bgn096</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2825145</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>King</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Debaun</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Riccardi</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gutmann</surname>
+                <given-names>DH</given-names>
+              </name>
+            </person-group>
+            <article-title>Malignant peripheral nerve sheath tumors in neurofibromatosis 1</article-title>
+            <source>Am J Med Genet</source>
+            <year>2000</year>
+            <volume>93</volume>
+            <fpage>388</fpage>
+            <lpage>392</lpage>
+            <pub-id pub-id-type="pmid">10951462</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Maertens</surname>
+                <given-names>O</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Molecular pathogenesis of multiple gastrointestinal stromal tumors in NF1 patients</article-title>
+            <source>Hum Mol Genet</source>
+            <year>2006</year>
+            <volume>15</volume>
+            <fpage>1015</fpage>
+            <lpage>1023</lpage>
+            <pub-id pub-id-type="pmid">16461335</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/hmg/ddl016</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Maertens</surname>
+                <given-names>O</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Comprehensive NF1 screening on cultured Schwann cells from neurofibromas</article-title>
+            <source>Hum Mutat</source>
+            <year>2006</year>
+            <volume>27</volume>
+            <fpage>1030</fpage>
+            <lpage>1040</lpage>
+            <pub-id pub-id-type="pmid">16941471</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/humu.20389</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Upadhyaya</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Characterization of the somatic mutational spectrum of the neurofibromatosis type 1 (NF1) gene in neurofibromatosis patients with benign and malignant tumors</article-title>
+            <source>Hum Mutat</source>
+            <year>2004</year>
+            <volume>23</volume>
+            <fpage>134</fpage>
+            <lpage>146</lpage>
+            <pub-id pub-id-type="pmid">14722917</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/humu.10305</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Singer</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Gene expression profiling of liposarcoma identifies distinct biological types/subtypes and potential therapeutic targets in well-differentiated and dedifferentiated liposarcoma</article-title>
+            <source>Cancer Res</source>
+            <year>2007</year>
+            <volume>67</volume>
+            <fpage>6626</fpage>
+            <lpage>6636</lpage>
+            <pub-id pub-id-type="pmid">17638873</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-07-0584</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Antonescu</surname>
+                <given-names>CR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Prognostic impact of P53 status, TLS-CHOP fusion transcript structure, and histological grade in myxoid liposarcoma: a molecular and clinicopathologic study of 82 cases</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2001</year>
+            <volume>7</volume>
+            <fpage>3977</fpage>
+            <lpage>3987</lpage>
+            <pub-id pub-id-type="pmid">11751490</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Samuels</surname>
+                <given-names>Y</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High frequency of mutations of the PIK3CA gene in human cancers</article-title>
+            <source>Science</source>
+            <year>2004</year>
+            <volume>304</volume>
+            <fpage>554</fpage>
+            <pub-id pub-id-type="pmid">15016963</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1096502</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Barbareschi</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Different prognostic roles of mutations in the helical and kinase domains of the PIK3CA gene in breast carcinomas</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2007</year>
+            <volume>13</volume>
+            <fpage>6064</fpage>
+            <lpage>6069</lpage>
+            <pub-id pub-id-type="pmid">17947469</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-07-0266</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>CH</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The structure of a human p110alpha/p85alpha complex elucidates the effects of oncogenic PI3Kalpha mutations</article-title>
+            <source>Science</source>
+            <year>2007</year>
+            <volume>318</volume>
+            <fpage>1744</fpage>
+            <lpage>1748</lpage>
+            <pub-id pub-id-type="pmid">18079394</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1150799</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Miled</surname>
+                <given-names>N</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mechanism of two classes of cancer mutations in the phosphoinositide 3-kinase catalytic subunit</article-title>
+            <source>Science</source>
+            <year>2007</year>
+            <volume>317</volume>
+            <fpage>239</fpage>
+            <lpage>242</lpage>
+            <pub-id pub-id-type="pmid">17626883</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1135394</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Yuan</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cantley</surname>
+                <given-names>LC</given-names>
+              </name>
+            </person-group>
+            <article-title>PI3K pathway alterations in cancer: variations on a theme</article-title>
+            <source>Oncogene</source>
+            <year>2008</year>
+            <volume>27</volume>
+            <fpage>5497</fpage>
+            <lpage>5510</lpage>
+            <pub-id pub-id-type="pmid">18794884</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2008.245</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3398461</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Beroukhim</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Assessing the significance of chromosomal aberrations in cancer: methodology and application to glioma</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2007</year>
+            <volume>104</volume>
+            <fpage>20007</fpage>
+            <lpage>20012</lpage>
+            <pub-id pub-id-type="pmid">18077431</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0710052104</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2148413</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>BS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Functional copy-number alterations in cancer</article-title>
+            <source>PLoS ONE</source>
+            <year>2008</year>
+            <volume>3</volume>
+            <fpage>e3179</fpage>
+            <pub-id pub-id-type="pmid">18784837</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0003179</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2527508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Idbaih</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Myxoid malignant fibrous histiocytoma and pleomorphic liposarcoma share very similar genomic imbalances</article-title>
+            <source>Lab Invest</source>
+            <year>2005</year>
+            <volume>85</volume>
+            <fpage>176</fpage>
+            <lpage>181</lpage>
+            <pub-id pub-id-type="pmid">15702084</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/labinvest.3700202</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Konig</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A probability-based approach for the analysis of large-scale RNAi screens</article-title>
+            <source>Nat Methods</source>
+            <year>2007</year>
+            <volume>4</volume>
+            <fpage>847</fpage>
+            <lpage>849</lpage>
+            <pub-id pub-id-type="pmid">17828270</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth1089</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Luo</surname>
+                <given-names>B</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Highly parallel identification of essential genes in cancer cells</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2008</year>
+            <volume>105</volume>
+            <fpage>20380</fpage>
+            <lpage>20385</lpage>
+            <pub-id pub-id-type="pmid">19091943</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0810485105</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2629277</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Futreal</surname>
+                <given-names>PA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A census of human cancer genes</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2004</year>
+            <volume>4</volume>
+            <fpage>177</fpage>
+            <lpage>183</lpage>
+            <pub-id pub-id-type="pmid">14993899</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc1299</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2665285</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Malumbres</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Barbacid</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Cell cycle, CDKs and cancer: a changing paradigm</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2009</year>
+            <volume>9</volume>
+            <fpage>153</fpage>
+            <lpage>166</lpage>
+            <pub-id pub-id-type="pmid">19238148</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2602</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Park</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roeder</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <article-title>GAS41 is required for repression of the p53 tumor suppressor pathway during normal cellular proliferation</article-title>
+            <source>Mol Cell Biol</source>
+            <year>2006</year>
+            <volume>26</volume>
+            <fpage>4006</fpage>
+            <lpage>4016</lpage>
+            <pub-id pub-id-type="pmid">16705155</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/MCB.02185-05</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1489109</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Italiano</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>HMGA2 is the partner of MDM2 in well-differentiated and dedifferentiated liposarcomas whereas CDK4 belongs to a distinct inconsistent amplicon</article-title>
+            <source>Int J Cancer</source>
+            <year>2008</year>
+            <volume>122</volume>
+            <fpage>2233</fpage>
+            <lpage>2241</lpage>
+            <pub-id pub-id-type="pmid">18214854</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.23380</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Muller</surname>
+                <given-names>CR</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Potential for treatment of liposarcomas with the MDM2 antagonist Nutlin-3A</article-title>
+            <source>Int J Cancer</source>
+            <year>2007</year>
+            <volume>121</volume>
+            <fpage>199</fpage>
+            <lpage>205</lpage>
+            <pub-id pub-id-type="pmid">17354236</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.22643</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Santarius</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Shipley</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Brewer</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cooper</surname>
+                <given-names>CS</given-names>
+              </name>
+            </person-group>
+            <article-title>A census of amplified and overexpressed human cancer genes</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2010</year>
+            <volume>10</volume>
+            <fpage>59</fpage>
+            <lpage>64</lpage>
+            <pub-id pub-id-type="pmid">20029424</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2771</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Garcia-Echeverria</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sellers</surname>
+                <given-names>WR</given-names>
+              </name>
+            </person-group>
+            <article-title>Drug discovery approaches targeting the PI3K/Akt pathway in cancer</article-title>
+            <source>Oncogene</source>
+            <year>2008</year>
+            <volume>27</volume>
+            <fpage>5511</fpage>
+            <lpage>5526</lpage>
+            <pub-id pub-id-type="pmid">18794885</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2008.246</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Johannessen</surname>
+                <given-names>CM</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>The NF1 tumor suppressor critically regulates TSC2 and mTOR</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2005</year>
+            <volume>102</volume>
+            <fpage>8573</fpage>
+            <lpage>8578</lpage>
+            <pub-id pub-id-type="pmid">15937108</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0503224102</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1142482</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Dutt</surname>
+                <given-names>A</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Drug-sensitive FGFR2 mutations in endometrial carcinoma</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2008</year>
+            <volume>105</volume>
+            <fpage>8713</fpage>
+            <lpage>8717</lpage>
+            <pub-id pub-id-type="pmid">18552176</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0803379105</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2438391</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gordon</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Abajian</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Green</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Consed: a graphical tool for sequence finishing</article-title>
+            <source>Genome Res</source>
+            <year>1998</year>
+            <volume>8</volume>
+            <fpage>195</fpage>
+            <lpage>202</lpage>
+            <pub-id pub-id-type="pmid">9521923</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.8.3.195</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nickerson</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tobe</surname>
+                <given-names>VO</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Taylor</surname>
+                <given-names>SL</given-names>
+              </name>
+            </person-group>
+            <article-title>PolyPhred: automating the detection and genotyping of single nucleotide substitutions using fluorescence-based resequencing</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>1997</year>
+            <volume>25</volume>
+            <fpage>2745</fpage>
+            <lpage>2751</lpage>
+            <pub-id pub-id-type="pmid">9207020</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/25.14.2745</pub-id>
+            <pub-id pub-id-type="pmcid">PMC146817</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>SNPdetector: a software tool for sensitive and accurate SNP detection</article-title>
+            <source>PLoS Comput Biol</source>
+            <year>2005</year>
+            <volume>1</volume>
+            <fpage>e53</fpage>
+            <pub-id pub-id-type="pmid">16261194</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pcbi.0010053</pub-id>
+            <pub-id pub-id-type="pmcid">PMC1274293</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Major</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Genomic mutation consequence calculator</article-title>
+            <source>Bioinformatics</source>
+            <year>2007</year>
+            <volume>23</volume>
+            <fpage>3091</fpage>
+            <lpage>3092</lpage>
+            <pub-id pub-id-type="pmid">17599934</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btm339</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Thomas</surname>
+                <given-names>RK</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>High-throughput oncogene mutation profiling in human cancer</article-title>
+            <source>Nat Genet</source>
+            <year>2007</year>
+            <volume>39</volume>
+            <fpage>347</fpage>
+            <lpage>351</lpage>
+            <pub-id pub-id-type="pmid">17293865</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng1975</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Irizarry</surname>
+                <given-names>RA</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exploration, normalization, and summaries of high density oligonucleotide array probe level data</article-title>
+            <source>Biostatistics</source>
+            <year>2003</year>
+            <volume>4</volume>
+            <fpage>249</fpage>
+            <lpage>264</lpage>
+            <pub-id pub-id-type="pmid">12925520</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/biostatistics/4.2.249</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Reich</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>GenePattern 2.0</article-title>
+            <source>Nat Genet</source>
+            <year>2006</year>
+            <volume>38</volume>
+            <fpage>500</fpage>
+            <lpage>501</lpage>
+            <pub-id pub-id-type="pmid">16642009</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng0506-500</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Iafrate</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Detection of large-scale variation in the human genome</article-title>
+            <source>Nat Genet</source>
+            <year>2004</year>
+            <volume>36</volume>
+            <fpage>949</fpage>
+            <lpage>951</lpage>
+            <pub-id pub-id-type="pmid">15286789</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng1416</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lin</surname>
+                <given-names>M</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>dChipSNP: significance curve and clustering of SNP-array-based loss-of-heterozygosity data</article-title>
+            <source>Bioinformatics</source>
+            <year>2004</year>
+            <volume>20</volume>
+            <fpage>1233</fpage>
+            <lpage>1240</lpage>
+            <pub-id pub-id-type="pmid">14871870</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/bth069</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ambrosini</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Sorafenib inhibits growth and mitogen-activated protein kinase signaling in malignant peripheral nerve sheath cells</article-title>
+            <source>Mol Cancer Ther</source>
+            <year>2008</year>
+            <volume>7</volume>
+            <fpage>890</fpage>
+            <lpage>896</lpage>
+            <pub-id pub-id-type="pmid">18413802</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-07-0518</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3267321</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Ambrosini</surname>
+                <given-names>G</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mouse double minute antagonist Nutlin-3a enhances chemotherapy-induced apoptosis in cancer cells with mutant p53 by activating E2F1</article-title>
+            <source>Oncogene</source>
+            <year>2007</year>
+            <volume>26</volume>
+            <fpage>3473</fpage>
+            <lpage>3481</lpage>
+            <pub-id pub-id-type="pmid">17146434</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1210136</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Nishio</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Establishment of a novel human dedifferentiated liposarcoma cell line, FU-DDLS-1: conventional and molecular cytogenetic characterization</article-title>
+            <source>Int J Oncol</source>
+            <year>2003</year>
+            <volume>22</volume>
+            <fpage>535</fpage>
+            <lpage>542</lpage>
+            <pub-id pub-id-type="pmid">12579306</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Moffat</surname>
+                <given-names>J</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A lentiviral RNAi library for human and mouse genes applied to an arrayed viral high-content screen</article-title>
+            <source>Cell</source>
+            <year>2006</year>
+            <volume>124</volume>
+            <fpage>1283</fpage>
+            <lpage>1298</lpage>
+            <pub-id pub-id-type="pmid">16564017</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2006.01.040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Malo</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hanley</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cerquozzi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pelletier</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nadon</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical practice in high-throughput screening data analysis</article-title>
+            <source>Nat Biotechnol</source>
+            <year>2006</year>
+            <volume>24</volume>
+            <fpage>167</fpage>
+            <lpage>175</lpage>
+            <pub-id pub-id-type="pmid">16465162</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt1186</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Smyth</surname>
+                <given-names>GK</given-names>
+              </name>
+            </person-group>
+            <article-title>Linear models and empirical bayes methods for assessing differential expression in microarray experiments</article-title>
+            <source>Stat Appl Genet Mol Biol</source>
+            <year>2004</year>
+            <volume>3</volume>
+            <comment>Article3</comment>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.2202/1544-6115.1027</pub-id>
+            <pub-id pub-id-type="pmid">16646809</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Benjamini</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hochberg</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing</article-title>
+            <source>J Roy Stat Soc, Ser B</source>
+            <year>1995</year>
+            <volume>57</volume>
+            <fpage>289</fpage>
+            <lpage>300</lpage>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+    <floats-group>
+      <fig id="F1" position="float" orientation="portrait">
+        <label>Figure 1</label>
+        <caption>
+          <title>Nucleotide and copy number alterations in soft-tissue sarcoma subtypes</title>
+          <p id="P29">The statistical significance of genomic aberrations for each subtype is shown. RAE q-values [left axis; for visualization, q-values ≤ 0.05 are considered significant, corresponding false discovery rate (FDR) ≤ 5%] and scores (right axis) for gains and amplifications (red) and losses and deletions (blue) are plotted across the genome (chromosomes indicated at bottom). Genes harboring somatic nucleotide alterations in this study are indicated in each subtype in which they were discovered (<xref ref-type="table" rid="T2">Table 2</xref>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms212743f1.jpg"/>
+      </fig>
+      <fig id="F2" position="float" orientation="portrait">
+        <label>Figure 2</label>
+        <caption>
+          <title><italic toggle="yes">NF1</italic> alterations in karyotypically complex sarcomas</title>
+          <p id="P30"><bold>A.</bold> Somatic mutations in the NF1 protein in myxofibrosarcoma and pleomorphic liposarcoma (black triangles) and the position of the RasGAP and Cral domains (dark and light green respectively) are juxtaposed to known mutations in malignant peripheral nerve sheath tumors (MPNSTs; open triangles). <bold>B.</bold> Transcript expression according to copy number and sequence status in myxofibrosarcoma and pleomorphic liposarcoma compared to normal adipose tissue samples (black/red and green respectively, log<sub>2</sub> expression from Affymetrix array profiling data; p-value=1.94×10<sup>−5</sup>, ANOVA; mutated tumors are indicated). One of the two R304* mutant tumors lacked expression data.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms212743f2.jpg"/>
+      </fig>
+      <fig id="F3" position="float" orientation="portrait">
+        <label>Figure 3</label>
+        <caption>
+          <title>Different effect of helical and kinase domain <italic toggle="yes">PIK3CA</italic> mutations on PI3K pathway activation and survival in myxoid/round-cell liposarcoma</title>
+          <p id="P31"><bold>A.</bold> Survival for patients with tumors that harbor helical-domain mutations (red) versus kinase-domain mutations (grey), and wildtype <italic toggle="yes">PIK3CA</italic> (blue). The analysis includes the 65 patients for whom outcome information was available. Patients with mutations in either the helical or the kinase domain had a shorter disease–specific survival compared to those with wildtype <italic toggle="yes">PIK3CA</italic> (p-value = 0.0363, log-rank test). The difference in disease-specific survival between patients with helical-domain mutant tumors and those with wildtype <italic toggle="yes">PIK3CA</italic> tumors was significant (p-value=0.013, log-rank test). <bold>B.</bold> Western blots of myxoid/round-cell liposarcoma tumor lysates comparing the phosphorylation levels of Akt, PRAS40, and S6 kinase, as well as their protein levels, in patients with wild-type <italic toggle="yes">PIK3CA</italic> or with mutations in <italic toggle="yes">PIK3CA</italic> helical or kinase domains.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms212743f3.jpg"/>
+      </fig>
+      <fig id="F4" position="float" orientation="portrait">
+        <label>Figure 4</label>
+        <caption>
+          <title>Genes whose knockdown is anti-proliferative in dedifferentiated liposarcoma and the consequences of <italic toggle="yes">CDK4, MDM2 and YEATS4</italic> knockdown in dedifferentiated liposarcoma</title>
+          <p id="P32"><bold>(A)</bold> Integrated profile of statistically significant genomic gains/amplifications as assessed by both RAE and GISTIC (combined as described in Methods; FDR, false-discovery rate) is followed by a heatmap of copy number segmentation on 12q13.2-q32.1 in 50 patient samples of dedifferentiated liposarcomas (red is amplification, blue is deletion, each row indicates one tumor sample). Below is the position of genes from our screen encoded by this region of 12q whose knockdown is anti-proliferative in dedifferentiated liposarcoma. Bold gene symbols indicate those whose amplification produced over-expression of its transcript or those over-expressed in tumor relative to normal adipose tissue. Genes in green are highlighted in panels B–C and E. Alternative genomic regions encoding genes not on 12q whose knockdown is anti-proliferative are also included. <bold>(B)</bold> Effect of three validated shRNAs targeting <italic toggle="yes">CDK4</italic> on the proliferation of two cell lines, LPS141 and DDLS8817, at various time points (x-axis) with negative controls (pLKO empty vector and GFP473). Below are western blots showing the effect of shRNAs on levels of CDK4 protein (as indicated). <bold>(C)</bold> G1 arrest induced in LPS141 and DDLS8817 cell lines by treatment with the CDK4/CDK6 inhibitor PD0332991. MDA-MB-435 (Rb-positive) and H2009 (Rb-negative) were included as sensitive and insensitive controls. Error bars are s.d. of replicate measurements. <bold>(D–E)</bold> As in panel (B), effect on proliferation of three shRNAs targeting MDM2 (panel D) and YEATS4 (panel E) (negative controls: pLKO empty vector and scrambled shRNA) where each targeting shRNA resulted in reduced protein levels (at bottom). Error bars are propagated error from the ratio of mean and s.d. of measurements/replicates to time 0.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms212743f4.jpg"/>
+      </fig>
+      <table-wrap id="T1" position="float" orientation="portrait">
+        <label>Table 1</label>
+        <caption>
+          <p id="P33">Summary of clinical and pathologic information for 207 soft-tissue sarcoma patients</p>
+        </caption>
+        <table frame="below" rules="groups">
+          <thead>
+            <tr>
+              <th align="left" rowspan="1" colspan="1">Characteristic</th>
+              <th align="center" rowspan="1" colspan="1">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">No. of patients</td>
+              <td align="center" rowspan="1" colspan="1">207</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Age [mean±SD (range)]</td>
+              <td align="center" rowspan="1" colspan="1">56±16 (7–84)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Gender (%) <xref ref-type="table-fn" rid="TFN2">†</xref></td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Female</td>
+              <td align="center" rowspan="1" colspan="1">102 (50.2)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Male</td>
+              <td align="center" rowspan="1" colspan="1">101 (49.8)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Tumor size <xref ref-type="table-fn" rid="TFN2">§</xref></td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  0–5 cm</td>
+              <td align="center" rowspan="1" colspan="1">35 (17.4)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  5–10 cm</td>
+              <td align="center" rowspan="1" colspan="1">65 (32.3)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  10–15 cm</td>
+              <td align="center" rowspan="1" colspan="1">43 (21.4)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  &gt;15 cm</td>
+              <td align="center" rowspan="1" colspan="1">58 (28.9)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Primary site (%) <xref ref-type="table-fn" rid="TFN2">†</xref></td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Retro-intrabdominal</td>
+              <td align="center" rowspan="1" colspan="1">60 (29.6)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Visceral</td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Gastrointestinal</td>
+              <td align="center" rowspan="1" colspan="1">23 (11.3)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Genitourinary</td>
+              <td align="center" rowspan="1" colspan="1">4 (2)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Gynecological</td>
+              <td align="center" rowspan="1" colspan="1">1 (0.5)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Thoracic</td>
+              <td align="center" rowspan="1" colspan="1">12 (5.9)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Extremity</td>
+              <td align="center" rowspan="1" colspan="1">93 (45.8)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Trunk</td>
+              <td align="center" rowspan="1" colspan="1">8 (3.9)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Head and Neck</td>
+              <td align="center" rowspan="1" colspan="1">2 (1)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Stage at time of sample procurment <xref ref-type="table-fn" rid="TFN2">‡</xref></td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Primary</td>
+              <td align="center" rowspan="1" colspan="1">139 (68.8)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Local recurrence</td>
+              <td align="center" rowspan="1" colspan="1">29 (14.4)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Distant recurrence</td>
+              <td align="center" rowspan="1" colspan="1">34 (16.8)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Histology</td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Dedifferentiated liposarcoma</td>
+              <td align="center" rowspan="1" colspan="1">50 (24.2)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Myxoid/round cell liposarcoma</td>
+              <td align="center" rowspan="1" colspan="1">21 (10.1)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Pleomorphic liposarcoma</td>
+              <td align="center" rowspan="1" colspan="1">24 (11.6)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Leiomyosarcoma</td>
+              <td align="center" rowspan="1" colspan="1">27 (13)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Gastrointestinal stromal tumor</td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Epithelioid</td>
+              <td align="center" rowspan="1" colspan="1">4 (1.9)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Spindle</td>
+              <td align="center" rowspan="1" colspan="1">11 (5.3)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Mixed or unspecified</td>
+              <td align="center" rowspan="1" colspan="1">7 (3.4)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Myxofibrosarcoma</td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Myxofibrosarcoma</td>
+              <td align="center" rowspan="1" colspan="1">35 (16.9)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Pleomorphic MFH</td>
+              <td align="center" rowspan="1" colspan="1">3 (1.5)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">  Synovial sarcoma <xref ref-type="table-fn" rid="TFN1">‖</xref></td>
+              <td align="center" rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Monophasic</td>
+              <td align="center" rowspan="1" colspan="1">19 (9.2)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">    Biphasic</td>
+              <td align="center" rowspan="1" colspan="1">4 (1.9)</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Median follow-up (months)</td>
+              <td align="center" rowspan="1" colspan="1">35.65</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Time to distant recurrence (months)</td>
+              <td align="center" rowspan="1" colspan="1">15.7</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Co-morbidities</td>
+              <td align="center" rowspan="1" colspan="1">57 (27.5)</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn id="TFN1">
+            <label>‖</label>
+            <p id="P34">One synovial sarcoma not specified</p>
+          </fn>
+          <fn id="TFN2">
+            <p id="P35">Data available for §201, †203, and ‡202 patients respectively</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="T2" position="float" orientation="landscape">
+        <label>Table 2</label>
+        <caption>
+          <p id="P36">Mutations identified in soft tissue sarcoma</p>
+        </caption>
+        <table frame="below" rules="groups">
+          <thead>
+            <tr>
+              <th align="left" valign="bottom" rowspan="1" colspan="1">Gene</th>
+              <th align="center" valign="bottom" rowspan="1" colspan="1">No. of<break/>mut.<xref ref-type="table-fn" rid="TFN4">a</xref></th>
+              <th align="center" valign="bottom" rowspan="1" colspan="1">Subtype</th>
+              <th align="center" valign="bottom" rowspan="1" colspan="1">Tumor ID</th>
+              <th align="center" rowspan="1" colspan="1">Cases<break/>affected<break/>(%)<xref ref-type="table-fn" rid="TFN5">b</xref></th>
+              <th align="center" valign="bottom" rowspan="1" colspan="1">mRNA</th>
+              <th align="center" valign="bottom" rowspan="1" colspan="1">Protein</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">CDH1</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">DDLPS</td>
+              <td align="center" rowspan="1" colspan="1">PT7DD</td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">712A&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">N238D</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT61GT</td>
+              <td align="center" rowspan="1" colspan="1">4.5</td>
+              <td align="center" rowspan="1" colspan="1">1849G&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">A617T<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">CTNNB1</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">DDLPS</td>
+              <td align="center" rowspan="1" colspan="1">PT18DD</td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">122C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">T41I<xref ref-type="table-fn" rid="TFN7">d</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Synovial</td>
+              <td align="center" rowspan="1" colspan="1">PT195SYN</td>
+              <td align="center" rowspan="1" colspan="1">4</td>
+              <td align="center" rowspan="1" colspan="1">95A&gt;AT</td>
+              <td align="center" rowspan="1" colspan="1">D32V<xref ref-type="table-fn" rid="TFN7">d</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">EPHA1</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">DDLPS</td>
+              <td align="center" rowspan="1" colspan="1">PT10DD</td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">634G&gt;GA</td>
+              <td align="center" rowspan="1" colspan="1">A212T</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">EPHA5</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT182PL</td>
+              <td align="center" rowspan="1" colspan="1">4.2</td>
+              <td align="center" rowspan="1" colspan="1">2386A&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">Y796H</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">EPHA7</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT106MF</td>
+              <td align="center" rowspan="1" colspan="1">2.6</td>
+              <td align="center" rowspan="1" colspan="1">1649C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">S550N</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">ERBB4</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT130MF</td>
+              <td align="center" rowspan="1" colspan="1">2.6</td>
+              <td align="center" rowspan="1" colspan="1">3437A&gt;AT</td>
+              <td align="center" rowspan="1" colspan="1">D1146V</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT167PL</td>
+              <td align="center" rowspan="1" colspan="1">4.2</td>
+              <td align="center" rowspan="1" colspan="1">1558A&gt;AT</td>
+              <td align="center" rowspan="1" colspan="1">C520S</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">FBXW7</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">DDLPS</td>
+              <td align="center" rowspan="1" colspan="1">PT38DD</td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">338_342delTCATC&gt;TC</td>
+              <td align="center" rowspan="1" colspan="1">E113fs</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT58GT</td>
+              <td align="center" rowspan="1" colspan="1">4.5</td>
+              <td align="center" rowspan="1" colspan="1">563G&gt;GT</td>
+              <td align="center" rowspan="1" colspan="1">C188F</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">IRS1</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT61GT</td>
+              <td align="center" rowspan="1" colspan="1">4.5</td>
+              <td align="center" rowspan="1" colspan="1">3406C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">E1136K</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">KIT</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">6</td>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT57GT</td>
+              <td align="center" rowspan="1" colspan="1">23</td>
+              <td align="center" rowspan="1" colspan="1">1727T&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">L576P<xref ref-type="table-fn" rid="TFN7">d</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT63GT</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">1961T&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">V654A<xref ref-type="table-fn" rid="TFN7">d</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT61GT</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">1667_1674delAGTGGAAG&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">Q556fs</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT60GT</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">1667_1687del<xref ref-type="table-fn" rid="TFN6">c</xref></td>
+              <td align="center" rowspan="1" colspan="1">Q556_I563&gt;Q</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT59GT</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">1670_1675delGGAAGG</td>
+              <td align="center" rowspan="1" colspan="1">W557_V559&gt;F<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MRC</td>
+              <td align="center" rowspan="1" colspan="1">PT149MRC</td>
+              <td align="center" rowspan="1" colspan="1">4.8</td>
+              <td align="center" rowspan="1" colspan="1">2334G&gt;CG</td>
+              <td align="center" rowspan="1" colspan="1">K778N</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">LTK</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">Synovial</td>
+              <td align="center" rowspan="1" colspan="1">PT190SYN</td>
+              <td align="center" rowspan="1" colspan="1">4</td>
+              <td align="center" rowspan="1" colspan="1">2243_2244delTT&gt;T</td>
+              <td align="center" rowspan="1" colspan="1">C748fs</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">MOS</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT61GT</td>
+              <td align="center" rowspan="1" colspan="1">4.5</td>
+              <td align="center" rowspan="1" colspan="1">898A&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">S300P</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">MST1R</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">GIST</td>
+              <td align="center" rowspan="1" colspan="1">PT60GT</td>
+              <td align="center" rowspan="1" colspan="1">4.5</td>
+              <td align="center" rowspan="1" colspan="1">1229G&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">P410L</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">NF1</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">7</td>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT104MF</td>
+              <td align="center" rowspan="1" colspan="1">10.5</td>
+              <td align="center" rowspan="1" colspan="1">7972C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">H2658Y</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT104MF</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">7790C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">S2597L</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT127MF</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">910C&gt;T</td>
+              <td align="center" rowspan="1" colspan="1">R304*<xref ref-type="table-fn" rid="TFN7">d</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT134MF</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">910C&gt;T</td>
+              <td align="center" rowspan="1" colspan="1">R304*<xref ref-type="table-fn" rid="TFN7">d</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT102MF</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">7010T&gt;TG</td>
+              <td align="center" rowspan="1" colspan="1">L2337R</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT176PL</td>
+              <td align="center" rowspan="1" colspan="1">8.3</td>
+              <td align="center" rowspan="1" colspan="1">1105C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">Q369*<xref ref-type="table-fn" rid="TFN7">d</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT179PL</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">4006C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">Q1336*</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">NTRK1</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT101MF</td>
+              <td align="center" rowspan="1" colspan="1">2.6</td>
+              <td align="center" rowspan="1" colspan="1">2338C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">R780W</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">PI4KA</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT137MF</td>
+              <td align="center" rowspan="1" colspan="1">2.6</td>
+              <td align="center" rowspan="1" colspan="1">4081_4088delTCTTATCT&gt;TCT</td>
+              <td align="center" rowspan="1" colspan="1">1361fs</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Synovial</td>
+              <td align="center" rowspan="1" colspan="1">PT203SYN</td>
+              <td align="center" rowspan="1" colspan="1">4</td>
+              <td align="center" rowspan="1" colspan="1">4081_4088delTCTTATCT&gt;TCT</td>
+              <td align="center" rowspan="1" colspan="1">1361fs</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">PIK3CA</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">6</td>
+              <td align="center" rowspan="1" colspan="1">MRC</td>
+              <td align="center" rowspan="1" colspan="1">PT143MRC</td>
+              <td align="center" rowspan="1" colspan="1">18</td>
+              <td align="center" rowspan="1" colspan="1">1633G&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">E545K<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MRC</td>
+              <td align="center" rowspan="1" colspan="1">PT149MRC</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">1633G&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">E545K<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MRC</td>
+              <td align="center" rowspan="1" colspan="1">PT138MRC</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">3140A&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">H1047R<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">MRC</td>
+              <td align="center" rowspan="1" colspan="1">PT158MRC</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">3140A&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">H1047R<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT173PL</td>
+              <td align="center" rowspan="1" colspan="1">4.2</td>
+              <td align="center" rowspan="1" colspan="1">1660delC</td>
+              <td align="center" rowspan="1" colspan="1">H554fs</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Synovial</td>
+              <td align="center" rowspan="1" colspan="1">PT195SYN</td>
+              <td align="center" rowspan="1" colspan="1">4</td>
+              <td align="center" rowspan="1" colspan="1">1659delT</td>
+              <td align="center" rowspan="1" colspan="1">S553fs</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">PTEN</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">2</td>
+              <td align="center" rowspan="1" colspan="1">MYXF</td>
+              <td align="center" rowspan="1" colspan="1">PT100MF</td>
+              <td align="center" rowspan="1" colspan="1">2.6</td>
+              <td align="center" rowspan="1" colspan="1">G&gt;CG</td>
+              <td align="center" rowspan="1" colspan="1">Splice site</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Synovial</td>
+              <td align="center" rowspan="1" colspan="1">PT206SYN</td>
+              <td align="center" rowspan="1" colspan="1">4</td>
+              <td align="center" rowspan="1" colspan="1">106G&gt;AA</td>
+              <td align="center" rowspan="1" colspan="1">G36R<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">PTK2B</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT163PL</td>
+              <td align="center" rowspan="1" colspan="1">4.2</td>
+              <td align="center" rowspan="1" colspan="1">G&gt;AG</td>
+              <td align="center" rowspan="1" colspan="1">Splice site</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">RB1</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT167PL</td>
+              <td align="center" rowspan="1" colspan="1">4.2</td>
+              <td align="center" rowspan="1" colspan="1">1818T&gt;TA</td>
+              <td align="center" rowspan="1" colspan="1">Y606*<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">SYK</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">1</td>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT163PL</td>
+              <td align="center" rowspan="1" colspan="1">4.2</td>
+              <td align="center" rowspan="1" colspan="1">52G&gt;AA</td>
+              <td align="center" rowspan="1" colspan="1">G18S</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">
+                <italic toggle="yes">TP53</italic>
+              </td>
+              <td align="center" rowspan="1" colspan="1">4</td>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT163PL</td>
+              <td align="center" rowspan="1" colspan="1">16.7</td>
+              <td align="center" rowspan="1" colspan="1">404C&gt;AA</td>
+              <td align="center" rowspan="1" colspan="1">C135F<xref ref-type="table-fn" rid="TFN7">e</xref></td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT169PL</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">464G&gt;AA</td>
+              <td align="center" rowspan="1" colspan="1">T155I</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT173PL</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">C&gt;CT</td>
+              <td align="center" rowspan="1" colspan="1">Splice site</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">Pleomorphic</td>
+              <td align="center" rowspan="1" colspan="1">PT164PL</td>
+              <td align="center" rowspan="1" colspan="1"/>
+              <td align="center" rowspan="1" colspan="1">C&gt;TT</td>
+              <td align="center" rowspan="1" colspan="1">Splice site</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn id="TFN3">
+            <p id="P37">DDLPS, dedifferentiated liposarcoma; GIST, gastroinstestinal stromal tumor; MRC, myxoid/round-cell liposarcoma; MYXF, myxofibrosarcoma.</p>
+          </fn>
+          <fn id="TFN4">
+            <label>a</label>
+            <p id="P38">Number of nonsynonymous or splice site mutations detected in either primary sequencing or extended genotyping.</p>
+          </fn>
+          <fn id="TFN5">
+            <label>b</label>
+            <p id="P39">Percentage of cases by subtype.</p>
+          </fn>
+          <fn id="TFN6">
+            <label>c</label>
+            <p id="P40">Reference allele: GTGGAAGGTTGTTGAGGAGAT.</p>
+          </fn>
+          <fn id="TFN7">
+            <p id="P41">Mutations previously identified in <sup>d</sup> soft-tissue sarcoma or in any <sup>e</sup> cancer type (COSMIC; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.sanger.ac.uk/genetics/CGP/cosmic/">http://www.sanger.ac.uk/genetics/CGP/cosmic/</ext-link>).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </floats-group>
+  </article>
+</pmc-articleset>

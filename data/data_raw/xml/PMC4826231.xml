@@ -1,0 +1,1903 @@
+<pmc-articleset>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4">
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">Oncotarget</journal-id>
+        <journal-id journal-id-type="iso-abbrev">Oncotarget</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">1558</journal-id>
+        <journal-id journal-id-type="pmc-domain">oncotarget</journal-id>
+        <journal-id journal-id-type="publisher-id">Oncotarget</journal-id>
+        <journal-id journal-id-type="publisher-id">ImpactJ</journal-id>
+        <journal-title-group>
+          <journal-title>Oncotarget</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">1949-2553</issn>
+        <publisher>
+          <publisher-name>Impact Journals, LLC</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC4826231</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC4826231.1</article-id>
+        <article-id pub-id-type="pmcaid">4826231</article-id>
+        <article-id pub-id-type="pmcaiid">4826231</article-id>
+        <article-id pub-id-type="pmid">26683228</article-id>
+        <article-id pub-id-type="doi">10.18632/oncotarget.6614</article-id>
+        <article-id pub-id-type="publisher-id">6614</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Research Paper</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Deep sequencing of uveal melanoma identifies a recurrent mutation in <italic toggle="yes">PLCB4</italic></article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Johansson</surname>
+              <given-names initials="P">Peter</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Aoude</surname>
+              <given-names initials="LG">Lauren G.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Wadt</surname>
+              <given-names initials="K">Karin</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">
+              <sup>2</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Glasson</surname>
+              <given-names initials="WJ">William J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">
+              <sup>3</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Warrier</surname>
+              <given-names initials="SK">Sunil K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A3">
+              <sup>3</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hewitt</surname>
+              <given-names initials="AW">Alex W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A4">
+              <sup>4</sup>
+            </xref>
+            <xref ref-type="aff" rid="A5">
+              <sup>5</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Kiilgaard</surname>
+              <given-names initials="JF">Jens Folke</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">
+              <sup>6</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Heegaard</surname>
+              <given-names initials="S">Steffen</given-names>
+            </name>
+            <xref ref-type="aff" rid="A6">
+              <sup>6</sup>
+            </xref>
+            <xref ref-type="aff" rid="A7">
+              <sup>7</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Isaacs</surname>
+              <given-names initials="T">Tim</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">
+              <sup>5</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Franchina</surname>
+              <given-names initials="M">Maria</given-names>
+            </name>
+            <xref ref-type="aff" rid="A5">
+              <sup>5</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Ingvar</surname>
+              <given-names initials="C">Christian</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">
+              <sup>8</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Vermeulen</surname>
+              <given-names initials="T">Tersia</given-names>
+            </name>
+            <xref ref-type="aff" rid="A9">
+              <sup>9</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Whitehead</surname>
+              <given-names initials="KJ">Kevin J.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A10">
+              <sup>10</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Schmidt</surname>
+              <given-names initials="CW">Christopher W.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Palmer</surname>
+              <given-names initials="JM">Jane M.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Symmons</surname>
+              <given-names initials="J">Judith</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Gerdes</surname>
+              <given-names initials="AM">Anne-Marie</given-names>
+            </name>
+            <xref ref-type="aff" rid="A2">
+              <sup>2</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Jönsson</surname>
+              <given-names initials="G">Göran</given-names>
+            </name>
+            <xref ref-type="aff" rid="A8">
+              <sup>8</sup>
+            </xref>
+          </contrib>
+          <contrib contrib-type="author">
+            <name name-style="western">
+              <surname>Hayward</surname>
+              <given-names initials="NK">Nicholas K.</given-names>
+            </name>
+            <xref ref-type="aff" rid="A1">
+              <sup>1</sup>
+            </xref>
+          </contrib>
+        </contrib-group>
+        <aff id="A1"><sup>1</sup> QIMR Berghofer Medical Research Institute, Brisbane, QLD, Australia</aff>
+        <aff id="A2"><sup>2</sup> Department of Clinical Genetics, Rigshospitalet, Copenhagen, Denmark</aff>
+        <aff id="A3"><sup>3</sup> The Terrace Eye Centre, Brisbane, QLD, Australia</aff>
+        <aff id="A4"><sup>4</sup> Menzies Institute for Medical Research, University of Tasmania, Hobart, TAS, Australia</aff>
+        <aff id="A5"><sup>5</sup> Lions Eye Institute, University of Western Australia, Perth, WA, Australia</aff>
+        <aff id="A6"><sup>6</sup> Department of Ophthalmology, Rigshospitalet-Glostrup Hospital, University of Copenhagen, Copenhagen, Denmark</aff>
+        <aff id="A7"><sup>7</sup> Department of Pathology, Rigshospitalet, University of Copenhagen, Copenhagen, Denmark</aff>
+        <aff id="A8"><sup>8</sup> Department of Clinical Sciences, Lund University, Lund, Sweden</aff>
+        <aff id="A9"><sup>9</sup> The Royal Perth Hospital, Perth, WA, Australia</aff>
+        <aff id="A10"><sup>10</sup> Sullivan Nicolaides Pathology, Brisbane, QLD, Australia</aff>
+        <author-notes>
+          <corresp id="cor1">
+            <bold>
+              <italic toggle="yes">Correspondence to:</italic>
+            </bold>
+            <italic toggle="yes">Peter Johansson,</italic>
+            <email>Peter.Johansson@qimrberghofer.edu.au</email>
+          </corresp>
+        </author-notes>
+        <pub-date pub-type="collection">
+          <day>26</day>
+          <month>1</month>
+          <year>2016</year>
+        </pub-date>
+        <pub-date pub-type="epub">
+          <day>14</day>
+          <month>12</month>
+          <year>2015</year>
+        </pub-date>
+        <volume>7</volume>
+        <issue>4</issue>
+        <issue-id pub-id-type="pmc-issue-id">267932</issue-id>
+        <fpage>4624</fpage>
+        <lpage>4631</lpage>
+        <history>
+          <date date-type="received">
+            <day>14</day>
+            <month>9</month>
+            <year>2015</year>
+          </date>
+          <date date-type="accepted">
+            <day>26</day>
+            <month>11</month>
+            <year>2015</year>
+          </date>
+        </history>
+        <pub-history>
+          <event event-type="pmc-release">
+            <date>
+              <day>26</day>
+              <month>01</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-live">
+            <date>
+              <day>09</day>
+              <month>05</month>
+              <year>2016</year>
+            </date>
+          </event>
+          <event event-type="pmc-last-change">
+            <date iso-8601-date="2016-05-10 00:07:18.307">
+              <day>10</day>
+              <month>05</month>
+              <year>2016</year>
+            </date>
+          </event>
+        </pub-history>
+        <permissions>
+          <copyright-statement>Copyright: © 2016 Johansson et al.</copyright-statement>
+          <copyright-year>2016</copyright-year>
+          <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.5/">
+            <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+          </license>
+        </permissions>
+        <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="oncotarget-07-4624.pdf"/>
+        <abstract>
+          <p>Next generation sequencing of uveal melanoma (UM) samples has identified a number of recurrent oncogenic or loss-of-function mutations in key driver genes including: <italic toggle="yes">GNAQ</italic>, <italic toggle="yes">GNA11</italic>, <italic toggle="yes">EIF1AX</italic>, <italic toggle="yes">SF3B1</italic> and <italic toggle="yes">BAP1</italic>. To search for additional driver mutations in this tumor type we carried out whole-genome or whole-exome sequencing of 28 tumors or primary cell lines. These samples have a low mutation burden, with a mean of 10.6 protein changing mutations per sample (range 0 to 53). As expected for these sun-shielded melanomas the mutation spectrum was not consistent with an ultraviolet radiation signature, instead, a BRCA mutation signature predominated. In addition to mutations in the known UM driver genes, we found a recurrent mutation in <italic toggle="yes">PLCB4</italic> (c.G1888T, p.D630Y, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_000933">NM_000933</ext-link>), which was validated using Sanger sequencing. The identical mutation was also found in published UM sequence data (1 of 56 tumors), supporting its role as a novel driver mutation in UM. PLCB4 p.D630Y mutations are mutually exclusive with mutations in <italic toggle="yes">GNA11</italic> and <italic toggle="yes">GNAQ</italic>, consistent with PLCB4 being the canonical downstream target of the former gene products. Taken together these data suggest that the <italic toggle="yes">PLCB4</italic> hotspot mutation is similarly a gain-of-function mutation leading to activation of the same signaling pathway, promoting UM tumorigenesis.</p>
+        </abstract>
+        <kwd-group>
+          <kwd>uveal melanoma</kwd>
+          <kwd>recurrent mutation</kwd>
+          <kwd>PLCB4</kwd>
+          <kwd>copy number variation</kwd>
+          <kwd>structural variants</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec id="s1">
+        <title>INTRODUCTION</title>
+        <p>Uveal melanoma (UM) is the most common primary intraocular malignancy in adults with an incidence of 5.6 cases per million per year between 1973 and 2008 reported in the United States [<xref rid="R1" ref-type="bibr">1</xref>]. The number of newly reported cases of UM over this time frame remained at a relatively steady rate, suggesting that the influence of ultraviolet radiation on UM is considerably smaller than the association observed with cutaneous melanoma (CMM).</p>
+        <p>In UM a recurrent somatic mutation occurs frequently in <italic toggle="yes">GNAQ</italic>, encoding an alpha subunit of heterotrimeric G proteins, located at chromosome band 9q21 [<xref rid="R2" ref-type="bibr">2</xref>]. <italic toggle="yes">GNA11</italic>, a paralog of <italic toggle="yes">GNAQ</italic> located in chromosome band 19p13.3, is also recurrently mutated at the same codon [<xref rid="R3" ref-type="bibr">3</xref>]. Hotspot GNAQ p.Q209 mutations are found in 45% of primary UM and 22% of metastases, while GNA11 p.Q209 mutations are found in 32% of primary tumors and 57% of UM metastases. A second mutation hotspot has also been identified at codon p.R183 in both genes. Overall, 83% of UM acquire mutations in either <italic toggle="yes">GNAQ</italic> or <italic toggle="yes">GNA11</italic>. Unlike some other somatic mutations in UM these are not associated with prognosis.</p>
+        <p>There are also commonly occurring loss-of-function mutations in the tumor suppressor gene <italic toggle="yes">BAP1</italic> (BRCA1 associated protein-1) located on chromosome 3 [<xref rid="R4" ref-type="bibr">4</xref>]. These mutations are associated with worse prognosis. Approximately 40% of UM harbor inactivating somatic mutations in <italic toggle="yes">BAP1</italic>, which occur along the length of the gene and generally result in protein truncations. Metastasizing tumors are also associated with monosomy 3, suggesting loss of both copies of <italic toggle="yes">BAP1</italic> is necessary [<xref rid="R5" ref-type="bibr">5</xref>]. There are also commonly occurring gene expression profiles whereby metastatic tumors present with clusters of up-regulated genes on chromosome 8q, and down-regulated genes on chromosomes 3 and 6q [<xref rid="R6" ref-type="bibr">6</xref>, <xref rid="R7" ref-type="bibr">7</xref>].</p>
+        <p>There are two further frequently mutated genes in UM. Recurrent mutations in <italic toggle="yes">SF3B1</italic> occur at codon 625 in approximately 18% of tumors and are associated with better prognosis [<xref rid="R8" ref-type="bibr">8</xref>], as are mutations in <italic toggle="yes">EIF1AX</italic> [<xref rid="R9" ref-type="bibr">9</xref>].</p>
+      </sec>
+      <sec id="s2">
+        <title>RESULTS AND DISCUSSION</title>
+        <sec id="s2_1">
+          <title>Protein altering single nucleotide variants and small insertion/deletions</title>
+          <p>We performed WGS or WES on 28 untreated UM samples and identified a total of 297 non-synonymous mutations (mean 10.6, range 0 to 53, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 1</xref>), including both single nucleotide variants (SNVs) and indels (<xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref>).</p>
+          <p>We first assessed mutations in known UM drivers and detected 11 mutations in <italic toggle="yes">BAP1</italic> (7 frameshifting indels, 2 splice mutations, 1 nonsense mutation and 1 missense mutation), 14 mutations occurred at GNA11 p.Q209P, 7 mutations occurred at GNAQ p.Q209P and a single mutation at GNAQ p.G48L. As expected the mutations in GNA11 and GNAQ were mutually exclusive. We detected 4 mutations occurring in EIF1AX (p.P2L, p.G6V, p.G8R and a splice mutation) which were found to be mutually exclusive with <italic toggle="yes">BAP1</italic> mutations. We also detected 3 mutations in SFB31: p.R625C, p.R625H and p.K666T (Table <xref ref-type="table" rid="T1">1</xref>, <xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref>).</p>
+          <table-wrap id="T1" orientation="portrait" position="float">
+            <label>Table 1</label>
+            <caption>
+              <title>Driver mutations in UM</title>
+            </caption>
+            <table frame="box" rules="all">
+              <thead>
+                <tr>
+                  <th align="center" valign="middle" rowspan="1" colspan="1">Tumor ID</th>
+                  <th align="center" valign="middle" rowspan="1" colspan="1">BAP1</th>
+                  <th align="center" valign="middle" rowspan="1" colspan="1">EIF1AX</th>
+                  <th align="center" valign="middle" rowspan="1" colspan="1">GNA11</th>
+                  <th align="center" valign="middle" rowspan="1" colspan="1">GNAQ</th>
+                  <th align="center" valign="middle" rowspan="1" colspan="1">PLCB4</th>
+                  <th align="center" valign="middle" rowspan="1" colspan="1">SF3B1</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">00028-001-CL</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.D73Vfs*4</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.R625C</td>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">00038-001-CL</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">00061-001-CL</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.R699Qfs*6</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">00085-001-CL</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.H224Qfs*14</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">00099-001-CL</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">141378RG-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.R625H</td>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">258</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.F170Lfs*13</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.D630Y</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.K666T</td>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">531</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.G8R</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">533</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.G579Efs*63</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">534</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">535</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">splice</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209P</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">537</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">538</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.G6V</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">539</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">550</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.V346Sfs*51</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209P</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">552</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.G41_54del</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.G48L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">553</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">554</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">556</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">Splice</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209P</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">557</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.P2L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209P</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">C0622943-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">ETB-0002-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">Splice</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209P</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">J2217960PR-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209P</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">K0111890AC-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209P</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">MM1488-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">MM1551-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q684X</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.D630Y</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">MM1563-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" valign="middle" rowspan="1" colspan="1">MM639-T</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.G128R</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1">p.Q209L</td>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+          <p>To identify novel UM driver genes we searched for additional recurrent mutations. <italic toggle="yes">PLCB4</italic>, phospholipase C, beta 4, was the only other gene that had a recurrent mutation (c.G1888T, p.D630Y, chr20:9389753, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_000933">NM_000933</ext-link>), which occurred in 2 of 28 samples. This mutation is predicted to be functionally deleterious by SIFT (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://string-db.org/">http://string-db.org/</ext-link> and probably damaging by PolyPhen2. It is also at a highly conserved site across species (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 1</xref>) with a GERP++ score of 5.69. This mutation is located in the Y-domain of the highly conserved catalytic core of PLCB4, which plays a vital role in the intracellular transduction of extracellular signals in the retina. Notably, this protein is a downstream target of GNAQ/GNA11 and is activated by direct interaction with GNAQ [<xref rid="R10" ref-type="bibr">10</xref>]. A STRING interaction network (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://string-db.org/">http://string-db.org/</ext-link>) shows direct binding of PLCB4 to GNAQ and GNA11 (<xref ref-type="supplementary-material" rid="SD1">Supplementary Figure 2</xref>). The PLCB4 interactome also shows binding of PLCB3 to GNAQ and GNA11. Interestingly, in addition to the hotspot PLCB4 mutation, 1 of 28 UM samples had a novel mutation in <italic toggle="yes">PLCB3</italic>, phospholipase C beta 3 (c.G2694C, p.K898N, chr11:64032834, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_001184883">NM_001184883</ext-link>). The location of this mutation is within the CTD linker which plays a significant role in GNAQ activation [<xref rid="R10" ref-type="bibr">10</xref>]. The two samples we identified with PLCB4 mutations did not have mutations in either GNAQ or GNA11. A search of mutations in other UM WGS/WES data sets [<xref rid="R8" ref-type="bibr">8</xref>, <xref rid="R9" ref-type="bibr">9</xref>, <xref rid="R11" ref-type="bibr">11</xref>, <xref rid="R12" ref-type="bibr">12</xref>] identified the same PLCB4 mutation in 1 of 56 samples, which also occurred mutually exclusive to GNAQ and GNA11 mutations. Taken together these data suggest that the PLCB4 hotspot mutation is similarly a gain-of-function mutation leading to activation of the same signaling pathway. Of note, <italic toggle="yes">PLCB4</italic> is highly mutated (21% to 28%) in CMM [<xref rid="R11" ref-type="bibr">11</xref>, <xref rid="R13" ref-type="bibr">13</xref>-<xref rid="R15" ref-type="bibr">15</xref>] but in contrast to UM, these mutations occur along the length of the gene, suggestive of them being loss-of-function. Consistent with this notion, none of the 159 reported non-synonymous <italic toggle="yes">PLCB4</italic> mutations in CMM occur at the recurrent hotspot we observe in UM. While, speculative, this suggests context specific roles where <italic toggle="yes">PLCB4</italic> is an oncogene in UM and a tumor suppressor in CMM.</p>
+          <p>Other than <italic toggle="yes">PLCB4</italic> and the previously characterized UM driver genes, only 4 additional genes were mutated in more than one sample (<xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref>). Two missense mutations were found in each of <italic toggle="yes">MUC3A, TCHH</italic>, <italic toggle="yes">TTN</italic> and <italic toggle="yes">LLGL1</italic>. Only the latter has previously been associated with cancer, being a tumor suppressor in glioblastoma and oesophageal squamous cell carcinoma [<xref rid="R16" ref-type="bibr">16</xref>, <xref rid="R17" ref-type="bibr">17</xref>], aberrantly spliced in hepatocellular carcinoma [<xref rid="R18" ref-type="bibr">18</xref>] and with reduced expression contributing to disease progression in CMM [<xref rid="R19" ref-type="bibr">19</xref>]. This makes it a plausible candidate driver gene for UM but further studies are required to determine its potential contribution to the development of this cancer type.</p>
+        </sec>
+        <sec id="s2_2">
+          <title>Genomic landscape</title>
+        </sec>
+        <sec id="s2_3">
+          <title>Mutation burden</title>
+          <p>The 14 samples on which we performed WGS allowed a more global assessment of the genomic landscape of UM. Firstly, to assess the mutation burden we calculated the number of mutations per megabase (Mb). The mean mutation rate across the UM genomes was 0.50/Mb (range 0.22-0.66/Mb) and the mutation load was similar in protein coding regions (mean 0.53, range 0.06-2.52/Mb, <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 1</xref>).</p>
+        </sec>
+        <sec id="s2_4">
+          <title>Mutation signatures</title>
+          <p>To explore the underlying mutational processes in UM, we compared the mutational spectra with the signatures previously identified by Alexandrov <italic toggle="yes">et al.</italic> [<xref rid="R20" ref-type="bibr">20</xref>]. As expected, most samples showed signatures 1 and 5, which occur ubiquitously in all cancer types (Figure <xref ref-type="fig" rid="F1">1</xref>). We also noticed significant contributions of signatures 12 or 16 in almost every sample. The majority (79%) of samples also had signature 3, which is associated with defects in DNA double-strand break-repair (the ‘BRCA’ signature) but there is no significant association between BAP1 mutation and this signature in the samples analyzed here. Notably, no sample showed signature 7, which is frequently observed in CMM and associated with ultraviolet light exposure.</p>
+          <fig id="F1" orientation="portrait" position="float">
+            <label>Figure 1</label>
+            <caption>
+              <title>Genomic landscape of UM</title>
+              <p><bold>A.</bold> Each color represents a known mutation signature as defined by Alexandrov <italic toggle="yes">et al.</italic> [<xref rid="R20" ref-type="bibr">20</xref>]. <bold>B.</bold> Proportion of base changes observed in each sample. <bold>C.</bold> Summary of chromosomal aberrations.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="oncotarget-07-4624-g001.jpg"/>
+          </fig>
+        </sec>
+        <sec id="s2_5">
+          <title>Copy number aberrations</title>
+          <p>Chromosomal segments showing aberrant copy number variation (CNV) or loss of heterozygosity (LOH) are shown in Figure <xref ref-type="fig" rid="F1">1</xref>. The most common event was monosomy 3 or copy neutral LOH of the entire chromosome 3, which was seen in 8 of 14 samples (57%). Notably, all samples with <italic toggle="yes">BAP1</italic> mutation (n=6) were hemizygous for chromosome 3. Other frequent aberrations included 8q gain (n=6), 8p loss (n=3), 16q loss (n=2), and X loss (n=3). These common CNVs were only observed in samples with monosomy 3 (n=7) or copy neutral chromosome 3 LOH (n=1), whereas samples with diploid chromosome 3 tended to have fewer large chromosomal aberrations. The chromosomal profile of sample 554 looked quite different compared to the others and had gained copies of almost every chromosome; specifically triploid chromosomes 4, 5, 6, 11, 12, 13, 17q, and 21, and tetraploid chromosomes 7, 8, 18, 20, and X.</p>
+        </sec>
+        <sec id="s2_6">
+          <title>Chromosome 8q duplication is a late event</title>
+          <p>We observed six tumors with gained chromosome 8q. To assess whether this aberration occurred early or late in the tumor development, we examined the variant allele frequency (VAF) for the somatic mutations on chromosome 8q. If the duplication is an early event, somatic mutations are only observed in one of the copies, whereas if the duplication occurs later, half the mutations are duplicated and the VAF distribution is bimodal. Using this observation we examined the six samples with gained chromosome 8q, and as seen in Figure <xref ref-type="fig" rid="F2">2</xref> the VAF distribution in these samples was distinctly bimodal. On average 93% (range 87-97%) of the mutations were estimated to occur before the duplication showing that gained chromosome 8q is a late event.</p>
+          <fig id="F2" orientation="portrait" position="float">
+            <label>Figure 2</label>
+            <caption>
+              <title>Distribution of somatic VAF on chromosome 8q in samples with gained copies of chromosome 8q</title>
+              <p>The fraction of mutations, ρ, occurring prior chromosomal gain was estimated using a mix-model (see Methods). The curve was generated using a Bayesian smoother in which the likelihood for the data was calculated for each mutation and the sum of these likelihoods was used as the estimate of the VAF distribution.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="oncotarget-07-4624-g002.jpg"/>
+          </fig>
+        </sec>
+        <sec id="s2_7">
+          <title>Structural variants</title>
+          <p>We detected a total of 297 SVs in the 14 samples subjected to whole-genome sequencing (mean 273, range 9 to 42, <xref ref-type="supplementary-material" rid="SD1">Supplementary Tables 3</xref> and <xref ref-type="supplementary-material" rid="SD3">4</xref>). These consisted of large deletions, gene fusions, regions of tandem duplication and truncated genes. Of these, there were 7 genes that were affected more than once (<italic toggle="yes">CDH13</italic>, <italic toggle="yes">FAM135B</italic>, <italic toggle="yes">GFRAL</italic>, <italic toggle="yes">LRRC16A</italic>, <italic toggle="yes">MOK</italic>, <italic toggle="yes">SEMA3E</italic> and <italic toggle="yes">VPS13B</italic>). We observed only two in-frame fusion events. Sample 553 has a fusion between <italic toggle="yes">GSPT1</italic> and <italic toggle="yes">HSD17B3</italic> and 550 has a fusion between <italic toggle="yes">FAM135B</italic> and <italic toggle="yes">PDSS2</italic> (Figure <xref ref-type="fig" rid="F3">3</xref>). The latter occurs between chromosomes 6 and 8 which are two of the most frequently aberrant chromosomes in UM. In sample 539 we observed an intronic deletion of unknown consequence encompassing 154bp of <italic toggle="yes">BAP1</italic>. Interestingly, 539 has copy-neutral LOH of chromosome 3.</p>
+          <fig id="F3" orientation="portrait" position="float">
+            <label>Figure 3</label>
+            <caption>
+              <title>Summary of large genomic variations in two typical samples</title>
+              <p>Structural variants are illustrated by an edge between its two breakpoints, where the color describes the type of variant including interchromosomal (purple), deletion (blue), translocation/tandem repeat (red), and inversion (green). The middle layer illustrates allelic imbalance and LOH; the width of the segments describes how much the minor allele frequency of the segment deviate from normal (0.5). The outer layer illustrates chromosomal loss (red) and gain (blue).</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="oncotarget-07-4624-g003.jpg"/>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="s3">
+        <title>CONCLUSION</title>
+        <p>Next generation sequencing of 28 UM samples shows that overall these tumors have a low SNV and SV mutation burden. The majority of tumors presented with a BRCA mutation signature, and as expected these sun-shielded melanomas had no ultraviolet radiation signature. Analysis of SNVs identified a novel recurrent mutation in PLCB4 (p.D630Y). The identical mutation is also seen in 1 of 56 UM tumors with published sequence data. PLCB4 is the canonical downstream target of GNAQ/GNA11 and is activated by direct interaction with GNAQ. This novel mutation is a likely driver in UM and occurs mutually exclusively with <italic toggle="yes">GNAQ/GNA11</italic> mutations. Taken together these data suggest that the <italic toggle="yes">PLCB4</italic> hotspot mutation is a gain-of-function mutation leading to activation of the same signaling pathway. Functional studies are warranted to further characterize the role of <italic toggle="yes">PLCB4</italic> in UM.</p>
+      </sec>
+      <sec sec-type="methods" id="s4">
+        <title>MATERIALS AND METHODS</title>
+        <sec id="s4_1">
+          <title>Ethics</title>
+          <p>Ethics approvals were obtained from the Human Research Ethics Committees of the QIMR Berghofer Medical Research Institute, the University of Western Australia, the Capital Region of Denmark, and Lund University. Written informed consent was obtained from each participant in this study.</p>
+        </sec>
+        <sec id="s4_2">
+          <title>Next generation sequencing</title>
+          <p>Whole-genome sequencing (WGS) was performed on 14 primary UM tumors and whole-exome sequencing (WES) was performed on 9 UM tumors and 5 cell lines established from primary UM tumors. <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 5</xref> details the histology of the samples, which were sequenced along with matching germline samples extracted from blood or saliva.</p>
+          <p>Sequence reads were aligned against the human reference genome (build 19) using BWA [<xref rid="R21" ref-type="bibr">21</xref>], duplicate reads were marked with Picard, and reads were realigned against known insertion/deletions (indels) and base qualities were recalibrated using GATK [<xref rid="R22" ref-type="bibr">22</xref>]. Somatic mutations and short indels were identified using Samtools/bcftools [<xref rid="R23" ref-type="bibr">23</xref>] and further annotated using ANNOVAR [<xref rid="R24" ref-type="bibr">24</xref>]. A stringent set of filtering criteria was applied to the WGS/WES output to reduce the false positive rate. Firstly the germline samples were filtered by eliminating all population variants reported in dbSNP (unless also reported in COSMIC). The germline variants were further filtered so only variants with no reads for the variant allele and ≥ 8 reads for the reference allele were included. The variants in the tumor were filtered so that only those with Phred-scaled genotype likelihood (PL) for wildtype ≥ 60 and ≥ 4 variant reads were included. Furthermore, any variants with quality warnings regarding regions of duplication, tri-allelic variants, and variants located at the tail end of reads were eliminated. Lastly the constrained log likelihood ratio (CLR) score was required to be ≥ 40; the higher the score the more likely that a variant is truly somatic. Non-frameshift variants that passed this set of filtering criteria were hand-curated, whereby variants in regions of trinucleotide expansions or reductions were removed from the dataset as they are likely due to poor mapping.</p>
+          <p>Structural variants (SV) were identified using Janda v0.8.1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://janda.sourceforge.net/">http://janda.sourceforge.net/</ext-link>). Janda uses both discordant read pairs and clipped reads to detect breakpoints. These were then filtered using the following criteria: SVs were required to be supported by at least three junction reads; the junction reads aligned against the junction with at most two mismatches on average. Breakpoints with extremely high coverage (&gt;1000x) in either sample were discarded as well as breakpoints with low coverage (&lt;2x) in the normal sample. To avoid artifacts due to segmental duplication and erroneous mapping, we removed breakpoints that overlapped with the Genomic Super Dups Database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humanparalogy.gs.washington.edu/SDD">http://humanparalogy.gs.washington.edu/SDD</ext-link>), or if the 20bp regions around the two breakpoints were too similar (≥90%), as well as breakpoints that were detected in multiple samples. Lastly, if the junction contained an insertion greater than 3bp inserted between the breakpoints, the variant was removed.</p>
+          <p>Copy number aberrations and/or allelic imbalances were called using binocular v0.2 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://binocular.sourceforge.net/">http://binocular .sourceforge.net</ext-link>). Binocular uses read coverage and variant allele frequencies to build likelihood that is used to segment chromosomes using a variant of the Circular Binary Segmentation algorithm. A Phred-scaled genotype likelihood (PL) cutoff ≥ 90 was used to define heterozygous germline loci. Segments were identified requiring a log likelihood ratio &gt; 90, and that either ratio between copy numbers was &gt; 1.1, or that difference in minor allele frequency was &gt; 0.05 between the two segments. A p-value threshold of 0.001 was used to define segments with allelic imbalance. Copy numbers were normalized by multiplying them with a factor such that after normalization the 20<sup>th</sup> percentile (weighted with respect to segment size) across segments with allelic balance was 2.</p>
+          <p>To infer the fraction of mutations on chromosome 8q that occurred before the arm was duplicated, we built a mixed model allowing for different fractions, copy numbers, <italic toggle="yes">cn</italic>, and tumor content, <italic toggle="yes">tc</italic>. For the fraction of mutations occurring before the duplication, number of variant reads was modeled as a binomial with mean <italic toggle="yes">tc/cn</italic>. For mutations occurring prior to the duplication half are not duplicated and follow the same binomial distribution as above, and for the remaining half the number of variant reads follows a binomial distribution with mean <italic toggle="yes">tc*(1 – 1/cn)</italic>. Using this model and maximum likelihood we estimated fractions of mutations occurring before the chromosomal duplication.</p>
+        </sec>
+        <sec id="s4_3">
+          <title>Analysis of mutational signatures</title>
+          <p>To estimate mutational signatures, we used a modified version of the methodology developed by Alexandrov and colleagues [<xref rid="R20" ref-type="bibr">20</xref>]. Given that this method optimally requires a larger number of samples than we have sequenced here, we modified it to use the 30 signatures that have been previously inferred from &gt; 12,000 samples. We approximated the number of mutations of each signature type as <italic toggle="yes">M</italic> ≈ P × E, where P is the probability distribution for each signature and E describes the sample's exposure of each signature. We used the signatures available from COSMIC, and found the E that minimized the mean squared error with the condition that all elements are non-negative. To estimate the confidence interval of the estimated exposure the procedure above was repeated with added noise. Rather than using the number of observed mutations, Mij, we used a Poisson distributed random number with mean M<sub>ij</sub>. This was repeated 1,000 times, and the range from the 5<sup>th</sup> to 95<sup>th</sup> percentile defined the confidence interval.</p>
+        </sec>
+        <sec id="s4_4">
+          <title>Sanger sequencing</title>
+          <p>Sanger sequencing was used to confirm <italic toggle="yes">BAP1</italic>, <italic toggle="yes">SF3B1</italic> and <italic toggle="yes">EIF1AX</italic> variants found by WGS/WES. Primers are listed in <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 6</xref>. Sequencing reactions were performed using Big Dye V3.1 and run on an ABI 3730xl (Applied Biosystems). Sequencing results were analyzed using the chromatogram viewer, Chromas (version 1.45; Technelysium Pty Ltd).</p>
+        </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="s5">
+        <title>SUPPLEMENTARY MATERIAL FIGURES AND TABLES</title>
+        <supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait">
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="pdf" xlink:href="oncotarget-07-4624-s001.pdf" orientation="portrait" id="d36e1109" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD2" position="float" orientation="portrait">
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="xlsx" xlink:href="oncotarget-07-4624-s002.xlsx" orientation="portrait" id="d36e1111" position="anchor"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="SD3" position="float" orientation="portrait">
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="xlsx" xlink:href="oncotarget-07-4624-s003.xlsx" orientation="portrait" id="d36e1113" position="anchor"/>
+        </supplementary-material>
+      </sec>
+    </body>
+    <back>
+      <ack>
+        <p>We are indebted to the uveal melanoma patients for their participation in this study as well as the medical clinic and pathology laboratory staff for their ongoing support of this work.</p>
+      </ack>
+      <fn-group>
+        <fn fn-type="conflict">
+          <p>
+            <bold>CONFLICTS OF INTEREST</bold>
+          </p>
+          <p>The authors declare no conflict of interest.</p>
+        </fn>
+        <fn fn-type="supported-by">
+          <p>
+            <bold>GRANT SUPPORT</bold>
+          </p>
+          <p>The work was funded by the National Health and Medical Research Council of Australia (NHMRC). L.G.A is supported by the Rio Tinto Ride to Conquer Cancer. N.K.H. and A.W.H are supported by fellowships from the NHMRC.</p>
+        </fn>
+      </fn-group>
+      <notes>
+        <sec>
+          <title>NOTE ADDED IN PROOF</title>
+          <p>While this manuscript was under review, the TCGA UM data were released (11/14/2015), which identified 2/80 samples with mutations in codon p.D630 of PLCB4. Sample TCGA-VD-A8KD carries two mutations at adjacent bases in the same codon, c.G1888T and c.A1889T, which if they are biallelic result in amino acid changes p.D630Y (the same mutation we describe here) and p.D630V, respectively, or if they occur on the same allele translate to p.D630F. Sample TCGA-YZ-A985 carries a c.G1888A mutation resulting in amino acid change p.D630N.</p>
+        </sec>
+      </notes>
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="R1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Singh</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Turell</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Topham</surname>
+                <given-names>AK</given-names>
+              </name>
+            </person-group>
+            <article-title>Uveal melanoma: trends in incidence, treatment, and survival</article-title>
+            <source>Ophthalmology</source>
+            <year>2011</year>
+            <volume>118</volume>
+            <fpage>1881</fpage>
+            <lpage>1885</lpage>
+            <pub-id pub-id-type="pmid">21704381</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ophtha.2011.01.040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Van Raamsdonk</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bezrookove</surname>
+                <given-names>V</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Green</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bauer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gaugler</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>O'Brien</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Simpson</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Barsh</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bastian</surname>
+                <given-names>BC</given-names>
+              </name>
+            </person-group>
+            <article-title>Frequent somatic mutations of GNAQ in uveal melanoma and blue naevi</article-title>
+            <source>Nature</source>
+            <year>2009</year>
+            <volume>457</volume>
+            <fpage>599</fpage>
+            <lpage>602</lpage>
+            <pub-id pub-id-type="pmid">19078957</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07586</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2696133</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Van Raamsdonk</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Griewank</surname>
+                <given-names>KG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Crosby</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Garrido</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Vemula</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wiesner</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Obenauf</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wackernagel</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Green</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bouvier</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sozen</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Baimukanova</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roy</surname>
+                <given-names>R</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Mutations in GNA11 in uveal melanoma</article-title>
+            <source>N Engl J Med</source>
+            <year>2010</year>
+            <volume>363</volume>
+            <fpage>2191</fpage>
+            <lpage>2199</lpage>
+            <pub-id pub-id-type="pmid">21083380</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1000584</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3107972</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Harbour</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Onken</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roberson</surname>
+                <given-names>ED</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Duan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cao</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Worley</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Council</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Matatall</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Helms</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bowcock</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Frequent mutation of BAP1 in metastasizing uveal melanomas</article-title>
+            <source>Science</source>
+            <year>2010</year>
+            <volume>330</volume>
+            <fpage>1410</fpage>
+            <lpage>1413</lpage>
+            <pub-id pub-id-type="pmid">21051595</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1194472</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3087380</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Worley</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Onken</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Person</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Robirds</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Branson</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Char</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Perry</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Harbour</surname>
+                <given-names>JW</given-names>
+              </name>
+            </person-group>
+            <article-title>Transcriptomic versus chromosomal prognostic markers and clinical outcome in uveal melanoma</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2007</year>
+            <volume>13</volume>
+            <fpage>1466</fpage>
+            <lpage>1471</lpage>
+            <pub-id pub-id-type="pmid">17332290</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-06-2401</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Woodman</surname>
+                <given-names>SE</given-names>
+              </name>
+            </person-group>
+            <article-title>BAP1tism of a Tumor Suppressor</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2012</year>
+            <volume>18</volume>
+            <fpage>323</fpage>
+            <lpage>325</lpage>
+            <pub-id pub-id-type="pmid">22140212</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-11-2870</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Onken</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Worley</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ehlers</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Harbour</surname>
+                <given-names>JW</given-names>
+              </name>
+            </person-group>
+            <article-title>Gene expression profiling in uveal melanoma reveals two molecular classes and predicts metastatic death</article-title>
+            <source>Cancer Res</source>
+            <year>2004</year>
+            <volume>64</volume>
+            <fpage>7205</fpage>
+            <lpage>7209</lpage>
+            <pub-id pub-id-type="pmid">15492234</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-04-1750</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5407684</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Harbour</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roberson</surname>
+                <given-names>ED</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Anbunathan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Onken</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Worley</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bowcock</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Recurrent mutations at codon 625 of the splicing factor SF3B1 in uveal melanoma</article-title>
+            <source>Nat Genet</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>133</fpage>
+            <lpage>135</lpage>
+            <pub-id pub-id-type="pmid">23313955</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2523</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3789378</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Martin</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Masshofer</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Temming</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rahmann</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Metz</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bornfeld</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>van de Nes</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Klein-Hitpass</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hinnebusch</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Horsthemke</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lohmann</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zeschnigk</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Exome sequencing identifies recurrent somatic mutations in EIF1AX and SF3B1 in uveal melanoma with disomy 3</article-title>
+            <source>Nat Genet</source>
+            <year>2013</year>
+            <volume>45</volume>
+            <fpage>933</fpage>
+            <lpage>936</lpage>
+            <pub-id pub-id-type="pmid">23793026</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2674</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4307600</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lyon</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tesmer</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Structural insights into phospholipase C-beta function</article-title>
+            <source>Molecular pharmacology</source>
+            <year>2013</year>
+            <volume>84</volume>
+            <fpage>488</fpage>
+            <lpage>500</lpage>
+            <pub-id pub-id-type="pmid">23880553</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1124/mol.113.087403</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3781385</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Krauthammer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kong</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bacchiocchi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Evans</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pornputtapong</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wu</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>McCusker</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ma</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cheng</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Straub</surname>
+                <given-names>R</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Serin</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bosenberg</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ariyan</surname>
+                <given-names>S</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Exome sequencing identifies recurrent mutations in NF1 and RASopathy genes in sun-exposed melanomas</article-title>
+            <source>Nat Genet</source>
+            <year>2015</year>
+            <volume>47</volume>
+            <fpage>996</fpage>
+            <lpage>1002</lpage>
+            <pub-id pub-id-type="pmid">26214590</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3361</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4916843</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Furney</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Pedersen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gentien</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dumont</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rapinat</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Desjardins</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Turajlic</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Piperno-Neumann</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>de la Grange</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Roman-Roman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stern</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Marais</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>SF3B1 mutations are associated with alternative splicing in uveal melanoma</article-title>
+            <source>Cancer discovery</source>
+            <year>2013</year>
+            <volume>3</volume>
+            <fpage>1122</fpage>
+            <lpage>1129</lpage>
+            <pub-id pub-id-type="pmid">23861464</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-0330</pub-id>
+            <pub-id pub-id-type="pmcid">PMC5321577</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wei</surname>
+                <given-names>X</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Walia</surname>
+                <given-names>V</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lin</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Teer</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Prickett</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gartner</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Davis</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stemke-Hale</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Davies</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gershenwald</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>W</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Robinson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Rosenberg</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Samuels</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Exome sequencing identifies GRIN2A as frequently mutated in melanoma</article-title>
+            <source>Nat Genet</source>
+            <year>2011</year>
+            <volume>43</volume>
+            <fpage>442</fpage>
+            <lpage>446</lpage>
+            <pub-id pub-id-type="pmid">21499247</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.810</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3161250</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Hodis</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Watson</surname>
+                <given-names>IR</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kryukov</surname>
+                <given-names>GV</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Arold</surname>
+                <given-names>ST</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Imielinski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Theurillat</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nickerson</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Auclair</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Place</surname>
+                <given-names>C</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dicara</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ramos</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lawrence</surname>
+                <given-names>MS</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>A landscape of driver mutations in melanoma</article-title>
+            <source>Cell</source>
+            <year>2012</year>
+            <volume>150</volume>
+            <fpage>251</fpage>
+            <lpage>263</lpage>
+            <pub-id pub-id-type="pmid">22817889</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.06.024</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3600117</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <collab>Cancer Genome Atlas N</collab>
+            </person-group>
+            <article-title>Genomic Classification of Cutaneous Melanoma</article-title>
+            <source>Cell</source>
+            <year>2015</year>
+            <volume>161</volume>
+            <fpage>1681</fpage>
+            <lpage>1696</lpage>
+            <pub-id pub-id-type="pmid">26091043</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.05.044</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4580370</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Song</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Peng</surname>
+                <given-names>XL</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ji</surname>
+                <given-names>MY</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ai</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>JX</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Dong</surname>
+                <given-names>WG</given-names>
+              </name>
+            </person-group>
+            <article-title>Hugl-1 induces apoptosis in esophageal carcinoma cells both in vitro and in vivo</article-title>
+            <source>World journal of gastroenterology</source>
+            <year>2013</year>
+            <volume>19</volume>
+            <fpage>4127</fpage>
+            <lpage>4136</lpage>
+            <pub-id pub-id-type="pmid">23864775</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.3748/wjg.v19.i26.4127</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3710414</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Gont</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hanson</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lavictoire</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Daneshmand</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nicholas</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Woulfe</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kassam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Da Silva</surname>
+                <given-names>VF</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Lorimer</surname>
+                <given-names>IA</given-names>
+              </name>
+            </person-group>
+            <article-title>Inhibition of glioblastoma malignancy by Lgl1</article-title>
+            <source>Oncotarget</source>
+            <year>2014</year>
+            <volume>5</volume>
+            <fpage>11541</fpage>
+            <lpage>11551</lpage>
+            <pub-id pub-id-type="doi">10.18632/oncotarget.2580</pub-id>
+            <pub-id pub-id-type="pmid">25426552</pub-id>
+            <pub-id pub-id-type="pmcid">PMC4294391</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Lu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Feng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Man</surname>
+                <given-names>X</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yang</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Tang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Du</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Yuan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Huang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Zhang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Liu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Strand</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Chen</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Aberrant splicing of Hugl-1 is associated with hepatocellular carcinoma progression</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2009</year>
+            <volume>15</volume>
+            <fpage>3287</fpage>
+            <lpage>3296</lpage>
+            <pub-id pub-id-type="pmid">19447873</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-08-2078</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Kuphal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wallner</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Schimanski</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bataille</surname>
+                <given-names>F</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hofer</surname>
+                <given-names>P</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Strand</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Strand</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Bosserhoff</surname>
+                <given-names>AK</given-names>
+              </name>
+            </person-group>
+            <article-title>Expression of Hugl-1 is strongly reduced in malignant melanoma</article-title>
+            <source>Oncogene</source>
+            <year>2006</year>
+            <volume>25</volume>
+            <fpage>103</fpage>
+            <lpage>110</lpage>
+            <pub-id pub-id-type="pmid">16170365</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1209008</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Alexandrov</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Nik-Zainal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wedge</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Campbell</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Stratton</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Deciphering signatures of mutational processes operative in human cancer</article-title>
+            <source>Cell reports</source>
+            <year>2013</year>
+            <volume>3</volume>
+            <fpage>246</fpage>
+            <lpage>259</lpage>
+            <pub-id pub-id-type="pmid">23318258</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2012.12.008</pub-id>
+            <pub-id pub-id-type="pmcid">PMC3588146</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>1754</fpage>
+            <lpage>1760</lpage>
+            <pub-id pub-id-type="pmid">19451168</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2705234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>McKenna</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hanna</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Banks</surname>
+                <given-names>E</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Sivachenko</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Cibulskis</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Kernytsky</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Garimella</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Altshuler</surname>
+                <given-names>D</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Gabriel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Daly</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>DePristo</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+            <source>Genome Res</source>
+            <year>2010</year>
+            <volume>20</volume>
+            <fpage>1297</fpage>
+            <lpage>1303</lpage>
+            <pub-id pub-id-type="pmid">20644199</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.107524.110</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2928508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Handsaker</surname>
+                <given-names>B</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Wysoker</surname>
+                <given-names>A</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Fennell</surname>
+                <given-names>T</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Ruan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Homer</surname>
+                <given-names>N</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Marth</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Abecasis</surname>
+                <given-names>G</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Durbin</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>The Sequence Alignment/Map format and SAMtools</article-title>
+            <source>Bioinformatics</source>
+            <year>2009</year>
+            <volume>25</volume>
+            <fpage>2078</fpage>
+            <lpage>2079</lpage>
+            <pub-id pub-id-type="pmid">19505943</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp352</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2723002</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="R24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+              <name name-style="western">
+                <surname>Wang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Li</surname>
+                <given-names>M</given-names>
+              </name>
+              <name name-style="western">
+                <surname>Hakonarson</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>
+            <source>Nucleic acids research</source>
+            <year>2010</year>
+            <volume>38</volume>
+            <fpage>e164</fpage>
+            <pub-id pub-id-type="pmid">20601685</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkq603</pub-id>
+            <pub-id pub-id-type="pmcid">PMC2938201</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </article>
+</pmc-articleset>
