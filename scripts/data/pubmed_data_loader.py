@@ -215,7 +215,9 @@ class PubmedLoader(BaseLoader):
         # Define separators for text splitting
         separators = [
             "\n", "Results", "Discussion", "Method Summary",
-            "Tissue Source Sites", "Supplementary Material"
+            "Tissue Source Sites", "Supplementary Material", 
+            "Abstract", "Introduction", "Methods", "Procedure",
+            "Materials and Methods", "Methodology", "Conclusion" 
         ]
         text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
             chunk_size=512,
