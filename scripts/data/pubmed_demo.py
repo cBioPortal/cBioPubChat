@@ -15,7 +15,7 @@ from dotenv import load_dotenv, find_dotenv
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.output_parsers import StrOutputParser
 #from langchain_core.prompts import MessagesPlaceholder
-from langchain_core.runnables import RunnableLambda, RunnablePassthrough
+from langchain_core.runnables import RunnablePassthrough
 
 # === LangChain OpenAI API ===
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
