@@ -24,21 +24,30 @@ labeled_criteria_evaluator = load_evaluator(
     EvaluatorType.LABELED_CRITERIA, criteria=correctness_criteria, llm=llm)
 
 def main():
-    tsv_path = os.path.join(script_dir, "dataset.tsv")
-    with open(tsv_path, newline='', encoding='utf-8') as f:
-        reader = csv.reader(f, delimiter='\t')
-        next(reader)  # Skip the header row
+    dataset_tsv_path = os.path.join(script_dir, "dataset.tsv")
+    result_tsv_path = os.path.join(script_dir, "result.tsv")
+    with open(dataset_tsv_path, newline='', encoding='utf-8') as f_in, open(result_tsv_path, 'w', newline='', encoding='utf-8') as f_out:
+        reader = csv.DictReader(f_in, delimiter='\t')
+        fieldnames = ['Question', 'Reference Answer', 'Actual Answer', 'Correct?', 'Score', 'Reasoning']
+        writer = csv.DictWriter(f_out, fieldnames=fieldnames, delimiter='\t')
+        writer.writeheader()
         for row in reader:
-            question, reference_answer = row
+            question = row['Question']
+            reference_answer = row['Reference Answer']
             actual_answer = run_rag(question)
             result = labeled_criteria_evaluator.evaluate_strings(
                 input=question,
                 reference=reference_answer,
                 prediction=actual_answer)
-            result['question'] = question
-            result['reference_answer'] = reference_answer
-            result['actual_answer'] = actual_answer
-            print(result)
+            write_dict = {
+                    'Question': question,
+                    'Reference Answer': reference_answer,
+                    'Actual Answer': actual_answer,
+                    'Correct?': result['value'],
+                    'Score': result['score'],
+                    'Reasoning': result['reasoning'],
+            }
+            writer.writerow(write_dict)
 
 if __name__ == "__main__":
     main()
