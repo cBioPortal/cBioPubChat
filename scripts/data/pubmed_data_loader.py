@@ -338,8 +338,11 @@ for study in study_data:
         else:
             study_dict[pmid].append(study)
 
-# SETUP
+# SETUP VECTORDB
+# Load DB
 vectordb_total = Chroma(persist_directory="data/data_chromadb", embedding_function=embeddings)
+
+# Setup Retriever
 retriever = vectordb_total.as_retriever(k=3)
 
 # Build prompt template
