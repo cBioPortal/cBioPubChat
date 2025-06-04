@@ -84,7 +84,7 @@ def get_pubmed_chain():
     """
     # Create the chain with proper pipe operators
     chain = (
-        {"related_QA": RunnablePassthrough(), "context": retriever, "question": RunnablePassthrough()}
+        {"question": RunnablePassthrough(), "context": retriever}
         | prompt  # Choose a prompt
         | llm_openai  # Choose a LLM
         | StrOutputParser()
@@ -173,10 +173,10 @@ def update_vectordb_with_docs(docs, embeddings, base_persist_directory):
     Chroma
         The updated Chroma vector database instance.
     """
-    # the db created for first part of db
+    # A DB created for first part of DB
     vectordb_total = Chroma(persist_directory=base_persist_directory, embedding_function=embeddings)
 
-    # Iterate through the documents and update the vectordb
+    # Iterate through the documents and update the vector DB
     for i in range(int(len(docs) / 3)):
         start, end = i * 3, (i + 1) * 3
         docs_to_embed = docs[start:end]
@@ -310,10 +310,6 @@ def load_docs(dir, loader):
     return docs
 
 
-# TODO: 20250603 figure out how to use this
-# docs = load_docs('demo/loaded_pmc', PubmedLoader)
-# print(len(docs))
-
 # TODO: 20250603 Both needed?
 load_dotenv()
 _ = load_dotenv(find_dotenv())  # read local .env file
@@ -334,7 +330,6 @@ for data in pmid_data:
     if pmcid:
         pmid = data.get('pmid')
         pmid_dict[pmcid] = pmid
-
 
 for study in study_data:
     pmid = study.get('pmid')
@@ -359,34 +354,14 @@ embeddings = OpenAIEmbeddings(
     model="text-embedding-ada-002"
 )
 
-# TODO: 20250603: Remove?
-# # first part of embeddings
-# vectordb_total = Chroma.from_documents(
-#     documents=docs[:3],
-#     embedding=embeddings,
-#     persist_directory="vectordb/chroma/pubmed/pdf2"
-# )
-# vectordb_total.persist()
-
-
 vectordb_total = Chroma(persist_directory="data/data_chromadb", embedding_function=embeddings)
 
 retriever = vectordb_total.as_retriever(k=3)
 
 # Build prompt template
 ANSWER_PROMPT = """
-You are a professional assistant.
-Answer questions content & metadata, and chat history if needed.
-Below is a set of related Q&A examples that includes both good and bad examples. For each example:
-If it is marked as a 'Good example,' you may refer the conversation. Sometimes user can give important info
-If it is marked as a 'Bad example,' improve the answer to better meet the user's needs.
-Also, ignore the context if it is a reference.
-return the pmc_id, pmid, studyID of all the contexts :
-
-{related_QA}
-
-{context}
-
+Answer question given the content & metadata and chat history if needed.
+Return the pmc_id, pmid, studyID of all the contexts: {context}
 Question: {question}
 """
 
@@ -397,8 +372,8 @@ if __name__ == '__main__':
     # Set up command-line argument parser
     parser = argparse.ArgumentParser(description="PubMed Document Processing and RAG Query System")
     parser.add_argument('--test', '-t', action='store_true', help='Run test query on the system')
-    parser.add_argument('--load', '-l', metavar='DIR', nargs='?', const='demo/loaded_pmc',
-                        help='Load documents from directory (default: demo/loaded_pmc)')
+    parser.add_argument('--load', '-l', metavar='DIR', nargs='?', const='data/loaded_pmc',
+                        help='Load documents from directory (default: data/loaded_pmc)')
 
     args = parser.parse_args()
 
