@@ -8,6 +8,8 @@ ENV PYTHONUNBUFFERED=1
 # Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
+    wget \
+    unzip \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
@@ -15,6 +17,11 @@ WORKDIR /app
 
 # Copy project files
 COPY . .
+
+# Download embeddings
+#RUN wget -O chromadb.zip 'https://zenodo.org/records/15557780/files/cbioportal_chroma_zenodo.zip?download=1'
+#RUN unzip chromadb.zip && \
+#    cp -r cbioportal_chroma_zenodo/vectordb data/vectordb
 
 # Create and activate a virtual environment
 RUN python -m venv /opt/venv
@@ -28,4 +35,6 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 
 # Command to run the Chainlit app
-CMD ["chainlit", "run", "app.py", "--host", "0.0.0.0"]
+COPY docker/init_db.sh /init_db.sh
+RUN chmod +x /init_db.sh
+ENTRYPOINT ["/init_db.sh"]

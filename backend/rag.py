@@ -1,6 +1,3 @@
-import getpass
-import json
-import os
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from typing_extensions import List, TypedDict
@@ -16,7 +13,7 @@ class State(TypedDict):
 
 def run_rag(user_prompt: str):
     def retrieve(state: State):
-        retrieved_docs = vector_store.similarity_search(state["question"])
+        retrieved_docs = vector_store.similarity_search(state["question"], k=10)
         return {"context": retrieved_docs}
 
     def generate(state: State):
@@ -40,7 +37,7 @@ def run_rag(user_prompt: str):
         Answer:
         """
     )
-    persist_directory = "./data/vectordb/chroma/pubmed/paper_and_pdf"
+    persist_directory = "./data/cBioPortal_data_chromadb"
     embedding_function = OpenAIEmbeddings(model="text-embedding-ada-002")
     llm = init_chat_model("gpt-4o-mini", model_provider="openai")
 
@@ -71,9 +68,10 @@ def run_rag(user_prompt: str):
         if study_id and study_id not in seen_ids:
             seen_ids.add(study_id)
             unique_studies.append(item)
+    unique_studies = unique_studies[:3]
 
     result = result["answer"] + "\n\n"
-    result = result + "Citations:\n"
+    result = result + "Relevant Studies:\n"
     for doc in unique_studies:
         result = result + f"* [{doc.get('name')}]({doc.get('url')})\n"
 
