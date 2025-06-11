@@ -1,5 +1,8 @@
 import chainlit as cl
-from backend import rag
+from backend.Agent import Agent
+
+# Instantiate RAG Agent
+rag_agent = Agent(embedding_dir='data/cBioPortal_data_chromadb', embedding_model_name="text-embedding-ada-002", llm_model_name="gpt-4o-mini", llm_model_provider="openai")
 
 @cl.set_starters
 async def set_starters():
@@ -30,7 +33,13 @@ async def set_starters():
 @cl.on_message
 async def on_message(message: cl.Message):
     user_prompt = message.content
-    response = rag.run_rag(user_prompt)
+    response, context = rag_agent.ask(user_prompt, return_context=True)
+    relevant_studies = rag_agent.get_studies_from_context(context)
+
+    # Format the response
+    response = response + "\n\nRelevant Studies:\n"
+    for doc in relevant_studies:
+        response = response + f"* [{doc.get('name')}]({doc.get('url')})\n"
 
     # Send a response back to the user
     await cl.Message(
