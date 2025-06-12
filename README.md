@@ -19,12 +19,14 @@ source scripts/init_env.sh
 
 # Everytime you start your ide/terminal, source the venv to use correct dependencies
 source venv/bin/activate
+
+# Download the embeddings
+./scripts/init_db.sh
 ```
 
 ### Run test script
 To test your environment, export your OpenAI API Key and run the test script.
 ```shell
-export OPENAI_API_KEY=<my-api-key>
 py tests/env.py
 
 # If all is successful, the test script should put a smile on your face!
