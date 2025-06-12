@@ -1,8 +1,21 @@
 import chainlit as cl
 from backend.Agent import Agent
+from typing import Optional
 
 # Instantiate RAG Agent
 rag_agent = Agent(embedding_dir='data/cBioPortal_data_chromadb', embedding_model_name="text-embedding-ada-002", llm_model_name="gpt-4o-mini", llm_model_provider="openai")
+
+@cl.password_auth_callback
+def auth_callback(username: str, password: str) -> Optional[cl.User]:
+    if (username, password) == ("cbio-user", "cbio-password"):
+        return cl.User(
+            identifier="cbio-user", metadata = {
+                "role": "admin",
+                "provider": "credentials"
+            }
+        )
+    else:
+        return None
 
 @cl.set_starters
 async def set_starters():
